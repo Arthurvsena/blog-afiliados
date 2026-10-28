@@ -9,7 +9,7 @@ site:
   autor: "Equipe Tech Barato BR"
   idioma: "pt-BR"
   # Código do Google Search Console (passo 8 do LEIAME.md). Deixe vazio até lá.
-  google_verificacao: ""
+  google_verificacao: "vX3FmMDpCiIKDLU-mSe7npXaX8ytS7MT_Rq8fBK7R3Y"
   # Token do Cloudflare Web Analytics (passo 9 do LEIAME.md). Vazio = sem contador.
   cloudflare_token: ""
 
