@@ -8,30 +8,65 @@
 <link rel="canonical" href="{{ url }}">
 {% block robots %}{% endblock %}
 {% if site.google_verificacao %}<meta name="google-site-verification" content="{{ site.google_verificacao }}">{% endif %}
+<meta name="theme-color" content="#14213D">
 <meta property="og:site_name" content="{{ site.nome }}">
+<meta property="og:locale" content="pt_BR">
 <meta property="og:url" content="{{ url }}">
 <meta property="og:title" content="{{ self.titulo() }}">
 <meta property="og:description" content="{{ self.descricao() }}">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2314213D'/%3E%3Cpath d='M18 5 9 18h6l-2 9 10-14h-6z' fill='%23FFD60A'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,600;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ b }}/static/style.css">
 {% block head %}{% endblock %}
 </head>
 <body>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
 <header class="topo">
-  <div class="wrap">
-    <a class="logo" href="{{ b }}/">⚡ {{ site.nome }}</a>
-    <nav>
-      {% for slug, nome in subnichos.items() %}<a href="{{ b }}/categoria/{{ slug }}/">{{ nome }}</a>{% endfor %}
-    </nav>
+  <div class="topo-linha">
+    <a class="marca" href="{{ b }}/" aria-label="{{ site.nome }}, página inicial">
+      <svg class="marca-simbolo" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#14213D"/><path d="M18 5 9 18h6l-2 9 10-14h-6z" fill="#FFD60A"/></svg>
+      <span>{{ site.nome }}</span>
+    </a>
+    <a class="topo-link" href="{{ b }}/sobre/">Como escolhemos</a>
   </div>
+  <nav class="categorias" aria-label="Categorias">
+    {% for slug, c in cats.items() %}
+    <a href="{{ b }}/categoria/{{ slug }}/" style="--cat:{{ c.cor }}"{% if cat_atual == slug %} aria-current="page"{% endif %}>{{ c.icone | safe }}<span>{{ c.nome }}</span></a>
+    {% endfor %}
+  </nav>
 </header>
-<main class="wrap">
+
+<main id="conteudo">
 {% block conteudo %}{% endblock %}
 </main>
+
 <footer class="rodape">
-  <div class="wrap">
-    <p><strong>Transparência:</strong> participamos do programa de afiliados do Mercado Livre. Se você comprar por um link do site, podemos receber uma comissão, sem custo extra para você. Isso não muda nossas recomendações.</p>
-    <p>© {{ ano }} {{ site.nome }} · <a href="{{ b }}/sobre/">Sobre</a> · <a href="{{ b }}/privacidade/">Privacidade</a></p>
+  <div class="rodape-grade">
+    <div>
+      <a class="marca marca-rodape" href="{{ b }}/">
+        <svg class="marca-simbolo" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#FFD60A"/><path d="M18 5 9 18h6l-2 9 10-14h-6z" fill="#14213D"/></svg>
+        <span>{{ site.nome }}</span>
+      </a>
+      <p class="rodape-texto">Guias de compra de eletrônicos que valem o que custam, com especificações conferidas e prós e contras sem rodeios.</p>
+    </div>
+    <nav aria-label="Categorias no rodapé">
+      <p class="rodape-titulo">Categorias</p>
+      <ul>{% for slug, c in cats.items() %}<li><a href="{{ b }}/categoria/{{ slug }}/">{{ c.nome }}</a></li>{% endfor %}</ul>
+    </nav>
+    <nav aria-label="Institucional">
+      <p class="rodape-titulo">O site</p>
+      <ul>
+        <li><a href="{{ b }}/sobre/">Como escolhemos os produtos</a></li>
+        <li><a href="{{ b }}/privacidade/">Privacidade</a></li>
+        <li><a href="{{ b }}/escritorio/">Bastidores: a equipe trabalhando</a></li>
+      </ul>
+    </nav>
   </div>
+  <p class="rodape-aviso">Participamos do programa de afiliados do Mercado Livre. Quando você compra por um link daqui, recebemos uma comissão, sem custo extra para você. Isso não muda o que recomendamos.</p>
+  <p class="rodape-copy">© {{ ano }} {{ site.nome }}</p>
 </footer>
+{% block scripts %}{% endblock %}
 </body>
 </html>

@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% set cat_atual = cat.slug %}
+{% block titulo %}{{ cat.nome }}: melhores opções e guias de compra | {{ site.nome }}{% endblock %}
+{% block descricao %}Guias, comparativos e listas de {{ cat.nome | lower }} com bom custo-benefício. Especificações conferidas e prós e contras honestos.{% endblock %}
+{% block conteudo %}
+<section class="cat-topo" style="--cat:{{ cat.cor }}">
+  <p class="trilha"><a href="{{ b }}/">Início</a> <span aria-hidden="true">/</span> {{ cat.nome }}</p>
+  <div class="cat-titulo">
+    <span class="cat-icone">{{ cat.icone | safe }}</span>
+    <h1>{{ cat.nome }}</h1>
+  </div>
+  <p class="cat-desc">{% if cat.descricao %}{{ cat.descricao }}{% else %}Guias para escolher {{ cat.nome | lower }} pelo que entregam, com especificações conferidas e veredito claro.{% endif %}</p>
+</section>
+
+<section class="secao">
+  {% if posts %}
+  <ul class="lista-posts lista-grande">
+    {% for p in posts %}
+    <li>
+      <a href="{{ b }}/posts/{{ p.slug }}/" style="--cat:{{ p.cat.cor }}">
+        <span class="lista-texto">
+          <span class="lista-titulo">{{ p.titulo }}</span>
+          <span class="lista-desc">{{ p.descricao }}</span>
+          <span class="meta">Atualizado em {{ p.data_txt }}, leitura de {{ p.minutos }} min</span>
+        </span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <div class="vazio-caixa">
+    <p><strong>Os guias desta categoria estão sendo preparados.</strong></p>
+    <p>Enquanto isso, veja os guias de <a href="{{ b }}/">todas as categorias</a>.</p>
+  </div>
+  {% endif %}
+</section>
+{% endblock %}

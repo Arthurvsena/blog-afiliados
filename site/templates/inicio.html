@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+{% block titulo %}{{ site.nome }}: guias para comprar eletrônicos sem pagar a mais{% endblock %}
+{% block conteudo %}
+<section class="abertura">
+  <div class="abertura-texto">
+    <h1>Eletrônico bom, sem pagar a mais.</h1>
+    <p>Comparamos fones, power banks, smartwatches, acessórios gamer e casa inteligente pelo que entregam de verdade. Especificações conferidas, avaliações de milhares de compradores e um veredito claro para cada bolso.</p>
+    <form class="busca" role="search" onsubmit="return false">
+      <label for="busca-campo" class="sr">Buscar guias</label>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="busca-campo" type="search" placeholder="O que você quer comprar? Ex.: power bank" autocomplete="off">
+    </form>
+  </div>
+  <nav class="vitrine" aria-label="Escolha uma categoria">
+    {% for slug, c in cats.items() %}
+    <a class="vitrine-item" href="{{ b }}/categoria/{{ slug }}/" style="--cat:{{ c.cor }}">
+      <span class="vitrine-icone">{{ c.icone | safe }}</span>
+      <span class="vitrine-nome">{{ c.nome }}</span>
+      <span class="vitrine-conta">{% if c.total == 0 %}Guias em breve{% elif c.total == 1 %}1 guia{% else %}{{ c.total }} guias{% endif %}</span>
+    </a>
+    {% endfor %}
+  </nav>
+</section>
+
+<section class="secao" aria-labelledby="recentes">
+  <div class="secao-topo">
+    <h2 id="recentes">Guias mais recentes</h2>
+  </div>
+  {% if posts %}
+  {% set destaque = posts[0] %}
+  <article class="destaque" style="--cat:{{ destaque.cat.cor }}">
+    <a href="{{ b }}/posts/{{ destaque.slug }}/" class="destaque-link">
+      <span class="tag">{{ destaque.cat.icone | safe }}{{ destaque.cat.nome }}</span>
+      <h3>{{ destaque.titulo }}</h3>
+      <p>{{ destaque.descricao }}</p>
+      <span class="meta">Atualizado em {{ destaque.data_txt }}, leitura de {{ destaque.minutos }} min</span>
+    </a>
+  </article>
+  <ul class="lista-posts" id="lista-posts">
+    {% for p in posts %}
+    <li data-busca="{{ (p.titulo ~ ' ' ~ p.descricao ~ ' ' ~ p.cat.nome) | lower }}"{% if loop.first %} class="so-busca"{% endif %}>
+      <a href="{{ b }}/posts/{{ p.slug }}/" style="--cat:{{ p.cat.cor }}">
+        <span class="lista-cat">{{ p.cat.icone | safe }}</span>
+        <span class="lista-texto">
+          <span class="lista-titulo">{{ p.titulo }}</span>
+          <span class="meta">{{ p.cat.nome }}, atualizado em {{ p.data_txt }}</span>
+        </span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  <p class="vazio" id="busca-vazia" hidden>Nenhum guia com esse termo ainda. Tente o nome da categoria, como "fone" ou "carregador".</p>
+  {% else %}
+  <p class="vazio">Os primeiros guias saem nos próximos dias.</p>
+  {% endif %}
+</section>
+
+<section class="metodo" aria-labelledby="metodo-titulo">
+  <h2 id="metodo-titulo">Como chegamos a cada recomendação</h2>
+  <div class="metodo-grade">
+    <div>
+      <h3>Ficha técnica conferida</h3>
+      <p>Capacidade, potência, bateria e certificações vêm do fabricante ou do anúncio oficial, nunca de chute.</p>
+    </div>
+    <div>
+      <h3>Milhares de compradores ouvidos</h3>
+      <p>Só entram produtos com nota alta e muitas avaliações. Lemos as reclamações para dizer a quem cada um não serve.</p>
+    </div>
+    <div>
+      <h3>Atualizado sempre</h3>
+      <p>Revisamos os guias com frequência. Produto que saiu de linha ou piorou, sai da lista.</p>
+    </div>
+  </div>
+</section>
+{% endblock %}
+{% block scripts %}
+<script>
+(() => {
+  const campo = document.getElementById('busca-campo');
+  if (!campo) return;
+  const itens = [...document.querySelectorAll('#lista-posts li')];
+  const destaque = document.querySelector('.destaque');
+  const vazio = document.getElementById('busca-vazia');
+  const norm = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  campo.addEventListener('input', () => {
+    const q = norm(campo.value.trim());
+    let n = 0;
+    itens.forEach(li => {
+      const ok = !q || norm(li.dataset.busca).includes(q);
+      li.hidden = !ok || (!q && li.classList.contains('so-busca'));
+      if (ok) n++;
+    });
+    if (destaque) destaque.hidden = !!q;
+    vazio.hidden = !q || n > 0;
+  });
+  itens.forEach(li => { if (li.classList.contains('so-busca')) li.hidden = true; });
+})();
+</script>
+{% endblock %}

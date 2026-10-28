@@ -60,6 +60,40 @@ def posts():
 
 
 # ---------------- renderização ----------------
+MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho",
+         "agosto", "setembro", "outubro", "novembro", "dezembro"]
+
+# Cor e ícone de cada categoria (pode sobrescrever a cor no config.yaml com `cor:`)
+VISUAL = {
+    "fones-caixas-bluetooth": ("#6D4AFF", "fone"),
+    "power-banks-carregadores": ("#F07800", "bateria"),
+    "smartwatches-smartbands": ("#00927F", "relogio"),
+    "acessorios-gamer": ("#D6336C", "controle"),
+    "casa-inteligente": ("#2563EB", "casa"),
+}
+ICONES = {
+    "fone": '<path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="14" width="5" height="7" rx="2"/><rect x="16" y="14" width="5" height="7" rx="2"/>',
+    "bateria": '<rect x="2" y="7" width="17" height="10" rx="2"/><path d="M22 11v2"/><path d="M11 9l-2 3h4l-2 3"/>',
+    "relogio": '<rect x="6" y="6" width="12" height="12" rx="3"/><path d="M9 6l1-4h4l1 4M9 18l1 4h4l1-4"/><path d="M12 9.5V12l1.5 1.5"/>',
+    "controle": '<path d="M7 8h10a5 5 0 0 1 4.9 6l-.6 3a2.5 2.5 0 0 1-4.3 1.2L15 16H9l-2 2.2A2.5 2.5 0 0 1 2.7 17l-.6-3A5 5 0 0 1 7 8z"/><path d="M8 11v3M6.5 12.5h3"/><circle cx="16" cy="12" r=".6"/><circle cx="17.5" cy="13.5" r=".6"/>',
+    "casa": '<path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M12 13a2.5 2.5 0 0 0-1.5 4.5V19h3v-1.5A2.5 2.5 0 0 0 12 13z"/>',
+    "estrela": '<path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/>',
+}
+
+
+def icone(nome, classe="ico"):
+    return (f'<svg class="{classe}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" '
+            f'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{ICONES.get(nome, "")}</svg>')
+
+
+def data_br(iso):
+    try:
+        d = dt.date.fromisoformat(str(iso)[:10])
+    except ValueError:
+        return str(iso)
+    return f"{d.day} de {MESES[d.month - 1]} de {d.year}"
+
+
 def preco_br(valor):
     try:
         v = float(str(valor).replace(",", "."))
@@ -68,38 +102,70 @@ def preco_br(valor):
     return "R$ " + f"{v:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
 
-def card_produto(p):
+def milhar(n):
+    try:
+        return f"{int(float(n)):,}".replace(",", ".")
+    except ValueError:
+        return ""
+
+
+def estrelas(nota):
+    try:
+        n = float(nota)
+    except (TypeError, ValueError):
+        return ""
+    pct = max(0, min(100, n / 5 * 100))
+    return (f'<span class="estrelas" role="img" aria-label="Nota {str(n).replace(".", ",")} de 5">'
+            f'<span class="estrelas-cheias" style="width:{pct:.0f}%"></span></span>')
+
+
+def card_produto(p, ordem=None):
     destaques = "".join(f"<li>{html.escape(d)}</li>" for d in p["destaques"][:4])
     nota = ""
     if p.get("nota"):
-        aval = f" · {int(float(p['avaliacoes'])):,} avaliações".replace(",", ".") if p.get("avaliacoes") else ""
-        nota = f'<p class="nota">★ {html.escape(str(p["nota"]))}{aval}</p>'
+        nota = (f'<p class="ficha-nota">{estrelas(p["nota"])} <strong>{html.escape(str(p["nota"]).replace(".", ","))}</strong>'
+                f'{" · " + milhar(p["avaliacoes"]) + " avaliações" if p.get("avaliacoes") else ""}</p>')
     img = ""
     if (p.get("imagem_url") or "").startswith("http"):
-        img = f'<img src="{html.escape(p["imagem_url"])}" alt="{html.escape(p["nome"])}" loading="lazy">'
+        img = f'<div class="ficha-foto"><img src="{html.escape(p["imagem_url"])}" alt="{html.escape(p["nome"])}" loading="lazy" width="200" height="200"></div>'
     preco = preco_br(p.get("preco", ""))
-    preco_html = f'<p class="preco">a partir de ~{preco} <small>(preço de referência, confira o atual)</small></p>' if preco else ""
+    preco_html = (f'<p class="ficha-preco"><span>Referência</span> {preco}</p>'
+                  f'<p class="ficha-obs">O preço muda com frequência. Confira o valor atual no anúncio.</p>') if preco else ""
     return f"""
-<div class="produto">
+<aside class="ficha" aria-label="{html.escape(p['nome'])}">
   {img}
-  <div class="produto-info">
-    <p class="produto-nome">{html.escape(p['nome'])}</p>
-    <p class="marca">{html.escape(p.get('marca', ''))}</p>
+  <div class="ficha-corpo">
+    <p class="ficha-marca">{html.escape(p.get('marca', ''))}</p>
+    <p class="ficha-nome">{html.escape(p['nome'])}</p>
     {nota}
-    <ul>{destaques}</ul>
-    {preco_html}
-    <a class="botao" href="{html.escape(p['link_afiliado'])}" target="_blank" rel="sponsored nofollow noopener">Ver preço no Mercado Livre</a>
+    <ul class="ficha-destaques">{destaques}</ul>
+    <div class="ficha-compra">
+      {preco_html}
+      <a class="btn-comprar" href="{html.escape(p['link_afiliado'])}" target="_blank" rel="sponsored nofollow noopener">Ver oferta no Mercado Livre</a>
+    </div>
   </div>
-</div>"""
+</aside>"""
 
 
-def corpo_html(corpo, catalogo):
+def renderizar(corpo, catalogo):
+    """Devolve (html, sumario, ids de produtos usados)."""
+    usados = [pid for pid in TOKEN_PRODUTO.findall(corpo) if pid in catalogo]
+
     def troca(m):
         p = catalogo.get(m.group(1))
         return card_produto(p) if p else ""  # produto inativo some do post
 
-    corpo = TOKEN_PRODUTO.sub(lambda m: "\n\n" + troca(m) + "\n\n", corpo)
-    return markdown.markdown(corpo, extensions=["tables", "toc", "sane_lists", "attr_list"])
+    texto = TOKEN_PRODUTO.sub(lambda m: "\n\n" + troca(m) + "\n\n", corpo)
+    md = markdown.Markdown(extensions=["tables", "toc", "sane_lists", "attr_list"],
+                           extension_configs={"toc": {"toc_depth": "2"}})
+    conteudo = md.convert(texto)
+    conteudo = conteudo.replace("<table>", '<div class="tabela"><table>').replace("</table>", "</table></div>")
+    sumario = [{"id": t["id"], "nome": t["name"]} for t in md.toc_tokens]
+    return conteudo, sumario, list(dict.fromkeys(usados))
+
+
+def minutos_leitura(corpo):
+    return max(1, round(len(re.findall(r"\w+", TOKEN_PRODUTO.sub("", corpo))) / 200))
 
 
 def json_ld(post, cfg, url):
@@ -132,10 +198,24 @@ def build():
     caminho_base = "/" + base.split("://", 1)[-1].split("/", 1)[1] if base.count("/") > 2 else ""
     catalogo = produtos()
     lista = posts()
-    subnichos = {s["slug"]: s["nome"] for s in cfg["subnichos"]}
+
+    cats = {}
+    for s in cfg["subnichos"]:
+        cor, ico = VISUAL.get(s["slug"], ("#2950FF", "estrela"))
+        cats[s["slug"]] = {
+            "slug": s["slug"], "nome": s["nome"], "cor": s.get("cor", cor),
+            "icone": icone(ico), "descricao": s.get("descricao", ""),
+            "total": sum(1 for p in lista if p.get("subnicho") == s["slug"]),
+        }
+    subnichos = {k: v["nome"] for k, v in cats.items()}
+    for p in lista:
+        p["cat"] = cats.get(p.get("subnicho"), {"nome": "", "cor": "#2950FF", "slug": "", "icone": ""})
+        p["data_txt"] = data_br(p.get("atualizado") or p.get("publicado"))
+        p["minutos"] = minutos_leitura(p["corpo"])
 
     env = Environment(loader=FileSystemLoader(RAIZ / "site" / "templates"), autoescape=True)
-    glob = dict(site=cfg["site"], subnichos=subnichos, b=caminho_base,
+    env.filters["data_br"] = data_br
+    glob = dict(site=cfg["site"], subnichos=subnichos, cats=cats, b=caminho_base,
                 ano=dt.date.today().year)
 
     if SAIDA.exists():
@@ -146,11 +226,15 @@ def build():
     urls = [base + "/"]
     for p in lista:
         url = f"{base}/posts/{p['slug']}/"
-        relacionados = [q for q in lista if q["subnicho"] == p.get("subnicho") and q["slug"] != p["slug"]][:3]
+        conteudo, sumario, usados = renderizar(p["corpo"], catalogo)
+        rapida = [catalogo[i] for i in usados] if p.get("tipo") in ("lista", "comparativo") else []
+        relacionados = [q for q in lista if q.get("subnicho") == p.get("subnicho") and q["slug"] != p["slug"]][:3]
+        if len(relacionados) < 3:
+            relacionados += [q for q in lista if q["slug"] != p["slug"] and q not in relacionados][:3 - len(relacionados)]
         pagina = env.get_template("post.html").render(
-            **glob, post=p, conteudo=corpo_html(p["corpo"], catalogo), url=url,
-            json_ld=json_ld(p, cfg, url), relacionados=relacionados,
-            tem_produto=bool(TOKEN_PRODUTO.search(p["corpo"])),
+            **glob, post=p, conteudo=conteudo, sumario=sumario, rapida=rapida, url=url,
+            json_ld=json_ld(p, cfg, url), relacionados=relacionados, tem_produto=bool(usados),
+            preco_br=preco_br,
         )
         destino = SAIDA / "posts" / p["slug"]
         destino.mkdir(parents=True)
@@ -158,16 +242,15 @@ def build():
         urls.append(url)
 
     (SAIDA / "index.html").write_text(
-        env.get_template("lista.html").render(**glob, titulo_pagina=None, posts=lista, url=base + "/"),
-        encoding="utf-8")
+        env.get_template("inicio.html").render(**glob, posts=lista, url=base + "/"), encoding="utf-8")
 
-    for slug, nome in subnichos.items():
+    for slug, cat in cats.items():
         dest = SAIDA / "categoria" / slug
         dest.mkdir(parents=True)
         url = f"{base}/categoria/{slug}/"
         (dest / "index.html").write_text(
-            env.get_template("lista.html").render(
-                **glob, titulo_pagina=nome, posts=[p for p in lista if p.get("subnicho") == slug], url=url),
+            env.get_template("categoria.html").render(
+                **glob, cat=cat, posts=[p for p in lista if p.get("subnicho") == slug], url=url),
             encoding="utf-8")
         urls.append(url)
 

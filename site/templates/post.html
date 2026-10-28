@@ -1,25 +1,106 @@
 {% extends "base.html" %}
+{% set cat_atual = post.subnicho %}
 {% block titulo %}{{ post.titulo }} | {{ site.nome }}{% endblock %}
 {% block descricao %}{{ post.descricao }}{% endblock %}
-{% block head %}<script type="application/ld+json">{{ json_ld | safe }}</script>{% endblock %}
+{% block head %}<meta property="og:type" content="article">
+<script type="application/ld+json">{{ json_ld | safe }}</script>{% endblock %}
 {% block conteudo %}
-<article class="post">
-  <p class="trilha"><a href="{{ b }}/">Início</a> › <a href="{{ b }}/categoria/{{ post.subnicho }}/">{{ subnichos.get(post.subnicho, '') }}</a></p>
-  <h1>{{ post.titulo }}</h1>
-  <p class="datas">Publicado em {{ post.publicado }}{% if post.atualizado and post.atualizado != post.publicado %} · Atualizado em {{ post.atualizado }}{% endif %}</p>
-  {% if tem_produto %}<p class="aviso">Este post tem links de afiliado: se você comprar por eles, ganhamos uma pequena comissão sem custo extra para você.</p>{% endif %}
-  {{ conteudo | safe }}
-  {% if post.faq %}
-  <section class="faq">
-    <h2>Perguntas frequentes</h2>
-    {% for f in post.faq %}<details><summary>{{ f.pergunta }}</summary><p>{{ f.resposta }}</p></details>{% endfor %}
-  </section>
-  {% endif %}
+<article class="artigo" style="--cat:{{ post.cat.cor }}">
+  <header class="artigo-topo">
+    <p class="trilha"><a href="{{ b }}/">Início</a> <span aria-hidden="true">/</span> <a href="{{ b }}/categoria/{{ post.subnicho }}/">{{ post.cat.nome }}</a></p>
+    <h1>{{ post.titulo }}</h1>
+    <p class="artigo-linha-fina">{{ post.descricao }}</p>
+    <p class="meta">{% if post.atualizado and post.atualizado != post.publicado %}Atualizado em {{ post.atualizado | data_br }}{% else %}Publicado em {{ post.publicado | data_br }}{% endif %}, leitura de {{ post.minutos }} min. Por {{ site.autor }}.</p>
+  </header>
+
+  <div class="artigo-grade">
+    <div class="artigo-corpo">
+      {% if tem_produto %}<p class="aviso-afiliado">Os botões de compra deste guia são links de afiliado: se você comprar por eles, ganhamos uma comissão do Mercado Livre, sem custo extra para você.</p>{% endif %}
+
+      {% if rapida %}
+      <section class="rapida" aria-labelledby="rapida-titulo">
+        <h2 id="rapida-titulo">Resposta rápida</h2>
+        <ol class="rapida-lista">
+          {% for p in rapida %}
+          <li>
+            <span class="rapida-nome">{{ p.nome }}</span>
+            {% if p.nota %}<span class="rapida-nota">Nota {{ p.nota | replace('.', ',') }}</span>{% endif %}
+            <a class="btn-comprar btn-pequeno" href="{{ p.link_afiliado }}" target="_blank" rel="sponsored nofollow noopener">Ver oferta</a>
+          </li>
+          {% endfor %}
+        </ol>
+      </section>
+      {% endif %}
+
+      {% if sumario|length > 2 %}
+      <details class="sumario-movel">
+        <summary>Neste guia</summary>
+        <ol>{% for s in sumario %}<li><a href="#{{ s.id }}">{{ s.nome }}</a></li>{% endfor %}</ol>
+      </details>
+      {% endif %}
+
+      <div class="prosa">
+        {{ conteudo | safe }}
+      </div>
+
+      {% if post.faq %}
+      <section class="faq" aria-labelledby="faq-titulo">
+        <h2 id="faq-titulo">Perguntas frequentes</h2>
+        {% for f in post.faq %}
+        <details>
+          <summary>{{ f.pergunta }}</summary>
+          <p>{{ f.resposta }}</p>
+        </details>
+        {% endfor %}
+      </section>
+      {% endif %}
+    </div>
+
+    {% if sumario|length > 2 %}
+    <aside class="lateral">
+      <nav class="sumario" aria-label="Neste guia">
+        <p class="sumario-titulo">Neste guia</p>
+        <ol>{% for s in sumario %}<li><a href="#{{ s.id }}">{{ s.nome }}</a></li>{% endfor %}{% if post.faq %}<li><a href="#faq-titulo">Perguntas frequentes</a></li>{% endif %}</ol>
+      </nav>
+    </aside>
+    {% endif %}
+  </div>
 </article>
+
 {% if relacionados %}
-<aside class="relacionados">
-  <h2>Leia também</h2>
-  <ul>{% for r in relacionados %}<li><a href="{{ b }}/posts/{{ r.slug }}/">{{ r.titulo }}</a></li>{% endfor %}</ul>
-</aside>
+<section class="secao relacionados" aria-labelledby="rel-titulo">
+  <h2 id="rel-titulo">Continue escolhendo</h2>
+  <ul class="lista-posts">
+    {% for r in relacionados %}
+    <li>
+      <a href="{{ b }}/posts/{{ r.slug }}/" style="--cat:{{ r.cat.cor }}">
+        <span class="lista-cat">{{ r.cat.icone | safe }}</span>
+        <span class="lista-texto">
+          <span class="lista-titulo">{{ r.titulo }}</span>
+          <span class="meta">{{ r.cat.nome }}</span>
+        </span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
 {% endif %}
+{% endblock %}
+{% block scripts %}
+<script>
+(() => {
+  const links = [...document.querySelectorAll('.sumario a')];
+  if (!links.length || !('IntersectionObserver' in window)) return;
+  const alvos = links.map(a => document.getElementById(decodeURIComponent(a.hash.slice(1)))).filter(Boolean);
+  const obs = new IntersectionObserver(es => {
+    es.forEach(e => {
+      if (!e.isIntersecting) return;
+      links.forEach(a => a.removeAttribute('aria-current'));
+      const a = links.find(l => decodeURIComponent(l.hash.slice(1)) === e.target.id);
+      if (a) a.setAttribute('aria-current', 'true');
+    });
+  }, { rootMargin: '-20% 0px -70% 0px' });
+  alvos.forEach(t => obs.observe(t));
+})();
+</script>
 {% endblock %}
