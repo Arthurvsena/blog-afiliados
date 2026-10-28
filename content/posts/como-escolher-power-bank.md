@@ -32,6 +32,8 @@ A conta rápida para não errar:
 | Uma carga completa e sobra | 10.000 mAh |
 | Duas cargas ou viagem de fim de semana | 20.000 mAh |
 | Celular + fone + smartwatch, vários dias | 20.000 a 27.000 mAh |
+
+Quem leva o fone Bluetooth junto também recarrega o estojo dele no power bank. Veja [como escolher um fone Bluetooth](/posts/como-escolher-fone-bluetooth/) para entender a autonomia real de cada formato.
 | Notebook com USB-C | 20.000 mAh ou mais **e** 45 W+ de saída |
 
 **Exemplo:** seu celular tem bateria de 5.000 mAh. Multiplique por 1,5 e você chega a cerca de 7.500 mAh para uma carga completa. Um modelo de 10.000 mAh resolve com folga. Um de 20.000 mAh dá umas duas cargas e meia.

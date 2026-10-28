@@ -1,12 +1,17 @@
 {
-  "ultima_execucao": "",
+  "ultima_execucao": "2026-10-28T01:39",
   "agentes": {
-    "chefe": {"status": "ocioso", "tarefa": "Aguardando a primeira rotina diária."},
-    "pesquisador": {"status": "ocioso", "tarefa": "Aguardando a primeira rotina diária."},
-    "curador": {"status": "ocioso", "tarefa": "Aguardando a primeira rotina diária."},
-    "redator": {"status": "ocioso", "tarefa": "Aguardando a primeira rotina diária."},
-    "seo": {"status": "ocioso", "tarefa": "Aguardando a primeira rotina diária."},
-    "atualizador": {"status": "ocioso", "tarefa": "Aguardando a primeira rotina diária."}
+    "chefe": {"status": "ok", "tarefa": "Coordenei a rotina: fila vazia, pesquisa, sugestões de produtos e um guia publicado."},
+    "pesquisador": {"status": "ok", "tarefa": "Enchi a fila com 9 pautas novas, 4 delas guias."},
+    "curador": {"status": "ok", "tarefa": "Escrevi 13 sugestões de produtos; o Mercado Livre bloqueou a leitura, então preço e nota ficam para o cadastro."},
+    "redator": {"status": "ok", "tarefa": "Escrevi o guia 'Como escolher um fone Bluetooth' (cerca de 1.150 palavras)."},
+    "seo": {"status": "ok", "tarefa": "Revisei o guia de fones, tirei duas afirmações sem fonte e liguei o guia ao post de power bank."},
+    "atualizador": {"status": "ocioso", "tarefa": "Nenhum post tem 30 dias ou mais desde a última atualização."}
   },
-  "historico": []
+  "historico": [
+    {"data": "2026-10-28", "agente": "pesquisador", "texto": "Enchi a fila com 9 pautas novas, 4 delas guias."},
+    {"data": "2026-10-28", "agente": "curador", "texto": "Escrevi 13 sugestões de produtos para cadastro, sem preço e nota confirmados."},
+    {"data": "2026-10-28", "agente": "redator", "texto": "Escrevi o guia 'Como escolher um fone Bluetooth' (cerca de 1.150 palavras)."},
+    {"data": "2026-10-28", "agente": "seo", "texto": "Revisei o guia de fones e adicionei links internos com o guia de power bank."}
+  ]
 }
