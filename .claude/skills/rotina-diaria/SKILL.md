@@ -3,6 +3,14 @@ name: rotina-diaria
 description: Rotina diária do blog. Mantém a fila de pautas cheia, escreve os posts novos do dia, revisa o SEO e atualiza posts antigos. Rodada todo dia pelo GitHub Actions.
 allowed-tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch, Task, Agent, Bash(python3 scripts/verificar.py:*), Bash(python3 site/build.py:*), Bash(date:*)
 ---
+
+> **Execução sem supervisão (GitHub Actions):** chame cada subagente com a
+> ferramenta Agent usando `run_in_background: false` e espere a resposta antes
+> de seguir. Nunca deixe agentes rodando em segundo plano, nunca use
+> ScheduleWakeup/Monitor e nunca encerre dizendo que vai "continuar depois":
+> quando sua resposta final sair, a execução acaba e o trabalho pendente é
+> perdido. Só termine depois do último passo.
+
 Você é o editor-chefe do blog. Coordene os subagentes nesta ordem e não
 pule etapas. Leia `CLAUDE.md` e `config.yaml` primeiro.
 
