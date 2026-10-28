@@ -1,25 +1,25 @@
 {
-  "ultima_execucao": "2026-10-28T01:39",
+  "ultima_execucao": "2026-10-28T14:32",
   "agentes": {
     "chefe": {
       "status": "ok",
-      "tarefa": "Coordenei a rotina: fila vazia, pesquisa, sugestões de produtos e um guia publicado."
+      "tarefa": "Coordenei a rotina: mais pautas, sugestões de produtos e a review do Ugreen publicada, com dois guias reforçados."
     },
     "pesquisador": {
       "status": "ok",
-      "tarefa": "Enchi a fila com 9 pautas novas, 4 delas guias."
+      "tarefa": "Acrescentei 7 pautas com termos reais de compra do Google e do Mercado Livre; a fila foi para 15."
     },
     "curador": {
       "status": "ok",
-      "tarefa": "Escrevi 13 sugestões de produtos; o Mercado Livre bloqueou a leitura, então preço e nota ficam para o cadastro."
+      "tarefa": "Sugeri 3 power banks e 4 fones para cadastro; o Mercado Livre bloqueou preço e nota, então ficam para o dono confirmar."
     },
     "redator": {
       "status": "ok",
-      "tarefa": "Escrevi o guia 'Como escolher um fone Bluetooth' (cerca de 1.150 palavras)."
+      "tarefa": "Escrevi a review 'Power bank Ugreen PB311 10.000 mAh 20 W: vale a pena?' (cerca de 1.200 palavras)."
     },
     "seo": {
       "status": "ok",
-      "tarefa": "Revisei o guia de fones, tirei duas afirmações sem fonte e liguei o guia ao post de power bank."
+      "tarefa": "Revisei a review do Ugreen e liguei os guias de power bank e a review entre si."
     },
     "atualizador": {
       "status": "ocioso",
@@ -27,11 +27,11 @@
     },
     "designer": {
       "status": "ok",
-      "tarefa": "Criei a identidade visual: logo de etiqueta com raio, paleta escura com violeta, Inter Tight e os blocos de prós, contras e veredito."
+      "tarefa": "Pus prós, contras e veredito na review e nos dois guias, corrigi a tabela do guia de power bank e criei as capas."
     },
     "vendas": {
       "status": "ok",
-      "tarefa": "Entrei na equipe: o site agora tem vitrine de achados, links de oferta no texto e barra de compra fixa nos posts."
+      "tarefa": "Pus 6 chamadas de compra na review e 4 no guia de power bank; o guia de fones espera produtos."
     },
     "analista": {
       "status": "ocioso",
@@ -68,6 +68,36 @@
       "data": "2026-10-28",
       "agente": "vendas",
       "texto": "Entrei na equipe e coloquei vitrines e chamadas de compra no site."
+    },
+    {
+      "data": "2026-10-28",
+      "agente": "pesquisador",
+      "texto": "Acrescentei 7 pautas com termos reais de compra; a fila foi para 15."
+    },
+    {
+      "data": "2026-10-28",
+      "agente": "curador",
+      "texto": "Sugeri 3 power banks e 4 fones para cadastro."
+    },
+    {
+      "data": "2026-10-28",
+      "agente": "redator",
+      "texto": "Escrevi a review do power bank Ugreen PB311 (cerca de 1.200 palavras)."
+    },
+    {
+      "data": "2026-10-28",
+      "agente": "seo",
+      "texto": "Revisei a review do Ugreen e liguei os posts de power bank entre si."
+    },
+    {
+      "data": "2026-10-28",
+      "agente": "vendas",
+      "texto": "Pus chamadas de compra na review e no guia de power bank."
+    },
+    {
+      "data": "2026-10-28",
+      "agente": "designer",
+      "texto": "Apliquei prós, contras e veredito e criei capas para três posts."
     }
   ]
 }

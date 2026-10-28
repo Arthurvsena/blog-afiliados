@@ -6,6 +6,7 @@ palavra_chave: "como escolher fone bluetooth"
 subnicho: fones-caixas-bluetooth
 tipo: guia
 produtos: []
+capa_frase: "Fone certo sem pagar por enfeite"
 publicado: 2026-10-28
 atualizado: 2026-10-28
 faq:
@@ -26,11 +27,19 @@ Para saber **como escolher fone Bluetooth** sem errar, olhe para cinco coisas ne
 
 O formato define quase tudo: conforto, isolamento, bateria e preço. Os três mais comuns:
 
+| Formato | Ponto forte | Para quem é |
+|---|---|---|
+| TWS | Pequeno e prático, carrega no estojo | Dia a dia e transporte |
+| Neckband | Bateria maior, difícil de perder | Treino e uso longo |
+| Headphone | Conforto e bateria longa | Escritório e chamadas |
+
 - **TWS (intra-auricular sem fio):** pequeno, vai no bolso e carrega no estojo. É o mais popular, mas a bateria de cada fone é minúscula.
 - **Neckband (com cabo atrás do pescoço):** bateria maior, difícil de perder e bom para treino. Em compensação, o cabo pode incomodar com gola alta.
 - **Headphone (over-ear ou on-ear):** drivers maiores, bateria longa e conforto para horas de uso. Ocupa espaço na mochila e esquenta no verão.
 
-**Exemplo prático:** se você passa o dia no escritório em chamadas, um headphone com microfone costuma cansar menos. Se anda de ônibus e treina, um TWS ou neckband com proteção contra suor resolve.
+:::dica Escolha pelo seu dia
+Escritório e chamadas: headphone com microfone cansa menos. Ônibus e treino: TWS ou neckband com proteção contra suor.
+:::
 
 ## Autonomia: o número da caixa conta só metade da história
 
@@ -41,7 +50,7 @@ Dois detalhes que quase ninguém explica:
 - O número do fabricante é medido em volume moderado e **sem** cancelamento de ruído. Com volume alto ou ANC ligado, a duração cai.
 - A bateria perde capacidade com o tempo. Um fone que dura 6 horas novo dura menos depois de um ou dois anos de uso diário.
 
-Como regra, escolha pela sua rotina: para um trajeto de ida e volta, 4 a 5 horas por carga bastam. Para jornada inteira de trabalho, procure modelos com mais autonomia por carga, e confira se há carga rápida (alguns minutos no estojo rendem horas de uso, segundo o fabricante). Se você fica longe da tomada, um [power bank](/posts/como-escolher-power-bank/) também recarrega o estojo do fone e o celular.
+Como regra, escolha pela sua rotina: para um trajeto de ida e volta, 4 a 5 horas por carga bastam. Para jornada inteira de trabalho, procure modelos com mais autonomia por carga, e confira se há carga rápida (alguns minutos no estojo rendem horas de uso, segundo o fabricante). Se você fica longe da tomada, um [power bank](/posts/como-escolher-power-bank/) também recarrega o estojo do fone e o celular. Se quiser um exemplo compacto, veja a [review do Ugreen PB311](/posts/review-power-bank-ugreen-pb311-10000/).
 
 ## Codec: quando importa e quando é marketing
 
@@ -78,7 +87,9 @@ O "IPX4" ou "IP67" na caixa é uma classificação padrão. O primeiro número �
 - **IPX5 ou IPX6:** aguenta jatos de água. Bom para treino pesado.
 - **IP67:** protegido contra poeira e imersão rasa temporária.
 
-Atenção: a proteção costuma valer para os fones, não para o estojo. Secar o fone antes de guardar no estojo evita corrosão nos contatos.
+:::atencao Estojo não é à prova d'água
+A proteção costuma valer para os fones, não para o estojo. Seque o fone antes de guardar para evitar corrosão nos contatos.
+:::
 
 ## Microfone e chamadas
 
@@ -120,3 +131,7 @@ Muitos guias esquecem disso. Se você faz reuniões ou liga pelo fone, o microfo
 ## Próximo passo
 
 Com as prioridades definidas, fica fácil comparar modelos. Em breve o blog publica listas de fones e caixas de som Bluetooth que aplicam esses critérios a produtos do Mercado Livre. Antes de comprar, veja o preço atual no anúncio.
+
+:::veredito
+Escolha pelo uso, pela autonomia real e pelo conforto; codec e extras ficam para o fim.
+:::

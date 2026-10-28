@@ -15,7 +15,7 @@ a loja oficial da marca ou tem boa reputação (MercadoLíder). Os destaques aba
 são só o que foi confirmado em fontes citadas em cada item. Referências de
 preço de lojas externas são apenas indicativas e podem estar desatualizadas.
 
-### fones-caixas-bluetooth (precisa de 4 produtos; 3 sugeridos)
+### fones-caixas-bluetooth (precisa de 4 produtos; 4 sugeridos)
 - **Fone de Ouvido Xiaomi Redmi Buds 6 Play** (Xiaomi/Redmi), lançado no Brasil por R$ 159 (Tecnoblog), já visto abaixo de R$ 110 em promoção em outra loja (Canaltech). Por que: marca conhecida, entra na faixa do post "até R$ 150" quando em oferta. Specs confirmadas na ficha de loja/Xiaomi via busca: Bluetooth 5.4, driver de 10 mm, 7,5 h por carga e 36 h com o estojo, redução de ruído por IA nas chamadas (não é cancelamento ativo). Atenção: um post do Pelando traz specs divergentes (12 mm, 30 h); ignorei.
   Busca no ML: `Xiaomi Redmi Buds 6 Play`
   Linha pronta para o CSV (só falta o link):
@@ -28,7 +28,11 @@ preço de lojas externas são apenas indicativas e podem estar desatualizadas.
   Busca no ML: `Philips TAT1209 fone bluetooth`
   Linha pronta para o CSV (só falta o link):
   `philips-tat1209,fones-caixas-bluetooth,Fone de Ouvido Philips TAT1209 TWS,Philips,PRECO,NOTA,AVAL,COLE_O_LINK,,Até 18 h de bateria somando o estojo;Até 6 h de música direto nos fones;Marca com assistência no Brasil,sim`
-- Falta o 4º fone: não achei um quarto modelo com specs confirmadas. Se o dono quiser, pode entrar o Beesev-ONE (Bluetooth 5.3) citado pelo Olhar Digital, mas sem marca conhecida; só vale se a nota e as avaliações do anúncio forem fortes.
+- **JBL Wave Buds** (JBL), referência de cerca de R$ 229 em comparadores (Buscapé/Zoom, indicativo). Por que: "fone bluetooth jbl" e "fone tws jbl" são as buscas mais fortes de fones em data/palavras.json (Google + ML). Confirmado só em agregadores, com divergência: Talk Thru e VoiceAware, sem cancelamento ativo de ruído; bateria divergente (8 h + 24 h no estojo em um, 32 h no total em outro). Bluetooth 5.3 NÃO confirmado. Atenção: Wave Buds e Wave Buds 2 aparecem misturados nas fontes; leia a bateria e a proteção (IP54?) direto no anúncio e registre só isso. Compre de loja oficial JBL/Harman por causa de falsificações.
+  Busca no ML: `JBL Wave Buds`
+  Linha pronta para o CSV (só falta o link):
+  `jbl-wave-buds,fones-caixas-bluetooth,Fone de Ouvido JBL Wave Buds TWS,JBL,PRECO,NOTA,AVAL,COLE_O_LINK,,Talk Thru e VoiceAware;Sem cancelamento ativo de ruído;Estojo de recarga;Marca com garantia no Brasil,sim`
+- Opcional como 5º fone: Beesev-ONE (Bluetooth 5.3) citado pelo Olhar Digital, mas sem marca conhecida; só vale se a nota e as avaliações do anúncio forem fortes.
 
 ### smartwatches-smartbands (precisa de 4 produtos; 4 sugeridos)
 - **Xiaomi Smart Band 10** (Xiaomi), referência de cerca de R$ 290 em junho de 2026 (adrianofreire.com.br, indicativo). Por que: tela AMOLED grande e bateria longa. Confirmado (melhoresdotech.com.br): AMOLED 1,72", até 1.500 nits, 5 ATM, até 21 dias segundo o fabricante, mais de 150 modos de treino, sem GPS próprio. Contra: o guia notou anúncio importado com garantia curta; prefira a loja oficial Xiaomi.
@@ -77,5 +81,17 @@ preço de lojas externas são apenas indicativas e podem estar desatualizadas.
   Linha pronta para o CSV (só falta o link):
   `positivo-kit-2-lampadas-smart,casa-inteligente,Kit 2 Lâmpadas Smart Wi-Fi Positivo RGB,Positivo,PRECO,NOTA,AVAL,COLE_O_LINK,,Kit com 2 lâmpadas;Luz RGB colorida;Controle por app e por voz;Compatível com Alexa e Google Assistente,sim`
 
-### power-banks-carregadores
-- Nenhuma sugestão. Só a pauta de review do Ugreen PB311 está pendente e o produto já está ativo.
+### power-banks-carregadores (pedido #1 do mural; 3 sugeridos, somando o Ugreen PB311 já ativo dá 4)
+Termos de `data/palavras.json` (Google + Mercado Livre) que estas escolhas atendem: "power bank baseus", "power bank samsung", "power bank iphone", "power bank compacto". Mesmo aviso do topo: o ML não abriu, então preço, nota e avaliações ficam para o cadastrador conferir no anúncio (descartar se nota < 4,5, poucas avaliações, sem Anatel ou vendedor sem reputação).
+- **Anker Nano Power Bank 10000mAh (A1259, cabo USB-C embutido, 30 W)** (Anker), preço não confirmado (fontes de varejo não tinham preço do ML). Por que: marca conhecida com garantia no Brasil, formato compacto com cabo embutido, atende "power bank compacto" e "power bank iphone" (com adaptador). Confirmado na página da Anker Brasil: 10.000 mAh, até 30 W com Power Delivery 3.0, cabo USB-C embutido que carrega e recarrega, 10,4 x 5,2 x 2,6 cm, garantia de 24 meses, recarga de 50% em 45 minutos. Contra: iPhone 14 e anteriores precisam de cabo Lightning à parte. Anatel: a página não informa; confira o selo no anúncio/embalagem. Cuidado com anúncios que não sejam da loja oficial Anker.
+  Busca no ML: `Anker Nano Power Bank 10000mAh A1259`
+  Linha pronta para o CSV (só falta o link):
+  `anker-nano-a1259-10000,power-banks-carregadores,Anker Nano Power Bank 10000mAh A1259 30W,Anker,PRECO,NOTA,AVAL,COLE_O_LINK,,10.000 mAh;Até 30 W com Power Delivery 3.0;Cabo USB-C embutido;Garantia de 24 meses,sim`
+- **Baseus Bipow 10000mAh 20W** (Baseus), preço não confirmado. Por que: "power bank baseus" aparece no Google e no ML; marca conhecida de acessórios. Confirmado só em lojas estrangeiras (nenhuma brasileira): 10.000 mAh, 20 W, 2 saídas USB-A e 1 USB-C, proteção contra sobrecarga e curto-circuito. Atenção: as fichas divergem por versão (Bipow, Bipow Pro, edição Overseas) em peso, tamanho e potência total, então confirme no anúncio qual versão é e registre só o que ele mostrar. Prefira a loja oficial Baseus.
+  Busca no ML: `Baseus Bipow 10000mAh 20W power bank`
+  Linha pronta para o CSV (só falta o link):
+  `baseus-bipow-10000-20w,power-banks-carregadores,Power Bank Baseus Bipow 10.000 mAh 20W,Baseus,PRECO,NOTA,AVAL,COLE_O_LINK,,10.000 mAh;Saída de até 20 W;Portas USB-C e USB-A;Proteção contra sobrecarga e curto-circuito,sim`
+- **Power Bank Xiaomi 10000 mAh** (Xiaomi), referência de R$ 179 num guia de preços (cupomonline, julho de 2026, indicativo). Por que: "power bank" Xiaomi é busca forte e a marca é conhecida. Confirmado no guia: 10.000 mAh, compacto e leve, proteção contra sobrecarga; contra: sem pass-through. Fonte fraca e inconsistente (outra versão do mesmo guia diz 20.000 mAh), e o Canaltech não achou indício de lançamento recente no Brasil, então só cadastre se o anúncio do ML for de loja oficial Xiaomi, com a capacidade e a potência escritas na ficha (existe a versão Lite 22,5 W; confirme no anúncio). Se não houver anúncio confiável, troque por Samsung EB-P3300 10.000 mAh (mesmo guia, R$ 199 indicativo, USB-C com carga rápida, sem mais dados confirmados).
+  Busca no ML: `Power Bank Xiaomi 10000mAh`
+  Linha pronta para o CSV (só falta o link):
+  `xiaomi-power-bank-10000,power-banks-carregadores,Power Bank Xiaomi 10.000 mAh,Xiaomi,PRECO,NOTA,AVAL,COLE_O_LINK,,10.000 mAh;Design compacto e leve;Proteção contra sobrecarga,sim`

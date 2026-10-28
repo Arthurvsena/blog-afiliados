@@ -5,9 +5,10 @@ descricao: "Como escolher power bank: quantos mAh você precisa, potência em wa
 palavra_chave: "como escolher power bank"
 subnicho: power-banks-carregadores
 tipo: guia
-produtos: []
+produtos: [ugreen-pb311-10000-20w]
 publicado: 2026-10-28
 atualizado: 2026-10-28
+capa_frase: "Quantos mAh você precisa de verdade"
 faq:
   - pergunta: "Quantos mAh preciso para carregar meu celular uma vez?"
     resposta: "Pegue a bateria do seu celular em mAh e multiplique por 1,5. Um celular de 5.000 mAh precisa de um power bank de uns 7.500 mAh para uma carga completa, porque parte da energia se perde na conversão."
@@ -32,11 +33,17 @@ A conta rápida para não errar:
 | Uma carga completa e sobra | 10.000 mAh |
 | Duas cargas ou viagem de fim de semana | 20.000 mAh |
 | Celular + fone + smartwatch, vários dias | 20.000 a 27.000 mAh |
-
-Quem leva o fone Bluetooth junto também recarrega o estojo dele no power bank. Veja [como escolher um fone Bluetooth](/posts/como-escolher-fone-bluetooth/) para entender a autonomia real de cada formato.
 | Notebook com USB-C | 20.000 mAh ou mais **e** 45 W+ de saída |
 
-**Exemplo:** seu celular tem bateria de 5.000 mAh. Multiplique por 1,5 e você chega a cerca de 7.500 mAh para uma carga completa. Um modelo de 10.000 mAh resolve com folga. Um de 20.000 mAh dá umas duas cargas e meia.
+Quem leva o fone Bluetooth junto também recarrega o estojo dele no power bank. Veja [como escolher um fone Bluetooth](/posts/como-escolher-fone-bluetooth/) para entender a autonomia real de cada formato.
+
+:::dica Atalho da conta
+Multiplique a bateria do celular (em mAh) por 1,5 para saber o mínimo de um power bank que dê uma carga completa.
+:::
+
+### Exemplo na prática
+
+Seu celular tem bateria de 5.000 mAh. Multiplique por 1,5 e você chega a cerca de 7.500 mAh para uma carga completa. Um modelo de 10.000 mAh resolve com folga; o {{link:ugreen-pb311-10000-20w|Ugreen PB311}} é um exemplo dessa faixa. Um de 20.000 mAh dá umas duas cargas e meia.
 
 Lembre também do peso: um power bank de 10.000 mAh costuma pesar perto de 200 g. Um de 20.000 mAh passa facilmente de 350 g. Se ele vai no bolso, menos é mais.
 
@@ -55,7 +62,7 @@ Um detalhe que pega muita gente: a potência máxima costuma valer **só para um
 
 Ter watts não basta: o power bank e o celular precisam "falar a mesma língua". Os padrões mais comuns:
 
-- **USB Power Delivery (PD):** o padrão universal do USB-C. Funciona com iPhone (do 8 em diante, com cabo USB-C para Lightning ou USB-C), Samsung, Motorola, Xiaomi e notebooks. **Se for escolher só um, escolha PD.**
+- **USB Power Delivery (PD):** o padrão universal do USB-C. Funciona com iPhone (do 8 em diante, com cabo USB-C para Lightning ou USB-C), Samsung, Motorola, Xiaomi e notebooks. **Se for escolher só um, escolha PD.** Um exemplo com USB-C PD de 20 W é o {{link:ugreen-pb311-10000-20w|Ugreen PB311}}.
 - **Quick Charge (QC):** padrão da Qualcomm, comum em Android e saídas USB-A.
 - **PPS:** extensão do PD usada pela carga "super rápida" de vários Samsung. Sem PPS, um Galaxy carrega bem, mas não na velocidade máxima.
 - **Padrões proprietários** (como os de algumas marcas chinesas, com 60 W ou mais): só funcionam no máximo com o carregador e o cabo da própria marca.
@@ -71,7 +78,9 @@ Power bank é uma bateria de lítio grande no seu bolso ou na sua mochila. Econo
 3. **Desconfie de capacidades mágicas:** um "power bank de 50.000 mAh" fino e leve por preço de 10.000 mAh quase sempre mente. As células têm limite físico de densidade, e peso baixo demais denuncia capacidade falsa.
 4. **Reputação do vendedor:** no marketplace, prefira loja oficial ou vendedor com muitas vendas e avaliações recentes.
 
-Se o seu power bank **estufar, esquentar demais ou cheirar a queimado**, pare de usar na hora e descarte em um ponto de coleta de eletrônicos. Não jogue no lixo comum.
+:::atencao Bateria estufada
+Se o power bank **estufar, esquentar demais ou cheirar a queimado**, pare de usar na hora e descarte em um ponto de coleta de eletrônicos. Não jogue no lixo comum.
+:::
 
 ## Viagem de avião: as regras que valem
 
@@ -102,4 +111,28 @@ Várias companhias também passaram a restringir o **uso** do power bank durante
 - [ ] Até 27.000 mAh, se você viaja de avião
 - [ ] Vendedor com boa reputação e avaliações recentes
 
-Resumindo: para a maioria das pessoas, a melhor escolha é um power bank de **10.000 mAh com USB-C PD de 20 W** para o dia a dia, ou um de **20.000 mAh com 20–30 W** para quem viaja ou usa mais de um aparelho.
+:::veredito
+Para a maioria, o ideal é 10.000 mAh com USB-C PD de 20 W no dia a dia, ou 20.000 mAh com 20 a 30 W para quem viaja ou usa mais de um aparelho.
+:::
+
+## Nossas escolhas
+
+Por enquanto temos uma indicação no catálogo, para a faixa de uso diário:
+
+{{produto:ugreen-pb311-10000-20w}}
+
+:::pros
+- 10.000 mAh com USB-C Power Delivery de 20 W
+- Compacto, bom para celular e fones
+- Marca conhecida em carregadores
+:::
+
+:::contras
+- Não alimenta notebook
+- Com as duas portas em uso, a potência é dividida
+:::
+
+- **Se você quer um power bank para celular e fones no dia a dia**, vá de {{link:ugreen-pb311-10000-20w|ver o preço do Ugreen PB311}}.
+- **Se você viaja por vários dias ou carrega notebook**, ele não é o ideal: precisa de mais mAh e mais watts, e ainda não temos um modelo assim cadastrado.
+
+Quer saber mais sobre o exemplo da primeira categoria? Leia nossa [review do power bank Ugreen PB311 de 10.000 mAh e 20 W](/posts/review-power-bank-ugreen-pb311-10000/).
