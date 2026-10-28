@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block titulo %}{% if titulo_pagina %}{{ titulo_pagina }} | {{ site.nome }}{% else %}{{ site.nome }}: eletrônicos custo-benefício{% endif %}{% endblock %}
+{% block conteudo %}
+<section class="hero">
+  <h1>{{ titulo_pagina or site.nome }}</h1>
+  <p>{{ site.descricao }}</p>
+</section>
+{% if posts %}
+<div class="grade">
+  {% for p in posts %}
+  <a class="cartao" href="{{ b }}/posts/{{ p.slug }}/">
+    <span class="etiqueta">{{ subnichos.get(p.subnicho, '') }}</span>
+    <h2>{{ p.titulo }}</h2>
+    <p>{{ p.descricao }}</p>
+    <span class="data">{{ p.atualizado or p.publicado }}</span>
+  </a>
+  {% endfor %}
+</div>
+{% else %}
+<p class="vazio">Nenhum post por aqui ainda. Volte amanhã!</p>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,2 @@
+# Diário da rotina
+

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block titulo %}{{ post.titulo }} | {{ site.nome }}{% endblock %}
+{% block descricao %}{{ post.descricao }}{% endblock %}
+{% block head %}<script type="application/ld+json">{{ json_ld | safe }}</script>{% endblock %}
+{% block conteudo %}
+<article class="post">
+  <p class="trilha"><a href="{{ b }}/">Início</a> › <a href="{{ b }}/categoria/{{ post.subnicho }}/">{{ subnichos.get(post.subnicho, '') }}</a></p>
+  <h1>{{ post.titulo }}</h1>
+  <p class="datas">Publicado em {{ post.publicado }}{% if post.atualizado and post.atualizado != post.publicado %} · Atualizado em {{ post.atualizado }}{% endif %}</p>
+  {% if tem_produto %}<p class="aviso">Este post tem links de afiliado: se você comprar por eles, ganhamos uma pequena comissão sem custo extra para você.</p>{% endif %}
+  {{ conteudo | safe }}
+  {% if post.faq %}
+  <section class="faq">
+    <h2>Perguntas frequentes</h2>
+    {% for f in post.faq %}<details><summary>{{ f.pergunta }}</summary><p>{{ f.resposta }}</p></details>{% endfor %}
+  </section>
+  {% endif %}
+</article>
+{% if relacionados %}
+<aside class="relacionados">
+  <h2>Leia também</h2>
+  <ul>{% for r in relacionados %}<li><a href="{{ b }}/posts/{{ r.slug }}/">{{ r.titulo }}</a></li>{% endfor %}</ul>
+</aside>
+{% endif %}
+{% endblock %}

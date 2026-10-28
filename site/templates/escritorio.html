@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Escritório | {{ site.nome }}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#0e1020; --painel:#181b33; --borda:#3b4175; --texto:#e6e8ff; --suave:#9aa0d0;
+          --ok:#5ee08a; --ocioso:#ffd166; --erro:#ff5d73; --destaque:#7aa2ff; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--texto); font:22px/1.25 "VT323", monospace; }
+  .wrap { max-width:1100px; margin:0 auto; padding:16px; }
+  header { display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:14px; }
+  h1, h2 { font-family:"Press Start 2P", monospace; font-weight:400; margin:0; }
+  h1 { font-size:clamp(13px,2.4vw,20px); color:var(--ocioso); text-shadow:3px 3px 0 #000; }
+  h2 { font-size:12px; color:var(--destaque); margin:26px 0 12px; }
+  a { color:var(--destaque); }
+  .ultima { color:var(--suave); font-size:20px; }
+  .cena { position:relative; border:4px solid var(--borda); box-shadow:0 0 0 4px #000, 8px 8px 0 4px #000; background:#000; }
+  canvas { display:block; width:100%; image-rendering:pixelated; image-rendering:crisp-edges; }
+  .rotulo { position:absolute; transform:translate(-50%,-100%); background:#fff; color:#111; border:2px solid #000;
+            padding:1px 6px 2px; font-size:clamp(11px,1.6vw,19px); white-space:nowrap; cursor:pointer; pointer-events:auto; }
+  .rotulo::after { content:""; position:absolute; left:50%; bottom:-6px; margin-left:-4px; border:4px solid transparent; border-top-color:#000; }
+  .rotulo .pt { display:inline-block; width:8px; height:8px; margin-right:5px; border:1px solid #000; }
+  .rotulo.ativo { background:var(--ocioso); }
+  .sobre { position:absolute; color:#1b2a12; font-size:clamp(9px,1.35vw,17px); line-height:1.05; pointer-events:none; }
+  .relogio { position:absolute; color:#7dff9b; font-family:"Press Start 2P",monospace; font-size:clamp(5px,0.9vw,10px); transform:translate(-50%,-50%); pointer-events:none; }
+  .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; }
+  .stat { background:var(--painel); border:3px solid var(--borda); padding:10px 12px; box-shadow:4px 4px 0 #000; }
+  .stat b { display:block; font-family:"Press Start 2P",monospace; font-size:20px; color:var(--ocioso); margin-bottom:6px; }
+  .equipe { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:12px; }
+  .agente { background:var(--painel); border:3px solid var(--borda); padding:12px; box-shadow:4px 4px 0 #000; cursor:pointer; }
+  .agente.ativo { border-color:var(--ocioso); }
+  .agente .nome { font-family:"Press Start 2P",monospace; font-size:10px; display:flex; align-items:center; gap:8px; margin-bottom:8px; }
+  .agente .cor { width:14px; height:14px; border:2px solid #000; flex-shrink:0; }
+  .agente .cargo { color:var(--suave); font-size:18px; }
+  .agente .tarefa { margin-top:6px; }
+  .st { font-size:17px; padding:0 6px; border:2px solid #000; color:#000; }
+  .st.ok { background:var(--ok); } .st.ocioso { background:var(--ocioso); } .st.erro { background:var(--erro); }
+  .log { background:#05060d; border:3px solid var(--borda); padding:12px 14px; max-height:340px; overflow:auto; box-shadow:4px 4px 0 #000; }
+  .log div { padding:2px 0; border-bottom:1px dashed #1f2340; }
+  .log .d { color:var(--suave); } .log .a { color:var(--ocioso); }
+  .vazio { color:var(--suave); }
+  footer { color:var(--suave); margin:30px 0 10px; font-size:18px; }
+  @media (max-width:640px) { .rotulo .txt { display:none; } .rotulo .pt { margin:0; } .sobre { display:none; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>▶ ESCRITÓRIO {{ site.nome | upper }}</h1>
+    <span class="ultima" id="ultima"></span>
+  </header>
+
+  <div class="cena" id="cena-box">
+    <canvas id="cena" aria-label="Escritório em pixel art com os agentes do blog trabalhando"></canvas>
+  </div>
+
+  <h2>QUADRO DE METAS</h2>
+  <div class="stats" id="stats"></div>
+
+  <h2>EQUIPE</h2>
+  <div class="equipe" id="equipe"></div>
+
+  <h2>REGISTRO</h2>
+  <div class="log" id="log"></div>
+
+  <footer>Atualizado automaticamente pela rotina diária · <a href="{{ b }}/">voltar ao blog</a></footer>
+</div>
+
+<script id="dados" type="application/json">{{ dados_json | safe }}</script>
+<script>
+(() => {
+const D = JSON.parse(document.getElementById('dados').textContent);
+const W = 384, H = 216;
+const cv = document.getElementById('cena'), box = document.getElementById('cena-box');
+cv.width = W; cv.height = H;
+const g = cv.getContext('2d');
+const P = (c, x, y, w = 1, h = 1) => { g.fillStyle = c; g.fillRect(Math.round(x), Math.round(y), w, h); };
+
+// ---------- equipe (personagens originais) ----------
+const AG = [
+  { id:'pesquisador', nome:'Pesquisador', cargo:'Caça pautas no Google', x:70,  y:100,  cam:'#3d7be0', cab:'#2e1d12', pele:'#f1c29b', acc:'oculos', luz:'#7fd0ff' },
+  { id:'curador',     nome:'Curador',     cargo:'Escolhe os produtos',  x:185, y:100,  cam:'#e0803d', cab:'#c9a227', pele:'#d9a074', acc:'bone',   luz:'#ffd27f', aux:'#c23b3b' },
+  { id:'redator',     nome:'Redator',     cargo:'Escreve os posts',     x:300, y:100,  cam:'#8a4fd6', cab:'#151515', pele:'#8d5a3b', acc:'fone',   luz:'#d6a6ff', aux:'#5ee08a' },
+  { id:'seo',         nome:'Estrategista SEO', cargo:'Leva o blog ao topo do Google', x:127, y:170, cam:'#2bb39a', cab:'#7a2f1f', pele:'#f3d0b0', acc:'coque', luz:'#8affd9' },
+  { id:'atualizador', nome:'Atualizador', cargo:'Mantém posts frescos', x:243, y:170, cam:'#d64f7a', cab:'#5a5a5a', pele:'#e2b28c', acc:'barba',  luz:'#ffa6c4' },
+];
+const CHEFE = { id:'chefe', nome:'Editor-chefe', cargo:'Coordena a rotina', cam:'#2a2f45', cab:'#3b2a20', pele:'#e8b98f', acc:'gravata', aux:'#ff5d73' };
+AG.forEach((a, i) => a.seed = i * 37);
+
+const agoraSP = () => new Date(new Date().toLocaleString('en-US', { timeZone:'America/Sao_Paulo' }));
+const hojeSP = () => { const d = agoraSP(); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; };
+const info = id => (D.agentes && D.agentes[id]) || { status:'ocioso', tarefa:'Aguardando a primeira rotina.' };
+const rodouHoje = () => (D.ultima_execucao || '').slice(0,10) === hojeSP();
+const noite = () => { const h = agoraSP().getHours(); return h >= 20 || h < 7; };
+
+function estado(id) {
+  const s = info(id).status;
+  if (s === 'erro') return 'erro';
+  if (noite()) return 'dormindo';
+  if (s === 'ok' && rodouHoje()) return 'trabalhando';
+  return 'ocioso';
+}
+
+// ---------- cenário ----------
+function fundo(t) {
+  const n = noite();
+  P('#2b3a55', 0, 0, W, 72);                                   // parede
+  for (let x = 0; x < W; x += 24) P('#2f4060', x, 0, 12, 72);  // listras
+  P('#1d2738', 0, 70, W, 4);                                   // rodapé
+  for (let y = 74; y < H; y += 16) for (let x = 0; x < W; x += 16)
+    P(((x + y) / 16) % 2 ? '#5b4636' : '#634d3b', x, y, 16, 16); // piso
+  // janela
+  P('#10141f', 148, 8, 92, 50);
+  P(n ? '#0f1a3a' : '#8fd3ff', 151, 11, 86, 44);
+  if (n) { for (let i = 0; i < 14; i++) P((t / 8 + i) % 9 < 1 ? '#fff' : '#c8d2ff', 153 + (i * 29) % 82, 13 + (i * 17) % 22); P('#f4f1c9', 220, 16, 7, 7); P('#0f1a3a', 222, 15, 6, 6); }
+  else { P('#ffe066', 214, 15, 10, 10); P('#ffffffcc', 160 + (t / 6) % 90, 20, 14, 4); P('#ffffffcc', 166 + (t / 6) % 90, 17, 8, 3); }
+  const pr = [[151,30,12],[163,24,10],[173,34,14],[187,20,12],[199,28,10],[209,36,12],[221,26,16]];
+  pr.forEach(([x,y,w]) => { P(n ? '#1b2440' : '#5d7a99', x, y, w, 55 - y);
+    for (let yy = y + 3; yy < 52; yy += 5) for (let xx = x + 2; xx < x + w - 2; xx += 4) if (n && (xx * yy) % 7 < 3) P('#ffd166', xx, yy, 2, 2); });
+  P('#10141f', 193, 11, 2, 44); P('#10141f', 151, 32, 86, 2);
+  // quadro de metas
+  P('#8a6a4a', 12, 8, 98, 54); P('#e9ecef', 15, 11, 92, 48);
+  P('#ff5d73', 98, 50, 6, 2); P('#3d7be0', 90, 50, 6, 2);
+  // relógio digital
+  P('#10141f', 256, 16, 44, 16); P('#03140a', 258, 18, 40, 12);
+  // estante de servidor
+  P('#1a1d26', 328, 10, 44, 62); P('#2a2e3b', 330, 12, 40, 58);
+  for (let r = 0; r < 5; r++) { P('#11131a', 332, 15 + r * 11, 36, 8);
+    for (let l = 0; l < 4; l++) P(((t + r * 3 + l * 5) % 14) < 7 ? '#5ee08a' : '#1d4d2c', 335 + l * 4, 18 + r * 11, 2, 2);
+    P(((t + r) % 30) < 2 ? '#ff5d73' : '#4a1520', 362, 18 + r * 11, 2, 2); }
+  // planta
+  P('#8a4b2a', 8, 186, 16, 14); P('#6e3b20', 8, 186, 16, 3);
+  [[10,170,4,16],[14,164,4,22],[19,172,4,14],[6,176,4,6],[22,178,4,6]].forEach(([x,y,w,h]) => P('#3fa34d', x, y, w, h));
+  P('#2d7a38', 15, 166, 2, 18);
+  // cafeteira
+  P('#4e3a2b', 344, 118, 38, 6); P('#3a2b20', 346, 124, 34, 30);
+  P('#2b2b2b', 352, 96, 22, 22); P('#555', 354, 99, 18, 6); P('#ff5d73', 369, 110, 2, 2);
+  P('#ddd', 359, 112, 6, 6); if (t % 16 < 8) P('#ffffff88', 361, 106 - (t % 8) / 2, 1, 3);
+  // tapete do corredor
+  P('#3a2f4a', 30, 138, 300, 20); P('#4a3d5e', 32, 140, 296, 16);
+}
+
+// ---------- pessoas ----------
+function pessoa(px, py, c, t, modo) {
+  const dorm = modo === 'dormindo', trab = modo === 'trabalhando';
+  const dy = dorm ? 2 : 0;
+  P(c.cam, px + 1, py + 9, 10, 8);                              // corpo
+  P(c.pele, px + 5, py + 9, 2, 1);                              // pescoço
+  if (c.acc === 'gravata') { P('#fff', px + 4, py + 9, 4, 3); P(c.aux, px + 5, py + 9, 2, 6); }
+  P(c.pele, px + 2, py + 2 + dy, 8, 7);                         // rosto
+  P(c.cab, px + 2, py + dy, 8, 3); P(c.cab, px + 2, py + 3 + dy, 1, 3); P(c.cab, px + 9, py + 3 + dy, 1, 3);
+  if (dorm) { P('#3a2a20', px + 3, py + 6 + dy, 2, 1); P('#3a2a20', px + 7, py + 6 + dy, 2, 1); }
+  else if ((t + c.seed) % 70 < 3) { P('#3a2a20', px + 3, py + 5, 2, 1); P('#3a2a20', px + 7, py + 5, 2, 1); }
+  else { P('#1b1b1b', px + 4, py + 4, 1, 2); P('#1b1b1b', px + 7, py + 4, 1, 2); }
+  P('#b5735a', px + 5, py + 7 + dy, 2, 1);
+  switch (c.acc) {
+    case 'oculos': P('#111', px + 3, py + 3, 3, 1); P('#111', px + 6, py + 3, 3, 1); P('#111', px + 3, py + 4, 1, 2); P('#111', px + 8, py + 4, 1, 2); break;
+    case 'bone': P(c.aux, px + 1, py - 1 + dy, 10, 3); P(c.aux, px + 9, py + 1 + dy, 4, 1); break;
+    case 'fone': P('#222', px + 1, py - 1 + dy, 10, 1); P('#222', px + 1, py + dy, 1, 4); P('#222', px + 10, py + dy, 1, 4); P(c.aux, px, py + 3 + dy, 2, 3); P(c.aux, px + 10, py + 3 + dy, 2, 3); break;
+    case 'coque': P(c.cab, px + 4, py - 3 + dy, 4, 3); break;
+    case 'barba': P(c.cab, px + 2, py + 7 + dy, 8, 2); P(c.pele, px + 5, py + 7 + dy, 2, 1); break;
+    case 'gravata': P(c.cab, px + 3, py - 1, 6, 1); break;
+  }
+  // braços
+  const f = Math.floor((t + c.seed) / 3) % 2;
+  if (trab) {
+    P(c.cam, px - 1, py + 10, 2, 5); P(c.cam, px + 11, py + 10, 2, 5);
+    P(c.pele, px, py + 14 - f, 3, 2); P(c.pele, px + 9, py + 13 + f, 3, 2);
+  } else if (modo === 'ocioso' && (t + c.seed * 3) % 120 < 40) {      // gole de café
+    P(c.cam, px - 1, py + 10, 2, 5); P(c.cam, px + 10, py + 6, 2, 5);
+    P(c.pele, px + 9, py + 5, 3, 2); P('#eee', px + 9, py + 3, 3, 3);
+  } else { P(c.cam, px - 1, py + 10, 2, 6); P(c.cam, px + 11, py + 10, 2, 6); }
+  if (dorm) zzz(px + 12, py - 4, t + c.seed);
+  if (modo === 'erro') { P('#ff5d73', px + 5, py - 9, 2, 5); P('#ff5d73', px + 5, py - 3, 2, 2); }
+}
+
+function zzz(x, y, t) {
+  const o = (t / 4) % 12;
+  const z = [[0,0],[1,0],[2,0],[1,1],[0,2],[1,2],[2,2]];
+  z.forEach(([a,b]) => P('#c8d2ff', x + a + o / 4, y + b - o / 2, 1, 1));
+}
+
+function mesa(a, t, modo) {
+  g.save(); g.translate(a.x, a.y); g.scale(2, 2);
+  const x = 0, y = 0;
+  const px = x - 6, py = y - 14;
+  pessoa(px, py, a, t, modo);
+  if (modo === 'trabalhando' && t % 10 < 8) { g.fillStyle = a.luz + '44'; g.fillRect(px + 8, py + 1, 6, 10); }
+  P('#c9ccd3', x + 6, y - 10, 13, 10); P('#aeb3bd', x + 6, y - 10, 13, 1); P('#fff', x + 12, y - 6, 1, 1); // notebook (traseira)
+  P('#9aa0aa', x + 4, y - 1, 16, 1);
+  P('#8a5a33', x - 20, y, 42, 4); P('#6b4425', x - 20, y + 4, 42, 11); P('#5a381d', x - 20, y + 4, 42, 1);
+  P('#4e3019', x - 19, y + 15, 3, 2); P('#4e3019', x + 18, y + 15, 3, 2);
+  P('#e8e8e8', x - 17, y - 3, 3, 3); P('#6b3a1f', x - 16, y - 3, 1, 1);    // caneca
+  if (modo === 'trabalhando' && t % 12 < 6) P('#ffffff99', x - 16, y - 6 - (t % 6) / 3, 1, 2);
+  if (a.id === 'redator') { P('#fff', x - 12, y - 2, 6, 2); P('#fff', x - 11, y - 3, 6, 1); }   // papéis
+  if (a.id === 'curador') { P('#c48a4a', x - 13, y - 5, 7, 5); P('#8a5a2a', x - 13, y - 3, 7, 1); } // caixa
+  g.restore();
+}
+
+// ---------- editor-chefe andando ----------
+const ROTA = [[70,152],[185,152],[300,152],[300,214],[243,214],[127,214],[40,214]];
+let chefe = { x:70, y:152, alvo:1, pausa:0 };
+function moverChefe() {
+  if (noite()) return;
+  if (chefe.pausa > 0) { chefe.pausa--; return; }
+  const [tx, ty] = ROTA[chefe.alvo];
+  const dx = tx - chefe.x, dy = ty - chefe.y, d = Math.hypot(dx, dy);
+  if (d < 1) { chefe.alvo = (chefe.alvo + 1) % ROTA.length; chefe.pausa = 45; return; }
+  chefe.x += dx / d * 1.2; chefe.y += dy / d * 1.2;
+}
+function desenharChefe(t) {
+  const cx = noite() ? 362 : chefe.x, cy = noite() ? 210 : chefe.y;
+  g.save(); g.translate(cx, cy); g.scale(2, 2);
+  const px = -6, py = -22;
+  const andando = chefe.pausa === 0 && !noite();
+  const f = andando ? Math.floor(t / 4) % 2 : 0;
+  P('#1d2030', px + 2, py + 17, 3, 4 + f); P('#1d2030', px + 7, py + 17, 3, 5 - f);
+  P('#111', px + 1, py + 20 + f, 4, 2); P('#111', px + 7, py + 21 - f, 4, 2);
+  pessoa(px, py, { ...CHEFE, seed:5 }, t, noite() ? 'dormindo' : 'ocioso');
+  if (!andando && !noite()) { P('#fff', px + 13, py - 6, 9, 7); P('#111', px + 17, py - 5, 1, 3); P('#111', px + 17, py - 1, 1, 1); }
+  g.restore();
+}
+
+// ---------- loop ----------
+let t = 0;
+function quadro() {
+  fundo(t);
+  AG.slice(0, 3).forEach(a => mesa(a, t, estado(a.id)));
+  if (chefe.y < 190 && !noite()) desenharChefe(t);
+  AG.slice(3).forEach(a => mesa(a, t, estado(a.id)));
+  if (chefe.y >= 190 || noite()) desenharChefe(t);
+  if (noite()) { g.fillStyle = 'rgba(10,14,40,.38)'; g.fillRect(0, 0, W, H); }
+  moverChefe(); t++;
+}
+setInterval(quadro, 1000 / 15);
+
+// ---------- sobreposições HTML ----------
+const pct = (v, m) => (v / m * 100) + '%';
+function rotulos() {
+  AG.forEach(a => {
+    const el = document.createElement('div');
+    el.className = 'rotulo'; el.dataset.id = a.id;
+    el.style.left = pct(a.x, W); el.style.top = pct(a.y - 34, H);
+    const st = estado(a.id);
+    const cor = { trabalhando:'#5ee08a', ocioso:'#ffd166', dormindo:'#9aa0d0', erro:'#ff5d73' }[st];
+    el.innerHTML = `<span class="pt" style="background:${cor}"></span><span class="txt">${a.nome}</span>`;
+    el.title = info(a.id).tarefa || '';
+    el.onclick = () => destacar(a.id);
+    box.appendChild(el);
+  });
+  const quadroTxt = document.createElement('div');
+  quadroTxt.className = 'sobre';
+  quadroTxt.style.left = pct(18, W); quadroTxt.style.top = pct(13, H);
+  const m = D.metricas || {};
+  quadroTxt.innerHTML = `META: ${m.meta_dia ?? 1} POST/DIA<br>POSTS: ${m.posts ?? 0}<br>FILA: ${m.fila ?? 0}<br>PRODUTOS: ${m.produtos ?? 0}`;
+  box.appendChild(quadroTxt);
+  const rel = document.createElement('div');
+  rel.className = 'relogio'; rel.style.left = pct(278, W); rel.style.top = pct(24, H);
+  box.appendChild(rel);
+  const tic = () => { const d = agoraSP(); rel.textContent = `${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`; };
+  tic(); setInterval(tic, 10000);
+}
+
+function destacar(id) {
+  document.querySelectorAll('[data-id]').forEach(e => e.classList.toggle('ativo', e.dataset.id === id));
+  const card = document.querySelector(`.agente[data-id="${id}"]`);
+  if (card) card.scrollIntoView({ behavior:'smooth', block:'nearest' });
+}
+
+function paineis() {
+  const m = D.metricas || {};
+  document.getElementById('stats').innerHTML = [
+    [m.posts ?? 0, 'posts publicados'], [m.posts_7d ?? 0, 'posts nos últimos 7 dias'],
+    [m.fila ?? 0, 'pautas na fila'], [m.produtos ?? 0, 'produtos com link'],
+  ].map(([n, r]) => `<div class="stat"><b>${n}</b>${r}</div>`).join('');
+
+  const rotulo = { trabalhando:'TRABALHOU HOJE', ocioso:'SEM TAREFA HOJE', dormindo:'DORMINDO', erro:'PRECISA DE AJUDA' };
+  const classe = { trabalhando:'ok', ocioso:'ocioso', dormindo:'ocioso', erro:'erro' };
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;' }[c]));
+  document.getElementById('equipe').innerHTML = [CHEFE, ...AG].map(a => {
+    const st = a.id === 'chefe' ? (info('chefe').status === 'erro' ? 'erro' : (rodouHoje() ? 'trabalhando' : 'ocioso')) : estado(a.id);
+    return `<div class="agente" data-id="${a.id}">
+      <div class="nome"><span class="cor" style="background:${a.cam}"></span>${a.nome.toUpperCase()}</div>
+      <div class="cargo">${a.cargo}</div>
+      <span class="st ${classe[st]}">${rotulo[st]}</span>
+      <div class="tarefa">${esc(info(a.id).tarefa)}</div></div>`;
+  }).join('');
+  document.querySelectorAll('.agente').forEach(e => e.onclick = () => destacar(e.dataset.id));
+
+  const h = (D.historico || []).slice().reverse();
+  document.getElementById('log').innerHTML = h.length
+    ? h.map(e => `<div><span class="d">[${esc(e.data)}]</span> <span class="a">${esc((e.agente || '').toUpperCase())}</span> ${esc(e.texto)}</div>`).join('')
+    : '<div class="vazio">&gt; Nenhum registro ainda. A primeira rotina roda amanhã cedo._</div>';
+
+  const u = D.ultima_execucao;
+  document.getElementById('ultima').textContent = u ? `Última rotina: ${u.replace('T', ' ').slice(0, 16)}` : 'Aguardando a primeira rotina';
+}
+
+rotulos(); paineis(); quadro();
+})();
+</script>
+</body>
+</html>

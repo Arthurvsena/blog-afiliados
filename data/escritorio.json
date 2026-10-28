@@ -1,0 +1,12 @@
+{
+  "ultima_execucao": "",
+  "agentes": {
+    "chefe": {"status": "ocioso", "tarefa": "Aguardando a primeira rotina diária."},
+    "pesquisador": {"status": "ocioso", "tarefa": "Aguardando a primeira rotina diária."},
+    "curador": {"status": "ocioso", "tarefa": "Aguardando a primeira rotina diária."},
+    "redator": {"status": "ocioso", "tarefa": "Aguardando a primeira rotina diária."},
+    "seo": {"status": "ocioso", "tarefa": "Aguardando a primeira rotina diária."},
+    "atualizador": {"status": "ocioso", "tarefa": "Aguardando a primeira rotina diária."}
+  },
+  "historico": []
+}

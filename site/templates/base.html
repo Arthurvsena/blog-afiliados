@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="{{ site.idioma }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block titulo %}{{ site.nome }}{% endblock %}</title>
+<meta name="description" content="{% block descricao %}{{ site.descricao }}{% endblock %}">
+<link rel="canonical" href="{{ url }}">
+{% block robots %}{% endblock %}
+{% if site.google_verificacao %}<meta name="google-site-verification" content="{{ site.google_verificacao }}">{% endif %}
+<meta property="og:site_name" content="{{ site.nome }}">
+<meta property="og:url" content="{{ url }}">
+<meta property="og:title" content="{{ self.titulo() }}">
+<meta property="og:description" content="{{ self.descricao() }}">
+<link rel="stylesheet" href="{{ b }}/static/style.css">
+{% block head %}{% endblock %}
+</head>
+<body>
+<header class="topo">
+  <div class="wrap">
+    <a class="logo" href="{{ b }}/">⚡ {{ site.nome }}</a>
+    <nav>
+      {% for slug, nome in subnichos.items() %}<a href="{{ b }}/categoria/{{ slug }}/">{{ nome }}</a>{% endfor %}
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+{% block conteudo %}{% endblock %}
+</main>
+<footer class="rodape">
+  <div class="wrap">
+    <p><strong>Transparência:</strong> participamos do programa de afiliados do Mercado Livre. Se você comprar por um link do site, podemos receber uma comissão, sem custo extra para você. Isso não muda nossas recomendações.</p>
+    <p>© {{ ano }} {{ site.nome }} · <a href="{{ b }}/sobre/">Sobre</a> · <a href="{{ b }}/privacidade/">Privacidade</a></p>
+  </div>
+</footer>
+</body>
+</html>

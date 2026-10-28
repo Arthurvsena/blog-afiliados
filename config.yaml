@@ -1,0 +1,36 @@
+# ==========================================================
+#  CONFIGURAÇÃO DO BLOG — edite só este arquivo no dia a dia
+# ==========================================================
+
+site:
+  nome: "Tech Barato BR"
+  descricao: "Reviews, comparativos e listas dos melhores eletrônicos custo-benefício do Mercado Livre."
+  url_base: "https://arthurvsena.github.io/blog-afiliados"
+  autor: "Equipe Tech Barato BR"
+  idioma: "pt-BR"
+  # Código do Google Search Console (passo 8 do LEIAME.md). Deixe vazio até lá.
+  google_verificacao: ""
+
+# O que a rotina diária faz. Cada post consome parte do limite de uso
+# da sua assinatura do Claude, então comece devagar.
+rotina:
+  posts_novos_por_dia: 1
+  atualizacoes_por_dia: 1
+  palavras_minimas: 900
+
+subnichos:
+  - slug: fones-caixas-bluetooth
+    nome: "Fones e Caixas de Som Bluetooth"
+    sementes: ["fone bluetooth", "fone de ouvido sem fio", "caixa de som bluetooth", "fone tws"]
+  - slug: power-banks-carregadores
+    nome: "Power Banks, Carregadores e Cabos"
+    sementes: ["power bank", "carregador turbo", "carregador usb c", "cabo usb c"]
+  - slug: smartwatches-smartbands
+    nome: "Smartwatches e Smartbands"
+    sementes: ["smartwatch barato", "smartband", "relógio inteligente", "mi band"]
+  - slug: acessorios-gamer
+    nome: "Acessórios Gamer"
+    sementes: ["headset gamer", "mouse gamer", "teclado mecânico", "teclado gamer"]
+  - slug: casa-inteligente
+    nome: "Casa Inteligente"
+    sementes: ["lâmpada inteligente", "tomada inteligente", "câmera wifi", "alexa compatível"]
