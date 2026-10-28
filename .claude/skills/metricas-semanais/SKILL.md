@@ -32,6 +32,20 @@ página**, as 10 páginas mais vistas, as principais origens (referrers) e a
 divisão celular/computador.
 Se não estiver configurado, registre "sem dado (Cloudflare não configurado)".
 
+## 3b. Buscas do Mercado Livre (só se o servidor foi bloqueado)
+Se `data/palavras.json` tiver `"_mercadolivre_bloqueado_no_servidor": true`,
+colete as buscas pelo navegador: abra `https://www.mercadolivre.com.br/` e, para
+cada semente de cada subnicho do `config.yaml`, combinada com os modificadores
+"", "melhor", "barato", "até 100", "até 200", "para iphone", "para samsung",
+rode no console da página:
+```js
+const r = await fetch('https://http2.mlstatic.com/resources/sites/MLB/autosuggest?showFilters=true&limit=10&api_version=2&q=' + encodeURIComponent(TERMO));
+(await r.json()).suggested_queries.map(s => s.q)
+```
+Grave tudo em `data/palavras_ml.json` no formato
+`{"slug-do-subnicho": ["busca 1", "busca 2", ...]}` e depois rode
+`python3 scripts/palavras.py` para juntar com o Google.
+
 ## 4. Grave os números
 Acrescente a semana em `data/metricas.json` (crie se não existir), mantendo as
 26 semanas mais recentes:

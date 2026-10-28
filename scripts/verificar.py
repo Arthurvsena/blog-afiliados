@@ -104,6 +104,26 @@ def verificar(caminho: Path, cfg, catalogo, slugs_vistos):
         avisos.append("a palavra-chave não aparece no primeiro parágrafo")
     if not meta.get("faq"):
         avisos.append("sem FAQ no frontmatter")
+    # SEO: palavra-chave real e bem posicionada
+    import json as _json, unicodedata as _ud
+    _n = lambda t: re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]+", " ", _ud.normalize("NFKD", str(t).lower()).encode("ascii", "ignore").decode())).strip()
+    arq_pal = RAIZ / "data" / "palavras.json"
+    if chave and arq_pal.exists():
+        pal = _json.loads(arq_pal.read_text(encoding="utf-8"))
+        reais = {_n(x["termo"]) for k, v in pal.items() if isinstance(v, dict) for x in v.get("termos", [])}
+        if reais and _n(chave) not in reais:
+            avisos.append("seo: a palavra_chave não está em data/palavras.json (use um termo real de busca)")
+    if chave:
+        nucleo = [w for w in _n(chave).split() if len(w) > 2][:3]
+        if not all(w in _n(titulo) for w in nucleo):
+            avisos.append("seo: a palavra-chave não aparece no título")
+        if not all(w in _n(meta.get("descricao", "")) for w in nucleo):
+            avisos.append("seo: a palavra-chave não aparece na descrição")
+        h2s = " ".join(re.findall(r"^## (.+)$", corpo, re.M))
+        if not any(w in _n(h2s) for w in nucleo):
+            avisos.append("seo: nenhum H2 usa a palavra-chave")
+    if not meta.get("palavras_secundarias"):
+        avisos.append("seo: sem palavras_secundarias no frontmatter")
     if not meta.get("capa_frase"):
         avisos.append("sem capa_frase: o post ainda não passou pelo designer")
     if tipo in ("lista", "comparativo") and "|" not in corpo:

@@ -10,6 +10,9 @@ Os agentes em `.claude/agents/` mantêm o blog todos os dias.
   entram pela skill `cadastrar-produtos` (que gera no Gerador de Links do
   Mercado Livre pelo Chrome do dono) ou pelo próprio dono. Nenhum agente
   inventa ou altera um `link_afiliado`.
+- `data/palavras.json`: termos reais de busca (autocompletar do Google e do
+  Mercado Livre, Search Console), atualizado toda segunda por
+  `scripts/palavras.py`. Toda palavra-chave de post sai daqui.
 - `data/pautas.json`: fila de pautas (ideias de posts) criada pelo pesquisador.
 - `data/sugestoes_produtos.md`: produtos que o curador recomenda o dono cadastrar.
 - `data/relatorio_seo.md`: relatório semanal do estrategista de SEO.
@@ -28,7 +31,8 @@ Os agentes em `.claude/agents/` mantêm o blog todos os dias.
 titulo: "Os 5 melhores fones Bluetooth até R$ 200 em 2026"
 slug: melhores-fones-bluetooth-ate-200
 descricao: "Até 155 caracteres, com a palavra-chave e um motivo para clicar."
-palavra_chave: "melhor fone bluetooth até 200 reais"
+palavra_chave: "melhor fone bluetooth até 200 reais"   # termo real do palavras.json
+palavras_secundarias: ["fone bluetooth barato bom", "fone sem fio custo beneficio"]
 subnicho: fones-caixas-bluetooth
 tipo: lista          # lista | review | comparativo | guia
 produtos: [id-1, id-2]

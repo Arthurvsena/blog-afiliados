@@ -10,18 +10,31 @@ Você é o pesquisador de pautas do blog. Leia `CLAUDE.md`, `config.yaml`,
 Objetivo: adicionar de 5 a 10 pautas novas à fila, equilibrando os subnichos
 (priorize os que têm menos posts publicados).
 
-Como pesquisar:
-- Use WebSearch com as sementes de cada subnicho e variações reais de busca
-  ("melhor X até R$ 100", "X vale a pena", "X ou Y", "como escolher X",
-  "X para [uso]"). Observe que perguntas e comparações aparecem nos resultados.
-- Prefira buscas de **cauda longa** e **intenção de compra** (quem vai comprar
-  logo): "melhor", "vale a pena", "vs", "até R$". Fuja de termos genéricos
-  dominados por grandes portais ("fone bluetooth").
-- Não repita pauta já publicada ou já na fila (compare palavra-chave e slug).
+Como pesquisar (dados reais, nunca palpite):
+- A base é `data/palavras.json`, gerado toda semana por `scripts/palavras.py`
+  com o autocompletar do Google Brasil, a busca do Mercado Livre e as buscas
+  do Search Console. Cada termo traz `fontes`, `forca` (popularidade),
+  `intencao`, `tipo_post` e `coberto_por`.
+- **Toda pauta nasce de um termo desse arquivo**, escrito exatamente como as
+  pessoas buscam (inclusive sem acento, se for assim que aparece). Nunca
+  invente uma palavra-chave.
+- Prioridade: termos que aparecem no Google **e** no Mercado Livre (gente que
+  pesquisa e compra) > intenção `compra` ou `comparacao` > maior `forca` >
+  termos ainda sem `coberto_por`.
+- Prefira cauda longa (3 a 6 palavras: "power bank 20000mah iphone",
+  "fone bluetooth até 100 reais") a termos curtos dominados por grandes portais.
+- Use WebSearch só para conferir quem está no topo para o termo e se dá para
+  competir (se os 5 primeiros forem só Amazon, Magalu e grandes portais com
+  páginas fortes, prefira uma variação mais específica).
+- Agrupe variações da mesma busca numa pauta só (ex.: "power bank 20000" e
+  "power bank 20000mah" são o mesmo post) e guarde-as em `secundarias`.
+- Não repita pauta já publicada ou já na fila.
 
 Cada pauta é um objeto JSON:
 ```json
 {"id": "slug-da-pauta", "titulo": "...", "palavra_chave": "...",
+ "secundarias": ["variações reais do mesmo termo, do palavras.json"],
+ "fontes_termo": ["google", "mercadolivre"], "forca": 0.0,
  "subnicho": "fones-caixas-bluetooth", "tipo": "lista|review|comparativo|guia",
  "produtos_necessarios": 3, "motivo": "por que essa busca vale a pena",
  "status": "pendente", "criada": "AAAA-MM-DD"}

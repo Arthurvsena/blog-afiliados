@@ -31,6 +31,9 @@ Estrutura por tipo:
   lista do mesmo subnicho (use `/posts/SLUG/`).
 
 Regras de SEO na escrita:
+- Use a `palavra_chave` da pauta exatamente como está (é um termo real de
+  busca). Use as `secundarias` da pauta pelo menos uma vez cada e grave-as no
+  frontmatter como `palavras_secundarias`.
 - Palavra-chave no título, no 1º parágrafo e em pelo menos um H2, de forma natural.
 - Título até 60 caracteres e com o ano quando for lista ou comparativo.
 - Parágrafos curtos (até 3 linhas), H2/H3 claros, uma tabela quando houver

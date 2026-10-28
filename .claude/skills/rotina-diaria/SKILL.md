@@ -17,7 +17,8 @@ pule etapas. Leia `CLAUDE.md` e `config.yaml` primeiro. Se existir
 escolher pautas e posts a melhorar.
 
 1. **Fila de pautas.** Conte as pautas `pendente` em `data/pautas.json`.
-   Se houver menos de 10, chame o subagente `pesquisador`.
+   Se houver menos de 10, chame o subagente `pesquisador`. Se
+   `data/palavras.json` não existir, rode antes `python3 scripts/palavras.py`.
 
 2. **Escolha das pautas do dia.** Separe `rotina.posts_novos_por_dia` pautas
    pendentes que já podem ser escritas: há produtos `ativo=sim` suficientes
