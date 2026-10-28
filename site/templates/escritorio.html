@@ -44,6 +44,21 @@
   .log div { padding:2px 0; border-bottom:1px dashed #1f2340; }
   .log .d { color:var(--suave); } .log .a { color:var(--ocioso); }
   .vazio { color:var(--suave); }
+  .plano { background:var(--painel); border:3px solid var(--borda); padding:6px 18px 14px; box-shadow:4px 4px 0 #000; }
+  .plano h1 { display:none; } .plano blockquote { margin:10px 0; color:var(--suave); }
+  .plano h2 { font-size:10px; color:var(--ocioso); margin:20px 0 8px; }
+  .plano table { width:100%; border-collapse:collapse; font-size:19px; }
+  .plano th, .plano td { border:2px solid var(--borda); padding:4px 8px; text-align:left; }
+  .plano th { color:var(--destaque); } .plano li { margin:4px 0; }
+  .mural { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:12px; }
+  .bilhete { padding:12px 14px; border:3px solid #000; box-shadow:4px 4px 0 #000; color:#1a1a1a; background:#fff6a8; transform:rotate(-.6deg); }
+  .bilhete:nth-child(even) { transform:rotate(.7deg); background:#c9f2ff; }
+  .bilhete.feito { background:#d6ffd8; opacity:.85; }
+  .bilhete .rota { font-family:"Press Start 2P",monospace; font-size:9px; display:flex; justify-content:space-between; gap:8px; margin-bottom:6px; }
+  .bilhete .meta-tag { background:#000; color:#fff; padding:1px 5px; }
+  .bilhete b { display:block; font-size:21px; margin-bottom:2px; }
+  .bilhete .resp { margin-top:6px; border-top:2px dashed #0005; padding-top:4px; font-size:18px; }
+  .rotulo .cartas { margin-left:5px; background:#ff5d73; color:#fff; padding:0 4px; font-size:.85em; }
   footer { color:var(--suave); margin:30px 0 10px; font-size:18px; }
   @media (max-width:640px) { .rotulo .txt { display:none; } .rotulo .pt { margin:0; } .sobre { display:none; } }
 </style>
@@ -64,6 +79,12 @@
 
   <h2>EQUIPE</h2>
   <div class="equipe" id="equipe"></div>
+
+  <h2>PLANO DA SEMANA</h2>
+  <div class="plano" id="plano"></div>
+
+  <h2>MURAL DA EQUIPE</h2>
+  <div class="mural" id="mural"></div>
 
   <h2>REGISTRO</h2>
   <div class="log" id="log"></div>
@@ -256,7 +277,8 @@ function rotulos() {
     el.style.left = pct(a.x, W); el.style.top = pct(a.y - 34, H);
     const st = estado(a.id);
     const cor = { trabalhando:'#5ee08a', ocioso:'#ffd166', dormindo:'#9aa0d0', erro:'#ff5d73' }[st];
-    el.innerHTML = `<span class="pt" style="background:${cor}"></span><span class="txt">${a.nome}</span>`;
+    const cartas = (D.mural || []).filter(m => m.status === 'aberta' && (m.para === a.id)).length;
+    el.innerHTML = `<span class="pt" style="background:${cor}"></span><span class="txt">${a.nome}</span>${cartas ? `<span class="cartas" title="mensagens pendentes">✉${cartas}</span>` : ''}`;
     el.title = info(a.id).tarefa || '';
     el.onclick = () => destacar(a.id);
     box.appendChild(el);
@@ -307,6 +329,15 @@ function paineis() {
   document.getElementById('log').innerHTML = h.length
     ? h.map(e => `<div><span class="d">[${esc(e.data)}]</span> <span class="a">${esc((e.agente || '').toUpperCase())}</span> ${esc(e.texto)}</div>`).join('')
     : '<div class="vazio">&gt; Nenhum registro ainda. A primeira rotina roda amanhã cedo._</div>';
+
+  document.getElementById('plano').innerHTML = D.estrategia_html || '<p class="vazio">O plano sai na reunião de segunda.</p>';
+  const nomes = { chefe:'CHEFE', todos:'TODOS' }; [CHEFE, ...AG].forEach(a => nomes[a.id] = a.nome.toUpperCase());
+  const mur = D.mural || [];
+  document.getElementById('mural').innerHTML = mur.length ? mur.map(m => `<div class="bilhete${m.status !== 'aberta' ? ' feito' : ''}">
+      <div class="rota"><span>${esc(nomes[m.de] || m.de)} → ${esc(nomes[m.para] || m.para)}</span><span class="meta-tag">${esc((m.meta || '').toUpperCase())}</span></div>
+      <b>${esc(m.assunto)}</b>${esc(m.mensagem)}
+      ${m.resposta ? `<div class="resp">✔ ${esc(nomes[m.respondido_por] || '')}: ${esc(m.resposta)}</div>` : ''}</div>`).join('')
+    : '<p class="vazio">&gt; Sem mensagens no mural._</p>';
 
   const u = D.ultima_execucao;
   document.getElementById('ultima').textContent = u ? `Última rotina: ${u.replace('T', ' ').slice(0, 16)}` : 'Aguardando a primeira rotina';

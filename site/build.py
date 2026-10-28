@@ -450,6 +450,14 @@ def build():
         "produtos": len(catalogo),
         "meta_dia": cfg["rotina"]["posts_novos_por_dia"],
     }
+    est = RAIZ / "data" / "estrategia.md"
+    if est.exists():
+        escritorio["estrategia_html"] = markdown.markdown(est.read_text(encoding="utf-8"), extensions=["tables"])
+    mur = RAIZ / "data" / "mural.json"
+    if mur.exists():
+        msgs = json.loads(mur.read_text(encoding="utf-8")).get("mensagens", [])
+        escritorio["mural"] = [m for m in msgs if m.get("status") == "aberta"] + \
+            [m for m in msgs if m.get("status") != "aberta"][-12:][::-1]
     met = RAIZ / "data" / "metricas.json"
     if met.exists():
         hist = json.loads(met.read_text(encoding="utf-8")).get("semanas", [])

@@ -2,6 +2,8 @@
 name: metricas-semanais
 description: Coleta as métricas da semana pelo Chrome do dono (painel de afiliados do Mercado Livre, Google Search Console e Cloudflare Web Analytics), grava em data/metricas.json e chama o analista. Roda na tarefa agendada de segunda, no computador do dono.
 ---
+> Antes de começar, leia `data/estrategia.md` e rode `python3 scripts/mural.py listar --para analista`. Ao terminar, responda as mensagens que resolveu (`python3 scripts/mural.py responder ID --de analista --resposta "..."`) e, se algo travar uma meta, poste para o agente certo.
+
 # Métricas semanais (via Chrome)
 
 Você trabalha no Chrome real do dono, já logado nas contas. Só **lê** painéis:

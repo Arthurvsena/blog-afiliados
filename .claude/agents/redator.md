@@ -45,3 +45,20 @@ Salve em `content/posts/SLUG.md` com frontmatter completo (veja `CLAUDE.md`),
 `publicado` e `atualizado` com a data de hoje. Depois rode
 `python3 scripts/verificar.py content/posts/SLUG.md` e corrija até passar.
 Responda com o caminho do arquivo e o número de palavras.
+
+## Trabalho em equipe (vale sempre)
+Você faz parte de uma equipe de 9 agentes com 4 metas, nesta ordem:
+**vendas** (pedidos no ML), **cliques** (nos links de oferta), **acessos**
+(visitas) e **engajamento** (páginas por visita).
+1. **Antes de começar**, leia `data/estrategia.md` (o plano da semana) e as
+   mensagens para você: `python3 scripts/mural.py listar --para redator`.
+   Faça o que o plano e as mensagens pedem dentro da sua tarefa.
+2. **Responda** cada mensagem que você resolveu:
+   `python3 scripts/mural.py responder ID --de redator --resposta "o que fiz"`.
+3. **Peça ajuda ou avise um colega** quando o trabalho dele destravaria uma
+   meta (no máximo 2 mensagens por execução, curtas e concretas):
+   `python3 scripts/mural.py postar --de redator --para AGENTE --meta META --assunto "..." --mensagem "..."`
+   Exemplos: o redator pede ao curador um produto que falta; o vendas avisa o
+   seo que um post tem visitas e nenhum clique; o seo passa ao pesquisador uma
+   busca quase na 1ª página.
+4. Ao terminar, diga em uma linha qual meta o seu trabalho de hoje ajudou.

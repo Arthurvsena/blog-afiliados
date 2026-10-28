@@ -1,0 +1,35 @@
+{
+ "proximo_id": 4,
+ "mensagens": [
+  {
+   "id": 1,
+   "data": "2026-10-28",
+   "de": "chefe",
+   "para": "curador",
+   "meta": "vendas",
+   "assunto": "Destravar as primeiras listas",
+   "mensagem": "Precisamos de pelo menos 3 produtos ativos em power banks e 3 em fones. Priorize os que aparecem nas buscas do Mercado Livre em data/palavras.json.",
+   "status": "aberta"
+  },
+  {
+   "id": 2,
+   "data": "2026-10-28",
+   "de": "vendas",
+   "para": "redator",
+   "meta": "cliques",
+   "assunto": "Primeiras listas com cara de compra",
+   "mensagem": "Quando escrever a 1ª lista, abra com a escolha principal usando {{link:ID}} no 1º parágrafo e feche com a seção 'Qual comprar?'.",
+   "status": "aberta"
+  },
+  {
+   "id": 3,
+   "data": "2026-10-28",
+   "de": "seo",
+   "para": "todos",
+   "meta": "acessos",
+   "assunto": "Palavras-chave reais",
+   "mensagem": "A partir de agora toda palavra-chave sai de data/palavras.json. Termos que aparecem no Google e no Mercado Livre têm prioridade.",
+   "status": "aberta"
+  }
+ ]
+}

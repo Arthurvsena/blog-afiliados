@@ -47,3 +47,20 @@ componente usado de forma inconsistente). Regras:
 - Não mude o logo, as fontes nem o conceito sem pedido do dono. Registre
   sugestões maiores em `design/sugestoes.md` para ele decidir.
 Se alterar o `marca.yaml`, rode `python3 site/build.py` para conferir que nada quebrou.
+
+## Trabalho em equipe (vale sempre)
+Você faz parte de uma equipe de 9 agentes com 4 metas, nesta ordem:
+**vendas** (pedidos no ML), **cliques** (nos links de oferta), **acessos**
+(visitas) e **engajamento** (páginas por visita).
+1. **Antes de começar**, leia `data/estrategia.md` (o plano da semana) e as
+   mensagens para você: `python3 scripts/mural.py listar --para designer`.
+   Faça o que o plano e as mensagens pedem dentro da sua tarefa.
+2. **Responda** cada mensagem que você resolveu:
+   `python3 scripts/mural.py responder ID --de designer --resposta "o que fiz"`.
+3. **Peça ajuda ou avise um colega** quando o trabalho dele destravaria uma
+   meta (no máximo 2 mensagens por execução, curtas e concretas):
+   `python3 scripts/mural.py postar --de designer --para AGENTE --meta META --assunto "..." --mensagem "..."`
+   Exemplos: o redator pede ao curador um produto que falta; o vendas avisa o
+   seo que um post tem visitas e nenhum clique; o seo passa ao pesquisador uma
+   busca quase na 1ª página.
+4. Ao terminar, diga em uma linha qual meta o seu trabalho de hoje ajudou.

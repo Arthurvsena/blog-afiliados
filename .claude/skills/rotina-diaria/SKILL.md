@@ -12,9 +12,13 @@ allowed-tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch, Task, Agent, 
 > perdido. Só termine depois do último passo.
 
 Você é o editor-chefe do blog. Coordene os subagentes nesta ordem e não
-pule etapas. Leia `CLAUDE.md` e `config.yaml` primeiro. Se existir
-`data/relatorio_metricas.md`, leia também e use as recomendações dele para
-escolher pautas e posts a melhorar.
+pule etapas. Leia `CLAUDE.md`, `config.yaml` e **`data/estrategia.md`** (o
+plano da semana, com as 4 metas: vendas, cliques, acessos e engajamento)
+primeiro, e rode `python3 scripts/mural.py listar` para ver os pedidos
+abertos entre os agentes. Se existir `data/relatorio_metricas.md`, leia
+também. **Toda escolha do dia deve servir a uma aposta do plano**: pautas com
+`"prioridade": "alta"` vêm antes das outras, e ao chamar cada subagente diga
+qual aposta e quais mensagens do mural ele precisa atender.
 
 1. **Fila de pautas.** Conte as pautas `pendente` em `data/pautas.json`.
    Se houver menos de 10, chame o subagente `pesquisador`. Se
@@ -56,6 +60,10 @@ escolher pautas e posts a melhorar.
 7. **Checagem final.** Rode `python3 scripts/verificar.py` (sem argumentos,
    verifica tudo) e `python3 site/build.py`. Se algo falhar, corrija o post
    problemático. Se não der para corrigir, mova-o para `content/rascunhos/`.
+
+7b. **Mural.** Rode `python3 scripts/mural.py listar` de novo. Mensagens que
+   ninguém conseguiu resolver há mais de 3 dias: responda dizendo por quê e o
+   que fazer (ou reencaminhe para o agente certo).
 
 8. **Diário.** Acrescente ao fim de `data/diario.md` uma linha:
    `- AAAA-MM-DD: N posts novos (slugs), N atualizados, fila com N pautas, avisos: ...`

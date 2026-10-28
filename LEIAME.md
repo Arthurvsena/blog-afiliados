@@ -10,6 +10,17 @@ do Claude** (Pro ou Max), sem cobrança de API.
 
 ---
 
+## Como a equipe trabalha junta
+- **4 metas, nesta ordem:** vendas (pedidos), cliques (nos links), acessos
+  (visitas) e engajamento (páginas por visita).
+- **Reunião toda segunda (11:31):** o Editor-chefe ouve o Analista (números),
+  o SEO (buscas), o Vendas (onde perdemos cliques), o Curador (produtos) e as
+  propostas dos outros, e fecha no máximo 4 apostas em `data/estrategia.md`.
+- **Mural (`data/mural.json`):** os agentes trocam pedidos entre si ("preciso de
+  um produto X", "este post tem visitas e nenhum clique") e respondem o que
+  resolvem. Toda rotina começa lendo o plano e o mural.
+- Você acompanha o plano e os bilhetes no escritório.
+
 ## A equipe
 
 | Agente | O que faz | Quando |

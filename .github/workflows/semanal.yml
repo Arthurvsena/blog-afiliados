@@ -1,4 +1,4 @@
-name: Estratégia semanal de SEO
+name: Reunião semanal de estratégia
 
 on:
   schedule:
@@ -17,7 +17,7 @@ concurrency:
 jobs:
   estrategia:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 75
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -28,17 +28,17 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
 
-      - name: Estrategista e curador trabalham (Claude)
+      - name: Reunião da equipe (Claude)
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          prompt: "Execute a estratégia semanal do blog: leia o arquivo .claude/skills/estrategia-seo/SKILL.md e siga todos os passos dele até o fim, sem pular nenhum. Chame os subagentes sempre em primeiro plano (run_in_background false) e só termine depois do último passo: esta execução não tem continuação."
+          prompt: "Conduza a reunião semanal de estratégia do blog: leia o arquivo .claude/skills/estrategia-seo/SKILL.md e siga todos os passos dele até o fim, sem pular nenhum. Chame os subagentes sempre em primeiro plano (run_in_background false) e só termine depois do último passo: esta execução não tem continuação."
           claude_args: |
             --model sonnet
-            --max-turns 100
+            --max-turns 160
             --disallowedTools "ScheduleWakeup,Monitor,CronCreate"
-            --allowedTools "Skill,Read,Write,Edit,Glob,Grep,WebSearch,WebFetch,Task,Agent,Bash(python3 scripts/verificar.py:*),Bash(date:*),Bash(TZ=America/Sao_Paulo date:*)"
+            --allowedTools "Skill,Read,Write,Edit,Glob,Grep,WebSearch,WebFetch,Task,Agent,Bash(python3 scripts/verificar.py:*),Bash(python3 scripts/mural.py:*),Bash(python3 scripts/palavras.py:*),Bash(date:*),Bash(TZ=America/Sao_Paulo date:*)"
 
       - name: Salvar
         run: |

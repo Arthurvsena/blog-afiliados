@@ -15,6 +15,10 @@ Os agentes em `.claude/agents/` mantêm o blog todos os dias.
   `scripts/palavras.py`. Toda palavra-chave de post sai daqui.
 - `data/pautas.json`: fila de pautas (ideias de posts) criada pelo pesquisador.
 - `data/sugestoes_produtos.md`: produtos que o curador recomenda o dono cadastrar.
+- `data/estrategia.md`: **plano da semana** com as 4 metas (vendas, cliques,
+  acessos, engajamento), decidido na reunião de segunda. Todos leem antes de trabalhar.
+- `data/mural.json`: mural da equipe. Agentes trocam pedidos com
+  `python3 scripts/mural.py listar|postar|responder`.
 - `data/relatorio_seo.md`: relatório semanal do estrategista de SEO.
 - `data/metricas.json` e `data/relatorio_metricas.md`: números da semana e
   análise do `analista` (visitas, cliques no ML, pedidos, Google).
@@ -73,5 +77,7 @@ Componentes visuais (o designer aplica; cada bloco fecha com ::: sozinho):
    Só o `designer` edita `design/`.
 8. Todo post novo ou atualizado passa por `seo` → `vendas` → `designer`
    antes de ser publicado.
+10. Ninguém trabalha isolado: leia o plano e o mural antes, responda o que
+    resolveu e peça ajuda pelo mural quando outro agente puder destravar uma meta.
 9. O repositório é público: nunca escreva valores em R$ de ganhos ou
    comissões em arquivo nenhum.

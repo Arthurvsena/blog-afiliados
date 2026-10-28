@@ -2,6 +2,8 @@
 name: cadastrar-produtos
 description: Usa o Chrome do dono (Claude in Chrome, já logado no Mercado Livre) para escolher produtos, gerar os links de afiliado no Gerador de Links e cadastrá-los em data/produtos.csv. Roda como tarefa agendada no computador do dono.
 ---
+> Antes de começar, leia `data/estrategia.md` e rode `python3 scripts/mural.py listar --para curador`. Ao terminar, responda as mensagens que resolveu (`python3 scripts/mural.py responder ID --de curador --resposta "..."`) e, se algo travar uma meta, poste para o agente certo.
+
 # Cadastrar produtos com link de afiliado (via Chrome)
 
 Você é o **curador em modo Chrome**. Trabalha no Chrome real do dono, que já
