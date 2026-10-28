@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_vendas.html" import cartao_achado with context %}
 {% block titulo %}{{ site.nome }}: guias para comprar eletrônicos sem pagar a mais{% endblock %}
 {% block og_imagem %}<meta property="og:image" content="{{ base }}/capas/inicio.png">{% endblock %}
 {% block conteudo %}
@@ -11,11 +12,11 @@
   <h1 class="entrada" style="--i:1">Eletrônico bom,<br>sem pagar a mais.</h1>
   <p class="abertura-sub entrada" style="--i:2">Comparamos fones, power banks, smartwatches, acessórios gamer e casa inteligente pelo que entregam de verdade, com um veredito claro para cada bolso.</p>
   <div class="abertura-acoes entrada" style="--i:3">
-    <a class="btn btn-primario" href="#guias">Ver os guias</a>
-    <a class="btn btn-fantasma" href="{{ b }}/sobre/">Como escolhemos</a>
+    <a class="btn btn-primario" href="{% if achados %}#achados{% else %}#guias{% endif %}">{% if achados %}Ver os achados{% else %}Ver os guias{% endif %}</a>
+    <a class="btn btn-fantasma" href="#guias">Ler os guias</a>
   </div>
 
-  <div class="palco entrada" style="--i:4" aria-hidden="true">
+  <div class="palco entrada" style="--i:4">
     <div class="palco-objeto">
       <div class="objeto-anel"></div>
       <div class="objeto-corpo">
@@ -24,14 +25,15 @@
       </div>
     </div>
     {% if produto %}
-    <div class="flutuante flutuante-a">
+    <a class="flutuante flutuante-a" href="{{ produto.link_afiliado }}" target="_blank" rel="sponsored nofollow noopener" data-produto="{{ produto.id }}" tabindex="-1">
       <div class="flut-foto">{% if produto.imagem_url %}<img src="{{ produto.imagem_url }}" alt="" loading="lazy">{% endif %}</div>
       <div>
         <p class="flut-marca">{{ produto.marca }}</p>
         <p class="flut-nome">{{ produto.nome }}</p>
         <p class="flut-nota">{{ estrelas(produto.nota) | safe }} {{ produto.nota | replace('.', ',') }}</p>
+        <span class="flut-oferta">Ver oferta</span>
       </div>
-    </div>
+    </a>
     <div class="flutuante flutuante-b">
       <p class="flut-rotulo"><span class="ponto"></span>Veredito</p>
       <p class="flut-titulo">Vale a pena</p>
@@ -64,6 +66,18 @@
     {% endfor %}
   </div>
 </section>
+
+{% if achados %}
+<section class="secao" id="achados" aria-labelledby="achados-titulo">
+  <div class="secao-topo">
+    <h2 id="achados-titulo">Achados que valem o preço</h2>
+    <p>Os produtos com as melhores notas e mais avaliações entre os que analisamos. Confira o preço do dia no Mercado Livre.</p>
+  </div>
+  <div class="vitrine-achados">
+    {% for p in achados %}{{ cartao_achado(p, preco_br, milhar, estrelas, loop.index) }}{% endfor %}
+  </div>
+</section>
+{% endif %}
 
 <section class="secao" id="guias" aria-labelledby="guias-titulo">
   <div class="secao-topo">
@@ -124,7 +138,7 @@
 <section class="chamada" data-surgir>
   <h2>Antes de comprar, compare.</h2>
   <p>Um minuto de leitura pode economizar uma compra errada.</p>
-  <a class="btn btn-primario" href="#guias">Encontrar meu guia</a>
+  <a class="btn btn-primario" href="{% if achados %}#achados{% else %}#guias{% endif %}">Ver os mais bem avaliados</a>
 </section>
 {% endblock %}
 {% block scripts %}

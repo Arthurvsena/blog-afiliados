@@ -11,7 +11,7 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RAIZ / "site"))
-from build import TOKEN_PRODUTO, config, ler_post, produtos  # noqa: E402
+from build import TOKEN_BOTAO, TOKEN_LINK, TOKEN_PRODUTO, TOKENS_VENDA, config, ler_post, produtos  # noqa: E402
 
 OBRIGATORIOS = ["titulo", "slug", "descricao", "palavra_chave", "subnicho", "tipo", "publicado", "atualizado"]
 TIPOS = {"lista": 3, "comparativo": 2, "review": 1, "guia": 0}
@@ -55,13 +55,26 @@ def verificar(caminho: Path, cfg, catalogo, slugs_vistos):
         avisos.append(f"descrição com {len(desc)} caracteres (ideal 120–155)")
 
     usados = TOKEN_PRODUTO.findall(corpo)
-    for pid in usados:
-        if pid not in catalogo:
-            erros.append(f"produto '{pid}' não existe ou não está ativo com link no CSV")
+    for t in TOKENS_VENDA:
+        for m in t.finditer(corpo):
+            if m.group(1) not in catalogo:
+                erros.append(f"produto '{m.group(1)}' não existe ou não está ativo com link no CSV")
     if tipo in TIPOS and len(set(usados)) < TIPOS[tipo]:
         erros.append(f"post do tipo {tipo} precisa de {TIPOS[tipo]}+ produtos, tem {len(set(usados))}")
+    # vendas: chamadas de compra suficientes
+    ctas = sum(len(t.findall(corpo)) for t in TOKENS_VENDA)
+    links_texto = len(TOKEN_LINK.findall(corpo))
+    if tipo in ("lista", "comparativo", "review"):
+        if links_texto == 0:
+            avisos.append("vendas: nenhum {{link:ID}} no texto; cite o produto com link onde o leitor decide")
+        if ctas < len(set(usados)) * 2:
+            avisos.append(f"vendas: só {ctas} chamadas de compra para {len(set(usados))} produtos (ideal: 2+ por produto)")
+    elif tipo == "guia" and ctas == 0 and any(p.get("subnicho") == meta.get("subnicho") for p in catalogo.values()):
+        avisos.append("vendas: guia sem nenhuma chamada de compra, mas há produtos da categoria no catálogo")
 
-    texto = TOKEN_PRODUTO.sub("", corpo)
+    texto = corpo
+    for t in TOKENS_VENDA:
+        texto = t.sub("", texto)
     for padrao in PROIBIDOS:
         if re.search(padrao, texto, re.I):
             erros.append(f"texto proibido encontrado: /{padrao}/ (links de compra só via {{{{produto:ID}}}})")

@@ -11,13 +11,17 @@ allowed-tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch, Task, Agent, 
 > quando sua resposta final sair, a execução acaba e o trabalho pendente é
 > perdido. Só termine depois do último passo.
 
-1. Chame o subagente `seo` pedindo o **relatório semanal** (modo 2).
+0. Se `data/relatorio_metricas.md` existir, leia antes de tudo: ele traz os
+   números da semana (visitas, cliques e pedidos) e recomendações para cada agente.
+1. Chame o subagente `seo` pedindo o **relatório semanal** (modo 2), usando
+   também os dados de Google de `data/metricas.json`.
+1b. Chame o subagente `vendas` em modo **semanal** (modo 2).
 2. Chame o subagente `curador` para renovar `data/sugestoes_produtos.md`,
    priorizando os subnichos e as datas sazonais que o relatório apontou.
 2b. Chame o subagente `designer` em modo **marca** (modo 2).
 3. Acrescente ao fim de `data/diario.md`:
    `- AAAA-MM-DD (semanal): relatório SEO atualizado; prioridades: ...`
-4. Em `data/escritorio.json`, atualize `seo`, `curador` e `designer` (status `ok` e uma
+4. Em `data/escritorio.json`, atualize `seo`, `vendas`, `curador` e `designer` (status `ok` e uma
    frase sobre o que fizeram) e acrescente uma entrada no `historico` para
    cada um, mantendo as 60 mais recentes. Não mexa nos outros agentes.
 Termine com as 5 prioridades da semana.

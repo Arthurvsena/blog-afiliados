@@ -1,0 +1,17 @@
+{# Peças de venda reutilizáveis (agente Vendas) #}
+{% macro cartao_achado(p, preco_br, milhar, estrelas, posicao=None) -%}
+<article class="achado" style="--cat:{{ cats[p.subnicho].cor if p.subnicho in cats else '#7C5CFF' }}" data-surgir>
+  {% if posicao == 1 %}<span class="achado-selo"><span class="ponto"></span>Mais bem avaliado</span>{% endif %}
+  <a class="achado-foto" href="{{ p.link_afiliado }}" target="_blank" rel="sponsored nofollow noopener" tabindex="-1" aria-hidden="true" data-produto="{{ p.id }}">
+    {% if p.imagem_url %}<img src="{{ p.imagem_url }}" alt="" loading="lazy" width="200" height="200">{% endif %}
+  </a>
+  <p class="achado-marca">{{ p.marca }}</p>
+  <h3 class="achado-nome">{{ p.nome }}</h3>
+  {% if p.nota %}<p class="achado-nota">{{ estrelas(p.nota) | safe }} <strong>{{ p.nota | replace('.', ',') }}</strong>{% if p.avaliacoes %}<span class="achado-aval">{{ milhar(p.avaliacoes) }} avaliações</span>{% endif %}</p>{% endif %}
+  {% if p.destaques %}<p class="achado-destaque">{{ p.destaques[:2] | join(' · ') }}</p>{% endif %}
+  <div class="achado-rodape">
+    {% if p.preco %}<p class="achado-preco"><span>a partir de</span>{{ preco_br(p.preco) }}</p>{% endif %}
+    <a class="btn-comprar btn-pequeno" href="{{ p.link_afiliado }}" target="_blank" rel="sponsored nofollow noopener" data-produto="{{ p.id }}">Ver oferta</a>
+  </div>
+</article>
+{%- endmacro %}

@@ -28,6 +28,14 @@
     "designer": {
       "status": "ok",
       "tarefa": "Criei a identidade visual: logo de etiqueta com raio, paleta escura com violeta, Inter Tight e os blocos de prós, contras e veredito."
+    },
+    "vendas": {
+      "status": "ok",
+      "tarefa": "Entrei na equipe: o site agora tem vitrine de achados, links de oferta no texto e barra de compra fixa nos posts."
+    },
+    "analista": {
+      "status": "ocioso",
+      "tarefa": "Aguardando a primeira coleta de métricas (segunda-feira, 09:13)."
     }
   },
   "historico": [
@@ -55,6 +63,11 @@
       "data": "2026-10-28",
       "agente": "designer",
       "texto": "Criei a identidade visual do site e redesenhei todas as páginas."
+    },
+    {
+      "data": "2026-10-28",
+      "agente": "vendas",
+      "texto": "Entrei na equipe e coloquei vitrines e chamadas de compra no site."
     }
   ]
 }

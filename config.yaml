@@ -10,6 +10,8 @@ site:
   idioma: "pt-BR"
   # Código do Google Search Console (passo 8 do LEIAME.md). Deixe vazio até lá.
   google_verificacao: ""
+  # Token do Cloudflare Web Analytics (passo 9 do LEIAME.md). Vazio = sem contador.
+  cloudflare_token: ""
 
 # O que a rotina diária faz. Cada post consome parte do limite de uso
 # da sua assinatura do Claude, então comece devagar.

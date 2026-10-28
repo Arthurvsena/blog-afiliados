@@ -2,8 +2,10 @@
 
 Uso: python3 site/build.py
 """
+import base64
 import csv
 import datetime as dt
+import os
 import html
 import json
 import re
@@ -18,6 +20,10 @@ RAIZ = Path(__file__).resolve().parent.parent
 POSTS = RAIZ / "content" / "posts"
 SAIDA = RAIZ / "_site"
 TOKEN_PRODUTO = re.compile(r"\{\{\s*produto:([\w\-]+)\s*\}\}")
+# Tokens de venda (agente Vendas): link no meio do texto e botão pequeno (cabe em tabela)
+TOKEN_LINK = re.compile(r"\{\{\s*link:([\w\-]+)(?:\|([^}]+))?\s*\}\}")
+TOKEN_BOTAO = re.compile(r"\{\{\s*botao:([\w\-]+)(?:\|([^}]+))?\s*\}\}")
+TOKENS_VENDA = (TOKEN_PRODUTO, TOKEN_LINK, TOKEN_BOTAO)
 
 
 # ---------------- leitura ----------------
@@ -192,9 +198,29 @@ def blocos(texto):
     return BLOCO.sub(troca, texto)
 
 
+def pontuacao(p):
+    """Ordem das vitrines: nota alta com muitas avaliações primeiro."""
+    import math
+    try:
+        return float(p.get("nota") or 0) * math.log10(float(p.get("avaliacoes") or 0) + 10)
+    except ValueError:
+        return 0
+
+
+def link_venda(p, texto=None, classe="link-oferta"):
+    rotulo = html.escape(texto.strip() if texto else p["nome"])
+    return (f'<a class="{classe}" href="{html.escape(p["link_afiliado"])}" target="_blank" '
+            f'rel="sponsored nofollow noopener" data-produto="{html.escape(p["id"])}">{rotulo}</a>')
+
+
 def renderizar(corpo, catalogo):
     """Devolve (html, sumario, ids de produtos usados)."""
-    usados = [pid for pid in TOKEN_PRODUTO.findall(corpo) if pid in catalogo]
+    usados = [m.group(1) for t in TOKENS_VENDA for m in t.finditer(corpo) if m.group(1) in catalogo]
+    usados = [m.group(1) for m in TOKEN_PRODUTO.finditer(corpo) if m.group(1) in catalogo] + usados
+    corpo = TOKEN_LINK.sub(lambda m: link_venda(catalogo[m.group(1)], m.group(2)) if m.group(1) in catalogo
+                           else (m.group(2) or ""), corpo)
+    corpo = TOKEN_BOTAO.sub(lambda m: link_venda(catalogo[m.group(1)], m.group(2) or "Ver oferta", "btn-comprar btn-pequeno")
+                            if m.group(1) in catalogo else "", corpo)
 
     def troca(m):
         p = catalogo.get(m.group(1))
@@ -213,7 +239,21 @@ def renderizar(corpo, catalogo):
 
 
 def minutos_leitura(corpo):
-    return max(1, round(len(re.findall(r"\w+", TOKEN_PRODUTO.sub("", corpo))) / 200))
+    for t in TOKENS_VENDA:
+        corpo = t.sub("", corpo)
+    return max(1, round(len(re.findall(r"\w+", corpo)) / 200))
+
+
+def cifrar(texto, senha, iteracoes=250_000):
+    """AES-256-GCM com chave derivada da senha (PBKDF2-SHA256). Aberto no navegador via WebCrypto."""
+    from cryptography.hazmat.primitives import hashes
+    from cryptography.hazmat.primitives.ciphers.aead import AESGCM
+    from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
+    sal, iv = os.urandom(16), os.urandom(12)
+    chave = PBKDF2HMAC(algorithm=hashes.SHA256(), length=32, salt=sal, iterations=iteracoes).derive(senha.encode())
+    dados = AESGCM(chave).encrypt(iv, texto.encode("utf-8"), None)
+    b = lambda x: base64.b64encode(x).decode()
+    return {"sal": b(sal), "iv": b(iv), "iter": iteracoes, "dados": b(dados)}
 
 
 def json_ld(post, cfg, url):
@@ -330,7 +370,8 @@ def build():
     env = Environment(loader=FileSystemLoader(RAIZ / "site" / "templates"), autoescape=True)
     env.filters["data_br"] = data_br
     glob = dict(site=cfg["site"], subnichos=subnichos, cats=cats, b=caminho_base,
-                ano=dt.date.today().year, css_marca=css_marca(m), fontes_url=fontes_url(m), base=base)
+                ano=dt.date.today().year, css_marca=css_marca(m), fontes_url=fontes_url(m), base=base,
+                link_venda=link_venda)
 
     if SAIDA.exists():
         shutil.rmtree(SAIDA)
@@ -342,6 +383,9 @@ def build():
         url = f"{base}/posts/{p['slug']}/"
         conteudo, sumario, usados = renderizar(p["corpo"], catalogo)
         rapida = [catalogo[i] for i in usados] if p.get("tipo") in ("lista", "comparativo") else []
+        da_cat = sorted([x for x in catalogo.values() if x.get("subnicho") == p.get("subnicho")], key=pontuacao, reverse=True)
+        recomendados = [x for x in da_cat if x["id"] not in usados][:3]
+        principal = catalogo[usados[0]] if usados else (da_cat[0] if da_cat else None)
         relacionados = [q for q in lista if q.get("subnicho") == p.get("subnicho") and q["slug"] != p["slug"]][:3]
         if len(relacionados) < 3:
             relacionados += [q for q in lista if q["slug"] != p["slug"] and q not in relacionados][:3 - len(relacionados)]
@@ -349,8 +393,9 @@ def build():
         p["capa"] = f"{base}/capas/{p['slug']}.png" if tem_capa else ""
         pagina = env.get_template("post.html").render(
             **glob, post=p, conteudo=conteudo, sumario=sumario, rapida=rapida, url=url,
-            json_ld=json_ld(p, cfg, url), relacionados=relacionados, tem_produto=bool(usados),
-            preco_br=preco_br,
+            json_ld=json_ld(p, cfg, url), relacionados=relacionados,
+            tem_produto=bool(usados or recomendados), recomendados=recomendados, principal=principal,
+            preco_br=preco_br, milhar=milhar, estrelas=estrelas,
         )
         destino = SAIDA / "posts" / p["slug"]
         destino.mkdir(parents=True)
@@ -361,7 +406,8 @@ def build():
              {"nome": "Guias de compra", "cor": "#7C5CFF"}, cfg, SAIDA / "capas" / "inicio.png")
     (SAIDA / "index.html").write_text(
         env.get_template("inicio.html").render(
-            **glob, posts=lista, url=base + "/", produto=next(iter(catalogo.values()), None),
+            **glob, posts=lista, url=base + "/", produto=next(iter(sorted(catalogo.values(), key=pontuacao, reverse=True)), None),
+            achados=sorted(catalogo.values(), key=pontuacao, reverse=True)[:6],
             total_produtos=len(catalogo), preco_br=preco_br, milhar=milhar, estrelas=estrelas),
         encoding="utf-8")
 
@@ -371,7 +417,9 @@ def build():
         url = f"{base}/categoria/{slug}/"
         (dest / "index.html").write_text(
             env.get_template("categoria.html").render(
-                **glob, cat=cat, posts=[p for p in lista if p.get("subnicho") == slug], url=url),
+                **glob, cat=cat, posts=[p for p in lista if p.get("subnicho") == slug], url=url,
+                achados=sorted([x for x in catalogo.values() if x.get("subnicho") == slug], key=pontuacao, reverse=True)[:6],
+                preco_br=preco_br, milhar=milhar, estrelas=estrelas),
             encoding="utf-8")
         urls.append(url)
 
@@ -402,12 +450,23 @@ def build():
         "produtos": len(catalogo),
         "meta_dia": cfg["rotina"]["posts_novos_por_dia"],
     }
-    dest = SAIDA / "escritorio"
-    dest.mkdir()
-    (dest / "index.html").write_text(
-        env.get_template("escritorio.html").render(
-            **glob, dados_json=json.dumps(escritorio, ensure_ascii=False).replace("</", "<\\/")),
-        encoding="utf-8")
+    met = RAIZ / "data" / "metricas.json"
+    if met.exists():
+        hist = json.loads(met.read_text(encoding="utf-8")).get("semanas", [])
+        if hist:
+            escritorio["metricas"]["semana"] = hist[-1]
+    # O escritório é privado: só é publicado criptografado com a senha do dono
+    # (secret ESCRITORIO_SENHA no GitHub). Sem senha configurada, não é publicado.
+    senha = os.environ.get("ESCRITORIO_SENHA", "").strip()
+    if senha:
+        html_claro = env.get_template("escritorio.html").render(
+            **glob, dados_json=json.dumps(escritorio, ensure_ascii=False).replace("</", "<\\/"))
+        dest = SAIDA / "escritorio"
+        dest.mkdir()
+        (dest / "index.html").write_text(
+            env.get_template("cadeado.html").render(cofre=json.dumps(cifrar(html_claro, senha))), encoding="utf-8")
+    else:
+        print("Escritório não publicado: defina o secret ESCRITORIO_SENHA para publicá-lo com senha.")
 
     # sitemap e robots
     datas = {f"{base}/posts/{p['slug']}/": p.get("atualizado") or p.get("publicado") for p in lista}
@@ -417,7 +476,9 @@ def build():
     (SAIDA / "sitemap.xml").write_text(
         f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{linhas}</urlset>',
         encoding="utf-8")
-    (SAIDA / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {base}/sitemap.xml\n", encoding="utf-8")
+    (SAIDA / "robots.txt").write_text(
+        f"User-agent: *\nAllow: /\nDisallow: {caminho_base}/escritorio/\nDisallow: {caminho_base}/marca/\nSitemap: {base}/sitemap.xml\n",
+        encoding="utf-8")
     (SAIDA / ".nojekyll").write_text("")
     print(f"Site gerado em _site/ com {len(lista)} posts e {len(catalogo)} produtos ativos.")
 

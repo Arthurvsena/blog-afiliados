@@ -35,7 +35,7 @@
       {% endfor %}
       <a href="{{ b }}/sobre/" class="menu-extra">Como escolhemos</a>
     </nav>
-    <a class="btn btn-primario btn-topo" href="{{ b }}/#guias">Ver guias</a>
+    <a class="btn btn-primario btn-topo" href="{{ b }}/#achados">Ver achados</a>
     <button class="menu-botao" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
       <span></span><span></span>
     </button>
@@ -61,7 +61,6 @@
       <ul>
         <li><a href="{{ b }}/sobre/">Como escolhemos os produtos</a></li>
         <li><a href="{{ b }}/privacidade/">Privacidade</a></li>
-        <li><a href="{{ b }}/escritorio/">Bastidores: a equipe trabalhando</a></li>
         <li><a href="{{ b }}/marca/">Identidade visual</a></li>
       </ul>
     </nav>
@@ -93,5 +92,6 @@
 })();
 </script>
 {% block scripts %}{% endblock %}
+{% if site.cloudflare_token %}<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ site.cloudflare_token }}"}'></script>{% endif %}
 </body>
 </html>

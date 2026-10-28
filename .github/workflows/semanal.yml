@@ -2,7 +2,7 @@ name: Estratégia semanal de SEO
 
 on:
   schedule:
-    - cron: "31 10 * * 1"     # segunda-feira, 07:31 no horário de Brasília
+    - cron: "31 14 * * 1"     # segunda-feira, 11:31 no horário de Brasília (depois da coleta de métricas)
   workflow_dispatch:
 
 permissions:
@@ -48,7 +48,10 @@ jobs:
           git diff --cached --quiet || git commit -m "Estratégia semanal $(TZ=America/Sao_Paulo date +%Y-%m-%d)"
           git push
 
-      - run: python3 site/build.py
+      - name: Gerar o site
+        run: python3 site/build.py
+        env:
+          ESCRITORIO_SENHA: ${{ secrets.ESCRITORIO_SENHA }}
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site

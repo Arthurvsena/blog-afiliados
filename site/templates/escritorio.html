@@ -83,12 +83,14 @@ const P = (c, x, y, w = 1, h = 1) => { g.fillStyle = c; g.fillRect(Math.round(x)
 
 // ---------- equipe (personagens originais) ----------
 const AG = [
-  { id:'pesquisador', nome:'Pesquisador', cargo:'Caça pautas no Google', x:70,  y:100,  cam:'#3d7be0', cab:'#2e1d12', pele:'#f1c29b', acc:'oculos', luz:'#7fd0ff' },
-  { id:'curador',     nome:'Curador',     cargo:'Escolhe os produtos',  x:185, y:100,  cam:'#e0803d', cab:'#c9a227', pele:'#d9a074', acc:'bone',   luz:'#ffd27f', aux:'#c23b3b' },
-  { id:'redator',     nome:'Redator',     cargo:'Escreve os posts',     x:300, y:100,  cam:'#8a4fd6', cab:'#151515', pele:'#8d5a3b', acc:'fone',   luz:'#d6a6ff', aux:'#5ee08a' },
-  { id:'seo',         nome:'Estrategista SEO', cargo:'Leva o blog ao topo do Google', x:82,  y:170, cam:'#2bb39a', cab:'#7a2f1f', pele:'#f3d0b0', acc:'coque', luz:'#8affd9' },
-  { id:'atualizador', nome:'Atualizador', cargo:'Mantém posts frescos', x:192, y:170, cam:'#d64f7a', cab:'#5a5a5a', pele:'#e2b28c', acc:'barba',  luz:'#ffa6c4' },
-  { id:'designer',    nome:'Designer',    cargo:'Cuida da marca e da cara de cada post', x:302, y:170, cam:'#7C5CFF', cab:'#e8c27a', pele:'#c98f6b', acc:'boina', luz:'#c9b8ff', aux:'#14213D' },
+  { id:'pesquisador', nome:'Pesquisador', cargo:'Caça pautas no Google', x:52,  y:100, cam:'#3d7be0', cab:'#2e1d12', pele:'#f1c29b', acc:'oculos', luz:'#7fd0ff' },
+  { id:'curador',     nome:'Curador',     cargo:'Escolhe os produtos e gera os links', x:144, y:100, cam:'#e0803d', cab:'#c9a227', pele:'#d9a074', acc:'bone',   luz:'#ffd27f', aux:'#c23b3b' },
+  { id:'redator',     nome:'Redator',     cargo:'Escreve os posts',     x:236, y:100, cam:'#8a4fd6', cab:'#151515', pele:'#8d5a3b', acc:'fone',   luz:'#d6a6ff', aux:'#5ee08a' },
+  { id:'analista',    nome:'Analista',    cargo:'Lê visitas, cliques e pedidos', x:328, y:100, cam:'#2f9e6e', cab:'#5b3a29', pele:'#e8b98f', acc:'oculos', luz:'#9effc8' },
+  { id:'seo',         nome:'Estrategista SEO', cargo:'Leva o blog ao topo do Google', x:52, y:170, cam:'#2bb39a', cab:'#7a2f1f', pele:'#f3d0b0', acc:'coque', luz:'#8affd9' },
+  { id:'vendas',      nome:'Vendas',      cargo:'Faz cada post levar à compra', x:144, y:170, cam:'#e0b23d', cab:'#1e1e1e', pele:'#a86b4a', acc:'longo', luz:'#ffe08a' },
+  { id:'designer',    nome:'Designer',    cargo:'Cuida da marca e da cara de cada post', x:236, y:170, cam:'#7C5CFF', cab:'#e8c27a', pele:'#c98f6b', acc:'boina', luz:'#c9b8ff', aux:'#14213D' },
+  { id:'atualizador', nome:'Atualizador', cargo:'Mantém posts frescos', x:328, y:170, cam:'#d64f7a', cab:'#5a5a5a', pele:'#e2b28c', acc:'barba',  luz:'#ffa6c4' },
 ];
 const CHEFE = { id:'chefe', nome:'Editor-chefe', cargo:'Coordena a rotina', cam:'#2a2f45', cab:'#3b2a20', pele:'#e8b98f', acc:'gravata', aux:'#ff5d73' };
 AG.forEach((a, i) => a.seed = i * 37);
@@ -134,16 +136,14 @@ function fundo(t) {
   for (let r = 0; r < 5; r++) { P('#11131a', 332, 15 + r * 11, 36, 8);
     for (let l = 0; l < 4; l++) P(((t + r * 3 + l * 5) % 14) < 7 ? '#5ee08a' : '#1d4d2c', 335 + l * 4, 18 + r * 11, 2, 2);
     P(((t + r) % 30) < 2 ? '#ff5d73' : '#4a1520', 362, 18 + r * 11, 2, 2); }
-  // planta
-  P('#8a4b2a', 8, 186, 16, 14); P('#6e3b20', 8, 186, 16, 3);
-  [[10,170,4,16],[14,164,4,22],[19,172,4,14],[6,176,4,6],[22,178,4,6]].forEach(([x,y,w,h]) => P('#3fa34d', x, y, w, h));
-  P('#2d7a38', 15, 166, 2, 18);
-  // cafeteira
-  P('#4e3a2b', 344, 118, 38, 6); P('#3a2b20', 346, 124, 34, 30);
-  P('#2b2b2b', 352, 96, 22, 22); P('#555', 354, 99, 18, 6); P('#ff5d73', 369, 110, 2, 2);
-  P('#ddd', 359, 112, 6, 6); if (t % 16 < 8) P('#ffffff88', 361, 106 - (t % 8) / 2, 1, 3);
+  // planta (no canto da parede, entre o quadro e a janela)
+  P('#8a4b2a', 118, 58, 16, 12); P('#6e3b20', 118, 58, 16, 2);
+  [[120,44,4,14],[124,38,4,20],[129,46,4,12],[116,50,4,5],[132,52,4,4]].forEach(([x,y,w,h]) => P('#3fa34d', x, y, w, h));
+  // cafeteira na bancada, ao lado do relógio
+  P('#4e3a2b', 302, 52, 22, 4); P('#2b2b2b', 306, 36, 14, 16); P('#555', 308, 38, 10, 4); P('#ff5d73', 316, 46, 1, 1);
+  P('#ddd', 310, 48, 4, 4); if (t % 16 < 8) P('#ffffff88', 311, 44 - (t % 8) / 3, 1, 2);
   // tapete do corredor
-  P('#3a2f4a', 30, 138, 300, 20); P('#4a3d5e', 32, 140, 296, 16);
+  P('#3a2f4a', 6, 138, 372, 20); P('#4a3d5e', 8, 140, 368, 16);
 }
 
 // ---------- pessoas ----------
@@ -166,6 +166,7 @@ function pessoa(px, py, c, t, modo) {
     case 'coque': P(c.cab, px + 4, py - 3 + dy, 4, 3); break;
     case 'barba': P(c.cab, px + 2, py + 7 + dy, 8, 2); P(c.pele, px + 5, py + 7 + dy, 2, 1); break;
     case 'gravata': P(c.cab, px + 3, py - 1, 6, 1); break;
+    case 'longo': P(c.cab, px + 1, py + 1 + dy, 2, 9); P(c.cab, px + 9, py + 1 + dy, 2, 9); break;
     case 'boina': P(c.aux, px + 1, py - 1 + dy, 10, 3); P(c.aux, px + 2, py - 2 + dy, 8, 1); P(c.aux, px + 6, py - 3 + dy, 1, 1); break;
   }
   // braços
@@ -201,6 +202,8 @@ function mesa(a, t, modo) {
   if (modo === 'trabalhando' && t % 12 < 6) P('#ffffff99', x - 16, y - 6 - (t % 6) / 3, 1, 2);
   if (a.id === 'redator') { P('#fff', x - 12, y - 2, 6, 2); P('#fff', x - 11, y - 3, 6, 1); }   // papéis
   if (a.id === 'curador') { P('#c48a4a', x - 13, y - 5, 7, 5); P('#8a5a2a', x - 13, y - 3, 7, 1); } // caixa
+  if (a.id === 'analista') { P('#fff', x - 16, y - 7, 9, 7); P('#2f9e6e', x - 15, y - 3, 1, 3); P('#2f9e6e', x - 13, y - 5, 1, 5); P('#7C5CFF', x - 11, y - 4, 1, 4); P('#2f9e6e', x - 9, y - 6, 1, 6); }
+  if (a.id === 'vendas') { P('#ffd60a', x - 16, y - 6, 7, 6); P('#b38f00', x - 15, y - 8, 1, 2); P('#b38f00', x - 11, y - 8, 1, 2); P('#b38f00', x - 15, y - 8, 5, 1); }
   if (a.id === 'designer') { // paleta de cores e caneta
     P('#e9d8b4', x - 15, y - 3, 8, 3); P('#7C5CFF', x - 14, y - 3, 2, 1); P('#FF4D8D', x - 11, y - 3, 2, 1); P('#4CC9F0', x - 14, y - 2, 2, 1); P('#FF9F1A', x - 11, y - 2, 2, 1);
     P('#222', x - 4, y - 4, 1, 4); }
@@ -208,8 +211,8 @@ function mesa(a, t, modo) {
 }
 
 // ---------- editor-chefe andando ----------
-const ROTA = [[70,152],[185,152],[300,152],[302,214],[192,214],[82,214],[30,214]];
-let chefe = { x:70, y:152, alvo:1, pausa:0 };
+const ROTA = [[52,152],[144,152],[236,152],[328,152],[328,214],[236,214],[144,214],[52,214]];
+let chefe = { x:52, y:152, alvo:1, pausa:0 };
 function moverChefe() {
   if (noite()) return;
   if (chefe.pausa > 0) { chefe.pausa--; return; }
@@ -219,7 +222,7 @@ function moverChefe() {
   chefe.x += dx / d * 1.2; chefe.y += dy / d * 1.2;
 }
 function desenharChefe(t) {
-  const cx = noite() ? 362 : chefe.x, cy = noite() ? 210 : chefe.y;
+  const cx = noite() ? 374 : chefe.x, cy = noite() ? 152 : chefe.y;
   g.save(); g.translate(cx, cy); g.scale(2, 2);
   const px = -6, py = -22;
   const andando = chefe.pausa === 0 && !noite();
@@ -235,9 +238,9 @@ function desenharChefe(t) {
 let t = 0;
 function quadro() {
   fundo(t);
-  AG.slice(0, 3).forEach(a => mesa(a, t, estado(a.id)));
+  AG.slice(0, 4).forEach(a => mesa(a, t, estado(a.id)));
   if (chefe.y < 190 && !noite()) desenharChefe(t);
-  AG.slice(3).forEach(a => mesa(a, t, estado(a.id)));
+  AG.slice(4).forEach(a => mesa(a, t, estado(a.id)));
   if (chefe.y >= 190 || noite()) desenharChefe(t);
   if (noite()) { g.fillStyle = 'rgba(10,14,40,.38)'; g.fillRect(0, 0, W, H); }
   moverChefe(); t++;
@@ -262,7 +265,9 @@ function rotulos() {
   quadroTxt.className = 'sobre';
   quadroTxt.style.left = pct(18, W); quadroTxt.style.top = pct(13, H);
   const m = D.metricas || {};
-  quadroTxt.innerHTML = `META: ${m.meta_dia ?? 1} POST/DIA<br>POSTS: ${m.posts ?? 0}<br>FILA: ${m.fila ?? 0}<br>PRODUTOS: ${m.produtos ?? 0}`;
+  const sem = m.semana || {};
+  const v = x => (x === null || x === undefined) ? '—' : x;
+  quadroTxt.innerHTML = `POSTS: ${m.posts ?? 0} · FILA: ${m.fila ?? 0}<br>PRODUTOS: ${m.produtos ?? 0}<br>VISITAS 7D: ${v(sem.visitas)}<br>CLIQUES ML: ${v(sem.cliques_ml)} · PEDIDOS: ${v(sem.pedidos)}`;
   box.appendChild(quadroTxt);
   const rel = document.createElement('div');
   rel.className = 'relogio'; rel.style.left = pct(278, W); rel.style.top = pct(24, H);
@@ -280,8 +285,9 @@ function destacar(id) {
 function paineis() {
   const m = D.metricas || {};
   document.getElementById('stats').innerHTML = [
-    [m.posts ?? 0, 'posts publicados'], [m.posts_7d ?? 0, 'posts nos últimos 7 dias'],
-    [m.fila ?? 0, 'pautas na fila'], [m.produtos ?? 0, 'produtos com link'],
+    [m.posts ?? 0, 'posts publicados'], [m.produtos ?? 0, 'produtos com link'],
+    [(m.semana || {}).visitas ?? '—', 'visitas na semana'], [(m.semana || {}).cliques_ml ?? '—', 'cliques no Mercado Livre'],
+    [(m.semana || {}).pedidos ?? '—', 'pedidos na semana'], [m.fila ?? 0, 'pautas na fila'],
   ].map(([n, r]) => `<div class="stat"><b>${n}</b>${r}</div>`).join('');
 
   const rotulo = { trabalhando:'TRABALHOU HOJE', ocioso:'SEM TAREFA HOJE', dormindo:'DORMINDO', erro:'PRECISA DE AJUDA' };

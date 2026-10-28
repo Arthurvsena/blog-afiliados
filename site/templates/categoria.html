@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_vendas.html" import cartao_achado with context %}
 {% set cat_atual = cat.slug %}
 {% block titulo %}{{ cat.nome }}: melhores opções e guias de compra | {{ site.nome }}{% endblock %}
 {% block descricao %}Guias, comparativos e listas de {{ cat.nome | lower }} com bom custo-benefício. Especificações conferidas e prós e contras honestos.{% endblock %}
@@ -10,8 +11,21 @@
   <p class="cat-desc entrada" style="--i:3">{% if cat.descricao %}{{ cat.descricao }}{% else %}Guias para escolher {{ cat.nome | lower }} pelo que entregam, com especificações conferidas e veredito claro.{% endif %}</p>
 </section>
 
+{% if achados %}
+<section class="secao secao-curta" aria-labelledby="achados-titulo">
+  <div class="secao-topo">
+    <h2 id="achados-titulo">Mais bem avaliados em {{ cat.curto | lower }}</h2>
+    <p>Nota alta, muitas avaliações e vendedor confiável. O preço é de referência: confira o valor do dia.</p>
+  </div>
+  <div class="vitrine-achados">
+    {% for p in achados %}{{ cartao_achado(p, preco_br, milhar, estrelas, loop.index) }}{% endfor %}
+  </div>
+</section>
+{% endif %}
+
 <section class="secao">
   {% if posts %}
+  <div class="secao-topo"><h2>Guias de {{ cat.curto | lower }}</h2></div>
   <div class="grade-posts">
     {% for p in posts %}
     <a class="cartao-post" href="{{ b }}/posts/{{ p.slug }}/" style="--cat:{{ p.cat.cor }}; --d:{{ loop.index0 % 3 }}" data-surgir>

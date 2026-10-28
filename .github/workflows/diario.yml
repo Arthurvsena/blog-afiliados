@@ -52,6 +52,8 @@ jobs:
 
       - name: Gerar o site
         run: python3 site/build.py
+        env:
+          ESCRITORIO_SENHA: ${{ secrets.ESCRITORIO_SENHA }}
 
       - uses: actions/upload-pages-artifact@v4
         with:

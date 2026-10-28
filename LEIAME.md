@@ -1,7 +1,7 @@
 # Tech Barato BR: blog de afiliados automático
 
 Blog de eletrônicos custo-benefício que se atualiza sozinho todo dia.
-Uma equipe de 7 agentes do Claude pesquisa, escolhe produtos, gera os links de
+Uma equipe de 9 agentes do Claude pesquisa, escolhe produtos, gera os links de
 afiliado pelo seu Chrome, escreve, otimiza para o Google e atualiza os posts.
 
 **Custo: R$ 0.** O site fica no GitHub Pages (grátis), a automação roda no
@@ -18,12 +18,17 @@ do Claude** (Pro ou Max), sem cobrança de API.
 | 🔎 Pesquisador | Descobre o que as pessoas buscam e enche a fila de pautas | Quando a fila tem menos de 10 |
 | 📦 Curador | Pesquisa produtos e, pelo seu Chrome, gera os links de afiliado e cadastra | Toda segunda e quinta, 09:13 (no seu computador) |
 | ✍️ Redator | Escreve listas, reviews, comparativos e guias | Todo dia |
+| 💰 Vendas | Garante chamadas de compra em todo post (links no texto, botões na tabela, "Qual comprar?") e ajusta os posts que recebem visitas mas não geram cliques | Todo post + toda segunda |
+| 📊 Analista | Lê visitas, cliques no Mercado Livre, pedidos e Google, e entrega o relatório com ações para cada agente | Toda segunda, 09:13 (no seu computador) |
 | 🎨 Designer | Dono da marca (`design/marca.yaml`, logo, cores) e revisor visual de todo post: tabelas, prós e contras, veredito e capa | Todo post + toda segunda |
 | 📈 Estrategista SEO | Revisa cada post e escreve o relatório semanal | Todo dia + toda segunda |
 | 🔄 Atualizador | Renova posts com mais de 30 dias | Todo dia |
 
-Veja a equipe trabalhando em **`SEU-SITE/escritorio/`**: um escritório em
-pixel art que mostra o que cada agente fez no dia (de noite eles dormem 😴).
+Veja a equipe trabalhando no **escritório**: um escritório em pixel art que
+mostra o que cada agente fez no dia (de noite eles dormem 😴). Ele é **privado**:
+fica em `https://arthurvsena.github.io/blog-afiliados/escritorio/`, sem link no
+site, e abre só com a sua senha (secret `ESCRITORIO_SENHA`, passo 10). Salve o
+endereço nos favoritos.
 O guia da marca fica em **`SEU-SITE/marca/`**.
 
 ---
@@ -92,9 +97,26 @@ A partir daí ele roda sozinho todo dia às 08:47.
 
 ---
 
+### 9. Contador de visitas (Cloudflare Web Analytics, grátis e sem cookies)
+1. Crie uma conta grátis em <https://dash.cloudflare.com/sign-up>.
+2. Vá em **Analytics & Logs → Web Analytics → Add a site**, digite
+   `arthurvsena.github.io` e escolha a opção de **JS snippet** (sem mudar DNS).
+3. Copie só o valor de `"token"` do código que aparecer e cole em
+   `cloudflare_token` no `config.yaml`.
+
+### 10. Senha do escritório
+No GitHub: **Settings → Secrets and variables → Actions → New repository secret**.
+Nome: `ESCRITORIO_SENHA`. Valor: uma senha só sua. A página do escritório é
+publicada criptografada com ela; sem o secret, o escritório não é publicado.
+No navegador, marque "Lembrar neste aparelho" para não digitar sempre.
+
+**Limite do repositório público:** o código e os arquivos de `data/` ficam
+visíveis no GitHub. Por isso nenhum agente grava valores em R$ de ganhos:
+eles aparecem só na mensagem que o analista manda para você.
+
 ## Sua rotina (10 minutos por semana)
-- **Segunda:** leia `data/relatorio_seo.md` e deixe o computador ligado com o
-  Chrome aberto às 09:13 (cadastro de produtos).
+- **Segunda:** deixe o computador ligado com o Chrome aberto às 09:13 (métricas
+  e cadastro de produtos). Depois leia `data/relatorio_metricas.md`.
 - **Quando quiser:** veja o escritório e o `data/diario.md`.
 - **Uma vez por semana:** abra 1 ou 2 posts novos e leia. Se algo estiver
   errado, corrija pelo lápis do GitHub. Sua revisão é o que separa um blog

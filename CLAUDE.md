@@ -13,6 +13,9 @@ Os agentes em `.claude/agents/` mantêm o blog todos os dias.
 - `data/pautas.json`: fila de pautas (ideias de posts) criada pelo pesquisador.
 - `data/sugestoes_produtos.md`: produtos que o curador recomenda o dono cadastrar.
 - `data/relatorio_seo.md`: relatório semanal do estrategista de SEO.
+- `data/metricas.json` e `data/relatorio_metricas.md`: números da semana e
+  análise do `analista` (visitas, cliques no ML, pedidos, Google).
+- `data/relatorio_vendas.md`: apostas de venda da semana (agente `vendas`).
 - `content/posts/*.md`: os posts (Markdown com frontmatter YAML).
 - `design/marca.yaml`: identidade visual (cores, fontes, logo, regras), mantida
   pelo agente `designer`. O site lê as cores e fontes daqui.
@@ -38,6 +41,8 @@ faq:
 ---
 Texto em Markdown. Para mostrar o card de um produto com botão de compra,
 escreva numa linha sozinha: {{produto:ID}}
+Link de oferta no meio do texto: {{link:ID}} ou {{link:ID|texto}}.
+Botão pequeno (cabe em tabela): {{botao:ID}} ou {{botao:ID|Ver preço}}.
 
 Componentes visuais (o designer aplica; cada bloco fecha com ::: sozinho):
 :::pros            :::contras          :::veredito
@@ -62,4 +67,7 @@ Componentes visuais (o designer aplica; cada bloco fecha com ::: sozinho):
 6. Não copie textos de outros sites; pesquise e escreva com suas palavras.
 7. Nunca edite `.github/`, `site/`, `scripts/` ou `config.yaml` durante a rotina.
    Só o `designer` edita `design/`.
-8. Todo post novo ou atualizado passa pelo `designer` antes de ser publicado.
+8. Todo post novo ou atualizado passa por `seo` → `vendas` → `designer`
+   antes de ser publicado.
+9. O repositório é público: nunca escreva valores em R$ de ganhos ou
+   comissões em arquivo nenhum.

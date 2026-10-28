@@ -12,7 +12,9 @@ allowed-tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch, Task, Agent, 
 > perdido. Só termine depois do último passo.
 
 Você é o editor-chefe do blog. Coordene os subagentes nesta ordem e não
-pule etapas. Leia `CLAUDE.md` e `config.yaml` primeiro.
+pule etapas. Leia `CLAUDE.md` e `config.yaml` primeiro. Se existir
+`data/relatorio_metricas.md`, leia também e use as recomendações dele para
+escolher pautas e posts a melhorar.
 
 1. **Fila de pautas.** Conte as pautas `pendente` em `data/pautas.json`.
    Se houver menos de 10, chame o subagente `pesquisador`.
@@ -33,6 +35,9 @@ pule etapas. Leia `CLAUDE.md` e `config.yaml` primeiro.
 5. **SEO.** Para cada post novo, chame o subagente `seo` em modo revisão,
    passando o caminho do arquivo.
 
+5a. **Vendas (obrigatório).** Para cada post novo, chame o subagente
+   `vendas` em modo revisão, passando o caminho do arquivo.
+
 5b. **Design (obrigatório).** Para cada post novo, chame o subagente
    `designer` em modo revisão visual, passando o caminho do arquivo. Nenhum
    post é publicado sem passar por ele. Depois marque a pauta como
@@ -40,11 +45,12 @@ pule etapas. Leia `CLAUDE.md` e `config.yaml` primeiro.
 
 6. **Atualização.** Escolha `rotina.atualizacoes_por_dia` posts com a data
    `atualizado` mais antiga (pelo menos 30 dias atrás) e chame o subagente
-   `atualizador` para cada um e, se ele mudou o post, chame o `designer` em
-   seguida. Se nenhum post tiver 30+ dias, pule.
+   `atualizador` para cada um e, se ele mudou o post, chame `vendas` e depois
+   o `designer` em seguida. Se nenhum post tiver 30+ dias, pule.
 
-6b. **Posts antigos sem design.** Se algum post publicado ainda não tem
-   `capa_frase` no frontmatter, chame o `designer` para ele (no máximo 2 por dia).
+6b. **Posts antigos sem venda ou design.** Para até 2 posts publicados por dia
+   que ainda tenham avisos "vendas:" no `python3 scripts/verificar.py` ou não
+   tenham `capa_frase`, chame `vendas` e depois `designer`.
 
 7. **Checagem final.** Rode `python3 scripts/verificar.py` (sem argumentos,
    verifica tudo) e `python3 site/build.py`. Se algo falhar, corrija o post
@@ -60,7 +66,7 @@ pule etapas. Leia `CLAUDE.md` e `config.yaml` primeiro.
    - `ultima_execucao`: data e hora de agora, formato `AAAA-MM-DDTHH:MM`
      (horário de Brasília; use `TZ=America/Sao_Paulo date +%Y-%m-%dT%H:%M`).
    - Em `agentes`, para `chefe`, `pesquisador`, `curador`, `redator`, `seo`,
-     `designer` e `atualizador`: `status` = `ok` (trabalhou hoje), `ocioso` (não foi chamado)
+     `vendas`, `designer` e `atualizador` (não mexa no `analista`): `status` = `ok` (trabalhou hoje), `ocioso` (não foi chamado)
      ou `erro` (falhou ou travou) e `tarefa` = uma frase curta e concreta do que
      fez hoje, escrita como um colega contaria (ex.: "Escrevi 'Os 5 melhores
      power banks até R$ 150' (1.240 palavras)."). Ocioso: diga por quê.

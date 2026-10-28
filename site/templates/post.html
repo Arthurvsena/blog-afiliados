@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_vendas.html" import cartao_achado with context %}
 {% set cat_atual = post.subnicho %}
 {% block titulo %}{{ post.titulo }} | {{ site.nome }}{% endblock %}
 {% block descricao %}{{ post.descricao }}{% endblock %}
@@ -46,6 +47,16 @@
         {{ conteudo | safe }}
       </div>
 
+      {% if recomendados %}
+      <section class="escolhas" aria-labelledby="escolhas-titulo">
+        <h2 id="escolhas-titulo">{% if post.tipo == 'guia' %}Nossas escolhas em {{ post.cat.curto | lower }}{% else %}Outras boas opções{% endif %}</h2>
+        <p>{% if post.tipo == 'guia' %}Os modelos que passam no checklist deste guia, com nota alta e muitas avaliações.{% else %}Se nenhum dos anteriores encaixou, estes também são bem avaliados.{% endif %}</p>
+        <div class="vitrine-achados vitrine-post">
+          {% for p in recomendados %}{{ cartao_achado(p, preco_br, milhar, estrelas, loop.index if post.tipo == 'guia' else None) }}{% endfor %}
+        </div>
+      </section>
+      {% endif %}
+
       {% if post.faq %}
       <section class="faq" aria-labelledby="faq-titulo">
         <h2 id="faq-titulo">Perguntas frequentes</h2>
@@ -86,7 +97,29 @@
 </section>
 {% endif %}
 {% endblock %}
+{% block barra %}{% endblock %}
 {% block scripts %}
+{% if principal %}
+<div class="barra-compra" id="barra-compra" style="--cat:{{ post.cat.cor }}" hidden>
+  <div class="barra-info">
+    {% if principal.imagem_url %}<span class="barra-foto"><img src="{{ principal.imagem_url }}" alt="" width="44" height="44"></span>{% endif %}
+    <span class="barra-texto"><span class="barra-rotulo">{% if post.tipo in ('lista', 'comparativo') %}Nossa escolha nº 1{% else %}Recomendado{% endif %}</span><span class="barra-nome">{{ principal.nome }}</span></span>
+  </div>
+  {{ link_venda(principal, "Ver oferta", "btn-comprar btn-pequeno") | safe }}
+</div>
+<script>
+(() => {
+  const barra = document.getElementById('barra-compra');
+  const topo = document.querySelector('.artigo-topo');
+  const fim = document.querySelector('.relacionados') || document.querySelector('.rodape');
+  if (!barra || !('IntersectionObserver' in window)) return;
+  let passouTopo = false, noFim = false;
+  const atualizar = () => { barra.hidden = !(passouTopo && !noFim); };
+  new IntersectionObserver(([e]) => { passouTopo = !e.isIntersecting && e.boundingClientRect.top < 0; atualizar(); }).observe(topo);
+  new IntersectionObserver(([e]) => { noFim = e.isIntersecting; atualizar(); }).observe(fim);
+})();
+</script>
+{% endif %}
 <script>
 (() => {
   const links = [...document.querySelectorAll('.sumario a')];
