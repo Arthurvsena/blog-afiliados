@@ -1,7 +1,7 @@
 # Tech Barato BR: blog de afiliados automático
 
 Blog de eletrônicos custo-benefício que se atualiza sozinho todo dia.
-Uma equipe de 6 agentes do Claude pesquisa, escolhe produtos, gera os links de
+Uma equipe de 7 agentes do Claude pesquisa, escolhe produtos, gera os links de
 afiliado pelo seu Chrome, escreve, otimiza para o Google e atualiza os posts.
 
 **Custo: R$ 0.** O site fica no GitHub Pages (grátis), a automação roda no
@@ -18,11 +18,13 @@ do Claude** (Pro ou Max), sem cobrança de API.
 | 🔎 Pesquisador | Descobre o que as pessoas buscam e enche a fila de pautas | Quando a fila tem menos de 10 |
 | 📦 Curador | Pesquisa produtos e, pelo seu Chrome, gera os links de afiliado e cadastra | Toda segunda e quinta, 09:13 (no seu computador) |
 | ✍️ Redator | Escreve listas, reviews, comparativos e guias | Todo dia |
+| 🎨 Designer | Dono da marca (`design/marca.yaml`, logo, cores) e revisor visual de todo post: tabelas, prós e contras, veredito e capa | Todo post + toda segunda |
 | 📈 Estrategista SEO | Revisa cada post e escreve o relatório semanal | Todo dia + toda segunda |
 | 🔄 Atualizador | Renova posts com mais de 30 dias | Todo dia |
 
 Veja a equipe trabalhando em **`SEU-SITE/escritorio/`**: um escritório em
 pixel art que mostra o que cada agente fez no dia (de noite eles dormem 😴).
+O guia da marca fica em **`SEU-SITE/marca/`**.
 
 ---
 

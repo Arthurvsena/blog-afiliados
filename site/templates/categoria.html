@@ -4,33 +4,28 @@
 {% block descricao %}Guias, comparativos e listas de {{ cat.nome | lower }} com bom custo-benefício. Especificações conferidas e prós e contras honestos.{% endblock %}
 {% block conteudo %}
 <section class="cat-topo" style="--cat:{{ cat.cor }}">
-  <p class="trilha"><a href="{{ b }}/">Início</a> <span aria-hidden="true">/</span> {{ cat.nome }}</p>
-  <div class="cat-titulo">
-    <span class="cat-icone">{{ cat.icone | safe }}</span>
-    <h1>{{ cat.nome }}</h1>
-  </div>
-  <p class="cat-desc">{% if cat.descricao %}{{ cat.descricao }}{% else %}Guias para escolher {{ cat.nome | lower }} pelo que entregam, com especificações conferidas e veredito claro.{% endif %}</p>
+  <p class="trilha entrada" style="--i:0"><a href="{{ b }}/">Início</a><span aria-hidden="true">/</span>{{ cat.nome }}</p>
+  <div class="cat-icone entrada" style="--i:1">{{ cat.icone | safe }}</div>
+  <h1 class="entrada" style="--i:2">{{ cat.nome }}</h1>
+  <p class="cat-desc entrada" style="--i:3">{% if cat.descricao %}{{ cat.descricao }}{% else %}Guias para escolher {{ cat.nome | lower }} pelo que entregam, com especificações conferidas e veredito claro.{% endif %}</p>
 </section>
 
 <section class="secao">
   {% if posts %}
-  <ul class="lista-posts lista-grande">
+  <div class="grade-posts">
     {% for p in posts %}
-    <li>
-      <a href="{{ b }}/posts/{{ p.slug }}/" style="--cat:{{ p.cat.cor }}">
-        <span class="lista-texto">
-          <span class="lista-titulo">{{ p.titulo }}</span>
-          <span class="lista-desc">{{ p.descricao }}</span>
-          <span class="meta">Atualizado em {{ p.data_txt }}, leitura de {{ p.minutos }} min</span>
-        </span>
-      </a>
-    </li>
+    <a class="cartao-post" href="{{ b }}/posts/{{ p.slug }}/" style="--cat:{{ p.cat.cor }}; --d:{{ loop.index0 % 3 }}" data-surgir>
+      <span class="cartao-topo"><span class="cartao-icone">{{ p.cat.icone | safe }}</span><span class="cartao-cat">{{ {'lista':'Lista','review':'Review','comparativo':'Comparativo','guia':'Guia'}.get(p.tipo, 'Guia') }}</span></span>
+      <span class="cartao-titulo">{{ p.titulo }}</span>
+      <span class="cartao-desc">{{ p.descricao }}</span>
+      <span class="cartao-meta">{{ p.data_txt }} · {{ p.minutos }} min</span>
+    </a>
     {% endfor %}
-  </ul>
+  </div>
   {% else %}
   <div class="vazio-caixa">
-    <p><strong>Os guias desta categoria estão sendo preparados.</strong></p>
-    <p>Enquanto isso, veja os guias de <a href="{{ b }}/">todas as categorias</a>.</p>
+    <p><strong>Os guias desta categoria estão a caminho.</strong></p>
+    <p>Enquanto isso, veja os <a href="{{ b }}/#guias">guias de todas as categorias</a>.</p>
   </div>
   {% endif %}
 </section>

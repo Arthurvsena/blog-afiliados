@@ -86,8 +86,9 @@ const AG = [
   { id:'pesquisador', nome:'Pesquisador', cargo:'Caça pautas no Google', x:70,  y:100,  cam:'#3d7be0', cab:'#2e1d12', pele:'#f1c29b', acc:'oculos', luz:'#7fd0ff' },
   { id:'curador',     nome:'Curador',     cargo:'Escolhe os produtos',  x:185, y:100,  cam:'#e0803d', cab:'#c9a227', pele:'#d9a074', acc:'bone',   luz:'#ffd27f', aux:'#c23b3b' },
   { id:'redator',     nome:'Redator',     cargo:'Escreve os posts',     x:300, y:100,  cam:'#8a4fd6', cab:'#151515', pele:'#8d5a3b', acc:'fone',   luz:'#d6a6ff', aux:'#5ee08a' },
-  { id:'seo',         nome:'Estrategista SEO', cargo:'Leva o blog ao topo do Google', x:127, y:170, cam:'#2bb39a', cab:'#7a2f1f', pele:'#f3d0b0', acc:'coque', luz:'#8affd9' },
-  { id:'atualizador', nome:'Atualizador', cargo:'Mantém posts frescos', x:243, y:170, cam:'#d64f7a', cab:'#5a5a5a', pele:'#e2b28c', acc:'barba',  luz:'#ffa6c4' },
+  { id:'seo',         nome:'Estrategista SEO', cargo:'Leva o blog ao topo do Google', x:82,  y:170, cam:'#2bb39a', cab:'#7a2f1f', pele:'#f3d0b0', acc:'coque', luz:'#8affd9' },
+  { id:'atualizador', nome:'Atualizador', cargo:'Mantém posts frescos', x:192, y:170, cam:'#d64f7a', cab:'#5a5a5a', pele:'#e2b28c', acc:'barba',  luz:'#ffa6c4' },
+  { id:'designer',    nome:'Designer',    cargo:'Cuida da marca e da cara de cada post', x:302, y:170, cam:'#7C5CFF', cab:'#e8c27a', pele:'#c98f6b', acc:'boina', luz:'#c9b8ff', aux:'#14213D' },
 ];
 const CHEFE = { id:'chefe', nome:'Editor-chefe', cargo:'Coordena a rotina', cam:'#2a2f45', cab:'#3b2a20', pele:'#e8b98f', acc:'gravata', aux:'#ff5d73' };
 AG.forEach((a, i) => a.seed = i * 37);
@@ -165,6 +166,7 @@ function pessoa(px, py, c, t, modo) {
     case 'coque': P(c.cab, px + 4, py - 3 + dy, 4, 3); break;
     case 'barba': P(c.cab, px + 2, py + 7 + dy, 8, 2); P(c.pele, px + 5, py + 7 + dy, 2, 1); break;
     case 'gravata': P(c.cab, px + 3, py - 1, 6, 1); break;
+    case 'boina': P(c.aux, px + 1, py - 1 + dy, 10, 3); P(c.aux, px + 2, py - 2 + dy, 8, 1); P(c.aux, px + 6, py - 3 + dy, 1, 1); break;
   }
   // braços
   const f = Math.floor((t + c.seed) / 3) % 2;
@@ -199,11 +201,14 @@ function mesa(a, t, modo) {
   if (modo === 'trabalhando' && t % 12 < 6) P('#ffffff99', x - 16, y - 6 - (t % 6) / 3, 1, 2);
   if (a.id === 'redator') { P('#fff', x - 12, y - 2, 6, 2); P('#fff', x - 11, y - 3, 6, 1); }   // papéis
   if (a.id === 'curador') { P('#c48a4a', x - 13, y - 5, 7, 5); P('#8a5a2a', x - 13, y - 3, 7, 1); } // caixa
+  if (a.id === 'designer') { // paleta de cores e caneta
+    P('#e9d8b4', x - 15, y - 3, 8, 3); P('#7C5CFF', x - 14, y - 3, 2, 1); P('#FF4D8D', x - 11, y - 3, 2, 1); P('#4CC9F0', x - 14, y - 2, 2, 1); P('#FF9F1A', x - 11, y - 2, 2, 1);
+    P('#222', x - 4, y - 4, 1, 4); }
   g.restore();
 }
 
 // ---------- editor-chefe andando ----------
-const ROTA = [[70,152],[185,152],[300,152],[300,214],[243,214],[127,214],[40,214]];
+const ROTA = [[70,152],[185,152],[300,152],[302,214],[192,214],[82,214],[30,214]];
 let chefe = { x:70, y:152, alvo:1, pausa:0 };
 function moverChefe() {
   if (noite()) return;

@@ -68,6 +68,15 @@ def verificar(caminho: Path, cfg, catalogo, slugs_vistos):
     if re.search(r"R\$\s?\d", texto):
         avisos.append("o texto cita preço em R$: prefira faixas ('até R$ 200') a preços exatos")
 
+    abre = len(re.findall(r"^:::\s*\w+", corpo, re.M))
+    fecha = len(re.findall(r"^:::\s*$", corpo, re.M))
+    if abre != fecha:
+        erros.append(f"blocos ::: desbalanceados ({abre} abertos, {fecha} fechados)")
+    for tipo in re.findall(r"^:::\s*(\w+)", corpo, re.M):
+        if tipo not in ("pros", "contras", "veredito", "dica", "atencao"):
+            erros.append(f"bloco ':::{tipo}' não existe (use pros, contras, veredito, dica ou atencao)")
+    texto = re.sub(r"^:::.*$", "", texto, flags=re.M)
+
     palavras = len(re.findall(r"\w+", texto))
     minimo = cfg["rotina"]["palavras_minimas"]
     if palavras < minimo:
@@ -82,6 +91,10 @@ def verificar(caminho: Path, cfg, catalogo, slugs_vistos):
         avisos.append("a palavra-chave não aparece no primeiro parágrafo")
     if not meta.get("faq"):
         avisos.append("sem FAQ no frontmatter")
+    if not meta.get("capa_frase"):
+        avisos.append("sem capa_frase: o post ainda não passou pelo designer")
+    if tipo in ("lista", "comparativo") and "|" not in corpo:
+        avisos.append("lista/comparativo sem tabela comparativa")
     return erros, avisos
 
 

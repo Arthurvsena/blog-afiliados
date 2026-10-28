@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% block titulo %}Identidade visual | {{ site.nome }}{% endblock %}
+{% block robots %}<meta name="robots" content="noindex">{% endblock %}
+{% block head %}<style>
+.guia { max-width: 1000px; margin: 0 auto; padding: 72px 24px 96px; }
+.guia > header { text-align: center; max-width: 680px; margin: 0 auto 56px; }
+.guia h1 { font-size: clamp(2.4rem, 5.6vw, 4rem); }
+.guia h2 { font-size: 1.5rem; margin: 64px 0 8px; }
+.guia .nota-secao { margin: 0 0 22px; }
+.logos { display: grid; grid-template-columns: 2fr 1fr; gap: 14px; }
+.logo-caixa { border-radius: 16px; border: 1px solid var(--linha); display: grid; place-items: center; padding: 48px 24px; min-height: 180px; }
+.logo-caixa.claro { background: #fff; } .logo-caixa.escuro { background: var(--papel); }
+.logo-caixa img { max-height: 54px; width: auto; } .logo-caixa img.sim { max-height: 72px; }
+.logos .logo-caixa:first-child { grid-row: span 2; } .logos .logo-caixa:first-child img { max-height: 64px; }
+.cores { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; }
+.cor { border-radius: 14px; border: 1px solid var(--linha); overflow: hidden; background: var(--papel); }
+.cor i { display: block; height: 84px; border-bottom: 1px solid var(--linha); }
+.cor div { padding: 12px 14px; font-size: .84rem; line-height: 1.45; }
+.cor b { display: block; color: var(--tinta); font-weight: 600; font-size: .95rem; }
+.cor code { color: var(--tinta); font-size: .82rem; }
+.tipos { display: grid; gap: 12px; }
+.tipo { border: 1px solid var(--linha); border-radius: 14px; background: var(--papel); padding: 26px; }
+.tipo .amostra-g { font: 600 clamp(2.4rem, 6vw, 4.4rem)/1 var(--titulo); letter-spacing: -0.045em; color: var(--tinta); margin: 0 0 8px; }
+.tipo .amostra-m { font: 600 1.6rem/1.2 var(--titulo); letter-spacing: -0.03em; color: var(--tinta); margin: 0 0 8px; }
+.tipo p:last-child { margin: 0; font-size: .9rem; color: var(--suave); }
+.regras { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.regras li { border: 1px solid var(--linha); background: var(--papel); border-radius: 12px; padding: 14px 16px 14px 42px; position: relative; }
+.regras li::before { content: ""; position: absolute; left: 18px; top: 22px; width: 8px; height: 8px; border-radius: 50%; background: var(--sinal); box-shadow: 0 0 10px var(--sinal); }
+.demo-comp { max-width: 70ch; }
+@media (max-width: 640px) { .logos { grid-template-columns: 1fr; } .logos .logo-caixa:first-child { grid-row: auto; } }
+</style>{% endblock %}
+{% block conteudo %}
+<article class="guia">
+  <header>
+    <p class="selo-cat entrada" style="--i:0; display:inline-flex"><span class="ponto"></span>Mantido pelo agente Designer</p>
+    <h1 class="entrada" style="--i:1">Identidade visual</h1>
+    <p class="entrada" style="--i:2">{{ marca.conceito }}</p>
+  </header>
+
+  <h2>Logo</h2>
+  <p class="nota-secao">Uma etiqueta de preço com um raio: o achado barato em tecnologia.</p>
+  <div class="logos">
+    <div class="logo-caixa escuro"><img src="{{ b }}/static/marca/logo.svg" alt="Logo horizontal em fundo escuro"></div>
+    <div class="logo-caixa claro"><img src="{{ b }}/static/marca/logo-claro.svg" alt="Logo horizontal em fundo claro"></div>
+    <div class="logo-caixa escuro"><img class="sim" src="{{ b }}/static/marca/simbolo.svg" alt="Símbolo"></div>
+  </div>
+  <ul class="regras" style="margin-top:14px">{% for r in marca.logo.regras %}<li>{{ r }}</li>{% endfor %}</ul>
+
+  <h2>Cores</h2>
+  <p class="nota-secao">Cada cor tem um trabalho. O violeta é o único sinal de ação.</p>
+  <div class="cores">
+    {% for nome, c in marca.cores.items() %}
+    <div class="cor"><i style="background:{{ c.hex }}"></i><div><b>{{ nome | replace('_', ' ') | capitalize }}</b><code>{{ c.hex }}</code><br>{{ c.uso }}</div></div>
+    {% endfor %}
+  </div>
+
+  <h2>Cores das categorias</h2>
+  <p class="nota-secao">Como cabos coloridos: a cor marca ícones, brilhos e a linha do topo das fichas.</p>
+  <div class="cores">
+    {% for slug, c in cats.items() %}
+    <div class="cor"><i style="background:{{ c.cor }}"></i><div><b>{{ c.nome }}</b><code>{{ c.cor }}</code></div></div>
+    {% endfor %}
+  </div>
+
+  <h2>Tipografia</h2>
+  <p class="nota-secao">{{ marca.fontes.titulo.nome }} em tudo: firme nos títulos, macia no texto.</p>
+  <div class="tipos">
+    <div class="tipo"><p class="amostra-g">Eletrônico bom.</p><p>Títulos — {{ marca.fontes.titulo.uso }}</p></div>
+    <div class="tipo"><p class="amostra-m">Power Bank Ugreen 10.000 mAh 20 W</p><p>Nomes de produto e subtítulos — peso 600.</p></div>
+    <div class="tipo"><p style="margin:0 0 8px; font-size:1.125rem">A capacidade diz quanto o power bank carrega. A potência diz quão rápido.</p><p>Texto — {{ marca.fontes.texto.uso }}</p></div>
+  </div>
+
+  <h2>Componentes dos posts</h2>
+  <p class="nota-secao">O Designer usa estes blocos para dar ritmo ao texto.</p>
+  <div class="prosa demo-comp" style="--cat:{{ exemplo.cor }}">
+    <div class="pros-contras">
+      <div class="bloco bloco-pros"><p class="bloco-titulo">Prós</p><ul><li>Carrega o celular quase duas vezes</li><li>USB-C com carga rápida</li></ul></div>
+      <div class="bloco bloco-contras"><p class="bloco-titulo">Contras</p><ul><li>Não vem com cabo</li><li>Mais pesado que a média</li></ul></div>
+    </div>
+    <div class="bloco bloco-veredito"><p class="bloco-titulo">Veredito</p><p>A melhor escolha para quem quer carga rápida sem gastar muito.</p></div>
+    <div class="bloco bloco-dica"><p class="bloco-titulo">Dica</p><p>Use um cabo USB-C que suporte a mesma potência do carregador.</p></div>
+    <div class="bloco bloco-atencao"><p class="bloco-titulo">Atenção</p><p>Power bank vai sempre na bagagem de mão.</p></div>
+    <p><a class="btn-comprar" href="#" style="max-width:340px">Ver oferta no Mercado Livre</a></p>
+  </div>
+
+  <h2>Regras visuais</h2>
+  <ul class="regras">{% for r in marca.regras_visuais %}<li>{{ r }}</li>{% endfor %}</ul>
+</article>
+{% endblock %}

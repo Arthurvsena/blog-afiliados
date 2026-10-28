@@ -2,15 +2,18 @@
 {% set cat_atual = post.subnicho %}
 {% block titulo %}{{ post.titulo }} | {{ site.nome }}{% endblock %}
 {% block descricao %}{{ post.descricao }}{% endblock %}
+{% block og_imagem %}{% if post.capa %}<meta property="og:image" content="{{ post.capa }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">{% else %}{{ super() }}{% endif %}{% endblock %}
 {% block head %}<meta property="og:type" content="article">
 <script type="application/ld+json">{{ json_ld | safe }}</script>{% endblock %}
 {% block conteudo %}
 <article class="artigo" style="--cat:{{ post.cat.cor }}">
   <header class="artigo-topo">
-    <p class="trilha"><a href="{{ b }}/">Início</a> <span aria-hidden="true">/</span> <a href="{{ b }}/categoria/{{ post.subnicho }}/">{{ post.cat.nome }}</a></p>
-    <h1>{{ post.titulo }}</h1>
-    <p class="artigo-linha-fina">{{ post.descricao }}</p>
-    <p class="meta">{% if post.atualizado and post.atualizado != post.publicado %}Atualizado em {{ post.atualizado | data_br }}{% else %}Publicado em {{ post.publicado | data_br }}{% endif %}, leitura de {{ post.minutos }} min. Por {{ site.autor }}.</p>
+    <a class="selo-cat entrada" style="--i:0" href="{{ b }}/categoria/{{ post.subnicho }}/"><span class="ponto"></span>{{ post.cat.nome }}</a>
+    <h1 class="entrada" style="--i:1">{{ post.titulo }}</h1>
+    <p class="artigo-linha-fina entrada" style="--i:2">{{ post.descricao }}</p>
+    <p class="artigo-meta entrada" style="--i:3">{% if post.atualizado and post.atualizado != post.publicado %}Atualizado em {{ post.atualizado | data_br }}{% else %}Publicado em {{ post.publicado | data_br }}{% endif %}, leitura de {{ post.minutos }} min. Por {{ site.autor }}.</p>
   </header>
 
   <div class="artigo-grade">
@@ -68,21 +71,18 @@
 </article>
 
 {% if relacionados %}
-<section class="secao relacionados" aria-labelledby="rel-titulo">
+<section class="relacionados" aria-labelledby="rel-titulo">
   <h2 id="rel-titulo">Continue escolhendo</h2>
-  <ul class="lista-posts">
+  <div class="grade-posts">
     {% for r in relacionados %}
-    <li>
-      <a href="{{ b }}/posts/{{ r.slug }}/" style="--cat:{{ r.cat.cor }}">
-        <span class="lista-cat">{{ r.cat.icone | safe }}</span>
-        <span class="lista-texto">
-          <span class="lista-titulo">{{ r.titulo }}</span>
-          <span class="meta">{{ r.cat.nome }}</span>
-        </span>
-      </a>
-    </li>
+    <a class="cartao-post" href="{{ b }}/posts/{{ r.slug }}/" style="--cat:{{ r.cat.cor }}; --d:{{ loop.index0 }}" data-surgir>
+      <span class="cartao-topo"><span class="cartao-icone">{{ r.cat.icone | safe }}</span><span class="cartao-cat">{{ r.cat.curto }}</span></span>
+      <span class="cartao-titulo">{{ r.titulo }}</span>
+      <span class="cartao-desc">{{ r.descricao }}</span>
+      <span class="cartao-meta">{{ r.data_txt }} · {{ r.minutos }} min</span>
+    </a>
     {% endfor %}
-  </ul>
+  </div>
 </section>
 {% endif %}
 {% endblock %}

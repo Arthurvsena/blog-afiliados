@@ -1,0 +1,63 @@
+# ==========================================================
+#  IDENTIDADE VISUAL: Tech Barato BR
+#  Arquivo do agente Designer. O site lê estes valores a cada
+#  publicação: mudar uma cor aqui muda o site inteiro.
+# ==========================================================
+
+conceito: >
+  Vitrine noturna. Fundo preto profundo, títulos brancos grandes e firmes e um
+  violeta elétrico como único sinal de ação, inspirado na estética de landing
+  pages de tecnologia. Os produtos aparecem como cartões de interface que
+  flutuam sobre o escuro, com brilho suave na cor da categoria. O violeta é
+  reservado a comprar, vereditos e ao símbolo do logo.
+
+cores:
+  fundo:   { hex: "#050507", uso: "Fundo das páginas. Preto profundo." }
+  papel:   { hex: "#101015", uso: "Cartões, fichas, tabelas e caixas." }
+  papel_2: { hex: "#17171E", uso: "Cartões em destaque e estados de hover." }
+  tinta:   { hex: "#F4F4F6", uso: "Texto principal e títulos." }
+  tinta_2: { hex: "#B9B9C6", uso: "Texto corrido e de apoio." }
+  suave:   { hex: "#7C7C8E", uso: "Datas, legendas e informações secundárias." }
+  linha:   { hex: "#25252F", uso: "Bordas e divisórias." }
+  azul:    { hex: "#A693FF", uso: "Links e foco de teclado." }
+  sinal:   { hex: "#7C5CFF", uso: "SÓ botões de compra, CTA principal, veredito e símbolo do logo." }
+  sinal_2: { hex: "#6A48F5", uso: "Hover do violeta." }
+  ok:      { hex: "#3DDC97", uso: "Prós e confirmações." }
+  nao:     { hex: "#FF6B6B", uso: "Contras e alertas." }
+
+categorias:
+  fones-caixas-bluetooth:   { hex: "#4CC9F0", icone: fone }
+  power-banks-carregadores: { hex: "#FF9F1A", icone: bateria }
+  smartwatches-smartbands:  { hex: "#2DD4BF", icone: relogio }
+  acessorios-gamer:         { hex: "#FF4D8D", icone: controle }
+  casa-inteligente:         { hex: "#5B8CFF", icone: casa }
+
+fontes:
+  titulo:
+    nome: "Inter Tight"
+    google: "Inter+Tight:wght@500;600;700"
+    uso: "Títulos, nomes de produto, preços e números. Peso 600–700, espaçamento negativo (-0,035em nos grandes)."
+  texto:
+    nome: "Inter Tight"
+    google: "Inter+Tight:ital,wght@0,400;0,500;1,400"
+    uso: "Texto corrido, botões e interface. 18px no artigo, entrelinha 1,7, sempre em tinta_2 sobre o preto."
+
+logo:
+  simbolo: "site/static/marca/simbolo.svg"
+  horizontal: "site/static/marca/logo.svg"
+  claro: "site/static/marca/logo-claro.svg"   # para fundos claros
+  regras:
+    - "A etiqueta aponta para a esquerda, com o raio branco dentro. Não gire nem distorça."
+    - "O símbolo é uma etiqueta violeta com raio branco. Em fundo claro, use a versão positiva (texto escuro)."
+    - "Área de respiro mínima: metade da altura do símbolo em volta do logo."
+    - "Tamanho mínimo do símbolo: 20px. Abaixo disso, use só o símbolo, sem texto."
+
+regras_visuais:
+  - "Violeta só aparece em decisões de compra, CTA principal e vereditos. Se tudo for violeta, nada chama atenção."
+  - "A cor da categoria marca o post inteiro: faixa do título, marcadores de lista, topo das fichas."
+  - "A abertura e os títulos de seção são centralizados. Texto corrido sempre alinhado à esquerda."
+  - "Profundidade vem de brilho, não de sombra: halos suaves na cor da categoria ou do violeta atrás de cartões em destaque."
+  - "Movimento com propósito: uma entrada em sequência na abertura, cartões que surgem ao rolar e flutuação lenta nos cartões do topo. Tudo desliga com 'reduzir movimento'."
+  - "Selos em pílula com bolinha colorida para informações curtas acima de títulos."
+  - "Ícones de traço 1,8px, cantos arredondados, sempre na cor da categoria."
+  - "Fotos de produto sempre sobre fundo branco, dentro da ficha."

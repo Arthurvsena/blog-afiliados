@@ -25,6 +25,31 @@ def config():
     return yaml.safe_load((RAIZ / "config.yaml").read_text(encoding="utf-8"))
 
 
+def marca():
+    """Identidade visual mantida pelo agente Designer (design/marca.yaml)."""
+    arq = RAIZ / "design" / "marca.yaml"
+    return yaml.safe_load(arq.read_text(encoding="utf-8")) if arq.exists() else {}
+
+
+def css_marca(m):
+    """Variáveis CSS a partir do marca.yaml (sobrescrevem o style.css)."""
+    linhas = [f"--{k.replace('_', '-')}: {v['hex']};" for k, v in (m.get("cores") or {}).items()]
+    f = m.get("fontes") or {}
+    if f.get("titulo"):
+        linhas.append(f'--titulo: "{f["titulo"]["nome"]}", "Segoe UI", system-ui, sans-serif;')
+    if f.get("texto"):
+        linhas.append(f'--texto: "{f["texto"]["nome"]}", "Segoe UI", system-ui, sans-serif;')
+    return ":root{" + "".join(linhas) + "}"
+
+
+def fontes_url(m):
+    f = m.get("fontes") or {}
+    fams = [f[k]["google"] for k in ("titulo", "texto") if f.get(k, {}).get("google")]
+    if not fams:
+        return ""
+    return "https://fonts.googleapis.com/css2?" + "&".join("family=" + x for x in fams) + "&display=swap"
+
+
 def produtos():
     """Produtos ativos e com link de afiliado de verdade, por id."""
     itens = {}
@@ -70,6 +95,13 @@ VISUAL = {
     "smartwatches-smartbands": ("#00927F", "relogio"),
     "acessorios-gamer": ("#D6336C", "controle"),
     "casa-inteligente": ("#2563EB", "casa"),
+}
+CURTO = {
+    "fones-caixas-bluetooth": "Fones e caixas",
+    "power-banks-carregadores": "Power banks",
+    "smartwatches-smartbands": "Smartwatches",
+    "acessorios-gamer": "Gamer",
+    "casa-inteligente": "Casa inteligente",
 }
 ICONES = {
     "fone": '<path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="14" width="5" height="7" rx="2"/><rect x="16" y="14" width="5" height="7" rx="2"/>',
@@ -147,6 +179,19 @@ def card_produto(p, ordem=None):
 </aside>"""
 
 
+BLOCO = re.compile(r"^:::\s*(pros|contras|veredito|dica|atencao)\b[ \t]*(.*?)\n(.*?)^:::[ \t]*$", re.M | re.S)
+TITULOS_BLOCO = {"pros": "Prós", "contras": "Contras", "veredito": "Veredito", "dica": "Dica", "atencao": "Atenção"}
+
+
+def blocos(texto):
+    """Componentes do Designer: :::pros, :::contras, :::veredito, :::dica, :::atencao."""
+    def troca(m):
+        tipo, titulo, miolo = m.group(1), m.group(2).strip() or TITULOS_BLOCO[m.group(1)], m.group(3)
+        return (f'<div class="bloco bloco-{tipo}" markdown="1">\n<p class="bloco-titulo">{html.escape(titulo)}</p>\n\n'
+                f'{miolo.strip()}\n\n</div>')
+    return BLOCO.sub(troca, texto)
+
+
 def renderizar(corpo, catalogo):
     """Devolve (html, sumario, ids de produtos usados)."""
     usados = [pid for pid in TOKEN_PRODUTO.findall(corpo) if pid in catalogo]
@@ -156,10 +201,13 @@ def renderizar(corpo, catalogo):
         return card_produto(p) if p else ""  # produto inativo some do post
 
     texto = TOKEN_PRODUTO.sub(lambda m: "\n\n" + troca(m) + "\n\n", corpo)
-    md = markdown.Markdown(extensions=["tables", "toc", "sane_lists", "attr_list"],
+    texto = blocos(texto)
+    md = markdown.Markdown(extensions=["tables", "toc", "sane_lists", "attr_list", "md_in_html"],
                            extension_configs={"toc": {"toc_depth": "2"}})
     conteudo = md.convert(texto)
     conteudo = conteudo.replace("<table>", '<div class="tabela"><table>').replace("</table>", "</table></div>")
+    conteudo = re.sub(r'(<div class="bloco bloco-pros">.*?</div>)\s*(<div class="bloco bloco-contras">.*?</div>)',
+                      r'<div class="pros-contras">\1\2</div>', conteudo, flags=re.S)
     sumario = [{"id": t["id"], "nome": t["name"]} for t in md.toc_tokens]
     return conteudo, sumario, list(dict.fromkeys(usados))
 
@@ -178,6 +226,7 @@ def json_ld(post, cfg, url):
         "dateModified": post.get("atualizado") or post.get("publicado"),
         "author": {"@type": "Organization", "name": cfg["site"]["autor"]},
         "mainEntityOfPage": url,
+        **({"image": post["capa"]} if post.get("capa") else {}),
     }]
     if post.get("faq"):
         dados.append({
@@ -192,8 +241,72 @@ def json_ld(post, cfg, url):
     return json.dumps(dados, ensure_ascii=False).replace("</", "<\\/")
 
 
+def capa_png(post, cat, cfg, destino):
+    """Capa 1200x630 para WhatsApp, redes e Google (og:image). Opcional: precisa do Pillow."""
+    try:
+        from PIL import Image, ImageDraw, ImageFont
+    except ImportError:
+        return False
+    fontes = RAIZ / "site" / "fontes"
+    try:
+        def fonte(arq, tam, peso):
+            f = ImageFont.truetype(str(fontes / arq), tam)
+            try:
+                eixos = {a["name"].decode() if isinstance(a["name"], bytes) else a["name"]: a for a in f.get_variation_axes()}
+                f.set_variation_by_axes([peso if "eight" in n else (48 if "ptical" in n or "opsz" in n.lower() else 100)
+                                         for n in eixos])
+            except Exception:
+                pass
+            return f
+        cor = cat.get("cor", "#2950FF")
+        W, H = 1200, 630
+        img = Image.new("RGB", (W, H), "#050507")
+        d = ImageDraw.Draw(img)
+        for r, a in ((520, 18), (380, 34), (240, 60)):  # halo da categoria
+            halo = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+            ImageDraw.Draw(halo).ellipse((W - 260 - r, 120 - r, W - 260 + r, 120 + r), fill=cor + f"{a:02x}")
+            img.paste(halo, (0, 0), halo)
+        d.rectangle((0, H - 10, W, H), fill="#7C5CFF")
+        # símbolo da marca (etiqueta + raio)
+        x0, y0, k = 72, 64, 1.1
+        P = lambda pts: [(x0 + a * k, y0 + b * k) for a, b in pts]
+        d.polygon(P([(20, 6), (58, 6), (60, 10), (60, 54), (58, 58), (20, 58), (4, 32)]), fill="#7C5CFF")
+        d.ellipse((x0 + 13 * k, y0 + 28 * k, x0 + 21 * k, y0 + 36 * k), fill="#050507")
+        d.polygon(P([(44, 12), (29, 35), (38.5, 35), (34.5, 52), (50, 28.5), (40.2, 28.5)]), fill="#FFFFFF")
+        d.text((x0 + 84, y0 + 12), cfg["site"]["nome"], font=fonte("InterTight.ttf", 38, 700), fill="#FFFFFF")
+        f_cat = fonte("InterTight.ttf", 26, 500)
+        larg = d.textlength(cat.get("nome", ""), font=f_cat)
+        d.rounded_rectangle((72, 196, 72 + 52 + larg + 22, 244), radius=24, fill="#101015", outline="#25252F", width=2)
+        d.ellipse((94, 214, 106, 226), fill=cor)
+        d.text((120, 204), cat.get("nome", ""), font=f_cat, fill="#F4F4F6")
+        frase = str(post.get("capa_frase") or post["titulo"])
+        tam = 76 if len(frase) < 48 else 62
+        f_tit = fonte("InterTight.ttf", tam, 700)
+        linhas, atual = [], ""
+        for palavra in frase.split():
+            teste = (atual + " " + palavra).strip()
+            if d.textlength(teste, font=f_tit) > W - 200 and atual:
+                linhas.append(atual); atual = palavra
+            else:
+                atual = teste
+        linhas.append(atual)
+        y = 290
+        for ln in linhas[:3]:
+            d.text((72, y), ln, font=f_tit, fill="#FFFFFF")
+            y += int(tam * 1.12)
+        destino.parent.mkdir(parents=True, exist_ok=True)
+        img.save(destino, optimize=True)
+        return True
+    except Exception as e:  # capa nunca derruba a publicação
+        print(f"capa não gerada para {post.get('slug')}: {e}")
+        return False
+
+
 def build():
     cfg = config()
+    m = marca()
+    VISUAL.update({k: (v["hex"], v.get("icone", VISUAL.get(k, ("", "estrela"))[1]))
+                   for k, v in (m.get("categorias") or {}).items()})
     base = cfg["site"]["url_base"].rstrip("/")
     caminho_base = "/" + base.split("://", 1)[-1].split("/", 1)[1] if base.count("/") > 2 else ""
     catalogo = produtos()
@@ -205,6 +318,7 @@ def build():
         cats[s["slug"]] = {
             "slug": s["slug"], "nome": s["nome"], "cor": s.get("cor", cor),
             "icone": icone(ico), "descricao": s.get("descricao", ""),
+            "curto": s.get("curto") or CURTO.get(s["slug"], s["nome"]),
             "total": sum(1 for p in lista if p.get("subnicho") == s["slug"]),
         }
     subnichos = {k: v["nome"] for k, v in cats.items()}
@@ -216,7 +330,7 @@ def build():
     env = Environment(loader=FileSystemLoader(RAIZ / "site" / "templates"), autoescape=True)
     env.filters["data_br"] = data_br
     glob = dict(site=cfg["site"], subnichos=subnichos, cats=cats, b=caminho_base,
-                ano=dt.date.today().year)
+                ano=dt.date.today().year, css_marca=css_marca(m), fontes_url=fontes_url(m), base=base)
 
     if SAIDA.exists():
         shutil.rmtree(SAIDA)
@@ -231,6 +345,8 @@ def build():
         relacionados = [q for q in lista if q.get("subnicho") == p.get("subnicho") and q["slug"] != p["slug"]][:3]
         if len(relacionados) < 3:
             relacionados += [q for q in lista if q["slug"] != p["slug"] and q not in relacionados][:3 - len(relacionados)]
+        tem_capa = capa_png(p, p["cat"], cfg, SAIDA / "capas" / f"{p['slug']}.png")
+        p["capa"] = f"{base}/capas/{p['slug']}.png" if tem_capa else ""
         pagina = env.get_template("post.html").render(
             **glob, post=p, conteudo=conteudo, sumario=sumario, rapida=rapida, url=url,
             json_ld=json_ld(p, cfg, url), relacionados=relacionados, tem_produto=bool(usados),
@@ -241,8 +357,13 @@ def build():
         (destino / "index.html").write_text(pagina, encoding="utf-8")
         urls.append(url)
 
+    capa_png({"titulo": "Eletrônico bom, sem pagar a mais.", "slug": "inicio"},
+             {"nome": "Guias de compra", "cor": "#7C5CFF"}, cfg, SAIDA / "capas" / "inicio.png")
     (SAIDA / "index.html").write_text(
-        env.get_template("inicio.html").render(**glob, posts=lista, url=base + "/"), encoding="utf-8")
+        env.get_template("inicio.html").render(
+            **glob, posts=lista, url=base + "/", produto=next(iter(catalogo.values()), None),
+            total_produtos=len(catalogo), preco_br=preco_br, milhar=milhar, estrelas=estrelas),
+        encoding="utf-8")
 
     for slug, cat in cats.items():
         dest = SAIDA / "categoria" / slug
@@ -253,6 +374,13 @@ def build():
                 **glob, cat=cat, posts=[p for p in lista if p.get("subnicho") == slug], url=url),
             encoding="utf-8")
         urls.append(url)
+
+    dest = SAIDA / "marca"
+    dest.mkdir()
+    (dest / "index.html").write_text(
+        env.get_template("marca.html").render(**glob, marca=m, url=f"{base}/marca/",
+                                              exemplo=next(iter(cats.values()))),
+        encoding="utf-8")
 
     for nome in ("sobre", "privacidade"):
         dest = SAIDA / nome
