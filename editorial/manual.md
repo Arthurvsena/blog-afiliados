@@ -63,4 +63,7 @@ dos agentes de vendas e designer continuam valendo.
 - Inventar especificação, data, preço, citação ou fonte.
 - Dizer que testou, segurou ou usou um produto.
 - Publicar rumor de fonte única como fato.
-- Usar imagem de terceiros (as capas são geradas pelo próprio site).
+- Usar imagem sem licença: só valem foto do produto do catálogo, imagem de
+  divulgação oficial da empresa e fotos com licença livre (CC0, CC BY, CC BY-SA),
+  sempre com crédito (`scripts/imagem.py` cuida disso). Nada de imagem gerada
+  por IA, print de outro site ou foto de pessoa reconhecível.

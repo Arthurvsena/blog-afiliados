@@ -34,6 +34,8 @@ manual de redação (`editorial/manual.md`).
 - `content/posts/*.md`: os posts (Markdown com frontmatter YAML).
 - `design/marca.yaml`: identidade visual (cores, fontes, logo, regras), mantida
   pelo agente `designer`. O site lê as cores e fontes daqui.
+- `content/imagens/`: fotos reais dos posts (produto, divulgação oficial ou
+  licença livre), baixadas por `scripts/imagem.py` com crédito.
 - `scripts/verificar.py`: checagem de qualidade. Rode antes de terminar.
 - `site/build.py`: gera o site em `_site/` (o GitHub Actions faz isso sozinho).
 
@@ -54,6 +56,11 @@ fontes:
     url: "https://..."
 tags: ["Samsung", "Galaxy X", "lançamento"]
 capa_frase: "Chegou ao Brasil"
+imagem:                    # o designer preenche com scripts/imagem.py
+  arquivo: samsung-galaxy-x-brasil-preco.jpg   # em content/imagens/
+  credito: "Divulgação/Samsung"
+  licenca: "Divulgação"
+  fonte: "https://..."
 ---
 ```
 Guia de compras (com `subnicho`):

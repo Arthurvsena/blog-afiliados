@@ -19,6 +19,11 @@ faq:
     resposta: "Sim, na bagagem de mão. Um power bank de 10.000 mAh fica bem abaixo do limite de 100 Wh liberado pelas companhias aéreas. Nunca despache na mala."
   - pergunta: "Dá para carregar dois aparelhos ao mesmo tempo?"
     resposta: "O produto tem duas portas de carga, mas ao usar as duas juntas a potência é dividida e cada aparelho carrega mais devagar. Para velocidade máxima, use uma porta de cada vez."
+imagem:
+  arquivo: review-power-bank-ugreen-pb311-10000.jpg
+  credito: Ugreen/Divulgação
+  licenca: Divulgação
+  fonte: https://www.mercadolivre.com.br/carregador-portatil-power-bank-ugreen-10000mah-pd-qc-20w-22-cor-preto/p/MLB37248532
 ---
 Se você procura um **power bank Ugreen** para o dia a dia, nossa escolha principal nesta faixa é o {{link:ugreen-pb311-10000-20w|Ugreen PB311 de 10.000 mAh e 20 W}}. É compacto, tem USB-C com Power Delivery e carrega o celular em boa velocidade sem pesar na mochila.
 

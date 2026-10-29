@@ -51,7 +51,8 @@ sai na voz de Rafa Lins.
    b. `seo` em modo revisão, com o caminho do arquivo.
    c. `vendas` em modo revisão (em notícias ele só liga o post ao guia de
       compras, sem forçar venda).
-   d. `designer` em modo revisão visual. Nenhum post é publicado sem passar por ele.
+   d. `designer` em modo revisão visual, incluindo a **foto real** do post
+      (`scripts/imagem.py`). Nenhum post é publicado sem passar por ele.
    e. Marque a pauta como `"status": "publicada"` com `"post": "SLUG"`.
 
 6. **Atualização.** Escolha `rotina.atualizacoes_por_dia` posts que não sejam
@@ -60,8 +61,9 @@ sai na voz de Rafa Lins.
    o `designer` em seguida. Se nenhum post tiver 30+ dias, pule.
 
 6b. **Posts antigos sem venda ou design.** Para até 2 posts publicados por dia
-   que ainda tenham avisos "vendas:" no `python3 scripts/verificar.py` ou não
-   tenham `capa_frase`, chame `vendas` e depois `designer`.
+   que ainda tenham avisos "vendas:" no `python3 scripts/verificar.py`, não
+   tenham `capa_frase` ou apareçam em `python3 scripts/imagem.py faltando`,
+   chame `vendas` e depois `designer`.
 
 7. **Checagem final.** Rode `python3 scripts/verificar.py` (sem argumentos,
    verifica tudo) e `python3 site/build.py`. Se algo falhar, corrija o post
@@ -80,6 +82,8 @@ sai na voz de Rafa Lins.
    `/escritorio/`, onde a equipe aparece trabalhando):
    - `ultima_execucao`: data e hora de agora, formato `AAAA-MM-DDTHH:MM`
      (horário de Brasília; use `TZ=America/Sao_Paulo date +%Y-%m-%dT%H:%M`).
+   - Escreva as frases de `tarefa` e `historico` em primeira pessoa; o
+     escritório mostra cada agente pelo apelido de `config.yaml > equipe`.
    - Em `agentes`, para `chefe`, `pesquisador`, `curador`, `redator`, `seo`,
      `vendas`, `designer` e `atualizador` (não mexa no `analista`): `status` = `ok` (trabalhou hoje), `ocioso` (não foi chamado)
      ou `erro` (falhou ou travou) e `tarefa` = uma frase curta e concreta do que

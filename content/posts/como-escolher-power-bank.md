@@ -18,6 +18,11 @@ faq:
     resposta: "Não. Um power bank de qualidade, com certificação, carrega como um carregador de tomada. O risco está nos modelos sem certificação, que podem entregar tensão instável."
   - pergunta: "Vale a pena power bank de 50.000 mAh?"
     resposta: "Só para quem passa dias sem tomada ou precisa carregar notebook. Para o dia a dia, ele é pesado demais e não pode ir no avião sem autorização."
+imagem:
+  arquivo: como-escolher-power-bank.jpg
+  credito: Ugreen/Divulgação
+  licenca: Divulgação
+  fonte: https://www.mercadolivre.com.br/carregador-portatil-power-bank-ugreen-10000mah-pd-qc-20w-22-cor-preto/p/MLB37248532
 ---
 Saber **como escolher power bank** é simples quando você olha para três números: a capacidade em mAh, a potência em watts (W) e o tipo de saída (de preferência USB-C com Power Delivery). Acerte esses três e confira se o produto tem certificação da Anatel. Com isso você evita 90% das compras ruins. Abaixo explico cada ponto com exemplos práticos.
 

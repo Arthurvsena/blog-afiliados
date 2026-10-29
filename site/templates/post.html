@@ -31,7 +31,10 @@
     </div>
   </header>
 
-  <figure class="materia-capa"><img src="{{ post.capa_url }}" alt="" width="1200" height="630"></figure>
+  <figure class="materia-capa{% if post.tem_foto %} com-foto{% endif %}">
+    <img src="{{ post.capa_url }}" alt="{{ post.imagem.alt if post.imagem and post.imagem.alt else '' }}" width="1600" height="840">
+    {% if post.tem_foto and post.imagem.credito %}<figcaption>{% if post.imagem.fonte %}<a href="{{ post.imagem.fonte }}" target="_blank" rel="noopener nofollow">{{ post.imagem.credito }}</a>{% else %}{{ post.imagem.credito }}{% endif %}{% if post.imagem.licenca and post.imagem.licenca != 'Divulgação' %} · {{ post.imagem.licenca }}{% endif %}</figcaption>{% endif %}
+  </figure>
 
   <div class="materia-grade">
     <div class="materia-corpo">

@@ -151,6 +151,13 @@ def verificar(caminho: Path, cfg, catalogo, slugs_vistos):
             avisos.append("seo: nenhum H2 usa a palavra-chave")
     if compra and not meta.get("palavras_secundarias"):
         avisos.append("seo: sem palavras_secundarias no frontmatter")
+    img = meta.get("imagem") or {}
+    if not img.get("arquivo"):
+        avisos.append("imagem: post sem foto real (o designer usa scripts/imagem.py)")
+    elif not (RAIZ / "content" / "imagens" / str(img["arquivo"])).is_file():
+        erros.append(f"imagem '{img['arquivo']}' não existe em content/imagens/")
+    elif not img.get("credito"):
+        erros.append("imagem sem 'credito' (obrigatório)")
     if not meta.get("capa_frase"):
         avisos.append("sem capa_frase: o post ainda não passou pelo designer")
     if tipo in ("lista", "comparativo") and "|" not in corpo:

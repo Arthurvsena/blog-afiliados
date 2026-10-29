@@ -115,6 +115,9 @@ const AG = [
 ];
 const CHEFE = { id:'chefe', nome:'Editor-chefe', cargo:'Coordena a rotina', cam:'#2a2f45', cab:'#3b2a20', pele:'#e8b98f', acc:'gravata', aux:'#ff5d73' };
 AG.forEach((a, i) => a.seed = i * 37);
+// apelidos da equipe (config.yaml > equipe); o cargo continua aparecendo no cartão
+const APELIDOS = D.equipe || {};
+[...AG, CHEFE].forEach(a => { a.funcao = a.nome; if (APELIDOS[a.id]) a.nome = APELIDOS[a.id]; });
 
 const agoraSP = () => new Date(new Date().toLocaleString('en-US', { timeZone:'America/Sao_Paulo' }));
 const hojeSP = () => { const d = agoraSP(); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; };
@@ -319,7 +322,7 @@ function paineis() {
     const st = a.id === 'chefe' ? (info('chefe').status === 'erro' ? 'erro' : (rodouHoje() ? 'trabalhando' : 'ocioso')) : estado(a.id);
     return `<div class="agente" data-id="${a.id}">
       <div class="nome"><span class="cor" style="background:${a.cam}"></span>${a.nome.toUpperCase()}</div>
-      <div class="cargo">${a.cargo}</div>
+      <div class="cargo">${a.funcao !== a.nome ? a.funcao + ' · ' : ''}${a.cargo}</div>
       <span class="st ${classe[st]}">${rotulo[st]}</span>
       <div class="tarefa">${esc(info(a.id).tarefa)}</div></div>`;
   }).join('');

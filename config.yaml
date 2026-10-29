@@ -16,6 +16,18 @@ site:
   # Ao preencher, o site passa a usar esse endereço (veja o passo 11 do LEIAME.md).
   dominio: ""
 
+# Apelidos da equipe no escritório (troque à vontade).
+equipe:
+  chefe: "Arthur"          # o dono, circulando pelo escritório
+  pesquisador: "Diow"
+  curador: "Croca"
+  redator: "Gabi"
+  seo: "Popo"
+  vendas: "0800"
+  designer: "Branco"
+  atualizador: "Dodo"
+  analista: ""             # falta um apelido
+
 # A voz que assina todos os posts (pseudônimo, explicado na página Sobre).
 autor:
   nome: "Rafa Lins"

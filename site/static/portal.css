@@ -146,6 +146,9 @@ main > nav.vitrine { padding-top: 8px; padding-bottom: 8px; }
 .compartilhar .ok { color: var(--ok); border-color: var(--ok); }
 .materia-capa { max-width: 880px; margin: 24px 0 0; }
 .materia-capa img { width: 100%; height: auto; aspect-ratio: 1200 / 380; object-fit: cover; border-radius: 14px; }
+.materia-capa.com-foto img { aspect-ratio: 1600 / 840; }
+.materia-capa figcaption { font-size: .78rem; color: var(--suave); margin-top: 8px; text-align: right; }
+.materia-capa figcaption a { color: var(--suave); }
 .materia-grade { display: grid; grid-template-columns: minmax(0, 760px) var(--lado); gap: 56px; justify-content: space-between; padding: 32px 0 48px; }
 .materia-corpo { min-width: 0; }
 .materia-lateral { display: flex; flex-direction: column; gap: 20px; }
@@ -218,3 +221,5 @@ main > nav.vitrine { padding-top: 8px; padding-bottom: 8px; }
   .compartilhar { margin-left: 56px; }
   .rodape-grade { grid-template-columns: 1fr; }
 }
+
+.manchete .selo { background: rgba(5,5,7,.72); padding: 5px 11px; border-radius: 999px; }

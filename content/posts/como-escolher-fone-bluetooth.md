@@ -20,6 +20,11 @@ faq:
     resposta: "Pode ter. Todo fone Bluetooth adiciona alguma latência. Em vídeos, o celular costuma compensar o atraso. Em jogos de ação, o atraso é perceptível em muitos modelos, por isso vale procurar fones com modo jogo ou baixa latência."
   - pergunta: "Cancelamento de ruído vale a pena em fone barato?"
     resposta: "Ajuda em ruídos constantes e graves, como ônibus e ventilador, mas em modelos baratos o efeito é mais leve que nos premium. Um bom encaixe com borrachinha do tamanho certo já isola bastante sem custo extra."
+imagem:
+  arquivo: como-escolher-fone-bluetooth.jpg
+  credito: Chenspec/Wikimedia Commons
+  licenca: CC BY-SA 4.0
+  fonte: https://commons.wikimedia.org/wiki/File:Earfun_wireless_black_headphones,_September_2024_01.jpg
 ---
 Para saber **como escolher fone Bluetooth** sem errar, olhe para cinco coisas nesta ordem: o formato que cabe no seu uso, a autonomia real, o conforto, a resistência à água e, só então, o codec e os extras. A maioria dos guias para na lista de especificações. Aqui eu explico o que cada número significa na prática e o que você pode ignorar.
 

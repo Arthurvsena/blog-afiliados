@@ -351,6 +351,29 @@ def capa_png(post, cat, cfg, destino, arte=False):
             return f
         cor = cat.get("cor", "#2950FF")
         W, H = 1200, 630
+        foto = RAIZ / "content" / "imagens" / str((post.get("imagem") or {}).get("arquivo", "_"))
+        if foto.is_file() and not arte:  # capa social a partir da foto real
+            from PIL import ImageOps
+            img = ImageOps.fit(Image.open(foto).convert("RGB"), (W, H), Image.LANCZOS)
+            sombra = Image.new("L", (1, H))
+            for yy in range(H):
+                sombra.putpixel((0, yy), int(235 * max(0, (yy - H * 0.35) / (H * 0.65)) ** 1.4))
+            img.paste(Image.new("RGB", (W, H), "#050507"), (0, 0), sombra.resize((W, H)))
+            d = ImageDraw.Draw(img)
+            x0, y0, k = 56, 44, 0.95
+            P = lambda pts: [(x0 + a * k, y0 + b * k) for a, b in pts]
+            d.polygon(P([(20, 6), (58, 6), (60, 10), (60, 54), (58, 58), (20, 58), (4, 32)]), fill="#7C5CFF")
+            d.ellipse((x0 + 13 * k, y0 + 28 * k, x0 + 21 * k, y0 + 36 * k), fill="#050507")
+            d.polygon(P([(44, 12), (29, 35), (38.5, 35), (34.5, 52), (50, 28.5), (40.2, 28.5)]), fill="#FFFFFF")
+            f_cat = fonte("InterTight.ttf", 24, 600)
+            d.rounded_rectangle((56, 400, 56 + 46 + d.textlength(cat.get("nome", ""), font=f_cat) + 20, 444), radius=22, fill=cor)
+            d.text((80, 408), cat.get("nome", ""), font=f_cat, fill="#050507")
+            frase = str(post.get("capa_frase") or post["titulo"])
+            f_tit = fonte("InterTight.ttf", 58 if len(frase) < 40 else 48, 700)
+            d.text((56, 462), frase, font=f_tit, fill="#FFFFFF")
+            destino.parent.mkdir(parents=True, exist_ok=True)
+            img.save(destino, optimize=True)
+            return True
         img = Image.new("RGB", (W, H), "#050507")
         d = ImageDraw.Draw(img)
         import hashlib
@@ -465,7 +488,9 @@ def build():
         p["minutos"] = minutos_leitura(p["corpo"])
         p["rotulo"] = ROTULO_TIPO.get(p.get("tipo"), "Post")
         p["compra"] = p.get("tipo") in TIPOS_COMPRA or p["secao"] in compras
-        p["capa_url"] = f"{caminho_base}/capas/{p['slug']}-arte.jpg"
+        arq = (p.get("imagem") or {}).get("arquivo")
+        p["tem_foto"] = bool(arq) and (RAIZ / "content" / "imagens" / str(arq)).is_file()
+        p["capa_url"] = f"{caminho_base}/img/{arq}" if p["tem_foto"] else f"{caminho_base}/capas/{p['slug']}-arte.jpg"
 
     a = cfg.get("anuncios") or {}
     autor = {**{"nome": cfg["site"].get("autor", ""), "bio": "", "avatar": "static/marca/rafa.svg"}, **(cfg.get("autor") or {})}
@@ -481,6 +506,8 @@ def build():
         shutil.rmtree(SAIDA)
     (SAIDA / "posts").mkdir(parents=True)
     shutil.copytree(RAIZ / "site" / "static", SAIDA / "static")
+    if (RAIZ / "content" / "imagens").is_dir():
+        shutil.copytree(RAIZ / "content" / "imagens", SAIDA / "img")
 
     # mais lidas: da semana mais recente das métricas (se houver), senão as mais novas
     mais_lidas = []
@@ -508,7 +535,8 @@ def build():
         if len(relacionados) < 3:
             relacionados += [q for q in lista if q["slug"] != p["slug"] and q not in relacionados][:3 - len(relacionados)]
         tem_capa = capa_png(p, p["cat"], cfg, SAIDA / "capas" / f"{p['slug']}.png")
-        capa_png(p, p["cat"], cfg, SAIDA / "capas" / f"{p['slug']}-arte.jpg", arte=True)
+        if not p["tem_foto"]:
+            capa_png(p, p["cat"], cfg, SAIDA / "capas" / f"{p['slug']}-arte.jpg", arte=True)
         p["capa"] = f"{base}/capas/{p['slug']}.png" if tem_capa else ""
         pagina = env.get_template("post.html").render(
             **glob, post=p, conteudo=conteudo, sumario=sumario, rapida=rapida, url=url, cat_atual=p["secao"],
@@ -590,6 +618,7 @@ def build():
         "produtos": len(catalogo),
         "meta_dia": rot.get("posts_novos_por_dia", 1) + rot.get("noticias_por_dia", 0),
     }
+    escritorio["equipe"] = {k: str(v) for k, v in (cfg.get("equipe") or {}).items() if v}
     est = RAIZ / "data" / "estrategia.md"
     if est.exists():
         escritorio["estrategia_html"] = markdown.markdown(est.read_text(encoding="utf-8"), extensions=["tables"])
