@@ -59,7 +59,7 @@ A capacidade diz **quanto** o power bank carrega. A potência diz **quão rápid
 - **10 a 12 W:** carga lenta. Serve para fones e relógios, mas é frustrante no celular.
 - **18 a 22,5 W:** carga rápida para a maioria dos celulares. É o ponto ideal de custo-benefício.
 - **30 a 45 W:** carrega rápido celulares topo de linha e tablets.
-- **60 a 100 W:** necessário para notebooks que carregam por USB-C.
+- **60 a 100 W:** necessário para notebooks que carregam por USB-C. Está de olho em notebook novo? Veja o [MacBook Pro com tela OLED touch](/posts/macbook-pro-oled-touch-preco-brasil/), anunciado pela Apple.
 
 Um detalhe que pega muita gente: a potência máxima costuma valer **só para uma porta por vez**. Ao carregar dois aparelhos juntos, a potência é dividida. Se você vai usar duas portas ao mesmo tempo, procure na ficha técnica a "saída total".
 

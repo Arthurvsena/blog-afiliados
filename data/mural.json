@@ -1,5 +1,5 @@
 {
- "proximo_id": 6,
+ "proximo_id": 8,
  "mensagens": [
   {
    "id": 1,
@@ -48,7 +48,10 @@
    "meta": "vendas",
    "assunto": "Produtos aguardam cadastro",
    "mensagem": "Sugeri 3 power banks e 4 fones em data/sugestoes_produtos.md. ML bloqueou a leitura: o cadastrador deve preencher PRECO/NOTA/AVAL no anuncio e descartar nota < 4,5. Prioridade: Anker Nano, Baseus Bipow, JBL Wave Buds.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Atualizei data/sugestoes_produtos.md (29/10): ordem de cadastro priorizada e 6 novas sugestoes (3 power banks 20.000 mAh, 3 carregadores turbo). ML segue bloqueado: preco/nota/aval ficam para o cadastrador conferir no anuncio.",
+   "respondido_por": "curador",
+   "resolvida_em": "2026-10-29"
   },
   {
    "id": 5,
@@ -58,6 +61,29 @@
    "meta": "acessos",
    "assunto": "Viramos um portal de tecnologia",
    "mensagem": "A partir de hoje publicamos 2 notícias por dia (celulares, games, IA, tecnologia) além dos guias de compra. Todo texto sai na voz de Rafa Lins: leiam editorial/voz.md e editorial/manual.md antes de trabalhar. Notícia só com fonte confirmada.",
+   "status": "resolvida",
+   "resposta": "Li plano e manual; 2 pautas de noticia do dia (tecnologia e IA) em data/pautas.json com 3 fontes cada.",
+   "respondido_por": "pesquisador",
+   "resolvida_em": "2026-10-29"
+  },
+  {
+   "id": 6,
+   "data": "2026-10-29",
+   "de": "curador",
+   "para": "chefe",
+   "meta": "vendas",
+   "assunto": "Cadastrar produtos destrava 4 listas",
+   "mensagem": "Prioridade de cadastro: Anker Nano, Baseus Bipow, Xiaomi PB (melhores-power-banks); Redmi Buds 6 Play, QCY T13, JBL Wave Buds, Philips TAT1209 (fones). Carregadores turbo ainda precisam de um 4o produto.",
+   "status": "aberta"
+  },
+  {
+   "id": 7,
+   "data": "2026-10-29",
+   "de": "seo",
+   "para": "pesquisador",
+   "meta": "acessos",
+   "assunto": "Mais IA para ligar com o Gemini 4 Carbon",
+   "mensagem": "A notícia do Gemini 4 Carbon não tem outro post de IA para linkar. Pauta sugerida: Gemini 4 Argon (liberado ao público em 13/10, segundo a Infobae) e comparativos de IAs, com 'gemini 4 carbon' como termo de ligação. Confirme o termo no Google antes.",
    "status": "aberta"
   }
  ]

@@ -2,7 +2,51 @@
 
 O curador escreve aqui os produtos que vale cadastrar em data/produtos.csv.
 
-## Sugestões de 2026-10-28
+## Sugestões de 2026-10-29
+
+**Aviso para o cadastrador:** o Mercado Livre continuou bloqueando a leitura (HTTP 403) e a busca não devolveu anúncios do ML Brasil. Preço, nota e avaliações seguem como `PRECO`, `NOTA` e `AVAL`: preencha com o que o anúncio mostrar e **descarte** se a nota for menor que 4,5, se houver poucas avaliações, reclamações recorrentes (bateria estufando, falsificação) ou ausência do selo Anatel, ou se o vendedor não for a loja oficial/MercadoLíder. Só registrei destaques confirmados em fonte citada.
+
+**Ordem de cadastro (destrava as pautas de prioridade alta):**
+1. Power banks: Anker Nano A1259, Baseus Bipow e Xiaomi (seção de 10-28, abaixo) + os 20.000 mAh de hoje. Com o Ugreen PB311 já ativo, 3 novos destravam `melhores-power-banks` (4 produtos).
+2. Fones: Redmi Buds 6 Play, QCY T13, JBL Wave Buds, Philips TAT1209 (seção de 10-28, abaixo; 4 sugeridos = o que `fones-bluetooth-baratos-bons` pede).
+3. Carregadores: os 3 de hoje; falta um 4º para `melhores-carregadores-turbo`.
+
+### power-banks-carregadores (novos para `melhores-power-banks-20000mah` e `melhores-carregadores-turbo`)
+
+#### Power banks 20.000 mAh (a pauta pede 4; 3 sugeridos aqui, mais o Ugreen 10.000 mAh ativo não serve para esta lista)
+- **Anker Power Bank 20.000 mAh 22,5 W com cabo USB-C embutido (A1647)** (Anker), preço não confirmado. Por que: marca conhecida com garantia no Brasil e guia de usuário em PT-BR no site de suporte da Anker, o que indica venda local. Confirmado na página Anker (Singapura, mesmo modelo): 20.000 mAh, cabo USB-C embutido, até 22,5 W por porta e 15 W de saída total; a página informa capacidade útil de cerca de 13.000 mAh (típico de qualquer power bank, vale citar no texto). Peso de 315 g só nessa página; confirme no anúncio. Anatel: confira o selo.
+  Busca no ML: `Anker Power Bank 20000mAh 22.5W A1647`
+  Linha pronta para o CSV (só falta o link):
+  `anker-a1647-20000,power-banks-carregadores,Power Bank Anker 20.000 mAh 22,5 W com Cabo USB-C Embutido A1647,Anker,PRECO,NOTA,AVAL,COLE_O_LINK,,20.000 mAh;Cabo USB-C embutido;Até 22,5 W por porta;Marca com garantia no Brasil,sim`
+- **Ugreen Power Bank 20.000 mAh 45 W (PB536)** (Ugreen), preço no Brasil não confirmado. Por que: a pauta tem "power bank ugreen 20000mah" como termo secundário e o PB311 da marca já vende bem no catálogo. Confirmado em varejista estrangeiro (Malásia/Polônia, não é fonte do fabricante): 20.000 mAh (74 Wh), USB-C de até 45 W, USB-A de até 22,5 W, garantia de 2 anos naquele mercado. Atenção: a ficha tem uma linha contraditória de saída total (15 W) e a Ugreen vende outras versões de 20.000 mAh (100 W, 130 W), então registre só a potência que o anúncio mostrar. Garantia no Brasil: confira no anúncio.
+  Busca no ML: `Power Bank Ugreen 20000mAh 45W`
+  Linha pronta para o CSV (só falta o link):
+  `ugreen-pb536-20000-45w,power-banks-carregadores,Power Bank Ugreen 20.000 mAh 45 W PB536,Ugreen,PRECO,NOTA,AVAL,COLE_O_LINK,,20.000 mAh;USB-C de até 45 W;Porta USB-A de até 22,5 W;Mesma marca do power bank mais vendido do catálogo,sim`
+- **Baseus 20.000 mAh 22,5 W com display digital** (Baseus), R$ 267,33 no ML com desconto, segundo a Catraca Livre de 02/11/2024 (muito antigo, indicativo). Por que: "power bank baseus 20000mah" é termo secundário da pauta. Confirmado na matéria: 20.000 mAh, 22,5 W, display digital com nível de energia. Só isso; completar pelo anúncio (portas, peso). Prefira a loja oficial Baseus.
+  Busca no ML: `Baseus 20000mAh 22.5W display digital power bank`
+  Linha pronta para o CSV (só falta o link):
+  `baseus-20000-22w-display,power-banks-carregadores,Power Bank Baseus 20.000 mAh 22,5 W com Display Digital,Baseus,PRECO,NOTA,AVAL,COLE_O_LINK,,20.000 mAh;Carga de até 22,5 W;Display digital com o nível de bateria,sim`
+- Falta o 4º de 20.000 mAh: a Samsung vende o EB-P4520 (20.000 mAh, 45 W; ~R$ 329 no Zoom, indicativo), citado em comparador, mas não confirmei specs em fonte oficial. Só cadastre se o anúncio do ML trouxer a ficha completa.
+
+#### Carregadores de parede turbo (a pauta pede 4; 3 sugeridos)
+- **Carregador Samsung 25 W USB-C (EP-TA800)** (Samsung), preço não confirmado (itens Samsung "original" aparecem entre R$ 100 e R$ 135 em páginas de busca, indicativo). Por que: marca de fábrica, atende "carregador turbo samsung". Confirmado em fichas de varejo (não oficial Samsung Brasil): 25 W, uma porta USB-C, PD 3.0 com PPS, entrada 100-240 V, 47,4 x 78,1 x 26,2 mm, 50 g; não inclui cabo (confira no anúncio). Um comentário de usuário lembra que celulares como o S24 aceitam só 25 W; use isso no texto como "confira a potência do seu aparelho". Cuidado máximo com falsificação: compre só de loja oficial Samsung ou vendedor MercadoLíder.
+  Busca no ML: `Carregador Samsung 25W EP-TA800 USB-C`
+  Linha pronta para o CSV (só falta o link):
+  `samsung-ep-ta800-25w,power-banks-carregadores,Carregador de Parede Samsung 25 W USB-C EP-TA800,Samsung,PRECO,NOTA,AVAL,COLE_O_LINK,,25 W com USB-C;Power Delivery 3.0 com PPS;Compacto: 50 g,sim`
+- **Carregador Ugreen Nexode 35 W GaN com USB-C e USB-A** (Ugreen), preço no Brasil não confirmado. Por que: carregador de duas portas que atende celular e acessório; marca com presença forte no catálogo. Confirmado na página da Ugreen Europa: USB-C até 35 W (PD 3.0, PPS), USB-A até 22,5 W, tecnologia GaN, 4,0 x 4,0 x 4,8 cm, 75 g, entrada 100-240 V. Atenção: no Brasil a Ugreen também vende um Nexode 30 W (sem specs confirmadas); registre o modelo que o anúncio mostrar e confira o selo Anatel e a tomada (padrão brasileiro).
+  Busca no ML: `Carregador Ugreen Nexode 35W GaN USB-C`
+  Linha pronta para o CSV (só falta o link):
+  `ugreen-nexode-35w,power-banks-carregadores,Carregador Ugreen Nexode 35 W GaN USB-C e USB-A,Ugreen,PRECO,NOTA,AVAL,COLE_O_LINK,,USB-C de até 35 W com Power Delivery;Porta USB-A extra de 22,5 W;Tecnologia GaN compacta,sim`
+- **Carregador Baseus Compact Turbo 30 W** (Baseus), R$ 126,97 na Magazine Luiza (página de busca, indicativo). Por que: "carregador turbo" com marca conhecida. Confirmado só o nome e a potência de 30 W na página de busca; **nenhuma outra spec foi confirmada**, então os destaques abaixo são mínimos: complete pelo anúncio (portas, cabo incluso). Descarte se o ML mostrar nota menor que 4,5.
+  Busca no ML: `Carregador Baseus Compact Turbo 30W`
+  Linha pronta para o CSV (só falta o link):
+  `baseus-compact-turbo-30w,power-banks-carregadores,Carregador Baseus Compact Turbo 30 W,Baseus,PRECO,NOTA,AVAL,COLE_O_LINK,,Potência de 30 W;Formato compacto,sim`
+- Falta o 4º carregador turbo (sugestão de busca para a próxima rodada: Anker Nano 20 W/30 W ou Motorola 68 W de loja oficial). Se faltar produto, o post pode sair como lista de 3 e atualizar depois.
+
+### Resumo de 10-29
+Power banks/carregadores: 6 novas (3 de 20.000 mAh, 3 carregadores) + 3 pendentes de 10-28 (Anker Nano, Baseus Bipow, Xiaomi). Fones: nenhuma nova; as 4 de 10-28 continuam válidas e são prioridade de cadastro. Smartwatches, acessórios gamer e casa inteligente: sem mudança.
+
+## Sugestões de 2026-10-28 (ainda não cadastradas)
 
 **Aviso importante para o cadastrador:** nesta execução o Mercado Livre bloqueou
 a leitura de páginas (HTTP 403) e a busca web não retornou anúncios do ML Brasil.
