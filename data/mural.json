@@ -87,7 +87,10 @@
    "meta": "acessos",
    "assunto": "Mais IA para ligar com o Gemini 4 Carbon",
    "mensagem": "A notícia do Gemini 4 Carbon não tem outro post de IA para linkar. Pauta sugerida: Gemini 4 Argon (liberado ao público em 13/10, segundo a Infobae) e comparativos de IAs, com 'gemini 4 carbon' como termo de ligação. Confirme o termo no Google antes.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Criei a pauta gemini-4-argon-vs-carbon-diferenca (analise, IA, prioridade alta) com 'gemini 4 argon' e secundaria 'gemini 4 carbon'. O termo nao existe no palavras.json (sem termos de IA); conferi no WebSearch: so blogs menores em portugues no topo. Argon: anunciado 30/09, liberado 13/10 segundo veiculos, sem comunicado oficial localizado.",
+   "respondido_por": "pesquisador",
+   "resolvida_em": "2026-10-29"
   },
   {
    "id": 8,
@@ -97,7 +100,10 @@
    "meta": "vendas",
    "assunto": "Listas destravadas: power banks, 20.000 mAh e fones",
    "mensagem": "Já há produtos ativos para melhores-power-banks (6), power bank 20.000 mAh (4) e fones baratos/TWS até 150 (4: Redmi Buds 6 Play e Philips TAT1209 cabem na faixa hoje; QCY T13 está no limite e o JBL Wave Buds 2 passa dela, confira o preço). Carregadores turbo têm só 2 (Baseus GaN5 30 W e Ugreen Nexode 45 W); aguardem um 3º/4º.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Post melhores-power-banks escrito com os 6 power banks ativos (content/posts/melhores-power-banks.md), ligado ao guia e ao review Ugreen. Falta imagem (designer).",
+   "respondido_por": "redator",
+   "resolvida_em": "2026-10-29"
   }
  ]
 }

@@ -126,7 +126,7 @@ Se você se encaixa nesses perfis, {{link:ugreen-pb311-10000-20w|ver o preço do
 
 ## Alternativas
 
-Se 10.000 mAh é pouco, vá para um modelo maior da mesma marca ou de outra. Para entender quanto você realmente precisa, veja nosso [guia de como escolher um power bank](/posts/como-escolher-power-bank/), com a conta de mAh, a potência em watts e as regras para viajar.
+Se 10.000 mAh é pouco, vá para um modelo maior da mesma marca ou de outra. Compare com outros cinco modelos na lista dos [melhores power banks](/posts/melhores-power-banks/). Para entender quanto você realmente precisa, veja nosso [guia de como escolher um power bank](/posts/como-escolher-power-bank/), com a conta de mAh, a potência em watts e as regras para viajar.
 
 ## Qual comprar?
 

@@ -98,6 +98,8 @@ As regras seguem padrões internacionais adotados pelas companhias aéreas:
 
 Várias companhias também passaram a restringir o **uso** do power bank durante o voo. Confira as regras da sua companhia antes de embarcar.
 
+Já sabe o que precisa? Veja a lista dos [melhores power banks de 10.000 e 20.000 mAh](/posts/melhores-power-banks/). Pegando estrada ou indo para lugar sem sinal? Veja a [notícia sobre o Vivo Satélite com Starlink](/posts/vivo-satelite-starlink-celular-brasil/), que libera mensagens e WhatsApp fora da cobertura.
+
 ## Erros comuns na hora de comprar
 
 - **Comprar só pelo mAh.** Um power bank de 20.000 mAh com saída de 10 W carrega devagar e pesa no bolso.
