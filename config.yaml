@@ -26,7 +26,7 @@ equipe:
   vendas: "0800"
   designer: "Branco"
   atualizador: "Dodo"
-  analista: ""             # falta um apelido
+  analista: "Luisa"
 
 # A voz que assina todos os posts (pseudônimo, explicado na página Sobre).
 autor:

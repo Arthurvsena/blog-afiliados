@@ -107,7 +107,7 @@ const AG = [
   { id:'pesquisador', nome:'Pesquisador', cargo:'Caça pautas no Google', x:52,  y:100, cam:'#3d7be0', cab:'#2e1d12', pele:'#f1c29b', acc:'oculos', luz:'#7fd0ff' },
   { id:'curador',     nome:'Curador',     cargo:'Escolhe os produtos e gera os links', x:144, y:100, cam:'#e0803d', cab:'#c9a227', pele:'#d9a074', acc:'bone',   luz:'#ffd27f', aux:'#c23b3b' },
   { id:'redator',     nome:'Redator',     cargo:'Escreve os posts',     x:236, y:100, cam:'#8a4fd6', cab:'#151515', pele:'#8d5a3b', acc:'fone',   luz:'#d6a6ff', aux:'#5ee08a' },
-  { id:'analista',    nome:'Analista',    cargo:'Lê visitas, cliques e pedidos', x:328, y:100, cam:'#2f9e6e', cab:'#5b3a29', pele:'#e8b98f', acc:'oculos', luz:'#9effc8' },
+  { id:'analista',    nome:'Analista',    cargo:'Lê visitas, cliques e pedidos', x:328, y:100, cam:'#2f9e6e', cab:'#4a2c1a', pele:'#e8b98f', acc:'redondo', luz:'#9effc8' },
   { id:'seo',         nome:'Estrategista SEO', cargo:'Leva o blog ao topo do Google', x:52, y:170, cam:'#2bb39a', cab:'#0f0f0f', pele:'#5a3825', acc:'curto', luz:'#8affd9' },
   { id:'vendas',      nome:'Vendas',      cargo:'Faz cada post levar à compra', x:144, y:170, cam:'#e0b23d', cab:'#c4461c', pele:'#f6d6bd', acc:'ruiva', luz:'#ffe08a' },
   { id:'designer',    nome:'Designer',    cargo:'Cuida da marca e da cara de cada post', x:236, y:170, cam:'#7C5CFF', cab:'#e8c27a', pele:'#c98f6b', acc:'boina', luz:'#c9b8ff', aux:'#14213D' },
@@ -190,6 +190,10 @@ function pessoa(px, py, c, t, modo) {
     case 'coque': P(c.cab, px + 4, py - 3 + dy, 4, 3); break;
     case 'barba': P(c.cab, px + 2, py + 7 + dy, 8, 2); P(c.pele, px + 5, py + 7 + dy, 2, 1); break;
     case 'gravata': P(c.cab, px + 3, py - 1, 6, 1); break;
+    case 'redondo': // cabelo comprido moreno + óculos redondos
+      P(c.cab, px + 1, py - 1 + dy, 10, 2); P(c.cab, px + 1, py + 1 + dy, 2, 9); P(c.cab, px + 9, py + 1 + dy, 2, 9);
+      P('#111', px + 3, py + 3, 2, 1); P('#111', px + 7, py + 3, 2, 1); P('#111', px + 2, py + 4, 1, 1); P('#111', px + 5, py + 4, 1, 1);
+      P('#111', px + 6, py + 4, 1, 1); P('#111', px + 9, py + 4, 1, 1); P('#111', px + 3, py + 5, 2, 1); P('#111', px + 7, py + 5, 2, 1); break;
     case 'curto': P(c.pele, px + 2, py + 4 + dy, 1, 2); P(c.pele, px + 9, py + 4 + dy, 1, 2); P(c.cab, px + 2, py - 1 + dy, 8, 1); break;
     case 'ruiva': P(c.cab, px + 1, py - 1 + dy, 10, 2); P(c.cab, px + 1, py + 1 + dy, 2, 10); P(c.cab, px + 9, py + 1 + dy, 2, 10); P('#d9895f', px + 3, py + 6 + dy, 1, 1); P('#d9895f', px + 8, py + 6 + dy, 1, 1); P('#d9895f', px + 4, py + 7 + dy, 1, 1); P('#d9895f', px + 7, py + 7 + dy, 1, 1); break;
     case 'longo': P(c.cab, px + 1, py + 1 + dy, 2, 9); P(c.cab, px + 9, py + 1 + dy, 2, 9); break;
