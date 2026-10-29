@@ -8,39 +8,48 @@
 <link rel="canonical" href="{{ url }}">
 {% block robots %}{% endblock %}
 {% if site.google_verificacao %}<meta name="google-site-verification" content="{{ site.google_verificacao }}">{% endif %}
+{% if adsense %}<meta name="google-adsense-account" content="{{ adsense }}">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ adsense }}" crossorigin="anonymous"></script>{% endif %}
 <meta name="theme-color" content="#050507">
 <meta property="og:site_name" content="{{ site.nome }}">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:url" content="{{ url }}">
 <meta property="og:title" content="{{ self.titulo() }}">
 <meta property="og:description" content="{{ self.descricao() }}">
-{% block og_imagem %}{% endblock %}
+{% block og_imagem %}<meta property="og:image" content="{{ base }}/capas/inicio.png">{% endblock %}
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="{{ b }}/static/marca/simbolo.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 {% if fontes_url %}<link href="{{ fontes_url }}" rel="stylesheet">{% endif %}
 <link rel="stylesheet" href="{{ b }}/static/style.css">
+<link rel="stylesheet" href="{{ b }}/static/portal.css">
 <style>{{ css_marca | safe }}</style>
 {% block head %}{% endblock %}
 </head>
 <body>
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
-<header class="topo" id="topo">
-  <div class="topo-linha">
+<header class="cabecalho" id="topo">
+  <div class="faixa">
+    <span class="faixa-data" id="hoje"></span>
+    {% if ultimas %}<span class="faixa-alta"><b>Agora</b>{% for p in ultimas[:3] %}<a href="{{ b }}/posts/{{ p.slug }}/">{{ p.titulo }}</a>{% endfor %}</span>{% endif %}
+  </div>
+  <div class="barra">
+    <button class="menu-botao" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span><span></span></button>
     <a class="marca" href="{{ b }}/"><img src="{{ b }}/static/marca/logo.svg" alt="{{ site.nome }}, página inicial" width="171" height="34"></a>
-    <nav class="menu" id="menu" aria-label="Categorias">
-      {% for slug, c in cats.items() %}
-      <a href="{{ b }}/categoria/{{ slug }}/" style="--cat:{{ c.cor }}"{% if cat_atual == slug %} aria-current="page"{% endif %}>{{ c.curto }}</a>
-      {% endfor %}
-      <a href="{{ b }}/sobre/" class="menu-extra">Como escolhemos</a>
+    <nav class="editorias" id="menu" aria-label="Editorias">
+      {% for slug, c in editorias.items() %}<a href="{{ c.url }}" style="--cat:{{ c.cor }}"{% if cat_atual == slug %} aria-current="page"{% endif %}>{{ c.curto }}</a>{% endfor %}
+      <a href="{{ b }}/guia-de-compras/" class="nav-compras"{% if cat_atual == 'guia-de-compras' or cat_atual in compras %} aria-current="page"{% endif %}>Guia de compras</a>
+      <a href="{{ b }}/sobre/" class="menu-extra">Sobre o site</a>
     </nav>
-    <a class="btn btn-primario btn-topo" href="{{ b }}/#achados">Ver achados</a>
-    <button class="menu-botao" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
-      <span></span><span></span>
-    </button>
+    <form class="busca-topo" role="search" action="{{ b }}/" onsubmit="return window.buscar && buscar(event)">
+      <label for="q" class="sr">Buscar no site</label>
+      <input id="q" name="q" type="search" placeholder="Buscar" autocomplete="off">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    </form>
   </div>
 </header>
+{{ anuncios.topo | safe }}
 
 <main id="conteudo">
 {% block conteudo %}{% endblock %}
@@ -50,44 +59,46 @@
   <div class="rodape-grade">
     <div class="rodape-marca">
       <a href="{{ b }}/"><img src="{{ b }}/static/marca/logo.svg" alt="{{ site.nome }}" width="171" height="34"></a>
-      <p>Guias de compra de eletrônicos que valem o que custam, com especificações conferidas e prós e contras sem rodeios.</p>
+      <p>Notícias de tecnologia, celulares, games e IA, com análises e guias para comprar bem. Sem enrolação.</p>
     </div>
-    <nav aria-label="Categorias no rodapé">
-      <p class="rodape-titulo">Categorias</p>
-      <ul>{% for slug, c in cats.items() %}<li><a href="{{ b }}/categoria/{{ slug }}/">{{ c.nome }}</a></li>{% endfor %}</ul>
+    <nav aria-label="Editorias no rodapé">
+      <p class="rodape-titulo">Editorias</p>
+      <ul>{% for slug, c in editorias.items() %}<li><a href="{{ c.url }}">{{ c.nome }}</a></li>{% endfor %}</ul>
+    </nav>
+    <nav aria-label="Guia de compras no rodapé">
+      <p class="rodape-titulo">Guia de compras</p>
+      <ul>{% for slug, c in compras.items() %}<li><a href="{{ c.url }}">{{ c.nome }}</a></li>{% endfor %}</ul>
     </nav>
     <nav aria-label="Institucional">
       <p class="rodape-titulo">O site</p>
       <ul>
-        <li><a href="{{ b }}/sobre/">Como escolhemos os produtos</a></li>
-        <li><a href="{{ b }}/privacidade/">Privacidade</a></li>
-        <li><a href="{{ b }}/marca/">Identidade visual</a></li>
+        <li><a href="{{ b }}/sobre/">Sobre e como trabalhamos</a></li>
+        <li><a href="{{ b }}/privacidade/">Privacidade e cookies</a></li>
       </ul>
     </nav>
   </div>
   <div class="rodape-base">
-    <p>Participamos do programa de afiliados do Mercado Livre. Quando você compra por um link daqui, recebemos uma comissão, sem custo extra para você. Isso não muda o que recomendamos.</p>
+    <p>Alguns links são de afiliado do Mercado Livre e o site exibe anúncios. Isso ajuda a manter o Tech Barato BR e não muda nossas recomendações.</p>
     <p>© {{ ano }} {{ site.nome }}</p>
   </div>
 </footer>
 <script>
 (() => {
+  const h = document.getElementById('hoje');
+  if (h) { const t = new Date().toLocaleDateString('pt-BR', { weekday: 'long', day: 'numeric', month: 'long' }); h.textContent = t.charAt(0).toUpperCase() + t.slice(1); }
   const topo = document.getElementById('topo');
-  const fixa = () => topo.classList.toggle('rolou', window.scrollY > 8);
-  fixa(); addEventListener('scroll', fixa, { passive: true });
+  addEventListener('scroll', () => topo.classList.toggle('rolou', scrollY > 40), { passive: true });
   const botao = document.querySelector('.menu-botao');
   botao.addEventListener('click', () => {
     const aberto = topo.classList.toggle('aberto');
     botao.setAttribute('aria-expanded', aberto);
     botao.setAttribute('aria-label', aberto ? 'Fechar menu' : 'Abrir menu');
   });
+  window.buscar = ev => { const q = document.getElementById('q').value.trim(); if (!q) { ev.preventDefault(); return false; }
+    location.href = '{{ b }}/busca/?q=' + encodeURIComponent(q); ev.preventDefault(); return false; };
   const itens = document.querySelectorAll('[data-surgir]');
-  if (!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    itens.forEach(e => e.classList.add('visivel')); return;
-  }
-  const obs = new IntersectionObserver(es => es.forEach(e => {
-    if (e.isIntersecting) { e.target.classList.add('visivel'); obs.unobserve(e.target); }
-  }), { rootMargin: '0px 0px -8% 0px' });
+  if (!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) { itens.forEach(e => e.classList.add('visivel')); return; }
+  const obs = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visivel'); obs.unobserve(e.target); } }), { rootMargin: '0px 0px -8% 0px' });
   itens.forEach(e => obs.observe(e));
 })();
 </script>

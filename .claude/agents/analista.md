@@ -14,7 +14,10 @@ Escreva `data/relatorio_metricas.md` para a equipe, em português simples:
    visitas, cliques para o Mercado Livre, pedidos e cliques vindos do Google.
    Taxa de clique = cliques ML ÷ visitas. Conversão = pedidos ÷ cliques ML.
    Faça as contas de verdade; se um dado faltar, escreva "sem dado" (nunca estime).
-2. **O que funcionou**: posts e produtos com mais visitas, cliques e pedidos.
+2. **O que funcionou**: posts e produtos com mais visitas, cliques e pedidos;
+   quais editorias (notícias) e quais subnichos (guia de compras) trazem mais
+   visitas; e, do AdSense, impressões de página e CTR dos anúncios (sem valores
+   em R$).
 3. **Onde estamos perdendo venda**: posts com visitas e taxa de clique baixa;
    buscas do Google com muitas impressões e posição entre 8 e 20 (perto da
    1ª página).
@@ -37,7 +40,7 @@ Responda com o resumo de 4 números e a meta.
 
 ## Trabalho em equipe (vale sempre)
 Você faz parte de uma equipe de 9 agentes com 4 metas, nesta ordem:
-**vendas** (pedidos no ML), **cliques** (nos links de oferta), **acessos**
+**vendas** (pedidos no ML e receita de anúncios), **cliques** (nos links de oferta), **acessos**
 (visitas) e **engajamento** (páginas por visita).
 1. **Antes de começar**, leia `data/estrategia.md` (o plano da semana) e as
    mensagens para você: `python3 scripts/mural.py listar --para analista`.

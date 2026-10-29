@@ -76,8 +76,15 @@ def ler_post(caminho: Path):
         raise ValueError("frontmatter ausente (o arquivo deve começar com ---)")
     meta = yaml.safe_load(partes[1]) or {}
     for k in ("publicado", "atualizado"):
-        if isinstance(meta.get(k), (dt.date, dt.datetime)):
-            meta[k] = meta[k].isoformat()[:10]
+        v = meta.get(k)
+        if isinstance(v, dt.datetime):
+            meta[k + "_hora"] = v.strftime("%H:%M")
+            meta[k] = v.date().isoformat()
+        elif isinstance(v, dt.date):
+            meta[k] = v.isoformat()
+        elif isinstance(v, str) and len(v) > 10:      # "2026-10-29 14:30"
+            meta[k + "_hora"] = v[11:16]
+            meta[k] = v[:10]
     return meta, partes[2].strip()
 
 
@@ -86,7 +93,7 @@ def posts():
     for c in sorted(POSTS.glob("*.md")):
         meta, corpo = ler_post(c)
         itens.append({**meta, "corpo": corpo, "arquivo": c})
-    itens.sort(key=lambda p: str(p.get("publicado", "")), reverse=True)
+    itens.sort(key=lambda p: (str(p.get("publicado", "")), str(p.get("publicado_hora", "00:00"))), reverse=True)
     return itens
 
 
@@ -116,7 +123,20 @@ ICONES = {
     "controle": '<path d="M7 8h10a5 5 0 0 1 4.9 6l-.6 3a2.5 2.5 0 0 1-4.3 1.2L15 16H9l-2 2.2A2.5 2.5 0 0 1 2.7 17l-.6-3A5 5 0 0 1 7 8z"/><path d="M8 11v3M6.5 12.5h3"/><circle cx="16" cy="12" r=".6"/><circle cx="17.5" cy="13.5" r=".6"/>',
     "casa": '<path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M12 13a2.5 2.5 0 0 0-1.5 4.5V19h3v-1.5A2.5 2.5 0 0 0 12 13z"/>',
     "estrela": '<path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/>',
+    "celular": '<rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/>',
+    "ia": '<path d="M12 3l1.6 4.4L18 9l-4.4 1.6L12 15l-1.6-4.4L6 9l4.4-1.6z"/><path d="M18.5 14l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/><path d="M5 15l.6 1.4L7 17l-1.4.6L5 19l-.6-1.4L3 17l1.4-.6z"/>',
+    "chip": '<rect x="6" y="6" width="12" height="12" rx="2"/><rect x="9.5" y="9.5" width="5" height="5" rx="1"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/>',
+    "lupa": '<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/><path d="M8.5 11h5M11 8.5v5"/>',
+    "ferramenta": '<path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2.4-.6-.6-2.4z"/>',
+    "sacola": '<path d="M5 8h14l-1 13H6z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/>',
 }
+ICONE_EDITORIA = {"celulares": "celular", "games": "controle", "inteligencia-artificial": "ia",
+                  "tecnologia": "chip", "analises": "lupa", "tutoriais": "ferramenta"}
+COR_EDITORIA = {"celulares": "#38BDF8", "games": "#F472B6", "inteligencia-artificial": "#34D399",
+                "tecnologia": "#FBBF24", "analises": "#FB923C", "tutoriais": "#A3E635"}
+TIPOS_COMPRA = ("lista", "comparativo", "review", "guia")
+ROTULO_TIPO = {"noticia": "Notícia", "analise": "Análise", "tutorial": "Tutorial", "lista": "Lista",
+               "comparativo": "Comparativo", "review": "Review", "guia": "Guia de compra"}
 
 
 def icone(nome, classe="ico"):
@@ -244,6 +264,34 @@ def minutos_leitura(corpo):
     return max(1, round(len(re.findall(r"\w+", corpo)) / 200))
 
 
+def anuncio(cfg, lugar):
+    """Bloco do Google AdSense. Sem cliente ou sem slot: nada (os anúncios automáticos decidem).
+    Com PREVIEW_ANUNCIOS=1, mostra a caixa reservada para conferir o layout."""
+    a = cfg.get("anuncios") or {}
+    cliente, slot = a.get("adsense_cliente", ""), (a.get("slots") or {}).get(lugar, "")
+    if cliente and slot:
+        return (f'<div class="anuncio anuncio-{lugar}"><span class="anuncio-rotulo">Publicidade</span>'
+                f'<ins class="adsbygoogle" style="display:block" data-ad-client="{html.escape(cliente)}" '
+                f'data-ad-slot="{html.escape(slot)}" data-ad-format="auto" data-full-width-responsive="true"></ins>'
+                f'<script>(adsbygoogle = window.adsbygoogle || []).push({{}});</script></div>')
+    if os.environ.get("PREVIEW_ANUNCIOS") == "1":
+        return f'<div class="anuncio anuncio-{lugar} anuncio-previa"><span class="anuncio-rotulo">Publicidade</span><div>Espaço do anúncio ({lugar})</div></div>'
+    return ""
+
+
+def inserir_anuncios(conteudo, cfg):
+    """Coloca 1 anúncio depois do 3º parágrafo e outro perto da metade do texto."""
+    bloco = anuncio(cfg, "artigo")
+    if not bloco:
+        return conteudo
+    partes = re.split(r"(?<=</p>)", conteudo)
+    paragrafos = [i for i, t in enumerate(partes) if t.rstrip().endswith("</p>") and "<p" in t and "ficha" not in t]
+    if len(paragrafos) >= 4:
+        alvos = {paragrafos[2], paragrafos[len(paragrafos) // 2 + 1] if len(paragrafos) > 9 else -1}
+        partes = [t + (bloco if i in alvos else "") for i, t in enumerate(partes)]
+    return "".join(partes)
+
+
 def cifrar(texto, senha, iteracoes=250_000):
     """AES-256-GCM com chave derivada da senha (PBKDF2-SHA256). Aberto no navegador via WebCrypto."""
     from cryptography.hazmat.primitives import hashes
@@ -259,12 +307,14 @@ def cifrar(texto, senha, iteracoes=250_000):
 def json_ld(post, cfg, url):
     dados = [{
         "@context": "https://schema.org",
-        "@type": "Article",
+        "@type": "NewsArticle" if post.get("tipo") == "noticia" else "Article",
         "headline": post["titulo"],
         "description": post.get("descricao", ""),
         "datePublished": post.get("publicado"),
         "dateModified": post.get("atualizado") or post.get("publicado"),
-        "author": {"@type": "Organization", "name": cfg["site"]["autor"]},
+        "author": {"@type": "Person", "name": (cfg.get("autor") or {}).get("nome", cfg["site"]["autor"]),
+                   "url": url.split("/posts/")[0] + "/sobre/"},
+        "publisher": {"@type": "Organization", "name": cfg["site"]["nome"]},
         "mainEntityOfPage": url,
         **({"image": post["capa"]} if post.get("capa") else {}),
     }]
@@ -281,8 +331,9 @@ def json_ld(post, cfg, url):
     return json.dumps(dados, ensure_ascii=False).replace("</", "<\\/")
 
 
-def capa_png(post, cat, cfg, destino):
-    """Capa 1200x630 para WhatsApp, redes e Google (og:image). Opcional: precisa do Pillow."""
+def capa_png(post, cat, cfg, destino, arte=False):
+    """Capa 1200x630 para WhatsApp, redes e Google (og:image). Opcional: precisa do Pillow.
+    arte=True: só a arte da editoria, sem textos (usada nos cards do site, onde o título já aparece)."""
     try:
         from PIL import Image, ImageDraw, ImageFont
     except ImportError:
@@ -302,10 +353,43 @@ def capa_png(post, cat, cfg, destino):
         W, H = 1200, 630
         img = Image.new("RGB", (W, H), "#050507")
         d = ImageDraw.Draw(img)
-        for r, a in ((520, 18), (380, 34), (240, 60)):  # halo da categoria
+        import hashlib
+        semente = int(hashlib.md5(str(post.get("slug", "")).encode()).hexdigest(), 16)
+        cx, cy = W - 140 - semente % 260, 60 + (semente >> 8) % 200
+        for r, a in ((520, 18), (380, 34), (240, 60)):  # halo da categoria, posição única por post
             halo = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-            ImageDraw.Draw(halo).ellipse((W - 260 - r, 120 - r, W - 260 + r, 120 + r), fill=cor + f"{a:02x}")
+            ImageDraw.Draw(halo).ellipse((cx - r, cy - r, cx + r, cy + r), fill=cor + f"{a:02x}")
             img.paste(halo, (0, 0), halo)
+        grade = Image.new("RGBA", (W, H), (0, 0, 0, 0))  # malha de pontos sutil
+        gd = ImageDraw.Draw(grade)
+        for gx in range(600, W, 36):
+            for gy in range(24, H - 24, 36):
+                gd.ellipse((gx - 1.5, gy - 1.5, gx + 1.5, gy + 1.5), fill=(255, 255, 255, 22))
+        img.paste(grade, (0, 0), grade)
+        anel = Image.new("RGBA", (W, H), (0, 0, 0, 0))  # anel na cor da categoria
+        ra = 120 + (semente >> 16) % 90
+        ImageDraw.Draw(anel).ellipse((cx - ra, cy - ra, cx + ra, cy + ra), outline=cor + "aa", width=10)
+        img.paste(anel, (0, 0), anel)
+        if arte:  # arte limpa para miniaturas: halo central, anéis e o nome da editoria como textura
+            img = Image.new("RGB", (W, H), "#08080c")
+            cxa, cya = W // 2 + (semente % 300) - 150, H // 2 + ((semente >> 8) % 160) - 80
+            for r, a in ((600, 26), (430, 44), (280, 70)):
+                halo = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+                ImageDraw.Draw(halo).ellipse((cxa - r, cya - r, cxa + r, cya + r), fill=cor + f"{a:02x}")
+                img.paste(halo, (0, 0), halo)
+            img.paste(grade, (0, 0), grade)
+            camada = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+            cd = ImageDraw.Draw(camada)
+            for i, ra in enumerate((150 + (semente >> 16) % 60, 250 + (semente >> 20) % 60)):
+                cd.ellipse((cxa - ra, cya - ra, cxa + ra, cya + ra), outline=cor + ("cc" if i == 0 else "55"), width=10 - i * 5)
+            palavra = str(cat.get("curto") or cat.get("nome", "")).upper()
+            f_md = fonte("InterTight.ttf", 120, 700)
+            larg_p = cd.textlength(palavra, font=f_md)
+            cd.text(((W - larg_p) / 2, H - 170), palavra, font=f_md, fill=(255, 255, 255, 20))
+            img.paste(camada, (0, 0), camada)
+            destino.parent.mkdir(parents=True, exist_ok=True)
+            img.convert("RGB").save(destino.with_suffix(".jpg"), quality=82, optimize=True)
+            return True
         d.rectangle((0, H - 10, W, H), fill="#7C5CFF")
         # símbolo da marca (etiqueta + raio)
         x0, y0, k = 72, 64, 1.1
@@ -347,81 +431,136 @@ def build():
     m = marca()
     VISUAL.update({k: (v["hex"], v.get("icone", VISUAL.get(k, ("", "estrela"))[1]))
                    for k, v in (m.get("categorias") or {}).items()})
-    base = cfg["site"]["url_base"].rstrip("/")
-    caminho_base = "/" + base.split("://", 1)[-1].split("/", 1)[1] if base.count("/") > 2 else ""
+    COR_EDITORIA.update({k: v["hex"] for k, v in (m.get("editorias") or {}).items()})
+    dominio = (cfg["site"].get("dominio") or "").strip().strip("/")
+    base = f"https://{dominio}" if dominio else cfg["site"]["url_base"].rstrip("/")
+    caminho_base = "" if dominio else ("/" + base.split("://", 1)[-1].split("/", 1)[1] if base.count("/") > 2 else "")
     catalogo = produtos()
     lista = posts()
 
-    cats = {}
-    for s in cfg["subnichos"]:
-        cor, ico = VISUAL.get(s["slug"], ("#2950FF", "estrela"))
-        cats[s["slug"]] = {
-            "slug": s["slug"], "nome": s["nome"], "cor": s.get("cor", cor),
-            "icone": icone(ico), "descricao": s.get("descricao", ""),
-            "curto": s.get("curto") or CURTO.get(s["slug"], s["nome"]),
-            "total": sum(1 for p in lista if p.get("subnicho") == s["slug"]),
-        }
-    subnichos = {k: v["nome"] for k, v in cats.items()}
+    # ---------- seções: editorias (notícias) + subnichos (guia de compras) ----------
+    cats, editorias, compras = {}, {}, {}
+    for e in cfg.get("editorias") or []:
+        editorias[e["slug"]] = cats[e["slug"]] = {
+            "slug": e["slug"], "nome": e["nome"], "curto": e.get("curto", e["nome"]),
+            "cor": e.get("cor", COR_EDITORIA.get(e["slug"], "#7C5CFF")),
+            "icone": icone(ICONE_EDITORIA.get(e["slug"], "estrela")), "descricao": e.get("descricao", ""),
+            "url": f"{caminho_base}/editoria/{e['slug']}/", "grupo": "editoria"}
+    for s_ in cfg["subnichos"]:
+        cor, ico = VISUAL.get(s_["slug"], ("#2950FF", "estrela"))
+        compras[s_["slug"]] = cats[s_["slug"]] = {
+            "slug": s_["slug"], "nome": s_["nome"], "cor": s_.get("cor", cor),
+            "icone": icone(ico), "descricao": s_.get("descricao", ""),
+            "curto": s_.get("curto") or CURTO.get(s_["slug"], s_["nome"]),
+            "url": f"{caminho_base}/categoria/{s_['slug']}/", "grupo": "compras"}
+    secao_de = lambda p: p.get("editoria") or p.get("subnicho")
+    for c in cats.values():
+        c["total"] = sum(1 for p in lista if secao_de(p) == c["slug"])
+    subnichos = {k: v["nome"] for k, v in compras.items()}
+    vazia = {"nome": "", "curto": "", "cor": "#7C5CFF", "slug": "", "icone": "", "url": f"{caminho_base}/"}
     for p in lista:
-        p["cat"] = cats.get(p.get("subnicho"), {"nome": "", "cor": "#2950FF", "slug": "", "icone": ""})
+        p["secao"] = secao_de(p)
+        p["cat"] = cats.get(p["secao"], vazia)
         p["data_txt"] = data_br(p.get("atualizado") or p.get("publicado"))
         p["minutos"] = minutos_leitura(p["corpo"])
+        p["rotulo"] = ROTULO_TIPO.get(p.get("tipo"), "Post")
+        p["compra"] = p.get("tipo") in TIPOS_COMPRA or p["secao"] in compras
+        p["capa_url"] = f"{caminho_base}/capas/{p['slug']}-arte.jpg"
 
+    a = cfg.get("anuncios") or {}
+    autor = {**{"nome": cfg["site"].get("autor", ""), "bio": "", "avatar": "static/marca/rafa.svg"}, **(cfg.get("autor") or {})}
     env = Environment(loader=FileSystemLoader(RAIZ / "site" / "templates"), autoescape=True)
     env.filters["data_br"] = data_br
-    glob = dict(site=cfg["site"], subnichos=subnichos, cats=cats, b=caminho_base,
-                ano=dt.date.today().year, css_marca=css_marca(m), fontes_url=fontes_url(m), base=base,
-                link_venda=link_venda)
+    anuncios = {lugar: anuncio(cfg, lugar) for lugar in ("topo", "artigo", "lateral", "lista")}
+    glob = dict(site=cfg["site"], subnichos=subnichos, cats=cats, editorias=editorias, compras=compras,
+                b=caminho_base, ano=dt.date.today().year, css_marca=css_marca(m), fontes_url=fontes_url(m),
+                base=base, link_venda=link_venda, autor=autor, adsense=a.get("adsense_cliente", ""),
+                anuncios=anuncios, ultimas=lista[:6], preco_br=preco_br, milhar=milhar, estrelas=estrelas)
 
     if SAIDA.exists():
         shutil.rmtree(SAIDA)
     (SAIDA / "posts").mkdir(parents=True)
     shutil.copytree(RAIZ / "site" / "static", SAIDA / "static")
 
+    # mais lidas: da semana mais recente das métricas (se houver), senão as mais novas
+    mais_lidas = []
+    met = RAIZ / "data" / "metricas.json"
+    if met.exists():
+        sem = (json.loads(met.read_text(encoding="utf-8")).get("semanas") or [{}])[-1]
+        por_slug = {p["slug"]: p for p in lista}
+        for pg in sorted(sem.get("paginas") or [], key=lambda x: -(x.get("visitas") or 0)):
+            slug = str(pg.get("url", "")).rstrip("/").split("/")[-1]
+            if slug in por_slug and por_slug[slug] not in mais_lidas:
+                mais_lidas.append(por_slug[slug])
+    mais_lidas = (mais_lidas + [p for p in lista if p not in mais_lidas])[:5]
+    glob["mais_lidas"] = mais_lidas
+
     urls = [base + "/"]
     for p in lista:
         url = f"{base}/posts/{p['slug']}/"
         conteudo, sumario, usados = renderizar(p["corpo"], catalogo)
+        conteudo = inserir_anuncios(conteudo, cfg)
         rapida = [catalogo[i] for i in usados] if p.get("tipo") in ("lista", "comparativo") else []
         da_cat = sorted([x for x in catalogo.values() if x.get("subnicho") == p.get("subnicho")], key=pontuacao, reverse=True)
-        recomendados = [x for x in da_cat if x["id"] not in usados][:3]
-        principal = catalogo[usados[0]] if usados else (da_cat[0] if da_cat else None)
-        relacionados = [q for q in lista if q.get("subnicho") == p.get("subnicho") and q["slug"] != p["slug"]][:3]
+        recomendados = [x for x in da_cat if x["id"] not in usados][:3] if p["compra"] else []
+        principal = catalogo[usados[0]] if usados else (da_cat[0] if (da_cat and p["compra"]) else None)
+        relacionados = [q for q in lista if q["secao"] == p["secao"] and q["slug"] != p["slug"]][:3]
         if len(relacionados) < 3:
             relacionados += [q for q in lista if q["slug"] != p["slug"] and q not in relacionados][:3 - len(relacionados)]
         tem_capa = capa_png(p, p["cat"], cfg, SAIDA / "capas" / f"{p['slug']}.png")
+        capa_png(p, p["cat"], cfg, SAIDA / "capas" / f"{p['slug']}-arte.jpg", arte=True)
         p["capa"] = f"{base}/capas/{p['slug']}.png" if tem_capa else ""
         pagina = env.get_template("post.html").render(
-            **glob, post=p, conteudo=conteudo, sumario=sumario, rapida=rapida, url=url,
+            **glob, post=p, conteudo=conteudo, sumario=sumario, rapida=rapida, url=url, cat_atual=p["secao"],
             json_ld=json_ld(p, cfg, url), relacionados=relacionados,
-            tem_produto=bool(usados or recomendados), recomendados=recomendados, principal=principal,
-            preco_br=preco_br, milhar=milhar, estrelas=estrelas,
-        )
+            tem_produto=bool(usados or recomendados), recomendados=recomendados, principal=principal)
         destino = SAIDA / "posts" / p["slug"]
         destino.mkdir(parents=True)
         (destino / "index.html").write_text(pagina, encoding="utf-8")
         urls.append(url)
 
-    capa_png({"titulo": "Eletrônico bom, sem pagar a mais.", "slug": "inicio"},
-             {"nome": "Guias de compra", "cor": "#7C5CFF"}, cfg, SAIDA / "capas" / "inicio.png")
+    capa_png({"titulo": "Tecnologia sem enrolação.", "slug": "inicio"},
+             {"nome": "Notícias, games, IA e guias de compra", "cor": "#7C5CFF"}, cfg, SAIDA / "capas" / "inicio.png")
+    noticias = [p for p in lista if not p["compra"]]
+    blocos_ed = [{"cat": c, "posts": [p for p in lista if p["secao"] == slug][:4]} for slug, c in editorias.items()]
+    blocos_ed = [x for x in blocos_ed if x["posts"]]
     (SAIDA / "index.html").write_text(
         env.get_template("inicio.html").render(
-            **glob, posts=lista, url=base + "/", produto=next(iter(sorted(catalogo.values(), key=pontuacao, reverse=True)), None),
-            achados=sorted(catalogo.values(), key=pontuacao, reverse=True)[:6],
-            total_produtos=len(catalogo), preco_br=preco_br, milhar=milhar, estrelas=estrelas),
+            **glob, posts=lista, url=base + "/", destaques=(noticias or lista)[:4],
+            noticias=noticias, blocos=blocos_ed, guias=[p for p in lista if p["compra"]][:6],
+            achados=sorted(catalogo.values(), key=pontuacao, reverse=True)[:6], total_produtos=len(catalogo)),
         encoding="utf-8")
 
     for slug, cat in cats.items():
-        dest = SAIDA / "categoria" / slug
+        pasta = "editoria" if cat["grupo"] == "editoria" else "categoria"
+        dest = SAIDA / pasta / slug
         dest.mkdir(parents=True)
-        url = f"{base}/categoria/{slug}/"
+        url = f"{base}/{pasta}/{slug}/"
         (dest / "index.html").write_text(
             env.get_template("categoria.html").render(
-                **glob, cat=cat, posts=[p for p in lista if p.get("subnicho") == slug], url=url,
-                achados=sorted([x for x in catalogo.values() if x.get("subnicho") == slug], key=pontuacao, reverse=True)[:6],
-                preco_br=preco_br, milhar=milhar, estrelas=estrelas),
+                **glob, cat=cat, cat_atual=slug, posts=[p for p in lista if p["secao"] == slug], url=url,
+                achados=sorted([x for x in catalogo.values() if x.get("subnicho") == slug], key=pontuacao, reverse=True)[:6]),
             encoding="utf-8")
         urls.append(url)
+
+    dest = SAIDA / "guia-de-compras"
+    dest.mkdir()
+    (dest / "index.html").write_text(
+        env.get_template("compras.html").render(
+            **glob, cat_atual="guia-de-compras", url=f"{base}/guia-de-compras/",
+            posts=[p for p in lista if p["compra"]],
+            achados=sorted(catalogo.values(), key=pontuacao, reverse=True)[:9]),
+        encoding="utf-8")
+    urls.append(f"{base}/guia-de-compras/")
+
+    # busca: índice leve + página
+    (SAIDA / "busca.json").write_text(json.dumps([
+        {"t": p["titulo"], "d": p.get("descricao", ""), "s": p["cat"]["curto"], "c": p["cat"]["cor"],
+         "u": f"{caminho_base}/posts/{p['slug']}/", "i": p["capa_url"], "w": p["data_txt"]} for p in lista],
+        ensure_ascii=False), encoding="utf-8")
+    dest = SAIDA / "busca"
+    dest.mkdir()
+    (dest / "index.html").write_text(env.get_template("busca.html").render(**glob, url=f"{base}/busca/"), encoding="utf-8")
 
     dest = SAIDA / "marca"
     dest.mkdir()
@@ -443,12 +582,13 @@ def build():
     pautas = json.loads((RAIZ / "data" / "pautas.json").read_text(encoding="utf-8")) \
         if (RAIZ / "data" / "pautas.json").exists() else []
     semana = (dt.date.today() - dt.timedelta(days=7)).isoformat()
+    rot = cfg["rotina"]
     escritorio["metricas"] = {
         "posts": len(lista),
         "posts_7d": sum(1 for p in lista if str(p.get("publicado", "")) >= semana),
         "fila": sum(1 for p in pautas if p.get("status") == "pendente"),
         "produtos": len(catalogo),
-        "meta_dia": cfg["rotina"]["posts_novos_por_dia"],
+        "meta_dia": rot.get("posts_novos_por_dia", 1) + rot.get("noticias_por_dia", 0),
     }
     est = RAIZ / "data" / "estrategia.md"
     if est.exists():
@@ -456,9 +596,8 @@ def build():
     mur = RAIZ / "data" / "mural.json"
     if mur.exists():
         msgs = json.loads(mur.read_text(encoding="utf-8")).get("mensagens", [])
-        escritorio["mural"] = [m for m in msgs if m.get("status") == "aberta"] + \
-            [m for m in msgs if m.get("status") != "aberta"][-12:][::-1]
-    met = RAIZ / "data" / "metricas.json"
+        escritorio["mural"] = [x for x in msgs if x.get("status") == "aberta"] + \
+            [x for x in msgs if x.get("status") != "aberta"][-12:][::-1]
     if met.exists():
         hist = json.loads(met.read_text(encoding="utf-8")).get("semanas", [])
         if hist:
@@ -476,7 +615,7 @@ def build():
     else:
         print("Escritório não publicado: defina o secret ESCRITORIO_SENHA para publicá-lo com senha.")
 
-    # sitemap e robots
+    # sitemap, robots, domínio e ads.txt
     datas = {f"{base}/posts/{p['slug']}/": p.get("atualizado") or p.get("publicado") for p in lista}
     linhas = "".join(
         f"<url><loc>{u}</loc>" + (f"<lastmod>{datas[u]}</lastmod>" if datas.get(u) else "") + "</url>"
@@ -487,8 +626,13 @@ def build():
     (SAIDA / "robots.txt").write_text(
         f"User-agent: *\nAllow: /\nDisallow: {caminho_base}/escritorio/\nDisallow: {caminho_base}/marca/\nSitemap: {base}/sitemap.xml\n",
         encoding="utf-8")
+    if dominio:
+        (SAIDA / "CNAME").write_text(dominio + "\n")
+    cliente = a.get("adsense_cliente", "")
+    if cliente:
+        (SAIDA / "ads.txt").write_text(f"google.com, {cliente.replace('ca-', '')}, DIRECT, f08c47fec0942fa0\n")
     (SAIDA / ".nojekyll").write_text("")
-    print(f"Site gerado em _site/ com {len(lista)} posts e {len(catalogo)} produtos ativos.")
+    print(f"Site gerado em _site/ com {len(lista)} posts ({len(noticias)} de notícias) e {len(catalogo)} produtos ativos.")
 
 
 if __name__ == "__main__":

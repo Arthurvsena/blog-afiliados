@@ -302,7 +302,7 @@ main > section { max-width: var(--largura); margin-inline: auto; padding-inline:
 /* ---------- rodapé ---------- */
 .rodape { border-top: 1px solid var(--linha); padding: 64px 24px 32px; font-size: .93rem; background: linear-gradient(180deg, transparent, rgba(124,92,255,.05)); }
 .rodape a { color: var(--tinta-2); text-decoration: none; } .rodape a:hover { color: var(--tinta); }
-.rodape-grade { max-width: var(--largura); margin: 0 auto; display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 48px; }
+.rodape-grade { max-width: var(--largura); margin: 0 auto; display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 40px; }
 .rodape-marca img { height: 32px; width: auto; margin-bottom: 16px; }
 .rodape-marca p { max-width: 38ch; margin: 0; }
 .rodape-titulo { color: var(--tinta); font-weight: 500; margin: 6px 0 16px; }

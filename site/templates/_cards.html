@@ -1,0 +1,63 @@
+{# Peças de portal reutilizáveis #}
+{% macro selo(p) -%}
+<a class="selo" href="{{ p.cat.url }}" style="--cat:{{ p.cat.cor }}">{{ p.cat.curto }}</a>
+{%- endmacro %}
+
+{% macro quando(p) -%}
+{% if p.publicado_hora and p.publicado == (p.atualizado or p.publicado) %}{{ p.data_txt }}, {{ p.publicado_hora }}{% else %}{{ p.data_txt }}{% endif %}
+{%- endmacro %}
+
+{% macro manchete(p, b) -%}
+<article class="manchete" style="--cat:{{ p.cat.cor }}">
+  <a class="manchete-img" href="{{ b }}/posts/{{ p.slug }}/" tabindex="-1" aria-hidden="true"><img src="{{ p.capa_url }}" alt="" width="1200" height="630"></a>
+  <div class="manchete-texto">
+    {{ selo(p) }}
+    <h2><a href="{{ b }}/posts/{{ p.slug }}/">{{ p.titulo }}</a></h2>
+    <p>{{ p.descricao }}</p>
+    <span class="meta">{{ quando(p) }} · {{ p.minutos }} min</span>
+  </div>
+</article>
+{%- endmacro %}
+
+{% macro cartao(p, b, grande=false) -%}
+<article class="cartao{% if grande %} cartao-grande{% endif %}" style="--cat:{{ p.cat.cor }}">
+  <a class="cartao-img" href="{{ b }}/posts/{{ p.slug }}/" tabindex="-1" aria-hidden="true"><img src="{{ p.capa_url }}" alt="" loading="lazy" width="1200" height="630"></a>
+  <div class="cartao-texto">
+    <span class="cartao-sobre">{{ selo(p) }}<span class="tipo">{{ p.rotulo }}</span></span>
+    <h3><a href="{{ b }}/posts/{{ p.slug }}/">{{ p.titulo }}</a></h3>
+    {% if grande %}<p>{{ p.descricao }}</p>{% endif %}
+    <span class="meta">{{ quando(p) }}</span>
+  </div>
+</article>
+{%- endmacro %}
+
+{% macro linha(p, b) -%}
+<article class="linha" style="--cat:{{ p.cat.cor }}">
+  <div class="linha-texto">
+    <span class="cartao-sobre">{{ selo(p) }}<span class="meta">{{ quando(p) }}</span></span>
+    <h3><a href="{{ b }}/posts/{{ p.slug }}/">{{ p.titulo }}</a></h3>
+    <p>{{ p.descricao }}</p>
+  </div>
+  <a class="linha-img" href="{{ b }}/posts/{{ p.slug }}/" tabindex="-1" aria-hidden="true"><img src="{{ p.capa_url }}" alt="" loading="lazy" width="1200" height="630"></a>
+</article>
+{%- endmacro %}
+
+{% macro lateral(mais_lidas, anuncios, b, compras=none) -%}
+<aside class="coluna">
+  <section class="caixa">
+    <h2 class="caixa-titulo">Mais lidas</h2>
+    <ol class="mais-lidas">
+      {% for p in mais_lidas %}<li><a href="{{ b }}/posts/{{ p.slug }}/">{{ p.titulo }}</a></li>{% endfor %}
+    </ol>
+  </section>
+  {{ anuncios.lateral | safe }}
+  {% if compras %}
+  <section class="caixa">
+    <h2 class="caixa-titulo">Guia de compras</h2>
+    <ul class="lista-compras">
+      {% for slug, c in compras.items() %}<li><a href="{{ c.url }}" style="--cat:{{ c.cor }}">{{ c.icone | safe }}{{ c.nome }}</a></li>{% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+</aside>
+{%- endmacro %}

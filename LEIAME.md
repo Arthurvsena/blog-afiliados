@@ -1,4 +1,4 @@
-# Tech Barato BR: blog de afiliados automático
+# Tech Barato BR: portal de tecnologia automático
 
 Blog de eletrônicos custo-benefício que se atualiza sozinho todo dia.
 Uma equipe de 9 agentes do Claude pesquisa, escolhe produtos, gera os links de
@@ -9,6 +9,13 @@ GitHub Actions (grátis em repositório público) e a IA usa a **sua assinatura
 do Claude** (Pro ou Max), sem cobrança de API.
 
 ---
+
+## O site
+Portal de tecnologia com notícias diárias de **celulares, games, IA e
+tecnologia**, análises, tutoriais e um **guia de compras** com links de oferta
+do Mercado Livre. Todos os textos são assinados por **Rafa Lins**, a voz do
+site (pseudônimo, explicado na página Sobre), seguindo `editorial/voz.md` e
+`editorial/manual.md`. Receita: anúncios do Google AdSense + afiliados.
 
 ## Como a equipe trabalha junta
 - **4 metas, nesta ordem:** vendas (pedidos), cliques (nos links), acessos
@@ -124,6 +131,30 @@ No navegador, marque "Lembrar neste aparelho" para não digitar sempre.
 **Limite do repositório público:** o código e os arquivos de `data/` ficam
 visíveis no GitHub. Por isso nenhum agente grava valores em R$ de ganhos:
 eles aparecem só na mensagem que o analista manda para você.
+
+### 11. Domínio próprio (necessário para os anúncios do Google)
+O Google AdSense não aprova sites em endereços do tipo `usuario.github.io`:
+ele exige um domínio seu. Um `.com.br` custa cerca de R$ 40 por ano.
+1. Registre o domínio (ex.: em <https://registro.br>).
+2. No painel do domínio, crie os registros DNS do GitHub Pages: quatro
+   registros `A` para `185.199.108.153`, `185.199.109.153`, `185.199.110.153`
+   e `185.199.111.153`, e um `CNAME` de `www` para `arthurvsena.github.io`.
+3. Preencha `dominio` no `config.yaml` (ex.: `techbaratobr.com.br`).
+4. No GitHub: **Settings → Pages → Custom domain**, digite o domínio e marque
+   **Enforce HTTPS** quando liberar.
+5. Adicione o domínio novo no Search Console e no Cloudflare Web Analytics.
+
+### 12. Google AdSense
+1. Com o domínio no ar e pelo menos 20 a 30 posts publicados, cadastre-se em
+   <https://adsense.google.com> com o endereço do domínio.
+2. Copie o código do editor (`ca-pub-...`) para `anuncios.adsense_cliente` no
+   `config.yaml`. O site passa a carregar o AdSense e publica o `ads.txt` sozinho.
+3. Peça a revisão do site no AdSense e espere a aprovação (costuma levar de
+   alguns dias a algumas semanas).
+4. Depois de aprovado, ative os **anúncios automáticos** ou crie blocos em
+   **Anúncios → Por bloco de anúncios** e cole os números em `anuncios.slots`
+   (topo, artigo, lateral, lista).
+5. Em **Privacidade e mensagens**, ative a mensagem de consentimento de cookies.
 
 ## Sua rotina (10 minutos por semana)
 - **Segunda:** deixe o computador ligado com o Chrome aberto às 09:13 (métricas

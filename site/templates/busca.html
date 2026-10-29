@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block titulo %}Busca | {{ site.nome }}{% endblock %}
+{% block robots %}<meta name="robots" content="noindex">{% endblock %}
+{% block conteudo %}
+<header class="secao-cabeca">
+  <h1>Busca</h1>
+  <form class="busca-grande" role="search" onsubmit="return false">
+    <label for="q2" class="sr">Buscar no site</label>
+    <input id="q2" type="search" placeholder="Celular, jogo, power bank..." autocomplete="off">
+  </form>
+  <p id="resumo" class="meta"></p>
+</header>
+<section class="ultimas busca-resultados" id="resultados" aria-live="polite"></section>
+{% endblock %}
+{% block scripts %}
+<script>
+(async () => {
+  const campo = document.getElementById('q2'), alvo = document.getElementById('resultados'), resumo = document.getElementById('resumo');
+  const norm = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;' }[c]));
+  let itens = [];
+  try { itens = await (await fetch('{{ b }}/busca.json')).json(); } catch (e) {}
+  const mostrar = () => {
+    const termos = norm(campo.value.trim()).split(/\s+/).filter(Boolean);
+    if (!termos.length) { alvo.innerHTML = ''; resumo.textContent = ''; return; }
+    const achados = itens.filter(p => termos.every(t => norm(p.t + ' ' + p.d + ' ' + p.s).includes(t)));
+    resumo.textContent = achados.length ? `${achados.length} resultado${achados.length > 1 ? 's' : ''}` : 'Nada encontrado. Tente outra palavra, como o nome da marca ou do produto.';
+    alvo.innerHTML = achados.map(p => `<article class="linha" style="--cat:${p.c}"><div class="linha-texto">
+      <span class="cartao-sobre"><span class="selo" style="--cat:${p.c}">${esc(p.s)}</span><span class="meta">${esc(p.w)}</span></span>
+      <h3><a href="${p.u}">${esc(p.t)}</a></h3><p>${esc(p.d)}</p></div>
+      <a class="linha-img" href="${p.u}" tabindex="-1" aria-hidden="true"><img src="${p.i}" alt="" loading="lazy"></a></article>`).join('');
+  };
+  const q = new URLSearchParams(location.search).get('q') || '';
+  campo.value = q; document.getElementById('q').value = q;
+  campo.addEventListener('input', mostrar); mostrar(); campo.focus();
+})();
+</script>
+{% endblock %}

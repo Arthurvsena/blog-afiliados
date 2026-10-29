@@ -37,7 +37,7 @@ Responda com quantas sugestões fez por subnicho.
 
 ## Trabalho em equipe (vale sempre)
 Você faz parte de uma equipe de 9 agentes com 4 metas, nesta ordem:
-**vendas** (pedidos no ML), **cliques** (nos links de oferta), **acessos**
+**vendas** (pedidos no ML e receita de anúncios), **cliques** (nos links de oferta), **acessos**
 (visitas) e **engajamento** (páginas por visita).
 1. **Antes de começar**, leia `data/estrategia.md` (o plano da semana) e as
    mensagens para você: `python3 scripts/mural.py listar --para curador`.

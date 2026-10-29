@@ -1,170 +1,61 @@
 {% extends "base.html" %}
+{% from "_cards.html" import manchete, cartao, linha, lateral %}
 {% from "_vendas.html" import cartao_achado with context %}
-{% block titulo %}{{ site.nome }}: guias para comprar eletrônicos sem pagar a mais{% endblock %}
-{% block og_imagem %}<meta property="og:image" content="{{ base }}/capas/inicio.png">{% endblock %}
+{% block titulo %}{{ site.nome }}: notícias de tecnologia, celulares, games e IA{% endblock %}
 {% block conteudo %}
-<section class="abertura">
-  <div class="abertura-brilho" aria-hidden="true"></div>
-  <ul class="selos entrada" style="--i:0">
-    <li><span class="ponto"></span>Especificações conferidas</li>
-    <li><span class="ponto ponto-2"></span>{% if total_produtos %}{{ total_produtos }} produto{{ 's' if total_produtos != 1 }} avaliado{{ 's' if total_produtos != 1 }} até agora{% else %}Guias novos toda semana{% endif %}</li>
-  </ul>
-  <h1 class="entrada" style="--i:1">Eletrônico bom,<br>sem pagar a mais.</h1>
-  <p class="abertura-sub entrada" style="--i:2">Comparamos fones, power banks, smartwatches, acessórios gamer e casa inteligente pelo que entregam de verdade, com um veredito claro para cada bolso.</p>
-  <div class="abertura-acoes entrada" style="--i:3">
-    <a class="btn btn-primario" href="{% if achados %}#achados{% else %}#guias{% endif %}">{% if achados %}Ver os achados{% else %}Ver os guias{% endif %}</a>
-    <a class="btn btn-fantasma" href="#guias">Ler os guias</a>
+{% if destaques %}
+<section class="topo-portal" aria-label="Destaques">
+  {{ manchete(destaques[0], b) }}
+  {% if destaques|length > 1 %}
+  <div class="destaques-lado">
+    {% for p in destaques[1:4] %}{{ cartao(p, b) }}{% endfor %}
   </div>
-
-  <div class="palco entrada" style="--i:4">
-    <div class="palco-objeto">
-      <div class="objeto-anel"></div>
-      <div class="objeto-corpo">
-        <svg viewBox="0 0 64 64"><path d="M44 12 29 35h9.5l-4 17L50 28.5h-9.8z" fill="#fff"/></svg>
-        <span class="objeto-barra"><i></i></span>
-      </div>
-    </div>
-    {% if produto %}
-    <a class="flutuante flutuante-a" href="{{ produto.link_afiliado }}" target="_blank" rel="sponsored nofollow noopener" data-produto="{{ produto.id }}" tabindex="-1">
-      <div class="flut-foto">{% if produto.imagem_url %}<img src="{{ produto.imagem_url }}" alt="" loading="lazy">{% endif %}</div>
-      <div>
-        <p class="flut-marca">{{ produto.marca }}</p>
-        <p class="flut-nome">{{ produto.nome }}</p>
-        <p class="flut-nota">{{ estrelas(produto.nota) | safe }} {{ produto.nota | replace('.', ',') }}</p>
-        <span class="flut-oferta">Ver oferta</span>
-      </div>
-    </a>
-    <div class="flutuante flutuante-b">
-      <p class="flut-rotulo"><span class="ponto"></span>Veredito</p>
-      <p class="flut-titulo">Vale a pena</p>
-      <p class="flut-info">{{ milhar(produto.avaliacoes) }} avaliações de compradores</p>
-      <span class="flut-medidor"><i style="width:{{ ((produto.nota|float) / 5 * 100)|round }}%"></i></span>
-    </div>
-    {% else %}
-    <div class="flutuante flutuante-b">
-      <p class="flut-rotulo"><span class="ponto"></span>Veredito</p>
-      <p class="flut-titulo">Vale a pena</p>
-      <p class="flut-info">Notas e avaliações conferidas</p>
-      <span class="flut-medidor"><i style="width:92%"></i></span>
-    </div>
-    {% endif %}
-  </div>
-</section>
-
-<section class="secao" aria-labelledby="cat-titulo">
-  <div class="secao-topo">
-    <h2 id="cat-titulo">Escolha por categoria</h2>
-    <p>Cada categoria tem guias de compra, comparativos e reviews feitos para quem quer gastar bem.</p>
-  </div>
-  <div class="vitrine">
-    {% for slug, c in cats.items() %}
-    <a class="vitrine-item" href="{{ b }}/categoria/{{ slug }}/" style="--cat:{{ c.cor }}; --d:{{ loop.index0 }}" data-surgir>
-      <span class="vitrine-icone">{{ c.icone | safe }}</span>
-      <span class="vitrine-nome">{{ c.nome }}</span>
-      <span class="vitrine-conta">{% if c.total == 0 %}Guias em breve{% elif c.total == 1 %}1 guia{% else %}{{ c.total }} guias{% endif %}</span>
-    </a>
-    {% endfor %}
-  </div>
-</section>
-
-{% if achados %}
-<section class="secao" id="achados" aria-labelledby="achados-titulo">
-  <div class="secao-topo">
-    <h2 id="achados-titulo">Achados que valem o preço</h2>
-    <p>Os produtos com as melhores notas e mais avaliações entre os que analisamos. Confira o preço do dia no Mercado Livre.</p>
-  </div>
-  <div class="vitrine-achados">
-    {% for p in achados %}{{ cartao_achado(p, preco_br, milhar, estrelas, loop.index) }}{% endfor %}
-  </div>
+  {% endif %}
 </section>
 {% endif %}
 
-<section class="secao" id="guias" aria-labelledby="guias-titulo">
-  <div class="secao-topo">
-    <h2 id="guias-titulo">Guias mais recentes</h2>
-    <p>Filtre pela categoria ou busque pelo produto que você quer comprar.</p>
+<div class="portal-grade">
+  <section class="ultimas" aria-labelledby="ultimas-titulo">
+    <h2 class="faixa-titulo" id="ultimas-titulo">Últimas</h2>
+    {% if posts %}
+      {% for p in posts[:12] %}{{ linha(p, b) }}{% endfor %}
+    {% else %}
+      <p class="vazio">As primeiras notícias saem nos próximos dias.</p>
+    {% endif %}
+  </section>
+  {{ lateral(mais_lidas, anuncios, b, compras) }}
+</div>
+
+{{ anuncios.lista | safe }}
+
+{% for bloco in blocos %}
+<section class="bloco-editoria" style="--cat:{{ bloco.cat.cor }}" aria-labelledby="ed-{{ bloco.cat.slug }}">
+  <div class="faixa-titulo-linha">
+    <h2 class="faixa-titulo" id="ed-{{ bloco.cat.slug }}">{{ bloco.cat.icone | safe }}{{ bloco.cat.nome }}</h2>
+    <a href="{{ bloco.cat.url }}" class="ver-tudo">Ver tudo em {{ bloco.cat.curto }}</a>
   </div>
-  <div class="filtros">
-    <div class="chips" role="group" aria-label="Filtrar por categoria">
-      <button type="button" class="chip" aria-pressed="true" data-filtro="">Todos</button>
-      {% for slug, c in cats.items() %}<button type="button" class="chip" aria-pressed="false" data-filtro="{{ slug }}" style="--cat:{{ c.cor }}"><span class="ponto"></span>{{ c.curto }}</button>{% endfor %}
-    </div>
-    <form class="busca" role="search" onsubmit="return false">
-      <label for="busca-campo" class="sr">Buscar guias</label>
-      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-      <input id="busca-campo" type="search" placeholder="Buscar: power bank, fone..." autocomplete="off">
-    </form>
+  <div class="bloco-grade">
+    {{ cartao(bloco.posts[0], b, true) }}
+    <div class="bloco-lista">{% for p in bloco.posts[1:4] %}{{ cartao(p, b) }}{% endfor %}</div>
   </div>
-  {% if posts %}
-  <div class="grade-posts" id="grade-posts">
-    {% for p in posts %}
-    <a class="cartao-post" href="{{ b }}/posts/{{ p.slug }}/" style="--cat:{{ p.cat.cor }}; --d:{{ loop.index0 % 3 }}" data-surgir data-cat="{{ p.subnicho }}" data-busca="{{ (p.titulo ~ ' ' ~ p.descricao ~ ' ' ~ p.cat.nome) | lower }}">
-      <span class="cartao-topo"><span class="cartao-icone">{{ p.cat.icone | safe }}</span><span class="cartao-cat">{{ p.cat.curto }}</span></span>
-      <span class="cartao-titulo">{{ p.titulo }}</span>
-      <span class="cartao-desc">{{ p.descricao }}</span>
-      <span class="cartao-meta">{{ p.data_txt }} · {{ p.minutos }} min</span>
-    </a>
-    {% endfor %}
+</section>
+{% if loop.index == 3 %}{{ anuncios.lista | safe }}{% endif %}
+{% endfor %}
+
+<section class="bloco-editoria bloco-compras" aria-labelledby="compras-titulo">
+  <div class="faixa-titulo-linha">
+    <h2 class="faixa-titulo" id="compras-titulo">Guia de compras</h2>
+    <a href="{{ b }}/guia-de-compras/" class="ver-tudo">Ver todos os guias</a>
   </div>
-  <p class="vazio" id="busca-vazia" hidden>Nenhum guia encontrado. Tente outra palavra ou escolha "Todos".</p>
-  {% else %}
-  <p class="vazio">Os primeiros guias saem nos próximos dias.</p>
+  <p class="bloco-intro">Produtos com nota alta e muitas avaliações, escolhidos pelo que entregam pelo preço.</p>
+  {% if achados %}
+  <div class="vitrine-achados">{% for p in achados %}{{ cartao_achado(p, preco_br, milhar, estrelas, loop.index) }}{% endfor %}</div>
   {% endif %}
+  {% if guias %}
+  <div class="grade-cartoes">{% for p in guias[:3] %}{{ cartao(p, b) }}{% endfor %}</div>
+  {% endif %}
+  <nav class="atalhos-compras" aria-label="Categorias do guia de compras">
+    {% for slug, c in compras.items() %}<a href="{{ c.url }}" style="--cat:{{ c.cor }}">{{ c.icone | safe }}{{ c.curto }}</a>{% endfor %}
+  </nav>
 </section>
-
-<section class="secao" aria-labelledby="metodo-titulo">
-  <div class="secao-topo">
-    <h2 id="metodo-titulo">Como chegamos a cada recomendação</h2>
-  </div>
-  <div class="recursos">
-    <div class="recurso" data-surgir style="--d:0">
-      <span class="recurso-icone"><svg viewBox="0 0 24 24"><path d="M9 3h6l1 3h3v15H5V6h3z"/><path d="M9 12l2 2 4-4"/></svg></span>
-      <h3>Ficha técnica conferida</h3>
-      <p>Capacidade, potência, bateria e certificações vêm do fabricante ou do anúncio oficial, nunca de chute.</p>
-    </div>
-    <div class="recurso" data-surgir style="--d:1">
-      <span class="recurso-icone"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7M18.5 20a6.5 6.5 0 0 0-3-5.5"/></svg></span>
-      <h3>Milhares de compradores ouvidos</h3>
-      <p>Só entram produtos com nota alta e muitas avaliações. Lemos as reclamações para dizer a quem cada um não serve.</p>
-    </div>
-    <div class="recurso" data-surgir style="--d:2">
-      <span class="recurso-icone"><svg viewBox="0 0 24 24"><path d="M20 12a8 8 0 1 1-2.3-5.7"/><path d="M20 4v5h-5"/></svg></span>
-      <h3>Sempre atualizado</h3>
-      <p>Revisamos os guias com frequência. Produto que saiu de linha ou piorou, sai da lista.</p>
-    </div>
-  </div>
-</section>
-
-<section class="chamada" data-surgir>
-  <h2>Antes de comprar, compare.</h2>
-  <p>Um minuto de leitura pode economizar uma compra errada.</p>
-  <a class="btn btn-primario" href="{% if achados %}#achados{% else %}#guias{% endif %}">Ver os mais bem avaliados</a>
-</section>
-{% endblock %}
-{% block scripts %}
-<script>
-(() => {
-  const campo = document.getElementById('busca-campo');
-  const cartoes = [...document.querySelectorAll('#grade-posts .cartao-post')];
-  const chips = [...document.querySelectorAll('.chip')];
-  const vazio = document.getElementById('busca-vazia');
-  if (!cartoes.length) return;
-  let filtro = '';
-  const norm = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
-  const aplicar = () => {
-    const q = norm(campo.value.trim()); let n = 0;
-    cartoes.forEach(c => {
-      const ok = (!filtro || c.dataset.cat === filtro) && (!q || norm(c.dataset.busca).includes(q));
-      c.hidden = !ok; if (ok) { n++; c.classList.add('visivel'); }
-    });
-    vazio.hidden = n > 0;
-  };
-  chips.forEach(ch => ch.addEventListener('click', () => {
-    filtro = ch.dataset.filtro;
-    chips.forEach(o => o.setAttribute('aria-pressed', o === ch));
-    aplicar();
-  }));
-  campo.addEventListener('input', aplicar);
-})();
-</script>
 {% endblock %}

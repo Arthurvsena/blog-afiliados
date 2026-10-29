@@ -1,14 +1,24 @@
 {% extends "base.html" %}
-{% block titulo %}Sobre | {{ site.nome }}{% endblock %}
+{% block titulo %}Sobre o {{ site.nome }} e como trabalhamos{% endblock %}
 {% block conteudo %}
 <article class="pagina prosa">
   <h1>Sobre o {{ site.nome }}</h1>
-  <p>O {{ site.nome }} ajuda você a comprar eletrônicos que valem o que custam: fones e caixas de som Bluetooth, power banks e carregadores, smartwatches, acessórios gamer e casa inteligente.</p>
+  <p>O {{ site.nome }} é um site de tecnologia para quem quer entender as novidades e comprar bem: notícias de celulares, games e inteligência artificial, análises, tutoriais e guias de compra, sempre com o Brasil no centro (preço em real, o que chega aqui, o que vale o dinheiro).</p>
+
+  <h2 id="autor">Quem assina: {{ autor.nome }}</h2>
+  <div class="autor-caixa">
+    <img src="{{ b }}/{{ autor.avatar }}" alt="" width="64" height="64">
+    <div><p class="autor-nome">{{ autor.nome }}</p><p>{{ autor.bio }}</p></div>
+  </div>
+  <p>{{ autor.nome }} é um pseudônimo: é a voz editorial do site, com um jeito próprio de escrever, direto e com opinião. Os textos são produzidos com apoio de inteligência artificial e seguem um manual de redação com regras rígidas: toda informação vem de fonte verificável, rumor é tratado como rumor, e nenhum texto diz que testou um produto que não testou.</p>
+
+  <h2>Como fazemos as notícias</h2>
+  <p>Partimos de fontes primárias sempre que possível (comunicados oficiais, sites das empresas, documentos) e de veículos confiáveis, que listamos ao fim de cada notícia. O primeiro parágrafo responde o essencial; o resto explica o contexto e o que muda para quem está no Brasil.</p>
+
   <h2>Como escolhemos os produtos</h2>
-  <p>Pesquisamos especificações nos sites dos fabricantes, analisamos milhares de avaliações de compradores e comparamos o que cada produto entrega pelo preço. Priorizamos produtos com boa nota, muitas avaliações e vendedores confiáveis. Não recebemos produtos de marcas para falar bem deles.</p>
-  <h2>Como usamos inteligência artificial</h2>
-  <p>Usamos ferramentas de IA para pesquisar e redigir os textos, sempre a partir de especificações e avaliações verificadas. Os posts são revisados e atualizados periodicamente.</p>
+  <p>Nos guias de compra, pesquisamos especificações nos sites dos fabricantes e analisamos as avaliações de milhares de compradores. Só entram produtos com nota alta, muitas avaliações e vendedores confiáveis. Não recebemos produtos de marcas para falar bem deles.</p>
+
   <h2>Como o site se mantém</h2>
-  <p>Participamos do programa de afiliados do Mercado Livre. Quando você compra por um link do site, recebemos uma comissão, sem custo extra para você.</p>
+  <p>O site exibe anúncios e participa do programa de afiliados do Mercado Livre: quando você compra por um link daqui, recebemos uma comissão, sem custo extra para você. Anúncios e comissões não mudam o que recomendamos.</p>
 </article>
 {% endblock %}

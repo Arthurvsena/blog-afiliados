@@ -4,21 +4,72 @@
 
 site:
   nome: "Tech Barato BR"
-  descricao: "Reviews, comparativos e listas dos melhores eletrônicos custo-benefício do Mercado Livre."
+  descricao: "Notícias de tecnologia, celulares, games e IA, com análises e guias para comprar bem."
   url_base: "https://arthurvsena.github.io/blog-afiliados"
-  autor: "Equipe Tech Barato BR"
+  autor: "Rafa Lins"
   idioma: "pt-BR"
   # Código do Google Search Console (passo 8 do LEIAME.md). Deixe vazio até lá.
   google_verificacao: "vX3FmMDpCiIKDLU-mSe7npXaX8ytS7MT_Rq8fBK7R3Y"
   # Token do Cloudflare Web Analytics (passo 9 do LEIAME.md). Vazio = sem contador.
   cloudflare_token: "713089e6f1b84675b9fee722108d42b9"
+  # Domínio próprio (ex.: "techbaratobr.com.br"). Necessário para o Google AdSense.
+  # Ao preencher, o site passa a usar esse endereço (veja o passo 11 do LEIAME.md).
+  dominio: ""
+
+# A voz que assina todos os posts (pseudônimo, explicado na página Sobre).
+autor:
+  nome: "Rafa Lins"
+  bio: "Rafa Lins é a voz editorial do Tech Barato BR. Acompanha celulares, games e IA com um olho no preço que chega ao Brasil. Os textos são produzidos com apoio de IA, a partir de fontes verificadas."
+  avatar: "static/marca/rafa.svg"
+
+# Google AdSense (passo 12 do LEIAME.md). Vazio = sem anúncios.
+anuncios:
+  adsense_cliente: ""        # ex.: "ca-pub-1234567890123456"
+  # Blocos manuais (opcional). Sem eles, os anúncios automáticos do AdSense decidem os lugares.
+  slots:
+    topo: ""                 # faixa abaixo do menu
+    artigo: ""               # dentro dos posts (2 vezes)
+    lateral: ""              # coluna lateral
+    lista: ""                # entre blocos da página inicial
 
 # O que a rotina diária faz. Cada post consome parte do limite de uso
 # da sua assinatura do Claude, então comece devagar.
 rotina:
-  posts_novos_por_dia: 1
+  noticias_por_dia: 2          # notícias, tutoriais e análises das editorias
+  posts_novos_por_dia: 1       # guias de compra (listas, reviews, comparativos)
   atualizacoes_por_dia: 1
-  palavras_minimas: 900
+  palavras_minimas: 900        # para guias de compra e análises
+  palavras_minimas_noticia: 400
+
+# Editorias de notícias (como num portal). A cor e o ícone vêm de design/marca.yaml.
+editorias:
+  - slug: celulares
+    nome: "Celulares"
+    descricao: "Lançamentos, preços no Brasil, atualizações e comparativos de smartphones."
+    sementes: ["lançamento celular", "novo galaxy", "novo iphone", "motorola lançamento", "xiaomi brasil"]
+  - slug: games
+    nome: "Games"
+    descricao: "Lançamentos, consoles, atualizações e promoções de jogos."
+    sementes: ["lançamento jogos", "playstation", "xbox game pass", "nintendo switch", "jogos grátis epic"]
+  - slug: inteligencia-artificial
+    nome: "Inteligência Artificial"
+    curto: "IA"
+    descricao: "Ferramentas, recursos e novidades de IA que mudam o seu dia a dia."
+    sementes: ["chatgpt", "gemini google", "inteligência artificial celular", "ia grátis", "claude ia"]
+  - slug: tecnologia
+    nome: "Tecnologia"
+    descricao: "Apps, internet, segurança digital e o que está mudando na tecnologia."
+    sementes: ["whatsapp novidade", "golpe pix", "android atualização", "windows 11", "starlink brasil"]
+  - slug: analises
+    nome: "Análises"
+    descricao: "Opinião fundamentada sobre celulares, fones e gadgets, com prós e contras."
+    sementes: ["vale a pena", "review celular", "análise"]
+  - slug: tutoriais
+    nome: "Tutoriais"
+    descricao: "Passo a passo para resolver problemas reais no celular, PC e apps."
+    sementes: ["como fazer", "como configurar", "como resolver"]
+
+# Guia de compras: subnichos com produtos e links de oferta do Mercado Livre.
 
 subnichos:
   - slug: fones-caixas-bluetooth

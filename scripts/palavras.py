@@ -16,7 +16,7 @@ dúvida e com o alfabeto, como as ferramentas pagas fazem. Cada termo recebe:
   - tipo_post: lista | review | comparativo | guia (formato que melhor atende)
   - coberto_por: slug do post que já mira esse termo (se houver)
 
-Uso: python3 scripts/palavras.py            # todos os subnichos
+Uso: python3 scripts/palavras.py            # todos os subnichos e editorias
      python3 scripts/palavras.py fones-caixas-bluetooth
 Saída: data/palavras.json
 """
@@ -130,12 +130,13 @@ def coletar(subnicho, sementes):
 
 def main():
     cfg = config()
-    alvo = sys.argv[1:] or [s["slug"] for s in cfg["subnichos"]]
+    secoes = list(cfg["subnichos"]) + [e for e in cfg.get("editorias") or [] if e.get("sementes")]
+    alvo = sys.argv[1:] or [s["slug"] for s in secoes]
     arq = RAIZ / "data" / "palavras.json"
     saida = json.loads(arq.read_text(encoding="utf-8")) if arq.exists() else {}
     existentes = {norm(str(p.get("palavra_chave", ""))): p["slug"] for p in posts()}
     total_fontes = set()
-    for s in cfg["subnichos"]:
+    for s in secoes:
         if s["slug"] not in alvo:
             continue
         termos = coletar(s["slug"], s["sementes"])

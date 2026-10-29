@@ -34,6 +34,13 @@ página**, as 10 páginas mais vistas, as principais origens (referrers) e a
 divisão celular/computador.
 Se não estiver configurado, registre "sem dado (Cloudflare não configurado)".
 
+## 3a. Google AdSense (se o site já tiver anúncios)
+Abra `https://www.google.com/adsense/` > **Relatórios**, período de 7 dias, e
+anote: **visualizações de página**, **impressões**, **CTR** e as 10 páginas com
+mais impressões. Guarde a **receita estimada** só para a mensagem final ao dono
+(nunca em arquivo: o repositório é público). Se não houver conta ou anúncios,
+registre "sem dado (AdSense não configurado)".
+
 ## 3b. Buscas do Mercado Livre (só se o servidor foi bloqueado)
 Se `data/palavras.json` tiver `"_mercadolivre_bloqueado_no_servidor": true`,
 colete as buscas pelo navegador: abra `https://www.mercadolivre.com.br/` e, para
@@ -60,6 +67,7 @@ Acrescente a semana em `data/metricas.json` (crie se não existir), mantendo as
    "consultas": [{"termo": "...", "cliques": 0, "impressoes": 0, "posicao": 0.0}],
    "produtos": [{"id": "id-do-csv-se-souber", "nome": "...", "cliques": 0, "pedidos": 0}],
    "origens": [{"origem": "google", "visitas": 0}],
+   "adsense": {"visualizacoes": 0, "impressoes": 0, "ctr": 0.0},
    "celular_pct": 0,
    "faltou": ["lista do que ficou sem dado e por quê"]}
 ]}
@@ -74,6 +82,6 @@ para escrever `data/relatorio_metricas.md`.
 O analista atualiza o próprio status. Confira que `data/escritorio.json` tem o
 `analista` atualizado.
 
-Termine com uma mensagem curta ao dono: os 4 números da semana, o ganho
-estimado em R$ que você viu no painel (só nesta mensagem, nunca em arquivo) e
-a meta da próxima semana.
+Termine com uma mensagem curta ao dono: os 4 números da semana, os ganhos
+estimados em R$ que você viu nos painéis do Mercado Livre e do AdSense (só nesta
+mensagem, nunca em arquivo) e a meta da próxima semana.

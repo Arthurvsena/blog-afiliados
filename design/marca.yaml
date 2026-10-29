@@ -5,7 +5,7 @@
 # ==========================================================
 
 conceito: >
-  Vitrine noturna. Fundo preto profundo, títulos brancos grandes e firmes e um
+  Portal noturno de tecnologia. Vitrine noturna. Fundo preto profundo, títulos brancos grandes e firmes e um
   violeta elétrico como único sinal de ação, inspirado na estética de landing
   pages de tecnologia. Os produtos aparecem como cartões de interface que
   flutuam sobre o escuro, com brilho suave na cor da categoria. O violeta é
@@ -31,6 +31,14 @@ categorias:
   smartwatches-smartbands:  { hex: "#2DD4BF", icone: relogio }
   acessorios-gamer:         { hex: "#FF4D8D", icone: controle }
   casa-inteligente:         { hex: "#5B8CFF", icone: casa }
+
+editorias:
+  celulares:               { hex: "#38BDF8" }
+  games:                   { hex: "#F472B6" }
+  inteligencia-artificial: { hex: "#34D399" }
+  tecnologia:              { hex: "#FBBF24" }
+  analises:                { hex: "#FB923C" }
+  tutoriais:               { hex: "#A3E635" }
 
 fontes:
   titulo:

@@ -1,46 +1,32 @@
 {% extends "base.html" %}
+{% from "_cards.html" import cartao, linha, lateral %}
 {% from "_vendas.html" import cartao_achado with context %}
-{% set cat_atual = cat.slug %}
-{% block titulo %}{{ cat.nome }}: melhores opções e guias de compra | {{ site.nome }}{% endblock %}
-{% block descricao %}Guias, comparativos e listas de {{ cat.nome | lower }} com bom custo-benefício. Especificações conferidas e prós e contras honestos.{% endblock %}
+{% block titulo %}{% if cat.grupo == 'editoria' %}{{ cat.nome }}: notícias e novidades{% else %}{{ cat.nome }}: melhores opções e guias de compra{% endif %} | {{ site.nome }}{% endblock %}
+{% block descricao %}{% if cat.descricao %}{{ cat.descricao }}{% else %}Guias, comparativos e listas de {{ cat.nome | lower }} com bom custo-benefício.{% endif %}{% endblock %}
 {% block conteudo %}
-<section class="cat-topo" style="--cat:{{ cat.cor }}">
-  <p class="trilha entrada" style="--i:0"><a href="{{ b }}/">Início</a><span aria-hidden="true">/</span>{{ cat.nome }}</p>
-  <div class="cat-icone entrada" style="--i:1">{{ cat.icone | safe }}</div>
-  <h1 class="entrada" style="--i:2">{{ cat.nome }}</h1>
-  <p class="cat-desc entrada" style="--i:3">{% if cat.descricao %}{{ cat.descricao }}{% else %}Guias para escolher {{ cat.nome | lower }} pelo que entregam, com especificações conferidas e veredito claro.{% endif %}</p>
-</section>
+<header class="secao-cabeca" style="--cat:{{ cat.cor }}">
+  <p class="trilha"><a href="{{ b }}/">Início</a><span aria-hidden="true">/</span>{% if cat.grupo == 'compras' %}<a href="{{ b }}/guia-de-compras/">Guia de compras</a><span aria-hidden="true">/</span>{% endif %}{{ cat.nome }}</p>
+  <h1><span class="secao-icone">{{ cat.icone | safe }}</span>{{ cat.nome }}</h1>
+  {% if cat.descricao %}<p>{{ cat.descricao }}</p>{% endif %}
+</header>
 
 {% if achados %}
-<section class="secao secao-curta" aria-labelledby="achados-titulo">
-  <div class="secao-topo">
-    <h2 id="achados-titulo">Mais bem avaliados em {{ cat.curto | lower }}</h2>
-    <p>Nota alta, muitas avaliações e vendedor confiável. O preço é de referência: confira o valor do dia.</p>
-  </div>
-  <div class="vitrine-achados">
-    {% for p in achados %}{{ cartao_achado(p, preco_br, milhar, estrelas, loop.index) }}{% endfor %}
-  </div>
+<section class="bloco-editoria" aria-labelledby="achados-titulo">
+  <h2 class="faixa-titulo" id="achados-titulo">Mais bem avaliados</h2>
+  <div class="vitrine-achados">{% for p in achados %}{{ cartao_achado(p, preco_br, milhar, estrelas, loop.index) }}{% endfor %}</div>
 </section>
 {% endif %}
 
-<section class="secao">
-  {% if posts %}
-  <div class="secao-topo"><h2>Guias de {{ cat.curto | lower }}</h2></div>
-  <div class="grade-posts">
-    {% for p in posts %}
-    <a class="cartao-post" href="{{ b }}/posts/{{ p.slug }}/" style="--cat:{{ p.cat.cor }}; --d:{{ loop.index0 % 3 }}" data-surgir>
-      <span class="cartao-topo"><span class="cartao-icone">{{ p.cat.icone | safe }}</span><span class="cartao-cat">{{ {'lista':'Lista','review':'Review','comparativo':'Comparativo','guia':'Guia'}.get(p.tipo, 'Guia') }}</span></span>
-      <span class="cartao-titulo">{{ p.titulo }}</span>
-      <span class="cartao-desc">{{ p.descricao }}</span>
-      <span class="cartao-meta">{{ p.data_txt }} · {{ p.minutos }} min</span>
-    </a>
-    {% endfor %}
-  </div>
-  {% else %}
-  <div class="vazio-caixa">
-    <p><strong>Os guias desta categoria estão a caminho.</strong></p>
-    <p>Enquanto isso, veja os <a href="{{ b }}/#guias">guias de todas as categorias</a>.</p>
-  </div>
-  {% endif %}
-</section>
+<div class="portal-grade">
+  <section class="ultimas" aria-labelledby="lista-titulo">
+    <h2 class="faixa-titulo" id="lista-titulo">{% if cat.grupo == 'editoria' %}Últimas em {{ cat.curto }}{% else %}Guias de {{ cat.curto | lower }}{% endif %}</h2>
+    {% if posts %}
+      {{ cartao(posts[0], b, true) }}
+      {% for p in posts[1:40] %}{{ linha(p, b) }}{% if loop.index == 5 %}{{ anuncios.lista | safe }}{% endif %}{% endfor %}
+    {% else %}
+      <div class="vazio-caixa"><p><strong>Os primeiros textos desta editoria estão a caminho.</strong></p><p>Enquanto isso, veja as <a href="{{ b }}/">últimas do site</a>.</p></div>
+    {% endif %}
+  </section>
+  {{ lateral(mais_lidas, anuncios, b, compras) }}
+</div>
 {% endblock %}

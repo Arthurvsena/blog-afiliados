@@ -1,6 +1,6 @@
 ---
 name: rotina-diaria
-description: Rotina diária do blog. Mantém a fila de pautas cheia, escreve os posts novos do dia, revisa o SEO e atualiza posts antigos. Rodada todo dia pelo GitHub Actions.
+description: Rotina diária do portal. Pauta e publica as notícias do dia, escreve os guias de compra, revisa SEO, vendas e design, e atualiza posts antigos. Rodada todo dia pelo GitHub Actions.
 allowed-tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch, Task, Agent, Bash(python3 scripts/verificar.py:*), Bash(python3 site/build.py:*), Bash(date:*)
 ---
 
@@ -20,36 +20,42 @@ também. **Toda escolha do dia deve servir a uma aposta do plano**: pautas com
 `"prioridade": "alta"` vêm antes das outras, e ao chamar cada subagente diga
 qual aposta e quais mensagens do mural ele precisa atender.
 
-1. **Fila de pautas.** Conte as pautas `pendente` em `data/pautas.json`.
-   Se houver menos de 10, chame o subagente `pesquisador`. Se
+Leia também `editorial/manual.md` e `editorial/voz.md`: todo texto do dia
+sai na voz de Rafa Lins.
+
+1. **Notícias do dia (pauta).** Chame o `pesquisador` em modo **notícias**.
+   Ele traz `rotina.noticias_por_dia` pautas com `"prioridade": "hoje"` e
+   fontes confirmadas, e descarta notícias pendentes velhas.
+
+2. **Fila de pautas.** Conte as pautas pendentes que não são notícia. Se
+   houver menos de 10, chame o `pesquisador` em modo **fila**. Se
    `data/palavras.json` não existir, rode antes `python3 scripts/palavras.py`.
 
-2. **Escolha das pautas do dia.** Separe `rotina.posts_novos_por_dia` pautas
-   pendentes que já podem ser escritas: há produtos `ativo=sim` suficientes
-   no subnicho (`produtos_necessarios`), ou são do tipo `guia`. Alterne
-   subnichos (não repita o subnicho do post mais recente).
-   Se nenhuma pauta tiver produtos suficientes, escolha um `guia`.
+3. **Escolha das pautas do dia.**
+   - Notícias: as `rotina.noticias_por_dia` pautas `"prioridade": "hoje"`,
+     variando editorias. Se faltar notícia forte, complete com um tutorial ou
+     uma análise da fila.
+   - Guia de compras: `rotina.posts_novos_por_dia` pautas pendentes que já
+     podem ser escritas (produtos `ativo=sim` suficientes no subnicho ou tipo
+     `guia`), alternando subnichos. Pautas `"prioridade": "alta"` (da reunião)
+     vêm primeiro.
 
-3. **Produtos.** Se 3 ou mais pautas pendentes estão travadas por falta de
-   produtos, chame o subagente `curador`.
+4. **Produtos.** Se 3 ou mais pautas de guia de compras estão travadas por
+   falta de produtos, chame o `curador`.
 
-4. **Escrita.** Para cada pauta escolhida, chame o subagente `redator`
-   passando a pauta completa (JSON). Se ele responder "SEM PRODUTOS
-   SUFICIENTES", escolha outra pauta.
+5. **Escrita e revisão (uma pauta por vez, notícias primeiro).** Para cada
+   pauta escolhida, nesta ordem:
+   a. `redator` com a pauta completa (JSON). Se ele responder "NOTÍCIA NÃO
+      CONFIRMADA" ou "SEM PRODUTOS SUFICIENTES", marque a pauta como
+      `"status": "descartada"` (notícia) ou deixe pendente (compra) e escolha outra.
+   b. `seo` em modo revisão, com o caminho do arquivo.
+   c. `vendas` em modo revisão (em notícias ele só liga o post ao guia de
+      compras, sem forçar venda).
+   d. `designer` em modo revisão visual. Nenhum post é publicado sem passar por ele.
+   e. Marque a pauta como `"status": "publicada"` com `"post": "SLUG"`.
 
-5. **SEO.** Para cada post novo, chame o subagente `seo` em modo revisão,
-   passando o caminho do arquivo.
-
-5a. **Vendas (obrigatório).** Para cada post novo, chame o subagente
-   `vendas` em modo revisão, passando o caminho do arquivo.
-
-5b. **Design (obrigatório).** Para cada post novo, chame o subagente
-   `designer` em modo revisão visual, passando o caminho do arquivo. Nenhum
-   post é publicado sem passar por ele. Depois marque a pauta como
-   `"status": "publicada"` em `data/pautas.json`, com `"post": "SLUG"`.
-
-6. **Atualização.** Escolha `rotina.atualizacoes_por_dia` posts com a data
-   `atualizado` mais antiga (pelo menos 30 dias atrás) e chame o subagente
+6. **Atualização.** Escolha `rotina.atualizacoes_por_dia` posts que não sejam
+   notícia, com a data `atualizado` mais antiga (pelo menos 30 dias atrás) e chame o subagente
    `atualizador` para cada um e, se ele mudou o post, chame `vendas` e depois
    o `designer` em seguida. Se nenhum post tiver 30+ dias, pule.
 
@@ -66,7 +72,7 @@ qual aposta e quais mensagens do mural ele precisa atender.
    que fazer (ou reencaminhe para o agente certo).
 
 8. **Diário.** Acrescente ao fim de `data/diario.md` uma linha:
-   `- AAAA-MM-DD: N posts novos (slugs), N atualizados, fila com N pautas, avisos: ...`
+   `- AAAA-MM-DD: N notícias (slugs), N guias de compra (slugs), N atualizados, fila com N pautas, avisos: ...`
    Nos avisos, diga ao dono o que ele precisa fazer (ex.: "cadastrar
    produtos sugeridos em data/sugestoes_produtos.md").
 
@@ -77,8 +83,9 @@ qual aposta e quais mensagens do mural ele precisa atender.
    - Em `agentes`, para `chefe`, `pesquisador`, `curador`, `redator`, `seo`,
      `vendas`, `designer` e `atualizador` (não mexa no `analista`): `status` = `ok` (trabalhou hoje), `ocioso` (não foi chamado)
      ou `erro` (falhou ou travou) e `tarefa` = uma frase curta e concreta do que
-     fez hoje, escrita como um colega contaria (ex.: "Escrevi 'Os 5 melhores
-     power banks até R$ 150' (1.240 palavras)."). Ocioso: diga por quê.
+     fez hoje, escrita como um colega contaria (ex.: "Escrevi a notícia do
+     novo Galaxy e a lista 'Os 5 melhores power banks até R$ 150'."). Ocioso:
+     diga por quê.
    - Em `historico`, acrescente uma entrada por agente que trabalhou:
      `{"data": "AAAA-MM-DD", "agente": "redator", "texto": "..."}`.
      Mantenha só as 60 entradas mais recentes.

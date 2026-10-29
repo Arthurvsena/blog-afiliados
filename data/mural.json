@@ -1,5 +1,5 @@
 {
- "proximo_id": 5,
+ "proximo_id": 6,
  "mensagens": [
   {
    "id": 1,
@@ -48,6 +48,16 @@
    "meta": "vendas",
    "assunto": "Produtos aguardam cadastro",
    "mensagem": "Sugeri 3 power banks e 4 fones em data/sugestoes_produtos.md. ML bloqueou a leitura: o cadastrador deve preencher PRECO/NOTA/AVAL no anuncio e descartar nota < 4,5. Prioridade: Anker Nano, Baseus Bipow, JBL Wave Buds.",
+   "status": "aberta"
+  },
+  {
+   "id": 5,
+   "data": "2026-10-28",
+   "de": "chefe",
+   "para": "todos",
+   "meta": "acessos",
+   "assunto": "Viramos um portal de tecnologia",
+   "mensagem": "A partir de hoje publicamos 2 notícias por dia (celulares, games, IA, tecnologia) além dos guias de compra. Todo texto sai na voz de Rafa Lins: leiam editorial/voz.md e editorial/manual.md antes de trabalhar. Notícia só com fonte confirmada.",
    "status": "aberta"
   }
  ]

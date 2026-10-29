@@ -1,25 +1,41 @@
 {% extends "base.html" %}
 {% from "_vendas.html" import cartao_achado with context %}
-{% set cat_atual = post.subnicho %}
+{% from "_cards.html" import cartao, lateral, selo %}
 {% block titulo %}{{ post.titulo }} | {{ site.nome }}{% endblock %}
 {% block descricao %}{{ post.descricao }}{% endblock %}
 {% block og_imagem %}{% if post.capa %}<meta property="og:image" content="{{ post.capa }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">{% else %}{{ super() }}{% endif %}{% endblock %}
 {% block head %}<meta property="og:type" content="article">
+<meta property="article:published_time" content="{{ post.publicado }}{% if post.publicado_hora %}T{{ post.publicado_hora }}:00-03:00{% endif %}">
+<meta name="author" content="{{ autor.nome }}">
 <script type="application/ld+json">{{ json_ld | safe }}</script>{% endblock %}
 {% block conteudo %}
-<article class="artigo" style="--cat:{{ post.cat.cor }}">
-  <header class="artigo-topo">
-    <a class="selo-cat entrada" style="--i:0" href="{{ b }}/categoria/{{ post.subnicho }}/"><span class="ponto"></span>{{ post.cat.nome }}</a>
-    <h1 class="entrada" style="--i:1">{{ post.titulo }}</h1>
-    <p class="artigo-linha-fina entrada" style="--i:2">{{ post.descricao }}</p>
-    <p class="artigo-meta entrada" style="--i:3">{% if post.atualizado and post.atualizado != post.publicado %}Atualizado em {{ post.atualizado | data_br }}{% else %}Publicado em {{ post.publicado | data_br }}{% endif %}, leitura de {{ post.minutos }} min. Por {{ site.autor }}.</p>
+<article class="materia" style="--cat:{{ post.cat.cor }}">
+  <header class="materia-topo">
+    <p class="trilha"><a href="{{ b }}/">Início</a><span aria-hidden="true">/</span>{% if post.compra %}<a href="{{ b }}/guia-de-compras/">Guia de compras</a><span aria-hidden="true">/</span>{% endif %}<a href="{{ post.cat.url }}">{{ post.cat.nome }}</a></p>
+    <span class="cartao-sobre">{{ selo(post) }}<span class="tipo">{{ post.rotulo }}</span></span>
+    <h1>{{ post.titulo }}</h1>
+    <p class="linha-fina">{{ post.descricao }}</p>
+    <div class="assinatura">
+      <img src="{{ b }}/{{ autor.avatar }}" alt="" width="44" height="44">
+      <div>
+        <a class="assinatura-nome" href="{{ b }}/sobre/#autor">{{ autor.nome }}</a>
+        <span class="meta">{{ post.publicado | data_br }}{% if post.publicado_hora %}, {{ post.publicado_hora }}{% endif %}{% if post.atualizado and post.atualizado != post.publicado %} · atualizado em {{ post.atualizado | data_br }}{% endif %} · {{ post.minutos }} min de leitura</span>
+      </div>
+      <div class="compartilhar" aria-label="Compartilhar">
+        <a href="https://wa.me/?text={{ (post.titulo ~ ' ' ~ url) | urlencode }}" target="_blank" rel="noopener" aria-label="Compartilhar no WhatsApp" title="WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z"/><path d="M8.5 8.5c0 4 3 7 7 7l1.2-1.6-2-1-1 1c-1.4-.6-2.5-1.7-3.1-3.1l1-1-1-2z"/></svg></a>
+        <a href="https://twitter.com/intent/tweet?text={{ post.titulo | urlencode }}&url={{ url | urlencode }}" target="_blank" rel="noopener" aria-label="Compartilhar no X" title="X"><svg viewBox="0 0 24 24"><path d="M4 4l16 16M20 4L4 20"/></svg></a>
+        <button type="button" class="copiar" data-url="{{ url }}" aria-label="Copiar link" title="Copiar link"><svg viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg></button>
+      </div>
+    </div>
   </header>
 
-  <div class="artigo-grade">
-    <div class="artigo-corpo">
-      {% if tem_produto %}<p class="aviso-afiliado">Os botões de compra deste guia são links de afiliado: se você comprar por eles, ganhamos uma comissão do Mercado Livre, sem custo extra para você.</p>{% endif %}
+  <figure class="materia-capa"><img src="{{ post.capa_url }}" alt="" width="1200" height="630"></figure>
+
+  <div class="materia-grade">
+    <div class="materia-corpo">
+      {% if tem_produto %}<p class="aviso-afiliado">Este texto tem links de afiliado: se você comprar por eles, ganhamos uma comissão do Mercado Livre, sem custo extra para você.</p>{% endif %}
 
       {% if rapida %}
       <section class="rapida" aria-labelledby="rapida-titulo">
@@ -36,9 +52,9 @@
       </section>
       {% endif %}
 
-      {% if sumario|length > 2 %}
+      {% if sumario|length > 3 %}
       <details class="sumario-movel">
-        <summary>Neste guia</summary>
+        <summary>Neste texto</summary>
         <ol>{% for s in sumario %}<li><a href="#{{ s.id }}">{{ s.nome }}</a></li>{% endfor %}</ol>
       </details>
       {% endif %}
@@ -60,44 +76,44 @@
       {% if post.faq %}
       <section class="faq" aria-labelledby="faq-titulo">
         <h2 id="faq-titulo">Perguntas frequentes</h2>
-        {% for f in post.faq %}
-        <details>
-          <summary>{{ f.pergunta }}</summary>
-          <p>{{ f.resposta }}</p>
-        </details>
-        {% endfor %}
+        {% for f in post.faq %}<details><summary>{{ f.pergunta }}</summary><p>{{ f.resposta }}</p></details>{% endfor %}
       </section>
       {% endif %}
+
+      {% if post.fontes %}
+      <section class="fontes" aria-labelledby="fontes-titulo">
+        <h2 id="fontes-titulo">Fontes</h2>
+        <ul>{% for f in post.fontes %}<li>{% if f.url %}<a href="{{ f.url }}" target="_blank" rel="noopener nofollow">{{ f.nome or f.url }}</a>{% else %}{{ f.nome }}{% endif %}</li>{% endfor %}</ul>
+      </section>
+      {% endif %}
+
+      {% if post.tags %}<p class="tags">{% for t in post.tags %}<a href="{{ b }}/busca/?q={{ t | urlencode }}">{{ t }}</a>{% endfor %}</p>{% endif %}
+
+      <aside class="autor-caixa" id="autor">
+        <img src="{{ b }}/{{ autor.avatar }}" alt="" width="64" height="64">
+        <div><p class="autor-nome">{{ autor.nome }}</p><p>{{ autor.bio }}</p></div>
+      </aside>
     </div>
 
-    {% if sumario|length > 2 %}
-    <aside class="lateral">
-      <nav class="sumario" aria-label="Neste guia">
-        <p class="sumario-titulo">Neste guia</p>
+    <div class="materia-lateral">
+      {% if sumario|length > 3 %}
+      <nav class="sumario" aria-label="Neste texto">
+        <p class="sumario-titulo">Neste texto</p>
         <ol>{% for s in sumario %}<li><a href="#{{ s.id }}">{{ s.nome }}</a></li>{% endfor %}{% if post.faq %}<li><a href="#faq-titulo">Perguntas frequentes</a></li>{% endif %}</ol>
       </nav>
-    </aside>
-    {% endif %}
+      {% endif %}
+      {{ lateral(mais_lidas, anuncios, b, compras if not post.compra else none) }}
+    </div>
   </div>
 </article>
 
 {% if relacionados %}
-<section class="relacionados" aria-labelledby="rel-titulo">
-  <h2 id="rel-titulo">Continue escolhendo</h2>
-  <div class="grade-posts">
-    {% for r in relacionados %}
-    <a class="cartao-post" href="{{ b }}/posts/{{ r.slug }}/" style="--cat:{{ r.cat.cor }}; --d:{{ loop.index0 }}" data-surgir>
-      <span class="cartao-topo"><span class="cartao-icone">{{ r.cat.icone | safe }}</span><span class="cartao-cat">{{ r.cat.curto }}</span></span>
-      <span class="cartao-titulo">{{ r.titulo }}</span>
-      <span class="cartao-desc">{{ r.descricao }}</span>
-      <span class="cartao-meta">{{ r.data_txt }} · {{ r.minutos }} min</span>
-    </a>
-    {% endfor %}
-  </div>
+<section class="bloco-editoria relacionados" aria-labelledby="rel-titulo">
+  <h2 class="faixa-titulo" id="rel-titulo">Leia também</h2>
+  <div class="grade-cartoes">{% for r in relacionados %}{{ cartao(r, b) }}{% endfor %}</div>
 </section>
 {% endif %}
 {% endblock %}
-{% block barra %}{% endblock %}
 {% block scripts %}
 {% if principal %}
 <div class="barra-compra" id="barra-compra" style="--cat:{{ post.cat.cor }}" hidden>
@@ -110,7 +126,7 @@
 <script>
 (() => {
   const barra = document.getElementById('barra-compra');
-  const topo = document.querySelector('.artigo-topo');
+  const topo = document.querySelector('.materia-topo');
   const fim = document.querySelector('.relacionados') || document.querySelector('.rodape');
   if (!barra || !('IntersectionObserver' in window)) return;
   let passouTopo = false, noFim = false;
@@ -122,17 +138,18 @@
 {% endif %}
 <script>
 (() => {
+  document.querySelectorAll('.copiar').forEach(bt => bt.addEventListener('click', async () => {
+    try { await navigator.clipboard.writeText(bt.dataset.url); bt.classList.add('ok'); bt.setAttribute('aria-label', 'Link copiado'); setTimeout(() => bt.classList.remove('ok'), 1600); } catch (e) {}
+  }));
   const links = [...document.querySelectorAll('.sumario a')];
   if (!links.length || !('IntersectionObserver' in window)) return;
   const alvos = links.map(a => document.getElementById(decodeURIComponent(a.hash.slice(1)))).filter(Boolean);
-  const obs = new IntersectionObserver(es => {
-    es.forEach(e => {
-      if (!e.isIntersecting) return;
-      links.forEach(a => a.removeAttribute('aria-current'));
-      const a = links.find(l => decodeURIComponent(l.hash.slice(1)) === e.target.id);
-      if (a) a.setAttribute('aria-current', 'true');
-    });
-  }, { rootMargin: '-20% 0px -70% 0px' });
+  const obs = new IntersectionObserver(es => es.forEach(e => {
+    if (!e.isIntersecting) return;
+    links.forEach(a => a.removeAttribute('aria-current'));
+    const a = links.find(l => decodeURIComponent(l.hash.slice(1)) === e.target.id);
+    if (a) a.setAttribute('aria-current', 'true');
+  }), { rootMargin: '-20% 0px -70% 0px' });
   alvos.forEach(t => obs.observe(t));
 })();
 </script>

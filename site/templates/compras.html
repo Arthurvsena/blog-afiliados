@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% from "_cards.html" import cartao, lateral %}
+{% from "_vendas.html" import cartao_achado with context %}
+{% block titulo %}Guia de compras: os melhores eletrônicos pelo preço | {{ site.nome }}{% endblock %}
+{% block descricao %}Listas, comparativos e reviews de fones, power banks, smartwatches, acessórios gamer e casa inteligente, com prós e contras honestos.{% endblock %}
+{% block conteudo %}
+<header class="secao-cabeca" style="--cat:#7C5CFF">
+  <p class="trilha"><a href="{{ b }}/">Início</a><span aria-hidden="true">/</span>Guia de compras</p>
+  <h1>Guia de compras</h1>
+  <p>Comparamos especificações e milhares de avaliações de compradores para indicar o que vale o preço. Escolha uma categoria.</p>
+</header>
+
+<nav class="vitrine" aria-label="Categorias do guia de compras">
+  {% for slug, c in compras.items() %}
+  <a class="vitrine-item" href="{{ c.url }}" style="--cat:{{ c.cor }}; --d:{{ loop.index0 }}" data-surgir>
+    <span class="vitrine-icone">{{ c.icone | safe }}</span>
+    <span class="vitrine-nome">{{ c.nome }}</span>
+    <span class="vitrine-conta">{% if c.total == 0 %}Guias em breve{% elif c.total == 1 %}1 guia{% else %}{{ c.total }} guias{% endif %}</span>
+  </a>
+  {% endfor %}
+</nav>
+
+{% if achados %}
+<section class="bloco-editoria" aria-labelledby="achados-titulo">
+  <h2 class="faixa-titulo" id="achados-titulo">Achados que valem o preço</h2>
+  <div class="vitrine-achados">{% for p in achados %}{{ cartao_achado(p, preco_br, milhar, estrelas, loop.index) }}{% endfor %}</div>
+</section>
+{% endif %}
+
+<div class="portal-grade">
+  <section class="ultimas" aria-labelledby="guias-titulo">
+    <h2 class="faixa-titulo" id="guias-titulo">Todos os guias</h2>
+    {% if posts %}<div class="grade-cartoes grade-2">{% for p in posts %}{{ cartao(p, b) }}{% endfor %}</div>
+    {% else %}<p class="vazio">Os primeiros guias saem nos próximos dias.</p>{% endif %}
+  </section>
+  {{ lateral(mais_lidas, anuncios, b) }}
+</div>
+{% endblock %}
