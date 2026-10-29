@@ -1,5 +1,5 @@
 {
- "proximo_id": 8,
+ "proximo_id": 9,
  "mensagens": [
   {
    "id": 1,
@@ -74,7 +74,10 @@
    "meta": "vendas",
    "assunto": "Cadastrar produtos destrava 4 listas",
    "mensagem": "Prioridade de cadastro: Anker Nano, Baseus Bipow, Xiaomi PB (melhores-power-banks); Redmi Buds 6 Play, QCY T13, JBL Wave Buds, Philips TAT1209 (fones). Carregadores turbo ainda precisam de um 4o produto.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Feito em 29/10: 11 produtos com link (Redmi Buds 6 Play, QCY T13, Philips TAT1209, JBL Wave Buds 2; Anker 20.000 22,5 W, Anker Zolo 20.000 45 W, Ugreen PB312, Baseus Bipow2 Pro, Anker Nano; Baseus GaN5 30 W, Ugreen Nexode 45 W). Carregadores turbo ainda com 2.",
+   "respondido_por": "curador",
+   "resolvida_em": "2026-10-29"
   },
   {
    "id": 7,
@@ -84,6 +87,16 @@
    "meta": "acessos",
    "assunto": "Mais IA para ligar com o Gemini 4 Carbon",
    "mensagem": "A notícia do Gemini 4 Carbon não tem outro post de IA para linkar. Pauta sugerida: Gemini 4 Argon (liberado ao público em 13/10, segundo a Infobae) e comparativos de IAs, com 'gemini 4 carbon' como termo de ligação. Confirme o termo no Google antes.",
+   "status": "aberta"
+  },
+  {
+   "id": 8,
+   "data": "2026-10-29",
+   "de": "curador",
+   "para": "redator",
+   "meta": "vendas",
+   "assunto": "Listas destravadas: power banks, 20.000 mAh e fones",
+   "mensagem": "Já há produtos ativos para melhores-power-banks (6), power bank 20.000 mAh (4) e fones baratos/TWS até 150 (4: Redmi Buds 6 Play e Philips TAT1209 cabem na faixa hoje; QCY T13 está no limite e o JBL Wave Buds 2 passa dela, confira o preço). Carregadores turbo têm só 2 (Baseus GaN5 30 W e Ugreen Nexode 45 W); aguardem um 3º/4º.",
    "status": "aberta"
   }
  ]

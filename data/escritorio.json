@@ -11,7 +11,7 @@
     },
     "curador": {
       "status": "ok",
-      "tarefa": "Sugeri mais 6 produtos (power banks de 20.000 mAh e carregadores turbo) e deixei a ordem de cadastro para o dono."
+      "tarefa": "Cadastrei 11 produtos com link: 4 fones TWS, 5 power banks e 2 carregadores turbo."
     },
     "redator": {
       "status": "ok",
@@ -39,23 +39,100 @@
     }
   },
   "historico": [
-    {"data": "2026-10-28", "agente": "pesquisador", "texto": "Enchi a fila com 9 pautas novas, 4 delas guias."},
-    {"data": "2026-10-28", "agente": "curador", "texto": "Escrevi 13 sugestões de produtos para cadastro, sem preço e nota confirmados."},
-    {"data": "2026-10-28", "agente": "redator", "texto": "Escrevi o guia 'Como escolher um fone Bluetooth' (cerca de 1.150 palavras)."},
-    {"data": "2026-10-28", "agente": "seo", "texto": "Revisei o guia de fones e adicionei links internos com o guia de power bank."},
-    {"data": "2026-10-28", "agente": "designer", "texto": "Criei a identidade visual do site e redesenhei todas as páginas."},
-    {"data": "2026-10-28", "agente": "vendas", "texto": "Entrei na equipe e coloquei vitrines e chamadas de compra no site."},
-    {"data": "2026-10-28", "agente": "pesquisador", "texto": "Acrescentei 7 pautas com termos reais de compra; a fila foi para 15."},
-    {"data": "2026-10-28", "agente": "curador", "texto": "Sugeri 3 power banks e 4 fones para cadastro."},
-    {"data": "2026-10-28", "agente": "redator", "texto": "Escrevi a review do power bank Ugreen PB311 (cerca de 1.200 palavras)."},
-    {"data": "2026-10-28", "agente": "seo", "texto": "Revisei a review do Ugreen e liguei os posts de power bank entre si."},
-    {"data": "2026-10-28", "agente": "vendas", "texto": "Pus chamadas de compra na review e no guia de power bank."},
-    {"data": "2026-10-28", "agente": "designer", "texto": "Apliquei prós, contras e veredito e criei capas para três posts."},
-    {"data": "2026-10-29", "agente": "pesquisador", "texto": "Achei duas notícias confirmadas: MacBook Pro OLED touch e Gemini 4 Carbon."},
-    {"data": "2026-10-29", "agente": "curador", "texto": "Sugeri 6 produtos novos de power banks 20.000 mAh e carregadores turbo."},
-    {"data": "2026-10-29", "agente": "redator", "texto": "Escrevi duas notícias e o guia 'Fone Bluetooth ou com fio'."},
-    {"data": "2026-10-29", "agente": "seo", "texto": "Liguei as notícias aos guias e corrigi afirmações sem fonte no guia de fones."},
-    {"data": "2026-10-29", "agente": "vendas", "texto": "Liguei o guia de fones à categoria; sem produtos compatíveis, não forcei venda nas notícias."},
-    {"data": "2026-10-29", "agente": "designer", "texto": "Diagramei os três posts com tabelas, veredito e prós e contras."}
+    {
+      "data": "2026-10-28",
+      "agente": "pesquisador",
+      "texto": "Enchi a fila com 9 pautas novas, 4 delas guias."
+    },
+    {
+      "data": "2026-10-28",
+      "agente": "curador",
+      "texto": "Escrevi 13 sugestões de produtos para cadastro, sem preço e nota confirmados."
+    },
+    {
+      "data": "2026-10-28",
+      "agente": "redator",
+      "texto": "Escrevi o guia 'Como escolher um fone Bluetooth' (cerca de 1.150 palavras)."
+    },
+    {
+      "data": "2026-10-28",
+      "agente": "seo",
+      "texto": "Revisei o guia de fones e adicionei links internos com o guia de power bank."
+    },
+    {
+      "data": "2026-10-28",
+      "agente": "designer",
+      "texto": "Criei a identidade visual do site e redesenhei todas as páginas."
+    },
+    {
+      "data": "2026-10-28",
+      "agente": "vendas",
+      "texto": "Entrei na equipe e coloquei vitrines e chamadas de compra no site."
+    },
+    {
+      "data": "2026-10-28",
+      "agente": "pesquisador",
+      "texto": "Acrescentei 7 pautas com termos reais de compra; a fila foi para 15."
+    },
+    {
+      "data": "2026-10-28",
+      "agente": "curador",
+      "texto": "Sugeri 3 power banks e 4 fones para cadastro."
+    },
+    {
+      "data": "2026-10-28",
+      "agente": "redator",
+      "texto": "Escrevi a review do power bank Ugreen PB311 (cerca de 1.200 palavras)."
+    },
+    {
+      "data": "2026-10-28",
+      "agente": "seo",
+      "texto": "Revisei a review do Ugreen e liguei os posts de power bank entre si."
+    },
+    {
+      "data": "2026-10-28",
+      "agente": "vendas",
+      "texto": "Pus chamadas de compra na review e no guia de power bank."
+    },
+    {
+      "data": "2026-10-28",
+      "agente": "designer",
+      "texto": "Apliquei prós, contras e veredito e criei capas para três posts."
+    },
+    {
+      "data": "2026-10-29",
+      "agente": "pesquisador",
+      "texto": "Achei duas notícias confirmadas: MacBook Pro OLED touch e Gemini 4 Carbon."
+    },
+    {
+      "data": "2026-10-29",
+      "agente": "curador",
+      "texto": "Sugeri 6 produtos novos de power banks 20.000 mAh e carregadores turbo."
+    },
+    {
+      "data": "2026-10-29",
+      "agente": "redator",
+      "texto": "Escrevi duas notícias e o guia 'Fone Bluetooth ou com fio'."
+    },
+    {
+      "data": "2026-10-29",
+      "agente": "seo",
+      "texto": "Liguei as notícias aos guias e corrigi afirmações sem fonte no guia de fones."
+    },
+    {
+      "data": "2026-10-29",
+      "agente": "vendas",
+      "texto": "Liguei o guia de fones à categoria; sem produtos compatíveis, não forcei venda nas notícias."
+    },
+    {
+      "data": "2026-10-29",
+      "agente": "designer",
+      "texto": "Diagramei os três posts com tabelas, veredito e prós e contras."
+    },
+    {
+      "data": "2026-10-29",
+      "agente": "curador",
+      "texto": "Cadastrei 11 produtos com link: 4 fones TWS, 5 power banks e 2 carregadores turbo."
+    }
   ]
 }
