@@ -8,12 +8,21 @@ tipo: noticia
 publicado: 2026-10-29 10:00
 atualizado: 2026-10-29
 fontes:
+  - nome: "Apple Newsroom: MacBook Pro com tela PROLED XDR"
+    url: "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/"
   - nome: "Tecnoblog"
     url: "https://tecnoblog.net/noticias/apple-anuncia-macbook-pro-com-tela-oled-sensivel-a-toques/"
+  - nome: "Mundo Conectado"
+    url: "https://www.mundoconectado.com.br/apple/apple-macbook-pro-proled-xdr-oled-touch-m5-pro-m5-max-2000-nits-preco-brasil-pre-venda-novembro/"
   - nome: "Tom's Guide"
     url: "https://www.tomsguide.com/computing/macbooks/apple-reveals-oled-touchscreen-macbook-pro"
 tags: ["Apple", "MacBook Pro", "OLED", "M5 Pro", "M5 Max"]
 capa_frase: "Primeiro Mac com tela touch"
+imagem:
+  arquivo: macbook-pro-oled-touch-preco-brasil.jpg
+  credito: Divulgação/Apple
+  licenca: Divulgação
+  fonte: https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/
 ---
 A Apple anunciou na quarta-feira (28) o MacBook Pro de 14 e 16 polegadas com tela OLED sensível ao toque, a primeira vez que um Mac tem touch na tela. Segundo o Tecnoblog, os preços no Brasil começam em R$ 34.999 (14 polegadas) e R$ 41.999 (16 polegadas), sem desconto. O que falta é a data de venda por aqui.
 
@@ -28,7 +37,7 @@ Os valores de lançamento, conforme o Tecnoblog, são estes:
 
 O vidro "nano-texture", que reduz reflexos, é opcional e custa a mais. As cores são prateado e preto espacial.
 
-Os dois já aparecem no site brasileiro da Apple, mas a empresa não informou quando começa a vender aqui. Nos Estados Unidos, a pré-venda já abriu e o lançamento está previsto para 6 de novembro, de acordo com o Tecnoblog.
+Os dois já aparecem no site brasileiro da Apple, mas a empresa não informou quando começa a vender aqui. No comunicado global, a Apple fala em pré-venda a partir de 28 de outubro e entregas a partir de 6 de novembro; para o Brasil, a empresa ainda não confirmou as datas.
 
 Na prática, dá para ver o preço, mas ainda não dá para comprar com data certa.
 
@@ -56,7 +65,7 @@ Vale lembrar que o chip M6 aparece, por ora, só no MacBook Pro de 14 polegadas 
 
 ## O que ainda não se sabe
 
-Faltam a data de venda no Brasil, os preços das configurações mais altas de memória e armazenamento e o custo exato do vidro nano-texture. Não consegui abrir o comunicado da Apple, então os dados acima vêm da imprensa que cobriu o anúncio.
+Faltam a data de venda no Brasil, os preços das configurações mais altas de memória e armazenamento e o custo exato do vidro nano-texture. A ficha técnica acima está no comunicado oficial da Apple; os preços em real vêm da cobertura brasileira (Tecnoblog e Mundo Conectado).
 
 ## Vale esperar?
 

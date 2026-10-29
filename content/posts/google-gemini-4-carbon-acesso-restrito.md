@@ -8,16 +8,23 @@ tipo: noticia
 publicado: 2026-10-29 09:30
 atualizado: 2026-10-29
 fontes:
+  - nome: "Google (blog oficial): Gemini 4 Carbon"
+    url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
   - nome: "Investing.com Brasil"
     url: "https://br.investing.com/news/stock-market-news/google-apresenta-gemini-4-carbon-com-recursos-avancados-de-ciberseguranca-2106278"
   - nome: "Infobae"
     url: "https://www.infobae.com/tecno/2026/10/28/google-lanza-gemini-4-carbon-una-ia-tan-potente-que-por-ahora-esta-vetada-al-publico-general/"
 tags: ["Google", "Gemini 4 Carbon", "Gemini", "cibersegurança", "inteligência artificial"]
 capa_frase: "Forte demais para o público?"
+imagem:
+  arquivo: google-gemini-4-carbon-acesso-restrito.jpg
+  credito: Divulgação/Google
+  licenca: Divulgação
+  fonte: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/
 ---
 O Google anunciou na quarta-feira (28) o Gemini 4 Carbon, que a empresa descreve como seu modelo de IA mais poderoso. O detalhe que importa: por enquanto, só um grupo seleto de especialistas em defesa cibernética pode usar. Desenvolvedores, empresas e o público em geral ficam de fora, sem data para entrar.
 
-Não encontrei o post oficial do Google, então tudo aqui vem do que a empresa disse, segundo os veículos que cobriram.
+Os detalhes abaixo vêm do anúncio oficial no blog do Google, assinado por Koray Kavukcuoglu, da Google DeepMind, e da cobertura de veículos que acompanharam o lançamento.
 
 ## Gemini 4 Carbon: quem pode usar agora
 

@@ -21,6 +21,11 @@ faq:
     resposta: "O Bluetooth, sem dúvida. Sem cabo enroscando, e com proteção contra suor (IPX4 ou mais), é muito mais prático para academia e corrida."
   - pergunta: "Dá para ter os dois?"
     resposta: "Dá, e muita gente faz isso: um Bluetooth para a rua e um com fio barato para jogar ou usar no notebook. Alguns fones Bluetooth também aceitam cabo, mas confira na ficha antes de comprar."
+imagem:
+  arquivo: fone-bluetooth-ou-com-fio.jpg
+  credito: Lirazelf/Wikimedia Commons
+  licenca: CC BY-SA 3.0
+  fonte: https://commons.wikimedia.org/wiki/File:Headphones_on_desk.jpg
 ---
 **Fone Bluetooth ou com fio?** Para a maioria das pessoas, o Bluetooth vence pela praticidade: ônibus, academia, chamadas, dia a dia. O fio só ganha de verdade em três casos: jogo, edição de vídeo e quem quer o máximo de fidelidade sem pagar caro.
 
