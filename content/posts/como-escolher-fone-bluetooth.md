@@ -58,7 +58,7 @@ Dois detalhes que quase ninguém explica:
 - O número do fabricante é medido em volume moderado e **sem** cancelamento de ruído. Com volume alto ou ANC ligado, a duração cai.
 - A bateria perde capacidade com o tempo. Baterias de íon de lítio perdem capacidade a cada ciclo de carga, então um fone novo dura mais do que o mesmo fone depois de muito uso. Em dúvida entre sem fio e cabo? Veja [fone Bluetooth ou com fio](/posts/fone-bluetooth-ou-com-fio/).
 
-Como regra, escolha pela sua rotina: para um trajeto de ida e volta, 4 a 5 horas por carga bastam. Para jornada inteira de trabalho, procure modelos com mais autonomia por carga, e confira se há carga rápida (alguns minutos no estojo rendem horas de uso, segundo o fabricante). Se você fica longe da tomada, um [power bank](/posts/como-escolher-power-bank/) também recarrega o estojo do fone e o celular. Se quiser um exemplo compacto, veja a [review do Ugreen PB311](/posts/review-power-bank-ugreen-pb311-10000/).
+Como regra, escolha pela sua rotina: para um trajeto de ida e volta, 4 a 5 horas por carga bastam. Para jornada inteira de trabalho, procure modelos com mais autonomia por carga, e confira se há carga rápida (alguns minutos no estojo rendem horas de uso, segundo o fabricante). Se você fica longe da tomada, um [power bank](/posts/como-escolher-power-bank/) também recarrega o estojo do fone e o celular. Para ver opções prontas, compare os [fones Bluetooth baratos que valem a pena](/posts/fones-bluetooth-baratos-bons/). Se quiser um exemplo compacto de power bank, veja a [review do Ugreen PB311](/posts/review-power-bank-ugreen-pb311-10000/).
 
 ## Codec: quando importa e quando é marketing
 

@@ -69,7 +69,7 @@ O Bluetooth cobra outra rotina: carregar fone e estojo, e aceitar que a bateria 
 
 Um ponto de atenção do Bluetooth é a faixa de 2,4 GHz, que pode sofrer interferência e gerar pequenas falhas no áudio, de acordo com o Canaltech. Quem anda em local cheio de aparelhos sem fio já sentiu isso.
 
-Se você fica longe da tomada, vale ter um [power bank](/posts/como-escolher-power-bank/) na mochila, que recarrega celular e estojo.
+Se decidir pelo sem fio, veja a lista de [fone Bluetooth barato](/posts/fones-bluetooth-baratos-bons/). Se você fica longe da tomada, vale ter um [power bank](/posts/como-escolher-power-bank/) na mochila, que recarrega celular e estojo.
 
 ## Fone Bluetooth com microfone para chamadas
 
