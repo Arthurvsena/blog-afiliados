@@ -165,7 +165,7 @@ Para entender cada número, leia nosso guia [como escolher um power bank](/posts
 
 ## Vai para estrada ou lugar sem sinal?
 
-Power bank resolve a bateria, mas não o sinal. Para áreas sem cobertura, veja a [notícia sobre o Vivo Satélite com Starlink](/posts/vivo-satelite-starlink-celular-brasil/), que traz mensagens e WhatsApp fora da cobertura. Se você vai ficar dias longe de tomada, um de 20.000 mAh dá mais folga.
+Power bank resolve a bateria, mas não o sinal. Para áreas sem cobertura, veja a [notícia sobre o Vivo Satélite com Starlink](/posts/vivo-satelite-starlink-celular-brasil/), que traz mensagens e WhatsApp fora da cobertura. Se você vai ficar dias longe de tomada, um de 20.000 mAh dá mais folga. Veja a lista só com [power banks de 20000mAh](/posts/melhores-power-banks-20000mah/).
 
 ## Nossas escolhas: qual comprar, sem rodeio
 
