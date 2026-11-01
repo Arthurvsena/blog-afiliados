@@ -7,7 +7,8 @@
 <meta name="description" content="{% block descricao %}{{ site.descricao }}{% endblock %}">
 <link rel="canonical" href="{{ url }}">
 {% block robots %}{% endblock %}
-{% if site.google_verificacao %}<meta name="google-site-verification" content="{{ site.google_verificacao }}">{% endif %}
+{% set gv = site.google_verificacao %}{% if gv %}{% for v in ([gv] if gv is string else gv) %}<meta name="google-site-verification" content="{{ v }}">
+{% endfor %}{% endif %}
 {% if adsense %}<meta name="google-adsense-account" content="{{ adsense }}">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ adsense }}" crossorigin="anonymous"></script>{% endif %}
 <meta name="theme-color" content="#050507">
