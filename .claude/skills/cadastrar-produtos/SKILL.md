@@ -23,7 +23,10 @@ está logado no Mercado Livre e no programa de afiliados. Leia `CLAUDE.md`,
 
 ## 1. Decida o que cadastrar
 - Para cada subnicho do `config.yaml`, conte os produtos `ativo=sim`.
-- Prioridade: (a) subnichos com pautas `pendente` travadas por falta de
+- Prioridade zero: subnicho com menos de 3 produtos ativos recebe 3 antes
+  de qualquer outro (hoje: smartwatches, acessórios gamer e casa inteligente
+  estão vazios). Divida os 15 produtos entre os subnichos mais vazios.
+- Depois: (a) subnichos com pautas `pendente` travadas por falta de
   produtos (`produtos_necessarios` > produtos ativos); (b) produtos citados em
   `data/sugestoes_produtos.md` ainda não cadastrados; (c) subnichos com menos
   de 6 produtos ativos.

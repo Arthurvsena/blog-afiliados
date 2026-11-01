@@ -47,8 +47,8 @@ anuncios:
 # O que a rotina diária faz. Cada post consome parte do limite de uso
 # da sua assinatura do Claude, então comece devagar.
 rotina:
-  noticias_por_dia: 2          # notícias, tutoriais e análises das editorias
-  posts_novos_por_dia: 1       # guias de compra (listas, reviews, comparativos)
+  noticias_por_dia: 5          # notícias, tutoriais e análises das editorias
+  posts_novos_por_dia: 2       # guias de compra (listas, reviews, comparativos)
   atualizacoes_por_dia: 1
   palavras_minimas: 900        # para guias de compra e análises
   palavras_minimas_noticia: 400

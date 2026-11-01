@@ -35,13 +35,19 @@ sai na voz de Rafa Lins.
    - Notícias: as `rotina.noticias_por_dia` pautas `"prioridade": "hoje"`,
      variando editorias. Se faltar notícia forte, complete com um tutorial ou
      uma análise da fila.
+   - **Seções vazias primeiro**: conte os posts por editoria e por subnicho.
+     Todo dia, pelo menos 1 tutorial (`tutoriais`) e 1 análise (`analises`),
+     até cada editoria ter 10 posts. Editoria com menos de 3 posts tem
+     prioridade sobre as outras. No guia de compras, subnicho sem post ganha
+     primeiro um `guia` (não precisa de produto).
    - Guia de compras: `rotina.posts_novos_por_dia` pautas pendentes que já
      podem ser escritas (produtos `ativo=sim` suficientes no subnicho ou tipo
      `guia`), alternando subnichos. Pautas `"prioridade": "alta"` (da reunião)
      vêm primeiro.
 
 4. **Produtos.** Se 3 ou mais pautas de guia de compras estão travadas por
-   falta de produtos, chame o `curador`.
+   falta de produtos, ou se algum subnicho tem menos de 3 produtos `ativo=sim`,
+   chame o `curador` para sugerir produtos desses subnichos.
 
 5. **Escrita e revisão (uma pauta por vez, notícias primeiro).** Para cada
    pauta escolhida, nesta ordem:
