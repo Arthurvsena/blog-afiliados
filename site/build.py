@@ -331,6 +331,15 @@ def json_ld(post, cfg, url):
     return json.dumps(dados, ensure_ascii=False).replace("</", "<\\/")
 
 
+def simbolo(d, x0, y0, k):
+    """Símbolo da marca Nexus Tech: quadrado violeta com um N de pontos ligados."""
+    Q = lambda a, b: (x0 + a * k, y0 + b * k)
+    d.rounded_rectangle((*Q(4, 4), *Q(60, 60)), radius=int(14 * k), fill="#7C5CFF")
+    d.line([Q(20, 46), Q(20, 18), Q(44, 46), Q(44, 18)], fill="#FFFFFF", width=max(2, int(6 * k)), joint="curve")
+    for a, b, r, c in ((20, 18, 5, "#FFFFFF"), (44, 46, 5, "#FFFFFF"), (20, 46, 3.5, "#050507"), (44, 18, 3.5, "#050507")):
+        d.ellipse((*Q(a - r, b - r), *Q(a + r, b + r)), fill=c)
+
+
 def capa_png(post, cat, cfg, destino, arte=False):
     """Capa 1200x630 para WhatsApp, redes e Google (og:image). Opcional: precisa do Pillow.
     arte=True: só a arte da editoria, sem textos (usada nos cards do site, onde o título já aparece)."""
@@ -360,11 +369,7 @@ def capa_png(post, cat, cfg, destino, arte=False):
                 sombra.putpixel((0, yy), int(235 * max(0, (yy - H * 0.35) / (H * 0.65)) ** 1.4))
             img.paste(Image.new("RGB", (W, H), "#050507"), (0, 0), sombra.resize((W, H)))
             d = ImageDraw.Draw(img)
-            x0, y0, k = 56, 44, 0.95
-            P = lambda pts: [(x0 + a * k, y0 + b * k) for a, b in pts]
-            d.polygon(P([(20, 6), (58, 6), (60, 10), (60, 54), (58, 58), (20, 58), (4, 32)]), fill="#7C5CFF")
-            d.ellipse((x0 + 13 * k, y0 + 28 * k, x0 + 21 * k, y0 + 36 * k), fill="#050507")
-            d.polygon(P([(44, 12), (29, 35), (38.5, 35), (34.5, 52), (50, 28.5), (40.2, 28.5)]), fill="#FFFFFF")
+            simbolo(d, 56, 44, 0.95)
             f_cat = fonte("InterTight.ttf", 24, 600)
             d.rounded_rectangle((56, 400, 56 + 46 + d.textlength(cat.get("nome", ""), font=f_cat) + 20, 444), radius=22, fill=cor)
             d.text((80, 408), cat.get("nome", ""), font=f_cat, fill="#050507")
@@ -414,12 +419,9 @@ def capa_png(post, cat, cfg, destino, arte=False):
             img.convert("RGB").save(destino.with_suffix(".jpg"), quality=82, optimize=True)
             return True
         d.rectangle((0, H - 10, W, H), fill="#7C5CFF")
-        # símbolo da marca (etiqueta + raio)
+        # símbolo da marca (N de conexões)
         x0, y0, k = 72, 64, 1.1
-        P = lambda pts: [(x0 + a * k, y0 + b * k) for a, b in pts]
-        d.polygon(P([(20, 6), (58, 6), (60, 10), (60, 54), (58, 58), (20, 58), (4, 32)]), fill="#7C5CFF")
-        d.ellipse((x0 + 13 * k, y0 + 28 * k, x0 + 21 * k, y0 + 36 * k), fill="#050507")
-        d.polygon(P([(44, 12), (29, 35), (38.5, 35), (34.5, 52), (50, 28.5), (40.2, 28.5)]), fill="#FFFFFF")
+        simbolo(d, x0, y0, k)
         d.text((x0 + 84, y0 + 12), cfg["site"]["nome"], font=fonte("InterTight.ttf", 38, 700), fill="#FFFFFF")
         f_cat = fonte("InterTight.ttf", 26, 500)
         larg = d.textlength(cat.get("nome", ""), font=f_cat)

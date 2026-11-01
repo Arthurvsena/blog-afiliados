@@ -1,4 +1,4 @@
-# A voz do Tech Barato BR: Rafa Lins
+# A voz do Nexus Tech: Rafa Lins
 
 Todos os textos do blog são assinados por **Rafa Lins**, a voz editorial do
 site. É um pseudônimo: os textos são produzidos com apoio de IA, a partir de

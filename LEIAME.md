@@ -1,4 +1,4 @@
-# Tech Barato BR: portal de tecnologia automático
+# Nexus Tech: portal de tecnologia automático
 
 Blog de eletrônicos custo-benefício que se atualiza sozinho todo dia.
 Uma equipe de 9 agentes do Claude pesquisa, escolhe produtos, gera os links de
@@ -44,7 +44,7 @@ site (pseudônimo, explicado na página Sobre), seguindo `editorial/voz.md` e
 
 Veja a equipe trabalhando no **escritório**: um escritório em pixel art que
 mostra o que cada agente fez no dia (de noite eles dormem 😴). Ele é **privado**:
-fica em `https://arthurvsena.github.io/blog-afiliados/escritorio/`, sem link no
+fica em `https://nexustechai.com.br/escritorio/`, sem link no
 site, e abre só com a sua senha (secret `ESCRITORIO_SENHA`, passo 10). Salve o
 endereço nos favoritos.
 O guia da marca fica em **`SEU-SITE/marca/`**.
@@ -98,7 +98,7 @@ Se quiser cadastrar um produto na mão, acrescente uma linha em
 
 ### 6. Rode pela primeira vez
 **Actions → Rotina diária do blog → Run workflow.** Leva de 10 a 30 minutos.
-Quando terminar, o site estará em `https://arthurvsena.github.io/blog-afiliados/`.
+Quando terminar, o site estará em `https://nexustechai.com.br/`.
 A partir daí ele roda sozinho todo dia às 08:47.
 
 ### 7. Rode a estratégia de SEO
@@ -139,7 +139,7 @@ ele exige um domínio seu. Um `.com.br` custa cerca de R$ 40 por ano.
 2. No painel do domínio, crie os registros DNS do GitHub Pages: quatro
    registros `A` para `185.199.108.153`, `185.199.109.153`, `185.199.110.153`
    e `185.199.111.153`, e um `CNAME` de `www` para `arthurvsena.github.io`.
-3. Preencha `dominio` no `config.yaml` (ex.: `techbaratobr.com.br`).
+3. Preencha `dominio` no `config.yaml` (já preenchido: `nexustechai.com.br`).
 4. No GitHub: **Settings → Pages → Custom domain**, digite o domínio e marque
    **Enforce HTTPS** quando liberar.
 5. Adicione o domínio novo no Search Console e no Cloudflare Web Analytics.

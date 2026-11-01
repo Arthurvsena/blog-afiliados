@@ -1,5 +1,5 @@
 # ==========================================================
-#  IDENTIDADE VISUAL: Tech Barato BR
+#  IDENTIDADE VISUAL: Nexus Tech
 #  Arquivo do agente Designer. O site lê estes valores a cada
 #  publicação: mudar uma cor aqui muda o site inteiro.
 # ==========================================================
@@ -55,8 +55,8 @@ logo:
   horizontal: "site/static/marca/logo.svg"
   claro: "site/static/marca/logo-claro.svg"   # para fundos claros
   regras:
-    - "A etiqueta aponta para a esquerda, com o raio branco dentro. Não gire nem distorça."
-    - "O símbolo é uma etiqueta violeta com raio branco. Em fundo claro, use a versão positiva (texto escuro)."
+    - "O símbolo é um quadrado violeta com um N branco feito de pontos ligados (nexus = conexão). Não gire nem distorça."
+    - "Na palavra, \"Nexus\" vai em branco e \"Tech\" em violeta claro. Em fundo claro, use a versão positiva (texto escuro)."
     - "Área de respiro mínima: metade da altura do símbolo em volta do logo."
     - "Tamanho mínimo do símbolo: 20px. Abaixo disso, use só o símbolo, sem texto."
 

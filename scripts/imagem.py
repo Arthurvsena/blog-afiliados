@@ -33,7 +33,7 @@ from PIL import Image, ImageDraw, ImageFilter, ImageOps
 RAIZ = Path(__file__).resolve().parent.parent
 POSTS = RAIZ / "content" / "posts"
 PASTA = RAIZ / "content" / "imagens"
-UA = "TechBaratoBR/1.0 (https://github.com/Arthurvsena/blog-afiliados; portal de tecnologia)"
+UA = "NexusTech/1.0 (https://github.com/Arthurvsena/blog-afiliados; portal de tecnologia)"
 W, H = 1600, 840
 LIVRES = re.compile(r"^(cc0|cc[- ]?by(?:[- ]sa)?(?:[- ][\d.]+)?|public domain|pd|domínio público)", re.I)
 PROIBIDAS = re.compile(r"\b(nc|nd|non[- ]?commercial|no[- ]?deriv|fair use)\b", re.I)

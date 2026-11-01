@@ -1,4 +1,4 @@
-# Portal "Tech Barato BR": regras do projeto
+# Portal "Nexus Tech": regras do projeto
 
 Este repositório é um portal de tecnologia (notícias de celulares, games, IA e
 tecnologia, análises e tutoriais) com um **guia de compras** de eletrônicos

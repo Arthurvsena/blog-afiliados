@@ -1,4 +1,4 @@
-# Manual de redação do Tech Barato BR
+# Manual de redação do Nexus Tech
 
 Como trabalhamos os posts, a partir do estudo de grandes portais brasileiros
 de tecnologia (Canaltech como referência principal). Estudamos o **método**,

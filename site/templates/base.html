@@ -36,7 +36,7 @@
   </div>
   <div class="barra">
     <button class="menu-botao" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span><span></span></button>
-    <a class="marca" href="{{ b }}/"><img src="{{ b }}/static/marca/logo.svg" alt="{{ site.nome }}, página inicial" width="171" height="34"></a>
+    <a class="marca" href="{{ b }}/"><img src="{{ b }}/static/marca/logo.svg" alt="{{ site.nome }}, página inicial" width="127" height="34"></a>
     <nav class="editorias" id="menu" aria-label="Editorias">
       {% for slug, c in editorias.items() %}<a href="{{ c.url }}" style="--cat:{{ c.cor }}"{% if cat_atual == slug %} aria-current="page"{% endif %}>{{ c.curto }}</a>{% endfor %}
       <a href="{{ b }}/guia-de-compras/" class="nav-compras"{% if cat_atual == 'guia-de-compras' or cat_atual in compras %} aria-current="page"{% endif %}>Guia de compras</a>
@@ -58,7 +58,7 @@
 <footer class="rodape">
   <div class="rodape-grade">
     <div class="rodape-marca">
-      <a href="{{ b }}/"><img src="{{ b }}/static/marca/logo.svg" alt="{{ site.nome }}" width="171" height="34"></a>
+      <a href="{{ b }}/"><img src="{{ b }}/static/marca/logo.svg" alt="{{ site.nome }}" width="127" height="34"></a>
       <p>Notícias de tecnologia, celulares, games e IA, com análises e guias para comprar bem. Sem enrolação.</p>
     </div>
     <nav aria-label="Editorias no rodapé">
@@ -78,7 +78,7 @@
     </nav>
   </div>
   <div class="rodape-base">
-    <p>Alguns links são de afiliado do Mercado Livre e o site exibe anúncios. Isso ajuda a manter o Tech Barato BR e não muda nossas recomendações.</p>
+    <p>Alguns links são de afiliado do Mercado Livre e o site exibe anúncios. Isso ajuda a manter o Nexus Tech e não muda nossas recomendações.</p>
     <p>© {{ ano }} {{ site.nome }}</p>
   </div>
 </footer>
