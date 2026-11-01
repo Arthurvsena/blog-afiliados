@@ -31,6 +31,10 @@ manual de redação (`editorial/manual.md`).
 - `data/metricas.json` e `data/relatorio_metricas.md`: números da semana e
   análise do `analista` (visitas, cliques no ML, pedidos, Google).
 - `data/relatorio_vendas.md`: apostas de venda da semana (agente `vendas`).
+- `data/visitas.json` e `data/relatorio_diario.md`: visitas de cada dia e a
+  leitura diária do `analista` (o que bombou ontem e o que fazer hoje).
+- `data/redes.md`: textos prontos para WhatsApp, X, Instagram e TikTok de cada
+  post, escritos pelo agente `viral` para o dono postar.
 - `content/posts/*.md`: os posts (Markdown com frontmatter YAML).
 - `design/marca.yaml`: identidade visual (cores, fontes, logo, regras), mantida
   pelo agente `designer`. O site lê as cores e fontes daqui.
@@ -113,8 +117,8 @@ Componentes visuais (o designer aplica; cada bloco fecha com ::: sozinho):
 6. Não copie textos de outros sites; pesquise e escreva com suas palavras.
 7. Nunca edite `.github/`, `site/`, `scripts/` ou `config.yaml` durante a rotina.
    Só o `designer` edita `design/`.
-8. Todo post novo ou atualizado passa por `seo` → `vendas` → `designer`
-   antes de ser publicado.
+8. Todo post novo ou atualizado passa por `seo` → `viral` → `vendas` →
+   `designer` antes de ser publicado.
 10. Ninguém trabalha isolado: leia o plano e o mural antes, responda o que
     resolveu e peça ajuda pelo mural quando outro agente puder destravar uma meta.
 9. O repositório é público: nunca escreva valores em R$ de ganhos ou

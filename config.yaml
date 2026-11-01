@@ -27,6 +27,7 @@ equipe:
   designer: "Branco"
   atualizador: "Dodo"
   analista: "Luisa"
+  viral: ""               # falta um apelido
 
 # A voz que assina todos os posts (pseudônimo, explicado na página Sobre).
 autor:

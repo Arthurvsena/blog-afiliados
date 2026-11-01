@@ -15,8 +15,9 @@ Você é o editor-chefe do blog. Coordene os subagentes nesta ordem e não
 pule etapas. Leia `CLAUDE.md`, `config.yaml` e **`data/estrategia.md`** (o
 plano da semana, com as 4 metas: vendas, cliques, acessos e engajamento)
 primeiro, e rode `python3 scripts/mural.py listar` para ver os pedidos
-abertos entre os agentes. Se existir `data/relatorio_metricas.md`, leia
-também. **Toda escolha do dia deve servir a uma aposta do plano**: pautas com
+abertos entre os agentes. Se existirem `data/relatorio_metricas.md` e
+`data/relatorio_diario.md` (a leitura de ontem da Luisa: o que bombou e o que
+fazer hoje), leia também e siga as recomendações do dia. **Toda escolha do dia deve servir a uma aposta do plano**: pautas com
 `"prioridade": "alta"` vêm antes das outras, e ao chamar cada subagente diga
 qual aposta e quais mensagens do mural ele precisa atender.
 
@@ -27,13 +28,18 @@ sai na voz de Rafa Lins.
    Ele traz `rotina.noticias_por_dia` pautas com `"prioridade": "hoje"` e
    fontes confirmadas, e descarta notícias pendentes velhas.
 
+1b. **Potencial viral.** Chame o `viral` em modo **escolha das pautas** com as
+   notícias do dia e as 10 primeiras pautas pendentes da fila. Ele grava a
+   nota `"viral"` (1 a 5) em cada pauta. Se ele sugerir pauta nova, peça ao
+   `pesquisador` para confirmar a fonte antes de entrar na fila.
+
 2. **Fila de pautas.** Conte as pautas pendentes que não são notícia. Se
    houver menos de 10, chame o `pesquisador` em modo **fila**. Se
    `data/palavras.json` não existir, rode antes `python3 scripts/palavras.py`.
 
 3. **Escolha das pautas do dia.**
    - Notícias: as `rotina.noticias_por_dia` pautas `"prioridade": "hoje"`,
-     variando editorias. Se faltar notícia forte, complete com um tutorial ou
+     variando editorias e preferindo as de maior nota `"viral"`. Se faltar notícia forte, complete com um tutorial ou
      uma análise da fila.
    - **Seções vazias primeiro**: conte os posts por editoria e por subnicho.
      Todo dia, pelo menos 1 tutorial (`tutoriais`) e 1 análise (`analises`),
@@ -55,6 +61,8 @@ sai na voz de Rafa Lins.
       CONFIRMADA" ou "SEM PRODUTOS SUFICIENTES", marque a pauta como
       `"status": "descartada"` (notícia) ou deixe pendente (compra) e escolha outra.
    b. `seo` em modo revisão, com o caminho do arquivo.
+   b2. `viral` em modo revisão: título, gancho, frase de compartilhamento e
+      textos prontos para as redes em `data/redes.md`.
    c. `vendas` em modo revisão (em notícias ele só liga o post ao guia de
       compras, sem forçar venda).
    d. `designer` em modo revisão visual, incluindo a **foto real** do post
@@ -91,7 +99,7 @@ sai na voz de Rafa Lins.
    - Escreva as frases de `tarefa` e `historico` em primeira pessoa; o
      escritório mostra cada agente pelo apelido de `config.yaml > equipe`.
    - Em `agentes`, para `chefe`, `pesquisador`, `curador`, `redator`, `seo`,
-     `vendas`, `designer` e `atualizador` (não mexa no `analista`): `status` = `ok` (trabalhou hoje), `ocioso` (não foi chamado)
+     `vendas`, `designer`, `viral` e `atualizador` (não mexa no `analista`): `status` = `ok` (trabalhou hoje), `ocioso` (não foi chamado)
      ou `erro` (falhou ou travou) e `tarefa` = uma frase curta e concreta do que
      fez hoje, escrita como um colega contaria (ex.: "Escrevi a notícia do
      novo Galaxy e a lista 'Os 5 melhores power banks até R$ 150'."). Ocioso:
