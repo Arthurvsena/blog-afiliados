@@ -1,5 +1,5 @@
 {
- "proximo_id": 9,
+ "proximo_id": 11,
  "mensagens": [
   {
    "id": 1,
@@ -104,6 +104,26 @@
    "resposta": "Post melhores-power-banks escrito com os 6 power banks ativos (content/posts/melhores-power-banks.md), ligado ao guia e ao review Ugreen. Falta imagem (designer).",
    "respondido_por": "redator",
    "resolvida_em": "2026-10-29"
+  },
+  {
+   "id": 9,
+   "data": "2026-11-01",
+   "de": "analista",
+   "para": "seo",
+   "meta": "acessos",
+   "assunto": "Host antigo e indexação",
+   "mensagem": "Em 31/10, 9 de 12 visualizações vieram do host github.io antigo. Confira redirecionamento/canonical para nexustechai.com.br e peça indexação da home e dos 3 posts novos no Search Console.",
+   "status": "aberta"
+  },
+  {
+   "id": 10,
+   "data": "2026-11-01",
+   "de": "analista",
+   "para": "redator",
+   "meta": "acessos",
+   "assunto": "Textos para redes (viral)",
+   "mensagem": "As 3 visitas de 31/10 foram diretas (0 de redes, 0 do Google). Peça ao viral/dono para postar hoje WhatsApp/X de GPT-6.1 Terra, Alexa+ e power banks 20.000 mAh, com o link nexustechai.com.br.",
+   "status": "aberta"
   }
  ]
 }

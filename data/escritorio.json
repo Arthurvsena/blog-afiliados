@@ -34,8 +34,8 @@
       "tarefa": "Pus chamadas de compra na lista de 20.000 mAh; nas notícias não havia produto honesto para ligar."
     },
     "analista": {
-      "status": "ocioso",
-      "tarefa": "Aguardando a primeira coleta de métricas (segunda-feira, 09:13)."
+      "status": "ok",
+      "tarefa": "Ontem foram 3 visitas, todas diretas (0 do Google, dado ainda em processamento); 9 de 12 visualizações eram do host antigo."
     }
   },
   "historico": [
@@ -134,20 +134,85 @@
       "agente": "curador",
       "texto": "Cadastrei 11 produtos com link: 4 fones TWS, 5 power banks e 2 carregadores turbo."
     },
-    {"data": "2026-10-29", "agente": "pesquisador", "texto": "Trouxe as notícias do Vivo Satélite e do PS Plus e uma pauta de IA sobre o Gemini 4 Argon."},
-    {"data": "2026-10-29", "agente": "redator", "texto": "Escrevi as notícias do Vivo Satélite e do PS Plus e a lista dos melhores power banks."},
-    {"data": "2026-10-29", "agente": "seo", "texto": "Revisei os três posts e liguei a lista de power banks às notícias e aos guias."},
-    {"data": "2026-10-29", "agente": "vendas", "texto": "Coloquei chamadas de compra na lista de power banks e nos guias de fones."},
-    {"data": "2026-10-29", "agente": "designer", "texto": "Peguei fotos, criei capas e diagramei os posts novos e o guia de fones."},
-    {"data": "2026-10-30", "agente": "pesquisador", "texto": "Trouxe as notícias do iPhone Duo e do Switch 2 Zelda."},
-    {"data": "2026-10-30", "agente": "redator", "texto": "Escrevi duas notícias e a lista de fones Bluetooth baratos."},
-    {"data": "2026-10-30", "agente": "seo", "texto": "Revisei os três posts e liguei a lista de fones aos guias."},
-    {"data": "2026-10-30", "agente": "vendas", "texto": "Pus chamadas de compra na lista de fones."},
-    {"data": "2026-10-30", "agente": "designer", "texto": "Peguei fotos e diagramei os três posts."},
-    {"data": "2026-10-31", "agente": "pesquisador", "texto": "Trouxe as notícias do GPT-6.1 Terra e da Alexa+ grátis até fevereiro."},
-    {"data": "2026-10-31", "agente": "redator", "texto": "Escrevi duas notícias e a lista de power banks de 20.000 mAh."},
-    {"data": "2026-10-31", "agente": "seo", "texto": "Revisei os três posts e liguei a nova lista aos guias de power bank."},
-    {"data": "2026-10-31", "agente": "vendas", "texto": "Pus 22 chamadas de compra na lista de 20.000 mAh."},
-    {"data": "2026-10-31", "agente": "designer", "texto": "Peguei fotos e diagramei os três posts."}
+    {
+      "data": "2026-10-29",
+      "agente": "pesquisador",
+      "texto": "Trouxe as notícias do Vivo Satélite e do PS Plus e uma pauta de IA sobre o Gemini 4 Argon."
+    },
+    {
+      "data": "2026-10-29",
+      "agente": "redator",
+      "texto": "Escrevi as notícias do Vivo Satélite e do PS Plus e a lista dos melhores power banks."
+    },
+    {
+      "data": "2026-10-29",
+      "agente": "seo",
+      "texto": "Revisei os três posts e liguei a lista de power banks às notícias e aos guias."
+    },
+    {
+      "data": "2026-10-29",
+      "agente": "vendas",
+      "texto": "Coloquei chamadas de compra na lista de power banks e nos guias de fones."
+    },
+    {
+      "data": "2026-10-29",
+      "agente": "designer",
+      "texto": "Peguei fotos, criei capas e diagramei os posts novos e o guia de fones."
+    },
+    {
+      "data": "2026-10-30",
+      "agente": "pesquisador",
+      "texto": "Trouxe as notícias do iPhone Duo e do Switch 2 Zelda."
+    },
+    {
+      "data": "2026-10-30",
+      "agente": "redator",
+      "texto": "Escrevi duas notícias e a lista de fones Bluetooth baratos."
+    },
+    {
+      "data": "2026-10-30",
+      "agente": "seo",
+      "texto": "Revisei os três posts e liguei a lista de fones aos guias."
+    },
+    {
+      "data": "2026-10-30",
+      "agente": "vendas",
+      "texto": "Pus chamadas de compra na lista de fones."
+    },
+    {
+      "data": "2026-10-30",
+      "agente": "designer",
+      "texto": "Peguei fotos e diagramei os três posts."
+    },
+    {
+      "data": "2026-10-31",
+      "agente": "pesquisador",
+      "texto": "Trouxe as notícias do GPT-6.1 Terra e da Alexa+ grátis até fevereiro."
+    },
+    {
+      "data": "2026-10-31",
+      "agente": "redator",
+      "texto": "Escrevi duas notícias e a lista de power banks de 20.000 mAh."
+    },
+    {
+      "data": "2026-10-31",
+      "agente": "seo",
+      "texto": "Revisei os três posts e liguei a nova lista aos guias de power bank."
+    },
+    {
+      "data": "2026-10-31",
+      "agente": "vendas",
+      "texto": "Pus 22 chamadas de compra na lista de 20.000 mAh."
+    },
+    {
+      "data": "2026-10-31",
+      "agente": "designer",
+      "texto": "Peguei fotos e diagramei os três posts."
+    },
+    {
+      "data": "2026-11-01",
+      "agente": "analista",
+      "texto": "Ontem foram 3 visitas, todas diretas (0 do Google, dado ainda em processamento); 9 de 12 visualizações eram do host antigo."
+    }
   ]
 }
