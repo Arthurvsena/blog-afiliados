@@ -77,6 +77,8 @@ Na minha leitura, não vale pagar ágio de revendedor por um console que tem o m
 
 Se a espera for longa e você quer ir montando o setup, nosso guia de [acessórios gamer](/categoria/acessorios-gamer/) reúne opções custo-benefício.
 
+Antes de decidir, veja a [análise da ficha técnica: Nintendo Switch 2 vale a pena?](/posts/analise-nintendo-switch-2-vale-a-pena-especificacoes/)
+
 Enquanto isso, para quem joga no PlayStation, veja os [jogos do PS Plus de novembro](/posts/ps-plus-novembro-2026-dead-island-2-tomb-raider/).
 
 :::veredito

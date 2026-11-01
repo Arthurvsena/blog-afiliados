@@ -2,6 +2,84 @@
 
 O curador escreve aqui os produtos que vale cadastrar em data/produtos.csv.
 
+## Sugestões de 2026-11-01
+
+**Aviso para o cadastrador:** o Mercado Livre segue bloqueando a leitura (HTTP 403) e a busca não devolve anúncios do ML Brasil. Preço, nota e avaliações ficam como `PRECO`, `NOTA` e `AVAL`: preencha com o anúncio aberto no Chrome e **descarte** se a nota for menor que 4,5, se houver poucas avaliações, reclamações recorrentes (falsificação, bateria estufando), ausência de Anatel ou vendedor sem reputação (prefira loja oficial ou MercadoLíder). Só registrei destaques confirmados em fonte citada. Preços citados são indicativos de outras lojas.
+
+**Situação hoje (catálogo tem só power banks e fones ativos):**
+| Subnicho | Pauta pendente | Precisa | Ativos | Sugestões prontas |
+|---|---|---|---|---|
+| acessorios-gamer | teclados até R$ 200 (4), mouses gamer baratos (4), switch blue/red (2) | 8 | 0 | 4 teclados + 4 mouses |
+| smartwatches-smartbands | smartwatch barato (4), smartbands (4) | 8 | 0 | 4 smartbands (seção de 10-28) + 3 smartwatches |
+| casa-inteligente | lâmpadas Alexa (3) | 3 | 0 | 4 lâmpadas |
+| power-banks-carregadores | carregadores turbo (4) | 4 | 2 (Baseus GaN5 30 W, Ugreen Nexode 45 W) | 2 necessários + 2 reservas |
+
+**Ordem de cadastro sugerida:** (1) 2 carregadores abaixo, destrava `melhores-carregadores-turbo`; (2) lâmpadas, destrava `melhores-lampadas-inteligentes-alexa`; (3) teclados e mouses; (4) smartbands de 10-28 e smartwatches de hoje.
+
+### power-banks-carregadores (precisa de mais 2 carregadores turbo; 2 principais + 2 reservas)
+Já ativos no CSV: Baseus GaN5 30 W e Ugreen Nexode 45 W. Não repeti marca/potência dessas linhas.
+- **Carregador de Parede Motorola TurboPower Duo 50 W (USB-C + USB-A)** (Motorola), R$ 229,99 à vista na Pichau (listagem lida hoje, não é ML; outra comparadora mostra R$ 259, indicativo). Por que: marca de celular conhecida, atende "carregador turbo" para Motorola e dá duas portas; diferencia a lista (as outras são Baseus/Ugreen). Confirmado na Pichau: até 50 W combinando saída USB-C com PD e USB-A. A ficha lida não informa se vem com cabo (a variante "Duo sem cabo" também existe); leia no anúncio. Prefira loja oficial Motorola e confira o selo Anatel (carregador falsificado é comum nessa marca).
+  Busca no ML: `Carregador Motorola TurboPower Duo 50W USB-C`
+  Linha pronta para o CSV (só falta o link):
+  `motorola-turbopower-duo-50w,power-banks-carregadores,Carregador de Parede Motorola TurboPower Duo 50 W USB-C e USB-A,Motorola,PRECO,NOTA,AVAL,COLE_O_LINK,,Até 50 W somando as duas portas;Saída USB-C com Power Delivery;Porta USB-A extra,sim`
+- **Carregador Samsung 25 W USB-C (EP-TA800)** (Samsung), detalhes e linha do CSV na seção de 10-29 (abaixo, ainda não cadastrada). Reaproveite aquela linha; compre só de loja oficial Samsung ou MercadoLíder por causa de falsificação.
+- Reservas (também na seção de 10-29): **Ugreen Nexode 35 W GaN** e **Baseus Compact Turbo 30 W**. Só entram se um dos dois principais for descartado; o Baseus 30 W repete a potência do GaN5 já ativo.
+
+### acessorios-gamer (teclados: 4; mouses: 4)
+#### Teclados mecânicos até R$ 200
+Os 3 de 10-28 continuam válidos (seção de 10-28, abaixo): Redragon Kumara K552 (Brown), Redragon Fizz K617 (60%, Red) e Redragon Kumara Pro (sem fio; pode passar de R$ 200, serve ao comparativo de switches). Faltava o 4º:
+- **Teclado Mecânico Gamer Redragon Dark Avenger K568 (TKL, ABNT2)** (Redragon), faixa de R$ 150 a R$ 300 conforme versão e cor (Tecnoblog registrou R$ 148,83 numa oferta pontual na Amazon; Pichau lista a versão Rainbow/Blue a R$ 169,99 no Pix; Zoom a K568RGB-2 Blue a R$ 179). Por que: aparece em guias de "até R$ 200" (Guia dos Periféricos, Promobit) e existe em Blue, Brown e Red, o que cobre o post de switch blue ou red. Confirmado em lojas (Pichau, Terabyte): formato TKL, ABNT2, teclas double shot, RGB com 19 modos e personalização por tecla, anti-ghosting em todas as teclas, garantia de 12 meses (Pichau). Cabo USB fixo (Tecnoblog). Hot-swap NÃO confirmado: não registre. Atenção: há muitas versões (K568R, K568RGB-2, Lunar branco); escolha uma com a faixa de preço abaixo de R$ 200 e anote o switch do anúncio.
+  Busca no ML: `Teclado Mecânico Redragon Dark Avenger K568 ABNT2`
+  Linha pronta para o CSV (só falta o link):
+  `redragon-dark-avenger-k568,acessorios-gamer,Teclado Mecânico Gamer Redragon Dark Avenger K568 TKL ABNT2,Redragon,PRECO,NOTA,AVAL,COLE_O_LINK,,Formato TKL com ABNT2;RGB com 19 modos;Anti-ghosting em todas as teclas;Garantia de 12 meses,sim`
+- Alternativa se o ML não tiver estoque: Mancer Black Ghost V2 (68%, hot-swap e RGB, citado pelo Promotop; sem specs confirmadas por mim) e Redragon Fizz Pro Wireless (60%, 2.4G e Bluetooth, acima da faixa provavelmente).
+
+#### Mouses gamer baratos (pauta `melhores-mouses-gamer-baratos`)
+- **Mouse Gamer Logitech G203 Lightsync RGB** (Logitech), referência de R$ 95 a R$ 150 em guias (Hardware.com.br e outros, indicativo). Por que: aparece em quase todas as listas de mouse barato; marca conhecida com garantia no Brasil. Confirmado na página da Logitech G: com fio, 6 botões, DPI ajustável de 200 a 8.000, RGB Lightsync (16,8 milhões de cores), software G HUB com até 5 predefinições. Peso e modelo do sensor não informados: não registrar. Prefira a loja oficial Logitech.
+  Busca no ML: `Mouse Gamer Logitech G203 Lightsync RGB`
+  Linha pronta para o CSV (só falta o link):
+  `logitech-g203-lightsync,acessorios-gamer,Mouse Gamer Logitech G203 Lightsync RGB,Logitech,PRECO,NOTA,AVAL,COLE_O_LINK,,DPI ajustável de 200 a 8.000;6 botões;Iluminação RGB Lightsync;Com fio,sim`
+- **Mouse Gamer Redragon Cobra M711 RGB (10.000 DPI, 7 botões)** (Redragon), R$ 89 a R$ 130 em listas (indicativo; comentários antigos citam R$ 146 no ML em 2020, ignore). Por que: o mais citado entre os mouses baratos da Redragon. Confirmado no título dos anúncios de Pelando/Terabyte: 10.000 DPI e 7 botões programáveis, RGB. As fontes divergem no sensor (PMW3325 num lugar, PMW3360 em review), então **não registre o sensor**. Contra segundo o review: cabo trançado rígido que pode enroscar e sem memória interna para perfis. Confira se o anúncio é o M711 (existe M711W branco e V2).
+  Busca no ML: `Mouse Gamer Redragon Cobra M711 RGB`
+  Linha pronta para o CSV (só falta o link):
+  `redragon-cobra-m711,acessorios-gamer,Mouse Gamer Redragon Cobra M711 RGB 10000 DPI,Redragon,PRECO,NOTA,AVAL,COLE_O_LINK,,Até 10.000 DPI;7 botões programáveis;Iluminação RGB;Com fio,sim`
+- **Mouse Gamer Redragon Griffin M607** (Redragon), preço não confirmado. Por que: citado entre as opções baratas do Hardware.com.br, que menciona botões programáveis e sensor de alta performance (sem números). Só isso foi confirmado: complete DPI, peso e botões pela ficha do anúncio.
+  Busca no ML: `Mouse Gamer Redragon Griffin M607`
+  Linha pronta para o CSV (só falta o link):
+  `redragon-griffin-m607,acessorios-gamer,Mouse Gamer Redragon Griffin M607,Redragon,PRECO,NOTA,AVAL,COLE_O_LINK,,Botões programáveis;Sensor de alta performance;Marca com assistência no Brasil,sim`
+- **Mouse Gamer Fortrek Crusader 12800 DPI** (Fortrek), preço não confirmado. Por que: marca nacional comum no varejo, listada pelo Hardware.com.br. Confirmado só: 12.800 DPI (no nome) e sensor de alta resolução; botões de comando e scroll. Complete pela ficha do anúncio. Descarte se a nota ou o volume de avaliações ficar abaixo do critério; se sobrar dúvida, troque pelo Redragon Invader M719 RGB (botões laterais extras, mesma fonte).
+  Busca no ML: `Mouse Gamer Fortrek Crusader 12800 DPI`
+  Linha pronta para o CSV (só falta o link):
+  `fortrek-crusader-12800,acessorios-gamer,Mouse Gamer Fortrek Crusader 12800 DPI,Fortrek,PRECO,NOTA,AVAL,COLE_O_LINK,,Até 12.800 DPI;Sensor de alta resolução;Marca nacional,sim`
+
+### smartwatches-smartbands (smartbands: 4 de 10-28; smartwatches: 3 novos)
+**Smartbands (`melhores-smartbands-custo-beneficio`, 4 produtos):** os 4 de 10-28 continuam válidos e são prioridade (seção de 10-28, abaixo): Xiaomi Smart Band 10, Huawei Band 11, Samsung Galaxy Fit3 e Xiaomi Smart Band 9 Active. Não repeti.
+
+**Smartwatches (`melhores-smartwatches-baratos`, 4 produtos).** Para fechar a lista com 4, o dono pode usar os 3 abaixo mais o Huawei Band 11 ou o Galaxy Fit3 (já sugeridos) como degrau de entrada, ou aceitar uma lista de 3 e atualizar depois.
+- **Xiaomi Redmi Watch 5 Active** (Xiaomi), cerca de R$ 236 no ML segundo a Oficina da Net e R$ 249,30 menor preço no Buscapé (indicativo; lançou por R$ 599 em 18/11/2024, Tecnoblog). Por que: smartwatch de verdade (chamadas pelo pulso) com preço de smartband e marca conhecida. Confirmado em Tecnoblog/Oficina da Net/Canaltech: tela LCD IPS de 2", Bluetooth 5.3, microfone e alto-falante para atender ligações, até 18 dias de bateria segundo a Xiaomi, 5 ATM, sem GPS próprio. O Canaltech achou o preço oficial caro à época, mas o preço atual é outro. Prefira a loja oficial Xiaomi.
+  Busca no ML: `Xiaomi Redmi Watch 5 Active`
+  Linha pronta para o CSV (só falta o link):
+  `redmi-watch-5-active,smartwatches-smartbands,Xiaomi Redmi Watch 5 Active,Xiaomi,PRECO,NOTA,AVAL,COLE_O_LINK,,Tela de 2 polegadas;Atende chamadas pelo pulso via Bluetooth 5.3;Até 18 dias de bateria (segundo a Xiaomi);Resistência à água 5 ATM;Sem GPS próprio,sim`
+- **Amazfit Bip 6** (Amazfit/Zepp), R$ 579 no site da Amazfit Brasil (página do fabricante lida hoje; no ML pode estar mais barato). Por que: é o degrau "mais completo" da lista, com GPS próprio, que quase nenhum smartwatch de R$ 250 tem; bom para quem corre. Confirmado na página oficial: AMOLED de 1,97" (390 x 450), cerca de 14 dias de bateria em uso típico (até 6 dias em uso intenso e 26 no modo economia), GPS integrado com cinco sistemas de satélite, 5 ATM. Se o ML mostrar valor acima de R$ 600, deixe para o post de "smartwatch com GPS".
+  Busca no ML: `Amazfit Bip 6`
+  Linha pronta para o CSV (só falta o link):
+  `amazfit-bip-6,smartwatches-smartbands,Amazfit Bip 6,Amazfit,PRECO,NOTA,AVAL,COLE_O_LINK,,Tela AMOLED de 1,97 polegadas;GPS integrado;Cerca de 14 dias de bateria em uso típico;Resistência à água 5 ATM,sim`
+- **Motorola Moto Watch 70** (Motorola), R$ 488,90 menor preço no Zoom (indicativo; lançou por R$ 599 em 2023). Por que: marca conhecida com loja oficial; é a única opção de Android "puro" com Google Fit na lista. Produto de 2023, então só cadastre se o ML ainda tiver estoque de loja oficial e nota alta. Confirmado (TecMundo/Olhar Digital/Oficina da Net): tela de 1,69", até 10 dias segundo a Motorola, bateria de 250 mAh, IP67, sono e frequência cardíaca, Google Fit. GPS NÃO confirmado: não registrar.
+  Busca no ML: `Motorola Moto Watch 70`
+  Linha pronta para o CSV (só falta o link):
+  `moto-watch-70,smartwatches-smartbands,Smartwatch Motorola Moto Watch 70,Motorola,PRECO,NOTA,AVAL,COLE_O_LINK,,Tela de 1,69 polegadas;Até 10 dias de bateria (segundo a Motorola);Resistência IP67;Monitor de sono e frequência cardíaca,sim`
+
+### casa-inteligente (precisa de 3; 4 sugeridos)
+Os 3 de 10-28 continuam válidos (seção de 10-28, abaixo): Intelbras Mibo MLS4100, Positivo Smart Lâmpada Wi-Fi e Kit 2 Lâmpadas Positivo RGB. Adição de hoje, com ficha confirmada no fabricante:
+- **Lâmpada Inteligente TP-Link Tapo L530E (Wi-Fi, colorida)** (TP-Link), preço não confirmado. Por que: apontada como melhor app nos guias e com nota 4,7 na Amazon Brasil segundo um guia (cheque nota e volume no ML). Confirmado na página da TP-Link Brasil: 806 lúmens, Wi-Fi 2,4 GHz apenas, funciona com Alexa e Google Assistente, luz multicolor (cerca de 16 milhões de cores) e branco de 2.500 K a 6.500 K. Base: E27 na versão europeia e E26 na americana, e a página não diz qual é a do Brasil: **confira E27 no anúncio** antes de cadastrar. Garantia não informada na página.
+  Busca no ML: `Lâmpada Inteligente TP-Link Tapo L530E`
+  Linha pronta para o CSV (só falta o link):
+  `tapo-l530e,casa-inteligente,Lâmpada Inteligente TP-Link Tapo L530E Wi-Fi Colorida,TP-Link,PRECO,NOTA,AVAL,COLE_O_LINK,,806 lúmens;Wi-Fi 2,4 GHz;Compatível com Alexa e Google Assistente;Luz colorida e branco de 2.500 K a 6.500 K,sim`
+- Fica de fora por falta de dados: Philips Hue (exige hub, premium), Elgin Smart Color e Philips WiZ (sem disponibilidade ou ficha confirmada).
+
+### Resumo de 11-01
+Sugestões novas: acessorios-gamer 5 (1 teclado + 4 mouses; 3 teclados de 10-28 seguem válidos), smartwatches-smartbands 3 (smartbands: 4 de 10-28 seguem válidas), casa-inteligente 1 (3 de 10-28 seguem válidas), power-banks-carregadores 1 nova (Motorola 50 W) + Samsung 25 W de 10-29. Total pronto para cadastrar por subnicho, somando as pendentes: gamer 9, smartwatches/smartbands 7, casa inteligente 4, carregadores 2 principais + 2 reservas.
+
 ## Sugestões de 2026-10-29
 
 **Aviso para o cadastrador:** o Mercado Livre continuou bloqueando a leitura (HTTP 403) e a busca não devolveu anúncios do ML Brasil. Preço, nota e avaliações seguem como `PRECO`, `NOTA` e `AVAL`: preencha com o que o anúncio mostrar e **descarte** se a nota for menor que 4,5, se houver poucas avaliações, reclamações recorrentes (bateria estufando, falsificação) ou ausência do selo Anatel, ou se o vendedor não for a loja oficial/MercadoLíder. Só registrei destaques confirmados em fonte citada.

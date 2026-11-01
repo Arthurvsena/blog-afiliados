@@ -65,6 +65,8 @@ As fontes citam R$ 99 e R$ 99,90 por mês. Confira o preço no site da Amazon an
 
 ## Leia também
 
+- [Novo Echo Dot e Echo Time no Brasil: pré-venda e preço](/posts/echo-dot-echo-time-brasil-pre-venda-11-novembro/), os aparelhos novos preparados para a Alexa+.
+- [Lâmpada inteligente vale a pena?](/posts/lampada-inteligente-vale-a-pena/), o que dá para comandar por voz em casa.
 - [GPT-6.1 Terra: OpenAI lança IA que usa o PC e custa metade](/posts/openai-gpt-6-1-terra-preco-recursos/), outra novidade em assistentes com IA.
 - [Gemini 4 Carbon: Google libera só para defesa cibernética](/posts/google-gemini-4-carbon-acesso-restrito/), sobre acesso restrito a uma IA nova.
 
