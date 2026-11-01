@@ -16,7 +16,7 @@ Dia medido: **ontem** (horário de Brasília).
 
 ## 1. Cloudflare Web Analytics
 Abra `https://dash.cloudflare.com/` > **Analytics & Logs** > **Web Analytics**,
-escolha o site do blog (domínio de `config.yaml` > `site.dominio`) e o período
+escolha o site do blog (no Cloudflare ele aparece como `arthurvsena.github.io`, o nome antigo, mas conta as visitas de nexustechai.com.br) e o período
 "últimas 24 horas" ou o dia de ontem. Anote: **visitas**, **visualizações de
 página**, as 10 páginas mais vistas (caminho e visitas), as origens
 (referrers) e a divisão celular/computador.

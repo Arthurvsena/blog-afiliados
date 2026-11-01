@@ -29,7 +29,7 @@ Se a propriedade não existir ainda, registre "sem dado (Search Console não con
 
 ## 3. Cloudflare Web Analytics
 Abra `https://dash.cloudflare.com/` > **Analytics & Logs** > **Web Analytics** e
-escolha o site do blog. Período: 7 dias. Anote: **visitas**, **visualizações de
+escolha o site do blog (aparece como `arthurvsena.github.io`, o nome antigo, mas conta as visitas de nexustechai.com.br). Período: 7 dias. Anote: **visitas**, **visualizações de
 página**, as 10 páginas mais vistas, as principais origens (referrers) e a
 divisão celular/computador.
 Se não estiver configurado, registre "sem dado (Cloudflare não configurado)".
