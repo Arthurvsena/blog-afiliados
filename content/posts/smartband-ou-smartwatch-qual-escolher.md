@@ -141,11 +141,24 @@ Relógios e pulseiras dão uma estimativa de frequência cardíaca, oxigenação
 
 ## Qual comprar?
 
-Ainda estamos montando o catálogo de smartwatches e smartbands, então não há recomendações de produto aqui. Quando houver, as listas vão aparecer na [seção de smartwatches e smartbands](/categoria/smartwatches-smartbands/).
+Alguns exemplos do nosso catálogo, pelas fichas dos anúncios:
 
-<!-- NOTA VENDAS (2026-11-01): sem produtos ativos em smartwatches-smartbands. Quando houver, citar com link:ID em "para quem e" e criar "Qual comprar?". -->
+- Se você quer bateria longa e o básico, vá de {{link:samsung-galaxy-fit3|Samsung Galaxy Fit3}} (bateria de até 13 dias) ou {{link:xiaomi-smart-band-10|Xiaomi Smart Band 10}} (tela AMOLED, bateria de até 3 semanas segundo o anúncio).
+- Se você quer uma smartband de entrada, vá de {{link:xiaomi-smart-band-9-active|Xiaomi Smart Band 9 Active}}.
+- Se você quer atender chamadas pelo relógio, vá de {{link:xiaomi-redmi-watch-5-active|Xiaomi Redmi Watch 5 Active}}, que tem chamadas por Bluetooth.
+- Se você quer GPS integrado no pulso, vá de {{link:amazfit-bip-6|Amazfit Bip 6}}.
 
-Enquanto isso, quem anda muito com o celular pode conferir como manter a bateria em dia no [guia de como escolher power bank](/posts/como-escolher-power-bank/). E se o plano inclui treino com música, vale ver o [guia de como escolher fone Bluetooth](/posts/como-escolher-fone-bluetooth/).
+| Modelo | Tipo de uso | Oferta |
+|---|---|---|
+| Samsung Galaxy Fit3 | Bateria longa, tela AMOLED | {{botao:samsung-galaxy-fit3}} |
+| Xiaomi Smart Band 10 | Smartband com tela AMOLED | {{botao:xiaomi-smart-band-10}} |
+| Xiaomi Smart Band 9 Active | Entrada | {{botao:xiaomi-smart-band-9-active}} |
+| Xiaomi Redmi Watch 5 Active | Chamadas Bluetooth | {{botao:xiaomi-redmi-watch-5-active}} |
+| Amazfit Bip 6 | GPS integrado | {{botao:amazfit-bip-6}} |
+
+Veja o preço atual em cada botão. Mais opções na [seção de smartwatches e smartbands](/categoria/smartwatches-smartbands/).
+
+Quem anda muito com o celular pode conferir como manter a bateria em dia no [guia de como escolher power bank](/posts/como-escolher-power-bank/). E se o plano inclui treino com música, vale ver o [guia de como escolher fone Bluetooth](/posts/como-escolher-fone-bluetooth/).
 
 :::veredito
 Smartband para passos, sono e bateria de sobra. Smartwatch se você realmente vai usar GPS, NFC ou chamadas no pulso.

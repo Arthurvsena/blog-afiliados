@@ -139,7 +139,10 @@
    "meta": "vendas",
    "assunto": "Produtos novos para 4 pautas",
    "mensagem": "Sugeri em data/sugestoes_produtos.md (11-01) mouses, smartwatches, lâmpada Tapo e carregador Motorola; aguardam cadastro do dono. Pautas de carregadores, lâmpadas Alexa, teclados e mouses já têm candidatos.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Lâmpadas Alexa e teclados publicados hoje com os produtos cadastrados. Mouses, smartwatches e carregadores turbo seguem na fila.",
+   "respondido_por": "chefe",
+   "resolvida_em": "2026-11-02"
   },
   {
    "id": 12,
@@ -159,7 +162,10 @@
    "meta": "acessos",
    "assunto": "Post do Switch 2 teve 1 visita do Google",
    "mensagem": "Ontem o post switch-2-zelda-40-anos foi o unico com entrada via Google (1 de 2 visitas). Search Console ainda mostra 0 impressoes. Confira se ele e o sitemap estao indexados no dominio nexustechai.com.br e liste os URLs que faltam pedir indexacao.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Sem acesso ao Search Console daqui. Dono: pedir indexacao (Inspecao de URL) da home, do sitemap e dos posts novos de 02/11 (whatsapp-confirmacao-duas-etapas-como-ativar, zelda-ocarina..., iphone-duo..., mercado-bitcoin..., sac...).",
+   "respondido_por": "seo",
+   "resolvida_em": "2026-11-02"
   },
   {
    "id": 14,
@@ -169,7 +175,10 @@
    "meta": "acessos",
    "assunto": "Mais pautas de games, tema do Switch 2",
    "mensagem": "O post do Switch 2/Zelda trouxe a visita vinda do Google de ontem. Sao poucos dados (2 visitas), mas vale 1 pauta de continuacao em games hoje, com fonte confirmada e termo real do palavras.json.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Pauta de continuação publicada hoje: Zelda Ocarina of Time no Switch 2 (5/11). palavras.json não tem termos de games; incluir na próxima coleta.",
+   "respondido_por": "pesquisador",
+   "resolvida_em": "2026-11-02"
   },
   {
    "id": 15,
@@ -179,7 +188,10 @@
    "meta": "acessos",
    "assunto": "0 impressões no Google",
    "mensagem": "Search Console com 0 impressões e 0 consultas até 31/10. Confira indexação da home e dos posts e peça indexação das URLs que faltam.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Mesmo encaminhamento do #13: conferir propriedade nexustechai.com.br no GSC, sitemap enviado e indexacao das URLs novas.",
+   "respondido_por": "seo",
+   "resolvida_em": "2026-11-02"
   },
   {
    "id": 16,
@@ -189,7 +201,10 @@
    "meta": "vendas",
    "assunto": "Listas destravadas: lâmpadas, smartbands, smartwatches, teclados e mouses",
    "mensagem": "Cadastrei hoje 15 produtos ativos: casa-inteligente 4, smartwatches-smartbands 5, acessorios-gamer 5 (G203, Cobra M711, K568 Blue, Fizz K617, Kumara Pro Brown) e o carregador Samsung 25 W. Já dá para escrever melhores-lampadas-inteligentes-alexa, melhores-smartbands, smartwatch barato, teclados até 200, mouses baratos e switch blue ou red. Carregadores turbo seguem com 3 de 4.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Lido; foco hoje na análise do iPhone Duo, listas de acessórios entram nas próximas pautas.",
+   "respondido_por": "redator",
+   "resolvida_em": "2026-11-02"
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
-  "ultima_execucao": "2026-11-01T14:42",
+  "ultima_execucao": "2026-11-02T18:10",
   "agentes": {
     "chefe": {
       "status": "ok",
@@ -7,19 +7,19 @@
     },
     "pesquisador": {
       "status": "ok",
-      "tarefa": "Trouxe 5 pautas de notícia e abasteci a fila com 4 tutoriais e 3 análises, que estavam em falta."
+      "tarefa": "Trouxe 5 pautas de notícia, incluindo a continuação de games do Zelda Ocarina of Time pedida pela Luisa."
     },
     "curador": {
-      "status": "ok",
-      "tarefa": "Cadastrei 15 produtos com link: 4 lâmpadas inteligentes, 5 smartbands/smartwatches, 5 acessórios gamer (2 mouses e 3 teclados) e 1 carregador turbo Samsung 25 W."
+      "status": "ocioso",
+      "tarefa": "Os produtos de ontem destravaram as listas de hoje; só a pauta de carregadores turbo segue com 3 de 4."
     },
     "redator": {
       "status": "ok",
-      "tarefa": "Escrevi as notícias da Motorola, do FSR 4.1 no Xbox e do Echo Dot, o tutorial do WhatsApp, a análise do Switch 2 e dois guias."
+      "tarefa": "Escrevi as notícias do Mercado Bitcoin, do SAC e do Zelda Ocarina, o tutorial de duas etapas no WhatsApp, a análise do iPhone Duo e os guias de lâmpadas Alexa e teclados."
     },
     "seo": {
       "status": "ok",
-      "tarefa": "Revisei os sete posts, liguei notícias e guias entre si e troquei a palavra-chave do guia de smartband por um termo real."
+      "tarefa": "Revisei os sete posts, liguei notícias e guias entre si e listei as URLs para o dono pedir indexação no Google."
     },
     "atualizador": {
       "status": "ocioso",
@@ -27,11 +27,15 @@
     },
     "designer": {
       "status": "ok",
-      "tarefa": "Peguei fotos livres, criei tabelas e blocos de veredito e dica nos sete posts."
+      "tarefa": "Peguei fotos livres e diagramei os sete posts, e corrigi o bloco quebrado do tutorial de espaço no WhatsApp."
     },
     "vendas": {
       "status": "ok",
-      "tarefa": "Pus um link de power bank na análise do Switch 2; nos outros posts não havia produto honesto para ligar."
+      "tarefa": "Pus links de compra nos guias de lâmpadas e teclados e nos guias antigos de lâmpada e smartband; nas notícias não forcei venda."
+    },
+    "viral": {
+      "status": "ok",
+      "tarefa": "Dei nota viral às pautas e escrevi as frases de compartilhamento e os textos de rede dos sete posts."
     },
     "analista": {
       "status": "ok",
@@ -39,11 +43,6 @@
     }
   },
   "historico": [
-    {
-      "data": "2026-10-28",
-      "agente": "pesquisador",
-      "texto": "Enchi a fila com 9 pautas novas, 4 delas guias."
-    },
     {
       "data": "2026-10-28",
       "agente": "curador",
@@ -258,6 +257,12 @@
       "data": "2026-11-02",
       "agente": "curador",
       "texto": "Cadastrei 15 produtos com link: 4 lâmpadas inteligentes, 5 smartbands/smartwatches, 5 acessórios gamer (2 mouses e 3 teclados) e 1 carregador turbo Samsung 25 W."
-    }
+    },
+    {"data": "2026-11-02", "agente": "pesquisador", "texto": "Trouxe 5 pautas de notícia, com Mercado Bitcoin, SAC e Zelda Ocarina of Time."},
+    {"data": "2026-11-02", "agente": "viral", "texto": "Dei nota às pautas e escrevi os textos de rede dos sete posts de hoje."},
+    {"data": "2026-11-02", "agente": "redator", "texto": "Escrevi três notícias, um tutorial, uma análise e dois guias."},
+    {"data": "2026-11-02", "agente": "seo", "texto": "Revisei os sete posts e listei as URLs para pedir indexação."},
+    {"data": "2026-11-02", "agente": "vendas", "texto": "Pus links de compra nos guias de lâmpadas, teclados e smartband."},
+    {"data": "2026-11-02", "agente": "designer", "texto": "Peguei fotos livres e diagramei os sete posts."}
   ]
 }

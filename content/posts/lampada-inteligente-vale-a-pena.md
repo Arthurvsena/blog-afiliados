@@ -73,10 +73,9 @@ A compatibilidade muda de modelo para modelo. Segundo o Jivochat, a maioria dos 
 
 Então a regra é simples: olhe a caixa. Se você usa Echo, procure "Alexa". Se usa Google, procure "Google Assistente". Quem não tem nenhum dos dois ainda pode usar só o aplicativo, mas perde metade da graça.
 
-Falando em Alexa, a Amazon prorrogou o acesso gratuito à versão com IA no Brasil. Se quer entender o que mudou na assistente, veja nossa notícia sobre o [Alexa Plus no Brasil, com acesso grátis até fevereiro de 2027](/posts/alexa-plus-brasil-acesso-gratis-prorrogado-fevereiro-2027/). Para acender uma lâmpada, a Alexa de sempre já resolve. Quem ainda vai comprar o aparelho pode ver o [novo Echo Dot, que já traz hub de casa inteligente embutido](/posts/echo-dot-echo-time-brasil-pre-venda-11-novembro/).
+Se já decidiu comprar, veja a lista com as [4 melhores lâmpadas inteligentes para Alexa](/posts/melhores-lampadas-inteligentes-alexa/). Falando em Alexa, a Amazon prorrogou o acesso gratuito à versão com IA no Brasil. Se quer entender o que mudou na assistente, veja nossa notícia sobre o [Alexa Plus no Brasil, com acesso grátis até fevereiro de 2027](/posts/alexa-plus-brasil-acesso-gratis-prorrogado-fevereiro-2027/). Para acender uma lâmpada, a Alexa de sempre já resolve. Quem ainda vai comprar o aparelho pode ver o [novo Echo Dot, que já traz hub de casa inteligente embutido](/posts/echo-dot-echo-time-brasil-pre-venda-11-novembro/).
 
-<!-- NOTA VENDAS (2026-11-01): sem produtos ativos em casa-inteligente. Quando houver, citar com link:ID nos criterios e fechar com "Qual comprar?". -->
-
+Um exemplo que cita a Alexa no anúncio é a {{link:intelbras-ews-410|Intelbras EWS 410}}, e o anúncio da {{link:avant-pera-neo-10w|Avant Pera Neo 10 W}} cita Alexa e Google.
 
 ## Economia de energia: quanto é verdade
 
@@ -136,7 +135,7 @@ Combine com a casa toda: o interruptor fica ligado e a luz se controla por app, 
 
 Lâmpada inteligente é um ótimo primeiro passo para casa conectada, porque custa pouco perto do resto e o resultado aparece no mesmo dia. Mas ela entrega conforto, não grandes economias.
 
-Compre uma ou duas, teste no cômodo que você mais usa e só depois decida se quer espalhar pela casa. Quando as listas do nosso guia de casa inteligente saírem, você vai encontrar aqui os modelos separados por assistente.
+Compre uma ou duas, teste no cômodo que você mais usa e só depois decida se quer espalhar pela casa. Para escolher o modelo, o nosso comparativo com [as 4 melhores lâmpadas inteligentes para Alexa](/posts/melhores-lampadas-inteligentes-alexa/) mostra nota, avaliações e para quem cada uma não serve. Se for começar por uma só, {{link:elgin-smart-color-10w|a Elgin Smart Color 10 W}} (dimerizável e bivolt) ou {{link:tplink-tapo-l530e|a TP-Link Tapo L530E}} são opções, confirmando antes a compatibilidade com o seu assistente na ficha.
 
 :::veredito
 Vale a pena se você tem Wi-Fi 2,4 GHz e usa Alexa ou Google. Se quer só economizar, fique no LED comum.

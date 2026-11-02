@@ -76,6 +76,7 @@ Na minha leitura, o iPhone Duo faz sentido para quem já gastaria perto de R$ 20
 
 ## Leia também
 
+- [iPhone Duo vale a pena? Ficha, preço e para quem serve](/posts/iphone-duo-vale-a-pena-dobravel/), nossa análise com pontos fortes, fracos e alternativas.
 - [MacBook Pro OLED touch no Brasil: preço e o que muda](/posts/macbook-pro-oled-touch-preco-brasil/), outro lançamento caro da Apple.
 - [Motorola Signature 27 no Brasil: evento em 5/11 e pré-registro](/posts/motorola-signature-27-brasil-pre-registro-data/), outro topo de linha a caminho do país.
 - [Vivo com satélite e Starlink: WhatsApp sem sinal](/posts/vivo-satelite-starlink-celular-brasil/), sobre o que as operadoras fazem com celulares.

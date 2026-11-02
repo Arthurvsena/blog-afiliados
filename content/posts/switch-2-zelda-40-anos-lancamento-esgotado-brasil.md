@@ -57,7 +57,7 @@ De acordo com o Game Over Drive, o pacote traz:
 
 O hardware é o mesmo do Switch 2 comum: tela LCD de 7,9 polegadas em 1080p, 256 GB de armazenamento e saída de até 4K. Na prática, você paga pelo visual.
 
-O detalhe que importa: o jogo Ocarina of Time não vem incluso. O remake é vendido à parte e, segundo as fontes, sai em 5 de novembro, uma semana depois do console.
+O detalhe que importa: o jogo Ocarina of Time não vem incluso. O remake é vendido à parte (veja o [preço e as edições do remake de Ocarina of Time](/posts/zelda-ocarina-of-time-switch-2-lancamento-5-novembro-preco/)) e, segundo as fontes, sai em 5 de novembro, uma semana depois do console.
 
 ## A Nintendo pede desculpas
 

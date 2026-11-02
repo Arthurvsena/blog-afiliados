@@ -2,6 +2,83 @@
 
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
+## 2026-11-02 · Mercado Bitcoin ataque hacker: saques suspensos e o que fazer
+Link: https://nexustechai.com.br/posts/mercado-bitcoin-incidente-seguranca-saques-suspensos/
+- WhatsApp: Mercado Bitcoin suspendeu depósitos e saques hoje após incidente de segurança. A corretora diz que não houve prejuízo a clientes; os US$ 40 milhões são estimativa de terceiro. https://nexustechai.com.br/posts/mercado-bitcoin-incidente-seguranca-saques-suspensos/
+- X: Mercado Bitcoin suspendeu depósitos e saques após incidente de segurança. A corretora diz que não houve prejuízo a clientes. Os US$ 40 mi são estimativa de uma empresa de segurança, não confirmada. https://nexustechai.com.br/posts/mercado-bitcoin-incidente-seguranca-saques-suspensos/
+- Instagram (legenda): Mercado Bitcoin suspendeu saques e depósitos hoje.
+  A corretora fala em incidente de segurança e diz que clientes não tiveram prejuízo.
+  O número de US$ 40 milhões é estimativa de terceiro, não confirmada.
+  Link na bio.
+  #mercadobitcoin #criptomoedas #segurancadigital
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Mercado Bitcoin suspendeu os saques." [2-8 s] Fato 1: a corretora fala em incidente de segurança na madrugada. [8-14 s] Fato 2: ela diz que não houve prejuízo a clientes. [14-18 s] Fato 3: os US$ 40 milhões são estimativa de uma empresa de segurança. [18-20 s] "Atualizações no link da bio."
+
+## 2026-11-02 · Novas regras do SAC: atendimento humano em até 20 segundos
+Link: https://nexustechai.com.br/posts/novas-regras-sac-decreto-atendimento-humano-20-segundos/
+- WhatsApp: Novas regras do SAC valem desde hoje: humano em até 20 segundos em 80% das ligações, das 8h às 20h. Chatbot pode, mas tem de ter saída para atendente. https://nexustechai.com.br/posts/novas-regras-sac-decreto-atendimento-humano-20-segundos/
+- X: Novas regras do SAC valem desde 2/11: em telecom, bancos, energia e aéreas, 80% das ligações devem ter humano em até 20 segundos, das 8h às 20h. Chatbot só com saída para atendente. https://nexustechai.com.br/posts/novas-regras-sac-decreto-atendimento-humano-20-segundos/
+- Instagram (legenda): Acabou o labirinto de "digite 1"?
+  Desde 2/11, o SAC de setores regulados precisa pôr um humano na linha em até 20 segundos em 80% das ligações.
+  Chatbot continua, mas tem de ter saída para atendente.
+  Link na bio.
+  #sac #consumidor #direitodoconsumidor
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "O SAC mudou hoje." [2-8 s] Fato 1: humano em até 20 segundos em 80% das ligações. [8-14 s] Fato 2: atendimento das 8h às 20h, todo dia. [14-18 s] Fato 3: chatbot pode, mas tem de ter saída para uma pessoa. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-02 · Zelda Ocarina of Time no Switch 2 sai dia 5: preço no Brasil
+Link: https://nexustechai.com.br/posts/zelda-ocarina-of-time-switch-2-lancamento-5-novembro-preco/
+- WhatsApp: Zelda Ocarina of Time chega ao Switch 2 na quinta (5/11). A imprensa aponta R$ 329,90 digital e R$ 439 físico, mas confira na eShop antes de pagar. https://nexustechai.com.br/posts/zelda-ocarina-of-time-switch-2-lancamento-5-novembro-preco/
+- X: Ocarina of Time chega ao Switch 2 na quinta (5/11). Imprensa cita R$ 329,90 (digital) e R$ 439 (físico), sem confirmação oficial da Nintendo no Brasil. Confira na eShop. https://nexustechai.com.br/posts/zelda-ocarina-of-time-switch-2-lancamento-5-novembro-preco/
+- Instagram (legenda): O remake de Ocarina of Time sai na quinta, 5/11, só no Switch 2.
+  A imprensa cita R$ 329,90 no digital e R$ 439 no físico.
+  A Nintendo ainda não confirmou o preço brasileiro, então confira na eShop.
+  Link na bio.
+  #zelda #switch2 #nintendo
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Ocarina of Time volta na quinta." [2-8 s] Fato 1: remake exclusivo do Switch 2, dia 5 de novembro. [8-14 s] Fato 2: imprensa cita R$ 329,90 digital e R$ 439 físico. [14-18 s] Fato 3: preço brasileiro sem confirmação oficial. [18-20 s] "Veja tudo no link da bio."
+
+## 2026-11-02 · Verificação em duas etapas no WhatsApp: como ativar
+Link: https://nexustechai.com.br/posts/whatsapp-confirmacao-duas-etapas-como-ativar/
+- WhatsApp: Proteja seu WhatsApp da clonagem em 2 minutos: Configurações > Conta > Confirmação em duas etapas. Passo a passo: https://nexustechai.com.br/posts/whatsapp-confirmacao-duas-etapas-como-ativar/
+- X: Para travar o WhatsApp contra clonagem: Configurações > Conta > Confirmação em duas etapas > Ativar. Leva menos de 2 minutos. E nunca passe a senha a ninguém. https://nexustechai.com.br/posts/whatsapp-confirmacao-duas-etapas-como-ativar/
+- Instagram (legenda): Seu WhatsApp está protegido contra clonagem?
+  Vá em Configurações > Conta > Confirmação em duas etapas e ative.
+  Leva menos de 2 minutos, no Android e no iPhone.
+  Passo a passo no link da bio.
+  #whatsapp #golpe #segurancadigital
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Trave seu WhatsApp agora." [2-8 s] Fato 1: sem senha extra, quem pega o código por SMS assume sua conta. [8-14 s] Fato 2: Configurações, Conta, Confirmação em duas etapas. [14-18 s] Fato 3: cadastre um e-mail para recuperar a senha. [18-20 s] "Passo a passo no link da bio."
+
+## 2026-11-02 · iPhone Duo vale a pena? Ficha, preço e para quem serve
+Link: https://nexustechai.com.br/posts/iphone-duo-vale-a-pena-dobravel/
+- WhatsApp: O iPhone Duo custa de R$ 21.999 a R$ 30.999, só tem eSIM e entrega em 2027. Vale a pena? Minha leitura da ficha: https://nexustechai.com.br/posts/iphone-duo-vale-a-pena-dobravel/
+- X: iPhone Duo no Brasil: de R$ 21.999 a R$ 30.999, só eSIM, entrega em 2027 e tela que pode custar até R$ 10.990 para trocar. Vale a pena? Minha análise. https://nexustechai.com.br/posts/iphone-duo-vale-a-pena-dobravel/
+- Instagram (legenda): iPhone Duo vale R$ 22 mil?
+  O dobrável da Apple vai de R$ 21.999 a R$ 30.999, só aceita eSIM e entrega em 2027.
+  A troca da tela pode chegar a R$ 10.990, segundo o Tecnoblog.
+  Link na bio.
+  #iphone #apple #dobravel
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "iPhone dobrável por R$ 22 mil?" [2-8 s] Fato 1: preços de R$ 21.999 a R$ 30.999. [8-14 s] Fato 2: só eSIM, sem chip físico. [14-18 s] Fato 3: entrega só em 2027. [18-20 s] "Análise completa no link da bio."
+
+## 2026-11-02 · Lâmpada inteligente Alexa: as 4 melhores para começar
+Link: https://nexustechai.com.br/posts/melhores-lampadas-inteligentes-alexa/
+- WhatsApp: Quer começar a casa inteligente? Separei 4 lâmpadas Wi-Fi que funcionam com a Alexa, sem hub: https://nexustechai.com.br/posts/melhores-lampadas-inteligentes-alexa/
+- X: 4 lâmpadas inteligentes para Alexa, todas Wi-Fi, soquete E27 e sem hub. Prós, contras e para quem cada uma não serve. https://nexustechai.com.br/posts/melhores-lampadas-inteligentes-alexa/
+- Instagram (legenda): Qual lâmpada inteligente comprar para a Alexa?
+  Comparei 4 modelos Wi-Fi com soquete E27, que não precisam de hub.
+  Cada uma com prós, contras e para quem não serve.
+  Link na bio.
+  #alexa #casainteligente #tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Sua primeira lâmpada para Alexa." [2-8 s] Fato 1: 4 modelos Wi-Fi, sem hub. [8-14 s] Fato 2: todas com soquete E27. [14-18 s] Fato 3: só funcionam em 2,4 GHz. [18-20 s] "Guia completo no link da bio."
+
+## 2026-11-02 · Teclado gamer barato: 3 mecânicos Redragon até 200 reais
+Link: https://nexustechai.com.br/posts/melhores-teclados-mecanicos-ate-200/
+- WhatsApp: Procurando teclado gamer barato? 3 Redragon mecânicos: compacto 60%, ABNT2 ou sem fio. Veja o preço atual no guia: https://nexustechai.com.br/posts/melhores-teclados-mecanicos-ate-200/
+- X: 3 teclados mecânicos Redragon para quem quer gastar pouco: 60%, ABNT2 ou sem fio. Veja para quem cada um serve e para quem não. https://nexustechai.com.br/posts/melhores-teclados-mecanicos-ate-200/
+- Instagram (legenda): Teclado mecânico sem pesar no bolso?
+  3 Redragon: compacto 60%, ABNT2 e sem fio.
+  Mostro para quem cada um serve e para quem não serve.
+  Link na bio.
+  #tecladogamer #redragon #setup
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Teclado mecânico barato existe." [2-8 s] Fato 1: o Fizz K617 é compacto 60% com switch azul. [8-14 s] Fato 2: o Dark Avenger K568 tem layout ABNT2. [14-18 s] Fato 3: o Kumara Pro é sem fio. [18-20 s] "Veja o preço atual no link da bio."
+
 ## 2026-11-01 · Lâmpada inteligente vale a pena? O que faz e o que não faz
 Link: https://nexustechai.com.br/posts/lampada-inteligente-vale-a-pena/
 - WhatsApp: Pensando em comprar lâmpada inteligente? Ela precisa de Wi-Fi 2,4 GHz e, se alguém desligar o interruptor da parede, perde o controle. Explico o que ela faz e o que não faz: https://nexustechai.com.br/posts/lampada-inteligente-vale-a-pena/
