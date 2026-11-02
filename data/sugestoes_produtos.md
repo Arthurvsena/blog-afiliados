@@ -2,6 +2,48 @@
 
 O curador escreve aqui os produtos que vale cadastrar em data/produtos.csv.
 
+## Sugestões de 2026-11-02
+
+**Aviso para o cadastrador:** o Mercado Livre continua sem leitura aqui (HTTP 403). Preço, nota e avaliações ficam como `PRECO`, `NOTA` e `AVAL`: preencha com o anúncio aberto no Chrome e **descarte** se a nota for menor que 4,5, se houver poucas avaliações, reclamações recorrentes (falsificação, bateria estufando), sem Anatel ou vendedor sem reputação (prefira loja oficial ou MercadoLíder). Preços abaixo são de outras lojas, só indicativos.
+
+**Prioridade de cadastro desta semana (o que destrava post):**
+1. `melhores-carregadores-turbo` (falta 1 de 4): Motorola TurboPower Duo 50 W (seção de 11-01). Samsung 25 W, Baseus GaN5 e Ugreen 45 W já estão ativos.
+2. `melhores-mouses-gamer-baratos` (faltam 2 de 4; Logitech G203 e Cobra M711 já ativos): Redragon Griffin M607 e Fortrek Crusader (seção de 11-01).
+3. Pedido #17 do mural: 4 headsets gamer (abaixo) e caixas Bluetooth (abaixo). Ainda não há pauta de headset nem de caixa em `pautas.json`; o pesquisador precisa criá-las (termos fortes em `palavras.json`: "headset gamer barato", "melhor headset gamer", "headset gamer havit", "caixa de som bluetooth jbl", "melhores caixa de som bluetooth até 100 reais").
+4. `melhores-smartwatches-baratos` (2 de 4 ativos): Moto Watch 70 e uma smartband de 11-01/10-28 (Huawei Band 11) completam.
+
+### acessorios-gamer: headsets gamer (precisa de 4)
+- **Headset Gamer Havit HV-H2002D (P2 3,5 mm)** (Havit), faixa de R$ 145 a R$ 190 (Olhar Digital R$ 145 na Amazon em jan/2026; Terabyte R$ 189,99). Por que: "headset gamer havit" e "headset gamer havit h2002d" aparecem em `palavras.json` e é o mais citado como custo-benefício. Confirmado na KaBuM e Terabyte: driver de 53 mm, microfone destacável, conector P2 de 3,5 mm (no PC precisa de adaptador Y de duas vias, a menos que o anúncio traga um), impedância de 64 ohms. Peso e material divergem entre fontes: não registrar. Esgotado em algumas cores.
+  Busca no ML: `Headset Gamer Havit HV-H2002D 53mm`
+  Linha pronta para o CSV (só falta o link):
+  `havit-hv-h2002d,acessorios-gamer,Headset Gamer Havit HV-H2002D 3.5mm,Havit,PRECO,NOTA,AVAL,COLE_O_LINK,,Driver de 53 mm;Microfone destacável;Conector P2 de 3,5 mm;Compatível com PC e consoles (com adaptador),sim`
+- **Headset Gamer JBL Quantum 100** (JBL), R$ 151 a R$ 160 em promoções (Zoom, Buscapé, Tecnoblog), lançamento a R$ 229. Por que: marca conhecida com garantia no Brasil; "headset gamer jbl" é termo da lista. Confirmado (KaBuM, Tecnoblog, Zoom): drivers de 40 mm e microfone removível. Conector NÃO confirmado: leia no anúncio. Contra segundo o review do Buscapé: modelo de entrada, com distorção em volume alto. Existe a versão Quantum 100M2; confira qual é o anúncio.
+  Busca no ML: `Headset Gamer JBL Quantum 100`
+  Linha pronta para o CSV (só falta o link):
+  `jbl-quantum-100,acessorios-gamer,Headset Gamer JBL Quantum 100,JBL,PRECO,NOTA,AVAL,COLE_O_LINK,,Drivers de 40 mm;Microfone removível;Marca com garantia no Brasil,sim`
+- **Headset Gamer Redragon Zeus X H510 RGB** (Redragon), preço não confirmado (a lista do Promotop cita o Zeus Lite entre R$ 180 e R$ 240; versão X sem preço confirmado). Por que: "headset gamer redragon" é termo da lista. Confirmado só em varejistas estrangeiros e Zoom: drivers dinâmicos de 53 mm, som surround virtual 7.1, conexão USB com fio, RGB, cabo de 1,8 m. As fichas misturam com o H510 Pro sem fio: **confirme no anúncio se é o com fio** e registre só o que ele mostrar. Software e comprovação oficial não confirmados.
+  Busca no ML: `Headset Gamer Redragon Zeus X H510 RGB USB`
+  Linha pronta para o CSV (só falta o link):
+  `redragon-zeus-x-h510,acessorios-gamer,Headset Gamer Redragon Zeus X H510 RGB,Redragon,PRECO,NOTA,AVAL,COLE_O_LINK,,Drivers de 53 mm;Som surround virtual 7.1;Conexão USB;Iluminação RGB,sim`
+- 4º headset (reserva, ficha fraca): Redragon Zeus Lite (P3, conforto elogiado, R$ 167 a R$ 240 segundo o Promotop, sem drivers nem microfone confirmados) ou HyperX Cloud Stinger/Stinger 2 (HyperX é a marca mais citada nos guias; a fonte lida só confirma que a Stinger 2 sem fio tem 2,4 GHz e 20 h, a versão com fio não foi confirmada). Sem ficha confirmada, não gerei linha de CSV: o dono deve abrir o anúncio do ML e pedir nova rodada.
+
+### fones-caixas-bluetooth: caixas de som (precisa de 3)
+- ✅ **Caixa de Som Bluetooth JBL Go 4** (JBL), R$ 211 a R$ 249 em lojas (Zoom, Magalu, Extra; menor histórico R$ 199 na Oficina da Net; lançou a R$ 319). Por que: "caixa de som bluetooth jbl" é o termo mais forte do grupo; marca com garantia no Brasil. Confirmado (Zoom, Extra, Oficina da Net, Olhar Digital, Canaltech): 7 h de bateria, IP67 (água e poeira), 4,2 W RMS, Bluetooth 5.3, carga USB-C, cerca de 190 g. Contra: potência baixa, não serve para festa. Atenção a falsificação: compre da loja oficial JBL/Harman.
+  Busca no ML: `Caixa de Som Bluetooth JBL Go 4`
+  Linha pronta para o CSV (só falta o link):
+  `jbl-go-4,fones-caixas-bluetooth,Caixa de Som Bluetooth JBL Go 4,JBL,PRECO,NOTA,AVAL,COLE_O_LINK,,Até 7 h de bateria;Resistência IP67 a água e poeira;Bluetooth 5.3;Carga por USB-C,sim`
+- ✅ **Caixa de Som Anker Soundcore 2** (Anker), R$ 269,79 em oferta (Olhar Digital, 11/03/2026; referência de R$ 499, indicativo). Por que: boa para quem quer mais volume que a JBL Go; marca conhecida. Confirmado (Olhar Digital e fichas de loja): 12 W estéreo com dois drivers e BassUp, até 24 h segundo o fabricante (um usuário não conseguiu comprovar), IPX7, pareamento de duas caixas. Versão do Bluetooth diverge (4.2 x 5): não registrar. Sem ficha oficial da Anker Brasil; confirme no anúncio e prefira a loja oficial Anker/Soundcore.
+  Busca no ML: `Caixa de Som Bluetooth Anker Soundcore 2 12W`
+  Linha pronta para o CSV (só falta o link):
+  `anker-soundcore-2,fones-caixas-bluetooth,Caixa de Som Bluetooth Anker Soundcore 2 12W,Anker,PRECO,NOTA,AVAL,COLE_O_LINK,,12 W em estéreo com dois drivers;Até 24 h de bateria (segundo o fabricante);Resistência IPX7;Pareia duas caixas para estéreo,sim`
+- **Caixa de Som JBL Flip Essential 2** (JBL), referência de R$ 483 na Amazon (InfoMoney, data incerta, indicativo; acima da faixa "até R$ 300"). Por que: o degrau mais potente da lista. Confirmado na ficha da Harman: 20 W RMS, IPX7, carga USB-C, bateria de 11,7 Wh e até 10 h segundo a ficha. O Tecnoblog cita 20 h e 7.500 mAh pela Anatel, o que contradiz a ficha: **não registre autonomia** e leia no anúncio. Não confundir com a Flip Essential original (16 W). Só cadastre se o preço no ML ficar abaixo de R$ 400.
+  Busca no ML: `Caixa de Som JBL Flip Essential 2`
+  Linha pronta para o CSV (só falta o link):
+  `jbl-flip-essential-2,fones-caixas-bluetooth,Caixa de Som Bluetooth JBL Flip Essential 2,JBL,PRECO,NOTA,AVAL,COLE_O_LINK,,20 W RMS;Resistência IPX7;Carga por USB-C;Marca com garantia no Brasil,sim`
+
+### Resumo de 11-02
+Novas: acessorios-gamer 3 headsets com ficha (mais 1 reserva sem ficha), fones-caixas-bluetooth 3 caixas. Carregadores turbo, mouses e smartwatches: nenhuma nova, a falta é cadastrar as de 11-01 (carregadores 1 pendente, mouses 2, smartwatches 2).
+
 ## Sugestões de 2026-11-01
 
 **Aviso para o cadastrador:** o Mercado Livre segue bloqueando a leitura (HTTP 403) e a busca não devolve anúncios do ML Brasil. Preço, nota e avaliações ficam como `PRECO`, `NOTA` e `AVAL`: preencha com o anúncio aberto no Chrome e **descarte** se a nota for menor que 4,5, se houver poucas avaliações, reclamações recorrentes (falsificação, bateria estufando), ausência de Anatel ou vendedor sem reputação (prefira loja oficial ou MercadoLíder). Só registrei destaques confirmados em fonte citada. Preços citados são indicativos de outras lojas.

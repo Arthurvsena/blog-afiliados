@@ -3,7 +3,7 @@
   "agentes": {
     "chefe": {
       "status": "ok",
-      "tarefa": "Coordenei o dia: 3 notícias, 1 tutorial, 1 análise e 2 guias de compra, cada um revisado por SEO, viral, vendas e design."
+      "tarefa": "Reunião: foco em listas de compra com produto pronto, palavras-chave certas, links internos nas notícias e produtos que destravam listas, antes da Black Friday (27/11)."
     },
     "pesquisador": {
       "status": "ok",
@@ -11,7 +11,7 @@
     },
     "curador": {
       "status": "ocioso",
-      "tarefa": "Os produtos de ontem destravaram as listas de hoje; só a pauta de carregadores turbo segue com 3 de 4."
+      "tarefa": "Reunião: faltam 1 carregador turbo, 2 mouses, headsets e caixas; sugestões prontas para o dono cadastrar."
     },
     "redator": {
       "status": "ok",
@@ -19,7 +19,7 @@
     },
     "seo": {
       "status": "ok",
-      "tarefa": "Revisei os sete posts, liguei notícias e guias entre si e listei as URLs para o dono pedir indexação no Google."
+      "tarefa": "Reunião: relatório de SEO com 3 pautas novas, canibalização iPhone Duo/Alexa+ e palavra-chave inválida a trocar."
     },
     "atualizador": {
       "status": "ocioso",
@@ -27,11 +27,11 @@
     },
     "designer": {
       "status": "ok",
-      "tarefa": "Peguei fotos livres e diagramei os sete posts, e corrigi o bloco quebrado do tutorial de espaço no WhatsApp."
+      "tarefa": "Reunião: sem problema visual a tratar; tabela comparativa e prós/contras nas listas novas."
     },
     "vendas": {
       "status": "ok",
-      "tarefa": "Pus links de compra nos guias de lâmpadas e teclados e nos guias antigos de lâmpada e smartband; nas notícias não forcei venda."
+      "tarefa": "Reunião: 5 de 27 produtos sem chamada em nenhum post; propus listas de carregadores e mouses e guia de Black Friday."
     },
     "viral": {
       "status": "ok",
@@ -263,6 +263,14 @@
     {"data": "2026-11-02", "agente": "redator", "texto": "Escrevi três notícias, um tutorial, uma análise e dois guias."},
     {"data": "2026-11-02", "agente": "seo", "texto": "Revisei os sete posts e listei as URLs para pedir indexação."},
     {"data": "2026-11-02", "agente": "vendas", "texto": "Pus links de compra nos guias de lâmpadas, teclados e smartband."},
-    {"data": "2026-11-02", "agente": "designer", "texto": "Peguei fotos livres e diagramei os sete posts."}
+    {"data": "2026-11-02", "agente": "designer", "texto": "Peguei fotos livres e diagramei os sete posts."},
+    {"data": "2026-11-02", "agente": "chefe", "texto": "Reunião: foco em listas com produto pronto, palavras certas, links internos e produtos para destravar listas antes da Black Friday."},
+    {"data": "2026-11-02", "agente": "analista", "texto": "Reunião: sem métricas novas; meta de 20 visitas no domínio novo."},
+    {"data": "2026-11-02", "agente": "seo", "texto": "Reunião: relatório com 3 pautas novas e dois casos de canibalização."},
+    {"data": "2026-11-02", "agente": "vendas", "texto": "Reunião: 5 produtos órfãos e 3 apostas de venda para a Black Friday."},
+    {"data": "2026-11-02", "agente": "curador", "texto": "Reunião: sugestões de headsets, caixas e mouses; faltam 1 carregador e 2 mouses."},
+    {"data": "2026-11-02", "agente": "pesquisador", "texto": "Reunião: propôs 3 listas até 10/11 e guia de Black Friday."},
+    {"data": "2026-11-02", "agente": "redator", "texto": "Reunião: propôs listas de fones, smartbands, carregadores e mouses."},
+    {"data": "2026-11-02", "agente": "atualizador", "texto": "Reunião: propôs links internos em 7 notícias e correção de canibalização."}
   ]
 }
