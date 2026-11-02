@@ -53,6 +53,45 @@
         "Cloudflare: 'paginas' são visualizações por caminho (o painel não divide visitas por página); as 3 visitas entraram todas por '/' em nexustechai.com.br",
         "Cloudflare: 9 das 12 visualizações vieram do host antigo arthurvsena.github.io (/blog-afiliados/...), num Chrome/Windows de computador, com referer arthurvsena.github.io (provável navegação interna do próprio dono); as 3 visitas foram em nexustechai.com.br, 2 celular (iOS) e 1 computador, todas após 21h (BRT)"
       ]
+    },
+    {
+      "dia": "2026-11-01",
+      "visitas": 2,
+      "visualizacoes": 6,
+      "celular_pct": 0,
+      "paginas": [
+        {
+          "url": "/",
+          "visitas": 1
+        },
+        {
+          "url": "/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/",
+          "visitas": 1
+        }
+      ],
+      "origens": [
+        {
+          "origem": "direto",
+          "visitas": 1
+        },
+        {
+          "origem": "google",
+          "visitas": 1
+        }
+      ],
+      "google": {
+        "dia": "2026-10-31",
+        "cliques": 0,
+        "impressoes": 0,
+        "consultas": [],
+        "paginas": []
+      },
+      "faltou": [
+        "Cloudflare: o painel voltou ao período 'últimas 24 horas' (BRT, ~09h de 01/11 até ~09h de 02/11), não ao dia fechado de ontem",
+        "Cloudflare: 'paginas' são as páginas de entrada das visitas; as 6 visualizações também passaram por /editoria/analises/ e /editoria/tutoriais/ (sem contagem exata por página)",
+        "Cloudflare: as 2 visitas foram de computador (Chrome/Windows), 1 do Brasil e 1 dos EUA, todas em nexustechai.com.br",
+        "Search Console: dia mais recente disponível é 31/10, com 0 cliques e 0 impressões nos últimos 7 dias (sem consultas nem páginas)"
+      ]
     }
   ]
 }

@@ -35,7 +35,7 @@
     },
     "analista": {
       "status": "ok",
-      "tarefa": "Ontem foram 3 visitas, todas diretas (0 do Google, dado ainda em processamento); 9 de 12 visualizações eram do host antigo."
+      "tarefa": "Ontem foram 2 visitas, 1 veio do Google (a primeira); 0 impressões no Search Console."
     }
   },
   "historico": [
@@ -243,6 +243,11 @@
       "data": "2026-11-01",
       "agente": "analista",
       "texto": "Ontem foram 3 visitas, todas diretas (0 do Google, dado ainda em processamento); 9 de 12 visualizações eram do host antigo."
+    },
+    {
+      "data": "2026-11-02",
+      "agente": "analista",
+      "texto": "Ontem foram 2 visitas, 1 veio do Google (a primeira); 0 impressões no Search Console."
     }
   ]
 }
