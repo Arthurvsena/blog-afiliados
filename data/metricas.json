@@ -1,0 +1,78 @@
+{
+  "semanas": [
+    {
+      "semana": "2026-10-26",
+      "visitas": 14,
+      "visualizacoes": 50,
+      "cliques_ml": 2,
+      "pedidos": 0,
+      "google": {
+        "cliques": 0,
+        "impressoes": 0,
+        "ctr": 0.0,
+        "posicao": null
+      },
+      "paginas": [
+        {
+          "url": "/blog-afiliados/",
+          "visitas": 22,
+          "cliques_google": null,
+          "impressoes": null,
+          "posicao": null
+        },
+        {
+          "url": "/",
+          "visitas": 8,
+          "cliques_google": null,
+          "impressoes": null,
+          "posicao": null
+        },
+        {
+          "url": "/blog-afiliados/guia-de-compras/",
+          "visitas": 3,
+          "cliques_google": null,
+          "impressoes": null,
+          "posicao": null
+        },
+        {
+          "url": "/editoria/analises/",
+          "visitas": 2,
+          "cliques_google": null,
+          "impressoes": null,
+          "posicao": null
+        },
+        {
+          "url": "/blog-afiliados/editoria/games/",
+          "visitas": 2,
+          "cliques_google": null,
+          "impressoes": null,
+          "posicao": null
+        }
+      ],
+      "consultas": [],
+      "produtos": [],
+      "origens": [
+        {
+          "origem": "direto",
+          "visitas": 13
+        },
+        {
+          "origem": "google",
+          "visitas": 1
+        }
+      ],
+      "adsense": {
+        "visualizacoes": null,
+        "impressoes": null,
+        "ctr": null
+      },
+      "celular_pct": 14,
+      "faltou": [
+        "Cloudflare: período 'Last 7 days' rolante (BRT, ~09h de 26/10 a ~09h de 02/11), não a semana fechada; 'visitas' em paginas são visualizações por caminho (o painel lista views por path); 35 das 50 visualizações vieram do host antigo arthurvsena.github.io (Chrome/Windows, provável navegação do próprio dono); só 15 views e 6 visitas em nexustechai.com.br",
+        "Mercado Livre: período 26/out a 1/nov; 2 cliques, 0 compradores, 0 pedidos; o painel não mostrou cliques por produto (0 vendas, sem detalhe por link)",
+        "Search Console: propriedade de prefixo https://nexustechai.com.br/ com 0 cliques e 0 impressões nos últimos 7 dias (dado mais recente: 31/10); sem consultas nem páginas; posição média indefinida. A propriedade de domínio sc-domain:nexustechai.com.br não existe nesta conta",
+        "AdSense: sem dado (a conta Google logada no Chrome não tem AdSense associado; não troquei de conta)"
+      ]
+    }
+  ]
+}

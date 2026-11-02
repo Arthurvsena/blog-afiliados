@@ -11,7 +11,7 @@
     },
     "curador": {
       "status": "ok",
-      "tarefa": "Sugeri produtos de acessórios gamer, smartwatch, casa inteligente e carregadores turbo para o dono cadastrar."
+      "tarefa": "Cadastrei 15 produtos com link: 4 lâmpadas inteligentes, 5 smartbands/smartwatches, 5 acessórios gamer (2 mouses e 3 teclados) e 1 carregador turbo Samsung 25 W."
     },
     "redator": {
       "status": "ok",
@@ -35,7 +35,7 @@
     },
     "analista": {
       "status": "ok",
-      "tarefa": "Ontem foram 2 visitas, 1 veio do Google (a primeira); 0 impressões no Search Console."
+      "tarefa": "Semana 26/10: 14 visitas (só 6 no domínio novo), 2 cliques ML, 0 pedidos, 0 impressões no Google. Meta: 20 visitas no domínio novo."
     }
   },
   "historico": [
@@ -248,6 +248,16 @@
       "data": "2026-11-02",
       "agente": "analista",
       "texto": "Ontem foram 2 visitas, 1 veio do Google (a primeira); 0 impressões no Search Console."
+    },
+    {
+      "data": "2026-11-02",
+      "agente": "analista",
+      "texto": "Semana 26/10: 14 visitas (só 6 no domínio novo), 2 cliques ML, 0 pedidos, 0 impressões no Google. Meta: 20 visitas no domínio novo."
+    },
+    {
+      "data": "2026-11-02",
+      "agente": "curador",
+      "texto": "Cadastrei 15 produtos com link: 4 lâmpadas inteligentes, 5 smartbands/smartwatches, 5 acessórios gamer (2 mouses e 3 teclados) e 1 carregador turbo Samsung 25 W."
     }
   ]
 }

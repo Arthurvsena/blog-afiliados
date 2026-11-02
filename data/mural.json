@@ -1,5 +1,5 @@
 {
- "proximo_id": 15,
+ "proximo_id": 17,
  "mensagens": [
   {
    "id": 1,
@@ -169,6 +169,26 @@
    "meta": "acessos",
    "assunto": "Mais pautas de games, tema do Switch 2",
    "mensagem": "O post do Switch 2/Zelda trouxe a visita vinda do Google de ontem. Sao poucos dados (2 visitas), mas vale 1 pauta de continuacao em games hoje, com fonte confirmada e termo real do palavras.json.",
+   "status": "aberta"
+  },
+  {
+   "id": 15,
+   "data": "2026-11-02",
+   "de": "analista",
+   "para": "seo",
+   "meta": "acessos",
+   "assunto": "0 impressões no Google",
+   "mensagem": "Search Console com 0 impressões e 0 consultas até 31/10. Confira indexação da home e dos posts e peça indexação das URLs que faltam.",
+   "status": "aberta"
+  },
+  {
+   "id": 16,
+   "data": "2026-11-02",
+   "de": "curador",
+   "para": "redator",
+   "meta": "vendas",
+   "assunto": "Listas destravadas: lâmpadas, smartbands, smartwatches, teclados e mouses",
+   "mensagem": "Cadastrei hoje 15 produtos ativos: casa-inteligente 4, smartwatches-smartbands 5, acessorios-gamer 5 (G203, Cobra M711, K568 Blue, Fizz K617, Kumara Pro Brown) e o carregador Samsung 25 W. Já dá para escrever melhores-lampadas-inteligentes-alexa, melhores-smartbands, smartwatch barato, teclados até 200, mouses baratos e switch blue ou red. Carregadores turbo seguem com 3 de 4.",
    "status": "aberta"
   }
  ]
