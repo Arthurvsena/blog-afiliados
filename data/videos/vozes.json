@@ -1,0 +1,9 @@
+{
+  "_como_funciona": "Pesos de cada voz nos vídeos novos. scripts/video_motion.py escolhe sempre a voz mais atrasada em relação ao peso, então os vídeos se alternam. A analista (Luisa) revisa os pesos toda segunda com as métricas do YouTube.",
+  "vozes": {
+    "gemini:Fenrir": 0.5,
+    "gemini:Orus": 0.5
+  },
+  "decisao": "2026-11-03: teste A/B começando, 50% cada, até cada voz ter pelo menos 10 vídeos publicados.",
+  "historico": []
+}

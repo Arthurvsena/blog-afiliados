@@ -47,6 +47,23 @@ Leia `data/visitas.json` (um registro por dia) e escreva
    ontem ("Ontem foram 37 visitas, 12 vieram do Google").
 Responda com uma linha: visitas de ontem e a ação mais importante do dia.
 
+## Teste A/B das vozes do canal (toda segunda, no modo semanal)
+O canal alterna as vozes do Gemini **Fenrir** e **Orus** (pesos em
+`data/videos/vozes.json`; a voz de cada vídeo está em `data/videos.json` e
+`data/videos/uso_vozes.json`). Com os números do YouTube da semana
+(`data/metricas.json` > `youtube.videos`: views, retenção, CTR) e as visitas
+vindas do YouTube (`data/visitas.json`):
+1. Compare as vozes **só entre vídeos do mesmo tipo** (Short com Short, longo
+   com longo), pela média de **retenção** (o que mais importa), depois views e
+   cliques para o blog.
+2. Ajuste os pesos em `data/videos/vozes.json`:
+   - menos de 10 vídeos publicados de cada voz: mantenha 50/50;
+   - uma voz com retenção pelo menos 10% maior por 2 semanas seguidas: 70/30
+     para ela; 4 semanas seguidas: 85/15 (nunca 100/0, para continuar medindo).
+   - diferença menor que 10%: 50/50.
+3. Escreva em `decisao` o motivo com os números e acrescente em `historico`
+   `{"data", "pesos", "motivo"}`. Coloque um parágrafo "Vozes" no relatório.
+
 Regras:
 - O repositório é público: **nunca escreva valores em R$ de ganhos ou
   comissões** em nenhum arquivo. Fale só de visitas, cliques e pedidos.

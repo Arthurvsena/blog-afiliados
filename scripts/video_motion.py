@@ -284,6 +284,32 @@ def narrar_gemini(texto, destino, voz="Charon"):
     Path(destino).write_bytes(base64.b64decode(audios[-1]["data"]))
 
 
+def escolher_voz_ab():
+    """Teste A/B de vozes: escolhe a voz mais atrasada em relação ao peso em data/videos/vozes.json."""
+    arq, uso_arq = RAIZ / "data" / "videos" / "vozes.json", RAIZ / "data" / "videos" / "uso_vozes.json"
+    if not arq.exists():
+        return None
+    pesos = json.loads(arq.read_text(encoding="utf-8")).get("vozes") or {}
+    pesos = {k: float(v) for k, v in pesos.items() if float(v) > 0}
+    if not pesos:
+        return None
+    uso = json.loads(uso_arq.read_text(encoding="utf-8")) if uso_arq.exists() else {"videos": []}
+    contagem = {k: 0 for k in pesos}
+    for u in uso.get("videos", []):
+        if u.get("voz") in contagem:
+            contagem[u["voz"]] += 1
+    total = sum(contagem.values()) + 1
+    soma = sum(pesos.values())
+    return max(pesos, key=lambda k: pesos[k] / soma - contagem[k] / total)
+
+
+def registrar_voz(slug, voz):
+    uso_arq = RAIZ / "data" / "videos" / "uso_vozes.json"
+    uso = json.loads(uso_arq.read_text(encoding="utf-8")) if uso_arq.exists() else {"videos": []}
+    uso["videos"] = [u for u in uso["videos"] if u.get("slug") != slug] + [{"slug": slug, "voz": voz}]
+    uso_arq.write_text(json.dumps(uso, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
 def voz_config():
     try:
         import yaml
@@ -293,7 +319,7 @@ def voz_config():
 
 
 def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
-    voz_escolhida = voz_escolhida or voz_config()
+    voz_escolhida = voz_escolhida or escolher_voz_ab() or voz_config()
     if voz_escolhida.startswith("google") and not os.environ.get("GOOGLE_TTS_KEY"):
         voz_escolhida = "gemini:Charon" if os.environ.get("GEMINI_API_KEY") else VOZ_PADRAO
     if voz_escolhida.startswith("gemini") and not audio_externo:
@@ -431,6 +457,8 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
         q.desenhar(q.fundo_cena(img, bool(primeira and primeira.get("produto"))), 0.0, 0.0,
                    rot.get("capa_texto") or rot["titulo"], "", True).save(capa, quality=90)
     rot["creditos_extra"] = creditos
+    if not rot["slug"].startswith("amostra"):
+        registrar_voz(rot["slug"], voz)
     return {"arquivo": str(destino), "mb": round(destino.stat().st_size / 1024 / 1024, 2), "segundos": round(total, 1),
             "voz": voz, "capa": str(capa) if capa else None, "creditos": creditos}
 

@@ -40,9 +40,8 @@ Corrija no próprio arquivo e responda "APROVADO" ou o que mudou.
 ## Modo 3: relatório semanal do canal (segunda)
 Com os números do YouTube em `data/metricas.json` (`youtube`) e as visitas
 vindas do YouTube em `data/visitas.json`, escreva `data/relatorio_canal.md`:
-views, inscritos, os 3 vídeos que mais trouxeram gente ao blog, **voz
-ElevenLabs × voz grátis** (views e retenção médias de cada uma; diga se já dá
-para concluir ou se faltam vídeos), formato que mais funciona (Short × longo)
+views, inscritos, os 3 vídeos que mais trouxeram gente ao blog, **vozes
+Fenrir × Orus** (resuma o que a Luisa decidiu em `data/videos/vozes.json`), formato que mais funciona (Short × longo)
 e 3 ações para a semana. Nunca escreva valores em R$ de ganhos.
 
 ## Trabalho em equipe (vale sempre)
