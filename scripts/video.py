@@ -372,6 +372,9 @@ def gerar_descricao(rot):
     if meta:
         linhas.append(f"Matéria completa no blog: https://nexustechai.com.br/posts/{rot['post']}/"
                       f"?utm_source=youtube&utm_medium={rot.get('tipo', 'short')}&utm_campaign={rot['slug']}")
+    else:
+        linhas.append(f"Mais notícias e guias de tecnologia: https://nexustechai.com.br/"
+                      f"?utm_source=youtube&utm_medium={rot.get('tipo', 'short')}&utm_campaign={rot['slug']}")
     if ids:
         linhas += ["", "Produtos do vídeo (links de afiliado):"]
         linhas += [f"- {catalogo[i]['nome']}: {catalogo[i]['link_afiliado']}" for i in ids]
@@ -379,7 +382,7 @@ def gerar_descricao(rot):
         linhas += ["", "Capítulos:"] + rot["capitulos_desc"]
     linhas += ["", "Links de afiliado do Mercado Livre: se você comprar por eles, o canal ganha uma comissão,"
                " sem custo extra para você. Preços mudam: confira o valor atual no link."]
-    fontes = [f["nome"] for f in (meta.get("fontes") or []) if f.get("nome")]
+    fontes = list(dict.fromkeys([f["nome"] for f in (meta.get("fontes") or []) + (rot.get("fontes") or []) if f.get("nome")]))
     if fontes:
         linhas.append("Fontes: " + ", ".join(fontes) + ".")
     creditos = []

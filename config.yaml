@@ -32,6 +32,7 @@ equipe:
   viral: ""               # falta um apelido
   produtor: ""            # departamento de vídeo (falta apelido)
   roteirista: ""          # departamento de vídeo (falta apelido)
+  tendencias: ""          # departamento de vídeo (falta apelido)
 
 # A voz que assina todos os posts (pseudônimo, explicado na página Sobre).
 autor:

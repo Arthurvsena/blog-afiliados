@@ -35,8 +35,10 @@ manual de redação (`editorial/manual.md`).
   leitura diária do `analista` (o que bombou ontem e o que fazer hoje).
 - `data/redes.md`: textos prontos para WhatsApp, X, Instagram e TikTok de cada
   post, escritos pelo agente `viral` para o dono postar.
-- **Departamento de vídeo** (canal Nexus Tech no YouTube): agentes `produtor`
-  e `roteirista`, skill `canal-diario`. Roteiros em `data/videos/roteiros/`,
+- **Departamento de vídeo** (canal Nexus Tech no YouTube): agentes `tendencias`,
+  `produtor` e `roteirista`, skill `canal-diario`, linha editorial em
+  `editorial/canal.md` (canal dark de tecnologia sério; venda é consequência),
+  tendências do dia em `data/tendencias.json`. Roteiros em `data/videos/roteiros/`,
   registro dos vídeos publicados em `data/videos.json`, análise semanal em
   `data/relatorio_canal.md`. Vídeos com motion montados por
   `scripts/video_motion.py` + projeto Remotion em `video/` (reserva sem motion:

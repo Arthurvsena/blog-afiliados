@@ -18,11 +18,14 @@ vozes). A voz é a de `config.yaml > video.voz` (Google Chirp 3 HD, com a
 chave no segredo `GOOGLE_TTS_KEY`); sem a chave, o script usa sozinho a voz
 grátis Kokoro.
 
-## A1. Pauta
-Chame o `produtor` em **modo pauta do dia**. Ele devolve até 2 Shorts e 1 longo.
+## A1. Tendências e pauta
+1. Chame o `tendencias`: ele pesquisa o que está em alta hoje e atualiza
+   `data/tendencias.json`.
+2. Chame o `produtor` em **modo pauta do dia**. Ele devolve 2 Shorts e 1 longo,
+   seguindo `editorial/canal.md` (conteúdo primeiro, venda como consequência).
 
 ## A2. Roteiros
-Para cada vídeo: `roteirista` (com o tipo e o post) e depois `produtor` em
+Para cada vídeo: `roteirista` (com o tipo e a pauta: a tendência inteira em JSON ou o post) e depois `produtor` em
 **modo revisão** com o caminho do roteiro.
 
 ## A3. Montagem (um vídeo por vez)
