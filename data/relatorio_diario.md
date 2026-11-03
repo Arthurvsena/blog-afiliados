@@ -1,27 +1,25 @@
-# Relatório diário: 2026-11-01 (lido em 02/11)
-
-> Poucos dados: só há 2 dias de histórico, então a comparação é só com o dia anterior (31/10), não com a média de 7 dias. Não dá para tirar conclusões estatísticas.
+# Relatório diário: 2026-11-03 (dia analisado: 02/11)
 
 ## Ontem em números
-| | 01/11 | 31/10 | Variação |
-|---|---|---|---|
-| Visitas | 2 | 3 | -33% |
-| Visualizações | 6 | 12 | -50% |
-| Páginas por visita | 3,0 | 4,0 | -1,0 |
+- 2 visitas, 8 visualizações, 4,0 páginas por visita (meta de engajamento: 2,5 ou mais).
+- Origem: 2 diretas (0 Google, 0 redes). Ambas de computador nos EUA, entradas em `/` e `/guia-de-compras/`.
+- Comparação: só há 3 dias de dados, então comparo só com o dia anterior (01/11: 2 visitas, 6 visualizações). Visitas: igual. Visualizações: +33%.
+- Cuidado: visita direta de computador nos EUA pode ser robô ou checagem; não conta como público real.
+- Cloudflare mostra as últimas 24 horas, não o dia fechado.
 
-- Origem: 1 direto e 1 do Google (31/10: 3 diretas, 0 do Google). A primeira visita vinda do Google apareceu.
-- Search Console (último dia disponível, 31/10): 0 cliques e 0 impressões.
-- Cuidado: o Cloudflare mostrou as últimas 24 horas (cerca de 09h de 01/11 a 09h de 02/11), não o dia fechado. Os 12 de 31/10 incluíam 9 visualizações do host antigo (provavelmente navegação do dono).
-- Meta de 1,5 página por visita: batida (3,0). Meta de 50 visitas na semana: 5 até agora.
+## Google (Search Console de 01/11): as primeiras impressões do site
+- 14 impressões, 1 clique, posição média 8,2.
+- Páginas: alexa-plus (4), fone-bluetooth-ou-com-fio (3), melhores-power-banks (2), switch-2-zelda (2, o único clique), como-escolher-power-bank (1), vivo-satelite-starlink (1), macbook-pro-oled (1).
+- Consultas visíveis: "alexa 2027" e "eucerin power bank review 2026" (1 impressão cada; o resto é anônimo).
+- O Google começou a mostrar o site. O gargalo ainda é transformar impressão em clique.
 
 ## O que bombou
-Nada "em alta": sem média própria dos posts, não dá para medir 3x.
-1. Home (`/`): 1 visita de entrada.
-2. Post do Switch 2/Zelda (`/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/`): 1 visita, a do Google. Motivo provável: assunto de games em alta com busca real.
-3. Sem terceiro post com visita de entrada. As 6 visualizações também passaram por Análises e Tutoriais (sem contagem exata).
-
-Cliques na oferta: sem dado (o painel de afiliados é lido só na segunda).
+- Nenhum post em alta (3x a própria média): sem visitas por post, só páginas de entrada, e a base é de 3 dias.
+- Post com mais sinal: Switch 2/Zelda, 1 clique em 2 impressões (única entrada vinda do Google até agora).
+- Mais impressões: Alexa+ (4), com a consulta "alexa 2027" ligada ao assunto da prorrogação até fevereiro de 2027.
+- Editoria/subnicho: games (Switch 2/Zelda) trouxe o único clique; power banks (guia de compras) somam 3 impressões entre dois posts.
 
 ## O que fazer hoje
-1. `seo`: conferir indexação do post do Switch 2 e do sitemap no domínio novo, e pedir indexação do que faltar (única ação de crescimento: publicar e indexar).
-2. `pesquisador`: 1 pauta de continuação em games, com fonte confirmada e termo real.
+1. `pesquisador`: nova notícia de games continuando o Switch 2/Zelda (1 clique em 2 impressões, o único do Google).
+2. `seo`: título e descrição de alexa-plus (4 impressões, 0 cliques) e de fone-bluetooth-ou-com-fio (3 impressões, 0 cliques); conferir a canibalização da Alexa+.
+3. `viral`: textos de rede dos posts com impressão (alexa-plus, melhores-power-banks); as 5 últimas visitas foram todas diretas, 0 vindas de redes.

@@ -39,7 +39,7 @@
     },
     "analista": {
       "status": "ok",
-      "tarefa": "Semana 26/10: 14 visitas (só 6 no domínio novo), 2 cliques ML, 0 pedidos, 0 impressões no Google. Meta: 20 visitas no domínio novo."
+      "tarefa": "Ontem foram 2 visitas e 8 visualizações, nenhuma do Google. O Google mostrou o site pela 1ª vez: 14 impressões e 1 clique em 01/11."
     }
   },
   "historico": [
@@ -258,19 +258,80 @@
       "agente": "curador",
       "texto": "Cadastrei 15 produtos com link: 4 lâmpadas inteligentes, 5 smartbands/smartwatches, 5 acessórios gamer (2 mouses e 3 teclados) e 1 carregador turbo Samsung 25 W."
     },
-    {"data": "2026-11-02", "agente": "pesquisador", "texto": "Trouxe 5 pautas de notícia, com Mercado Bitcoin, SAC e Zelda Ocarina of Time."},
-    {"data": "2026-11-02", "agente": "viral", "texto": "Dei nota às pautas e escrevi os textos de rede dos sete posts de hoje."},
-    {"data": "2026-11-02", "agente": "redator", "texto": "Escrevi três notícias, um tutorial, uma análise e dois guias."},
-    {"data": "2026-11-02", "agente": "seo", "texto": "Revisei os sete posts e listei as URLs para pedir indexação."},
-    {"data": "2026-11-02", "agente": "vendas", "texto": "Pus links de compra nos guias de lâmpadas, teclados e smartband."},
-    {"data": "2026-11-02", "agente": "designer", "texto": "Peguei fotos livres e diagramei os sete posts."},
-    {"data": "2026-11-02", "agente": "chefe", "texto": "Reunião: foco em listas com produto pronto, palavras certas, links internos e produtos para destravar listas antes da Black Friday."},
-    {"data": "2026-11-02", "agente": "analista", "texto": "Reunião: sem métricas novas; meta de 20 visitas no domínio novo."},
-    {"data": "2026-11-02", "agente": "seo", "texto": "Reunião: relatório com 3 pautas novas e dois casos de canibalização."},
-    {"data": "2026-11-02", "agente": "vendas", "texto": "Reunião: 5 produtos órfãos e 3 apostas de venda para a Black Friday."},
-    {"data": "2026-11-02", "agente": "curador", "texto": "Reunião: sugestões de headsets, caixas e mouses; faltam 1 carregador e 2 mouses."},
-    {"data": "2026-11-02", "agente": "pesquisador", "texto": "Reunião: propôs 3 listas até 10/11 e guia de Black Friday."},
-    {"data": "2026-11-02", "agente": "redator", "texto": "Reunião: propôs listas de fones, smartbands, carregadores e mouses."},
-    {"data": "2026-11-02", "agente": "atualizador", "texto": "Reunião: propôs links internos em 7 notícias e correção de canibalização."}
+    {
+      "data": "2026-11-02",
+      "agente": "pesquisador",
+      "texto": "Trouxe 5 pautas de notícia, com Mercado Bitcoin, SAC e Zelda Ocarina of Time."
+    },
+    {
+      "data": "2026-11-02",
+      "agente": "viral",
+      "texto": "Dei nota às pautas e escrevi os textos de rede dos sete posts de hoje."
+    },
+    {
+      "data": "2026-11-02",
+      "agente": "redator",
+      "texto": "Escrevi três notícias, um tutorial, uma análise e dois guias."
+    },
+    {
+      "data": "2026-11-02",
+      "agente": "seo",
+      "texto": "Revisei os sete posts e listei as URLs para pedir indexação."
+    },
+    {
+      "data": "2026-11-02",
+      "agente": "vendas",
+      "texto": "Pus links de compra nos guias de lâmpadas, teclados e smartband."
+    },
+    {
+      "data": "2026-11-02",
+      "agente": "designer",
+      "texto": "Peguei fotos livres e diagramei os sete posts."
+    },
+    {
+      "data": "2026-11-02",
+      "agente": "chefe",
+      "texto": "Reunião: foco em listas com produto pronto, palavras certas, links internos e produtos para destravar listas antes da Black Friday."
+    },
+    {
+      "data": "2026-11-02",
+      "agente": "analista",
+      "texto": "Reunião: sem métricas novas; meta de 20 visitas no domínio novo."
+    },
+    {
+      "data": "2026-11-02",
+      "agente": "seo",
+      "texto": "Reunião: relatório com 3 pautas novas e dois casos de canibalização."
+    },
+    {
+      "data": "2026-11-02",
+      "agente": "vendas",
+      "texto": "Reunião: 5 produtos órfãos e 3 apostas de venda para a Black Friday."
+    },
+    {
+      "data": "2026-11-02",
+      "agente": "curador",
+      "texto": "Reunião: sugestões de headsets, caixas e mouses; faltam 1 carregador e 2 mouses."
+    },
+    {
+      "data": "2026-11-02",
+      "agente": "pesquisador",
+      "texto": "Reunião: propôs 3 listas até 10/11 e guia de Black Friday."
+    },
+    {
+      "data": "2026-11-02",
+      "agente": "redator",
+      "texto": "Reunião: propôs listas de fones, smartbands, carregadores e mouses."
+    },
+    {
+      "data": "2026-11-02",
+      "agente": "atualizador",
+      "texto": "Reunião: propôs links internos em 7 notícias e correção de canibalização."
+    },
+    {
+      "data": "2026-11-03",
+      "agente": "analista",
+      "texto": "Ontem foram 2 visitas e 8 visualizações, nenhuma do Google. O Google mostrou o site pela 1ª vez: 14 impressões e 1 clique em 01/11."
+    }
   ]
 }

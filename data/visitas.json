@@ -92,6 +92,80 @@
         "Cloudflare: as 2 visitas foram de computador (Chrome/Windows), 1 do Brasil e 1 dos EUA, todas em nexustechai.com.br",
         "Search Console: dia mais recente disponível é 31/10, com 0 cliques e 0 impressões nos últimos 7 dias (sem consultas nem páginas)"
       ]
+    },
+    {
+      "dia": "2026-11-02",
+      "visitas": 2,
+      "visualizacoes": 8,
+      "celular_pct": 0,
+      "youtube": 0,
+      "paginas": [
+        {
+          "url": "/",
+          "visitas": 1
+        },
+        {
+          "url": "/guia-de-compras/",
+          "visitas": 1
+        }
+      ],
+      "origens": [
+        {
+          "origem": "direto",
+          "visitas": 2
+        }
+      ],
+      "google": {
+        "dia": "2026-11-01",
+        "cliques": 1,
+        "impressoes": 14,
+        "consultas": [
+          {
+            "termo": "alexa 2027",
+            "cliques": 0,
+            "impressoes": 1
+          },
+          {
+            "termo": "eucerin power bank review 2026",
+            "cliques": 0,
+            "impressoes": 1
+          }
+        ],
+        "paginas": [
+          {
+            "url": "/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/",
+            "cliques": 1,
+            "impressoes": 2
+          },
+          {
+            "url": "/posts/alexa-plus-brasil-acesso-gratis-prorrogado-fevereiro-2027/",
+            "cliques": 0,
+            "impressoes": 4
+          },
+          {
+            "url": "/posts/fone-bluetooth-ou-com-fio/",
+            "cliques": 0,
+            "impressoes": 3
+          },
+          {
+            "url": "/posts/melhores-power-banks/",
+            "cliques": 0,
+            "impressoes": 2
+          },
+          {
+            "url": "/posts/como-escolher-power-bank/",
+            "cliques": 0,
+            "impressoes": 1
+          }
+        ]
+      },
+      "faltou": [
+        "Cloudflare: período 'últimas 24 horas' (BRT, ~09h de 02/11 a ~09h de 03/11), não o dia fechado de ontem",
+        "Cloudflare: 'paginas' são as páginas de entrada das visitas; sem contagem por página das 8 visualizações",
+        "Cloudflare: 2 visitas de computador, ambas dos EUA, todas em nexustechai.com.br; referer interno nexustechai.com.br aparece só nas visualizações",
+        "Search Console: dia mais recente disponível é 01/11 (1 clique, 14 impressões, posição média 8,2); o Google só mostra 2 consultas (as demais são anônimas)",
+        "Search Console: também com impressões em 01/11: /posts/vivo-satelite-starlink-celular-brasil/ (1) e /posts/macbook-pro-oled-touch-preco-brasil/ (1)"
+      ]
     }
   ]
 }

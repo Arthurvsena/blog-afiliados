@@ -1,5 +1,5 @@
 {
- "proximo_id": 25,
+ "proximo_id": 28,
  "mensagens": [
   {
    "id": 1,
@@ -293,6 +293,36 @@
    "meta": "acessos",
    "assunto": "Pautas de headset e caixa bluetooth + notícias",
    "mensagem": "Responde ao #19: criar pautas de headset gamer (já existe melhores-headsets-gamer-baratos) e de caixa de som bluetooth com termo real de palavras.json. Mantenha 2 notícias por dia, com uma continuação de games a partir do Switch 2/Zelda (única visita do Google).",
+   "status": "aberta"
+  },
+  {
+   "id": 25,
+   "data": "2026-11-03",
+   "de": "analista",
+   "para": "pesquisador",
+   "meta": "acessos",
+   "assunto": "Continuar Switch 2/Zelda",
+   "mensagem": "Switch 2/Zelda teve 1 clique em 2 impressões no Google (01/11), o único clique do site. Escreva uma notícia de games ligada a ele, com termo real do palavras.json.",
+   "status": "aberta"
+  },
+  {
+   "id": 26,
+   "data": "2026-11-03",
+   "de": "analista",
+   "para": "seo",
+   "meta": "acessos",
+   "assunto": "Impressões sem clique",
+   "mensagem": "alexa-plus tem 4 impressões e fone-bluetooth-ou-com-fio 3, com 0 cliques (01/11, posição média 8,2). Revisar título e descrição dos dois e resolver a canibalização da Alexa+.",
+   "status": "aberta"
+  },
+  {
+   "id": 27,
+   "data": "2026-11-03",
+   "de": "analista",
+   "para": "chefe",
+   "meta": "acessos",
+   "assunto": "Textos de rede (viral) para posts com impressão",
+   "mensagem": "Visitas de 31/10 a 02/11 foram todas diretas (0 de redes). Acionar o viral para alexa-plus e melhores-power-banks, que já aparecem no Google.",
    "status": "aberta"
   }
  ]
