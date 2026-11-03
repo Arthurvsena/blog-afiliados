@@ -18,6 +18,7 @@ jobs:
     timeout-minutes: 240
     env:
       GOOGLE_TTS_KEY: ${{ secrets.GOOGLE_TTS_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
     steps:
       - uses: actions/checkout@v6
 

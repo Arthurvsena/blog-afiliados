@@ -108,5 +108,5 @@ subnichos:
 
 # Canal de vídeo (departamento de vídeo)
 video:
-  voz: "google:Charon"      # Google Chirp 3 HD pt-BR (precisa do segredo GOOGLE_TTS_KEY); sem chave usa kokoro:pm_alex
+  voz: "gemini:Charon"      # Gemini TTS (segredo GEMINI_API_KEY, grátis no AI Studio); google:Charon (GOOGLE_TTS_KEY); sem chave usa kokoro:pm_alex
   elevenlabs_voz: "cCd5pjwRv69hyjEKrf0o"   # Renan Matheus (pt-BR), usada quando houver crédito

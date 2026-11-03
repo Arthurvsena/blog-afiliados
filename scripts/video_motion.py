@@ -254,6 +254,28 @@ def sfx(pasta):
     return whoosh, ding
 
 
+def narrar_gemini(texto, destino, voz="Charon"):
+    """Voz do Gemini (Google AI Studio, cota grátis, sem cartão). Uma chamada por vídeo. Precisa de GEMINI_API_KEY."""
+    import base64
+    corpo = json.dumps({
+        "model": os.environ.get("GEMINI_TTS_MODELO", "gemini-3.8-flash-tts"),
+        "input": [{"type": "user_input", "content": [{"type": "text", "text": texto, "annotations": [{
+            "type": "speech_metadata",
+            "style": "apresentador brasileiro de um canal de tecnologia no YouTube, sotaque do Brasil (paulista), "
+                     "ritmo rápido de Shorts, animado e natural, pronunciando nomes em inglês do jeito que os brasileiros falam"}]}]}],
+        "response_format": {"type": "audio"},
+        "generation_config": {"speech_config": [{"voice": voz}]},
+    }).encode()
+    req = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/interactions", data=corpo,
+                                 headers={"Content-Type": "application/json", "x-goog-api-key": os.environ["GEMINI_API_KEY"]})
+    resp = json.loads(urllib.request.urlopen(req, timeout=180).read())
+    audios = [c for st in resp.get("steps", []) if st.get("type") == "model_output"
+              for c in st.get("content", []) if c.get("type") == "audio"]
+    if not audios:
+        raise RuntimeError(f"Gemini não devolveu áudio: {str(resp)[:300]}")
+    Path(destino).write_bytes(base64.b64decode(audios[-1]["data"]))
+
+
 def voz_config():
     try:
         import yaml
@@ -265,7 +287,19 @@ def voz_config():
 def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
     voz_escolhida = voz_escolhida or voz_config()
     if voz_escolhida.startswith("google") and not os.environ.get("GOOGLE_TTS_KEY"):
-        voz_escolhida = VOZ_PADRAO
+        voz_escolhida = "gemini:Charon" if os.environ.get("GEMINI_API_KEY") else VOZ_PADRAO
+    if voz_escolhida.startswith("gemini") and not audio_externo:
+        if not os.environ.get("GEMINI_API_KEY"):
+            voz_escolhida = VOZ_PADRAO
+        else:
+            try:
+                arq = Path("/tmp") / f"gemini-{rot['slug']}.wav"
+                texto = "\n\n".join(falado(c["fala"]) for c in rot["cenas"] if c.get("fala"))
+                narrar_gemini(texto, arq, voz_escolhida.split(":", 1)[1] if ":" in voz_escolhida else "Charon")
+                audio_externo = str(arq)
+            except Exception as e:
+                print(f"(Gemini falhou: {e}; usando a voz grátis)", file=sys.stderr)
+                voz_escolhida = VOZ_PADRAO
     tipo = rot.get("tipo", "short")
     fps = 30
     largura, altura = (1080, 1920) if tipo == "short" else (1280, 720)
@@ -290,7 +324,7 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
         tempos_trechos = [[total * len(txt(g)) / soma for g in gs] for gs in trechos_por_cena]
         audio = pasta / ("narracao" + Path(audio_externo).suffix)
         shutil.copy(audio_externo, audio)
-        voz = "elevenlabs"
+        voz = voz_escolhida if voz_escolhida.startswith("gemini") else "elevenlabs"
     else:
         falar = sintetizador(voz_escolhida)
         wavs, tempos_trechos = [], []
