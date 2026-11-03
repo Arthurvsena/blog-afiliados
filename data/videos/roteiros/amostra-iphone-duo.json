@@ -35,20 +35,27 @@
       "destaque": "R$ 30.999",
       "rotulo": "versão de 2 TB",
       "imagens": [
-        "url:https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-Netflix-app-260909_big.jpg.large_2x.jpg|Divulgação/Apple"
+        "url:https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-Case-navy-blue-260909_big.jpg.large_2x.jpg|Divulgação/Apple"
       ]
     },
     {
-      "tipo": "fato",
+      "tipo": "comparativo",
       "fala": "São duas telas: uma de {5,4\"|cinco vírgula quatro polegadas} por fora e uma de {7,6\"|sete vírgula seis} por dentro.",
-      "imagens": [
-        "url:https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-Detail-app-260909_big.jpg.large_2x.jpg|Divulgação/Apple",
-        "url:https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-Zoom-app-260909_big.jpg.large_2x.jpg|Divulgação/Apple"
+      "itens": [
+        {
+          "valor": "5,4\"",
+          "rotulo": "fora"
+        },
+        {
+          "valor": "7,6\"",
+          "rotulo": "dentro"
+        }
       ]
     },
     {
-      "tipo": "info",
-      "icone": "calendario",
+      "tipo": "data",
+      "destaque": "JAN 2027",
+      "rotulo": "previsão de entrega",
       "fala": "Quem pede agora só recebe em janeiro de {2027|dois mil e vinte e sete}. Em alguns CEPs, só em fevereiro."
     },
     {
@@ -61,7 +68,6 @@
       "fala": "Os preços de cada versão estão no link da bio. Você pagaria isso num celular?",
       "tela": "Você pagaria isso num celular?",
       "imagens": [
-        "url:https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-48MP-Fusion-Main-camera-260909_big.jpg.large_2x.jpg|Divulgação/Apple",
         "url:https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-colors-260909_big.jpg.large_2x.jpg|Divulgação/Apple"
       ]
     }

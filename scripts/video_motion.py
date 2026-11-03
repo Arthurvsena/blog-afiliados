@@ -41,7 +41,19 @@ UA = base.UA
 
 
 VOZ_PADRAO = "kokoro:pm_alex"
+VELOCIDADE = 1.12
 KOKORO_URL = "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/"
+
+
+def pronunciar(texto):
+    """Troca nomes em inglês pela grafia que a voz grátis lê com sotaque brasileiro (data/videos/pronuncia.json)."""
+    arq = RAIZ / "data" / "videos" / "pronuncia.json"
+    if not arq.exists():
+        return texto
+    dic = {k: v for k, v in json.loads(arq.read_text(encoding="utf-8")).items() if not k.startswith("_")}
+    for k in sorted(dic, key=len, reverse=True):
+        texto = re.sub(r"(?<![\w-])" + re.escape(k) + r"(?![\w-])", dic[k], texto, flags=re.I)
+    return texto
 
 
 def sintetizador(voz):
@@ -58,7 +70,7 @@ def sintetizador(voz):
         k = Kokoro(str(cache / "kokoro-v1.0.onnx"), str(cache / "voices-v1.0.bin"))
 
         def falar(texto, destino):
-            som, taxa = k.create(texto, voice=nome or "pm_alex", speed=1.08, lang="pt-br")
+            som, taxa = k.create(pronunciar(texto), voice=nome or "pm_alex", speed=VELOCIDADE, lang="pt-br")
             sf.write(str(destino), som, taxa, subtype="PCM_16")
         return falar
     # piper
@@ -74,7 +86,7 @@ def sintetizador(voz):
 
     def falar(texto, destino):
         with wave.open(str(destino), "wb") as wf:
-            v.synthesize_wav(texto, wf, syn_config=cfg)
+            v.synthesize_wav(pronunciar(texto), wf, syn_config=cfg)
     return falar
 
 
@@ -293,7 +305,7 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
         dur = max(round(t * fps) - ini, 20)
         tipo_c = c.get("tipo") or ("gancho" if ci == 0 else "cta" if ci == n - 1 else "fato")
         cena = {"ini": ini, "dur": dur, "tipo": tipo_c, "tela": c.get("tela") or " ".join(t for t, _ in tokens(c["fala"])), "destaque": c.get("destaque", ""),
-                "rotulo": c.get("rotulo", ""), "icone": c.get("icone", ""), "capitulo": c.get("capitulo", ""), "imagens": c.get("_imagens", []), "palavras": palavras}
+                "rotulo": c.get("rotulo", ""), "icone": c.get("icone", ""), "itens": c.get("itens", []), "capitulo": c.get("capitulo", ""), "imagens": c.get("_imagens", []), "palavras": palavras}
         if tipo_c == "produto":
             pid = c.get("produto") or next((r.split(":", 1)[1] for r in (c.get("imagens") or []) if str(r).startswith("produto:")), "")
             p = catalogo.get(pid, {})
@@ -354,13 +366,22 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("roteiro")
+    ap.add_argument("roteiro", nargs="?")
+    ap.add_argument("--pronuncia", help="mostra como a voz grátis vai ler um texto")
     ap.add_argument("--audio", help="narração pronta (ElevenLabs) com o roteiro inteiro")
     ap.add_argument("--voz", help=f"voz grátis (padrão {VOZ_PADRAO}); ex.: kokoro:pm_santa, piper:cadu")
     ap.add_argument("--saida")
     ap.add_argument("--manter", action="store_true", help="não apaga a pasta temporária em video/public/run/")
     ap.add_argument("--fala", action="store_true", help="só imprime o texto falado inteiro (para o ElevenLabs)")
     a = ap.parse_args()
+    if a.pronuncia:
+        print(pronunciar(a.pronuncia))
+        try:
+            from kokoro_onnx.tokenizer import Tokenizer
+            print(Tokenizer().phonemize(pronunciar(a.pronuncia), "pt-br"))
+        except Exception:
+            pass
+        return
     rot = json.loads(Path(a.roteiro).read_text(encoding="utf-8"))
     if a.fala:
         print(" ".join(falado(c["fala"]) for c in rot["cenas"] if c.get("fala")))

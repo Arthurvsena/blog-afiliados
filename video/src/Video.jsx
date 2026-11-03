@@ -290,6 +290,62 @@ const Info = ({cena, k, vertical}) => {
   );
 };
 
+// ---------- data (calendário) ----------
+const Data = ({cena, k, vertical}) => {
+  const f = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const [mes, ano] = (cena.destaque || '').split(/\s+/);
+  const s = spring({frame: f, fps, config: {damping: 12, stiffness: 120}});
+  const vira = interpolate(f, [6, 22], [90, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.out(Easing.back(1.6))});
+  const w = (vertical ? 560 : 380) * k;
+  return (
+    <AbsoluteFill style={{background: 'radial-gradient(circle at 50% 38%, #2b2160 0%, #0a0a12 62%, #050507 100%)', alignItems: 'center',
+      justifyContent: vertical ? 'flex-start' : 'center', paddingTop: vertical ? '30%' : 0, perspective: 1600}}>
+      <div style={{width: w, borderRadius: 40 * k, overflow: 'hidden', boxShadow: '0 40px 140px rgba(124,92,255,.55)', transform: `scale(${s})`}}>
+        <div style={{background: ROSA, height: 150 * k, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 80 * k, position: 'relative'}}>
+          <div style={{width: 26 * k, height: 26 * k, borderRadius: '50%', background: '#0a0a12'}} />
+          <div style={{width: 26 * k, height: 26 * k, borderRadius: '50%', background: '#0a0a12'}} />
+        </div>
+        <div style={{background: '#fff', padding: `${30 * k}px 0 ${44 * k}px`, textAlign: 'center', transformOrigin: 'top', transform: `rotateX(${vira}deg)`}}>
+          <div style={{fontFamily: FONTE, fontWeight: 900, fontSize: 130 * k, color: '#0b0b12', lineHeight: 1, textTransform: 'uppercase'}}>{mes}</div>
+          {ano ? <div style={{fontFamily: FONTE, fontWeight: 800, fontSize: 90 * k, color: ROXO, lineHeight: 1.1}}>{ano}</div> : null}
+        </div>
+      </div>
+      {cena.rotulo ? <div style={{marginTop: 40 * k, fontFamily: FONTE, fontWeight: 800, fontSize: 48 * k, color: '#fff', background: 'rgba(124,92,255,.25)',
+        border: `${3 * k}px solid ${ROXO}`, borderRadius: 18 * k, padding: `${10 * k}px ${28 * k}px`,
+        opacity: interpolate(f, [18, 28], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}}>{cena.rotulo}</div> : null}
+    </AbsoluteFill>
+  );
+};
+
+// ---------- comparativo (dois números lado a lado) ----------
+const Comparativo = ({cena, k, vertical}) => {
+  const f = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const itens = (cena.itens || []).slice(0, 3);
+  return (
+    <AbsoluteFill style={{background: 'radial-gradient(circle at 50% 38%, #2b2160 0%, #0a0a12 62%, #050507 100%)', alignItems: 'center',
+      justifyContent: vertical ? 'flex-start' : 'center', paddingTop: vertical ? '28%' : 0}}>
+      <div style={{display: 'flex', gap: 34 * k, alignItems: 'flex-end'}}>
+        {itens.map((it, i) => {
+          const s = spring({frame: f - i * 10, fps, config: {damping: 12, stiffness: 140}});
+          const alto = (vertical ? 360 : 220) * k * (1 + i * 0.35);
+          return (
+            <div key={i} style={{textAlign: 'center', transform: `translateY(${(1 - s) * 300}px)`, opacity: s}}>
+              <div style={{width: (vertical ? 380 : 240) * k, height: alto, borderRadius: 34 * k, border: `${6 * k}px solid #fff`,
+                background: i === itens.length - 1 ? `linear-gradient(160deg, ${ROXO}, #3b22b8)` : 'rgba(255,255,255,.08)',
+                display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 30px 100px rgba(124,92,255,.35)'}}>
+                <span style={{fontFamily: FONTE, fontWeight: 900, fontSize: (vertical ? 130 : 96) * k, color: '#fff', letterSpacing: -3 * k}}>{it.valor}</span>
+              </div>
+              <div style={{marginTop: 22 * k, fontFamily: FONTE, fontWeight: 800, fontSize: 52 * k, color: '#fff', textTransform: 'uppercase'}}>{it.rotulo}</div>
+            </div>
+          );
+        })}
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 const Capitulo = ({cena, k}) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
@@ -314,7 +370,7 @@ const Cena = ({cena, k, vertical, primeira}) => {
   const escuro = cena.tipo === 'numero' || cena.tipo === 'gancho' ? 0.5 : 0.35;
   return (
     <AbsoluteFill style={{transform: `scale(${interpolate(entra, [0, 1], [1.12, 1])}) translateX(${treme}px)`}}>
-      {cena.tipo === 'produto' ? <Produto cena={cena} k={k} vertical={vertical} /> : cena.tipo === 'info' ? <Info cena={cena} k={k} vertical={vertical} /> : <Fundo cena={cena} vertical={vertical} />}
+      {cena.tipo === 'produto' ? <Produto cena={cena} k={k} vertical={vertical} /> : cena.tipo === 'info' ? <Info cena={cena} k={k} vertical={vertical} /> : cena.tipo === 'data' ? <Data cena={cena} k={k} vertical={vertical} /> : cena.tipo === 'comparativo' ? <Comparativo cena={cena} k={k} vertical={vertical} /> : <Fundo cena={cena} vertical={vertical} />}
       <AbsoluteFill style={{background: vertical ? `linear-gradient(180deg, rgba(5,5,7,.75) 0%, rgba(5,5,7,0) 20%, rgba(5,5,7,${escuro}) 42%, rgba(5,5,7,.78) 56%, rgba(5,5,7,.8) 72%, rgba(5,5,7,.95) 100%)` : `linear-gradient(180deg, rgba(5,5,7,.7) 0%, rgba(5,5,7,0) 22%, rgba(5,5,7,${escuro}) 55%, rgba(5,5,7,.92) 100%)`}} />
       {cena.tipo === 'gancho' ? <Gancho cena={cena} k={k} vertical={vertical} /> : null}
       {cena.tipo === 'numero' ? <Numero cena={cena} k={k} vertical={vertical} /> : null}
@@ -340,9 +396,9 @@ export const Video = (props) => {
         </Sequence>
       ))}
       {/* legenda palavra por palavra (fica por cima das cenas) */}
-      {cenas.map((c, i) => (c.tipo === 'fato' || c.tipo === 'produto' || c.tipo === 'info') && (c.palavras || []).length ? (
+      {cenas.map((c, i) => ['fato', 'produto', 'info', 'data', 'comparativo'].includes(c.tipo) && (c.palavras || []).length ? (
         <Sequence key={'l' + i} from={c.ini} durationInFrames={c.dur}>
-          <Legenda palavras={c.palavras} base={c.ini} k={k} vertical={vertical} baixo={c.tipo === 'produto' || c.tipo === 'info'} />
+          <Legenda palavras={c.palavras} base={c.ini} k={k} vertical={vertical} baixo={['produto', 'info', 'data', 'comparativo'].includes(c.tipo)} />
         </Sequence>
       ) : null)}
       <Topo selo={selo} k={k} cenas={cenas} frame={frame} />

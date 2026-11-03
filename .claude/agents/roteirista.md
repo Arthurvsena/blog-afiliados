@@ -50,7 +50,22 @@ ouvir), o post de origem inteiro, `data/videos.json` (o que já virou vídeo),
   cadeado, relogio) com a legenda embaixo. Use quando não houver foto que
   mostre exatamente o que a fala diz (prazo de entrega, chip, preço, aviso).
 
-**Fotos: só o que mostra exatamente o assunto da fala.** Uma foto genérica
+- `data`: calendário que vira na tela (`destaque`: "JAN 2027", `rotulo`:
+  "previsão de entrega"). Use para prazos, lançamentos e datas.
+- `comparativo`: 2 ou 3 cartões lado a lado (`itens`: [{"valor": "5,4\"",
+  "rotulo": "fora"}, {"valor": "7,6\"", "rotulo": "dentro"}]). Use para
+  tamanhos, versões, antes × depois.
+
+**Pronúncia:** a voz grátis lê nomes em inglês do jeito brasileiro usando
+`data/videos/pronuncia.json` ("iPhone" vira "Aifone"). Confira as palavras
+estrangeiras do roteiro com
+`python3 scripts/video_motion.py --pronuncia "texto"`; se alguma não estiver
+no arquivo, acrescente com a grafia de como um brasileiro fala.
+
+**Fotos: só fotos oficiais do próprio produto ou da notícia.** Nada de foto
+de app, de exemplo de câmera, de pessoas ou de "clima": se não houver foto
+oficial que mostre exatamente o que a fala diz, use uma cena gráfica
+(`numero`, `info`, `data`, `comparativo`). Na dúvida, gráfico. Uma foto genérica
 ou de outra coisa estraga o vídeo; nesse caso use uma cena `info`. Em
 `imagens` (1 a 3 por cena, trocam a cada ~1,5 s; não repita a mesma foto em
 cenas seguidas), nesta ordem de preferência:
