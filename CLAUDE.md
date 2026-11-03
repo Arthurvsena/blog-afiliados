@@ -35,6 +35,11 @@ manual de redação (`editorial/manual.md`).
   leitura diária do `analista` (o que bombou ontem e o que fazer hoje).
 - `data/redes.md`: textos prontos para WhatsApp, X, Instagram e TikTok de cada
   post, escritos pelo agente `viral` para o dono postar.
+- **Departamento de vídeo** (canal Nexus Tech no YouTube): agentes `produtor`
+  e `roteirista`, skill `canal-diario`. Roteiros em `data/videos/roteiros/`,
+  registro dos vídeos publicados em `data/videos.json`, análise semanal em
+  `data/relatorio_canal.md`. Vídeos montados por `scripts/video.py` (voz grátis
+  Piper ou narração do ElevenLabs).
 - `content/posts/*.md`: os posts (Markdown com frontmatter YAML).
 - `design/marca.yaml`: identidade visual (cores, fontes, logo, regras), mantida
   pelo agente `designer`. O site lê as cores e fontes daqui.

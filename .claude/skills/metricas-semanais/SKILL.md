@@ -34,6 +34,15 @@ página**, as 10 páginas mais vistas, as principais origens (referrers) e a
 divisão celular/computador.
 Se não estiver configurado, registre "sem dado (Cloudflare não configurado)".
 
+## 3b. YouTube Studio (canal Nexus Tech)
+Abra `https://studio.youtube.com` > **Análises**, período de 7 dias, e anote:
+visualizações, horas assistidas, inscritos ganhos, e para cada vídeo da
+semana (aba Conteúdo): visualizações, duração média vista (retenção) e
+taxa de cliques da miniatura. Cruze com `data/videos.json` para saber a voz
+de cada vídeo. Grave em `youtube` na semana:
+`{"views": 0, "horas": 0.0, "inscritos": 0, "videos": [{"slug": "...", "views": 0, "retencao_pct": 0, "ctr": 0.0, "voz": "piper"}]}`.
+Depois do analista, chame o `produtor` em **modo relatório semanal**.
+
 ## 3a. Google AdSense (se o site já tiver anúncios)
 Abra `https://www.google.com/adsense/` > **Relatórios**, período de 7 dias, e
 anote: **visualizações de página**, **impressões**, **CTR** e as 10 páginas com

@@ -96,7 +96,7 @@
 <script>
 (() => {
 const D = JSON.parse(document.getElementById('dados').textContent);
-const W = 476, H = 216;
+const W = 568, H = 216;
 const cv = document.getElementById('cena'), box = document.getElementById('cena-box');
 cv.width = W; cv.height = H;
 const g = cv.getContext('2d');
@@ -112,6 +112,8 @@ const AG = [
   { id:'vendas',      nome:'Vendas',      cargo:'Faz cada post levar à compra', x:144, y:170, cam:'#e0b23d', cab:'#c4461c', pele:'#f6d6bd', acc:'ruiva', luz:'#ffe08a' },
   { id:'designer',    nome:'Designer',    cargo:'Cuida da marca e da cara de cada post', x:236, y:170, cam:'#7C5CFF', cab:'#e8c27a', pele:'#c98f6b', acc:'boina', luz:'#c9b8ff', aux:'#14213D' },
   { id:'viral',       nome:'Viral',       cargo:'Faz os posts se espalharem', x:420, y:100, cam:'#ff5d73', cab:'#2a1a12', pele:'#c98f6b', acc:'bone', aux:'#111', luz:'#ffb3c0' },
+  { id:'produtor',    nome:'Produtor',    cargo:'Comanda o canal no YouTube', x:512, y:100, cam:'#1f2937', cab:'#e8e8e8', pele:'#e8b98f', acc:'fone', aux:'#ff5d73', luz:'#ff9aa8' },
+  { id:'roteirista',  nome:'Roteirista',  cargo:'Escreve os roteiros dos vídeos', x:512, y:170, cam:'#f59e0b', cab:'#3b2416', pele:'#a86b4a', acc:'longo', luz:'#ffd27f' },
   { id:'atualizador', nome:'Atualizador', cargo:'Mantém posts frescos', x:328, y:170, cam:'#d64f7a', cab:'#121212', pele:'#f1cdb0', acc:'barba', forte:true,  luz:'#ffa6c4' },
 ];
 const CHEFE = { id:'chefe', nome:'Editor-chefe', cargo:'Coordena a rotina', cam:'#2a2f45', cab:'#3b2a20', pele:'#e8b98f', acc:'gravata', aux:'#ff5d73' };
@@ -173,6 +175,12 @@ function fundo(t) {
   P('#10141f', 392, 12, 70, 42); P(n ? '#0b1020' : '#141a2e', 395, 15, 64, 36);
   [[400,40,5],[408,36,9],[416,31,14],[424,27,18],[432,22,23],[440,19,26],[448,16,29]].forEach(([x,y,h],i) => P(i === 6 ? '#ff5d73' : '#7C5CFF', x, y + (i === 6 && t % 20 < 10 ? -1 : 0), 6, h + 3 - (y - 16) * 0 ));
   P('#2b2b2b', 424, 54, 6, 6); P('#1d2738', 416, 60, 22, 2);
+  // estúdio: luz de gravação (REC)
+  P('#1a0a0e', 484, 16, 56, 20); P('#2b0a10', 486, 18, 52, 16);
+  if (t % 30 < 20) { P('#ff2d4b', 492, 21, 10, 10); P('#ff8a9b', 494, 22, 3, 3); }
+  P('#ffe3e8', 508, 22, 3, 8); P('#ffe3e8', 508, 22, 6, 2); P('#ffe3e8', 513, 22, 2, 4); P('#ffe3e8', 508, 25, 6, 2); P('#ffe3e8', 512, 27, 2, 3);
+  P('#ffe3e8', 517, 22, 2, 8); P('#ffe3e8', 517, 22, 6, 2); P('#ffe3e8', 517, 25, 5, 2); P('#ffe3e8', 517, 28, 6, 2);
+  P('#ffe3e8', 526, 22, 2, 8); P('#ffe3e8', 526, 22, 6, 2); P('#ffe3e8', 526, 28, 6, 2);
   // pufe e planta no canto
   P('#ff5d73', 402, 182, 26, 14); P('#d94a60', 402, 192, 26, 4); P('#8a4b2a', 444, 186, 14, 12); P('#3fa34d', 446, 172, 4, 14); P('#3fa34d', 451, 168, 4, 18); P('#3fa34d', 442, 178, 4, 8);
 }
@@ -241,6 +249,8 @@ function mesa(a, t, modo) {
   if (a.id === 'curador') { P('#c48a4a', x - 13, y - 5, 7, 5); P('#8a5a2a', x - 13, y - 3, 7, 1); } // caixa
   if (a.id === 'analista') { P('#fff', x - 16, y - 7, 9, 7); P('#2f9e6e', x - 15, y - 3, 1, 3); P('#2f9e6e', x - 13, y - 5, 1, 5); P('#7C5CFF', x - 11, y - 4, 1, 4); P('#2f9e6e', x - 9, y - 6, 1, 6); }
   if (a.id === 'vendas') { P('#ffd60a', x - 16, y - 6, 7, 6); P('#b38f00', x - 15, y - 8, 1, 2); P('#b38f00', x - 11, y - 8, 1, 2); P('#b38f00', x - 15, y - 8, 5, 1); }
+  if (a.id === 'produtor') { P('#222', x - 16, y - 8, 8, 6); P('#444', x - 16, y - 8, 8, 1); P('#ff5d73', x - 15, y - 6, 2, 2); P('#111', x - 13, y - 2, 1, 2); }   // câmera
+  if (a.id === 'roteirista') { P('#fff', x - 16, y - 3, 8, 3); P('#111', x - 16, y - 6, 8, 3); P('#fff', x - 15, y - 6, 1, 3); P('#fff', x - 12, y - 6, 1, 3); P('#fff', x - 9, y - 6, 1, 3); }   // claquete
   if (a.id === 'viral') { // celular com coração
     P('#111', x - 15, y - 9, 6, 9); P('#8fd3ff', x - 14, y - 8, 4, 6); P('#ff5d73', x - 13, y - 6, 1, 1); P('#ff5d73', x - 11, y - 6, 1, 1); P('#ff5d73', x - 13, y - 5, 3, 1); P('#ff5d73', x - 12, y - 4, 1, 1); }
   if (a.id === 'atualizador') { // carrinho preto
@@ -253,7 +263,7 @@ function mesa(a, t, modo) {
 }
 
 // ---------- editor-chefe andando ----------
-const ROTA = [[52,152],[144,152],[236,152],[328,152],[420,152],[328,214],[236,214],[144,214],[52,214]];
+const ROTA = [[52,152],[144,152],[236,152],[328,152],[420,152],[512,152],[512,214],[328,214],[236,214],[144,214],[52,214]];
 let chefe = { x:52, y:152, alvo:1, pausa:0 };
 function moverChefe() {
   if (noite()) return;

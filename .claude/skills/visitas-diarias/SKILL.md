@@ -19,7 +19,8 @@ Abra `https://dash.cloudflare.com/` > **Analytics & Logs** > **Web Analytics**,
 escolha o site do blog (no Cloudflare ele aparece como `arthurvsena.github.io`, o nome antigo, mas conta as visitas de nexustechai.com.br) e o período
 "últimas 24 horas" ou o dia de ontem. Anote: **visitas**, **visualizações de
 página**, as 10 páginas mais vistas (caminho e visitas), as origens
-(referrers) e a divisão celular/computador.
+(referrers) e a divisão celular/computador. Anote à parte as visitas vindas
+de `youtube.com` (são do canal) em `"youtube": N`.
 
 ## 2. Google Search Console
 Abra `https://search.google.com/search-console`, a propriedade do blog
@@ -32,7 +33,7 @@ Acrescente o dia em `data/visitas.json` (crie se não existir), mantendo os 90
 dias mais recentes e sem repetir o mesmo dia:
 ```json
 {"dias": [
-  {"dia": "AAAA-MM-DD", "visitas": 0, "visualizacoes": 0, "celular_pct": 0,
+  {"dia": "AAAA-MM-DD", "visitas": 0, "visualizacoes": 0, "celular_pct": 0, "youtube": 0,
    "paginas": [{"url": "/posts/slug/", "visitas": 0}],
    "origens": [{"origem": "google", "visitas": 0}],
    "google": {"dia": "AAAA-MM-DD", "cliques": 0, "impressoes": 0,
