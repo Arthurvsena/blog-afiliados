@@ -318,6 +318,24 @@ def voz_config():
         return VOZ_PADRAO
 
 
+def comprimir(origem, destino, segundos, tipo="short", alvo_mb=9.2):
+    """Comprime para ficar abaixo de alvo_mb (2 passadas). Também serve para vídeos já prontos."""
+    kbps_a = 96 if tipo == "short" else 64
+    for tentativa in range(3):
+        v = int(alvo_mb * (0.93 ** tentativa) * 8192 / max(segundos, 1)) - kbps_a
+        v = max(220, min(v, 6000 if tipo == "short" else 3000))
+        log = Path("/tmp") / f"x264-{Path(destino).stem}"
+        base.rodar(["ffmpeg", "-y", "-v", "error", "-i", str(origem), "-c:v", "libx264", "-preset", "slow", "-b:v", f"{v}k",
+                    "-pass", "1", "-passlogfile", str(log), "-an", "-f", "null", "/dev/null"])
+        base.rodar(["ffmpeg", "-y", "-v", "error", "-i", str(origem), "-c:v", "libx264", "-preset", "slow", "-b:v", f"{v}k",
+                    "-pass", "2", "-passlogfile", str(log), "-pix_fmt", "yuv420p",
+                    "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-c:a", "aac", "-b:a", f"{kbps_a}k",
+                    "-movflags", "+faststart", str(destino)])
+        if Path(destino).stat().st_size <= 9.5 * 1024 * 1024:
+            return
+    raise SystemExit(f"Não consegui deixar {destino} abaixo de 9,5 MB.")
+
+
 def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
     voz_escolhida = voz_escolhida or escolher_voz_ab() or voz_config()
     if voz_escolhida.startswith("google") and not os.environ.get("GOOGLE_TTS_KEY"):
@@ -431,22 +449,12 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
     if r.returncode != 0 or not bruto.exists():
         sys.exit("Render do Remotion falhou (use scripts/video.py como reserva).")
 
-    # comprime para caber no envio pelo Chrome
+    # comprime para caber no envio pelo Chrome (limite de 10 MB por arquivo): 2 passadas com taxa calculada
     saida = Path(saida or RAIZ / "_videos")
     saida.mkdir(parents=True, exist_ok=True)
     destino = saida / f"{rot['slug']}.mp4"
     total = duracao / fps
-    kbps_a = 128
-    alvo = max(400, min(int(base.LIMITE_MB * 8 * 1024 / total) - kbps_a, 6000 if tipo == "short" else 3000))
-    base.rodar(["ffmpeg", "-y", "-v", "error", "-i", str(bruto), "-c:v", "libx264", "-preset", "medium",
-                "-b:v", f"{alvo}k", "-maxrate", f"{int(alvo * 1.25)}k", "-bufsize", f"{alvo * 2}k", "-pix_fmt", "yuv420p",
-                "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-c:a", "aac", "-b:a", f"{kbps_a}k", "-movflags", "+faststart", str(destino)])
-    if destino.stat().st_size > 9.6 * 1024 * 1024:
-        alvo = int(alvo * 0.8)
-        base.rodar(["ffmpeg", "-y", "-v", "error", "-i", str(bruto), "-c:v", "libx264", "-preset", "medium", "-b:v", f"{alvo}k",
-                    "-maxrate", f"{alvo}k", "-bufsize", f"{alvo * 2}k", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "96k",
-                    "-movflags", "+faststart", str(destino) + ".tmp.mp4"])
-        os.replace(str(destino) + ".tmp.mp4", destino)
+    comprimir(bruto, destino, total, tipo)
 
     capa = None
     if tipo == "longo":
@@ -472,7 +480,15 @@ def main():
     ap.add_argument("--saida")
     ap.add_argument("--manter", action="store_true", help="não apaga a pasta temporária em video/public/run/")
     ap.add_argument("--fala", action="store_true", help="só imprime o texto falado inteiro (para o ElevenLabs)")
+    ap.add_argument("--comprimir", help="só comprime um .mp4 pronto para menos de 9,5 MB (sobrescreve)")
     a = ap.parse_args()
+    if a.comprimir:
+        arq = Path(a.comprimir)
+        tmp = arq.with_suffix(".tmp.mp4")
+        comprimir(arq, tmp, base.duracao(arq), "longo" if base.duracao(arq) > 70 else "short")
+        os.replace(tmp, arq)
+        print(f"{arq}: {arq.stat().st_size / 1024 / 1024:.2f} MB")
+        return
     if a.pronuncia:
         print(pronunciar(a.pronuncia))
         try:

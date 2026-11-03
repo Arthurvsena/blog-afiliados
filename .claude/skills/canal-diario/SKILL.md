@@ -62,7 +62,10 @@ gh api repos/Arthurvsena/blog-afiliados/releases/tags/videos-AAAA-MM-DD --jq '.a
   while read id nome; do gh api -H "Accept: application/octet-stream" repos/Arthurvsena/blog-afiliados/releases/assets/$id > "$nome"; done
 ```
 (data de hoje no horário de Brasília). Se não existir Release de hoje, avise o
-dono que a produção não rodou e termine. Pule vídeos cujo `slug` já esteja em
+dono que a produção não rodou e termine.
+O envio pelo Chrome aceita no máximo 10 MB por arquivo: para cada `.mp4` com mais
+de 9,5 MB, rode `pip install --break-system-packages -q pyyaml pillow` e
+`python3 scripts/video_motion.py --comprimir CAMINHO.mp4` antes de enviar. Pule vídeos cujo `slug` já esteja em
 `data/videos.json` com status `publicado`.
 
 ## B2. Publique no YouTube (Chrome do dono)
