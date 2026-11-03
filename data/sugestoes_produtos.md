@@ -2,6 +2,45 @@
 
 O curador escreve aqui os produtos que vale cadastrar em data/produtos.csv.
 
+## Sugestões de 2026-11-03
+
+**Aviso para o cadastrador:** o Mercado Livre segue bloqueando a leitura (HTTP 403), então nota e avaliações do ML **não** foram conferidas aqui. Preços abaixo são de outras lojas (indicativos). Critério na hora do cadastro: nota 4,5+ e 200+ avaliações no anúncio do ML; senão descarte e use o reserva. Prefira loja oficial ou MercadoLíder e confira o selo Anatel. Esta seção refina as de 11-01 e 11-02 (que continuam valendo para o resto); onde há conflito, vale esta.
+
+**Ordem de cadastro (aposta 4):** 1) Motorola 50 W (fecha `melhores-carregadores-turbo`); 2) Redragon Griffin e Fortrek Crusader (fecham `melhores-mouses-gamer-baratos`); 3) caixas até R$ 100 (`melhores-caixas-de-som-bluetooth-ate-100`); 4) headsets.
+
+### power-banks-carregadores: carregador turbo (falta 1 de 4)
+- **Carregador de Parede Motorola TurboPower Duo 50 W (USB-C + USB-A)** (Motorola), R$ 229,99 na Pichau e R$ 259 num agregador, vendedor Motorola (indicativo). Por que: fecha a lista com marca de celular conhecida e duas portas. Confirmado na página da Pichau (modelo 283054): USB-A e USB-C PD combinam até 50 W, carga Quick Charge 3.0 + Power Delivery, 9,5 x 4,4 x 2,9 cm, garantia de 12 meses. Cuidado: a Pichau tem outro anúncio "Duo 50 W USB-C" (278866) que NÃO é o USB-C + USB-A; varejistas europeus divergem na contagem de portas (1 ou 2 USB-C), então registre o que o anúncio do ML mostrar. Existe versão com e sem cabo. Sem página oficial da Motorola Brasil lida: confira Anatel.
+  Busca no ML: `Carregador Motorola TurboPower Duo 50W USB-C USB-A`
+  Linha pronta para o CSV (só falta o link):
+  `motorola-turbopower-duo-50w,power-banks-carregadores,Carregador de Parede Motorola TurboPower Duo 50 W USB-C e USB-A,Motorola,PRECO,NOTA,AVAL,COLE_O_LINK,,Até 50 W somando as duas portas;USB-C com Power Delivery e USB-A com Quick Charge 3.0;Garantia de 12 meses,sim`
+- Reserva (se o Motorola for descartado): Baseus Compact Turbo 30 W ou Ugreen Nexode 35 W (seção de 10-29, sem alteração).
+
+### acessorios-gamer: mouse gamer (faltam 2 de 4)
+- **Mouse Gamer Redragon Griffin M607 RGB 7200 DPI** (Redragon), R$ 80,62 no Zoom e R$ 84,87 no Buscapé (indicativo; oferta de R$ 90 na Amazon já expirada). Por que: mouse de entrada com marca de assistência nacional. Confirmado em várias lojas (Buscapé, Zoom, Casas Bahia, Pelando): sensor PixArt PAW3212 de até 7.200 DPI, 1.000 Hz, RGB, botão de troca rápida de DPI, 88 g (Casas Bahia). Nº de botões diverge (6 na maioria das lojas, 7 programáveis em outras): registre o que o anúncio mostrar. Contra (AnalisaMelhor): não indicado para FPS competitivo. Atenção: um anúncio da Pontofrio a R$ 266 é outlier; ignore.
+  Busca no ML: `Mouse Gamer Redragon Griffin M607 7200 DPI`
+  Linha pronta para o CSV (só falta o link):
+  `redragon-griffin-m607,acessorios-gamer,Mouse Gamer Redragon Griffin M607 RGB 7200 DPI,Redragon,PRECO,NOTA,AVAL,COLE_O_LINK,,Até 7.200 DPI;Sensor PixArt PAW3212 e 1.000 Hz;Iluminação RGB;Botão de troca rápida de DPI,sim`
+- **Mouse Gamer Fortrek Crusader RGB 12800 DPI (branco)** (Fortrek), R$ 59,99 a R$ 69,90 (KaBuM, Terabyte, Pichau; indicativo). Por que: o mais barato da lista, marca nacional. Confirmado na KaBuM: até 12.800 DPI ajustável, RGB com 13 modos, 1.000 Hz, 130 x 73 x 44 mm, conector USB. Botões divergem (5 + scroll na maioria, 6 na Pichau). Garantia diverge (3 a 12 meses). **Alerta:** o Busca Melhores diz que a versão preta é de 7.200 DPI, então só cadastre o 12.800 DPI se o anúncio disser isso; senão use o nome do anúncio. Contra: peso e acabamento de mouse de entrada; software só em Windows (Casas Bahia).
+  Busca no ML: `Mouse Gamer Fortrek Crusader 12800 DPI Branco`
+  Linha pronta para o CSV (só falta o link):
+  `fortrek-crusader-12800,acessorios-gamer,Mouse Gamer Fortrek Crusader RGB 12800 DPI,Fortrek,PRECO,NOTA,AVAL,COLE_O_LINK,,Até 12.800 DPI ajustável;Iluminação RGB com 13 modos;Taxa de 1.000 Hz;Marca nacional,sim`
+- Reserva se algum falhar na nota ou nas avaliações: Redragon Invader M719 RGB (11-01) ou Fortrek Striker 12800 DPI 7 botões (Terabyte lista a Striker com 7 botões; sem outras specs lidas).
+
+### acessorios-gamer: headsets gamer (0 de 4)
+Sem novas fichas hoje. Continuam válidos Havit HV-H2002D, JBL Quantum 100 e Redragon Zeus X H510 (seção de 11-02, abaixo, com linhas de CSV). O 4º segue em aberto: HyperX Cloud Stinger (com fio) exige confirmação de ficha; peça nova rodada com o anúncio do ML aberto.
+
+### fones-caixas-bluetooth: caixas de som até R$ 100 (0 de 3; pauta `melhores-caixas-de-som-bluetooth-ate-100`)
+**Problema:** JBL Go 4 (R$ 211+), Soundcore 2 (R$ 270) e Flip Essential 2 (R$ 480) da seção de 11-02 ficam fora do teto de R$ 100 da pauta. Servem a uma pauta futura "até R$ 300"; para esta, só entram os abaixo. Faixa até R$ 100 tem poucas marcas conhecidas e avaliações menores.
+- **Caixa de Som Bluetooth i2GO Essential Sound Go 10 W** (i2GO), R$ 87,78 a R$ 96,90 na Amazon (Buscapé, menor preço dos últimos 40 dias; indicativo). Por que: marca nacional conhecida, dentro do teto. Confirmado no Buscapé: 10 W RMS, Bluetooth, entradas auxiliar, USB e P2, 8 h de bateria, resistente à água (sem classificação IP informada: não escreva IPX), pareia com outras caixas compatíveis. Nota 4,4 com 50 avaliações na Amazon, **abaixo do critério**: só cadastre se o ML mostrar 4,5+ e 200+. Contra: graves fracos.
+  Busca no ML: `Caixa de Som Bluetooth i2GO Essential Sound Go 10W`
+  Linha pronta para o CSV (só falta o link):
+  `i2go-essential-sound-go-10w,fones-caixas-bluetooth,Caixa de Som Bluetooth i2GO Essential Sound Go 10 W,i2GO,PRECO,NOTA,AVAL,COLE_O_LINK,,10 W RMS;Até 8 h de bateria;Entradas USB, P2 e auxiliar;Resistente à água,sim`
+- **Caixa de Som Motorola Sonic Play 100 (SP006)** (Motorola), R$ 99 numa promoção do Prime Day (Pelando, expirada; indicativo). Por que: marca conhecida de celular. **Nenhuma spec confirmada** (o Pelando bloqueou a leitura); só o nome e o modelo. Não gerei linha de CSV: abra o anúncio do ML, confira nota, avaliações e ficha e peça nova rodada.
+- Falta uma terceira opção confiável até R$ 100. Não há ficha confirmada de Xiaomi, Philips ou Mondial nessa faixa. Sem produto suficiente, o post pode sair como lista de 2 e depois ganhar a JBL Go 4 numa seção "se puder gastar um pouco mais".
+
+### Resumo de 11-03
+Novas ou refinadas: carregador turbo 1 (Motorola 50 W, ficha melhor), mouse gamer 2 (Griffin e Crusader com ficha e preço indicativo), caixas até R$ 100: 1 com ficha (i2GO, abaixo do critério de avaliações) e 1 sem ficha; headsets: nenhuma nova (3 de 11-02 seguem). Nota e avaliações do ML não conferidas (403).
+
 ## Sugestões de 2026-11-02
 
 **Aviso para o cadastrador:** o Mercado Livre continua sem leitura aqui (HTTP 403). Preço, nota e avaliações ficam como `PRECO`, `NOTA` e `AVAL`: preencha com o anúncio aberto no Chrome e **descarte** se a nota for menor que 4,5, se houver poucas avaliações, reclamações recorrentes (falsificação, bateria estufando), sem Anatel ou vendedor sem reputação (prefira loja oficial ou MercadoLíder). Preços abaixo são de outras lojas, só indicativos.

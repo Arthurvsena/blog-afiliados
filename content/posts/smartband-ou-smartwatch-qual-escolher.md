@@ -156,7 +156,7 @@ Alguns exemplos do nosso catálogo, pelas fichas dos anúncios:
 | Xiaomi Redmi Watch 5 Active | Chamadas Bluetooth | {{botao:xiaomi-redmi-watch-5-active}} |
 | Amazfit Bip 6 | GPS integrado | {{botao:amazfit-bip-6}} |
 
-Veja o preço atual em cada botão. Mais opções na [seção de smartwatches e smartbands](/categoria/smartwatches-smartbands/).
+Veja o preço atual em cada botão. Para comparar esses modelos lado a lado, com prós e contras de cada um, veja a lista das [melhores smartbands custo-benefício](/posts/melhores-smartbands-custo-beneficio/). Mais opções na [seção de smartwatches e smartbands](/categoria/smartwatches-smartbands/).
 
 Quem anda muito com o celular pode conferir como manter a bateria em dia no [guia de como escolher power bank](/posts/como-escolher-power-bank/). E se o plano inclui treino com música, vale ver o [guia de como escolher fone Bluetooth](/posts/como-escolher-fone-bluetooth/).
 

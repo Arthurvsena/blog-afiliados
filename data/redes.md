@@ -2,6 +2,106 @@
 
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
+## 2026-11-03 · Smartband custo-benefício: bateria de até 3 semanas e 1 com GPS
+Link: https://nexustechai.com.br/posts/melhores-smartbands-custo-beneficio/
+- WhatsApp: Comparei 5 smartbands: bateria de 13 dias a 3 semanas, só o Amazfit Bip 6 tem GPS e todas têm nota 4,8 ou 4,9. Qual serve pra você: https://nexustechai.com.br/posts/melhores-smartbands-custo-beneficio/
+- X: Smartband: dos 5 modelos comparados, a Xiaomi Band 10 vai a até 3 semanas, o Redmi Watch 5 Active atende chamada e só o Amazfit Bip 6 tem GPS. Dados da ficha, sem teste: https://nexustechai.com.br/posts/melhores-smartbands-custo-beneficio/
+- Instagram (legenda): Qual smartband escolher sem pagar por recurso que você não usa?
+  Band 10: até 3 semanas de bateria.
+  Redmi Watch 5 Active: chamadas pelo relógio.
+  Amazfit Bip 6: o único com GPS. Link na bio.
+  #smartband #smartwatch #tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Smartband: só 1 de 5 tem GPS." [2-8 s] Fato 1: a Xiaomi Band 10 vai a até 3 semanas. [8-14 s] Fato 2: o Redmi Watch 5 Active atende chamada pelo pulso. [14-18 s] Fato 3: o Amazfit Bip 6 é o único com GPS na ficha. [18-20 s] "Comparativo completo no link da bio."
+
+## 2026-11-03 · Fone TWS Bluetooth: só 1 de 4 tem ANC e 2 chegam a 40 h
+Link: https://nexustechai.com.br/posts/melhores-fones-tws-bluetooth/
+- WhatsApp: Comparei 4 fones TWS (JBL, QCY, Philips e Xiaomi): só o JBL Wave Buds 2 informa cancelamento de ruído, e JBL e QCY vão a até 40 h com o estojo. Comparativo: https://nexustechai.com.br/posts/melhores-fones-tws-bluetooth/
+- X: Fone TWS Bluetooth: dos 4 comparados, só o JBL Wave Buds 2 informa ANC. JBL e QCY T13 vão a até 40 h com o estojo. Philips e Redmi cobrem o uso simples. Dados da ficha, sem teste: https://nexustechai.com.br/posts/melhores-fones-tws-bluetooth/
+- Instagram (legenda): ANC ou ENC? A diferença muda a compra.
+  Só o JBL Wave Buds 2 abafa o barulho de fora.
+  O QCY T13 limpa a sua voz nas chamadas.
+  JBL e QCY vão a até 40 h com o estojo. Link na bio.
+  #fonebluetooth #tws #tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Fone TWS: só 1 de 4 abafa o barulho." [2-8 s] Fato 1: só o JBL Wave Buds 2 informa ANC. [8-14 s] Fato 2: o QCY T13 tem ENC, que limpa sua voz nas chamadas, não o som de fora. [14-18 s] Fato 3: JBL e QCY vão a até 40 h com o estojo. [18-20 s] "Comparativo completo no link da bio."
+
+## 2026-11-03 · Gemini 4 Argon já está liberado; o Carbon, não: a diferença
+Link: https://nexustechai.com.br/posts/gemini-4-argon-vs-carbon-diferenca/
+- WhatsApp: Dos dois Gemini 4, só o Argon está liberado (app para assinantes AI Pro e Ultra, e API). O Carbon, mais forte, é só para defensores de cibersegurança: https://nexustechai.com.br/posts/gemini-4-argon-vs-carbon-diferenca/
+- X: Gemini 4: o Argon já roda no app para assinantes AI Pro e Ultra. O Carbon, mais forte segundo o Google, só para defensores de cibersegurança, sem data para o público. Diferença: https://nexustechai.com.br/posts/gemini-4-argon-vs-carbon-diferenca/
+- Instagram (legenda): Gemini 4 tem dois modelos, mas só um você usa.
+  Argon: liberado no app (AI Pro e Ultra) e na API.
+  Carbon: mais forte, só para defensores de cibersegurança.
+  Quase tudo é benchmark do próprio Google. Link na bio.
+  #gemini #google #inteligenciaartificial
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Gemini 4: qual modelo você consegue usar?" [2-8 s] Fato 1: o Argon está no app para assinantes AI Pro e Ultra. [8-14 s] Fato 2: o Carbon é mais forte, mas só defensores de cibersegurança têm acesso. [14-18 s] Fato 3: os números são do próprio Google. [18-20 s] "Diferença completa no link da bio."
+
+## 2026-11-03 · WhatsApp clonado: o que fazer em 3 passos para recuperar
+Link: https://nexustechai.com.br/posts/whatsapp-clonado-o-que-fazer-passo-a-passo/
+- WhatsApp: Se clonaram seu WhatsApp: peça o código de 6 dígitos por SMS e digite no app. Como só um aparelho fica ativo por número, o golpista é derrubado. Passo a passo: https://nexustechai.com.br/posts/whatsapp-clonado-o-que-fazer-passo-a-passo/
+- X: WhatsApp clonado? Registre o número de novo, digite o código de 6 dígitos do SMS e o golpista é desconectado. Depois avise os contatos por outro canal e ative as duas etapas. https://nexustechai.com.br/posts/whatsapp-clonado-o-que-fazer-passo-a-passo/
+- Instagram (legenda): Clonaram seu WhatsApp? Não entre em pânico.
+  Peça o código por SMS e digite só no seu app.
+  Só um aparelho fica ativo por número, então o golpista cai.
+  Depois avise os contatos e ative as duas etapas. Link na bio.
+  #whatsapp #golpe #segurancadigital
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Clonaram seu WhatsApp? Faça isso agora." [2-8 s] Fato 1: peça o código de 6 dígitos por SMS e digite no app. [8-14 s] Fato 2: só um aparelho fica ativo por número, o golpista é derrubado. [14-18 s] Fato 3: avise os contatos por outro canal e ative as duas etapas. [18-20 s] "Passo a passo no link da bio."
+
+## 2026-11-03 · Novo iPhone preço: Apple avisa memória cara, sem preço novo
+Link: https://nexustechai.com.br/posts/apple-memoria-mais-cara-2027-iphone-preco-brasil/
+- WhatsApp: A Apple avisou que a memória segue cara em 2027 e que a margem vai cair, mas não anunciou aumento de iPhone no Brasil. Entenda o que é fato e o que é projeção: https://nexustechai.com.br/posts/apple-memoria-mais-cara-2027-iphone-preco-brasil/
+- X: Apple prevê margem bruta de 45% a 46% no fim do ano (era 47,9%) por causa da memória cara. Preço novo de iPhone no Brasil? Nenhum anunciado. Fato e projeção: https://nexustechai.com.br/posts/apple-memoria-mais-cara-2027-iphone-preco-brasil/
+- Instagram (legenda): A Apple disse que a memória vai continuar cara em 2027.
+  A margem prevista caiu para 45% a 46%.
+  Aumento de iPhone no Brasil? Ninguém anunciou.
+  Link na bio.
+  #iphone #apple #tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "iPhone vai ficar mais caro? A Apple falou." [2-8 s] Fato 1: a memória dos chips segue em alta em 2027. [8-14 s] Fato 2: a margem prevista caiu para 45% a 46%. [14-18 s] Fato 3: preço novo no Brasil, nenhum anunciado. [18-20 s] "Fato e projeção no link da bio."
+
+## 2026-11-03 · Golpe Pix o que fazer na Black Friday: MED em até 80 dias
+Link: https://nexustechai.com.br/posts/golpes-black-friday-2026-golpe-pix-o-que-fazer/
+- WhatsApp: Caiu em golpe Pix na Black Friday? Dá para pedir a devolução pelo MED em até 80 dias, mas não é garantida. Também mostra como checar a loja antes de pagar: https://nexustechai.com.br/posts/golpes-black-friday-2026-golpe-pix-o-que-fazer/
+- X: Sites falsos são o golpe mais temido na Black Friday (53%), diz levantamento da Serasa citado pela Forbes. Se pagou por Pix, o MED permite pedir devolução em até 80 dias. https://nexustechai.com.br/posts/golpes-black-friday-2026-golpe-pix-o-que-fazer/
+- Instagram (legenda): Desconto de 80% ou 90% na Black Friday? Raro, diz o Reclame AQUI.
+  Sites falsos são o golpe mais temido (53%), segundo a Serasa.
+  Se pagou por Pix, o MED pede devolução em até 80 dias.
+  Link na bio.
+  #blackfriday #golpepix #segurancadigital
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Desconto de 90% na Black Friday? Cuidado." [2-8 s] Fato 1: sites falsos são o golpe mais temido, 53%, segundo a Serasa. [8-14 s] Fato 2: o Detector de Sites do Reclame AQUI mostra a idade do domínio. [14-18 s] Fato 3: se pagou por Pix, o MED pede devolução em até 80 dias. [18-20 s] "Passo a passo no link da bio."
+
+## 2026-11-03 · GTA 6 pré-carregamento: 212 GB e Xbox libera às 21h de 9/11
+Link: https://nexustechai.com.br/posts/gta-6-pre-carregamento-horario-ps5-xbox-212-gb/
+- WhatsApp: GTA 6 pode ser pré-carregado antes do que se achava: Xbox libera às 21h de 9/11 e PS5 à 0h de 10/11 (Brasília), segundo o Canaltech. Pede até 212 GB, então libere espaço: https://nexustechai.com.br/posts/gta-6-pre-carregamento-horario-ps5-xbox-212-gb/
+- X: GTA 6: o pré-carregamento começa em 10/11, não 12/11. No Brasil, Xbox libera às 21h de 9/11 e PS5 à 0h de 10/11. Até 212 GB, segundo a Rockstar. O jogo destrava em 19/11. https://nexustechai.com.br/posts/gta-6-pre-carregamento-horario-ps5-xbox-212-gb/
+- Instagram (legenda): Você tem 212 GB livres para o GTA 6?
+  O pré-carregamento abre dia 9/11, às 21h, no Xbox, e 10/11, à 0h, no PS5.
+  O jogo só destrava em 19/11.
+  Link na bio.
+  #gta6 #ps5 #xbox
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seu console aguenta 212 GB do GTA 6?" [2-8 s] Fato 1: o pré-carregamento começa em 10/11, não em 12/11. [8-14 s] Fato 2: no Brasil, Xbox libera às 21h de 9/11 e PS5 à 0h de 10/11. [14-18 s] Fato 3: o jogo só destrava em 19/11. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-03 · Melhor power bank: 6 modelos de 10.000 e 20.000 mAh
+Link: https://nexustechai.com.br/posts/melhores-power-banks/
+- WhatsApp: Qual power bank comprar? 10.000 mAh basta para o dia; 20.000 mAh é para viagem. Comparei 6 modelos de Ugreen, Anker e Baseus e digo para quem cada um não serve: https://nexustechai.com.br/posts/melhores-power-banks/
+- X: Power bank de 10.000 ou 20.000 mAh? 6 modelos de Ugreen, Anker e Baseus, de 20 W a 45 W, com a resposta curta no começo e para quem cada um não serve. https://nexustechai.com.br/posts/melhores-power-banks/
+- Instagram (legenda): Quantas cargas de celular cabem num power bank de 20.000 mAh?
+  Na prática, entre duas e três, porque parte da energia se perde.
+  Comparei 6 modelos de Ugreen, Anker e Baseus, de 20 W a 45 W.
+  Link na bio.
+  #powerbank #tecnologia #custobeneficio
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seu power bank é grande demais ou pequeno demais?" [2-8 s] Fato 1: 10.000 mAh basta para o dia a dia. [8-14 s] Fato 2: 20.000 mAh dá entre duas e três cargas e pode ir na bagagem de mão. [14-18 s] Fato 3: só precisa de 45 W quem carrega tablet ou notebook pequeno. [18-20 s] "Os 6 modelos estão no link da bio."
+
+## 2026-11-03 · Alexa+ no Brasil: grátis até fevereiro de 2027 (versão "quanto custa depois")
+Link: https://nexustechai.com.br/posts/alexa-plus-brasil-acesso-gratis-prorrogado-fevereiro-2027/
+- WhatsApp: Alexa+ grátis no Brasil até pelo menos fev/2027, segundo a Amazon ao Tecnoblog. Depois, a imprensa fala em Prime (a partir de R$ 19,90/mês) ou avulsa por cerca de R$ 99. Confira antes de assinar: https://nexustechai.com.br/posts/alexa-plus-brasil-acesso-gratis-prorrogado-fevereiro-2027/
+- X: Alexa+ segue grátis no Brasil até pelo menos fev/2027 (antes, out/2026), segundo a Amazon ao Tecnoblog. Exige Prime e Echo compatível, com fila. Valor depois é informado pela imprensa, não pela Amazon. https://nexustechai.com.br/posts/alexa-plus-brasil-acesso-gratis-prorrogado-fevereiro-2027/
+- Instagram (legenda): A Alexa com IA vai custar quanto depois do período grátis?
+  Por enquanto é de graça até pelo menos fevereiro de 2027.
+  Exige Prime e um Echo compatível, e tem fila de espera.
+  O valor futuro ainda é informado pela imprensa, não pela Amazon.
+  Link na bio.
+  #alexa #amazon #casainteligente
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Até quando a Alexa com IA é grátis?" [2-8 s] Fato 1: até pelo menos fevereiro de 2027, segundo a Amazon. [8-14 s] Fato 2: precisa de Prime e de aparelho compatível, com fila. [14-18 s] Fato 3: o preço depois ainda não é oficial. [18-20 s] "Detalhes no link da bio."
+
 ## 2026-11-02 · Mercado Bitcoin ataque hacker: saques suspensos e o que fazer
 Link: https://nexustechai.com.br/posts/mercado-bitcoin-incidente-seguranca-saques-suspensos/
 - WhatsApp: Mercado Bitcoin suspendeu depósitos e saques hoje após incidente de segurança. A corretora diz que não houve prejuízo a clientes; os US$ 40 milhões são estimativa de terceiro. https://nexustechai.com.br/posts/mercado-bitcoin-incidente-seguranca-saques-suspensos/

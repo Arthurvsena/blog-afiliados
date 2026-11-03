@@ -60,7 +60,7 @@ O texto oficial não traz classificação indicativa. Dead Island 2 tem zumbis e
 
 ## Ainda dá tempo de outubro
 
-A própria Sony lembra que os jogos de outubro (F1 25, Hunt: Showdown 1896 e Earth Defense Force: World Brothers 2) podem ser adicionados à biblioteca até segunda-feira, 2 de novembro. Na prática, é a última chance antes da virada para os novos.
+A própria Sony lembra que os jogos de outubro (F1 25, Hunt: Showdown 1896 e Earth Defense Force: World Brothers 2) podem ser adicionados à biblioteca até segunda-feira, 2 de novembro. Na prática, é a última chance antes da virada para os novos. Se o SSD do console está apertado, veja também o [pré-carregamento do GTA 6, que pede 212 GB](/posts/gta-6-pre-carregamento-horario-ps5-xbox-212-gb/).
 
 ## Vai jogar com fone?
 

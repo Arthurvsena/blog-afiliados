@@ -92,4 +92,6 @@ Na minha leitura, o serviço é um seguro, não um plano de dados: serve para ma
 
 ## Antes de pegar a estrada
 
+Se a dúvida é qual celular combina com esse tipo de serviço, veja também o [Motorola Signature 27 e o desconto da Vivo](/posts/motorola-signature-27-brasil-pre-registro-data/).
+
 Se você vai para estrada ou zona rural, o satélite resolve o contato, mas não a bateria. Leve um power bank na mochila: veja [como escolher um power bank](/posts/como-escolher-power-bank/) e, se quiser um modelo compacto, a [análise do Ugreen PB311 de 10.000 mAh](/posts/review-power-bank-ugreen-pb311-10000/). Para viagens mais longas, o {{link:anker-a110e-20000-22w|Anker de 20.000 mAh com cabo USB-C integrado}} rende mais cargas. Veja também a lista dos [melhores power banks](/posts/melhores-power-banks/) e mais opções no [guia de power banks e carregadores](/categoria/power-banks-carregadores/).

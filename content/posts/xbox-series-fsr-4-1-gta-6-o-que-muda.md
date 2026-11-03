@@ -66,7 +66,7 @@ Na minha leitura, o maior beneficiado seria o Series S, que tem a GPU mais fraca
 
 Mas é uma aposta em cima de promessa. Quem vai jogar GTA 6 no dia 19 não deve contar com o FSR 4.1: sem data e sem confirmação do jogo, o mais seguro é supor que ele não estará lá no lançamento.
 
-Para ver o outro lado do mercado de consoles, leia a [análise do Nintendo Switch 2](/posts/analise-nintendo-switch-2-vale-a-pena-especificacoes/). E, se o GTA 6 é no PlayStation, confira os [jogos do PS Plus de novembro](/posts/ps-plus-novembro-2026-dead-island-2-tomb-raider/).
+Para se preparar para o download, veja o [pré-carregamento do GTA 6: horários e espaço necessário](/posts/gta-6-pre-carregamento-horario-ps5-xbox-212-gb/). Para ver o outro lado do mercado de consoles, leia a [análise do Nintendo Switch 2](/posts/analise-nintendo-switch-2-vale-a-pena-especificacoes/). E, se o GTA 6 é no PlayStation, confira os [jogos do PS Plus de novembro](/posts/ps-plus-novembro-2026-dead-island-2-tomb-raider/).
 
 :::veredito
 Boa notícia para o Series S, mas ainda é promessa. Não crie expectativa para o GTA 6 até a Microsoft e a Rockstar confirmarem.

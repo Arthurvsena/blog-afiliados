@@ -67,6 +67,8 @@ A Infobae diz que, depois do período promocional, o valor sobe para US$ 4 e US$
 
 Na minha leitura, o recado é menos "olha como somos fortes" e mais "isso é perigoso demais para soltar de uma vez". Um modelo que acha e explora falhas serve a quem defende e a quem ataca, e o Google está tratando o assunto assim.
 
+Quer saber o que dá para usar hoje? Veja a [diferença entre o Gemini 4 Argon e o Carbon](/posts/gemini-4-argon-vs-carbon-diferenca/).
+
 Quer acompanhar outras novidades de tecnologia? Veja também o [preço do MacBook Pro OLED touch no Brasil](/posts/macbook-pro-oled-touch-preco-brasil/).
 
 :::veredito

@@ -111,7 +111,7 @@ O preço é a parte que mais mudou. Segundo o Hardware.com.br, no lançamento, e
 
 Preço sugerido não é preço de loja, e as lojas costumam fazer promoções, principalmente no Pix.
 
-Para quem busca a edição colecionável, veja o que aconteceu na [pré-venda esgotada do Switch 2 Zelda 40 anos](/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/).
+Para quem busca a edição colecionável, veja o que aconteceu na [pré-venda esgotada do Switch 2 Zelda 40 anos](/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/) e o [preço do remake de Ocarina of Time](/posts/zelda-ocarina-of-time-switch-2-lancamento-5-novembro-preco/), que sai no dia 5.
 
 :::dica Antes de comprar
 Confira o valor atual e o prazo de devolução da loja. Os relatos de drift e de tela são motivo para guardar a nota fiscal.

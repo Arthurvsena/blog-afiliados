@@ -55,7 +55,7 @@ Todos os números abaixo são da própria empresa, sem avaliação independente 
 
 Vale lembrar o detalhe que importa: a própria OpenAI recomenda o Sol e o Astra para programação mais complexa. O Terra é o econômico, não o campeão.
 
-Se você acompanha a disputa entre os laboratórios de IA, vale ler também sobre o [Gemini 4 Carbon, que o Google liberou só para defesa cibernética](/posts/google-gemini-4-carbon-acesso-restrito/).
+Se você acompanha a disputa entre os laboratórios de IA, vale ler também sobre o [Gemini 4 Carbon, que o Google liberou só para defesa cibernética](/posts/google-gemini-4-carbon-acesso-restrito/) e a [diferença entre o Gemini 4 Argon e o Carbon](/posts/gemini-4-argon-vs-carbon-diferenca/).
 
 ## E o Brasil?
 

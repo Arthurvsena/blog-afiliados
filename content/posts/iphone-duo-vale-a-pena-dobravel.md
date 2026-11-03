@@ -3,7 +3,7 @@ titulo: "iPhone Duo vale a pena? Ficha, preço e para quem serve"
 slug: iphone-duo-vale-a-pena-dobravel
 descricao: "iPhone Duo vale a pena? Dobrável da Apple custa de R$ 21.999 a R$ 30.999, só tem eSIM e entrega em 2027. Veja ficha, pontos fracos e alternativas."
 palavra_chave: "iphone duo vale a pena"
-palavras_secundarias: ["iphone duo ficha técnica", "iphone duo preço brasil"]
+palavras_secundarias: ["iphone duo ficha técnica", "novo iphone duo"]
 editoria: analises
 tipo: analise
 publicado: 2026-11-02 11:00

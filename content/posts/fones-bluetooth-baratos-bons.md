@@ -142,7 +142,7 @@ Não vou inventar relatos detalhados. O que os números mostram: QCY T13 e JBL W
 - Se pega ônibus, treina ou trabalha em lugar barulhento, vá de {{link:jbl-wave-buds-2|JBL Wave Buds 2}}.
 - Se prefere marca conhecida e uso simples, vá de {{link:philips-tat1209|Philips TAT1209}}.
 
-Dúvida entre sem fio e com fio? Veja [fone Bluetooth ou com fio](/posts/fone-bluetooth-ou-com-fio/). Para treinar, pesam a resistência IPX4 do Redmi e o IP54 do JBL; o que procurar num fone esportivo está no [guia de como escolher fone Bluetooth](/posts/como-escolher-fone-bluetooth/). E se você passa o dia fora, veja os [melhores power banks](/posts/melhores-power-banks/) para o celular não acabar antes do fone.
+Quer comparar por marca e formato? Veja o [comparativo de fone TWS Bluetooth](/posts/melhores-fones-tws-bluetooth/). Dúvida entre sem fio e com fio? Veja [fone Bluetooth ou com fio](/posts/fone-bluetooth-ou-com-fio/). Para treinar, pesam a resistência IPX4 do Redmi e o IP54 do JBL; o que procurar num fone esportivo está no [guia de como escolher fone Bluetooth](/posts/como-escolher-fone-bluetooth/). E se você passa o dia fora, veja os [melhores power banks](/posts/melhores-power-banks/) para o celular não acabar antes do fone.
 
 :::dica Antes de comprar
 Confira o tamanho das borrachinhas na caixa. Um encaixe bom isola mais ruído do que muito cancelamento de ruído de entrada.
