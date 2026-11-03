@@ -1,8 +1,8 @@
 name: Rotina diária do blog
 
 on:
-  schedule:
-    - cron: "47 11 * * *"     # 08:47 no horário de Brasília
+  # Disparado todo dia às 08:23 (Brasília) pela tarefa agendada "Disparar rotinas do blog e do canal":
+  # o agendamento do próprio GitHub atrasava de 5 a 9 horas.
   workflow_dispatch:          # botão "Run workflow" para rodar na hora
 
 permissions:
