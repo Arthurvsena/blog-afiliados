@@ -16,10 +16,12 @@ ouvir), o post de origem inteiro, `data/videos.json` (o que já virou vídeo),
 ## Regras de ouro
 - **Só fatos do post** (que já tem fonte). Não acrescente número, data, preço
   ou opinião de terceiros que não estejam no post. Rumor continua rumor.
-- **Fala é para ouvir, tela é para ler.** Em `fala`, escreva números por
-  extenso e siglas como se pronunciam ("vinte e um mil, novecentos e noventa e
-  nove reais", "cinco ponto quatro", "dois terabytes"); em `tela`, use os
-  dígitos ("R$ 21.999", "Bluetooth 5.4"). Frases curtas, uma ideia por cena.
+- **Fala é para ouvir, legenda é para ler.** A legenda aparece palavra por
+  palavra, sincronizada com a voz. Todo número, sigla ou nome que a voz
+  precisa ler diferente vai na marcação `{na tela|falado}`:
+  `"começa em {R$ 21.999|vinte e um mil, novecentos e noventa e nove reais}"`,
+  `"{2 TB|dois terabytes}"`, `"{5.4|cinco ponto quatro}"`, `"{eSIM|ê-SIM}"`.
+  Frases curtas, uma ideia por cena.
 - **Gancho nos 2 primeiros segundos**: a 1ª cena é uma frase de até 10
   palavras com o dado mais forte ou a pergunta que o espectador tem. Nada de
   "Olá, pessoal" ou "Neste vídeo".
@@ -32,6 +34,24 @@ ouvir), o post de origem inteiro, `data/videos.json` (o que já virou vídeo),
   existentes em `content/imagens/` de posts relacionados, ou `produto:ID` de
   produtos `ativo=sim` do catálogo citados no post. Varie a imagem entre as
   cenas quando houver mais de uma opção. `null` mostra um fundo da marca.
+
+## Tipos de cena (campo `tipo` de cada cena) e fotos
+- `gancho` (1ª cena): até 8 palavras que entram uma a uma, enormes. Use `tela`.
+- `numero`: um número grande que conta até o valor (`destaque`: "R$ 21.999",
+  "120 Hz", "44 h") com um `rotulo` curto embaixo. Use sempre que houver um
+  número forte: prende muito a atenção.
+- `fato`: foto em movimento + legenda palavra por palavra (a maioria das cenas).
+- `produto`: cartão animado do produto do catálogo (`produto`: ID) com os
+  destaques do CSV. Só produtos `ativo=sim`.
+- `cta` (última cena): "link na bio" (Short) ou "links na descrição" (longo),
+  com uma pergunta em `tela` para gerar comentários.
+**Várias fotos por cena** em `imagens` (troca a cada ~1,5 s): use 1 a 3 por
+cena e **nunca repita a mesma foto em cenas seguidas**. Fontes, nesta ordem:
+a foto do post (`content/imagens/...`), `produto:ID`, e `busca:termos em
+inglês` (foto livre do Wikimedia Commons, com crédito automático). Na busca,
+seja concreto ("Apple Store interior", "smartphone charging cable"), evite
+logos e marcas concorrentes e prefira coisas genéricas a produtos específicos
+de outras marcas. Um vídeo de 40 s deve ter pelo menos 6 fotos diferentes.
 
 ## Short (`"tipo": "short"`)
 6 a 9 cenas, 30 a 55 segundos no total (cerca de 13 palavras faladas por

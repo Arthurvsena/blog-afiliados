@@ -364,8 +364,9 @@ def gerar_descricao(rot):
         catalogo = {p["id"]: p for p in csv.DictReader(fcsv)}
     post = RAIZ / "content" / "posts" / f"{rot.get('post', '')}.md"
     meta = yaml.safe_load(post.read_text(encoding="utf-8").split("---", 2)[1]) if post.exists() else {}
-    ids = list(dict.fromkeys([c["imagem"].split(":", 1)[1] for c in rot["cenas"]
-                              if str(c.get("imagem", "")).startswith("produto:")] + (rot.get("produtos") or [])))
+    refs = [str(r) for c in rot["cenas"] for r in ((c.get("imagens") or []) + ([c["imagem"]] if c.get("imagem") else []))]
+    ids = list(dict.fromkeys([r.split(":", 1)[1] for r in refs if r.startswith("produto:")]
+                             + [c["produto"] for c in rot["cenas"] if c.get("produto")] + (rot.get("produtos") or [])))
     ids = [i for i in ids if catalogo.get(i, {}).get("ativo") == "sim" and catalogo[i].get("link_afiliado")]
     linhas = [rot.get("resumo", "").strip(), ""]
     if meta:
@@ -383,8 +384,9 @@ def gerar_descricao(rot):
         linhas.append("Fontes: " + ", ".join(fontes) + ".")
     creditos = []
     img = meta.get("imagem") or {}
-    if img.get("credito") and any(c.get("imagem") == f"content/imagens/{img.get('arquivo')}" for c in rot["cenas"]):
+    if img.get("credito") and f"content/imagens/{img.get('arquivo')}" in refs:
         creditos.append(f"{img['credito']}" + (f" ({img['licenca']})" if img.get("licenca") and img["licenca"] != "Divulgação" else ""))
+    creditos += list(dict.fromkeys(rot.get("creditos_extra") or []))
     if ids:
         creditos.append("fotos dos produtos: divulgação dos fabricantes")
     if creditos:

@@ -10,7 +10,8 @@ description: Rotina diária do departamento de vídeo. Escolhe os posts do dia, 
 
 Antes de tudo: leia `CLAUDE.md`, `data/estrategia.md`, `data/relatorio_diario.md`
 (se existir) e `python3 scripts/mural.py listar`. Instale a voz grátis com
-`python3 scripts/video.py --voz` e `pip install --break-system-packages -q piper-tts`.
+`pip install --break-system-packages -q piper-tts`, `python3 scripts/video.py --voz`
+e `cd video && npm install --no-audit --no-fund` (Remotion, para o motion).
 
 ## 1. Pauta
 Chame o `produtor` em **modo pauta do dia**. Ele devolve até 2 Shorts e 1 longo.
@@ -20,9 +21,9 @@ Para cada vídeo: `roteirista` (com o tipo e o post) e depois `produtor` em
 **modo revisão** com o caminho do roteiro.
 
 ## 3. Narração (um vídeo por vez)
-1. **Tente o ElevenLabs uma vez** por vídeo: junte as falas de todas as cenas
-   num texto só (separadas por espaço) e chame
-   `mcp__ElevenLabs__creative_generate_speech` com `model_id: "eleven_multilingual_v2"`,
+1. **Tente o ElevenLabs uma vez** por vídeo: chame
+   `mcp__ElevenLabs__creative_generate_speech` com o texto de
+   `python3 scripts/video_motion.py ROTEIRO --fala` (já com os números por extenso), `model_id: "eleven_multilingual_v2"`,
    `voice_id: "cCd5pjwRv69hyjEKrf0o"` (Renan Matheus, pt-BR),
    `generations_count: 1`. Acompanhe com `creative_get_flow_run_status` até
    terminar. Se gerar, baixe o áudio da URL do resultado para
@@ -31,12 +32,20 @@ Para cada vídeo: `roteirista` (com o tipo e o post) e depois `produtor` em
    bloqueado), não tente de novo: use a voz grátis (sem `--audio`). Se o
    ElevenLabs disser que não há crédito, use a voz grátis em todos os vídeos
    restantes do dia.
-3. Monte o vídeo:
-   `python3 scripts/video.py data/videos/roteiros/SLUG.json --saida /mnt/user-data/outputs/videos [--audio /tmp/narracao-SLUG.mp3]`
+3. Monte o vídeo com motion (Remotion):
+   `python3 scripts/video_motion.py data/videos/roteiros/SLUG.json --saida /mnt/user-data/outputs/videos --manter [--audio /tmp/narracao-SLUG.mp3]`
+   Leva de 4 a 6 min por Short e de 15 a 30 min por vídeo longo. Se o
+   Remotion falhar duas vezes, use a reserva sem motion:
+   `python3 scripts/video.py data/videos/roteiros/SLUG.json --saida /mnt/user-data/outputs/videos [--audio ...]`
    O resultado diz o arquivo, o tamanho (tem de ser < 10 MB), a duração, a
    voz usada, a capa (longos) e o `.txt` com a descrição pronta.
-4. Olhe 2 quadros do vídeo (`ffmpeg -ss 3 -i ARQ -frames:v 1 /tmp/q.png` e Read)
-   para conferir se a legenda e a imagem estão certas.
+4. **Confira as fotos**: abra (Read) as imagens baixadas em
+   `video/public/run/SLUG/c*.jpg`. Se alguma não tiver a ver com o assunto,
+   mostrar logo de outra marca, pessoa reconhecível ou texto estranho, troque
+   a referência no roteiro (outra `busca:` ou uma foto já usada em outra cena)
+   e monte de novo. Depois olhe 3 quadros do vídeo final
+   (`ffmpeg -ss T -i ARQ -frames:v 1 /tmp/q.png` e Read) para ver legenda e foto.
+   Apague `video/public/run/SLUG` no fim.
 
 ## 4. Publicar no YouTube (Chrome do dono)
 Carregue a skill `chrome-browser`. Trabalhe em aba nova e feche no fim.

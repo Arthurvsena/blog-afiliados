@@ -38,8 +38,10 @@ manual de redação (`editorial/manual.md`).
 - **Departamento de vídeo** (canal Nexus Tech no YouTube): agentes `produtor`
   e `roteirista`, skill `canal-diario`. Roteiros em `data/videos/roteiros/`,
   registro dos vídeos publicados em `data/videos.json`, análise semanal em
-  `data/relatorio_canal.md`. Vídeos montados por `scripts/video.py` (voz grátis
-  Piper ou narração do ElevenLabs).
+  `data/relatorio_canal.md`. Vídeos com motion montados por
+  `scripts/video_motion.py` + projeto Remotion em `video/` (reserva sem motion:
+  `scripts/video.py`), com voz grátis Piper ou narração do ElevenLabs. Licença
+  do Remotion: grátis para pessoa física e empresas de até 3 pessoas.
 - `content/posts/*.md`: os posts (Markdown com frontmatter YAML).
 - `design/marca.yaml`: identidade visual (cores, fontes, logo, regras), mantida
   pelo agente `designer`. O site lê as cores e fontes daqui.

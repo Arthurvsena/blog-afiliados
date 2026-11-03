@@ -2,3 +2,6 @@ _site/
 __pycache__/
 .env
 _videos/
+video/node_modules/
+video/public/run/
+video/public/sfx/
