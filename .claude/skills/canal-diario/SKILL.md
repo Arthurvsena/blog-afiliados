@@ -89,17 +89,28 @@ Para cada vídeo:
    liberado); categoria, idioma e tags padrão já vêm configurados no canal; público: **"Não, não é conteúdo para crianças"**. Em "Mostrar
    mais": **Conteúdo alterado: Não** (narração sintética não é conteúdo
    realista alterado); tags = `hashtags`.
-4. Avance até **Visibilidade**, escolha **Público** e clique em **Publicar**.
-   Copie o link do vídeo que aparece no fim.
+4. Avance até **Visibilidade** e escolha **Programar** (não "Público"): cada
+   vídeo sai num horário diferente (veja "Horários" abaixo). Preencha data e
+   hora (fuso de Brasília) e clique em **Programar**. Copie o link do vídeo.
 5. Nos vídeos longos, abra o vídeo e fixe um comentário com o link do post
    (o mesmo da descrição). Se não puder ser fixado, siga.
+
+### Horários (um vídeo por horário, nunca todos juntos)
+Horários-padrão do dia, de `config.yaml > video.horarios`: **12:00** o 1º Short,
+**19:00** o vídeo longo, **21:00** o 2º Short (os horários de mais audiência
+no Brasil para cada formato). Comece pelo Short de maior nota.
+- Se um horário já passou (ou falta menos de 30 min), use o próximo horário
+  livre de hoje começando 30 min depois de agora e com pelo menos **2 horas**
+  entre um vídeo e outro.
+- Se isso passar das 23:00, programe para amanhã no horário-padrão dele.
+- Grave a data e hora programadas em `publica_em` no registro.
 
 ## B3. Registro
 Acrescente cada vídeo em `data/videos.json` (crie se não existir):
 ```json
 {"videos": [{"data": "AAAA-MM-DD", "tipo": "short", "slug": "...", "post": "slug-do-post",
              "titulo": "...", "url": "https://youtu.be/...", "voz": "google:Charon",
-             "segundos": 0, "status": "publicado|pronto (não publicado: motivo)"}]}
+             "segundos": 0, "publica_em": "AAAA-MM-DD HH:MM", "status": "programado|publicado|pronto (não publicado: motivo)"}]}
 ```
 Faça commit em main ("Canal AAAA-MM-DD"), `git pull --rebase origin main` e
 push (sem os arquivos de vídeo). Responda ao dono com os vídeos publicados
