@@ -42,6 +42,7 @@ UA = base.UA
 
 VOZ_PADRAO = "kokoro:pm_alex"
 VELOCIDADE = 1.12
+VELOCIDADE_GOOGLE = 1.1
 KOKORO_URL = "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/"
 
 
@@ -57,8 +58,26 @@ def pronunciar(texto):
 
 
 def sintetizador(voz):
-    """Voz grátis: 'kokoro:pm_alex' | 'kokoro:pm_santa' | 'kokoro:pf_dora' (pt-BR) ou 'piper:cadu' | 'piper:jeff' | 'piper:faber'."""
+    """'google:Charon' (Google Chirp 3 HD pt-BR, precisa de GOOGLE_TTS_KEY; outras: Puck, Fenrir, Orus, Kore, Aoede...),
+    'kokoro:pm_alex' | 'kokoro:pm_santa' | 'kokoro:pf_dora' ou 'piper:cadu' | 'piper:jeff' (grátis, sem chave)."""
     motor, nome = (voz.split(":", 1) + [""])[:2]
+    if motor == "google":
+        chave = os.environ.get("GOOGLE_TTS_KEY")
+        if not chave:
+            print("(GOOGLE_TTS_KEY não definida: usando a voz grátis Kokoro)", file=sys.stderr)
+            return sintetizador("kokoro:pm_alex")
+        import base64
+
+        def falar(texto, destino):
+            corpo = json.dumps({"input": {"text": texto},
+                                "voice": {"languageCode": "pt-BR", "name": f"pt-BR-Chirp3-HD-{nome or 'Charon'}"},
+                                "audioConfig": {"audioEncoding": "LINEAR16", "sampleRateHertz": 24000,
+                                                "speakingRate": VELOCIDADE_GOOGLE}}).encode()
+            req = urllib.request.Request("https://texttospeech.googleapis.com/v1/text:synthesize",
+                                         data=corpo, headers={"Content-Type": "application/json", "X-Goog-Api-Key": chave})
+            resp = json.loads(urllib.request.urlopen(req, timeout=60).read())
+            Path(destino).write_bytes(base64.b64decode(resp["audioContent"]))
+        return falar
     cache = Path.home() / ".cache" / "nexus-vozes"
     cache.mkdir(parents=True, exist_ok=True)
     if motor == "kokoro":
@@ -235,8 +254,18 @@ def sfx(pasta):
     return whoosh, ding
 
 
+def voz_config():
+    try:
+        import yaml
+        return (yaml.safe_load((RAIZ / "config.yaml").read_text(encoding="utf-8")).get("video") or {}).get("voz") or VOZ_PADRAO
+    except Exception:
+        return VOZ_PADRAO
+
+
 def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
-    voz_escolhida = voz_escolhida or VOZ_PADRAO
+    voz_escolhida = voz_escolhida or voz_config()
+    if voz_escolhida.startswith("google") and not os.environ.get("GOOGLE_TTS_KEY"):
+        voz_escolhida = VOZ_PADRAO
     tipo = rot.get("tipo", "short")
     fps = 30
     largura, altura = (1080, 1920) if tipo == "short" else (1280, 720)

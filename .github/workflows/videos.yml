@@ -1,0 +1,64 @@
+name: Vídeos do canal
+
+on:
+  schedule:
+    - cron: "17 13 * * *"     # 10:17 no horário de Brasília (o GitHub costuma atrasar; a publicação é às 17:37)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: videos
+  cancel-in-progress: false
+
+jobs:
+  videos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    env:
+      GOOGLE_TTS_KEY: ${{ secrets.GOOGLE_TTS_KEY }}
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - name: Ferramentas de vídeo
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q ffmpeg espeak-ng
+          pip install -r requirements.txt kokoro-onnx soundfile piper-tts
+          cd video && npm ci --no-audit --no-fund && npx remotion browser ensure
+
+      - name: Departamento de vídeo (Claude)
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          show_full_output: true
+          prompt: "Produza os vídeos do dia do canal: leia .claude/skills/canal-diario/SKILL.md e siga a PARTE A (passos 1 a 3: pauta, roteiros, narração e montagem) até o fim, salvando os vídeos em _videos/. Não publique no YouTube: a publicação é feita depois pelo Chrome do dono. Chame os subagentes sempre em primeiro plano (run_in_background false) e só termine depois do último vídeo montado."
+          claude_args: |
+            --model sonnet
+            --max-turns 300
+            --disallowedTools "ScheduleWakeup,Monitor,CronCreate"
+            --allowedTools "Skill,Read,Write,Edit,Glob,Grep,WebSearch,WebFetch,Task,Agent,Bash(python3 scripts/video_motion.py:*),Bash(python3 scripts/video.py:*),Bash(python3 scripts/mural.py:*),Bash(python3 -c:*),Bash(ffmpeg:*),Bash(ffprobe:*),Bash(ls:*),Bash(date:*),Bash(TZ=America/Sao_Paulo date:*)"
+
+      - name: Publicar os vídeos num Release (o Chrome do dono baixa daqui)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DIA=$(TZ=America/Sao_Paulo date +%Y-%m-%d)
+          ls _videos/*.mp4 >/dev/null 2>&1 || { echo "Nenhum vídeo montado hoje."; exit 0; }
+          gh release delete "videos-$DIA" -y --cleanup-tag 2>/dev/null || true
+          gh release create "videos-$DIA" _videos/* --title "Vídeos de $DIA" --notes "Vídeos do canal Nexus Tech montados em $DIA. Publicados no YouTube pela tarefa do Chrome." --prerelease
+
+      - name: Salvar roteiros
+        run: |
+          git config user.name "rotina-do-blog"
+          git config user.email "rotina-do-blog@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Roteiros de vídeo $(TZ=America/Sao_Paulo date +%Y-%m-%d)"
+          git pull --rebase origin main && git push
