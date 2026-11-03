@@ -1,0 +1,81 @@
+{
+  "tipo": "short",
+  "slug": "gta-6-pre-carregamento-212gb-horario",
+  "post": "xbox-series-fsr-4-1-gta-6-o-que-muda",
+  "titulo": "GTA 6 ocupa até 212 GB e dá para baixar antes #shorts",
+  "resumo": "Segundo o Canaltech, GTA 6 pode ocupar até 212 GB e terá pré-carregamento: no PS5 a partir de 10 de novembro à meia-noite e no Xbox Series em 9 de novembro às 21h (horário de Brasília). O lançamento é em 19 de novembro.",
+  "hashtags": [
+    "GTA6",
+    "PS5",
+    "XboxSeries",
+    "games"
+  ],
+  "selo": "Games",
+  "fontes": [
+    {
+      "nome": "Canaltech",
+      "url": "https://canaltech.com.br/games/rockstar-prepara-pre-carregamento-e-brindes-para-lancamento-de-gta-6/"
+    }
+  ],
+  "cenas": [
+    {
+      "tipo": "gancho",
+      "fala": "{GTA 6|gê-tê-á seis} pode ocupar até {212 GB|duzentos e doze gigabytes}.",
+      "tela": "GTA 6 ocupa até 212 GB",
+      "imagens": [
+        null
+      ]
+    },
+    {
+      "tipo": "numero",
+      "fala": "Segundo o Canaltech, esse é o tamanho máximo do jogo. Libere espaço desde já.",
+      "destaque": "212 GB",
+      "rotulo": "tamanho máximo, segundo o Canaltech",
+      "imagens": [
+        null
+      ]
+    },
+    {
+      "tipo": "info",
+      "icone": "check",
+      "fala": "A boa notícia é que dá para baixar antes do lançamento. É o pré-carregamento.",
+      "imagens": [
+        null
+      ]
+    },
+    {
+      "tipo": "data",
+      "destaque": "9 NOV, 21h",
+      "rotulo": "Xbox Series, horário de Brasília",
+      "fala": "Segundo o Canaltech, no Xbox Series o pré-carregamento começa em 9 de novembro, às {21h|vinte e uma horas}, no horário de Brasília."
+    },
+    {
+      "tipo": "data",
+      "destaque": "10 NOV, 0h",
+      "rotulo": "PS5, horário de Brasília",
+      "fala": "E no {PS5|pê-ésse-cinco}, ainda segundo o Canaltech, no dia 10, à meia-noite."
+    },
+    {
+      "tipo": "data",
+      "destaque": "19 NOV",
+      "rotulo": "lançamento",
+      "fala": "O lançamento está marcado para 19 de novembro."
+    },
+    {
+      "tipo": "info",
+      "icone": "alerta",
+      "fala": "Atenção: o tamanho muda conforme a plataforma e a atualização do primeiro dia. Confira o espaço livre do seu console.",
+      "imagens": [
+        null
+      ]
+    },
+    {
+      "tipo": "cta",
+      "fala": "No blog, o que se sabe e o que falta sobre {GTA 6|gê-tê-á seis} no Xbox. O link está na bio. Você já liberou espaço no seu console?",
+      "tela": "Já liberou espaço para o GTA 6?",
+      "imagens": [
+        null
+      ]
+    }
+  ]
+}

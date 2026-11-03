@@ -1,0 +1,242 @@
+{
+  "tipo": "longo",
+  "slug": "apple-memoria-2027-iphone-mais-caro-black-friday",
+  "post": "",
+  "titulo": "iPhone mais caro em 2027? O aviso da Apple sobre a memória",
+  "resumo": "A Apple avisou, nos resultados mais recentes, que a memória deve seguir mais cara em 2027, pressionando iPhones e iPads. Explico o que a Apple disse, por que a memória encareceu, o que a Samsung previu para eletrônicos no Brasil e o que ninguém confirmou. Fontes na descrição.",
+  "hashtags": [
+    "iPhone",
+    "Apple",
+    "BlackFriday",
+    "memoriaRAM",
+    "tecnologia"
+  ],
+  "selo": "Celulares",
+  "capa_texto": "iPhone mais caro em 2027?",
+  "capitulos_desc": [
+    "0:00 Gancho",
+    "0:19 O que a Apple disse",
+    "1:23 Já subiu lá fora",
+    "1:38 Por que a memória encareceu",
+    "2:03 E no Brasil",
+    "2:31 O que ainda é incerto",
+    "2:43 O que fazer antes da Black Friday",
+    "3:08 Resumo e veredito"
+  ],
+  "fontes": [
+    {
+      "nome": "Canaltech (cita Reuters)",
+      "url": "https://canaltech.com.br/smartphone/iphone-pode-ficar-ainda-mais-caro-em-2027-por-causa-da-crise-alerta-apple/"
+    },
+    {
+      "nome": "Tecnoblog",
+      "url": "https://tecnoblog.net/noticias/eletronicos-devem-ficar-ate-20-mais-caros-no-brasil-preve-samsung/"
+    }
+  ],
+  "produtos": [],
+  "cenas": [
+    {
+      "tipo": "gancho",
+      "fala": "A Apple avisou: o iPhone pode ficar mais caro em {2027|dois mil e vinte e sete}.",
+      "tela": "Apple avisa: iPhone mais caro em 2027",
+      "capitulo": "Gancho",
+      "imagens": []
+    },
+    {
+      "tipo": "info",
+      "icone": "alerta",
+      "fala": "A resposta curta: a culpa é da memória, e a conta pode chegar ao seu bolso. Os links estão na descrição."
+    },
+    {
+      "tipo": "data",
+      "destaque": "Resultados",
+      "rotulo": "da Apple, trimestre até setembro",
+      "fala": "Foi nos resultados mais recentes da Apple. Os dados vêm da Reuters, via Canaltech."
+    },
+    {
+      "tipo": "info",
+      "icone": "check",
+      "fala": "Antes de tudo, um aviso sem rodeio: ninguém falou em preço de iPhone no Brasil. Vou separar o que é fato do que é palpite."
+    },
+    {
+      "tipo": "info",
+      "icone": "chip",
+      "capitulo": "O que a Apple disse",
+      "fala": "Primeiro, o que a Apple disse. O CEO, John Ternus, chamou a alta nos preços da memória de inédita."
+    },
+    {
+      "tipo": "info",
+      "icone": "chip",
+      "fala": "A Apple alertou que o preço dos chips de memória deve continuar subindo em {2027|dois mil e vinte e sete}."
+    },
+    {
+      "tipo": "info",
+      "icone": "dinheiro",
+      "fala": "Isso pressiona o custo de iPhones e iPads. Segundo Ternus, o custo da memória já subiu em relação ao trimestre anterior."
+    },
+    {
+      "tipo": "info",
+      "icone": "relogio",
+      "fala": "E deve subir mais até o fim do ano. Não é um susto de um mês só."
+    },
+    {
+      "tipo": "info",
+      "icone": "dinheiro",
+      "fala": "O diretor financeiro, Kevan Parekh, disse que a memória é a principal responsável pela queda prevista na margem."
+    },
+    {
+      "tipo": "comparativo",
+      "fala": "A Apple espera margem bruta de {45% a 46%|quarenta e cinco a quarenta e seis por cento} no trimestre que fecha em dezembro. No trimestre anterior, foi {47,9%|quarenta e sete vírgula nove por cento}.",
+      "itens": [
+        {
+          "valor": "47,9%",
+          "rotulo": "trimestre anterior"
+        },
+        {
+          "valor": "45% a 46%",
+          "rotulo": "previsão até dezembro"
+        }
+      ]
+    },
+    {
+      "tipo": "info",
+      "icone": "alerta",
+      "fala": "Analistas esperavam cerca de {46,7%|quarenta e seis vírgula sete por cento}. A previsão veio abaixo, e as ações chegaram a cair {4%|quatro por cento} na teleconferência."
+    },
+    {
+      "tipo": "numero",
+      "destaque": "US$ 114,48 bi",
+      "rotulo": "receita do trimestre até setembro",
+      "fala": "Mas a Apple não está no sufoco. A receita do trimestre até setembro foi de {US$ 114,48 bilhões|cento e quatorze bilhões e quatrocentos e oitenta milhões de dólares}."
+    },
+    {
+      "tipo": "numero",
+      "destaque": "+17,5%",
+      "rotulo": "vendas de iPhone no ano",
+      "fala": "As vendas de iPhone somaram {US$ 57,58 bilhões|cinquenta e sete bilhões e quinhentos e oitenta milhões de dólares}, alta de {17,5%|dezessete vírgula cinco por cento} no ano."
+    },
+    {
+      "tipo": "info",
+      "icone": "chip",
+      "fala": "Então o problema não é demanda. É o custo da peça que fica dentro do aparelho."
+    },
+    {
+      "tipo": "info",
+      "icone": "dinheiro",
+      "capitulo": "Já subiu lá fora",
+      "fala": "E a Apple já mexeu no preço. Segundo a Reuters, via Canaltech, alguns modelos do iPhone 17 subiram {US$ 100|cem dólares}."
+    },
+    {
+      "tipo": "numero",
+      "destaque": "US$ 100",
+      "rotulo": "alta em alguns iPhone 17",
+      "fala": "Esse aumento é em dólar. Não dá para copiar esse número para o real."
+    },
+    {
+      "tipo": "info",
+      "icone": "caixa",
+      "fala": "A empresa também diz que estoques comprados antes seguraram parte do impacto. Só que esse efeito diminui com o tempo."
+    },
+    {
+      "tipo": "info",
+      "icone": "ia",
+      "capitulo": "Por que a memória encareceu",
+      "fala": "Por que a memória está tão cara? A explicação vem da Samsung, em entrevista ao Tecnoblog."
+    },
+    {
+      "tipo": "info",
+      "icone": "ia",
+      "fala": "Fabricantes estão reduzindo a produção de memória RAM comum para focar em chips {HBM|agá bê ême}, usados em data centers de inteligência artificial."
+    },
+    {
+      "tipo": "info",
+      "icone": "chip",
+      "fala": "Na prática: os servidores de IA disputam a mesma fábrica que faria a memória do seu celular. Quando falta peça, o preço sobe."
+    },
+    {
+      "tipo": "info",
+      "icone": "relogio",
+      "fala": "E ampliar a produção não é rápido. Segundo a Samsung, instalar uma fábrica dedicada a esse chip pode levar anos."
+    },
+    {
+      "tipo": "info",
+      "icone": "chip",
+      "capitulo": "E no Brasil",
+      "fala": "Agora, o Brasil. A Samsung disse ao Tecnoblog que o custo da memória RAM sobe vem subindo desde setembro."
+    },
+    {
+      "tipo": "numero",
+      "destaque": "até 20%",
+      "rotulo": "previsão da Samsung, celulares e notebooks",
+      "fala": "Para o produto final, o vice-presidente da Samsung no Brasil previu alta de {10% a 20%|dez a vinte por cento}."
+    },
+    {
+      "tipo": "info",
+      "icone": "alerta",
+      "fala": "Vale lembrar: essa conta é da Samsung, vale para eletrônicos em geral e não é uma previsão para o iPhone."
+    },
+    {
+      "tipo": "info",
+      "icone": "tela",
+      "fala": "Segundo ele, os modelos básicos e intermediários seriam os mais afetados. Os topos de linha variariam pouco."
+    },
+    {
+      "tipo": "info",
+      "icone": "caixa",
+      "fala": "Dell e Lenovo também anunciaram aumento de preço em notebooks, em escala global. O movimento não é só de celular."
+    },
+    {
+      "tipo": "info",
+      "icone": "alerta",
+      "capitulo": "O que ainda é incerto",
+      "fala": "Então o iPhone vai ficar mais caro aqui? Ninguém confirmou isso. A Apple falou de custo, e não de preço no Brasil."
+    },
+    {
+      "tipo": "info",
+      "icone": "check",
+      "fala": "O que dá para dizer: o custo da memória está subindo, e as fabricantes falam disso em público. O resto é palpite."
+    },
+    {
+      "tipo": "info",
+      "icone": "carrinho",
+      "capitulo": "O que fazer antes da Black Friday",
+      "fala": "Na minha leitura, o recado serve de alerta para quem pensa em trocar de celular: vale acompanhar os preços, em vez de esperar sem plano."
+    },
+    {
+      "tipo": "info",
+      "icone": "relogio",
+      "fala": "Primeiro: se o seu aparelho atual ainda atende, não precisa correr por medo. Pressa é má conselheira de compra."
+    },
+    {
+      "tipo": "info",
+      "icone": "carrinho",
+      "fala": "Segundo: se a troca já estava nos planos, compare o preço em várias lojas e confira na ficha a memória e o armazenamento."
+    },
+    {
+      "tipo": "info",
+      "icone": "alerta",
+      "fala": "Terceiro: desconfie de desconto que aparece só na véspera. Veja o preço de antes e o de agora, com calma."
+    },
+    {
+      "tipo": "info",
+      "icone": "check",
+      "capitulo": "Resumo e veredito",
+      "fala": "Resumindo: a Apple avisou que a memória deve seguir cara em {2027|dois mil e vinte e sete}. Quanto isso muda no Brasil, ninguém sabe ainda."
+    },
+    {
+      "tipo": "info",
+      "icone": "check",
+      "fala": "Veredito: sem pânico e sem pressa. Acompanhe os preços e compre só o que faz sentido para o seu uso."
+    },
+    {
+      "tipo": "info",
+      "icone": "carrinho",
+      "fala": "Acompanhe o canal e o blog para ver como esses preços evoluem. As fontes estão na descrição."
+    },
+    {
+      "tipo": "cta",
+      "fala": "Você compraria um celular agora ou esperaria? Conta aqui nos comentários.",
+      "tela": "Comprar agora ou esperar?"
+    }
+  ]
+}

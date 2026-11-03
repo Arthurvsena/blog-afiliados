@@ -37,12 +37,25 @@
       "status": "ok",
       "tarefa": "Dei nota viral às pautas e escrevi as frases de compartilhamento e os textos de rede dos sete posts."
     },
+    "produtor": {
+      "status": "ok",
+      "tarefa": "Escolhi 2 Shorts (GTA 6, golpes na Black Friday) e 1 longo (Apple e a memória) e revisei os três roteiros contra as fontes."
+    },
+    "roteirista": {
+      "status": "ok",
+      "tarefa": "Escrevi os roteiros de GTA 6, golpes na Black Friday e do aviso da Apple sobre a memória, só com cenas gráficas."
+    },
     "analista": {
       "status": "ok",
       "tarefa": "Ontem foram 2 visitas e 8 visualizações, nenhuma do Google. O Google mostrou o site pela 1ª vez: 14 impressões e 1 clique em 01/11."
     }
   },
   "historico": [
+    {
+      "data": "2026-11-03",
+      "agente": "produtor",
+      "texto": "Revisei os roteiros do dia (GTA 6, golpes na Black Friday, Apple e memória) e montei os 3 vídeos."
+    },
     {
       "data": "2026-10-28",
       "agente": "curador",

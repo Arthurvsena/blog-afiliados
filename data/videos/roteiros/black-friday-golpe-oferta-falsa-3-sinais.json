@@ -1,0 +1,63 @@
+{
+  "tipo": "short",
+  "slug": "black-friday-golpe-oferta-falsa-3-sinais",
+  "post": "whatsapp-confirmacao-duas-etapas-como-ativar",
+  "titulo": "Black Friday: 3 sinais de oferta falsa para não cair #shorts",
+  "resumo": "Oferta de videogame pela metade do preço na Black Friday? Veja 3 sinais de oferta falsa na Black Friday, com dicas reunidas pelo Reclame AQUI e divulgadas pelo SBT News. No blog, o passo a passo para proteger seu WhatsApp.",
+  "hashtags": ["BlackFriday", "golpe", "segurança", "ofertafalsa"],
+  "selo": "Segurança",
+  "fontes": [
+    {"nome": "SBT News / Reclame AQUI", "url": "https://sbtnews.sbt.com.br/noticia/brasil/black-friday-site-reune-18-dicas-para-nao-cair-em-golpes"}
+  ],
+  "cenas": [
+    {
+      "tipo": "gancho",
+      "fala": "Oferta de videogame pela metade do preço na Black Friday? Antes de clicar, veja três sinais de golpe.",
+      "tela": "Metade do preço? Veja 3 sinais",
+      "imagens": []
+    },
+    {
+      "tipo": "numero",
+      "fala": "O Reclame AQUI reuniu {18|dezoito} dicas contra golpe na Black Friday. Eu separei três sinais.",
+      "destaque": "18 dicas",
+      "rotulo": "do Reclame AQUI",
+      "imagens": []
+    },
+    {
+      "tipo": "info",
+      "icone": "dinheiro",
+      "fala": "Primeiro: desconto enorme? Use um comparador de preços para ver se ele é real.",
+      "imagens": []
+    },
+    {
+      "tipo": "info",
+      "icone": "alerta",
+      "fala": "Segundo: a loja só aceita Pix ou boleto? Desconfie.",
+      "imagens": []
+    },
+    {
+      "tipo": "info",
+      "icone": "wifi",
+      "fala": "Terceiro: confira o endereço do site. Letra trocada ou erro de digitação é sinal de alerta.",
+      "imagens": []
+    },
+    {
+      "tipo": "info",
+      "icone": "check",
+      "fala": "Na dúvida, pesquise a loja no Reclame AQUI e leia as avaliações.",
+      "imagens": []
+    },
+    {
+      "tipo": "info",
+      "icone": "cadeado",
+      "fala": "E, se der, pague com cartão virtual. Dado pessoal, só em site oficial.",
+      "imagens": []
+    },
+    {
+      "tipo": "cta",
+      "fala": "No blog tem o passo a passo para proteger seu WhatsApp. O link está na bio. Qual golpe você já viu por aí?",
+      "tela": "Qual golpe você já viu por aí?",
+      "imagens": []
+    }
+  ]
+}
