@@ -1,0 +1,60 @@
+name: Teste de voz e vídeo
+
+on:
+  workflow_dispatch:
+    inputs:
+      roteiro:
+        description: "Roteiro a montar"
+        default: "data/videos/roteiros/amostra-iphone-duo.json"
+      vozes:
+        description: "Vozes do Gemini para as amostras (separadas por espaço)"
+        default: "Charon Puck Fenrir Orus Kore Aoede"
+
+permissions:
+  contents: write
+
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GOOGLE_TTS_KEY: ${{ secrets.GOOGLE_TTS_KEY }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - name: Ferramentas
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q ffmpeg espeak-ng
+          pip install -r requirements.txt kokoro-onnx soundfile piper-tts
+          cd video && npm ci --no-audit --no-fund && npx remotion browser ensure
+      - name: Amostras de voz
+        run: |
+          mkdir -p _teste
+          python3 - <<'PY'
+          import sys, subprocess
+          sys.path.insert(0, "scripts")
+          import video_motion as vm
+          texto = "O iPhone dobrável chegou ao Brasil. E o preço assusta: começa em vinte e um mil, novecentos e noventa e nove reais. O modelo brasileiro só aceita eSIM, e quem pede agora só recebe em janeiro. Você pagaria isso num celular?"
+          for v in "${{ github.event.inputs.vozes }}".split():
+              try:
+                  vm.narrar_gemini(texto, f"_teste/voz-gemini-{v}.wav", v)
+                  subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", f"_teste/voz-gemini-{v}.wav", "-b:a", "96k", f"_teste/voz-gemini-{v}.mp3"], check=True)
+                  print("ok", v)
+              except Exception as e:
+                  print("falhou", v, e)
+          PY
+          rm -f _teste/*.wav
+      - name: Vídeo com a voz configurada
+        run: python3 scripts/video_motion.py "${{ github.event.inputs.roteiro }}" --saida _teste
+      - name: Publicar o teste
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release delete teste-voz -y --cleanup-tag 2>/dev/null || true
+          gh release create teste-voz _teste/* --title "Teste de voz e vídeo" --notes "Amostras geradas pelo workflow teste-voz." --prerelease
