@@ -61,18 +61,21 @@ dono que a produção não rodou e termine. Pule vídeos cujo `slug` já esteja 
 Carregue a skill `chrome-browser`. Trabalhe em aba nova e feche no fim.
 Regras: não faça login, não digite senha, não resolva CAPTCHA, não aceite
 termos, não mude configurações do canal. Se o YouTube Studio pedir login,
-verificação de telefone ou não mostrar o canal **Nexus Tech**, pare a
+verificação de telefone ou não mostrar o canal **Nexus Tech IA**, pare a
 publicação, registre os vídeos como não publicados e avise o dono no fim.
 
 Para cada vídeo:
-1. Abra `https://studio.youtube.com` e confira no canto superior que o canal
-   é o **Nexus Tech**. Clique em **Criar** > **Enviar vídeos**.
+1. Abra `https://studio.youtube.com/channel/UCFFNejQflJHQNj6AAX026LQ` (canal
+   **Nexus Tech IA**, @TechNexusIA, da conta nexus.latech2026@gmail.com). Se
+   abrir outro canal (ex.: Art Play), troque pelo avatar > **Mudar de conta** >
+   **Nexus Tech IA**. Confira o nome no menu à esquerda antes de enviar.
+   Clique em **Criar** > **Enviar vídeos**.
 2. Ache o `input[type=file]` com `find`/`read_page` e use
    `mcp__claude-in-chrome__file_upload` com o caminho do `.mp4` (não clique no
    botão de escolher arquivo: isso abre uma janela que você não controla).
 3. **Detalhes**: título = `titulo`; descrição = conteúdo do `.txt`; miniatura =
    a `-capa.jpg` (só vídeos longos e só se o botão de miniatura estiver
-   liberado); público: **"Não, não é conteúdo para crianças"**. Em "Mostrar
+   liberado); categoria, idioma e tags padrão já vêm configurados no canal; público: **"Não, não é conteúdo para crianças"**. Em "Mostrar
    mais": **Conteúdo alterado: Não** (narração sintética não é conteúdo
    realista alterado); tags = `hashtags`.
 4. Avance até **Visibilidade**, escolha **Público** e clique em **Publicar**.
