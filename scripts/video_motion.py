@@ -268,7 +268,15 @@ def narrar_gemini(texto, destino, voz="Charon"):
     }).encode()
     req = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/interactions", data=corpo,
                                  headers={"Content-Type": "application/json", "x-goog-api-key": os.environ["GEMINI_API_KEY"]})
-    resp = json.loads(urllib.request.urlopen(req, timeout=180).read())
+    import time
+    for tentativa in range(4):
+        try:
+            resp = json.loads(urllib.request.urlopen(req, timeout=180).read())
+            break
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or tentativa == 3:
+                raise
+            time.sleep(35 * (tentativa + 1))  # cota por minuto do plano grátis
     audios = [c for st in resp.get("steps", []) if st.get("type") == "model_output"
               for c in st.get("content", []) if c.get("type") == "audio"]
     if not audios:

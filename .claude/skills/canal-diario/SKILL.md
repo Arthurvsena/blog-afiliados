@@ -55,7 +55,12 @@ Release `videos-AAAA-MM-DD` e faz o commit dos roteiros.
 # PARTE B: publicação (tarefa agendada no computador do dono)
 
 ## B1. Baixe os vídeos do dia
-`gh release download videos-AAAA-MM-DD --repo Arthurvsena/blog-afiliados --dir /mnt/user-data/outputs/videos`
+pela API REST do GitHub (o `gh release download` usa GraphQL, que é bloqueado aqui):
+```bash
+mkdir -p /mnt/user-data/outputs/videos && cd /mnt/user-data/outputs/videos
+gh api repos/Arthurvsena/blog-afiliados/releases/tags/videos-AAAA-MM-DD --jq '.assets[]|"\(.id) \(.name)"' |
+  while read id nome; do gh api -H "Accept: application/octet-stream" repos/Arthurvsena/blog-afiliados/releases/assets/$id > "$nome"; done
+```
 (data de hoje no horário de Brasília). Se não existir Release de hoje, avise o
 dono que a produção não rodou e termine. Pule vídeos cujo `slug` já esteja em
 `data/videos.json` com status `publicado`.
