@@ -242,6 +242,54 @@ const Chamada = ({cena, k, vertical}) => {
   );
 };
 
+
+// ---------- ícones (cena info) ----------
+const ICONES = {
+  chip: <><rect x="14" y="10" width="36" height="44" rx="6"/><path d="M14 22h-6M14 32h-6M14 42h-6M50 22h6M50 32h6M50 42h6"/><rect x="22" y="20" width="20" height="24" rx="3"/></>,
+  calendario: <><rect x="8" y="12" width="48" height="44" rx="6"/><path d="M8 26h48M20 6v12M44 6v12"/><path d="M18 36h6M30 36h6M42 36h6M18 46h6M30 46h6"/></>,
+  caixa: <><path d="M8 20 32 8l24 12v26L32 58 8 46z"/><path d="M8 20l24 12 24-12M32 32v26"/></>,
+  dinheiro: <><rect x="6" y="16" width="52" height="32" rx="5"/><circle cx="32" cy="32" r="8"/><path d="M14 24v16M50 24v16"/></>,
+  tela: <><rect x="16" y="4" width="32" height="56" rx="6"/><path d="M28 52h8"/></>,
+  dobravel: <><rect x="6" y="10" width="24" height="44" rx="4"/><rect x="34" y="10" width="24" height="44" rx="4"/><path d="M32 8v48"/></>,
+  bateria: <><rect x="6" y="18" width="46" height="28" rx="5"/><path d="M56 26v12"/><path d="M14 26h14v12H14z"/></>,
+  camera: <><rect x="6" y="16" width="52" height="38" rx="6"/><circle cx="32" cy="35" r="11"/><path d="M22 16l4-8h12l4 8"/></>,
+  alerta: <><path d="M32 6 60 56H4z"/><path d="M32 24v14M32 46v2"/></>,
+  check: <><circle cx="32" cy="32" r="26"/><path d="M20 33l8 8 16-18"/></>,
+  wifi: <><path d="M6 24a38 38 0 0 1 52 0M14 33a26 26 0 0 1 36 0M22 42a14 14 0 0 1 20 0"/><circle cx="32" cy="51" r="3"/></>,
+  carrinho: <><path d="M4 8h8l6 32h34l6-22H16"/><circle cx="24" cy="52" r="4"/><circle cx="48" cy="52" r="4"/></>,
+  jogo: <><rect x="4" y="18" width="56" height="30" rx="14"/><path d="M18 27v12M12 33h12"/><circle cx="44" cy="30" r="2.5"/><circle cx="50" cy="37" r="2.5"/></>,
+  ia: <><rect x="12" y="12" width="40" height="40" rx="8"/><path d="M24 4v8M40 4v8M24 52v8M40 52v8M4 24h8M4 40h8M52 24h8M52 40h8"/><path d="M24 40l6-16 6 16M26 35h8M42 24v16"/></>,
+  cadeado: <><rect x="12" y="28" width="40" height="30" rx="5"/><path d="M20 28v-8a12 12 0 0 1 24 0v8"/><circle cx="32" cy="42" r="3"/></>,
+  relogio: <><circle cx="32" cy="32" r="26"/><path d="M32 16v16l10 8"/></>,
+};
+
+const Info = ({cena, k, vertical}) => {
+  const f = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const s = spring({frame: f, fps, config: {damping: 10, stiffness: 140}});
+  const pulso = 1 + 0.04 * Math.sin(f / 5);
+  const d = interpolate(f, [0, 30], [0, 1], {extrapolateRight: 'clamp', easing: Easing.out(Easing.cubic)});
+  const tam = (vertical ? 520 : 360) * k;
+  return (
+    <AbsoluteFill style={{background: 'radial-gradient(circle at 50% 38%, #2b2160 0%, #0a0a12 62%, #050507 100%)', alignItems: 'center',
+      justifyContent: vertical ? 'flex-start' : 'center', paddingTop: vertical ? '36%' : 0}}>
+      {[0, 1, 2].map((i) => {
+        const r = ((f / 40 + i / 3) % 1);
+        return <div key={i} style={{position: 'absolute', top: vertical ? '49.5%' : '50%', left: '50%', width: tam * (1 + r * 1.6), height: tam * (1 + r * 1.6),
+          transform: 'translate(-50%,-50%)', borderRadius: '50%', border: `${4 * k}px solid rgba(124,92,255,${0.5 * (1 - r)})`}} />;
+      })}
+      <div style={{width: tam, height: tam, borderRadius: '50%', background: `linear-gradient(150deg, ${ROXO}, #4b2fd6)`, display: 'flex',
+        alignItems: 'center', justifyContent: 'center', boxShadow: `0 30px 120px rgba(124,92,255,.6)`,
+        transform: `scale(${s * pulso}) rotate(${interpolate(s, [0, 1], [-25, 0])}deg)`}}>
+        <svg width={tam * 0.55} height={tam * 0.55} viewBox="0 0 64 64" fill="none" stroke="#fff" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"
+          style={{strokeDasharray: 400, strokeDashoffset: 400 * (1 - d)}}>
+          {ICONES[cena.icone] || ICONES.alerta}
+        </svg>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 const Capitulo = ({cena, k}) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
@@ -266,7 +314,7 @@ const Cena = ({cena, k, vertical, primeira}) => {
   const escuro = cena.tipo === 'numero' || cena.tipo === 'gancho' ? 0.5 : 0.35;
   return (
     <AbsoluteFill style={{transform: `scale(${interpolate(entra, [0, 1], [1.12, 1])}) translateX(${treme}px)`}}>
-      {cena.tipo === 'produto' ? <Produto cena={cena} k={k} vertical={vertical} /> : <Fundo cena={cena} vertical={vertical} />}
+      {cena.tipo === 'produto' ? <Produto cena={cena} k={k} vertical={vertical} /> : cena.tipo === 'info' ? <Info cena={cena} k={k} vertical={vertical} /> : <Fundo cena={cena} vertical={vertical} />}
       <AbsoluteFill style={{background: vertical ? `linear-gradient(180deg, rgba(5,5,7,.75) 0%, rgba(5,5,7,0) 20%, rgba(5,5,7,${escuro}) 42%, rgba(5,5,7,.78) 56%, rgba(5,5,7,.8) 72%, rgba(5,5,7,.95) 100%)` : `linear-gradient(180deg, rgba(5,5,7,.7) 0%, rgba(5,5,7,0) 22%, rgba(5,5,7,${escuro}) 55%, rgba(5,5,7,.92) 100%)`}} />
       {cena.tipo === 'gancho' ? <Gancho cena={cena} k={k} vertical={vertical} /> : null}
       {cena.tipo === 'numero' ? <Numero cena={cena} k={k} vertical={vertical} /> : null}
@@ -292,9 +340,9 @@ export const Video = (props) => {
         </Sequence>
       ))}
       {/* legenda palavra por palavra (fica por cima das cenas) */}
-      {cenas.map((c, i) => (c.tipo === 'fato' || c.tipo === 'produto') && (c.palavras || []).length ? (
+      {cenas.map((c, i) => (c.tipo === 'fato' || c.tipo === 'produto' || c.tipo === 'info') && (c.palavras || []).length ? (
         <Sequence key={'l' + i} from={c.ini} durationInFrames={c.dur}>
-          <Legenda palavras={c.palavras} base={c.ini} k={k} vertical={vertical} baixo={c.tipo === 'produto'} />
+          <Legenda palavras={c.palavras} base={c.ini} k={k} vertical={vertical} baixo={c.tipo === 'produto' || c.tipo === 'info'} />
         </Sequence>
       ) : null)}
       <Topo selo={selo} k={k} cenas={cenas} frame={frame} />

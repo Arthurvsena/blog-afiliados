@@ -2,7 +2,8 @@
 
 Mesmo roteiro de scripts/video.py, com campos extras por cena:
   "tipo": "gancho" | "fato" | "numero" | "produto" | "cta"   (padrão: fato; 1ª cena = gancho; última = cta)
-  "imagens": ["content/imagens/x.jpg", "produto:ID", "busca:termos em inglês"]  (várias fotos por cena)
+  "imagens": ["content/imagens/x.jpg", "produto:ID", "url:https://...jpg|Divulgação/Apple", "busca:termos"]
+  "icone": "chip" | "calendario" | ...  (cena info: ícone animado no lugar da foto)
   "destaque": "R$ 21.999"   (cena numero: o número que sobe na tela)
   "rotulo": "na versão de 256 GB"  (legenda curta do número)
   "produto": "ID"           (cena produto: cartão animado do produto do catálogo)
@@ -37,6 +38,44 @@ RAIZ = base.RAIZ
 PROJ = RAIZ / "video"
 PUBLICO = PROJ / "public"
 UA = base.UA
+
+
+VOZ_PADRAO = "kokoro:pm_alex"
+KOKORO_URL = "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/"
+
+
+def sintetizador(voz):
+    """Voz grátis: 'kokoro:pm_alex' | 'kokoro:pm_santa' | 'kokoro:pf_dora' (pt-BR) ou 'piper:cadu' | 'piper:jeff' | 'piper:faber'."""
+    motor, nome = (voz.split(":", 1) + [""])[:2]
+    cache = Path.home() / ".cache" / "nexus-vozes"
+    cache.mkdir(parents=True, exist_ok=True)
+    if motor == "kokoro":
+        for arq in ("kokoro-v1.0.onnx", "voices-v1.0.bin"):
+            if not (cache / arq).exists():
+                (cache / arq).write_bytes(pegar(KOKORO_URL + arq))
+        import soundfile as sf
+        from kokoro_onnx import Kokoro
+        k = Kokoro(str(cache / "kokoro-v1.0.onnx"), str(cache / "voices-v1.0.bin"))
+
+        def falar(texto, destino):
+            som, taxa = k.create(texto, voice=nome or "pm_alex", speed=1.08, lang="pt-br")
+            sf.write(str(destino), som, taxa, subtype="PCM_16")
+        return falar
+    # piper
+    nome = nome or "cadu"
+    modelo = cache / f"pt_BR-{nome}-medium.onnx"
+    for ext in (".onnx", ".onnx.json"):
+        arq = cache / f"pt_BR-{nome}-medium{ext}"
+        if not arq.exists():
+            arq.write_bytes(pegar(f"https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/pt/pt_BR/{nome}/medium/pt_BR-{nome}-medium{ext}"))
+    from piper import PiperVoice, SynthesisConfig
+    v = PiperVoice.load(str(modelo))
+    cfg = SynthesisConfig(length_scale=0.9)
+
+    def falar(texto, destino):
+        with wave.open(str(destino), "wb") as wf:
+            v.synthesize_wav(texto, wf, syn_config=cfg)
+    return falar
 
 
 def chrome():
@@ -114,6 +153,11 @@ def preparar_imagens(rot, pasta, catalogo, creditos):
                     if img:
                         salvar_img(img, destino, True)
                         item = {"src": f"run/{pasta.name}/{nome}", "produto": True}
+                elif ref.startswith("url:"):
+                    url, _, cred = ref[4:].partition("|")
+                    salvar_img(Image.open(io.BytesIO(pegar(url.strip()))), destino)
+                    item = {"src": f"run/{pasta.name}/{nome}", "produto": False}
+                    creditos.append(cred.strip() or "Divulgação")
                 elif ref.startswith("busca:"):
                     dados, cred = busca_commons(ref.split(":", 1)[1].strip(), usados)
                     if dados:
@@ -179,7 +223,8 @@ def sfx(pasta):
     return whoosh, ding
 
 
-def montar(rot, audio_externo=None, saida=None):
+def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
+    voz_escolhida = voz_escolhida or VOZ_PADRAO
     tipo = rot.get("tipo", "short")
     fps = 30
     largura, altura = (1080, 1920) if tipo == "short" else (1280, 720)
@@ -206,23 +251,18 @@ def montar(rot, audio_externo=None, saida=None):
         shutil.copy(audio_externo, audio)
         voz = "elevenlabs"
     else:
-        from piper import PiperVoice, SynthesisConfig
-        v = PiperVoice.load(str(base.baixar_voz()))
-        cfg = SynthesisConfig(length_scale=0.86)
+        falar = sintetizador(voz_escolhida)
         wavs, tempos_trechos = [], []
         for ci, gs in enumerate(trechos_por_cena):
-            tt = []
-            for gi, g in enumerate(gs):
-                arq = pasta / f"t{ci:02d}-{gi:02d}.wav"
-                with wave.open(str(arq), "wb") as wf:
-                    v.synthesize_wav(" ".join(f for _, f in g), wf, syn_config=cfg)
-                with wave.open(str(arq)) as w:
-                    d = w.getnframes() / w.getframerate()
-                pausa = folga + (0.22 if gi == len(gs) - 1 else 0.0)
-                wavs.append((arq, pausa))
-                tt.append(d + pausa)
-            tempos_trechos.append(tt)
-        # junta com pausas
+            # uma síntese por cena (entonação natural); o tempo de cada trecho sai do tamanho do texto
+            arq = pasta / f"c{ci:02d}.wav"
+            falar(" ".join(f for g in gs for _, f in g), arq)
+            with wave.open(str(arq)) as w:
+                d = w.getnframes() / w.getframerate()
+            pausa = 0.28
+            wavs.append((arq, pausa))
+            tam = [len(" ".join(f for _, f in g)) + 3 for g in gs]
+            tempos_trechos.append([d * x / sum(tam) for x in tam[:-1]] + [d * tam[-1] / sum(tam) + pausa])
         with wave.open(str(wavs[0][0])) as w:
             taxa, can, lg = w.getframerate(), w.getnchannels(), w.getsampwidth()
         audio = pasta / "narracao.wav"
@@ -232,7 +272,7 @@ def montar(rot, audio_externo=None, saida=None):
                 with wave.open(str(arq)) as w:
                     out.writeframes(w.readframes(w.getnframes()))
                 out.writeframes(b"\0" * int(taxa * pausa) * lg * can)
-        voz = "piper"
+        voz = voz_escolhida
 
     # cenas em quadros
     props_cenas, sons, t = [], [], 0.0
@@ -241,7 +281,7 @@ def montar(rot, audio_externo=None, saida=None):
         ini = round(t * fps)
         palavras, tg = [], t
         for gi, (g, dg) in enumerate(zip(gs, tt)):
-            fala_d = dg - (folga if not audio_externo else 0)
+            fala_d = dg - (0.28 if (gi == len(gs) - 1 and not audio_externo) else 0)
             pesos = [len(f) + 2 for _, f in g]
             tw = tg
             for (tela_p, _), peso in zip(g, pesos):
@@ -253,7 +293,7 @@ def montar(rot, audio_externo=None, saida=None):
         dur = max(round(t * fps) - ini, 20)
         tipo_c = c.get("tipo") or ("gancho" if ci == 0 else "cta" if ci == n - 1 else "fato")
         cena = {"ini": ini, "dur": dur, "tipo": tipo_c, "tela": c.get("tela") or " ".join(t for t, _ in tokens(c["fala"])), "destaque": c.get("destaque", ""),
-                "rotulo": c.get("rotulo", ""), "capitulo": c.get("capitulo", ""), "imagens": c.get("_imagens", []), "palavras": palavras}
+                "rotulo": c.get("rotulo", ""), "icone": c.get("icone", ""), "capitulo": c.get("capitulo", ""), "imagens": c.get("_imagens", []), "palavras": palavras}
         if tipo_c == "produto":
             pid = c.get("produto") or next((r.split(":", 1)[1] for r in (c.get("imagens") or []) if str(r).startswith("produto:")), "")
             p = catalogo.get(pid, {})
@@ -315,7 +355,8 @@ def montar(rot, audio_externo=None, saida=None):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("roteiro")
-    ap.add_argument("--audio")
+    ap.add_argument("--audio", help="narração pronta (ElevenLabs) com o roteiro inteiro")
+    ap.add_argument("--voz", help=f"voz grátis (padrão {VOZ_PADRAO}); ex.: kokoro:pm_santa, piper:cadu")
     ap.add_argument("--saida")
     ap.add_argument("--manter", action="store_true", help="não apaga a pasta temporária em video/public/run/")
     ap.add_argument("--fala", action="store_true", help="só imprime o texto falado inteiro (para o ElevenLabs)")
@@ -324,7 +365,7 @@ def main():
     if a.fala:
         print(" ".join(falado(c["fala"]) for c in rot["cenas"] if c.get("fala")))
         return
-    res = montar(rot, a.audio, a.saida)
+    res = montar(rot, a.audio, a.saida, a.voz)
     desc = Path(res["arquivo"]).with_suffix(".txt")
     desc.write_text(base.gerar_descricao(rot), encoding="utf-8")
     res["descricao"] = str(desc)

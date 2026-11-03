@@ -45,13 +45,26 @@ ouvir), o post de origem inteiro, `data/videos.json` (o que já virou vídeo),
   destaques do CSV. Só produtos `ativo=sim`.
 - `cta` (última cena): "link na bio" (Short) ou "links na descrição" (longo),
   com uma pergunta em `tela` para gerar comentários.
-**Várias fotos por cena** em `imagens` (troca a cada ~1,5 s): use 1 a 3 por
-cena e **nunca repita a mesma foto em cenas seguidas**. Fontes, nesta ordem:
-a foto do post (`content/imagens/...`), `produto:ID`, e `busca:termos em
-inglês` (foto livre do Wikimedia Commons, com crédito automático). Na busca,
-seja concreto ("Apple Store interior", "smartphone charging cable"), evite
-logos e marcas concorrentes e prefira coisas genéricas a produtos específicos
-de outras marcas. Um vídeo de 40 s deve ter pelo menos 6 fotos diferentes.
+- `info`: ícone animado grande (`icone`: chip, calendario, caixa, dinheiro,
+  tela, dobravel, bateria, camera, alerta, check, wifi, carrinho, jogo, ia,
+  cadeado, relogio) com a legenda embaixo. Use quando não houver foto que
+  mostre exatamente o que a fala diz (prazo de entrega, chip, preço, aviso).
+
+**Fotos: só o que mostra exatamente o assunto da fala.** Uma foto genérica
+ou de outra coisa estraga o vídeo; nesse caso use uma cena `info`. Em
+`imagens` (1 a 3 por cena, trocam a cada ~1,5 s; não repita a mesma foto em
+cenas seguidas), nesta ordem de preferência:
+1. **Imagens oficiais de divulgação** da empresa da notícia, do próprio
+   produto: ache a página de imprensa (newsroom/press kit, ex.:
+   apple.com/newsroom, news.samsung.com/br, blog.google, news.xbox.com) com
+   WebSearch, abra com WebFetch e use as URLs das imagens assim:
+   `"url:https://...jpg|Divulgação/Apple"`. Prefira fotos do produto e de telas;
+   evite fotos com pessoas em destaque.
+2. `produto:ID` (fotos dos produtos do catálogo) e a foto do post
+   (`content/imagens/...`).
+3. `busca:termos` só para coisas com nome próprio e visual inconfundível
+   ("Apple Store Fifth Avenue"); nunca para conceitos ("calendar", "delivery").
+Um Short de 40 s deve ter de 5 a 8 visuais diferentes (fotos + cenas info).
 
 ## Short (`"tipo": "short"`)
 6 a 9 cenas, 30 a 55 segundos no total (cerca de 13 palavras faladas por

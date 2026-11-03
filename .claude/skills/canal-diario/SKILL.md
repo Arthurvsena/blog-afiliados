@@ -29,11 +29,13 @@ Para cada vídeo: `roteirista` (com o tipo e o post) e depois `produtor` em
    terminar. Se gerar, baixe o áudio da URL do resultado para
    `/tmp/narracao-SLUG.mp3` (curl) e confira com `ffprobe`.
 2. **Se qualquer coisa falhar** (sem crédito, ocupado, erro, download
-   bloqueado), não tente de novo: use a voz grátis (sem `--audio`). Se o
+   bloqueado), não tente de novo: use a voz grátis (sem `--audio`; a voz
+   padrão é a definida em `config.yaml > video.voz`, passe com `--voz`). Se o
    ElevenLabs disser que não há crédito, use a voz grátis em todos os vídeos
    restantes do dia.
 3. Monte o vídeo com motion (Remotion):
-   `python3 scripts/video_motion.py data/videos/roteiros/SLUG.json --saida /mnt/user-data/outputs/videos --manter [--audio /tmp/narracao-SLUG.mp3]`
+   `python3 scripts/video_motion.py data/videos/roteiros/SLUG.json --saida /mnt/user-data/outputs/videos --manter --voz VOZ [--audio /tmp/narracao-SLUG.mp3]`
+   (instale antes `pip install --break-system-packages -q kokoro-onnx soundfile`)
    Leva de 4 a 6 min por Short e de 15 a 30 min por vídeo longo. Se o
    Remotion falhar duas vezes, use a reserva sem motion:
    `python3 scripts/video.py data/videos/roteiros/SLUG.json --saida /mnt/user-data/outputs/videos [--audio ...]`

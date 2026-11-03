@@ -17,7 +17,7 @@
       "fala": "O iPhone dobrável chegou ao Brasil. E o preço assusta.",
       "tela": "iPhone dobrável chegou. Preço assusta",
       "imagens": [
-        "content/imagens/iphone-duo-preco-brasil-entrega-2027.jpg"
+        "url:https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-colors-260909_big.jpg.large_2x.jpg|Divulgação/Apple"
       ]
     },
     {
@@ -26,7 +26,7 @@
       "destaque": "R$ 21.999",
       "rotulo": "versão de 256 GB",
       "imagens": [
-        "busca:iPhone Duo"
+        "url:https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-display-sizes-260909_big.jpg.large_2x.jpg|Divulgação/Apple"
       ]
     },
     {
@@ -35,38 +35,34 @@
       "destaque": "R$ 30.999",
       "rotulo": "versão de 2 TB",
       "imagens": [
-        "busca:Apple Store"
+        "url:https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-Netflix-app-260909_big.jpg.large_2x.jpg|Divulgação/Apple"
       ]
     },
     {
       "tipo": "fato",
       "fala": "São duas telas: uma de {5,4\"|cinco vírgula quatro polegadas} por fora e uma de {7,6\"|sete vírgula seis} por dentro.",
       "imagens": [
-        "busca:foldable smartphone",
-        "content/imagens/iphone-duo-preco-brasil-entrega-2027.jpg"
+        "url:https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-Detail-app-260909_big.jpg.large_2x.jpg|Divulgação/Apple",
+        "url:https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-Zoom-app-260909_big.jpg.large_2x.jpg|Divulgação/Apple"
       ]
     },
     {
-      "tipo": "fato",
-      "fala": "Quem pede agora só recebe em janeiro de {2027|dois mil e vinte e sete}. Em alguns CEPs, só em fevereiro.",
-      "imagens": [
-        "busca:delivery package box",
-        "busca:calendar"
-      ]
+      "tipo": "info",
+      "icone": "calendario",
+      "fala": "Quem pede agora só recebe em janeiro de {2027|dois mil e vinte e sete}. Em alguns CEPs, só em fevereiro."
     },
     {
-      "tipo": "fato",
-      "fala": "E atenção: o modelo brasileiro só aceita {eSIM|ê-SIM}. Não tem bandeja para chip.",
-      "imagens": [
-        "busca:SIM card"
-      ]
+      "tipo": "info",
+      "icone": "chip",
+      "fala": "E atenção: o modelo brasileiro só aceita {eSIM|ê-SIM}. Não tem bandeja para chip."
     },
     {
       "tipo": "cta",
       "fala": "Os preços de cada versão estão no link da bio. Você pagaria isso num celular?",
       "tela": "Você pagaria isso num celular?",
       "imagens": [
-        "content/imagens/iphone-duo-preco-brasil-entrega-2027.jpg"
+        "url:https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-48MP-Fusion-Main-camera-260909_big.jpg.large_2x.jpg|Divulgação/Apple",
+        "url:https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-colors-260909_big.jpg.large_2x.jpg|Divulgação/Apple"
       ]
     }
   ]

@@ -104,3 +104,8 @@ subnichos:
   - slug: casa-inteligente
     nome: "Casa Inteligente"
     sementes: ["lâmpada inteligente", "tomada inteligente", "câmera wifi", "alexa compatível"]
+
+# Canal de vídeo (departamento de vídeo)
+video:
+  voz: "kokoro:pm_alex"     # voz grátis: kokoro:pm_alex | kokoro:pm_santa | kokoro:pf_dora | piper:cadu | piper:jeff
+  elevenlabs_voz: "cCd5pjwRv69hyjEKrf0o"   # Renan Matheus (pt-BR), usada quando houver crédito
