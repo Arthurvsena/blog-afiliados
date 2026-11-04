@@ -33,7 +33,7 @@ Para cada vídeo: `roteirista` (com o tipo e a pauta: a tendência inteira em JS
    tem que dar OK (senão devolva ao roteirista com o que faltou).
 1. `python3 scripts/video_motion.py data/videos/roteiros/SLUG.json --saida _videos --manter`
    Leva de 3 a 6 min por Short e de 10 a 25 min por vídeo longo. O resultado
-   diz o arquivo, o tamanho (< 10 MB), a duração, a voz usada, a capa (longos)
+   diz o arquivo, o tamanho (alta qualidade, sem limite de 10 MB), a duração, a voz usada, a capa (longos)
    e o `.txt` com a descrição pronta.
 2. **Confira as fotos**: abra (Read) as imagens baixadas em
    `video/public/run/SLUG/c*.jpg`. Só valem fotos oficiais do próprio produto
@@ -59,18 +59,23 @@ Release `videos-AAAA-MM-DD` e faz o commit dos roteiros.
 # PARTE B: publicação (tarefa agendada no computador do dono)
 
 ## B1. Baixe os vídeos do dia
-pela API REST do GitHub (o `gh release download` usa GraphQL, que é bloqueado aqui):
+pela API REST do GitHub (o `gh release download` usa GraphQL, que é bloqueado aqui),
+**dentro da pasta do repositório** (o envio pelo Chrome só aceita arquivos da
+pasta de trabalho desta sessão):
 ```bash
-mkdir -p /mnt/user-data/outputs/videos && cd /mnt/user-data/outputs/videos
+cd ~/blog-afiliados 2>/dev/null || cd "$(git rev-parse --show-toplevel)"
+mkdir -p _partes/AAAA-MM-DD && cd _partes/AAAA-MM-DD
 gh api repos/Arthurvsena/blog-afiliados/releases/tags/videos-AAAA-MM-DD --jq '.assets[]|"\(.id) \(.name)"' |
   while read id nome; do gh api -H "Accept: application/octet-stream" repos/Arthurvsena/blog-afiliados/releases/assets/$id > "$nome"; done
+for v in *.mp4; do split -b 9M -d -a 2 "$v" "$v.parte-"; ls -l "$v"*; done
 ```
-(data de hoje no horário de Brasília). Se não existir Release de hoje, avise o
-dono que a produção não rodou e termine.
-O envio pelo Chrome aceita no máximo 10 MB por arquivo: para cada `.mp4` com mais
-de 9,5 MB, rode `pip install --break-system-packages -q pyyaml pillow` e
-`python3 scripts/video_motion.py --comprimir CAMINHO.mp4` antes de enviar. Pule vídeos cujo `slug` já esteja em
-`data/videos.json` com status `publicado`.
+(data de hoje no horário de Brasília; `_partes/` está no .gitignore). Se não
+existir Release de hoje, avise o dono que a produção não rodou e termine.
+Os vídeos vêm em **alta qualidade** (Shorts 1080×1920, longos 1920×1080, de 30
+a 300 MB). **Nunca comprima** para caber em 10 MB: isso destrói a imagem e a
+voz. O limite de 10 MB é por envio do Chrome, então o vídeo vai em partes de
+9 MB e é remontado dentro da página (passo B2.2). Pule vídeos cujo `slug` já
+esteja em `data/videos.json` com status `publicado` ou `programado`.
 
 ## B2. Publique no YouTube (Chrome do dono)
 Carregue a skill `chrome-browser`. Trabalhe em aba nova e feche no fim.
@@ -85,9 +90,29 @@ Para cada vídeo:
    abrir outro canal (ex.: Art Play), troque pelo avatar > **Mudar de conta** >
    **Nexus Tech IA**. Confira o nome no menu à esquerda antes de enviar.
    Clique em **Criar** > **Enviar vídeos**.
-2. Ache o `input[type=file]` com `find`/`read_page` e use
-   `mcp__claude-in-chrome__file_upload` com o caminho do `.mp4` (não clique no
-   botão de escolher arquivo: isso abre uma janela que você não controla).
+2. **Envio em partes** (não clique no botão de escolher arquivo: abre uma
+   janela do Windows que você não controla). Com a janela "Enviar vídeos"
+   aberta:
+   a. Crie um campo de arquivo para cada parte (N = número de `VIDEO.mp4.parte-*`):
+      `javascript_tool`: `for (let i=0;i<N;i++){const e=document.createElement('input');e.type='file';e.dataset.parte=i;e.style.cssText='position:fixed;left:0;top:'+(i*28)+'px;z-index:999999';document.body.appendChild(e);} 'ok'`
+   b. `find` "campos de arquivo" para pegar as refs e, **um por chamada**, use
+      `mcp__claude-in-chrome__file_upload` com o caminho absoluto de cada parte
+      (parte-00 no 1º campo criado, parte-01 no 2º...). Os campos novos são os
+      últimos da página; o do YouTube é o primeiro.
+   c. Remonte e entregue ao YouTube (troque NOME e TAMANHO pelo nome do `.mp4` e
+      o tamanho em bytes do `ls -l`):
+      ```js
+      const ps=[...document.querySelectorAll('input[data-parte]')].sort((a,b)=>a.dataset.parte-b.dataset.parte).map(e=>e.files[0]);
+      const arq=new File(ps,'NOME.mp4',{type:'video/mp4'});
+      if (arq.size!==TAMANHO) throw new Error('tamanho errado: '+arq.size);
+      const alvo=[...document.querySelectorAll('input[type=file]')].find(e=>!e.dataset.parte);
+      const dt=new DataTransfer(); dt.items.add(arq); alvo.files=dt.files;
+      alvo.dispatchEvent(new Event('change',{bubbles:true}));
+      document.querySelectorAll('input[data-parte]').forEach(e=>e.remove()); arq.size
+      ```
+      Confira com screenshot que a tela de Detalhes abriu com o nome do vídeo.
+      Se não abrir, tente uma vez `alvo.dispatchEvent(new Event('input',{bubbles:true}))`;
+      se ainda falhar, registre "pronto (não publicado: envio falhou)" e siga.
 3. **Detalhes**: título = `titulo`; descrição = conteúdo do `.txt`; miniatura =
    a `-capa.jpg` (só vídeos longos e só se o botão de miniatura estiver
    liberado); categoria, idioma e tags padrão já vêm configurados no canal; público: **"Não, não é conteúdo para crianças"**. Em "Mostrar
