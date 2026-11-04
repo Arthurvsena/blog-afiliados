@@ -161,7 +161,7 @@ Vale lembrar que nota alta em marketplace também vem de quem acabou de receber 
 - **Potência:** 20 a 30 W atende a maioria dos celulares. Acima disso, só para tablet ou notebook pequeno.
 - **Cabo embutido:** é prático, mas não dá para trocar.
 
-Para entender cada número, leia nosso guia [como escolher um power bank](/posts/como-escolher-power-bank/). Em dúvida entre os de 10.000 mAh? A [análise do Ugreen PB311](/posts/review-power-bank-ugreen-pb311-10000/) detalha esse modelo.
+Para entender cada número, leia nosso guia [como escolher um power bank](/posts/como-escolher-power-bank/). Para carregar em casa, veja também os [melhores carregadores turbo tipo C](/posts/melhores-carregadores-turbo/). Em dúvida entre os de 10.000 mAh? A [análise do Ugreen PB311](/posts/review-power-bank-ugreen-pb311-10000/) detalha esse modelo.
 
 ## Vai para estrada ou lugar sem sinal?
 

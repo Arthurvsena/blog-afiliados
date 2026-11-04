@@ -148,7 +148,7 @@ Três perguntas resolvem a maior parte da decisão.
 2. **Fala muito ao telefone?** Olhe os microfones. O ENC do QCY é feito para isso.
 3. **Treina com ele?** Confira a resistência: IP54 no JBL e IPX4 no Redmi.
 
-Pense no estojo como um power bank do fone: quanto maior a autonomia dele, menos vezes você lembra do carregador. E o detalhe que ninguém vê na caixa é o encaixe. Teste o tamanho das borrachinhas, porque um bom encaixe isola mais que muito recurso. Para ir mais fundo, leia o [guia de como escolher um fone Bluetooth](/posts/como-escolher-fone-bluetooth/). Na dúvida entre sem fio e com fio, veja [fone Bluetooth ou com fio](/posts/fone-bluetooth-ou-com-fio/).
+Pense no estojo como um power bank do fone: quanto maior a autonomia dele, menos vezes você lembra do carregador. E o detalhe que ninguém vê na caixa é o encaixe. Teste o tamanho das borrachinhas, porque um bom encaixe isola mais que muito recurso. Para ir mais fundo, leia o [guia de como escolher um fone Bluetooth](/posts/como-escolher-fone-bluetooth/). Se um lado do seu fone parou, veja [fone TWS só funciona um lado: como resolver](/posts/fone-tws-so-funciona-um-lado/). Na dúvida entre sem fio e com fio, veja [fone Bluetooth ou com fio](/posts/fone-bluetooth-ou-com-fio/).
 
 ## O que os compradores dizem
 

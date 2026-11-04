@@ -60,7 +60,7 @@ Segundo o mesmo site, novos amiibos de Link e Zelda jovens estão previstos para
 
 A Collector's Edition não foi anunciada oficialmente. Uma listagem de varejista chegou a circular, e o próprio Game Over Drive corrigiu a matéria que a citava. Se alguém te mostrar uma edição de colecionador à venda, desconfie.
 
-Também não há preço oficial em real divulgado até onde consegui apurar, nem confirmação de dublagem.
+Também não há preço oficial em real divulgado até onde consegui apurar, nem confirmação de dublagem. Sobre quem desenvolveu o jogo, a Nintendo já falou: [veja quem fez o remake](/posts/ocarina-of-time-switch-2-quem-fez-remake-nintendo-epd/).
 
 ## Precisa de um Switch 2 novo?
 

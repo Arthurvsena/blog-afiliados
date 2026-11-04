@@ -175,7 +175,7 @@ Quatro perguntas resolvem quase tudo.
 
 O pulo do gato é não pagar por recurso que você não usa. Bateria é como o tanque do carro: quanto maior, menos você pensa nela. Já GPS e chamadas são o porta-malas grande de quem nunca viaja.
 
-Para ver a diferença entre os dois formatos antes de fechar, leia [smartband ou smartwatch: qual escolher](/posts/smartband-ou-smartwatch-qual-escolher/).
+Se prefere relógio a pulseira, veja a lista de [smartwatch barato e bom](/posts/melhores-smartwatches-baratos/). Para ver a diferença entre os dois formatos antes de fechar, leia [smartband ou smartwatch: qual escolher](/posts/smartband-ou-smartwatch-qual-escolher/).
 
 ## O que os compradores dizem
 

@@ -2,6 +2,35 @@
 
 O curador escreve aqui os produtos que vale cadastrar em data/produtos.csv.
 
+## Sugestões de 2026-11-04
+
+**Aviso para o cadastrador:** o Mercado Livre segue com HTTP 403 para leitura, então nota e avaliações do ML **não** foram conferidas. As notas abaixo (quando citadas) são de outras lojas e só indicam reputação. Critério no cadastro: nota 4,5+ e 200+ avaliações no anúncio do ML; senão descarte. Prefira loja oficial ou MercadoLíder e confira o selo Anatel. Esta seção complementa as de 11-03, 11-02 e 11-01 (ainda não cadastradas); onde há conflito, vale a mais recente.
+
+**Situação do catálogo (27 ativos):** carregadores turbo 3 de 4 (Samsung 25 W, Baseus GaN5, Ugreen 45 W; falta o Motorola 50 W); mouses gamer 2 de 4 (G203 e Cobra M711; faltam Griffin e Crusader); headsets 0 de 4; caixas 0 (3 para a pauta JBL/Soundcore, 3 para a pauta até R$ 100).
+
+**Ordem de cadastro (aposta 4, o que destrava mais pautas por cadastro):**
+1. Motorola TurboPower Duo 50 W: destrava `melhores-carregadores-turbo` sozinho (seção de 11-03).
+2. Redragon Griffin M607 + Fortrek Crusader: destravam `melhores-mouses-gamer-baratos` (seção de 11-03).
+3. JBL Go 4 + Anker Soundcore 2 + JBL Flip Essential 2: destravam `melhores-caixas-de-som-bluetooth-jbl-soundcore` (mural #29, resolvida pelo pesquisador; seção de 11-02). Pode cadastrar já: são as 3 que a pauta nova pede.
+4. Headsets: Havit HV-H2002D, JBL Quantum 100, Redragon Zeus X H510 (11-02) + **HyperX Cloud Stinger (novo, abaixo)** = os 4.
+5. Caixas até R$ 100 ficam por último: só i2GO tem ficha e está abaixo do critério; a pauta continua travada.
+
+### acessorios-gamer: headsets gamer (4º produto resolvido)
+- **Headset Gamer HyperX Cloud Stinger (P2 e P3, múltiplas plataformas, preto, 4P5L7AA#ABL / HX-HSCS-BK/NA)** (HyperX), preço de varejo variável (Oficina da Net R$ 149,99 numa listagem; lançamento sugerido R$ 399,90 no Canaltech; indicativo; KaBuM mostrava esgotado). Por que: a marca mais citada em guias de headset de entrada. Nota de reputação fora do ML: 4,8 com 6.132 avaliações na KaBuM (página aberta hoje). Confirmado na KaBuM (e batendo com Pelando/Canaltech/Oficina da Net): driver dinâmico de 50 mm com ímãs de neodímio, circumaural fechado, plugue de 3,5 mm de 4 polos com cabo extensor em Y para PC, microfone unidirecional com cancelamento de ruído, 275 g, garantia de 2 anos (3 meses legal + 21 do fabricante). Cuidado: não confundir com Cloud Stinger 2 (50 mm, 32 ohms), Stinger Core (40 mm) nem com a versão P3 só para PS4/PS5 (HX-HSCSS-BK/AM). Registre a que o anúncio mostrar. Impedância de 30 ohms vem de resumo de busca, não registre.
+  Busca no ML: `Headset Gamer HyperX Cloud Stinger 50mm P2 P3`
+  Linha pronta para o CSV (só falta o link):
+  `hyperx-cloud-stinger,acessorios-gamer,Headset Gamer HyperX Cloud Stinger Drivers 50 mm P2 e P3,HyperX,PRECO,NOTA,AVAL,COLE_O_LINK,,Drivers de 50 mm;Microfone com cancelamento de ruído;Plugue P2 com cabo extensor em Y para PC;Garantia de 2 anos,sim`
+- Reserva: se o HyperX estiver sem estoque no ML (estava esgotado na KaBuM), use o Redragon Zeus Lite (sem ficha, 11-02).
+
+### fones-caixas-bluetooth: caixas JBL/Soundcore (pauta nova do mural #29)
+- Sem novas fichas. As 3 de 11-02 (JBL Go 4, Soundcore 2, JBL Flip Essential 2) seguem válidas, com linhas de CSV na seção de 11-02. Dado novo da JBL Go 4, confirmado no Buscapé hoje: Bluetooth 5.3, 7 h (mais 2 h com Playtime Boost), IP67. A nota de 4,9 com 664 avaliações do Buscapé vem de avaliações da Amazon, não do ML: confirme no anúncio. Preços atuais no ML ficam de R$ 230 a R$ 420 conforme vendedor (indicativo); compre de loja oficial JBL/Harman por causa de falsificação.
+
+### fones-caixas-bluetooth: caixas até R$ 100
+- Busca de hoje não achou terceira opção com ficha. Citadas em guias sem preço nem ficha confirmados: Mondial CM-400 (grande, básica, sem resistência à água) e Mondial CM-700 (citada como custo-benefício). Não gerei CSV. Recomendação: manter essa pauta no fim da fila ou transformá-la em "até R$ 150" quando o pesquisador decidir.
+
+### Resumo de 11-04
+Novas: 1 (HyperX Cloud Stinger, completa os 4 headsets). Prontas para cadastrar por subnicho: carregadores 1 (Motorola), mouses 2 (Griffin, Crusader), headsets 4 (3 de 11-02 + 1 de hoje), caixas JBL/Soundcore 3, caixas até R$ 100 1 com ficha fraca. Nota e avaliações do ML não conferidas (403).
+
 ## Sugestões de 2026-11-03
 
 **Aviso para o cadastrador:** o Mercado Livre segue bloqueando a leitura (HTTP 403), então nota e avaliações do ML **não** foram conferidas aqui. Preços abaixo são de outras lojas (indicativos). Critério na hora do cadastro: nota 4,5+ e 200+ avaliações no anúncio do ML; senão descarte e use o reserva. Prefira loja oficial ou MercadoLíder e confira o selo Anatel. Esta seção refina as de 11-01 e 11-02 (que continuam valendo para o resto); onde há conflito, vale esta.

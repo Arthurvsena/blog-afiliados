@@ -1,41 +1,41 @@
 {
- "ultima_execucao": "2026-11-04T08:00",
+ "ultima_execucao": "2026-11-04T08:45",
  "agentes": {
   "chefe": {
    "status": "ok",
-   "tarefa": "Escolhi 3 notícias, 1 tutorial, 1 análise e 2 listas de compra com produto pronto, seguindo as apostas da semana."
+   "tarefa": "Escolhi 5 notícias, 1 tutorial, 1 análise e 2 listas de compra (carregadores turbo e smartwatches) com produto já cadastrado, seguindo as apostas da semana."
   },
   "pesquisador": {
    "status": "ok",
-   "tarefa": "Trouxe 5 pautas de notícia (GTA 6, Apple e memória, golpes na Black Friday, Zelda e WhatsApp) e respondi o pedido de games da Luisa."
+   "tarefa": "Trouxe 5 pautas de notícia (Ocarina of Time, Xiaomi 18 Pro, ChatGPT, YouTube e Smart Sampa) e separei a pauta de caixas Bluetooth em duas."
   },
   "curador": {
    "status": "ok",
-   "tarefa": "Deixei sugestões de carregador 50 W e dois mouses gamer prontas para o dono cadastrar; o Mercado Livre bloqueou a leitura, então nota e preço precisam de conferência."
+   "tarefa": "Sugeri o headset HyperX para o dono cadastrar e reorganizei por pauta o que falta: carregador 50 W, dois mouses, três caixas e quatro headsets."
   },
   "redator": {
    "status": "ok",
-   "tarefa": "Escrevi as notícias do GTA 6, da Apple e dos golpes na Black Friday, o tutorial de WhatsApp clonado, a análise Gemini 4 Argon x Carbon e as listas de fones TWS e smartbands."
+   "tarefa": "Escrevi cinco notícias (Ocarina, Xiaomi, ChatGPT, YouTube, Smart Sampa), o tutorial de fone TWS com um lado mudo, a análise da Alexa+ e as listas de carregadores turbo e smartwatches."
   },
   "seo": {
    "status": "ok",
-   "tarefa": "Revisei os sete posts, troquei palavras-chave inválidas, resolvi a canibalização de Alexa+ e iPhone Duo e ajustei títulos de Alexa+ e fone com ou sem fio."
+   "tarefa": "Revisei os nove posts, troquei a palavra-chave da análise da Alexa+ para evitar canibalização e liguei as notícias e as listas entre si."
   },
   "atualizador": {
-   "status": "ok",
-   "tarefa": "Nenhum post de guia com 30 dias, então só pus links internos em GPT-6.1, PS Plus, Vivo e na análise do Switch 2."
+   "status": "ocioso",
+   "tarefa": "Não fui chamado: nenhum post que não seja notícia tem 30 dias ou mais."
   },
   "designer": {
    "status": "ok",
-   "tarefa": "Coloquei fotos reais e componentes visuais nos posts; o Gemini 4 Argon ficou sem foto porque só achei imagem de 300x300."
+   "tarefa": "Diagramei os nove posts e coloquei foto livre em seis; Xiaomi, ChatGPT e YouTube ficaram sem foto porque nenhuma servia. Não consegui apagar a imagem órfã do Gemini 4 Argon."
   },
   "vendas": {
    "status": "ok",
-   "tarefa": "Pus chamadas de compra nas listas de fones TWS e smartbands; as notícias e o tutorial ficaram sem link de oferta para não forçar venda."
+   "tarefa": "Conferi as chamadas de compra das duas listas novas e dos power banks (sem ajuste) e pus um link de lâmpada na análise da Alexa+."
   },
   "viral": {
    "status": "ok",
-   "tarefa": "Dei nota viral às pautas e escrevi títulos, frases de compartilhamento e textos de rede dos sete posts, mais Alexa+ e power banks."
+   "tarefa": "Dei nota às pautas e escrevi frases de compartilhamento e textos de rede dos nove posts, mais o do Switch 2/Zelda para o dono postar hoje."
   },
   "produtor": {
    "status": "ok",
@@ -72,44 +72,39 @@
    "texto": "Deixei sugestões de carregador 50 W e mouses gamer para o dono cadastrar."
   },
   {
-   "data": "2026-10-28",
-   "agente": "designer",
-   "texto": "Criei a identidade visual do site e redesenhei todas as páginas."
-  },
-  {
-   "data": "2026-10-28",
-   "agente": "vendas",
-   "texto": "Entrei na equipe e coloquei vitrines e chamadas de compra no site."
-  },
-  {
-   "data": "2026-10-28",
+   "data": "2026-11-04",
    "agente": "pesquisador",
-   "texto": "Acrescentei 7 pautas com termos reais de compra; a fila foi para 15."
+   "texto": "Trouxe 5 pautas de notícia e separei a pauta de caixas Bluetooth em duas."
   },
   {
-   "data": "2026-10-28",
+   "data": "2026-11-04",
    "agente": "curador",
-   "texto": "Sugeri 3 power banks e 4 fones para cadastro."
+   "texto": "Sugeri o headset HyperX e organizei por pauta os produtos que faltam cadastrar."
   },
   {
-   "data": "2026-10-28",
+   "data": "2026-11-04",
    "agente": "redator",
-   "texto": "Escrevi a review do power bank Ugreen PB311 (cerca de 1.200 palavras)."
+   "texto": "Escrevi cinco notícias, um tutorial, uma análise e as listas de carregadores turbo e smartwatches."
   },
   {
-   "data": "2026-10-28",
+   "data": "2026-11-04",
    "agente": "seo",
-   "texto": "Revisei a review do Ugreen e liguei os posts de power bank entre si."
+   "texto": "Revisei os nove posts e resolvi a canibalização da análise da Alexa+."
   },
   {
-   "data": "2026-10-28",
+   "data": "2026-11-04",
+   "agente": "viral",
+   "texto": "Escrevi os textos de rede dos nove posts e do Switch 2/Zelda."
+  },
+  {
+   "data": "2026-11-04",
    "agente": "vendas",
-   "texto": "Pus chamadas de compra na review e no guia de power bank."
+   "texto": "Conferi as listas novas e os power banks; sem ajuste nas listas."
   },
   {
-   "data": "2026-10-28",
+   "data": "2026-11-04",
    "agente": "designer",
-   "texto": "Apliquei prós, contras e veredito e criei capas para três posts."
+   "texto": "Diagramei os nove posts e coloquei foto livre em seis."
   },
   {
    "data": "2026-10-29",

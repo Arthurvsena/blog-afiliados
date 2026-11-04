@@ -2,6 +2,119 @@
 
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
+## 2026-11-04 · Zelda Ocarina of Time Switch 2: Nintendo diz quem fez o remake
+Link: https://nexustechai.com.br/posts/ocarina-of-time-switch-2-quem-fez-remake-nintendo-epd/
+Postar hoje (4/11), antes do lançamento de amanhã (5/11).
+- WhatsApp: O remake de Zelda Ocarina of Time sai amanhã no Switch 2 e foi feito pela equipe de Breath of the Wild, segundo a Nintendo. Monolith Soft e Grezzo, que apareciam nos rumores, ficaram de fora: https://nexustechai.com.br/posts/ocarina-of-time-switch-2-quem-fez-remake-nintendo-epd/
+- X: O remake de Ocarina of Time (Switch 2, sai amanhã) foi feito pela equipe interna de Breath of the Wild e Tears of the Kingdom, o EPD Production Group No. 3, diz a Nintendo. Quem dirige e por que a escolha: https://nexustechai.com.br/posts/ocarina-of-time-switch-2-quem-fez-remake-nintendo-epd/
+- Instagram (legenda): Quem fez o remake de Ocarina of Time?
+  A própria Nintendo: a equipe de Breath of the Wild e Tears of the Kingdom.
+  Os rumores de Monolith Soft e Grezzo caíram, segundo a imprensa.
+  O jogo sai amanhã, só no Switch 2. Link na bio.
+  #zelda #ocarinaoftime #switch2
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Quem fez o remake de Ocarina of Time?" [2-8 s] Fato 1: a Nintendo diz que foi a equipe de Breath of the Wild e Tears of the Kingdom. [8-14 s] Fato 2: Monolith Soft e Grezzo, citadas em rumores, não estão no projeto, segundo a imprensa. [14-18 s] Fato 3: o jogo sai amanhã, 5/11, só no Switch 2. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-04 · Xiaomi 18 Pro vai ter versão global: e o Brasil?
+Link: https://nexustechai.com.br/posts/xiaomi-18-pro-versao-global-brasil-preco-vazado/
+- WhatsApp: O Xiaomi 18 Pro vai ter versão global, a Xiaomi confirmou. Mas data, preço em euro e bateria menor são só vazamento, e o Brasil continua sem confirmação: https://nexustechai.com.br/posts/xiaomi-18-pro-versao-global-brasil-preco-vazado/
+- X: Xiaomi 18 Pro: versão global confirmada pela Xiaomi, sem data. Vazamento aponta € 1.449 na Europa e bateria de 6.000 mAh. Nada confirmado, e o Brasil segue sem anúncio: https://nexustechai.com.br/posts/xiaomi-18-pro-versao-global-brasil-preco-vazado/
+- Instagram (legenda): Xiaomi 18 Pro global: o que é fato e o que é vazamento.
+  Fato: a versão global foi confirmada, sem data.
+  Vazamento: € 1.449 na Europa e bateria de 6.000 mAh.
+  Brasil: sem confirmação. Link na bio.
+  #xiaomi #xiaomi18pro #celular
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Xiaomi 18 Pro no Brasil: ainda não." [2-8 s] Fato 1: a Xiaomi confirmou a versão global, sem data. [8-14 s] Fato 2: vazamento fala em € 1.449 e bateria de 6.000 mAh; nada confirmado. [14-18 s] Fato 3: não há plano anunciado para o Brasil. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-04 · ChatGPT teria 20% das buscas do Google, diz a OpenAI
+Link: https://nexustechai.com.br/posts/chatgpt-20-por-cento-buscas-google-openai-diz/
+- WhatsApp: A OpenAI diz que o ChatGPT já tem 20% do volume de buscas do Google. A conta é da própria empresa, sem relatório e sem dado do Brasil: https://nexustechai.com.br/posts/chatgpt-20-por-cento-buscas-google-openai-diz/
+- X: Segundo a OpenAI, o ChatGPT já processa 20% do volume de buscas do Google. Número da própria empresa, com critério próprio de "busca", sem relatório público e sem recorte do Brasil: https://nexustechai.com.br/posts/chatgpt-20-por-cento-buscas-google-openai-diz/
+- Instagram (legenda): ChatGPT com 20% das buscas do Google?
+  É o que a OpenAI diz, não um estudo independente.
+  A empresa só contou pergunta que vira pesquisa na web.
+  Sem relatório e sem dado do Brasil. Link na bio.
+  #chatgpt #openai #google
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "ChatGPT já tem 20% das buscas do Google? Calma." [2-8 s] Fato 1: quem disse foi a própria OpenAI, num evento. [8-14 s] Fato 2: ela só contou perguntas que viram pesquisa na web, e não mostrou relatório. [14-18 s] Fato 3: não há dado específico do Brasil. [18-20 s] "Análise no link da bio."
+
+## 2026-11-04 · YouTube autorização judicial menores: quem precisa de alvará
+Link: https://nexustechai.com.br/posts/youtube-autorizacao-judicial-videos-criancas-eca-digital/
+Lembrar de manter o tom de notícia, não de orientação jurídica.
+- WhatsApp: Se você tem canal que monetiza vídeos com criança, o YouTube avisou que pode pedir autorização da Vara da Infância. Sem ela, o vídeo pode ser desmonetizado. Canal comum não é afetado, segundo as reportagens: https://nexustechai.com.br/posts/youtube-autorizacao-judicial-videos-criancas-eca-digital/
+- X: YouTube avisa criadores no Brasil: vídeo monetizado com criança ou adolescente pode exigir autorização judicial. Sem ela, desmonetização. O alvo é o canal que explora a rotina de menores, não o vídeo ocasional: https://nexustechai.com.br/posts/youtube-autorizacao-judicial-videos-criancas-eca-digital/
+- Instagram (legenda): Canal com criança monetizado precisa de alvará?
+  O YouTube avisou criadores no Brasil: pode precisar de autorização da Vara da Infância.
+  Sem ela, o vídeo pode ser desmonetizado.
+  Não é orientação jurídica; fale com um advogado. Link na bio.
+  #youtube #criadores #eca
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Canal com criança no YouTube pode precisar de alvará." [2-8 s] Fato 1: o aviso vale para vídeo monetizado que explora a imagem ou a rotina de menores. [8-14 s] Fato 2: sem a autorização, o vídeo pode ser desmonetizado. [14-18 s] Fato 3: o pedido é na Vara da Infância e é o responsável legal quem faz. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-04 · Smart Sampa: nova falha expõe 17 mil câmeras, diz o UOL
+Link: https://nexustechai.com.br/posts/smart-sampa-segunda-falha-17-mil-cameras-expostas/
+- WhatsApp: Segunda brecha em um mês no Smart Sampa: cerca de 17 mil câmeras de empresas conveniadas ficaram sem senha por 5 dias, segundo o UOL. A prefeitura nega falha e fala em vazamento ilegal de planilha: https://nexustechai.com.br/posts/smart-sampa-segunda-falha-17-mil-cameras-expostas/
+- X: Smart Sampa: o UOL diz que 17 mil câmeras de conveniadas ficaram acessíveis sem senha por 5 dias. A prefeitura nega falha e fala em vazamento ilegal de planilha interna. As duas versões ainda não batem: https://nexustechai.com.br/posts/smart-sampa-segunda-falha-17-mil-cameras-expostas/
+- Instagram (legenda): Segunda exposição de dados do Smart Sampa em um mês.
+  O UOL fala em 17 mil câmeras sem senha por 5 dias.
+  A prefeitura nega falha e diz que foi vazamento ilegal.
+  Os links saíram do ar em 30/10. Link na bio.
+  #smartsampa #privacidade #seguranca
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Smart Sampa: 17 mil câmeras sem senha." [2-8 s] Fato 1: segundo o UOL, ficaram acessíveis por 5 dias. [8-14 s] Fato 2: a prefeitura nega falha e fala em vazamento ilegal de uma planilha. [14-18 s] Fato 3: é a segunda exposição em um mês. [18-20 s] "Entenda no link da bio."
+
+## 2026-11-04 · Fone TWS só funciona um lado: como resolver em 6 passos
+Link: https://nexustechai.com.br/posts/fone-tws-so-funciona-um-lado/
+- WhatsApp: Fone Bluetooth tocando só de um lado? Quase sempre é falta de sincronia, não defeito. Carregue os dois, apague o fone no celular e resete os dois juntos. Passo a passo: https://nexustechai.com.br/posts/fone-tws-so-funciona-um-lado/
+- X: Fone TWS só funciona de um lado? Na maioria dos casos os dois perderam a sincronia. Carregue os dois, esqueça o fone no celular e resete os dois juntos. Passo a passo em 6 etapas: https://nexustechai.com.br/posts/fone-tws-so-funciona-um-lado/
+- Instagram (legenda): Um lado do fone mudo? Antes de jogar fora, tente isto.
+  Carregue os dois fones por completo.
+  Apague o fone da lista Bluetooth do celular.
+  Resete os dois juntos. Link na bio.
+  #fonebluetooth #tws #dicadetecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Fone Bluetooth só toca de um lado? Não jogue fora." [2-8 s] Passo 1: carregue os dois fones por completo. [8-14 s] Passo 2: apague o fone da lista Bluetooth do celular. [14-18 s] Passo 3: resete os dois fones juntos; o botão muda por marca. [18-20 s] "Passo a passo completo no link da bio."
+
+## 2026-11-04 · Alexa compatível com Alexa Plus: quais Echo e vale assinar?
+Link: https://nexustechai.com.br/posts/analise-alexa-plus-brasil-vale-a-pena-assinar/
+- WhatsApp: A Alexa+ é grátis no Brasil até pelo menos fevereiro de 2027 para quem tem Prime e um Echo ou Fire TV recente. Vale pedir acesso; o plano avulso de R$ 99 por mês, não. Veja se o seu aparelho entra: https://nexustechai.com.br/posts/analise-alexa-plus-brasil-vale-a-pena-assinar/
+- X: Alexa+ no Brasil: grátis até pelo menos fev/2027 para assinante Prime com Echo ou Fire TV compatível. Na minha leitura, o plano avulso de R$ 99 por mês não compensa. Lista de aparelhos e análise: https://nexustechai.com.br/posts/analise-alexa-plus-brasil-vale-a-pena-assinar/
+- Instagram (legenda): Sua Alexa é compatível com a Alexa+?
+  Quase toda a linha Echo recente e vários Fire TV entram.
+  É grátis até pelo menos fev/2027 para quem tem Prime.
+  O plano avulso de R$ 99 por mês não compensa, na minha leitura. Link na bio.
+  #alexa #amazon #casainteligente
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Sua Alexa é compatível com a Alexa+?" [2-8 s] Fato 1: quase toda a linha Echo recente e vários Fire TV entram. [8-14 s] Fato 2: é grátis até pelo menos fevereiro de 2027 para quem tem Prime. [14-18 s] Fato 3: o plano avulso de R$ 99 por mês não vale, na minha leitura. [18-20 s] "Análise completa no link da bio."
+
+## 2026-11-04 · Melhor carregador turbo: 3 opções de 25 W a 45 W em 2026
+Link: https://nexustechai.com.br/posts/melhores-carregadores-turbo/
+- WhatsApp: Qual carregador turbo comprar? Comparei 3: Samsung 25 W, Baseus 30 W e Ugreen 45 W. A escolha depende dos watts do seu celular e de quantos aparelhos você carrega. Dados da ficha, sem teste: https://nexustechai.com.br/posts/melhores-carregadores-turbo/
+- X: Carregador turbo USB-C: Samsung 25 W, Baseus 30 W ou Ugreen 45 W? Celular que aceita menos que o carregador não estraga, só puxa o que suporta. Para quem serve cada um: https://nexustechai.com.br/posts/melhores-carregadores-turbo/
+- Instagram (legenda): Quantos watts seu carregador precisa ter?
+  Galaxy comum: o Samsung de 25 W resolve.
+  Celular e outro aparelho juntos: Ugreen de 45 W.
+  Baseus de 30 W fica no meio do caminho. Link na bio.
+  #carregador #usbc #tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Carregador de 45 W estraga celular que aceita menos? Não." [2-8 s] Fato 1: celular e carregador negociam a potência, e o aparelho puxa só o que suporta. [8-14 s] Fato 2: Samsung de 25 W serve para Galaxy comum. [14-18 s] Fato 3: Ugreen de 45 W carrega dois aparelhos. [18-20 s] "Comparativo no link da bio."
+
+## 2026-11-04 · Smartwatch barato: 3 opções com bateria de 13 a 18 dias
+Link: https://nexustechai.com.br/posts/melhores-smartwatches-baratos/
+- WhatsApp: Separei 3 smartwatches baratos com nota 4,8 ou 4,9 e bateria de 13 a 18 dias na ficha. Um atende ligação, outro tem GPS. Dados da ficha, sem teste: https://nexustechai.com.br/posts/melhores-smartwatches-baratos/
+- X: Smartwatch barato: Redmi Watch 5 Active (chamadas, até 18 dias), Amazfit Bip 6 (GPS) e Galaxy Fit3 (13 dias, 60 mil avaliações). Comparativo pela ficha, sem teste: https://nexustechai.com.br/posts/melhores-smartwatches-baratos/
+- Instagram (legenda): Smartwatch barato que não vive no carregador.
+  Redmi Watch 5 Active: atende ligação, até 18 dias.
+  Amazfit Bip 6: o único dos três com GPS.
+  Galaxy Fit3: o mais avaliado, até 13 dias. Link na bio.
+  #smartwatch #xiaomi #amazfit
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Smartwatch barato com bateria de até 18 dias." [2-8 s] Fato 1: o Redmi Watch 5 Active atende ligação pelo pulso. [8-14 s] Fato 2: o Amazfit Bip 6 é o único com GPS na ficha. [14-18 s] Fato 3: o Galaxy Fit3 é uma pulseira, mas o anúncio o chama de smartwatch. [18-20 s] "Comparativo no link da bio."
+
+## 2026-11-04 · Switch 2 Zelda 40 anos esgota no Brasil: preço e reposição
+Link: https://nexustechai.com.br/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/
+Postar hoje (4/11): o remake de Ocarina of Time sai amanhã (5/11) e o assunto está em alta na busca. Dados da pré-venda; a Nintendo ainda não deu data de reposição no Brasil.
+- WhatsApp: O Switch 2 edição Zelda 40 anos esgotou no Brasil e a Nintendo pediu desculpas. Pré-venda era R$ 4.749 (cerca de R$ 4.416 no Pix), só R$ 149 a mais que o Switch 2 comum, e o hardware é o mesmo. Sem data de reposição: https://nexustechai.com.br/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/
+- X: Switch 2 edição Zelda 40 anos esgotou no Brasil. Pré-venda: R$ 4.749 (cerca de R$ 4.416 no Pix). O hardware é igual ao do Switch 2 comum e a Nintendo admitiu que subestimou a procura. Reposição sem data: https://nexustechai.com.br/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/
+- Instagram (legenda): Esgotou antes de chegar: o Switch 2 do Zelda 40 anos.
+  Pré-venda no Brasil: R$ 4.749 (cerca de R$ 4.416 no Pix).
+  É o mesmo hardware do Switch 2 comum; você paga pelo visual.
+  A Nintendo pediu desculpas e não deu data de reposição. Link na bio.
+  #switch2 #zelda #nintendo
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "O Switch 2 do Zelda esgotou no Brasil." [2-8 s] Fato 1: a pré-venda custava R$ 4.749, cerca de R$ 149 a mais que o Switch 2 comum. [8-14 s] Fato 2: o hardware é o mesmo, muda só o visual, e o jogo Ocarina of Time não vem na caixa (sai amanhã). [14-18 s] Fato 3: a Nintendo pediu desculpas e não deu data de reposição. [18-20 s] "Detalhes e preços no link da bio."
+
 ## 2026-11-03 · Smartband custo-benefício: bateria de até 3 semanas e 1 com GPS
 Link: https://nexustechai.com.br/posts/melhores-smartbands-custo-beneficio/
 - WhatsApp: Comparei 5 smartbands: bateria de 13 dias a 3 semanas, só o Amazfit Bip 6 tem GPS e todas têm nota 4,8 ou 4,9. Qual serve pra você: https://nexustechai.com.br/posts/melhores-smartbands-custo-beneficio/
