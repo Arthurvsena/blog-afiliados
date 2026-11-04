@@ -1,355 +1,355 @@
 {
-  "ultima_execucao": "2026-11-03T17:00",
-  "agentes": {
-    "chefe": {
-      "status": "ok",
-      "tarefa": "Escolhi 3 notícias, 1 tutorial, 1 análise e 2 listas de compra com produto pronto, seguindo as apostas da semana."
-    },
-    "pesquisador": {
-      "status": "ok",
-      "tarefa": "Trouxe 5 pautas de notícia (GTA 6, Apple e memória, golpes na Black Friday, Zelda e WhatsApp) e respondi o pedido de games da Luisa."
-    },
-    "curador": {
-      "status": "ok",
-      "tarefa": "Deixei sugestões de carregador 50 W e dois mouses gamer prontas para o dono cadastrar; o Mercado Livre bloqueou a leitura, então nota e preço precisam de conferência."
-    },
-    "redator": {
-      "status": "ok",
-      "tarefa": "Escrevi as notícias do GTA 6, da Apple e dos golpes na Black Friday, o tutorial de WhatsApp clonado, a análise Gemini 4 Argon x Carbon e as listas de fones TWS e smartbands."
-    },
-    "seo": {
-      "status": "ok",
-      "tarefa": "Revisei os sete posts, troquei palavras-chave inválidas, resolvi a canibalização de Alexa+ e iPhone Duo e ajustei títulos de Alexa+ e fone com ou sem fio."
-    },
-    "atualizador": {
-      "status": "ok",
-      "tarefa": "Nenhum post de guia com 30 dias, então só pus links internos em GPT-6.1, PS Plus, Vivo e na análise do Switch 2."
-    },
-    "designer": {
-      "status": "ok",
-      "tarefa": "Coloquei fotos reais e componentes visuais nos posts; o Gemini 4 Argon ficou sem foto porque só achei imagem de 300x300."
-    },
-    "vendas": {
-      "status": "ok",
-      "tarefa": "Pus chamadas de compra nas listas de fones TWS e smartbands; as notícias e o tutorial ficaram sem link de oferta para não forçar venda."
-    },
-    "viral": {
-      "status": "ok",
-      "tarefa": "Dei nota viral às pautas e escrevi títulos, frases de compartilhamento e textos de rede dos sete posts, mais Alexa+ e power banks."
-    },
-    "produtor": {
-      "status": "ok",
-      "tarefa": "Escolhi 2 Shorts (GTA 6, golpes na Black Friday) e 1 longo (Apple e a memória) e revisei os três roteiros contra as fontes."
-    },
-    "roteirista": {
-      "status": "ok",
-      "tarefa": "Escrevi os roteiros de GTA 6, golpes na Black Friday e do aviso da Apple sobre a memória, só com cenas gráficas."
-    },
-    "analista": {
-      "status": "ok",
-      "tarefa": "Ontem foram 2 visitas e 8 visualizações, nenhuma do Google. O Google mostrou o site pela 1ª vez: 14 impressões e 1 clique em 01/11."
-    }
+ "ultima_execucao": "2026-11-04T08:00",
+ "agentes": {
+  "chefe": {
+   "status": "ok",
+   "tarefa": "Escolhi 3 notícias, 1 tutorial, 1 análise e 2 listas de compra com produto pronto, seguindo as apostas da semana."
   },
-  "historico": [
-    {
-      "data": "2026-11-03",
-      "agente": "produtor",
-      "texto": "Revisei os roteiros do dia (GTA 6, golpes na Black Friday, Apple e memória) e montei os 3 vídeos."
-    },
-    {
-      "data": "2026-11-03",
-      "agente": "redator",
-      "texto": "Escrevi GTA 6, Apple e memória, golpes na Black Friday, WhatsApp clonado, Gemini 4 Argon x Carbon e as listas de fones TWS e smartbands."
-    },
-    {
-      "data": "2026-11-03",
-      "agente": "seo",
-      "texto": "Troquei palavras-chave inválidas e resolvi a canibalização de Alexa+ e iPhone Duo."
-    },
-    {
-      "data": "2026-11-03",
-      "agente": "atualizador",
-      "texto": "Pus links internos em GPT-6.1, PS Plus, Vivo e na análise do Switch 2."
-    },
-    {
-      "data": "2026-11-03",
-      "agente": "curador",
-      "texto": "Deixei sugestões de carregador 50 W e mouses gamer para o dono cadastrar."
-    },
-    {
-      "data": "2026-10-28",
-      "agente": "designer",
-      "texto": "Criei a identidade visual do site e redesenhei todas as páginas."
-    },
-    {
-      "data": "2026-10-28",
-      "agente": "vendas",
-      "texto": "Entrei na equipe e coloquei vitrines e chamadas de compra no site."
-    },
-    {
-      "data": "2026-10-28",
-      "agente": "pesquisador",
-      "texto": "Acrescentei 7 pautas com termos reais de compra; a fila foi para 15."
-    },
-    {
-      "data": "2026-10-28",
-      "agente": "curador",
-      "texto": "Sugeri 3 power banks e 4 fones para cadastro."
-    },
-    {
-      "data": "2026-10-28",
-      "agente": "redator",
-      "texto": "Escrevi a review do power bank Ugreen PB311 (cerca de 1.200 palavras)."
-    },
-    {
-      "data": "2026-10-28",
-      "agente": "seo",
-      "texto": "Revisei a review do Ugreen e liguei os posts de power bank entre si."
-    },
-    {
-      "data": "2026-10-28",
-      "agente": "vendas",
-      "texto": "Pus chamadas de compra na review e no guia de power bank."
-    },
-    {
-      "data": "2026-10-28",
-      "agente": "designer",
-      "texto": "Apliquei prós, contras e veredito e criei capas para três posts."
-    },
-    {
-      "data": "2026-10-29",
-      "agente": "pesquisador",
-      "texto": "Achei duas notícias confirmadas: MacBook Pro OLED touch e Gemini 4 Carbon."
-    },
-    {
-      "data": "2026-10-29",
-      "agente": "curador",
-      "texto": "Sugeri 6 produtos novos de power banks 20.000 mAh e carregadores turbo."
-    },
-    {
-      "data": "2026-10-29",
-      "agente": "redator",
-      "texto": "Escrevi duas notícias e o guia 'Fone Bluetooth ou com fio'."
-    },
-    {
-      "data": "2026-10-29",
-      "agente": "seo",
-      "texto": "Liguei as notícias aos guias e corrigi afirmações sem fonte no guia de fones."
-    },
-    {
-      "data": "2026-10-29",
-      "agente": "vendas",
-      "texto": "Liguei o guia de fones à categoria; sem produtos compatíveis, não forcei venda nas notícias."
-    },
-    {
-      "data": "2026-10-29",
-      "agente": "designer",
-      "texto": "Diagramei os três posts com tabelas, veredito e prós e contras."
-    },
-    {
-      "data": "2026-10-29",
-      "agente": "curador",
-      "texto": "Cadastrei 11 produtos com link: 4 fones TWS, 5 power banks e 2 carregadores turbo."
-    },
-    {
-      "data": "2026-10-29",
-      "agente": "pesquisador",
-      "texto": "Trouxe as notícias do Vivo Satélite e do PS Plus e uma pauta de IA sobre o Gemini 4 Argon."
-    },
-    {
-      "data": "2026-10-29",
-      "agente": "redator",
-      "texto": "Escrevi as notícias do Vivo Satélite e do PS Plus e a lista dos melhores power banks."
-    },
-    {
-      "data": "2026-10-29",
-      "agente": "seo",
-      "texto": "Revisei os três posts e liguei a lista de power banks às notícias e aos guias."
-    },
-    {
-      "data": "2026-10-29",
-      "agente": "vendas",
-      "texto": "Coloquei chamadas de compra na lista de power banks e nos guias de fones."
-    },
-    {
-      "data": "2026-10-29",
-      "agente": "designer",
-      "texto": "Peguei fotos, criei capas e diagramei os posts novos e o guia de fones."
-    },
-    {
-      "data": "2026-10-30",
-      "agente": "pesquisador",
-      "texto": "Trouxe as notícias do iPhone Duo e do Switch 2 Zelda."
-    },
-    {
-      "data": "2026-10-30",
-      "agente": "redator",
-      "texto": "Escrevi duas notícias e a lista de fones Bluetooth baratos."
-    },
-    {
-      "data": "2026-10-30",
-      "agente": "seo",
-      "texto": "Revisei os três posts e liguei a lista de fones aos guias."
-    },
-    {
-      "data": "2026-10-30",
-      "agente": "vendas",
-      "texto": "Pus chamadas de compra na lista de fones."
-    },
-    {
-      "data": "2026-10-30",
-      "agente": "designer",
-      "texto": "Peguei fotos e diagramei os três posts."
-    },
-    {
-      "data": "2026-10-31",
-      "agente": "pesquisador",
-      "texto": "Trouxe as notícias do GPT-6.1 Terra e da Alexa+ grátis até fevereiro."
-    },
-    {
-      "data": "2026-10-31",
-      "agente": "redator",
-      "texto": "Escrevi duas notícias e a lista de power banks de 20.000 mAh."
-    },
-    {
-      "data": "2026-10-31",
-      "agente": "seo",
-      "texto": "Revisei os três posts e liguei a nova lista aos guias de power bank."
-    },
-    {
-      "data": "2026-10-31",
-      "agente": "vendas",
-      "texto": "Pus 22 chamadas de compra na lista de 20.000 mAh."
-    },
-    {
-      "data": "2026-10-31",
-      "agente": "designer",
-      "texto": "Peguei fotos e diagramei os três posts."
-    },
-    {
-      "data": "2026-11-01",
-      "agente": "pesquisador",
-      "texto": "Trouxe 5 pautas de notícia e 7 pautas de tutoriais e análises."
-    },
-    {
-      "data": "2026-11-01",
-      "agente": "curador",
-      "texto": "Sugeri produtos para acessórios gamer, smartwatch, casa inteligente e carregadores."
-    },
-    {
-      "data": "2026-11-01",
-      "agente": "redator",
-      "texto": "Escrevi três notícias, um tutorial, uma análise e dois guias."
-    },
-    {
-      "data": "2026-11-01",
-      "agente": "seo",
-      "texto": "Revisei os sete posts e liguei Echo, Alexa+ e lâmpada, e Switch 2 e Zelda."
-    },
-    {
-      "data": "2026-11-01",
-      "agente": "vendas",
-      "texto": "Pus um link de power bank na análise do Switch 2."
-    },
-    {
-      "data": "2026-11-01",
-      "agente": "designer",
-      "texto": "Peguei fotos livres e diagramei os sete posts."
-    },
-    {
-      "data": "2026-11-01",
-      "agente": "analista",
-      "texto": "Ontem foram 3 visitas, todas diretas (0 do Google, dado ainda em processamento); 9 de 12 visualizações eram do host antigo."
-    },
-    {
-      "data": "2026-11-02",
-      "agente": "analista",
-      "texto": "Ontem foram 2 visitas, 1 veio do Google (a primeira); 0 impressões no Search Console."
-    },
-    {
-      "data": "2026-11-02",
-      "agente": "analista",
-      "texto": "Semana 26/10: 14 visitas (só 6 no domínio novo), 2 cliques ML, 0 pedidos, 0 impressões no Google. Meta: 20 visitas no domínio novo."
-    },
-    {
-      "data": "2026-11-02",
-      "agente": "curador",
-      "texto": "Cadastrei 15 produtos com link: 4 lâmpadas inteligentes, 5 smartbands/smartwatches, 5 acessórios gamer (2 mouses e 3 teclados) e 1 carregador turbo Samsung 25 W."
-    },
-    {
-      "data": "2026-11-02",
-      "agente": "pesquisador",
-      "texto": "Trouxe 5 pautas de notícia, com Mercado Bitcoin, SAC e Zelda Ocarina of Time."
-    },
-    {
-      "data": "2026-11-02",
-      "agente": "viral",
-      "texto": "Dei nota às pautas e escrevi os textos de rede dos sete posts de hoje."
-    },
-    {
-      "data": "2026-11-02",
-      "agente": "redator",
-      "texto": "Escrevi três notícias, um tutorial, uma análise e dois guias."
-    },
-    {
-      "data": "2026-11-02",
-      "agente": "seo",
-      "texto": "Revisei os sete posts e listei as URLs para pedir indexação."
-    },
-    {
-      "data": "2026-11-02",
-      "agente": "vendas",
-      "texto": "Pus links de compra nos guias de lâmpadas, teclados e smartband."
-    },
-    {
-      "data": "2026-11-02",
-      "agente": "designer",
-      "texto": "Peguei fotos livres e diagramei os sete posts."
-    },
-    {
-      "data": "2026-11-02",
-      "agente": "chefe",
-      "texto": "Reunião: foco em listas com produto pronto, palavras certas, links internos e produtos para destravar listas antes da Black Friday."
-    },
-    {
-      "data": "2026-11-02",
-      "agente": "analista",
-      "texto": "Reunião: sem métricas novas; meta de 20 visitas no domínio novo."
-    },
-    {
-      "data": "2026-11-02",
-      "agente": "seo",
-      "texto": "Reunião: relatório com 3 pautas novas e dois casos de canibalização."
-    },
-    {
-      "data": "2026-11-02",
-      "agente": "vendas",
-      "texto": "Reunião: 5 produtos órfãos e 3 apostas de venda para a Black Friday."
-    },
-    {
-      "data": "2026-11-02",
-      "agente": "curador",
-      "texto": "Reunião: sugestões de headsets, caixas e mouses; faltam 1 carregador e 2 mouses."
-    },
-    {
-      "data": "2026-11-02",
-      "agente": "pesquisador",
-      "texto": "Reunião: propôs 3 listas até 10/11 e guia de Black Friday."
-    },
-    {
-      "data": "2026-11-02",
-      "agente": "redator",
-      "texto": "Reunião: propôs listas de fones, smartbands, carregadores e mouses."
-    },
-    {
-      "data": "2026-11-02",
-      "agente": "atualizador",
-      "texto": "Reunião: propôs links internos em 7 notícias e correção de canibalização."
-    },
-    {
-      "data": "2026-11-03",
-      "agente": "analista",
-      "texto": "Ontem foram 2 visitas e 8 visualizações, nenhuma do Google. O Google mostrou o site pela 1ª vez: 14 impressões e 1 clique em 01/11."
-    }
-  ]
+  "pesquisador": {
+   "status": "ok",
+   "tarefa": "Trouxe 5 pautas de notícia (GTA 6, Apple e memória, golpes na Black Friday, Zelda e WhatsApp) e respondi o pedido de games da Luisa."
+  },
+  "curador": {
+   "status": "ok",
+   "tarefa": "Deixei sugestões de carregador 50 W e dois mouses gamer prontas para o dono cadastrar; o Mercado Livre bloqueou a leitura, então nota e preço precisam de conferência."
+  },
+  "redator": {
+   "status": "ok",
+   "tarefa": "Escrevi as notícias do GTA 6, da Apple e dos golpes na Black Friday, o tutorial de WhatsApp clonado, a análise Gemini 4 Argon x Carbon e as listas de fones TWS e smartbands."
+  },
+  "seo": {
+   "status": "ok",
+   "tarefa": "Revisei os sete posts, troquei palavras-chave inválidas, resolvi a canibalização de Alexa+ e iPhone Duo e ajustei títulos de Alexa+ e fone com ou sem fio."
+  },
+  "atualizador": {
+   "status": "ok",
+   "tarefa": "Nenhum post de guia com 30 dias, então só pus links internos em GPT-6.1, PS Plus, Vivo e na análise do Switch 2."
+  },
+  "designer": {
+   "status": "ok",
+   "tarefa": "Coloquei fotos reais e componentes visuais nos posts; o Gemini 4 Argon ficou sem foto porque só achei imagem de 300x300."
+  },
+  "vendas": {
+   "status": "ok",
+   "tarefa": "Pus chamadas de compra nas listas de fones TWS e smartbands; as notícias e o tutorial ficaram sem link de oferta para não forçar venda."
+  },
+  "viral": {
+   "status": "ok",
+   "tarefa": "Dei nota viral às pautas e escrevi títulos, frases de compartilhamento e textos de rede dos sete posts, mais Alexa+ e power banks."
+  },
+  "produtor": {
+   "status": "ok",
+   "tarefa": "Escolhi 2 Shorts (GTA 6, golpes na Black Friday) e 1 longo (Apple e a memória) e revisei os três roteiros contra as fontes."
+  },
+  "roteirista": {
+   "status": "ok",
+   "tarefa": "Escrevi os roteiros de GTA 6, golpes na Black Friday e do aviso da Apple sobre a memória, só com cenas gráficas."
+  },
+  "analista": {
+   "status": "ok",
+   "tarefa": "Ontem foram 10 visitas, 5 vieram do Google. O Google mostrou o site 85 vezes (5 cliques), 4 deles no post do Switch 2/Zelda."
+  }
+ },
+ "historico": [
+  {
+   "data": "2026-11-03",
+   "agente": "redator",
+   "texto": "Escrevi GTA 6, Apple e memória, golpes na Black Friday, WhatsApp clonado, Gemini 4 Argon x Carbon e as listas de fones TWS e smartbands."
+  },
+  {
+   "data": "2026-11-03",
+   "agente": "seo",
+   "texto": "Troquei palavras-chave inválidas e resolvi a canibalização de Alexa+ e iPhone Duo."
+  },
+  {
+   "data": "2026-11-03",
+   "agente": "atualizador",
+   "texto": "Pus links internos em GPT-6.1, PS Plus, Vivo e na análise do Switch 2."
+  },
+  {
+   "data": "2026-11-03",
+   "agente": "curador",
+   "texto": "Deixei sugestões de carregador 50 W e mouses gamer para o dono cadastrar."
+  },
+  {
+   "data": "2026-10-28",
+   "agente": "designer",
+   "texto": "Criei a identidade visual do site e redesenhei todas as páginas."
+  },
+  {
+   "data": "2026-10-28",
+   "agente": "vendas",
+   "texto": "Entrei na equipe e coloquei vitrines e chamadas de compra no site."
+  },
+  {
+   "data": "2026-10-28",
+   "agente": "pesquisador",
+   "texto": "Acrescentei 7 pautas com termos reais de compra; a fila foi para 15."
+  },
+  {
+   "data": "2026-10-28",
+   "agente": "curador",
+   "texto": "Sugeri 3 power banks e 4 fones para cadastro."
+  },
+  {
+   "data": "2026-10-28",
+   "agente": "redator",
+   "texto": "Escrevi a review do power bank Ugreen PB311 (cerca de 1.200 palavras)."
+  },
+  {
+   "data": "2026-10-28",
+   "agente": "seo",
+   "texto": "Revisei a review do Ugreen e liguei os posts de power bank entre si."
+  },
+  {
+   "data": "2026-10-28",
+   "agente": "vendas",
+   "texto": "Pus chamadas de compra na review e no guia de power bank."
+  },
+  {
+   "data": "2026-10-28",
+   "agente": "designer",
+   "texto": "Apliquei prós, contras e veredito e criei capas para três posts."
+  },
+  {
+   "data": "2026-10-29",
+   "agente": "pesquisador",
+   "texto": "Achei duas notícias confirmadas: MacBook Pro OLED touch e Gemini 4 Carbon."
+  },
+  {
+   "data": "2026-10-29",
+   "agente": "curador",
+   "texto": "Sugeri 6 produtos novos de power banks 20.000 mAh e carregadores turbo."
+  },
+  {
+   "data": "2026-10-29",
+   "agente": "redator",
+   "texto": "Escrevi duas notícias e o guia 'Fone Bluetooth ou com fio'."
+  },
+  {
+   "data": "2026-10-29",
+   "agente": "seo",
+   "texto": "Liguei as notícias aos guias e corrigi afirmações sem fonte no guia de fones."
+  },
+  {
+   "data": "2026-10-29",
+   "agente": "vendas",
+   "texto": "Liguei o guia de fones à categoria; sem produtos compatíveis, não forcei venda nas notícias."
+  },
+  {
+   "data": "2026-10-29",
+   "agente": "designer",
+   "texto": "Diagramei os três posts com tabelas, veredito e prós e contras."
+  },
+  {
+   "data": "2026-10-29",
+   "agente": "curador",
+   "texto": "Cadastrei 11 produtos com link: 4 fones TWS, 5 power banks e 2 carregadores turbo."
+  },
+  {
+   "data": "2026-10-29",
+   "agente": "pesquisador",
+   "texto": "Trouxe as notícias do Vivo Satélite e do PS Plus e uma pauta de IA sobre o Gemini 4 Argon."
+  },
+  {
+   "data": "2026-10-29",
+   "agente": "redator",
+   "texto": "Escrevi as notícias do Vivo Satélite e do PS Plus e a lista dos melhores power banks."
+  },
+  {
+   "data": "2026-10-29",
+   "agente": "seo",
+   "texto": "Revisei os três posts e liguei a lista de power banks às notícias e aos guias."
+  },
+  {
+   "data": "2026-10-29",
+   "agente": "vendas",
+   "texto": "Coloquei chamadas de compra na lista de power banks e nos guias de fones."
+  },
+  {
+   "data": "2026-10-29",
+   "agente": "designer",
+   "texto": "Peguei fotos, criei capas e diagramei os posts novos e o guia de fones."
+  },
+  {
+   "data": "2026-10-30",
+   "agente": "pesquisador",
+   "texto": "Trouxe as notícias do iPhone Duo e do Switch 2 Zelda."
+  },
+  {
+   "data": "2026-10-30",
+   "agente": "redator",
+   "texto": "Escrevi duas notícias e a lista de fones Bluetooth baratos."
+  },
+  {
+   "data": "2026-10-30",
+   "agente": "seo",
+   "texto": "Revisei os três posts e liguei a lista de fones aos guias."
+  },
+  {
+   "data": "2026-10-30",
+   "agente": "vendas",
+   "texto": "Pus chamadas de compra na lista de fones."
+  },
+  {
+   "data": "2026-10-30",
+   "agente": "designer",
+   "texto": "Peguei fotos e diagramei os três posts."
+  },
+  {
+   "data": "2026-10-31",
+   "agente": "pesquisador",
+   "texto": "Trouxe as notícias do GPT-6.1 Terra e da Alexa+ grátis até fevereiro."
+  },
+  {
+   "data": "2026-10-31",
+   "agente": "redator",
+   "texto": "Escrevi duas notícias e a lista de power banks de 20.000 mAh."
+  },
+  {
+   "data": "2026-10-31",
+   "agente": "seo",
+   "texto": "Revisei os três posts e liguei a nova lista aos guias de power bank."
+  },
+  {
+   "data": "2026-10-31",
+   "agente": "vendas",
+   "texto": "Pus 22 chamadas de compra na lista de 20.000 mAh."
+  },
+  {
+   "data": "2026-10-31",
+   "agente": "designer",
+   "texto": "Peguei fotos e diagramei os três posts."
+  },
+  {
+   "data": "2026-11-01",
+   "agente": "pesquisador",
+   "texto": "Trouxe 5 pautas de notícia e 7 pautas de tutoriais e análises."
+  },
+  {
+   "data": "2026-11-01",
+   "agente": "curador",
+   "texto": "Sugeri produtos para acessórios gamer, smartwatch, casa inteligente e carregadores."
+  },
+  {
+   "data": "2026-11-01",
+   "agente": "redator",
+   "texto": "Escrevi três notícias, um tutorial, uma análise e dois guias."
+  },
+  {
+   "data": "2026-11-01",
+   "agente": "seo",
+   "texto": "Revisei os sete posts e liguei Echo, Alexa+ e lâmpada, e Switch 2 e Zelda."
+  },
+  {
+   "data": "2026-11-01",
+   "agente": "vendas",
+   "texto": "Pus um link de power bank na análise do Switch 2."
+  },
+  {
+   "data": "2026-11-01",
+   "agente": "designer",
+   "texto": "Peguei fotos livres e diagramei os sete posts."
+  },
+  {
+   "data": "2026-11-01",
+   "agente": "analista",
+   "texto": "Ontem foram 3 visitas, todas diretas (0 do Google, dado ainda em processamento); 9 de 12 visualizações eram do host antigo."
+  },
+  {
+   "data": "2026-11-02",
+   "agente": "analista",
+   "texto": "Ontem foram 2 visitas, 1 veio do Google (a primeira); 0 impressões no Search Console."
+  },
+  {
+   "data": "2026-11-02",
+   "agente": "analista",
+   "texto": "Semana 26/10: 14 visitas (só 6 no domínio novo), 2 cliques ML, 0 pedidos, 0 impressões no Google. Meta: 20 visitas no domínio novo."
+  },
+  {
+   "data": "2026-11-02",
+   "agente": "curador",
+   "texto": "Cadastrei 15 produtos com link: 4 lâmpadas inteligentes, 5 smartbands/smartwatches, 5 acessórios gamer (2 mouses e 3 teclados) e 1 carregador turbo Samsung 25 W."
+  },
+  {
+   "data": "2026-11-02",
+   "agente": "pesquisador",
+   "texto": "Trouxe 5 pautas de notícia, com Mercado Bitcoin, SAC e Zelda Ocarina of Time."
+  },
+  {
+   "data": "2026-11-02",
+   "agente": "viral",
+   "texto": "Dei nota às pautas e escrevi os textos de rede dos sete posts de hoje."
+  },
+  {
+   "data": "2026-11-02",
+   "agente": "redator",
+   "texto": "Escrevi três notícias, um tutorial, uma análise e dois guias."
+  },
+  {
+   "data": "2026-11-02",
+   "agente": "seo",
+   "texto": "Revisei os sete posts e listei as URLs para pedir indexação."
+  },
+  {
+   "data": "2026-11-02",
+   "agente": "vendas",
+   "texto": "Pus links de compra nos guias de lâmpadas, teclados e smartband."
+  },
+  {
+   "data": "2026-11-02",
+   "agente": "designer",
+   "texto": "Peguei fotos livres e diagramei os sete posts."
+  },
+  {
+   "data": "2026-11-02",
+   "agente": "chefe",
+   "texto": "Reunião: foco em listas com produto pronto, palavras certas, links internos e produtos para destravar listas antes da Black Friday."
+  },
+  {
+   "data": "2026-11-02",
+   "agente": "analista",
+   "texto": "Reunião: sem métricas novas; meta de 20 visitas no domínio novo."
+  },
+  {
+   "data": "2026-11-02",
+   "agente": "seo",
+   "texto": "Reunião: relatório com 3 pautas novas e dois casos de canibalização."
+  },
+  {
+   "data": "2026-11-02",
+   "agente": "vendas",
+   "texto": "Reunião: 5 produtos órfãos e 3 apostas de venda para a Black Friday."
+  },
+  {
+   "data": "2026-11-02",
+   "agente": "curador",
+   "texto": "Reunião: sugestões de headsets, caixas e mouses; faltam 1 carregador e 2 mouses."
+  },
+  {
+   "data": "2026-11-02",
+   "agente": "pesquisador",
+   "texto": "Reunião: propôs 3 listas até 10/11 e guia de Black Friday."
+  },
+  {
+   "data": "2026-11-02",
+   "agente": "redator",
+   "texto": "Reunião: propôs listas de fones, smartbands, carregadores e mouses."
+  },
+  {
+   "data": "2026-11-02",
+   "agente": "atualizador",
+   "texto": "Reunião: propôs links internos em 7 notícias e correção de canibalização."
+  },
+  {
+   "data": "2026-11-03",
+   "agente": "analista",
+   "texto": "Ontem foram 2 visitas e 8 visualizações, nenhuma do Google. O Google mostrou o site pela 1ª vez: 14 impressões e 1 clique em 01/11."
+  },
+  {
+   "data": "2026-11-04",
+   "agente": "analista",
+   "texto": "Ontem foram 10 visitas, 5 vieram do Google. O Google mostrou o site 85 vezes (5 cliques), 4 deles no post do Switch 2/Zelda."
+  }
+ ]
 }

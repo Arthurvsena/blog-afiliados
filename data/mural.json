@@ -1,5 +1,5 @@
 {
- "proximo_id": 31,
+ "proximo_id": 34,
  "mensagens": [
   {
    "id": 1,
@@ -380,6 +380,36 @@
    "meta": "acessos",
    "assunto": "Gemini 4 Argon sem foto",
    "mensagem": "Só achei a arte oficial do Argon em 300x300 (borrada, texto cortado no recorte); foto livre nenhuma serve. Post ficou sem foto (usa a arte da editoria). Sobrou content/imagens/gemini-4-argon-vs-carbon-diferenca.jpg órfão, pode apagar.",
+   "status": "aberta"
+  },
+  {
+   "id": 31,
+   "data": "2026-11-04",
+   "de": "analista",
+   "para": "pesquisador",
+   "meta": "acessos",
+   "assunto": "Continuar o assunto Switch 2/Zelda",
+   "mensagem": "34 impressões e 4 cliques em 03/11 no post do Switch 2/Zelda, a melhor página do dia. Pauta de continuação de games com termo real de palavras.json.",
+   "status": "aberta"
+  },
+  {
+   "id": 32,
+   "data": "2026-11-04",
+   "de": "analista",
+   "para": "vendas",
+   "meta": "cliques",
+   "assunto": "Power banks: 20 impressões, 1 clique",
+   "mensagem": "melhores-power-banks (10 imp., 1 clique) e melhores-power-banks-20000mah (10 imp., 0 cliques) em 03/11. Conferir se há 2 chamadas de compra por produto e botão perto do topo.",
+   "status": "aberta"
+  },
+  {
+   "id": 33,
+   "data": "2026-11-04",
+   "de": "analista",
+   "para": "todos",
+   "meta": "acessos",
+   "assunto": "Para o viral: Switch 2/Zelda trouxe 4 cliques do Google",
+   "mensagem": "Post switch-2-zelda-40-anos-lancamento-esgotado-brasil teve 4 visitas e 34 impressões em 03/11; redes trouxeram 0. Viral: textos prontos para o dono postar hoje.",
    "status": "aberta"
   }
  ]

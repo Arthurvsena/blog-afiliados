@@ -166,6 +166,107 @@
         "Search Console: dia mais recente disponível é 01/11 (1 clique, 14 impressões, posição média 8,2); o Google só mostra 2 consultas (as demais são anônimas)",
         "Search Console: também com impressões em 01/11: /posts/vivo-satelite-starlink-celular-brasil/ (1) e /posts/macbook-pro-oled-touch-preco-brasil/ (1)"
       ]
+    },
+    {
+      "dia": "2026-11-03",
+      "visitas": 10,
+      "visualizacoes": 14,
+      "celular_pct": 30,
+      "youtube": 0,
+      "paginas": [
+        {
+          "url": "/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/",
+          "visitas": 4
+        },
+        {
+          "url": "/",
+          "visitas": 3
+        },
+        {
+          "url": "/posts/xbox-series-fsr-4-1-gta-6-o-que-muda/",
+          "visitas": 2
+        },
+        {
+          "url": "/posts/melhores-power-banks/",
+          "visitas": 1
+        }
+      ],
+      "origens": [
+        {
+          "origem": "direto",
+          "visitas": 5
+        },
+        {
+          "origem": "google",
+          "visitas": 5
+        }
+      ],
+      "google": {
+        "dia": "2026-11-03",
+        "cliques": 5,
+        "impressoes": 85,
+        "consultas": [
+          {
+            "termo": "carregador portátil usb-c ugreen lcd 20w 10000mah pb311 preto",
+            "cliques": 0,
+            "impressoes": 1
+          },
+          {
+            "termo": "ugreen pb311",
+            "cliques": 0,
+            "impressoes": 1
+          },
+          {
+            "termo": "macbook pro oled price",
+            "cliques": 0,
+            "impressoes": 1
+          },
+          {
+            "termo": "top power bank 10000mah",
+            "cliques": 0,
+            "impressoes": 1
+          },
+          {
+            "termo": "melhores power bank custo beneficio",
+            "cliques": 0,
+            "impressoes": 1
+          }
+        ],
+        "paginas": [
+          {
+            "url": "/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/",
+            "cliques": 4,
+            "impressoes": 34
+          },
+          {
+            "url": "/posts/melhores-power-banks/",
+            "cliques": 1,
+            "impressoes": 10
+          },
+          {
+            "url": "/posts/alexa-plus-brasil-acesso-gratis-prorrogado-fevereiro-2027/",
+            "cliques": 0,
+            "impressoes": 10
+          },
+          {
+            "url": "/posts/melhores-power-banks-20000mah/",
+            "cliques": 0,
+            "impressoes": 10
+          },
+          {
+            "url": "/posts/review-power-bank-ugreen-pb311-10000/",
+            "cliques": 0,
+            "impressoes": 6
+          }
+        ]
+      },
+      "faltou": [
+        "Cloudflare: período 'últimas 24 horas' (BRT, ~07h de 03/11 a ~07h de 04/11), não o dia fechado de ontem",
+        "Cloudflare: 'paginas' são as páginas de entrada das visitas; sem contagem por página das 14 visualizações",
+        "Cloudflare: 10 visitas, todas do Brasil e em nexustechai.com.br; 7 computador, 3 celular",
+        "Search Console: dia 03/11 já disponível (5 cliques, 85 impressões, CTR 5,9%, posição média 10); só 7 consultas visíveis, todas com 0 clique e 1 impressão (as demais são anônimas)",
+        "Search Console: 13 páginas com impressões; também /posts/fone-bluetooth-ou-com-fio/ (5), /posts/como-escolher-power-bank/ (3), /posts/macbook-pro-oled-touch-preco-brasil/ (3)"
+      ]
     }
   ]
 }
