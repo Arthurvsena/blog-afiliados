@@ -1,0 +1,40 @@
+{
+  "videos": [
+    {
+      "data": "2026-11-04",
+      "tipo": "short",
+      "slug": "iphone-duo-234-mil-dobras-tela-inteira",
+      "post": "",
+      "titulo": "iPhone Duo: 234 mil dobras e a tela segue inteira #shorts",
+      "url": "https://youtube.com/shorts/GbKc1Z3UGO8",
+      "voz": "gemini:Fenrir",
+      "segundos": 49.4,
+      "publica_em": "2026-11-04 12:00",
+      "status": "programado"
+    },
+    {
+      "data": "2026-11-04",
+      "tipo": "longo",
+      "slug": "smartband-ou-smartwatch-qual-escolher-2026",
+      "post": "smartband-ou-smartwatch-qual-escolher",
+      "titulo": "Smartband ou smartwatch: qual vale para o seu dia a dia?",
+      "url": "https://youtu.be/uiE8Fx7b_Hg",
+      "voz": "gemini:Orus",
+      "segundos": 246.7,
+      "publica_em": "2026-11-04 19:00",
+      "status": "programado"
+    },
+    {
+      "data": "2026-11-04",
+      "tipo": "short",
+      "slug": "sony-recompra-ps5-usado-nao-chega-brasil",
+      "post": "xbox-series-fsr-4-1-gta-6-o-que-muda",
+      "titulo": "Sony quer comprar seu PS5 usado, mas não no Brasil #shorts",
+      "url": "https://youtube.com/shorts/Z0I6jvriyas",
+      "voz": "gemini:Fenrir",
+      "segundos": 38.6,
+      "publica_em": "2026-11-04 21:00",
+      "status": "programado"
+    }
+  ]
+}
