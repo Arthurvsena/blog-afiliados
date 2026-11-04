@@ -94,11 +94,14 @@ Para cada vídeo:
    janela do Windows que você não controla). Com a janela "Enviar vídeos"
    aberta:
    a. Crie um campo de arquivo para cada parte (N = número de `VIDEO.mp4.parte-*`):
-      `javascript_tool`: `for (let i=0;i<N;i++){const e=document.createElement('input');e.type='file';e.dataset.parte=i;e.style.cssText='position:fixed;left:0;top:'+(i*28)+'px;z-index:999999';document.body.appendChild(e);} 'ok'`
-   b. `find` "campos de arquivo" para pegar as refs e, **um por chamada**, use
+      `javascript_tool`: `for (let i=0;i<N;i++){const e=document.createElement('input');e.type='file';e.dataset.parte=i;e.setAttribute('aria-label','parte '+i);e.style.cssText='position:fixed;left:0;top:'+(i*28)+'px;z-index:999999';document.body.appendChild(e);} 'ok'`
+   b. `find` "file inputs labeled parte 0 to parte N" para pegar as refs e use
       `mcp__claude-in-chrome__file_upload` com o caminho absoluto de cada parte
-      (parte-00 no 1º campo criado, parte-01 no 2º...). Os campos novos são os
-      últimos da página; o do YouTube é o primeiro.
+      (parte-00 em "parte 0", parte-01 em "parte 1"...), **uma chamada por parte e
+      nunca dentro de `browser_batch`** (o lote soma tudo e passa de 10 MB). Confira
+      com `javascript_tool` que todas têm tamanho:
+      `[...document.querySelectorAll('input[data-parte]')].map(e=>e.dataset.parte+':'+(e.files[0]?.size||0)).join(' ')`;
+      reenvie a que der 0.
    c. Remonte e entregue ao YouTube (troque NOME e TAMANHO pelo nome do `.mp4` e
       o tamanho em bytes do `ls -l`):
       ```js
@@ -113,8 +116,10 @@ Para cada vídeo:
       Confira com screenshot que a tela de Detalhes abriu com o nome do vídeo.
       Se não abrir, tente uma vez `alvo.dispatchEvent(new Event('input',{bubbles:true}))`;
       se ainda falhar, registre "pronto (não publicado: envio falhou)" e siga.
-3. **Detalhes**: título = `titulo`; descrição = conteúdo do `.txt`; miniatura =
-   a `-capa.jpg` (só vídeos longos e só se o botão de miniatura estiver
+3. **Detalhes**: título = `titulo`; descrição = conteúdo do `.txt` (digite com
+   `computer type`; se der timeout, confira com JS se o texto entrou antes de
+   repetir); miniatura = a `-capa.jpg` (o campo é `#file-loader`: dê a ele
+   `aria-label` 'miniatura' com JS, ache com `find` e use `file_upload`) (só vídeos longos e só se o botão de miniatura estiver
    liberado); categoria, idioma e tags padrão já vêm configurados no canal; público: **"Não, não é conteúdo para crianças"**. Em "Mostrar
    mais": **Conteúdo alterado: Não** (narração sintética não é conteúdo
    realista alterado); tags = `hashtags`.

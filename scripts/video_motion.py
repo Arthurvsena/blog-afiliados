@@ -506,7 +506,7 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
     if r.returncode != 0 or not bruto.exists():
         sys.exit("Render do Remotion falhou (use scripts/video.py como reserva).")
 
-    # comprime para caber no envio pelo Chrome (limite de 10 MB por arquivo): 2 passadas com taxa calculada
+    # versão final em alta qualidade (o envio pelo Chrome vai em partes de 9 MB)
     saida = Path(saida or RAIZ / "_videos")
     saida.mkdir(parents=True, exist_ok=True)
     destino = saida / f"{rot['slug']}.mp4"
@@ -522,6 +522,19 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
         q.desenhar(q.fundo_cena(img, bool(primeira and primeira.get("produto"))), 0.0, 0.0,
                    rot.get("capa_texto") or rot["titulo"], "", True).save(capa, quality=90)
     rot["creditos_extra"] = creditos
+    # capítulos da descrição com os tempos REAIS da narração (a estimativa do roteiro erra e o YouTube
+    # ignora capítulos que passam do fim do vídeo); precisa começar em 0:00 e ter blocos de 10 s ou mais
+    caps = [(c["ini"] / fps, c["capitulo"]) for c in props_cenas if c.get("capitulo")]
+    if tipo == "longo" and caps:
+        if caps[0][0] > 1:
+            caps.insert(0, (0, "Introdução"))
+        lista = []
+        for seg, nome in caps:
+            seg = 0 if not lista else int(seg)
+            if lista and seg - lista[-1][0] < 10:
+                continue
+            lista.append((seg, nome))
+        rot["capitulos_desc"] = [f"{s // 60}:{s % 60:02d} {n}" for s, n in lista]
     if not rot["slug"].startswith("amostra"):
         registrar_voz(rot["slug"], voz)
     return {"arquivo": str(destino), "mb": round(destino.stat().st_size / 1024 / 1024, 2), "segundos": round(total, 1),
