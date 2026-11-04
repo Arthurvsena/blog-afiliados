@@ -208,6 +208,28 @@ def preparar_imagens(rot, pasta, catalogo, creditos):
         c["_imagens"] = saida
 
 
+def preparar_manchetes(rot, pasta, creditos, vertical):
+    """Cenas 'manchete': print da matéria com o trecho destacado (scripts/midia.py)."""
+    import midia
+    for i, c in enumerate(rot["cenas"]):
+        if c.get("tipo") != "manchete":
+            continue
+        m = c.get("manchete") or {}
+        try:
+            meta = midia.capturar_manchete(m["url"], m.get("trecho", ""), pasta / f"manchete{i:02d}.png", vertical)
+            c["_manchete"] = {"src": f"run/{pasta.name}/{meta['arquivo']}", "proporcao": meta["proporcao"],
+                              "destaque": meta["destaque"], "site": meta["site"]}
+            creditos.append(f"Reprodução: {meta['site']}")
+        except BaseException as e:  # sem print: a cena vira um fato comum
+            print(f"(manchete {m.get('url')} falhou: {e})", file=sys.stderr)
+            c["tipo"] = "citacao" if m.get("trecho") else "fato"
+            c.setdefault("tela", m.get("trecho") or c["fala"])
+            c.setdefault("autor", m.get("site", ""))
+
+
+ENTRADAS = ["zoom", "slide", "subida", "glitch", "cortina", "giro", "desfoque"]
+
+
 def tokens(fala):
     """Fala com marcação {o que aparece|o que se fala}: ex. "{R$ 21.999|vinte e um mil, novecentos e noventa e nove reais}".
     Devolve [(na_tela, falado)]."""
@@ -226,12 +248,19 @@ def falado(fala):
 
 
 def grupos_de(fala, n=4):
-    """Trechos de 2 a 5 itens, quebrando na pontuação: cada um vira um bloco de legenda."""
+    """Blocos de legenda de leitura natural: quebra na pontuação ou perto de ~18 letras,
+    nunca terminando num artigo/preposição solto ("o", "no", "de")."""
+    soltas = {"o", "a", "os", "as", "um", "uma", "no", "na", "nos", "nas", "de", "do", "da", "dos", "das",
+              "e", "em", "que", "uns", "umas", "pra", "para", "com", "por", "ao", "à", "se", "seu", "sua", "mais"}
+    lista = tokens(fala)
     saida, atual = [], []
-    for tk in tokens(fala):
+    for i, tk in enumerate(lista):
         atual.append(tk)
-        peso = sum(len(f.split()) for _, f in atual)
-        if len(atual) >= n or peso >= n + 2 or (len(atual) >= 2 and re.search(r"[.,:;!?]$", tk[1])):
+        letras = sum(len(f) for _, f in atual)
+        ultima = re.sub(r"\W", "", tk[1].lower())
+        pontuou = re.search(r"[.,:;!?]$", tk[1])
+        cheio = len(atual) >= n + 1 or letras >= 18
+        if (pontuou and len(atual) >= 2) or (cheio and ultima not in soltas) or len(atual) >= n + 3:
             saida.append(atual); atual = []
     if atual:
         if saida and len(atual) == 1:
@@ -364,6 +393,7 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
     pasta.mkdir(parents=True)
     creditos = []
     preparar_imagens(rot, pasta, catalogo, creditos)
+    preparar_manchetes(rot, pasta, creditos, tipo == "short")
     sfx(PUBLICO / "sfx")
 
     # narração por trechos
@@ -420,7 +450,9 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
         dur = max(round(t * fps) - ini, 20)
         tipo_c = c.get("tipo") or ("gancho" if ci == 0 else "cta" if ci == n - 1 else "fato")
         cena = {"ini": ini, "dur": dur, "tipo": tipo_c, "tela": c.get("tela") or " ".join(t for t, _ in tokens(c["fala"])), "destaque": c.get("destaque", ""),
-                "rotulo": c.get("rotulo", ""), "icone": c.get("icone", ""), "itens": c.get("itens", []), "capitulo": c.get("capitulo", ""), "imagens": c.get("_imagens", []), "palavras": palavras}
+                "rotulo": c.get("rotulo", ""), "icone": c.get("icone", ""), "itens": c.get("itens", []),
+                "titulo_lista": c.get("titulo_lista", ""), "autor": c.get("autor", ""), "layout": c.get("layout", ""),
+                "entrada": c.get("entrada") or ENTRADAS[(ci * 3) % len(ENTRADAS)], "manchete": c.get("_manchete"), "capitulo": c.get("capitulo", ""), "imagens": c.get("_imagens", []), "palavras": palavras}
         if tipo_c == "produto":
             pid = c.get("produto") or next((r.split(":", 1)[1] for r in (c.get("imagens") or []) if str(r).startswith("produto:")), "")
             p = catalogo.get(pid, {})
@@ -433,8 +465,23 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
         if tipo_c == "numero":
             sons.append({"ini": ini + 24, "src": "sfx/ding.wav", "vol": 0.25})
     duracao = round(t * fps) + 20
+    # cenas gráficas ganham de fundo a foto mais próxima, desfocada (contexto visual sem repetir a mesma tela)
+    fotos = [(i, x["src"]) for i, c in enumerate(props_cenas) for x in c["imagens"] if not x.get("produto")]
+    for i, c in enumerate(props_cenas):
+        if not c["imagens"] and fotos:
+            c["fundo"] = min(fotos, key=lambda q: (abs(q[0] - i), q[0]))[1]
+    # pedido de inscrição animado: no fim (Short) e também a ~30% do vídeo (longo)
+    inscrever = []
+    cta = next((c for c in props_cenas if c["tipo"] == "cta"), props_cenas[-1])
+    inscrever.append({"ini": cta["ini"] + 6})
+    if tipo == "longo":
+        meio = next((c for c in props_cenas if c["ini"] > duracao * 0.3), None)
+        if meio:
+            inscrever.insert(0, {"ini": meio["ini"] + 10})
+    for q in inscrever:
+        sons.append({"ini": q["ini"] + 32, "src": "sfx/ding.wav", "vol": 0.2})
     props = {"tipo": tipo, "fps": fps, "largura": largura, "altura": altura, "duracao": duracao, "selo": rot.get("selo", ""),
-             "audio": f"run/{rot['slug']}/{audio.name}", "cenas": props_cenas, "sons": sons}
+             "audio": f"run/{rot['slug']}/{audio.name}", "cenas": props_cenas, "sons": sons, "inscrever": inscrever}
     arq_props = pasta / "props.json"
     arq_props.write_text(json.dumps(props, ensure_ascii=False))
 
@@ -471,6 +518,34 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
             "voz": voz, "capa": str(capa) if capa else None, "creditos": creditos}
 
 
+def checar(rot):
+    """Regras mínimas de qualidade do roteiro. Devolve 0 se passou."""
+    cenas = rot.get("cenas") or []
+    tipos = [c.get("tipo", "fato") for c in cenas]
+    fotos = {str(r) for c in cenas for r in (c.get("imagens") or []) if r}
+    problemas = []
+    curto = rot.get("tipo", "short") == "short"
+    if len(set(tipos)) < (5 if curto else 7):
+        problemas.append(f"pouca variedade de cenas: {sorted(set(tipos))} (mínimo {5 if curto else 7} tipos diferentes)")
+    for i in range(len(tipos) - 2):
+        if tipos[i] == tipos[i + 1] == tipos[i + 2]:
+            problemas.append(f"3 cenas seguidas do tipo '{tipos[i]}' (cenas {i + 1} a {i + 3})")
+            break
+    if len(fotos) < (4 if curto else 8):
+        problemas.append(f"só {len(fotos)} fotos diferentes (mínimo {4 if curto else 8}); use imagens oficiais do produto/jogo/empresa")
+    if len(rot.get("fontes") or []) < 2 and not rot.get("post"):
+        problemas.append("menos de 2 fontes no roteiro")
+    if "manchete" not in tipos and (rot.get("fontes") or rot.get("post")):
+        problemas.append("falta uma cena 'manchete' (print da notícia com o trecho destacado)")
+    ultima = (cenas[-1].get("fala", "") if cenas else "").lower()
+    if not re.search(r"inscrev", ultima):
+        problemas.append("a última fala não pede para se inscrever no canal")
+    for p in problemas:
+        print("PROBLEMA:", p)
+    print("OK" if not problemas else f"{len(problemas)} problema(s)")
+    return 1 if problemas else 0
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("roteiro", nargs="?")
@@ -481,6 +556,7 @@ def main():
     ap.add_argument("--manter", action="store_true", help="não apaga a pasta temporária em video/public/run/")
     ap.add_argument("--fala", action="store_true", help="só imprime o texto falado inteiro (para o ElevenLabs)")
     ap.add_argument("--comprimir", help="só comprime um .mp4 pronto para menos de 9,5 MB (sobrescreve)")
+    ap.add_argument("--checar", action="store_true", help="confere se o roteiro tem variedade, fotos, fontes e pedido de inscrição")
     a = ap.parse_args()
     if a.comprimir:
         arq = Path(a.comprimir)
@@ -498,6 +574,8 @@ def main():
             pass
         return
     rot = json.loads(Path(a.roteiro).read_text(encoding="utf-8"))
+    if a.checar:
+        sys.exit(checar(rot))
     if a.fala:
         print(" ".join(falado(c["fala"]) for c in rot["cenas"] if c.get("fala")))
         return

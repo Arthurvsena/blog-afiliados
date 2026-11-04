@@ -145,7 +145,9 @@ const Gancho = ({cena, k, vertical}) => {
   const passo = Math.max(3, Math.floor(Math.min(cena.dur * 0.6, 40) / Math.max(1, palavras.length)));
   return (
     <AbsoluteFill style={{justifyContent: vertical ? 'flex-start' : 'center', alignItems: 'center', paddingTop: vertical ? '52%' : 0, paddingLeft: 60 * k, paddingRight: 60 * k}}>
-      <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: `${4 * k}px ${18 * k}px`, maxWidth: vertical ? '100%' : '80%'}}>
+      <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: `${4 * k}px ${18 * k}px`, maxWidth: vertical ? '100%' : '80%',
+        background: 'rgba(5,5,7,.62)', backdropFilter: 'blur(14px)', padding: `${28 * k}px ${30 * k}px`, borderRadius: 28 * k,
+        boxShadow: '0 20px 60px rgba(0,0,0,.6)', opacity: interpolate(f, [0, 6], [0, 1], {extrapolateRight: 'clamp'})}}>
         {palavras.map((p, i) => {
           const s = spring({frame: f - i * passo, fps, config: {damping: 9, stiffness: 220}});
           const destaque = i === palavras.length - 1 || /\d/.test(p);
@@ -271,7 +273,7 @@ const Info = ({cena, k, vertical}) => {
   const d = interpolate(f, [0, 30], [0, 1], {extrapolateRight: 'clamp', easing: Easing.out(Easing.cubic)});
   const tam = (vertical ? 520 : 360) * k;
   return (
-    <AbsoluteFill style={{background: 'radial-gradient(circle at 50% 38%, #2b2160 0%, #0a0a12 62%, #050507 100%)', alignItems: 'center',
+    <AbsoluteFill style={{background: 'transparent', alignItems: 'center',
       justifyContent: vertical ? 'flex-start' : 'center', paddingTop: vertical ? '36%' : 0}}>
       {[0, 1, 2].map((i) => {
         const r = ((f / 40 + i / 3) % 1);
@@ -299,7 +301,7 @@ const Data = ({cena, k, vertical}) => {
   const vira = interpolate(f, [6, 22], [90, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.out(Easing.back(1.6))});
   const w = (vertical ? 560 : 380) * k;
   return (
-    <AbsoluteFill style={{background: 'radial-gradient(circle at 50% 38%, #2b2160 0%, #0a0a12 62%, #050507 100%)', alignItems: 'center',
+    <AbsoluteFill style={{background: 'transparent', alignItems: 'center',
       justifyContent: vertical ? 'flex-start' : 'center', paddingTop: vertical ? '30%' : 0, perspective: 1600}}>
       <div style={{width: w, borderRadius: 40 * k, overflow: 'hidden', boxShadow: '0 40px 140px rgba(124,92,255,.55)', transform: `scale(${s})`}}>
         <div style={{background: ROSA, height: 150 * k, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 80 * k, position: 'relative'}}>
@@ -324,7 +326,7 @@ const Comparativo = ({cena, k, vertical}) => {
   const {fps} = useVideoConfig();
   const itens = (cena.itens || []).slice(0, 3);
   return (
-    <AbsoluteFill style={{background: 'radial-gradient(circle at 50% 38%, #2b2160 0%, #0a0a12 62%, #050507 100%)', alignItems: 'center',
+    <AbsoluteFill style={{background: 'transparent', alignItems: 'center',
       justifyContent: vertical ? 'flex-start' : 'center', paddingTop: vertical ? '28%' : 0}}>
       <div style={{display: 'flex', gap: 34 * k, alignItems: 'flex-end'}}>
         {itens.map((it, i) => {
@@ -360,18 +362,231 @@ const Capitulo = ({cena, k}) => {
   );
 };
 
+// ---------- manchete: print da notícia com marca-texto ----------
+const Manchete = ({cena, k, vertical}) => {
+  const f = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const m = cena.manchete || {};
+  const s = spring({frame: f, fps, config: {damping: 14, stiffness: 110}});
+  const largura = (vertical ? 980 : 760) * k * (vertical ? 1 : 1.33);
+  const altura = largura / (m.proporcao || 0.8);
+  const janela = vertical ? 1180 * k : 520 * k * 1.33;
+  const destaque = (m.destaque || [])[0];
+  // começa no título e desce até o trecho destacado, com zoom
+  const alvoY = destaque ? Math.max(0, destaque.y * altura - janela * 0.45) : 0;
+  const desce = interpolate(f, [12, Math.max(30, cena.dur * 0.45)], [0, Math.min(alvoY, Math.max(0, altura - janela))], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.inOut(Easing.cubic)});
+  const zoom = interpolate(f, [cena.dur * 0.4, cena.dur], [1, 1.12], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  const marca = interpolate(f, [cena.dur * 0.42, cena.dur * 0.62], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.out(Easing.cubic)});
+  return (
+    <AbsoluteFill style={{background: 'transparent', alignItems: 'center',
+      justifyContent: vertical ? 'flex-start' : 'center', paddingTop: vertical ? 170 * k : 0}}>
+      <div style={{width: largura, height: Math.min(janela, altura), overflow: 'hidden', borderRadius: 26 * k, background: '#fff',
+        boxShadow: '0 40px 120px rgba(0,0,0,.7), 0 0 0 1px rgba(255,255,255,.15)',
+        transform: `perspective(1600px) rotateX(${interpolate(s, [0, 1], [18, 0])}deg) translateY(${(1 - s) * 260}px) scale(${zoom})`, opacity: s}}>
+        <div style={{position: 'relative', width: largura, height: altura, transform: `translateY(${-desce}px)`}}>
+          <Img src={staticFile(m.src)} style={{width: largura, height: altura}} />
+          {(m.destaque || []).map((r, i) => (
+            <div key={i} style={{position: 'absolute', left: r.x * largura - 4, top: r.y * altura - 2, height: r.h * altura + 4,
+              width: (r.w * largura + 8) * Math.min(1, Math.max(0, marca * (m.destaque.length) - i)),
+              background: 'rgba(255, 214, 10, .55)', mixBlendMode: 'multiply', borderRadius: 4}} />
+          ))}
+        </div>
+      </div>
+      <div style={{marginTop: 26 * k, display: 'flex', alignItems: 'center', gap: 14 * k, opacity: s}}>
+        <span style={{fontFamily: FONTE, fontWeight: 800, fontSize: 30 * k, color: '#fff', background: 'rgba(255,255,255,.1)',
+          border: `${2 * k}px solid rgba(255,255,255,.25)`, borderRadius: 999, padding: `${8 * k}px ${22 * k}px`}}>Fonte: {m.site}</span>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+// ---------- lista: itens que entram um a um ----------
+const Lista = ({cena, k, vertical}) => {
+  const f = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const itens = (cena.itens || []).slice(0, 5);
+  const passo = cena.dur / Math.max(1, itens.length);
+  const atual = Math.min(itens.length - 1, Math.floor(f / passo));
+  return (
+    <AbsoluteFill style={{background: 'transparent', justifyContent: 'center',
+      padding: `0 ${60 * k}px ${vertical ? 420 * k : 60 * k}px`}}>
+      {cena.titulo_lista ? <div style={{fontFamily: FONTE, fontWeight: 900, fontSize: 84 * k, color: '#fff', textTransform: 'uppercase', marginBottom: 40 * k}}>{cena.titulo_lista}</div> : null}
+      {itens.map((it, i) => {
+        const e = spring({frame: f - i * passo, fps, config: {damping: 13, stiffness: 150}});
+        const ativo = i === atual;
+        return (
+          <div key={i} style={{display: 'flex', alignItems: 'center', gap: 26 * k, marginBottom: 26 * k, opacity: e * (ativo ? 1 : 0.45),
+            transform: `translateX(${(1 - e) * -500}px) scale(${ativo ? 1.04 : 1})`, transformOrigin: 'left center'}}>
+            <span style={{minWidth: 140 * k, height: 140 * k, borderRadius: 34 * k, background: ativo ? ROXO : 'rgba(255,255,255,.08)',
+              border: `${3 * k}px solid ${ativo ? ROXO2 : 'rgba(255,255,255,.2)'}`, display: 'flex', alignItems: 'center', justifyContent: 'center',
+              fontFamily: FONTE, fontWeight: 900, fontSize: 80 * k, color: '#fff'}}>{i + 1}</span>
+            <span style={{fontFamily: FONTE, fontWeight: 800, fontSize: 70 * k, color: '#fff', lineHeight: 1.1}}>{it}</span>
+          </div>
+        );
+      })}
+    </AbsoluteFill>
+  );
+};
+
+// ---------- barras: compara números com barras que crescem ----------
+const Barras = ({cena, k, vertical}) => {
+  const f = useCurrentFrame();
+  const itens = (cena.itens || []).slice(0, 4);
+  const max = Math.max(...itens.map((i) => Number(i.valor) || 0), 1);
+  return (
+    <AbsoluteFill style={{background: 'transparent', justifyContent: 'center',
+      padding: `0 ${70 * k}px ${vertical ? 420 * k : 60 * k}px`}}>
+      {itens.map((it, i) => {
+        const p = interpolate(f, [8 + i * 8, 34 + i * 8], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.out(Easing.cubic)});
+        const v = (Number(it.valor) || 0) * p;
+        return (
+          <div key={i} style={{marginBottom: 60 * k}}>
+            <div style={{display: 'flex', justifyContent: 'space-between', fontFamily: FONTE, fontWeight: 800, fontSize: 64 * k, color: '#fff', marginBottom: 16 * k}}>
+              <span>{it.rotulo}</span><span style={{color: i === 0 ? ROXO2 : '#fff'}}>{formatar(Math.round(v))}{it.unidade ? ' ' + it.unidade : ''}</span>
+            </div>
+            <div style={{height: 84 * k, borderRadius: 999, background: 'rgba(255,255,255,.08)', overflow: 'hidden'}}>
+              <div style={{height: '100%', width: `${(Number(it.valor) || 0) / max * 100 * p}%`, borderRadius: 999,
+                background: i === 0 ? `linear-gradient(90deg, ${ROXO}, ${ROSA})` : 'rgba(255,255,255,.45)'}} />
+            </div>
+          </div>
+        );
+      })}
+    </AbsoluteFill>
+  );
+};
+
+// ---------- linha do tempo ----------
+const Linha = ({cena, k, vertical}) => {
+  const f = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const evs = (cena.itens || []).slice(0, 4);
+  const passo = cena.dur / Math.max(1, evs.length);
+  const prog = interpolate(f, [0, cena.dur * 0.9], [0, 1], {extrapolateRight: 'clamp'});
+  return (
+    <AbsoluteFill style={{background: 'transparent', justifyContent: 'center', padding: `0 ${80 * k}px ${vertical ? 420 * k : 60 * k}px`}}>
+      <div style={{position: 'relative', paddingLeft: 90 * k}}>
+        <div style={{position: 'absolute', left: 22 * k, top: 10 * k, width: 8 * k, height: `${prog * 100}%`, background: `linear-gradient(${ROXO}, ${ROSA})`, borderRadius: 8}} />
+        {evs.map((e, i) => {
+          const s = spring({frame: f - i * passo, fps, config: {damping: 13}});
+          return (
+            <div key={i} style={{position: 'relative', marginBottom: 56 * k, opacity: s, transform: `translateY(${(1 - s) * 60}px)`}}>
+              <div style={{position: 'absolute', left: -82 * k, top: 20 * k, width: 50 * k, height: 50 * k, borderRadius: '50%', background: ROXO, border: `${5 * k}px solid #fff`}} />
+              <div style={{fontFamily: FONTE, fontWeight: 900, fontSize: 84 * k, color: ROXO2}}>{e.data}</div>
+              <div style={{fontFamily: FONTE, fontWeight: 700, fontSize: 60 * k, color: '#fff', lineHeight: 1.15}}>{e.texto}</div>
+            </div>
+          );
+        })}
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+// ---------- citação ----------
+const Citacao = ({cena, k, vertical}) => {
+  const f = useCurrentFrame();
+  const texto = cena.tela || '';
+  const n = Math.floor(interpolate(f, [6, Math.max(20, cena.dur * 0.6)], [0, texto.length], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}));
+  return (
+    <AbsoluteFill style={{background: 'transparent', justifyContent: 'center', padding: `0 ${80 * k}px`}}>
+      <div style={{fontFamily: 'Georgia, serif', fontSize: 260 * k, color: ROXO, lineHeight: 0.6, height: 140 * k}}>“</div>
+      <div style={{fontFamily: FONTE, fontWeight: 800, fontSize: (vertical ? 74 : 60) * k, color: '#fff', lineHeight: 1.15}}>{texto.slice(0, n)}<span style={{opacity: f % 16 < 8 ? 1 : 0, color: ROXO2}}>|</span></div>
+      {cena.autor ? <div style={{marginTop: 34 * k, fontFamily: FONTE, fontWeight: 700, fontSize: 38 * k, color: ROXO2}}>— {cena.autor}</div> : null}
+    </AbsoluteFill>
+  );
+};
+
+// ---------- botão de inscrição animado ----------
+export const Inscrever = ({k, vertical}) => {
+  const f = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const e = spring({frame: f, fps, config: {damping: 12, stiffness: 160}});
+  const clicou = f > 34;
+  const cx = interpolate(f, [10, 30], [260, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.out(Easing.cubic)});
+  const cy = interpolate(f, [10, 30], [180, 10], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.out(Easing.cubic)});
+  const aperto = f > 30 && f < 36 ? 0.92 : 1;
+  const sino = f > 40 ? Math.sin((f - 40) * 0.9) * Math.max(0, 22 - (f - 40)) : 0;
+  const sai = interpolate(f, [70, 80], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  return (
+    <AbsoluteFill style={{justifyContent: vertical ? 'flex-end' : 'flex-end', alignItems: 'center', paddingBottom: (vertical ? 330 : 90) * k, opacity: sai, pointerEvents: 'none'}}>
+      <div style={{display: 'flex', alignItems: 'center', gap: 18 * k, transform: `translateY(${(1 - e) * 200}px) scale(${e * aperto})`,
+        background: 'rgba(15,15,20,.92)', border: `${2 * k}px solid rgba(255,255,255,.18)`, borderRadius: 999, padding: `${14 * k}px ${18 * k}px ${14 * k}px ${14 * k}px`,
+        boxShadow: '0 20px 60px rgba(0,0,0,.6)', position: 'relative'}}>
+        <Simbolo s={74 * k} />
+        <span style={{fontFamily: FONTE, fontWeight: 800, fontSize: 36 * k, color: '#fff', marginRight: 8 * k}}>Nexus Tech IA</span>
+        <span style={{fontFamily: FONTE, fontWeight: 900, fontSize: 34 * k, color: clicou ? '#ddd' : '#fff', background: clicou ? '#3a3a44' : '#ff0033',
+          borderRadius: 999, padding: `${14 * k}px ${30 * k}px`, textTransform: 'uppercase'}}>{clicou ? 'Inscrito' : 'Inscrever-se'}</span>
+        <svg width={56 * k} height={56 * k} viewBox="0 0 24 24" style={{transform: `rotate(${sino}deg)`, transformOrigin: '50% 10%'}}>
+          <path d="M12 22a2.5 2.5 0 0 0 2.5-2.5h-5A2.5 2.5 0 0 0 12 22zm7-6V11a7 7 0 0 0-5-6.7V3.5a2 2 0 0 0-4 0v.8A7 7 0 0 0 5 11v5l-2 2v1h18v-1l-2-2z" fill={clicou ? '#ffd60a' : '#fff'} />
+        </svg>
+        <svg width={64 * k} height={64 * k} viewBox="0 0 24 24" style={{position: 'absolute', right: 150 * k - cx * k, top: 40 * k + cy * k, opacity: f < 60 ? 1 : 0}}>
+          <path d="M5 3l14 8-6 1.5 3.5 7-2.5 1.2-3.5-7L5 18z" fill="#fff" stroke="#000" strokeWidth="1.2" />
+        </svg>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+// ---------- fotos em tela dividida ----------
+const Dividida = ({cena, vertical}) => {
+  const f = useCurrentFrame();
+  const imgs = (cena.imagens || []).slice(0, 2);
+  const abre = interpolate(f, [0, 14], [0, 1], {extrapolateRight: 'clamp', easing: Easing.out(Easing.cubic)});
+  return (
+    <AbsoluteFill style={{background: FUNDO, flexDirection: vertical ? 'column' : 'row', gap: 10}}>
+      {imgs.map((img, i) => (
+        <div key={i} style={{flex: 1, overflow: 'hidden', position: 'relative',
+          transform: vertical ? `translateX(${(1 - abre) * (i ? 100 : -100)}%)` : `translateY(${(1 - abre) * (i ? 100 : -100)}%)`}}>
+          <Img src={staticFile(img.src)} style={{width: '100%', height: '100%', objectFit: img.produto ? 'contain' : 'cover', background: img.produto ? '#eef0f4' : FUNDO,
+            transform: `scale(${interpolate(f, [0, cena.dur], [1.05, 1.18])})`}} />
+        </div>
+      ))}
+    </AbsoluteFill>
+  );
+};
+
+// entradas variadas (cada cena entra de um jeito)
+const ENTRADAS = ['zoom', 'slide', 'subida', 'glitch', 'cortina', 'giro', 'desfoque'];
+const entrada = (tipo, f, fps) => {
+  const s = spring({frame: f, fps, config: {damping: 16, stiffness: 190}});
+  switch (tipo) {
+    case 'slide': return {transform: `translateX(${(1 - s) * 100}%)`};
+    case 'subida': return {transform: `translateY(${(1 - s) * 100}%)`};
+    case 'giro': return {transform: `rotate(${(1 - s) * -8}deg) scale(${interpolate(s, [0, 1], [1.3, 1])})`};
+    case 'desfoque': return {filter: `blur(${(1 - s) * 30}px)`, transform: `scale(${interpolate(s, [0, 1], [1.08, 1])})`};
+    case 'cortina': return {clipPath: `inset(0 ${(1 - s) * 100}% 0 0)`};
+    case 'glitch': return {transform: `translateX(${f < 8 ? (f % 2 ? 24 : -24) : 0}px)`, filter: f < 8 ? `hue-rotate(${f * 40}deg) saturate(2)` : 'none'};
+    default: return {transform: `scale(${interpolate(s, [0, 1], [1.12, 1])})`};
+  }
+};
+
+// ---------- fundo das cenas gráficas: a foto do assunto desfocada ----------
+const FundoGrafico = ({cena}) => {
+  const f = useCurrentFrame();
+  return (
+    <AbsoluteFill style={{background: FUNDO}}>
+      {cena.fundo ? <Img src={staticFile(cena.fundo)} style={{width: '100%', height: '100%', objectFit: 'cover',
+        filter: 'blur(26px) brightness(.38) saturate(1.3)', transform: `scale(${1.25 + f / 900}) translateX(${Math.sin(f / 60) * 2}%)`}} /> : null}
+      <AbsoluteFill style={{background: cena.fundo ? 'radial-gradient(circle at 50% 40%, rgba(124,92,255,.22) 0%, rgba(5,5,7,.55) 70%)' : 'radial-gradient(circle at 50% 30%, #241b4f 0%, #07070b 70%)'}} />
+    </AbsoluteFill>
+  );
+};
+
 // ---------- cena ----------
 const Cena = ({cena, k, vertical, primeira}) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
-  const entra = spring({frame: f, fps, config: {damping: 16, stiffness: 200}});
-  const flash = primeira ? 0 : interpolate(f, [0, 5], [0.45, 0], {extrapolateRight: 'clamp'});
+  const flash = primeira || cena.entrada === 'cortina' ? 0 : interpolate(f, [0, 5], [0.35, 0], {extrapolateRight: 'clamp'});
   const treme = cena.tipo === 'gancho' && f < 12 ? Math.sin(f * 2.2) * (12 - f) * 0.9 : 0;
   const escuro = cena.tipo === 'numero' || cena.tipo === 'gancho' ? 0.5 : 0.35;
+  const grafica = ['produto', 'info', 'data', 'comparativo', 'manchete', 'lista', 'barras', 'linha', 'citacao'].includes(cena.tipo);
+  const est = primeira ? {} : entrada(cena.entrada || 'zoom', f, fps);
+  const T = {produto: Produto, info: Info, data: Data, comparativo: Comparativo, manchete: Manchete, lista: Lista, barras: Barras, linha: Linha, citacao: Citacao};
+  const Comp = T[cena.tipo];
   return (
-    <AbsoluteFill style={{transform: `scale(${interpolate(entra, [0, 1], [1.12, 1])}) translateX(${treme}px)`}}>
-      {cena.tipo === 'produto' ? <Produto cena={cena} k={k} vertical={vertical} /> : cena.tipo === 'info' ? <Info cena={cena} k={k} vertical={vertical} /> : cena.tipo === 'data' ? <Data cena={cena} k={k} vertical={vertical} /> : cena.tipo === 'comparativo' ? <Comparativo cena={cena} k={k} vertical={vertical} /> : <Fundo cena={cena} vertical={vertical} />}
-      <AbsoluteFill style={{background: vertical ? `linear-gradient(180deg, rgba(5,5,7,.75) 0%, rgba(5,5,7,0) 20%, rgba(5,5,7,${escuro}) 42%, rgba(5,5,7,.78) 56%, rgba(5,5,7,.8) 72%, rgba(5,5,7,.95) 100%)` : `linear-gradient(180deg, rgba(5,5,7,.7) 0%, rgba(5,5,7,0) 22%, rgba(5,5,7,${escuro}) 55%, rgba(5,5,7,.92) 100%)`}} />
+    <AbsoluteFill style={{...est, transform: `${est.transform || ''} translateX(${treme}px)`}}>
+      {Comp && cena.tipo !== 'produto' ? <FundoGrafico cena={cena} /> : null}
+      {Comp ? <Comp cena={cena} k={k} vertical={vertical} /> : cena.layout === 'dividida' && (cena.imagens || []).length >= 2 ? <Dividida cena={cena} vertical={vertical} /> : <Fundo cena={cena} vertical={vertical} />}
+      {!grafica || cena.tipo === 'produto' ? <AbsoluteFill style={{background: vertical ? `linear-gradient(180deg, rgba(5,5,7,.75) 0%, rgba(5,5,7,0) 20%, rgba(5,5,7,${escuro}) 42%, rgba(5,5,7,.78) 56%, rgba(5,5,7,.8) 72%, rgba(5,5,7,.95) 100%)` : `linear-gradient(180deg, rgba(5,5,7,.7) 0%, rgba(5,5,7,0) 22%, rgba(5,5,7,${escuro}) 55%, rgba(5,5,7,.92) 100%)`}} /> : null}
       {cena.tipo === 'gancho' ? <Gancho cena={cena} k={k} vertical={vertical} /> : null}
       {cena.tipo === 'numero' ? <Numero cena={cena} k={k} vertical={vertical} /> : null}
       {cena.tipo === 'cta' ? <Chamada cena={cena} k={k} vertical={vertical} /> : null}
@@ -396,11 +611,16 @@ export const Video = (props) => {
         </Sequence>
       ))}
       {/* legenda palavra por palavra (fica por cima das cenas) */}
-      {cenas.map((c, i) => ['fato', 'produto', 'info', 'data', 'comparativo'].includes(c.tipo) && (c.palavras || []).length ? (
+      {cenas.map((c, i) => ['fato', 'produto', 'info', 'data', 'comparativo', 'manchete', 'barras'].includes(c.tipo) && (c.palavras || []).length ? (
         <Sequence key={'l' + i} from={c.ini} durationInFrames={c.dur}>
-          <Legenda palavras={c.palavras} base={c.ini} k={k} vertical={vertical} baixo={['produto', 'info', 'data', 'comparativo'].includes(c.tipo)} />
+          <Legenda palavras={c.palavras} base={c.ini} k={k} vertical={vertical} baixo={['produto', 'info', 'data', 'comparativo', 'manchete', 'barras'].includes(c.tipo)} />
         </Sequence>
       ) : null)}
+      {(props.inscrever || []).map((q, i) => (
+        <Sequence key={'i' + i} from={q.ini} durationInFrames={82}>
+          <Inscrever k={k} vertical={vertical} />
+        </Sequence>
+      ))}
       <Topo selo={selo} k={k} cenas={cenas} frame={frame} />
       {audio ? <Audio src={staticFile(audio)} /> : null}
       {(sons || []).map((s, i) => (

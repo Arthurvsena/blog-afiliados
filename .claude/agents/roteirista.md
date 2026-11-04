@@ -16,7 +16,7 @@ ouvir), o post de origem inteiro, `data/videos.json` (o que já virou vídeo),
 ## Regras de ouro
 - Siga `editorial/canal.md` (canal dark de tecnologia sério; venda é consequência).
 - **Pauta de tendência** (de `data/tendencias.json`): apure você mesmo antes de
-  escrever: abra com WebFetch a fonte oficial ou 2 fontes confiáveis e use só
+  escrever: abra com WebFetch a fonte oficial e pelo menos 2 veículos diferentes (não só o Canaltech) e use só
   o que estiver nelas. Grave-as em `fontes` no roteiro (`[{"nome", "url"}]`).
   Em `post`, use o `post_relacionado` ou deixe vazio (o link vai para a
   página inicial do blog).
@@ -64,6 +64,40 @@ ouvir), o post de origem inteiro, `data/videos.json` (o que já virou vídeo),
   "rotulo": "fora"}, {"valor": "7,6\"", "rotulo": "dentro"}]). Use para
   tamanhos, versões, antes × depois.
 
+- `manchete`: **print da matéria** com o trecho grifado por um marca-texto
+  animado (`manchete`: {"url": "URL da matéria", "trecho": "frase exata do
+  texto, até ~25 palavras"}). O script tira o print sozinho e põe "Fonte: site"
+  na tela. É a prova do que você está falando: use 1 por Short e 2 a 4 nos
+  longos, cada uma de um veículo diferente. Teste antes:
+  `python3 scripts/midia.py manchete URL "trecho" /tmp/m.png --vertical` e
+  abra o PNG com Read (se o site bloquear, troque de fonte; se falhar no vídeo, a cena vira citação).
+- `lista`: itens numerados que entram um a um (`titulo_lista`: "ANTES DO
+  DOWNLOAD", `itens`: ["Apague jogos parados", "Confira o espaço livre"]).
+  Dicas, passos, motivos. Até 4 itens curtos.
+- `barras`: barras que crescem comparando quantidades (`itens`: [{"rotulo":
+  "GTA 6 (estimado)", "valor": 210, "unidade": "GB"}, ...]). Tamanho,
+  bateria, vendas, preço oficial.
+- `linha`: linha do tempo (`itens`: [{"data": "9/11, 21h", "texto":
+  "pré-carregamento no Xbox"}, ...]). Até 4 eventos.
+- `citacao`: frase dita por alguém, digitada na tela (`tela`: a frase,
+  `autor`: "Rockstar Games"). Só frase que está na fonte, entre aspas.
+- Em `fato`, `"layout": "dividida"` com 2 imagens mostra as duas lado a lado
+  (antes × depois, versão A × B).
+- `entrada` (opcional): zoom, slide, subida, glitch, cortina, giro ou
+  desfoque. Se não puser, o script varia sozinho.
+- Cenas gráficas ganham de fundo a foto da cena mais próxima, desfocada.
+
+## Storytelling (todo vídeo conta uma história, nada de lista de fatos solta)
+1. **Gancho** (2 s): o dado mais forte ou a pergunta do espectador.
+2. **Contexto**: o que aconteceu, com foto oficial.
+3. **Virada**: o detalhe que muda tudo ("mas tem um problema...").
+4. **Prova**: `manchete` com o trecho da fonte grifado, `numero`, `barras` ou `linha`.
+5. **Payoff**: o que isso muda para quem está no Brasil / o que fazer (`lista`).
+6. **Chamada**: pergunta para comentar + **pedido para se inscrever** ("se
+   inscreve no canal pra não perder...") + o link (bio ou descrição).
+Varie: nunca 3 cenas seguidas do mesmo tipo; Short com pelo menos 5 tipos de
+cena diferentes e 4 fotos diferentes; longo com pelo menos 7 tipos e 8 fotos.
+
 **Pronúncia:** a voz grátis lê nomes em inglês do jeito brasileiro usando
 `data/videos/pronuncia.json` ("iPhone" vira "Aifone"). Confira as palavras
 estrangeiras do roteiro com
@@ -78,11 +112,14 @@ ou de outra coisa estraga o vídeo; nesse caso use uma cena `info`. Em
 `imagens` (1 a 3 por cena, trocam a cada ~1,5 s; não repita a mesma foto em
 cenas seguidas), nesta ordem de preferência:
 1. **Imagens oficiais de divulgação** da empresa da notícia, do próprio
-   produto: ache a página de imprensa (newsroom/press kit, ex.:
-   apple.com/newsroom, news.samsung.com/br, blog.google, news.xbox.com) com
-   WebSearch, abra com WebFetch e use as URLs das imagens assim:
-   `"url:https://...jpg|Divulgação/Apple"`. Prefira fotos do produto e de telas;
-   evite fotos com pessoas em destaque.
+   produto ou do jogo (arte e capturas oficiais: em games, use sempre imagens
+   do jogo): ache a página oficial ou de imprensa (ex.: rockstargames.com/VI,
+   apple.com/newsroom, news.samsung.com/br, blog.google, news.xbox.com,
+   blog.playstation.com) com WebSearch e liste as imagens dela com
+   `python3 scripts/midia.py imagens URL --baixar /tmp/cand` (abra as
+   `cand-*.jpg` com Read e escolha as que mostram o assunto). Use assim:
+   `"url:https://...jpg|Divulgação/Apple"`. Prefira fotos do produto, telas e
+   cenas do jogo; evite fotos com pessoas em destaque.
 2. `produto:ID` (fotos dos produtos do catálogo) e a foto do post
    (`content/imagens/...`).
 3. `busca:termos` só para coisas com nome próprio e visual inconfundível
@@ -93,7 +130,7 @@ Um Short de 40 s deve ter de 5 a 8 visuais diferentes (fotos + cenas info).
 6 a 9 cenas, 30 a 55 segundos no total (cerca de 13 palavras faladas por
 cena em média). Estrutura: gancho → 3 a 5 fatos, do mais forte para o mais
 fraco → o que isso muda para quem está no Brasil → chamada final com uma
-pergunta para comentar e "o link está na bio". Título até 70 caracteres
+pergunta para comentar, pedido para se inscrever e "o link está na bio". Título até 70 caracteres
 terminando em `#shorts`.
 
 ## Vídeo longo (`"tipo": "longo"`)
@@ -110,8 +147,11 @@ até 70 caracteres com a palavra-chave do post no começo.
 `tipo`, `slug` (`AAAA-MM-DD-` + slug curto), `post`, `titulo`, `resumo` (2 a
 3 frases para a descrição), `hashtags` (3 a 5, sem espaço), `selo` (nome
 curto da editoria ou do subnicho), `cenas` e, nos longos, `produtos` (IDs do
-catálogo citados). Salve em `data/videos/roteiros/<slug>.json` e confira com
-`python3 -c "import json;json.load(open('data/videos/roteiros/<slug>.json'))"`.
+catálogo citados). Salve em `data/videos/roteiros/<slug>.json` e rode
+`python3 scripts/video_motion.py data/videos/roteiros/<slug>.json --checar`:
+ele confere variedade de cenas, fotos, fontes, manchete e o pedido de
+inscrição. Só entregue com **OK**. Modelo completo:
+`data/videos/roteiros/amostra-gta6-v2.json`.
 
 Responda com o caminho do roteiro, a duração estimada e o título.
 

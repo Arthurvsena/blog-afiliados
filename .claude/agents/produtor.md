@@ -34,7 +34,11 @@ Com o caminho do roteiro:
    (até 70 caracteres; `#shorts` no fim dos Shorts), `resumo` com a
    palavra-chave na 1ª frase, 3 a 5 `hashtags` relevantes.
 4. **Duração**: Short entre 30 e 55 s; longo entre 3 e 6 min (~0,4 s por palavra).
-5. **Chamada**: termina mandando para o link (bio nos Shorts, descrição nos longos).
+5. **Chamada**: termina pedindo para se inscrever e mandando para o link (bio nos Shorts, descrição nos longos).
+6. **Variedade e história**: segue gancho → contexto → virada → prova → payoff →
+   chamada? Tem print de matéria (`manchete`) de fonte, fotos oficiais do
+   assunto (em games, imagens do jogo) e cenas gráficas diferentes? Rode
+   `python3 scripts/video_motion.py ROTEIRO --checar` e só aprove com **OK**.
 Corrija no próprio arquivo e responda "APROVADO" ou o que mudou.
 
 ## Modo 3: relatório semanal do canal (segunda)

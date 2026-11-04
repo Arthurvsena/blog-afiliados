@@ -1,0 +1,31 @@
+{
+  "tipo": "short",
+  "slug": "amostra-gta6-v2",
+  "post": "",
+  "titulo": "GTA 6: 210 GB no PS5 e o dia certo de baixar #shorts",
+  "resumo": "O GTA 6 pode exigir cerca de 210 GB no PS5, segundo dados da PlayStation Store, e a Rockstar confirmou o pré-carregamento antes do lançamento.",
+  "hashtags": ["GTA6", "PS5", "Xbox", "Rockstar"],
+  "selo": "Games",
+  "fontes": [
+    {"nome": "Canaltech", "url": "https://canaltech.com.br/games/rockstar-prepara-pre-carregamento-e-brindes-para-lancamento-de-gta-6/"},
+    {"nome": "Critical Hits", "url": "https://criticalhits.com.br/games/gta-6-pode-exigir-mais-de-200-gb-no-ps5/"}
+  ],
+  "cenas": [
+    {"tipo": "gancho", "fala": "Seu console tem espaço pro {GTA 6|gê tê á seis}? Talvez não.", "tela": "Tem espaço pro GTA 6?",
+     "imagens": ["url:https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?4K_5qVU-H-Ah55_aIE8bv|Divulgação/Rockstar Games"]},
+    {"tipo": "manchete", "fala": "Segundo o Critical Hits, com dados da PlayStation Store, o jogo pode pedir uns {210 GB|duzentos e dez gigas} no {PS5|pê ésse cinco}.",
+     "manchete": {"url": "https://criticalhits.com.br/games/gta-6-pode-exigir-mais-de-200-gb-no-ps5/", "trecho": "Grand Theft Auto VI pode exigir um download de aproximadamente 210 GB no PlayStation 5"}},
+    {"tipo": "barras", "fala": "Pra ter ideia: é bem mais do que um jogo grande comum. Só ele come quase um quarto do {SSD|ésse ésse dê} de um {PS5|pê ésse cinco}.",
+     "itens": [{"rotulo": "GTA 6 (estimado)", "valor": 210, "unidade": "GB"}, {"rotulo": "SSD do PS5 Slim", "valor": 1000, "unidade": "GB"}]},
+    {"tipo": "fato", "layout": "dividida", "fala": "A boa notícia: a Rockstar vai liberar o download antes do lançamento.",
+     "imagens": ["url:https://www.rockstargames.com/VI/_next/static/media/poster_full.0az_iud2g3y4j.jpg?akim=1&imdensity=1&imwidth=3840|Divulgação/Rockstar Games", "url:https://www.rockstargames.com/VI/_next/static/media/shard1.14.-n-5n.4nws.png?akim=1&imdensity=1&imwidth=3840|Divulgação/Rockstar Games"]},
+    {"tipo": "manchete", "fala": "De acordo com o Canaltech, no {PS5|pê ésse cinco} o pré-carregamento começa em 10 de novembro, à meia-noite.",
+     "manchete": {"url": "https://canaltech.com.br/games/rockstar-prepara-pre-carregamento-e-brindes-para-lancamento-de-gta-6/", "trecho": "o pré-carregamento de GTA 6 iniciará no dia 10 de novembro de 2026 para o PS5"}},
+    {"tipo": "linha", "fala": "No Xbox sai um pouco antes: dia 9, às nove da noite. Já dá pra ir liberando espaço.",
+     "itens": [{"data": "9/11, 21h", "texto": "pré-carregamento no Xbox Series"}, {"data": "10/11, 0h", "texto": "pré-carregamento no PS5"}]},
+    {"tipo": "lista", "fala": "Antes do dia, faz três coisas: apaga o que não joga, confere o espaço livre e deixa o console ligado em modo descanso.",
+     "titulo_lista": "Antes do download", "itens": ["Apague jogos parados", "Confira o espaço livre", "Deixe em modo descanso"]},
+    {"tipo": "cta", "fala": "Se inscreve no canal pra não perder a data. E aí, vai jogar no dia um?", "tela": "Vai jogar no dia 1?",
+     "imagens": ["url:https://www.rockstargames.com/VI/_next/static/media/shard3.120i1.3ll3tb9.png?akim=1&imdensity=1&imwidth=3840|Divulgação/Rockstar Games"]}
+  ]
+}

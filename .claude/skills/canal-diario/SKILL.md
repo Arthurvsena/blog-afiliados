@@ -1,6 +1,6 @@
 ---
 name: canal-diario
-description: Rotina diária do departamento de vídeo. PARTE A (GitHub Actions, workflow videos.yml) escolhe os posts, escreve os roteiros, narra com a voz do Google (Chirp 3 HD pt-BR) e monta 2 Shorts e 1 vídeo longo com motion no Remotion, publicando os arquivos num Release do GitHub. PARTE B (tarefa agendada no computador do dono) baixa os vídeos do Release e publica no canal Nexus Tech do YouTube pelo Chrome.
+description: Rotina diária do departamento de vídeo. PARTE A (GitHub Actions, workflow videos.yml) escolhe os posts, escreve os roteiros, narra com a voz Gemini (Fenrir/Orus) e monta 2 Shorts e 1 vídeo longo com motion no Remotion, publicando os arquivos num Release do GitHub. PARTE B (tarefa agendada no computador do dono) baixa os vídeos do Release e publica no canal Nexus Tech do YouTube pelo Chrome.
 ---
 > **Execução sem supervisão:** chame subagentes com `run_in_background: false`
 > e espere cada resposta. Nunca use ScheduleWakeup/Monitor e só termine depois
@@ -14,9 +14,9 @@ Antes de tudo: leia `CLAUDE.md`, `data/estrategia.md`, `data/relatorio_diario.md
 # PARTE A: produção (GitHub Actions)
 
 As ferramentas já vêm instaladas pelo workflow (ffmpeg, Remotion em `video/`,
-vozes). A voz é a de `config.yaml > video.voz` (Google Chirp 3 HD, com a
-chave no segredo `GOOGLE_TTS_KEY`); sem a chave, o script usa sozinho a voz
-grátis Kokoro.
+vozes). A voz é a Gemini (Fenrir ou Orus, revezando pelo teste A/B de
+`data/videos/vozes.json`, chave no segredo `GEMINI_API_KEY`); sem a chave, o
+script usa sozinho a voz grátis Kokoro.
 
 ## A1. Tendências e pauta
 1. Chame o `tendencias`: ele pesquisa o que está em alta hoje e atualiza
@@ -29,6 +29,8 @@ Para cada vídeo: `roteirista` (com o tipo e a pauta: a tendência inteira em JS
 **modo revisão** com o caminho do roteiro.
 
 ## A3. Montagem (um vídeo por vez)
+0. `python3 scripts/video_motion.py data/videos/roteiros/SLUG.json --checar`
+   tem que dar OK (senão devolva ao roteirista com o que faltou).
 1. `python3 scripts/video_motion.py data/videos/roteiros/SLUG.json --saida _videos --manter`
    Leva de 3 a 6 min por Short e de 10 a 25 min por vídeo longo. O resultado
    diz o arquivo, o tamanho (< 10 MB), a duração, a voz usada, a capa (longos)
@@ -37,7 +39,9 @@ Para cada vídeo: `roteirista` (com o tipo e a pauta: a tendência inteira em JS
    `video/public/run/SLUG/c*.jpg`. Só valem fotos oficiais do próprio produto
    ou da notícia. Se alguma não mostrar exatamente o que a fala diz (foto de
    app, de exemplo de câmera, pessoas, logo de outra marca), troque a cena por
-   uma cena gráfica (`numero`, `info`, `data`, `comparativo`) e monte de novo.
+   uma cena gráfica (`numero`, `info`, `data`, `comparativo`, `barras`, `lista`, `linha`) e monte de novo.
+   Confira também os prints de matéria em `video/public/run/SLUG/m*.png`: o
+   título e o trecho grifado têm que estar legíveis, sem anúncio na frente.
 3. Olhe 3 quadros do vídeo final (`ffmpeg -ss T -i ARQ -frames:v 1 /tmp/q.png`
    e Read) para conferir legenda e imagem.
 4. Se o Remotion falhar duas vezes, use a reserva sem motion:

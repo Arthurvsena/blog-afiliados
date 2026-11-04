@@ -35,7 +35,16 @@ explicador, curiosidade, alerta, tutorial) e no máximo 30% de vídeos de compra
   abertas na hora (a fonte oficial vale por duas). Rumor é dito como rumor.
 - **Ângulo Brasil**: preço aqui, quando chega aqui, funciona aqui?
 - **Payoff**: o vídeo entrega o que o gancho prometeu antes do final.
-- **Fim com conversa**: uma pergunta que dá vontade de comentar.
+- **Fim com conversa**: uma pergunta que dá vontade de comentar e o pedido
+  para se inscrever (o botão "Inscrever-se" aparece animado na tela).
+- **Conta uma história**: gancho → contexto → virada → prova → payoff →
+  chamada. Nunca uma lista de fatos com a mesma tela repetida.
+- **Mostra a prova**: print da matéria com o trecho grifado (cena `manchete`),
+  de veículos diferentes, sempre com o nome do site na tela e na descrição
+  (direito de citação, Lei 9.610/98, art. 46, III: só título e trecho curto).
+- **Imagem do assunto**: foto oficial do produto, arte e capturas oficiais do
+  jogo. Sem foto certa, cena gráfica (número, barras, linha do tempo, lista,
+  calendário, comparativo). Cada vídeo usa animações variadas.
 - Sem clickbait que o vídeo não entrega, sem sensacionalismo, sem opinião
   política, sem expor pessoas.
 

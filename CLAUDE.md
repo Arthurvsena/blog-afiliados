@@ -42,7 +42,7 @@ manual de redação (`editorial/manual.md`).
   registro dos vídeos publicados em `data/videos.json`, análise semanal em
   `data/relatorio_canal.md`. Vídeos com motion montados por
   `scripts/video_motion.py` + projeto Remotion em `video/` (reserva sem motion:
-  `scripts/video.py`), com voz grátis Piper ou narração do ElevenLabs. Licença
+  `scripts/video.py`), com voz Gemini (Fenrir/Orus em teste A/B; reserva grátis Kokoro), prints de matérias com `scripts/midia.py`. Licença
   do Remotion: grátis para pessoa física e empresas de até 3 pessoas.
 - `content/posts/*.md`: os posts (Markdown com frontmatter YAML).
 - `design/marca.yaml`: identidade visual (cores, fontes, logo, regras), mantida
