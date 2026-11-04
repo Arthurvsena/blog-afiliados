@@ -347,6 +347,16 @@ def voz_config():
         return VOZ_PADRAO
 
 
+def finalizar(origem, destino):
+    """Versão final em ALTA qualidade para o YouTube (sem limite de tamanho): H.264 CRF 18,
+    áudio AAC 192 kbps com volume padronizado. O envio é feito pelo seletor de arquivos do
+    Windows (veja a skill canal-diario), então não precisa caber em 10 MB."""
+    base.rodar(["ffmpeg", "-y", "-v", "error", "-i", str(origem), "-c:v", "libx264", "-preset", "medium", "-crf", "18",
+                "-profile:v", "high", "-pix_fmt", "yuv420p", "-g", "60", "-bf", "2",
+                "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-c:a", "aac", "-b:a", "192k", "-ar", "48000",
+                "-movflags", "+faststart", str(destino)])
+
+
 def comprimir(origem, destino, segundos, tipo="short", alvo_mb=9.2):
     """Comprime para ficar abaixo de alvo_mb (2 passadas). Também serve para vídeos já prontos."""
     kbps_a = 96 if tipo == "short" else 64
@@ -383,7 +393,7 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
                 voz_escolhida = VOZ_PADRAO
     tipo = rot.get("tipo", "short")
     fps = 30
-    largura, altura = (1080, 1920) if tipo == "short" else (1280, 720)
+    largura, altura = (1080, 1920) if tipo == "short" else (1920, 1080)
     cenas = [c for c in rot["cenas"] if c.get("fala")]
     rot["cenas"] = cenas
     with open(RAIZ / "data" / "produtos.csv", encoding="utf-8") as f:
@@ -501,7 +511,7 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
     saida.mkdir(parents=True, exist_ok=True)
     destino = saida / f"{rot['slug']}.mp4"
     total = duracao / fps
-    comprimir(bruto, destino, total, tipo)
+    finalizar(bruto, destino)
 
     capa = None
     if tipo == "longo":
@@ -555,7 +565,7 @@ def main():
     ap.add_argument("--saida")
     ap.add_argument("--manter", action="store_true", help="não apaga a pasta temporária em video/public/run/")
     ap.add_argument("--fala", action="store_true", help="só imprime o texto falado inteiro (para o ElevenLabs)")
-    ap.add_argument("--comprimir", help="só comprime um .mp4 pronto para menos de 9,5 MB (sobrescreve)")
+    ap.add_argument("--comprimir", help="(reserva antiga) comprime um .mp4 para menos de 9,5 MB; não use para publicar")
     ap.add_argument("--checar", action="store_true", help="confere se o roteiro tem variedade, fotos, fontes e pedido de inscrição")
     a = ap.parse_args()
     if a.comprimir:

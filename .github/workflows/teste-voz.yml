@@ -52,7 +52,7 @@ jobs:
           PY
           rm -f _teste/*.wav
       - name: Vídeo com a voz configurada
-        run: python3 scripts/video_motion.py "${{ github.event.inputs.roteiro }}" --saida _teste
+        run: python3 scripts/video_motion.py "${{ github.event.inputs.roteiro }}" --saida _teste --voz "gemini:$(echo ${{ github.event.inputs.vozes }} | cut -d' ' -f1)"
       - name: Publicar o teste
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

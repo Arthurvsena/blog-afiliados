@@ -13,7 +13,7 @@ const composition = await selectComposition({serveUrl, id: 'Nexus', inputProps, 
 let ultimo = -1;
 await renderMedia({
   composition, serveUrl, codec: 'h264', outputLocation: saida, inputProps, browserExecutable,
-  concurrency: Math.max(1, Math.min(8, os.cpus().length)), crf: 20, audioBitrate: '128k',
+  concurrency: Math.max(1, Math.min(8, os.cpus().length)), crf: 16, audioBitrate: '320k',
   chromiumOptions: {gl: 'swiftshader'},
   onProgress: ({progress}) => { const p = Math.floor(progress * 10); if (p !== ultimo) { ultimo = p; console.error(`render ${p * 10}%`); } },
 });
