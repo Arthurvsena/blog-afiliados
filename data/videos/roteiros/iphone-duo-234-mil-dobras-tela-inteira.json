@@ -1,0 +1,66 @@
+{
+  "tipo": "short",
+  "slug": "iphone-duo-234-mil-dobras-tela-inteira",
+  "post": "",
+  "titulo": "iPhone Duo: 234 mil dobras e a tela segue inteira #shorts",
+  "resumo": "Um teste ao vivo abriu e fechou o iPhone Duo 234.640 vezes em sete dias, segundo o Canaltech, e a tela não quebrou. Veja o que o teste mostra, o que ele não simula e o que Apple e Samsung dizem sobre o assunto.",
+  "hashtags": ["iPhoneDuo", "Apple", "dobrável", "teste"],
+  "selo": "Celulares",
+  "fontes": [
+    {"nome": "Canaltech", "url": "https://canaltech.com.br/smartphone/iphone-duo-esta-ha-7-dias-sendo-dobrado-ao-vivo-e-ainda-nao-quebrou-assista/"},
+    {"nome": "iPhone in Canada", "url": "https://www.iphoneincanada.ca/2026/10/21/iphone-duo-hinge-32000-folds-test/"}
+  ],
+  "cenas": [
+    {
+      "tipo": "gancho",
+      "fala": "Dobraram o iPhone Duo {234 mil|duzentas e trinta e quatro mil} vezes. A tela não quebrou.",
+      "tela": "234 mil dobras. Tela inteira.",
+      "imagens": ["content/imagens/iphone-duo-vale-a-pena-dobravel.jpg"]
+    },
+    {
+      "tipo": "numero",
+      "fala": "Segundo o Canaltech, são {234.640|duzentas e trinta e quatro mil, seiscentas e quarenta} aberturas e fechamentos, no sétimo dia de teste ao vivo.",
+      "destaque": "234.640",
+      "rotulo": "dobras em 7 dias",
+      "imagens": ["url:https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-display-sizes-260909_big.jpg.large_2x.jpg|Divulgação/Apple"]
+    },
+    {
+      "tipo": "fato",
+      "fala": "Segundo o Canaltech, o teste é da {CNET|cê-nét}, com uma máquina chamada Fold-a-Phone, que dobra o aparelho sem parar.",
+      "imagens": ["url:https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-colors-260909_big.jpg.large_2x.jpg|Divulgação/Apple", "content/imagens/iphone-duo-preco-brasil-entrega-2027.jpg"]
+    },
+    {
+      "tipo": "manchete",
+      "fala": "Segundo o Canaltech, a transmissão vai de segunda a sexta, mas a máquina não para.",
+      "manchete": {
+        "url": "https://canaltech.com.br/smartphone/iphone-duo-esta-ha-7-dias-sendo-dobrado-ao-vivo-e-ainda-nao-quebrou-assista/",
+        "trecho": "a Fold-a-Phone continua em funcionamento o tempo todo"
+      }
+    },
+    {
+      "tipo": "barras",
+      "fala": "A Samsung diz ter testado a dobradiça do Galaxy Z Fold 8 para {200 mil|duzentos mil} ciclos, em condições controladas. O Duo já passou disso.",
+      "itens": [
+        {"rotulo": "Teste ao vivo do Duo", "valor": 234640, "unidade": "dobras"},
+        {"rotulo": "Samsung Fold 8 (declarado)", "valor": 200000, "unidade": "ciclos"}
+      ]
+    },
+    {
+      "tipo": "lista",
+      "fala": "Mas o teste repete um só movimento. Ele não simula queda, poeira nem pressão sobre a tela.",
+      "titulo_lista": "O QUE O TESTE NÃO SIMULA",
+      "itens": ["Queda", "Poeira", "Pressão na tela"]
+    },
+    {
+      "tipo": "info",
+      "icone": "alerta",
+      "fala": "E a Apple já reconheceu um defeito de tela que afeta um pequeno número de unidades. Não disse quantas."
+    },
+    {
+      "tipo": "cta",
+      "fala": "Dobrar é só uma parte da história. Você confiaria num dobrável? Se inscreve no canal pra não perder e o link está na bio.",
+      "tela": "Você confiaria num dobrável?",
+      "imagens": ["url:https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-Case-navy-blue-260909_big.jpg.large_2x.jpg|Divulgação/Apple"]
+    }
+  ]
+}

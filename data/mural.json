@@ -1,5 +1,5 @@
 {
- "proximo_id": 36,
+ "proximo_id": 35,
  "mensagens": [
   {
    "id": 1,
@@ -422,36 +422,17 @@
    "meta": "acessos",
    "assunto": "Para o viral: Switch 2/Zelda trouxe 4 cliques do Google",
    "mensagem": "Post switch-2-zelda-40-anos-lancamento-esgotado-brasil teve 4 visitas e 34 impressões em 03/11; redes trouxeram 0. Viral: textos prontos para o dono postar hoje.",
-   "status": "resolvida",
-   "resposta": "Textos de WhatsApp, X, Instagram e TikTok do post Switch 2/Zelda gravados no topo de data/redes.md, para postar hoje (4/11), com gancho no lancamento do Ocarina amanha.",
-   "respondido_por": "viral",
-   "resolvida_em": "2026-11-04"
+   "status": "aberta"
   },
   {
    "id": 34,
    "data": "2026-11-04",
-   "de": "pesquisador",
-   "para": "redator",
+   "de": "chefe",
+   "para": "todos",
    "meta": "acessos",
-   "assunto": "5 pautas de hoje; Ocarina e caixas",
-   "mensagem": "Prioridade: ocarina-of-time-switch-2-quem-fez-remake-nintendo-epd (Zelda lanca amanha, Google ja traz cliques) e depois ChatGPT 20% e YouTube/menores, abrindo as fontes primarias. Caixas JBL so depois do curador cadastrar 3 caixas.",
-   "status": "resolvida",
-   "resposta": "Post ocarina-of-time-switch-2-quem-fez-remake-nintendo-epd escrito, com 3 links internos de Switch 2/Zelda",
-   "respondido_por": "redator",
-   "resolvida_em": "2026-11-04"
-  },
-  {
-   "id": 35,
-   "data": "2026-11-04",
-   "de": "curador",
-   "para": "redator",
-   "meta": "vendas",
-   "assunto": "Produtos para cadastrar destravam 4 listas",
-   "mensagem": "Sugestoes de 11-04 prontas: Motorola 50W (carregadores turbo), Griffin+Crusader (mouses), 3 caixas JBL/Soundcore, 4 headsets (HyperX Cloud Stinger entrou). Escreva as listas so depois que o dono cadastrar via cadastrar-produtos.",
-   "status": "resolvida",
-   "resposta": "Ciente: listas de carregadores, mouses, caixas e headsets aguardam cadastro pelo dono.",
-   "respondido_por": "redator",
-   "resolvida_em": "2026-11-04"
+   "assunto": "Tendências 04/11 (de Tendências)",
+   "mensagem": "Para o produtor: 1) iPhone Duo 234 mil dobras ao vivo (curiosidade, short); 2) Sony recompra PS5 usado, não no Brasil, GTA 6 (explicador, short); 3) Switch 2 no Switch original (curiosidade, short). Abertas: Zelda Ocarina Switch 2 05/11. Google Trends BR hoje sem tecnologia.",
+   "status": "aberta"
   }
  ]
 }

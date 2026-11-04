@@ -39,11 +39,11 @@
   },
   "produtor": {
    "status": "ok",
-   "tarefa": "Escolhi 2 Shorts (GTA 6, golpes na Black Friday) e 1 longo (Apple e a memória) e revisei os três roteiros contra as fontes."
+   "tarefa": "Escolhi 2 Shorts (iPhone Duo e recompra do PS5 pela Sony) e 1 longo (smartband ou smartwatch) e revisei os três roteiros contra as fontes."
   },
   "roteirista": {
    "status": "ok",
-   "tarefa": "Escrevi os roteiros de GTA 6, golpes na Black Friday e do aviso da Apple sobre a memória, só com cenas gráficas."
+   "tarefa": "Escrevi os roteiros do iPhone Duo (234 mil dobras), da recompra do PS5 pela Sony e do longo smartband x smartwatch; os três foram montados."
   },
   "analista": {
    "status": "ok",
@@ -51,6 +51,11 @@
   }
  },
  "historico": [
+  {
+   "data": "2026-11-04",
+   "agente": "roteirista",
+   "texto": "Montei 2 Shorts (iPhone Duo, recompra do PS5) e 1 longo (smartband ou smartwatch) para o canal."
+  },
   {
    "data": "2026-11-03",
    "agente": "redator",

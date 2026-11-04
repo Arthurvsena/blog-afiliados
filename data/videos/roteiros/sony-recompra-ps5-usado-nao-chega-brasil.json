@@ -1,0 +1,27 @@
+{
+  "tipo": "short",
+  "slug": "sony-recompra-ps5-usado-nao-chega-brasil",
+  "post": "xbox-series-fsr-4-1-gta-6-o-que-muda",
+  "titulo": "Sony quer comprar seu PS5 usado, mas não no Brasil #shorts",
+  "resumo": "A Sony começou a oferecer até US$ 400 pelo PS5 usado, depois de uma ação parecida do Xbox, perto do lançamento do GTA 6. No Brasil, nenhuma ação desse tipo foi iniciada, segundo o Canaltech.",
+  "hashtags": ["PS5", "Xbox", "GTA6", "PlayStation"],
+  "selo": "Games",
+  "fontes": [
+    {"nome": "Canaltech", "url": "https://canaltech.com.br/games/sony-copia-xbox-e-oferece-ate-us-400-para-recomprar-playstation-5-usados/"},
+    {"nome": "Notebookcheck", "url": "https://www.notebookcheck.net/Sony-offers-400-for-used-PS5-consoles-as-GTA-6-buyers-crave-lower-priced-systems.1440435.0.html"}
+  ],
+  "cenas": [
+    {"tipo": "gancho", "fala": "A Sony quer comprar seu {PS5|pê ésse cinco} de volta.", "tela": "Sony quer seu PS5 de volta",
+     "imagens": ["content/imagens/xbox-series-fsr-4-1-gta-6-o-que-muda.jpg"]},
+    {"tipo": "numero", "fala": "A oferta chega a {US$ 400|quatrocentos dólares} pelo console usado, com dois controles.", "destaque": "US$ 400", "rotulo": "oferta máxima da Sony"},
+    {"tipo": "manchete", "fala": "Segundo o Canaltech, a Sony começou a mandar mensagens para usuários do app {PlayStation|plêi stêixon}.",
+     "manchete": {"url": "https://canaltech.com.br/games/sony-copia-xbox-e-oferece-ate-us-400-para-recomprar-playstation-5-usados/", "trecho": "A companhia japonesa oferece US$ 400 nos consoles base"}},
+    {"tipo": "fato", "fala": "A Microsoft tinha feito algo parecido na semana anterior, com donos de {Xbox Series X|xbox séries xis}.",
+     "imagens": ["content/imagens/gta-6-pre-carregamento-horario-ps5-xbox-212-gb.jpg", "url:https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?4K_5qVU-H-Ah55_aIE8bv|Divulgação/Rockstar Games"]},
+    {"tipo": "data", "fala": "E tudo isso perto do lançamento do {GTA 6|gê tê á seis}, em 19 de novembro.", "destaque": "19 NOV 2026", "rotulo": "lançamento do GTA 6"},
+    {"tipo": "info", "fala": "O Canaltech aponta procura alta por consoles e falta de Xbox nas lojas. Sony e Microsoft não confirmaram o motivo.", "icone": "alerta"},
+    {"tipo": "info", "fala": "E no Brasil? Nenhuma ação desse tipo foi iniciada por aqui.", "icone": "caixa"},
+    {"tipo": "cta", "fala": "Se inscreve no canal pra acompanhar. E você, venderia seu console parado? O link do blog está na bio.", "tela": "Venderia seu console?",
+     "imagens": ["url:https://www.rockstargames.com/VI/_next/static/media/shard3.120i1.3ll3tb9.png?akim=1&imdensity=1&imwidth=3840|Divulgação/Rockstar Games"]}
+  ]
+}
