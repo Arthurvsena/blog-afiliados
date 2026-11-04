@@ -12,6 +12,8 @@ Uso:
   python3 scripts/imagem.py baixar URL --slug SLUG --credito "Autor/Wikimedia Commons" \
           --licenca "CC BY-SA 4.0" --fonte URL_DA_PAGINA [--posicao centro|topo|base]
   python3 scripts/imagem.py produto SLUG [--id ID_DO_PRODUTO]
+  python3 scripts/imagem.py logo SLUG "YouTube" [--cor "#ff0000"] [--arquivo "File:YouTube Logo 2017.svg"]
+      # reserva garantida: logo oficial da marca (Wikimedia Commons) num fundo da cor dela
   python3 scripts/imagem.py faltando        # lista posts sem imagem
 
 O arquivo vai para content/imagens/SLUG.jpg (1600x840) e o bloco `imagem:` é
@@ -23,6 +25,7 @@ import io
 import json
 import re
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -40,10 +43,18 @@ PROIBIDAS = re.compile(r"\b(nc|nd|non[- ]?commercial|no[- ]?deriv|fair use)\b", 
 
 
 def pegar(url, tipo="bin"):
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        dados = r.read()
-    return json.loads(dados) if tipo == "json" else dados
+    """Baixa com novas tentativas: o Wikimedia devolve 429 quando muitas máquinas do GitHub pedem ao mesmo tempo."""
+    import time
+    for espera in (0, 4, 12, 30, 60):
+        time.sleep(espera)
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                dados = r.read()
+            return json.loads(dados) if tipo == "json" else dados
+        except urllib.error.HTTPError as e:
+            if e.code not in (429, 503) or espera == 60:
+                raise
 
 
 def limpar(html_txt):
@@ -144,6 +155,53 @@ def foto_produto(url):
     return fundo
 
 
+# ---------------- logo oficial (reserva garantida) ----------------
+def achar_logo(marca, arquivo=None):
+    """Logo oficial da marca no Wikimedia Commons, renderizado em PNG grande."""
+    if arquivo:
+        titulos = [arquivo if arquivo.startswith("File:") else "File:" + arquivo]
+    else:
+        url = ("https://commons.wikimedia.org/w/api.php?action=query&format=json&list=search&srnamespace=6&srlimit=15"
+               f"&srsearch={urllib.parse.quote(marca + ' logo')}")
+        achados = [r["title"] for r in pegar(url, "json").get("query", {}).get("search", [])]
+        nome = re.sub(r"\W", "", marca.lower())
+        bons = [t for t in achados if nome in re.sub(r"\W", "", t.lower()) and re.search(r"logo|icon|wordmark", t, re.I)]
+        # prefere SVG, sem número de modelo ("Xiaomi 12 Logo"), sem variações ("other version") e o nome mais curto
+        modelo = lambda t: bool(re.search(r"\d", re.sub(r"\([^)]*\)|\b(19|20)\d\d\b", "", t)))
+        bons.sort(key=lambda t: (not t.lower().endswith(".svg"), modelo(t), bool(re.search(r"version|vers[aã]o|other|old|auto|icon", t, re.I)), len(t)))
+        titulos = bons[:5]
+    for t in titulos:
+        info = pegar("https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|extmetadata"
+                     f"&iiurlwidth=1200&titles={urllib.parse.quote(t)}", "json")
+        for pg in info.get("query", {}).get("pages", {}).values():
+            ii = (pg.get("imageinfo") or [{}])[0]
+            if ii.get("thumburl"):
+                meta = ii.get("extmetadata", {})
+                lic = limpar(meta.get("LicenseShortName", {}).get("value")) or "Marca registrada"
+                return {"png": pegar(ii["thumburl"]), "titulo": t, "pagina": ii.get("descriptionurl"), "licenca": lic}
+    return None
+
+
+def cartao_logo(png, cor=None):
+    logo = Image.open(io.BytesIO(png)).convert("RGBA")
+    caixa = logo.getbbox()
+    if caixa:
+        logo = logo.crop(caixa)
+    # cor de fundo: a pedida, ou um tom escuro que contrasta com o logo
+    pixels = [p for p in logo.resize((60, 60)).getdata() if p[3] > 200]
+    clara = sum(sum(p[:3]) for p in pixels) / max(1, len(pixels)) / 3 > 150 if pixels else False
+    base = cor or ("#101018" if clara else "#f4f5f8")
+    fundo = Image.new("RGB", (W, H), base)
+    brilho = Image.new("L", (W, H), 0)
+    ImageDraw.Draw(brilho).ellipse((W * 0.2, -H * 0.3, W * 0.8, H * 1.1), fill=90)
+    claro = Image.new("RGB", (W, H), "#2a2a3a" if base.lower() in ("#101018",) else "#ffffff")
+    fundo = Image.composite(claro, fundo, brilho.filter(ImageFilter.GaussianBlur(180)))
+    escala = min((H * 0.42) / logo.height, (W * 0.55) / logo.width)
+    logo = logo.resize((max(1, int(logo.width * escala)), max(1, int(logo.height * escala))), Image.LANCZOS)
+    fundo.paste(logo, ((W - logo.width) // 2, (H - logo.height) // 2), logo)
+    return fundo
+
+
 # ---------------- comandos ----------------
 def main():
     ap = argparse.ArgumentParser()
@@ -153,8 +211,20 @@ def main():
     d.add_argument("--credito", required=True); d.add_argument("--licenca", default="Divulgação")
     d.add_argument("--fonte", required=True); d.add_argument("--posicao", default="centro")
     pr = sub.add_parser("produto"); pr.add_argument("slug"); pr.add_argument("--id")
+    lg = sub.add_parser("logo"); lg.add_argument("slug"); lg.add_argument("marca")
+    lg.add_argument("--cor"); lg.add_argument("--arquivo")
     sub.add_parser("faltando")
     a = ap.parse_args()
+
+    if a.cmd == "logo":
+        achado = achar_logo(a.marca, a.arquivo)
+        if not achado:
+            sys.exit(f"Não achei o logo de {a.marca} no Commons. Tente --arquivo com o nome exato do arquivo.")
+        destino = salvar(cartao_logo(achado["png"], a.cor), a.slug)
+        gravar_frontmatter(a.slug, {"arquivo": destino.name, "credito": f"Logo: {a.marca} (Wikimedia Commons)",
+                                    "licenca": achado["licenca"], "fonte": achado["pagina"]})
+        print(f"OK: {destino.name} com {achado['titulo']} ({achado['licenca']}). Abra com Read e confira.")
+        return
 
     if a.cmd == "buscar":
         achados = []

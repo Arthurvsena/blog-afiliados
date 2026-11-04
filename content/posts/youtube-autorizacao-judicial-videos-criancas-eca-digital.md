@@ -20,6 +20,11 @@ fontes:
 tags: ["YouTube", "ECA Digital", "monetização", "crianças", "criadores de conteúdo"]
 capa_frase: "Vídeo com criança pede alvará"
 compartilhar: "YouTube avisa criadores: vídeo monetizado com criança pode exigir alvará da Vara da Infância. Canal comum não é afetado."
+imagem:
+  arquivo: youtube-autorizacao-judicial-videos-criancas-eca-digital.jpg
+  credito: 'Logo: YouTube (Wikimedia Commons)'
+  licenca: Public domain
+  fonte: https://commons.wikimedia.org/wiki/File:YouTube_Logo_2017.svg
 ---
 A exigência de YouTube autorização judicial menores chegou aos criadores no Brasil: vídeos com crianças e adolescentes precisam de aval da Justiça para continuar monetizados. Segundo o Olhar Digital, o aviso foi enviado no fim de outubro e orienta os responsáveis a procurar a Vara da Infância e da Juventude. Sem a autorização, o vídeo pode ser desmonetizado.
 

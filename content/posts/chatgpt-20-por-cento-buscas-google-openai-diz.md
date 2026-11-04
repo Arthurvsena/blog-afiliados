@@ -16,6 +16,11 @@ fontes:
 tags: ["ChatGPT", "OpenAI", "Google", "busca", "publicidade"]
 capa_frase: "20% do Google?"
 compartilhar: "A OpenAI diz que o ChatGPT já tem 20% do volume de buscas do Google. A conta é dela, sem relatório e sem dado do Brasil."
+imagem:
+  arquivo: chatgpt-20-por-cento-buscas-google-openai-diz.jpg
+  credito: 'Logo: ChatGPT (Wikimedia Commons)'
+  licenca: Public domain
+  fonte: https://commons.wikimedia.org/wiki/File:ChatGPT-Logo.svg
 ---
 
 O ChatGPT já processa um volume de buscas equivalente a 20% do volume do Google, segundo a OpenAI. Quem disse foi Adam Fry, responsável pelo produto de consumo do ChatGPT, em um evento da empresa na segunda-feira (2), de acordo com o Olhar Digital. É uma declaração da própria empresa, sem relatório público, e nada específico sobre o Brasil.

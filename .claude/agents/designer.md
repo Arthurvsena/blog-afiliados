@@ -27,19 +27,29 @@ Todo post precisa de uma **foto real** em `imagem:` no frontmatter. Use
 `scripts/imagem.py`, nesta ordem de preferência:
 1. **Guia de compras e análise de produto do catálogo**: a foto do produto em
    estúdio: `python3 scripts/imagem.py produto SLUG` (ou `--id ID`).
-2. **Notícia de lançamento**: imagem de divulgação oficial da empresa (newsroom,
-   press kit, página oficial do produto) que esteja numa das `fontes`. Baixe com
-   `python3 scripts/imagem.py baixar URL --slug SLUG --credito "Divulgação/Samsung" --licenca "Divulgação" --fonte URL_DA_PAGINA`.
-   Só imagem do próprio fabricante/publisher; nunca de outro site de notícias.
-3. **Qualquer outro caso**: foto com licença livre:
+2. **Notícia, análise ou tutorial**: imagem de divulgação oficial da empresa ou
+   do produto do assunto (newsroom, press kit, blog oficial, página do
+   produto ou do jogo), **mesmo que não esteja nas `fontes`**. Ache a página
+   oficial com WebSearch e liste as imagens dela com
+   `python3 scripts/midia.py imagens URL_OFICIAL --baixar /tmp/cand` (abra as
+   `cand-*.jpg` com Read e escolha a que mostra o assunto). Baixe com
+   `python3 scripts/imagem.py baixar URL --slug SLUG --credito "Divulgação/Empresa" --licenca "Divulgação" --fonte URL_DA_PAGINA`.
+   Só imagem do próprio fabricante/publisher; nunca foto de outro site de notícias.
+3. **Foto com licença livre** do assunto (o produto, o aparelho, a loja):
    `python3 scripts/imagem.py buscar "termos em inglês"` e depois `baixar` com
    o crédito "Autor/Wikimedia Commons" e a licença exata (CC0, CC BY ou CC BY-SA).
+4. **Reserva garantida: o logo oficial** da empresa ou do app de que a notícia
+   fala (ChatGPT, YouTube, WhatsApp, Xiaomi, PlayStation...), num fundo da
+   cor da marca: `python3 scripts/imagem.py logo SLUG "YouTube" --cor "#hex"`
+   (se pegar o logo errado, passe `--arquivo "File:Nome exato.svg"` do Commons).
+   Abra a imagem com Read e confira se é o logo atual certo.
 Regras: escolha a foto que mostra o assunto de verdade (o produto, o console, o
 app na tela); prefira fotos limpas, sem marca d'água e sem texto grande; nunca
 use foto de pessoa reconhecível, imagem gerada por IA, print de outro site ou
-imagem sem licença clara. Se nada servir, deixe sem foto (o site usa a arte da
-editoria) e avise no mural. Use `--posicao topo|base` se o recorte cortar o
-assunto.
+imagem sem licença clara. **Nenhum post fica sem imagem**: notícia sem foto
+parece feita por robô. O `verificar.py` dá ERRO para post sem imagem. Use
+`--posicao topo|base` se o recorte cortar o assunto. No fim da rotina, rode
+`python3 scripts/imagem.py faltando` e resolva todos.
 
 ## Modo 1: revisão visual de um post (obrigatório para todo post)
 Você recebe o caminho de um post já revisado pelo SEO. Seu trabalho é a

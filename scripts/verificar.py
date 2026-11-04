@@ -153,7 +153,10 @@ def verificar(caminho: Path, cfg, catalogo, slugs_vistos):
         avisos.append("seo: sem palavras_secundarias no frontmatter")
     img = meta.get("imagem") or {}
     if not img.get("arquivo"):
-        avisos.append("imagem: post sem foto real (o designer usa scripts/imagem.py)")
+        # depois do designer (capa_frase preenchida), post sem foto é ERRO: nenhum post vai ao ar sem imagem
+        (erros if meta.get("capa_frase") else avisos).append(
+            "imagem: post sem foto (designer: foto oficial, depois licença livre, e no último caso "
+            "`python3 scripts/imagem.py logo SLUG \"Marca\"`)")
     elif not (RAIZ / "content" / "imagens" / str(img["arquivo"])).is_file():
         erros.append(f"imagem '{img['arquivo']}' não existe em content/imagens/")
     elif not img.get("credito"):

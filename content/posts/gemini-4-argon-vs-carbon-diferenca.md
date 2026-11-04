@@ -33,6 +33,11 @@ faq:
     resposta: "Não há data. O Google diz que pretende ampliar o acesso assim que possível, depois de coletar feedback e ajustar as salvaguardas."
   - pergunta: "O Gemini 4 Argon é grátis? Dá para usar o Gemini Google de graça?"
     resposta: "No app, o acesso citado pelo Google é para assinantes do AI Pro e do AI Ultra. A página oficial não fala em plano gratuito. Na API, o uso é cobrado por token."
+imagem:
+  arquivo: gemini-4-argon-vs-carbon-diferenca.jpg
+  credito: Divulgação/Google
+  licenca: Divulgação
+  fonte: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/
 ---
 Dos dois modelos Gemini 4 do Google, só o Argon está ao seu alcance hoje. O Carbon é mais forte no papel, segundo o Google, mas só defensores de cibersegurança aprovados têm acesso, então a escolha nem existe para a maioria. Vale lembrar: tudo aqui vem de fichas e números divulgados pelo Google e por veículos, não de uso próprio.
 

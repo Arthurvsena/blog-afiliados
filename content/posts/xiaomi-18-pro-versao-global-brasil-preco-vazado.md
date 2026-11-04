@@ -18,6 +18,11 @@ fontes:
 tags: ["Xiaomi", "Xiaomi 18 Pro", "Xiaomi 18 Pro Max", "Snapdragon", "lançamento global"]
 capa_frase: "Global sim, Brasil ainda não"
 compartilhar: "Xiaomi 18 Pro global está confirmado, mas o Brasil não. Preço em euro e bateria menor são só vazamento."
+imagem:
+  arquivo: xiaomi-18-pro-versao-global-brasil-preco-vazado.jpg
+  credito: 'Logo: Xiaomi (Wikimedia Commons)'
+  licenca: Public domain
+  fonte: https://commons.wikimedia.org/wiki/File:Xiaomi_logo_(2021-).svg
 ---
 
 O Xiaomi 18 Pro vai ganhar versão global ainda em 2026, e essa é a única parte confirmada pela Xiaomi. Data, preço europeu e bateria da versão internacional são vazamento. E o Brasil continua sem nenhuma confirmação de venda oficial.
