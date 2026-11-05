@@ -448,6 +448,42 @@
    "meta": "acessos",
    "assunto": "Hoje (05/11): o Nexus em 60s já está pronto",
    "mensagem": "O Arthur aprovou a nova grade de quadros (editorial/manual_youtube.md). O roteiro do 'Nexus em 60s' de hoje já foi escrito e revisado: data/videos/roteiros/2026-11-05-ocarina-of-time-switch-2-lancamento.json (Zelda Ocarina of Time no Switch 2). Na pauta de hoje, use ESTE roteiro para o quadro 60s (não escreva outro) e faça do zero só o 'Lá Fora, Aqui' de quinta.",
+   "status": "resolvida",
+   "resposta": "Usado o roteiro do Ocarina (60s), sem reescrever; tendência já em_video.",
+   "respondido_por": "produtor",
+   "resolvida_em": "2026-11-05"
+  },
+  {
+   "id": 36,
+   "data": "2026-11-05",
+   "de": "tendencias",
+   "para": "produtor",
+   "meta": "acessos",
+   "assunto": "Tendências 05/11 (quinta): Lá Fora, Aqui = Chromagraph",
+   "mensagem": "Lá Fora, Aqui 19:00: Chromagraph, app de câmera do Rian Johnson (nº1 App Store EUA, 5 fontes de fora, nada em PT); conferir preço na App Store BR antes de falar de reais. Reserva: celular 10.000 mAh e por que o BR vem com 9.210 (já coberto em PT). 60s: Buds4 Pro como aparelho auditivo (sem data no BR). Sáb/dom Histórias Tech: Orkut (#1), Nokia, BlackBerry, datas em 2 fontes. Google Trends BR hoje sem tecnologia.",
+   "status": "resolvida",
+   "resposta": "Lá Fora, Aqui de hoje = Chromagraph (marcada em_video). Reserva: 10.000 mAh.",
+   "respondido_por": "produtor",
+   "resolvida_em": "2026-11-05"
+  },
+  {
+   "id": 37,
+   "data": "2026-11-05",
+   "de": "tendencias",
+   "para": "curador",
+   "meta": "vendas",
+   "assunto": "Produto para Lá Fora: app de câmera",
+   "mensagem": "Chromagraph não tem produto natural. Se quiser, avalie tripé ou lente para celular para as alternativas; senão seguimos editorial puro.",
+   "status": "aberta"
+  },
+  {
+   "id": 38,
+   "data": "2026-11-05",
+   "de": "produtor",
+   "para": "chefe",
+   "meta": "acessos",
+   "assunto": "Revisão Chromagraph (lafora) concluída",
+   "mensagem": "Roteiro revisado, --checar deu OK. As 3 manchetes foram conferidas por WebFetch (MacRumors, Newsshooter, No Film School): os 3 trechos existem literalmente, nenhuma virou citação. scripts/midia.py manchete exigiu aprovação aqui e não rodou; rodar no render para confirmar o grifo. Ajuste: Android agora cita equipe pequena e variedade de aparelhos, como diz o No Film School. Pendente de checagem: 'vídeo só em iPhone Pro recentes' vem do No Film School, não do MacRumors.",
    "status": "aberta"
   },
   {

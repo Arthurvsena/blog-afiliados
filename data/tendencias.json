@@ -1,6 +1,135 @@
 {
-  "atualizado": "2026-11-04",
+  "atualizado": "2026-11-05",
   "tendencias": [
+    {
+      "data": "2026-11-05",
+      "assunto": "Chromagraph: o app de câmera de Rian Johnson que lidera a App Store nos EUA",
+      "por_que_em_alta": "MacRumors (30/10): nº 1 em Foto e Vídeo na App Store dos EUA, anúncio no X com 6 milhões de views em 1 dia; também Gizmodo, No Film School, Newsshooter e GSMArena (05/11). Não achei cobertura em português.",
+      "evidencias": [
+        "https://macrumors.com/2026/10/30/rian-johnson-iphone-camera-app/",
+        "https://gizmodo.com/the-last-jedi-director-launches-a-new-camera-app-for-iphone-because-hes-a-good-guy-2000832061",
+        "https://nofilmschool.com/rian-johnson-steve-yedlin-app",
+        "https://www.newsshooter.com/2026/10/28/chromagraph-camera-ios-app-by-steve-yedlin-asc/"
+      ],
+      "angulo": "Gancho: o diretor de Knives Out lançou um app que troca o processamento da câmera do iPhone pelo look dos filmes dele. Chega aqui? Por quanto? Pago único (US$ 12,99 nos EUA, EUR 14,99 na Europa; conferir preço na App Store BR e converter como estimativa). Mostrar o que muda (RAW, cor, grão, halation), para quem serve e o que não faz (só foto, sem vídeo ainda). Alternativa: o app de câmera nativo; sem produto do catálogo.",
+      "formato": "explicador",
+      "tipo": "longo",
+      "quadro": "lafora",
+      "origem": "gringo",
+      "criterios_gringo": "1 sim (5+ fontes de fora); 2 sim (App Store global, iPhone é forte no BR); 3 sim (nada em PT achado); 4 parcial (posts de iPhone)",
+      "verificar_antes": "Preço e disponibilidade na App Store do Brasil e o nome exato do app no listing",
+      "fontes": [
+        {"nome": "MacRumors", "url": "https://macrumors.com/2026/10/30/rian-johnson-iphone-camera-app/"},
+        {"nome": "Gizmodo", "url": "https://gizmodo.com/the-last-jedi-director-launches-a-new-camera-app-for-iphone-because-hes-a-good-guy-2000832061"},
+        {"nome": "No Film School", "url": "https://nofilmschool.com/rian-johnson-steve-yedlin-app"},
+        {"nome": "Newsshooter", "url": "https://www.newsshooter.com/2026/10/28/chromagraph-camera-ios-app-by-steve-yedlin-asc/"}
+      ],
+      "imagens_oficiais": ["Capturas oficiais na página do app na App Store (crédito Divulgação/Chromagraph); abrir com scripts/midia.py"],
+      "post_relacionado": "iphone-duo-vale-a-pena-dobravel",
+      "produto": {"id": "", "como_encaixa": "Sem produto do catálogo; editorial. Curador pode avaliar tripé/lente para celular."},
+      "nota": 4,
+      "status": "em_video"
+    },
+    {
+      "data": "2026-11-05",
+      "assunto": "Celular com 10.000 mAh ou mais: a corrida da bateria chegou ao Brasil?",
+      "por_que_em_alta": "Notebookcheck/GSMArena/Gizmochina (out-nov): Redmi Turbo 6 Max vaza com mais de 10.000 mAh e tela de 7 pol. (China, janeiro, não confirmado); Honor Power 2 já tem 10.080 mAh; Redmi Note 17 Pro Max global tem 10.000 mAh, mas a versão brasileira traz 9.210 mAh.",
+      "evidencias": [
+        "https://www.notebookcheck.net/Xiaomi-Redmi-Turbo-6-Max-leak-points-to-a-10-000mAh-plus-battery-and-7-inch-2K-display.1419050.0.html",
+        "https://canaltech.com.br/smartphone/bateria-de-10000-mah-6-celulares-que-desafiam-a-tomada-em-2026/"
+      ],
+      "angulo": "Gancho: lá fora já tem celular de 10.000 mAh; aqui a versão do Redmi veio com 9.210. Explicar a diferença (conferir motivo oficial, senão tratar como dúvida) e o que usar enquanto isso: power bank.",
+      "formato": "explicador",
+      "tipo": "longo",
+      "quadro": "lafora",
+      "origem": "gringo",
+      "criterios_gringo": "1 sim; 2 sim; 3 fraco (já coberto em PT); 4 sim. Reserva se a do Chromagraph cair.",
+      "fontes": [
+        {"nome": "Notebookcheck (Redmi Turbo 6 Max, 08/10)", "url": "https://www.notebookcheck.net/Xiaomi-Redmi-Turbo-6-Max-leak-points-to-a-10-000mAh-plus-battery-and-7-inch-2K-display.1419050.0.html"},
+        {"nome": "Canaltech (25/05)", "url": "https://canaltech.com.br/smartphone/bateria-de-10000-mah-6-celulares-que-desafiam-a-tomada-em-2026/"},
+        {"nome": "Xataka Brasil (Redmi Note 17 Pro Max, 9.210 mAh)", "url": "https://www.xataka.com.br/telefonia/xiaomi-lanca-redmi-note-17-pro-max-5g-no-brasil-com-a-maior-bateria-ja-vista-na-linha-9-210-mah"}
+      ],
+      "imagens_oficiais": [],
+      "post_relacionado": "como-escolher-power-bank",
+      "produto": {"id": "anker-a110e-20000-22w", "como_encaixa": "Alternativa que já dá pra comprar: power bank de 20.000 mAh (confirmar ativo=sim no CSV)"},
+      "nota": 3,
+      "status": "nova"
+    },
+    {
+      "data": "2026-11-05",
+      "assunto": "Samsung: Galaxy Buds4 Pro e Buds3 Pro vão funcionar como aparelho auditivo",
+      "por_que_em_alta": "GSMArena (05/11): recurso chega aos fones em breve; FDA liberou em 11/08 (9to5Google, Android Authority); Canaltech e Samsung Brasil já cobriram a aprovação. Sem data para o Brasil.",
+      "evidencias": [
+        "https://9to5google.com/2026/08/11/samsung-galaxy-buds-hearing-aid-feature/",
+        "https://canaltech.com.br/fone-de-ouvido/samsung-vai-transformar-galaxy-buds-em-aparelho-auditivo-eua-ja-aprovou/"
+      ],
+      "angulo": "Gancho: o fone da Samsung vai virar aparelho auditivo, nos EUA. Aqui? Sem data confirmada. Explicar o que é (adultos com perda leve a moderada, exige Galaxy com One UI 8+) e o que não substitui.",
+      "formato": "explicador",
+      "tipo": "short",
+      "quadro": "60s",
+      "verificar_antes": "Preço do Buds4 Pro no Brasil veio de resultado de busca; conferir no Samsung Brasil ou omitir.",
+      "fontes": [
+        {"nome": "9to5Google", "url": "https://9to5google.com/2026/08/11/samsung-galaxy-buds-hearing-aid-feature/"},
+        {"nome": "Canaltech", "url": "https://canaltech.com.br/fone-de-ouvido/samsung-vai-transformar-galaxy-buds-em-aparelho-auditivo-eua-ja-aprovou/"},
+        {"nome": "Samsung Newsroom Brasil", "url": "https://news.samsung.com/br/recurso-hearing-aid-do-galaxy-buds-da-samsung-e-aprovado-pela-fda"}
+      ],
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {"id": "", "como_encaixa": "Editorial puro."},
+      "nota": 3,
+      "status": "nova"
+    },
+    {
+      "data": "2026-11-05",
+      "assunto": "Histórias Tech #1: Orkut, o rei brasileiro que o Facebook engoliu",
+      "por_que_em_alta": "Pauta evergreen para sábado 07/11 (Histórias Tech). Nostalgia de alto engajamento no Brasil, sem concorrência de notícia do dia.",
+      "evidencias": [],
+      "angulo": "Gancho: em 2008 o Orkut era brasileiro por maioria absoluta e mesmo assim perdeu. Auge, virada (Facebook em português, celular) e lição. Conferir todas as datas e números em 2 fontes antes do roteiro.",
+      "formato": "curiosidade",
+      "tipo": "short",
+      "quadro": "historias",
+      "numero": 1,
+      "fontes": [],
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {"id": "", "como_encaixa": "Sem produto."},
+      "nota": 4,
+      "status": "nova"
+    },
+    {
+      "data": "2026-11-05",
+      "assunto": "Histórias Tech: Nokia, de rainha dos celulares à venda da divisão em 2013",
+      "por_que_em_alta": "Pauta evergreen para domingo 08/11. Tema clássico de boa retenção.",
+      "evidencias": [],
+      "angulo": "Gancho: a Nokia liderou o mercado de celulares e deixou o iPhone passar. Auge, virada (Symbian vs. iPhone/Android), venda à Microsoft e lição. Números em 2 fontes.",
+      "formato": "curiosidade",
+      "tipo": "short",
+      "quadro": "historias",
+      "numero": 2,
+      "fontes": [],
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {"id": "", "como_encaixa": "Sem produto."},
+      "nota": 3,
+      "status": "nova"
+    },
+    {
+      "data": "2026-11-05",
+      "assunto": "Histórias Tech: BlackBerry, o celular dos executivos que perdeu o teclado",
+      "por_que_em_alta": "Pauta evergreen reserva; combina com a semana do iPhone Duo (aposta em novo formato).",
+      "evidencias": [],
+      "angulo": "Gancho: já foi o celular de presidentes, hoje nem fabrica mais. Auge, virada (tela sensível ao toque) e lição. Datas e números em 2 fontes.",
+      "formato": "curiosidade",
+      "tipo": "short",
+      "quadro": "historias",
+      "numero": 3,
+      "fontes": [],
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {"id": "", "como_encaixa": "Sem produto."},
+      "nota": 3,
+      "status": "nova"
+    },
     {
       "data": "2026-11-04",
       "assunto": "iPhone Duo: 234 mil dobras ao vivo e a tela segue inteira",
