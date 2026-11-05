@@ -267,6 +267,111 @@
         "Search Console: dia 03/11 já disponível (5 cliques, 85 impressões, CTR 5,9%, posição média 10); só 7 consultas visíveis, todas com 0 clique e 1 impressão (as demais são anônimas)",
         "Search Console: 13 páginas com impressões; também /posts/fone-bluetooth-ou-com-fio/ (5), /posts/como-escolher-power-bank/ (3), /posts/macbook-pro-oled-touch-preco-brasil/ (3)"
       ]
+    },
+    {
+      "dia": "2026-11-04",
+      "visitas": 1,
+      "visualizacoes": 15,
+      "celular_pct": 0,
+      "youtube": 0,
+      "paginas": [
+        {
+          "url": "/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/",
+          "visitas": 1
+        }
+      ],
+      "paginas_vistas": [
+        {
+          "url": "/",
+          "visualizacoes": 6
+        },
+        {
+          "url": "/posts/smartband-ou-smartwatch-qual-escolher/",
+          "visualizacoes": 2
+        },
+        {
+          "url": "/posts/xbox-series-fsr-4-1-gta-6-o-que-muda/",
+          "visualizacoes": 2
+        },
+        {
+          "url": "/guia-de-compras/",
+          "visualizacoes": 2
+        },
+        {
+          "url": "/posts/youtube-autorizacao-judicial-videos-criancas-eca-digital/",
+          "visualizacoes": 2
+        }
+      ],
+      "origens": [
+        {
+          "origem": "google",
+          "visitas": 1
+        }
+      ],
+      "google": {
+        "dia": "2026-11-03",
+        "cliques": 5,
+        "impressoes": 88,
+        "consultas": [
+          {
+            "termo": "carregador portátil usb-c ugreen lcd 20w 10000mah pb311 preto",
+            "cliques": 0,
+            "impressoes": 1
+          },
+          {
+            "termo": "ugreen pb311",
+            "cliques": 0,
+            "impressoes": 1
+          },
+          {
+            "termo": "macbook pro oled price",
+            "cliques": 0,
+            "impressoes": 1
+          },
+          {
+            "termo": "top power bank 10000mah",
+            "cliques": 0,
+            "impressoes": 1
+          },
+          {
+            "termo": "melhores power bank custo beneficio",
+            "cliques": 0,
+            "impressoes": 1
+          }
+        ],
+        "paginas": [
+          {
+            "url": "/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/",
+            "cliques": 4,
+            "impressoes": 35
+          },
+          {
+            "url": "/posts/melhores-power-banks/",
+            "cliques": 1,
+            "impressoes": 10
+          },
+          {
+            "url": "/posts/melhores-power-banks-20000mah/",
+            "cliques": 0,
+            "impressoes": 11
+          },
+          {
+            "url": "/posts/alexa-plus-brasil-acesso-gratis-prorrogado-fevereiro-2027/",
+            "cliques": 0,
+            "impressoes": 10
+          },
+          {
+            "url": "/posts/review-power-bank-ugreen-pb311-10000/",
+            "cliques": 0,
+            "impressoes": 6
+          }
+        ]
+      },
+      "faltou": [
+        "Cloudflare: dia fechado 04/11 (00h a 24h BRT). Só 1 visita (Google, desktop, post Switch 2/Zelda); as 15 visualizações são todas Windows/Chrome/desktop e 14 vieram de navegação interna, provável navegação do dono",
+        "Cloudflare: 'paginas' = página de entrada da visita; 'paginas_vistas' = top 5 caminhos por visualização (painel mostra só 5)",
+        "Search Console: 04/11 ainda não disponível; dia mais recente é 03/11 (revisado para 5 cliques e 88 impressões, CTR 5,7%, posição 9,9). Período 31/10 a 03/11: 6 cliques, 160 impressões; consultas no período com mais impressões: 'alexa 2027' (5) e 'zelda switch 2 brasil' (2)"
+      ]
     }
   ]
 }

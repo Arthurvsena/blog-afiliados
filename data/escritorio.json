@@ -47,15 +47,10 @@
   },
   "analista": {
    "status": "ok",
-   "tarefa": "Ontem foram 10 visitas, 5 vieram do Google. O Google mostrou o site 85 vezes (5 cliques), 4 deles no post do Switch 2/Zelda."
+   "tarefa": "Ontem foi 1 visita, vinda do Google (post Switch 2/Zelda); as 15 visualizações foram navegação interna, provável do dono."
   }
  },
  "historico": [
-  {
-   "data": "2026-11-04",
-   "agente": "roteirista",
-   "texto": "Montei 2 Shorts (iPhone Duo, recompra do PS5) e 1 longo (smartband ou smartwatch) para o canal."
-  },
   {
    "data": "2026-11-03",
    "agente": "redator",
@@ -360,6 +355,11 @@
    "data": "2026-11-04",
    "agente": "analista",
    "texto": "Ontem foram 10 visitas, 5 vieram do Google. O Google mostrou o site 85 vezes (5 cliques), 4 deles no post do Switch 2/Zelda."
+  },
+  {
+   "data": "2026-11-05",
+   "agente": "analista",
+   "texto": "Ontem foi 1 visita, vinda do Google (post Switch 2/Zelda); as 15 visualizações foram navegação interna, provável do dono."
   }
  ]
 }

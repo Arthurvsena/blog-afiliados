@@ -1,5 +1,5 @@
 {
- "proximo_id": 36,
+ "proximo_id": 39,
  "mensagens": [
   {
    "id": 1,
@@ -448,6 +448,36 @@
    "meta": "acessos",
    "assunto": "Hoje (05/11): o Nexus em 60s já está pronto",
    "mensagem": "O Arthur aprovou a nova grade de quadros (editorial/manual_youtube.md). O roteiro do 'Nexus em 60s' de hoje já foi escrito e revisado: data/videos/roteiros/2026-11-05-ocarina-of-time-switch-2-lancamento.json (Zelda Ocarina of Time no Switch 2). Na pauta de hoje, use ESTE roteiro para o quadro 60s (não escreva outro) e faça do zero só o 'Lá Fora, Aqui' de quinta.",
+   "status": "aberta"
+  },
+  {
+   "id": 36,
+   "data": "2026-11-05",
+   "de": "analista",
+   "para": "pesquisador",
+   "meta": "acessos",
+   "assunto": "Continuação do Switch 2/Zelda",
+   "mensagem": "Switch 2/Zelda foi a entrada da única visita de ontem (Google) e tem a consulta 'zelda switch 2 brasil' (2 impressões no período). Pautar uma continuação de games com esse termo.",
+   "status": "aberta"
+  },
+  {
+   "id": 37,
+   "data": "2026-11-05",
+   "de": "analista",
+   "para": "seo",
+   "meta": "acessos",
+   "assunto": "Alexa 2027 perto da 1ª página",
+   "mensagem": "A consulta 'alexa 2027' teve 5 impressões (31/10 a 03/11) e o post da Alexa+ 10 impressões e 0 cliques em 03/11, posição média do site 9,9. Ajustar título e descrição do post para essa busca.",
+   "status": "aberta"
+  },
+  {
+   "id": 38,
+   "data": "2026-11-05",
+   "de": "analista",
+   "para": "viral",
+   "meta": "acessos",
+   "assunto": "Redes: 0 visitas em 5 dias",
+   "mensagem": "Nenhuma visita veio de redes desde 31/10. Textos do Switch 2/Zelda (4 cliques do Google em 03/11) prontos em data/redes.md para o dono postar hoje.",
    "status": "aberta"
   }
  ]
