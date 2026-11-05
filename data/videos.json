@@ -36,6 +36,34 @@
       "segundos": 38.6,
       "publica_em": "2026-11-04 21:00",
       "status": "programado"
+    },
+    {
+      "data": "2026-11-05",
+      "tipo": "short",
+      "quadro": "60s",
+      "numero": null,
+      "slug": "2026-11-05-ocarina-of-time-switch-2-lancamento",
+      "post": "zelda-ocarina-of-time-switch-2-lancamento-5-novembro-preco",
+      "titulo": "Ocarina of Time no Switch 2 saiu: R$ 329,90 #shorts",
+      "url": "https://youtube.com/shorts/kU_pK3umjWA",
+      "voz": "gemini:Fenrir",
+      "segundos": 45.5,
+      "publica_em": "2026-11-05 12:00",
+      "status": "programado"
+    },
+    {
+      "data": "2026-11-05",
+      "tipo": "longo",
+      "quadro": "lafora",
+      "numero": null,
+      "slug": "2026-11-05-chromagraph-camera-app-rian-johnson-iphone",
+      "post": "iphone-duo-vale-a-pena-dobravel",
+      "titulo": "Chromagraph Camera já está no Brasil: vale R$ 34,90?",
+      "url": "",
+      "voz": "",
+      "segundos": 0,
+      "publica_em": "",
+      "status": "não publicado: o .mp4 do Release veio incompleto (sem o índice moov, ffmpeg não abre) e faltaram .json, .txt e capas; precisa montar de novo"
     }
   ]
 }
