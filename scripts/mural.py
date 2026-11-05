@@ -17,7 +17,7 @@ import sys
 from pathlib import Path
 
 ARQ = Path(__file__).resolve().parent.parent / "data" / "mural.json"
-AGENTES = {"chefe", "pesquisador", "curador", "redator", "seo", "vendas", "designer", "atualizador", "analista", "todos"}
+AGENTES = {"chefe", "pesquisador", "curador", "redator", "seo", "vendas", "designer", "atualizador", "analista", "viral", "tendencias", "produtor", "roteirista", "todos"}
 METAS = {"vendas", "cliques", "acessos", "engajamento"}
 
 

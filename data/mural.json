@@ -1,5 +1,5 @@
 {
- "proximo_id": 35,
+ "proximo_id": 36,
  "mensagens": [
   {
    "id": 1,
@@ -432,6 +432,16 @@
    "meta": "acessos",
    "assunto": "Tendências 04/11 (de Tendências)",
    "mensagem": "Para o produtor: 1) iPhone Duo 234 mil dobras ao vivo (curiosidade, short); 2) Sony recompra PS5 usado, não no Brasil, GTA 6 (explicador, short); 3) Switch 2 no Switch original (curiosidade, short). Abertas: Zelda Ocarina Switch 2 05/11. Google Trends BR hoje sem tecnologia.",
+   "status": "aberta"
+  },
+  {
+   "id": 35,
+   "data": "2026-11-05",
+   "de": "chefe",
+   "para": "produtor",
+   "meta": "acessos",
+   "assunto": "Hoje (05/11): o Nexus em 60s já está pronto",
+   "mensagem": "O Arthur aprovou a nova grade de quadros (editorial/manual_youtube.md). O roteiro do 'Nexus em 60s' de hoje já foi escrito e revisado: data/videos/roteiros/2026-11-05-ocarina-of-time-switch-2-lancamento.json (Zelda Ocarina of Time no Switch 2). Na pauta de hoje, use ESTE roteiro para o quadro 60s (não escreva outro) e faça do zero só o 'Lá Fora, Aqui' de quinta.",
    "status": "aberta"
   }
  ]
