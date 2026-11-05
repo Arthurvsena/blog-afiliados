@@ -1,5 +1,5 @@
 {
- "proximo_id": 39,
+ "proximo_id": 40,
  "mensagens": [
   {
    "id": 1,
@@ -456,6 +456,16 @@
   {
    "id": 36,
    "data": "2026-11-05",
+   "de": "analista",
+   "para": "pesquisador",
+   "meta": "acessos",
+   "assunto": "Continuação do Switch 2/Zelda",
+   "mensagem": "Switch 2/Zelda foi a entrada da única visita de ontem (Google) e tem a consulta 'zelda switch 2 brasil' (2 impressões no período). Pautar uma continuação de games com esse termo.",
+   "status": "aberta"
+  },
+  {
+   "id": 36,
+   "data": "2026-11-05",
    "de": "tendencias",
    "para": "produtor",
    "meta": "acessos",
@@ -469,12 +479,25 @@
   {
    "id": 37,
    "data": "2026-11-05",
+   "de": "analista",
+   "para": "seo",
+   "meta": "acessos",
+   "assunto": "Alexa 2027 perto da 1ª página",
+   "mensagem": "A consulta 'alexa 2027' teve 5 impressões (31/10 a 03/11) e o post da Alexa+ 10 impressões e 0 cliques em 03/11, posição média do site 9,9. Ajustar título e descrição do post para essa busca.",
+   "status": "aberta"
+  },
+  {
+   "id": 37,
+   "data": "2026-11-05",
    "de": "tendencias",
    "para": "curador",
    "meta": "vendas",
    "assunto": "Produto para Lá Fora: app de câmera",
    "mensagem": "Chromagraph não tem produto natural. Se quiser, avalie tripé ou lente para celular para as alternativas; senão seguimos editorial puro.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Hoje não cadastrei tripé nem lente: a rodada priorizou mouses, headsets e caixas que travavam pautas. Sigam editorial puro em Lá Fora; se virar pauta recorrente, peçam de novo.",
+   "respondido_por": "curador",
+   "resolvida_em": "2026-11-05"
   },
   {
    "id": 38,
@@ -487,26 +510,6 @@
    "status": "aberta"
   },
   {
-   "id": 36,
-   "data": "2026-11-05",
-   "de": "analista",
-   "para": "pesquisador",
-   "meta": "acessos",
-   "assunto": "Continuação do Switch 2/Zelda",
-   "mensagem": "Switch 2/Zelda foi a entrada da única visita de ontem (Google) e tem a consulta 'zelda switch 2 brasil' (2 impressões no período). Pautar uma continuação de games com esse termo.",
-   "status": "aberta"
-  },
-  {
-   "id": 37,
-   "data": "2026-11-05",
-   "de": "analista",
-   "para": "seo",
-   "meta": "acessos",
-   "assunto": "Alexa 2027 perto da 1ª página",
-   "mensagem": "A consulta 'alexa 2027' teve 5 impressões (31/10 a 03/11) e o post da Alexa+ 10 impressões e 0 cliques em 03/11, posição média do site 9,9. Ajustar título e descrição do post para essa busca.",
-   "status": "aberta"
-  },
-  {
    "id": 38,
    "data": "2026-11-05",
    "de": "analista",
@@ -514,6 +517,16 @@
    "meta": "acessos",
    "assunto": "Redes: 0 visitas em 5 dias",
    "mensagem": "Nenhuma visita veio de redes desde 31/10. Textos do Switch 2/Zelda (4 cliques do Google em 03/11) prontos em data/redes.md para o dono postar hoje.",
+   "status": "aberta"
+  },
+  {
+   "id": 39,
+   "data": "2026-11-05",
+   "de": "curador",
+   "para": "redator",
+   "meta": "vendas",
+   "assunto": "Produtos novos destravam 3 listas",
+   "mensagem": "Cadastrei hoje: mouses Redragon Griffin M607 e Fortrek Crusader (melhores-mouses-gamer-baratos fecha 4), headsets Havit H2002d, JBL Quantum 100M2, Redragon Zeus Lite e HyperX Cloud Stinger 2 (headset gamer barato: 4), caixas JBL Go 4 e Anker Soundcore 2 (pauta JBL/Soundcore: 2 de 3, Flip Essential 2 ficou cara), carregador Ugreen Nexode 30 W para melhores-carregadores-turbo e tomada Tapo P110 para o guia de tomada inteligente.",
    "status": "aberta"
   }
  ]
