@@ -48,7 +48,7 @@ Pense num estágio dentro da casa: o remake serve de escola para quem vai fazer 
 
 ## O que ainda não se sabe
 
-A Nintendo não detalhou, no trecho que li, o que muda na jogabilidade em relação ao original. Também não vi nota de crítica que eu tenha aberto, então não vou citar nenhuma. As análises devem sair por volta de hoje e amanhã.
+A Nintendo não detalhou, no trecho que li, o que muda na jogabilidade em relação ao original. Também não vi nota de crítica que eu tenha aberto, então não vou citar nenhuma. As notas já saíram: veja o que a crítica disse na [cobertura das reviews e do Metacritic](/posts/ocarina-of-time-switch-2-reviews-nota-metacritic-96/).
 
 Para preço, mídia física e português, o que se sabe está em nossa [cobertura do lançamento e do preço no Brasil](/posts/zelda-ocarina-of-time-switch-2-lancamento-5-novembro-preco/). Quem ainda não tem o console encontra ficha e opiniões de compradores na [análise do Nintendo Switch 2](/posts/analise-nintendo-switch-2-vale-a-pena-especificacoes/). E o estoque da edição Zelda 40 anos está no [post sobre o esgotamento](/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/).
 

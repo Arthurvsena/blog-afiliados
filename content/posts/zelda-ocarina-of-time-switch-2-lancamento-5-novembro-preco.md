@@ -62,6 +62,8 @@ A Collector's Edition não foi anunciada oficialmente. Uma listagem de varejista
 
 Também não há preço oficial em real divulgado até onde consegui apurar, nem confirmação de dublagem. Sobre quem desenvolveu o jogo, a Nintendo já falou: [veja quem fez o remake](/posts/ocarina-of-time-switch-2-quem-fez-remake-nintendo-epd/).
 
+Para saber se o jogo agrada, veja as [notas da crítica no Metacritic](/posts/ocarina-of-time-switch-2-reviews-nota-metacritic-96/).
+
 ## Precisa de um Switch 2 novo?
 
 Precisa de um Switch 2, e aí o gargalo é outro. A edição comemorativa de Zelda 40 anos do console, que saiu em 29 de outubro, esgotou no Brasil, como contamos [neste post sobre o estoque e a reposição](/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/). O console comum segue como caminho. Se você ainda está decidindo se compensa, nossa [análise do Nintendo Switch 2](/posts/analise-nintendo-switch-2-vale-a-pena-especificacoes/) reúne ficha e opinião de compradores.

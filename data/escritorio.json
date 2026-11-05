@@ -1,25 +1,25 @@
 {
- "ultima_execucao": "2026-11-04T08:45",
+ "ultima_execucao": "2026-11-05T07:45",
  "agentes": {
   "chefe": {
    "status": "ok",
-   "tarefa": "Escolhi 5 notícias, 1 tutorial, 1 análise e 2 listas de compra (carregadores turbo e smartwatches) com produto já cadastrado, seguindo as apostas da semana."
+   "tarefa": "Escolhi 5 notícias, 1 tutorial, 1 análise e 2 guias de compra (Black Friday e tomada inteligente), seguindo a aposta de games do Switch 2/Zelda e o guia de Black Friday."
   },
   "pesquisador": {
    "status": "ok",
-   "tarefa": "Trouxe 5 pautas de notícia (Ocarina of Time, Xiaomi 18 Pro, ChatGPT, YouTube e Smart Sampa) e separei a pauta de caixas Bluetooth em duas."
+   "tarefa": "Trouxe 5 pautas de notícia (nota do Ocarina, Game Pass, Meta na Justiça, ChatGPT Classic e Galaxy S26) e mais 8 pautas na fila, entre tutoriais, análises e guias."
   },
   "curador": {
-   "status": "ok",
-   "tarefa": "Sugeri o headset HyperX para o dono cadastrar e reorganizei por pauta o que falta: carregador 50 W, dois mouses, três caixas e quatro headsets."
+   "status": "ocioso",
+   "tarefa": "Não fui chamado: as sugestões de produtos de ontem ainda esperam o dono cadastrar."
   },
   "redator": {
    "status": "ok",
-   "tarefa": "Escrevi cinco notícias (Ocarina, Xiaomi, ChatGPT, YouTube, Smart Sampa), o tutorial de fone TWS com um lado mudo, a análise da Alexa+ e as listas de carregadores turbo e smartwatches."
+   "tarefa": "Escrevi cinco notícias, o tutorial da Alexa no Echo Dot, a análise do iPhone 13 e os guias de Black Friday e de tomada inteligente."
   },
   "seo": {
    "status": "ok",
-   "tarefa": "Revisei os nove posts, troquei a palavra-chave da análise da Alexa+ para evitar canibalização e liguei as notícias e as listas entre si."
+   "tarefa": "Revisei os nove posts, ajustei títulos e palavras-chave e liguei o cluster Switch 2/Zelda/Ocarina."
   },
   "atualizador": {
    "status": "ocioso",
@@ -27,15 +27,15 @@
   },
   "designer": {
    "status": "ok",
-   "tarefa": "Diagramei os nove posts e coloquei foto livre em seis; Xiaomi, ChatGPT e YouTube ficaram sem foto porque nenhuma servia. Não consegui apagar a imagem órfã do Gemini 4 Argon."
+   "tarefa": "Coloquei foto livre e diagramei os nove posts; algumas fotos são logos ou imagens genéricas por falta de foto de divulgação."
   },
   "vendas": {
    "status": "ok",
-   "tarefa": "Conferi as chamadas de compra das duas listas novas e dos power banks (sem ajuste) e pus um link de lâmpada na análise da Alexa+."
+   "tarefa": "Liguei os cinco produtos órfãos do catálogo ao guia de Black Friday e pus chamadas de compra nos guias; nas notícias só o Galaxy S26 ganhou um link."
   },
   "viral": {
    "status": "ok",
-   "tarefa": "Dei nota às pautas e escrevi frases de compartilhamento e textos de rede dos nove posts, mais o do Switch 2/Zelda para o dono postar hoje."
+   "tarefa": "Dei nota às pautas e escrevi os textos de rede dos nove posts de hoje."
   },
   "produtor": {
    "status": "ok",
@@ -112,24 +112,34 @@
    "texto": "Diagramei os nove posts e coloquei foto livre em seis."
   },
   {
-   "data": "2026-10-29",
+   "data": "2026-11-05",
    "agente": "pesquisador",
-   "texto": "Achei duas notícias confirmadas: MacBook Pro OLED touch e Gemini 4 Carbon."
+   "texto": "Trouxe 5 pautas de notícia e 8 de tutoriais, análises e guias."
   },
   {
-   "data": "2026-10-29",
-   "agente": "curador",
-   "texto": "Sugeri 6 produtos novos de power banks 20.000 mAh e carregadores turbo."
-  },
-  {
-   "data": "2026-10-29",
+   "data": "2026-11-05",
    "agente": "redator",
-   "texto": "Escrevi duas notícias e o guia 'Fone Bluetooth ou com fio'."
+   "texto": "Escrevi cinco notícias, um tutorial, uma análise e dois guias."
   },
   {
-   "data": "2026-10-29",
+   "data": "2026-11-05",
    "agente": "seo",
-   "texto": "Liguei as notícias aos guias e corrigi afirmações sem fonte no guia de fones."
+   "texto": "Revisei os nove posts e liguei o cluster Switch 2/Zelda/Ocarina."
+  },
+  {
+   "data": "2026-11-05",
+   "agente": "viral",
+   "texto": "Escrevi os textos de rede dos nove posts de hoje."
+  },
+  {
+   "data": "2026-11-05",
+   "agente": "vendas",
+   "texto": "Pus os cinco produtos órfãos no guia de Black Friday."
+  },
+  {
+   "data": "2026-11-05",
+   "agente": "designer",
+   "texto": "Peguei fotos livres e diagramei os nove posts."
   },
   {
    "data": "2026-10-29",

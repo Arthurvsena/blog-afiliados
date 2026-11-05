@@ -2,6 +2,106 @@
 
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
+## 2026-11-05 · Ocarina of Time Switch 2 review: nota 96 no Metacritic
+Link: https://nexustechai.com.br/posts/ocarina-of-time-switch-2-reviews-nota-metacritic-96/
+- WhatsApp: Ocarina of Time no Switch 2 tem 96 no Metacritic, a maior nota de 2026. O original de 1998 segue com 99. Veja as notas mais baixas (8/10) e o que a crítica reclama: https://nexustechai.com.br/posts/ocarina-of-time-switch-2-reviews-nota-metacritic-96/
+- X: Ocarina of Time no Switch 2 estreou com Metascore 96, a maior nota de 2026 até agora. O original de 1998 ainda tem 99. A nota mais baixa que achamos: 8/10, e a falta do Master Quest é a queixa mais citada: https://nexustechai.com.br/posts/ocarina-of-time-switch-2-reviews-nota-metacritic-96/
+- Instagram (legenda): Ocarina of Time no Switch 2: 96 no Metacritic.
+  É a maior nota de 2026, mas o original de 1998 segue com 99.
+  A crítica elogia visual e jogabilidade, e reclama da falta do Master Quest.
+  Link na bio.
+  #zelda #switch2 #ocarinaoftime
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Ocarina of Time tirou 96 no Metacritic." [2-8 s] Fato 1: é a maior nota de 2026 até agora. [8-14 s] Fato 2: o original de 1998 ainda tem 99. [14-18 s] Fato 3: a queixa mais citada é a falta do Master Quest. [18-20 s] "Todas as notas no link da bio."
+
+## 2026-11-05 · Xbox Game Pass novembro: Warhammer Survivors e Thronefall
+Link: https://nexustechai.com.br/posts/xbox-game-pass-novembro-2026-primeira-leva-warhammer-survivors/
+- WhatsApp: Game Pass de novembro: Warhammer Survivors entra em 10/11, Thronefall em 11/11 e 13 jogos têm data para 15/11. Lista completa: https://nexustechai.com.br/posts/xbox-game-pass-novembro-2026-primeira-leva-warhammer-survivors/
+- X: Xbox Game Pass novembro: Warhammer Survivors (10/11) e Thronefall (11/11) estão na primeira leva, e 13 jogos saem em 15/11, segundo o Xbox Wire. Tabela com datas e planos: https://nexustechai.com.br/posts/xbox-game-pass-novembro-2026-primeira-leva-warhammer-survivors/
+- Instagram (legenda): Game Pass de novembro já tem datas.
+  Warhammer Survivors chega em 10/11 e Thronefall em 11/11.
+  Outros 13 jogos saem do catálogo em 15/11.
+  Lista completa no link da bio.
+  #gamepass #xbox #games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Game Pass de novembro: o que chega." [2-8 s] Fato 1: Warhammer Survivors em 10/11. [8-14 s] Fato 2: Thronefall em 11/11. [14-18 s] Fato 3: 13 jogos têm saída marcada para 15/11. [18-20 s] "Lista completa no link da bio."
+
+## 2026-11-05 · Galaxy S26 preço: oferta com Buds Core fica abaixo do iPhone 17
+Link: https://nexustechai.com.br/posts/galaxy-s26-oferta-mais-barato-que-iphone-17-antes-da-black-friday/
+Atenção: preço do Canaltech de 04/11, sem prazo; peça para conferir a loja.
+- WhatsApp: Galaxy S26 256 GB com Buds Core por R$ 3.779,10 no Pix (Canaltech, 04/11), contra R$ 5.354 do iPhone 17. Confira a loja antes, varejo muda: https://nexustechai.com.br/posts/galaxy-s26-oferta-mais-barato-que-iphone-17-antes-da-black-friday/
+- X: Galaxy S26 256 GB + Buds Core: R$ 3.779,10 no Pix, segundo o Canaltech em 04/11. O iPhone 17 de 256 GB estava em R$ 5.354 no mesmo levantamento. Sem prazo informado, confira na loja: https://nexustechai.com.br/posts/galaxy-s26-oferta-mais-barato-que-iphone-17-antes-da-black-friday/
+- Instagram (legenda): Galaxy S26 com fone abaixo do iPhone 17.
+  R$ 3.779,10 no Pix, contra R$ 5.354 do iPhone 17 (256 GB, Canaltech, 04/11).
+  A fonte não informa até quando vale. Confira a loja.
+  Link na bio.
+  #galaxys26 #iphone17 #oferta
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Galaxy S26 mais barato que o iPhone 17?" [2-8 s] Fato 1: S26 256 GB com Buds Core a R$ 3.779,10 no Pix. [8-14 s] Fato 2: iPhone 17 no mesmo levantamento: R$ 5.354. [14-18 s] Fato 3: preço de 04/11, sem prazo; confira a loja. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-05 · Justiça proíbe Meta de usar conteúdo jornalístico em IA
+Link: https://nexustechai.com.br/posts/justica-sp-proibe-meta-conteudo-jornalistico-treinar-ia/
+- WhatsApp: A Justiça de SP proibiu a Meta de usar, sem autorização, conteúdo de veículos da ANJ, Abert e Aner para treinar IA. É liminar, cabe recurso, e não muda o que você vê no Facebook hoje: https://nexustechai.com.br/posts/justica-sp-proibe-meta-conteudo-jornalistico-treinar-ia/
+- X: Justiça de SP proíbe a Meta de coletar conteúdo jornalístico sem autorização, inclusive para treinar IA. Liminar vale para veículos ligados a ANJ, Abert e Aner. Multa: R$ 1 milhão por dia. Cabe recurso: https://nexustechai.com.br/posts/justica-sp-proibe-meta-conteudo-jornalistico-treinar-ia/
+- Instagram (legenda): A Justiça de SP barrou a Meta.
+  Sem autorização, ela não pode usar conteúdo jornalístico para treinar IA.
+  Vale para veículos da ANJ, Abert e Aner. É liminar: cabe recurso.
+  Link na bio.
+  #meta #inteligenciaartificial #direitosautorais
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "A Justiça barrou a Meta." [2-8 s] Fato 1: proibida de usar notícias sem autorização para treinar IA. [8-14 s] Fato 2: vale para veículos da ANJ, Abert e Aner. [14-18 s] Fato 3: multa de R$ 1 milhão por dia, e cabe recurso. [18-20 s] "Entenda no link da bio."
+
+## 2026-11-05 · ChatGPT app: o Classic acaba em 30/01/2027
+Link: https://nexustechai.com.br/posts/chatgpt-classic-fim-30-janeiro-2027-app-desktop/
+- WhatsApp: O app antigo do ChatGPT para Windows e Mac (Classic) sai do ar em 30/01/2027. Segundo a OpenAI, o histórico migra sozinho para o app novo: https://nexustechai.com.br/posts/chatgpt-classic-fim-30-janeiro-2027-app-desktop/
+- X: O ChatGPT Classic, app antigo para Windows e macOS, será desativado em 30/01/2027. A OpenAI diz que o histórico vai para o app novo, que há queixas de lentidão. O que fazer: https://nexustechai.com.br/posts/chatgpt-classic-fim-30-janeiro-2027-app-desktop/
+- Instagram (legenda): Quem usa o ChatGPT no computador: o app antigo tem data para acabar.
+  O Classic sai do ar em 30/01/2027.
+  Segundo a OpenAI, o histórico migra sozinho.
+  Link na bio.
+  #chatgpt #openai #ia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "O ChatGPT do seu computador vai parar." [2-8 s] Fato 1: o Classic sai do ar em 30/01/2027. [8-14 s] Fato 2: o app novo está em Windows e Mac, inclusive no plano grátis. [14-18 s] Fato 3: o histórico migra com o mesmo login. [18-20 s] "Passo a passo no link da bio."
+
+## 2026-11-05 · Como configurar Alexa Echo Dot: passo a passo no app
+Link: https://nexustechai.com.br/posts/como-configurar-alexa-echo-dot-primeira-vez/
+- WhatsApp: Echo Dot novo em casa? Este passo a passo configura a Alexa pelo app em uns 10 minutos e diz o que fazer se não conectar: https://nexustechai.com.br/posts/como-configurar-alexa-echo-dot-primeira-vez/
+- X: Como configurar a Alexa no Echo Dot em uns 10 minutos: tomada, app Alexa, Wi-Fi. Inclui o que fazer se o app não achar o aparelho e os primeiros comandos: https://nexustechai.com.br/posts/como-configurar-alexa-echo-dot-primeira-vez/
+- Instagram (legenda): Echo Dot na caixa? Configura em uns 10 minutos.
+  Tomada, app Alexa e Wi-Fi: são só três coisas.
+  No post: o que fazer se o app não encontra o aparelho.
+  Link na bio.
+  #alexa #echodot #casainteligente
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Como configurar o Echo Dot em 10 minutos." [2-8 s] Passo 1: ligue na tomada. [8-14 s] Passo 2: instale o app Alexa e entre com a conta Amazon. [14-18 s] Passo 3: conecte ao Wi-Fi. [18-20 s] "Passo a passo completo no link da bio."
+
+## 2026-11-05 · Vale a pena comprar o iPhone 13 em 2026? Só por um preço
+Link: https://nexustechai.com.br/posts/analise-iphone-13-vale-a-pena-em-2026/
+- WhatsApp: iPhone 13 em 2026 ainda vale? Só com preço baixo, garantia e aceitando Lightning e 60 Hz. Ele entra no iOS 27, mas sem Apple Intelligence: https://nexustechai.com.br/posts/analise-iphone-13-vale-a-pena-em-2026/
+- X: iPhone 13 em 2026: entra na lista do iOS 27, mas tem 60 Hz, Lightning e não tem Apple Intelligence. Só vale com preço bem abaixo dos novos, garantia e nota fiscal: https://nexustechai.com.br/posts/analise-iphone-13-vale-a-pena-em-2026/
+- Instagram (legenda): iPhone 13 em 2026 ainda vale a pena?
+  Só por um preço baixo. Recebe o iOS 27, mas tem 60 Hz, Lightning e não tem Apple Intelligence.
+  No post: o que checar no seminovo.
+  Link na bio.
+  #iphone13 #apple #iphone
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "iPhone 13 ainda vale em 2026?" [2-8 s] Fato 1: entra na lista do iOS 27. [8-14 s] Fato 2: tem 60 Hz, Lightning e não tem Apple Intelligence. [14-18 s] Fato 3: seminovo exige nota fiscal, IMEI e saúde da bateria. [18-20 s] "Análise completa no link da bio."
+
+## 2026-11-05 · Black Friday 2026: como fugir do preço falso em eletrônicos
+Link: https://nexustechai.com.br/posts/black-friday-2026-eletronicos-como-nao-cair-em-preco-falso/
+- WhatsApp: Black Friday é em 27/11. Antes de comprar power bank, fone ou carregador, faça esta checagem de 5 passos para não cair em desconto de mentira: https://nexustechai.com.br/posts/black-friday-2026-eletronicos-como-nao-cair-em-preco-falso/
+- X: Black Friday 2026 cai em 27/11. Método de 5 passos para checar se o desconto em power bank, fone ou carregador é real, de preço de partida a selo da Anatel: https://nexustechai.com.br/posts/black-friday-2026-eletronicos-como-nao-cair-em-preco-falso/
+- Instagram (legenda): Black Friday em 27/11. Como saber se o desconto é real?
+  Compare com o preço das semanas anteriores, em mais de uma loja.
+  Confira o selo da Anatel em carregador e power bank.
+  Os 5 passos estão no link da bio.
+  #blackfriday #eletronicos #dicas
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Black Friday: o desconto é real?" [2-8 s] Dica 1: compare com o preço das semanas anteriores. [8-14 s] Dica 2: use mais de uma loja. [14-18 s] Dica 3: carregador sem selo da Anatel, nem pensar. [18-20 s] "Os 5 passos no link da bio."
+
+## 2026-11-05 · Tomada inteligente vale a pena? Como funciona e o que ligar
+Link: https://nexustechai.com.br/posts/tomada-inteligente-vale-a-pena-como-funciona/
+- WhatsApp: Tomada inteligente vale a pena? Confira os amperes (10 A, 16 A ou 20 A) antes de ligar ar-condicionado ou chuveiro. Ela não faz o aparelho gastar menos: https://nexustechai.com.br/posts/tomada-inteligente-vale-a-pena-como-funciona/
+- X: Tomada inteligente não reduz o consumo do aparelho; a economia vem de você desligar o que ficaria ligado à toa. E o limite costuma ser 10 A, pouco para ar-condicionado: https://nexustechai.com.br/posts/tomada-inteligente-vale-a-pena-como-funciona/
+- Instagram (legenda): Tomada inteligente vale a pena?
+  Para ligar, desligar e agendar aparelhos simples, sim.
+  Para ar-condicionado e chuveiro, confira os amperes antes.
+  Link na bio.
+  #tomadainteligente #casainteligente #alexa
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Tomada inteligente: cuidado com os amperes." [2-8 s] Fato 1: o limite costuma ser 10 A. [8-14 s] Fato 2: ar-condicionado e chuveiro pedem mais. [14-18 s] Fato 3: ela não reduz o consumo, só evita o que ficaria ligado à toa. [18-20 s] "Guia completo no link da bio."
+
 ## 2026-11-04 · Zelda Ocarina of Time Switch 2: Nintendo diz quem fez o remake
 Link: https://nexustechai.com.br/posts/ocarina-of-time-switch-2-quem-fez-remake-nintendo-epd/
 Postar hoje (4/11), antes do lançamento de amanhã (5/11).
