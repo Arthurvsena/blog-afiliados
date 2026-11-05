@@ -283,15 +283,33 @@ def sfx(pasta):
     return whoosh, ding
 
 
-def narrar_gemini(texto, destino, voz="Charon"):
+# Os 3 quadros fixos do canal (editorial/manual_youtube.md)
+QUADROS = {
+    "60s": {"nome": "Nexus em 60s", "trilha": "pulso", "legenda": "palavra",
+            "estilo": "apresentador brasileiro de um canal dark de tecnologia, sotaque do Brasil (paulista), ritmo rápido de Shorts "
+                      "(cerca de 175 palavras por minuto), direto, seguro, com humor seco e leve ironia no comentário final, "
+                      "pronunciando nomes em inglês do jeito que os brasileiros falam"},
+    "historias": {"nome": "Histórias Tech", "trilha": "cinema", "legenda": "frase",
+                  "estilo": "narrador brasileiro de documentário, sotaque do Brasil, voz grave, calma e cinematográfica, ritmo pausado "
+                            "(cerca de 145 palavras por minuto), com pausas dramáticas nas viradas da história, "
+                            "pronunciando nomes em inglês do jeito que os brasileiros falam"},
+    "lafora": {"nome": "Lá Fora, Aqui", "trilha": "ambiente", "legenda": "palavra", "vinheta": True,
+               "estilo": "apresentador brasileiro de um canal de tecnologia que explica novidades de fora para o público do Brasil, "
+                         "sotaque do Brasil (paulista), tom de conversa natural e curioso, ritmo de cerca de 155 palavras por minuto, "
+                         "pronunciando nomes em inglês do jeito que os brasileiros falam"},
+}
+ESTILO_PADRAO = ("apresentador brasileiro de um canal de tecnologia no YouTube, sotaque do Brasil (paulista), "
+                 "ritmo rápido de Shorts, animado e natural, pronunciando nomes em inglês do jeito que os brasileiros falam")
+
+
+def narrar_gemini(texto, destino, voz="Charon", estilo=None):
     """Voz do Gemini (Google AI Studio, cota grátis, sem cartão). Uma chamada por vídeo. Precisa de GEMINI_API_KEY."""
     import base64
     corpo = json.dumps({
         "model": os.environ.get("GEMINI_TTS_MODELO", "gemini-3.8-flash-tts"),
         "input": [{"type": "user_input", "content": [{"type": "text", "text": texto, "annotations": [{
             "type": "speech_metadata",
-            "style": "apresentador brasileiro de um canal de tecnologia no YouTube, sotaque do Brasil (paulista), "
-                     "ritmo rápido de Shorts, animado e natural, pronunciando nomes em inglês do jeito que os brasileiros falam"}]}]}],
+            "style": estilo or ESTILO_PADRAO}]}]}],
         "response_format": {"type": "audio"},
         "generation_config": {"speech_config": [{"voice": voz}]},
     }).encode()
@@ -347,14 +365,22 @@ def voz_config():
         return VOZ_PADRAO
 
 
-def finalizar(origem, destino):
+def finalizar(origem, destino, trilha=None):
     """Versão final em ALTA qualidade para o YouTube (sem limite de tamanho): H.264 CRF 18,
     áudio AAC 192 kbps com volume padronizado. O envio é feito pelo seletor de arquivos do
     Windows (veja a skill canal-diario), então não precisa caber em 10 MB."""
-    base.rodar(["ffmpeg", "-y", "-v", "error", "-i", str(origem), "-c:v", "libx264", "-preset", "medium", "-crf", "18",
-                "-profile:v", "high", "-pix_fmt", "yuv420p", "-g", "60", "-bf", "2",
-                "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-c:a", "aac", "-b:a", "192k", "-ar", "48000",
-                "-movflags", "+faststart", str(destino)])
+    video = ["-c:v", "libx264", "-preset", "medium", "-crf", "18", "-profile:v", "high", "-pix_fmt", "yuv420p", "-g", "60", "-bf", "2"]
+    audio = ["-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", str(destino)]
+    if trilha:
+        # trilha ~22 dB abaixo da voz e "abaixando" sozinha quando a voz fala (sidechain)
+        filtro = ("[0:a]asplit=2[voz][chave];[1:a]aresample=48000,volume=0.16[m];"
+                  "[m][chave]sidechaincompress=threshold=0.03:ratio=8:attack=15:release=350[md];"
+                  "[voz][md]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]")
+        base.rodar(["ffmpeg", "-y", "-v", "error", "-i", str(origem), "-i", str(trilha), "-filter_complex", filtro,
+                    "-map", "0:v", "-map", "[a]"] + video + audio)
+    else:
+        base.rodar(["ffmpeg", "-y", "-v", "error", "-i", str(origem)] + video +
+                   ["-af", "loudnorm=I=-14:TP=-1.5:LRA=11"] + audio)
 
 
 def comprimir(origem, destino, segundos, tipo="short", alvo_mb=9.2):
@@ -386,12 +412,16 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
             try:
                 arq = Path("/tmp") / f"gemini-{rot['slug']}.wav"
                 texto = "\n\n".join(falado(c["fala"]) for c in rot["cenas"] if c.get("fala"))
-                narrar_gemini(texto, arq, voz_escolhida.split(":", 1)[1] if ":" in voz_escolhida else "Charon")
+                narrar_gemini(texto, arq, voz_escolhida.split(":", 1)[1] if ":" in voz_escolhida else "Charon",
+                              QUADROS.get(rot.get("quadro"), {}).get("estilo"))
                 audio_externo = str(arq)
             except Exception as e:
                 print(f"(Gemini falhou: {e}; usando a voz grátis)", file=sys.stderr)
                 voz_escolhida = VOZ_PADRAO
     tipo = rot.get("tipo", "short")
+    quadro = QUADROS.get(rot.get("quadro"), {})
+    if quadro:
+        rot["selo"] = quadro["nome"] + (f" #{rot['numero']}" if rot.get("numero") else "")
     fps = 30
     largura, altura = (1080, 1920) if tipo == "short" else (1920, 1080)
     cenas = [c for c in rot["cenas"] if c.get("fala")]
@@ -404,11 +434,19 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
     creditos = []
     preparar_imagens(rot, pasta, catalogo, creditos)
     preparar_manchetes(rot, pasta, creditos, tipo == "short")
+    for c in cenas:  # proporção de cada foto (o vídeo em pé mostra foto deitada inteira, sem cortar)
+        for x in c.get("_imagens", []):
+            try:
+                with Image.open(PUBLICO / x["src"]) as im:
+                    x["prop"] = round(im.width / im.height, 3)
+            except Exception:
+                pass
     sfx(PUBLICO / "sfx")
 
     # narração por trechos
     folga = 0.18
-    trechos_por_cena = [grupos_de(c["fala"], 4 if tipo == "short" else 6) for c in cenas]
+    n_leg = 9 if quadro.get("legenda") == "frase" else (4 if tipo == "short" else 6)
+    trechos_por_cena = [grupos_de(c["fala"], n_leg) for c in cenas]
     if audio_externo:
         total = base.duracao(audio_externo)
         txt = lambda g: " ".join(f for _, f in g)
@@ -462,7 +500,7 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
         cena = {"ini": ini, "dur": dur, "tipo": tipo_c, "tela": c.get("tela") or " ".join(t for t, _ in tokens(c["fala"])), "destaque": c.get("destaque", ""),
                 "rotulo": c.get("rotulo", ""), "icone": c.get("icone", ""), "itens": c.get("itens", []),
                 "titulo_lista": c.get("titulo_lista", ""), "autor": c.get("autor", ""), "layout": c.get("layout", ""),
-                "entrada": c.get("entrada") or ENTRADAS[(ci * 3) % len(ENTRADAS)], "manchete": c.get("_manchete"), "capitulo": c.get("capitulo", ""), "imagens": c.get("_imagens", []), "palavras": palavras}
+                "entrada": c.get("entrada") or ENTRADAS[(ci * 3) % len(ENTRADAS)], "manchete": c.get("_manchete"), "capitulo": c.get("capitulo", ""), "fonte": c.get("fonte", ""), "imagens": c.get("_imagens", []), "palavras": palavras}
         if tipo_c == "produto":
             pid = c.get("produto") or next((r.split(":", 1)[1] for r in (c.get("imagens") or []) if str(r).startswith("produto:")), "")
             p = catalogo.get(pid, {})
@@ -475,10 +513,35 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
         if tipo_c == "numero":
             sons.append({"ini": ini + 24, "src": "sfx/ding.wav", "vol": 0.25})
     duracao = round(t * fps) + 20
+    # vinheta curta (2,5 s) DEPOIS do gancho, nunca no início: abre um silêncio na narração e empurra o resto
+    vinheta = None
+    if quadro.get("vinheta") and len(props_cenas) > 2:
+        V = 75
+        corte = props_cenas[1]["ini"]
+        audio_v = pasta / ("narracao-v" + audio.suffix)
+        base.rodar(["ffmpeg", "-y", "-v", "error", "-i", str(audio), "-filter_complex",
+                    f"[0:a]atrim=0:{corte / fps:.3f},asetpts=PTS-STARTPTS[a];[0:a]atrim={corte / fps:.3f},asetpts=PTS-STARTPTS[b];"
+                    f"anullsrc=r=44100:cl=mono,atrim=0:{V / fps:.3f}[s];[a]aresample=44100,aformat=channel_layouts=mono[a2];"
+                    f"[b]aresample=44100,aformat=channel_layouts=mono[b2];[a2][s][b2]concat=n=3:v=0:a=1[o]",
+                    "-map", "[o]", str(audio_v)])
+        audio = audio_v
+        for c in props_cenas[1:]:
+            c["ini"] += V
+            for w in c["palavras"]:
+                w["ini"] += V; w["fim"] += V
+        for q in sons:
+            if q["ini"] >= corte - 6:
+                q["ini"] += V
+        sons.append({"ini": corte, "src": "sfx/whoosh.wav", "vol": 0.3})
+        vinheta = {"ini": corte, "dur": V, "titulo": quadro["nome"]}
+        duracao += V
     # cenas gráficas ganham de fundo a foto mais próxima, desfocada (contexto visual sem repetir a mesma tela)
     fotos = [(i, x["src"]) for i, c in enumerate(props_cenas) for x in c["imagens"] if not x.get("produto")]
+    graficas = {"info", "data", "comparativo", "manchete", "lista", "barras", "linha", "citacao"}
     for i, c in enumerate(props_cenas):
-        if not c["imagens"] and fotos:
+        if c["tipo"] in graficas and c["imagens"] and not c["imagens"][0].get("produto"):
+            c["fundo"] = c["imagens"][0]["src"]  # cena gráfica com foto própria: a foto vira o fundo desfocado
+        elif not c["imagens"] and fotos:
             c["fundo"] = min(fotos, key=lambda q: (abs(q[0] - i), q[0]))[1]
     # pedido de inscrição animado: no fim (Short) e também a ~30% do vídeo (longo)
     inscrever = []
@@ -491,7 +554,8 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
     for q in inscrever:
         sons.append({"ini": q["ini"] + 32, "src": "sfx/ding.wav", "vol": 0.2})
     props = {"tipo": tipo, "fps": fps, "largura": largura, "altura": altura, "duracao": duracao, "selo": rot.get("selo", ""),
-             "audio": f"run/{rot['slug']}/{audio.name}", "cenas": props_cenas, "sons": sons, "inscrever": inscrever}
+             "audio": f"run/{rot['slug']}/{audio.name}", "cenas": props_cenas, "sons": sons, "inscrever": inscrever,
+             "vinheta": vinheta, "legenda": quadro.get("legenda", "palavra")}
     arq_props = pasta / "props.json"
     arq_props.write_text(json.dumps(props, ensure_ascii=False))
 
@@ -511,7 +575,15 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
     saida.mkdir(parents=True, exist_ok=True)
     destino = saida / f"{rot['slug']}.mp4"
     total = duracao / fps
-    finalizar(bruto, destino)
+    trilha = None
+    try:
+        import trilha as gerador_trilha
+        cortes = [c["ini"] / fps for c in props_cenas if c.get("capitulo")][1:] if tipo == "longo" else []
+        trilha = gerador_trilha.gerar(pasta / "trilha.wav", duracao / fps + 1, quadro.get("trilha", "pulso" if tipo == "short" else "ambiente"),
+                                      rot["slug"], cortes)
+    except Exception as e:
+        print(f"(trilha não gerada: {e})", file=sys.stderr)
+    finalizar(bruto, destino, trilha)
 
     capa = None
     if tipo == "longo":
@@ -542,27 +614,46 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
 
 
 def checar(rot):
-    """Regras mínimas de qualidade do roteiro. Devolve 0 se passou."""
+    """Regras mínimas de qualidade do roteiro, por quadro (editorial/manual_youtube.md). Devolve 0 se passou."""
     cenas = rot.get("cenas") or []
     tipos = [c.get("tipo", "fato") for c in cenas]
     fotos = {str(r) for c in cenas for r in (c.get("imagens") or []) if r}
     problemas = []
-    curto = rot.get("tipo", "short") == "short"
-    if len(set(tipos)) < (5 if curto else 7):
-        problemas.append(f"pouca variedade de cenas: {sorted(set(tipos))} (mínimo {5 if curto else 7} tipos diferentes)")
+    q = rot.get("quadro")
+    if q not in QUADROS:
+        problemas.append(f"campo 'quadro' ausente ou inválido ({q!r}): use 60s, historias ou lafora")
+    longo = rot.get("tipo") == "longo"
+    if (q == "lafora") != longo and q in QUADROS:
+        problemas.append("'lafora' é sempre vídeo longo; '60s' e 'historias' são sempre Shorts")
+    palavras = sum(len(falado(c.get("fala", "")).split()) for c in cenas)
+    faixa = {"60s": (75, 165), "historias": (140, 225), "lafora": (700, 1300)}.get(q, (60, 2000))
+    if not faixa[0] <= palavras <= faixa[1]:
+        problemas.append(f"{palavras} palavras faladas; o quadro pede de {faixa[0]} a {faixa[1]}")
+    minimo_tipos = {"60s": 4, "historias": 4, "lafora": 7}.get(q, 5)
+    if len(set(tipos)) < minimo_tipos:
+        problemas.append(f"pouca variedade de cenas: {sorted(set(tipos))} (mínimo {minimo_tipos} tipos diferentes)")
     for i in range(len(tipos) - 2):
         if tipos[i] == tipos[i + 1] == tipos[i + 2]:
             problemas.append(f"3 cenas seguidas do tipo '{tipos[i]}' (cenas {i + 1} a {i + 3})")
             break
-    if len(fotos) < (4 if curto else 8):
-        problemas.append(f"só {len(fotos)} fotos diferentes (mínimo {4 if curto else 8}); use imagens oficiais do produto/jogo/empresa")
+    minimo_fotos = 8 if longo else 4
+    if len(fotos) < minimo_fotos:
+        problemas.append(f"só {len(fotos)} fotos diferentes (mínimo {minimo_fotos}); use imagens oficiais do produto/jogo/empresa")
     if len(rot.get("fontes") or []) < 2 and not rot.get("post"):
         problemas.append("menos de 2 fontes no roteiro")
-    if "manchete" not in tipos and (rot.get("fontes") or rot.get("post")):
+    if q in ("60s", "lafora") and "manchete" not in tipos and (rot.get("fontes") or rot.get("post")):
         problemas.append("falta uma cena 'manchete' (print da notícia com o trecho destacado)")
+    if q == "historias" and not ({"data", "linha"} & set(tipos)):
+        problemas.append("Histórias Tech precisa de ano na tela: cena 'data' ou 'linha'")
+    if q == "historias" and not rot.get("numero"):
+        problemas.append("Histórias Tech precisa do campo 'numero' (episódio #N)")
+    if longo and not any(c.get("capitulo") for c in cenas):
+        problemas.append("vídeo longo sem 'capitulo' nas cenas que abrem cada bloco")
     ultima = (cenas[-1].get("fala", "") if cenas else "").lower()
-    if not re.search(r"inscrev", ultima):
-        problemas.append("a última fala não pede para se inscrever no canal")
+    if longo and not re.search(r"inscrev", ultima):
+        problemas.append("a última fala do vídeo longo não pede para se inscrever no canal")
+    if not longo and re.search(r"inscrev", " ".join(c.get("fala", "") for c in cenas[:2]).lower()):
+        problemas.append("Short não pede inscrição no começo (o botão animado aparece sozinho no fim)")
     for p in problemas:
         print("PROBLEMA:", p)
     print("OK" if not problemas else f"{len(problemas)} problema(s)")

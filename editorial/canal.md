@@ -1,5 +1,7 @@
 # Linha editorial do canal Nexus Tech IA (YouTube)
 
+> **Formato, quadros, grade da semana e checklist: `editorial/manual_youtube.md`** (vale mais que este arquivo onde os dois divergirem).
+
 ## O que o canal é
 Um **canal dark de tecnologia**: sem rosto, com narração, motion e fotos
 oficiais, que as pessoas seguem porque **sempre aprendem algo útil ou

@@ -110,7 +110,14 @@ subnichos:
 video:
   voz: "gemini:Fenrir"      # reserva; a voz de cada vídeo vem do teste A/B em data/videos/vozes.json (Fenrir x Orus). Sem GEMINI_API_KEY usa kokoro:pm_alex
   horarios:                 # publicação programada no YouTube (Brasília), um vídeo por horário
-    short_1: "12:00"
+    short: "12:00"
     longo: "19:00"
-    short_2: "21:00"
+  grade:                    # quadros de cada dia (editorial/manual_youtube.md): 8 vídeos por semana
+    seg: ["60s"]
+    ter: ["60s"]
+    qua: ["60s"]
+    qui: ["60s", "lafora"]
+    sex: ["60s"]
+    sab: ["historias"]
+    dom: ["historias"]
   elevenlabs_voz: "cCd5pjwRv69hyjEKrf0o"   # Renan Matheus (pt-BR), usada quando houver crédito

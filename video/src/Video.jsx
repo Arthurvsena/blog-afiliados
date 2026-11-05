@@ -71,6 +71,21 @@ const Foto = ({img, dur, i, vertical}) => {
       </AbsoluteFill>
     );
   }
+  if (vertical && (img.prop || 1) > 1.15) {
+    // foto deitada num vídeo em pé: a foto INTEIRA no alto (nada cortado) e ela mesma desfocada de fundo
+    const zc = interpolate(f, [0, dur], [1.0, 1.1], {extrapolateRight: 'clamp'});
+    return (
+      <AbsoluteFill style={{opacity: op, overflow: 'hidden'}}>
+        <Img src={staticFile(img.src)} style={{width: '100%', height: '100%', objectFit: 'cover',
+          filter: 'blur(30px) brightness(.45) saturate(1.2)', transform: `scale(${1.3 + f / 1200})`}} />
+        <div style={{position: 'absolute', left: 0, right: 0, top: '15%', aspectRatio: `${img.prop}`, overflow: 'hidden',
+          boxShadow: '0 30px 90px rgba(0,0,0,.65)'}}>
+          <Img src={staticFile(img.src)} style={{width: '100%', height: '100%', objectFit: 'cover',
+            transform: `scale(${zc}) translate(${x * 0.6}%, 0)`}} />
+        </div>
+      </AbsoluteFill>
+    );
+  }
   return (
     <AbsoluteFill style={{opacity: op, overflow: 'hidden'}}>
       <Img src={staticFile(img.src)} style={{width: '100%', height: '100%', objectFit: 'cover',
@@ -108,13 +123,25 @@ const Fundo = ({cena, vertical}) => {
 };
 
 // ---------- textos ----------
-const Legenda = ({palavras, base, k, vertical, baixo}) => {
+const Legenda = ({palavras, base, k, vertical, baixo, modo}) => {
   const f = useCurrentFrame() + base; // frame absoluto
   const {fps} = useVideoConfig();
   const atual = palavras.filter((w) => w.ini <= f).pop();
   if (!atual) return null;
   const grupo = palavras.filter((w) => w.g === atual.g);
   const ent = spring({frame: f - grupo[0].ini, fps, config: {damping: 14, stiffness: 180}});
+  if (modo === 'frase') {
+    // Histórias Tech: frase inteira, sóbria, sem destaque palavra a palavra
+    const fade = interpolate(f - grupo[0].ini, [0, 8], [0, 1], {extrapolateRight: 'clamp'});
+    return (
+      <div style={{position: 'absolute', left: 70 * k, right: 70 * k, top: vertical ? (baixo ? '78%' : '66%') : undefined, bottom: vertical ? undefined : 70 * k,
+        textAlign: 'center', opacity: fade}}>
+        <span style={{fontFamily: FONTE, fontWeight: 600, fontSize: (vertical ? 58 : 44) * k, lineHeight: 1.25, color: '#fff',
+          background: 'rgba(5,5,7,.55)', boxDecorationBreak: 'clone', WebkitBoxDecorationBreak: 'clone', padding: `${6 * k}px ${16 * k}px`,
+          borderRadius: 10 * k, textShadow: '0 2px 10px rgba(0,0,0,.8)'}}>{grupo.map((w) => w.t).join(' ')}</span>
+      </div>
+    );
+  }
   return (
     <div style={{position: 'absolute', left: 50 * k, right: 50 * k, top: vertical ? (baixo ? '76%' : '58%') : undefined, bottom: vertical ? undefined : 70 * k,
       display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: `${10 * k}px ${16 * k}px`,
@@ -572,6 +599,37 @@ const FundoGrafico = ({cena}) => {
 };
 
 // ---------- cena ----------
+// ---------- vinheta do quadro (2,5 s, sempre depois do gancho) ----------
+const Vinheta = ({titulo, k, vertical}) => {
+  const f = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const s = spring({frame: f, fps, config: {damping: 12, stiffness: 140}});
+  const sai = interpolate(f, [62, 75], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  const linha = interpolate(f, [8, 40], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.out(Easing.cubic)});
+  return (
+    <AbsoluteFill style={{background: `radial-gradient(circle at 50% 50%, #2a1f66 0%, ${FUNDO} 65%)`, opacity: sai,
+      justifyContent: 'center', alignItems: 'center', flexDirection: 'column', gap: 30 * k}}>
+      <div style={{transform: `scale(${s}) rotate(${interpolate(s, [0, 1], [-90, 0])}deg)`}}><Simbolo s={170 * k} /></div>
+      <div style={{fontFamily: FONTE, fontWeight: 900, fontSize: (vertical ? 96 : 110) * k, color: '#fff', letterSpacing: -2 * k,
+        textTransform: 'uppercase', opacity: s, transform: `translateY(${(1 - s) * 60}px)`}}>{titulo}</div>
+      <div style={{width: 520 * k * linha, height: 8 * k, borderRadius: 8 * k, background: ROXO, boxShadow: `0 0 40px ${ROXO}`}} />
+    </AbsoluteFill>
+  );
+};
+
+// ---------- fonte da informação: barra discreta no rodapé ----------
+const Rodape = ({texto, k, vertical}) => {
+  const f = useCurrentFrame();
+  const op = interpolate(f, [6, 16], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  return (
+    <div style={{position: 'absolute', left: 40 * k, bottom: vertical ? undefined : 22 * k, top: vertical ? 150 * k : undefined, opacity: op * 0.9,
+      fontFamily: FONTE, fontWeight: 600, fontSize: (vertical ? 30 : 24) * k, color: 'rgba(255,255,255,.85)',
+      background: 'rgba(5,5,7,.6)', borderLeft: `${4 * k}px solid ${ROXO}`, padding: `${6 * k}px ${14 * k}px`, borderRadius: 6 * k}}>
+      Fonte: {texto}
+    </div>
+  );
+};
+
 const Cena = ({cena, k, vertical, primeira}) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
@@ -591,6 +649,7 @@ const Cena = ({cena, k, vertical, primeira}) => {
       {cena.tipo === 'numero' ? <Numero cena={cena} k={k} vertical={vertical} /> : null}
       {cena.tipo === 'cta' ? <Chamada cena={cena} k={k} vertical={vertical} /> : null}
       <Capitulo cena={cena} k={k} />
+      {cena.fonte && cena.tipo !== 'manchete' ? <Rodape texto={cena.fonte} k={k} vertical={vertical} /> : null}
       <AbsoluteFill style={{background: '#fff', opacity: flash}} />
     </AbsoluteFill>
   );
@@ -613,7 +672,7 @@ export const Video = (props) => {
       {/* legenda palavra por palavra (fica por cima das cenas) */}
       {cenas.map((c, i) => ['fato', 'produto', 'info', 'data', 'comparativo', 'manchete', 'barras'].includes(c.tipo) && (c.palavras || []).length ? (
         <Sequence key={'l' + i} from={c.ini} durationInFrames={c.dur}>
-          <Legenda palavras={c.palavras} base={c.ini} k={k} vertical={vertical} baixo={['produto', 'info', 'data', 'comparativo', 'manchete', 'barras'].includes(c.tipo)} />
+          <Legenda palavras={c.palavras} base={c.ini} k={k} vertical={vertical} modo={props.legenda} baixo={['produto', 'info', 'data', 'comparativo', 'manchete', 'barras'].includes(c.tipo)} />
         </Sequence>
       ) : null)}
       {(props.inscrever || []).map((q, i) => (
@@ -621,6 +680,11 @@ export const Video = (props) => {
           <Inscrever k={k} vertical={vertical} />
         </Sequence>
       ))}
+      {props.vinheta ? (
+        <Sequence from={props.vinheta.ini} durationInFrames={props.vinheta.dur}>
+          <Vinheta titulo={props.vinheta.titulo} k={k} vertical={vertical} />
+        </Sequence>
+      ) : null}
       <Topo selo={selo} k={k} cenas={cenas} frame={frame} />
       {audio ? <Audio src={staticFile(audio)} /> : null}
       {(sons || []).map((s, i) => (

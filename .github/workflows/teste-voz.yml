@@ -31,7 +31,7 @@ jobs:
       - name: Ferramentas
         run: |
           sudo apt-get update -q && sudo apt-get install -y -q ffmpeg espeak-ng
-          pip install -r requirements.txt kokoro-onnx soundfile piper-tts playwright
+          pip install -r requirements.txt kokoro-onnx soundfile piper-tts playwright numpy scipy
           python -m playwright install --with-deps chromium
           cd video && npm ci --no-audit --no-fund && npx remotion browser ensure
       - name: Amostras de voz

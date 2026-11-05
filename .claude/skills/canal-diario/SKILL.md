@@ -8,7 +8,7 @@ description: Rotina diária do departamento de vídeo. PARTE A (GitHub Actions, 
 
 # Canal Nexus Tech: vídeos do dia
 
-Antes de tudo: leia `CLAUDE.md`, `data/estrategia.md`, `data/relatorio_diario.md`
+Antes de tudo: leia `editorial/manual_youtube.md` (os 3 quadros e a grade), `CLAUDE.md`, `data/estrategia.md`, `data/relatorio_diario.md`
 (se existir) e `python3 scripts/mural.py listar`.
 
 # PARTE A: produção (GitHub Actions)
@@ -21,8 +21,9 @@ script usa sozinho a voz grátis Kokoro.
 ## A1. Tendências e pauta
 1. Chame o `tendencias`: ele pesquisa o que está em alta hoje e atualiza
    `data/tendencias.json`.
-2. Chame o `produtor` em **modo pauta do dia**. Ele devolve 2 Shorts e 1 longo,
-   seguindo `editorial/canal.md` (conteúdo primeiro, venda como consequência).
+2. Chame o `produtor` em **modo pauta do dia**. Ele devolve um vídeo para cada
+   quadro de hoje em `config.yaml > video.grade` (seg a sex: 1 "Nexus em 60s";
+   quinta: + 1 "Lá Fora, Aqui"; sáb e dom: 1 "Histórias Tech").
 
 ## A2. Roteiros
 Para cada vídeo: `roteirista` (com o tipo e a pauta: a tendência inteira em JSON ou o post) e depois `produtor` em
@@ -47,7 +48,7 @@ Para cada vídeo: `roteirista` (com o tipo e a pauta: a tendência inteira em JS
 4. Se o Remotion falhar duas vezes, use a reserva sem motion:
    `python3 scripts/video.py data/videos/roteiros/SLUG.json --saida _videos`.
 5. Grave em `_videos/SLUG.json` um resumo para a publicação:
-   `{"slug", "tipo", "post", "titulo", "hashtags", "voz", "segundos"}` (copie do
+   `{"slug", "tipo", "quadro", "numero", "post", "titulo", "hashtags", "voz", "segundos"}` (copie do
    roteiro e do resultado do script).
 
 ## A4. Escritório e mural
@@ -130,19 +131,20 @@ Para cada vídeo:
    (o mesmo da descrição). Se não puder ser fixado, siga.
 
 ### Horários (um vídeo por horário, nunca todos juntos)
-Horários-padrão do dia, de `config.yaml > video.horarios`: **12:00** o 1º Short,
-**19:00** o vídeo longo, **21:00** o 2º Short (os horários de mais audiência
-no Brasil para cada formato). Comece pelo Short de maior nota.
-- Se um horário já passou (ou falta menos de 30 min), use o próximo horário
-  livre de hoje começando 30 min depois de agora e com pelo menos **2 horas**
-  entre um vídeo e outro.
-- Se isso passar das 23:00, programe para amanhã no horário-padrão dele.
+De `config.yaml > video.horarios`: **12:00** o Short do dia ("Nexus em 60s" ou
+"Histórias Tech") e **19:00** o "Lá Fora, Aqui" (quintas).
+- Se o horário já passou (ou falta menos de 30 min), programe para 30 min depois
+  de agora, com pelo menos **2 horas** entre dois vídeos.
+- Se isso passar das 23:00, programe para amanhã no horário-padrão.
+- Playlists: "Nexus em 60s" e "Lá Fora, Aqui" vão em "Notícias de tecnologia do
+  dia"; guia de compras vai em "Guias de compra". Se existir uma playlist com o
+  nome do quadro, use ela.
 - Grave a data e hora programadas em `publica_em` no registro.
 
 ## B3. Registro
 Acrescente cada vídeo em `data/videos.json` (crie se não existir):
 ```json
-{"videos": [{"data": "AAAA-MM-DD", "tipo": "short", "slug": "...", "post": "slug-do-post",
+{"videos": [{"data": "AAAA-MM-DD", "tipo": "short", "quadro": "60s|historias|lafora", "numero": null, "slug": "...", "post": "slug-do-post",
              "titulo": "...", "url": "https://youtu.be/...", "voz": "google:Charon",
              "segundos": 0, "publica_em": "AAAA-MM-DD HH:MM", "status": "programado|publicado|pronto (não publicado: motivo)"}]}
 ```

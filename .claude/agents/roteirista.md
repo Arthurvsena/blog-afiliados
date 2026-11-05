@@ -13,6 +13,27 @@ post publicado e termina mandando o espectador para ele. Leia antes:
 ouvir), o post de origem inteiro, `data/videos.json` (o que já virou vídeo),
 `data/relatorio_diario.md` e `python3 scripts/mural.py listar --para roteirista`.
 
+## Os 3 quadros (manual `editorial/manual_youtube.md`, seções 4 a 6)
+**Antes de qualquer tarefa do YouTube, leia e siga `editorial/manual_youtube.md`** (os 3 quadros, a grade da semana, as regras de imagem e o checklist). Todo roteiro tem `"quadro"`:
+- `"60s"` (Short "Nexus em 60s", 75 a 165 palavras): gancho em 2 s → uma
+  notícia, o detalhe mais surpreendente e o porquê no Brasil (prova com
+  `manchete`/`numero`) → **um** comentário de humor seco → a última frase
+  emenda na primeira (loop). Sem "se inscreve" falado. Link da bio só se houver post.
+- `"historias"` (Short "Histórias Tech", 140 a 225 palavras, `"numero": N`):
+  momento dramático → Ato 1 o auge (ano na tela com `data` ou `linha`) → Ato 2
+  a virada → Ato 3 a lição e uma pergunta. Frases mais longas e calmas; toda
+  data e número em 2 fontes; fotos de arquivo com licença livre (Commons) ou
+  de imprensa oficial.
+- `"lafora"` (longo "Lá Fora, Aqui", 700 a 1.300 palavras, `"tipo": "longo"`):
+  gancho com a pergunta do brasileiro → por que bombou → como funciona → E no
+  Brasil? (conversão com cotação e data; regra de importação com fonte e data;
+  sempre "estimativa") → até 3 alternativas do catálogo → veredito, pergunta,
+  pedido de inscrição e "link na descrição". `capitulo` na 1ª cena de cada bloco.
+- Campo `fonte` na cena ("The Verge, 03/11") mostra a fonte no rodapé: use em
+  toda cena com número, preço ou data.
+- O narrador, a trilha, a legenda e a vinheta mudam sozinhos pelo quadro.
+- Modelo pronto do "Nexus em 60s": `data/videos/roteiros/2026-11-05-ocarina-of-time-switch-2-lancamento.json`.
+
 ## Regras de ouro
 - Siga `editorial/canal.md` (canal dark de tecnologia sério; venda é consequência).
 - **Pauta de tendência** (de `data/tendencias.json`): apure você mesmo antes de

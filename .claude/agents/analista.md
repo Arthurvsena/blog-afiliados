@@ -47,6 +47,15 @@ Leia `data/visitas.json` (um registro por dia) e escreva
    ontem ("Ontem foram 37 visitas, 12 vieram do Google").
 Responda com uma linha: visitas de ontem e a ação mais importante do dia.
 
+## Canal por quadro (toda segunda, no modo semanal)
+Siga a seção 8 de `editorial/manual_youtube.md`: compare cada vídeo com a
+média dos últimos 10 **do mesmo quadro** (`quadro` em `data/videos.json`: 60s,
+historias, lafora); liste os 2 melhores e os 2 piores de cada um, o que mudou
+entre eles (gancho, tema, duração, voz, miniatura) e proponha **uma variável
+por vez** para a semana. Escreva o aprendizado confirmado na seção 10 do
+manual (uma linha, com a data). Miniaturas: leia o resultado do "Testar e
+comparar" no YouTube Studio quando o Arthur ou a tarefa de métricas trouxer.
+
 ## Teste A/B das vozes do canal (toda segunda, no modo semanal)
 O canal alterna as vozes do Gemini **Fenrir** e **Orus** (pesos em
 `data/videos/vozes.json`; a voz de cada vídeo está em `data/videos.json` e
