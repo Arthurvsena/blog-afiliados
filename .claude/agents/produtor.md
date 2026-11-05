@@ -33,9 +33,12 @@ Com o caminho do roteiro:
 1. **Fatos**: tudo o que está em `fala` e `tela` está no post ou nas `fontes` do roteiro? Corte o que não estiver.
 1b. **Qualidade editorial**: o vídeo entrega o que o gancho promete, ensina algo de verdade e só cita produto se o assunto pedir (no máximo 1, no fim)?
 2. **Gancho**: a 1ª cena prende em 2 segundos? Reescreva se estiver fraca.
-3. **SEO do YouTube**: título com a palavra que as pessoas buscam no começo
-   (até 70 caracteres; `#shorts` no fim dos Shorts), `resumo` com a
-   palavra-chave na 1ª frase, 3 a 5 `hashtags` relevantes.
+3. **Embalagem (o que traz público)**: siga a seção "Embalagem" do roteirista e a
+   seção 7 do manual. Pergunte: eu clicaria nesse título no meio de 20 outros?
+   Ele tem a palavra-chave no começo, um dado concreto e uma curiosidade que o
+   vídeo responde? Se não, reescreva (até 60 caracteres + `#shorts` nos Shorts).
+   `resumo` com a palavra-chave na 1ª frase; 3 a 5 `hashtags`; no longo,
+   `capa_texto` (até 4 palavras que completam o título) e `capa_texto_b`.
 4. **Duração e quadro**: segue a estrutura do quadro no manual (Nexus em 60s: 30 a 60 s
    e termina em loop; Histórias Tech: 60 a 90 s em 3 atos com ano na tela; Lá Fora,
    Aqui: 5 a 8 min com os 6 blocos). Confira o checklist da seção 9 do manual.

@@ -375,13 +375,21 @@ def gerar_descricao(rot):
     else:
         linhas.append(f"Mais notícias e guias de tecnologia: https://nexustechai.com.br/"
                       f"?utm_source=youtube&utm_medium={rot.get('tipo', 'short')}&utm_campaign={rot['slug']}")
+    serie = {"60s": "Nexus em 60s: a notícia de tecnologia do dia em menos de um minuto.",
+             "historias": "Histórias Tech: como empresas e produtos de tecnologia subiram, caíram e o que isso ensina.",
+             "lafora": "Lá Fora, Aqui: o que bombou lá fora, se chega ao Brasil e por quanto."}.get(rot.get("quadro"))
+    if serie:
+        linhas += ["", serie + " Inscreva-se: https://www.youtube.com/@TechNexusIA?sub_confirmation=1"]
     if ids:
         linhas += ["", "Produtos do vídeo (links de afiliado):"]
         linhas += [f"- {catalogo[i]['nome']}: {catalogo[i]['link_afiliado']}" for i in ids]
     if rot.get("capitulos_desc"):
         linhas += ["", "Capítulos:"] + rot["capitulos_desc"]
-    linhas += ["", "Links de afiliado do Mercado Livre: se você comprar por eles, o canal ganha uma comissão,"
-               " sem custo extra para você. Preços mudam: confira o valor atual no link."]
+    if ids:
+        linhas += ["", "Links de afiliado do Mercado Livre: se você comprar por eles, o canal ganha uma comissão,"
+                   " sem custo extra para você. Preços mudam: confira o valor atual no link."]
+    else:
+        linhas.append("")
     fontes = list(dict.fromkeys([f["nome"] for f in (meta.get("fontes") or []) + (rot.get("fontes") or []) if f.get("nome")]))
     if fontes:
         linhas.append("Fontes: " + ", ".join(fontes) + ".")
@@ -395,9 +403,12 @@ def gerar_descricao(rot):
     if creditos:
         linhas.append("Imagens: " + "; ".join(creditos) + ".")
     linhas.append("Narração com voz sintética.")
-    tags = rot.get("hashtags") or []
+    # as 3 primeiras hashtags aparecem em cima do título: a mais buscada primeiro
+    tags = [t.lstrip("#") for t in (rot.get("hashtags") or [])][:4]
+    if rot.get("tipo", "short") == "short" and "shorts" not in [t.lower() for t in tags]:
+        tags.append("shorts")
     if tags:
-        linhas += ["", " ".join("#" + t.lstrip("#") for t in tags[:5])]
+        linhas += ["", " ".join("#" + t for t in tags)]
     return "\n".join(l for l in linhas if l is not None).strip()[:4900]
 
 

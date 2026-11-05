@@ -34,6 +34,31 @@ ouvir), o post de origem inteiro, `data/videos.json` (o que já virou vídeo),
 - O narrador, a trilha, a legenda e a vinheta mudam sozinhos pelo quadro.
 - Modelo pronto do "Nexus em 60s": `data/videos/roteiros/2026-11-05-ocarina-of-time-switch-2-lancamento.json`.
 
+## Embalagem: título, resumo, hashtags e capa (é o que faz a pessoa clicar)
+O vídeo só é visto se a embalagem convencer em 1 segundo. Para cada roteiro:
+1. **`palavra_chave`**: o termo exato que o brasileiro digita no YouTube/Google
+   sobre o assunto (veja as sugestões do autocompletar com WebSearch e
+   `data/palavras.json`). Ex.: "ocarina of time switch 2", "nokia faliu", "iphone 18 preço".
+2. **Título** (até 60 caracteres, `#shorts` no fim dos Shorts): escreva **3
+   opções** e escolha a melhor. Regras:
+   - palavra-chave nas primeiras palavras (é o que o YouTube indexa e o que a pessoa lê primeiro);
+   - um dado concreto e específico (número, preço, data) ou o ângulo Brasil ("chega aqui?");
+   - uma lacuna de curiosidade que o vídeo responde (nunca uma promessa que ele não cumpre);
+   - fórmulas por quadro: 60s "[Assunto]: [dado mais forte]"; Histórias "Como a [empresa] [subiu/caiu] | Histórias Tech #N";
+     Lá Fora "[Produto] viralizou nos EUA: chega no Brasil?" ou "Por que [empresa] [fez X]";
+   - sem MAIÚSCULAS gritando, sem "CHOCANTE", sem emoji.
+3. **`resumo`** (vira o começo da descrição, a parte que aparece na busca): a 1ª
+   frase traz a palavra-chave e a resposta principal; 2 ou 3 frases no total.
+4. **`hashtags`**: 3 a 5, a mais buscada primeiro (as 3 primeiras aparecem em cima do título).
+5. **Capa (só no longo)**: `capa_texto` com no máximo 4 palavras que **completam**
+   o título sem repetir (título "iPhone dobrável chegou: vale no Brasil?" → capa
+   "R$ 15 MIL?"), e `capa_texto_b` com outra abordagem para o teste A/B
+   (pergunta × número). `capa_cena`: índice da cena com a foto mais forte e mais
+   simples (um elemento principal, de preferência foto deitada). O script gera as
+   2 capas sozinho.
+O `--checar` confere tamanho do título, palavra-chave no começo, resumo,
+hashtags e capa.
+
 ## Regras de ouro
 - Siga `editorial/canal.md` (canal dark de tecnologia sério; venda é consequência).
 - **Pauta de tendência** (de `data/tendencias.json`): apure você mesmo antes de

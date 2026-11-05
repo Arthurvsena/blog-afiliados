@@ -587,12 +587,16 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
 
     capa = None
     if tipo == "longo":
-        primeira = next((x for c in props_cenas for x in c["imagens"]), None)
-        q = base.Quadro(rot, "longo", rot.get("selo", ""))
-        img = Image.open(PUBLICO / primeira["src"]).convert("RGB") if primeira else None
-        capa = saida / f"{rot['slug']}-capa.jpg"
-        q.desenhar(q.fundo_cena(img, bool(primeira and primeira.get("produto"))), 0.0, 0.0,
-                   rot.get("capa_texto") or rot["titulo"], "", True).save(capa, quality=90)
+        # 2 miniaturas (A e B) para o "Testar e comparar" do YouTube Studio
+        fotos_capa = [x for c in props_cenas for x in c["imagens"] if not x.get("produto")]
+        idx = int(rot.get("capa_cena", -1))
+        escolhida = (props_cenas[idx]["imagens"][0] if 0 <= idx < len(props_cenas) and props_cenas[idx]["imagens"] else None) \
+            or (max(fotos_capa, key=lambda x: x.get("prop", 1)) if fotos_capa else None) \
+            or next((x for c in props_cenas for x in c["imagens"]), None)
+        if escolhida:
+            import capa as gerador_capa
+            capa, _ = gerador_capa.gerar(PUBLICO / escolhida["src"], saida / rot["slug"], rot.get("capa_texto") or rot["titulo"],
+                                         quadro.get("nome", ""), rot.get("capa_texto_b"))
     rot["creditos_extra"] = creditos
     # capítulos da descrição com os tempos REAIS da narração (a estimativa do roteiro erra e o YouTube
     # ignora capítulos que passam do fim do vídeo); precisa começar em 0:00 e ter blocos de 10 s ou mais
@@ -654,6 +658,32 @@ def checar(rot):
         problemas.append("a última fala do vídeo longo não pede para se inscrever no canal")
     if not longo and re.search(r"inscrev", " ".join(c.get("fala", "") for c in cenas[:2]).lower()):
         problemas.append("Short não pede inscrição no começo (o botão animado aparece sozinho no fim)")
+    # embalagem: título, resumo, hashtags e capa (editorial/manual_youtube.md, seção 7)
+    import unicodedata
+    sem_acento = lambda x: unicodedata.normalize("NFKD", x or "").encode("ascii", "ignore").decode().lower()
+    titulo = rot.get("titulo", "")
+    nucleo = re.sub(r"\s*#shorts\s*$", "", titulo, flags=re.I)
+    if len(nucleo) > 60:
+        problemas.append(f"título com {len(nucleo)} caracteres (máximo 60, sem contar o #shorts)")
+    if not longo and not titulo.lower().endswith("#shorts"):
+        problemas.append("título de Short tem que terminar com #shorts")
+    pc = rot.get("palavra_chave", "")
+    if not pc:
+        problemas.append("falta 'palavra_chave' (o termo que as pessoas buscam, ex.: 'ocarina of time switch 2')")
+    else:
+        tem = lambda texto, ate: all(re.search(r"\b" + re.escape(w) + r"\b", sem_acento(texto)[:ate]) for w in sem_acento(pc).split())
+        if not tem(nucleo, max(45, len(pc) + 15)):
+            problemas.append(f"a palavra-chave '{pc}' tem que estar no começo do título")
+        if not tem(rot.get("resumo", ""), 160):
+            problemas.append("a 1ª frase do 'resumo' tem que ter a palavra-chave")
+    if not 3 <= len(rot.get("hashtags") or []) <= 5:
+        problemas.append("use de 3 a 5 hashtags (a mais buscada primeiro)")
+    if longo:
+        ct = rot.get("capa_texto", "")
+        if not ct or len(ct.split()) > 4:
+            problemas.append("'capa_texto' obrigatório no longo, com no máximo 4 palavras")
+        elif sem_acento(ct) in sem_acento(titulo):
+            problemas.append("'capa_texto' não pode repetir o título: a capa completa o título")
     for p in problemas:
         print("PROBLEMA:", p)
     print("OK" if not problemas else f"{len(problemas)} problema(s)")

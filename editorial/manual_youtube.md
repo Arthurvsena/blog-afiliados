@@ -113,8 +113,19 @@ capítulos na descrição (o script calcula os tempos reais). Miniatura: um
 elemento principal grande, fundo escuro com brilho violeta, no máximo 3 a 4
 palavras que não repetem o título.
 
-## 7. Títulos
-Até 60 caracteres (mais ` #shorts` nos Shorts), palavra-chave no começo.
+## 7. Embalagem: títulos, descrições e capas
+**Título:** até 60 caracteres (mais ` #shorts` nos Shorts), palavra-chave (campo
+`palavra_chave`, o termo que o brasileiro busca) no começo, um dado concreto e
+uma curiosidade que o vídeo responde. O roteirista escreve 3 opções e escolhe.
+**Descrição** (gerada pelo script): 1ª frase com a palavra-chave e a resposta;
+link do blog; frase do quadro com link de inscrição; produtos (se houver);
+capítulos (longo); fontes e créditos; 3 a 5 hashtags, a mais buscada primeiro.
+**Capas (longo):** o script gera 2 versões, A (texto à esquerda, foto com
+brilho violeta) e B (foto inteira, texto grande com destaque amarelo), com o
+`capa_texto` e o `capa_texto_b`: até 4 palavras que completam o título. Elas
+vão para o "Testar e comparar" do YouTube Studio, que escolhe a vencedora.
+**Shorts:** a "capa" é o primeiro segundo: gancho forte com texto grande.
+Fórmulas:
 Fórmulas: "[Produto] chegou: vale a pena no Brasil?", "Por que [empresa] [fez X]",
 "O [produto] que viralizou na China (e quanto custaria aqui)",
 "Como a [empresa] [subiu/caiu]". Nunca prometer o que o vídeo não entrega.
