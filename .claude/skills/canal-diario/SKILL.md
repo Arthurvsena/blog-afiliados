@@ -23,7 +23,8 @@ script usa sozinho a voz grátis Kokoro.
    `data/tendencias.json`.
 2. Chame o `produtor` em **modo pauta do dia**. Ele devolve um vídeo para cada
    quadro de hoje em `config.yaml > video.grade` (seg a sex: 1 "Nexus em 60s";
-   quinta: + 1 "Lá Fora, Aqui"; sáb e dom: 1 "Histórias Tech").
+   terça: + 1 "Nexus Ensina" (tutorial longo); quinta: + 1 "Lá Fora, Aqui";
+   sáb e dom: 1 "Histórias Tech").
 
 ## A2. Roteiros
 Para cada vídeo: `roteirista` (com o tipo e a pauta: a tendência inteira em JSON ou o post) e depois `produtor` em
@@ -32,7 +33,7 @@ Para cada vídeo: `roteirista` (com o tipo e a pauta: a tendência inteira em JS
 ## A3. Montagem (um vídeo por vez)
 0. `python3 scripts/video_motion.py data/videos/roteiros/SLUG.json --checar`
    tem que dar OK (senão devolva ao roteirista com o que faltou).
-   **Vídeo longo ("Lá Fora, Aqui"): não monte você.** A ferramenta de comandos
+   **Vídeo longo ("Lá Fora, Aqui" ou "Nexus Ensina"): não monte você.** A ferramenta de comandos
    corta qualquer comando com mais de 10 minutos e o longo em 1080p demora mais
    que isso (foi o que quebrou o vídeo de 05/11). Depois do `--checar` dar OK,
    escreva o caminho do roteiro numa linha de `_videos/fila.txt` e siga: o
@@ -141,7 +142,7 @@ Para cada vídeo:
 
 ### Horários (um vídeo por horário, nunca todos juntos)
 De `config.yaml > video.horarios`: **12:00** o Short do dia ("Nexus em 60s" ou
-"Histórias Tech") e **19:00** o "Lá Fora, Aqui" (quintas).
+"Histórias Tech") e **19:00** o vídeo longo ("Nexus Ensina" às terças, "Lá Fora, Aqui" às quintas).
 - Se o horário já passou (ou falta menos de 30 min), programe para 30 min depois
   de agora, com pelo menos **2 horas** entre dois vídeos.
 - Se isso passar das 23:00, programe para amanhã no horário-padrão.

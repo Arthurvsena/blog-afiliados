@@ -189,6 +189,28 @@ def preparar_imagens(rot, pasta, catalogo, creditos):
                     salvar_img(Image.open(io.BytesIO(pegar(url.strip()))), destino)
                     item = {"src": f"run/{pasta.name}/{nome}", "produto": False}
                     creditos.append(cred.strip() or "Divulgação")
+                elif ref.startswith(("video:", "tela:", "estoque:")):
+                    # trecho de VÍDEO: oficial (trailer/b-roll do fabricante ou do jogo), gravação de tela nossa
+                    # ou banco gratuito (Pexels). Nunca vídeo de outro canal/emissora (editorial/manual_youtube.md).
+                    import midia
+                    nome = f"c{i:02d}-{j}.mp4"
+                    destino = pasta / nome
+                    tipo_ref, _, resto = ref.partition(":")
+                    partes = [x.strip() for x in resto.split("|")]
+                    alvo, cred = partes[0], (partes[1] if len(partes) > 1 else "")
+                    inicio = float(partes[2]) if len(partes) > 2 and partes[2] else 0.0
+                    if tipo_ref == "video":
+                        midia.recortar_video(alvo, destino, inicio, 12, vertical=rot.get("tipo", "short") == "short")
+                    elif tipo_ref == "tela":
+                        midia.gravar_tela(alvo, destino, segundos=12, vertical=rot.get("tipo", "short") == "short")
+                        cred = cred or "Gravação de tela: Nexus Tech"
+                    else:
+                        cred = midia.estoque_video(alvo, destino, vertical=rot.get("tipo", "short") == "short") or cred
+                    prop = midia.proporcao(destino)
+                    item = {"src": f"run/{pasta.name}/{nome}", "produto": False, "video": True, "prop": prop,
+                            "credito": cred}
+                    if cred:
+                        creditos.append(cred)
                 elif ref.startswith("busca:"):
                     dados, cred = busca_commons(ref.split(":", 1)[1].strip(), usados)
                     if dados:
@@ -293,6 +315,10 @@ QUADROS = {
                   "estilo": "narrador brasileiro de documentário, sotaque do Brasil, voz grave, calma e cinematográfica, ritmo pausado "
                             "(cerca de 145 palavras por minuto), com pausas dramáticas nas viradas da história, "
                             "pronunciando nomes em inglês do jeito que os brasileiros falam"},
+    "tutorial": {"nome": "Nexus Ensina", "trilha": "ambiente", "legenda": "palavra", "vinheta": True,
+                 "estilo": "professor brasileiro de tecnologia explicando um passo a passo para quem não entende do assunto, "
+                           "sotaque do Brasil (paulista), calmo, claro e simpático, ritmo de cerca de 150 palavras por minuto, "
+                           "pausas curtas entre os passos, pronunciando nomes em inglês do jeito que os brasileiros falam"},
     "lafora": {"nome": "Lá Fora, Aqui", "trilha": "ambiente", "legenda": "palavra", "vinheta": True,
                "estilo": "apresentador brasileiro de um canal de tecnologia que explica novidades de fora para o público do Brasil, "
                          "sotaque do Brasil (paulista), tom de conversa natural e curioso, ritmo de cerca de 155 palavras por minuto, "
@@ -428,6 +454,11 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
                 voz_escolhida = VOZ_PADRAO
     tipo = rot.get("tipo", "short")
     quadro = QUADROS.get(rot.get("quadro"), {})
+    n_passo = 0
+    for c in rot["cenas"]:
+        if c.get("tipo") == "passo":
+            n_passo += 1
+            c.setdefault("numero_passo", n_passo)
     if quadro:
         rot["selo"] = quadro["nome"] + (f" #{rot['numero']}" if rot.get("numero") else "")
     fps = 30
@@ -444,6 +475,8 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
     preparar_manchetes(rot, pasta, creditos, tipo == "short")
     for c in cenas:  # proporção de cada foto (o vídeo em pé mostra foto deitada inteira, sem cortar)
         for x in c.get("_imagens", []):
+            if x.get("video"):
+                continue
             try:
                 with Image.open(PUBLICO / x["src"]) as im:
                     x["prop"] = round(im.width / im.height, 3)
@@ -508,7 +541,7 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
         cena = {"ini": ini, "dur": dur, "tipo": tipo_c, "tela": c.get("tela") or " ".join(t for t, _ in tokens(c["fala"])), "destaque": c.get("destaque", ""),
                 "rotulo": c.get("rotulo", ""), "icone": c.get("icone", ""), "itens": c.get("itens", []),
                 "titulo_lista": c.get("titulo_lista", ""), "autor": c.get("autor", ""), "layout": c.get("layout", ""),
-                "entrada": c.get("entrada") or ENTRADAS[(ci * 3) % len(ENTRADAS)], "manchete": c.get("_manchete"), "capitulo": c.get("capitulo", ""), "fonte": c.get("fonte", ""), "imagens": c.get("_imagens", []), "palavras": palavras}
+                "entrada": c.get("entrada") or ENTRADAS[(ci * 3) % len(ENTRADAS)], "manchete": c.get("_manchete"), "capitulo": c.get("capitulo", ""), "fonte": c.get("fonte", ""), "numero_passo": c.get("numero_passo"), "imagens": c.get("_imagens", []), "palavras": palavras}
         if tipo_c == "produto":
             pid = c.get("produto") or next((r.split(":", 1)[1] for r in (c.get("imagens") or []) if str(r).startswith("produto:")), "")
             p = catalogo.get(pid, {})
@@ -544,10 +577,10 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
         vinheta = {"ini": corte, "dur": V, "titulo": quadro["nome"]}
         duracao += V
     # cenas gráficas ganham de fundo a foto mais próxima, desfocada (contexto visual sem repetir a mesma tela)
-    fotos = [(i, x["src"]) for i, c in enumerate(props_cenas) for x in c["imagens"] if not x.get("produto")]
+    fotos = [(i, x["src"]) for i, c in enumerate(props_cenas) for x in c["imagens"] if not x.get("produto") and not x.get("video")]
     graficas = {"info", "data", "comparativo", "manchete", "lista", "barras", "linha", "citacao"}
     for i, c in enumerate(props_cenas):
-        if c["tipo"] in graficas and c["imagens"] and not c["imagens"][0].get("produto"):
+        if c["tipo"] in graficas and c["imagens"] and not c["imagens"][0].get("produto") and not c["imagens"][0].get("video"):
             c["fundo"] = c["imagens"][0]["src"]  # cena gráfica com foto própria: a foto vira o fundo desfocado
         elif not c["imagens"] and fotos:
             c["fundo"] = min(fotos, key=lambda q: (abs(q[0] - i), q[0]))[1]
@@ -596,11 +629,11 @@ def montar(rot, audio_externo=None, saida=None, voz_escolhida=None):
     capa = None
     if tipo == "longo":
         # 2 miniaturas (A e B) para o "Testar e comparar" do YouTube Studio
-        fotos_capa = [x for c in props_cenas for x in c["imagens"] if not x.get("produto")]
+        fotos_capa = [x for c in props_cenas for x in c["imagens"] if not x.get("produto") and not x.get("video")]
         idx = int(rot.get("capa_cena", -1))
         escolhida = (props_cenas[idx]["imagens"][0] if 0 <= idx < len(props_cenas) and props_cenas[idx]["imagens"] else None) \
             or (max(fotos_capa, key=lambda x: x.get("prop", 1)) if fotos_capa else None) \
-            or next((x for c in props_cenas for x in c["imagens"]), None)
+            or next((x for c in props_cenas for x in c["imagens"] if not x.get("video")), None)
         if escolhida:
             import capa as gerador_capa
             capa, _ = gerador_capa.gerar(PUBLICO / escolhida["src"], saida / rot["slug"], rot.get("capa_texto") or rot["titulo"],
@@ -633,15 +666,22 @@ def checar(rot):
     problemas = []
     q = rot.get("quadro")
     if q not in QUADROS:
-        problemas.append(f"campo 'quadro' ausente ou inválido ({q!r}): use 60s, historias ou lafora")
+        problemas.append(f"campo 'quadro' ausente ou inválido ({q!r}): use 60s, historias, lafora ou tutorial")
     longo = rot.get("tipo") == "longo"
-    if (q == "lafora") != longo and q in QUADROS:
-        problemas.append("'lafora' é sempre vídeo longo; '60s' e 'historias' são sempre Shorts")
+    if (q in ("lafora", "tutorial")) != longo and q in QUADROS:
+        problemas.append("'lafora' e 'tutorial' são sempre vídeo longo; '60s' e 'historias' são sempre Shorts")
+    clipes = {str(r) for c in cenas for r in (c.get("imagens") or []) if str(r).startswith(("video:", "tela:", "estoque:"))}
+    minimo_clipes = 4 if longo else 1
+    if len(clipes) < minimo_clipes:
+        problemas.append(f"só {len(clipes)} trecho(s) de vídeo (mínimo {minimo_clipes}): use 'video:' (trailer/b-roll oficial), "
+                         "'tela:' (gravação de tela nossa) ou 'estoque:' (Pexels). Só foto e animação fazem a pessoa pular")
+    if q == "tutorial" and sum(1 for t in tipos if t == "passo") < 3:
+        problemas.append("tutorial precisa de pelo menos 3 cenas 'passo'")
     palavras = sum(len(falado(c.get("fala", "")).split()) for c in cenas)
-    faixa = {"60s": (75, 165), "historias": (140, 225), "lafora": (700, 1300)}.get(q, (60, 2000))
+    faixa = {"60s": (75, 165), "historias": (140, 225), "lafora": (700, 1300), "tutorial": (600, 1300)}.get(q, (60, 2000))
     if not faixa[0] <= palavras <= faixa[1]:
         problemas.append(f"{palavras} palavras faladas; o quadro pede de {faixa[0]} a {faixa[1]}")
-    minimo_tipos = {"60s": 4, "historias": 4, "lafora": 7}.get(q, 5)
+    minimo_tipos = {"60s": 4, "historias": 4, "lafora": 7, "tutorial": 6}.get(q, 5)
     if len(set(tipos)) < minimo_tipos:
         problemas.append(f"pouca variedade de cenas: {sorted(set(tipos))} (mínimo {minimo_tipos} tipos diferentes)")
     for i in range(len(tipos) - 2):

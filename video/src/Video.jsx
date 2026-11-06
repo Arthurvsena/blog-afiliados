@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  AbsoluteFill, Audio, Img, Sequence, interpolate, spring, staticFile,
+  AbsoluteFill, Audio, Img, OffthreadVideo, Sequence, interpolate, spring, staticFile,
   useCurrentFrame, useVideoConfig, Easing,
 } from 'remotion';
 
@@ -57,6 +57,31 @@ const Foto = ({img, dur, i, vertical}) => {
   const x = interpolate(f, [0, dur], [-2.5 * dir, 2.5 * dir], {extrapolateRight: 'clamp'});
   const y = interpolate(f, [0, dur], [1.5, -1.5], {extrapolateRight: 'clamp'});
   const op = interpolate(f, [0, 8], [0, 1], {extrapolateRight: 'clamp'});
+  if (img.video) {
+    // trecho de vídeo (trailer oficial, gravação de tela nossa ou banco grátis), sem som, com crédito
+    const deitado = (img.prop || 1.78) > 1.15;
+    const zv = interpolate(f, [0, dur], [1.0, 1.06], {extrapolateRight: 'clamp'});
+    const clipe = (estilo) => <OffthreadVideo src={staticFile(img.src)} muted style={estilo} />;
+    return (
+      <AbsoluteFill style={{opacity: op, overflow: 'hidden', background: FUNDO}}>
+        {vertical && deitado ? (
+          <>
+            <Img src={staticFile(img.src.replace(/\.mp4$/, '-quadro.jpg'))} style={{width: '100%', height: '100%', objectFit: 'cover',
+              filter: 'blur(30px) brightness(.4)', transform: 'scale(1.3)'}} />
+            <div style={{position: 'absolute', left: 0, right: 0, top: '15%', aspectRatio: `${img.prop || 1.78}`, overflow: 'hidden',
+              boxShadow: '0 30px 90px rgba(0,0,0,.65)'}}>
+              {clipe({width: '100%', height: '100%', objectFit: 'cover', transform: `scale(${zv})`})}
+            </div>
+          </>
+        ) : clipe({width: '100%', height: '100%', objectFit: 'cover', transform: `scale(${zv})`})}
+        {img.credito ? (
+          <div style={{position: 'absolute', right: 24, top: vertical ? '13%' : 70, fontFamily: FONTE, fontWeight: 600,
+            fontSize: vertical ? 26 : 22, color: 'rgba(255,255,255,.85)', background: 'rgba(5,5,7,.55)', padding: '4px 10px',
+            borderRadius: 6}}>{img.credito}</div>
+        ) : null}
+      </AbsoluteFill>
+    );
+  }
   if (img.produto) {
     return (
       <AbsoluteFill style={{opacity: op}}>
@@ -633,6 +658,22 @@ const Rodape = ({texto, k, vertical}) => {
   );
 };
 
+// ---------- passo de tutorial: selo "PASSO N" + o que fazer, por cima da gravação/foto ----------
+const Passo = ({cena, k, vertical}) => {
+  const f = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const s = spring({frame: f - 3, fps, config: {damping: 13, stiffness: 160}});
+  return (
+    <div style={{position: 'absolute', left: 40 * k, right: 40 * k, top: vertical ? '58%' : undefined, bottom: vertical ? undefined : 120 * k,
+      display: 'flex', alignItems: 'center', gap: 22 * k, opacity: s, transform: `translateX(${(1 - s) * -80}px)`}}>
+      <div style={{flexShrink: 0, fontFamily: FONTE, fontWeight: 900, fontSize: 40 * k, color: '#fff', background: ROXO,
+        padding: `${10 * k}px ${20 * k}px`, borderRadius: 14 * k, boxShadow: `0 0 30px ${ROXO}`}}>PASSO {cena.numero_passo || ''}</div>
+      <div style={{fontFamily: FONTE, fontWeight: 800, fontSize: (vertical ? 52 : 46) * k, color: '#fff', lineHeight: 1.1,
+        textShadow: '0 3px 14px rgba(0,0,0,.9)'}}>{cena.tela}</div>
+    </div>
+  );
+};
+
 const Cena = ({cena, k, vertical, primeira}) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
@@ -651,6 +692,7 @@ const Cena = ({cena, k, vertical, primeira}) => {
       {cena.tipo === 'gancho' ? <Gancho cena={cena} k={k} vertical={vertical} /> : null}
       {cena.tipo === 'numero' ? <Numero cena={cena} k={k} vertical={vertical} /> : null}
       {cena.tipo === 'cta' ? <Chamada cena={cena} k={k} vertical={vertical} /> : null}
+      {cena.tipo === 'passo' ? <Passo cena={cena} k={k} vertical={vertical} /> : null}
       <Capitulo cena={cena} k={k} />
       {cena.fonte && cena.tipo !== 'manchete' ? <Rodape texto={cena.fonte} k={k} vertical={vertical} /> : null}
       <AbsoluteFill style={{background: '#fff', opacity: flash}} />
@@ -673,9 +715,9 @@ export const Video = (props) => {
         </Sequence>
       ))}
       {/* legenda palavra por palavra (fica por cima das cenas) */}
-      {cenas.map((c, i) => ['fato', 'produto', 'info', 'data', 'comparativo', 'manchete', 'barras'].includes(c.tipo) && (c.palavras || []).length ? (
+      {cenas.map((c, i) => ['fato', 'passo', 'produto', 'info', 'data', 'comparativo', 'manchete', 'barras'].includes(c.tipo) && (c.palavras || []).length ? (
         <Sequence key={'l' + i} from={c.ini} durationInFrames={c.dur}>
-          <Legenda palavras={c.palavras} base={c.ini} k={k} vertical={vertical} modo={props.legenda} baixo={['produto', 'info', 'data', 'comparativo', 'manchete', 'barras'].includes(c.tipo)} />
+          <Legenda palavras={c.palavras} base={c.ini} k={k} vertical={vertical} modo={props.legenda} baixo={['passo', 'produto', 'info', 'data', 'comparativo', 'manchete', 'barras'].includes(c.tipo)} />
         </Sequence>
       ) : null)}
       {(props.inscrever || []).map((q, i) => (

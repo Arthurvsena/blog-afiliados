@@ -29,6 +29,17 @@ ouvir), o post de origem inteiro, `data/videos.json` (o que já virou vídeo),
   Brasil? (conversão com cotação e data; regra de importação com fonte e data;
   sempre "estimativa") → até 3 alternativas do catálogo → veredito, pergunta,
   pedido de inscrição e "link na descrição". `capitulo` na 1ª cena de cada bloco.
+- `"tutorial"` (longo "Nexus Ensina", 600 a 1.300 palavras, `"tipo": "longo"`):
+  resultado primeiro → o que precisa → cenas `passo` (mínimo 3; `tela` com a
+  ação curta, ex. "Abra Ajustes > Geral") → se não funcionou → resumo em
+  `lista`, pergunta, inscrição, "link na descrição". Confira cada passo na
+  página oficial de ajuda (WebFetch) e liste-a em `fontes`.
+- **Trechos de vídeo** (o `--checar` exige 1 por Short e 4 por longo), em `imagens`:
+  `"video:URL_DO_MP4_OU_M3U8|Vídeo: Empresa|SEGUNDO"` (trailer/gameplay
+  oficial: `python3 scripts/midia.py videos URL_OFICIAL`, ex. a página do
+  jogo na Steam ou o site do produto), `"tela:URL"` (gravação de tela nossa
+  da página) ou `"estoque:termos em inglês"` (Pexels). Nunca vídeo de outro
+  canal do YouTube, TV ou filme (seção "Trechos de VÍDEO" do manual).
 - Campo `fonte` na cena ("The Verge, 03/11") mostra a fonte no rodapé: use em
   toda cena com número, preço ou data.
 - O narrador, a trilha, a legenda e a vinheta mudam sozinhos pelo quadro.

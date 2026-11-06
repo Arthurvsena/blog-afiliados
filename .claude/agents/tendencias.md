@@ -42,7 +42,12 @@ bombou lá fora, com pergunta "chega aqui? por quanto?") ou `historias` (histór
 que não envelhece de empresa/produto, com auge, virada e lição; pode não ser
 "tendência" do dia: pense em datas redondas, aniversários de lançamento e
 assuntos que voltaram à conversa). Mantenha sempre pelo menos 3 pautas
-`historias` e 2 `lafora` com status `nova` no arquivo.
+`historias`, 2 `lafora` e 3 `tutorial` com status `nova` no arquivo.
+Pautas `tutorial` ("Nexus Ensina"): dúvidas "como fazer" com busca real
+(autocompletar do YouTube e do Google: "como liberar espaço", "como saber se
+o celular é original"...), que dá para mostrar com gravação de tela de um
+site/serviço ou com a página oficial de ajuda do fabricante. Registre a busca
+que comprova a demanda em `evidencias`.
 
 ### Biblioteca de Padrões (só na 1ª segunda-feira do mês)
 Veja os vídeos mais vistos do mês de Two Minute Papers, Fireship, ColdFusion,

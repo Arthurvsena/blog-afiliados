@@ -114,7 +114,7 @@ video:
     longo: "19:00"
   grade:                    # quadros de cada dia (editorial/manual_youtube.md): 8 vídeos por semana
     seg: ["60s"]
-    ter: ["60s"]
+    ter: ["60s", "tutorial"]
     qua: ["60s"]
     qui: ["60s", "lafora"]
     sex: ["60s"]

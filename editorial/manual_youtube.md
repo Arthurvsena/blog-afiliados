@@ -28,6 +28,25 @@
 - Gráficos, listas, linhas do tempo e números animados feitos por nós.
 - Logo de empresa **só para identificar de quem se fala**, nunca como enfeite.
 
+### Trechos de VÍDEO (obrigatórios: só foto e animação fazem a pessoa pular)
+Todo vídeo tem trechos em movimento: **pelo menos 1 por Short e 4 por longo**.
+Fontes permitidas, nesta ordem:
+1. **Vídeo oficial** de quem é dono do assunto: trailer e gameplay oficial do
+   jogo (página da Steam, site do jogo/publisher), vídeo de divulgação do
+   fabricante (página do produto, press kit). Ache com
+   `python3 scripts/midia.py videos URL_OFICIAL` e use
+   `"video:URL|Vídeo: Rockstar Games|SEGUNDO_INICIAL"` (o script corta 12 s,
+   sem som, com o crédito na tela). Trecho curto, ilustrando o que a narração
+   comenta: é citação (Lei 9.610/98, art. 46, III), não reaproveitamento.
+2. **Gravação de tela nossa**: `"tela:URL"` abre a página e grava 12 s rolando
+   (página oficial do produto, do jogo, do serviço, o site do tutorial).
+3. **Banco grátis** (Pexels): `"estoque:termos em inglês"` para cenas genéricas
+   (pessoa usando celular, cidade, loja). Só funciona com o segredo `PEXELS_API_KEY`.
+**Nunca**: vídeo de outro canal/criador do YouTube, TV, filme ou série, e
+nunca baixar nada do YouTube. Isso gera reivindicação de direitos, "conteúdo
+reutilizado" e perda da monetização do canal inteiro. Vídeo grátis para
+assistir não é grátis para usar.
+
 ### Proibido
 Trecho de vídeo de terceiros, emissoras ou filmes; música comercial (a trilha é
 gerada pelo nosso script, `scripts/trilha.py`); imagem de IA; personagem de
@@ -68,9 +87,10 @@ blocos, estilo da miniatura) em `data/videos/padroes.md`. Nunca o roteiro.
 | Dia | Vídeos |
 |---|---|
 | Segunda a sexta | 1 "Nexus em 60s" (12:00) |
+| Terça | + 1 "Nexus Ensina" (tutorial, 19:00) |
 | Quinta | + 1 "Lá Fora, Aqui" (19:00) |
 | Sábado e domingo | 1 "Histórias Tech" (12:00) |
-São 8 vídeos por semana, cada um com mais cuidado.
+São 9 vídeos por semana: os Shorts trazem gente nova, os longos dão o motivo para se inscrever.
 
 ## 4. "Nexus em 60s": Short de notícia (`"quadro": "60s"`)
 Inspiração: Fireship. 9:16, 30 a 60 s (75 a 165 palavras), voz ~175 ppm.
@@ -112,6 +132,27 @@ número importante escrito na tela; comparações em `barras`/`comparativo`;
 capítulos na descrição (o script calcula os tempos reais). Miniatura: um
 elemento principal grande, fundo escuro com brilho violeta, no máximo 3 a 4
 palavras que não repetem o título.
+
+## 6b. "Nexus Ensina": tutorial longo (`"quadro": "tutorial"`, `"tipo": "longo"`)
+Por quê: tutorial é o que as pessoas **procuram** no YouTube e não envelhece;
+é o vídeo que faz alguém se inscrever ("esse canal resolve meu problema").
+16:9, 4 a 8 min (600 a 1.300 palavras), voz calma ~150 ppm, toda terça.
+**Tema:** uma dúvida real com busca (autocompletar do YouTube/Google com
+"como..."): configurar, resolver, economizar, se proteger. Ex.: "como liberar
+espaço no celular", "como saber se o celular é original pelo IMEI", "como
+transferir o WhatsApp para outro celular", "como ver se um site é golpe antes
+de comprar". Prefira o que dá para MOSTRAR com gravação de tela (sites e
+serviços web) e com páginas oficiais de ajuda (Apple, Samsung, Google,
+Microsoft, Anatel, gov.br), sempre conferindo os passos na página oficial.
+| Bloco | O que acontece |
+|---|---|
+| 0:00–0:20 | **O resultado primeiro**: o que a pessoa vai conseguir no fim e em quanto tempo. |
+| 0:20–0:50 | **O que você precisa** (aparelho, versão, conta) e para quem **não** serve. |
+| passos | Cenas `passo` (selo "PASSO N" + a ação curta em `tela`), uma ação por passo, com gravação de tela (`tela:`) ou imagem oficial da página de ajuda. Diga onde tocar e o que deve aparecer. |
+| erros | **Se não funcionou**: os 2 ou 3 problemas mais comuns e a saída. |
+| fim | Resumo em `lista`, pergunta ("que tutorial você quer no próximo?"), pedido para se inscrever e "link na descrição". |
+Títulos: "Como [fazer X] no [aparelho/app] (passo a passo 2026)". Capa: o
+resultado ("CELULAR LIVRE", "DESCOBRI O GOLPE").
 
 ## 7. Embalagem: títulos, descrições e capas
 **Título:** até 60 caracteres (mais ` #shorts` nos Shorts), palavra-chave (campo

@@ -23,6 +23,10 @@ por quadro do dia**, que ainda **não** esteja em `data/videos.json`:
   número do episódio (maior `numero` em `data/videos.json` + 1).
 - `lafora` (longo "Lá Fora, Aqui", só às quintas): a melhor pauta `lafora`
   (origem gringo, passou nos 3 de 4 critérios).
+- `tutorial` (longo "Nexus Ensina", às terças): a melhor pauta `tutorial` em
+  `data/tendencias.json` (dúvida "como..." com busca real, que dá para mostrar
+  com gravação de tela ou página oficial de ajuda). Não repita tema dos
+  últimos tutoriais.
 Não repita o assunto nem o tipo de gancho dos últimos 5 vídeos do mesmo quadro.
 Para cada um, diga a fonte da pauta (tendência ou post) e marque a tendência
 usada com `"status": "em_video"`.
