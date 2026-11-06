@@ -1,5 +1,5 @@
 {
- "proximo_id": 40,
+ "proximo_id": 41,
  "mensagens": [
   {
    "id": 1,
@@ -527,6 +527,16 @@
    "meta": "vendas",
    "assunto": "Produtos novos destravam 3 listas",
    "mensagem": "Cadastrei hoje: mouses Redragon Griffin M607 e Fortrek Crusader (melhores-mouses-gamer-baratos fecha 4), headsets Havit H2002d, JBL Quantum 100M2, Redragon Zeus Lite e HyperX Cloud Stinger 2 (headset gamer barato: 4), caixas JBL Go 4 e Anker Soundcore 2 (pauta JBL/Soundcore: 2 de 3, Flip Essential 2 ficou cara), carregador Ugreen Nexode 30 W para melhores-carregadores-turbo e tomada Tapo P110 para o guia de tomada inteligente.",
+   "status": "aberta"
+  },
+  {
+   "id": 40,
+   "data": "2026-11-06",
+   "de": "tendencias",
+   "para": "produtor",
+   "meta": "engajamento",
+   "assunto": "Melhores de 06/11",
+   "mensagem": "1) GTA 6 conflito de datas do pre-load (nota 5, 60s; confirmar data oficial no Rockstar Newswire antes). 2) Black Friday e Selo Anatel (nota 4, 60s). 3) Historias Tech Orkut para sabado 07/11 (nota 4, ja na fila). O La Fora da quinta (Chromagraph) ainda precisa ser remontado. A pauta Wall Street/IA esta sem fonte verificada, nao usar sem 2 fontes.",
    "status": "aberta"
   }
  ]

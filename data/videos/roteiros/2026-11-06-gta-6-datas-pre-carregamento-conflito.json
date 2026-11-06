@@ -1,0 +1,80 @@
+{
+ "tipo": "short",
+ "quadro": "60s",
+ "slug": "2026-11-06-gta-6-datas-pre-carregamento-conflito",
+ "post": "xbox-series-fsr-4-1-gta-6-o-que-muda",
+ "palavra_chave": "gta 6 pré-carregamento",
+ "titulo": "GTA 6 pré-carregamento: 10 ou 12/11? Datas divergem #shorts",
+ "resumo": "GTA 6 pré-carregamento: a imprensa brasileira divulgou datas diferentes, 10 de novembro e 12 de novembro. A Rockstar ainda não cravou uma data em fonte que conseguimos abrir, então confira o suporte oficial antes de apagar jogos para liberar até 212 GB.",
+ "hashtags": ["GTA6", "Rockstar", "PS5", "XboxSeries"],
+ "selo": "Games",
+ "fontes": [
+  {"nome": "Omelete", "url": "https://www.omelete.com.br/games/gta-6-rockstar-confirma-tamanho-jogo-pre-carregamento"},
+  {"nome": "Canaltech", "url": "https://canaltech.com.br/games/rockstar-prepara-pre-carregamento-e-brindes-para-lancamento-de-gta-6/"},
+  {"nome": "Game Over Drive", "url": "https://gameoverdrive.com.br/gta-6-veja-quando-download-sera-liberado-ps5-xbox/"}
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "GTA 6: cada site deu uma data para baixar o jogo.",
+   "tela": "Baixar GTA 6: 10 ou 12?",
+   "imagens": ["content/imagens/gta-6-pre-carregamento-horario-ps5-xbox-212-gb.jpg"]
+  },
+  {
+   "tipo": "fato",
+   "fala": "O jogo pode ocupar até {212 GB|duzentos e doze gigabytes}. Muita gente quer baixar antes.",
+   "imagens": ["url:https://www.rockstargames.com/VI/_next/static/media/poster_full.0az_iud2g3y4j.jpg?akim=1&imdensity=1&imwidth=3840|Divulgação/Rockstar Games"],
+   "fonte": "Omelete"
+  },
+  {
+   "tipo": "manchete",
+   "fala": "Segundo o Omelete, o pré-carregamento começa no dia 10 de novembro, à meia-noite, no PS5.",
+   "manchete": {
+    "url": "https://www.omelete.com.br/games/gta-6-rockstar-confirma-tamanho-jogo-pre-carregamento",
+    "trecho": "No console da Sony, o pré-carregamento começará à meia-noite do horário local de cada região."
+   }
+  },
+  {
+   "tipo": "linha",
+   "fala": "O Canaltech diz que o Xbox libera antes, em 9 de novembro, às {21h|vinte e uma horas}. Já o Game Over Drive cita 12 de novembro.",
+   "itens": [
+    {"data": "9/11, 21h", "texto": "Xbox (Canaltech)"},
+    {"data": "10/11, 0h", "texto": "PS5 (Omelete)"},
+    {"data": "12/11, 0h", "texto": "Game Over Drive"}
+   ],
+   "imagens": ["content/imagens/gta-6-pre-carregamento-horario-ps5-xbox-212-gb.jpg"],
+   "fonte": "Canaltech, Omelete, Game Over Drive"
+  },
+  {
+   "tipo": "info",
+   "fala": "E o detalhe: 12 de novembro também é a data das caixas físicas, segundo Omelete e Canaltech. Pode ser mistura.",
+   "icone": "alerta",
+   "imagens": ["url:https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?4K_5qVU-H-Ah55_aIE8bv|Divulgação/Rockstar Games"],
+   "fonte": "Omelete e Canaltech"
+  },
+  {
+   "tipo": "lista",
+   "fala": "Então limpe o espaço agora, confira o suporte da Rockstar e a página do jogo na sua loja.",
+   "titulo_lista": "COMO CONFERIR",
+   "itens": ["Libere 212 GB", "Suporte da Rockstar", "Página do jogo na loja"],
+   "imagens": ["content/imagens/gta-6-pre-carregamento-horario-ps5-xbox-212-gb.jpg"]
+  },
+  {
+   "tipo": "fato",
+   "fala": "Os sites citam a Rockstar, mas nenhuma dessas datas foi confirmada em página oficial que a gente conseguiu abrir. Só o lançamento, dia 19 de novembro, bate em todos.",
+   "imagens": ["content/imagens/xbox-series-fsr-4-1-gta-6-o-que-muda.jpg"],
+   "fonte": "Canaltech, 03/11"
+  },
+  {
+   "tipo": "fato",
+   "fala": "Dá para esperar anos por um jogo e ainda errar o dia de apertar baixar.",
+   "imagens": ["content/imagens/gta-6-pre-carregamento-horario-ps5-xbox-212-gb.jpg"]
+  },
+  {
+   "tipo": "cta",
+   "fala": "Sem confirmação oficial, o jeito é conferir. Mais no blog, link na bio. Mas, afinal:",
+   "tela": "Qual data vale?",
+   "imagens": ["url:https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?4K_5qVU-H-Ah55_aIE8bv|Divulgação/Rockstar Games"]
+  }
+ ]
+}

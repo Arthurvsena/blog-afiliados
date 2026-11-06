@@ -1,6 +1,98 @@
 {
-  "atualizado": "2026-11-05",
+  "atualizado": "2026-11-06",
   "tendencias": [
+    {
+      "data": "2026-11-06",
+      "assunto": "GTA 6: três datas diferentes de pré-carregamento e pré-venda no Brasil",
+      "por_que_em_alta": "GTA 6 sai em 19/11 (meia-noite de Brasília, PS5 e Xbox); Canaltech, Omelete e Overdrive cobrem o pré-load, mas as fontes divergem: 10/11 (PS5), 9/11 às 21h (Xbox) ou 12/11 (página de suporte da Rockstar, segundo o Overdrive). Tamanho de 212 GB sem confirmação oficial clara.",
+      "evidencias": [
+        "https://www.omelete.com.br/games/gta-6-rockstar-confirma-tamanho-jogo-pre-carregamento",
+        "https://gameoverdrive.com.br/gta-6-rockstar-confirma-horario-brasil-novo-pre-load/",
+        "https://canaltech.com.br/games/rockstar-prepara-pre-carregamento-e-brindes-para-lancamento-de-gta-6/"
+      ],
+      "angulo": "Gancho: GTA 6 tem 212 GB e as fontes não concordam sobre quando dá para baixar. Mostrar o que é oficial (Rockstar) e quando limpar espaço. Não repetir o vídeo de 03/11: foco no conflito de datas e em como conferir.",
+      "formato": "alerta",
+      "tipo": "short",
+      "quadro": "60s",
+      "verificar_antes": "OBRIGATÓRIO abrir o Rockstar Newswire/suporte e fixar a data oficial do pré-load por plataforma; a pré-venda (R$ 449,90 e R$ 549,90) veio de um resultado de busca, confirmar nas lojas PS/Xbox ou omitir.",
+      "fontes": [
+        {"nome": "Omelete", "url": "https://www.omelete.com.br/games/gta-6-rockstar-confirma-tamanho-jogo-pre-carregamento"},
+        {"nome": "Canaltech", "url": "https://canaltech.com.br/games/rockstar-prepara-pre-carregamento-e-brindes-para-lancamento-de-gta-6/"},
+        {"nome": "Rockstar Games Newswire", "url": "https://www.rockstargames.com/newswire"}
+      ],
+      "imagens_oficiais": ["https://www.rockstargames.com/newswire"],
+      "post_relacionado": "xbox-series-fsr-4-1-gta-6-o-que-muda",
+      "produto": {"id": "", "como_encaixa": "Editorial puro."},
+      "nota": 5,
+      "status": "nova"
+    },
+    {
+      "data": "2026-11-06",
+      "assunto": "Black Friday 27/11: o Selo Anatel e o carregador ou celular que pode ser irregular",
+      "por_que_em_alta": "Procon alerta sobre golpes e falsas promoções (Procon Piracicaba 03/11; Procon-SP); a Anatel orienta checar o selo em celulares e carregadores. Sazonal, a 3 semanas da Black Friday. A operação da Anatel com ML/Amazon que achei é de 2024.",
+      "evidencias": [
+        "https://www.band.com.br/nacional/sp/black-friday-procon-alerta-como-aproveitar-sem-cair-em-dividas-e-fraudes",
+        "https://tecnoblog.net/noticias/anatel-apreende-22-mil-produtos-irregulares-da-amazon-e-mercado-livre/"
+      ],
+      "angulo": "Gancho: o carregador barato da Black Friday pode ser ilegal e perigoso. Como conferir a homologação da Anatel em 30 segundos. Diferente do vídeo de golpes de 03/11 (sites clonados): aqui o assunto é o produto.",
+      "formato": "guia",
+      "tipo": "short",
+      "quadro": "60s",
+      "verificar_antes": "Achar a página oficial da Anatel sobre como conferir homologação e confirmar o passo a passo; a apreensão é de 2024, não tratar como atual.",
+      "fontes": [
+        {"nome": "Band / Procon-SP", "url": "https://www.band.com.br/nacional/sp/black-friday-procon-alerta-como-aproveitar-sem-cair-em-dividas-e-fraudes"},
+        {"nome": "Tecnoblog (operação da Anatel, 2024)", "url": "https://tecnoblog.net/noticias/anatel-apreende-22-mil-produtos-irregulares-da-amazon-e-mercado-livre/"},
+        {"nome": "Anatel", "url": "https://www.gov.br/anatel/"}
+      ],
+      "imagens_oficiais": [],
+      "post_relacionado": "melhores-carregadores-turbo",
+      "produto": {"id": "", "como_encaixa": "Ligar aos carregadores do catálogo (Baseus GaN5, Ugreen Nexode, Samsung 25 W) quando o guia sair; conferir ativo=sim."},
+      "nota": 4,
+      "status": "nova"
+    },
+    {
+      "data": "2026-11-06",
+      "assunto": "Galaxy Z TriFold: o celular de 3 dobras que a Samsung começou a encerrar e nunca chegou ao Brasil",
+      "por_que_em_alta": "Tecnoblog: Samsung começa a encerrar as vendas (Bloomberg) e 2ª geração só em 2027 (rumor); lançado na Coreia em 12/12/2025 e a US$ 2.899 nos EUA; sem previsão no Brasil. O tema dobráveis está quente com o iPhone Duo.",
+      "evidencias": [
+        "https://tecnoblog.net/noticias/samsung-comeca-a-encerrar-vendas-do-galaxy-z-trifold/",
+        "https://tecnoblog.net/noticias/samsung-pode-lancar-nova-geracao-do-galaxy-trifold-em-2027/"
+      ],
+      "angulo": "Gancho: o celular que vira tablet custava US$ 2.899 e saiu de linha sem chegar aqui. Por que o dobrável triplo não vingou e o que comprar no lugar.",
+      "formato": "explicador",
+      "tipo": "longo",
+      "quadro": "lafora",
+      "origem": "gringo",
+      "criterios_gringo": "1 a confirmar (Bloomberg via Tecnoblog + outra fonte de fora); 2 parcial (não vende no BR, mas ancora o debate dos dobráveis); 3 sim; 4 sim (posts de dobráveis)",
+      "verificar_antes": "Confirmar data e fonte do fim das vendas e achar uma fonte de fora; converter preços com a cotação do dia, como estimativa.",
+      "fontes": [
+        {"nome": "Tecnoblog (fim das vendas)", "url": "https://tecnoblog.net/noticias/samsung-comeca-a-encerrar-vendas-do-galaxy-z-trifold/"},
+        {"nome": "Tecnoblog (2ª geração, rumor)", "url": "https://tecnoblog.net/noticias/samsung-pode-lancar-nova-geracao-do-galaxy-trifold-em-2027/"},
+        {"nome": "Olhar Digital (lançamento)", "url": "https://olhardigital.com.br/2025/12/02/reviews/samsung-apresenta-galaxy-z-trifold/"}
+      ],
+      "imagens_oficiais": [],
+      "post_relacionado": "iphone-duo-vale-a-pena-dobravel",
+      "produto": {"id": "", "como_encaixa": "Editorial puro."},
+      "nota": 3,
+      "status": "nova"
+    },
+    {
+      "data": "2026-11-06",
+      "assunto": "Wall Street: techs e chips caem por temor de desaceleração da IA",
+      "por_que_em_alta": "Google Trends BR de hoje: 'wall street' com 2000+ buscas, ligado à queda de chips e Nasdaq por temores sobre a IA. Não confirmei os números em fonte primária (Nasdaq -5% e US$ 2,5 tri vieram só do resumo do Trends).",
+      "evidencias": ["https://trends.google.com/trending/rss?geo=BR"],
+      "angulo": "Gancho: a IA deixou memória e celular mais caros, e agora o mercado teme que ela desacelere. Só entra com 2 fontes confiáveis; ligar ao vídeo de memória e preço de 03/11.",
+      "formato": "explicador",
+      "tipo": "short",
+      "quadro": "60s",
+      "verificar_antes": "BLOQUEANTE: números não verificados. Sem 2 fontes (Reuters, InfoMoney, CNN Brasil) com data de hoje, descartar.",
+      "fontes": [],
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {"id": "", "como_encaixa": "Editorial puro."},
+      "nota": 2,
+      "status": "nova"
+    },
     {
       "data": "2026-11-05",
       "assunto": "Chromagraph: o app de câmera de Rian Johnson que lidera a App Store nos EUA",
