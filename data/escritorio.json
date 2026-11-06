@@ -1,25 +1,25 @@
 {
-  "ultima_execucao": "2026-11-05T07:45",
+  "ultima_execucao": "2026-11-06T07:45",
   "agentes": {
     "chefe": {
       "status": "ok",
-      "tarefa": "Escolhi 5 notícias, 1 tutorial, 1 análise e 2 guias de compra (Black Friday e tomada inteligente), seguindo a aposta de games do Switch 2/Zelda e o guia de Black Friday."
+      "tarefa": "Escolhi 5 notícias, 1 tutorial, 1 análise e 2 guias de compra (mouses e headsets gamer), usando os produtos que o curador cadastrou ontem."
     },
     "pesquisador": {
       "status": "ok",
-      "tarefa": "Trouxe 5 pautas de notícia (nota do Ocarina, Game Pass, Meta na Justiça, ChatGPT Classic e Galaxy S26) e mais 8 pautas na fila, entre tutoriais, análises e guias."
+      "tarefa": "Trouxe 5 pautas de notícia (iCloud, Xbox Cloud, Motorola Signature 27, Zelda e falha do ChatGPT), incluindo a continuação do Zelda pedida pela Luisa."
     },
     "curador": {
-      "status": "ok",
-      "tarefa": "Cadastrei 10 produtos com link: 6 acessórios gamer (2 mouses e 4 headsets), 2 caixas Bluetooth, 1 carregador Ugreen 30 W e 1 tomada Tapo P110. Motorola 50 W e JBL Flip Essential 2 ficaram de fora (poucas avaliações e preço alto)."
+      "status": "ocioso",
+      "tarefa": "Não fui chamado: cadastrei produtos ontem e nenhum subnicho ficou com menos de 3 produtos."
     },
     "redator": {
       "status": "ok",
-      "tarefa": "Escrevi cinco notícias, o tutorial da Alexa no Echo Dot, a análise do iPhone 13 e os guias de Black Friday e de tomada inteligente."
+      "tarefa": "Escrevi cinco notícias, o tutorial de bloquear chamadas, a análise do PS4 e as listas de mouses e headsets gamer."
     },
     "seo": {
       "status": "ok",
-      "tarefa": "Revisei os nove posts, ajustei títulos e palavras-chave e liguei o cluster Switch 2/Zelda/Ocarina."
+      "tarefa": "Revisei os nove posts, liguei mouses, headsets e teclados e ajustei a Alexa+ para a busca 'alexa 2027'."
     },
     "atualizador": {
       "status": "ocioso",
@@ -27,11 +27,11 @@
     },
     "designer": {
       "status": "ok",
-      "tarefa": "Coloquei foto livre e diagramei os nove posts; algumas fotos são logos ou imagens genéricas por falta de foto de divulgação."
+      "tarefa": "Pus foto e diagramei os nove posts; cinco notícias ficaram com logo por falta de foto de divulgação."
     },
     "vendas": {
       "status": "ok",
-      "tarefa": "Liguei os cinco produtos órfãos do catálogo ao guia de Black Friday e pus chamadas de compra nos guias; nas notícias só o Galaxy S26 ganhou um link."
+      "tarefa": "Fechei a lista de mouses com links para os 4 produtos e liguei a análise do PS4 ao guia de headsets; notícias sem venda forçada."
     },
     "viral": {
       "status": "ok",
@@ -120,41 +120,6 @@
       "data": "2026-11-05",
       "agente": "designer",
       "texto": "Peguei fotos livres e diagramei os nove posts."
-    },
-    {
-      "data": "2026-10-29",
-      "agente": "vendas",
-      "texto": "Liguei o guia de fones à categoria; sem produtos compatíveis, não forcei venda nas notícias."
-    },
-    {
-      "data": "2026-10-29",
-      "agente": "designer",
-      "texto": "Diagramei os três posts com tabelas, veredito e prós e contras."
-    },
-    {
-      "data": "2026-10-29",
-      "agente": "curador",
-      "texto": "Cadastrei 11 produtos com link: 4 fones TWS, 5 power banks e 2 carregadores turbo."
-    },
-    {
-      "data": "2026-10-29",
-      "agente": "pesquisador",
-      "texto": "Trouxe as notícias do Vivo Satélite e do PS Plus e uma pauta de IA sobre o Gemini 4 Argon."
-    },
-    {
-      "data": "2026-10-29",
-      "agente": "redator",
-      "texto": "Escrevi as notícias do Vivo Satélite e do PS Plus e a lista dos melhores power banks."
-    },
-    {
-      "data": "2026-10-29",
-      "agente": "seo",
-      "texto": "Revisei os três posts e liguei a lista de power banks às notícias e aos guias."
-    },
-    {
-      "data": "2026-10-29",
-      "agente": "vendas",
-      "texto": "Coloquei chamadas de compra na lista de power banks e nos guias de fones."
     },
     {
       "data": "2026-10-29",
@@ -350,6 +315,36 @@
       "data": "2026-11-05",
       "agente": "curador",
       "texto": "Cadastrei 10 produtos com link: 6 acessórios gamer (2 mouses e 4 headsets), 2 caixas Bluetooth, 1 carregador Ugreen 30 W e 1 tomada Tapo P110. Motorola 50 W e JBL Flip Essential 2 ficaram de fora (poucas avaliações e preço alto)."
+    },
+    {
+      "data": "2026-11-06",
+      "agente": "pesquisador",
+      "texto": "Trouxe 5 pautas de notícia: iCloud, Xbox Cloud, Motorola Signature 27, Zelda e falha do ChatGPT."
+    },
+    {
+      "data": "2026-11-06",
+      "agente": "redator",
+      "texto": "Escrevi cinco notícias, o tutorial de bloquear chamadas, a análise do PS4 e as listas de mouses e headsets gamer."
+    },
+    {
+      "data": "2026-11-06",
+      "agente": "seo",
+      "texto": "Revisei os nove posts e ajustei título e descrição da Alexa+ para a busca 'alexa 2027'."
+    },
+    {
+      "data": "2026-11-06",
+      "agente": "viral",
+      "texto": "Dei nota às pautas e escrevi os textos de rede dos nove posts de hoje."
+    },
+    {
+      "data": "2026-11-06",
+      "agente": "vendas",
+      "texto": "Fechei a lista de mouses com links para os 4 produtos e liguei o PS4 ao guia de headsets."
+    },
+    {
+      "data": "2026-11-06",
+      "agente": "designer",
+      "texto": "Pus foto e diagramei os nove posts; cinco notícias ficaram com logo por falta de foto de divulgação."
     }
   ]
 }

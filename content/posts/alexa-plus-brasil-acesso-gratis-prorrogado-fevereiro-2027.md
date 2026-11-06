@@ -1,7 +1,7 @@
 ---
-titulo: "Amazon prorroga Alexa+ grátis no Brasil até fevereiro de 2027"
+titulo: "Alexa 2027: Amazon prorroga Alexa+ grátis até fevereiro"
 slug: alexa-plus-brasil-acesso-gratis-prorrogado-fevereiro-2027
-descricao: "Alexa 2027: a Amazon confirmou que o acesso antecipado da Alexa Plus Brasil segue grátis a quem tem Prime e aparelho compatível. Veja como pedir."
+descricao: "Alexa 2027: a Amazon confirmou que a Alexa Plus Brasil segue grátis até pelo menos fevereiro para quem tem Prime e Echo compatível. Veja como pedir."
 palavra_chave: "alexa plus brasil"
 editoria: tecnologia
 tipo: noticia

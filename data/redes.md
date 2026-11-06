@@ -2,6 +2,105 @@
 
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
+## 2026-11-06 · Motorola Signature 27 preço: R$ 10.999 no Brasil e versões
+Link: https://nexustechai.com.br/posts/motorola-signature-27-chega-ao-brasil-preco-versoes/
+- WhatsApp: Motorola Signature 27 no Brasil: R$ 10.999 (256 GB) e R$ 11.999 (512 GB) na pré-venda. Claro e Vivo vendem em plano a partir de R$ 7.199: https://nexustechai.com.br/posts/motorola-signature-27-chega-ao-brasil-preco-versoes/
+- X: Motorola Signature 27 chegou ao Brasil: R$ 10.999 (256 GB) e R$ 11.999 (512 GB) na pré-venda, segundo o Canaltech. Em plano, Vivo a partir de R$ 7.199 e Claro de R$ 7.799: https://nexustechai.com.br/posts/motorola-signature-27-chega-ao-brasil-preco-versoes/
+- Instagram (legenda): Motorola Signature 27 já tem preço no Brasil.
+  R$ 10.999 na versão de 256 GB e R$ 11.999 na de 512 GB, na pré-venda.
+  Claro e Vivo vendem em plano, a partir de R$ 7.799 e R$ 7.199.
+  Link na bio.
+  #motorola #signature27 #celular
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Motorola Signature 27 já tem preço no Brasil." [2-8 s] Fato 1: R$ 10.999 na versão de 256 GB. [8-14 s] Fato 2: R$ 11.999 na de 512 GB, valores de pré-venda. [14-18 s] Fato 3: Claro e Vivo vendem em plano, a partir de R$ 7.799 e R$ 7.199. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-06 · iCloud: links públicos perdem criptografia no iOS 27.3
+Link: https://nexustechai.com.br/posts/apple-icloud-links-publicos-verificacao-ios-27-3/
+- WhatsApp: Atenção, quem usa iPhone: no iOS 27.3, links do iCloud com "Qualquer um com o link" perdem a criptografia e passam por checagem da Apple. Compartilhar com pessoas específicas não muda: https://nexustechai.com.br/posts/apple-icloud-links-publicos-verificacao-ios-27-3/
+- X: Apple vai checar links públicos do iCloud a partir do iOS 27.3. Itens com "Qualquer um com o link" perdem a criptografia de ponta a ponta, até com a Proteção Avançada ligada: https://nexustechai.com.br/posts/apple-icloud-links-publicos-verificacao-ios-27-3/
+- Instagram (legenda): Links públicos do iCloud vão ser checados pela Apple.
+  Vale a partir do iOS 27.3 para o que está como "Qualquer um com o link".
+  Esses itens perdem a criptografia, mesmo com Proteção Avançada.
+  Link na bio.
+  #apple #icloud #privacidade
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seus links do iCloud vão ser checados." [2-8 s] Fato 1: vale a partir do iOS 27.3. [8-14 s] Fato 2: só para "Qualquer um com o link". [14-18 s] Fato 3: perdem a criptografia, até com Proteção Avançada. [18-20 s] "Como compartilhar com segurança: link da bio."
+
+## 2026-11-06 · Xbox Cloud Gaming: celular vira controle na Smart TV
+Link: https://nexustechai.com.br/posts/xbox-cloud-gaming-celular-como-controle-smart-tv/
+- WhatsApp: Sem controle? O Xbox Cloud Gaming testa o celular como controle na Smart TV: QR code, sem app. É prévia e o Brasil não foi citado. Como ativar: https://nexustechai.com.br/posts/xbox-cloud-gaming-celular-como-controle-smart-tv/
+- X: Xbox Cloud Gaming testa o celular como controle na Smart TV: leia o QR code e jogue pelo navegador, sem app (Android e iOS). Ainda é prévia, e o Brasil não aparece citado: https://nexustechai.com.br/posts/xbox-cloud-gaming-celular-como-controle-smart-tv/
+- Instagram (legenda): Seu celular pode virar o controle do Xbox Cloud Gaming.
+  Escaneia o QR code na Smart TV, sem instalar app.
+  É prévia, e o Brasil não foi citado de forma explícita.
+  Link na bio.
+  #xbox #cloudgaming #gamepass
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seu celular vira controle do Xbox." [2-8 s] Fato 1: abre no navegador, sem app. [8-14 s] Fato 2: conecta lendo o QR code na TV. [14-18 s] Fato 3: é prévia, e o Brasil não foi citado. [18-20 s] "Passo a passo no link da bio."
+
+## 2026-11-06 · Zelda Switch 2 Brasil: Ocarina parece teatro de fantoches
+Link: https://nexustechai.com.br/posts/zelda-ocarina-of-time-visual-fantoche-nintendo-explica/
+- WhatsApp: Por que Ocarina of Time no Switch 2 parece teatro de fantoches? A Nintendo explicou. O jogo saiu em 5/11 e tem textos em português do Brasil: https://nexustechai.com.br/posts/zelda-ocarina-of-time-visual-fantoche-nintendo-explica/
+- X: A Nintendo explicou por que Ocarina of Time no Switch 2 parece teatro de fantoches: a equipe buscou bonecos reais e o ar de filmes com efeitos práticos. Saiu em 5/11: https://nexustechai.com.br/posts/zelda-ocarina-of-time-visual-fantoche-nintendo-explica/
+- Instagram (legenda): Por que Ocarina of Time no Switch 2 parece teatro de fantoches?
+  A Nintendo explicou: a meta era a sensação de bonecos reais e de filme com efeitos práticos.
+  O jogo saiu em 5/11, só no Switch 2, com português do Brasil.
+  Link na bio.
+  #zelda #switch2 #nintendo
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Por que Ocarina parece teatro de fantoches?" [2-8 s] Fato 1: a Nintendo buscou a sensação de bonecos reais. [8-14 s] Fato 2: inspiração em filmes de efeitos práticos. [14-18 s] Fato 3: saiu em 5/11 só no Switch 2, com português do Brasil. [18-20 s] "Entrevista no link da bio."
+
+## 2026-11-06 · ChatGPT: falha de segurança em link foi corrigida
+Link: https://nexustechai.com.br/posts/chatgpt-falha-link-compartilhado-conversas-privadas-corrigida/
+- WhatsApp: Falha no ChatGPT: um link de conversa compartilhada podia dar acesso ao seu histórico em cerca de 4,5 s. A OpenAI corrigiu até 26/10 e não precisa trocar a senha: https://nexustechai.com.br/posts/chatgpt-falha-link-compartilhado-conversas-privadas-corrigida/
+- X: Falha no ChatGPT web deixava um link de conversa compartilhada rodar código na sua sessão e ler o histórico em cerca de 4,5 s. Corrigida até 26/10, segundo a Parameter: https://nexustechai.com.br/posts/chatgpt-falha-link-compartilhado-conversas-privadas-corrigida/
+- Instagram (legenda): Uma falha no ChatGPT deixava um link ler seu histórico em 4,5 segundos.
+  Já foi corrigida até 26/10, segundo os pesquisadores.
+  Sem indício de uso contra usuários comuns. Não precisa trocar a senha.
+  Link na bio.
+  #chatgpt #openai #segurancadigital
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Um link podia ler suas conversas do ChatGPT." [2-8 s] Fato 1: bastava abrir o link logado, em cerca de 4,5 s. [8-14 s] Fato 2: a OpenAI corrigiu até 26/10. [14-18 s] Fato 3: sem indício de uso contra pessoas comuns. [18-20 s] "Explicação no link da bio."
+
+## 2026-11-06 · Como configurar para não receber chamadas de desconhecidos
+Link: https://nexustechai.com.br/posts/como-bloquear-chamadas-numeros-desconhecidos-android-iphone/
+- WhatsApp: Cansou de ligação de número desconhecido? No iPhone: Ajustes > Apps > Telefone e escolha Silenciar. Passo a passo no iPhone e no Android: https://nexustechai.com.br/posts/como-bloquear-chamadas-numeros-desconhecidos-android-iphone/
+- X: Quer parar de receber ligação de número desconhecido? No iPhone: Ajustes > Apps > Telefone > Silenciar. Silenciar não é bloquear, e número oculto é outro caso: https://nexustechai.com.br/posts/como-bloquear-chamadas-numeros-desconhecidos-android-iphone/
+- Instagram (legenda): Ligação de número desconhecido o dia todo?
+  No iPhone: Ajustes > Apps > Telefone e escolha Silenciar.
+  Silenciar manda para a caixa postal, não bloqueia. Salve os números que você espera.
+  Link na bio.
+  #iphone #android #golpe
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Chega de ligação de número desconhecido." [2-8 s] Fato 1: iPhone, Ajustes > Apps > Telefone > Silenciar. [8-14 s] Fato 2: silenciar não bloqueia, vai para a caixa postal. [14-18 s] Fato 3: salve os números que você espera. [18-20 s] "Android no link da bio."
+
+## 2026-11-06 · Vale a pena comprar um PS4 em 2026? Só para este perfil
+Link: https://nexustechai.com.br/posts/analise-ps4-vale-a-pena-em-2026/
+- WhatsApp: Vale a pena comprar um PS4 em 2026? Só como console barato de catálogo, de preferência Slim usado. GTA 6 não roda nele: https://nexustechai.com.br/posts/analise-ps4-vale-a-pena-em-2026/
+- X: Vale comprar um PS4 em 2026? Como console barato para o que já saiu, sim, de preferência o Slim usado. Para GTA 6 (19/11), só PS5 ou Xbox Series: https://nexustechai.com.br/posts/analise-ps4-vale-a-pena-em-2026/
+- Instagram (legenda): Vale a pena comprar um PS4 em 2026?
+  Só como console barato de catálogo, de preferência o Slim usado.
+  O GTA 6 não roda nele: só PS5 e Xbox Series.
+  Link na bio.
+  #ps4 #playstation #gta6
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Vale comprar um PS4 em 2026?" [2-8 s] Fato 1: só como console barato para o que já saiu. [8-14 s] Fato 2: o Slim usado é o mais indicado. [14-18 s] Fato 3: GTA 6 não roda, só PS5 e Xbox Series. [18-20 s] "Análise no link da bio."
+
+## 2026-11-06 · Mouse gamer barato: 4 opções com bom custo-benefício
+Link: https://nexustechai.com.br/posts/melhores-mouses-gamer-baratos/
+- WhatsApp: Mouse gamer barato: comparamos Logitech G203, Redragon Cobra e Griffin e Fortrek Crusader por DPI, peso e botões. Veja o preço atual: https://nexustechai.com.br/posts/melhores-mouses-gamer-baratos/
+- X: Mouse gamer barato: 4 opções comparadas por DPI, peso e botões. O G203 (8.000 DPI, 85 g) é a escolha mais segura: https://nexustechai.com.br/posts/melhores-mouses-gamer-baratos/
+- Instagram (legenda): Mouse gamer barato que presta?
+  Comparamos 4: Logitech G203, Redragon Cobra, Redragon Griffin e Fortrek Crusader.
+  Critério: DPI, peso e botões. Preço atual no link.
+  Link na bio.
+  #mousegamer #setup #custobeneficio
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Mouse gamer barato que presta." [2-8 s] Fato 1: comparamos 4 modelos. [8-14 s] Fato 2: G203 tem 8.000 DPI e 85 g. [14-18 s] Fato 3: DPI alto é teto, 800 a 1.600 resolve. [18-20 s] "Lista no link da bio."
+
+## 2026-11-06 · Headset gamer barato: 4 opções custo-benefício para comprar
+Link: https://nexustechai.com.br/posts/melhores-headsets-gamer-baratos/
+- WhatsApp: Headset gamer barato: Havit, JBL, Redragon e HyperX comparados pela ficha e pelas avaliações. Veja o preço atual: https://nexustechai.com.br/posts/melhores-headsets-gamer-baratos/
+- X: Headset gamer barato: 4 comparados. O HyperX Cloud Stinger 2 é o mais completo; o Redragon Zeus Lite tem drivers de 53 mm e cabo trocável: https://nexustechai.com.br/posts/melhores-headsets-gamer-baratos/
+- Instagram (legenda): Headset gamer barato: qual escolher?
+  Comparamos Havit H2002d, JBL Quantum 100M2, Redragon Zeus Lite e HyperX Cloud Stinger 2.
+  O HyperX é o mais completo. Preço atual no link.
+  Link na bio.
+  #headsetgamer #ps5 #setup
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Headset gamer barato: qual escolher?" [2-8 s] Fato 1: comparamos 4 modelos. [8-14 s] Fato 2: HyperX Cloud Stinger 2 é o mais completo. [14-18 s] Fato 3: Redragon Zeus Lite tem drivers de 53 mm e cabo trocável. [18-20 s] "Lista no link da bio."
+
 ## 2026-11-05 · Ocarina of Time Switch 2 review: nota 96 no Metacritic
 Link: https://nexustechai.com.br/posts/ocarina-of-time-switch-2-reviews-nota-metacritic-96/
 - WhatsApp: Ocarina of Time no Switch 2 tem 96 no Metacritic, a maior nota de 2026. O original de 1998 segue com 99. Veja as notas mais baixas (8/10) e o que a crítica reclama: https://nexustechai.com.br/posts/ocarina-of-time-switch-2-reviews-nota-metacritic-96/
