@@ -65,6 +65,20 @@
       "publica_em": "2026-11-06 19:00",
       "status": "programado",
       "obs": "Montagem de 05/11 quebrou (corte de 10 min no Claude); remontado e programado em 06/11. Teste A/B de capa pede a verificação única do canal."
+    },
+    {
+      "data": "2026-11-06",
+      "tipo": "short",
+      "quadro": "60s",
+      "numero": null,
+      "slug": "2026-11-06-gta-6-datas-pre-carregamento-conflito",
+      "post": "xbox-series-fsr-4-1-gta-6-o-que-muda",
+      "titulo": "GTA 6 pré-carregamento: 10 ou 12/11? Datas divergem #shorts",
+      "url": "https://youtube.com/shorts/_BxDQ5wjKnQ",
+      "voz": "gemini:Orus",
+      "segundos": 49,
+      "publica_em": "2026-11-06 12:00",
+      "status": "programado"
     }
   ]
 }
