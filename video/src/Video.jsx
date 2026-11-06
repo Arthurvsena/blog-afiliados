@@ -428,7 +428,8 @@ const Manchete = ({cena, k, vertical}) => {
 };
 
 // ---------- lista: itens que entram um a um ----------
-const Lista = ({cena, k, vertical}) => {
+const Lista = ({cena, k: k0, vertical}) => {
+  const k = vertical ? k0 : k0 * 0.58;  // no 16:9 os itens ficam menores para caber na tela
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
   const itens = (cena.itens || []).slice(0, 5);
@@ -456,7 +457,8 @@ const Lista = ({cena, k, vertical}) => {
 };
 
 // ---------- barras: compara números com barras que crescem ----------
-const Barras = ({cena, k, vertical}) => {
+const Barras = ({cena, k: k0, vertical}) => {
+  const k = vertical ? k0 : k0 * 0.58;  // no 16:9 os itens ficam menores para caber na tela
   const f = useCurrentFrame();
   const itens = (cena.itens || []).slice(0, 4);
   const max = Math.max(...itens.map((i) => Number(i.valor) || 0), 1);
@@ -483,7 +485,8 @@ const Barras = ({cena, k, vertical}) => {
 };
 
 // ---------- linha do tempo ----------
-const Linha = ({cena, k, vertical}) => {
+const Linha = ({cena, k: k0, vertical}) => {
+  const k = vertical ? k0 : k0 * 0.58;  // no 16:9 os itens ficam menores para caber na tela
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
   const evs = (cena.itens || []).slice(0, 4);

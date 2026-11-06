@@ -127,7 +127,7 @@ Para cada vídeo:
 3. **Detalhes**: título = `titulo`; descrição = conteúdo do `.txt` (digite com
    `computer type`; se der timeout, confira com JS se o texto entrou antes de
    repetir); miniatura (só longos) = as capas
-   `-capa.jpg` e `-capa-b.jpg`: se a seção Miniatura mostrar **"Testar e comparar"**,
+   `-capa.jpg` e `-capa-b.jpg`: se a seção Miniatura mostrar **"Teste A/B"** e ele abrir sem pedir "verificação única" (se pedir, clique em Cancelar: isso é com o Arthur),
    use essa opção e envie as duas; se não, envie só a `-capa.jpg` (o campo é
    `#file-loader`: dê a ele `aria-label` 'miniatura' com JS, ache com `find` e use `file_upload`) (só vídeos longos e só se o botão de miniatura estiver
    liberado); categoria, idioma e tags padrão já vêm configurados no canal; público: **"Não, não é conteúdo para crianças"**. Em "Mostrar

@@ -59,11 +59,12 @@
       "slug": "2026-11-05-chromagraph-camera-app-rian-johnson-iphone",
       "post": "iphone-duo-vale-a-pena-dobravel",
       "titulo": "Chromagraph Camera já está no Brasil: vale R$ 34,90?",
-      "url": "",
-      "voz": "",
-      "segundos": 0,
-      "publica_em": "",
-      "status": "não publicado: o .mp4 do Release veio incompleto (sem o índice moov, ffmpeg não abre) e faltaram .json, .txt e capas; precisa montar de novo"
+      "url": "https://youtu.be/vhBIRimLJHk",
+      "voz": "gemini:Fenrir",
+      "segundos": 257.3,
+      "publica_em": "2026-11-06 19:00",
+      "status": "programado",
+      "obs": "Montagem de 05/11 quebrou (corte de 10 min no Claude); remontado e programado em 06/11. Teste A/B de capa pede a verificação única do canal."
     }
   ]
 }
