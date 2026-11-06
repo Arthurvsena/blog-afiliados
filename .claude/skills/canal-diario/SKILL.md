@@ -32,6 +32,13 @@ Para cada vídeo: `roteirista` (com o tipo e a pauta: a tendência inteira em JS
 ## A3. Montagem (um vídeo por vez)
 0. `python3 scripts/video_motion.py data/videos/roteiros/SLUG.json --checar`
    tem que dar OK (senão devolva ao roteirista com o que faltou).
+   **Vídeo longo ("Lá Fora, Aqui"): não monte você.** A ferramenta de comandos
+   corta qualquer comando com mais de 10 minutos e o longo em 1080p demora mais
+   que isso (foi o que quebrou o vídeo de 05/11). Depois do `--checar` dar OK,
+   escreva o caminho do roteiro numa linha de `_videos/fila.txt` e siga: o
+   workflow monta o longo num passo próprio, sem limite de tempo. Os passos 1 a
+   5 abaixo valem para os Shorts (o resumo `_videos/SLUG.json` agora é gravado
+   pelo próprio script).
 1. `python3 scripts/video_motion.py data/videos/roteiros/SLUG.json --saida _videos --manter`
    Leva de 3 a 6 min por Short e de 10 a 25 min por vídeo longo. O resultado
    diz o arquivo, o tamanho (alta qualidade, sem limite de 10 MB), a duração, a voz usada, a capa (longos)

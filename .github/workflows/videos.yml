@@ -1,7 +1,7 @@
 name: Vídeos do canal
 
 on:
-  # Disparado todo dia às 08:23 (Brasília) pela tarefa agendada "Disparar rotinas do blog e do canal":
+  # Disparado todo dia às 07:23 (Brasília) pela tarefa agendada "Disparar rotinas do blog e do canal":
   # o agendamento do próprio GitHub atrasava de 5 a 9 horas.
   workflow_dispatch:
 
@@ -41,12 +41,33 @@ jobs:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           show_full_output: true
-          prompt: "Produza os vídeos do dia do canal: leia .claude/skills/canal-diario/SKILL.md e siga a PARTE A (passos 1 a 3: pauta, roteiros, narração e montagem) até o fim, salvando os vídeos em _videos/. Não publique no YouTube: a publicação é feita depois pelo Chrome do dono. Chame os subagentes sempre em primeiro plano (run_in_background false) e só termine depois do último vídeo montado."
+          prompt: "Produza os vídeos do dia do canal: leia .claude/skills/canal-diario/SKILL.md e siga a PARTE A (passos 1 a 3: pauta, roteiros, narração e montagem) até o fim, salvando os vídeos em _videos/. Não publique no YouTube: a publicação é feita depois pelo Chrome do dono. Chame os subagentes sempre em primeiro plano (run_in_background false). O vídeo longo NÃO é montado por você: ponha o caminho do roteiro dele em _videos/fila.txt (o workflow monta depois). Termine depois do último Short montado e da fila escrita."
           claude_args: |
             --model sonnet
             --max-turns 300
             --disallowedTools "ScheduleWakeup,Monitor,CronCreate"
             --allowedTools "Skill,Read,Write,Edit,Glob,Grep,WebSearch,WebFetch,Task,Agent,Bash(python3 scripts/video_motion.py:*),Bash(python3 scripts/video.py:*),Bash(python3 scripts/mural.py:*),Bash(python3 -c:*),Bash(ffmpeg:*),Bash(ffprobe:*),Bash(ls:*),Bash(date:*),Bash(TZ=America/Sao_Paulo date:*)"
+
+      - name: Montar os vídeos que faltaram (longos e os que o Claude não terminou)
+        # A ferramenta de comandos do Claude corta tudo que passa de 10 minutos: o vídeo longo em 1080p
+        # é montado aqui, sem limite de tempo. Também refaz qualquer .mp4 quebrado.
+        run: |
+          mkdir -p _videos
+          touch _videos/fila.txt
+          for r in $(cat _videos/fila.txt); do
+            slug=$(python3 -c "import json,sys;print(json.load(open(sys.argv[1]))['slug'])" "$r")
+            if ffprobe -v error -show_entries format=duration -of csv=p=0 "_videos/$slug.mp4" >/dev/null 2>&1; then
+              echo "OK: $slug já montado"; continue
+            fi
+            echo "Montando $slug..."
+            python3 scripts/video_motion.py "$r" --saida _videos || python3 scripts/video.py "$r" --saida _videos || echo "FALHOU: $slug"
+          done
+          # nada quebrado vai para o Release
+          for v in _videos/*.mp4; do
+            [ -e "$v" ] || continue
+            ffprobe -v error -show_entries format=duration -of csv=p=0 "$v" >/dev/null 2>&1 || { echo "Removendo vídeo quebrado: $v"; rm -f "$v"; }
+          done
+          rm -f _videos/*.parcial.mp4 _videos/fila.txt
 
       - name: Publicar os vídeos num Release (o Chrome do dono baixa daqui)
         env:

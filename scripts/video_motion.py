@@ -366,6 +366,14 @@ def voz_config():
 
 
 def finalizar(origem, destino, trilha=None):
+    """Grava num arquivo temporário e só renomeia no fim: um vídeo interrompido nunca vira um .mp4 quebrado."""
+    destino = Path(destino)
+    parcial = destino.with_name(destino.stem + ".parcial.mp4")
+    _finalizar(origem, parcial, trilha)
+    os.replace(parcial, destino)
+
+
+def _finalizar(origem, destino, trilha=None):
     """Versão final em ALTA qualidade para o YouTube (sem limite de tamanho): H.264 CRF 18,
     áudio AAC 192 kbps com volume padronizado. O envio é feito pelo seletor de arquivos do
     Windows (veja a skill canal-diario), então não precisa caber em 10 MB."""
@@ -727,6 +735,10 @@ def main():
     desc = Path(res["arquivo"]).with_suffix(".txt")
     desc.write_text(base.gerar_descricao(rot), encoding="utf-8")
     res["descricao"] = str(desc)
+    # resumo para a publicação (a PARTE B lê este arquivo)
+    resumo = {k: rot.get(k) for k in ("slug", "tipo", "quadro", "numero", "post", "titulo", "hashtags")}
+    resumo.update({"voz": res.get("voz"), "segundos": res.get("segundos") or res.get("duracao")})
+    Path(res["arquivo"]).with_suffix(".json").write_text(json.dumps(resumo, ensure_ascii=False, indent=1), encoding="utf-8")
     if not a.manter:
         shutil.rmtree(PUBLICO / "run" / rot["slug"], ignore_errors=True)
     print(json.dumps(res, ensure_ascii=False))
