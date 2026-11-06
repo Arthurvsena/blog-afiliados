@@ -624,6 +624,12 @@ def build():
     est = RAIZ / "data" / "estrategia.md"
     if est.exists():
         escritorio["estrategia_html"] = markdown.markdown(est.read_text(encoding="utf-8"), extensions=["tables"])
+    for nome_arq, chave in (("youtube.json", "youtube"), ("leitura_canal.json", "leitura_canal"), ("videos.json", "videos_canal")):
+        arq = RAIZ / "data" / nome_arq
+        if arq.exists():
+            escritorio[chave] = json.loads(arq.read_text(encoding="utf-8"))
+    if isinstance(escritorio.get("videos_canal"), dict):
+        escritorio["videos_canal"] = escritorio["videos_canal"].get("videos", [])[-12:]
     mur = RAIZ / "data" / "mural.json"
     if mur.exists():
         msgs = json.loads(mur.read_text(encoding="utf-8")).get("mensagens", [])

@@ -45,6 +45,22 @@ Leia `data/visitas.json` (um registro por dia) e escreva
    no máximo 3 por dia.
 4. Atualize o seu status em `data/escritorio.json` com o número de visitas de
    ontem ("Ontem foram 37 visitas, 12 vieram do Google").
+5. **Canal do YouTube** (aparece no escritório para o Arthur): leia
+   `data/youtube.json`, `data/videos.json` e `editorial/manual_youtube.md` e
+   reescreva **`data/leitura_canal.json`**:
+   ```json
+   {"atualizado": "AAAA-MM-DD", "autora": "Luisa",
+    "resumo": "2 frases: como o canal está e o maior problema agora",
+    "funcionando": ["fato com número e o porquê provável"],
+    "nao_funcionando": ["fato com número e o porquê provável"],
+    "acoes": ["o que muda nos próximos vídeos (para o produtor/roteirista)"],
+    "por_quadro": {"60s": {"videos": 0, "media_views": 0, "media_pct": 0}, "historias": {}, "lafora": {}}}
+   ```
+   Regras: só números que estão no `youtube.json`; compare vídeos do mesmo
+   quadro; olhe sempre 4 coisas: **% assistido** (retenção), **inscritos por
+   vídeo**, **cliques na capa** (longos) e **views**. Escreva para o Arthur
+   (frases simples, sem jargão). No máximo 4 itens por lista. Se uma ação
+   muda o roteiro, poste também para o `produtor` no mural.
 Responda com uma linha: visitas de ontem e a ação mais importante do dia.
 
 ## Canal por quadro (toda segunda, no modo semanal)

@@ -44,6 +44,16 @@
   .log div { padding:2px 0; border-bottom:1px dashed #1f2340; }
   .log .d { color:var(--suave); } .log .a { color:var(--ocioso); }
   .vazio { color:var(--suave); }
+  .yt { background:var(--painel); border:3px solid var(--borda); padding:12px 16px; box-shadow:4px 4px 0 #000; margin-top:12px; }
+  .yt h3 { font-family:"Press Start 2P",monospace; font-size:10px; color:var(--destaque); margin:14px 0 8px; font-weight:400; }
+  .yt .fala { border-left:4px solid var(--ocioso); padding:4px 10px; margin:6px 0 4px; }
+  .yt ul { margin:4px 0; padding-left:20px; } .yt li { margin:4px 0; }
+  .yt .bom li::marker { content:"✔ "; color:var(--ok); } .yt .ruim li::marker { content:"✖ "; color:var(--erro); } .yt .faz li::marker { content:"➜ "; color:var(--ocioso); }
+  .ytt { width:100%; border-collapse:collapse; font-size:18px; margin-top:6px; }
+  .ytt th, .ytt td { border:2px solid var(--borda); padding:3px 6px; text-align:left; vertical-align:top; }
+  .ytt th { color:var(--destaque); } .ytt td.n { text-align:right; white-space:nowrap; }
+  .barra { display:inline-block; height:10px; background:var(--ok); vertical-align:middle; margin-right:4px; border:1px solid #000; }
+  .ytwrap { overflow-x:auto; }
   .plano { background:var(--painel); border:3px solid var(--borda); padding:6px 18px 14px; box-shadow:4px 4px 0 #000; }
   .plano h1 { display:none; } .plano blockquote { margin:10px 0; color:var(--suave); }
   .plano h2 { font-size:10px; color:var(--ocioso); margin:20px 0 8px; }
@@ -76,6 +86,10 @@
 
   <h2>QUADRO DE METAS</h2>
   <div class="stats" id="stats"></div>
+
+  <h2>CANAL DO YOUTUBE</h2>
+  <div class="stats" id="ytstats"></div>
+  <div class="yt" id="yt"></div>
 
   <h2>EQUIPE</h2>
   <div class="equipe" id="equipe"></div>
@@ -344,6 +358,34 @@ function paineis() {
     [(m.semana || {}).visitas ?? '—', 'visitas na semana'], [(m.semana || {}).cliques_ml ?? '—', 'cliques no Mercado Livre'],
     [(m.semana || {}).pedidos ?? '—', 'pedidos na semana'], [m.fila ?? 0, 'pautas na fila'],
   ].map(([n, r]) => `<div class="stat"><b>${n}</b>${r}</div>`).join('');
+
+  // ---- canal do YouTube: números do Studio + a leitura da Luisa ----
+  const Y = D.youtube || {}, C = Y.canal || {}, L = D.leitura_canal || {};
+  const escY = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;' }[c]));
+  const num = x => (x === null || x === undefined) ? '—' : Number(x).toLocaleString('pt-BR');
+  const prog = (D.videos_canal || []).filter(v => /programado|publicado/.test(v.status || '')).length;
+  document.getElementById('ytstats').innerHTML = [
+    [num(C.visualizacoes), 'visualizações (28 dias)'], [(C.inscritos_saldo >= 0 ? '+' : '') + num(C.inscritos_saldo), 'inscritos (28 dias)'],
+    [num(C.horas), 'horas assistidas'], [C.pct_media != null ? C.pct_media + '%' : '—', 'do vídeo assistido (média)'],
+    [C.ctr != null ? C.ctr + '%' : '—', 'cliques na capa (CTR)'], [prog, 'vídeos no ar ou programados'],
+  ].map(([n, r]) => `<div class="stat"><b>${n}</b>${r}</div>`).join('');
+  const lista = (cls, xs) => xs && xs.length ? `<ul class="${cls}">${xs.map(x => `<li>${escY(x)}</li>`).join('')}</ul>` : '<p class="vazio">—</p>';
+  const vids = (Y.videos || []).slice().sort((a, b) => (b.views || 0) - (a.views || 0));
+  const maxv = Math.max(1, ...vids.map(v => v.views || 0));
+  document.getElementById('yt').innerHTML = (Y.atualizado || L.atualizado) ? `
+    <div class="fala"><b>LUISA:</b> ${escY(L.resumo || 'A leitura do canal sai na próxima rotina de visitas.')}</div>
+    <h3>O QUE ESTÁ DANDO CERTO</h3>${lista('bom', L.funcionando)}
+    <h3>O QUE NÃO ESTÁ</h3>${lista('ruim', L.nao_funcionando)}
+    <h3>O QUE VAMOS FAZER</h3>${lista('faz', L.acoes)}
+    <h3>VÍDEOS (${escY(Y.periodo || '')})</h3>
+    <div class="ytwrap"><table class="ytt"><tr><th>Vídeo</th><th>Views</th><th>Assistido</th><th>Inscritos</th><th>Cliques na capa</th></tr>
+    ${vids.map(v => `<tr><td>${escY(v.titulo)}${v.quadro ? ` <span class="vazio">[${escY(v.quadro)}]</span>` : ''}</td>
+      <td class="n"><span class="barra" style="width:${Math.round(60 * (v.views || 0) / maxv)}px"></span>${num(v.views)}</td>
+      <td class="n">${v.pct_media != null ? v.pct_media + '%' : '—'} <span class="vazio">(${escY(v.duracao_media || '')} de ${escY(v.duracao || '')})</span></td>
+      <td class="n">${num(v.inscritos)}</td><td class="n">${v.ctr != null ? v.ctr + '%' : '—'}</td></tr>`).join('')}
+    </table></div>
+    <p class="vazio">Números do YouTube Studio, atualizados ${escY(Y.atualizado || '')}. Leitura da Luisa de ${escY(L.atualizado || '')}.</p>`
+    : '<p class="vazio">&gt; Os números do canal entram na próxima rotina de visitas._</p>';
 
   const rotulo = { trabalhando:'TRABALHOU HOJE', ocioso:'SEM TAREFA HOJE', dormindo:'DORMINDO', erro:'PRECISA DE AJUDA' };
   const classe = { trabalhando:'ok', ocioso:'ocioso', dormindo:'ocioso', erro:'erro' };

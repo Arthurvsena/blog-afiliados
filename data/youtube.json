@@ -1,0 +1,105 @@
+{
+ "atualizado": "2026-11-06",
+ "periodo": "últimos 28 dias (até 05/11)",
+ "canal": {
+  "visualizacoes": 1644,
+  "horas": 5.9,
+  "inscritos_saldo": 1,
+  "inscritos_total": null,
+  "impressoes": 533,
+  "ctr": 1.9,
+  "pct_media": 62.1,
+  "duracao_media": "0:27"
+ },
+ "videos": [
+  {
+   "titulo": "Sony quer comprar seu PS5 usado, mas não no Brasil #shorts",
+   "tipo": "short",
+   "quadro": null,
+   "duracao": "0:39",
+   "views": 758,
+   "horas": 3.4,
+   "inscritos": 1,
+   "duracao_media": "0:27",
+   "pct_media": 70.3,
+   "impressoes": 54,
+   "ctr": 1.9
+  },
+  {
+   "titulo": "Ocarina of Time no Switch 2 saiu: R$ 329,90 #shorts",
+   "tipo": "short",
+   "quadro": "60s",
+   "duracao": "0:46",
+   "views": 410,
+   "horas": 1.1,
+   "inscritos": 0,
+   "duracao_media": "0:22",
+   "pct_media": 48.6,
+   "impressoes": 106,
+   "ctr": 0.0
+  },
+  {
+   "titulo": "iPhone Duo: 234 mil dobras e a tela segue inteira #shorts",
+   "tipo": "short",
+   "quadro": null,
+   "duracao": "0:50",
+   "views": 361,
+   "horas": 1.1,
+   "inscritos": 1,
+   "duracao_media": "0:29",
+   "pct_media": 59.5,
+   "impressoes": 139,
+   "ctr": 1.4
+  },
+  {
+   "titulo": "GTA 6 ocupa até 212 GB e dá para baixar antes #shorts",
+   "tipo": "short",
+   "quadro": null,
+   "duracao": "0:38",
+   "views": 94,
+   "horas": 0.1,
+   "inscritos": 0,
+   "duracao_media": "0:15",
+   "pct_media": 40.8,
+   "impressoes": 12,
+   "ctr": 16.7
+  },
+  {
+   "titulo": "Black Friday: 3 sinais de oferta falsa para não cair #shorts",
+   "tipo": "short",
+   "quadro": null,
+   "duracao": "0:40",
+   "views": 14,
+   "horas": 0.0,
+   "inscritos": 0,
+   "duracao_media": "0:19",
+   "pct_media": 48.7,
+   "impressoes": 22,
+   "ctr": 9.1
+  },
+  {
+   "titulo": "Smartband ou smartwatch: qual vale para o seu dia a dia?",
+   "tipo": "longo",
+   "quadro": null,
+   "duracao": "3:59",
+   "views": 6,
+   "horas": 0.2,
+   "inscritos": 0,
+   "duracao_media": "2:52",
+   "pct_media": 72.3,
+   "impressoes": 200,
+   "ctr": 1.5
+  }
+ ],
+ "historico": [
+  {
+   "dia": "2026-11-05",
+   "visualizacoes_28d": 1644,
+   "inscritos_saldo_28d": 1
+  }
+ ],
+ "faltou": [
+  "inscritos totais do canal",
+  "% que continuou assistindo no feed de Shorts"
+ ]
+}

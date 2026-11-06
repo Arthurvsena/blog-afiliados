@@ -1,0 +1,40 @@
+{
+ "atualizado": "2026-11-06",
+ "autora": "Luisa",
+ "resumo": "1.644 visualizações em 28 dias, quase tudo de Shorts, e só +1 inscrito. O público vê, mas não tem motivo para voltar: os Shorts não prometem uma série e os vídeos longos quase não aparecem (6 visualizações).",
+ "funcionando": [
+  "Assunto com ângulo Brasil e uma pequena polêmica: 'Sony quer comprar seu PS5 usado, mas não no Brasil' fez 758 visualizações e segurou 70% do vídeo (o melhor do canal).",
+  "Shorts de até 40 segundos seguram mais: os 2 melhores ficaram entre 59% e 70% assistidos.",
+  "Quem abre o vídeo longo assiste: o Smartband reteve 72% (2:52 de 3:59). O conteúdo longo prende; o problema é ninguém chegar até ele."
+ ],
+ "nao_funcionando": [
+  "Inscrição: 1.644 visualizações para +1 inscrito. Short de notícia solta não dá motivo para seguir o canal.",
+  "Vídeo longo sem alcance: 200 impressões e 1,5% de cliques na capa (o normal para começar é de 4% a 6%).",
+  "O Zelda (46 s) teve 410 visualizações, mas só 48,6% assistido: perdeu metade das pessoas antes do fim.",
+  "GTA 6 com 0:15 de média em 0:38: o começo não prendeu."
+ ],
+ "acoes": [
+  "Shorts entre 30 e 40 segundos, com o gancho que entrega o ângulo Brasil na 1ª frase.",
+  "Vídeos longos que alguém PROCURA (tutoriais 'como fazer'), porque a busca traz público que se inscreve.",
+  "Todo Short termina chamando para o vídeo longo relacionado (comentário fixado e link na descrição).",
+  "Capas de longos com texto maior e mais curto para passar de 1,5% para 4% de cliques."
+ ],
+ "por_quadro": {
+  "60s": {
+   "videos": 1,
+   "media_views": 410,
+   "media_pct": 48.6
+  },
+  "lafora": {
+   "videos": 0
+  },
+  "historias": {
+   "videos": 0
+  },
+  "antes_dos_quadros": {
+   "videos": 5,
+   "media_views": 247,
+   "media_pct": 53.5
+  }
+ }
+}
