@@ -47,7 +47,7 @@
     },
     "analista": {
       "status": "ok",
-      "tarefa": "Ontem foi 1 visita, vinda do Google (post Switch 2/Zelda); as 15 visualizações foram navegação interna, provável do dono."
+      "tarefa": "Ontem foram 9 visitas, 6 vieram do Google; Ocarina (4) e Motorola Signature 27 (3) lideraram."
     }
   },
   "historico": [
@@ -345,6 +345,11 @@
       "data": "2026-11-06",
       "agente": "designer",
       "texto": "Pus foto e diagramei os nove posts; cinco notícias ficaram com logo por falta de foto de divulgação."
+    },
+    {
+      "data": "2026-11-06",
+      "agente": "analista",
+      "texto": "Ontem foram 9 visitas, 6 vieram do Google; Ocarina (4) e Motorola Signature 27 (3) lideraram."
     }
   ]
 }

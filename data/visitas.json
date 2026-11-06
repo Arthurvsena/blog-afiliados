@@ -372,6 +372,59 @@
         "Cloudflare: 'paginas' = página de entrada da visita; 'paginas_vistas' = top 5 caminhos por visualização (painel mostra só 5)",
         "Search Console: 04/11 ainda não disponível; dia mais recente é 03/11 (revisado para 5 cliques e 88 impressões, CTR 5,7%, posição 9,9). Período 31/10 a 03/11: 6 cliques, 160 impressões; consultas no período com mais impressões: 'alexa 2027' (5) e 'zelda switch 2 brasil' (2)"
       ]
+    },
+    {
+      "dia": "2026-11-05",
+      "visitas": 9,
+      "visualizacoes": 9,
+      "celular_pct": 67,
+      "youtube": 0,
+      "paginas": [
+        {
+          "url": "/posts/zelda-ocarina-of-time-switch-2-lancamento-5-novembro-preco/",
+          "visitas": 4
+        },
+        {
+          "url": "/posts/motorola-signature-27-brasil-pre-registro-data/",
+          "visitas": 3
+        },
+        {
+          "url": "/",
+          "visitas": 1
+        },
+        {
+          "url": "/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/",
+          "visitas": 1
+        }
+      ],
+      "origens": [
+        {
+          "origem": "google",
+          "visitas": 6
+        },
+        {
+          "origem": "direto",
+          "visitas": 3
+        }
+      ],
+      "paises": [
+        {
+          "pais": "Brasil",
+          "visitas": 6
+        },
+        {
+          "pais": "Portugal",
+          "visitas": 2
+        },
+        {
+          "pais": "Estados Unidos",
+          "visitas": 1
+        }
+      ],
+      "google": null,
+      "faltou": [
+        "google: o Search Console ainda mostra 03/11 como dia mais recente (já registrado no dia 2026-11-04); semana 31/10 a 03/11 somou 6 cliques e 160 impressões, posição média 9,6, top consulta 'alexa 2027' (5 impressões)"
+      ]
     }
   ]
 }
