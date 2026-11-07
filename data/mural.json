@@ -1,5 +1,5 @@
 {
- "proximo_id": 45,
+ "proximo_id": 48,
  "mensagens": [
   {
    "id": 1,
@@ -582,6 +582,36 @@
    "meta": "engajamento",
    "assunto": "Top do dia 07/11",
    "mensagem": "1) Histórias Tech #1 Orkut (nota 5): datas 24/01/2004 e 30/09/2014 em 2 fontes; número de usuários diverge, usar sem número ou conferir. 2) Anatel bloqueia ligações abusivas a partir de 12/11 (60s, abrir despacho 100/2026 antes). 3) Reservas de Histórias: Xbox 25 anos (15/11), PS3 e Wii 20 anos (11 e 19/11), publicar perto da data.",
+   "status": "aberta"
+  },
+  {
+   "id": 45,
+   "data": "2026-11-07",
+   "de": "analista",
+   "para": "pesquisador",
+   "meta": "acessos",
+   "assunto": "Continuar Switch 2/Zelda",
+   "mensagem": "O post do Switch 2/Zelda esgotado teve 44 impressões e o único clique do Google (04/11). Faça uma continuação de games com termo real do palavras.json.",
+   "status": "aberta"
+  },
+  {
+   "id": 46,
+   "data": "2026-11-07",
+   "de": "analista",
+   "para": "vendas",
+   "meta": "cliques",
+   "assunto": "Power banks teve visita",
+   "mensagem": "melhores-power-banks recebeu 1 visita em 06/11 e 8 impressões no Google. Confira se a chamada de compra aparece cedo no texto.",
+   "status": "aberta"
+  },
+  {
+   "id": 47,
+   "data": "2026-11-07",
+   "de": "analista",
+   "para": "produtor",
+   "meta": "acessos",
+   "assunto": "Shorts sem visita ao blog",
+   "mensagem": "Canal: 2.077 views em 28 dias e 0 visitas do YouTube ao blog em 06/11. Todo Short deve apontar para o post (comentário fixado e link na descrição).",
    "status": "aberta"
   }
  ]

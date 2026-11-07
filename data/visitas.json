@@ -425,6 +425,136 @@
       "faltou": [
         "google: o Search Console ainda mostra 03/11 como dia mais recente (já registrado no dia 2026-11-04); semana 31/10 a 03/11 somou 6 cliques e 160 impressões, posição média 9,6, top consulta 'alexa 2027' (5 impressões)"
       ]
+    },
+    {
+      "dia": "2026-11-06",
+      "visitas": 7,
+      "visualizacoes": 10,
+      "celular_pct": 14,
+      "youtube": 0,
+      "paginas": [
+        {
+          "url": "/",
+          "visitas": 4
+        },
+        {
+          "url": "/posts/zelda-ocarina-of-time-switch-2-lancamento-5-novembro-preco/",
+          "visitas": 1
+        },
+        {
+          "url": "/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/",
+          "visitas": 1
+        },
+        {
+          "url": "/posts/melhores-power-banks/",
+          "visitas": 1
+        }
+      ],
+      "paginas_vistas": [
+        {
+          "url": "/",
+          "visualizacoes": 5
+        },
+        {
+          "url": "/posts/xbox-series-fsr-4-1-gta-6-o-que-muda/",
+          "visualizacoes": 2
+        },
+        {
+          "url": "/posts/zelda-ocarina-of-time-switch-2-lancamento-5-novembro-preco/",
+          "visualizacoes": 1
+        },
+        {
+          "url": "/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/",
+          "visualizacoes": 1
+        },
+        {
+          "url": "/posts/melhores-power-banks/",
+          "visualizacoes": 1
+        }
+      ],
+      "origens": [
+        {
+          "origem": "direto",
+          "visitas": 6
+        },
+        {
+          "origem": "google",
+          "visitas": 1
+        }
+      ],
+      "paises": [
+        {
+          "pais": "Brasil",
+          "visitas": 4
+        },
+        {
+          "pais": "Estados Unidos",
+          "visitas": 3
+        }
+      ],
+      "google": {
+        "dia": "2026-11-04",
+        "cliques": 1,
+        "impressoes": 118,
+        "posicao_media": 13.9,
+        "consultas": [
+          {
+            "termo": "headset nexus",
+            "cliques": 0,
+            "impressoes": 2
+          },
+          {
+            "termo": "logitech power bank review 2026",
+            "cliques": 0,
+            "impressoes": 1
+          },
+          {
+            "termo": "eucerin power bank review 2026",
+            "cliques": 0,
+            "impressoes": 1
+          },
+          {
+            "termo": "alexa 2027",
+            "cliques": 0,
+            "impressoes": 1
+          },
+          {
+            "termo": "switch 2 tamanho tela",
+            "cliques": 0,
+            "impressoes": 1
+          }
+        ],
+        "paginas": [
+          {
+            "url": "/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/",
+            "cliques": 1,
+            "impressoes": 44
+          },
+          {
+            "url": "/posts/zelda-ocarina-of-time-switch-2-lancamento-5-novembro-preco/",
+            "cliques": 0,
+            "impressoes": 16
+          },
+          {
+            "url": "/posts/melhores-power-banks/",
+            "cliques": 0,
+            "impressoes": 8
+          },
+          {
+            "url": "/posts/alexa-plus-brasil-acesso-gratis-prorrogado-fevereiro-2027/",
+            "cliques": 0,
+            "impressoes": 6
+          },
+          {
+            "url": "/posts/fone-bluetooth-ou-com-fio/",
+            "cliques": 0,
+            "impressoes": 6
+          }
+        ]
+      },
+      "faltou": [
+        "google: Search Console mostra 04/11 como dia mais recente (05 e 06/11 ainda não processados)"
+      ]
     }
   ]
 }
