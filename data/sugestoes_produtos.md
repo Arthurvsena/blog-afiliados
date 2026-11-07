@@ -9,6 +9,42 @@ O curador escreve aqui os produtos que vale cadastrar em data/produtos.csv.
 - ❌ Motorola TurboPower Duo 50 W: os dois anúncios de catálogo têm 127 e 128 avaliações (abaixo de 200). No lugar entrou ✅ Ugreen Nexode GaN 30 W (CD226).
 - ✅ Extra: tomada TP-Link Tapo P110 (o guia `tomada-inteligente-vale-a-pena-como-funciona` não tinha tomada no catálogo).
 
+## Sugestões de 2026-11-07
+
+**Aviso para o cadastrador:** o Mercado Livre segue sem leitura aqui, então nota e avaliações do ML **não** foram conferidas. Critério no cadastro: nota 4,5+ e 200+ avaliações no anúncio, loja oficial ou MercadoLíder, selo Anatel; senão descarte. Atende o mural #44 (redator). Preços de outras lojas são só indicativos e **não** vão para o texto dos guias.
+
+### power-banks-carregadores: power banks para iPhone (pauta `melhores-power-banks-iphone`, Black Friday, publicar até 15/11)
+**Sobre o Power Delivery:** no catálogo, só o Ugreen PB311 cita PD. O Anker Nano A1259 (já ativo) tem na página da Anker UK saída USB-C de 30 W com perfis de 5/9/10/12/15/20 V, peso de 215 g e garantia de 24 meses, mas a página **não** escreve "Power Delivery". O dono pode acrescentar "Power Delivery" aos destaques dele só se o anúncio do ML disser. Abaixo, 2 modelos magnéticos (carga sem fio no iPhone).
+- **Power Bank Ugreen Nexode sem fio 10.000 mAh, Qi 15 W, PD 20 W (magnético)** (Ugreen), preço no Brasil não confirmado. Por que: único candidato com PD declarado no título do fabricante e formato magnético que cola no iPhone. Confirmado na loja europeia da Ugreen: 10.000 mAh, Qi 15 W e USB-C PD 20 W (só o título; tabela técnica não lida), garantia de 2 anos na faixa do site. Cuidado: outra loja diz PD 30 W (PcComponentes) e há versão Qi2.1 nova; **não encontrei venda oficial no Brasil** (referência PB761; só vi anúncio no ML do Peru). Cadastre só se achar anúncio brasileiro de vendedor confiável e use a potência que ele mostrar. Não confundir com o MagFlow Air.
+  Busca no ML: `Power Bank Ugreen Nexode 10000mAh Magnético Qi2 15W PB761`
+  Linha pronta para o CSV (só falta o link):
+  `ugreen-nexode-magnetico-10000,power-banks-carregadores,Power Bank Ugreen Nexode Magnético 10.000 mAh 15 W,Ugreen,PRECO,NOTA,AVAL,COLE_O_LINK,,10.000 mAh;Carga magnética sem fio de 15 W;USB-C com Power Delivery (confirme a potência no anúncio),sim`
+- **Anker MagGo Power Bank 10.000 mAh Slim (A1664), Qi2 15 W, compatível com MagSafe** (Anker), preço não confirmado (a loja oficial Anker no ML tem anúncios MagGo com cupom; ver `mercadolivre.com.br/loja/ankeroficial`). Por que: marca com loja oficial no ML e garantia local, formato fino que cola no iPhone 12 em diante. Confirmado na página da Anker Brasil: 10.000 mAh, Qi2 e 15 W sem fio, compatível com MagSafe, dimensões 104 x 70,6 x 14,7 mm (Anker global). B&H: uma porta USB-C de entrada e saída, cabo USB-C de 60 cm na caixa. **Power Delivery NÃO confirmado**: fonte alemã diz 30 W na USB-C, nenhuma fonte inglesa confirma; registre PD só se o anúncio do ML trouxer. Confira se o anúncio é o A1664 e não outro MagGo.
+  Busca no ML: `Anker MagGo Power Bank 10000mAh Slim Qi2 15W A1664`
+  Linha pronta para o CSV (só falta o link):
+  `anker-maggo-a1664-10000,power-banks-carregadores,Power Bank Anker MagGo 10.000 mAh Slim Qi2 15 W A1664,Anker,PRECO,NOTA,AVAL,COLE_O_LINK,,10.000 mAh;Carga magnética Qi2 de 15 W;Compatível com MagSafe;Formato fino com USB-C,sim`
+- Fora: Baseus MagSafe 10.000 mAh (sem anúncio brasileiro achado) e marcas sem reputação (UNZEER, ~R$ 111).
+
+### fones-caixas-bluetooth: caixas de som (catálogo tem JBL Go 4 e Soundcore 2; pautas `jbl-soundcore` e `ate-100`)
+**Situação:** a JBL Flip Essential 2 foi descartada em 11-05 por preço acima de R$ 700 no ML, então `melhores-caixas-de-som-bluetooth-jbl-soundcore` ainda precisa de mais 1 a 2 e uma lista de 4 precisa de mais 2. Três candidatos com ficha:
+- **Caixa de Som Anker Soundcore 3** (Anker), sem preço no Brasil confirmado (US$ 89,99 no Canadá, não vale). Por que: citada como custo-benefício em guias e é o degrau acima da Soundcore 2 já ativa (mesma marca; no texto, deixe claro). Confirmado na Soundcore: 16 W estéreo com drivers de titânio, até 24 h, IPX7, USB-C, PartyCast. Bluetooth 5.0 só numa loja (não registre). Garantia e voltagem: confira no anúncio, prefira a loja oficial Soundcore/Anker.
+  Busca no ML: `Caixa de Som Anker Soundcore 3 16W IPX7`
+  Linha pronta para o CSV (só falta o link):
+  `anker-soundcore-3,fones-caixas-bluetooth,Caixa de Som Bluetooth Anker Soundcore 3 16 W,Anker,PRECO,NOTA,AVAL,COLE_O_LINK,,16 W em estéreo;Até 24 h de bateria (segundo o fabricante);Resistência IPX7;Carga por USB-C,sim`
+- **Caixa de Som JBL Go Essential 2** (JBL), referência de R$ 219 no site oficial (Canaltech), R$ 155 a R$ 214 em lojas (indicativo). Por que: cabe em "até R$ 200" e na pauta JBL; é a JBL mais barata, menos potente que a Go 4. Confirmado (Canaltech, Pichau, Fast Shop, KaBuM): IP67, 3,1 W RMS, transdutor de 40 mm, até 5 h, recarga USB-C de ~2,5 h, bateria de 2,7 Wh; Bluetooth 4.2 só na Pichau (não registre). Contra: perde definição em volume alto e não serve para festa. Não confundir com a Go Essential original. Compre de loja oficial JBL (falsificação).
+  Busca no ML: `Caixa de Som JBL Go Essential 2 IP67`
+  Linha pronta para o CSV (só falta o link):
+  `jbl-go-essential-2,fones-caixas-bluetooth,Caixa de Som Bluetooth JBL Go Essential 2,JBL,PRECO,NOTA,AVAL,COLE_O_LINK,,3 W RMS;Resistência IP67;Até 5 h de bateria;Carga por USB-C,sim`
+- **Xiaomi Mi Portable Bluetooth Speaker 16 W (MDZ-36-DB)** (Xiaomi), lançou a R$ 479,99 em 2022 (Tecnoblog; preço atual desconhecido, confira). Por que: marca conhecida, potência alta e IPX7. Confirmado na página da Xiaomi Brasil: 2 x 8 W, IPX7, entrada auxiliar de 3,5 mm, pareamento estéreo de duas caixas (TWS), 213 x 74 x 74 mm. Bateria não consta na página do Brasil (não registre). Só entra se ainda houver estoque de loja oficial Xiaomi no ML abaixo de cerca de R$ 400.
+  Busca no ML: `Xiaomi Mi Portable Bluetooth Speaker 16W MDZ-36-DB`
+  Linha pronta para o CSV (só falta o link):
+  `xiaomi-mi-speaker-16w,fones-caixas-bluetooth,Caixa de Som Bluetooth Xiaomi Mi Portable Speaker 16 W,Xiaomi,PRECO,NOTA,AVAL,COLE_O_LINK,,16 W (2 x 8 W);Resistência IPX7;Entrada auxiliar de 3,5 mm;Pareia duas caixas em estéreo,sim`
+- Caixas até R$ 100: segue sem 3 opções com ficha (só i2GO, abaixo do critério; JBL Go Essential 2 só chega perto de R$ 155 em promoção). Sugestão: reaproveitar como "até R$ 200" com Go Essential 2 + Go 4 + Soundcore 2.
+- Citadas em guias, sem ficha lida (não cadastrar): Edifier MP100, Sony SRS-XB13, JBL Flip 6, Philco PBS220BT.
+
+### Resumo de 11-07
+Novas: power banks para iPhone 2 (Ugreen Nexode magnético, Anker MagGo A1664; só o Ugreen tem PD declarado, venda no Brasil não confirmada), caixas Bluetooth 3 (Soundcore 3, JBL Go Essential 2, Xiaomi 16 W). Nota e avaliações do ML não conferidas.
+
 ## Sugestões de 2026-11-04
 
 **Aviso para o cadastrador:** o Mercado Livre segue com HTTP 403 para leitura, então nota e avaliações do ML **não** foram conferidas. As notas abaixo (quando citadas) são de outras lojas e só indicam reputação. Critério no cadastro: nota 4,5+ e 200+ avaliações no anúncio do ML; senão descarte. Prefira loja oficial ou MercadoLíder e confira o selo Anatel. Esta seção complementa as de 11-03, 11-02 e 11-01 (ainda não cadastradas); onde há conflito, vale a mais recente.

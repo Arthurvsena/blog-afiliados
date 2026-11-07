@@ -95,6 +95,8 @@ Matéria que promete tomada que "faz café e lava roupa" é tom de propaganda. E
 
 ## Para quem não vale
 
+Para controlar a luz de um cômodo, veja se compensa mais [lâmpada inteligente ou interruptor inteligente](/posts/lampada-inteligente-ou-interruptor-inteligente-qual-escolher/).
+
 :::contras Não vale para quem
 - Quer ligar ar-condicionado ou chuveiro em modelo de 10 A
 - Tem aparelho que não religa sozinho depois de cortar a energia

@@ -91,7 +91,7 @@ Este é o ponto que quase ninguém conta. A lâmpada inteligente só é intelige
 
 Na prática, vira uma briga de casa: você pede para a Alexa acender, e o filho apagou na parede.
 
-Se a sua casa tem muita gente que não quer saber de aplicativo, pense duas vezes. Ela funciona melhor em lugar onde você controla o hábito: o seu quarto, o escritório, o abajur da sala.
+Se a sua casa tem muita gente que não quer saber de aplicativo, pense duas vezes. Ela funciona melhor em lugar onde você controla o hábito: o seu quarto, o escritório, o abajur da sala. Para vários pontos no mesmo circuito, compare com o [interruptor inteligente](/posts/lampada-inteligente-ou-interruptor-inteligente-qual-escolher/).
 
 :::atencao Interruptor sempre ligado
 Combine com a casa toda: o interruptor fica ligado e a luz se controla por app, voz ou botão sem fio.

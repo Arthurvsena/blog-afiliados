@@ -95,6 +95,8 @@ Salvar o número na agenda evita a triagem. O Google também avisa que o recurso
 
 ## Número oculto e outros limites
 
+Vale saber que a Anatel também vai agir na origem: a partir de 12/11, operadoras podem [bloquear linhas de chamadas abusivas](/posts/anatel-chamadas-abusivas-bloqueio-12-novembro-despacho-100/), mas isso não substitui o filtro no seu aparelho.
+
 Número oculto não se resolve só com esse menu, segundo uma das fontes que consultei, e o Claro faz o mesmo alerta: a opção de bloqueio de privados não vale para um número comum que só não está salvo. Ou seja, são dois filtros diferentes.
 
 Também vale lembrar que a operadora tem ferramentas próprias. A Claro cita o Origem Verificada, que identifica ligações autenticadas de empresas, mas não bloqueia. O Não Me Perturbe pode reduzir o telemarketing de empresas participantes e leva até 30 dias, segundo a operadora. Nenhum cobre todo número desconhecido.

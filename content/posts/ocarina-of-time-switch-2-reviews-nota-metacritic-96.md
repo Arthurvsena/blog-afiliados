@@ -69,6 +69,8 @@ A nota do Metacritic ainda pode se mexer conforme entram mais críticas, e a ava
 
 Vale lembrar que o jogo é exclusivo do Switch 2. A edição comemorativa do console esgotou por aqui, como mostramos [neste post sobre o estoque](/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/).
 
+Depois de jogar, confira [como usar o Zelda Notes](/posts/zelda-notes-ocarina-of-time-app-celular-como-usar/) no celular.
+
 ## Vale a pena?
 
 :::veredito

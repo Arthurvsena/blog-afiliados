@@ -45,7 +45,7 @@ Vale lembrar que pré-carregar só baixa os arquivos. O jogo continua travado at
 
 A Rockstar fala em até 212 GB. O número muda conforme o console e a atualização de lançamento, de acordo com o Canaltech. A Push Square diz que a versão de PS5 tem esse tamanho e espera que ele cresça com patches.
 
-Pense em 212 GB como encher de uma vez boa parte de um SSD de 825 GB do PS5 ou de 1 TB do Xbox. Quem tem pouco espaço livre vai precisar apagar jogos antes.
+Pense em 212 GB como encher de uma vez boa parte de um SSD de 825 GB do PS5 ou de 1 TB do Xbox. Quem tem pouco espaço livre vai precisar apagar jogos antes, e o [passo a passo para liberar espaço no PS5 e no Xbox](/posts/gta-6-liberar-espaco-ps5-xbox-pre-carregamento-212-gb/) mostra como.
 
 O detalhe que importa: não conte com folga.
 
@@ -72,7 +72,7 @@ Outro ponto em aberto é o FSR 4.1 no Xbox. Eu expliquei em [FSR 4.1 no Xbox Ser
 
 Na minha leitura, o recado é um só: libere o espaço antes de 9/11. Baixar 212 GB em cima da hora, com a internet de todo mundo no mesmo dia, é pedir para ficar olhando barra de progresso.
 
-Vale pré-carregar assim que abrir.
+Vale pré-carregar assim que abrir. Ainda decidindo o console? Veja [PlayStation ou Xbox na Black Friday](/posts/playstation-ou-xbox-qual-comprar-black-friday/).
 
 :::dica Antes de 9/11
 Apague os jogos que você não joga hoje. No PS5, os jogos do [PS Plus de novembro](/posts/ps-plus-novembro-2026-dead-island-2-tomb-raider/) podem ser os primeiros a sair do SSD.

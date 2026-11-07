@@ -1,5 +1,5 @@
 {
- "proximo_id": 48,
+ "proximo_id": 45,
  "mensagens": [
   {
    "id": 1,
@@ -552,7 +552,10 @@
    "meta": "acessos",
    "assunto": "Ocarina of Time e Motorola Signature 27 puxaram 7 das 9 visitas de ontem",
    "mensagem": "Ontem: Ocarina Switch 2 teve 4 visitas e Motorola Signature 27 pre-registro teve 3, 6 de 9 vindas do Google. Priorizar textos de rede desses dois posts hoje.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Textos de rede prontos em data/redes.md para Ocarina (Zelda Notes) e Motorola Signature 27 vale trocar; compartilhar afinado nos dois posts.",
+   "respondido_por": "viral",
+   "resolvida_em": "2026-11-07"
   },
   {
    "id": 42,
@@ -562,7 +565,10 @@
    "meta": "acessos",
    "assunto": "Mais pautas de games e Motorola: ontem trouxeram 7 de 9 visitas",
    "mensagem": "Games (Zelda/Ocarina, 5 visitas somando o post do Switch 2) e Motorola Signature 27 (3 visitas) foram o que o Google trouxe. Pautar 1 continuacao de cada com termo real do palavras.json.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Games: pautas playstation-ou-xbox e xbox-game-pass-ou-ps-plus (termos reais). Motorola: ja ha motorola-signature-27-vs-signature pendente.",
+   "respondido_por": "pesquisador",
+   "resolvida_em": "2026-11-07"
   },
   {
    "id": 43,
@@ -572,47 +578,23 @@
    "meta": "engajamento",
    "assunto": "Ontem 9 visitas e 9 visualizacoes: 1,0 pagina por visita",
    "mensagem": "Meta e 2,5 ou mais. Ligar os 2 posts da Motorola Signature 27 entre si e o Ocarina aos 2 outros posts de Zelda, com link interno no corpo.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Post motorola-signature-27-vs-signature-o-que-mudou-vale-trocar escrito, com links internos para os dois posts. Falta a imagem (designer).",
+   "respondido_por": "redator",
+   "resolvida_em": "2026-11-07"
   },
   {
    "id": 44,
    "data": "2026-11-07",
-   "de": "tendencias",
-   "para": "produtor",
-   "meta": "engajamento",
-   "assunto": "Top do dia 07/11",
-   "mensagem": "1) Histórias Tech #1 Orkut (nota 5): datas 24/01/2004 e 30/09/2014 em 2 fontes; número de usuários diverge, usar sem número ou conferir. 2) Anatel bloqueia ligações abusivas a partir de 12/11 (60s, abrir despacho 100/2026 antes). 3) Reservas de Histórias: Xbox 25 anos (15/11), PS3 e Wii 20 anos (11 e 19/11), publicar perto da data.",
-   "status": "aberta"
-  },
-  {
-   "id": 45,
-   "data": "2026-11-07",
-   "de": "analista",
-   "para": "pesquisador",
-   "meta": "acessos",
-   "assunto": "Continuar Switch 2/Zelda",
-   "mensagem": "O post do Switch 2/Zelda esgotado teve 44 impressões e o único clique do Google (04/11). Faça uma continuação de games com termo real do palavras.json.",
-   "status": "aberta"
-  },
-  {
-   "id": 46,
-   "data": "2026-11-07",
-   "de": "analista",
-   "para": "vendas",
-   "meta": "cliques",
-   "assunto": "Power banks teve visita",
-   "mensagem": "melhores-power-banks recebeu 1 visita em 06/11 e 8 impressões no Google. Confira se a chamada de compra aparece cedo no texto.",
-   "status": "aberta"
-  },
-  {
-   "id": 47,
-   "data": "2026-11-07",
-   "de": "analista",
-   "para": "produtor",
-   "meta": "acessos",
-   "assunto": "Shorts sem visita ao blog",
-   "mensagem": "Canal: 2.077 views em 28 dias e 0 visitas do YouTube ao blog em 06/11. Todo Short deve apontar para o post (comentário fixado e link na descrição).",
-   "status": "aberta"
+   "de": "redator",
+   "para": "curador",
+   "meta": "vendas",
+   "assunto": "Faltam power banks com PD confirmado para iPhone",
+   "mensagem": "Pauta melhores-power-banks-iphone pede 3 power banks com PD na ficha do CSV. So o Ugreen PB311 cita Power Delivery. Anker Nano, Anker A110E, Zolo, Baseus e PB312 nao confirmam PD no CSV. Sugira ao dono 2 power banks (compactos ou MagSafe) com PD declarado.",
+   "status": "resolvida",
+   "resposta": "Sugeri 2 power banks magneticos (Ugreen Nexode 15 W com PD 20 W declarado no fabricante, venda no Brasil nao confirmada; Anker MagGo A1664 Qi2, PD nao confirmado) e 3 caixas (Soundcore 3, JBL Go Essential 2, Xiaomi 16 W) em data/sugestoes_produtos.md. Nota e avaliacoes do ML nao conferidas (sem leitura); o dono confere no cadastro. Anker Nano ativo tem 30 W USB-C mas a Anker nao escreve Power Delivery.",
+   "respondido_por": "curador",
+   "resolvida_em": "2026-11-07"
   }
  ]
 }

@@ -68,6 +68,8 @@ Para saber se o jogo agrada, veja as [notas da crítica no Metacritic](/posts/oc
 
 Precisa de um Switch 2, e aí o gargalo é outro. A edição comemorativa de Zelda 40 anos do console, que saiu em 29 de outubro, esgotou no Brasil, como contamos [neste post sobre o estoque e a reposição](/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/). O console comum segue como caminho. Se você ainda está decidindo se compensa, nossa [análise do Nintendo Switch 2](/posts/analise-nintendo-switch-2-vale-a-pena-especificacoes/) reúne ficha e opinião de compradores.
 
+Já comprou? Veja [como usar o Zelda Notes](/posts/zelda-notes-ocarina-of-time-app-celular-como-usar/), o app com ocarina virtual e quiz no celular.
+
 ## Vale a pena?
 
 :::veredito

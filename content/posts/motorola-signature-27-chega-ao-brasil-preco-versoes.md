@@ -89,6 +89,8 @@ Alguns sites trazem datas conflitantes de lançamento. A de 22 de setembro é da
 
 ## Vale a pena?
 
+Já tem o Signature de março? Veja [o que mudou e se vale trocar](/posts/motorola-signature-27-vs-signature-o-que-mudou-vale-trocar/).
+
 Na minha leitura, o preço é de top de linha pesado, e a ficha justifica boa parte: bateria de 7.000 mAh, câmera periscópica de 200 MP e sete anos de atualizações são coisas raras juntas. Mas R$ 10.999 é o valor de um notebook bom.
 
 Se a ideia é pagar menos, o plano da Vivo ou da Claro é o caminho mais barato, desde que você aceite a fidelidade. Quem só quer um celular rápido não precisa de um Signature. Para ver outro aparelho caro a caminho do Brasil, confira o [preço e a entrega do iPhone Duo](/posts/iphone-duo-preco-brasil-entrega-2027/) e, sobre a operadora, o [Starlink no celular da Vivo](/posts/vivo-satelite-starlink-celular-brasil/).
