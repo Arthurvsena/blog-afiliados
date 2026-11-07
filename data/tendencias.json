@@ -16,13 +16,27 @@
       "quadro": "60s",
       "verificar_antes": "OBRIGATÓRIO abrir o Rockstar Newswire/suporte e fixar a data oficial do pré-load por plataforma; a pré-venda (R$ 449,90 e R$ 549,90) veio de um resultado de busca, confirmar nas lojas PS/Xbox ou omitir.",
       "fontes": [
-        {"nome": "Omelete", "url": "https://www.omelete.com.br/games/gta-6-rockstar-confirma-tamanho-jogo-pre-carregamento"},
-        {"nome": "Canaltech", "url": "https://canaltech.com.br/games/rockstar-prepara-pre-carregamento-e-brindes-para-lancamento-de-gta-6/"},
-        {"nome": "Rockstar Games Newswire", "url": "https://www.rockstargames.com/newswire"}
+        {
+          "nome": "Omelete",
+          "url": "https://www.omelete.com.br/games/gta-6-rockstar-confirma-tamanho-jogo-pre-carregamento"
+        },
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/games/rockstar-prepara-pre-carregamento-e-brindes-para-lancamento-de-gta-6/"
+        },
+        {
+          "nome": "Rockstar Games Newswire",
+          "url": "https://www.rockstargames.com/newswire"
+        }
       ],
-      "imagens_oficiais": ["https://www.rockstargames.com/newswire"],
+      "imagens_oficiais": [
+        "https://www.rockstargames.com/newswire"
+      ],
       "post_relacionado": "xbox-series-fsr-4-1-gta-6-o-que-muda",
-      "produto": {"id": "", "como_encaixa": "Editorial puro."},
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
       "nota": 5,
       "status": "nova"
     },
@@ -40,13 +54,25 @@
       "quadro": "60s",
       "verificar_antes": "Achar a página oficial da Anatel sobre como conferir homologação e confirmar o passo a passo; a apreensão é de 2024, não tratar como atual.",
       "fontes": [
-        {"nome": "Band / Procon-SP", "url": "https://www.band.com.br/nacional/sp/black-friday-procon-alerta-como-aproveitar-sem-cair-em-dividas-e-fraudes"},
-        {"nome": "Tecnoblog (operação da Anatel, 2024)", "url": "https://tecnoblog.net/noticias/anatel-apreende-22-mil-produtos-irregulares-da-amazon-e-mercado-livre/"},
-        {"nome": "Anatel", "url": "https://www.gov.br/anatel/"}
+        {
+          "nome": "Band / Procon-SP",
+          "url": "https://www.band.com.br/nacional/sp/black-friday-procon-alerta-como-aproveitar-sem-cair-em-dividas-e-fraudes"
+        },
+        {
+          "nome": "Tecnoblog (operação da Anatel, 2024)",
+          "url": "https://tecnoblog.net/noticias/anatel-apreende-22-mil-produtos-irregulares-da-amazon-e-mercado-livre/"
+        },
+        {
+          "nome": "Anatel",
+          "url": "https://www.gov.br/anatel/"
+        }
       ],
       "imagens_oficiais": [],
       "post_relacionado": "melhores-carregadores-turbo",
-      "produto": {"id": "", "como_encaixa": "Ligar aos carregadores do catálogo (Baseus GaN5, Ugreen Nexode, Samsung 25 W) quando o guia sair; conferir ativo=sim."},
+      "produto": {
+        "id": "",
+        "como_encaixa": "Ligar aos carregadores do catálogo (Baseus GaN5, Ugreen Nexode, Samsung 25 W) quando o guia sair; conferir ativo=sim."
+      },
       "nota": 4,
       "status": "nova"
     },
@@ -66,13 +92,25 @@
       "criterios_gringo": "1 a confirmar (Bloomberg via Tecnoblog + outra fonte de fora); 2 parcial (não vende no BR, mas ancora o debate dos dobráveis); 3 sim; 4 sim (posts de dobráveis)",
       "verificar_antes": "Confirmar data e fonte do fim das vendas e achar uma fonte de fora; converter preços com a cotação do dia, como estimativa.",
       "fontes": [
-        {"nome": "Tecnoblog (fim das vendas)", "url": "https://tecnoblog.net/noticias/samsung-comeca-a-encerrar-vendas-do-galaxy-z-trifold/"},
-        {"nome": "Tecnoblog (2ª geração, rumor)", "url": "https://tecnoblog.net/noticias/samsung-pode-lancar-nova-geracao-do-galaxy-trifold-em-2027/"},
-        {"nome": "Olhar Digital (lançamento)", "url": "https://olhardigital.com.br/2025/12/02/reviews/samsung-apresenta-galaxy-z-trifold/"}
+        {
+          "nome": "Tecnoblog (fim das vendas)",
+          "url": "https://tecnoblog.net/noticias/samsung-comeca-a-encerrar-vendas-do-galaxy-z-trifold/"
+        },
+        {
+          "nome": "Tecnoblog (2ª geração, rumor)",
+          "url": "https://tecnoblog.net/noticias/samsung-pode-lancar-nova-geracao-do-galaxy-trifold-em-2027/"
+        },
+        {
+          "nome": "Olhar Digital (lançamento)",
+          "url": "https://olhardigital.com.br/2025/12/02/reviews/samsung-apresenta-galaxy-z-trifold/"
+        }
       ],
       "imagens_oficiais": [],
       "post_relacionado": "iphone-duo-vale-a-pena-dobravel",
-      "produto": {"id": "", "como_encaixa": "Editorial puro."},
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
       "nota": 3,
       "status": "nova"
     },
@@ -80,7 +118,9 @@
       "data": "2026-11-06",
       "assunto": "Wall Street: techs e chips caem por temor de desaceleração da IA",
       "por_que_em_alta": "Google Trends BR de hoje: 'wall street' com 2000+ buscas, ligado à queda de chips e Nasdaq por temores sobre a IA. Não confirmei os números em fonte primária (Nasdaq -5% e US$ 2,5 tri vieram só do resumo do Trends).",
-      "evidencias": ["https://trends.google.com/trending/rss?geo=BR"],
+      "evidencias": [
+        "https://trends.google.com/trending/rss?geo=BR"
+      ],
       "angulo": "Gancho: a IA deixou memória e celular mais caros, e agora o mercado teme que ela desacelere. Só entra com 2 fontes confiáveis; ligar ao vídeo de memória e preço de 03/11.",
       "formato": "explicador",
       "tipo": "short",
@@ -89,7 +129,10 @@
       "fontes": [],
       "imagens_oficiais": [],
       "post_relacionado": "",
-      "produto": {"id": "", "como_encaixa": "Editorial puro."},
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
       "nota": 2,
       "status": "nova"
     },
@@ -111,14 +154,31 @@
       "criterios_gringo": "1 sim (5+ fontes de fora); 2 sim (App Store global, iPhone é forte no BR); 3 sim (nada em PT achado); 4 parcial (posts de iPhone)",
       "verificar_antes": "Preço e disponibilidade na App Store do Brasil e o nome exato do app no listing",
       "fontes": [
-        {"nome": "MacRumors", "url": "https://macrumors.com/2026/10/30/rian-johnson-iphone-camera-app/"},
-        {"nome": "Gizmodo", "url": "https://gizmodo.com/the-last-jedi-director-launches-a-new-camera-app-for-iphone-because-hes-a-good-guy-2000832061"},
-        {"nome": "No Film School", "url": "https://nofilmschool.com/rian-johnson-steve-yedlin-app"},
-        {"nome": "Newsshooter", "url": "https://www.newsshooter.com/2026/10/28/chromagraph-camera-ios-app-by-steve-yedlin-asc/"}
+        {
+          "nome": "MacRumors",
+          "url": "https://macrumors.com/2026/10/30/rian-johnson-iphone-camera-app/"
+        },
+        {
+          "nome": "Gizmodo",
+          "url": "https://gizmodo.com/the-last-jedi-director-launches-a-new-camera-app-for-iphone-because-hes-a-good-guy-2000832061"
+        },
+        {
+          "nome": "No Film School",
+          "url": "https://nofilmschool.com/rian-johnson-steve-yedlin-app"
+        },
+        {
+          "nome": "Newsshooter",
+          "url": "https://www.newsshooter.com/2026/10/28/chromagraph-camera-ios-app-by-steve-yedlin-asc/"
+        }
       ],
-      "imagens_oficiais": ["Capturas oficiais na página do app na App Store (crédito Divulgação/Chromagraph); abrir com scripts/midia.py"],
+      "imagens_oficiais": [
+        "Capturas oficiais na página do app na App Store (crédito Divulgação/Chromagraph); abrir com scripts/midia.py"
+      ],
       "post_relacionado": "iphone-duo-vale-a-pena-dobravel",
-      "produto": {"id": "", "como_encaixa": "Sem produto do catálogo; editorial. Curador pode avaliar tripé/lente para celular."},
+      "produto": {
+        "id": "",
+        "como_encaixa": "Sem produto do catálogo; editorial. Curador pode avaliar tripé/lente para celular."
+      },
       "nota": 4,
       "status": "em_video"
     },
@@ -137,13 +197,25 @@
       "origem": "gringo",
       "criterios_gringo": "1 sim; 2 sim; 3 fraco (já coberto em PT); 4 sim. Reserva se a do Chromagraph cair.",
       "fontes": [
-        {"nome": "Notebookcheck (Redmi Turbo 6 Max, 08/10)", "url": "https://www.notebookcheck.net/Xiaomi-Redmi-Turbo-6-Max-leak-points-to-a-10-000mAh-plus-battery-and-7-inch-2K-display.1419050.0.html"},
-        {"nome": "Canaltech (25/05)", "url": "https://canaltech.com.br/smartphone/bateria-de-10000-mah-6-celulares-que-desafiam-a-tomada-em-2026/"},
-        {"nome": "Xataka Brasil (Redmi Note 17 Pro Max, 9.210 mAh)", "url": "https://www.xataka.com.br/telefonia/xiaomi-lanca-redmi-note-17-pro-max-5g-no-brasil-com-a-maior-bateria-ja-vista-na-linha-9-210-mah"}
+        {
+          "nome": "Notebookcheck (Redmi Turbo 6 Max, 08/10)",
+          "url": "https://www.notebookcheck.net/Xiaomi-Redmi-Turbo-6-Max-leak-points-to-a-10-000mAh-plus-battery-and-7-inch-2K-display.1419050.0.html"
+        },
+        {
+          "nome": "Canaltech (25/05)",
+          "url": "https://canaltech.com.br/smartphone/bateria-de-10000-mah-6-celulares-que-desafiam-a-tomada-em-2026/"
+        },
+        {
+          "nome": "Xataka Brasil (Redmi Note 17 Pro Max, 9.210 mAh)",
+          "url": "https://www.xataka.com.br/telefonia/xiaomi-lanca-redmi-note-17-pro-max-5g-no-brasil-com-a-maior-bateria-ja-vista-na-linha-9-210-mah"
+        }
       ],
       "imagens_oficiais": [],
       "post_relacionado": "como-escolher-power-bank",
-      "produto": {"id": "anker-a110e-20000-22w", "como_encaixa": "Alternativa que já dá pra comprar: power bank de 20.000 mAh (confirmar ativo=sim no CSV)"},
+      "produto": {
+        "id": "anker-a110e-20000-22w",
+        "como_encaixa": "Alternativa que já dá pra comprar: power bank de 20.000 mAh (confirmar ativo=sim no CSV)"
+      },
       "nota": 3,
       "status": "nova"
     },
@@ -161,13 +233,25 @@
       "quadro": "60s",
       "verificar_antes": "Preço do Buds4 Pro no Brasil veio de resultado de busca; conferir no Samsung Brasil ou omitir.",
       "fontes": [
-        {"nome": "9to5Google", "url": "https://9to5google.com/2026/08/11/samsung-galaxy-buds-hearing-aid-feature/"},
-        {"nome": "Canaltech", "url": "https://canaltech.com.br/fone-de-ouvido/samsung-vai-transformar-galaxy-buds-em-aparelho-auditivo-eua-ja-aprovou/"},
-        {"nome": "Samsung Newsroom Brasil", "url": "https://news.samsung.com/br/recurso-hearing-aid-do-galaxy-buds-da-samsung-e-aprovado-pela-fda"}
+        {
+          "nome": "9to5Google",
+          "url": "https://9to5google.com/2026/08/11/samsung-galaxy-buds-hearing-aid-feature/"
+        },
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/fone-de-ouvido/samsung-vai-transformar-galaxy-buds-em-aparelho-auditivo-eua-ja-aprovou/"
+        },
+        {
+          "nome": "Samsung Newsroom Brasil",
+          "url": "https://news.samsung.com/br/recurso-hearing-aid-do-galaxy-buds-da-samsung-e-aprovado-pela-fda"
+        }
       ],
       "imagens_oficiais": [],
       "post_relacionado": "",
-      "produto": {"id": "", "como_encaixa": "Editorial puro."},
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
       "nota": 3,
       "status": "nova"
     },
@@ -184,7 +268,10 @@
       "fontes": [],
       "imagens_oficiais": [],
       "post_relacionado": "",
-      "produto": {"id": "", "como_encaixa": "Sem produto."},
+      "produto": {
+        "id": "",
+        "como_encaixa": "Sem produto."
+      },
       "nota": 4,
       "status": "nova"
     },
@@ -201,7 +288,10 @@
       "fontes": [],
       "imagens_oficiais": [],
       "post_relacionado": "",
-      "produto": {"id": "", "como_encaixa": "Sem produto."},
+      "produto": {
+        "id": "",
+        "como_encaixa": "Sem produto."
+      },
       "nota": 3,
       "status": "nova"
     },
@@ -218,7 +308,10 @@
       "fontes": [],
       "imagens_oficiais": [],
       "post_relacionado": "",
-      "produto": {"id": "", "como_encaixa": "Sem produto."},
+      "produto": {
+        "id": "",
+        "como_encaixa": "Sem produto."
+      },
       "nota": 3,
       "status": "nova"
     },
@@ -458,6 +551,54 @@
       },
       "nota": 3,
       "status": "nova"
+    },
+    {
+      "assunto": "Espelhar a tela do celular no PC (Android e iPhone), sem gambiarra",
+      "quadro": "tutorial",
+      "tipo": "tutorial",
+      "palavra_chave": "como espelhar a tela do celular no pc",
+      "por_que_em_alta": "Dúvida com busca alta e constante no YouTube (não envelhece)",
+      "evidencias": [
+        "vidIQ 07/11: ~41 mil buscas/mês no YouTube, concorrência 55, nota 60; variação 'no notebook' ~15,5 mil/mês, concorrência 40"
+      ],
+      "angulo": "Mostrar o caminho oficial (Vincular ao Celular da Microsoft para Android, alternativas para iPhone) com gravação de tela das páginas oficiais e o resultado",
+      "formato": "tutorial",
+      "fontes": [],
+      "status": "nova",
+      "nota": 5,
+      "origem": "vidiq"
+    },
+    {
+      "assunto": "Usar o celular como webcam no PC e no OBS (passo a passo)",
+      "quadro": "tutorial",
+      "tipo": "tutorial",
+      "palavra_chave": "como usar o celular como webcam no obs",
+      "por_que_em_alta": "Dúvida com busca alta e constante no YouTube (não envelhece)",
+      "evidencias": [
+        "vidIQ 07/11: ~15 mil buscas/mês, concorrência 29, nota 66; 'como colocar a camera do celular no obs' ~11,7 mil, concorrência 21"
+      ],
+      "angulo": "Webcam boa sem gastar: apps oficiais (página oficial de cada um) e a configuração no OBS, com gravação de tela das páginas oficiais",
+      "formato": "tutorial",
+      "fontes": [],
+      "status": "nova",
+      "nota": 5,
+      "origem": "vidiq"
+    },
+    {
+      "assunto": "Como remover a conta Google do celular antes de vender (e não travar o aparelho)",
+      "quadro": "tutorial",
+      "tipo": "tutorial",
+      "palavra_chave": "como remover conta google do celular",
+      "por_que_em_alta": "Dúvida com busca alta e constante no YouTube (não envelhece)",
+      "evidencias": [
+        "vidIQ 07/11: ~24 mil buscas/mês, concorrência 46, nota 61"
+      ],
+      "angulo": "Utilidade + segurança: o passo a passo oficial da Ajuda do Google e o alerta do bloqueio de fábrica (FRP) para quem vai vender",
+      "formato": "tutorial",
+      "fontes": [],
+      "status": "nova",
+      "nota": 5,
+      "origem": "vidiq"
     }
   ]
 }
