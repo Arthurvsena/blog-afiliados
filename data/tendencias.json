@@ -1,6 +1,130 @@
 {
-  "atualizado": "2026-11-06",
+  "atualizado": "2026-11-07",
   "tendencias": [
+    {
+      "data": "2026-11-07",
+      "assunto": "Histórias Tech: Xbox, os 25 anos do console que a Microsoft lançou para enfrentar a Sony",
+      "por_que_em_alta": "Data redonda: Xbox lançado em 15/11/2001 na América do Norte; Hardware.com.br e Phil Spencer abriram as comemorações dos 25 anos. Combina com a semana de GTA 6.",
+      "evidencias": [
+        "https://www.history.com/this-day-in-history/november-15/microsoft-releases-xbox-gaming-console",
+        "https://www.hardware.com.br/artigos/xbox-anuncio-bill-gates-the-rock-ces-2001-25-anos/amp/"
+      ],
+      "angulo": "Gancho: a Microsoft entrou num mercado dominado por japoneses com um console de US$ 299,99, e cerca de 25% das primeiras unidades tinham defeito no drive de DVD. Virada: Halo, Xbox Live (15/11/2002) e a briga com o PS2 (cerca de 24 milhões contra 150 milhões). Lição: perder a geração, mas construir a plataforma.",
+      "formato": "curiosidade",
+      "tipo": "short",
+      "quadro": "historias",
+      "verificar_antes": "Publicar de 13 a 15/11 para pegar a data. Preço US$ 299,99, 24 mi contra 150 mi e o defeito de 25% vieram de um resumo de busca: confirmar cada um em 2 fontes antes do roteiro.",
+      "fontes": [
+        {"nome": "History.com (15/11/2001)", "url": "https://www.history.com/this-day-in-history/november-15/microsoft-releases-xbox-gaming-console"},
+        {"nome": "Hardware.com.br", "url": "https://www.hardware.com.br/artigos/xbox-anuncio-bill-gates-the-rock-ces-2001-25-anos/amp/"},
+        {"nome": "The National", "url": "https://www.thenationalnews.com/arts-culture/2026/08/16/xbox-at-25-how-microsoft-muscled-its-way-into-console-gaming-and-changed-the-industry/"}
+      ],
+      "imagens_oficiais": ["https://news.xbox.com/pt-br/2021/05/13/comemorando-20-anos-de-xbox/amp/"],
+      "post_relacionado": "",
+      "produto": {"id": "", "como_encaixa": "Sem produto."},
+      "nota": 4,
+      "status": "nova"
+    },
+    {
+      "data": "2026-11-07",
+      "assunto": "Histórias Tech: Wii, 20 anos do console que apostou no movimento e passou PS3 e Xbox 360",
+      "por_que_em_alta": "Data redonda: Wii lançado em 19/11/2006 na América do Norte; Gazeta SP e Hardware.com.br fazem a retrospectiva dos 20 anos. Nostalgia forte e ligação com o Switch 2.",
+      "evidencias": [
+        "https://www.gazetasp.com.br/entretenimento/nintendo-wii-completa-20-anos-e-resgata-nostalgia-de-uma-epoca-em-que-videogame-tirou-familias-do-sofa-para-jogar-juntas-na-sala-de-casa/",
+        "https://www.hardware.com.br/artigos/nintendo-wii/amp/"
+      ],
+      "angulo": "Gancho: o console menos potente da geração foi o mais vendido. Auge: controle de movimento e 80 milhões de consoles em 4 anos (Hardware.com.br). Virada: o público casual foi embora e o Wii U falhou. Lição: inovar em como se joga, não em gráfico.",
+      "formato": "curiosidade",
+      "tipo": "short",
+      "quadro": "historias",
+      "verificar_antes": "Datas divergem: 19/11/2006 (América do Norte) e 02/12/2006 (Japão, Wikipedia). O total de cerca de 101 milhões vem só da Wikipedia (dado de 2019): achar o número oficial no relatório da Nintendo. Publicar perto de 19/11.",
+      "fontes": [
+        {"nome": "Gazeta SP", "url": "https://www.gazetasp.com.br/entretenimento/nintendo-wii-completa-20-anos-e-resgata-nostalgia-de-uma-epoca-em-que-videogame-tirou-familias-do-sofa-para-jogar-juntas-na-sala-de-casa/"},
+        {"nome": "Hardware.com.br", "url": "https://www.hardware.com.br/artigos/nintendo-wii/amp/"},
+        {"nome": "Nintendo (relatório de vendas, a localizar)", "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/"}
+      ],
+      "imagens_oficiais": ["https://www.nintendo.com/br/"],
+      "post_relacionado": "",
+      "produto": {"id": "", "como_encaixa": "Sem produto."},
+      "nota": 4,
+      "status": "nova"
+    },
+    {
+      "data": "2026-11-07",
+      "assunto": "Histórias Tech: PlayStation 3, 20 anos do console caro demais que quase derrubou a Sony",
+      "por_que_em_alta": "Data redonda: PS3 lançado em 11/11/2006 no Japão e 17/11/2006 na América do Norte (página oficial PlayStation Brasil); 87 milhões vendidos segundo o PlayStation. A Sony também está no debate do fim da mídia física.",
+      "evidencias": [
+        "https://www.playstation.com/pt-br/playstation-history/2007-ps3-ps-vita/",
+        "https://www.hardware.com.br/?p=285317"
+      ],
+      "angulo": "Gancho: o ex-chefe do PlayStation admitiu que a Sony ficou contente de ter sobrevivido à geração do PS3 (Hardware.com.br). Virada: preço alto, Cell e Blu-ray contra o Xbox 360. Lição: a recuperação vem de ouvir o público.",
+      "formato": "curiosidade",
+      "tipo": "short",
+      "quadro": "historias",
+      "verificar_antes": "Preço de lançamento não confirmado: achar em 2 fontes ou omitir. A versão PT-PT da página oficial cita 2007; tratar o ano com cuidado e usar a página do Brasil.",
+      "fontes": [
+        {"nome": "PlayStation Brasil (história)", "url": "https://www.playstation.com/pt-br/playstation-history/2007-ps3-ps-vita/"},
+        {"nome": "Hardware.com.br", "url": "https://www.hardware.com.br/?p=285317"}
+      ],
+      "imagens_oficiais": ["https://www.playstation.com/pt-br/playstation-history/2007-ps3-ps-vita/"],
+      "post_relacionado": "",
+      "produto": {"id": "", "como_encaixa": "Sem produto."},
+      "nota": 3,
+      "status": "nova"
+    },
+    {
+      "data": "2026-11-07",
+      "assunto": "Anatel: operadoras passam a bloquear ligações abusivas a partir de 12/11",
+      "por_que_em_alta": "Teletime (19/10): Despacho Decisório nº 100/2026 da Anatel vale a partir de 12/11; Tecnoblog, Canaltech e TNH1 cobrem. Interessa a todo mundo que recebe ligação de golpe.",
+      "evidencias": [
+        "https://teletime.com.br/19/10/2026/operadoras-bloqueio-chamadas-abusivas/",
+        "https://tecnoblog.net/noticias/anatel-define-regras-para-operadoras-bloquearem-chamadas-de-spam/",
+        "https://canaltech.com.br/telecom/fim-das-ligacoes-indesejadas-anatel-cria-regras-padronizadas-para-filtros-de-spam/"
+      ],
+      "angulo": "Gancho: a partir de quinta (12/11) a operadora pode derrubar a ligação de golpe antes de tocar. O que muda, o que não pode ser bloqueado (órgãos públicos, Defesa Civil, urgência médica) e o que fazer se uma ligação legítima cair.",
+      "formato": "alerta",
+      "tipo": "short",
+      "quadro": "60s",
+      "verificar_antes": "Abrir o despacho nº 100/2026 no site da Anatel: o prazo de 15 dias após 12/11 aparece em uma só fonte e pode ser de norma antiga. Publicar até 11/11.",
+      "fontes": [
+        {"nome": "Teletime", "url": "https://teletime.com.br/19/10/2026/operadoras-bloqueio-chamadas-abusivas/"},
+        {"nome": "Tecnoblog", "url": "https://tecnoblog.net/noticias/anatel-define-regras-para-operadoras-bloquearem-chamadas-de-spam/"},
+        {"nome": "Canaltech", "url": "https://canaltech.com.br/telecom/fim-das-ligacoes-indesejadas-anatel-cria-regras-padronizadas-para-filtros-de-spam/"},
+        {"nome": "Anatel", "url": "https://www.gov.br/anatel/"}
+      ],
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {"id": "", "como_encaixa": "Editorial puro."},
+      "nota": 4,
+      "status": "nova"
+    },
+    {
+      "data": "2026-11-07",
+      "assunto": "Xiaomi 18 Pro e Pro Max: preços vazados na Europa com aumento forte, global em novembro",
+      "por_que_em_alta": "GSMArena e Tech Advisor: Pro perto de EUR 1.449 e Pro Max EUR 1.849 (vazamento), no nível do iPhone 18 Pro Max na Europa; GaGadget: global em novembro com baterias menores; Xiaomi confirmou o global em 02/11.",
+      "evidencias": [
+        "https://www.gsmarena.com/xiaomi_18_pro_and_xiaomi_18_pro_max_european_prices_leak-news-75114.php",
+        "https://www.techadvisor.com/article/3264492/xiaomi-18-pro-and-pro-max-european-prices-leak-with-major-hikes.html",
+        "https://gagadget.com/en/732552-xiaomi-18-pro-goes-global-in-november-with-smaller-batteries/"
+      ],
+      "angulo": "Gancho: o top da Xiaomi custa o mesmo que um iPhone Pro Max na Europa. A memória cara explica? Chega ao Brasil? Estimar em reais com a cotação do dia, avisando que o preço é vazamento.",
+      "formato": "comparativo",
+      "tipo": "longo",
+      "quadro": "lafora",
+      "origem": "gringo",
+      "criterios_gringo": "1 sim (GSMArena, Tech Advisor, GaGadget); 2 sim (Xiaomi vende no BR, tema preço); 3 parcial (Canaltech cobriu a confirmação do global, não o preço); 4 sim (posts de celular e memória)",
+      "verificar_antes": "Preços são vazamento, não oficiais. Esperar o lançamento global para o vídeo longo; até lá, reserva.",
+      "fontes": [
+        {"nome": "GSMArena", "url": "https://www.gsmarena.com/xiaomi_18_pro_and_xiaomi_18_pro_max_european_prices_leak-news-75114.php"},
+        {"nome": "Tech Advisor", "url": "https://www.techadvisor.com/article/3264492/xiaomi-18-pro-and-pro-max-european-prices-leak-with-major-hikes.html"},
+        {"nome": "Canaltech (confirmação do global)", "url": "https://canaltech.com.br/produtos/xiaomi-confirma-18-pro-global-para-novembro-smartwatch-e-fones-sao-esperados/"}
+      ],
+      "imagens_oficiais": ["https://www.mi.com/br/"],
+      "post_relacionado": "",
+      "produto": {"id": "", "como_encaixa": "Editorial puro."},
+      "nota": 3,
+      "status": "nova"
+    },
     {
       "data": "2026-11-06",
       "assunto": "GTA 6: três datas diferentes de pré-carregamento e pré-venda no Brasil",
@@ -256,24 +380,58 @@
       "status": "nova"
     },
     {
-      "data": "2026-11-05",
+      "data": "2026-11-07",
       "assunto": "Histórias Tech #1: Orkut, o rei brasileiro que o Facebook engoliu",
-      "por_que_em_alta": "Pauta evergreen para sábado 07/11 (Histórias Tech). Nostalgia de alto engajamento no Brasil, sem concorrência de notícia do dia.",
-      "evidencias": [],
-      "angulo": "Gancho: em 2008 o Orkut era brasileiro por maioria absoluta e mesmo assim perdeu. Auge, virada (Facebook em português, celular) e lição. Conferir todas as datas e números em 2 fontes antes do roteiro.",
+      "por_que_em_alta": "Histórias Tech de sábado 07/11. Nostalgia de alto engajamento no Brasil; TecMundo (2026), Canaltech, Olhar Digital e SBT News seguem cobrindo o Orkut. Sem notícia concorrente no dia.",
+      "evidencias": [
+        "https://canaltech.com.br/redes-sociais/a-historia-do-orkut-rede-social-ja-foi-a-favorita-do-brasil/",
+        "https://olhardigital.com.br/2024/09/30/internet-e-redes-sociais/10-anos-sem-orkut-o-legado-que-ainda-ressoa-nas-redes-sociais/",
+        "https://sbtnews.sbt.com.br/noticia/tecnologia/orkut-faz-20-anos"
+      ],
+      "angulo": "Gancho (momento dramático): o Google desligou em 30/09/2014 uma rede em que mais da metade dos usuários era brasileira. Auge (lançado em 24/01/2004 por Orkut Büyükkökten; versão em português em 2005; maioria brasileira), virada (Facebook passa o Orkut no Brasil no fim de 2011, medição comScore) e lição: ganhar o público não protege de um concorrente que chega no seu idioma e no celular. Fecha com pergunta.",
       "formato": "curiosidade",
       "tipo": "short",
       "quadro": "historias",
       "numero": 1,
-      "fontes": [],
-      "imagens_oficiais": [],
+      "fatos_conferidos": {
+        "confirmado_em_2_fontes": [
+          "Lançamento em 24/01/2004 por Orkut Büyükkökten (Canaltech, SBT News, O Povo)",
+          "Encerramento em 30/09/2014 (Canaltech, Olhar Digital, Baguete; NSC Total diz 24/09, descartar)"
+        ],
+        "divergente_nao_usar_sem_conferir": [
+          "Usuários: Olhar Digital cita 40 milhões no Brasil em 2008; Canaltech cita ~34 milhões de contas brasileiras entre 66 milhões em 2014",
+          "Ultrapassagem pelo Facebook: dez/2011 (36,1 mi contra 34,4 mi, comScore, uma fonte) ou 2012 (NSC Total)"
+        ]
+      },
+      "verificar_antes": "Datas de 24/01/2004 e 30/09/2014 prontas. Número de usuários e data da ultrapassagem têm fontes divergentes: abrir as páginas e usar só o que 2 fontes repetirem, ou falar sem número.",
+      "fontes": [
+        {
+          "nome": "Canaltech (história do Orkut)",
+          "url": "https://canaltech.com.br/redes-sociais/a-historia-do-orkut-rede-social-ja-foi-a-favorita-do-brasil/"
+        },
+        {
+          "nome": "Olhar Digital (10 anos sem Orkut)",
+          "url": "https://olhardigital.com.br/2024/09/30/internet-e-redes-sociais/10-anos-sem-orkut-o-legado-que-ainda-ressoa-nas-redes-sociais/"
+        },
+        {
+          "nome": "SBT News (20 anos do Orkut)",
+          "url": "https://sbtnews.sbt.com.br/noticia/tecnologia/orkut-faz-20-anos"
+        },
+        {
+          "nome": "Baguete (Google decreta o fim do Orkut)",
+          "url": "https://www.baguete.com.br/noticias/google-decreta-o-fim-do-orkut"
+        }
+      ],
+      "imagens_oficiais": [
+        "Wikimedia Commons (logo e capturas do Orkut com licença livre); conferir a licença com scripts/midia.py"
+      ],
       "post_relacionado": "",
       "produto": {
         "id": "",
         "como_encaixa": "Sem produto."
       },
-      "nota": 4,
-      "status": "nova"
+      "nota": 5,
+      "status": "em_video"
     },
     {
       "data": "2026-11-05",

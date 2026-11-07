@@ -1,5 +1,5 @@
 {
- "proximo_id": 44,
+ "proximo_id": 45,
  "mensagens": [
   {
    "id": 1,
@@ -572,6 +572,16 @@
    "meta": "engajamento",
    "assunto": "Ontem 9 visitas e 9 visualizacoes: 1,0 pagina por visita",
    "mensagem": "Meta e 2,5 ou mais. Ligar os 2 posts da Motorola Signature 27 entre si e o Ocarina aos 2 outros posts de Zelda, com link interno no corpo.",
+   "status": "aberta"
+  },
+  {
+   "id": 44,
+   "data": "2026-11-07",
+   "de": "tendencias",
+   "para": "produtor",
+   "meta": "engajamento",
+   "assunto": "Top do dia 07/11",
+   "mensagem": "1) Histórias Tech #1 Orkut (nota 5): datas 24/01/2004 e 30/09/2014 em 2 fontes; número de usuários diverge, usar sem número ou conferir. 2) Anatel bloqueia ligações abusivas a partir de 12/11 (60s, abrir despacho 100/2026 antes). 3) Reservas de Histórias: Xbox 25 anos (15/11), PS3 e Wii 20 anos (11 e 19/11), publicar perto da data.",
    "status": "aberta"
   }
  ]

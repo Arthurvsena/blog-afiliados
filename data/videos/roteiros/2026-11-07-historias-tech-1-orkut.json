@@ -1,0 +1,115 @@
+{
+ "tipo": "short",
+ "quadro": "historias",
+ "numero": 1,
+ "slug": "2026-11-07-historias-tech-1-orkut",
+ "post": "",
+ "titulo": "História do Orkut: por que o Google desligou? #shorts",
+ "titulos_opcoes": [
+  "História do Orkut: por que o Google desligou? #shorts",
+  "Orkut: por que o Google desligou a rede em 2014 #shorts",
+  "Orkut tinha 40 milhões de brasileiros. Por que acabou? #shorts"
+ ],
+ "palavra_chave": "história do orkut",
+ "resumo": "A história do Orkut: lançado em janeiro de 2004, chegou a 40 milhões de usuários no Brasil, foi superado pelo Facebook em 2011 e encerrado pelo Google em 30 de setembro de 2014. Histórias Tech #1.",
+ "hashtags": [
+  "Orkut",
+  "HistóriasTech",
+  "RedesSociais",
+  "Google"
+ ],
+ "selo": "Histórias Tech #1",
+ "fontes": [
+  {
+   "nome": "Canaltech: A história do Orkut",
+   "url": "https://canaltech.com.br/redes-sociais/a-historia-do-orkut-rede-social-ja-foi-a-favorita-do-brasil/"
+  },
+  {
+   "nome": "Olhar Digital: 10 anos sem Orkut",
+   "url": "https://olhardigital.com.br/2024/09/30/internet-e-redes-sociais/10-anos-sem-orkut-o-legado-que-ainda-ressoa-nas-redes-sociais/"
+  },
+  {
+   "nome": "SBT News: Orkut faz 20 anos",
+   "url": "https://sbtnews.sbt.com.br/noticia/tecnologia/orkut-faz-20-anos"
+  },
+  {
+   "nome": "Baguete: Google decreta o fim do Orkut",
+   "url": "https://www.baguete.com.br/noticias/google-decreta-o-fim-do-orkut"
+  }
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Quarenta milhões de brasileiros tinham conta no Orkut. Até que, em 30 de setembro de 2014, o Google desligou a rede.",
+   "tela": "40 milhões de brasileiros. 1 desligamento.",
+   "imagens": [
+    "url:https://commons.wikimedia.org/wiki/Special:FilePath/Orkut.png?width=1200|Wikimedia Commons (domínio público)"
+   ]
+  },
+  {
+   "tipo": "data",
+   "fala": "Tudo começou dez anos antes. Em janeiro de 2004, o Google lançava o Orkut, uma das primeiras redes sociais da internet.",
+   "destaque": "JAN 2004",
+   "rotulo": "o Google lança o Orkut",
+   "imagens": [
+    "url:https://commons.wikimedia.org/wiki/Special:FilePath/Orkut_Color.png?width=1200|Wikimedia Commons (domínio público)"
+   ],
+   "fonte": "SBT News e Baguete"
+  },
+  {
+   "tipo": "numero",
+   "fala": "E o Brasil abraçou. No auge, a rede chegou a {40 milhões|quarenta milhões} de usuários só por aqui.",
+   "destaque": "40 milhões",
+   "rotulo": "de usuários no Brasil",
+   "imagens": [
+    "url:https://commons.wikimedia.org/wiki/Special:FilePath/Orkut_Logo_2.png?width=1200|Wikimedia Commons (domínio público)"
+   ],
+   "fonte": "Olhar Digital e Baguete"
+  },
+  {
+   "tipo": "fato",
+   "fala": "Mas o mundo estava indo para outro lugar. O Facebook crescia, e em 2011 passou o Orkut.",
+   "imagens": [
+    "tela:https://sbtnews.sbt.com.br/noticia/tecnologia/orkut-faz-20-anos",
+    "url:https://commons.wikimedia.org/wiki/Special:FilePath/Orkut_reflection.png?width=1200|Wikimedia Commons (domínio público)"
+   ],
+   "fonte": "SBT News e Baguete"
+  },
+  {
+   "tipo": "manchete",
+   "fala": "E o que veio depois foi uma queda sem volta. O Facebook tirou a rede da frente.",
+   "manchete": {
+    "url": "https://sbtnews.sbt.com.br/noticia/tecnologia/orkut-faz-20-anos",
+    "trecho": "Em 2011, o Facebook superou o Orkut."
+   }
+  },
+  {
+   "tipo": "linha",
+   "fala": "Lançamento em 2004. Ultrapassado em 2011. E, em 2014, o fim.",
+   "itens": [
+    {"data": "Jan 2004", "texto": "Google lança o Orkut"},
+    {"data": "2011", "texto": "Facebook passa o Orkut"},
+    {"data": "30/09/2014", "texto": "Google encerra a rede"}
+   ],
+   "imagens": [
+    "url:https://commons.wikimedia.org/wiki/Special:FilePath/Orkut.png?width=1200|Wikimedia Commons (domínio público)"
+   ],
+   "fonte": "Baguete e SBT News"
+  },
+  {
+   "tipo": "fato",
+   "fala": "A lição é simples. Ter milhões de usuários não protege ninguém, quando a atenção das pessoas muda de lugar. Foi exatamente isso que aconteceu com o Orkut.",
+   "imagens": [
+    "url:https://commons.wikimedia.org/wiki/Special:FilePath/Orkut_Logo_2.png?width=1200|Wikimedia Commons (domínio público)"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "fala": "Conta aí: qual era o seu recado favorito no Orkut? Afinal, eram",
+   "tela": "Qual rede você mais sente falta?",
+   "imagens": [
+    "url:https://commons.wikimedia.org/wiki/Special:FilePath/Orkut_reflection.png?width=1200|Wikimedia Commons (domínio público)"
+   ]
+  }
+ ]
+}
