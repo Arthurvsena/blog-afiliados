@@ -28,6 +28,10 @@ por quadro do dia**, que ainda **não** esteja em `data/videos.json`:
   com gravação de tela ou página oficial de ajuda). Não repita tema dos
   últimos tutoriais.
 Não repita o assunto nem o tipo de gancho dos últimos 5 vídeos do mesmo quadro.
+**Público certo primeiro:** entre duas pautas boas, escolha a que tem prova de
+demanda no `data/vidiq.json` (volume de busca alto e concorrência baixa para
+os longos; assunto parecido com os `videos_referencia` para os Shorts). Nos
+longos, a `palavra_chave` do roteiro é o termo exato do vidIQ.
 Para cada um, diga a fonte da pauta (tendência ou post) e marque a tendência
 usada com `"status": "em_video"`.
 Responda com a lista (tipo, post e um motivo de uma linha).

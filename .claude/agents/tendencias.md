@@ -28,6 +28,19 @@ vídeo), `data/tendencias.json` (o que já foi apontado) e
 - **Buscas reais**: `data/palavras.json` (autocompletar do Google e do Mercado
   Livre) para perguntas que as pessoas fazem sobre o assunto.
 
+### Dados do vidIQ (`data/vidiq.json`): use antes de propor qualquer pauta
+Duas vezes por semana uma tarefa consulta o vidIQ (volume de busca no YouTube,
+concorrência e vídeos que estão explodindo) e grava em `data/vidiq.json`.
+- **Pautas `tutorial` e `lafora`** têm que sair de um termo de `palavras` com
+  `nota` >= 60 e `concorrencia` <= 50 (ou o mais próximo disso). Copie o
+  termo exato em `"palavra_chave"` e os números em `evidencias` ("vidIQ: 15 mil
+  buscas/mês, concorrência 29").
+- **Pautas `60s` e `historias`**: prefira assuntos parecidos com os de
+  `videos_referencia` (vídeos de tecnologia em português que estão indo muito
+  acima da média do canal deles: o público já mostrou que quer). Pegue o
+  ângulo, nunca copie o vídeo.
+- Termo sem dado no vidIQ ainda pode entrar, mas com nota menor, e diga isso.
+
 ### Termômetro Gringo (todo dia, 4 a 6 buscas a mais)
 Olhe também o que está bombando lá fora: The Verge, TechCrunch, Engadget, Ars
 Technica, GSMArena, Gizmochina, Android Authority, TechRadar, Xataka, Hacker

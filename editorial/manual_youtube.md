@@ -83,6 +83,14 @@ mais vistos do mês de Two Minute Papers, Fireship, ColdFusion, Kurzgesagt e
 Mrwhosetheboss/MKBHD. Registrar só o padrão (título, duração, tipo de gancho,
 blocos, estilo da miniatura) em `data/videos/padroes.md`. Nunca o roteiro.
 
+### vidIQ: provar a demanda antes de gravar
+Domingo e quarta à noite uma tarefa usa o vidIQ (conectado à conta do Arthur;
+plano grátis = 150 créditos por mês, 5 por consulta, ~30 consultas) e grava
+`data/vidiq.json`: termos com volume de busca, concorrência e nota, e vídeos de
+tecnologia em português que estão explodindo. Longos (tutorial e Lá Fora) só
+saem de termo com demanda medida; Shorts preferem assuntos que já provaram
+público. Os agentes do GitHub não acessam o vidIQ: só leem esse arquivo.
+
 ## 3. Grade da semana (`config.yaml > video.grade`)
 | Dia | Vídeos |
 |---|---|

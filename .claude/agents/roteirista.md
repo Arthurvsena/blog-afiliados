@@ -48,8 +48,9 @@ ouvir), o post de origem inteiro, `data/videos.json` (o que já virou vídeo),
 ## Embalagem: título, resumo, hashtags e capa (é o que faz a pessoa clicar)
 O vídeo só é visto se a embalagem convencer em 1 segundo. Para cada roteiro:
 1. **`palavra_chave`**: o termo exato que o brasileiro digita no YouTube/Google
-   sobre o assunto (veja as sugestões do autocompletar com WebSearch e
-   `data/palavras.json`). Ex.: "ocarina of time switch 2", "nokia faliu", "iphone 18 preço".
+   sobre o assunto. Se a pauta veio do `data/vidiq.json`, use o termo de lá
+   sem mudar (é o que tem volume de busca medido); senão, veja as sugestões do
+   autocompletar com WebSearch e `data/palavras.json`. Ex.: "ocarina of time switch 2", "nokia faliu", "iphone 18 preço".
 2. **Título** (até 60 caracteres, `#shorts` no fim dos Shorts): escreva **3
    opções** e escolha a melhor. Regras:
    - palavra-chave nas primeiras palavras (é o que o YouTube indexa e o que a pessoa lê primeiro);
