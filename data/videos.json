@@ -79,6 +79,21 @@
       "segundos": 49,
       "publica_em": "2026-11-06 12:00",
       "status": "programado"
+    },
+    {
+      "data": "2026-11-07",
+      "tipo": "short",
+      "quadro": "historias",
+      "numero": 1,
+      "slug": "2026-11-07-historias-tech-1-orkut",
+      "post": "",
+      "titulo": "História do Orkut: por que o Google desligou? #shorts",
+      "url": "https://youtube.com/shorts/4mKWiGFz_W8",
+      "voz": "gemini:Fenrir",
+      "segundos": 60.7,
+      "publica_em": "2026-11-07 12:00",
+      "status": "programado",
+      "obs": "Sem playlist: o canal não tem playlist \"Histórias Tech\"."
     }
   ]
 }
