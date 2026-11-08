@@ -1,0 +1,157 @@
+{
+ "slug": "o-mar-vermelho",
+ "titulo": "Um mar na frente, um exército atrás… e Deus abriu o caminho",
+ "referencia": "Êxodo 14",
+ "heroi": {
+  "nome": "Moisés",
+  "cores": [
+   "#8c5a2b",
+   "#d9c48a",
+   "#3a6b8c",
+   "#b8452f"
+  ]
+ },
+ "hashtags": [
+  "moises",
+  "marvermelho",
+  "historiasdabiblia",
+  "biblia",
+  "shorts"
+ ],
+ "cenas": [
+  {
+   "fala": "Milhares de pessoas encurraladas. Na frente, o Mar Vermelho. Atrás, o exército do faraó.",
+   "cenario": "mar",
+   "hora": "por_do_sol",
+   "camera": "afasta",
+   "elementos": [
+    {
+     "tipo": "multidao",
+     "x": 540,
+     "n": 11,
+     "plano": "fundo"
+    },
+    {
+     "tipo": "multidao",
+     "x": 900,
+     "n": 5,
+     "variante": "soldado",
+     "entra": "direita",
+     "olhar": -1
+    }
+   ]
+  },
+  {
+   "fala": "O povo entrou em pânico. Mas Moisés disse: não tenham medo. Fiquem firmes e vejam o livramento de Deus.",
+   "cenario": "mar",
+   "hora": "por_do_sol",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "multidao",
+     "x": 540,
+     "n": 9,
+     "plano": "fundo",
+     "treme": true
+    },
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "variante": "idoso",
+     "cajado": true,
+     "pose": "apontando"
+    }
+   ]
+  },
+  {
+   "fala": "Moisés estendeu a mão sobre o mar. E um vento forte soprou a noite inteira.",
+   "cenario": "mar",
+   "hora": "noite",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "variante": "idoso",
+     "cajado": true,
+     "pose": "bracos_erguidos"
+    }
+   ],
+   "efeitos": [
+    "raios"
+   ]
+  },
+  {
+   "fala": "As águas se dividiram. Viraram duas muralhas, uma de cada lado.",
+   "cenario": "mar_aberto",
+   "hora": "noite",
+   "camera": "zoom_forte",
+   "elementos": [],
+   "abre_em": 0.05
+  },
+  {
+   "fala": "E o povo atravessou o mar… andando em terra seca.",
+   "cenario": "mar_aberto",
+   "hora": "amanhecer",
+   "camera": "desce",
+   "elementos": [
+    {
+     "tipo": "multidao",
+     "x": 540,
+     "n": 7,
+     "plano": "fundo",
+     "dy": 120
+    },
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "variante": "idoso",
+     "cajado": true,
+     "pose": "andando"
+    }
+   ],
+   "abre_em": -1
+  },
+  {
+   "fala": "Quando o exército tentou seguir, as águas voltaram. E o povo de Deus estava livre.",
+   "cenario": "mar",
+   "hora": "amanhecer",
+   "camera": "afasta",
+   "elementos": [
+    {
+     "tipo": "multidao",
+     "x": 540,
+     "n": 11,
+     "plano": "fundo",
+     "pose": "bracos_erguidos"
+    },
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "variante": "idoso",
+     "cajado": true,
+     "pose": "bracos_erguidos"
+    }
+   ]
+  },
+  {
+   "fala": "O Senhor lutará por vocês. Fiquem tranquilos.",
+   "versiculo": true,
+   "texto_tela": "Êxodo 14:14",
+   "cenario": "ceu",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "plano": "fundo",
+     "dy": 260,
+     "escala": 1.4,
+     "pose": "bracos_erguidos"
+    }
+   ]
+  }
+ ],
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "descricao": "Um mar na frente, um exército atrás… e Deus abriu o caminho. Êxodo 14 em menos de 1 minuto.\n\n\"O Senhor lutará por vocês. Fiquem tranquilos.\" (Êxodo 14:14)"
+}

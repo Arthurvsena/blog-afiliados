@@ -1,0 +1,229 @@
+{
+ "slug": "a-fornalha-ardente",
+ "titulo": "Jogaram três jovens numa fornalha… e o rei viu quatro lá dentro",
+ "referencia": "Daniel 3",
+ "heroi": {
+  "nome": "Sadraque, Mesaque e Abede-Nego",
+  "cores": [
+   "#3a5a8c",
+   "#e8c45a",
+   "#8c3a5a",
+   "#5a8c6a"
+  ]
+ },
+ "hashtags": [
+  "fornalhaardente",
+  "historiasdabiblia",
+  "biblia",
+  "fe",
+  "shorts"
+ ],
+ "cenas": [
+  {
+   "fala": "O rei Nabucodonosor mandou todos se curvarem diante de uma estátua de ouro.",
+   "cenario": "cidade",
+   "hora": "dia",
+   "camera": "afasta",
+   "elementos": [
+    {
+     "tipo": "multidao",
+     "x": 540,
+     "n": 13,
+     "pose": "ajoelhado_costas"
+    },
+    {
+     "tipo": "pessoa",
+     "x": 540,
+     "plano": "fundo",
+     "escala": 2.4,
+     "cor": "#c8962e"
+    }
+   ]
+  },
+  {
+   "fala": "Três jovens ficaram de pé. Sadraque, Mesaque e Abede-Nego.",
+   "cenario": "cidade",
+   "hora": "dia",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "multidao",
+     "x": 540,
+     "n": 9,
+     "pose": "ajoelhado_costas"
+    },
+    {
+     "tipo": "heroi",
+     "x": 420
+    },
+    {
+     "tipo": "heroi",
+     "x": 540
+    },
+    {
+     "tipo": "heroi",
+     "x": 660
+    }
+   ]
+  },
+  {
+   "fala": "O rei ficou furioso e mandou aquecer a fornalha sete vezes mais.",
+   "cenario": "palacio",
+   "hora": "noite",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "pessoa",
+     "x": 540,
+     "variante": "rei",
+     "pose": "apontando"
+    }
+   ],
+   "efeitos": [
+    "brasas"
+   ],
+   "texto_tela": "7 vezes mais quente",
+   "contar": false
+  },
+  {
+   "fala": "Eles responderam: o nosso Deus pode nos livrar. E mesmo que não livre, não vamos nos curvar.",
+   "cenario": "palacio",
+   "hora": "noite",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 400
+    },
+    {
+     "tipo": "heroi",
+     "x": 540
+    },
+    {
+     "tipo": "heroi",
+     "x": 680
+    }
+   ],
+   "efeitos": [
+    "brasas"
+   ]
+  },
+  {
+   "fala": "Foram jogados no fogo. Amarrados.",
+   "cenario": "interior",
+   "hora": "noite",
+   "camera": "zoom_forte",
+   "elementos": [
+    {
+     "tipo": "fogo",
+     "x": 540,
+     "escala": 5
+    },
+    {
+     "tipo": "heroi",
+     "x": 480,
+     "aparece_em": 0.3
+    },
+    {
+     "tipo": "heroi",
+     "x": 600,
+     "aparece_em": 0.3
+    }
+   ],
+   "efeitos": [
+    "brasas"
+   ]
+  },
+  {
+   "fala": "Mas o rei olhou e disse: eu vejo quatro homens andando soltos no fogo. E o quarto parece um filho dos deuses!",
+   "cenario": "interior",
+   "hora": "noite",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "fogo",
+     "x": 300,
+     "escala": 4
+    },
+    {
+     "tipo": "fogo",
+     "x": 780,
+     "escala": 4
+    },
+    {
+     "tipo": "heroi",
+     "x": 330,
+     "pose": "andando"
+    },
+    {
+     "tipo": "heroi",
+     "x": 450,
+     "pose": "andando"
+    },
+    {
+     "tipo": "heroi",
+     "x": 570,
+     "pose": "andando"
+    },
+    {
+     "tipo": "pessoa",
+     "x": 720,
+     "variante": "anjo",
+     "aparece_em": 0.35
+    }
+   ],
+   "efeitos": [
+    "brasas",
+    "luz_divina"
+   ]
+  },
+  {
+   "fala": "Eles saíram sem nenhum fio de cabelo queimado. Nem cheiro de fumaça.",
+   "cenario": "cidade",
+   "hora": "amanhecer",
+   "camera": "afasta",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 420,
+     "pose": "bracos_erguidos"
+    },
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "pose": "bracos_erguidos"
+    },
+    {
+     "tipo": "heroi",
+     "x": 660,
+     "pose": "bracos_erguidos"
+    },
+    {
+     "tipo": "pessoa",
+     "x": 860,
+     "variante": "rei",
+     "olhar": -1
+    }
+   ]
+  },
+  {
+   "fala": "Quando você passar pelo fogo, não se queimará.",
+   "versiculo": true,
+   "texto_tela": "Isaías 43:2",
+   "cenario": "ceu",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "plano": "fundo",
+     "dy": 260,
+     "escala": 1.4,
+     "pose": "bracos_erguidos"
+    }
+   ]
+  }
+ ],
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "descricao": "Jogaram três jovens numa fornalha… e o rei viu quatro lá dentro. Daniel 3 em menos de 1 minuto.\n\n\"Quando você passar pelo fogo, não se queimará.\" (Isaías 43:2)"
+}

@@ -1,0 +1,205 @@
+{
+ "slug": "daniel-na-cova-dos-leoes",
+ "titulo": "Jogaram ele numa cova de leões famintos… e de manhã ele estava vivo",
+ "referencia": "Daniel 6",
+ "heroi": {
+  "nome": "Daniel",
+  "cores": [
+   "#7a2e5c",
+   "#e3b24a",
+   "#2e6b8c",
+   "#f0e0b0"
+  ]
+ },
+ "hashtags": [
+  "daniel",
+  "historiasdabiblia",
+  "biblia",
+  "fe",
+  "shorts"
+ ],
+ "cenas": [
+  {
+   "fala": "Uma lei proibiu orar a qualquer deus durante trinta dias. Quem desobedecesse, ia para a cova dos leões.",
+   "cenario": "palacio",
+   "hora": "dia",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "trono",
+     "x": 540
+    },
+    {
+     "tipo": "pessoa",
+     "x": 540,
+     "variante": "rei",
+     "olhar": 1
+    }
+   ],
+   "texto_tela": "30 dias",
+   "contar": false
+  },
+  {
+   "fala": "Daniel sabia da lei. Mesmo assim, abriu a janela… e orou, três vezes por dia, como sempre fez.",
+   "cenario": "interior",
+   "hora": "noite",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 420,
+     "pose": "ajoelhado",
+     "olhar": 1
+    }
+   ]
+  },
+  {
+   "fala": "Foi denunciado. E o próprio rei, que gostava dele, teve que jogá-lo na cova.",
+   "cenario": "palacio",
+   "hora": "noite",
+   "camera": "afasta",
+   "elementos": [
+    {
+     "tipo": "pessoa",
+     "x": 360,
+     "variante": "rei",
+     "olhar": 1
+    },
+    {
+     "tipo": "heroi",
+     "x": 700,
+     "olhar": -1
+    },
+    {
+     "tipo": "pessoa",
+     "x": 860,
+     "variante": "soldado",
+     "olhar": -1
+    }
+   ]
+  },
+  {
+   "fala": "A cova foi fechada com uma pedra. E o rei passou a noite sem dormir.",
+   "cenario": "cova",
+   "hora": "noite",
+   "camera": "desce",
+   "elementos": [
+    {
+     "tipo": "leao",
+     "x": 230,
+     "plano": "meio",
+     "cor": "#6a4526"
+    },
+    {
+     "tipo": "leao",
+     "x": 850,
+     "olhar": -1,
+     "cor": "#6a4526"
+    },
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "pose": "ajoelhado"
+    }
+   ]
+  },
+  {
+   "fala": "Os leões rodearam Daniel. Mas nenhum deles abriu a boca.",
+   "cenario": "cova",
+   "hora": "noite",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "leao",
+     "x": 250,
+     "cor": "#6a4526"
+    },
+    {
+     "tipo": "leao",
+     "x": 830,
+     "cor": "#6a4526"
+    },
+    {
+     "tipo": "pessoa",
+     "x": 540,
+     "variante": "anjo",
+     "plano": "fundo",
+     "escala": 1.6,
+     "aparece_em": 0.3
+    },
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "pose": "ajoelhado"
+    }
+   ],
+   "efeitos": [
+    "luz_divina"
+   ]
+  },
+  {
+   "fala": "De manhã, o rei correu até a cova e gritou: Daniel, o teu Deus te livrou? E ele respondeu: sim.",
+   "cenario": "cova",
+   "hora": "amanhecer",
+   "camera": "sobe",
+   "elementos": [
+    {
+     "tipo": "leao",
+     "x": 220,
+     "cor": "#6a4526"
+    },
+    {
+     "tipo": "leao",
+     "x": 860,
+     "cor": "#6a4526"
+    },
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "pose": "bracos_erguidos"
+    }
+   ],
+   "efeitos": [
+    "luz_divina"
+   ]
+  },
+  {
+   "fala": "Daniel saiu sem um arranhão. Porque confiou no seu Deus.",
+   "cenario": "cidade",
+   "hora": "amanhecer",
+   "camera": "afasta",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "pose": "bracos_erguidos"
+    },
+    {
+     "tipo": "pessoa",
+     "x": 300,
+     "variante": "rei",
+     "olhar": 1
+    }
+   ]
+  },
+  {
+   "fala": "O meu Deus enviou o seu anjo e fechou a boca dos leões.",
+   "versiculo": true,
+   "texto_tela": "Daniel 6:22",
+   "cenario": "ceu",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "plano": "fundo",
+     "dy": 260,
+     "escala": 1.4,
+     "pose": "bracos_erguidos"
+    }
+   ]
+  }
+ ],
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "descricao": "Jogaram ele numa cova de leões famintos… e de manhã ele estava vivo. Daniel 6 em menos de 1 minuto.\n\n\"O meu Deus enviou o seu anjo e fechou a boca dos leões.\" (Daniel 6:22)"
+}

@@ -1,0 +1,187 @@
+{
+ "slug": "o-filho-prodigo",
+ "titulo": "Ele gastou toda a herança do pai… e voltou sem nada",
+ "referencia": "Lucas 15:11–32",
+ "heroi": {
+  "nome": "o filho",
+  "cores": [
+   "#8c2e5a",
+   "#e0a84a",
+   "#2e7a8c",
+   "#c8c05a"
+  ]
+ },
+ "hashtags": [
+  "filhoprodigo",
+  "parabola",
+  "historiasdabiblia",
+  "biblia",
+  "shorts"
+ ],
+ "cenas": [
+  {
+   "fala": "Um filho pediu ao pai a sua parte da herança. Ainda em vida. E foi embora.",
+   "cenario": "campo",
+   "hora": "por_do_sol",
+   "camera": "direita",
+   "elementos": [
+    {
+     "tipo": "pessoa",
+     "x": 300,
+     "variante": "idoso",
+     "olhar": 1
+    },
+    {
+     "tipo": "heroi",
+     "x": 480,
+     "anda_ate": 950,
+     "pose": "andando"
+    }
+   ]
+  },
+  {
+   "fala": "Numa terra distante, gastou tudo em festas.",
+   "cenario": "cidade",
+   "hora": "noite",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "pose": "bracos_erguidos"
+    },
+    {
+     "tipo": "multidao",
+     "x": 540,
+     "n": 6,
+     "plano": "fundo",
+     "pose": "bracos_erguidos"
+    }
+   ],
+   "efeitos": [
+    "brasas"
+   ]
+  },
+  {
+   "fala": "O dinheiro acabou. Veio a fome. E ele foi cuidar de porcos.",
+   "cenario": "campo",
+   "hora": "dia",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "porco",
+     "x": 640,
+     "n": 3
+    },
+    {
+     "tipo": "heroi",
+     "x": 360,
+     "pose": "sentado"
+    }
+   ]
+  },
+  {
+   "fala": "Com tanta fome, queria comer a comida dos porcos. Então caiu em si.",
+   "cenario": "campo",
+   "hora": "noite",
+   "camera": "zoom_forte",
+   "elementos": [
+    {
+     "tipo": "porco",
+     "x": 700,
+     "n": 2
+    },
+    {
+     "tipo": "heroi",
+     "x": 420,
+     "pose": "ajoelhado"
+    }
+   ]
+  },
+  {
+   "fala": "Decidiu voltar e pedir para ser só um empregado na casa do pai.",
+   "cenario": "deserto",
+   "hora": "amanhecer",
+   "camera": "esquerda",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 900,
+     "anda_ate": 540,
+     "olhar": -1,
+     "pose": "andando"
+    }
+   ]
+  },
+  {
+   "fala": "Mas o pai o viu de longe. E correu. E abraçou. E beijou o filho.",
+   "cenario": "campo",
+   "hora": "amanhecer",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 640,
+     "olhar": -1,
+     "pose": "abraco"
+    },
+    {
+     "tipo": "pessoa",
+     "x": 200,
+     "variante": "idoso",
+     "anda_ate": 470,
+     "olhar": 1,
+     "pose": "abraco"
+    }
+   ],
+   "efeitos": [
+    "luz_divina"
+   ]
+  },
+  {
+   "fala": "Não houve sermão. Houve festa.",
+   "cenario": "interior",
+   "hora": "noite",
+   "camera": "afasta",
+   "elementos": [
+    {
+     "tipo": "mesa",
+     "x": 540
+    },
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "plano": "fundo",
+     "escala": 1.6,
+     "pose": "bracos_erguidos"
+    },
+    {
+     "tipo": "multidao",
+     "x": 540,
+     "n": 6,
+     "plano": "fundo",
+     "pose": "bracos_erguidos"
+    }
+   ]
+  },
+  {
+   "fala": "Este meu filho estava perdido… e foi achado.",
+   "versiculo": true,
+   "texto_tela": "Lucas 15:24",
+   "cenario": "ceu",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "plano": "fundo",
+     "dy": 260,
+     "escala": 1.4,
+     "pose": "bracos_erguidos"
+    }
+   ]
+  }
+ ],
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "descricao": "Ele gastou toda a herança do pai… e voltou sem nada. Lucas 15:11–32 em menos de 1 minuto.\n\n\"Este meu filho estava perdido… e foi achado.\" (Lucas 15:24)"
+}

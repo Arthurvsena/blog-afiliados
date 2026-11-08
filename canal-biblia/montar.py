@@ -37,8 +37,43 @@ def duracao(arq):
                                           "-of", "csv=p=0", str(arq)]).decode().strip())
 
 
-def narrar(rot, voz, pasta, sem_voz):
-    """Uma narração por cena (entonação natural e tempo exato de cada cena)."""
+APARA = ("silenceremove=start_periods=1:start_threshold=-45dB,areverse,"
+         "silenceremove=start_periods=1:start_threshold=-45dB,areverse")
+
+
+def silencios(arq, limiar="-38dB", minimo=0.2):
+    """Trechos de silêncio da narração (início, fim), pelo silencedetect do ffmpeg."""
+    saida = subprocess.run(["ffmpeg", "-v", "info", "-i", str(arq), "-af", f"silencedetect=n={limiar}:d={minimo}", "-f", "null", "-"],
+                           capture_output=True, text=True).stderr
+    ini, res = None, []
+    for linha in saida.splitlines():
+        if "silence_start:" in linha:
+            ini = float(linha.split("silence_start:")[1].split()[0])
+        elif "silence_end:" in linha and ini is not None:
+            res.append((ini, float(linha.split("silence_end:")[1].split()[0])))
+            ini = None
+    return res
+
+
+def cortes_por_silencio(total, falas, sil):
+    """Acha onde cada cena termina: o silêncio mais perto do ponto esperado (proporcional ao texto)."""
+    pesos = [len(f) + 8 for f in falas]
+    soma, acc, cortes, ultimo = sum(pesos), 0, [], 0.0
+    medio = total / len(falas)
+    for i in range(len(falas) - 1):
+        acc += pesos[i]
+        esperado = total * acc / soma
+        meios = [(a + b) / 2 for a, b in sil if (a + b) / 2 > ultimo + 0.6]
+        perto = min(meios, key=lambda m: abs(m - esperado), default=None)
+        corte = perto if perto is not None and abs(perto - esperado) < medio * 0.45 else esperado
+        cortes.append(corte)
+        ultimo = corte
+    return cortes
+
+
+def narrar(rot, voz, pasta, sem_voz, por_cena=False):
+    """Narração Gemini. Padrão: UMA chamada por vídeo (a cota grátis é pequena) e o áudio é cortado
+    nas pausas entre as cenas. --por-cena faz uma chamada por cena (gasta mais cota)."""
     cenas = rot["cenas"]
     if sem_voz:
         for c in cenas:
@@ -47,17 +82,32 @@ def narrar(rot, voz, pasta, sem_voz):
     import video_motion as vm
     nome = voz.split(":", 1)[1] if ":" in voz else voz
     partes = []
-    for i, c in enumerate(cenas):
-        wav = pasta / f"voz{i:02d}.wav"
-        vm.narrar_gemini(c["fala"], wav, nome, rot.get("estilo_voz"))
+    if por_cena:
+        for i, c in enumerate(cenas):
+            wav = pasta / f"voz{i:02d}.wav"
+            vm.narrar_gemini(c["fala"], wav, nome, rot.get("estilo_voz"))
+            partes.append(wav)
+    else:
+        bruto, inteiro = pasta / "voz-bruta.wav", pasta / "voz-inteira.wav"
+        texto = "\n\n".join(c["fala"] for c in cenas)
+        vm.narrar_gemini(texto, bruto, nome, (rot.get("estilo_voz") or "") +
+                         ", com uma pausa clara de meio segundo entre cada parágrafo")
+        rodar(["ffmpeg", "-y", "-v", "error", "-i", str(bruto), "-af", APARA, "-ar", "48000", "-ac", "1", str(inteiro)])
+        total = duracao(inteiro)
+        cortes = cortes_por_silencio(total, [c["fala"] for c in cenas], silencios(inteiro))
+        limites = [0.0] + cortes + [total]
+        for i in range(len(cenas)):
+            wav = pasta / f"voz{i:02d}.wav"
+            rodar(["ffmpeg", "-y", "-v", "error", "-i", str(inteiro), "-ss", f"{limites[i]:.3f}", "-to", f"{limites[i + 1]:.3f}", str(wav)])
+            partes.append(wav)
+    normais = []
+    for i, wav in enumerate(partes):
         norm = pasta / f"voz{i:02d}n.wav"
-        # tira o silêncio das pontas e padroniza (48 kHz mono)
-        rodar(["ffmpeg", "-y", "-v", "error", "-i", str(wav), "-af",
-               "silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse",
-               "-ar", "48000", "-ac", "1", str(norm)])
-        c["falaDur"] = duracao(norm)
-        partes.append(norm)
-        print(f"  cena {i + 1}: {c['falaDur']:.2f}s", flush=True)
+        rodar(["ffmpeg", "-y", "-v", "error", "-i", str(wav), "-af", APARA, "-ar", "48000", "-ac", "1", str(norm)])
+        cenas[i]["falaDur"] = duracao(norm)
+        normais.append(norm)
+        print(f"  cena {i + 1}: {cenas[i]['falaDur']:.2f}s", flush=True)
+    partes = normais
     # junta tudo com as pausas
     lista = pasta / "lista.txt"
     silencio = pasta / "pausa.wav"
@@ -78,10 +128,11 @@ def linha_do_tempo(rot):
     t, cenas = 0.0, []
     for i, c in enumerate(rot["cenas"]):
         dur = c["falaDur"] + (FINAL if i == len(rot["cenas"]) - 1 else PAUSA)
-        cenas.append({"id": c["id"], "fala": c["fala"], "falaDur": c["falaDur"], "start": t, "dur": dur,
-                      "texto_tela": c.get("texto_tela", "")})
+        cena = dict(c)
+        cena.update({"falaDur": c["falaDur"], "start": t, "dur": dur, "texto_tela": c.get("texto_tela", "")})
+        cenas.append(cena)
         t += dur
-    return {"cenas": cenas, "total": t}
+    return {"cenas": cenas, "total": t, "heroi": rot.get("heroi")}
 
 
 def desenhar(tl, destino_video, quadros=None):
@@ -147,6 +198,8 @@ def main():
     ap.add_argument("--saida", default="_biblia")
     ap.add_argument("--sem-voz", action="store_true")
     ap.add_argument("--quadros", default="")
+    ap.add_argument("--folha", action="store_true", help="só gera uma folha com um quadro de cada cena")
+    ap.add_argument("--por-cena", action="store_true", help="uma chamada de voz por cena (gasta mais cota)")
     a = ap.parse_args()
     rot = json.loads(Path(a.roteiro).read_text(encoding="utf-8"))
     saida = Path(a.saida); saida.mkdir(parents=True, exist_ok=True)
@@ -155,9 +208,18 @@ def main():
     if sem_voz and not a.sem_voz:
         print("(GEMINI_API_KEY não definida: prévia sem narração)", file=sys.stderr)
     print(f"Narrando ({'estimado' if sem_voz else a.voz})...", flush=True)
-    narracao = narrar(rot, a.voz, pasta, sem_voz)
+    narracao = narrar(rot, a.voz, pasta, sem_voz, a.por_cena)
     tl = linha_do_tempo(rot)
     print(f"Duração total: {tl['total']:.1f}s", flush=True)
+    if a.folha:   # uma imagem com o meio de cada cena (para conferir o roteiro antes de gastar voz)
+        tempos = [c["start"] + c["dur"] * 0.62 for c in tl["cenas"]]
+        tmp = Path(tempfile.mkdtemp())
+        desenhar(tl, tmp, tempos)
+        destino = saida / f"{rot['slug']}-folha.jpg"
+        rodar(["ffmpeg", "-y", "-v", "error", "-pattern_type", "glob", "-i", str(tmp / "quadro-*.jpg"),
+               "-vf", f"scale=270:480,tile={len(tempos)}x1:padding=4", "-frames:v", "1", str(destino)])
+        print(f"Folha: {destino}")
+        return
     if a.quadros:
         desenhar(tl, saida, [float(x) for x in a.quadros.split(",")])
         return

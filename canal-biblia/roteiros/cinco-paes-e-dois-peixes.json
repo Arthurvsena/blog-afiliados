@@ -1,0 +1,203 @@
+{
+ "slug": "cinco-paes-e-dois-peixes",
+ "titulo": "Um menino tinha só um lanche… e alimentou cinco mil pessoas",
+ "referencia": "João 6:1–14",
+ "heroi": {
+  "nome": "o menino",
+  "cores": [
+   "#c86a2e",
+   "#e8c45a",
+   "#3a7a5a",
+   "#7a4a8c"
+  ]
+ },
+ "hashtags": [
+  "jesus",
+  "milagre",
+  "historiasdabiblia",
+  "biblia",
+  "shorts"
+ ],
+ "cenas": [
+  {
+   "fala": "Mais de cinco mil pessoas seguiram Jesus até um lugar deserto. E a fome bateu.",
+   "cenario": "campo",
+   "hora": "dia",
+   "camera": "afasta",
+   "elementos": [
+    {
+     "tipo": "multidao",
+     "x": 540,
+     "n": 13,
+     "plano": "fundo"
+    },
+    {
+     "tipo": "pessoa",
+     "x": 540,
+     "variante": "jesus"
+    }
+   ],
+   "texto_tela": "5000 pessoas"
+  },
+  {
+   "fala": "Os discípulos disseram: nem com duzentos denários daria para comprar comida para todos.",
+   "cenario": "campo",
+   "hora": "dia",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "pessoa",
+     "x": 360,
+     "variante": "homem",
+     "olhar": 1,
+     "pose": "apontando"
+    },
+    {
+     "tipo": "pessoa",
+     "x": 700,
+     "variante": "jesus",
+     "olhar": -1
+    }
+   ]
+  },
+  {
+   "fala": "Mas um menino tinha cinco pães e dois peixes. E entregou tudo.",
+   "cenario": "campo",
+   "hora": "dia",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 360,
+     "variante": "crianca",
+     "olhar": 1,
+     "braco_d": 1.3
+    },
+    {
+     "tipo": "cesto",
+     "x": 470
+    },
+    {
+     "tipo": "pessoa",
+     "x": 720,
+     "variante": "jesus",
+     "olhar": -1
+    }
+   ]
+  },
+  {
+   "fala": "Jesus pegou os pães, agradeceu a Deus… e começou a repartir.",
+   "cenario": "campo",
+   "hora": "por_do_sol",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "pessoa",
+     "x": 540,
+     "variante": "jesus",
+     "pose": "bracos_erguidos"
+    },
+    {
+     "tipo": "cesto",
+     "x": 540,
+     "dy": 40
+    }
+   ],
+   "efeitos": [
+    "luz_divina"
+   ]
+  },
+  {
+   "fala": "Todo mundo comeu. Até ficar satisfeito.",
+   "cenario": "campo",
+   "hora": "por_do_sol",
+   "camera": "afasta",
+   "elementos": [
+    {
+     "tipo": "multidao",
+     "x": 540,
+     "n": 13,
+     "plano": "fundo",
+     "pose": "bracos_erguidos"
+    },
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "variante": "crianca",
+     "pose": "bracos_erguidos"
+    }
+   ]
+  },
+  {
+   "fala": "E ainda sobraram doze cestos cheios.",
+   "cenario": "campo",
+   "hora": "por_do_sol",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "cesto",
+     "x": 300
+    },
+    {
+     "tipo": "cesto",
+     "x": 420
+    },
+    {
+     "tipo": "cesto",
+     "x": 540
+    },
+    {
+     "tipo": "cesto",
+     "x": 660
+    },
+    {
+     "tipo": "cesto",
+     "x": 780
+    },
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "variante": "crianca",
+     "plano": "fundo"
+    }
+   ],
+   "texto_tela": "12 cestos"
+  },
+  {
+   "fala": "Deus não precisou de muito. Precisou de alguém disposto a entregar o pouco que tinha.",
+   "cenario": "campo",
+   "hora": "amanhecer",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "variante": "crianca",
+     "pose": "orando"
+    }
+   ],
+   "efeitos": [
+    "luz_divina"
+   ]
+  },
+  {
+   "fala": "Eu sou o pão da vida.",
+   "versiculo": true,
+   "texto_tela": "João 6:35",
+   "cenario": "ceu",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "plano": "fundo",
+     "dy": 260,
+     "escala": 1.4,
+     "pose": "bracos_erguidos"
+    }
+   ]
+  }
+ ],
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "descricao": "Um menino tinha só um lanche… e alimentou cinco mil pessoas. João 6:1–14 em menos de 1 minuto.\n\n\"Eu sou o pão da vida.\" (João 6:35)"
+}

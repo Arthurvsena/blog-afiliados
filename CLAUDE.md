@@ -132,3 +132,11 @@ Componentes visuais (o designer aplica; cada bloco fecha com ::: sozinho):
     resolveu e peça ajuda pelo mural quando outro agente puder destravar uma meta.
 9. O repositório é público: nunca escreva valores em R$ de ganhos ou
    comissões em arquivo nenhum.
+
+## Canal Bíblia Animada (projeto separado)
+`canal-biblia/` é outro canal (YouTube, TikTok e Drive para o Instagram), de histórias bíblicas em
+animação 2D. **Não** usa a voz de Rafa Lins nem as regras de posts acima: segue `canal-biblia/CATALOGO.md`
+e as skills `biblia-roteiros` (roteiros, GitHub Actions) e `biblia-publicar` (Chrome do dono).
+Produção diária: workflow `biblia-diario.yml` (vídeos num Release `biblia-AAAA-MM-DD`); roteiros novos:
+`biblia-roteiros.yml`. Configuração em `canal-biblia/config.yaml`; fila em `canal-biblia/fila.json`.
+Os agentes da Nexus não mexem nessa pasta.

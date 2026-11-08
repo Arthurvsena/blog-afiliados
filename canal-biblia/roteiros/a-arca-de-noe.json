@@ -1,0 +1,187 @@
+{
+ "slug": "a-arca-de-noe",
+ "titulo": "Ele construiu um barco gigante no seco… e todos riram dele",
+ "referencia": "Gênesis 6–9",
+ "heroi": {
+  "nome": "Noé",
+  "cores": [
+   "#5a7a2e",
+   "#d9a84a",
+   "#2e5a7a",
+   "#c86a3a"
+  ]
+ },
+ "hashtags": [
+  "noe",
+  "arcadenoe",
+  "historiasdabiblia",
+  "biblia",
+  "shorts"
+ ],
+ "cenas": [
+  {
+   "fala": "Deus mandou um homem construir um barco gigante. Longe do mar.",
+   "cenario": "campo",
+   "hora": "dia",
+   "camera": "afasta",
+   "elementos": [
+    {
+     "tipo": "arca",
+     "x": 620,
+     "plano": "fundo"
+    },
+    {
+     "tipo": "heroi",
+     "x": 300,
+     "variante": "idoso",
+     "cajado": true
+    }
+   ]
+  },
+  {
+   "fala": "Noé obedeceu. Ano após ano. Enquanto as pessoas zombavam dele.",
+   "cenario": "campo",
+   "hora": "por_do_sol",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "arca",
+     "x": 620,
+     "plano": "fundo"
+    },
+    {
+     "tipo": "heroi",
+     "x": 380,
+     "variante": "idoso"
+    },
+    {
+     "tipo": "multidao",
+     "x": 850,
+     "n": 4,
+     "olhar": -1,
+     "pose": "apontando"
+    }
+   ]
+  },
+  {
+   "fala": "Então os animais chegaram. Em pares.",
+   "cenario": "campo",
+   "hora": "por_do_sol",
+   "camera": "direita",
+   "elementos": [
+    {
+     "tipo": "arca",
+     "x": 640,
+     "plano": "fundo"
+    },
+    {
+     "tipo": "leao",
+     "x": 200,
+     "anda_ate": 500
+    },
+    {
+     "tipo": "ovelha",
+     "x": 120,
+     "n": 2,
+     "anda_ate": 420
+    },
+    {
+     "tipo": "camelo",
+     "x": 30,
+     "anda_ate": 300
+    }
+   ]
+  },
+  {
+   "fala": "E começou a chover. Quarenta dias e quarenta noites.",
+   "cenario": "mar",
+   "hora": "noite",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "arca",
+     "x": 540,
+     "escala": 1.1
+    }
+   ],
+   "tempestade": true,
+   "texto_tela": "40 dias"
+  },
+  {
+   "fala": "A água cobriu tudo. Só a arca boiava.",
+   "cenario": "mar",
+   "hora": "noite",
+   "camera": "afasta",
+   "elementos": [
+    {
+     "tipo": "arca",
+     "x": 540,
+     "escala": 1.1
+    }
+   ],
+   "efeitos": [
+    "chuva"
+   ]
+  },
+  {
+   "fala": "Um dia, Noé soltou uma pomba. Ela voltou com uma folha de oliveira no bico.",
+   "cenario": "mar",
+   "hora": "amanhecer",
+   "camera": "sobe",
+   "elementos": [
+    {
+     "tipo": "arca",
+     "x": 540,
+     "escala": 1.1
+    },
+    {
+     "tipo": "pomba",
+     "x": 540,
+     "altura": 700,
+     "entra": "direita"
+    }
+   ]
+  },
+  {
+   "fala": "A terra secou. E Deus pôs um arco-íris no céu, como promessa.",
+   "cenario": "campo",
+   "hora": "dia",
+   "camera": "afasta",
+   "elementos": [
+    {
+     "tipo": "arca",
+     "x": 700,
+     "plano": "fundo"
+    },
+    {
+     "tipo": "heroi",
+     "x": 400,
+     "variante": "idoso",
+     "pose": "bracos_erguidos"
+    }
+   ],
+   "efeitos": [
+    "arco_iris"
+   ]
+  },
+  {
+   "fala": "O meu arco tenho posto nas nuvens. Ele será o sinal da aliança.",
+   "versiculo": true,
+   "texto_tela": "Gênesis 9:13",
+   "cenario": "ceu",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "plano": "fundo",
+     "dy": 260,
+     "escala": 1.4,
+     "pose": "bracos_erguidos"
+    }
+   ]
+  }
+ ],
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "descricao": "Ele construiu um barco gigante no seco… e todos riram dele. Gênesis 6–9 em menos de 1 minuto.\n\n\"O meu arco tenho posto nas nuvens. Ele será o sinal da aliança.\" (Gênesis 9:13)"
+}

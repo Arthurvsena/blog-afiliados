@@ -76,6 +76,11 @@ function pessoa(c, x, y, h, p = {}) {
     return [mx, my];
   };
   const maoTras = braco(f > 0 ? ombE : ombD, p.bracoE ?? 0.12);
+  if (p.lanca) {
+    c.strokeStyle = cor; c.lineWidth = h * 0.02; c.beginPath();
+    c.moveTo(maoTras[0], maoTras[1] - h * 0.55); c.lineTo(maoTras[0] + h * 0.01, y + 2); c.stroke();
+    c.fillStyle = cor; c.beginPath(); c.moveTo(maoTras[0] - h * 0.03, maoTras[1] - h * 0.55); c.lineTo(maoTras[0], maoTras[1] - h * 0.68); c.lineTo(maoTras[0] + h * 0.03, maoTras[1] - h * 0.55); c.fill();
+  }
   if (p.cajado) {
     c.strokeStyle = cor; c.lineWidth = h * 0.022; c.beginPath();
     c.moveTo(maoTras[0], maoTras[1] - h * 0.32); c.lineTo(maoTras[0] + h * 0.02, y + 2); c.stroke();
@@ -535,7 +540,7 @@ function gruposLegenda(fala) {
 }
 const LEG_Y = { caravana: 1470 };
 function legenda(c, cena, u) {
-  if (!cena.fala || cena.id === "versiculo") return;
+  if (!cena.fala || cena.id === "versiculo" || cena.versiculo) return;
   const grupos = gruposLegenda(cena.fala);
   const total = cena.falaDur || cena.dur;
   const peso = w => w.replace(/[^\p{L}\p{N}]/gu, "").length + 2 + (/[.?!…]$/.test(w) ? 5 : /[,:]$/.test(w) ? 2 : 0);
@@ -588,10 +593,11 @@ function acabamento(c, t) {
 const camadaA = document.createElement("canvas"); camadaA.width = W; camadaA.height = H;
 const cA = camadaA.getContext("2d");
 const FUSAO = 0.35;
-function desenharCena(c, cena, u) { c.save(); c.clearRect(0, 0, W, H); CENAS[cena.id](c, u, cena.dur, cena); c.restore(); }
+function desenharCena(c, cena, u) { c.save(); c.clearRect(0, 0, W, H); if (cena.cenario) cenaComposta(c, u, cena.dur, cena); else CENAS[cena.id](c, u, cena.dur, cena); c.restore(); }
 
 window.renderFrame = function (t) {
   const TL = window.TIMELINE;
+  if (!TL._heroi) { definirHeroi(TL.heroi); TL._heroi = true; }
   let i = TL.cenas.findIndex(s => t < s.start + s.dur);
   if (i < 0) i = TL.cenas.length - 1;
   const cena = TL.cenas[i], u = t - cena.start;
@@ -604,8 +610,17 @@ window.renderFrame = function (t) {
   }
   acabamento(ctx, t);
   legenda(ctx, cena, u);
-  // abertura e encerramento
+  // chamada final: marca do canal
   const fimT = TL.total;
+  const cta = clamp((t - (fimT - 2.4)) / 0.4);
+  if (cta > 0) {
+    ctx.save(); ctx.globalAlpha = cta; ctx.textAlign = "center";
+    ctx.fillStyle = "rgba(10,6,14,0.55)"; ctx.beginPath(); ctx.roundRect(190, 1590, 700, 170, 34); ctx.fill();
+    ctx.font = "700 60px Poppins"; ctx.fillStyle = "#ffffff"; ctx.fillText("Bíblia Animada", 540, 1670);
+    ctx.font = "700 34px Poppins"; ctx.fillStyle = "#ffd96a"; ctx.fillText("SIGA PARA A PRÓXIMA HISTÓRIA", 540, 1725);
+    ctx.restore();
+  }
+  // abertura e encerramento
   const preto = Math.max(clamp(1 - t / 0.25), clamp((t - (fimT - 0.5)) / 0.5));
   if (preto > 0) { ctx.fillStyle = `rgba(0,0,0,${preto})`; ctx.fillRect(0, 0, W, H); }
   ctx.restore();
@@ -615,5 +630,6 @@ window.quadroJpeg = function (t, q) { renderFrame(t); return tela.toDataURL("ima
 window.pronto = document.fonts.ready.then(() => Promise.all([
   document.fonts.load("700 80px Poppins"), document.fonts.load("italic 600 80px Lora")]));
 </script>
+<script src="motor.js"></script>
 </body>
 </html>

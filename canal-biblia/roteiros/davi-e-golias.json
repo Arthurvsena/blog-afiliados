@@ -1,0 +1,218 @@
+{
+ "slug": "davi-e-golias",
+ "titulo": "Um gigante desafiou um exército inteiro… e quem aceitou foi um menino",
+ "descricao": "Davi e Golias em menos de 1 minuto. 1 Samuel 17.\n\n\"O Senhor não salva com espada nem com lança. A batalha é do Senhor.\" (1 Samuel 17:47)",
+ "hashtags": [
+  "davieGolias",
+  "historiasdabiblia",
+  "biblia",
+  "fe",
+  "shorts"
+ ],
+ "referencia": "1 Samuel 17",
+ "heroi": {
+  "nome": "Davi",
+  "cores": [
+   "#2f6fb0",
+   "#e3c07a",
+   "#3f9b8f",
+   "#c8553d",
+   "#f2e2b8"
+  ]
+ },
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {
+   "fala": "Um gigante de quase três metros desafiou um exército inteiro. E quem aceitou foi um menino.",
+   "cenario": "deserto",
+   "hora": "por_do_sol",
+   "camera": "afasta",
+   "elementos": [
+    {
+     "tipo": "multidao",
+     "plano": "fundo",
+     "x": 330,
+     "n": 9,
+     "variante": "soldado"
+    },
+    {
+     "tipo": "gigante",
+     "x": 760,
+     "olhar": -1,
+     "braco_d": 0.6
+    },
+    {
+     "tipo": "heroi",
+     "variante": "crianca",
+     "x": 300,
+     "olhar": 1,
+     "aparece_em": 0.55,
+     "entra": "esquerda"
+    }
+   ]
+  },
+  {
+   "fala": "Golias zombou de Israel por quarenta dias. E os soldados tremiam de medo.",
+   "cenario": "deserto",
+   "hora": "por_do_sol",
+   "camera": "aproxima",
+   "foco": [
+    700,
+    1000
+   ],
+   "texto_tela": "40 dias",
+   "elementos": [
+    {
+     "tipo": "gigante",
+     "x": 700,
+     "olhar": -1,
+     "pose": "bracos_erguidos"
+    },
+    {
+     "tipo": "multidao",
+     "plano": "fundo",
+     "x": 260,
+     "n": 7,
+     "treme": true
+    }
+   ]
+  },
+  {
+   "fala": "Davi era só um pastor de ovelhas. Mas disse: o Deus que me livrou do leão vai me livrar desse gigante.",
+   "cenario": "campo",
+   "hora": "dia",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "ovelha",
+     "x": 760,
+     "n": 4
+    },
+    {
+     "tipo": "leao",
+     "plano": "fundo",
+     "x": 900,
+     "some_em": 0.5
+    },
+    {
+     "tipo": "heroi",
+     "variante": "crianca",
+     "x": 380,
+     "olhar": 1,
+     "cajado": true,
+     "levanta_bracos_em": 0.55
+    }
+   ]
+  },
+  {
+   "fala": "Recusou a armadura do rei. Levou só uma funda… e cinco pedras lisas do riacho.",
+   "cenario": "jardim",
+   "hora": "dia",
+   "camera": "aproxima",
+   "texto_tela": "5 pedras lisas",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "variante": "crianca",
+     "x": 520,
+     "olhar": 1,
+     "pose": "ajoelhado"
+    }
+   ]
+  },
+  {
+   "fala": "Golias riu. Mas Davi correu na direção dele.",
+   "cenario": "deserto",
+   "hora": "por_do_sol",
+   "camera": "direita",
+   "elementos": [
+    {
+     "tipo": "gigante",
+     "x": 800,
+     "olhar": -1,
+     "braco_d": 1.2
+    },
+    {
+     "tipo": "heroi",
+     "variante": "crianca",
+     "x": 160,
+     "anda_ate": 430,
+     "olhar": 1,
+     "pose": "andando"
+    }
+   ]
+  },
+  {
+   "fala": "Uma pedra. Na testa. E o gigante caiu.",
+   "cenario": "deserto",
+   "hora": "por_do_sol",
+   "camera": "fixa",
+   "tremor": false,
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "variante": "crianca",
+     "x": 170,
+     "olhar": 1,
+     "braco_d": 2.4
+    },
+    {
+     "tipo": "pedra",
+     "x": 190,
+     "lanca_em": 0.12,
+     "alvo_x": 905,
+     "alvo_y": 760
+    },
+    {
+     "tipo": "gigante",
+     "x": 900,
+     "olhar": -1,
+     "cai_em": 0.32,
+     "escala": 0.85
+    }
+   ]
+  },
+  {
+   "fala": "Não foi a força. Foi a fé.",
+   "cenario": "deserto",
+   "hora": "amanhecer",
+   "camera": "aproxima",
+   "efeitos": [
+    "luz_divina"
+   ],
+   "elementos": [
+    {
+     "tipo": "multidao",
+     "plano": "fundo",
+     "x": 540,
+     "n": 11,
+     "pose": "bracos_erguidos"
+    },
+    {
+     "tipo": "heroi",
+     "variante": "crianca",
+     "x": 540,
+     "pose": "bracos_erguidos"
+    }
+   ]
+  },
+  {
+   "fala": "O Senhor não salva com espada nem com lança. A batalha é do Senhor.",
+   "versiculo": true,
+   "texto_tela": "1 Samuel 17:47",
+   "cenario": "ceu",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "variante": "crianca",
+     "plano": "fundo",
+     "x": 540,
+     "dy": 260,
+     "escala": 1.4,
+     "pose": "bracos_erguidos"
+    }
+   ]
+  }
+ ]
+}

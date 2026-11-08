@@ -1,0 +1,194 @@
+{
+ "slug": "o-tumulo-vazio",
+ "titulo": "Elas foram ao túmulo de madrugada… e a pedra tinha sido removida",
+ "referencia": "Mateus 28:1–10",
+ "heroi": {
+  "nome": "Maria Madalena",
+  "cores": [
+   "#5a2e8c",
+   "#e8c47a",
+   "#2e8c7a",
+   "#c85a5a"
+  ]
+ },
+ "hashtags": [
+  "ressurreicao",
+  "jesus",
+  "historiasdabiblia",
+  "biblia",
+  "shorts"
+ ],
+ "cenas": [
+  {
+   "fala": "Jesus tinha sido crucificado. Seus amigos estavam escondidos, sem esperança.",
+   "cenario": "monte",
+   "hora": "por_do_sol",
+   "camera": "afasta",
+   "elementos": [
+    {
+     "tipo": "cruz",
+     "x": 540,
+     "plano": "fundo",
+     "escala": 1.6
+    }
+   ]
+  },
+  {
+   "fala": "O corpo foi colocado num túmulo. Fechado com uma pedra enorme. E guardas na porta.",
+   "cenario": "jardim",
+   "hora": "noite",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "tumulo",
+     "x": 540
+    },
+    {
+     "tipo": "pessoa",
+     "x": 260,
+     "variante": "soldado"
+    },
+    {
+     "tipo": "pessoa",
+     "x": 820,
+     "variante": "soldado",
+     "olhar": -1
+    }
+   ]
+  },
+  {
+   "fala": "No terceiro dia, de madrugada, as mulheres foram ao túmulo.",
+   "cenario": "jardim",
+   "hora": "amanhecer",
+   "camera": "direita",
+   "elementos": [
+    {
+     "tipo": "tumulo",
+     "x": 760
+    },
+    {
+     "tipo": "heroi",
+     "x": 150,
+     "variante": "mulher",
+     "anda_ate": 420,
+     "pose": "andando"
+    },
+    {
+     "tipo": "pessoa",
+     "x": 30,
+     "variante": "mulher",
+     "anda_ate": 300,
+     "pose": "andando"
+    }
+   ],
+   "texto_tela": "3º dia",
+   "contar": false
+  },
+  {
+   "fala": "A terra tremeu. A pedra tinha sido removida. E o túmulo estava vazio.",
+   "cenario": "jardim",
+   "hora": "amanhecer",
+   "camera": "zoom_forte",
+   "elementos": [
+    {
+     "tipo": "tumulo",
+     "x": 600,
+     "aberto_em": 0.15
+    },
+    {
+     "tipo": "heroi",
+     "x": 320,
+     "variante": "mulher"
+    }
+   ],
+   "tremor": true
+  },
+  {
+   "fala": "Um anjo disse: não tenham medo. Ele não está aqui. Ressuscitou!",
+   "cenario": "jardim",
+   "hora": "amanhecer",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "tumulo",
+     "x": 760,
+     "aberto": true
+    },
+    {
+     "tipo": "pessoa",
+     "x": 560,
+     "variante": "anjo",
+     "escala": 1.2
+    },
+    {
+     "tipo": "heroi",
+     "x": 300,
+     "variante": "mulher",
+     "pose": "ajoelhado"
+    }
+   ],
+   "efeitos": [
+    "luz_divina"
+   ]
+  },
+  {
+   "fala": "Elas correram com medo e alegria. E no caminho… encontraram Jesus.",
+   "cenario": "jardim",
+   "hora": "dia",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 380,
+     "variante": "mulher",
+     "pose": "ajoelhado"
+    },
+    {
+     "tipo": "pessoa",
+     "x": 680,
+     "variante": "jesus",
+     "olhar": -1
+    }
+   ],
+   "efeitos": [
+    "luz_divina"
+   ]
+  },
+  {
+   "fala": "A morte não teve a última palavra.",
+   "cenario": "ceu",
+   "hora": "dia",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "pessoa",
+     "x": 540,
+     "variante": "jesus",
+     "plano": "fundo",
+     "escala": 1.6,
+     "dy": 200,
+     "pose": "bracos_erguidos"
+    }
+   ]
+  },
+  {
+   "fala": "Ele não está aqui. Ressuscitou, como tinha dito.",
+   "versiculo": true,
+   "texto_tela": "Mateus 28:6",
+   "cenario": "ceu",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "plano": "fundo",
+     "dy": 260,
+     "escala": 1.4,
+     "pose": "bracos_erguidos"
+    }
+   ]
+  }
+ ],
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "descricao": "Elas foram ao túmulo de madrugada… e a pedra tinha sido removida. Mateus 28:1–10 em menos de 1 minuto.\n\n\"Ele não está aqui. Ressuscitou, como tinha dito.\" (Mateus 28:6)"
+}

@@ -1,0 +1,214 @@
+{
+ "slug": "pedro-anda-sobre-as-aguas",
+ "titulo": "Ele andou sobre as águas… até olhar para o vento",
+ "referencia": "Mateus 14:22–33",
+ "heroi": {
+  "nome": "Pedro",
+  "cores": [
+   "#2e5a8c",
+   "#c8a45a",
+   "#8c3a2e",
+   "#e8dcc0"
+  ]
+ },
+ "hashtags": [
+  "pedro",
+  "jesus",
+  "historiasdabiblia",
+  "biblia",
+  "shorts"
+ ],
+ "cenas": [
+  {
+   "fala": "Noite. Mar agitado. Os discípulos remavam contra o vento.",
+   "cenario": "mar",
+   "hora": "noite",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "barco",
+     "x": 540,
+     "escala": 1.4
+    },
+    {
+     "tipo": "multidao",
+     "x": 540,
+     "n": 4,
+     "dy": -150,
+     "escala": 0.4
+    }
+   ],
+   "tempestade": true
+  },
+  {
+   "fala": "De madrugada, viram alguém andando sobre a água. E gritaram de medo.",
+   "cenario": "mar",
+   "hora": "noite",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "barco",
+     "x": 300,
+     "escala": 1.2
+    },
+    {
+     "tipo": "pessoa",
+     "x": 780,
+     "variante": "jesus",
+     "dy": -40,
+     "entra": "fade"
+    }
+   ],
+   "efeitos": [
+    "chuva"
+   ]
+  },
+  {
+   "fala": "Era Jesus. E Pedro disse: Senhor, se és tu, manda-me ir até aí.",
+   "cenario": "mar",
+   "hora": "noite",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "barco",
+     "x": 300,
+     "escala": 1.2
+    },
+    {
+     "tipo": "heroi",
+     "x": 330,
+     "dy": -120,
+     "escala": 0.5,
+     "pose": "apontando"
+    },
+    {
+     "tipo": "pessoa",
+     "x": 780,
+     "variante": "jesus",
+     "dy": -40
+    }
+   ]
+  },
+  {
+   "fala": "Jesus disse: vem. E Pedro saiu do barco… e andou sobre a água.",
+   "cenario": "mar",
+   "hora": "noite",
+   "camera": "direita",
+   "elementos": [
+    {
+     "tipo": "barco",
+     "x": 200,
+     "escala": 1.0
+    },
+    {
+     "tipo": "heroi",
+     "x": 330,
+     "anda_ate": 560,
+     "dy": -40,
+     "pose": "andando"
+    },
+    {
+     "tipo": "pessoa",
+     "x": 800,
+     "variante": "jesus",
+     "dy": -40
+    }
+   ]
+  },
+  {
+   "fala": "Mas quando olhou para o vento, teve medo. E começou a afundar.",
+   "cenario": "mar",
+   "hora": "noite",
+   "camera": "zoom_forte",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 560,
+     "dy": -40,
+     "sobe": -260,
+     "pose": "bracos_erguidos"
+    },
+    {
+     "tipo": "pessoa",
+     "x": 800,
+     "variante": "jesus",
+     "dy": -40
+    }
+   ],
+   "foco": [
+    560,
+    1300
+   ],
+   "tempestade": true
+  },
+  {
+   "fala": "Senhor, salva-me! E na mesma hora, Jesus estendeu a mão.",
+   "cenario": "mar",
+   "hora": "noite",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 600,
+     "dy": 200,
+     "pose": "bracos_erguidos"
+    },
+    {
+     "tipo": "pessoa",
+     "x": 760,
+     "variante": "jesus",
+     "dy": -40,
+     "olhar": -1,
+     "braco_d": 1.2
+    }
+   ],
+   "efeitos": [
+    "luz_divina"
+   ]
+  },
+  {
+   "fala": "Homem de pouca fé, por que duvidaste? E o vento parou.",
+   "cenario": "mar",
+   "hora": "amanhecer",
+   "camera": "afasta",
+   "elementos": [
+    {
+     "tipo": "barco",
+     "x": 300,
+     "escala": 1.1
+    },
+    {
+     "tipo": "heroi",
+     "x": 640,
+     "dy": -40
+    },
+    {
+     "tipo": "pessoa",
+     "x": 780,
+     "variante": "jesus",
+     "dy": -40,
+     "olhar": -1
+    }
+   ]
+  },
+  {
+   "fala": "Tenham coragem! Sou eu. Não tenham medo.",
+   "versiculo": true,
+   "texto_tela": "Mateus 14:27",
+   "cenario": "ceu",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "plano": "fundo",
+     "dy": 260,
+     "escala": 1.4,
+     "pose": "bracos_erguidos"
+    }
+   ]
+  }
+ ],
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "descricao": "Ele andou sobre as águas… até olhar para o vento. Mateus 14:22–33 em menos de 1 minuto.\n\n\"Tenham coragem! Sou eu. Não tenham medo.\" (Mateus 14:27)"
+}

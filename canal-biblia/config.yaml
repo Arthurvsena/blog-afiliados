@@ -1,0 +1,33 @@
+# Canal Bíblia Animada (separado da Nexus). Lido por canal-biblia/diario.py e pelas skills
+# biblia-roteiros e biblia-publicar. Mude aqui; o resto se ajusta sozinho.
+canal:
+  nome: "Bíblia Animada"
+  handle_sugerido: "@bibliaanimada"
+  descricao_curta: "Histórias da Bíblia em animação, em menos de 1 minuto."
+  youtube_canal_id: ""        # preencha depois de criar o canal (o ID começa com UC...)
+  tiktok_usuario: ""          # ex.: @bibliaanimada
+  instagram_usuario: ""
+
+producao:
+  videos_por_dia: 2
+  vozes: ["gemini:Orus"]      # a cota grátis do Gemini aguenta ~1 chamada por vídeo; mais vozes = revezamento
+  fila_minima: 6              # abaixo disso, a produção pede mais roteiros ao roteirista
+  roteiros_por_lote: 14       # uma semana de vídeos
+
+publicacao:
+  # cada execução da tarefa no Chrome publica UM vídeo (o mais antigo pronto e não publicado)
+  horarios: ["11:40", "18:40"]
+  youtube: true
+  tiktok: true
+  drive: true
+  drive_pasta: "Bíblia Animada"   # pasta dentro do "Meu Drive"; os vídeos vão em subpastas por mês
+
+# Produto indicado (Hotmart/Kiwify). Deixe link vazio até ter a afiliação.
+# Atenção: em Shorts o link da descrição não é clicável; ele vai na bio do TikTok/Instagram e nos links do canal.
+indicacao:
+  nome: "Conheça sua Bíblia de Capa a Capa"
+  plataforma: "Hotmart"
+  link: ""
+  chamada: "📖 Quer entender a Bíblia de capa a capa, capítulo por capítulo? Link na bio."
+
+hashtags_fixas: ["bibliaanimada", "historiasdabiblia", "biblia", "fe", "jesus"]

@@ -1,0 +1,172 @@
+{
+ "slug": "as-muralhas-de-jerico",
+ "titulo": "Eles derrubaram uma cidade fortificada… só andando e gritando",
+ "referencia": "Josué 6",
+ "heroi": {
+  "nome": "Josué",
+  "cores": [
+   "#8c2b2b",
+   "#e0b24a",
+   "#4a6b3a",
+   "#d9d0b0"
+  ]
+ },
+ "hashtags": [
+  "jerico",
+  "josue",
+  "historiasdabiblia",
+  "biblia",
+  "shorts"
+ ],
+ "cenas": [
+  {
+   "fala": "Jericó era uma cidade cercada por muralhas enormes. Ninguém entrava. Ninguém saía.",
+   "cenario": "deserto",
+   "hora": "por_do_sol",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "muralha",
+     "x": 540,
+     "plano": "fundo",
+     "escala": 1.6
+    }
+   ]
+  },
+  {
+   "fala": "Deus deu a Josué um plano estranho: dar uma volta na cidade por dia, em silêncio, durante seis dias.",
+   "cenario": "deserto",
+   "hora": "dia",
+   "camera": "direita",
+   "elementos": [
+    {
+     "tipo": "muralha",
+     "x": 540,
+     "plano": "fundo",
+     "escala": 1.6
+    },
+    {
+     "tipo": "multidao",
+     "x": 100,
+     "n": 7,
+     "anda_ate": 900,
+     "pose": "andando"
+    },
+    {
+     "tipo": "heroi",
+     "x": 250,
+     "anda_ate": 1000,
+     "pose": "andando"
+    }
+   ],
+   "texto_tela": "6 dias"
+  },
+  {
+   "fala": "No sétimo dia, sete voltas. Os sacerdotes tocaram as trombetas.",
+   "cenario": "deserto",
+   "hora": "por_do_sol",
+   "camera": "esquerda",
+   "elementos": [
+    {
+     "tipo": "muralha",
+     "x": 540,
+     "plano": "fundo",
+     "escala": 1.6
+    },
+    {
+     "tipo": "multidao",
+     "x": 540,
+     "n": 9
+    },
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "pose": "bracos_erguidos"
+    }
+   ],
+   "texto_tela": "7 voltas"
+  },
+  {
+   "fala": "E o povo inteiro gritou.",
+   "cenario": "deserto",
+   "hora": "por_do_sol",
+   "camera": "zoom_forte",
+   "elementos": [
+    {
+     "tipo": "muralha",
+     "x": 540,
+     "plano": "fundo",
+     "escala": 1.6
+    },
+    {
+     "tipo": "multidao",
+     "x": 540,
+     "n": 11,
+     "pose": "bracos_erguidos"
+    },
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "pose": "bracos_erguidos"
+    }
+   ],
+   "tremor": true
+  },
+  {
+   "fala": "As muralhas de Jericó desabaram. Sem uma única arma.",
+   "cenario": "deserto",
+   "hora": "por_do_sol",
+   "camera": "afasta",
+   "elementos": [
+    {
+     "tipo": "muralha",
+     "x": 540,
+     "plano": "fundo",
+     "escala": 1.6,
+     "cai_em": 0.05
+    },
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "pose": "bracos_erguidos"
+    }
+   ],
+   "tremor": true
+  },
+  {
+   "fala": "Não foi força. Foi obediência.",
+   "cenario": "deserto",
+   "hora": "amanhecer",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "pose": "orando"
+    }
+   ],
+   "efeitos": [
+    "luz_divina"
+   ]
+  },
+  {
+   "fala": "Pela fé caíram as muralhas de Jericó, depois de rodeadas por sete dias.",
+   "versiculo": true,
+   "texto_tela": "Hebreus 11:30",
+   "cenario": "ceu",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "plano": "fundo",
+     "dy": 260,
+     "escala": 1.4,
+     "pose": "bracos_erguidos"
+    }
+   ]
+  }
+ ],
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "descricao": "Eles derrubaram uma cidade fortificada… só andando e gritando. Josué 6 em menos de 1 minuto.\n\n\"Pela fé caíram as muralhas de Jericó, depois de rodeadas por sete dias.\" (Hebreus 11:30)"
+}

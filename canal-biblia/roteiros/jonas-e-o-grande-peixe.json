@@ -1,0 +1,188 @@
+{
+ "slug": "jonas-e-o-grande-peixe",
+ "titulo": "Ele fugiu de Deus… e foi engolido por um peixe gigante",
+ "referencia": "Jonas 1–3",
+ "heroi": {
+  "nome": "Jonas",
+  "cores": [
+   "#2b7a8c",
+   "#d9b25a",
+   "#7a3e8c",
+   "#e07a3c",
+   "#9cc7d9"
+  ]
+ },
+ "hashtags": [
+  "jonas",
+  "historiasdabiblia",
+  "biblia",
+  "fe",
+  "shorts"
+ ],
+ "cenas": [
+  {
+   "fala": "Deus mandou Jonas pregar em Nínive. E ele pegou um navio para o lado contrário.",
+   "cenario": "mar",
+   "hora": "por_do_sol",
+   "camera": "direita",
+   "elementos": [
+    {
+     "tipo": "barco",
+     "x": 300,
+     "anda_ate": 760,
+     "escala": 1.2
+    },
+    {
+     "tipo": "heroi",
+     "x": 300,
+     "anda_ate": 760,
+     "dy": -120,
+     "escala": 0.45
+    }
+   ]
+  },
+  {
+   "fala": "No meio do mar, veio uma tempestade tão forte que o navio quase se partiu.",
+   "cenario": "mar",
+   "hora": "noite",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "barco",
+     "x": 540,
+     "escala": 1.4
+    },
+    {
+     "tipo": "multidao",
+     "x": 540,
+     "n": 4,
+     "dy": -150,
+     "escala": 0.4,
+     "pose": "bracos_erguidos"
+    }
+   ],
+   "tempestade": true,
+   "tremor": true
+  },
+  {
+   "fala": "Jonas sabia o motivo. E disse: me joguem no mar.",
+   "cenario": "mar",
+   "hora": "noite",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "barco",
+     "x": 540,
+     "escala": 1.4
+    },
+    {
+     "tipo": "heroi",
+     "x": 470,
+     "dy": -150,
+     "escala": 0.5,
+     "pose": "apontando"
+    }
+   ],
+   "tempestade": true
+  },
+  {
+   "fala": "Assim que ele caiu na água, o mar se acalmou.",
+   "cenario": "mar",
+   "hora": "amanhecer",
+   "camera": "desce",
+   "elementos": [
+    {
+     "tipo": "barco",
+     "x": 760,
+     "plano": "fundo",
+     "escala": 1.6
+    },
+    {
+     "tipo": "heroi",
+     "x": 500,
+     "dy": 180,
+     "escala": 0.7,
+     "pose": "bracos_erguidos"
+    }
+   ]
+  },
+  {
+   "fala": "E um grande peixe, preparado por Deus, engoliu Jonas.",
+   "cenario": "mar",
+   "hora": "amanhecer",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 620,
+     "dy": 200,
+     "escala": 0.6,
+     "pose": "bracos_erguidos",
+     "some_em": 0.6
+    },
+    {
+     "tipo": "peixe_grande",
+     "x": 380,
+     "dy": 260,
+     "escala": 1.2,
+     "entra": "esquerda",
+     "boca_em": 0.3
+    }
+   ]
+  },
+  {
+   "fala": "Três dias e três noites dentro do peixe. E ali, no escuro, Jonas orou.",
+   "cenario": "ventre",
+   "hora": "noite",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "pose": "ajoelhado"
+    }
+   ],
+   "texto_tela": "3 dias e 3 noites",
+   "contar": false
+  },
+  {
+   "fala": "Deus ouviu. O peixe o deixou na praia. E dessa vez, Jonas foi a Nínive.",
+   "cenario": "cidade",
+   "hora": "amanhecer",
+   "camera": "afasta",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "pose": "apontando"
+    },
+    {
+     "tipo": "multidao",
+     "x": 540,
+     "plano": "fundo",
+     "n": 11,
+     "pose": "ajoelhado_costas"
+    }
+   ]
+  },
+  {
+   "fala": "A salvação vem do Senhor.",
+   "versiculo": true,
+   "texto_tela": "Jonas 2:9",
+   "cenario": "ceu",
+   "camera": "aproxima",
+   "elementos": [
+    {
+     "tipo": "heroi",
+     "x": 540,
+     "plano": "fundo",
+     "dy": 260,
+     "escala": 1.4,
+     "pose": "bracos_erguidos"
+    }
+   ]
+  }
+ ],
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "descricao": "Ele fugiu de Deus… e foi engolido por um peixe gigante. Jonas 1–3 em menos de 1 minuto.\n\n\"A salvação vem do Senhor.\" (Jonas 2:9)"
+}
