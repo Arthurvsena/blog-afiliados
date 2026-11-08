@@ -1,0 +1,17 @@
+{
+  "slug": "jose-do-egito",
+  "titulo": "Vendido pelos próprios irmãos… anos depois, eles se ajoelharam diante dele",
+  "descricao": "A história de José do Egito em 50 segundos. Gênesis 37 a 50.\n\n\"Vocês planejaram o mal contra mim, mas Deus o transformou em bem.\" (Gênesis 50:20)\n\n#historiasdabiblia #josedoegito #biblia #shorts",
+  "referencia": "Gênesis 37–50",
+  "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história e emoção contida no final",
+  "cenas": [
+    {"id": "poco", "fala": "Os próprios irmãos jogaram ele num poço."},
+    {"id": "tunica", "fala": "José tinha dezessete anos e era o filho preferido do pai. Os irmãos não suportaram."},
+    {"id": "caravana", "fala": "Venderam ele por vinte moedas de prata, como escravo, para o Egito."},
+    {"id": "prisao", "fala": "Lá, foi acusado de um crime que não cometeu… e esquecido numa prisão."},
+    {"id": "farao", "fala": "Até que o faraó teve um sonho que ninguém sabia explicar. José explicou. E saiu da prisão direto para governar o Egito."},
+    {"id": "fome", "fala": "Anos depois, veio a fome. E quem apareceu pedindo comida, ajoelhado na frente dele? Os irmãos. Sem reconhecê-lo."},
+    {"id": "revelacao", "fala": "Ele podia se vingar. Mas chorou… e disse: Eu sou José. O irmão de vocês."},
+    {"id": "versiculo", "fala": "Vocês planejaram o mal contra mim. Mas Deus o transformou em bem.", "texto_tela": "Gênesis 50:20"}
+  ]
+}

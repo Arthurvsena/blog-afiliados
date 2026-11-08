@@ -1,0 +1,47 @@
+name: Histórias da Bíblia (vídeo)
+
+# Canal novo (separado da Nexus): animação 2D desenhada por código + narração Gemini.
+# Usa a mesma chave GEMINI_API_KEY e a mesma função de voz da Nexus (scripts/video_motion.narrar_gemini).
+on:
+  workflow_dispatch:
+    inputs:
+      roteiro:
+        description: "Roteiro a montar"
+        default: "canal-biblia/roteiros/jose-do-egito.json"
+      vozes:
+        description: "Vozes do Gemini (um vídeo por voz, separadas por espaço)"
+        default: "Orus Fenrir"
+
+permissions:
+  contents: write
+
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Ferramentas
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+          pip install -r requirements.txt numpy playwright
+          python -m playwright install --with-deps chromium
+      - name: Montar
+        run: |
+          for v in ${{ github.event.inputs.vozes }}; do
+            python3 canal-biblia/montar.py "${{ github.event.inputs.roteiro }}" --voz "gemini:$v" --saida _biblia || echo "FALHOU: $v"
+          done
+          ls -la _biblia
+      - name: Publicar num Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          slug=$(python3 -c "import json,sys;print(json.load(open(sys.argv[1]))['slug'])" "${{ github.event.inputs.roteiro }}")
+          ls _biblia/*.mp4 >/dev/null 2>&1 || { echo "Nenhum vídeo montado."; exit 1; }
+          gh release delete "biblia-$slug" -y --cleanup-tag 2>/dev/null || true
+          gh release create "biblia-$slug" _biblia/* --title "Histórias da Bíblia: $slug" --notes "Vídeo do canal Histórias da Bíblia (piloto)." --prerelease

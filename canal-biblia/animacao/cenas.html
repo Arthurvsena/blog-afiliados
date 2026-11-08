@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: "Poppins"; font-weight: 700; src: url("fontes/Poppins-Bold.ttf"); }
+  @font-face { font-family: "Lora"; font-weight: 400 700; src: url("fontes/Lora-Variable.ttf"); }
+  @font-face { font-family: "Lora"; font-style: italic; font-weight: 400 700; src: url("fontes/Lora-Italic-Variable.ttf"); }
+  html, body { margin: 0; background: #000; }
+  canvas { display: block; }
+</style>
+</head>
+<body>
+<canvas id="tela" width="1080" height="1920"></canvas>
+<script>
+/* ==========================================================================
+   Histórias da Bíblia em 2D: cada cena é desenhada por código, quadro a quadro.
+   renderFrame(t) desenha o instante t (segundos) da linha do tempo em window.TIMELINE.
+   O montador (montar.py) injeta a linha do tempo com a duração real de cada narração.
+   ========================================================================== */
+const W = 1080, H = 1920;
+const tela = document.getElementById("tela");
+const ctx = tela.getContext("2d");
+
+// ---------- utilidades ----------
+const clamp = (v, a = 0, b = 1) => Math.max(a, Math.min(b, v));
+const lerp = (a, b, p) => a + (b - a) * p;
+const ease = p => p < 0.5 ? 2 * p * p : 1 - Math.pow(-2 * p + 2, 2) / 2;
+const easeOut = p => 1 - Math.pow(1 - p, 3);
+const seg = (p, a, b) => clamp((p - a) / (b - a));
+function rng(seed) { return () => { seed |= 0; seed = seed + 0x6D2B79F5 | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+
+function grad(c, x0, y0, x1, y1, stops) { const g = c.createLinearGradient(x0, y0, x1, y1); stops.forEach(([o, col]) => g.addColorStop(o, col)); return g; }
+function rgrad(c, x, y, r0, r, stops) { const g = c.createRadialGradient(x, y, r0, x, y, r); stops.forEach(([o, col]) => g.addColorStop(o, col)); return g; }
+function glow(c, x, y, r, col, a = 1) { c.save(); c.globalAlpha *= a; c.globalCompositeOperation = "lighter"; c.fillStyle = rgrad(c, x, y, 0, r, [[0, col], [1, "rgba(0,0,0,0)"]]); c.fillRect(x - r, y - r, r * 2, r * 2); c.restore(); }
+function sky(c, stops) { c.fillStyle = grad(c, 0, 0, 0, H, stops); c.fillRect(0, 0, W, H); }
+
+// paleta
+const SIL = "#160d1c";          // silhuetas
+const SIL2 = "#24142b";
+const TUNICA = ["#d8473f", "#f2b236", "#2fa59b", "#7d5bb0", "#ea7a3c", "#3d7fc4"];
+
+// partículas de poeira/luz determinísticas
+function poeira(c, n, seed, t, area, cor, tam = 3, vel = 18, alpha = 0.5) {
+  const r = rng(seed);
+  c.save(); c.globalCompositeOperation = "lighter";
+  for (let i = 0; i < n; i++) {
+    const x0 = area[0] + r() * area[2], y0 = area[1] + r() * area[3];
+    const ph = r() * 6.28, s = tam * (0.4 + r());
+    const x = x0 + Math.sin(t * 0.6 + ph) * 22 + t * vel * (r() - 0.3);
+    const y = area[1] + ((y0 - area[1] - t * vel * (0.4 + r()) * 0.6) % area[3] + area[3]) % area[3];
+    c.globalAlpha = alpha * (0.4 + 0.6 * Math.sin(t * 1.3 + ph * 2) ** 2);
+    c.fillStyle = cor; c.beginPath(); c.arc(x, y, s, 0, 6.283); c.fill();
+  }
+  c.restore();
+}
+
+// ---------- personagens ----------
+// p: {cor, tunica:'listras'|'branca'|null, colar, cabeca:'pano'|'nemes'|'nua', barba, olhar(1|-1),
+//     bracoE, bracoD (rad, 0 = para baixo, + = para frente/cima), cajado, inclina}
+function pessoa(c, x, y, h, p = {}) {
+  const cor = p.cor || SIL, f = p.olhar || 1;
+  c.save();
+  c.translate(x, y); c.rotate(p.inclina || 0); c.translate(-x, -y);
+  const hr = h * 0.072, hy = y - h + hr, oy = y - h * 0.80, ow = h * 0.125, bw = h * 0.19;
+  const ombE = [x - ow * 0.92, oy + h * 0.015], ombD = [x + ow * 0.92, oy + h * 0.015];
+  // braço de trás (fica atrás do corpo)
+  // braços: ang = 0 aponta para baixo; positivo levanta para o lado em que a pessoa olha
+  const braco = (o, ang) => {
+    const L = h * 0.36;
+    const ex = o[0] + Math.sin(ang * 0.6) * L * 0.5 * f, ey = o[1] + Math.cos(ang * 0.6) * L * 0.5;
+    const mx = o[0] + Math.sin(ang) * L * f, my = o[1] + Math.cos(ang) * L;
+    c.strokeStyle = cor; c.lineWidth = h * 0.058; c.lineCap = "round"; c.lineJoin = "round";
+    c.beginPath(); c.moveTo(o[0], o[1]); c.quadraticCurveTo(ex, ey, mx, my); c.stroke();
+    c.fillStyle = cor; c.beginPath(); c.arc(mx, my, h * 0.03, 0, 6.283); c.fill();
+    return [mx, my];
+  };
+  const maoTras = braco(f > 0 ? ombE : ombD, p.bracoE ?? 0.12);
+  if (p.cajado) {
+    c.strokeStyle = cor; c.lineWidth = h * 0.022; c.beginPath();
+    c.moveTo(maoTras[0], maoTras[1] - h * 0.32); c.lineTo(maoTras[0] + h * 0.02, y + 2); c.stroke();
+    c.beginPath(); c.arc(maoTras[0] + h * 0.05, maoTras[1] - h * 0.32, h * 0.05, Math.PI, 2 * Math.PI); c.stroke();
+  }
+  // túnica
+  const corpo = new Path2D();
+  corpo.moveTo(x - ow, oy);
+  corpo.quadraticCurveTo(x - ow * 1.25, y - h * 0.35, x - bw, y);
+  corpo.lineTo(x + bw, y);
+  corpo.quadraticCurveTo(x + ow * 1.25, y - h * 0.35, x + ow, oy);
+  corpo.quadraticCurveTo(x, oy - h * 0.05, x - ow, oy);
+  c.fillStyle = cor; c.fill(corpo);
+  // pés
+  c.beginPath(); c.ellipse(x - bw * 0.45 + f * 6, y, h * 0.05, h * 0.018, 0, 0, 6.283); c.ellipse(x + bw * 0.45 + f * 6, y, h * 0.05, h * 0.018, 0, 0, 6.283); c.fill();
+  if (p.tunica === "listras") {
+    c.save(); c.clip(corpo);
+    const faixa = h * 0.085;
+    for (let i = 0, yy = oy - 10; yy < y + 10; i++, yy += faixa) {
+      c.fillStyle = TUNICA[i % TUNICA.length]; c.fillRect(x - bw - 5, yy, bw * 2 + 10, faixa + 1);
+    }
+    c.fillStyle = grad(c, x - bw, 0, x + bw, 0, [[0, "rgba(10,4,20,0.65)"], [0.45, "rgba(10,4,20,0)"], [0.7, "rgba(255,240,200,0.12)"], [1, "rgba(10,4,20,0.55)"]]);
+    c.fillRect(x - bw - 5, oy - 10, bw * 2 + 10, h);
+    c.restore();
+  } else if (p.tunica === "branca") {
+    c.save(); c.clip(corpo);
+    c.fillStyle = grad(c, x - bw, 0, x + bw, 0, [[0, "#b9a98f"], [0.5, "#f4ead6"], [1, "#a8977e"]]);
+    c.fillRect(x - bw - 5, oy - 10, bw * 2 + 10, h);
+    c.fillStyle = "rgba(180,130,40,0.85)"; c.fillRect(x - bw - 5, y - h * 0.06, bw * 2 + 10, h * 0.025);
+    c.restore();
+  }
+  // pescoço e cabeça
+  c.fillStyle = cor;
+  c.fillRect(x - h * 0.028, oy - h * 0.07, h * 0.056, h * 0.08);
+  if (p.cabeca === "nemes") {
+    c.fillStyle = cor; c.beginPath();
+    c.moveTo(x - hr * 1.05, hy - hr * 0.6); c.lineTo(x - hr * 1.9, oy + h * 0.06); c.lineTo(x + hr * 1.9, oy + h * 0.06); c.lineTo(x + hr * 1.05, hy - hr * 0.6); c.closePath(); c.fill();
+    c.beginPath(); c.arc(x, hy, hr * 1.15, Math.PI, 0); c.fill();
+    c.strokeStyle = "rgba(240,190,80,0.9)"; c.lineWidth = h * 0.008;
+    for (let i = 1; i < 6; i++) { const k = i / 6; c.beginPath(); c.moveTo(x - lerp(hr * 1.05, hr * 1.9, k), lerp(hy - hr * 0.6, oy + h * 0.06, k)); c.lineTo(x + lerp(hr * 1.05, hr * 1.9, k), lerp(hy - hr * 0.6, oy + h * 0.06, k)); c.stroke(); }
+  } else if (p.cabeca === "pano") {
+    c.beginPath(); c.moveTo(x - hr * 1.1, hy); c.quadraticCurveTo(x - hr * 1.5, oy, x - hr * 1.7, oy + h * 0.05); c.lineTo(x + hr * 1.7, oy + h * 0.05); c.quadraticCurveTo(x + hr * 1.5, oy, x + hr * 1.1, hy); c.fill();
+    c.beginPath(); c.arc(x, hy, hr * 1.12, 0, 6.283); c.fill();
+  }
+  c.fillStyle = cor;
+  c.beginPath(); c.arc(x + f * hr * 0.12, hy, hr, 0, 6.283); c.fill();
+  // nariz (perfil) e barba
+  c.beginPath(); c.moveTo(x + f * hr * 0.95, hy - hr * 0.1); c.lineTo(x + f * hr * 1.28, hy + hr * 0.25); c.lineTo(x + f * hr * 0.9, hy + hr * 0.35); c.fill();
+  if (p.barba) { c.beginPath(); c.moveTo(x - f * hr * 0.2, hy + hr * 0.6); c.quadraticCurveTo(x + f * hr * 0.4, hy + hr * 2.1, x + f * hr * 0.95, hy + hr * 0.55); c.fill(); }
+  if (p.colar) {
+    c.strokeStyle = "#f0bf4c"; c.lineWidth = h * 0.03;
+    c.beginPath(); c.ellipse(x, oy + h * 0.005, ow * 0.95, h * 0.05, 0, 0.1, Math.PI - 0.1); c.stroke();
+    glow(c, x, oy + h * 0.04, h * 0.15, "rgba(255,200,90,0.35)");
+  }
+  // braço da frente
+  braco(f > 0 ? ombD : ombE, p.bracoD ?? 0.12);
+  c.restore();
+}
+
+// ajoelhado, visto de costas (irmãos diante de José)
+function ajoelhadoCostas(c, x, y, h, cor = SIL, cabecaBaixa = 0) {
+  c.fillStyle = cor;
+  c.beginPath();
+  c.moveTo(x - h * 0.24, y);
+  c.quadraticCurveTo(x - h * 0.27, y - h * 0.3, x - h * 0.15, y - h * 0.42);
+  c.quadraticCurveTo(x, y - h * 0.5, x + h * 0.15, y - h * 0.42);
+  c.quadraticCurveTo(x + h * 0.27, y - h * 0.3, x + h * 0.24, y);
+  c.closePath(); c.fill();
+  const hy = y - h * 0.5 + cabecaBaixa * h * 0.08;
+  c.beginPath(); c.moveTo(x - h * 0.09, hy); c.lineTo(x - h * 0.13, y - h * 0.36); c.lineTo(x + h * 0.13, y - h * 0.36); c.lineTo(x + h * 0.09, hy); c.fill();
+  c.beginPath(); c.arc(x, hy, h * 0.085, 0, 6.283); c.fill();
+  // saco vazio no chão
+  c.fillStyle = "#2b1a24"; c.beginPath(); c.ellipse(x + h * 0.3, y - h * 0.05, h * 0.09, h * 0.06, 0.3, 0, 6.283); c.fill();
+}
+
+// sentado abraçando os joelhos (prisão), de perfil
+function sentado(c, x, y, h, listras = true, f = 1) {
+  const corpo = new Path2D();
+  corpo.moveTo(x - f * h * 0.12, y);
+  corpo.quadraticCurveTo(x - f * h * 0.2, y - h * 0.3, x - f * h * 0.06, y - h * 0.5);
+  corpo.lineTo(x + f * h * 0.08, y - h * 0.48);
+  corpo.quadraticCurveTo(x + f * h * 0.14, y - h * 0.42, x + f * h * 0.24, y - h * 0.33);
+  corpo.quadraticCurveTo(x + f * h * 0.3, y - h * 0.15, x + f * h * 0.28, y);
+  corpo.closePath();
+  c.fillStyle = SIL; c.fill(corpo);
+  if (listras) {
+    c.save(); c.clip(corpo);
+    for (let i = 0; i < 10; i++) { c.fillStyle = TUNICA[i % TUNICA.length]; c.fillRect(x - h * 0.4, y - h * 0.55 + i * h * 0.07, h * 0.8, h * 0.071); }
+    c.fillStyle = "rgba(8,14,40,0.38)"; c.fillRect(x - h * 0.4, y - h * 0.6, h * 0.8, h * 0.7);
+    c.restore();
+  }
+  c.fillStyle = SIL;
+  c.beginPath(); c.arc(x + f * h * 0.05, y - h * 0.58, h * 0.075, 0, 6.283); c.fill();
+  // braços em volta dos joelhos
+  c.strokeStyle = SIL; c.lineWidth = h * 0.05; c.lineCap = "round";
+  c.beginPath(); c.moveTo(x + f * h * 0.0, y - h * 0.44); c.quadraticCurveTo(x + f * h * 0.12, y - h * 0.22, x + f * h * 0.27, y - h * 0.25); c.stroke();
+}
+
+function camelo(c, x, y, s, fase, cor = SIL) {
+  c.fillStyle = cor; c.strokeStyle = cor; c.lineCap = "round";
+  c.lineWidth = s * 0.06;
+  for (let i = 0; i < 4; i++) {
+    const lx = x + (i < 2 ? -0.22 : 0.2) * s + (i % 2) * 0.06 * s;
+    const a = Math.sin(fase + (i % 2 ? Math.PI : 0) + (i < 2 ? 0 : Math.PI * 0.5)) * 0.32;
+    c.beginPath(); c.moveTo(lx, y - s * 0.56); c.lineTo(lx + Math.sin(a) * s * 0.28, y - s * 0.28); c.lineTo(lx + Math.sin(a * 1.4) * s * 0.3, y); c.stroke();
+  }
+  c.beginPath(); c.ellipse(x, y - s * 0.62, s * 0.33, s * 0.14, 0, 0, 6.283); c.fill();
+  c.beginPath(); c.ellipse(x - s * 0.04, y - s * 0.76, s * 0.16, s * 0.13, 0, 0, 6.283); c.fill();
+  c.lineWidth = s * 0.1;
+  c.beginPath(); c.moveTo(x + s * 0.26, y - s * 0.64); c.quadraticCurveTo(x + s * 0.44, y - s * 0.62, x + s * 0.44, y - s * 0.93); c.stroke();
+  c.beginPath(); c.ellipse(x + s * 0.5, y - s * 0.95, s * 0.1, s * 0.05, 0.2, 0, 6.283); c.fill();
+  c.fillRect(x - s * 0.17, y - s * 0.98, s * 0.26, s * 0.12); // carga
+}
+
+function palmeira(c, x, y, h, cor = SIL, vento = 0) {
+  c.strokeStyle = cor; c.lineWidth = h * 0.045; c.lineCap = "round";
+  c.beginPath(); c.moveTo(x, y); c.quadraticCurveTo(x + h * 0.12, y - h * 0.5, x + h * 0.05, y - h); c.stroke();
+  const tx = x + h * 0.05, ty = y - h;
+  c.fillStyle = cor;
+  for (let i = 0; i < 7; i++) {
+    const a = -Math.PI / 2 + (i - 3) * 0.48 + Math.sin(vento + i) * 0.04;
+    c.save(); c.translate(tx, ty); c.rotate(a);
+    c.beginPath(); c.moveTo(0, 0); c.quadraticCurveTo(h * 0.25, -h * 0.09, h * 0.42, h * 0.08); c.quadraticCurveTo(h * 0.22, -h * 0.01, 0, h * 0.03); c.fill();
+    c.restore();
+  }
+}
+
+function piramide(c, x, y, w, h, luz, sombra) {
+  c.fillStyle = luz; c.beginPath(); c.moveTo(x - w / 2, y); c.lineTo(x, y - h); c.lineTo(x + w * 0.12, y); c.fill();
+  c.fillStyle = sombra; c.beginPath(); c.moveTo(x + w * 0.12, y); c.lineTo(x, y - h); c.lineTo(x + w / 2, y); c.fill();
+}
+
+function duna(c, y0, amp, freq, fase, cor) {
+  c.fillStyle = cor; c.beginPath(); c.moveTo(-20, H + 20);
+  for (let x = -20; x <= W + 20; x += 20) c.lineTo(x, y0 + Math.sin(x * freq + fase) * amp + Math.sin(x * freq * 2.3 + fase * 1.7) * amp * 0.35);
+  c.lineTo(W + 20, H + 20); c.closePath(); c.fill();
+}
+
+function vaca(c, x, y, s, magra, cor) {
+  c.fillStyle = cor; c.strokeStyle = cor; c.lineWidth = s * 0.06; c.lineCap = "round";
+  const bh = magra ? s * 0.16 : s * 0.3;
+  for (const lx of [-0.3, -0.18, 0.18, 0.3]) { c.beginPath(); c.moveTo(x + lx * s, y - s * 0.4); c.lineTo(x + lx * s, y); c.stroke(); }
+  c.beginPath(); c.ellipse(x, y - s * 0.5, s * 0.42, bh / 2 + s * 0.05, 0, 0, 6.283); c.fill();
+  c.beginPath(); c.ellipse(x + s * 0.5, y - s * 0.6, s * 0.12, s * 0.09, 0.4, 0, 6.283); c.fill();
+  c.beginPath(); c.moveTo(x + s * 0.48, y - s * 0.68); c.lineTo(x + s * 0.44, y - s * 0.8); c.stroke();
+}
+
+// ==========================================================================
+//  CENAS  (u = segundos dentro da cena, d = duração da cena)
+// ==========================================================================
+const CENAS = {};
+
+// 1. O poço — câmera desce dos irmãos até José no fundo
+CENAS.poco = (c, u, d) => {
+  const p = u / d;
+  const cam = ease(seg(p, 0.05, 0.85));
+  sky(c, [[0, "#3a1d3f"], [0.25, "#b0473f"], [0.4, "#e88a4a"], [1, "#e88a4a"]]);
+  c.save();
+  const k = lerp(1.55, 1.0, cam), fy = lerp(380, 900, cam);
+  c.translate(W / 2, H / 2); c.scale(k, k); c.translate(-W / 2, -fy);
+  const solo = 560, poX = 540, poW = 280;
+  glow(c, 540, solo - 40, 520, "rgba(255,170,90,0.55)");
+  // terra em corte
+  c.fillStyle = grad(c, 0, solo, 0, H + 200, [[0, "#3b2219"], [0.5, "#24130f"], [1, "#120808"]]);
+  c.fillRect(-200, solo, W + 400, H);
+  const r = rng(7); c.fillStyle = "rgba(255,200,150,0.06)";
+  for (let i = 0; i < 70; i++) { c.beginPath(); c.ellipse(r() * W, solo + 40 + r() * 1400, 10 + r() * 30, 6 + r() * 12, 0, 0, 6.283); c.fill(); }
+  // poço (pedras nas bordas)
+  c.fillStyle = "#0c0507"; c.fillRect(poX - poW / 2, solo, poW, 900);
+  for (let yy = solo; yy < solo + 900; yy += 46) {
+    for (const lado of [-1, 1]) {
+      c.fillStyle = (yy / 46) % 2 ? "#4a2d22" : "#3a2219";
+      c.beginPath(); c.roundRect(poX + lado * poW / 2 - (lado > 0 ? 0 : 36), yy + 2, 36, 42, 6); c.fill();
+    }
+  }
+  // feixe de luz descendo
+  c.save(); c.globalCompositeOperation = "lighter";
+  c.fillStyle = grad(c, 0, solo, 0, solo + 1180, [[0, "rgba(255,190,120,0.42)"], [1, "rgba(255,190,120,0.05)"]]);
+  c.beginPath(); c.moveTo(poX - poW / 2 + 36, solo); c.lineTo(poX + poW / 2 - 36, solo); c.lineTo(poX + 60, solo + 900); c.lineTo(poX - 60, solo + 900); c.fill(); c.restore();
+  poeira(c, 26, 3, u, [poX - 110, solo, 220, 880], "rgba(255,210,160,1)", 2.5, 30, 0.6);
+  // José no fundo, olhando para cima
+  const fundo = solo + 890;
+  glow(c, poX, fundo - 120, 260, "rgba(255,200,140,0.35)");
+  pessoa(c, poX, fundo, 260, { tunica: "listras", bracoE: 2.4 + Math.sin(u * 2) * 0.05, bracoD: 0.25, inclina: -0.04 });
+  // irmãos na beira, olhando para baixo
+  const irm = [[poX - 250, 0.18, -1], [poX - 380, 0.1, 1], [poX + 250, -0.18, -1], [poX + 390, -0.08, 1]];
+  irm.forEach(([ix, inc, ord], i) => pessoa(c, ix, solo, 300 + i * 12, { cabeca: "pano", olhar: ix < poX ? 1 : -1, inclina: inc + Math.sin(u * 1.2 + i) * 0.015, bracoE: 0.35, bracoD: i === 0 ? 1.2 : 0.4, barba: i % 2 === 0, cor: i % 2 ? SIL2 : SIL }));
+  c.fillStyle = "#2a1712"; c.fillRect(-200, solo - 2, poX - poW / 2 + 200, 14); c.fillRect(poX + poW / 2, solo - 2, W, 14);
+  c.restore();
+};
+
+// 2. A túnica colorida — o pai dá a túnica; os irmãos olham no escuro
+CENAS.tunica = (c, u, d) => {
+  const p = u / d;
+  sky(c, [[0, "#2c1a45"], [0.35, "#8a3c5a"], [0.6, "#f08a4b"], [0.75, "#f8c76a"], [1, "#f8c76a"]]);
+  c.save();
+  const k = lerp(1.0, 1.12, ease(p)); c.translate(W / 2, H * 0.62); c.scale(k, k); c.translate(-W / 2, -H * 0.62);
+  glow(c, 560, 1180, 420, "rgba(255,220,140,0.8)");
+  c.fillStyle = "#fff3cf"; c.beginPath(); c.arc(560, 1180, 150, 0, 6.283); c.fill();
+  duna(c, 1250, 30, 0.004, 1, "#7a3a44");
+  duna(c, 1330, 22, 0.006, 3, "#4a2233");
+  // tenda
+  c.fillStyle = SIL2; c.beginPath(); c.moveTo(60, 1360); c.lineTo(230, 1140); c.lineTo(420, 1360); c.fill();
+  c.strokeStyle = SIL2; c.lineWidth = 6; c.beginPath(); c.moveTo(230, 1140); c.lineTo(230, 1100); c.stroke();
+  palmeira(c, 930, 1360, 380, SIL2, u);
+  c.fillStyle = "#2a1626"; c.fillRect(-100, 1355, W + 200, 700);
+  // pai e José
+  const reveal = easeOut(seg(p, 0.05, 0.4));
+  glow(c, 600, 1180, 300, "rgba(255,200,120,0.6)", reveal);
+  pessoa(c, 470, 1360, 430, { cabeca: "pano", barba: true, cajado: true, olhar: 1, bracoD: lerp(0.3, 1.25, reveal), bracoE: 0.15, inclina: 0.04 });
+  pessoa(c, 640, 1360, 330, { tunica: reveal > 0.02 ? "listras" : null, olhar: -1, bracoE: 0.5, bracoD: 0.2 });
+  if (reveal > 0.02 && reveal < 1) { // brilho subindo pela túnica
+    c.save(); c.globalCompositeOperation = "lighter"; c.globalAlpha = 1 - reveal;
+    c.fillStyle = "rgba(255,240,190,0.9)"; c.beginPath(); c.ellipse(640, lerp(1360, 1090, reveal), 90, 30, 0, 0, 6.283); c.fill(); c.restore();
+  }
+  // brilhos na túnica
+  const r = rng(11); c.fillStyle = "#fff6d8";
+  for (let i = 0; i < 9; i++) { const ph = r() * 6.28, x = 600 + r() * 80, y = 1110 + r() * 230, a = Math.max(0, Math.sin(u * 3 + ph)); c.globalAlpha = a * reveal; c.beginPath(); c.arc(x, y, 3 + a * 3, 0, 6.283); c.fill(); }
+  c.globalAlpha = 1;
+  c.restore();
+  // irmãos em primeiro plano (grandes, escuros, de costas)
+  const ent = easeOut(seg(p, 0.35, 0.8));
+  c.save(); c.translate(lerp(-80, 0, ent), 0);
+  pessoa(c, 150, 2050, 900, { cabeca: "pano", olhar: 1, cor: "#0e0712", bracoE: 0.1, bracoD: 0.1 });
+  c.restore();
+  c.save(); c.translate(lerp(80, 0, ent), 0);
+  pessoa(c, 960, 2080, 960, { cabeca: "pano", olhar: -1, cor: "#0e0712", barba: true, bracoE: 0.05, bracoD: 0.05 });
+  c.restore();
+  c.fillStyle = grad(c, 0, 1500, 0, H, [[0, "rgba(10,5,15,0)"], [1, "rgba(10,5,15,0.85)"]]); c.fillRect(0, 1500, W, 420);
+};
+
+// 3. A caravana — 20 moedas de prata e o caminho para o Egito
+CENAS.caravana = (c, u, d) => {
+  const p = u / d;
+  sky(c, [[0, "#1d1438"], [0.3, "#6b2c52"], [0.52, "#e2603a"], [0.62, "#f6a04d"], [1, "#f6a04d"]]);
+  glow(c, 540, 1060, 600, "rgba(255,180,90,0.7)");
+  c.fillStyle = "#ffd38a"; c.beginPath(); c.arc(540, 1060, 270, 0, 6.283); c.fill();
+  duna(c, 1120, 40, 0.003, u * 0.05, "#a8443a");
+  duna(c, 1200, 34, 0.005, 2 + u * 0.12, "#6d2a37");
+  // caravana atravessando
+  const cx = lerp(-260, 1240, p * 0.9 + 0.05);
+  const chao = 1250;
+  for (let i = 0; i < 3; i++) {
+    const xx = cx - i * 270; camelo(c, xx, chao, 210, u * 5 + i);
+    pessoa(c, xx + 150, chao, 200, { cabeca: "pano", cajado: true, bracoE: 0.2 + Math.sin(u * 5 + i) * 0.2, bracoD: -0.1 });
+  }
+  // José amarrado, atrás da caravana
+  const jx = cx - 3 * 270 + 140;
+  c.strokeStyle = "#3a2030"; c.lineWidth = 4; c.beginPath(); c.moveTo(jx + 20, chao - 120); c.quadraticCurveTo(jx + 70, chao - 60, jx + 120, chao - 160); c.stroke();
+  pessoa(c, jx, chao, 175, { tunica: "listras", bracoE: 0.9, bracoD: 0.9, inclina: 0.06 + Math.sin(u * 5) * 0.03 });
+  c.fillStyle = "#3a1626"; c.fillRect(0, chao, W, H - chao);
+  duna(c, 1500, 50, 0.004, 4, "#250e1a");
+  // mão recebendo as moedas
+  const m = easeOut(seg(p, 0.0, 0.25));
+  c.save(); c.translate(0, lerp(260, 0, m));
+  c.fillStyle = "#0e0710"; c.strokeStyle = "rgba(255,170,110,0.35)"; c.lineWidth = 4;
+  c.beginPath(); c.moveTo(-40, 1920); c.quadraticCurveTo(250, 1700, 470, 1690); c.quadraticCurveTo(700, 1680, 760, 1740); c.quadraticCurveTo(700, 1790, 560, 1790); c.lineTo(420, 1920); c.fill(); c.stroke();
+  const nm = Math.floor(clamp(seg(p, 0.05, 0.55)) * 20);
+  for (let i = 0; i < 20; i++) {
+    const r2 = rng(100 + i); const tx = 470 + (r2() - 0.5) * 230, ty = 1690 - (i % 7) * 9 - r2() * 8;
+    const chegada = clamp((seg(p, 0.05, 0.55) * 20 - i));
+    if (chegada <= 0) continue;
+    const yy = lerp(ty - 700, ty, easeOut(chegada));
+    c.fillStyle = "#d9dee6"; c.beginPath(); c.ellipse(tx, yy, 44, 16, 0, 0, 6.283); c.fill();
+    c.fillStyle = "#9aa3b2"; c.beginPath(); c.ellipse(tx, yy + 4, 44, 13, 0, 0, Math.PI); c.fill();
+    if (chegada >= 1) glow(c, tx, yy, 40, "rgba(220,230,255,0.25)");
+  }
+  c.restore();
+  if (nm > 0) { c.font = "700 64px Poppins"; c.textAlign = "center"; c.fillStyle = "rgba(225,232,245,0.95)"; c.fillText(nm + " moedas de prata", 540, 330); }
+};
+
+// 4. A prisão — esquecido, sob a luz da lua
+CENAS.prisao = (c, u, d) => {
+  const p = u / d;
+  c.fillStyle = grad(c, 0, 0, 0, H, [[0, "#0a1024"], [1, "#05070f"]]); c.fillRect(0, 0, W, H);
+  c.save();
+  const k = lerp(1.0, 1.25, ease(p)); c.translate(W / 2, 1150); c.scale(k, k); c.translate(-W / 2, -1150);
+  // parede de pedra
+  for (let row = 0; row < 30; row++) for (let col = 0; col < 8; col++) {
+    const x = col * 150 - (row % 2) * 75, y = 300 + row * 62;
+    c.fillStyle = (row * 7 + col * 3) % 5 ? "#141c34" : "#18213d"; c.beginPath(); c.roundRect(x + 3, y + 3, 144, 56, 8); c.fill();
+  }
+  // janelinha com grades e lua
+  c.fillStyle = "#cfe0ff"; c.fillRect(640, 560, 200, 150);
+  glow(c, 740, 635, 260, "rgba(160,190,255,0.6)");
+  c.fillStyle = "#0a0f20"; for (let i = 0; i < 4; i++) c.fillRect(660 + i * 50, 560, 14, 150);
+  // feixe da lua
+  c.save(); c.globalCompositeOperation = "lighter";
+  c.fillStyle = grad(c, 0, 600, 0, 1450, [[0, "rgba(150,180,255,0.32)"], [1, "rgba(150,180,255,0.03)"]]);
+  c.beginPath(); c.moveTo(640, 600); c.lineTo(840, 600); c.lineTo(560, 1450); c.lineTo(230, 1450); c.fill(); c.restore();
+  poeira(c, 30, 21, u, [260, 620, 500, 820], "rgba(200,215,255,1)", 2.2, 10, 0.55);
+  c.fillStyle = "#070a16"; c.fillRect(-100, 1440, W + 200, 600);
+  glow(c, 420, 1300, 300, "rgba(170,195,255,0.45)");
+  sentado(c, 420, 1450, 380, true, 1);
+  // corrente
+  c.strokeStyle = "#2a3350"; c.lineWidth = 6; c.setLineDash([14, 8]); c.beginPath(); c.moveTo(500, 1440); c.quadraticCurveTo(620, 1500, 760, 1440); c.stroke(); c.setLineDash([]);
+  c.restore();
+  // grades em primeiro plano (a câmera atravessa)
+  const g = ease(p);
+  c.fillStyle = "#03050b";
+  for (let i = -2; i < 7; i++) {
+    const x = 540 + (i * 230 - 575) * lerp(1, 3.6, g);
+    c.fillRect(x - lerp(22, 80, g), 0, lerp(44, 160, g), H);
+  }
+  c.fillRect(0, lerp(250, -200, g), W, lerp(40, 100, g));
+};
+
+// 5. O sonho do faraó e a subida de José
+CENAS.farao = (c, u, d) => {
+  const p = u / d;
+  const virada = ease(seg(p, 0.5, 0.62));
+  if (virada < 1) {
+    c.save(); c.globalAlpha = 1 - virada;
+    // palácio
+    c.fillStyle = grad(c, 0, 0, 0, H, [[0, "#2a1408"], [0.5, "#6b3a12"], [1, "#2a1408"]]); c.fillRect(0, 0, W, H);
+    for (const cx of [110, 970]) { c.fillStyle = "#1b0d06"; c.fillRect(cx - 70, 200, 140, 1300); c.fillStyle = "#8a5a1c"; for (let i = 0; i < 6; i++) c.fillRect(cx - 70, 260 + i * 200, 140, 10); }
+    glow(c, 540, 1050, 520, "rgba(255,170,70,0.45)");
+    // trono e faraó
+    c.fillStyle = "#6a3d14"; c.fillRect(270, 940, 280, 500);
+    c.strokeStyle = "#e0a23c"; c.lineWidth = 10; c.strokeRect(275, 945, 270, 490);
+    glow(c, 410, 1150, 260, "rgba(255,200,110,0.55)");
+    pessoa(c, 410, 1440, 440, { cabeca: "nemes", olhar: 1, colar: true, bracoE: 0.4, bracoD: 0.9 });
+    // nuvem do sonho com as vacas
+    const s = easeOut(seg(p, 0.02, 0.18));
+    c.save(); c.globalAlpha *= s; c.fillStyle = "rgba(255,230,190,0.16)";
+    c.fillStyle = rgrad(c, 540, 600, 40, 470, [[0, "rgba(255,236,200,0.55)"], [0.7, "rgba(255,220,170,0.25)"], [1, "rgba(255,220,170,0)"]]);
+    c.beginPath(); c.ellipse(540, 600, 470, 330, 0, 0, 6.283); c.fill();
+    for (const [bx, by, br] of [[470, 860, 34], [440, 930, 22], [420, 985, 14]]) { c.beginPath(); c.arc(bx, by, br, 0, 6.283); c.fill(); }
+    for (let i = 0; i < 7; i++) vaca(c, 215 + i * 108, 560, 92, false, "rgba(110,60,25,0.95)");
+    const magras = seg(p, 0.12, 0.3);
+    for (let i = 0; i < 7; i++) { c.globalAlpha = s * magras; vaca(c, 215 + i * 108, 760, 92, true, "rgba(60,30,15,0.95)"); }
+    c.restore();
+    // José chega e explica
+    const j = easeOut(seg(p, 0.27, 0.42));
+    c.save(); c.globalAlpha *= j;
+    pessoa(c, lerp(900, 760, j), 1440, 360, { olhar: -1, bracoD: 1.0 + Math.sin(u * 3) * 0.15, bracoE: 0.3, tunica: "listras" });
+    glow(c, 600, 900, 300, "rgba(255,240,200,0.5)", j);
+    c.restore();
+    c.restore();
+  }
+  if (virada > 0) {
+    c.save(); c.globalAlpha = virada;
+    sky(c, [[0, "#3a2a6a"], [0.3, "#e0784a"], [0.55, "#ffd27a"], [1, "#ffd27a"]]);
+    // raios girando
+    c.save(); c.translate(540, 1150); c.rotate(u * 0.08); c.globalCompositeOperation = "lighter";
+    for (let i = 0; i < 16; i++) { c.rotate(Math.PI / 8); c.fillStyle = "rgba(255,230,160,0.07)"; c.beginPath(); c.moveTo(0, 0); c.lineTo(-90, -1500); c.lineTo(90, -1500); c.fill(); }
+    c.restore();
+    glow(c, 540, 1150, 380, "rgba(255,240,180,0.9)");
+    piramide(c, 230, 1330, 520, 360, "#d18a45", "#8a4a2a");
+    piramide(c, 820, 1330, 640, 450, "#c97d3e", "#7a3f26");
+    palmeira(c, 80, 1400, 320, "#4a2a1e", u); palmeira(c, 1010, 1420, 360, "#4a2a1e", u + 1);
+    c.fillStyle = "#5a3020"; c.fillRect(0, 1330, W, 600);
+    // povo se curvando ao longe
+    for (let i = 0; i < 9; i++) ajoelhadoCostas(c, 120 + i * 105, 1560 + (i % 2) * 30, 140, "#3a1c14");
+    const subida = easeOut(seg(p, 0.6, 0.9));
+    pessoa(c, 540, lerp(1500, 1420, subida), 470, { tunica: "branca", colar: true, olhar: 1, bracoE: 0.15, bracoD: 0.15 });
+    c.restore();
+  }
+};
+
+// 6. A fome — os irmãos ajoelhados diante dele, sem reconhecê-lo
+CENAS.fome = (c, u, d) => {
+  const p = u / d;
+  sky(c, [[0, "#4a2a1a"], [0.45, "#c47a3c"], [0.6, "#e4a45a"], [1, "#b8763a"]]);
+  c.save();
+  const k = lerp(1.0, 1.1, ease(p)); c.translate(W / 2, 1000); c.scale(k, k); c.translate(-W / 2, -1000);
+  glow(c, 540, 820, 500, "rgba(255,220,150,0.55)");
+  // degraus e José no alto
+  c.fillStyle = "#3e2414"; c.fillRect(260, 1060, 560, 60); c.fillRect(200, 1120, 680, 60); c.fillRect(140, 1180, 800, 60);
+  c.fillStyle = "#2a160c"; c.fillRect(380, 640, 60, 420); c.fillRect(640, 640, 60, 420); c.fillRect(350, 610, 380, 40);
+  pessoa(c, 540, 1060, 400, { tunica: "branca", colar: true, olhar: 1, bracoE: 0.15, bracoD: 0.15 });
+  // chão rachado
+  c.fillStyle = "#6a3a1e"; c.fillRect(-100, 1240, W + 200, 800);
+  c.strokeStyle = "rgba(30,12,6,0.55)"; c.lineWidth = 4;
+  const r = rng(5); for (let i = 0; i < 18; i++) { let x = r() * W, y = 1260 + r() * 640; c.beginPath(); c.moveTo(x, y); for (let k2 = 0; k2 < 4; k2++) { x += (r() - 0.5) * 140; y += r() * 60; c.lineTo(x, y); } c.stroke(); }
+  c.restore();
+  // irmãos ajoelhados (de costas, em primeiro plano)
+  const ab = easeOut(seg(p, 0.35, 0.6));
+  const pos = [[150, 1820, 520], [400, 1760, 470], [660, 1770, 480], [900, 1830, 540], [530, 1900, 600]];
+  pos.forEach(([x, y, h], i) => ajoelhadoCostas(c, x, y, h, i % 2 ? "#120a10" : "#0c060b", ab));
+  poeira(c, 40, 9, u, [0, 900, W, 1000], "rgba(255,220,170,1)", 2.5, 40, 0.35);
+};
+
+// 7. A revelação — José chora e se revela
+CENAS.revelacao = (c, u, d) => {
+  const p = u / d;
+  const calor = ease(seg(p, 0.45, 1));
+  sky(c, [[0, "#1e1430"], [0.5, lerp(0, 1, calor) > 0.5 ? "#b0603a" : "#5a3040"], [1, "#2a1520"]]);
+  glow(c, 540, 1000, lerp(380, 900, calor), "rgba(255,200,130,0.9)", 0.5 + calor * 0.5);
+  c.save();
+  const k = lerp(1.15, 1.0, ease(p)); c.translate(W / 2, 1100); c.scale(k, k); c.translate(-W / 2, -1100);
+  c.fillStyle = "#1c0f16"; c.fillRect(-100, 1500, W + 200, 600);
+  const abre = easeOut(seg(p, 0.55, 0.8));
+  pessoa(c, 470, 1500, 780, { tunica: "branca", colar: true, olhar: 1, bracoE: lerp(0.1, 1.4, abre), bracoD: lerp(0.15, 1.6, abre), inclina: lerp(0.02, 0.06, abre) });
+  // lágrima
+  const lg = seg(p, 0.12, 0.5);
+  if (lg > 0 && lg < 1) {
+    const hy = 1500 - 780 + 780 * 0.072;
+    const tx = 470 + 780 * 0.072 * 0.75, ty = lerp(hy - 5, hy + 70, lg);
+    glow(c, tx, ty, 34, "rgba(190,225,255,0.9)");
+    c.fillStyle = "#eaf6ff"; c.beginPath(); c.ellipse(tx, ty, 6, 9, 0, 0, 6.283); c.fill();
+  }
+  // irmão que se levanta e vem para o abraço
+  const vem = easeOut(seg(p, 0.7, 1));
+  if (vem > 0) pessoa(c, lerp(1150, 760, vem), 1500, 700, { cabeca: "pano", barba: true, olhar: -1, cor: "#1a0e18", bracoE: lerp(0.2, 1.5, vem), bracoD: lerp(0.2, 1.3, vem), inclina: lerp(0, -0.1, vem) });
+  c.restore();
+  poeira(c, 40, 33, u, [0, 300, W, 1400], "rgba(255,215,160,1)", 3, 20, 0.25 + calor * 0.45);
+};
+
+// 8. O versículo — Gênesis 50:20
+CENAS.versiculo = (c, u, d, cena) => {
+  const p = u / d;
+  sky(c, [[0, "#1b1230"], [0.55, "#6a3a4a"], [1, "#d08a4a"]]);
+  c.save(); c.translate(540, 1500); c.rotate(u * 0.05); c.globalCompositeOperation = "lighter";
+  for (let i = 0; i < 18; i++) { c.rotate(Math.PI / 9); c.fillStyle = "rgba(255,220,160,0.05)"; c.beginPath(); c.moveTo(0, 0); c.lineTo(-80, -1600); c.lineTo(80, -1600); c.fill(); }
+  c.restore();
+  glow(c, 540, 1500, 700, "rgba(255,200,130,0.6)");
+  poeira(c, 50, 44, u, [0, 0, W, H], "rgba(255,225,180,1)", 2.5, 14, 0.4);
+  // silhueta pequena do abraço no horizonte
+  c.save(); c.globalAlpha = 0.9;
+  pessoa(c, 500, 1640, 240, { tunica: "branca", colar: true, olhar: 1, bracoE: 1.5, bracoD: 1.6, inclina: 0.05 });
+  pessoa(c, 590, 1640, 230, { cabeca: "pano", olhar: -1, bracoE: 1.5, bracoD: 1.4, inclina: -0.08 });
+  c.fillStyle = "#1a0e14"; c.fillRect(0, 1640, W, 300);
+  c.restore();
+  // texto do versículo, palavra por palavra
+  const linhas = ["“Vocês planejaram", "o mal contra mim.", "Mas Deus o", "transformou em bem.”"];
+  const palavras = linhas.join(" ").split(" ");
+  const ativo = (cena.falaDur || d) * 0.95;
+  let idx = 0;
+  c.textAlign = "center"; c.font = "italic 600 92px Lora";
+  linhas.forEach((ln, li) => {
+    const ws = ln.split(" "); let largura = c.measureText(ln).width; let x = 540 - largura / 2;
+    ws.forEach(w => {
+      const tw = c.measureText(w + " ").width;
+      const ap = clamp((u - (idx / palavras.length) * ativo) / 0.35);
+      c.save(); c.globalAlpha = ap; c.textAlign = "left";
+      c.shadowColor = "rgba(0,0,0,0.6)"; c.shadowBlur = 24;
+      c.fillStyle = "#fff4dc"; c.fillText(w, x, 640 + li * 120 + (1 - ap) * 20);
+      c.restore(); x += tw; idx++;
+    });
+  });
+  const ref = clamp((u - ativo * 0.8) / 0.5);
+  c.globalAlpha = ref; c.font = "700 50px Poppins"; c.fillStyle = "#f4c95d"; c.textAlign = "center";
+  c.fillText((cena.texto_tela || "").toUpperCase(), 540, 1180);
+  c.globalAlpha = 1;
+};
+
+// ==========================================================================
+//  LEGENDAS (grupos de até 4 palavras; a palavra falada fica dourada)
+// ==========================================================================
+function gruposLegenda(fala) {
+  const ws = fala.replace(/…/g, "… ").split(/\s+/).filter(Boolean);
+  const grupos = []; let g = [];
+  ws.forEach(w => { g.push(w); if (g.length >= 4 || /[.,?!…:]$/.test(w)) { grupos.push(g); g = []; } });
+  if (g.length) grupos.push(g);
+  return grupos;
+}
+const LEG_Y = { caravana: 1470 };
+function legenda(c, cena, u) {
+  if (!cena.fala || cena.id === "versiculo") return;
+  const grupos = gruposLegenda(cena.fala);
+  const total = cena.falaDur || cena.dur;
+  const peso = w => w.replace(/[^\p{L}\p{N}]/gu, "").length + 2 + (/[.?!…]$/.test(w) ? 5 : /[,:]$/.test(w) ? 2 : 0);
+  const todos = grupos.flat(); const soma = todos.reduce((a, w) => a + peso(w), 0);
+  let acc = 0, gi = -1, wi = -1, inicioG = 0;
+  for (let i = 0, k = 0; i < grupos.length; i++) {
+    const ini = acc;
+    for (let j = 0; j < grupos[i].length; j++, k++) {
+      const t0 = acc * total / soma; acc += peso(grupos[i][j]);
+      if (u >= t0) { gi = i; wi = j; inicioG = ini * total / soma; }
+    }
+  }
+  if (gi < 0 || u > total + 0.15) return;
+  const g = grupos[gi];
+  const pop = easeOut(clamp((u - inicioG) / 0.12));
+  c.save(); c.font = "700 84px Poppins"; c.textAlign = "left"; c.textBaseline = "middle";
+  const txt = g.map(w => w.toUpperCase());
+  const esp = c.measureText(" ").width;
+  // quebra em até 2 linhas
+  const linhas = [[]]; let larg = 0;
+  txt.forEach((w, i) => { const lw = c.measureText(w).width; if (larg + lw > 900 && linhas[linhas.length - 1].length) { linhas.push([]); larg = 0; } linhas[linhas.length - 1].push(i); larg += lw + esp; });
+  const y0 = (LEG_Y[cena.id] || 1640) - (linhas.length - 1) * 50;
+  c.translate(540, y0); c.scale(lerp(0.85, 1, pop), lerp(0.85, 1, pop)); c.translate(-540, -y0);
+  linhas.forEach((ln, li) => {
+    const largura = ln.reduce((a, i) => a + c.measureText(txt[i]).width, 0) + esp * (ln.length - 1);
+    let x = 540 - largura / 2; const y = y0 + li * 100;
+    ln.forEach(i => {
+      c.lineJoin = "round"; c.lineWidth = 16; c.strokeStyle = "rgba(10,5,12,0.92)"; c.strokeText(txt[i], x, y);
+      c.fillStyle = i === wi ? "#ffd04a" : "#ffffff"; c.fillText(txt[i], x, y);
+      x += c.measureText(txt[i]).width + esp;
+    });
+  });
+  c.restore();
+}
+
+// ==========================================================================
+//  ACABAMENTO: vinheta e granulação
+// ==========================================================================
+const grao = document.createElement("canvas"); grao.width = 512; grao.height = 512;
+(() => { const g = grao.getContext("2d"), im = g.createImageData(512, 512), r = rng(99); for (let i = 0; i < im.data.length; i += 4) { const v = r() * 255; im.data[i] = im.data[i + 1] = im.data[i + 2] = v; im.data[i + 3] = 18; } g.putImageData(im, 0, 0); })();
+function acabamento(c, t) {
+  c.fillStyle = rgrad(c, W / 2, H / 2, H * 0.3, H * 0.75, [[0, "rgba(0,0,0,0)"], [1, "rgba(0,0,0,0.55)"]]); c.fillRect(0, 0, W, H);
+  c.save(); c.globalCompositeOperation = "overlay"; const ox = Math.floor(t * 997) % 512, oy = Math.floor(t * 613) % 512;
+  c.translate(-ox, -oy); for (let x = 0; x < W + 512; x += 512) for (let y = 0; y < H + 512; y += 512) c.drawImage(grao, x, y); c.restore();
+}
+
+// ==========================================================================
+//  LINHA DO TEMPO
+// ==========================================================================
+const camadaA = document.createElement("canvas"); camadaA.width = W; camadaA.height = H;
+const cA = camadaA.getContext("2d");
+const FUSAO = 0.35;
+function desenharCena(c, cena, u) { c.save(); c.clearRect(0, 0, W, H); CENAS[cena.id](c, u, cena.dur, cena); c.restore(); }
+
+window.renderFrame = function (t) {
+  const TL = window.TIMELINE;
+  let i = TL.cenas.findIndex(s => t < s.start + s.dur);
+  if (i < 0) i = TL.cenas.length - 1;
+  const cena = TL.cenas[i], u = t - cena.start;
+  ctx.save(); ctx.clearRect(0, 0, W, H);
+  desenharCena(ctx, cena, u);
+  if (i > 0 && u < FUSAO) { // fusão com a cena anterior
+    const ant = TL.cenas[i - 1];
+    desenharCena(cA, ant, ant.dur + u);
+    ctx.globalAlpha = 1 - ease(u / FUSAO); ctx.drawImage(camadaA, 0, 0); ctx.globalAlpha = 1;
+  }
+  acabamento(ctx, t);
+  legenda(ctx, cena, u);
+  // abertura e encerramento
+  const fimT = TL.total;
+  const preto = Math.max(clamp(1 - t / 0.25), clamp((t - (fimT - 0.5)) / 0.5));
+  if (preto > 0) { ctx.fillStyle = `rgba(0,0,0,${preto})`; ctx.fillRect(0, 0, W, H); }
+  ctx.restore();
+  return true;
+};
+window.quadroJpeg = function (t, q) { renderFrame(t); return tela.toDataURL("image/jpeg", q || 0.92); };
+window.pronto = document.fonts.ready.then(() => Promise.all([
+  document.fonts.load("700 80px Poppins"), document.fonts.load("italic 600 80px Lora")]));
+</script>
+</body>
+</html>
