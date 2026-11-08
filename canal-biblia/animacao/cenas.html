@@ -503,7 +503,7 @@ CENAS.versiculo = (c, u, d, cena) => {
   // texto do versículo, palavra por palavra
   const linhas = ["“Vocês planejaram", "o mal contra mim.", "Mas Deus o", "transformou em bem.”"];
   const palavras = linhas.join(" ").split(" ");
-  const ativo = (cena.falaDur || d) * 0.95;
+  const ativo = (cena.falaDur || d) * 0.8;
   let idx = 0;
   c.textAlign = "center"; c.font = "italic 600 92px Lora";
   linhas.forEach((ln, li) => {
@@ -517,7 +517,7 @@ CENAS.versiculo = (c, u, d, cena) => {
       c.restore(); x += tw; idx++;
     });
   });
-  const ref = clamp((u - ativo * 0.8) / 0.5);
+  const ref = clamp((u - ativo * 0.9) / 0.5);
   c.globalAlpha = ref; c.font = "700 50px Poppins"; c.fillStyle = "#f4c95d"; c.textAlign = "center";
   c.fillText((cena.texto_tela || "").toUpperCase(), 540, 1180);
   c.globalAlpha = 1;

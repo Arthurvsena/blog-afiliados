@@ -9,8 +9,8 @@ on:
         description: "Roteiro a montar"
         default: "canal-biblia/roteiros/jose-do-egito.json"
       vozes:
-        description: "Vozes do Gemini (um vídeo por voz, separadas por espaço)"
-        default: "Orus Fenrir"
+        description: "Vozes do Gemini (um vídeo por voz, separadas por espaço; a cota grátis aguenta ~1 por rodada)"
+        default: "Orus"
 
 permissions:
   contents: write
