@@ -104,6 +104,7 @@ def main():
             break
         final = saida / f"{h['slug']}.mp4"
         mp4.rename(final)
+        mp4.with_suffix(".json").unlink(missing_ok=True)
         rot = json.loads(roteiro.read_text(encoding="utf-8"))
         titulo, yt, tk, ig = textos(rot)
         (saida / f"{h['slug']}-youtube.txt").write_text(yt, encoding="utf-8")
@@ -116,7 +117,7 @@ def main():
         salvar_fila(fila)
     restantes = sum(1 for h in fila["historias"] if h["status"] == "pronto")
     print(f"Roteiros prontos na fila: {restantes}")
-    Path(saida / "_restantes.txt").write_text(str(restantes))
+    Path("_biblia_restantes.txt").write_text(str(restantes))
 
 
 if __name__ == "__main__":

@@ -60,7 +60,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          RESTANTES=$(cat _biblia/_restantes.txt 2>/dev/null || echo 99)
+          RESTANTES=$(cat _biblia_restantes.txt 2>/dev/null || echo 99)
           MINIMO=$(python3 -c "import yaml;print(yaml.safe_load(open('canal-biblia/config.yaml'))['producao']['fila_minima'])")
           if [ "$RESTANTES" -lt "$MINIMO" ]; then
             echo "Fila com $RESTANTES roteiros: pedindo um lote novo."
