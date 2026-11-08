@@ -1,14 +1,14 @@
 {
-  "atualizado": "2026-11-07",
-  "periodo": "últimos 28 dias (até 06/11)",
+  "atualizado": "2026-11-08",
+  "periodo": "últimos 28 dias (até 07/11)",
   "canal": {
-    "visualizacoes": 2077,
-    "horas": 7.2,
+    "visualizacoes": 2398,
+    "horas": 8.3,
     "inscritos_saldo": 1,
     "inscritos_total": 1,
-    "impressoes": 653,
-    "ctr": 2.0,
-    "pct_media": 58.8,
+    "impressoes": 1469,
+    "ctr": 1.4,
+    "pct_media": 56.7,
     "duracao_media": "0:25"
   },
   "videos": [
@@ -17,78 +17,104 @@
       "tipo": "short",
       "quadro": null,
       "duracao": "0:46",
-      "views": 1098,
-      "horas": 4.3,
+      "views": 1126,
+      "horas": 4.5,
       "inscritos": 1,
       "duracao_media": "0:24",
-      "pct_media": 62.9,
-      "impressoes": 80,
-      "ctr": 3.8
+      "pct_media": 63.4,
+      "impressoes": 113,
+      "ctr": 5.3
     },
     {
       "titulo": "Ocarina of Time no Switch 2 saiu: R$ 329,90 #shorts",
       "tipo": "short",
       "quadro": "60s",
       "duracao": "0:50",
-      "views": 462,
+      "views": 474,
       "horas": 1.2,
       "inscritos": 0,
       "duracao_media": "0:22",
-      "pct_media": 48.7,
-      "impressoes": 166,
+      "pct_media": 48.1,
+      "impressoes": 175,
       "ctr": 0
     },
     {
       "titulo": "iPhone Duo: 234 mil dobras e a tela segue inteira #shorts",
       "tipo": "short",
       "quadro": null,
-      "duracao": "0:38",
-      "views": 370,
+      "duracao": "1:01",
+      "views": 373,
       "horas": 1.2,
       "inscritos": 1,
       "duracao_media": "0:29",
       "pct_media": 58.5,
-      "impressoes": 149,
-      "ctr": 1.3
+      "impressoes": 161,
+      "ctr": 1.2
+    },
+    {
+      "titulo": "História do Orkut: por que o Google desligou? #shorts",
+      "tipo": "short",
+      "quadro": "historias",
+      "duracao": "0:38",
+      "views": 262,
+      "horas": 0.9,
+      "inscritos": null,
+      "duracao_media": "0:29",
+      "pct_media": 48.8,
+      "impressoes": 29,
+      "ctr": 3.5
     },
     {
       "titulo": "GTA 6 ocupa até 212 GB e dá para baixar antes #shorts",
       "tipo": "short",
       "quadro": null,
       "duracao": "0:50",
-      "views": 94,
+      "views": 92,
       "horas": 0.1,
       "inscritos": 0,
       "duracao_media": "0:15",
       "pct_media": 40.8,
-      "impressoes": 17,
-      "ctr": 11.8
+      "impressoes": 19,
+      "ctr": 10.5
     },
     {
       "titulo": "GTA 6 pré-carregamento: 10 ou 12/11? Datas divergem #shorts",
       "tipo": "short",
       "quadro": "60s",
       "duracao": "0:40",
-      "views": 32,
+      "views": 44,
       "horas": 0.1,
-      "inscritos": null,
+      "inscritos": 0,
       "duracao_media": "0:19",
-      "pct_media": 38.8,
-      "impressoes": 6,
+      "pct_media": 39.6,
+      "impressoes": 9,
       "ctr": 0
     },
     {
       "titulo": "Black Friday: 3 sinais de oferta falsa para não cair #shorts",
       "tipo": "short",
       "quadro": null,
-      "duracao": "0:50",
-      "views": 14,
+      "duracao": "0:39",
+      "views": 15,
       "horas": 0.0,
       "inscritos": 0,
       "duracao_media": "0:19",
       "pct_media": 48.7,
-      "impressoes": 23,
-      "ctr": 8.7
+      "impressoes": 26,
+      "ctr": 7.7
+    },
+    {
+      "titulo": "Chromagraph Camera já está no Brasil: vale R$ 34,90?",
+      "tipo": "longo",
+      "quadro": "lafora",
+      "duracao": "4:18",
+      "views": 6,
+      "horas": 0.1,
+      "inscritos": 0,
+      "duracao_media": "1:11",
+      "pct_media": 27.6,
+      "impressoes": 731,
+      "ctr": 0.6
     },
     {
       "titulo": "Smartband ou smartwatch: qual vale para o seu dia a dia?",
@@ -100,21 +126,21 @@
       "inscritos": 0,
       "duracao_media": "2:52",
       "pct_media": 72.3,
-      "impressoes": 205,
+      "impressoes": 206,
       "ctr": 1.5
     },
     {
-      "titulo": "Chromagraph Camera já está no Brasil: vale R$ 34,90?",
+      "titulo": "Smartband ou smartwatch: qual vale para o seu dia a dia?",
       "tipo": "longo",
-      "quadro": "lafora",
-      "duracao": "4:18",
+      "quadro": null,
+      "duracao": "4:07",
       "views": 1,
-      "horas": 0.1,
-      "inscritos": null,
-      "duracao_media": "4:17",
-      "pct_media": 99.7,
-      "impressoes": 7,
-      "ctr": 14.3
+      "horas": 0.0,
+      "inscritos": 0,
+      "duracao_media": "0:55",
+      "pct_media": 22.4,
+      "impressoes": 0,
+      "ctr": null
     }
   ],
   "historico": [
@@ -126,6 +152,11 @@
     {
       "dia": "2026-11-06",
       "visualizacoes_28d": 2077,
+      "inscritos_saldo_28d": 1
+    },
+    {
+      "dia": "2026-11-08",
+      "visualizacoes_28d": 2398,
       "inscritos_saldo_28d": 1
     }
   ],

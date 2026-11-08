@@ -555,6 +555,116 @@
       "faltou": [
         "google: Search Console mostra 04/11 como dia mais recente (05 e 06/11 ainda não processados)"
       ]
+    },
+    {
+      "dia": "2026-11-07",
+      "visitas": 3,
+      "visualizacoes": 3,
+      "celular_pct": 33,
+      "youtube": 0,
+      "paginas": [
+        {
+          "url": "/",
+          "visitas": 2
+        },
+        {
+          "url": "/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/",
+          "visitas": 1
+        }
+      ],
+      "paginas_vistas": [
+        {
+          "url": "/",
+          "visualizacoes": 2
+        },
+        {
+          "url": "/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/",
+          "visualizacoes": 1
+        }
+      ],
+      "origens": [
+        {
+          "origem": "direto",
+          "visitas": 2
+        },
+        {
+          "origem": "google",
+          "visitas": 1
+        }
+      ],
+      "paises": [
+        {
+          "pais": "Brasil",
+          "visitas": 3
+        }
+      ],
+      "google": {
+        "dia": "2026-11-07",
+        "cliques": 0,
+        "impressoes": 150,
+        "posicao_media": 13.3,
+        "consultas": [
+          {
+            "termo": "iphone 13 vale a pena em 2026",
+            "cliques": 0,
+            "impressoes": 3
+          },
+          {
+            "termo": "compensa comprar iphone 13 em 2026",
+            "cliques": 0,
+            "impressoes": 2
+          },
+          {
+            "termo": "compensa comprar o iphone 13 em 2026",
+            "cliques": 0,
+            "impressoes": 2
+          },
+          {
+            "termo": "vale a pena comprar um iphone 13 em 2026",
+            "cliques": 0,
+            "impressoes": 2
+          },
+          {
+            "termo": "configurar alexa echo dot",
+            "cliques": 0,
+            "impressoes": 1
+          }
+        ],
+        "paginas": [
+          {
+            "url": "/posts/analise-iphone-13-vale-a-pena-em-2026/",
+            "cliques": 0,
+            "impressoes": 40
+          },
+          {
+            "url": "/posts/zelda-ocarina-of-time-switch-2-lancamento-5-novembro-preco/",
+            "cliques": 0,
+            "impressoes": 22
+          },
+          {
+            "url": "/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/",
+            "cliques": 0,
+            "impressoes": 16
+          },
+          {
+            "url": "/posts/fone-tws-so-funciona-um-lado/",
+            "cliques": 0,
+            "impressoes": 15
+          },
+          {
+            "url": "/posts/como-configurar-alexa-echo-dot-primeira-vez/",
+            "cliques": 0,
+            "impressoes": 11
+          }
+        ],
+        "dia_anterior": {
+          "dia": "2026-11-06",
+          "cliques": 1,
+          "impressoes": 168,
+          "posicao_media": 10.5
+        }
+      },
+      "faltou": []
     }
   ]
 }

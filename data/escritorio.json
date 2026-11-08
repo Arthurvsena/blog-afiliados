@@ -47,45 +47,10 @@
     },
     "analista": {
       "status": "ok",
-      "tarefa": "Ontem foram 7 visitas, 1 veio do Google e 6 foram diretas; 0 do YouTube."
+      "tarefa": "Ontem foram 3 visitas, 1 veio do Google e 2 foram diretas; 0 do YouTube. Google: 150 impressões, 0 cliques."
     }
   },
   "historico": [
-    {
-      "data": "2026-11-04",
-      "agente": "pesquisador",
-      "texto": "Trouxe 5 pautas de notícia e separei a pauta de caixas Bluetooth em duas."
-    },
-    {
-      "data": "2026-11-04",
-      "agente": "curador",
-      "texto": "Sugeri o headset HyperX e organizei por pauta os produtos que faltam cadastrar."
-    },
-    {
-      "data": "2026-11-04",
-      "agente": "redator",
-      "texto": "Escrevi cinco notícias, um tutorial, uma análise e as listas de carregadores turbo e smartwatches."
-    },
-    {
-      "data": "2026-11-04",
-      "agente": "seo",
-      "texto": "Revisei os nove posts e resolvi a canibalização da análise da Alexa+."
-    },
-    {
-      "data": "2026-11-04",
-      "agente": "viral",
-      "texto": "Escrevi os textos de rede dos nove posts e do Switch 2/Zelda."
-    },
-    {
-      "data": "2026-11-04",
-      "agente": "vendas",
-      "texto": "Conferi as listas novas e os power banks; sem ajuste nas listas."
-    },
-    {
-      "data": "2026-11-04",
-      "agente": "designer",
-      "texto": "Diagramei os nove posts e coloquei foto livre em seis."
-    },
     {
       "data": "2026-11-05",
       "agente": "pesquisador",
@@ -380,6 +345,11 @@
       "data": "2026-11-07",
       "agente": "designer",
       "texto": "Peguei fotos e diagramei os sete posts."
+    },
+    {
+      "data": "2026-11-08",
+      "agente": "analista",
+      "texto": "Ontem foram 3 visitas (1 do Google); o iPhone 13 tem 40 impressões e 0 cliques."
     }
   ]
 }

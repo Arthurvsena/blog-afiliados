@@ -1,17 +1,17 @@
 {
-  "atualizado": "2026-11-07",
+  "atualizado": "2026-11-08",
   "autora": "Luisa",
-  "resumo": "O canal fez 2.077 visualizações em 28 dias, mas ganhou só 1 inscrito e levou 0 visitas ao blog em 06/11. O maior problema é que quem vê o Short não tem para onde ir depois.",
+  "resumo": "O canal fez 2.398 visualizações em 28 dias, mas tem só 1 inscrito no total e ontem levou 0 visitas ao blog. O maior problema é que quem vê o Short não tem para onde ir depois.",
   "funcionando": [
-    "Assunto com ângulo Brasil: 'Sony quer comprar seu PS5 usado, mas não no Brasil' fez 1.098 visualizações com 62,9% assistido, o melhor do canal.",
-    "Shorts curtos seguram mais: o iPhone Duo (0:38) teve 58,5% assistido e 370 visualizações.",
-    "Quem abre o vídeo longo assiste: o Smartband reteve 72,3% (2:52 de 3:59). O problema é chegar ao vídeo."
+    "Assunto com ângulo Brasil: 'Sony quer comprar seu PS5 usado, mas não no Brasil' tem 1.126 visualizações e 63,4% assistido, o melhor do canal.",
+    "Short curto segura mais: o iPhone Duo (0:46 de duração) teve 58,5% assistido e 373 visualizações.",
+    "Quem abre o vídeo longo assiste: o Smartband reteve 72,3% (2:52 de 3:59), mas só tem 5 visualizações."
   ],
   "nao_funcionando": [
-    "Inscrição: 2.077 visualizações para +1 inscrito. O Short solto não dá motivo para seguir.",
-    "Vídeos longos sem alcance: Smartband com 5 visualizações e 1,5% de cliques na capa (205 impressões); o normal para começar é 4% a 6%.",
-    "Quadro 60s: Zelda (0:50) teve 462 visualizações mas 48,7% assistido; GTA 6 pré-carregamento teve 32 visualizações e 38,8%. A metade se perde antes do fim.",
-    "GTA 6 (212 GB) ficou em 0:15 de média em 0:50: o começo não prendeu."
+    "Inscrição: 2.398 visualizações para +1 inscrito. O Short solto não dá motivo para seguir.",
+    "Vídeos longos sem alcance: Chromagraph teve 6 visualizações e 0,6% de cliques na capa (731 impressões); Smartband, 1,5% (206 impressões).",
+    "Quadro 60s: Ocarina teve 474 visualizações com 48,1% assistido e 0% de cliques na capa; GTA 6 pré-carregamento, 44 visualizações e 39,6%.",
+    "GTA 6 (212 GB) ficou em 0:15 de média em 0:50 e 40,8% assistido: o começo não prendeu."
   ],
   "acoes": [
     "Shorts de 30 a 40 segundos, com o ângulo Brasil na primeira frase.",
@@ -21,21 +21,23 @@
   "por_quadro": {
     "60s": {
       "videos": 2,
-      "media_views": 247,
-      "media_pct": 43.75
+      "media_views": 259,
+      "media_pct": 43.85
     },
     "historias": {
-      "videos": 0
+      "videos": 1,
+      "media_views": 262,
+      "media_pct": 48.8
     },
     "lafora": {
       "videos": 1,
-      "media_views": 1,
-      "media_pct": 99.7
+      "media_views": 6,
+      "media_pct": 27.6
     },
     "antes_dos_quadros": {
-      "videos": 5,
-      "media_views": 316,
-      "media_pct": 56.6
+      "videos": 6,
+      "media_views": 289,
+      "media_pct": 55.5
     }
   }
 }
