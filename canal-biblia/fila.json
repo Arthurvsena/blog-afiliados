@@ -1,18 +1,57 @@
 {
  "_como_funciona": "historias: roteiros prontos em canal-biblia/roteiros/, na ordem de produção. status: pronto -> produzido (data) -> publicado. ideias: histórias que o roteirista ainda vai escrever, de cima para baixo.",
  "historias": [
-  {"slug": "jose-do-egito", "status": "pronto"},
-  {"slug": "davi-e-golias", "status": "pronto"},
-  {"slug": "jonas-e-o-grande-peixe", "status": "pronto"},
-  {"slug": "daniel-na-cova-dos-leoes", "status": "pronto"},
-  {"slug": "o-mar-vermelho", "status": "pronto"},
-  {"slug": "a-arca-de-noe", "status": "pronto"},
-  {"slug": "pedro-anda-sobre-as-aguas", "status": "pronto"},
-  {"slug": "a-fornalha-ardente", "status": "pronto"},
-  {"slug": "o-filho-prodigo", "status": "pronto"},
-  {"slug": "cinco-paes-e-dois-peixes", "status": "pronto"},
-  {"slug": "as-muralhas-de-jerico", "status": "pronto"},
-  {"slug": "o-tumulo-vazio", "status": "pronto"}
+  {
+   "slug": "jose-do-egito",
+   "status": "produzido",
+   "produzido": "2026-11-08",
+   "release": "biblia-2026-11-08",
+   "voz": "gemini:Orus"
+  },
+  {
+   "slug": "davi-e-golias",
+   "status": "pronto"
+  },
+  {
+   "slug": "jonas-e-o-grande-peixe",
+   "status": "pronto"
+  },
+  {
+   "slug": "daniel-na-cova-dos-leoes",
+   "status": "pronto"
+  },
+  {
+   "slug": "o-mar-vermelho",
+   "status": "pronto"
+  },
+  {
+   "slug": "a-arca-de-noe",
+   "status": "pronto"
+  },
+  {
+   "slug": "pedro-anda-sobre-as-aguas",
+   "status": "pronto"
+  },
+  {
+   "slug": "a-fornalha-ardente",
+   "status": "pronto"
+  },
+  {
+   "slug": "o-filho-prodigo",
+   "status": "pronto"
+  },
+  {
+   "slug": "cinco-paes-e-dois-peixes",
+   "status": "pronto"
+  },
+  {
+   "slug": "as-muralhas-de-jerico",
+   "status": "pronto"
+  },
+  {
+   "slug": "o-tumulo-vazio",
+   "status": "pronto"
+  }
  ],
  "ideias": [
   "Abraão e Isaque no monte Moriá (Gênesis 22)",
