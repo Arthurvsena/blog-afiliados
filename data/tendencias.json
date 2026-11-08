@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-07",
+  "atualizado": "2026-11-08",
   "tendencias": [
     {
       "data": "2026-11-07",
@@ -756,6 +756,57 @@
       "fontes": [],
       "status": "nova",
       "nota": 5,
+      "origem": "vidiq"
+    },
+    {
+      "data": "2026-11-08",
+      "assunto": "Como ter dois (ou mais) WhatsApp no iPhone",
+      "quadro": "tutorial",
+      "tipo": "tutorial",
+      "palavra_chave": "como ter varios whatsapp no ios",
+      "por_que_em_alta": "Dúvida com busca alta e constante no YouTube (não envelhece)",
+      "evidencias": [
+        "vidIQ 08/11: ~12 mil buscas/mês, concorrência 16, nota 70"
+      ],
+      "angulo": "Utilidade: as opções oficiais (WhatsApp Business no mesmo iPhone, várias contas no app) e o que não funciona; conferir na Central de Ajuda do WhatsApp antes do roteiro",
+      "formato": "tutorial",
+      "fontes": [],
+      "status": "nova",
+      "nota": 5,
+      "origem": "vidiq"
+    },
+    {
+      "data": "2026-11-08",
+      "assunto": "Como criar um grupo de ofertas no WhatsApp (do jeito certo)",
+      "quadro": "tutorial",
+      "tipo": "tutorial",
+      "palavra_chave": "como criar grupo de ofertas no whatsapp",
+      "por_que_em_alta": "Dúvida com busca alta e constante no YouTube (não envelhece)",
+      "evidencias": [
+        "vidIQ 08/11: ~36 mil buscas/mês, concorrência 29, nota 69"
+      ],
+      "angulo": "Passo a passo do grupo/comunidade/canal com configurações de admin, regras e limites oficiais; ponte natural para as ofertas do blog sem prometer renda",
+      "formato": "tutorial",
+      "fontes": [],
+      "status": "nova",
+      "nota": 4,
+      "origem": "vidiq"
+    },
+    {
+      "data": "2026-11-08",
+      "assunto": "Como transferir as conversas do WhatsApp do Android para o iPhone",
+      "quadro": "tutorial",
+      "tipo": "tutorial",
+      "palavra_chave": "como transferir conversas do whatsapp do android para iphone",
+      "por_que_em_alta": "Dúvida com busca alta e constante no YouTube (não envelhece)",
+      "evidencias": [
+        "vidIQ 08/11: ~14 mil buscas/mês, concorrência 43, nota 60"
+      ],
+      "angulo": "Passo a passo oficial (app Mover para iOS) e os erros que fazem perder o histórico; checar requisitos na Ajuda do WhatsApp e da Apple",
+      "formato": "tutorial",
+      "fontes": [],
+      "status": "nova",
+      "nota": 4,
       "origem": "vidiq"
     }
   ]

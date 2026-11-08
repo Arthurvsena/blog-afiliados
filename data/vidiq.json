@@ -1,142 +1,409 @@
 {
- "atualizado": "2026-11-07",
- "fonte": "vidIQ (keyword research, perguntas em português)",
- "creditos_restantes": 145,
- "como_ler": "volume_mensal = buscas estimadas por mês no YouTube; concorrencia 0-100 (menor = mais fácil aparecer); nota 0-100 (maior = melhor oportunidade). Prefira nota >= 60 e concorrência <= 50.",
- "palavras": [
-  {
-   "termo": "como espelhar a tela do celular no pc",
-   "volume_mensal": 41275,
-   "concorrencia": 55,
-   "nota": 60,
-   "crescimento_pct": null,
-   "quadro_sugerido": "tutorial",
-   "pesquisa": "questions: celular"
-  },
-  {
-   "termo": "como usar o celular como webcam",
-   "volume_mensal": 46579,
-   "concorrencia": 50,
-   "nota": 62,
-   "crescimento_pct": null,
-   "quadro_sugerido": "tutorial",
-   "pesquisa": "questions: celular"
-  },
-  {
-   "termo": "como remover conta google do celular",
-   "volume_mensal": 24495,
-   "concorrencia": 46,
-   "nota": 61,
-   "crescimento_pct": -59.8,
-   "quadro_sugerido": "tutorial",
-   "pesquisa": "questions: celular"
-  },
-  {
-   "termo": "como colocar pelicula no celular",
-   "volume_mensal": 22382,
-   "concorrencia": 37,
-   "nota": 64,
-   "crescimento_pct": -46,
-   "quadro_sugerido": "tutorial",
-   "pesquisa": "questions: celular"
-  },
-  {
-   "termo": "como usar o celular como webcam no obs",
-   "volume_mensal": 15016,
-   "concorrencia": 29,
-   "nota": 66,
-   "crescimento_pct": null,
-   "quadro_sugerido": "tutorial",
-   "pesquisa": "questions: celular"
-  },
-  {
-   "termo": "como desbloquear o celular quando esquece a senha",
-   "volume_mensal": 15548,
-   "concorrencia": 26,
-   "nota": 67,
-   "crescimento_pct": -35.1,
-   "quadro_sugerido": "tutorial",
-   "pesquisa": "questions: celular"
-  },
-  {
-   "termo": "como espelhar o celular no notebook",
-   "volume_mensal": 15527,
-   "concorrencia": 40,
-   "nota": 61,
-   "crescimento_pct": -35.5,
-   "quadro_sugerido": "tutorial",
-   "pesquisa": "questions: celular"
-  },
-  {
-   "termo": "como formatar o celular",
-   "volume_mensal": 14034,
-   "concorrencia": 48,
-   "nota": 58,
-   "crescimento_pct": -32.3,
-   "quadro_sugerido": "tutorial",
-   "pesquisa": "questions: celular"
-  },
-  {
-   "termo": "como espelhar o celular na tv",
-   "volume_mensal": 12857,
-   "concorrencia": 44,
-   "nota": 59,
-   "crescimento_pct": null,
-   "quadro_sugerido": "tutorial",
-   "pesquisa": "questions: celular"
-  },
-  {
-   "termo": "como tirar anuncios do celular",
-   "volume_mensal": 12436,
-   "concorrencia": 40,
-   "nota": 61,
-   "crescimento_pct": null,
-   "quadro_sugerido": "tutorial",
-   "pesquisa": "questions: celular"
-  },
-  {
-   "termo": "como formatar celular samsung",
-   "volume_mensal": 12002,
-   "concorrencia": 36,
-   "nota": 62,
-   "crescimento_pct": null,
-   "quadro_sugerido": "tutorial",
-   "pesquisa": "questions: celular"
-  },
-  {
-   "termo": "como colocar a camera do celular no obs",
-   "volume_mensal": 11714,
-   "concorrencia": 21,
-   "nota": 68,
-   "crescimento_pct": null,
-   "quadro_sugerido": "tutorial",
-   "pesquisa": "questions: celular"
-  },
-  {
-   "termo": "como postar shorts no youtube pelo celular",
-   "volume_mensal": 11230,
-   "concorrencia": 32,
-   "nota": 63,
-   "crescimento_pct": null,
-   "quadro_sugerido": "tutorial",
-   "pesquisa": "questions: celular"
-  },
-  {
-   "termo": "como criar aplicativo pelo celular com ia",
-   "volume_mensal": 52383,
-   "concorrencia": 40,
-   "nota": 66,
-   "crescimento_pct": null,
-   "quadro_sugerido": "tutorial",
-   "pesquisa": "questions: celular"
-  }
- ],
- "videos_referencia": [],
- "historico_consultas": [
-  {
-   "dia": "2026-11-07",
-   "consulta": "keyword_research questions 'celular' pt",
-   "creditos": 5
-  }
- ]
+  "atualizado": "2026-11-08",
+  "fonte": "vidIQ (keyword research, perguntas em português; outliers de Shorts)",
+  "creditos_restantes": 15,
+  "como_ler": "volume_mensal = buscas estimadas por mês no YouTube; concorrencia 0-100 (menor = mais fácil aparecer); nota 0-100 (maior = melhor oportunidade). Prefira nota >= 60 e concorrência <= 50.",
+  "palavras": [
+    {
+      "termo": "como espelhar a tela do celular no pc",
+      "volume_mensal": 41275,
+      "concorrencia": 55,
+      "nota": 60,
+      "crescimento_pct": null,
+      "quadro_sugerido": "tutorial",
+      "pesquisa": "questions: celular"
+    },
+    {
+      "termo": "como usar o celular como webcam",
+      "volume_mensal": 46579,
+      "concorrencia": 50,
+      "nota": 62,
+      "crescimento_pct": null,
+      "quadro_sugerido": "tutorial",
+      "pesquisa": "questions: celular"
+    },
+    {
+      "termo": "como remover conta google do celular",
+      "volume_mensal": 24495,
+      "concorrencia": 46,
+      "nota": 61,
+      "crescimento_pct": -59.8,
+      "quadro_sugerido": "tutorial",
+      "pesquisa": "questions: celular"
+    },
+    {
+      "termo": "como colocar pelicula no celular",
+      "volume_mensal": 22382,
+      "concorrencia": 37,
+      "nota": 64,
+      "crescimento_pct": -46,
+      "quadro_sugerido": "tutorial",
+      "pesquisa": "questions: celular"
+    },
+    {
+      "termo": "como usar o celular como webcam no obs",
+      "volume_mensal": 15016,
+      "concorrencia": 29,
+      "nota": 66,
+      "crescimento_pct": null,
+      "quadro_sugerido": "tutorial",
+      "pesquisa": "questions: celular"
+    },
+    {
+      "termo": "como desbloquear o celular quando esquece a senha",
+      "volume_mensal": 15548,
+      "concorrencia": 26,
+      "nota": 67,
+      "crescimento_pct": -35.1,
+      "quadro_sugerido": "tutorial",
+      "pesquisa": "questions: celular"
+    },
+    {
+      "termo": "como espelhar o celular no notebook",
+      "volume_mensal": 15527,
+      "concorrencia": 40,
+      "nota": 61,
+      "crescimento_pct": -35.5,
+      "quadro_sugerido": "tutorial",
+      "pesquisa": "questions: celular"
+    },
+    {
+      "termo": "como formatar o celular",
+      "volume_mensal": 14034,
+      "concorrencia": 48,
+      "nota": 58,
+      "crescimento_pct": -32.3,
+      "quadro_sugerido": "tutorial",
+      "pesquisa": "questions: celular"
+    },
+    {
+      "termo": "como espelhar o celular na tv",
+      "volume_mensal": 12857,
+      "concorrencia": 44,
+      "nota": 59,
+      "crescimento_pct": null,
+      "quadro_sugerido": "tutorial",
+      "pesquisa": "questions: celular"
+    },
+    {
+      "termo": "como tirar anuncios do celular",
+      "volume_mensal": 12436,
+      "concorrencia": 40,
+      "nota": 61,
+      "crescimento_pct": null,
+      "quadro_sugerido": "tutorial",
+      "pesquisa": "questions: celular"
+    },
+    {
+      "termo": "como formatar celular samsung",
+      "volume_mensal": 12002,
+      "concorrencia": 36,
+      "nota": 62,
+      "crescimento_pct": null,
+      "quadro_sugerido": "tutorial",
+      "pesquisa": "questions: celular"
+    },
+    {
+      "termo": "como colocar a camera do celular no obs",
+      "volume_mensal": 11714,
+      "concorrencia": 21,
+      "nota": 68,
+      "crescimento_pct": null,
+      "quadro_sugerido": "tutorial",
+      "pesquisa": "questions: celular"
+    },
+    {
+      "termo": "como postar shorts no youtube pelo celular",
+      "volume_mensal": 11230,
+      "concorrencia": 32,
+      "nota": 63,
+      "crescimento_pct": null,
+      "quadro_sugerido": "tutorial",
+      "pesquisa": "questions: celular"
+    },
+    {
+      "termo": "como criar aplicativo pelo celular com ia",
+      "volume_mensal": 52383,
+      "concorrencia": 40,
+      "nota": 66,
+      "crescimento_pct": null,
+      "quadro_sugerido": "tutorial",
+      "pesquisa": "questions: celular"
+    },
+    {
+      "termo": "como automatizar o whatsapp",
+      "volume_mensal": 65056,
+      "concorrencia": 44,
+      "nota": 66,
+      "crescimento_pct": null,
+      "quadro_sugerido": "tutorial",
+      "pesquisa": "questions: whatsapp",
+      "dia": "2026-11-08"
+    },
+    {
+      "termo": "como vender por grupos de whatsapp",
+      "volume_mensal": 49416,
+      "concorrencia": 35,
+      "nota": 68,
+      "crescimento_pct": 95.1,
+      "quadro_sugerido": "fora da linha (negócio)",
+      "pesquisa": "questions: whatsapp",
+      "dia": "2026-11-08"
+    },
+    {
+      "termo": "como criar grupo de ofertas no whatsapp",
+      "volume_mensal": 36906,
+      "concorrencia": 29,
+      "nota": 69,
+      "crescimento_pct": null,
+      "quadro_sugerido": "tutorial",
+      "pesquisa": "questions: whatsapp",
+      "dia": "2026-11-08"
+    },
+    {
+      "termo": "como sistematizar whatsapp business",
+      "volume_mensal": 30240,
+      "concorrencia": 17,
+      "nota": 73,
+      "crescimento_pct": null,
+      "quadro_sugerido": "fora da linha (negócio)",
+      "pesquisa": "questions: whatsapp",
+      "dia": "2026-11-08"
+    },
+    {
+      "termo": "como vender pelo whatsapp",
+      "volume_mensal": 21654,
+      "concorrencia": 45,
+      "nota": 61,
+      "crescimento_pct": -56.3,
+      "quadro_sugerido": "fora da linha (negócio)",
+      "pesquisa": "questions: whatsapp",
+      "dia": "2026-11-08"
+    },
+    {
+      "termo": "como criar um grupo de promoção no whatsapp",
+      "volume_mensal": 20892,
+      "concorrencia": 16,
+      "nota": 72,
+      "crescimento_pct": null,
+      "quadro_sugerido": "tutorial",
+      "pesquisa": "questions: whatsapp",
+      "dia": "2026-11-08"
+    },
+    {
+      "termo": "como automatizar whatsapp business",
+      "volume_mensal": 18313,
+      "concorrencia": 47,
+      "nota": 59,
+      "crescimento_pct": 48.7,
+      "quadro_sugerido": "fora da linha (negócio)",
+      "pesquisa": "questions: whatsapp",
+      "dia": "2026-11-08"
+    },
+    {
+      "termo": "como ver mensagem apagada do whatsapp",
+      "volume_mensal": 15549,
+      "concorrencia": 57,
+      "nota": 55,
+      "crescimento_pct": -32.7,
+      "quadro_sugerido": "tutorial",
+      "pesquisa": "questions: whatsapp",
+      "dia": "2026-11-08"
+    },
+    {
+      "termo": "como criar um grupo no whatsapp",
+      "volume_mensal": 15066,
+      "concorrencia": 59,
+      "nota": 54,
+      "crescimento_pct": null,
+      "quadro_sugerido": "tutorial",
+      "pesquisa": "questions: whatsapp",
+      "dia": "2026-11-08"
+    },
+    {
+      "termo": "como transferir conversas do whatsapp do android para iphone",
+      "volume_mensal": 14821,
+      "concorrencia": 43,
+      "nota": 60,
+      "crescimento_pct": null,
+      "quadro_sugerido": "tutorial",
+      "pesquisa": "questions: whatsapp",
+      "dia": "2026-11-08"
+    },
+    {
+      "termo": "como criar pixel para whatsapp",
+      "volume_mensal": 14261,
+      "concorrencia": 13,
+      "nota": 72,
+      "crescimento_pct": null,
+      "quadro_sugerido": "fora da linha (negócio)",
+      "pesquisa": "questions: whatsapp",
+      "dia": "2026-11-08"
+    },
+    {
+      "termo": "como fazer backup do whatsapp",
+      "volume_mensal": 13980,
+      "concorrencia": 56,
+      "nota": 55,
+      "crescimento_pct": null,
+      "quadro_sugerido": "tutorial",
+      "pesquisa": "questions: whatsapp",
+      "dia": "2026-11-08"
+    },
+    {
+      "termo": "como recuperar mensagens apagadas do whatsapp",
+      "volume_mensal": 13245,
+      "concorrencia": 52,
+      "nota": 56,
+      "crescimento_pct": null,
+      "quadro_sugerido": "tutorial",
+      "pesquisa": "questions: whatsapp",
+      "dia": "2026-11-08"
+    },
+    {
+      "termo": "como ter varios whatsapp no ios",
+      "volume_mensal": 12853,
+      "concorrencia": 16,
+      "nota": 70,
+      "crescimento_pct": null,
+      "quadro_sugerido": "tutorial",
+      "pesquisa": "questions: whatsapp",
+      "dia": "2026-11-08"
+    },
+    {
+      "termo": "como extrair leads do whatsapp",
+      "volume_mensal": 11756,
+      "concorrencia": 15,
+      "nota": 71,
+      "crescimento_pct": null,
+      "quadro_sugerido": "fora da linha (negócio)",
+      "pesquisa": "questions: whatsapp",
+      "dia": "2026-11-08"
+    },
+    {
+      "termo": "como criar grupos de ofertas no whatsapp",
+      "volume_mensal": 11742,
+      "concorrencia": 30,
+      "nota": 65,
+      "crescimento_pct": null,
+      "quadro_sugerido": "tutorial",
+      "pesquisa": "questions: whatsapp",
+      "dia": "2026-11-08"
+    }
+  ],
+  "videos_referencia": [
+    {
+      "titulo": "o COMANDO SECRETO do GOOGLE 😱",
+      "canal": "TutzXD",
+      "url": "https://www.youtube.com/shorts/0Cys2g9fXi8",
+      "views": 680600,
+      "vph": 1100,
+      "breakout": 5.4,
+      "formato": "short",
+      "assunto": "truque do Google",
+      "angulo": "Truque escondido de ferramenta que todo mundo usa, mostrado em 26 s com promessa de segredo.",
+      "dia": "2026-11-08"
+    },
+    {
+      "titulo": "Como era a INTELIGÊNCIA ARTIFICIAL em 1988? 🤖 Jornal Nacional com Cid Moreira",
+      "canal": "Engenharia Podcast",
+      "url": "https://www.youtube.com/shorts/oF3hm1iToPc",
+      "views": 554500,
+      "vph": 4.2,
+      "breakout": 843,
+      "formato": "short",
+      "assunto": "história da IA",
+      "angulo": "Arquivo antigo de TV contrastado com a IA de hoje: nostalgia + tema quente (casa com Histórias Tech).",
+      "dia": "2026-11-08"
+    },
+    {
+      "titulo": "OS AVIÕES JA CONSEGUEM VOAR SOZINHOS",
+      "canal": "História em corte",
+      "url": "https://www.youtube.com/shorts/WTXZnTUz_60",
+      "views": 358500,
+      "vph": 776.6,
+      "breakout": 3.9,
+      "formato": "short",
+      "assunto": "automação/aviação",
+      "angulo": "Pergunta curiosa sobre tecnologia do dia a dia respondida com afirmação forte no título.",
+      "dia": "2026-11-08"
+    },
+    {
+      "titulo": "QUAL PAÍS TEM MAIS TECNOLOGIA? #3continentes",
+      "canal": "dichava",
+      "url": "https://www.youtube.com/shorts/WeWVBBaL1P8",
+      "views": 208700,
+      "vph": 120,
+      "breakout": 2.1,
+      "formato": "short",
+      "assunto": "comparação entre países",
+      "angulo": "Comparativo de países em formato ranking/rua, gera debate nos comentários.",
+      "dia": "2026-11-08"
+    },
+    {
+      "titulo": "O F-39 Gripen Ficou Ainda Mais Poderoso",
+      "canal": "Força Aérea Brasileira",
+      "url": "https://www.youtube.com/shorts/8GDfMiBjSRE",
+      "views": 139100,
+      "vph": 262,
+      "breakout": 116,
+      "formato": "short",
+      "assunto": "tecnologia militar BR",
+      "angulo": "Tecnologia com orgulho nacional: o Brasil como protagonista da novidade.",
+      "dia": "2026-11-08"
+    },
+    {
+      "titulo": "Esse foguete caiu do espaço e a torre agarrou ele no ar #Shorts",
+      "canal": "Os Empresários da IA",
+      "url": "https://www.youtube.com/shorts/pq-dw7IA9jI",
+      "views": 62500,
+      "vph": 2.2,
+      "breakout": 17,
+      "formato": "short",
+      "assunto": "SpaceX",
+      "angulo": "Imagem impossível descrita no título em uma frase; canal pequeno (2,3 mil inscritos) bateu 17x a média.",
+      "dia": "2026-11-08"
+    },
+    {
+      "titulo": "Outras Tecnologias Vs A Última",
+      "canal": "CoffeezinN Dfn",
+      "url": "https://www.youtube.com/shorts/N7108x6pgQg",
+      "views": 32200,
+      "vph": 318.9,
+      "breakout": 2,
+      "formato": "short",
+      "assunto": "humor tech",
+      "angulo": "Meme de comparação 'antes x agora' de tecnologia.",
+      "dia": "2026-11-08"
+    },
+    {
+      "titulo": "AMAZON LEO x STARLINK: a guerra da internet via satélite no Brasil começou!",
+      "canal": "netadept.technology",
+      "url": "https://www.youtube.com/shorts/VAd7LHKx9tU",
+      "views": 11400,
+      "vph": 39.1,
+      "breakout": 20,
+      "formato": "short",
+      "assunto": "internet via satélite",
+      "angulo": "Duelo de gigantes com recorte Brasil: canal de 3,4 mil inscritos fez 20x a média (bom para Lá Fora, Aqui).",
+      "dia": "2026-11-08"
+    }
+  ],
+  "historico_consultas": [
+    {
+      "dia": "2026-11-07",
+      "consulta": "keyword_research questions 'celular' pt",
+      "creditos": 5
+    },
+    {
+      "dia": "2026-11-08",
+      "consulta": "keyword_research questions 'whatsapp' pt",
+      "creditos": 5
+    },
+    {
+      "dia": "2026-11-08",
+      "consulta": "outliers short pt 'tecnologia' thisMonth limit 15",
+      "creditos": 5
+    }
+  ]
 }
