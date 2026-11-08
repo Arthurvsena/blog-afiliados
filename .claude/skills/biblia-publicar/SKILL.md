@@ -76,8 +76,9 @@ Pasta: `publicacao.drive_pasta` dentro do "Meu Drive", subpasta do mês (`AAAA-M
 ## 5. Registro
 Em `canal-biblia/publicados.json` acrescente:
 `{"slug", "titulo", "data": "AAAA-MM-DD HH:MM", "youtube": "link ou motivo", "tiktok": "ok ou motivo", "drive": "ok ou motivo"}`
-e mude o `status` da história em `fila.json` para `"publicado"` (mesmo que só uma rede tenha dado
-certo; o que falhou fica escrito no registro). Apague `_partes/`. Faça commit em main
+e mude o `status` da história em `fila.json` para `"publicado"` se pelo menos o YouTube ou o TikTok
+deu certo (o que falhou fica escrito no registro). Se **os dois** falharam (conta não criada, login,
+verificação), não mude o status: o vídeo continua esperando e a próxima execução tenta de novo. Apague `_partes/`. Faça commit em main
 ("Bíblia Animada: publicado SLUG"), `git pull --rebase origin main` e push.
 
 Responda ao Arthur em 3 linhas: título, link do YouTube, e o que deu certo ou errado no TikTok e no Drive.
