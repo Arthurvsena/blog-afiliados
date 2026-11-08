@@ -142,4 +142,6 @@ Por enquanto temos uma indicação no catálogo, para a faixa de uso diário:
 - **Se você quer um power bank para celular e fones no dia a dia**, vá de {{link:ugreen-pb311-10000-20w|ver o preço do Ugreen PB311}}.
 - **Se você viaja por vários dias ou carrega notebook**, ele não é o ideal: precisa de mais mAh e mais watts, e ainda não temos um modelo assim cadastrado.
 
+Usa iPhone? O cabo muda a escolha: veja os [power banks para iPhone com USB-C PD](/posts/melhores-power-banks-iphone/).
+
 Quer saber mais sobre o exemplo da primeira categoria? Leia nossa [review do power bank Ugreen PB311 de 10.000 mAh e 20 W](/posts/review-power-bank-ugreen-pb311-10000/).

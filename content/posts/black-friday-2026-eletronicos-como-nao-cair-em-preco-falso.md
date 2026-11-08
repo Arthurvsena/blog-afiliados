@@ -126,6 +126,8 @@ Desconto gigante em produto muito procurado, loja sem histórico, só Pix aceito
 
 Quer outras categorias? Veja também [lâmpadas inteligentes](/posts/melhores-lampadas-inteligentes-alexa/) e [teclados mecânicos](/posts/melhores-teclados-mecanicos-ate-200/).
 
+Se o iPhone entra na lista, leia também [iPhone novo ou usado: o que muda na garantia do recondicionado](/posts/iphone-novo-ou-recondicionado-vale-a-pena/). Para quem vai levar um power bank junto, veja os [power banks para iPhone](/posts/melhores-power-banks-iphone/).
+
 ## O que fica
 
 :::dica Anote hoje

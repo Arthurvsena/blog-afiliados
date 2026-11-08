@@ -96,4 +96,5 @@ A mesma página de configurações tem a opção Passkeys (Configurações > Con
 
 - [WhatsApp clonado: o que fazer agora, passo a passo](/posts/whatsapp-clonado-o-que-fazer-passo-a-passo/), se a conta já foi invadida.
 - [Como liberar espaço no WhatsApp no Android e iPhone](/posts/como-liberar-espaco-whatsapp-android-iphone/)
+- [Como configurar a transcrição de áudio no WhatsApp](/posts/como-transcrever-audio-whatsapp-ativar/)
 - [Mercado Bitcoin: ataque hacker, saques suspensos e o que fazer](/posts/mercado-bitcoin-incidente-seguranca-saques-suspensos/), outro caso em que proteger a conta importa.

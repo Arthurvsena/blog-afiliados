@@ -74,3 +74,5 @@ Quer acompanhar outras novidades de tecnologia? Veja também o [preço do MacBoo
 :::veredito
 Para quem usa o Gemini no dia a dia, não muda nada hoje. Espere os testes independentes antes de se empolgar com o 59 do índice.
 :::
+
+**Leia também:** o Gemini também vai para os óculos, veja a [pré-venda dos óculos Gemini da Warby Parker](/posts/oculos-warby-parker-gemini-pre-venda-12-novembro/).

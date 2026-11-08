@@ -138,6 +138,8 @@ Resumo direto:
 
 Quem também usa fone sem fio pode ver [como escolher um fone Bluetooth](/posts/como-escolher-fone-bluetooth/), já que o estojo do fone também recarrega no power bank.
 
+Tem iPhone? Confira os [power banks para iPhone com USB-C PD](/posts/melhores-power-banks-iphone/) e o que checar no cabo.
+
 Para quem usa celular, é uma boa compra. {{link:ugreen-pb311-10000-20w|Veja o preço atual}} e confira as avaliações recentes.
 
 {{produto:ugreen-pb311-10000-20w}}

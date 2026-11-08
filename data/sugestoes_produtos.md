@@ -9,6 +9,37 @@ O curador escreve aqui os produtos que vale cadastrar em data/produtos.csv.
 - ❌ Motorola TurboPower Duo 50 W: os dois anúncios de catálogo têm 127 e 128 avaliações (abaixo de 200). No lugar entrou ✅ Ugreen Nexode GaN 30 W (CD226).
 - ✅ Extra: tomada TP-Link Tapo P110 (o guia `tomada-inteligente-vale-a-pena-como-funciona` não tinha tomada no catálogo).
 
+## Sugestões de 2026-11-08 (mural #45 e pauta de TWS gamer)
+
+**Aviso para o cadastrador:** o Mercado Livre segue bloqueado para leitura aqui (403). Nota e avaliações do ML **não** foram conferidas; as notas citadas são da KaBuM e só indicam reputação. Critério no cadastro: nota 4,5+ e 200+ avaliações no anúncio, loja oficial ou MercadoLíder, selo Anatel; senão descarte. Preços de outras lojas são indicativos e não vão para o texto dos guias. Esta seção complementa a de 11-07 (as caixas Soundcore 3, JBL Go Essential 2 e Xiaomi 16 W continuam valendo e destravam as duas pautas de caixas).
+
+### acessorios-gamer: teclado mecânico com switch Red (pauta `teclado-mecanico-switch-blue-ou-red`, precisa de 2: Blue já ativo + 1 Red)
+- **Teclado Mecânico Gamer Redragon Kumara K552-2, LED vermelho, Switch Red, ABNT2, Preto (PT-RED)** (Redragon), R$ 159,99 no Pix na KaBuM numa captura de busca (hoje a página aparece esgotada; indicativo, confira o preço no ML). Por que: é o Red mais barato e mais vendido da Redragon, mesma família do Kumara Brown que o dono já tem no radar, então a comparação Blue x Red x Brown fica coerente. Confirmado na KaBuM (aberta hoje): nota 4,8 com 388 avaliações (da KaBuM, não do ML), switch Outemu Red linear, resistência média, sem clique audível, trocável (hot-swap segundo a página), formato tenkeyless, ABNT2, LED vermelho, 12 teclas multimídia, N-Key Rollover, keycaps double-shot, metal e ABS, garantia de 1 ano. Cabo: não especificado, não registre. Cuidado: o nome no ML pode vir sem "Switch Red"; confira no título que é o K552-2 (PT-RED) e não o Brown.
+  Busca no ML: `Teclado Mecânico Gamer Redragon Kumara K552-2 Switch Red ABNT2`
+  Linha pronta para o CSV (só falta o link):
+  `redragon-kumara-k552-2-red,acessorios-gamer,Teclado Mecânico Redragon Kumara K552-2 Switch Red ABNT2,Redragon,PRECO,NOTA,AVAL,COLE_O_LINK,,Switch Outemu Red linear (sem clique);Formato tenkeyless;Layout ABNT2;Anti-ghosting N-Key Rollover,sim`
+- **Teclado Mecânico Gamer Redragon Mitra K551 RGB, Switch Outemu Red, ABNT2, Preto (K551RGB-1 PT-RED)** (Redragon), preço não confirmado (esgotado na KaBuM). Por que: reserva com tamanho completo (com teclado numérico) e RGB, contraponto ao TKL. Confirmado na KaBuM: nota 4,9 com 61 avaliações (poucas; no ML precisa de 200+), Outemu Red linear removível (acompanha switches reservas), RGB, 12 teclas multimídia, N-Key Rollover, double-shot, garantia de 1 ano, cabeado. Só cadastre se o ML tiver 200+ avaliações. Cuidado: há variações da Mitra com "Switch Redragon MK2" (Pichau), registre o que o anúncio mostrar.
+  Busca no ML: `Teclado Redragon Mitra K551 RGB Switch Red ABNT2`
+  Linha pronta para o CSV (só falta o link):
+  `redragon-mitra-k551-red,acessorios-gamer,Teclado Mecânico Redragon Mitra K551 RGB Switch Red ABNT2,Redragon,PRECO,NOTA,AVAL,COLE_O_LINK,,Switch Outemu Red linear;Tamanho completo com teclado numérico;RGB com controle por teclas;Cabeado,sim`
+- Fora: Redragon Lakshmi K606R (60%, Red) tem anúncio no ML por cerca de R$ 181 mas não li ficha; Castor K631 e Dark Avenger Lunar K568 Red ficaram sem leitura (Terabyte 403).
+
+### fones-caixas-bluetooth: fone TWS gamer com baixa latência na ficha (pauta nova)
+**Aviso de honestidade:** a latência é declarada pelo fabricante; o Tecnoblog testou o Edifier GM4 Mini 1 e o Hecate GM5 e disse que o modo gamer entrega pouco no Bluetooth puro. No texto, escreva "segundo o fabricante" e diga que o ganho real vem do dongle 2.4 GHz.
+- **Fone Bluetooth TWS Gamer Havit TW970 (Type-C)** (Havit), preço não confirmado (esgotado na KaBuM hoje). Por que: Havit já tem o H2002d ativo, marca comum em gamer barato, dongle 2.4 GHz para jogo. Confirmado na KaBuM: Bluetooth 5.3, bateria de 45 mAh por fone e 400 mAh no case, cerca de 6 h em modo jogo; o dongle Type-C **não** vem na lista de itens da página, confira no anúncio se vem. Garantia na KaBuM: 3 meses (fornecedor), confira no ML. Latência de 18 ms vem só da página internacional da Havit e de revendedores estrangeiros: registre "baixa latência" só se o anúncio brasileiro trouxer o número. Contra: ficha da KaBuM não cita ENC; nota e avaliações do ML desconhecidas, risco alto de não bater o critério.
+  Busca no ML: `Fone Bluetooth TWS Gamer Havit TW970 dongle 2.4G`
+  Linha pronta para o CSV (só falta o link):
+  `havit-tw970,fones-caixas-bluetooth,Fone Bluetooth TWS Gamer Havit TW970,Havit,PRECO,NOTA,AVAL,COLE_O_LINK,,Bluetooth 5.3;Modo jogo com dongle 2.4 GHz (confirme se vem no anúncio);Cerca de 6 h de bateria em modo jogo,sim`
+- **JBL Quantum TWS Air** (JBL), preço não confirmado. Por que: marca conhecida e o dono já vende o JBL Quantum 100M2. Segundo Canaltech e Hardware.com.br, chegou ao Brasil com dongle 2.4 GHz e Bluetooth 5.2. Não abri os números de latência nem bateria; **sem ficha confirmada, só cadastre se o ML tiver anúncio de loja oficial JBL com 200+ avaliações**, e copie os destaques do anúncio. Sem linha de CSV por falta de dados.
+  Busca no ML: `JBL Quantum TWS Air`
+- Fora: **Machenike TH50** (KaBuM: nota 3,9 com 10 avaliações, bateria de 6 h; reprovado pelo critério, apesar dos 40 ms declarados), Edifier GX05 (15 ms declarados, mas ficha não lida e preço alto, R$ 379 na Fast Shop), Edifier GM4 Mini 1 e Hecate GM5 (Tecnoblog: modo gamer pouco útil e preço alto), Kaidi KD-776 (marca sem reputação).
+
+### fones-caixas-bluetooth: caixas até R$ 100 (pauta `ate-100`, faltam 3)
+- Segui sem encontrar 3 caixas com ficha e preço dentro do teto. Só apareceram: Multilaser SP250 e Philips TAS2505B (citadas como boa autonomia no guia do próprio ML, sem potência, preço nem ficha lidos; o guia está bloqueado) e i2GO Go 10 W (11-03, abaixo do critério). **Recomendação: não cadastrar nada às cegas.** Ou o redator transforma a pauta em "até R$ 200" usando Go Essential 2 + Go 4 + Soundcore 2 (+ Soundcore 3), ou o dono me manda 3 links de anúncios de caixas abaixo de R$ 100 com 200+ avaliações para eu conferir a ficha.
+
+### Resumo de 11-08
+Novas: teclado Red 2 (Kumara K552-2, Mitra K551), fone TWS gamer 2 (Havit TW970 com ficha parcial, JBL Quantum TWS Air sem ficha), caixas até R$ 100 0 (sem opção confirmada). Reprovado: Machenike TH50. Nota e avaliações do ML não conferidas.
+
 ## Sugestões de 2026-11-07
 
 **Aviso para o cadastrador:** o Mercado Livre segue sem leitura aqui, então nota e avaliações do ML **não** foram conferidas. Critério no cadastro: nota 4,5+ e 200+ avaliações no anúncio, loja oficial ou MercadoLíder, selo Anatel; senão descarte. Atende o mural #44 (redator). Preços de outras lojas são só indicativos e **não** vão para o texto dos guias.

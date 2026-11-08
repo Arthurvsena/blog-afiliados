@@ -134,3 +134,5 @@ Hoje, só o Argon é opção real. O Carbon é a vitrine do que vem por aí, e o
 :::veredito
 Use o Argon se já assina o AI Pro ou o Ultra. Do Carbon, espere os testes independentes e a abertura da API antes de formar opinião.
 :::
+
+**Leia também:** o Gemini também vai para os óculos, veja a [pré-venda dos óculos Gemini da Warby Parker](/posts/oculos-warby-parker-gemini-pre-venda-12-novembro/).

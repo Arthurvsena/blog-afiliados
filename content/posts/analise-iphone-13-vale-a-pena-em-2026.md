@@ -145,6 +145,8 @@ Não vale para quem quer tirar foto com zoom, guardar o aparelho por muitos anos
 - **Android intermediário:** no mesmo valor de um 13, dá para ter tela de 120 Hz e carga mais rápida, só que sem o iOS.
 - **Esperar o dobrável:** se você sonha alto, leia [iPhone Duo vale a pena? Ficha, preço e para quem serve](/posts/iphone-duo-vale-a-pena-dobravel/). É outra faixa de preço e outro tipo de compra, sem relação direta com o 13.
 
+Pensando em comprar um aparelho mais velho? Antes, leia [iPhone novo ou usado: garantia e recondicionado](/posts/iphone-novo-ou-recondicionado-vale-a-pena/).
+
 ## Veredito
 
 O iPhone 13 não morreu, mas virou compra de oportunidade, não de primeira escolha. Com preço baixo, bateria boa, nota fiscal e garantia, vale. Pagando o que se paga por um mais novo, espere ou vá de iPhone 15.

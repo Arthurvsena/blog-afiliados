@@ -178,6 +178,8 @@ Power bank resolve a bateria, mas não o sinal. Para áreas sem cobertura, veja 
 
 Um detalhe que importa: antes de fechar, confira se o anúncio mostra a homologação da Anatel e se o vendedor tem boa reputação. Power bank é bateria de lítio, e aqui não vale economizar em procedência.
 
+Se o seu celular é um iPhone, veja os [power banks com USB-C PD para iPhone](/posts/melhores-power-banks-iphone/).
+
 :::veredito
 Na minha leitura, o Ugreen PB311 é a escolha certa para o dia a dia, e o Baseus Bipow2 Pro é o mais equilibrado para viagem. Só pegue o Zolo de 45 W se você realmente usa essa potência.
 :::

@@ -2,6 +2,82 @@
 
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
+## 2026-11-08 · Power bank iPhone: 4 modelos USB-C PD para a Black Friday
+Link: https://nexustechai.com.br/posts/melhores-power-banks-iphone/
+- WhatsApp: Vai comprar power bank para o iPhone? Procure USB-C com PD de 20 W ou mais e confira o cabo: do iPhone 15 em diante é USB-C, no 14 e anteriores é Lightning. Separei 4 modelos: https://nexustechai.com.br/posts/melhores-power-banks-iphone/
+- X: Power bank para iPhone: o que importa é USB-C com Power Delivery (20 W ou mais). Do iPhone 15 em diante o cabo é USB-C; no 14 e antes, Lightning. 4 modelos de Ugreen, Anker e Baseus, pela ficha, sem teste: https://nexustechai.com.br/posts/melhores-power-banks-iphone/
+- Instagram (legenda): Power bank para iPhone: o que checar antes de comprar.
+  USB-C com PD de 20 W ou mais carrega rápido.
+  iPhone 15 em diante usa USB-C; do 14 para trás, Lightning.
+  Nenhum dos 4 da lista é MagSafe. Link na bio.
+  #powerbank #iphone #blackfriday
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Power bank para iPhone: não compre sem checar isto." [2-8 s] Fato 1: precisa de USB-C com Power Delivery, de 20 W ou mais. [8-14 s] Fato 2: iPhone 15 em diante é USB-C; 14 e antes, Lightning. [14-18 s] Fato 3: 10.000 mAh para o dia a dia, 20.000 mAh para viagem. [18-20 s] "Os 4 modelos no link da bio."
+
+## 2026-11-08 · iPhone novo ou usado: a garantia decide
+Link: https://nexustechai.com.br/posts/iphone-novo-ou-recondicionado-vale-a-pena/
+Postar antes da Black Friday (27/11), quando sobe a busca por iPhone recondicionado.
+- WhatsApp: iPhone novo ou recondicionado? A Apple dá 1 ano de garantia no novo. No recondicionado, o mínimo da lei é 90 dias, e a nota fiscal precisa dizer "recondicionado". Antes de comprar: https://nexustechai.com.br/posts/iphone-novo-ou-recondicionado-vale-a-pena/
+- X: iPhone novo: 1 ano de garantia da Apple (já inclui os 90 dias da lei). Recondicionado: no mínimo 90 dias, com a loja respondendo. Se o preço chega perto do de um novo, compre o novo. https://nexustechai.com.br/posts/iphone-novo-ou-recondicionado-vale-a-pena/
+- Instagram (legenda): iPhone recondicionado na Black Friday: vale?
+  Novo: 1 ano de garantia da Apple.
+  Recondicionado: no mínimo 90 dias, pela lei.
+  Só compensa com desconto grande, loja conhecida e nota fiscal clara. Link na bio.
+  #iphone #blackfriday #recondicionado
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "iPhone novo ou recondicionado? A garantia decide." [2-8 s] Fato 1: o novo tem 1 ano de garantia da Apple. [8-14 s] Fato 2: o recondicionado tem no mínimo 90 dias pela lei. [14-18 s] Fato 3: exija "recondicionado" na nota fiscal. [18-20 s] "Análise completa no link da bio."
+
+## 2026-11-08 · Como configurar para transcrever áudio no WhatsApp
+Link: https://nexustechai.com.br/posts/como-transcrever-audio-whatsapp-ativar/
+- WhatsApp: Cansou de ouvir áudio de 3 minutos? Configurações > Conversas > Transcrição de mensagens de voz, e o WhatsApp escreve para você. É de graça: https://nexustechai.com.br/posts/como-transcrever-audio-whatsapp-ativar/
+- X: Transcrever áudio no WhatsApp: Configurações > Conversas > Transcrição de mensagens de voz. De graça, e segundo o WhatsApp a transcrição é feita no seu aparelho. https://nexustechai.com.br/posts/como-transcrever-audio-whatsapp-ativar/
+- Instagram (legenda): Áudio de 3 minutos no ônibus sem fone? Deixe o WhatsApp escrever.
+  Configurações > Conversas > Transcrição de mensagens de voz.
+  É grátis e feita no seu celular, segundo o WhatsApp.
+  Link na bio.
+  #whatsapp #dicas #tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Pare de ouvir áudio longo no WhatsApp." [2-8 s] Fato 1: abra Configurações e toque em Conversas. [8-14 s] Fato 2: ligue Transcrição de mensagens de voz. [14-18 s] Fato 3: o texto aparece embaixo do áudio, feito no seu aparelho. [18-20 s] "Passo a passo no link da bio."
+
+## 2026-11-08 · Óculos Gemini da Warby Parker: pré-venda em 12 de novembro
+Link: https://nexustechai.com.br/posts/oculos-warby-parker-gemini-pre-venda-12-novembro/
+- WhatsApp: Os óculos com Gemini da Warby Parker abrem pré-venda em 12/11. São só de áudio (sem tela), sem preço definido e sem previsão no Brasil, segundo a Samsung: https://nexustechai.com.br/posts/oculos-warby-parker-gemini-pre-venda-12-novembro/
+- X: Óculos com Gemini da Warby Parker: pré-venda em 12/11, entrega no fim do ano. Câmera, microfone e alto-falantes, sem tela. Preço não divulgado e sem data no Brasil. https://nexustechai.com.br/posts/oculos-warby-parker-gemini-pre-venda-12-novembro/
+- Instagram (legenda): Óculos que conversam com o Gemini abrem pré-venda em 12/11.
+  Não têm tela: só câmera, microfone e alto-falante.
+  Preço não saiu e o Brasil está sem previsão. Link na bio.
+  #gemini #oculosinteligentes #google
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Óculos com Gemini abrem pré-venda dia 12." [2-8 s] Fato 1: são só de áudio, sem tela nas lentes. [8-14 s] Fato 2: bateria de até 9 h, segundo a Samsung. [14-18 s] Fato 3: preço não divulgado e sem previsão no Brasil. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-08 · Quick Share vai fazer backup automático de fotos no Windows
+Link: https://nexustechai.com.br/posts/android-quick-share-backup-automatico-fotos-windows/
+- WhatsApp: O Android deve ganhar backup automático de fotos e vídeos no Windows pelo Quick Share, sem nuvem. Ainda sem data e sem confirmação para o Brasil: https://nexustechai.com.br/posts/android-quick-share-backup-automatico-fotos-windows/
+- X: Android deve ganhar backup automático de fotos e vídeos no PC com Windows pelo Quick Share, sem nuvem. Apareceu nas notas do Google Play services 26.43. Sem data nem Brasil confirmado. https://nexustechai.com.br/posts/android-quick-share-backup-automatico-fotos-windows/
+- Instagram (legenda): Backup das fotos do Android direto no PC, sem pagar nuvem.
+  O recurso apareceu nas notas do Google Play services 26.43.
+  Sem data, sem lista de aparelhos e sem Brasil confirmado. Link na bio.
+  #android #quickshare #windows
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seu Android vai salvar as fotos no PC sozinho." [2-8 s] Fato 1: o Quick Share ganha backup automático para Windows. [8-14 s] Fato 2: as cópias ficam no computador, sem nuvem. [14-18 s] Fato 3: o Google não deu data nem confirmou o Brasil. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-08 · GTA 6 pirataria: CEO da Take-Two fala em resposta legal
+Link: https://nexustechai.com.br/posts/take-two-ceo-pirataria-gta-6-medidas-legais-tecnicas/
+- WhatsApp: O CEO da Take-Two disse que pirataria é "fato da vida", mas que a empresa reage na Justiça e na parte técnica se GTA 6 virar alvo. Foi fala em evento, sem detalhe das proteções: https://nexustechai.com.br/posts/take-two-ceo-pirataria-gta-6-medidas-legais-tecnicas/
+- X: GTA 6 e pirataria: Strauss Zelnick, CEO da Take-Two, chamou de "fato da vida" e disse que haverá resposta legal e técnica se virar problema. Declaração em evento, sem medidas detalhadas. https://nexustechai.com.br/posts/take-two-ceo-pirataria-gta-6-medidas-legais-tecnicas/
+- Instagram (legenda): GTA 6 vai ser pirateado? O chefe da Take-Two respondeu.
+  Para ele, pirataria é "fato da vida".
+  Se virar problema, a resposta será legal e técnica.
+  Nenhuma proteção foi detalhada. Link na bio.
+  #gta6 #rockstar #games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "GTA 6 e pirataria: o que a Take-Two disse." [2-8 s] Fato 1: o CEO chamou a pirataria de "fato da vida". [8-14 s] Fato 2: se virar problema, a resposta será na Justiça e na parte técnica. [14-18 s] Fato 3: nenhuma medida foi detalhada. [18-20 s] "Matéria completa no link da bio."
+
+## 2026-11-08 · Jogos Switch 2 lançamentos: Pikmin 4 em 12/11 e o calendário
+Link: https://nexustechai.com.br/posts/switch-2-calendario-jogos-pikmin-4-xenoblade-3-monster-hunter-wilds/
+- WhatsApp: Calendário do Switch 2: Pikmin 4 em 12/11, Xenoblade 3 e Rayman Legends em 3/12, Monster Hunter Wilds em 4/12. Sem preço para o Brasil ainda: https://nexustechai.com.br/posts/switch-2-calendario-jogos-pikmin-4-xenoblade-3-monster-hunter-wilds/
+- X: Jogos do Switch 2: Pikmin 4 (12/11), Xenoblade Chronicles 3 e Rayman Legends Retold (3/12), Monster Hunter Wilds (4/12), Professor Layton (10/12). Calendário vai até 2027: https://nexustechai.com.br/posts/switch-2-calendario-jogos-pikmin-4-xenoblade-3-monster-hunter-wilds/
+- Instagram (legenda): O que jogar no Switch 2 depois do Zelda?
+  12/11: Pikmin 4.
+  3/12: Xenoblade 3 e Rayman Legends Retold.
+  4/12: Monster Hunter Wilds. Link na bio.
+  #switch2 #nintendo #games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Switch 2: 4 jogos em menos de um mês." [2-8 s] Fato 1: Pikmin 4 chega em 12 de novembro. [8-14 s] Fato 2: Xenoblade 3 em 3/12 e Monster Hunter Wilds em 4/12. [14-18 s] Fato 3: o calendário já vai até 2027. [18-20 s] "Lista completa no link da bio."
+
 ## 2026-11-07 · Lâmpada inteligente: como funciona e o erro da parede
 Link: https://nexustechai.com.br/posts/lampada-inteligente-ou-interruptor-inteligente-qual-escolher/
 - WhatsApp: Se alguém apagar o interruptor da parede, a lâmpada inteligente fica offline e a Alexa não responde. Veja quando vale trocar por interruptor inteligente: https://nexustechai.com.br/posts/lampada-inteligente-ou-interruptor-inteligente-qual-escolher/
@@ -367,83 +443,5 @@ Link: https://nexustechai.com.br/posts/melhores-carregadores-turbo/
   Baseus de 30 W fica no meio do caminho. Link na bio.
   #carregador #usbc #tecnologia
 - TikTok/Reels (roteiro de 20 s): [0-2 s] "Carregador de 45 W estraga celular que aceita menos? Não." [2-8 s] Fato 1: celular e carregador negociam a potência, e o aparelho puxa só o que suporta. [8-14 s] Fato 2: Samsung de 25 W serve para Galaxy comum. [14-18 s] Fato 3: Ugreen de 45 W carrega dois aparelhos. [18-20 s] "Comparativo no link da bio."
-
-## 2026-11-04 · Smartwatch barato: 3 opções com bateria de 13 a 18 dias
-Link: https://nexustechai.com.br/posts/melhores-smartwatches-baratos/
-- WhatsApp: Separei 3 smartwatches baratos com nota 4,8 ou 4,9 e bateria de 13 a 18 dias na ficha. Um atende ligação, outro tem GPS. Dados da ficha, sem teste: https://nexustechai.com.br/posts/melhores-smartwatches-baratos/
-- X: Smartwatch barato: Redmi Watch 5 Active (chamadas, até 18 dias), Amazfit Bip 6 (GPS) e Galaxy Fit3 (13 dias, 60 mil avaliações). Comparativo pela ficha, sem teste: https://nexustechai.com.br/posts/melhores-smartwatches-baratos/
-- Instagram (legenda): Smartwatch barato que não vive no carregador.
-  Redmi Watch 5 Active: atende ligação, até 18 dias.
-  Amazfit Bip 6: o único dos três com GPS.
-  Galaxy Fit3: o mais avaliado, até 13 dias. Link na bio.
-  #smartwatch #xiaomi #amazfit
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Smartwatch barato com bateria de até 18 dias." [2-8 s] Fato 1: o Redmi Watch 5 Active atende ligação pelo pulso. [8-14 s] Fato 2: o Amazfit Bip 6 é o único com GPS na ficha. [14-18 s] Fato 3: o Galaxy Fit3 é uma pulseira, mas o anúncio o chama de smartwatch. [18-20 s] "Comparativo no link da bio."
-
-## 2026-11-04 · Switch 2 Zelda 40 anos esgota no Brasil: preço e reposição
-Link: https://nexustechai.com.br/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/
-Postar hoje (4/11): o remake de Ocarina of Time sai amanhã (5/11) e o assunto está em alta na busca. Dados da pré-venda; a Nintendo ainda não deu data de reposição no Brasil.
-- WhatsApp: O Switch 2 edição Zelda 40 anos esgotou no Brasil e a Nintendo pediu desculpas. Pré-venda era R$ 4.749 (cerca de R$ 4.416 no Pix), só R$ 149 a mais que o Switch 2 comum, e o hardware é o mesmo. Sem data de reposição: https://nexustechai.com.br/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/
-- X: Switch 2 edição Zelda 40 anos esgotou no Brasil. Pré-venda: R$ 4.749 (cerca de R$ 4.416 no Pix). O hardware é igual ao do Switch 2 comum e a Nintendo admitiu que subestimou a procura. Reposição sem data: https://nexustechai.com.br/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/
-- Instagram (legenda): Esgotou antes de chegar: o Switch 2 do Zelda 40 anos.
-  Pré-venda no Brasil: R$ 4.749 (cerca de R$ 4.416 no Pix).
-  É o mesmo hardware do Switch 2 comum; você paga pelo visual.
-  A Nintendo pediu desculpas e não deu data de reposição. Link na bio.
-  #switch2 #zelda #nintendo
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "O Switch 2 do Zelda esgotou no Brasil." [2-8 s] Fato 1: a pré-venda custava R$ 4.749, cerca de R$ 149 a mais que o Switch 2 comum. [8-14 s] Fato 2: o hardware é o mesmo, muda só o visual, e o jogo Ocarina of Time não vem na caixa (sai amanhã). [14-18 s] Fato 3: a Nintendo pediu desculpas e não deu data de reposição. [18-20 s] "Detalhes e preços no link da bio."
-
-## 2026-11-03 · Smartband custo-benefício: bateria de até 3 semanas e 1 com GPS
-Link: https://nexustechai.com.br/posts/melhores-smartbands-custo-beneficio/
-- WhatsApp: Comparei 5 smartbands: bateria de 13 dias a 3 semanas, só o Amazfit Bip 6 tem GPS e todas têm nota 4,8 ou 4,9. Qual serve pra você: https://nexustechai.com.br/posts/melhores-smartbands-custo-beneficio/
-- X: Smartband: dos 5 modelos comparados, a Xiaomi Band 10 vai a até 3 semanas, o Redmi Watch 5 Active atende chamada e só o Amazfit Bip 6 tem GPS. Dados da ficha, sem teste: https://nexustechai.com.br/posts/melhores-smartbands-custo-beneficio/
-- Instagram (legenda): Qual smartband escolher sem pagar por recurso que você não usa?
-  Band 10: até 3 semanas de bateria.
-  Redmi Watch 5 Active: chamadas pelo relógio.
-  Amazfit Bip 6: o único com GPS. Link na bio.
-  #smartband #smartwatch #tecnologia
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Smartband: só 1 de 5 tem GPS." [2-8 s] Fato 1: a Xiaomi Band 10 vai a até 3 semanas. [8-14 s] Fato 2: o Redmi Watch 5 Active atende chamada pelo pulso. [14-18 s] Fato 3: o Amazfit Bip 6 é o único com GPS na ficha. [18-20 s] "Comparativo completo no link da bio."
-
-## 2026-11-03 · Fone TWS Bluetooth: só 1 de 4 tem ANC e 2 chegam a 40 h
-Link: https://nexustechai.com.br/posts/melhores-fones-tws-bluetooth/
-- WhatsApp: Comparei 4 fones TWS (JBL, QCY, Philips e Xiaomi): só o JBL Wave Buds 2 informa cancelamento de ruído, e JBL e QCY vão a até 40 h com o estojo. Comparativo: https://nexustechai.com.br/posts/melhores-fones-tws-bluetooth/
-- X: Fone TWS Bluetooth: dos 4 comparados, só o JBL Wave Buds 2 informa ANC. JBL e QCY T13 vão a até 40 h com o estojo. Philips e Redmi cobrem o uso simples. Dados da ficha, sem teste: https://nexustechai.com.br/posts/melhores-fones-tws-bluetooth/
-- Instagram (legenda): ANC ou ENC? A diferença muda a compra.
-  Só o JBL Wave Buds 2 abafa o barulho de fora.
-  O QCY T13 limpa a sua voz nas chamadas.
-  JBL e QCY vão a até 40 h com o estojo. Link na bio.
-  #fonebluetooth #tws #tecnologia
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Fone TWS: só 1 de 4 abafa o barulho." [2-8 s] Fato 1: só o JBL Wave Buds 2 informa ANC. [8-14 s] Fato 2: o QCY T13 tem ENC, que limpa sua voz nas chamadas, não o som de fora. [14-18 s] Fato 3: JBL e QCY vão a até 40 h com o estojo. [18-20 s] "Comparativo completo no link da bio."
-
-## 2026-11-03 · Gemini 4 Argon já está liberado; o Carbon, não: a diferença
-Link: https://nexustechai.com.br/posts/gemini-4-argon-vs-carbon-diferenca/
-- WhatsApp: Dos dois Gemini 4, só o Argon está liberado (app para assinantes AI Pro e Ultra, e API). O Carbon, mais forte, é só para defensores de cibersegurança: https://nexustechai.com.br/posts/gemini-4-argon-vs-carbon-diferenca/
-- X: Gemini 4: o Argon já roda no app para assinantes AI Pro e Ultra. O Carbon, mais forte segundo o Google, só para defensores de cibersegurança, sem data para o público. Diferença: https://nexustechai.com.br/posts/gemini-4-argon-vs-carbon-diferenca/
-- Instagram (legenda): Gemini 4 tem dois modelos, mas só um você usa.
-  Argon: liberado no app (AI Pro e Ultra) e na API.
-  Carbon: mais forte, só para defensores de cibersegurança.
-  Quase tudo é benchmark do próprio Google. Link na bio.
-  #gemini #google #inteligenciaartificial
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Gemini 4: qual modelo você consegue usar?" [2-8 s] Fato 1: o Argon está no app para assinantes AI Pro e Ultra. [8-14 s] Fato 2: o Carbon é mais forte, mas só defensores de cibersegurança têm acesso. [14-18 s] Fato 3: os números são do próprio Google. [18-20 s] "Diferença completa no link da bio."
-
-## 2026-11-03 · WhatsApp clonado: o que fazer em 3 passos para recuperar
-Link: https://nexustechai.com.br/posts/whatsapp-clonado-o-que-fazer-passo-a-passo/
-- WhatsApp: Se clonaram seu WhatsApp: peça o código de 6 dígitos por SMS e digite no app. Como só um aparelho fica ativo por número, o golpista é derrubado. Passo a passo: https://nexustechai.com.br/posts/whatsapp-clonado-o-que-fazer-passo-a-passo/
-- X: WhatsApp clonado? Registre o número de novo, digite o código de 6 dígitos do SMS e o golpista é desconectado. Depois avise os contatos por outro canal e ative as duas etapas. https://nexustechai.com.br/posts/whatsapp-clonado-o-que-fazer-passo-a-passo/
-- Instagram (legenda): Clonaram seu WhatsApp? Não entre em pânico.
-  Peça o código por SMS e digite só no seu app.
-  Só um aparelho fica ativo por número, então o golpista cai.
-  Depois avise os contatos e ative as duas etapas. Link na bio.
-  #whatsapp #golpe #segurancadigital
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Clonaram seu WhatsApp? Faça isso agora." [2-8 s] Fato 1: peça o código de 6 dígitos por SMS e digite no app. [8-14 s] Fato 2: só um aparelho fica ativo por número, o golpista é derrubado. [14-18 s] Fato 3: avise os contatos por outro canal e ative as duas etapas. [18-20 s] "Passo a passo no link da bio."
-
-## 2026-11-03 · Novo iPhone preço: Apple avisa memória cara, sem preço novo
-Link: https://nexustechai.com.br/posts/apple-memoria-mais-cara-2027-iphone-preco-brasil/
-- WhatsApp: A Apple avisou que a memória segue cara em 2027 e que a margem vai cair, mas não anunciou aumento de iPhone no Brasil. Entenda o que é fato e o que é projeção: https://nexustechai.com.br/posts/apple-memoria-mais-cara-2027-iphone-preco-brasil/
-- X: Apple prevê margem bruta de 45% a 46% no fim do ano (era 47,9%) por causa da memória cara. Preço novo de iPhone no Brasil? Nenhum anunciado. Fato e projeção: https://nexustechai.com.br/posts/apple-memoria-mais-cara-2027-iphone-preco-brasil/
-- Instagram (legenda): A Apple disse que a memória vai continuar cara em 2027.
-  A margem prevista caiu para 45% a 46%.
-  Aumento de iPhone no Brasil? Ninguém anunciou.
-  Link na bio.
-  #iphone #apple #tecnologia
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "iPhone vai ficar mais caro? A Apple falou." [2-8 s] Fato 1: a memória dos chips segue em alta em 2027. [8-14 s] Fato 2: a margem prevista caiu para 45% a 46%. [14-18 s] Fato 3: preço novo no Brasil, nenhum anunciado. [18-20 s] "Fato e projeção no link da bio."
 
 

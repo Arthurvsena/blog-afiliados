@@ -81,3 +81,5 @@ Apague os jogos que você não joga hoje. No PS5, os jogos do [PS Plus de novemb
 :::veredito
 Libere 212 GB e comece a baixar no primeiro minuto. Xbox em 9/11 às 21h, PS5 em 10/11 à 0h.
 :::
+
+**Leia também:** [o que o CEO da Take-Two disse sobre a pirataria de GTA 6](/posts/take-two-ceo-pirataria-gta-6-medidas-legais-tecnicas/).

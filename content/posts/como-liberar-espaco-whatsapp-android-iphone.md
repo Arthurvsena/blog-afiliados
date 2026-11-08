@@ -96,8 +96,12 @@ Se o seu celular vive avisando que a memória acabou, comece pelo Gerenciar arma
 
 Quer mais do WhatsApp? Veja como a [Vivo quer levar o WhatsApp a lugares sem sinal com satélite](/posts/vivo-satelite-starlink-celular-brasil/). E, para o celular não morrer no meio do dia, o [guia para escolher power bank](/posts/como-escolher-power-bank/) ajuda.
 
+Cansado de áudio longo? Veja [como configurar a transcrição de áudio no WhatsApp](/posts/como-transcrever-audio-whatsapp-ativar/).
+
 Depois da limpeza, proteja a conta: veja como ativar a [verificação em duas etapas no WhatsApp](/posts/whatsapp-confirmacao-duas-etapas-como-ativar/).
 
 :::dica Hábito de 1 minuto
 Uma vez por mês, abra o Gerenciar armazenamento e olhe só o filtro "Maior do que 5 MB". É a limpeza mais rápida e evita o aviso de memória cheia.
 :::
+
+**Leia também:** outra novidade para quem vive sem espaço: o [backup automático de fotos do Android no Windows pelo Quick Share](/posts/android-quick-share-backup-automatico-fotos-windows/), ainda sem data.

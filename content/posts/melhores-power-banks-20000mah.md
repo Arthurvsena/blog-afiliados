@@ -167,6 +167,8 @@ Vale lembrar que nota de loja mistura opiniões sobre entrega, embalagem e produ
 - Se você gosta de escolher o próprio cabo, vá de {{link:ugreen-pb312-20000|Ugreen PB312}}.
 - Se 20.000 mAh é demais para o seu dia, veja o {{link:ugreen-pb311-10000-20w|Ugreen PB311}} de 10.000 mAh.
 
+Carrega um iPhone? Veja os [power banks com USB-C PD para iPhone](/posts/melhores-power-banks-iphone/), com o cabo certo para cada geração.
+
 ## Veredito
 
 :::veredito

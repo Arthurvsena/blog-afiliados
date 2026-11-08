@@ -75,6 +75,8 @@ Na minha leitura, o aviso é claro sobre a direção do custo e vago sobre o que
 
 Se a troca é para a Black Friday, antes veja como [fugir dos golpes de Pix na Black Friday](/posts/golpes-black-friday-2026-golpe-pix-o-que-fazer/) e compare preço de loja em loja, e sem esperar desconto garantido, porque com memória cara a promoção pode ser menor.
 
+Se a ideia é pagar menos, compare com [iPhone novo ou usado: garantia e recondicionado](/posts/iphone-novo-ou-recondicionado-vale-a-pena/).
+
 :::veredito
 Vale acompanhar, ainda não vale se desesperar.
 :::

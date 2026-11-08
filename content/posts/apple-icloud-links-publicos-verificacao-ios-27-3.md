@@ -73,3 +73,5 @@ Use "Pessoas escolhidas" e deixe o link público só para o que você não se im
 ## O que fica
 
 Na minha leitura, a Apple tem direito de checar o que sai do seu cofre para a rua, e a maioria das pessoas não vai notar diferença. O problema é a vagueza: sem saber o que é "nocivo" e sem processo de contestação claro, o risco de erro recai sobre o usuário, que pode perder a conta. Até a Apple explicar isso, o caminho prudente é usar "Pessoas escolhidas" e deixar o link público para o que você não se importaria de ver aberto.
+
+Quer guardar fotos longe da nuvem? Veja o [backup automático do Quick Share no Windows](/posts/android-quick-share-backup-automatico-fotos-windows/), ainda sem data para o Android.

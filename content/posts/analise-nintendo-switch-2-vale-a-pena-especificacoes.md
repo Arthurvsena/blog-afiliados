@@ -131,6 +131,8 @@ Confira o valor atual e o prazo de devolução da loja. Os relatos de drift e de
 
 ## Alternativas
 
+Antes de decidir, confira também o [calendário de jogos do Switch 2 até 2027](/posts/switch-2-calendario-jogos-pikmin-4-xenoblade-3-monster-hunter-wilds/) para ver se os lançamentos que você espera já têm data.
+
 Se o preço pesa, o Switch original ou o OLED, quando achados em promoção ou usados, continuam rodando uma biblioteca enorme, com a bateria mais longa. Quem prioriza jogos de PC portáteis pode olhar para o Steam Deck ou o ROG Ally X, que o Canaltech cita como mais pesados que o Switch 2. Quem pensa em Xbox pode acompanhar o que muda com o [FSR 4.1 no Xbox Series e o GTA 6](/posts/xbox-series-fsr-4-1-gta-6-o-que-muda/). Já quem joga no PlayStation encontra os [jogos do PS Plus de novembro](/posts/ps-plus-novembro-2026-dead-island-2-tomb-raider/) como alternativa de catálogo.
 
 ## Veredito
