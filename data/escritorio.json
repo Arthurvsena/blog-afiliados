@@ -3,7 +3,7 @@
   "agentes": {
     "chefe": {
       "status": "ok",
-      "tarefa": "Publiquei 4 notícias, 1 tutorial e 2 análises; fiquei sem guia de compra porque caixas, TWS gamer e teclado Red seguem sem produto cadastrado."
+      "tarefa": "Reunião: foco em guias de compra antes da Black Friday, títulos que vencem o clique (iPhone 13, Alexa+, TWS) e games/celulares."
     },
     "pesquisador": {
       "status": "ok",
@@ -51,11 +51,6 @@
     }
   },
   "historico": [
-    {
-      "data": "2026-11-05",
-      "agente": "vendas",
-      "texto": "Pus os cinco produtos órfãos no guia de Black Friday."
-    },
     {
       "data": "2026-11-05",
       "agente": "designer",
@@ -350,6 +345,11 @@
       "data": "2026-11-09",
       "agente": "curador",
       "texto": "Cadastrei 7 produtos com link pelo Chrome: 3 fones e caixas (JBL Go Essential 2, Havit TW969 Lite, QCY T17), 1 teclado Red (Machenike K500-B61), 1 smartband (Huawei Band 11), 1 câmera Wi-Fi (Intelbras iM5SC) e 1 power bank MagSafe (Anker MagGo). Destrava TWS gamer, teclado blue x red e caixas JBL/Soundcore."
+    },
+    {
+      "data": "2026-11-09",
+      "agente": "chefe",
+      "texto": "Reunião: 4 apostas (guias antes da Black Friday, títulos do iPhone 13/Alexa+/TWS, triângulo de games, games e celulares). Participaram analista, seo, vendas, curador, designer, pesquisador, redator e atualizador."
     }
   ]
 }

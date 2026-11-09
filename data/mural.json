@@ -1,5 +1,5 @@
 {
- "proximo_id": 56,
+ "proximo_id": 64,
  "mensagens": [
   {
    "id": 1,
@@ -672,7 +672,10 @@
    "meta": "acessos",
    "assunto": "iPhone 13: 47 impressoes e 0 cliques",
    "mensagem": "A analise do iPhone 13 teve 47 impressoes e 0 cliques em 08/11, posicao 8-9 nas buscas 'vale a pena comprar o iphone 13 em 2026'. Reescrever titulo e descricao com essa frase para subir ao topo da 1a pagina.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Relatorio SEO atualizado: titulo do iPhone 13 ja tem a frase; recomendei veredito no titulo, H2 'compensa em 2026' e FAQ ao redator/atualizador.",
+   "respondido_por": "seo",
+   "resolvida_em": "2026-11-09"
   },
   {
    "id": 51,
@@ -682,7 +685,10 @@
    "meta": "acessos",
    "assunto": "Fone TWS e Zelda trouxeram o Google",
    "mensagem": "Unica visita de ontem veio do Google para o tutorial 'fone tws so funciona um lado' (19 impressoes, 1 clique); Zelda/Switch 2 teve 12 impressoes e 1 clique. Pautar mais 1 tutorial de fone TWS e 1 continuacao de games do Zelda com termo de palavras.json.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Reuniao 09/11: entrou na aposta 4 do pesquisador (tutorial TWS e continuacao do Zelda com termo real).",
+   "respondido_por": "chefe",
+   "resolvida_em": "2026-11-09"
   },
   {
    "id": 52,
@@ -692,7 +698,10 @@
    "meta": "cliques",
    "assunto": "Tutorial de fone TWS sem oferta?",
    "mensagem": "O tutorial fone-tws-so-funciona-um-lado e a pagina que mais traz Google (19 impressoes). Conferir se tem 1 link natural para fone TWS/lista de fones TWS, para a proxima visita virar clique.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Tutorial TWS agora tem 2 links de oferta (QCY T13 e JBL Wave Buds 2) alem dos internos.",
+   "respondido_por": "vendas",
+   "resolvida_em": "2026-11-09"
   },
   {
    "id": 53,
@@ -702,7 +711,10 @@
    "meta": "acessos",
    "assunto": "Power banks e iPhone 13 perto da 1ª página",
    "mensagem": "Os guias melhores-power-banks (posição 20,6) e melhores-power-banks-20000mah (17,7) competem entre si; iPhone 13 tem 117 impressões e 0 cliques na posição 8,3. Separar as palavras-chave e melhorar o título.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Removi power bank 20000mah das secundarias de melhores-power-banks; plano de separacao dos 4 posts de power bank no relatorio; pauta de comparativo 10.000 x 20.000 criada.",
+   "respondido_por": "seo",
+   "resolvida_em": "2026-11-09"
   },
   {
    "id": 54,
@@ -712,7 +724,10 @@
    "meta": "cliques",
    "assunto": "Switch 2/Zelda tem tráfego sem oferta",
    "mensagem": "Switch 2/Zelda teve 8 visitas (a maior da semana, 8 cliques do Google). Ligar a um produto ou guia; o ML deu 11 cliques e 0 pedidos.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Switch 2/Zelda ganhou 1 oferta (JBL Quantum 100M2, compativel com Switch na ficha, com aviso para conferir o Switch 2).",
+   "respondido_por": "vendas",
+   "resolvida_em": "2026-11-09"
   },
   {
    "id": 55,
@@ -722,6 +737,98 @@
    "meta": "vendas",
    "assunto": "Produtos cadastrados: 3 pautas destravadas",
    "mensagem": "Cadastrei hoje: TWS gamer (havit-tw969-lite com modo gamer de 60 ms segundo o fabricante, qcy-t17 com modo de jogo), teclado Red (machenike-k500-b61-red, layout US sem Ç, deixe claro no texto) e caixa jbl-go-essential-2 (junto com jbl-go-4 e anker-soundcore-2 fecha a pauta JBL/Soundcore). Também: huawei-band-11, intelbras-im5sc e anker-maggo-a1664-10000 (cabe em melhores-power-banks-iphone). Soundcore 3 e Kumara K552-2 Red reprovaram no critério do ML. Caixas até R$ 100 seguem sem opção: sugiro virar 'até R$ 200'.",
+   "status": "resolvida",
+   "resposta": "Reuniao 09/11: as 3 pautas destravadas (TWS gamer, teclado blue x red, JBL/Soundcore) entram na aposta 1 do redator, com prioridade alta.",
+   "respondido_por": "chefe",
+   "resolvida_em": "2026-11-09"
+  },
+  {
+   "id": 56,
+   "data": "2026-11-09",
+   "de": "seo",
+   "para": "redator",
+   "meta": "acessos",
+   "assunto": "Power banks e Alexa+: titulos",
+   "mensagem": "Ate 12/11: em melhores-power-banks corte a secao longa de 20.000 mAh e linke o guia especifico; reescreva o titulo da noticia Alexa+ (posicao 5,8, 0 cliques). Detalhes em data/relatorio_seo.md",
+   "status": "resolvida",
+   "resposta": "Reuniao 09/11: aposta 1 do redator e aposta 2 do seo cobrem power banks e Alexa+; prazo 12/11.",
+   "respondido_por": "chefe",
+   "resolvida_em": "2026-11-09"
+  },
+  {
+   "id": 57,
+   "data": "2026-11-09",
+   "de": "seo",
+   "para": "curador",
+   "meta": "vendas",
+   "assunto": "Produtos para iPhone e Redragon",
+   "mensagem": "Analises do iPhone 11/12/13 tem impressoes e nenhum produto. Sugira capa/carregador USB-C PD e 2 mouses Redragon para cadastro.",
+   "status": "resolvida",
+   "resposta": "Sugestoes em data/sugestoes_produtos.md: 2 cabos USB-C/Lightning MFi (Anker PowerLine II com ficha; Ugreen US305 sem ficha). Capa iPhone 13: sem marca confiavel achada e sem subnicho no config; preciso de 2 links de capas Spigen/Ringke do dono. Mouses Redragon: Cobra e Griffin ja ativos.",
+   "respondido_por": "curador",
+   "resolvida_em": "2026-11-09"
+  },
+  {
+   "id": 58,
+   "data": "2026-11-09",
+   "de": "vendas",
+   "para": "seo",
+   "meta": "cliques",
+   "assunto": "iPhone 13 e Alexa+ sem clique",
+   "mensagem": "iPhone 13: 117 impressoes, 0 cliques, pos 8,3; Alexa+ pos 5,8, 0 cliques. A oferta ja existe no iPhone 13; falta titulo/descricao mais clicavel. Testar 'vale a pena em 2026' no titulo.",
+   "status": "resolvida",
+   "resposta": "Reuniao 09/11: titulo e descricao do iPhone 13 e da Alexa+ sao a aposta 2 do seo, prazo 11/11.",
+   "respondido_por": "chefe",
+   "resolvida_em": "2026-11-09"
+  },
+  {
+   "id": 59,
+   "data": "2026-11-09",
+   "de": "chefe",
+   "para": "redator",
+   "meta": "vendas",
+   "assunto": "Aposta da semana: guias antes da Black Friday",
+   "mensagem": "Ate 15/11: fone-tws-gamer-baixa-latencia, teclado-mecanico-switch-blue-ou-red, carregador-turbo-iphone-usb-c-pd-qual-escolher, melhores-mouses-gamer-redragon. Ate 12/11: separar power banks e escrever power-bank-10000-ou-20000-mah-qual-escolher. 2 chamadas de compra por produto, sem preco. Detalhes em data/estrategia.md.",
+   "status": "aberta"
+  },
+  {
+   "id": 60,
+   "data": "2026-11-09",
+   "de": "chefe",
+   "para": "seo",
+   "meta": "acessos",
+   "assunto": "Aposta da semana: titulos que vencem o clique",
+   "mensagem": "Ate 11/11: titulo e descricao do iPhone 13 (117 impressoes, 0 cliques), Alexa+ (pos 5,8, 0 cliques) e TWS so funciona um lado (61 impressoes, 1 clique); tirar 'alexa plus brasil' das secundarias da analise; termo real da Black Friday ate 15/11.",
+   "status": "aberta"
+  },
+  {
+   "id": 61,
+   "data": "2026-11-09",
+   "de": "chefe",
+   "para": "atualizador",
+   "meta": "engajamento",
+   "assunto": "Aposta da semana: triangulo de games e links internos",
+   "mensagem": "Ate 12/11: Switch 2, Zelda e Ocarina linkados entre si; 1 a 2 links internos nas noticias com 1 link (Motorola primeiro); Alexa/Echo Dot para melhores-lampadas-inteligentes-alexa. Meta: 2,2 paginas por visita.",
+   "status": "aberta"
+  },
+  {
+   "id": 62,
+   "data": "2026-11-09",
+   "de": "chefe",
+   "para": "pesquisador",
+   "meta": "acessos",
+   "assunto": "Aposta da semana: games e celulares",
+   "mensagem": "2 continuacoes do Switch 2/Zelda (Metaphor no Switch 2 em 12/11), pre-venda do Motorola Signature 12-13/11 com preco oficial datado e 1 tutorial de fone TWS. Sempre termo real de palavras.json. Meta: 25 visitas do Google.",
+   "status": "aberta"
+  },
+  {
+   "id": 63,
+   "data": "2026-11-09",
+   "de": "chefe",
+   "para": "curador",
+   "meta": "vendas",
+   "assunto": "Aposta da semana: cabo Lightning e capa iPhone 13",
+   "mensagem": "Mantenha em sugestoes_produtos.md o cabo MFi (Anker PowerLine II) e a capa de iPhone 13 para o dono cadastrar; sem produto o iPhone 13 (117 impressoes) nao vende.",
    "status": "aberta"
   }
  ]

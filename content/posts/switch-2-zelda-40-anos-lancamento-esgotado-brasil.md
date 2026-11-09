@@ -75,7 +75,7 @@ Também não abri nenhum comunicado oficial da Nintendo: tudo aqui vem de report
 
 Na minha leitura, não vale pagar ágio de revendedor por um console que tem o mesmo hardware do Switch 2 comum. Se você quer jogar, o modelo normal, que segundo o Game Over Drive não esgotou, resolve. Se é colecionador e quer o Zelda, espere a reposição e desconfie de qualquer promessa de prazo.
 
-Se a espera for longa e você quer ir montando o setup, nosso guia de [acessórios gamer](/categoria/acessorios-gamer/) reúne opções custo-benefício.
+Se a espera for longa e você quer ir montando o setup, nosso guia de [acessórios gamer](/categoria/acessorios-gamer/) reúne opções custo-benefício. Se o que falta é um headset, o {{link:jbl-quantum-100m2|JBL Quantum 100M2}} aparece na ficha como compatível com Switch; confira a compatibilidade com o Switch 2 na página antes de comprar.
 
 Antes de decidir, veja a [análise da ficha técnica: Nintendo Switch 2 vale a pena?](/posts/analise-nintendo-switch-2-vale-a-pena-especificacoes/)
 

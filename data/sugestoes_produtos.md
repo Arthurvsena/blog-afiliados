@@ -9,13 +9,44 @@ O curador escreve aqui os produtos que vale cadastrar em data/produtos.csv.
 - ✅ Huawei Band 11 (`huawei-band-11`), Intelbras iM5SC (`intelbras-im5sc`) e Anker MagGo A1664 (`anker-maggo-a1664-10000`).
 - ❌ Soundcore 3 (4,1 com 7, vendedor internacional) e Motorola TurboPower Duo 50 W (127 avaliações).
 
-## Sugestões de 2026-11-09 (mural #48 e 4 pautas travadas)
+## Sugestões de 2026-11-09 (reunião de estratégia; mural #57 e apostas de venda)
 
-**Nada de grande novo.** O Mercado Livre segue sem leitura (403) e as buscas de hoje não trouxeram ficha nova confiável. As 4 pautas destravam com o que já está sugerido e **ainda não foi cadastrado**; ordem de cadastro:
-1. `melhores-caixas-de-som-bluetooth-jbl-soundcore`: Anker Soundcore 3 e JBL Go Essential 2 (seção de 11-07, com linhas de CSV). Com JBL Go 4 e Soundcore 2 já ativas, a pauta fecha com 4.
-2. `teclado-mecanico-switch-blue-ou-red`: Redragon Kumara K552-2 Switch Red (seção de 11-08). Reserva: Mitra K551 (só com 200+ avaliações no ML).
-3. `fone-tws-gamer-baixa-latencia`: Havit TW970 e JBL Quantum TWS Air (seção de 11-08), ambos com risco de não bater o critério; precisa de 2 aprovados.
-4. `melhores-caixas-de-som-bluetooth-ate-100`: continua sem 3 opções. Recomendação mantida: virar "até R$ 200" com Go Essential 2, Go 4, Soundcore 2 (+ Soundcore 3 se o preço couber).
+**Aviso para o cadastrador:** o Mercado Livre segue sem leitura aqui (403). Nota e avaliações do ML **não** foram conferidas. Critério: nota 4,5+ e 200+ avaliações no anúncio, loja oficial ou MercadoLíder, selo Anatel; senão descarte. Preços de outras lojas são indicativos e não vão para o texto dos guias.
+
+### Situação do catálogo contra as pautas e as apostas (46 ativos)
+| Frente | Ativos | Falta |
+|---|---|---|
+| Pauta `fone-tws-gamer-baixa-latencia` (precisa de 4) | Havit TW969 Lite, QCY T17 (gamer); QCY T13 e Philips TAT1209 só como contraste | 1 a 2 fones com modo jogo na ficha |
+| Pauta `teclado-mecanico-switch-blue-ou-red` (precisa de 2) | Dark Avenger K568 (Blue) + Machenike K500 (Red) | nada |
+| Mouses Redragon | Cobra M711 e Griffin M607 ativos | nada obrigatório (reserva abaixo) |
+| Carregador turbo iPhone | Ugreen 30 W CD226, Baseus GaN5 30 W, Samsung 25 W, Ugreen 45 W | nada; falta o **cabo** |
+| Headsets (4) e caixas até R$ 200 (Go 4, Go Essential 2, Soundcore 2) | completos | caixas: 1 reserva (Soundcore 3 foi reprovada) |
+| iPhone 13: capa | 0 | **1 a 2 capas** |
+| Cabo USB-C para Lightning | 0 | **1 a 2 cabos MFi** |
+
+Prioridade de cadastro: (1) cabo USB-C para Lightning, (2) capa iPhone 13, (3) TWS gamer, (4) reservas.
+
+### acessorios-iphone (subnicho novo? use `power-banks-carregadores` para o cabo se o dono não quiser criar subnicho)
+O catálogo não tem subnicho de capas. O cabo cabe em `power-banks-carregadores` (junto dos carregadores). A capa não cabe em nenhum subnicho de `config.yaml`; **o dono decide** se cria `acessorios-celular` (não mexo em `config.yaml`) ou se a capa fica fora. Sem isso, não cadastrar a capa.
+- **Anker Cabo iPhone USB-C para Lightning, Certificado MFi (PowerLine II)** (Anker), preço não confirmado (a página da Anker Brasil só leva à Amazon; a busca marcou esgotado). Por que: marca com garantia vitalícia e MFi, o cabo que combina com os carregadores PD já ativos. Confirmado na Anker Brasil: certificado Apple MFi, 90 cm, garantia vitalícia. **Potência/PD não consta na página: não registre.** Só entra se o ML tiver anúncio de loja oficial Anker com 200+ avaliações.
+  Busca no ML: `Anker Cabo USB-C para Lightning PowerLine II MFi`
+  Linha pronta para o CSV (só falta o link):
+  `anker-powerline-ii-usbc-lightning,power-banks-carregadores,Cabo Anker USB-C para Lightning PowerLine II MFi 90 cm,Anker,PRECO,NOTA,AVAL,COLE_O_LINK,,Certificado Apple MFi;90 cm;Garantia vitalícia segundo o fabricante,sim`
+- **Cabo Ugreen USB-C para Lightning MFi (US305, 1 m)** (Ugreen), preço não confirmado. Por que: Ugreen já tem 4 produtos no catálogo; KaBuM descreve o US305 de 1 m como MFi. Só o título foi visto, **sem ficha lida**; copie os destaques do anúncio do ML. O modelo de 2 m com nylon (KaBuM 950590, código 60761) custa cerca de R$ 208 no Pix, acima do teto de custo-benefício: não cadastrar.
+  Busca no ML: `Cabo Ugreen USB-C Lightning MFi US305 1m`
+- Fora: **Baseus Superior Series 20 W 1 m** (cerca de R$ 38 no Magalu, mas **sem MFi confirmado**; só cadastre se o anúncio disser MFi e tiver 200+ avaliações, e registre só o que ele mostrar).
+
+### Capa iPhone 13 (depende do subnicho)
+A busca não achou Spigen, Ringke, Baseus ou Case-Mate para o iPhone 13 padrão (a Spigen Ultra Hybrid listada era do 13 Mini, não confundir). Só apareceu **Gshield Lybrid transparente** (KaBuM/Fast Shop, entre R$ 79 e R$ 123, indicativo): marca pequena, ficha de "nível militar" é só texto de loja, **não recomendo cadastrar sem nota e avaliações do ML**. Sem linha de CSV. Pedido: o dono me manda 2 links de capas iPhone 13 de loja oficial (Spigen, Ringke ou Baseus) para eu conferir a ficha.
+  Busca no ML: `Capa Spigen Ultra Hybrid iPhone 13 6.1` e `Capa Ringke Fusion iPhone 13`
+
+### Mouses Redragon (reserva, sem ficha nova)
+Os dois ativos bastam. Reservas já fichadas em 11-03: Redragon Invader M719 e Fortrek Striker. Sem nova pesquisa hoje.
+
+### fones-caixas-bluetooth
+- TWS gamer: seguem valendo só o Black Shark Buds 6 ANC (seção abaixo) e o JBL Quantum TWS Air (seção de 11-08); ambos sem nota do ML, só com anúncio de loja oficial e 200+ avaliações. Se nenhum passar, o redator publica a lista com 3 gamer + QCY T13 como contraste.
+- Caixas até R$ 200: Soundcore 3 foi reprovada e Xiaomi 16 W segue sem preço; a lista fecha com as 3 ativas. Quarta opção só se o dono mandar link.
+- Teclado Red (Kumara K552-2, Mitra K551): não precisam mais ser cadastrados, a pauta já fecha com o Machenike.
 
 ### fones-caixas-bluetooth: única novidade, reserva fraca para TWS gamer
 - **Fone Black Shark Buds 6 ANC (branco)** (Black Shark/Xiaomi), R$ 298,98 no Pix na KaBuM (página aberta hoje; indicativo). Confirmado na KaBuM: Bluetooth 6.0, ANC de 45 dB, modo jogo de baixa latência (4 toques; **a página não dá latência em ms**), até 6,5 h nos fones e cerca de 35 h com o estojo, USB-C, 4 ponteiras, garantia de 3 meses do fabricante. **Sem nota nem avaliações na página:** só cadastre se o anúncio do ML tiver 4,5+ e 200+ avaliações e loja oficial. Acima do teto "custo-benefício" dos outros TWS gamer. Sem linha de CSV (ficha incompleta); se aprovado, destaques: Bluetooth 6.0; ANC; modo jogo de baixa latência (segundo o fabricante).

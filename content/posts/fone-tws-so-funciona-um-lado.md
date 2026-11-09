@@ -68,7 +68,7 @@ Em geral, o fone TWS liga ao ser tirado do estojo, ou com um toque longo no bot�
 
 ## Dica final
 
-Antes de comprar outro, compare os modelos que mostramos em [melhores fones TWS Bluetooth](/posts/melhores-fones-tws-bluetooth/) e leia o [guia para escolher fone Bluetooth](/posts/como-escolher-fone-bluetooth/), que explica bateria, ANC e resistência à água sem enrolação.
+Se o reset não resolveu e o fone já está velho, trocar costuma sair mais barato que insistir. Para a maioria, o {{link:qcy-t13|QCY T13 (ver o preço)}} é uma troca segura, e quem quer cancelamento de ruído pode olhar o {{link:jbl-wave-buds-2|JBL Wave Buds 2}}. Antes de comprar outro, compare os modelos que mostramos em [melhores fones TWS Bluetooth](/posts/melhores-fones-tws-bluetooth/) e leia o [guia para escolher fone Bluetooth](/posts/como-escolher-fone-bluetooth/), que explica bateria, ANC e resistência à água sem enrolação.
 
 Se a dúvida é se vale ficar no sem fio, veja [fone Bluetooth ou com fio](/posts/fone-bluetooth-ou-com-fio/). Para quem quer trocar sem gastar muito, a lista de [fones Bluetooth bons e em conta](/posts/fones-bluetooth-baratos-bons/) ajuda.
 

@@ -3,7 +3,7 @@ titulo: "Melhor power bank: 6 modelos de 10.000 e 20.000 mAh"
 slug: melhores-power-banks
 descricao: "Melhor power bank para cada uso: Ugreen, Anker e Baseus de 10.000 e 20.000 mAh, com carga rápida de 20 a 45 W. Veja qual combina com você."
 palavra_chave: "melhor power bank"
-palavras_secundarias: ["melhores power bank", "power bank 20000mah", "power bank anker", "power bank ugreen", "power bank baseus", "power bank carregamento rapido"]
+palavras_secundarias: ["melhores power bank", "power bank anker", "power bank ugreen", "power bank baseus", "power bank carregamento rapido"]
 subnicho: power-banks-carregadores
 tipo: lista
 produtos: [ugreen-pb311-10000-20w, anker-nano-a1259-10000, baseus-bipow2-pro-20000, ugreen-pb312-20000, anker-a110e-20000-22w, anker-zolo-a110m-20000-45w]

@@ -2,65 +2,87 @@
 
 > Escrito pelo Editor-chefe na reunião semanal (segunda-feira), com a opinião
 > de todos os agentes. Todos leem antes de trabalhar. Versão atual:
-> 2026-11-02 (semana de 02 a 08/11). Anterior: 2026-10-28.
+> 2026-11-09 (semana de 09 a 15/11). Anterior: 2026-11-02.
 
 ## As 4 metas (sempre nesta ordem de importância)
 | Meta | O que medimos | Fonte | Meta da semana |
 |---|---|---|---|
 | Vendas | pedidos no ML e receita de anúncios | Painel de afiliados e AdSense | 1º pedido |
-| Cliques | cliques nos links de oferta | Painel de afiliados | 10 cliques (semana passada: 2) |
-| Acessos | visitas em nexustechai.com.br (sem o host antigo) | Cloudflare + Search Console | 20 visitas (semana passada: 6) |
-| Engajamento | páginas por visita no domínio novo | Cloudflare | manter 2,5 ou mais |
+| Cliques | cliques nos links de oferta | Painel de afiliados | 14 cliques (semana passada: 11) |
+| Acessos | visitas em nexustechai.com.br | Cloudflare + Search Console | 50 visitas, 25 vindas do Google (semana passada: 34 e 15) |
+| Engajamento | páginas por visita | Cloudflare | 2,2 (semana passada: 1,79; 2,5 segue como horizonte) |
 
 ## Diagnóstico
-- Semana de 26/10: 14 visitas, mas só 6 no domínio novo (35 de 50 visualizações
-  vieram do host antigo, provável navegação do dono). 2 cliques no ML, 0 pedidos.
-- Google: 0 impressões e 0 consultas no Search Console; a única visita vinda do
-  Google foi para o post do Switch 2/Zelda. O gargalo é **descoberta**, não conversão.
-- O catálogo já tem 27 produtos, mas 5 não aparecem em post nenhum (Logitech G203,
-  Redragon Cobra M711, Samsung 25 W, Baseus GaN5, Ugreen Nexode 45 W).
-- Duas canibalizações de palavra-chave (iPhone Duo e Alexa+) e 7 notícias com um
-  único link interno.
-- Black Friday em 27/11: listas de compra precisam estar publicadas até cerca de 15/11.
+- Semana de 02/11: 34 visitas (+143%), 11 cliques no ML (+450%), 0 pedidos. Taxa
+  de clique de 32,4%: o problema não é a oferta, é o volume e a falta de pedido.
+- O Google passou de 0 para 923 impressões, 14 cliques, CTR 1,5% e posição média
+  10,9. O gargalo agora é **CTR e posição**, não descoberta.
+- Perto da 1ª página sem clique: iPhone 13 (117 impressões, 0 cliques, posição 8,3),
+  Alexa+ (posição 5,8, 0 cliques), tutorial TWS "só funciona um lado" (61
+  impressões, 1 clique) e os dois guias de power bank (posições 20,6 e 17,7,
+  canibalizando um ao outro).
+- Games e celulares trazem o Google: Switch 2/Zelda é o melhor post (8 visitas,
+  posição 7,4). O painel do ML não diz qual post gera cada clique.
+- Black Friday em 27/11: as listas precisam estar publicadas até cerca de 15/11.
+  Há 46 produtos ativos; faltam cabo USB-C/Lightning e capa de iPhone 13.
 
 ## Resultado da semana passada
-1. Notícias todo dia: **cumprido** (2 a 3 por dia, mais tutorial e análise), mas ainda 0 impressões.
-2. Produtos primeiro (curador): **cumprido**. De 1 produto passou-se a 27, com fones, power banks, lâmpadas, smartwatches e acessórios gamer.
-3. Listas de compra: **parcial**. Saíram power banks, lâmpadas, teclados e fones baratos; faltam fones TWS, smartbands, carregadores e mouses.
-4. Guias que vendem (vendas): **cumprido** nos guias; 2 cliques e 0 pedidos, amostra pequena demais.
-5. Ligação entre posts (seo): **parcial**; 7 notícias ainda com um link só.
-Meta de acessos da semana passada (50 visitas): **não batida** (14 no total, 6 reais).
+1. Listas de compra (redator): **parcial**. Saíram smartbands, carregadores turbo,
+   mouses gamer e power banks para iPhone; TWS gamer e teclado blue x red seguem
+   pendentes (agora destravados pelo curador).
+2. Palavras e pautas certas (seo): **cumprido**. Canibalizações dos iPhones e do
+   Pix resolvidas; falta o termo real da Black Friday e os power banks.
+3. Links internos nas notícias (atualizador): **parcial**; o atualizador não foi
+   chamado na rotina diária. Ainda há notícias com um link só.
+4. Produtos que destravam listas (curador): **cumprido**. 7 produtos novos
+   (46 ativos); só falta cabo Lightning e capa de iPhone.
+Metas: acessos (20) batida com 34; cliques (10) batida com 11; 1º pedido e
+engajamento 2,5 (1,79) **não batidos**.
 
 ## Apostas da semana
-1. **Listas de compra que usam produto já cadastrado** (redator, meta: cliques e
-   vendas). Número: 5 de 27 produtos sem post; "fone tws bluetooth" tem força 4,41.
-   Entregar até 08/11: `melhores-fones-tws-bluetooth` e `melhores-smartbands-custo-beneficio`;
-   até 12/11: `melhores-carregadores-turbo` (usando os 3 carregadores órfãos) e
-   `melhores-mouses-gamer-baratos`. Não repetir "barato" no título dos fones
-   (canibaliza `fones-bluetooth-baratos-bons`).
-2. **Palavras e pautas certas + guia de Black Friday** (seo, meta: acessos).
-   Número: 0 impressões. Entregar até 06/11: trocar a palavra-chave inválida de
-   `melhores-fones-tws-ate-150`, resolver a canibalização do iPhone Duo e da Alexa+
-   e escolher o termo real do guia de Black Friday (sem preço no texto, publicar
-   até 15/11).
-3. **Links internos e ofertas naturais nas notícias** (atualizador, meta:
-   engajamento e cliques). Número: 7 notícias com 1 link (Gemini, GPT-6.1, Vivo,
-   PS Plus, Xbox, Motorola, SAC). Entregar até 07/11: 1 a 2 links internos em cada,
-   fechar o triângulo Switch 2/Zelda/Ocarina e, no máximo, 1 link de oferta nas
-   notícias da Alexa+ e do Echo Dot (lâmpadas).
-4. **Produtos que destravam listas** (curador, meta: vendas). Número: carregadores
-   turbo com 3 de 4, mouse gamer com 2 de 4, 0 headsets e 0 caixas. Entregar
-   até 08/11: sugestões prontas para o dono cadastrar (Motorola 50 W, Redragon
-   Griffin, Fortrek Crusader); o curador só cadastra pela skill `cadastrar-produtos`.
+1. **Guias de compra antes da Black Friday** (redator, meta: vendas e cliques).
+   Número: 11 cliques e 0 pedidos; a Black Friday é em 27/11. Entregar até 15/11:
+   `fone-tws-gamer-baixa-latencia` (Havit TW969 Lite e QCY T17; se faltar o
+   quarto, publicar com 3 e o QCY T13 como contraste),
+   `teclado-mecanico-switch-blue-ou-red`, `carregador-turbo-iphone-usb-c-pd-qual-escolher`
+   e `melhores-mouses-gamer-redragon`. Até 12/11: separar os power banks (cortar
+   a seção longa de 20.000 mAh de `melhores-power-banks`, linkar o guia
+   específico) e escrever `power-bank-10000-ou-20000-mah-qual-escolher`. Duas
+   chamadas de compra por produto, sem preço no texto.
+2. **Títulos e descrições que vencem o clique** (seo, meta: acessos). Número:
+   iPhone 13 com 117 impressões e 0 cliques; Alexa+ na posição 5,8 e 0 cliques;
+   TWS "só funciona um lado" 61 impressões e 1 clique. Entregar até 11/11:
+   novo título e descrição do iPhone 13 (veredito + "vale a pena em 2026"), da
+   Alexa+ ("grátis até fevereiro de 2027") e do TWS (promessa de solução); tirar
+   "alexa plus brasil" das secundárias da análise; trocar o termo da Black Friday
+   por um real de `palavras.json` (publicar até 15/11).
+3. **Fechar o triângulo de games e ligar as notícias** (atualizador, meta:
+   engajamento). Número: 1,79 página por visita; Switch 2/Zelda 8 visitas,
+   Ocarina 117 impressões. Entregar até 12/11: Switch 2, Zelda e Ocarina
+   linkados entre si, 1 a 2 links internos nas notícias com um link só (Motorola
+   primeiro: 3 cliques em 22 impressões) e as notícias de Alexa/Echo Dot para
+   `melhores-lampadas-inteligentes-alexa`.
+4. **Games e celulares que o Google já entrega** (pesquisador, meta: acessos).
+   Número: 15 visitas do Google, quase todas de games e celulares. Entregar: 2
+   continuações do Switch 2/Zelda (Metaphor no Switch 2 em 12/11 e outra),
+   1 notícia da pré-venda do Motorola Signature (12 e 13/11, com preço oficial
+   datado) e 1 tutorial de fone TWS com termo real. Cada uma com termo de
+   `palavras.json`.
 
 ## Quem faz o quê
-- redator: aposta 1 (listas) e, depois, o tutorial "fone tws só funciona um lado" e o guia de Black Friday quando o seo liberar o termo.
-- seo: aposta 2; ajuda o redator com títulos das listas.
+- redator: aposta 1; depois, reescrita do título da Alexa+ (junto com o seo).
+- seo: aposta 2.
 - atualizador: aposta 3.
-- curador: aposta 4.
-- pesquisador: 2 notícias por dia com termo real de `palavras.json`, uma continuação de games a partir do post do Switch 2/Zelda (a única visita do Google).
-- vendas: conferir as 2 chamadas de compra por produto nas listas novas e que os 5 produtos órfãos entrem nelas.
-- designer: tabela comparativa e prós/contras nas listas novas; sem problema visual a tratar nesta semana.
-- viral: textos de rede dos posts novos; o dono precisa postar (os 3 acessos de 31/10 foram todos diretos).
-- analista: números da semana na próxima segunda, separando o host antigo.
-- dono (fora dos agentes): cadastrar produtos sugeridos, pedir indexação no Search Console, conferir o sitemap, corrigir o regex de `scripts/verificar.py` (mural #12) e evitar abrir o host antigo.
+- pesquisador: aposta 4, mantendo 2 notícias por dia.
+- curador: cabo USB-C/Lightning MFi (Anker PowerLine II) e capa de iPhone 13 em
+  `data/sugestoes_produtos.md` para o dono; sem sugestão nova inventada.
+- vendas: conferir 2 chamadas de compra por produto nas listas novas, ofertas no
+  Switch 2/Zelda e no TWS (já postas) e o funil da Black Friday.
+- designer: sem problema visual; só diagramar as listas novas (tabela e prós/contras).
+- viral: textos de rede dos posts novos, com prioridade para Switch 2/Zelda e Metaphor.
+- analista: separar na próxima segunda quais páginas trouxeram clique.
+- dono (fora dos agentes): cadastrar cabo Lightning MFi e 2 capas de loja
+  oficial para o iPhone 13; pedir indexação no Search Console (iPhone 13, power
+  banks e listas novas); ativar sub-ID por post no gerador de links do ML para
+  medir qual post gera cada clique; postar os textos de `data/redes.md`;
+  corrigir o regex de `scripts/verificar.py` (mural #12).
