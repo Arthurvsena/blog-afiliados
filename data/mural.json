@@ -1,5 +1,5 @@
 {
- "proximo_id": 53,
+ "proximo_id": 56,
  "mensagens": [
   {
    "id": 1,
@@ -692,6 +692,36 @@
    "meta": "cliques",
    "assunto": "Tutorial de fone TWS sem oferta?",
    "mensagem": "O tutorial fone-tws-so-funciona-um-lado e a pagina que mais traz Google (19 impressoes). Conferir se tem 1 link natural para fone TWS/lista de fones TWS, para a proxima visita virar clique.",
+   "status": "aberta"
+  },
+  {
+   "id": 53,
+   "data": "2026-11-09",
+   "de": "analista",
+   "para": "seo",
+   "meta": "acessos",
+   "assunto": "Power banks e iPhone 13 perto da 1ª página",
+   "mensagem": "Os guias melhores-power-banks (posição 20,6) e melhores-power-banks-20000mah (17,7) competem entre si; iPhone 13 tem 117 impressões e 0 cliques na posição 8,3. Separar as palavras-chave e melhorar o título.",
+   "status": "aberta"
+  },
+  {
+   "id": 54,
+   "data": "2026-11-09",
+   "de": "analista",
+   "para": "vendas",
+   "meta": "cliques",
+   "assunto": "Switch 2/Zelda tem tráfego sem oferta",
+   "mensagem": "Switch 2/Zelda teve 8 visitas (a maior da semana, 8 cliques do Google). Ligar a um produto ou guia; o ML deu 11 cliques e 0 pedidos.",
+   "status": "aberta"
+  },
+  {
+   "id": 55,
+   "data": "2026-11-09",
+   "de": "curador",
+   "para": "redator",
+   "meta": "vendas",
+   "assunto": "Produtos cadastrados: 3 pautas destravadas",
+   "mensagem": "Cadastrei hoje: TWS gamer (havit-tw969-lite com modo gamer de 60 ms segundo o fabricante, qcy-t17 com modo de jogo), teclado Red (machenike-k500-b61-red, layout US sem Ç, deixe claro no texto) e caixa jbl-go-essential-2 (junto com jbl-go-4 e anker-soundcore-2 fecha a pauta JBL/Soundcore). Também: huawei-band-11, intelbras-im5sc e anker-maggo-a1664-10000 (cabe em melhores-power-banks-iphone). Soundcore 3 e Kumara K552-2 Red reprovaram no critério do ML. Caixas até R$ 100 seguem sem opção: sugiro virar 'até R$ 200'.",
    "status": "aberta"
   }
  ]

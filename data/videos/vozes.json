@@ -4,6 +4,15 @@
     "gemini:Fenrir": 0.5,
     "gemini:Orus": 0.5
   },
-  "decisao": "2026-11-03: teste A/B começando, 50% cada, até cada voz ter pelo menos 10 vídeos publicados.",
-  "historico": []
+  "decisao": "2026-11-09: menos de 10 vídeos por voz (Fenrir 6, Orus 3). Shorts: Fenrir 54,8% de retenção (4 vídeos) contra Orus 44,6% (1 vídeo). Amostra pequena: mantém 50/50.",
+  "historico": [
+    {
+      "data": "2026-11-09",
+      "pesos": {
+        "gemini:Fenrir": 0.5,
+        "gemini:Orus": 0.5
+      },
+      "motivo": "2026-11-09: menos de 10 vídeos por voz (Fenrir 6, Orus 3). Shorts: Fenrir 54,8% de retenção (4 vídeos) contra Orus 44,6% (1 vídeo). Amostra pequena: mantém 50/50."
+    }
+  ]
 }

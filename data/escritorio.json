@@ -11,7 +11,7 @@
     },
     "curador": {
       "status": "ok",
-      "tarefa": "Sugeri o Black Shark Buds 6 ANC como reserva para a lista de TWS gamer; o ML segue bloqueando a leitura de nota e avaliações."
+      "tarefa": "Cadastrei 7 produtos com link pelo Chrome: 3 fones e caixas (JBL Go Essential 2, Havit TW969 Lite, QCY T17), 1 teclado Red (Machenike K500-B61), 1 smartband (Huawei Band 11), 1 câmera Wi-Fi (Intelbras iM5SC) e 1 power bank MagSafe (Anker MagGo). Destrava TWS gamer, teclado blue x red e caixas JBL/Soundcore."
     },
     "redator": {
       "status": "ok",
@@ -47,20 +47,10 @@
     },
     "analista": {
       "status": "ok",
-      "tarefa": "Ontem foi 1 visita, vinda do Google; 0 do YouTube. Google: 186 impressões e 2 cliques."
+      "tarefa": "Semana: 34 visitas (+143%), 11 cliques no ML (+450%), 0 pedidos, 14 cliques do Google; meta: 50 visitas."
     }
   },
   "historico": [
-    {
-      "data": "2026-11-05",
-      "agente": "seo",
-      "texto": "Revisei os nove posts e liguei o cluster Switch 2/Zelda/Ocarina."
-    },
-    {
-      "data": "2026-11-05",
-      "agente": "viral",
-      "texto": "Escrevi os textos de rede dos nove posts de hoje."
-    },
     {
       "data": "2026-11-05",
       "agente": "vendas",
@@ -350,6 +340,16 @@
       "data": "2026-11-09",
       "agente": "analista",
       "texto": "Ontem foi 1 visita, vinda do Google; 0 do YouTube. Google: 186 impressões e 2 cliques."
+    },
+    {
+      "data": "2026-11-09",
+      "agente": "analista",
+      "texto": "Semana: 34 visitas (+143%), 11 cliques no ML (+450%), 0 pedidos, 14 cliques do Google; meta: 50 visitas."
+    },
+    {
+      "data": "2026-11-09",
+      "agente": "curador",
+      "texto": "Cadastrei 7 produtos com link pelo Chrome: 3 fones e caixas (JBL Go Essential 2, Havit TW969 Lite, QCY T17), 1 teclado Red (Machenike K500-B61), 1 smartband (Huawei Band 11), 1 câmera Wi-Fi (Intelbras iM5SC) e 1 power bank MagSafe (Anker MagGo). Destrava TWS gamer, teclado blue x red e caixas JBL/Soundcore."
     }
   ]
 }

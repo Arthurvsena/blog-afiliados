@@ -73,6 +73,264 @@
         "Search Console: propriedade de prefixo https://nexustechai.com.br/ com 0 cliques e 0 impressões nos últimos 7 dias (dado mais recente: 31/10); sem consultas nem páginas; posição média indefinida. A propriedade de domínio sc-domain:nexustechai.com.br não existe nesta conta",
         "AdSense: sem dado (a conta Google logada no Chrome não tem AdSense associado; não troquei de conta)"
       ]
+    },
+    {
+      "semana": "2026-11-02",
+      "visitas": 34,
+      "visualizacoes": 61,
+      "cliques_ml": 11,
+      "pedidos": 0,
+      "google": {
+        "cliques": 14,
+        "impressoes": 923,
+        "ctr": 1.5,
+        "posicao": 10.9
+      },
+      "paginas": [
+        {
+          "url": "/",
+          "visitas": 12,
+          "cliques_google": null,
+          "impressoes": null,
+          "posicao": null
+        },
+        {
+          "url": "/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/",
+          "visitas": 8,
+          "cliques_google": 8,
+          "impressoes": 191,
+          "posicao": 7.4
+        },
+        {
+          "url": "/posts/zelda-ocarina-of-time-switch-2-lancamento-5-novembro-preco/",
+          "visitas": 5,
+          "cliques_google": 1,
+          "impressoes": 117,
+          "posicao": 9.9
+        },
+        {
+          "url": "/posts/motorola-signature-27-brasil-pre-registro-data/",
+          "visitas": 3,
+          "cliques_google": 3,
+          "impressoes": 22,
+          "posicao": 8.1
+        },
+        {
+          "url": "/posts/xbox-series-fsr-4-1-gta-6-o-que-muda/",
+          "visitas": 2,
+          "cliques_google": null,
+          "impressoes": null,
+          "posicao": null
+        },
+        {
+          "url": "/posts/melhores-power-banks/",
+          "visitas": null,
+          "cliques_google": 1,
+          "impressoes": 70,
+          "posicao": 20.6
+        },
+        {
+          "url": "/posts/fone-tws-so-funciona-um-lado/",
+          "visitas": null,
+          "cliques_google": 1,
+          "impressoes": 61,
+          "posicao": 7.5
+        },
+        {
+          "url": "/posts/analise-iphone-13-vale-a-pena-em-2026/",
+          "visitas": null,
+          "cliques_google": 0,
+          "impressoes": 117,
+          "posicao": 8.3
+        },
+        {
+          "url": "/posts/melhores-power-banks-20000mah/",
+          "visitas": null,
+          "cliques_google": 0,
+          "impressoes": 51,
+          "posicao": 17.7
+        },
+        {
+          "url": "/posts/alexa-plus-brasil-acesso-gratis-prorrogado-fevereiro-2027/",
+          "visitas": null,
+          "cliques_google": 0,
+          "impressoes": 40,
+          "posicao": 5.8
+        },
+        {
+          "url": "/posts/whatsapp-confirmacao-duas-etapas-como-ativar/",
+          "visitas": null,
+          "cliques_google": 0,
+          "impressoes": 21,
+          "posicao": 10.4
+        },
+        {
+          "url": "/posts/melhores-lampadas-inteligentes-alexa/",
+          "visitas": null,
+          "cliques_google": 0,
+          "impressoes": 20,
+          "posicao": 20.2
+        }
+      ],
+      "consultas": [
+        {
+          "termo": "alexa 2027",
+          "cliques": 0,
+          "impressoes": 8,
+          "posicao": 5.2
+        },
+        {
+          "termo": "iphone 13 compensa em 2026",
+          "cliques": 0,
+          "impressoes": 8,
+          "posicao": 7.5
+        },
+        {
+          "termo": "iphone 13 vale a pena em 2026",
+          "cliques": 0,
+          "impressoes": 8,
+          "posicao": 9.6
+        },
+        {
+          "termo": "vale a pena comprar o iphone 13 em 2026",
+          "cliques": 0,
+          "impressoes": 6,
+          "posicao": 8.5
+        },
+        {
+          "termo": "compensa comprar o iphone 13 em 2026",
+          "cliques": 0,
+          "impressoes": 6,
+          "posicao": 9.8
+        },
+        {
+          "termo": "vale a pena iphone 13 em 2026",
+          "cliques": 0,
+          "impressoes": 4,
+          "posicao": 8.0
+        },
+        {
+          "termo": "iphone 13 em 2026 vale a pena",
+          "cliques": 0,
+          "impressoes": 4,
+          "posicao": 9.2
+        },
+        {
+          "termo": "compensa comprar iphone 13 em 2026",
+          "cliques": 0,
+          "impressoes": 2,
+          "posicao": 5.0
+        },
+        {
+          "termo": "iphone 13 compensa em 2027",
+          "cliques": 0,
+          "impressoes": 2,
+          "posicao": 5.5
+        },
+        {
+          "termo": "ugreen pb311",
+          "cliques": 0,
+          "impressoes": 2,
+          "posicao": 7.0
+        }
+      ],
+      "produtos": [],
+      "origens": [
+        {
+          "origem": "direto",
+          "visitas": 19
+        },
+        {
+          "origem": "google",
+          "visitas": 15
+        }
+      ],
+      "adsense": {
+        "visualizacoes": null,
+        "impressoes": null,
+        "ctr": null
+      },
+      "celular_pct": 35,
+      "youtube": {
+        "views": 2483,
+        "horas": 8.7,
+        "inscritos": 1,
+        "impressoes": 1549,
+        "ctr": 1.4,
+        "videos": [
+          {
+            "slug": "sony-recompra-ps5-usado-nao-chega-brasil",
+            "views": 1130,
+            "retencao_pct": 63.4,
+            "ctr": 5.5,
+            "voz": "gemini:Fenrir"
+          },
+          {
+            "slug": "2026-11-05-ocarina-of-time-switch-2-lancamento",
+            "views": 474,
+            "retencao_pct": 48.1,
+            "ctr": 0.0,
+            "voz": "gemini:Fenrir"
+          },
+          {
+            "slug": "iphone-duo-234-mil-dobras-tela-inteira",
+            "views": 374,
+            "retencao_pct": 58.5,
+            "ctr": 1.2,
+            "voz": "gemini:Fenrir"
+          },
+          {
+            "slug": "2026-11-07-historias-tech-1-orkut",
+            "views": 332,
+            "retencao_pct": 49.3,
+            "ctr": 1.6,
+            "voz": "gemini:Fenrir"
+          },
+          {
+            "slug": "gta-6-212-gb-pre-download (sem registro em videos.json)",
+            "views": 92,
+            "retencao_pct": 40.8,
+            "ctr": 10.5,
+            "voz": null
+          },
+          {
+            "slug": "2026-11-06-gta-6-datas-pre-carregamento-conflito",
+            "views": 53,
+            "retencao_pct": 44.6,
+            "ctr": 0.0,
+            "voz": "gemini:Orus"
+          },
+          {
+            "slug": "black-friday-3-sinais-oferta-falsa (sem registro em videos.json)",
+            "views": 15,
+            "retencao_pct": 48.7,
+            "ctr": 7.4,
+            "voz": null
+          },
+          {
+            "slug": "2026-11-05-chromagraph-camera-app-rian-johnson-iphone",
+            "views": 7,
+            "retencao_pct": 24.6,
+            "ctr": 0.5,
+            "voz": "gemini:Fenrir"
+          },
+          {
+            "slug": "smartband-ou-smartwatch-qual-escolher-2026",
+            "views": 6,
+            "retencao_pct": 72.3,
+            "ctr": 1.5,
+            "voz": "gemini:Orus",
+            "obs": "2 uploads com o mesmo título (5 + 1 views)"
+          }
+        ]
+      },
+      "faltou": [
+        "Mercado Livre: período 2 a 8/nov; 11 cliques, 0 compradores, 0 pedidos; o painel não mostrou cliques por produto (0 vendas)",
+        "Search Console: consultas com cliques ficaram anônimas; as 10 principais por impressões têm 0 cliques; 'paginas.visitas' vem do Cloudflare (visitas por caminho), cliques/impressões/posição do Search Console",
+        "Cloudflare: período fechado 2/11 00:00 a 8/11 23:59 (BRT); 34 visitas, 100% no host nexustechai.com.br; Cloudflare só lista as 5 páginas principais",
+        "AdSense: sem dado (a página redirecionou para login; não fiz login)",
+        "YouTube: 2 Shorts (GTA 6 212 GB e Black Friday) não estão em data/videos.json, voz desconhecida"
+      ]
     }
   ]
 }

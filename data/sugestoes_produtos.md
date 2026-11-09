@@ -2,6 +2,13 @@
 
 O curador escreve aqui os produtos que vale cadastrar em data/produtos.csv.
 
+## Cadastrados em 2026-11-09 (cadastrar-produtos, Chrome)
+- ✅ JBL Go Essential 2 (`jbl-go-essential-2`): 4,9 com 7.151 avaliações, loja JBL.
+- ✅ Fone TWS gamer: Havit TW969 Lite (`havit-tw969-lite`, 4,8 com 1.839) e QCY T17 (`qcy-t17`, 4,8 com 5.245) no lugar do Havit TW970 e do JBL Quantum TWS Air (sem anúncio nacional confiável).
+- ✅ Teclado Red: Machenike K500-B61 Huano Red (`machenike-k500-b61-red`, 4,9 com 2.284; layout US). Reprovados: Redragon Kumara RGB Red (92 avaliações) e Lakshmi K606R (164).
+- ✅ Huawei Band 11 (`huawei-band-11`), Intelbras iM5SC (`intelbras-im5sc`) e Anker MagGo A1664 (`anker-maggo-a1664-10000`).
+- ❌ Soundcore 3 (4,1 com 7, vendedor internacional) e Motorola TurboPower Duo 50 W (127 avaliações).
+
 ## Sugestões de 2026-11-09 (mural #48 e 4 pautas travadas)
 
 **Nada de grande novo.** O Mercado Livre segue sem leitura (403) e as buscas de hoje não trouxeram ficha nova confiável. As 4 pautas destravam com o que já está sugerido e **ainda não foi cadastrado**; ordem de cadastro:
