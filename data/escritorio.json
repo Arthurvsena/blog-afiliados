@@ -1,25 +1,25 @@
 {
-  "ultima_execucao": "2026-11-08T07:50",
+  "ultima_execucao": "2026-11-09T07:50",
   "agentes": {
     "chefe": {
       "status": "ok",
-      "tarefa": "Escolhi 4 notícias, 1 tutorial, 1 análise e 1 guia; a One UI 9 caiu por ter fonte única e as listas de caixas, TWS gamer e teclado Red seguem sem produto."
+      "tarefa": "Publiquei 4 notícias, 1 tutorial e 2 análises; fiquei sem guia de compra porque caixas, TWS gamer e teclado Red seguem sem produto cadastrado."
     },
     "pesquisador": {
       "status": "ok",
-      "tarefa": "Trouxe 5 pautas (Switch 2 depois do Zelda, GTA 6 e pirataria, Quick Share, óculos Gemini e One UI 9); a fila segue com 13 pautas."
+      "tarefa": "Trouxe 5 pautas de notícia (iPhone, HyperOS 4, Paint, Metaphor no Switch 2 e agentes de IA) e 2 de vale a pena (iPhone 12 e 11)."
     },
     "curador": {
       "status": "ok",
-      "tarefa": "Sugeri ao dono um teclado com switch Red e fones TWS de baixa latência; não achei 3 caixas até R$ 100 com ficha confirmada."
+      "tarefa": "Sugeri o Black Shark Buds 6 ANC como reserva para a lista de TWS gamer; o ML segue bloqueando a leitura de nota e avaliações."
     },
     "redator": {
       "status": "ok",
-      "tarefa": "Escrevi quatro notícias, o tutorial de transcrição de áudio do WhatsApp, a análise de iPhone novo ou recondicionado e a lista de power banks para iPhone; a One UI 9 ficou de fora."
+      "tarefa": "Escrevi quatro notícias, o tutorial do golpe do Pix e as análises do iPhone 11 e do iPhone 12; a lista de TWS gamer parou por falta de produto com baixa latência na ficha."
     },
     "seo": {
       "status": "ok",
-      "tarefa": "Revisei os sete posts, troquei a palavra-chave da análise do iPhone por um termo real e liguei Switch 2, GTA 6, Gemini e WhatsApp entre si."
+      "tarefa": "Revisei os sete posts, separei a palavra-chave dos iPhone 11, 12 e 13 e resolvi a canibalização entre os dois posts de golpe do Pix."
     },
     "atualizador": {
       "status": "ocioso",
@@ -27,15 +27,15 @@
     },
     "designer": {
       "status": "ok",
-      "tarefa": "Pus foto e diagramei os sete posts; Take-Two, Quick Share, óculos e WhatsApp ficaram com logo por falta de foto livre."
+      "tarefa": "Pus foto e diagramei os sete posts; HyperOS 4 e Paint ficaram com logo por falta de foto livre."
     },
     "vendas": {
       "status": "ok",
-      "tarefa": "Pus 13 chamadas de compra na lista de power banks para iPhone; as notícias ficaram sem venda forçada."
+      "tarefa": "Liguei as análises dos iPhones e o HyperOS 4 aos guias de power banks e carregadores; as notícias ficaram sem venda forçada."
     },
     "viral": {
       "status": "ok",
-      "tarefa": "Dei nota às pautas e escrevi os textos de rede dos sete posts de hoje, com Switch 2 e GTA 6 primeiro."
+      "tarefa": "Dei nota às pautas e escrevi os textos de rede dos sete posts de hoje; o golpe do Pix e o teclado do iPhone são os mais fortes."
     },
     "produtor": {
       "status": "ok",
@@ -51,16 +51,6 @@
     }
   },
   "historico": [
-    {
-      "data": "2026-11-05",
-      "agente": "pesquisador",
-      "texto": "Trouxe 5 pautas de notícia e 8 de tutoriais, análises e guias."
-    },
-    {
-      "data": "2026-11-05",
-      "agente": "redator",
-      "texto": "Escrevi cinco notícias, um tutorial, uma análise e dois guias."
-    },
     {
       "data": "2026-11-05",
       "agente": "seo",
@@ -320,6 +310,41 @@
       "data": "2026-11-08",
       "agente": "analista",
       "texto": "Ontem foram 3 visitas (1 do Google); o iPhone 13 tem 40 impressões e 0 cliques."
+    },
+    {
+      "data": "2026-11-09",
+      "agente": "pesquisador",
+      "texto": "Trouxe 5 pautas de notícia e 2 de \"vale a pena\" (iPhone 12 e 11)."
+    },
+    {
+      "data": "2026-11-09",
+      "agente": "curador",
+      "texto": "Sugeri o Black Shark Buds 6 ANC como reserva para TWS gamer."
+    },
+    {
+      "data": "2026-11-09",
+      "agente": "redator",
+      "texto": "Escrevi quatro notícias, o tutorial do golpe do Pix e as análises do iPhone 11 e 12."
+    },
+    {
+      "data": "2026-11-09",
+      "agente": "seo",
+      "texto": "Separei as palavras-chave dos iPhones e resolvi a canibalização dos posts de golpe do Pix."
+    },
+    {
+      "data": "2026-11-09",
+      "agente": "viral",
+      "texto": "Escrevi os textos de rede dos sete posts de hoje."
+    },
+    {
+      "data": "2026-11-09",
+      "agente": "vendas",
+      "texto": "Liguei as análises dos iPhones e o HyperOS 4 aos guias de power banks e carregadores."
+    },
+    {
+      "data": "2026-11-09",
+      "agente": "designer",
+      "texto": "Pus foto e diagramei os sete posts."
     }
   ]
 }

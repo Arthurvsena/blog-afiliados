@@ -2,6 +2,22 @@
 
 O curador escreve aqui os produtos que vale cadastrar em data/produtos.csv.
 
+## Sugestões de 2026-11-09 (mural #48 e 4 pautas travadas)
+
+**Nada de grande novo.** O Mercado Livre segue sem leitura (403) e as buscas de hoje não trouxeram ficha nova confiável. As 4 pautas destravam com o que já está sugerido e **ainda não foi cadastrado**; ordem de cadastro:
+1. `melhores-caixas-de-som-bluetooth-jbl-soundcore`: Anker Soundcore 3 e JBL Go Essential 2 (seção de 11-07, com linhas de CSV). Com JBL Go 4 e Soundcore 2 já ativas, a pauta fecha com 4.
+2. `teclado-mecanico-switch-blue-ou-red`: Redragon Kumara K552-2 Switch Red (seção de 11-08). Reserva: Mitra K551 (só com 200+ avaliações no ML).
+3. `fone-tws-gamer-baixa-latencia`: Havit TW970 e JBL Quantum TWS Air (seção de 11-08), ambos com risco de não bater o critério; precisa de 2 aprovados.
+4. `melhores-caixas-de-som-bluetooth-ate-100`: continua sem 3 opções. Recomendação mantida: virar "até R$ 200" com Go Essential 2, Go 4, Soundcore 2 (+ Soundcore 3 se o preço couber).
+
+### fones-caixas-bluetooth: única novidade, reserva fraca para TWS gamer
+- **Fone Black Shark Buds 6 ANC (branco)** (Black Shark/Xiaomi), R$ 298,98 no Pix na KaBuM (página aberta hoje; indicativo). Confirmado na KaBuM: Bluetooth 6.0, ANC de 45 dB, modo jogo de baixa latência (4 toques; **a página não dá latência em ms**), até 6,5 h nos fones e cerca de 35 h com o estojo, USB-C, 4 ponteiras, garantia de 3 meses do fabricante. **Sem nota nem avaliações na página:** só cadastre se o anúncio do ML tiver 4,5+ e 200+ avaliações e loja oficial. Acima do teto "custo-benefício" dos outros TWS gamer. Sem linha de CSV (ficha incompleta); se aprovado, destaques: Bluetooth 6.0; ANC; modo jogo de baixa latência (segundo o fabricante).
+  Busca no ML: `Fone Black Shark Buds 6 ANC`
+- Não confirmados (não usar): QCY G1 (sem latência nem preço no Brasil), Redmi Buds 6 Pro Gaming Edition (20 ms só na China, sem data para o Brasil), Edifier GM4 Mini 1 (65 ms declarados, Tecnoblog achou o modo pouco útil).
+
+### Resumo de 11-09
+Novas: 1 (Black Shark Buds 6, reserva sem nota). Caixas até R$ 100: 0. Teclado Red: 0 novas (Kumara K552-2 pronta). Nota e avaliações do ML não conferidas (403).
+
 ## Cadastrados em 2026-11-05 (cadastrar-produtos, Chrome)
 - ✅ Redragon Griffin M607 e ✅ Fortrek Crusader (preto; a ficha do ML diz 7.200 dpi): `melhores-mouses-gamer-baratos` agora tem 4.
 - ✅ Headsets: Havit H2002d, JBL Quantum 100M2 (versão M2 é a que o ML vende), Redragon Zeus Lite H510-LT e HyperX Cloud Stinger 2 (o Stinger original custa mais e tem menos avaliações).

@@ -2,6 +2,94 @@
 
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
+## 2026-11-09 · Vale a pena comprar o iPhone 12 em 2026? Só com bateria boa
+Link: https://nexustechai.com.br/posts/analise-iphone-12-vale-a-pena-em-2026/
+- WhatsApp: iPhone 12 em 2026 ainda vale? Está na lista do iOS 27 e tem OLED, mas não tem Apple Intelligence e a bateria é de 2.815 mAh. Só compensa barato e com bateria boa. https://nexustechai.com.br/posts/analise-iphone-12-vale-a-pena-em-2026/
+- X: iPhone 12 em 2026: está no iOS 27, tem OLED e 5G, mas fica de fora da Apple Intelligence (4 GB de RAM). Abaixo de 80% de saúde da bateria, negocie. https://nexustechai.com.br/posts/analise-iphone-12-vale-a-pena-em-2026/
+- Instagram (legenda): O iPhone 12 ainda vale em 2026?
+  Está no iOS 27 e tem tela OLED e 5G.
+  Mas não tem Apple Intelligence e a bateria é de 2.815 mAh.
+  Antes de pagar, peça a saúde da bateria. Link na bio.
+  #iPhone12 #Apple #iPhoneUsado
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "iPhone 12 em 2026 ainda vale a pena?" [2-8 s] Fato 1: está na lista do iOS 27 e tem OLED. [8-14 s] Fato 2: não tem Apple Intelligence, só 4 GB de RAM. [14-18 s] Fato 3: bateria de 2.815 mAh, confira a saúde antes de pagar. [18-20 s] "Checklist completo no link da bio."
+
+## 2026-11-09 · Xiaomi Brasil: Poco X8 Pro está na 1ª leva do HyperOS 4
+Link: https://nexustechai.com.br/posts/xiaomi-hyperos-4-liberacao-lista-poco-x8-pro-brasil/
+- WhatsApp: Xiaomi começou a liberar o HyperOS 4 em três levas. Poco X8 Pro e Redmi Note 15 estão na primeira. Atenção: o calendário é global, ainda não há confirmação para o Brasil. https://nexustechai.com.br/posts/xiaomi-hyperos-4-liberacao-lista-poco-x8-pro-brasil/
+- X: HyperOS 4 começou a sair em 4/11, em três levas. Poco X8 Pro e Redmi Note 15 estão na primeira; Poco F7 fica para a segunda quinzena. Calendário global, sem confirmação para o Brasil. https://nexustechai.com.br/posts/xiaomi-hyperos-4-liberacao-lista-poco-x8-pro-brasil/
+- Instagram (legenda): O HyperOS 4 já começou a sair.
+  Poco X8 Pro e Redmi Note 15 estão na primeira leva.
+  Poco F7 espera a segunda quinzena; Redmi Note 14 fica para dezembro.
+  O calendário é global: o Brasil ainda não foi confirmado.
+  #Xiaomi #HyperOS #Poco
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seu Xiaomi está na lista do HyperOS 4?" [2-8 s] Fato 1: começou em novembro, em três levas. [8-14 s] Fato 2: Poco X8 Pro e Redmi Note 15 vão primeiro. [14-18 s] Fato 3: Poco F7 só na segunda quinzena, Note 14 em dezembro. [18-20 s] "Confira seu modelo no link da bio."
+
+## 2026-11-09 · Windows 11: falha no Paint pede atualização pela Store
+Link: https://nexustechai.com.br/posts/microsoft-paint-falha-cve-2026-83844-atualizar-windows-11/
+- WhatsApp: Falha no Paint do Windows 11 (CVE-2026-83844): a correção vem pela Microsoft Store, não pelo Windows Update. Quem está abaixo da versão 11.2609.401.0 deve atualizar. https://nexustechai.com.br/posts/microsoft-paint-falha-cve-2026-83844-atualizar-windows-11/
+- X: Paint do Windows 11 com falha de segurança (CVE-2026-83844): o conserto vem pela Microsoft Store, não pelo Windows Update. Abaixo da versão 11.2609.401.0, atualize. Sem ataque em andamento relatado. https://nexustechai.com.br/posts/microsoft-paint-falha-cve-2026-83844-atualizar-windows-11/
+- Instagram (legenda): Atualizou o Windows e achou que estava seguro?
+  A falha do Paint se corrige pela Microsoft Store, não pelo Windows Update.
+  Versão mínima: 11.2609.401.0.
+  O risco vem de abrir uma imagem preparada. Link na bio.
+  #Windows11 #Segurança #Microsoft
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "O Windows Update não conserta essa falha." [2-8 s] Fato 1: o Paint tem a CVE-2026-83844. [8-14 s] Fato 2: a correção vem pela Microsoft Store. [14-18 s] Fato 3: atualize se estiver abaixo da versão 11.2609.401.0. [18-20 s] "Passo a passo no link da bio."
+
+## 2026-11-09 · Metaphor: ReFantazio chega ao Switch 2 em 12/11
+Link: https://nexustechai.com.br/posts/metaphor-refantazio-switch-2-lancamento-12-novembro/
+- WhatsApp: Metaphor: ReFantazio sai no Switch 2 na quinta (12/11). Tem demo na eShop e o progresso passa para o jogo completo. Preço em reais ainda não saiu. https://nexustechai.com.br/posts/metaphor-refantazio-switch-2-lancamento-12-novembro/
+- X: Metaphor: ReFantazio chega ao Switch 2 na quinta, 12/11. Demo de 29,8 GB na eShop com progresso transferível. Nos EUA custa US$ 39,99; preço em reais ainda não confirmado. https://nexustechai.com.br/posts/metaphor-refantazio-switch-2-lancamento-12-novembro/
+- Instagram (legenda): O RPG dos criadores de Persona chega ao Switch 2 na quinta.
+  Metaphor: ReFantazio tem demo na eShop e o progresso passa para o jogo completo.
+  Preço nos EUA: US$ 39,99. No Brasil, ainda não saiu.
+  Link na bio.
+  #Switch2 #Metaphor #RPG
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Metaphor chega ao Switch 2 quinta." [2-8 s] Fato 1: dia 12/11. [8-14 s] Fato 2: demo de 29,8 GB com progresso transferível. [14-18 s] Fato 3: US$ 39,99 nos EUA, preço em reais ainda não confirmado. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-09 · Agentes de IA pedem corridas? Uber teve só 4 no trimestre
+Link: https://nexustechai.com.br/posts/didi-99-agentes-ia-uber-quatro-corridas-chatgpt/
+- WhatsApp: Pedir Uber pelo ChatGPT quase ninguém faz: foram só 4 corridas por agentes de IA no trimestre. A dona da 99 também chama o volume de insignificante. https://nexustechai.com.br/posts/didi-99-agentes-ia-uber-quatro-corridas-chatgpt/
+- X: A Uber contou só 4 corridas feitas por agentes de IA de terceiros no 3º trimestre. A DiDi, dona da 99, chama o número dela de insignificante. O sonho de mandar o ChatGPT chamar o carro quase não saiu do papel. https://nexustechai.com.br/posts/didi-99-agentes-ia-uber-quatro-corridas-chatgpt/
+- Instagram (legenda): Só 4 corridas em 3 meses.
+  É o que agentes de IA pediram na Uber no trimestre.
+  A dona da 99 diz que o volume dela também é insignificante.
+  Você pediria um carro pelo ChatGPT? Link na bio.
+  #IA #Uber #99
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Pedir Uber pelo ChatGPT? Quase ninguém." [2-8 s] Fato 1: só 4 corridas por agentes de IA no trimestre. [8-14 s] Fato 2: a 99 chama o número de insignificante. [14-18 s] Fato 3: no Uber Eats foram cerca de 500 pedidos em uma semana. [18-20 s] "Leia no link da bio."
+
+## 2026-11-09 · Golpe Pix: como recuperar o dinheiro pelo MED em 80 dias
+Link: https://nexustechai.com.br/posts/golpe-pix-como-recuperar-o-dinheiro/
+- WhatsApp: Caiu em golpe Pix? Abra o app do banco hoje e peça o MED. Dá para contestar em até 80 dias, mas a devolução não é garantida. https://nexustechai.com.br/posts/golpe-pix-como-recuperar-o-dinheiro/
+- X: Golpe no Pix? Peça o MED no app do banco o quanto antes: o prazo é de até 80 dias, mas só volta o que ainda estiver na conta do golpista. Faça também o BO. https://nexustechai.com.br/posts/golpe-pix-como-recuperar-o-dinheiro/
+- Instagram (legenda): Caiu em golpe no Pix?
+  Abra o app do banco e peça o MED, em até 80 dias.
+  Faça o boletim de ocorrência e guarde o protocolo.
+  A devolução não é garantida: só volta o que sobrou na conta do golpista.
+  #Pix #Golpe #SegurançaDigital
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Caiu em golpe no Pix? Faça isso hoje." [2-8 s] Fato 1: peça o MED no app do banco. [8-14 s] Fato 2: prazo de até 80 dias, mas quanto antes melhor. [14-18 s] Fato 3: só volta o que sobrou na conta do golpista. [18-20 s] "Passo a passo no link da bio."
+
+## 2026-11-09 · Vale a pena comprar o iPhone 11 em 2026? Depende da bateria
+Link: https://nexustechai.com.br/posts/analise-iphone-11-vale-a-pena-em-2026/
+- WhatsApp: iPhone 11 em 2026 ainda vale? Entra no iOS 27, mas só compensa barato e com bateria boa. Fica sem Apple Intelligence. https://nexustechai.com.br/posts/analise-iphone-11-vale-a-pena-em-2026/
+- X: iPhone 11 em 2026: recebe o iOS 27, mas tem tela LCD, Lightning e nenhuma função de Apple Intelligence. Só compensa barato e com bateria saudável, nota fiscal e garantia. https://nexustechai.com.br/posts/analise-iphone-11-vale-a-pena-em-2026/
+- Instagram (legenda): iPhone 11 ainda vale a pena em 2026?
+  Recebe o iOS 27, mas fica sem Apple Intelligence.
+  Tem tela LCD e porta Lightning.
+  Só compensa barato e com bateria boa. Link na bio.
+  #iPhone11 #Apple #iPhoneUsado
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "iPhone 11 em 2026, vale?" [2-8 s] Fato 1: recebe o iOS 27. [8-14 s] Fato 2: sem Apple Intelligence, com LCD e Lightning. [14-18 s] Fato 3: tudo depende da saúde da bateria. [18-20 s] "Checklist no link da bio."
+
+## 2026-11-09 · Teclado do iPhone evita sugerir 266 termos em português
+Link: https://nexustechai.com.br/posts/iphone-teclado-lista-palavras-bloqueadas-ios-26-3/
+- WhatsApp: O teclado do iPhone tem uma lista de termos que ele evita sugerir, 266 em português (número de um pesquisador, não da Apple). Você digita o que quiser; só não ganha sugestão. https://nexustechai.com.br/posts/iphone-teclado-lista-palavras-bloqueadas-ios-26-3/
+- X: Pesquisador achou no iOS uma lista de 1.119 termos que o teclado do iPhone evita sugerir, 266 em português. Tem xingamentos e expressões políticas. Dá para digitar tudo; a Apple não detalhou os critérios. https://nexustechai.com.br/posts/iphone-teclado-lista-palavras-bloqueadas-ios-26-3/
+- Instagram (legenda): O teclado do iPhone tem uma lista de palavras que não sugere.
+  Um pesquisador achou 1.119 termos, 266 em português.
+  Você pode digitar tudo normalmente.
+  A Apple não explicou por que há expressões políticas. Link na bio.
+  #iphone #ios #apple
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "O seu iPhone evita sugerir certas palavras." [2-8 s] Fato 1: um pesquisador achou 1.119 termos no iOS, 266 em português. [8-14 s] Fato 2: a maioria é palavrão, mas há expressões políticas. [14-18 s] Fato 3: você ainda digita tudo; só some a sugestão. [18-20 s] "Detalhes e resposta da Apple no link da bio."
+
 ## 2026-11-08 · Power bank iPhone: 4 modelos USB-C PD para a Black Friday
 Link: https://nexustechai.com.br/posts/melhores-power-banks-iphone/
 - WhatsApp: Vai comprar power bank para o iPhone? Procure USB-C com PD de 20 W ou mais e confira o cabo: do iPhone 15 em diante é USB-C, no 14 e anteriores é Lightning. Separei 4 modelos: https://nexustechai.com.br/posts/melhores-power-banks-iphone/
@@ -354,94 +442,7 @@ Link: https://nexustechai.com.br/posts/tomada-inteligente-vale-a-pena-como-funci
   #tomadainteligente #casainteligente #alexa
 - TikTok/Reels (roteiro de 20 s): [0-2 s] "Tomada inteligente: cuidado com os amperes." [2-8 s] Fato 1: o limite costuma ser 10 A. [8-14 s] Fato 2: ar-condicionado e chuveiro pedem mais. [14-18 s] Fato 3: ela não reduz o consumo, só evita o que ficaria ligado à toa. [18-20 s] "Guia completo no link da bio."
 
-## 2026-11-04 · Zelda Ocarina of Time Switch 2: Nintendo diz quem fez o remake
-Link: https://nexustechai.com.br/posts/ocarina-of-time-switch-2-quem-fez-remake-nintendo-epd/
-Postar hoje (4/11), antes do lançamento de amanhã (5/11).
-- WhatsApp: O remake de Zelda Ocarina of Time sai amanhã no Switch 2 e foi feito pela equipe de Breath of the Wild, segundo a Nintendo. Monolith Soft e Grezzo, que apareciam nos rumores, ficaram de fora: https://nexustechai.com.br/posts/ocarina-of-time-switch-2-quem-fez-remake-nintendo-epd/
-- X: O remake de Ocarina of Time (Switch 2, sai amanhã) foi feito pela equipe interna de Breath of the Wild e Tears of the Kingdom, o EPD Production Group No. 3, diz a Nintendo. Quem dirige e por que a escolha: https://nexustechai.com.br/posts/ocarina-of-time-switch-2-quem-fez-remake-nintendo-epd/
-- Instagram (legenda): Quem fez o remake de Ocarina of Time?
-  A própria Nintendo: a equipe de Breath of the Wild e Tears of the Kingdom.
-  Os rumores de Monolith Soft e Grezzo caíram, segundo a imprensa.
-  O jogo sai amanhã, só no Switch 2. Link na bio.
-  #zelda #ocarinaoftime #switch2
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Quem fez o remake de Ocarina of Time?" [2-8 s] Fato 1: a Nintendo diz que foi a equipe de Breath of the Wild e Tears of the Kingdom. [8-14 s] Fato 2: Monolith Soft e Grezzo, citadas em rumores, não estão no projeto, segundo a imprensa. [14-18 s] Fato 3: o jogo sai amanhã, 5/11, só no Switch 2. [18-20 s] "Detalhes no link da bio."
 
-## 2026-11-04 · Xiaomi 18 Pro vai ter versão global: e o Brasil?
-Link: https://nexustechai.com.br/posts/xiaomi-18-pro-versao-global-brasil-preco-vazado/
-- WhatsApp: O Xiaomi 18 Pro vai ter versão global, a Xiaomi confirmou. Mas data, preço em euro e bateria menor são só vazamento, e o Brasil continua sem confirmação: https://nexustechai.com.br/posts/xiaomi-18-pro-versao-global-brasil-preco-vazado/
-- X: Xiaomi 18 Pro: versão global confirmada pela Xiaomi, sem data. Vazamento aponta € 1.449 na Europa e bateria de 6.000 mAh. Nada confirmado, e o Brasil segue sem anúncio: https://nexustechai.com.br/posts/xiaomi-18-pro-versao-global-brasil-preco-vazado/
-- Instagram (legenda): Xiaomi 18 Pro global: o que é fato e o que é vazamento.
-  Fato: a versão global foi confirmada, sem data.
-  Vazamento: € 1.449 na Europa e bateria de 6.000 mAh.
-  Brasil: sem confirmação. Link na bio.
-  #xiaomi #xiaomi18pro #celular
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Xiaomi 18 Pro no Brasil: ainda não." [2-8 s] Fato 1: a Xiaomi confirmou a versão global, sem data. [8-14 s] Fato 2: vazamento fala em € 1.449 e bateria de 6.000 mAh; nada confirmado. [14-18 s] Fato 3: não há plano anunciado para o Brasil. [18-20 s] "Detalhes no link da bio."
 
-## 2026-11-04 · ChatGPT teria 20% das buscas do Google, diz a OpenAI
-Link: https://nexustechai.com.br/posts/chatgpt-20-por-cento-buscas-google-openai-diz/
-- WhatsApp: A OpenAI diz que o ChatGPT já tem 20% do volume de buscas do Google. A conta é da própria empresa, sem relatório e sem dado do Brasil: https://nexustechai.com.br/posts/chatgpt-20-por-cento-buscas-google-openai-diz/
-- X: Segundo a OpenAI, o ChatGPT já processa 20% do volume de buscas do Google. Número da própria empresa, com critério próprio de "busca", sem relatório público e sem recorte do Brasil: https://nexustechai.com.br/posts/chatgpt-20-por-cento-buscas-google-openai-diz/
-- Instagram (legenda): ChatGPT com 20% das buscas do Google?
-  É o que a OpenAI diz, não um estudo independente.
-  A empresa só contou pergunta que vira pesquisa na web.
-  Sem relatório e sem dado do Brasil. Link na bio.
-  #chatgpt #openai #google
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "ChatGPT já tem 20% das buscas do Google? Calma." [2-8 s] Fato 1: quem disse foi a própria OpenAI, num evento. [8-14 s] Fato 2: ela só contou perguntas que viram pesquisa na web, e não mostrou relatório. [14-18 s] Fato 3: não há dado específico do Brasil. [18-20 s] "Análise no link da bio."
-
-## 2026-11-04 · YouTube autorização judicial menores: quem precisa de alvará
-Link: https://nexustechai.com.br/posts/youtube-autorizacao-judicial-videos-criancas-eca-digital/
-Lembrar de manter o tom de notícia, não de orientação jurídica.
-- WhatsApp: Se você tem canal que monetiza vídeos com criança, o YouTube avisou que pode pedir autorização da Vara da Infância. Sem ela, o vídeo pode ser desmonetizado. Canal comum não é afetado, segundo as reportagens: https://nexustechai.com.br/posts/youtube-autorizacao-judicial-videos-criancas-eca-digital/
-- X: YouTube avisa criadores no Brasil: vídeo monetizado com criança ou adolescente pode exigir autorização judicial. Sem ela, desmonetização. O alvo é o canal que explora a rotina de menores, não o vídeo ocasional: https://nexustechai.com.br/posts/youtube-autorizacao-judicial-videos-criancas-eca-digital/
-- Instagram (legenda): Canal com criança monetizado precisa de alvará?
-  O YouTube avisou criadores no Brasil: pode precisar de autorização da Vara da Infância.
-  Sem ela, o vídeo pode ser desmonetizado.
-  Não é orientação jurídica; fale com um advogado. Link na bio.
-  #youtube #criadores #eca
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Canal com criança no YouTube pode precisar de alvará." [2-8 s] Fato 1: o aviso vale para vídeo monetizado que explora a imagem ou a rotina de menores. [8-14 s] Fato 2: sem a autorização, o vídeo pode ser desmonetizado. [14-18 s] Fato 3: o pedido é na Vara da Infância e é o responsável legal quem faz. [18-20 s] "Detalhes no link da bio."
-
-## 2026-11-04 · Smart Sampa: nova falha expõe 17 mil câmeras, diz o UOL
-Link: https://nexustechai.com.br/posts/smart-sampa-segunda-falha-17-mil-cameras-expostas/
-- WhatsApp: Segunda brecha em um mês no Smart Sampa: cerca de 17 mil câmeras de empresas conveniadas ficaram sem senha por 5 dias, segundo o UOL. A prefeitura nega falha e fala em vazamento ilegal de planilha: https://nexustechai.com.br/posts/smart-sampa-segunda-falha-17-mil-cameras-expostas/
-- X: Smart Sampa: o UOL diz que 17 mil câmeras de conveniadas ficaram acessíveis sem senha por 5 dias. A prefeitura nega falha e fala em vazamento ilegal de planilha interna. As duas versões ainda não batem: https://nexustechai.com.br/posts/smart-sampa-segunda-falha-17-mil-cameras-expostas/
-- Instagram (legenda): Segunda exposição de dados do Smart Sampa em um mês.
-  O UOL fala em 17 mil câmeras sem senha por 5 dias.
-  A prefeitura nega falha e diz que foi vazamento ilegal.
-  Os links saíram do ar em 30/10. Link na bio.
-  #smartsampa #privacidade #seguranca
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Smart Sampa: 17 mil câmeras sem senha." [2-8 s] Fato 1: segundo o UOL, ficaram acessíveis por 5 dias. [8-14 s] Fato 2: a prefeitura nega falha e fala em vazamento ilegal de uma planilha. [14-18 s] Fato 3: é a segunda exposição em um mês. [18-20 s] "Entenda no link da bio."
-
-## 2026-11-04 · Fone TWS só funciona um lado: como resolver em 6 passos
-Link: https://nexustechai.com.br/posts/fone-tws-so-funciona-um-lado/
-- WhatsApp: Fone Bluetooth tocando só de um lado? Quase sempre é falta de sincronia, não defeito. Carregue os dois, apague o fone no celular e resete os dois juntos. Passo a passo: https://nexustechai.com.br/posts/fone-tws-so-funciona-um-lado/
-- X: Fone TWS só funciona de um lado? Na maioria dos casos os dois perderam a sincronia. Carregue os dois, esqueça o fone no celular e resete os dois juntos. Passo a passo em 6 etapas: https://nexustechai.com.br/posts/fone-tws-so-funciona-um-lado/
-- Instagram (legenda): Um lado do fone mudo? Antes de jogar fora, tente isto.
-  Carregue os dois fones por completo.
-  Apague o fone da lista Bluetooth do celular.
-  Resete os dois juntos. Link na bio.
-  #fonebluetooth #tws #dicadetecnologia
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Fone Bluetooth só toca de um lado? Não jogue fora." [2-8 s] Passo 1: carregue os dois fones por completo. [8-14 s] Passo 2: apague o fone da lista Bluetooth do celular. [14-18 s] Passo 3: resete os dois fones juntos; o botão muda por marca. [18-20 s] "Passo a passo completo no link da bio."
-
-## 2026-11-04 · Alexa compatível com Alexa Plus: quais Echo e vale assinar?
-Link: https://nexustechai.com.br/posts/analise-alexa-plus-brasil-vale-a-pena-assinar/
-- WhatsApp: A Alexa+ é grátis no Brasil até pelo menos fevereiro de 2027 para quem tem Prime e um Echo ou Fire TV recente. Vale pedir acesso; o plano avulso de R$ 99 por mês, não. Veja se o seu aparelho entra: https://nexustechai.com.br/posts/analise-alexa-plus-brasil-vale-a-pena-assinar/
-- X: Alexa+ no Brasil: grátis até pelo menos fev/2027 para assinante Prime com Echo ou Fire TV compatível. Na minha leitura, o plano avulso de R$ 99 por mês não compensa. Lista de aparelhos e análise: https://nexustechai.com.br/posts/analise-alexa-plus-brasil-vale-a-pena-assinar/
-- Instagram (legenda): Sua Alexa é compatível com a Alexa+?
-  Quase toda a linha Echo recente e vários Fire TV entram.
-  É grátis até pelo menos fev/2027 para quem tem Prime.
-  O plano avulso de R$ 99 por mês não compensa, na minha leitura. Link na bio.
-  #alexa #amazon #casainteligente
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Sua Alexa é compatível com a Alexa+?" [2-8 s] Fato 1: quase toda a linha Echo recente e vários Fire TV entram. [8-14 s] Fato 2: é grátis até pelo menos fevereiro de 2027 para quem tem Prime. [14-18 s] Fato 3: o plano avulso de R$ 99 por mês não vale, na minha leitura. [18-20 s] "Análise completa no link da bio."
-
-## 2026-11-04 · Melhor carregador turbo: 3 opções de 25 W a 45 W em 2026
-Link: https://nexustechai.com.br/posts/melhores-carregadores-turbo/
-- WhatsApp: Qual carregador turbo comprar? Comparei 3: Samsung 25 W, Baseus 30 W e Ugreen 45 W. A escolha depende dos watts do seu celular e de quantos aparelhos você carrega. Dados da ficha, sem teste: https://nexustechai.com.br/posts/melhores-carregadores-turbo/
-- X: Carregador turbo USB-C: Samsung 25 W, Baseus 30 W ou Ugreen 45 W? Celular que aceita menos que o carregador não estraga, só puxa o que suporta. Para quem serve cada um: https://nexustechai.com.br/posts/melhores-carregadores-turbo/
-- Instagram (legenda): Quantos watts seu carregador precisa ter?
-  Galaxy comum: o Samsung de 25 W resolve.
-  Celular e outro aparelho juntos: Ugreen de 45 W.
-  Baseus de 30 W fica no meio do caminho. Link na bio.
-  #carregador #usbc #tecnologia
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Carregador de 45 W estraga celular que aceita menos? Não." [2-8 s] Fato 1: celular e carregador negociam a potência, e o aparelho puxa só o que suporta. [8-14 s] Fato 2: Samsung de 25 W serve para Galaxy comum. [14-18 s] Fato 3: Ugreen de 45 W carrega dois aparelhos. [18-20 s] "Comparativo no link da bio."
 
 

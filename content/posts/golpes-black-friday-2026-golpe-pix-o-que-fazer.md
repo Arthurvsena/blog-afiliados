@@ -3,7 +3,7 @@ titulo: "Golpe Pix o que fazer na Black Friday: MED em até 80 dias"
 slug: golpes-black-friday-2026-golpe-pix-o-que-fazer
 descricao: "Sites falsos são o golpe mais temido (53%), diz a Serasa. Veja golpe Pix o que fazer e como pedir a devolução pelo MED em até 80 dias."
 palavra_chave: "golpe pix o que fazer"
-palavras_secundarias: ["golpe pix como recuperar", "golpe pix como funciona"]
+palavras_secundarias: ["golpe pix como funciona"]
 editoria: tecnologia
 tipo: noticia
 publicado: 2026-11-03 15:00
@@ -69,7 +69,7 @@ Quem caiu deve acionar o banco o quanto antes. De acordo com a Forbes, é possí
 
 Na minha leitura, registre também um boletim de ocorrência, que ajuda a documentar o caso. Guarde prints do anúncio, do comprovante e da conversa.
 
-Se o golpe veio por mensagem de um conhecido, veja [WhatsApp clonado: o que fazer agora](/posts/whatsapp-clonado-o-que-fazer-passo-a-passo/). Para baixar o risco de o golpe começar no seu celular, vale ativar a [confirmação em duas etapas do WhatsApp](/posts/whatsapp-confirmacao-duas-etapas-como-ativar/). E o [caso do Mercado Bitcoin](/posts/mercado-bitcoin-incidente-seguranca-saques-suspensos/) mostra que segurança falha até em empresa grande.
+Já caiu e quer o passo a passo do MED? Leia [golpe Pix: como recuperar o dinheiro](/posts/golpe-pix-como-recuperar-o-dinheiro/). Se o golpe veio por mensagem de um conhecido, veja [WhatsApp clonado: o que fazer agora](/posts/whatsapp-clonado-o-que-fazer-passo-a-passo/). Para baixar o risco de o golpe começar no seu celular, vale ativar a [confirmação em duas etapas do WhatsApp](/posts/whatsapp-confirmacao-duas-etapas-como-ativar/). E o [caso do Mercado Bitcoin](/posts/mercado-bitcoin-incidente-seguranca-saques-suspensos/) mostra que segurança falha até em empresa grande.
 
 :::atencao Aja rápido
 Acione o banco o quanto antes e peça a devolução pelo MED em até 80 dias da transação. A devolução não é garantida.

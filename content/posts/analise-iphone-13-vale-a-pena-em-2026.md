@@ -141,7 +141,7 @@ Não vale para quem quer tirar foto com zoom, guardar o aparelho por muitos anos
 ## Alternativas
 
 - **iPhone 14 ou 15:** o Canaltech os cita como opção se o 13 estiver caro. O 15 ainda tem uma vida de software mais longa.
-- **iPhone 12 e iPhone 11:** mais baratos, mas mais velhos. Só para orçamento apertado e se a bateria estiver boa.
+- **iPhone 12 e iPhone 11:** mais baratos, mas mais velhos. Só para orçamento apertado e se a bateria estiver boa. Veja as análises do [iPhone 12](/posts/analise-iphone-12-vale-a-pena-em-2026/) e do [iPhone 11](/posts/analise-iphone-11-vale-a-pena-em-2026/).
 - **Android intermediário:** no mesmo valor de um 13, dá para ter tela de 120 Hz e carga mais rápida, só que sem o iOS.
 - **Esperar o dobrável:** se você sonha alto, leia [iPhone Duo vale a pena? Ficha, preço e para quem serve](/posts/iphone-duo-vale-a-pena-dobravel/). É outra faixa de preço e outro tipo de compra, sem relação direta com o 13.
 

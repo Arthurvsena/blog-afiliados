@@ -77,6 +77,8 @@ Se você planeja trocar de celular neste fim de ano, não segure a compra por um
 
 Quem está de olho em outros topos de linha tem dois pontos de comparação aqui no portal: o [Motorola Signature 27, com evento no Brasil em 5/11](/posts/motorola-signature-27-brasil-pre-registro-data/), e o recado da Apple sobre [memória mais cara e o preço do próximo iPhone](/posts/apple-memoria-mais-cara-2027-iphone-preco-brasil/).
 
+Já tem Xiaomi e quer saber quando chega o sistema novo? Veja a [lista de levas do HyperOS 4 e o Poco X8 Pro no Brasil](/posts/xiaomi-hyperos-4-liberacao-lista-poco-x8-pro-brasil/).
+
 ## Perguntas rápidas
 
 **O Xiaomi 18 Pro vai ser vendido no Brasil?** Não há confirmação. O que a Xiaomi confirmou foi a versão global, sem lista de países.
