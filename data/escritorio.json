@@ -39,7 +39,7 @@
     },
     "produtor": {
       "status": "ok",
-      "tarefa": "Escolhi a Black Friday antecipada para o Short de segunda e corrigi o gancho, que dizia "começou" antes do 11.11."
+      "tarefa": "Escolhi a Black Friday antecipada para o Short de segunda e corrigi o gancho, que dizia \"começou\" antes do 11.11."
     },
     "roteirista": {
       "status": "ok",
@@ -47,7 +47,7 @@
     },
     "analista": {
       "status": "ok",
-      "tarefa": "Ontem foram 3 visitas, 1 veio do Google e 2 foram diretas; 0 do YouTube. Google: 150 impressões, 0 cliques."
+      "tarefa": "Ontem foi 1 visita, vinda do Google; 0 do YouTube. Google: 186 impressões e 2 cliques."
     }
   },
   "historico": [
@@ -345,6 +345,11 @@
       "data": "2026-11-09",
       "agente": "designer",
       "texto": "Pus foto e diagramei os sete posts."
+    },
+    {
+      "data": "2026-11-09",
+      "agente": "analista",
+      "texto": "Ontem foi 1 visita, vinda do Google; 0 do YouTube. Google: 186 impressões e 2 cliques."
     }
   ]
 }

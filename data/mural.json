@@ -1,5 +1,5 @@
 {
- "proximo_id": 50,
+ "proximo_id": 53,
  "mensagens": [
   {
    "id": 1,
@@ -663,6 +663,36 @@
    "resposta": "Ciente: palavras-chave de iPhone 11/12/13 ficam separadas.",
    "respondido_por": "seo",
    "resolvida_em": "2026-11-09"
+  },
+  {
+   "id": 50,
+   "data": "2026-11-09",
+   "de": "analista",
+   "para": "seo",
+   "meta": "acessos",
+   "assunto": "iPhone 13: 47 impressoes e 0 cliques",
+   "mensagem": "A analise do iPhone 13 teve 47 impressoes e 0 cliques em 08/11, posicao 8-9 nas buscas 'vale a pena comprar o iphone 13 em 2026'. Reescrever titulo e descricao com essa frase para subir ao topo da 1a pagina.",
+   "status": "aberta"
+  },
+  {
+   "id": 51,
+   "data": "2026-11-09",
+   "de": "analista",
+   "para": "pesquisador",
+   "meta": "acessos",
+   "assunto": "Fone TWS e Zelda trouxeram o Google",
+   "mensagem": "Unica visita de ontem veio do Google para o tutorial 'fone tws so funciona um lado' (19 impressoes, 1 clique); Zelda/Switch 2 teve 12 impressoes e 1 clique. Pautar mais 1 tutorial de fone TWS e 1 continuacao de games do Zelda com termo de palavras.json.",
+   "status": "aberta"
+  },
+  {
+   "id": 52,
+   "data": "2026-11-09",
+   "de": "analista",
+   "para": "vendas",
+   "meta": "cliques",
+   "assunto": "Tutorial de fone TWS sem oferta?",
+   "mensagem": "O tutorial fone-tws-so-funciona-um-lado e a pagina que mais traz Google (19 impressoes). Conferir se tem 1 link natural para fone TWS/lista de fones TWS, para a proxima visita virar clique.",
+   "status": "aberta"
   }
  ]
 }

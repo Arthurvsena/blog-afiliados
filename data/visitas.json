@@ -665,6 +665,106 @@
         }
       },
       "faltou": []
+    },
+    {
+      "dia": "2026-11-08",
+      "visitas": 1,
+      "visualizacoes": 1,
+      "celular_pct": 100,
+      "youtube": 0,
+      "paginas": [
+        {
+          "url": "/posts/fone-tws-so-funciona-um-lado/",
+          "visitas": 1
+        }
+      ],
+      "paginas_vistas": [
+        {
+          "url": "/posts/fone-tws-so-funciona-um-lado/",
+          "visualizacoes": 1
+        }
+      ],
+      "origens": [
+        {
+          "origem": "google",
+          "visitas": 1
+        }
+      ],
+      "paises": [
+        {
+          "pais": "Brasil",
+          "visitas": 1
+        }
+      ],
+      "google": {
+        "dia": "2026-11-08",
+        "cliques": 2,
+        "impressoes": 186,
+        "posicao_media": 9.0,
+        "consultas": [
+          {
+            "termo": "vale a pena comprar o iphone 13 em 2026",
+            "cliques": 0,
+            "impressoes": 5
+          },
+          {
+            "termo": "iphone 13 compensa em 2026",
+            "cliques": 0,
+            "impressoes": 4
+          },
+          {
+            "termo": "compensa comprar o iphone 13 em 2026",
+            "cliques": 0,
+            "impressoes": 4
+          },
+          {
+            "termo": "iphone 13 em 2026 vale a pena",
+            "cliques": 0,
+            "impressoes": 4
+          },
+          {
+            "termo": "novo zelda preço",
+            "cliques": 0,
+            "impressoes": 2
+          }
+        ],
+        "paginas": [
+          {
+            "url": "/posts/fone-tws-so-funciona-um-lado/",
+            "cliques": 1,
+            "impressoes": 19
+          },
+          {
+            "url": "/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/",
+            "cliques": 1,
+            "impressoes": 12
+          },
+          {
+            "url": "/posts/analise-iphone-13-vale-a-pena-em-2026/",
+            "cliques": 0,
+            "impressoes": 47
+          },
+          {
+            "url": "/posts/zelda-ocarina-of-time-switch-2-lancamento-5-novembro-preco/",
+            "cliques": 0,
+            "impressoes": 26
+          },
+          {
+            "url": "/posts/melhores-power-banks/",
+            "cliques": 0,
+            "impressoes": 16
+          }
+        ],
+        "dia_anterior": {
+          "dia": "2026-11-07",
+          "cliques": 0,
+          "impressoes": 153,
+          "posicao_media": 13.8
+        }
+      },
+      "faltou": [
+        "Search Console de 08/11 ainda parcial (dado recente, pode subir)"
+      ]
     }
   ]
 }

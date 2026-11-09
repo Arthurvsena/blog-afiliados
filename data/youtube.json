@@ -1,14 +1,14 @@
 {
-  "atualizado": "2026-11-08",
-  "periodo": "últimos 28 dias (até 07/11)",
+  "atualizado": "2026-11-09",
+  "periodo": "últimos 28 dias (até 08/11)",
   "canal": {
-    "visualizacoes": 2398,
-    "horas": 8.3,
+    "visualizacoes": 2483,
+    "horas": 8.7,
     "inscritos_saldo": 1,
     "inscritos_total": 1,
-    "impressoes": 1469,
+    "impressoes": 1549,
     "ctr": 1.4,
-    "pct_media": 56.7,
+    "pct_media": 56.3,
     "duracao_media": "0:25"
   },
   "videos": [
@@ -16,20 +16,20 @@
       "titulo": "Sony quer comprar seu PS5 usado, mas não no Brasil #shorts",
       "tipo": "short",
       "quadro": null,
-      "duracao": "0:46",
-      "views": 1126,
+      "duracao": "0:39",
+      "views": 1130,
       "horas": 4.5,
       "inscritos": 1,
       "duracao_media": "0:24",
       "pct_media": 63.4,
-      "impressoes": 113,
-      "ctr": 5.3
+      "impressoes": 128,
+      "ctr": 5.5
     },
     {
       "titulo": "Ocarina of Time no Switch 2 saiu: R$ 329,90 #shorts",
       "tipo": "short",
       "quadro": "60s",
-      "duracao": "0:50",
+      "duracao": "0:46",
       "views": 474,
       "horas": 1.2,
       "inscritos": 0,
@@ -42,33 +42,33 @@
       "titulo": "iPhone Duo: 234 mil dobras e a tela segue inteira #shorts",
       "tipo": "short",
       "quadro": null,
-      "duracao": "1:01",
-      "views": 373,
+      "duracao": "0:50",
+      "views": 374,
       "horas": 1.2,
       "inscritos": 1,
       "duracao_media": "0:29",
       "pct_media": 58.5,
-      "impressoes": 161,
+      "impressoes": 167,
       "ctr": 1.2
     },
     {
       "titulo": "História do Orkut: por que o Google desligou? #shorts",
       "tipo": "short",
       "quadro": "historias",
-      "duracao": "0:38",
-      "views": 262,
-      "horas": 0.9,
-      "inscritos": null,
-      "duracao_media": "0:29",
-      "pct_media": 48.8,
-      "impressoes": 29,
-      "ctr": 3.5
+      "duracao": "1:01",
+      "views": 332,
+      "horas": 1.2,
+      "inscritos": 0,
+      "duracao_media": "0:30",
+      "pct_media": 49.3,
+      "impressoes": 61,
+      "ctr": 1.6
     },
     {
       "titulo": "GTA 6 ocupa até 212 GB e dá para baixar antes #shorts",
       "tipo": "short",
       "quadro": null,
-      "duracao": "0:50",
+      "duracao": "0:38",
       "views": 92,
       "horas": 0.1,
       "inscritos": 0,
@@ -81,12 +81,12 @@
       "titulo": "GTA 6 pré-carregamento: 10 ou 12/11? Datas divergem #shorts",
       "tipo": "short",
       "quadro": "60s",
-      "duracao": "0:40",
-      "views": 44,
+      "duracao": "0:50",
+      "views": 53,
       "horas": 0.1,
       "inscritos": 0,
-      "duracao_media": "0:19",
-      "pct_media": 39.6,
+      "duracao_media": "0:22",
+      "pct_media": 44.6,
       "impressoes": 9,
       "ctr": 0
     },
@@ -94,27 +94,27 @@
       "titulo": "Black Friday: 3 sinais de oferta falsa para não cair #shorts",
       "tipo": "short",
       "quadro": null,
-      "duracao": "0:39",
+      "duracao": "0:40",
       "views": 15,
       "horas": 0.0,
       "inscritos": 0,
       "duracao_media": "0:19",
       "pct_media": 48.7,
-      "impressoes": 26,
-      "ctr": 7.7
+      "impressoes": 27,
+      "ctr": 7.4
     },
     {
       "titulo": "Chromagraph Camera já está no Brasil: vale R$ 34,90?",
       "tipo": "longo",
       "quadro": "lafora",
       "duracao": "4:18",
-      "views": 6,
+      "views": 7,
       "horas": 0.1,
       "inscritos": 0,
-      "duracao_media": "1:11",
-      "pct_media": 27.6,
-      "impressoes": 731,
-      "ctr": 0.6
+      "duracao_media": "1:03",
+      "pct_media": 24.6,
+      "impressoes": 756,
+      "ctr": 0.5
     },
     {
       "titulo": "Smartband ou smartwatch: qual vale para o seu dia a dia?",
@@ -126,7 +126,7 @@
       "inscritos": 0,
       "duracao_media": "2:52",
       "pct_media": 72.3,
-      "impressoes": 206,
+      "impressoes": 207,
       "ctr": 1.5
     },
     {
@@ -157,6 +157,11 @@
     {
       "dia": "2026-11-08",
       "visualizacoes_28d": 2398,
+      "inscritos_saldo_28d": 1
+    },
+    {
+      "dia": "2026-11-09",
+      "visualizacoes_28d": 2483,
       "inscritos_saldo_28d": 1
     }
   ],
