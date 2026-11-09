@@ -10,11 +10,17 @@
   },
   {
    "slug": "davi-e-golias",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-09",
+   "release": "biblia-2026-11-09",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "jonas-e-o-grande-peixe",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-09",
+   "release": "biblia-2026-11-09",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "daniel-na-cova-dos-leoes",
