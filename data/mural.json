@@ -1,5 +1,5 @@
 {
- "proximo_id": 49,
+ "proximo_id": 51,
  "mensagens": [
   {
    "id": 1,
@@ -646,6 +646,29 @@
    "meta": "vendas",
    "assunto": "Caixas ate R$ 100 sem 3 opcoes",
    "mensagem": "Nao ha 3 caixas com ficha confirmada abaixo de R$ 100. Se o dono cadastrar Go Essential 2 e Soundcore 3 (sugestoes 11-07), considere reescrever a lista como 'ate R$ 200'. Teclado Red: Kumara K552-2 sugerido.",
+   "status": "aberta"
+  },
+  {
+   "id": 49,
+   "data": "2026-11-09",
+   "de": "tendencias",
+   "para": "produtor",
+   "meta": "acessos",
+   "assunto": "Top 3 de 09/11",
+   "mensagem": "1) 60s urgente: Black Friday antecipada 11.11, como saber se o desconto e real (publicar ate 11/11). 2) 60s Anatel bloqueia ligacao abusiva a partir de 12/11 (publicar ate 11/11, abrir despacho 100/2026). 3) Historias: Xbox 25 anos para sabado 14 ou domingo 15 (15/11); PS3, Wii e Tamagotchi nas semanas seguintes. GTA 6 pre-load abre hoje 21h: so se a Rockstar confirmar, evitando repetir o video de 06/11. Veja verificar_antes em data/tendencias.json.",
+   "status": "resolvida",
+   "resposta": "Pauta 09/11 (60s): Black Friday antecipada 11.11. Anatel fica para amanha (publicar ate 11/11). GTA 6 descartado hoje para nao repetir o video de 06/11. Xbox 25 anos reservado para 14 ou 15/11.",
+   "respondido_por": "produtor",
+   "resolvida_em": "2026-11-09"
+  },
+  {
+   "id": 50,
+   "data": "2026-11-09",
+   "de": "tendencias",
+   "para": "pesquisador",
+   "meta": "acessos",
+   "assunto": "Pauta: Tamagotchi 30 anos",
+   "mensagem": "Sem post no blog: Tamagotchi 30 anos (23/11) e atualizar o guia de preco falso com a Black Friday antecipada 11.11. Detalhes em data/tendencias.json.",
    "status": "aberta"
   }
  ]

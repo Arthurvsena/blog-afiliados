@@ -1,0 +1,62 @@
+{
+ "tipo": "short",
+ "quadro": "60s",
+ "slug": "2026-11-09-black-friday-antecipada-desconto-real",
+ "post": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
+ "titulo": "Black Friday antecipada: 3 regras contra preço falso #shorts",
+ "resumo": "A Black Friday antecipada chega com cupons do Mercado Livre no 11.11, 16 dias antes de 27/11. O selo da loja só vale para o menor preço dos últimos 60 dias, e três regras simples ajudam a não cair em preço inflado.",
+ "hashtags": ["BlackFriday", "BlackFriday2026", "MercadoLivre", "Ofertas"],
+ "palavra_chave": "black friday antecipada",
+ "fontes": [
+  {"nome": "Meio & Mensagem", "url": "https://www.meioemensagem.com.br/marketing/mercado-livre-explorara-cupons-para-11-11-e-black-friday"},
+  {"nome": "Mercado Livre: Black Friday 2026", "url": "https://www.mercadolivre.com.br/black-friday"},
+  {"nome": "Tecnoblog", "url": "https://tecnoblog.net/achados/cupons-black-friday-2026-mercado-livre/"}
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A Black Friday chega 16 dias antes.",
+   "tela": "A Black Friday chega 16 dias antes",
+   "imagens": ["tela:https://www.mercadolivre.com.br/ofertas"]
+  },
+  {
+   "tipo": "fato",
+   "fala": "O Mercado Livre vai usar cupons no {11.11|onze onze}. A Black Friday oficial só cai em {27/11|vinte e sete de novembro}.",
+   "imagens": ["tela:https://www.mercadolivre.com.br/black-friday"],
+   "fonte": "Meio & Mensagem, 28/10"
+  },
+  {
+   "tipo": "numero",
+   "fala": "Regra um: olhe o selo. No Mercado Livre, ele só vale para o menor preço em {60 dias|sessenta dias}.",
+   "destaque": "60 dias",
+   "rotulo": "de histórico para ganhar o selo",
+   "fonte": "Meio & Mensagem, 28/10"
+  },
+  {
+   "tipo": "manchete",
+   "fala": "Está na matéria: o selo vai só para produtos com os menores preços dos últimos sessenta dias.",
+   "manchete": {
+    "url": "https://www.meioemensagem.com.br/marketing/mercado-livre-explorara-cupons-para-11-11-e-black-friday",
+    "trecho": "concedido exclusivamente a produtos em promoção com os menores preços dos últimos 60 dias"
+   }
+  },
+  {
+   "tipo": "lista",
+   "fala": "Regra dois: anote o preço hoje. Regra três: compare em duas lojas e confira se é a mesma versão.",
+   "titulo_lista": "3 REGRAS",
+   "itens": ["Selo: menor preço em 60 dias", "Anote o preço de hoje", "Compare 2 lojas e a versão"],
+   "imagens": ["tela:https://www.mercadolivre.com.br/"]
+  },
+  {
+   "tipo": "fato",
+   "fala": "Desconto grande não prova nada. O que conta é quanto você paga, comparado a uma terça qualquer.",
+   "imagens": ["tela:https://www.mercadolivre.com.br/black-friday"]
+  },
+  {
+   "tipo": "cta",
+   "fala": "O método completo está no link da bio. Porque a Black Friday chega 16 dias antes.",
+   "tela": "Você já checou o preço?",
+   "imagens": ["tela:https://www.meioemensagem.com.br/marketing/mercado-livre-explorara-cupons-para-11-11-e-black-friday"]
+  }
+ ]
+}

@@ -1,6 +1,80 @@
 {
-  "atualizado": "2026-11-08",
+  "atualizado": "2026-11-09",
   "tendencias": [
+    {
+      "data": "2026-11-09",
+      "assunto": "11.11 e Black Friday antecipada: Mercado Livre, Shopee e Magalu liberam cupons dias antes de 27/11",
+      "por_que_em_alta": "Gazeta SP e Diário do Pará (nos resultados de busca de hoje): Shopee, Mercado Livre e Magalu adiantam a Black Friday para o dia 11, com R$ 125 milhões em cupons; Meio & Mensagem e Tecnoblog (Black November, cupons de até 15% em celular, relógio e tablet). Black Friday oficial em 27/11. Não consegui abrir a Gazeta SP (403): confirmar os números em outra fonte.",
+      "evidencias": [
+        "https://www.gazetasp.com.br/economia/shopee-mercado-livre-e-magalu-adiantam-black-friday-de-27-de-novembro-para-o-dia-11-com-r-125-milhoes-em-cupons/",
+        "https://www.meioemensagem.com.br/marketing/mercado-livre-explorara-cupons-para-11-11-e-black-friday",
+        "https://tecnoblog.net/achados/cupons-black-friday-2026-mercado-livre/"
+      ],
+      "angulo": "Gancho: a Black Friday começou 16 dias antes. Como saber se o desconto é real (histórico de preço dos últimos 60 dias, selo do Mercado Livre) e as 3 regras para não cair em preço inflado. Complementa o vídeo de golpes de 03/11 sem repetir: aqui o assunto é preço falso, não site falso.",
+      "formato": "guia",
+      "tipo": "short",
+      "quadro": "60s",
+      "verificar_antes": "Abrir a página oficial de cupons/ofertas do Mercado Livre e a regra do selo Black Friday (menor preço em 60 dias, vinda do Meio & Mensagem) e confirmar os R$ 125 milhões em uma segunda fonte. Publicar até 11/11. Sem valor de comissão em nenhum lugar.",
+      "fontes": [
+        {"nome": "Gazeta SP", "url": "https://www.gazetasp.com.br/economia/shopee-mercado-livre-e-magalu-adiantam-black-friday-de-27-de-novembro-para-o-dia-11-com-r-125-milhoes-em-cupons/"},
+        {"nome": "Meio & Mensagem", "url": "https://www.meioemensagem.com.br/marketing/mercado-livre-explorara-cupons-para-11-11-e-black-friday"},
+        {"nome": "Tecnoblog (cupons Black November)", "url": "https://tecnoblog.net/achados/cupons-black-friday-2026-mercado-livre/"}
+      ],
+      "imagens_oficiais": [],
+      "post_relacionado": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
+      "produto": {"id": "", "como_encaixa": "Sem produto no vídeo; o post liga ao guia de compras."},
+      "nota": 4,
+      "status": "em_video"
+    },
+    {
+      "data": "2026-11-09",
+      "assunto": "Histórias Tech: Tamagotchi, 30 anos do bichinho virtual que esgotou em 48 horas",
+      "por_que_em_alta": "Data redonda: lançado no Japão pela Bandai em 23/11/1996; 30 anos em duas semanas. Xataka Brasil (set/2025) fala em 100 milhões de unidades; Bandai também marcou o 30º ano. Nostalgia millennial forte no Brasil.",
+      "evidencias": [
+        "https://www.xataka.com.br/diversos/100-milhoes-tamagotchis-em-30-anos-motivo-pelo-qual-eles-continuam-vendendo-tem-um-nome-nostalgia-millennial",
+        "https://istoedinheiro.com.br/tamagotchi-nostalgia-mercado"
+      ],
+      "angulo": "Gancho: um ovo de plástico com 3 botões esgotou em 48 horas e vendeu mais de 100 milhões. Auge (1996-97, criado por Aki Maita), virada (modinha que sumiu das lojas e voltou como nostalgia/Wi-Fi), lição: produto simples que cria vínculo emocional sobrevive a qualquer moda. Fecha com pergunta: qual foi o seu e quantas vezes morreu?",
+      "formato": "curiosidade",
+      "tipo": "short",
+      "quadro": "historias",
+      "verificar_antes": "Data 23/11/1996 aparece em resumo de busca, não na Xataka: confirmar em 2 fontes (Bandai oficial e outra). 'Esgotou em 48 horas' e 'cerca de 30 países em poucos meses' vieram de um resultado de busca. Vendas: 91 mi (reportagem BR, 2023) x 98,1 mi x 100 mi (Bandai, jul/2025): usar só o número oficial da Bandai com a data. Publicar de 21 a 23/11.",
+      "fontes": [
+        {"nome": "Xataka Brasil", "url": "https://www.xataka.com.br/diversos/100-milhoes-tamagotchis-em-30-anos-motivo-pelo-qual-eles-continuam-vendendo-tem-um-nome-nostalgia-millennial"},
+        {"nome": "IstoÉ Dinheiro", "url": "https://istoedinheiro.com.br/tamagotchi-nostalgia-mercado"},
+        {"nome": "Bandai Namco (comunicado)", "url": "https://www.bandainamco.co.jp/"}
+      ],
+      "imagens_oficiais": ["https://tamagotchi-official.com/"],
+      "post_relacionado": "",
+      "produto": {"id": "", "como_encaixa": "Sem produto."},
+      "nota": 4,
+      "status": "nova"
+    },
+    {
+      "data": "2026-11-09",
+      "assunto": "GTA 6: o pré-carregamento abre hoje à noite (Xbox 21h) e à 0h de terça (PS5), 212 GB",
+      "por_que_em_alta": "Fontes de hoje (Fast Company Brasil, Diário de Pernambuco, PlayNews, Canaltech) convergem: Xbox 21h de 09/11 e PS5 0h de 10/11, horário de Brasília; só o Overdrive ainda cita 12/11. Lançamento em 19/11. Nosso Short de 06/11 tratou do conflito de datas; este é o 'chegou a hora'.",
+      "evidencias": [
+        "https://fastcompanybrasil.com/games/gta-6-tem-data-pre-download-veja-quando-baixar-ps5-xbox/",
+        "https://www.diariodepernambuco.com.br/tecnologia/2026/11/11728271-gta-6-pre-carregamento-comeca-em-10-de-novembro-e-exige-ate-212-gb-de-espaco.html",
+        "https://canaltech.com.br/games/rockstar-prepara-pre-carregamento-e-brindes-para-lancamento-de-gta-6/"
+      ],
+      "angulo": "Gancho: o download do GTA 6 libera hoje às 21h no Xbox e à meia-noite no PS5. Só para quem comprou digital; 212 GB; o pré-load não antecipa o jogo (19/11). Risco de repetir o vídeo de 06/11: abrir com a ação (checar espaço agora) e não com a divergência de datas.",
+      "formato": "alerta",
+      "tipo": "short",
+      "quadro": "60s",
+      "verificar_antes": "OBRIGATÓRIO conferir no Rockstar Newswire/suporte a data oficial por plataforma antes do roteiro. Se a Rockstar confirmar, publicar hoje ou amanhã às 12h; passado de 10/11, já perde o gancho.",
+      "fontes": [
+        {"nome": "Fast Company Brasil", "url": "https://fastcompanybrasil.com/games/gta-6-tem-data-pre-download-veja-quando-baixar-ps5-xbox/"},
+        {"nome": "Canaltech", "url": "https://canaltech.com.br/games/rockstar-prepara-pre-carregamento-e-brindes-para-lancamento-de-gta-6/"},
+        {"nome": "Rockstar Games Newswire", "url": "https://www.rockstargames.com/newswire"}
+      ],
+      "imagens_oficiais": ["https://www.rockstargames.com/newswire"],
+      "post_relacionado": "gta-6-pre-carregamento-horario-ps5-xbox-212-gb",
+      "produto": {"id": "", "como_encaixa": "Editorial puro."},
+      "nota": 4,
+      "status": "nova"
+    },
     {
       "data": "2026-11-07",
       "assunto": "Histórias Tech: Xbox, os 25 anos do console que a Microsoft lançou para enfrentar a Sony",
