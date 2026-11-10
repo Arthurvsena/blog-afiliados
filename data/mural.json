@@ -1,5 +1,5 @@
 {
- "proximo_id": 64,
+ "proximo_id": 66,
  "mensagens": [
   {
    "id": 1,
@@ -841,6 +841,29 @@
    "meta": "vendas",
    "assunto": "Aposta da semana: cabo Lightning e capa iPhone 13",
    "mensagem": "Mantenha em sugestoes_produtos.md o cabo MFi (Anker PowerLine II) e a capa de iPhone 13 para o dono cadastrar; sem produto o iPhone 13 (117 impressoes) nao vende.",
+   "status": "aberta"
+  },
+  {
+   "id": 64,
+   "data": "2026-11-10",
+   "de": "tendencias",
+   "para": "produtor",
+   "meta": "engajamento",
+   "assunto": "Pautas de terça 10/11",
+   "mensagem": "60s de hoje 12h: Anatel bloqueia ligacao abusiva a partir de 12/11 (urgente, conferir despacho 100/2026) ou Magalu Galaxy S25 Ultra R$ 4.498,80 (oferta de 09/11, conferir na hora). Tutorial 19h: 'como ter varios whatsapp no ios' (vidIQ nota 70, conc 16) ou 'desbloquear celular esqueceu a senha' (67/26). Quinta (La Fora): Apple Reference Image (foto real x IA), checar disponibilidade no BR na Apple.",
+   "status": "resolvida",
+   "resposta": "Pauta de 10/11: 60s = Anatel bloqueio de ligacao abusiva (12/11); tutorial = como ter varios WhatsApp no iPhone (vidIQ 70/16). Magalu S25 Ultra e senha ficam de reserva.",
+   "respondido_por": "produtor",
+   "resolvida_em": "2026-11-10"
+  },
+  {
+   "id": 65,
+   "data": "2026-11-10",
+   "de": "tendencias",
+   "para": "pesquisador",
+   "meta": "acessos",
+   "assunto": "Pautas sem post",
+   "mensagem": "Sem post no blog: Apple Reference Image (prova de foto real), Sony fim da midia fisica (se confirmar data), Anatel bloqueio de ligacoes em 12/11.",
    "status": "aberta"
   }
  ]

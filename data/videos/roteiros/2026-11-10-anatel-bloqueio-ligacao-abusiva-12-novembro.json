@@ -1,0 +1,107 @@
+{
+ "tipo": "short",
+ "quadro": "60s",
+ "slug": "2026-11-10-anatel-bloqueio-ligacao-abusiva-12-novembro",
+ "post": "anatel-chamadas-abusivas-bloqueio-12-novembro-despacho-100",
+ "palavra_chave": "anatel bloqueio ligações",
+ "titulo": "Anatel bloqueio de ligações: regra vale dia 12 #shorts",
+ "titulo_opcoes": [
+  "Anatel bloqueio de ligações: regra vale dia 12 #shorts",
+  "Anatel vai bloquear ligações em massa por 15 dias #shorts",
+  "Bloqueio de ligações abusivas: o spam vai acabar? #shorts"
+ ],
+ "resumo": "O bloqueio de ligações da Anatel entra em vigor em 12/11 (Despacho 100/2026): as operadoras devem barrar por 15 dias quem dispara chamadas em massa. O alvo é quem dispara, não quem recebe, e o efeito não é imediato: há prazos de até 10 dias para notificar e até 5 para bloquear.",
+ "hashtags": [
+  "Anatel",
+  "Spam",
+  "Golpe",
+  "Telefonia"
+ ],
+ "selo": "Nexus em 60s",
+ "fontes": [
+  {
+   "nome": "Teletime (Despacho Decisório 100/2026, DOU de 19/10)",
+   "url": "https://teletime.com.br/19/10/2026/operadoras-bloqueio-chamadas-abusivas/"
+  },
+  {
+   "nome": "Convergência Digital",
+   "url": "https://convergenciadigital.com.br/?p=56376"
+  },
+  {
+   "nome": "Atlas Público",
+   "url": "https://atlaspublico.com.br/noticias/anatel-define-criterios-para-bloquear-por-15-dias-chamadas-92999"
+  },
+  {
+   "nome": "Anatel",
+   "url": "https://www.gov.br/anatel/pt-br/consumidor/chamadas-abusivas/medidas-cautelares"
+  }
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "As operadoras vão poder bloquear quem liga em massa.",
+   "tela": "Bloqueio de quem liga em massa",
+   "imagens": [
+    "content/imagens/anatel-chamadas-abusivas-bloqueio-12-novembro-despacho-100.jpg"
+   ]
+  },
+  {
+   "tipo": "data",
+   "fala": "A regra é o Despacho {100 barra 2026|cem de dois mil e vinte e seis}, da Anatel, publicado em 19 de outubro. Vale a partir de 12 de novembro.",
+   "destaque": "12 NOV 2026",
+   "rotulo": "regra entra em vigor",
+   "fonte": "Teletime, 19/10"
+  },
+  {
+   "tipo": "manchete",
+   "fala": "A operadora deve bloquear, por 15 dias, a capacidade de fazer ligações de quem abusa.",
+   "manchete": {
+    "url": "https://teletime.com.br/19/10/2026/operadoras-bloqueio-chamadas-abusivas/",
+    "trecho": "bloquear, pelo período de 15 dias, a capacidade de realizar ligações"
+   },
+   "imagens": [
+    "tela:https://teletime.com.br/19/10/2026/operadoras-bloqueio-chamadas-abusivas/"
+   ]
+  },
+  {
+   "tipo": "numero",
+   "fala": "O critério: passar de {1.000|mil} ligações por acesso no mesmo dia, ou {10.000|dez mil} somando vários números.",
+   "destaque": "1.000",
+   "rotulo": "ligações por acesso, no mesmo dia",
+   "fonte": "Teletime e Atlas Público"
+  },
+  {
+   "tipo": "info",
+   "fala": "E pelo menos {85%|oitenta e cinco por cento} das chamadas precisam ser curtas: até seis segundos ou caixa postal. O jeito do robô.",
+   "icone": "relogio",
+   "fonte": "Teletime, 19/10"
+  },
+  {
+   "tipo": "lista",
+   "fala": "O alvo é quem dispara em massa, não quem recebe. E o efeito não é imediato: até dez dias para notificar, até cinco para bloquear.",
+   "imagens": [
+    "tela:https://atlaspublico.com.br/noticias/anatel-define-criterios-para-bloquear-por-15-dias-chamadas-92999"
+   ],
+   "titulo_lista": "OS PRAZOS",
+   "itens": [
+    "Até 10 dias para notificar",
+    "Até 5 dias para bloquear",
+    "15 dias de bloqueio"
+   ],
+   "fonte": "Teletime e Atlas Público"
+  },
+  {
+   "tipo": "fato",
+   "fala": "Ou seja: o robô ganha uns dias de aviso. Quem recebe ainda vai conviver com o spam por um tempo.",
+   "tela": "O robô ganha dias de aviso"
+  },
+  {
+   "tipo": "cta",
+   "fala": "Para silenciar desconhecidos hoje, o passo a passo está no link da bio. Resumo: a partir de quinta,",
+   "tela": "Quantos spams você recebe por dia?",
+   "imagens": [
+    "tela:https://nexustechai.com.br/"
+   ]
+  }
+ ]
+}

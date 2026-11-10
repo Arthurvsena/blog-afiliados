@@ -1,6 +1,127 @@
 {
-  "atualizado": "2026-11-09",
+  "atualizado": "2026-11-10",
   "tendencias": [
+    {
+      "data": "2026-11-10",
+      "assunto": "Magalu faz queima do Galaxy S25 Ultra antes da Black Friday: R$ 4.498,80 no Pix com cupom",
+      "por_que_em_alta": "Canaltech (09/11, 17h19): Galaxy S25 Ultra 256 GB/12 GB a R$ 4.498,80 no Pix com o cupom INFLU300, contra R$ 11.999 no lançamento. Celular top com queda forte é busca certa na semana do 11.11. Não está no Google Trends BR de hoje (sem tema de tecnologia nos 10 primeiros).",
+      "evidencias": [
+        "https://canaltech.com.br/smartphone/magalu-faz-queima-de-galaxy-s25-ultra-antes-da-black-friday/"
+      ],
+      "angulo": "Gancho: o celular de R$ 11.999 caiu para R$ 4.498 em menos de dois anos. Por que o top de linha desvaloriza tanto, quando vale comprar o modelo do ano passado e a ressalva: cupom e Pix, preço muda sem aviso.",
+      "formato": "noticia",
+      "tipo": "short",
+      "quadro": "60s",
+      "verificar_antes": "OFERTA COM PRAZO: abrir a página do Magalu e conferir preço, cupom e estoque na hora de gravar; falar 'preço visto em 09/11'. Confirmar o preço de lançamento (R$ 11.999) em uma segunda fonte. Sem link de afiliado do Magalu; se o S25 Ultra estiver no catálogo (ML), o curador avalia. Sem valor de comissão em lugar nenhum.",
+      "fontes": [
+        {"nome": "Canaltech", "url": "https://canaltech.com.br/smartphone/magalu-faz-queima-de-galaxy-s25-ultra-antes-da-black-friday/"},
+        {"nome": "Magazine Luiza (página da oferta, a conferir)", "url": "https://www.magazineluiza.com.br/"}
+      ],
+      "imagens_oficiais": ["https://www.samsung.com/br/smartphones/galaxy-s25-ultra/"],
+      "post_relacionado": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
+      "produto": {"id": "", "como_encaixa": "Conferir no CSV se há celular Samsung ativo=sim; senão editorial."},
+      "nota": 4,
+      "status": "nova"
+    },
+    {
+      "data": "2026-11-10",
+      "assunto": "Apple Reference Image: o modo do iPhone que prova que a foto não é de IA",
+      "por_que_em_alta": "Tecnoblog, Canaltech e Mundo Conectado em português; Nieman Lab, Cult of Mac, Notebookcheck e Techlicious lá fora (5+ fontes de fora). Tecnoblog segue destacando o tema hoje. Fontes divergem sobre o estágio (beta do iOS 27 ou iPhone 18 Pro) e dizem que a Apple não detalhou o Brasil.",
+      "evidencias": [
+        "https://tecnoblog.net/noticias/iphone-ganhara-modo-que-prova-que-foto-e-real-e-nao-foi-gerada-por-ia/",
+        "https://canaltech.com.br/smartphone/iphone-18-pro-ganha-recurso-para-provar-que-foto-nao-foi-criada-por-ia",
+        "https://www.niemanlab.org/2026/09/apple-launches-a-new-way-to-prove-a-photo-was-shot-with-an-iphone-not-generated-by-ai/",
+        "https://www.cultofmac.com/news/apple-reference-image"
+      ],
+      "angulo": "Gancho: num mundo de foto falsa com IA, o iPhone quer assinar a sua foto como verdadeira. Como funciona (dados do sensor + servidor da Apple, opcional nos Ajustes da câmera), o que NÃO prova, como difere do C2PA/Content Credentials (Leica, Sony, Nikon, Google) e se chega ao Brasil. Liga ao tema golpes com IA.",
+      "formato": "explicador",
+      "tipo": "longo",
+      "quadro": "lafora",
+      "origem": "gringo",
+      "criterios_gringo": "1 sim (Nieman Lab, Cult of Mac, Notebookcheck, Techlicious); 2 parcial (iPhone vende muito no BR, disponibilidade indefinida); 3 parcial (Tecnoblog e Canaltech cobriram em texto, vídeo em PT quase nada: buscar no YouTube BR antes); 4 sim (posts de iPhone e golpes)",
+      "verificar_antes": "Abrir o anúncio/página de suporte oficial da Apple: em que versão (iOS 27? iPhone 18 Pro?), quais mercados e se vale para o Brasil. Não afirmar disponibilidade aqui sem fonte.",
+      "fontes": [
+        {"nome": "Tecnoblog", "url": "https://tecnoblog.net/noticias/iphone-ganhara-modo-que-prova-que-foto-e-real-e-nao-foi-gerada-por-ia/"},
+        {"nome": "Canaltech", "url": "https://canaltech.com.br/smartphone/iphone-18-pro-ganha-recurso-para-provar-que-foto-nao-foi-criada-por-ia"},
+        {"nome": "Nieman Lab", "url": "https://www.niemanlab.org/2026/09/apple-launches-a-new-way-to-prove-a-photo-was-shot-with-an-iphone-not-generated-by-ai/"},
+        {"nome": "Cult of Mac", "url": "https://www.cultofmac.com/news/apple-reference-image"}
+      ],
+      "imagens_oficiais": ["https://www.apple.com/br/newsroom/"],
+      "post_relacionado": "iphone-duo-vale-a-pena-dobravel",
+      "produto": {"id": "", "como_encaixa": "Editorial puro."},
+      "nota": 4,
+      "status": "nova"
+    },
+    {
+      "data": "2026-11-10",
+      "assunto": "Sony acaba com a mídia física: Kojima chama de 'muito triste' e petição passa de 165 mil assinaturas",
+      "por_que_em_alta": "Tecnoblog (marcado como 'hoje' na página inicial), Critical Hits, TecMundo e Rolling Stone Brasil; Insider Gaming e Notebookcheck lá fora. A CFO da Sony reconheceu as críticas e manteve o plano. Tema forte na semana do GTA 6 (a mídia física é o assunto do pré-download de 212 GB).",
+      "evidencias": [
+        "https://tecnoblog.net/noticias/hideo-kojima-critica-fim-da-midia-fisica-no-playstation/",
+        "https://tecnoblog.net/noticias/sony-reconhece-criticas-mas-mantem-fim-da-midia-fisica/",
+        "https://criticalhits.com.br/games/hideo-kojima-se-posiciona-contra-o-fim-dos-jogos-fisicos-da-sony/",
+        "https://insider-gaming.com/hideo-kojima-says-the-end-of-physical-games-is-frightening/"
+      ],
+      "angulo": "Gancho: a Sony vai parar de fazer jogos em disco e até o criador de Metal Gear acha triste. O que muda para quem compra jogo no Brasil (revenda, empréstimo, preço, acesso offline) e o que a Sony disse. Sem opinião sobre a empresa além do que as fontes sustentam.",
+      "formato": "explicador",
+      "tipo": "short",
+      "quadro": "60s",
+      "verificar_antes": "BLOQUEANTE para números: a data do fim da mídia física (um resumo de busca diz 'a partir de janeiro de 2028') e as 165 mil assinaturas (Rolling Stone) precisam ser confirmadas no comunicado da Sony/PlayStation Blog e em 2 fontes. Confirmar o escopo (só jogos novos? só PS6?). Se não confirmar, descartar.",
+      "fontes": [
+        {"nome": "Tecnoblog (Kojima)", "url": "https://tecnoblog.net/noticias/hideo-kojima-critica-fim-da-midia-fisica-no-playstation/"},
+        {"nome": "Tecnoblog (Sony mantém)", "url": "https://tecnoblog.net/noticias/sony-reconhece-criticas-mas-mantem-fim-da-midia-fisica/"},
+        {"nome": "Critical Hits", "url": "https://criticalhits.com.br/games/hideo-kojima-se-posiciona-contra-o-fim-dos-jogos-fisicos-da-sony/"},
+        {"nome": "PlayStation Blog (a localizar)", "url": "https://blog.playstation.com"}
+      ],
+      "imagens_oficiais": ["https://www.playstation.com/pt-br/"],
+      "post_relacionado": "xbox-series-fsr-4-1-gta-6-o-que-muda",
+      "produto": {"id": "", "como_encaixa": "Editorial puro."},
+      "nota": 3,
+      "status": "nova"
+    },
+    {
+      "data": "2026-11-10",
+      "assunto": "Windows 11: Microsoft teria reajustado em 7% a 10% as licenças OEM, e PC fica mais caro",
+      "por_que_em_alta": "Tecnoblog (destaque 'hoje' na página), Hardware.com.br, Canaltech (PCs já repassaram o aumento); TechRadar, Notebookcheck e Windows Latest lá fora. A fonte original é o United Daily News (Taiwan) e a Microsoft não comentou; matérias de agosto voltam à home. Liga à pauta de memória cara (03/11).",
+      "evidencias": [
+        "https://tecnoblog.net/noticias/microsoft-teria-aumentado-preco-do-windows-11-oem-deixando-pcs-mais-caros/",
+        "https://www.hardware.com.br/noticias/pcs-windows-mais-caros-licencas-microsoft/amp/",
+        "https://canaltech.com.br/hardware/pcs-ficaram-ainda-mais-caros-por-conta-do-aumento-da-licenca-do-windows/",
+        "https://www.techradar.com/computing/windows/microsoft-reportedly-pours-fuel-on-pc-pricing-flames-as-it-implements-a-significant-increase-for-windows-11-licenses"
+      ],
+      "angulo": "Gancho: além da memória, agora o Windows também pesa no preço do PC. Tratar como relato, não como fato oficial. Licença avulsa não mudou (US$ 99 Home / US$ 199 Pro). Dica final: ver máquinas sem Windows ou usar a licença que já se tem.",
+      "formato": "explicador",
+      "tipo": "short",
+      "quadro": "60s",
+      "verificar_antes": "É REPORTAGEM DE AGOSTO que voltou à home: confirmar se há fato novo hoje. Sem isso, nota baixa e reserva. Dizer sempre 'segundo o United Daily News' e que a Microsoft não confirmou.",
+      "fontes": [
+        {"nome": "Tecnoblog", "url": "https://tecnoblog.net/noticias/microsoft-teria-aumentado-preco-do-windows-11-oem-deixando-pcs-mais-caros/"},
+        {"nome": "Hardware.com.br", "url": "https://www.hardware.com.br/noticias/pcs-windows-mais-caros-licencas-microsoft/amp/"},
+        {"nome": "TechRadar", "url": "https://www.techradar.com/computing/windows/microsoft-reportedly-pours-fuel-on-pc-pricing-flames-as-it-implements-a-significant-increase-for-windows-11-licenses"}
+      ],
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {"id": "", "como_encaixa": "Editorial puro."},
+      "nota": 3,
+      "status": "nova"
+    },
+    {
+      "data": "2026-11-10",
+      "assunto": "Como desbloquear o celular quando esquece a senha (sem perder tudo)",
+      "quadro": "tutorial",
+      "tipo": "tutorial",
+      "palavra_chave": "como desbloquear o celular quando esquece a senha",
+      "por_que_em_alta": "Dúvida com busca constante no YouTube (não envelhece)",
+      "evidencias": [
+        "vidIQ 08/11: ~15,5 mil buscas/mês, concorrência 26, nota 67"
+      ],
+      "angulo": "Os caminhos oficiais por sistema: Encontre Meu Dispositivo do Google, SmartThings Find da Samsung e Apple (modo de recuperação/Buscar), com aviso do que é apagado e do bloqueio de fábrica. Conferir os passos nas páginas de ajuda oficiais e gravar a tela delas.",
+      "formato": "tutorial",
+      "fontes": [],
+      "status": "nova",
+      "nota": 5,
+      "origem": "vidiq"
+    },
     {
       "data": "2026-11-09",
       "assunto": "11.11 e Black Friday antecipada: Mercado Livre, Shopee e Magalu liberam cupons dias antes de 27/11",
@@ -170,7 +291,7 @@
       "post_relacionado": "",
       "produto": {"id": "", "como_encaixa": "Editorial puro."},
       "nota": 4,
-      "status": "nova"
+      "status": "em_video"
     },
     {
       "data": "2026-11-07",
@@ -845,7 +966,7 @@
       "angulo": "Utilidade: as opções oficiais (WhatsApp Business no mesmo iPhone, várias contas no app) e o que não funciona; conferir na Central de Ajuda do WhatsApp antes do roteiro",
       "formato": "tutorial",
       "fontes": [],
-      "status": "nova",
+      "status": "em_video",
       "nota": 5,
       "origem": "vidiq"
     },
