@@ -24,11 +24,17 @@
   },
   {
    "slug": "daniel-na-cova-dos-leoes",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-10",
+   "release": "biblia-2026-11-10",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "o-mar-vermelho",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-10",
+   "release": "biblia-2026-11-10",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "a-arca-de-noe",
