@@ -108,6 +108,34 @@
    "segundos": 36.5,
    "publica_em": "2026-11-09 12:00",
    "status": "programado"
+  },
+  {
+   "data": "2026-11-10",
+   "tipo": "short",
+   "quadro": "60s",
+   "numero": null,
+   "slug": "2026-11-10-anatel-bloqueio-ligacao-abusiva-12-novembro",
+   "post": "anatel-chamadas-abusivas-bloqueio-12-novembro-despacho-100",
+   "titulo": "Anatel bloqueio de ligações: regra vale dia 12 #shorts",
+   "url": "https://youtube.com/shorts/Xas9YjQfuDQ",
+   "voz": "gemini:Fenrir",
+   "segundos": 40.5,
+   "publica_em": "2026-11-10 18:30",
+   "status": "programado"
+  },
+  {
+   "data": "2026-11-10",
+   "tipo": "longo",
+   "quadro": "tutorial",
+   "numero": null,
+   "slug": "2026-11-10-como-ter-varios-whatsapp-no-iphone",
+   "post": "whatsapp-confirmacao-duas-etapas-como-ativar",
+   "titulo": "Como ter vários WhatsApp no iOS (passo a passo 2026)",
+   "url": "https://youtu.be/z4znxhon2RA",
+   "voz": "gemini:Orus",
+   "segundos": 243.7,
+   "publica_em": "2026-11-10 20:30",
+   "status": "programado"
   }
  ]
 }
