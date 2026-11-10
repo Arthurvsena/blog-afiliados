@@ -47,7 +47,7 @@
     },
     "analista": {
       "status": "ok",
-      "tarefa": "Semana: 34 visitas (+143%), 11 cliques no ML (+450%), 0 pedidos, 14 cliques do Google; meta: 50 visitas."
+      "tarefa": "Ontem foram 5 visitas, 3 vieram do Google (273 impressões, 1 clique); +6% sobre a média de 7 dias."
     }
   },
   "historico": [
@@ -345,6 +345,11 @@
       "data": "2026-11-10",
       "agente": "chefe",
       "texto": "Tirei da fila as sete pautas do dia e baixei as fotos, porque os scripts de imagem não rodam para os subagentes."
+    },
+    {
+      "data": "2026-11-10",
+      "agente": "analista",
+      "texto": "Ontem foram 5 visitas, 3 vieram do Google (273 impressões, 1 clique); +6% sobre a média de 7 dias."
     }
   ]
 }

@@ -765,6 +765,107 @@
       "faltou": [
         "Search Console de 08/11 ainda parcial (dado recente, pode subir)"
       ]
+    },
+    {
+      "dia": "2026-11-09",
+      "visitas": 5,
+      "visualizacoes": 9,
+      "celular_pct": 60,
+      "youtube": 0,
+      "paginas": [
+        {
+          "url": "/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/",
+          "visitas": 2
+        },
+        {
+          "url": "/",
+          "visitas": 1
+        },
+        {
+          "url": "/posts/melhores-power-banks-20000mah/",
+          "visitas": 1
+        },
+        {
+          "url": "/posts/melhores-power-banks/",
+          "visitas": 1
+        }
+      ],
+      "origens": [
+        {
+          "origem": "google",
+          "visitas": 3
+        },
+        {
+          "origem": "direto",
+          "visitas": 2
+        }
+      ],
+      "paises": null,
+      "google": {
+        "dia": "2026-11-09",
+        "cliques": 1,
+        "impressoes": 273,
+        "posicao_media": 9.2,
+        "consultas": [
+          {
+            "termo": "iphone 13 em 2026 vale a pena",
+            "cliques": 0,
+            "impressoes": 7
+          },
+          {
+            "termo": "vale a pena comprar o iphone 13 em 2027",
+            "cliques": 0,
+            "impressoes": 4
+          },
+          {
+            "termo": "compensa comprar iphone 13 em 2026",
+            "cliques": 0,
+            "impressoes": 3
+          },
+          {
+            "termo": "vale a pena comprar um iphone 13 em 2026",
+            "cliques": 0,
+            "impressoes": 3
+          },
+          {
+            "termo": "como configurar alexa echo dot",
+            "cliques": 0,
+            "impressoes": 2
+          }
+        ],
+        "paginas": [
+          {
+            "url": "/posts/analise-iphone-13-vale-a-pena-em-2026/",
+            "cliques": 1,
+            "impressoes": 57
+          },
+          {
+            "url": "/posts/fone-tws-so-funciona-um-lado/",
+            "cliques": 0,
+            "impressoes": 40
+          },
+          {
+            "url": "/posts/zelda-notes-ocarina-of-time-app-celular-como-usar/",
+            "cliques": 0,
+            "impressoes": 21
+          },
+          {
+            "url": "/posts/analise-ps4-vale-a-pena-em-2026/",
+            "cliques": 0,
+            "impressoes": 16
+          },
+          {
+            "url": "/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/",
+            "cliques": 0,
+            "impressoes": 16
+          }
+        ]
+      },
+      "faltou": [
+        "Cloudflare: origens das visitas lidas pelos referers das visualizações (google 3, direto 2; nexustechai.com.br 4 é navegação interna); países sem dado",
+        "Cloudflare: lista de páginas por visualização veio inconsistente no painel (uma página com 10); usadas as páginas por visita",
+        "Search Console de 09/11 ainda parcial (o gráfico de 7 dias vai só até 08/11)"
+      ]
     }
   ]
 }

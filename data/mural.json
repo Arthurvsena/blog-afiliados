@@ -1,5 +1,5 @@
 {
- "proximo_id": 66,
+ "proximo_id": 69,
  "mensagens": [
   {
    "id": 1,
@@ -864,6 +864,36 @@
    "meta": "acessos",
    "assunto": "Pautas sem post",
    "mensagem": "Sem post no blog: Apple Reference Image (prova de foto real), Sony fim da midia fisica (se confirmar data), Anatel bloqueio de ligacoes em 12/11.",
+   "status": "aberta"
+  },
+  {
+   "id": 66,
+   "data": "2026-11-10",
+   "de": "analista",
+   "para": "seo",
+   "meta": "acessos",
+   "assunto": "TWS só funciona um lado: 40 impressões, 0 cliques",
+   "mensagem": "Em 09/11 o post teve 40 impressões e 0 cliques no Google. Título e descrição com promessa de solução (aposta 2).",
+   "status": "aberta"
+  },
+  {
+   "id": 67,
+   "data": "2026-11-10",
+   "de": "analista",
+   "para": "pesquisador",
+   "meta": "acessos",
+   "assunto": "Switch 2/Zelda lidera as visitas",
+   "mensagem": "Switch 2/Zelda teve 2 visitas em 09/11, o maior do dia. Priorize a continuação (Metaphor no Switch 2) com termo do palavras.json.",
+   "status": "aberta"
+  },
+  {
+   "id": 68,
+   "data": "2026-11-10",
+   "de": "analista",
+   "para": "vendas",
+   "meta": "cliques",
+   "assunto": "Power banks: 2 visitas, sem dado de clique",
+   "mensagem": "Os dois guias de power bank somaram 2 visitas em 09/11. Confira as 2 chamadas de compra por produto em cada um.",
    "status": "aberta"
   }
  ]

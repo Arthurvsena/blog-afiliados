@@ -1,16 +1,17 @@
 {
-  "atualizado": "2026-11-09",
+  "atualizado": "2026-11-10",
   "autora": "Luisa",
-  "resumo": "O canal fez 2.483 visualizações em 28 dias, mas tem só 1 inscrito no total e 0 visitas do YouTube no blog ontem. O maior problema é que quem vê o Short não tem para onde ir depois.",
+  "resumo": "O canal fez 2.516 visualizações em 28 dias, mas continua com 1 inscrito e 0 visitas do YouTube no blog ontem. O maior problema é que quem vê o Short não tem para onde ir depois.",
   "funcionando": [
-    "Assunto com ângulo Brasil: 'Sony quer comprar seu PS5 usado, mas não no Brasil' tem 1.130 visualizações, 63,4% assistido e 5,5% de cliques, o melhor do canal.",
-    "Short mais curto segura mais: o iPhone Duo (0:50) teve 58,5% assistido e 374 visualizações.",
-    "Quem abre o vídeo longo assiste: o Smartband reteve 72,3%, mas só tem 5 visualizações."
+    "Assunto com ângulo Brasil: 'Sony quer comprar seu PS5 usado, mas não no Brasil' tem 1.127 visualizações, 63,4% assistido e 5,2% de cliques, o melhor do canal.",
+    "Short curto segura mais: o iPhone Duo (0:50) teve 58,5% assistido e 375 visualizações.",
+    "Black Friday antecipada (0:37) teve 75,1% assistido, a melhor retenção dos Shorts, mas só 20 visualizações (31 impressões): o vídeo prende, falta alcance.",
+    "Quem abre o longo assiste: o Smartband reteve 72,3%, mas tem só 5 visualizações."
   ],
   "nao_funcionando": [
-    "Inscrição: 2.483 visualizações para +1 inscrito. O Short solto não dá motivo para seguir.",
-    "Vídeos longos sem alcance: Chromagraph teve 7 visualizações e 0,5% de cliques na capa (756 impressões); Smartband, 1,5% (207 impressões).",
-    "Quadro 60s: Ocarina teve 474 visualizações, 48,1% assistido e 0% de cliques; GTA 6 pré-carregamento, 53 visualizações e 44,6%.",
+    "Inscrição: 2.516 visualizações para +1 inscrito. O Short solto não dá motivo para seguir.",
+    "Longos sem alcance: Chromagraph teve 9 visualizações, 0,5% de cliques na capa (768 impressões) e 24,6% assistido; Smartband, 1,4% (209 impressões).",
+    "Quadro 60s: Ocarina teve 474 visualizações, 48,1% assistido e 0% de cliques na capa; GTA 6 pré-carregamento, 53 visualizações e 44,6%.",
     "GTA 6 (212 GB): 40,8% assistido, o pior dos Shorts de notícia; o começo não prendeu."
   ],
   "acoes": [
@@ -20,24 +21,24 @@
   ],
   "por_quadro": {
     "60s": {
-      "videos": 2,
-      "media_views": 259,
-      "media_pct": 43.85
+      "videos": 3,
+      "media_views": 182,
+      "media_pct": 55.9
     },
     "historias": {
       "videos": 1,
-      "media_views": 262,
-      "media_pct": 48.8
+      "media_views": 345,
+      "media_pct": 49.5
     },
     "lafora": {
       "videos": 1,
-      "media_views": 6,
-      "media_pct": 27.6
+      "media_views": 9,
+      "media_pct": 24.6
     },
     "antes_dos_quadros": {
       "videos": 6,
-      "media_views": 289,
-      "media_pct": 55.5
+      "media_views": 292,
+      "media_pct": 55.3
     }
   }
 }

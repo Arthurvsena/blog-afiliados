@@ -1,21 +1,22 @@
-# Relatório diário: 2026-11-08 (lido em 09/11)
+# Relatório diário — 2026-11-10 (dia medido: 09/11)
 
 ## Ontem em números
-- **1 visita, 1 visualização** (1 página por visita), 100% celular, 0 do YouTube.
-- Origem: Google (1). Direto: 0.
-- Contra a média dos 7 dias anteriores (4,9 visitas, 9,3 visualizações, 1,9 páginas por visita): **-79% em visitas**. Foi o dia mais fraco da semana, mas sem navegação do dono (direto zerou, média 2,7).
-- Google (Search Console, dado de 08/11 ainda parcial): **2 cliques, 186 impressões, posição média 9,0**. Dia anterior: 0 cliques, 153 impressões, posição 13,8. Impressões +22% e posição melhor.
-- YouTube, 28 dias: 2.483 views, CTR 1,4%, mas 0 visitas do canal para o blog.
+- **5 visitas** e **9 visualizações** (1,8 página por visita; meta da semana: 2,2). 60% no celular.
+- Contra a média dos 7 dias anteriores (02 a 08/11: 4,7 visitas e 8,6 visualizações por dia): **+6% em visitas, +5% em visualizações**. Ou seja, no mesmo ritmo.
+- Origem: Google 3 (média anterior 2,0 por dia, +50%), direto 2, redes 0, YouTube 0.
+- Google (Search Console, dia ainda parcial): 273 impressões, 1 clique, posição média 9,2. O Google mostra o site 273 vezes e quase ninguém clica.
 
 ## O que bombou
-Nenhum post em alta: com 1 visita não há base para o critério de 3x a média.
-1. `fone-tws-so-funciona-um-lado`: a única visita (Google) e 1 clique em 19 impressões. Busca de problema, quem acha vem de uma dúvida concreta.
-2. `switch-2-zelda-40-anos-lancamento-esgotado-brasil`: 1 clique em 12 impressões (sem visita registrada no Cloudflare).
-3. `analise-iphone-13-vale-a-pena-em-2026`: 0 cliques, mas é a página com mais impressões (47), posição ~8-9 em "vale a pena comprar o iphone 13 em 2026" e variações.
+Volume pequeno demais para falar em "em alta" (sem dado de média própria por post; nenhum post passou de 2 visitas).
+1. `switch-2-zelda-40-anos-lancamento-esgotado-brasil`: 2 visitas, a maior do dia (assunto de games que o Google já entrega).
+2. `melhores-power-banks-20000mah`: 1 visita.
+3. `melhores-power-banks`: 1 visita. Os dois guias de power bank juntos somam 2 visitas.
+No Google: iPhone 13 (57 impressões, 1 clique), TWS "só funciona um lado" (40 impressões, 0 cliques), Zelda Notes (21, 0).
 
-## O que fazer hoje (3 ações, já no mural)
-1. **seo** (#50, acessos): reescrever título e descrição da análise do iPhone 13 (47 impressões, 0 cliques, perto do topo).
-2. **pesquisador** (#51, acessos): mais 1 tutorial de fone TWS e 1 continuação de Zelda/Switch 2, as duas páginas que receberam clique.
-3. **vendas** (#52, cliques): conferir se o tutorial do fone TWS tem um link natural de oferta.
+## O que fazer hoje
+1. `seo`: TWS "só funciona um lado" tem 40 impressões e 0 cliques; título com promessa de solução (já na aposta 2 do plano).
+2. `pesquisador`: Switch 2/Zelda é o post com mais visitas; priorizar a continuação (Metaphor no Switch 2).
+3. `vendas`: power banks trouxeram 2 visitas; conferir as chamadas de compra nos dois guias. O painel do ML não diz o clique por post (sub-ID pendente com o dono).
 
-Observação: o Search Console de 08/11 pode subir; os números de Google acima podem mudar amanhã.
+## Canal do YouTube (28 dias até 09/11)
+2.516 visualizações e só 1 inscrito; 0 visitas do YouTube no blog ontem. Detalhe em `data/leitura_canal.json`.
