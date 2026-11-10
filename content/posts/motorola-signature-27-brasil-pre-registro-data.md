@@ -6,7 +6,7 @@ palavra_chave: "motorola signature 27 brasil"
 editoria: celulares
 tipo: noticia
 publicado: 2026-11-01 10:00
-atualizado: 2026-11-06
+atualizado: 2026-11-10
 fontes:
   - nome: "Motorola (publicação no X, citada pelo Canaltech)"
     url: "https://canaltech.com.br/smartphone/faltam-poucos-dias-motorola-ja-tem-data-para-lancar-o-super-top-signature-27/"
@@ -71,6 +71,8 @@ Na minha leitura, sim. A ficha é de topo de linha de verdade, com bateria grand
 O cadastro não custa nada e não obriga a comprar.
 
 Atualização de 6/11: o aparelho foi lançado e o preço saiu. Veja o [preço do Motorola Signature 27 no Brasil e as versões](/posts/motorola-signature-27-chega-ao-brasil-preco-versoes/).
+
+Quem tem o Signature anterior e pensa em trocar pode ver [o que mudou no Signature 27 e se vale a pena](/posts/motorola-signature-27-vs-signature-o-que-mudou-vale-trocar/).
 
 Sobre a operadora, a Vivo também foi notícia por aqui com o [serviço de satélite Starlink no celular](/posts/vivo-satelite-starlink-celular-brasil/). Para comparar com outro aparelho caro a caminho do Brasil, veja o [preço e a entrega do iPhone Duo](/posts/iphone-duo-preco-brasil-entrega-2027/).
 

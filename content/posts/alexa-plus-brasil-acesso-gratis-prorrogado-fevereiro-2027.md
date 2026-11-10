@@ -1,12 +1,12 @@
 ---
-titulo: "Alexa 2027: Amazon prorroga Alexa+ grátis até fevereiro"
+titulo: "Alexa Plus Brasil grátis até fevereiro de 2027, diz a Amazon"
 slug: alexa-plus-brasil-acesso-gratis-prorrogado-fevereiro-2027
-descricao: "Alexa 2027: a Amazon confirmou que a Alexa Plus Brasil segue grátis até pelo menos fevereiro para quem tem Prime e Echo compatível. Veja como pedir."
+descricao: "Alexa Plus Brasil segue grátis até pelo menos fevereiro de 2027 para quem tem Prime e Echo compatível, confirmou a Amazon. Veja como pedir acesso."
 palavra_chave: "alexa plus brasil"
 editoria: tecnologia
 tipo: noticia
 publicado: 2026-10-31 10:00
-atualizado: 2026-10-31
+atualizado: 2026-11-10
 fontes:
   - nome: "Tecnoblog (confirmado pela Amazon)"
     url: "https://tecnoblog.net/noticias/amazon-prorroga-acesso-gratis-a-alexa-turbinada/"
@@ -68,6 +68,7 @@ As fontes citam R$ 99 e R$ 99,90 por mês. Confira o preço no site da Amazon an
 - [Alexa compatível com Alexa Plus: quais Echo e vale assinar?](/posts/analise-alexa-plus-brasil-vale-a-pena-assinar/), a análise de quem deve pedir acesso.
 - [Novo Echo Dot e Echo Time no Brasil: pré-venda e preço](/posts/echo-dot-echo-time-brasil-pre-venda-11-novembro/), os aparelhos novos preparados para a Alexa+.
 - [Lâmpada inteligente vale a pena?](/posts/lampada-inteligente-vale-a-pena/), o que dá para comandar por voz em casa.
+- [Melhores lâmpadas inteligentes para Alexa](/posts/melhores-lampadas-inteligentes-alexa/), as opções compatíveis para comprar.
 - [GPT-6.1 Terra: OpenAI lança IA que usa o PC e custa metade](/posts/openai-gpt-6-1-terra-preco-recursos/), outra novidade em assistentes com IA.
 - [Gemini 4 Carbon: Google libera só para defesa cibernética](/posts/google-gemini-4-carbon-acesso-restrito/), sobre acesso restrito a uma IA nova.
 

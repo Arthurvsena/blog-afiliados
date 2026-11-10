@@ -1,13 +1,13 @@
 ---
-titulo: "Fone TWS só funciona um lado: como resolver em 6 passos"
+titulo: "Fone TWS só funciona um lado? Resete os dois e resolva"
 slug: fone-tws-so-funciona-um-lado
-descricao: "Fone TWS só funciona um lado? Carregue os dois, apague o pareamento e resete os fones juntos. Veja a ordem certa e o que fazer se nada resolver."
+descricao: "Fone TWS só funciona um lado? Carregue os dois, apague o pareamento e resete juntos para sincronizar de novo. Veja a ordem e o que fazer se não resolver."
 palavra_chave: "fone tws so funciona um lado"
 palavras_secundarias: ["fone tws como ligar", "fone tws como usar", "fone tws um lado mais baixo que o outro"]
 editoria: tutoriais
 tipo: tutorial
 publicado: 2026-11-04
-atualizado: 2026-11-04
+atualizado: 2026-11-10
 fontes:
   - nome: "JBL Support (reset de fones true wireless e pareamento)"
     url: "https://support.jbl.com/us/en/howto/000016720.html"

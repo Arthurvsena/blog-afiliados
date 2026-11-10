@@ -8,7 +8,7 @@ subnicho: power-banks-carregadores
 tipo: lista
 produtos: [ugreen-pb311-10000-20w, anker-nano-a1259-10000, baseus-bipow2-pro-20000, ugreen-pb312-20000, anker-a110e-20000-22w, anker-zolo-a110m-20000-45w]
 publicado: 2026-10-29
-atualizado: 2026-10-29
+atualizado: 2026-11-10
 capa_frase: "Seis power banks, um para cada uso"
 faq:
   - pergunta: "Qual o melhor power bank para o dia a dia?"
@@ -96,39 +96,15 @@ Quer ver a oferta? {{link:ugreen-pb311-10000-20w|Ver o preço do Ugreen PB311}}.
 
 **Ideal para:** fim de semana fora, celular e fone juntos. **Evite se:** o power bank vai no bolso da calça todo dia. {{link:baseus-bipow2-pro-20000|Ver o preço do Baseus Bipow2 Pro}}.
 
-## Ugreen PB312 20.000 mAh: três portas e cabo na caixa
+## Outros 20.000 mAh: Ugreen PB312 e Anker A110E
 
 {{produto:ugreen-pb312-20000}}
 
-:::pros
-- 20.000 mAh com 3 portas de carga
-- Carregamento rápido via USB-C
-- Cabo incluso
-:::
-
-:::contras
-- O catálogo não traz a potência em watts: confira na página antes de comprar
-- Cabo separado, ao contrário dos concorrentes de cabo embutido
-:::
-
-**Ideal para:** quem divide o power bank entre mais de uma pessoa. **Evite se:** você precisa saber a potência exata antes de decidir. Se o uso é dividido, {{link:ugreen-pb312-20000|ver o preço do Ugreen PB312}}.
-
-## Power bank Anker A110E 20000mah: o equilíbrio da Anker
+O {{link:ugreen-pb312-20000|Ugreen PB312}} tem 3 portas e cabo na caixa, mas o catálogo não traz a potência em watts. **Ideal para:** quem quer 20.000 mAh com várias saídas. **Evite se:** precisa confirmar a potência antes de comprar.
 
 {{produto:anker-a110e-20000-22w}}
 
-:::pros
-- 20.000 mAh e carga de até 22,5 W
-- Cabo USB-C integrado
-- Display digital
-:::
-
-:::contras
-- 22,5 W é o mesmo do Baseus, que traz mais portas
-- Menos opções de saída
-:::
-
-**Ideal para:** quem quer marca conhecida e cabo sempre à mão. **Evite se:** vai carregar dois aparelhos ao mesmo tempo com frequência. {{link:anker-a110e-20000-22w|Ver o preço do Anker A110E}}.
+O {{link:anker-a110e-20000-22w|Anker A110E}} tem 22,5 W, cabo USB-C integrado e display: a mesma potência do Baseus, com menos saídas. **Ideal para:** quem prefere a marca Anker com cabo já na capa. **Evite se:** quer carregar três aparelhos de uma vez. Para comparar os de 20.000 mAh a fundo, veja os [melhores power banks de 20000mAh](/posts/melhores-power-banks-20000mah/) e o comparativo [10.000 ou 20.000 mAh, qual escolher](/posts/power-bank-10000-ou-20000-mah-qual-escolher/).
 
 ## Anker Zolo A110M 20.000 mAh e 45 W: o mais completo
 
@@ -165,7 +141,7 @@ Para entender cada número, leia nosso guia [como escolher um power bank](/posts
 
 ## Vai para estrada ou lugar sem sinal?
 
-Power bank resolve a bateria, mas não o sinal. Para áreas sem cobertura, veja a [notícia sobre o Vivo Satélite com Starlink](/posts/vivo-satelite-starlink-celular-brasil/), que traz mensagens e WhatsApp fora da cobertura. Se você vai ficar dias longe de tomada, um de 20.000 mAh dá mais folga. Veja a lista só com [power banks de 20000mAh](/posts/melhores-power-banks-20000mah/).
+Power bank resolve a bateria, mas não o sinal. Para áreas sem cobertura, veja a [notícia sobre o Vivo Satélite com Starlink](/posts/vivo-satelite-starlink-celular-brasil/), que traz mensagens e WhatsApp fora da cobertura. Se você vai ficar dias longe de tomada, um de 20.000 mAh dá mais folga. Em dúvida entre 10.000 e 20.000? Veja o [comparativo de capacidades](/posts/power-bank-10000-ou-20000-mah-qual-escolher/).
 
 ## Nossas escolhas: qual comprar, sem rodeio
 

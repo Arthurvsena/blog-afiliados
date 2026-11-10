@@ -3,11 +3,11 @@ titulo: "Alexa compatível com Alexa Plus: quais Echo e vale assinar?"
 slug: analise-alexa-plus-brasil-vale-a-pena-assinar
 descricao: "Sua Alexa é compatível com Alexa Plus? Veja quais Echo entram, o que exige e por que o plano avulso de R$ 99 por mês não compensa. Decisão sem rodeio."
 palavra_chave: "alexa compatível com alexa plus"
-palavras_secundarias: ["alexa plus brasil", "como configurar alexa", "alexa compativel com alexa plus"]
+palavras_secundarias: ["como configurar alexa", "alexa compativel com alexa plus"]
 editoria: analises
 tipo: analise
 publicado: 2026-11-04 10:00
-atualizado: 2026-11-04
+atualizado: 2026-11-10
 fontes:
   - nome: "Tecnoblog (confirmado pela Amazon)"
     url: "https://tecnoblog.net/noticias/amazon-prorroga-acesso-gratis-a-alexa-turbinada/"

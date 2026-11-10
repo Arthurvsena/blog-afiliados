@@ -129,7 +129,7 @@ Em resumo, um carregador USB-C rápido precisa de Power Delivery e de potência 
 - **Cheque o cabo.** Carregador forte com cabo ruim perde velocidade.
 - **Confira a Anatel.** Na dúvida, desconfie de preço fora da curva.
 
-Para quem também quer carga fora de casa, veja nossa lista de [melhores power banks](/posts/melhores-power-banks/), a de [power banks de 20000mAh](/posts/melhores-power-banks-20000mah/) e o guia [como escolher um power bank](/posts/como-escolher-power-bank/).
+Tem iPhone? Veja quantos watts cada modelo pede no guia de [carregador turbo para iPhone](/posts/carregador-turbo-iphone-usb-c-pd-qual-escolher/). Para quem também quer carga fora de casa, veja nossa lista de [melhores power banks](/posts/melhores-power-banks/), a de [power banks de 20000mAh](/posts/melhores-power-banks-20000mah/) e o guia [como escolher um power bank](/posts/como-escolher-power-bank/).
 
 ## Nossas escolhas: qual comprar, sem rodeio
 

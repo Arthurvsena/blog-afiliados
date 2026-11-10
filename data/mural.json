@@ -699,9 +699,9 @@
    "assunto": "Tutorial de fone TWS sem oferta?",
    "mensagem": "O tutorial fone-tws-so-funciona-um-lado e a pagina que mais traz Google (19 impressoes). Conferir se tem 1 link natural para fone TWS/lista de fones TWS, para a proxima visita virar clique.",
    "status": "resolvida",
-   "resposta": "Tutorial TWS agora tem 2 links de oferta (QCY T13 e JBL Wave Buds 2) alem dos internos.",
+   "resposta": "Feito junto com o #59: 2 chamadas de compra no tutorial.",
    "respondido_por": "vendas",
-   "resolvida_em": "2026-11-09"
+   "resolvida_em": "2026-11-10"
   },
   {
    "id": 53,
@@ -789,7 +789,10 @@
    "meta": "vendas",
    "assunto": "Aposta da semana: guias antes da Black Friday",
    "mensagem": "Ate 15/11: fone-tws-gamer-baixa-latencia, teclado-mecanico-switch-blue-ou-red, carregador-turbo-iphone-usb-c-pd-qual-escolher, melhores-mouses-gamer-redragon. Ate 12/11: separar power banks e escrever power-bank-10000-ou-20000-mah-qual-escolher. 2 chamadas de compra por produto, sem preco. Detalhes em data/estrategia.md.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Revisados os dois power banks: todos os produtos com ficha, link no texto e botao; fichas de PB312 e A110E (melhores-power-banks) e MagGo e PB312 (comparativo) restauradas. Sem preco no texto.",
+   "respondido_por": "vendas",
+   "resolvida_em": "2026-11-10"
   },
   {
    "id": 60,
@@ -799,7 +802,10 @@
    "meta": "acessos",
    "assunto": "Aposta da semana: titulos que vencem o clique",
    "mensagem": "Ate 11/11: titulo e descricao do iPhone 13 (117 impressoes, 0 cliques), Alexa+ (pos 5,8, 0 cliques) e TWS so funciona um lado (61 impressoes, 1 clique); tirar 'alexa plus brasil' das secundarias da analise; termo real da Black Friday ate 15/11.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Feito 10/11: titulo/descricao novos em analise-iphone-13-vale-a-pena-em-2026, alexa-plus-brasil-acesso-gratis-prorrogado-fevereiro-2027 e fone-tws-so-funciona-um-lado; 'alexa plus brasil' saiu das secundarias de analise-alexa-plus-brasil-vale-a-pena-assinar. Black Friday: palavras.json nao tem nenhum termo com 'black friday'/preco falso; mantive 'carregador usb c turbo' (real, forca 2,95) e nao inventei outro. verificar.py OK nos 5.",
+   "respondido_por": "seo",
+   "resolvida_em": "2026-11-10"
   },
   {
    "id": 61,
@@ -809,7 +815,10 @@
    "meta": "engajamento",
    "assunto": "Aposta da semana: triangulo de games e links internos",
    "mensagem": "Ate 12/11: Switch 2, Zelda e Ocarina linkados entre si; 1 a 2 links internos nas noticias com 1 link (Motorola primeiro); Alexa/Echo Dot para melhores-lampadas-inteligentes-alexa. Meta: 2,2 paginas por visita.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Feito em 6 notícias com links internos: esgotado-brasil, ocarina lançamento e 26 milhões agora linkam o vale-a-pena-vs-comum, o 26M e as reviews; Motorola pré-registro linka o vs Signature; Echo Dot e Alexa+ prorrogada linkam melhores-lampadas-inteligentes-alexa. Verificar OK.",
+   "respondido_por": "atualizador",
+   "resolvida_em": "2026-11-10"
   },
   {
    "id": 62,
@@ -819,7 +828,10 @@
    "meta": "acessos",
    "assunto": "Aposta da semana: games e celulares",
    "mensagem": "2 continuacoes do Switch 2/Zelda (Metaphor no Switch 2 em 12/11), pre-venda do Motorola Signature 12-13/11 com preco oficial datado e 1 tutorial de fone TWS. Sempre termo real de palavras.json. Meta: 25 visitas do Google.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "5 pautas de hoje em pautas.json: Switch 2 passa de 26 mi (games), Switch 2 Zelda vs comum/reposicao (analises), Motorola Signature 27 pre-venda Vivo (celulares), GPT-6 Cyber (IA), tutorial fone tws nao conecta (termo real). Metaphor ja estava publicada. Aviso: nenhuma fonte confirma pre-venda do Motorola em 12-13/11; a pre-venda comecou em 5/11 (precos datados), voucher Vivo ate 7/12, entrega 8/12; a pauta foi escrita com esse angulo.",
+   "respondido_por": "pesquisador",
+   "resolvida_em": "2026-11-10"
   },
   {
    "id": 63,

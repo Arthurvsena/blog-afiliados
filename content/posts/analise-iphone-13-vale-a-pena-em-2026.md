@@ -1,13 +1,13 @@
 ---
-titulo: "Vale a pena comprar o iPhone 13 em 2026? Só por um preço"
+titulo: "Vale a pena comprar o iPhone 13 em 2026? Só com preço baixo"
 slug: analise-iphone-13-vale-a-pena-em-2026
-descricao: "Vale a pena comprar o iPhone 13 em 2026? Entra no iOS 27, mas tem 60 Hz, Lightning e sem Apple Intelligence. Veja o que conferir antes de pagar."
+descricao: "Vale a pena comprar o iPhone 13 em 2026? Só com preço baixo e garantia: entra no iOS 27, mas tem 60 Hz, Lightning e sem Apple Intelligence."
 palavra_chave: "vale a pena comprar o iphone 13 em 2026"
 palavras_secundarias: ["iphone 13 em 2026", "iphone 13 ainda vale a pena"]
 editoria: analises
 tipo: analise
 publicado: 2026-11-05 10:00
-atualizado: 2026-11-05
+atualizado: 2026-11-10
 fontes:
   - nome: "Canaltech (lista de iPhones compatíveis com o iOS 27)"
     url: "https://canaltech.com.br/apps/apple-divulga-quais-iphones-terao-suporte-ao-ios-27-veja-se-o-seu-esta-na-lista/"

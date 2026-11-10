@@ -7,7 +7,7 @@ palavras_secundarias: ["ocarina of time remake", "ocarina of time remake preço"
 editoria: games
 tipo: noticia
 publicado: 2026-11-02 11:00
-atualizado: 2026-11-02
+atualizado: 2026-11-10
 fontes:
   - nome: "Game Over Drive (data, edições e ficha do jogo)"
     url: "https://gameoverdrive.com.br/ocarina-of-time-remake-data-preco-edicoes/"
@@ -66,7 +66,7 @@ Para saber se o jogo agrada, veja as [notas da crítica no Metacritic](/posts/oc
 
 ## Precisa de um Switch 2 novo?
 
-Precisa de um Switch 2, e aí o gargalo é outro. A edição comemorativa de Zelda 40 anos do console, que saiu em 29 de outubro, esgotou no Brasil, como contamos [neste post sobre o estoque e a reposição](/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/). O console comum segue como caminho. Se você ainda está decidindo se compensa, nossa [análise do Nintendo Switch 2](/posts/analise-nintendo-switch-2-vale-a-pena-especificacoes/) reúne ficha e opinião de compradores.
+Precisa de um Switch 2, e aí o gargalo é outro. A edição comemorativa de Zelda 40 anos do console, que saiu em 29 de outubro, esgotou no Brasil, como contamos [neste post sobre o estoque e a reposição](/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/). O console comum segue como caminho (veja a [comparação entre a edição Zelda 40 anos e o comum](/posts/switch-2-zelda-40-anos-vale-a-pena-vs-comum-reposicao/) e o [balanço de 26 milhões de Switch 2 vendidos](/posts/switch-2-passa-26-milhoes-vendas-nintendo-balanco-semestre/)). Se você ainda está decidindo se compensa, nossa [análise do Nintendo Switch 2](/posts/analise-nintendo-switch-2-vale-a-pena-especificacoes/) reúne ficha e opinião de compradores.
 
 Quer saber o que jogar depois? Veja o [calendário de jogos do Switch 2 até 2027](/posts/switch-2-calendario-jogos-pikmin-4-xenoblade-3-monster-hunter-wilds/).
 

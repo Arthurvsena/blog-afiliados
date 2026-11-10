@@ -2,6 +2,83 @@
 
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
+## 2026-11-10 · Power bank compacto: 1 carga ou 2? 10.000 vs 20.000 mAh
+Link: https://nexustechai.com.br/posts/power-bank-10000-ou-20000-mah-qual-escolher/
+- WhatsApp: Power bank de 10.000 mAh dá cerca de 1 carga no celular; o de 20.000 dá perto de 2. Qual compensa? https://nexustechai.com.br/posts/power-bank-10000-ou-20000-mah-qual-escolher/
+- X: Power bank compacto: 10.000 mAh dá cerca de 1 carga no celular, 20.000 mAh perto de 2. Mas mAh não é velocidade: o Anker Nano chega a 30 W, o Baseus de 20.000 vai a 22,5 W. https://nexustechai.com.br/posts/power-bank-10000-ou-20000-mah-qual-escolher/
+- Instagram (legenda): Mais mAh carrega mais rápido? Não.
+  10.000 mAh dá cerca de 1 carga; 20.000 mAh, perto de 2.
+  Quem manda na velocidade são os watts.
+  Comparativo com 6 modelos no link da bio.
+  #PowerBank #Tecnologia #DicasDeTecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "10.000 ou 20.000 mAh: qual power bank comprar?" [2-8 s] Fato 1: 10.000 mAh dá cerca de 1 carga; 20.000, perto de 2. [8-14 s] Fato 2: mAh é o tanque, watts são a velocidade. [14-18 s] Fato 3: no avião, até 100 Wh por power bank, só na bagagem de mão. [18-20 s] "Comparativo completo no link da bio."
+
+## 2026-11-10 · Carregador turbo iPhone: 40 W para o 17, 25 W para o 15
+Link: https://nexustechai.com.br/posts/carregador-turbo-iphone-usb-c-pd-qual-escolher/
+- WhatsApp: iPhone 17 pede 40 W para carga rápida; no 15 e no 16, 25 W bastam. Antes da Black Friday (27/11), veja qual comprar. https://nexustechai.com.br/posts/carregador-turbo-iphone-usb-c-pd-qual-escolher/
+- X: Carregador turbo para iPhone: a Apple pede 40 W ou mais no iPhone 17 (50% em cerca de 20 min) e 18 W ou mais do 15 em diante. Guia com 3 carregadores USB-C PD antes da Black Friday, dia 27/11. https://nexustechai.com.br/posts/carregador-turbo-iphone-usb-c-pd-qual-escolher/
+- Instagram (legenda): Seu carregador está travando a carga do iPhone?
+  O iPhone 17 pede 40 W ou mais, segundo a Apple. Do 15 e 16, 25 W já bastam.
+  Tabela por modelo e 3 opções USB-C PD no link da bio.
+  Black Friday é dia 27/11: compre sabendo os watts.
+  #iPhone #CarregadorTurbo #BlackFriday
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seu carregador pode estar travando o seu iPhone." [2-8 s] Fato 1: iPhone 17 pede 40 W ou mais para chegar a 50% em cerca de 20 min. [8-14 s] Fato 2: do 15 em diante, o mínimo da Apple é 18 W; 25 W a 30 W sobram. [14-18 s] Fato 3: sem cabo bom, 40 W carregam como 15 W. [18-20 s] "Guia completo no link da bio, antes da Black Friday."
+
+## 2026-11-10 · Fone TWS não conecta: 7 passos que resolvem em 10 minutos
+Link: https://nexustechai.com.br/posts/fone-tws-nao-conecta/
+- WhatsApp: Fone TWS não conecta? Quase nunca é defeito: 7 passos resolvem em 10 minutos, no Android e no iPhone. https://nexustechai.com.br/posts/fone-tws-nao-conecta/
+- X: Fone TWS não conecta no celular? Antes de trocar: carregue fone e estojo, esqueça o fone no celular, resete o par e teste em outro aparelho. 7 passos, sem gastar nada. https://nexustechai.com.br/posts/fone-tws-nao-conecta/
+- Instagram (legenda): Seu fone TWS não conecta?
+  Antes de comprar outro, tente isto.
+  Carregar o estojo, esquecer o fone no celular e resetar o par resolve a maioria dos casos.
+  Passo a passo no link da bio.
+  #FoneBluetooth #TWS #DicasDeTecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Fone TWS não conecta? Não jogue fora ainda." [2-8 s] Fato 1: carregue o fone e o estojo, bateria vazia é a causa mais comum. [8-14 s] Fato 2: esqueça o fone no celular e reinicie o Bluetooth. [14-18 s] Fato 3: resete o par e teste em outro aparelho. [18-20 s] "Os 7 passos estão no link da bio."
+
+## 2026-11-10 · GPT-6 Cyber acha 81 falhas no Firefox, mas só empresas usam
+Link: https://nexustechai.com.br/posts/openai-gpt-6-cyber-acesso-restrito-seguranca-daybreak/
+- WhatsApp: A OpenAI criou uma IA que achou 81 falhas no Firefox, mas ela não vai para o ChatGPT: só empresas aprovadas usam. https://nexustechai.com.br/posts/openai-gpt-6-cyber-acesso-restrito-seguranca-daybreak/
+- X: GPT-6 Cyber, da OpenAI, acerta 48,5% no ExploitGym e ajudou a achar 81 falhas no Firefox (dados da empresa). Acesso só para organizações aprovadas no Daybreak Red; sem ChatGPT, sem preço. https://nexustechai.com.br/posts/openai-gpt-6-cyber-acesso-restrito-seguranca-daybreak/
+- Instagram (legenda): Uma IA achou 81 falhas no Firefox.
+  É o GPT-6 Cyber, da OpenAI (dados da própria empresa).
+  Só organizações aprovadas usam: não entra no ChatGPT e não tem preço.
+  Link na bio.
+  #OpenAI #InteligenciaArtificial #SegurancaDigital
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Essa IA achou 81 falhas no Firefox e você não pode usar." [2-8 s] Fato 1: GPT-6 Cyber acerta 48,5% no ExploitGym, segundo a OpenAI. [8-14 s] Fato 2: acesso só para empresas aprovadas no Daybreak Red. [14-18 s] Fato 3: fora do ChatGPT, sem preço e sem data. [18-20 s] "Entenda no link da bio."
+
+## 2026-11-10 · Motorola Signature lançamento no Brasil: R$ 7.199 na Vivo
+Link: https://nexustechai.com.br/posts/motorola-signature-27-pre-venda-vivo-entrega-8-dezembro/
+- WhatsApp: Signature 27 na Vivo: R$ 7.199 com plano Família, contra R$ 10.999 sem plano. Entrega só a partir de 8/12. https://nexustechai.com.br/posts/motorola-signature-27-pre-venda-vivo-entrega-8-dezembro/
+- X: Motorola Signature 27 na Vivo custa R$ 7.199 (256 GB), mas só com plano Família 4 ou 5. Sem plano, R$ 10.999 no site da Motorola. Voucher de R$ 1.000 vale até 7/12 só para quem fez pré-registro; entrega a partir de 8/12. https://nexustechai.com.br/posts/motorola-signature-27-pre-venda-vivo-entrega-8-dezembro/
+- Instagram (legenda): Signature 27 na Vivo: R$ 7.199 ou R$ 10.999?
+  R$ 7.199 só com plano Família 4 ou 5.
+  Sem plano, o site da Motorola cobra R$ 10.999.
+  Entrega da pré-venda só a partir de 8/12. Link na bio.
+  #Motorola #Signature27 #Celulares
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Esse Motorola sai R$ 3.800 mais barato, mas tem pegadinha." [2-8 s] Fato 1: R$ 7.199 na Vivo, só com plano Família 4 ou 5. [8-14 s] Fato 2: sem plano, R$ 10.999 no site da Motorola. [14-18 s] Fato 3: voucher de R$ 1.000 só para quem se registrou; entrega a partir de 8/12. [18-20 s] "Conta completa no link da bio."
+
+## 2026-11-10 · Nintendo Switch 2 passa de 26 milhões, mas vende 37% menos
+Link: https://nexustechai.com.br/posts/switch-2-passa-26-milhoes-vendas-nintendo-balanco-semestre/
+- WhatsApp: Switch 2 passou de 26 milhões de unidades, vende menos que em 2025 e a Nintendo lucra 49% a mais. https://nexustechai.com.br/posts/switch-2-passa-26-milhoes-vendas-nintendo-balanco-semestre/
+- X: Switch 2 chegou a 26,35 milhões de unidades até 30/09. No semestre vendeu 37,4% menos que um ano antes, mas o lucro operacional da Nintendo subiu 49,1% (Twisted Voxel). https://nexustechai.com.br/posts/switch-2-passa-26-milhoes-vendas-nintendo-balanco-semestre/
+- Instagram (legenda): Switch 2 vende menos, Nintendo lucra mais.
+  26,35 milhões de consoles vendidos até 30/09.
+  Semestre: 6,49 milhões, queda de 37,4% sobre o ano anterior.
+  Mas o lucro operacional subiu 49,1%. Link na bio.
+  #Switch2 #Nintendo #Games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Switch 2 vende menos e a Nintendo lucra mais." [2-8 s] Fato 1: 26,35 milhões de consoles até 30/09. [8-14 s] Fato 2: semestre com 6,49 milhões, queda de 37,4%. [14-18 s] Fato 3: lucro operacional subiu 49,1%, com mais venda digital. [18-20 s] "Entenda os números no link da bio."
+
+## 2026-11-10 · Nintendo Switch edição Zelda: só muda a casca, e esgotou
+Link: https://nexustechai.com.br/posts/switch-2-zelda-40-anos-vale-a-pena-vs-comum-reposicao/
+- WhatsApp: Switch 2 edição Zelda tem o mesmo hardware do comum, só muda o visual. E está esgotado no Brasil, sem data de reposição. https://nexustechai.com.br/posts/switch-2-zelda-40-anos-vale-a-pena-vs-comum-reposicao/
+- X: Switch 2 edição Zelda de 40 anos: mesmo hardware do modelo comum, só o visual muda (US$ 519,99 contra US$ 499,99). Esgotou e a Nintendo não deu data de reposição no Brasil. https://nexustechai.com.br/posts/switch-2-zelda-40-anos-vale-a-pena-vs-comum-reposicao/
+- Instagram (legenda): Switch 2 edição Zelda ou o comum?
+  O hardware é igual: tela, 256 GB e vídeo em 4K são os mesmos.
+  Muda o visual: Joy-Con verde e dourado e dock com Triforce.
+  Esgotado no Brasil, sem data de reposição. Link na bio.
+  #Switch2 #Zelda #Nintendo
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Switch 2 Zelda é mais potente? Não." [2-8 s] Fato 1: hardware idêntico ao comum, só muda o visual. [8-14 s] Fato 2: diferença de cerca de R$ 149 na pré-venda brasileira, segundo a imprensa. [14-18 s] Fato 3: esgotou e não há data de reposição. [18-20 s] "Veja se vale esperar no link da bio."
+
 ## 2026-11-09 · Vale a pena comprar o iPhone 12 em 2026? Só com bateria boa
 Link: https://nexustechai.com.br/posts/analise-iphone-12-vale-a-pena-em-2026/
 - WhatsApp: iPhone 12 em 2026 ainda vale? Está na lista do iOS 27 e tem OLED, mas não tem Apple Intelligence e a bateria é de 2.815 mAh. Só compensa barato e com bateria boa. https://nexustechai.com.br/posts/analise-iphone-12-vale-a-pena-em-2026/
@@ -364,83 +441,11 @@ Link: https://nexustechai.com.br/posts/xbox-game-pass-novembro-2026-primeira-lev
   #gamepass #xbox #games
 - TikTok/Reels (roteiro de 20 s): [0-2 s] "Game Pass de novembro: o que chega." [2-8 s] Fato 1: Warhammer Survivors em 10/11. [8-14 s] Fato 2: Thronefall em 11/11. [14-18 s] Fato 3: 13 jogos têm saída marcada para 15/11. [18-20 s] "Lista completa no link da bio."
 
-## 2026-11-05 · Galaxy S26 preço: oferta com Buds Core fica abaixo do iPhone 17
-Link: https://nexustechai.com.br/posts/galaxy-s26-oferta-mais-barato-que-iphone-17-antes-da-black-friday/
-Atenção: preço do Canaltech de 04/11, sem prazo; peça para conferir a loja.
-- WhatsApp: Galaxy S26 256 GB com Buds Core por R$ 3.779,10 no Pix (Canaltech, 04/11), contra R$ 5.354 do iPhone 17. Confira a loja antes, varejo muda: https://nexustechai.com.br/posts/galaxy-s26-oferta-mais-barato-que-iphone-17-antes-da-black-friday/
-- X: Galaxy S26 256 GB + Buds Core: R$ 3.779,10 no Pix, segundo o Canaltech em 04/11. O iPhone 17 de 256 GB estava em R$ 5.354 no mesmo levantamento. Sem prazo informado, confira na loja: https://nexustechai.com.br/posts/galaxy-s26-oferta-mais-barato-que-iphone-17-antes-da-black-friday/
-- Instagram (legenda): Galaxy S26 com fone abaixo do iPhone 17.
-  R$ 3.779,10 no Pix, contra R$ 5.354 do iPhone 17 (256 GB, Canaltech, 04/11).
-  A fonte não informa até quando vale. Confira a loja.
-  Link na bio.
-  #galaxys26 #iphone17 #oferta
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Galaxy S26 mais barato que o iPhone 17?" [2-8 s] Fato 1: S26 256 GB com Buds Core a R$ 3.779,10 no Pix. [8-14 s] Fato 2: iPhone 17 no mesmo levantamento: R$ 5.354. [14-18 s] Fato 3: preço de 04/11, sem prazo; confira a loja. [18-20 s] "Detalhes no link da bio."
 
-## 2026-11-05 · Justiça proíbe Meta de usar conteúdo jornalístico em IA
-Link: https://nexustechai.com.br/posts/justica-sp-proibe-meta-conteudo-jornalistico-treinar-ia/
-- WhatsApp: A Justiça de SP proibiu a Meta de usar, sem autorização, conteúdo de veículos da ANJ, Abert e Aner para treinar IA. É liminar, cabe recurso, e não muda o que você vê no Facebook hoje: https://nexustechai.com.br/posts/justica-sp-proibe-meta-conteudo-jornalistico-treinar-ia/
-- X: Justiça de SP proíbe a Meta de coletar conteúdo jornalístico sem autorização, inclusive para treinar IA. Liminar vale para veículos ligados a ANJ, Abert e Aner. Multa: R$ 1 milhão por dia. Cabe recurso: https://nexustechai.com.br/posts/justica-sp-proibe-meta-conteudo-jornalistico-treinar-ia/
-- Instagram (legenda): A Justiça de SP barrou a Meta.
-  Sem autorização, ela não pode usar conteúdo jornalístico para treinar IA.
-  Vale para veículos da ANJ, Abert e Aner. É liminar: cabe recurso.
-  Link na bio.
-  #meta #inteligenciaartificial #direitosautorais
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "A Justiça barrou a Meta." [2-8 s] Fato 1: proibida de usar notícias sem autorização para treinar IA. [8-14 s] Fato 2: vale para veículos da ANJ, Abert e Aner. [14-18 s] Fato 3: multa de R$ 1 milhão por dia, e cabe recurso. [18-20 s] "Entenda no link da bio."
 
-## 2026-11-05 · ChatGPT app: o Classic acaba em 30/01/2027
-Link: https://nexustechai.com.br/posts/chatgpt-classic-fim-30-janeiro-2027-app-desktop/
-- WhatsApp: O app antigo do ChatGPT para Windows e Mac (Classic) sai do ar em 30/01/2027. Segundo a OpenAI, o histórico migra sozinho para o app novo: https://nexustechai.com.br/posts/chatgpt-classic-fim-30-janeiro-2027-app-desktop/
-- X: O ChatGPT Classic, app antigo para Windows e macOS, será desativado em 30/01/2027. A OpenAI diz que o histórico vai para o app novo, que há queixas de lentidão. O que fazer: https://nexustechai.com.br/posts/chatgpt-classic-fim-30-janeiro-2027-app-desktop/
-- Instagram (legenda): Quem usa o ChatGPT no computador: o app antigo tem data para acabar.
-  O Classic sai do ar em 30/01/2027.
-  Segundo a OpenAI, o histórico migra sozinho.
-  Link na bio.
-  #chatgpt #openai #ia
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "O ChatGPT do seu computador vai parar." [2-8 s] Fato 1: o Classic sai do ar em 30/01/2027. [8-14 s] Fato 2: o app novo está em Windows e Mac, inclusive no plano grátis. [14-18 s] Fato 3: o histórico migra com o mesmo login. [18-20 s] "Passo a passo no link da bio."
 
-## 2026-11-05 · Como configurar Alexa Echo Dot: passo a passo no app
-Link: https://nexustechai.com.br/posts/como-configurar-alexa-echo-dot-primeira-vez/
-- WhatsApp: Echo Dot novo em casa? Este passo a passo configura a Alexa pelo app em uns 10 minutos e diz o que fazer se não conectar: https://nexustechai.com.br/posts/como-configurar-alexa-echo-dot-primeira-vez/
-- X: Como configurar a Alexa no Echo Dot em uns 10 minutos: tomada, app Alexa, Wi-Fi. Inclui o que fazer se o app não achar o aparelho e os primeiros comandos: https://nexustechai.com.br/posts/como-configurar-alexa-echo-dot-primeira-vez/
-- Instagram (legenda): Echo Dot na caixa? Configura em uns 10 minutos.
-  Tomada, app Alexa e Wi-Fi: são só três coisas.
-  No post: o que fazer se o app não encontra o aparelho.
-  Link na bio.
-  #alexa #echodot #casainteligente
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Como configurar o Echo Dot em 10 minutos." [2-8 s] Passo 1: ligue na tomada. [8-14 s] Passo 2: instale o app Alexa e entre com a conta Amazon. [14-18 s] Passo 3: conecte ao Wi-Fi. [18-20 s] "Passo a passo completo no link da bio."
 
-## 2026-11-05 · Vale a pena comprar o iPhone 13 em 2026? Só por um preço
-Link: https://nexustechai.com.br/posts/analise-iphone-13-vale-a-pena-em-2026/
-- WhatsApp: iPhone 13 em 2026 ainda vale? Só com preço baixo, garantia e aceitando Lightning e 60 Hz. Ele entra no iOS 27, mas sem Apple Intelligence: https://nexustechai.com.br/posts/analise-iphone-13-vale-a-pena-em-2026/
-- X: iPhone 13 em 2026: entra na lista do iOS 27, mas tem 60 Hz, Lightning e não tem Apple Intelligence. Só vale com preço bem abaixo dos novos, garantia e nota fiscal: https://nexustechai.com.br/posts/analise-iphone-13-vale-a-pena-em-2026/
-- Instagram (legenda): iPhone 13 em 2026 ainda vale a pena?
-  Só por um preço baixo. Recebe o iOS 27, mas tem 60 Hz, Lightning e não tem Apple Intelligence.
-  No post: o que checar no seminovo.
-  Link na bio.
-  #iphone13 #apple #iphone
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "iPhone 13 ainda vale em 2026?" [2-8 s] Fato 1: entra na lista do iOS 27. [8-14 s] Fato 2: tem 60 Hz, Lightning e não tem Apple Intelligence. [14-18 s] Fato 3: seminovo exige nota fiscal, IMEI e saúde da bateria. [18-20 s] "Análise completa no link da bio."
 
-## 2026-11-05 · Black Friday 2026: como fugir do preço falso em eletrônicos
-Link: https://nexustechai.com.br/posts/black-friday-2026-eletronicos-como-nao-cair-em-preco-falso/
-- WhatsApp: Black Friday é em 27/11. Antes de comprar power bank, fone ou carregador, faça esta checagem de 5 passos para não cair em desconto de mentira: https://nexustechai.com.br/posts/black-friday-2026-eletronicos-como-nao-cair-em-preco-falso/
-- X: Black Friday 2026 cai em 27/11. Método de 5 passos para checar se o desconto em power bank, fone ou carregador é real, de preço de partida a selo da Anatel: https://nexustechai.com.br/posts/black-friday-2026-eletronicos-como-nao-cair-em-preco-falso/
-- Instagram (legenda): Black Friday em 27/11. Como saber se o desconto é real?
-  Compare com o preço das semanas anteriores, em mais de uma loja.
-  Confira o selo da Anatel em carregador e power bank.
-  Os 5 passos estão no link da bio.
-  #blackfriday #eletronicos #dicas
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Black Friday: o desconto é real?" [2-8 s] Dica 1: compare com o preço das semanas anteriores. [8-14 s] Dica 2: use mais de uma loja. [14-18 s] Dica 3: carregador sem selo da Anatel, nem pensar. [18-20 s] "Os 5 passos no link da bio."
-
-## 2026-11-05 · Tomada inteligente vale a pena? Como funciona e o que ligar
-Link: https://nexustechai.com.br/posts/tomada-inteligente-vale-a-pena-como-funciona/
-- WhatsApp: Tomada inteligente vale a pena? Confira os amperes (10 A, 16 A ou 20 A) antes de ligar ar-condicionado ou chuveiro. Ela não faz o aparelho gastar menos: https://nexustechai.com.br/posts/tomada-inteligente-vale-a-pena-como-funciona/
-- X: Tomada inteligente não reduz o consumo do aparelho; a economia vem de você desligar o que ficaria ligado à toa. E o limite costuma ser 10 A, pouco para ar-condicionado: https://nexustechai.com.br/posts/tomada-inteligente-vale-a-pena-como-funciona/
-- Instagram (legenda): Tomada inteligente vale a pena?
-  Para ligar, desligar e agendar aparelhos simples, sim.
-  Para ar-condicionado e chuveiro, confira os amperes antes.
-  Link na bio.
-  #tomadainteligente #casainteligente #alexa
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Tomada inteligente: cuidado com os amperes." [2-8 s] Fato 1: o limite costuma ser 10 A. [8-14 s] Fato 2: ar-condicionado e chuveiro pedem mais. [14-18 s] Fato 3: ela não reduz o consumo, só evita o que ficaria ligado à toa. [18-20 s] "Guia completo no link da bio."
 
 
 

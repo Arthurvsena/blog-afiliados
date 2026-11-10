@@ -6,7 +6,7 @@ palavra_chave: "novo echo dot brasil preço"
 editoria: tecnologia
 tipo: noticia
 publicado: 2026-11-01 11:00
-atualizado: 2026-11-01
+atualizado: 2026-11-10
 fontes:
   - nome: "Hardware.com.br"
     url: "https://www.hardware.com.br/?p=386318"
@@ -37,7 +37,7 @@ O Echo Dot mantém o corpo redondo e compacto, agora revestido de tecido. Vem em
 
 A Amazon diz que os graves ficaram 50% maiores que na geração anterior. O Showmetech também aponta quatro microfones e o chip AZ3.
 
-O detalhe que importa é o hub de casa inteligente embutido. Na prática, lâmpadas, tomadas e ar-condicionado compatíveis conversam com ele sem uma central separada. Para quem quer começar a automatizar a casa, é uma caixa a menos para comprar. Se a ideia é começar pela luz, veja se a [lâmpada inteligente vale a pena](/posts/lampada-inteligente-vale-a-pena/) no seu caso.
+O detalhe que importa é o hub de casa inteligente embutido. Na prática, lâmpadas, tomadas e ar-condicionado compatíveis conversam com ele sem uma central separada. Para quem quer começar a automatizar a casa, é uma caixa a menos para comprar. Se a ideia é começar pela luz, veja se a [lâmpada inteligente vale a pena](/posts/lampada-inteligente-vale-a-pena/) no seu caso, e confira as [melhores lâmpadas inteligentes compatíveis com Alexa](/posts/melhores-lampadas-inteligentes-alexa/).
 
 Mas atenção: o aparelho liga na tomada. Não tem bateria.
 

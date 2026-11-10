@@ -6,7 +6,7 @@ palavra_chave: "switch 2 zelda 40 anos preço brasil"
 editoria: games
 tipo: noticia
 publicado: 2026-10-30 10:30
-atualizado: 2026-10-30
+atualizado: 2026-11-10
 fontes:
   - nome: "Game Over Drive (pré-venda e preços)"
     url: "https://gameoverdrive.com.br/nintendo-switch-2-zelda-preco-data-brasil/"
@@ -57,7 +57,7 @@ De acordo com o Game Over Drive, o pacote traz:
 
 O hardware é o mesmo do Switch 2 comum: tela LCD de 7,9 polegadas em 1080p, 256 GB de armazenamento e saída de até 4K. Na prática, você paga pelo visual.
 
-O detalhe que importa: o jogo Ocarina of Time não vem incluso. O remake é vendido à parte (veja o [preço e as edições do remake de Ocarina of Time](/posts/zelda-ocarina-of-time-switch-2-lancamento-5-novembro-preco/)) e, segundo as fontes, sai em 5 de novembro, uma semana depois do console.
+O detalhe que importa: o jogo Ocarina of Time não vem incluso. O remake é vendido à parte (veja o [preço e as edições do remake de Ocarina of Time](/posts/zelda-ocarina-of-time-switch-2-lancamento-5-novembro-preco/)) e, segundo as fontes, sai em 5 de novembro, uma semana depois do console. Se a dúvida é pagar mais pela edição comemorativa ou ficar com o comum, veja a [comparação entre a edição Zelda 40 anos e o Switch 2 comum](/posts/switch-2-zelda-40-anos-vale-a-pena-vs-comum-reposicao/); e para ver como o console vai de vendas no mundo, o [balanço de 26 milhões de unidades](/posts/switch-2-passa-26-milhoes-vendas-nintendo-balanco-semestre/).
 
 ## A Nintendo pede desculpas
 
