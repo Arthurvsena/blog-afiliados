@@ -38,11 +38,17 @@
   },
   {
    "slug": "a-arca-de-noe",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-11",
+   "release": "biblia-2026-11-11",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "pedro-anda-sobre-as-aguas",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-11",
+   "release": "biblia-2026-11-11",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "a-fornalha-ardente",
