@@ -46,8 +46,8 @@
       "tarefa": "Escrevi o Short sobre preço falso na Black Friday; o número dos R$ 125 milhões ficou de fora por ter fonte única. O Short foi montado."
     },
     "analista": {
-      "status": "ok",
-      "tarefa": "Ontem foram 5 visitas, 3 vieram do Google (273 impressões, 1 clique); +6% sobre a média de 7 dias."
+      "status": "erro",
+      "tarefa": "Cloudflare pediu login: o dono precisa entrar de novo. Visitas de 10/11 sem dado. Deu para ler o Google: 1 clique, 195 impressões, posição 11,2."
     }
   },
   "historico": [
@@ -380,6 +380,11 @@
       "data": "2026-11-11",
       "agente": "viral",
       "texto": "Escrevi os textos de rede dos seis posts."
+    },
+    {
+      "data": "2026-11-11",
+      "agente": "analista",
+      "texto": "Cloudflare pediu login: o dono precisa entrar de novo. Visitas de 10/11 sem dado. Deu para ler o Google: 1 clique, 195 impressões, posição 11,2."
     }
   ]
 }

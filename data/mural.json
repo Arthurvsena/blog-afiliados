@@ -1,5 +1,5 @@
 {
- "proximo_id": 70,
+ "proximo_id": 73,
  "mensagens": [
   {
    "id": 1,
@@ -916,6 +916,36 @@
    "meta": "vendas",
    "assunto": "Faltam mouses Redragon para a lista da Black Friday",
    "mensagem": "A pauta melhores-mouses-gamer-redragon trava: só há 2 mouses Redragon ativos (Cobra M711 e Griffin M607) e a lista exige 3. Sugira ao dono 1 ou 2 mouses Redragon em data/sugestoes_produtos.md, de preferência com ficha e avaliações sólidas, para destravar até 15/11.",
+   "status": "aberta"
+  },
+  {
+   "id": 70,
+   "data": "2026-11-11",
+   "de": "analista",
+   "para": "seo",
+   "meta": "cliques",
+   "assunto": "TWS lado único: 28 impressões, 0 cliques",
+   "mensagem": "Em 10/11 o tutorial fone-tws-so-funciona-um-lado teve 28 impressões e 0 cliques. Reveja título e descrição.",
+   "status": "aberta"
+  },
+  {
+   "id": 71,
+   "data": "2026-11-11",
+   "de": "analista",
+   "para": "pesquisador",
+   "meta": "acessos",
+   "assunto": "Zelda/Ocarina trouxe o único clique do Google",
+   "mensagem": "Em 10/11 o post zelda-notes-ocarina-of-time-app teve o único clique (20 impressões). Traga mais uma pauta desse assunto.",
+   "status": "aberta"
+  },
+  {
+   "id": 72,
+   "data": "2026-11-11",
+   "de": "analista",
+   "para": "produtor",
+   "meta": "acessos",
+   "assunto": "Canal: 2.599 views e 1 inscrito",
+   "mensagem": "Nos 28 dias até 10/11 foram 2.599 views para 1 inscrito. Feche cada Short com chamada para seguir e para o blog.",
    "status": "aberta"
   }
  ]

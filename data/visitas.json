@@ -866,6 +866,79 @@
         "Cloudflare: lista de páginas por visualização veio inconsistente no painel (uma página com 10); usadas as páginas por visita",
         "Search Console de 09/11 ainda parcial (o gráfico de 7 dias vai só até 08/11)"
       ]
+    },
+    {
+      "dia": "2026-11-10",
+      "visitas": null,
+      "visualizacoes": null,
+      "celular_pct": null,
+      "youtube": null,
+      "paginas": null,
+      "origens": null,
+      "paises": null,
+      "google": {
+        "dia": "2026-11-10",
+        "cliques": 1,
+        "impressoes": 195,
+        "posicao_media": 11.2,
+        "consultas": [
+          {
+            "termo": "alexa 2027",
+            "cliques": 0,
+            "impressoes": 3
+          },
+          {
+            "termo": "como configurar alexa echo dot",
+            "cliques": 0,
+            "impressoes": 3
+          },
+          {
+            "termo": "acesso mercado bitcoin",
+            "cliques": 0,
+            "impressoes": 2
+          },
+          {
+            "termo": "zelda ocarina of time remake switch 2 price",
+            "cliques": 0,
+            "impressoes": 1
+          },
+          {
+            "termo": "como ligar echo dot",
+            "cliques": 0,
+            "impressoes": 1
+          }
+        ],
+        "paginas": [
+          {
+            "url": "/posts/zelda-notes-ocarina-of-time-app-celular-como-usar/",
+            "cliques": 1,
+            "impressoes": 20
+          },
+          {
+            "url": "/posts/fone-tws-so-funciona-um-lado/",
+            "cliques": 0,
+            "impressoes": 28
+          },
+          {
+            "url": "/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/",
+            "cliques": 0,
+            "impressoes": 21
+          },
+          {
+            "url": "/posts/gemini-4-argon-vs-carbon-diferenca/",
+            "cliques": 0,
+            "impressoes": 13
+          },
+          {
+            "url": "/posts/como-configurar-alexa-echo-dot-primeira-vez/",
+            "cliques": 0,
+            "impressoes": 12
+          }
+        ]
+      },
+      "faltou": [
+        "Cloudflare Web Analytics: o painel abriu na tela de login (sessão expirada no Chrome); visitas, páginas, origens, celular e YouTube de 10/11 não coletados. O dono precisa entrar de novo no Cloudflare."
+      ]
     }
   ]
 }

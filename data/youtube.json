@@ -1,14 +1,14 @@
 {
-  "atualizado": "2026-11-10",
-  "periodo": "últimos 28 dias (13/10 a 09/11)",
+  "atualizado": "2026-11-11",
+  "periodo": "últimos 28 dias (14/10 a 10/11)",
   "canal": {
-    "visualizacoes": 2516,
-    "horas": 8.8,
+    "visualizacoes": 2599,
+    "horas": 8.9,
     "inscritos_saldo": 1,
     "inscritos_total": 1,
-    "impressoes": 1626,
-    "ctr": 1.4,
-    "pct_media": 56.4,
+    "impressoes": 1748,
+    "ctr": 1.5,
+    "pct_media": 55.1,
     "duracao_media": "0:25"
   },
   "videos": [
@@ -36,7 +36,7 @@
       "duracao_media": "0:22",
       "pct_media": 48.1,
       "impressoes": 175,
-      "ctr": 0.0
+      "ctr": 0
     },
     {
       "titulo": "iPhone Duo: 234 mil dobras e a tela segue inteira #shorts",
@@ -48,7 +48,7 @@
       "inscritos": 1,
       "duracao_media": "0:29",
       "pct_media": 58.5,
-      "impressoes": 180,
+      "impressoes": 185,
       "ctr": 1.1
     },
     {
@@ -56,13 +56,13 @@
       "tipo": "short",
       "quadro": "historias",
       "duracao": "1:01",
-      "views": 345,
+      "views": 349,
       "horas": 1.3,
       "inscritos": 0,
       "duracao_media": "0:30",
-      "pct_media": 49.5,
-      "impressoes": 72,
-      "ctr": 1.4
+      "pct_media": 49.3,
+      "impressoes": 102,
+      "ctr": 2.0
     },
     {
       "titulo": "GTA 6 ocupa até 212 GB e dá para baixar antes #shorts",
@@ -78,6 +78,19 @@
       "ctr": 10.5
     },
     {
+      "titulo": "Anatel bloqueio de ligações: regra vale dia 12 #shorts",
+      "tipo": "short",
+      "quadro": "60s",
+      "duracao": "0:41",
+      "views": 68,
+      "horas": 0.1,
+      "inscritos": null,
+      "duracao_media": "0:16",
+      "pct_media": 41.3,
+      "impressoes": 8,
+      "ctr": 0
+    },
+    {
       "titulo": "GTA 6 pré-carregamento: 10 ou 12/11? Datas divergem #shorts",
       "tipo": "short",
       "quadro": "60s",
@@ -88,20 +101,20 @@
       "duracao_media": "0:22",
       "pct_media": 44.6,
       "impressoes": 9,
-      "ctr": 0.0
+      "ctr": 0
     },
     {
       "titulo": "Black Friday antecipada: 3 regras contra preço falso #shorts",
       "tipo": "short",
       "quadro": "60s",
       "duracao": "0:37",
-      "views": 20,
+      "views": 25,
       "horas": 0.1,
-      "inscritos": null,
-      "duracao_media": "0:27",
-      "pct_media": 75.1,
-      "impressoes": 31,
-      "ctr": 3.2
+      "inscritos": 0,
+      "duracao_media": "0:23",
+      "pct_media": 62.3,
+      "impressoes": 48,
+      "ctr": 4.2
     },
     {
       "titulo": "Black Friday: 3 sinais de oferta falsa para não cair #shorts",
@@ -117,6 +130,19 @@
       "ctr": 7.4
     },
     {
+      "titulo": "Smartband ou smartwatch: qual vale para o seu dia a dia?",
+      "tipo": "longo",
+      "quadro": null,
+      "duracao": "3:59",
+      "views": 9,
+      "horas": 0.2,
+      "inscritos": 0,
+      "duracao_media": "1:42",
+      "pct_media": 43.0,
+      "impressoes": 254,
+      "ctr": 1.6
+    },
+    {
       "titulo": "Chromagraph Camera já está no Brasil: vale R$ 34,90?",
       "tipo": "longo",
       "quadro": "lafora",
@@ -126,21 +152,21 @@
       "inscritos": 0,
       "duracao_media": "1:03",
       "pct_media": 24.6,
-      "impressoes": 768,
+      "impressoes": 778,
       "ctr": 0.5
     },
     {
-      "titulo": "Smartband ou smartwatch: qual vale para o seu dia a dia?",
+      "titulo": "Como ter vários WhatsApp no iOS (passo a passo 2026)",
       "tipo": "longo",
-      "quadro": null,
-      "duracao": "3:59",
-      "views": 5,
-      "horas": 0.2,
-      "inscritos": 0,
-      "duracao_media": "2:52",
-      "pct_media": 72.3,
-      "impressoes": 209,
-      "ctr": 1.4
+      "quadro": "tutorial",
+      "duracao": "4:04",
+      "views": 2,
+      "horas": 0.0,
+      "inscritos": null,
+      "duracao_media": "0:02",
+      "pct_media": 1.2,
+      "impressoes": 7,
+      "ctr": 14.3
     },
     {
       "titulo": "Smartband ou smartwatch: qual vale para o seu dia a dia?",
@@ -180,6 +206,11 @@
     {
       "dia": "2026-11-10",
       "visualizacoes_28d": 2516,
+      "inscritos_saldo_28d": 1
+    },
+    {
+      "dia": "2026-11-11",
+      "visualizacoes_28d": 2599,
       "inscritos_saldo_28d": 1
     }
   ],

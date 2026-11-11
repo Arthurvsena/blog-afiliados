@@ -1,22 +1,25 @@
-# Relatório diário — 2026-11-10 (dia medido: 09/11)
+# Relatório diário: 10/11/2026 (escrito em 11/11)
 
-## Ontem em números
-- **5 visitas** e **9 visualizações** (1,8 página por visita; meta da semana: 2,2). 60% no celular.
-- Contra a média dos 7 dias anteriores (02 a 08/11: 4,7 visitas e 8,6 visualizações por dia): **+6% em visitas, +5% em visualizações**. Ou seja, no mesmo ritmo.
-- Origem: Google 3 (média anterior 2,0 por dia, +50%), direto 2, redes 0, YouTube 0.
-- Google (Search Console, dia ainda parcial): 273 impressões, 1 clique, posição média 9,2. O Google mostra o site 273 vezes e quase ninguém clica.
+**Aviso: leitura parcial.** O Cloudflare pediu login no Chrome do dono. Visitas, visualizações, páginas por visita, origens (Google, redes, direto), celular e visitas do YouTube de 10/11 estão **sem dado**. Não é zero e não foi estimado. O dono precisa entrar de novo no Cloudflare.
 
-## O que bombou
-Volume pequeno demais para falar em "em alta" (sem dado de média própria por post; nenhum post passou de 2 visitas).
-1. `switch-2-zelda-40-anos-lancamento-esgotado-brasil`: 2 visitas, a maior do dia (assunto de games que o Google já entrega).
-2. `melhores-power-banks-20000mah`: 1 visita.
-3. `melhores-power-banks`: 1 visita. Os dois guias de power bank juntos somam 2 visitas.
-No Google: iPhone 13 (57 impressões, 1 clique), TWS "só funciona um lado" (40 impressões, 0 cliques), Zelda Notes (21, 0).
+## 1. Ontem em números
+- Visitas, visualizações, páginas por visita e origens: **sem dado**.
+- Google (Search Console): **1 clique, 195 impressões, posição média 11,2**. Dia anterior (09/11): 273 impressões e 1 clique, então as impressões caíram 29%. Semana anterior (03 a 09/11): 150 a 186 impressões por dia nos dias fechados; 10/11 ficou acima disso.
+- YouTube (últimos 28 dias até 10/11): 2.599 visualizações, 55,1% assistido, 1 inscrito no total, cliques na capa 1,5%.
 
-## O que fazer hoje
-1. `seo`: TWS "só funciona um lado" tem 40 impressões e 0 cliques; título com promessa de solução (já na aposta 2 do plano).
-2. `pesquisador`: Switch 2/Zelda é o post com mais visitas; priorizar a continuação (Metaphor no Switch 2).
-3. `vendas`: power banks trouxeram 2 visitas; conferir as chamadas de compra nos dois guias. O painel do ML não diz o clique por post (sub-ID pendente com o dono).
+## 2. O que bombou
+Sem visitas por post, só dá para ler o Google:
+1. `zelda-notes-ocarina-of-time-app-celular-como-usar`: o único clique do dia (20 impressões). Assunto de lançamento recente do Zelda.
+2. `fone-tws-so-funciona-um-lado`: 28 impressões, 0 cliques. Mais vista, mas ninguém clicou.
+3. `switch-2-zelda-40-anos-lancamento-esgotado-brasil`: 21 impressões, 0 cliques.
+Post em alta (3x a própria média): **sem dado**.
 
-## Canal do YouTube (28 dias até 09/11)
-2.516 visualizações e só 1 inscrito; 0 visitas do YouTube no blog ontem. Detalhe em `data/leitura_canal.json`.
+No YouTube, o Short "Sony quer comprar seu PS5 usado" lidera com 1.127 views e 63,4% assistido; o do Ocarina teve 474 views, mas 0% de cliques na capa.
+
+## 3. O que fazer hoje (máximo 3)
+1. `seo`: TWS "só funciona um lado" tem 28 impressões e 0 cliques; revisar título e descrição.
+2. `pesquisador`: Zelda/Ocarina trouxe o único clique do Google; trazer mais uma pauta do assunto.
+3. `produtor`: o canal tem 2.599 views e 1 inscrito; fechar cada Short com chamada para o blog e para seguir.
+
+## Pendência
+Dono: entrar de novo no Cloudflare Web Analytics no Chrome para a coleta de amanhã funcionar.
