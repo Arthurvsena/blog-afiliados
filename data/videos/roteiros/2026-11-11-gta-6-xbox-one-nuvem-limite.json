@@ -1,0 +1,102 @@
+{
+ "tipo": "short",
+ "quadro": "60s",
+ "slug": "2026-11-11-gta-6-xbox-one-nuvem-limite",
+ "post": "xbox-series-fsr-4-1-gta-6-o-que-muda",
+ "titulo": "GTA 6 no Xbox One: só pela nuvem, e tem porém #shorts",
+ "resumo": "GTA 6 no Xbox One só roda pela nuvem, com o Xbox Cloud Gaming, segundo o Canaltech. É preciso Game Pass (em um primeiro momento) e pode haver fila. O limite de horas na nuvem para o GTA 6 não está confirmado em fonte oficial.",
+ "hashtags": [
+  "GTA6",
+  "Xbox",
+  "XboxOne",
+  "CloudGaming"
+ ],
+ "fontes": [
+  {
+   "nome": "Canaltech",
+   "url": "https://canaltech.com.br/games/xbox-one-vira-o-console-mais-barato-para-jogar-gta-6-mas-ha-um-grande-porem/"
+  }
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "GTA 6 num Xbox de 2013. Dá, mas com um porém.",
+   "tela": "GTA 6 num Xbox de 2013?",
+   "imagens": [
+    "url:https://www.rockstargames.com/VI/_next/static/media/poster_full.0az_iud2g3y4j.jpg?akim=1&imdensity=1&imwidth=3840|Divulgação/Rockstar Games"
+   ]
+  },
+  {
+   "tipo": "fato",
+   "fala": "O {Xbox One|Xbox Uan} não roda o jogo. Quem roda é a nuvem, e a imagem chega por streaming.",
+   "imagens": [
+    "content/imagens/xbox-cloud-gaming-celular-como-controle-smart-tv.jpg"
+   ],
+   "fonte": "Canaltech, 10/11"
+  },
+  {
+   "tipo": "manchete",
+   "fala": "A Rockstar confirmou, segundo o Canaltech: o jogo chega ao Xbox One só pelo {Cloud Gaming|Clau Gueimin}.",
+   "manchete": {
+    "url": "https://canaltech.com.br/games/xbox-one-vira-o-console-mais-barato-para-jogar-gta-6-mas-ha-um-grande-porem/",
+    "trecho": "GTA 6 também estará disponível no XBOX Series e XBOX One via XBOX Cloud Gaming"
+   }
+  },
+  {
+   "tipo": "info",
+   "fala": "O detalhe: por enquanto exige Game Pass, e a nuvem do jogo não vale em PC, celular, navegador nem TV.",
+   "icone": "alerta",
+   "imagens": [
+    "url:https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?4K_5qVU-H-Ah55_aIE8bv|Divulgação/Rockstar Games"
+   ],
+   "fonte": "Canaltech, 10/11"
+  },
+  {
+   "tipo": "data",
+   "fala": "O lançamento é em 19 de novembro, e a chefe do Xbox diz que o Xbox One entra junto.",
+   "destaque": "19 NOV",
+   "rotulo": "lançamento do GTA 6",
+   "imagens": [
+    "content/imagens/xbox-series-fsr-4-1-gta-6-o-que-muda.jpg"
+   ],
+   "fonte": "Canaltech, 10/11"
+  },
+  {
+   "tipo": "info",
+   "fala": "Outro porém: pode ter fila, como todo streaming. O limite de horas, não achamos em fonte oficial.",
+   "icone": "relogio",
+   "imagens": [
+    "tela:https://www.xbox.com/pt-BR/play"
+   ]
+  },
+  {
+   "tipo": "lista",
+   "fala": "Antes de contar com isso, confira três coisas. Game Pass ativo, internet estável e o limite de horas.",
+   "titulo_lista": "ANTES DE CONTAR COM ISSO",
+   "itens": [
+    "Game Pass ativo",
+    "Internet estável",
+    "Limite de horas"
+   ],
+   "imagens": [
+    "content/imagens/xbox-cloud-gaming-celular-como-controle-smart-tv.jpg"
+   ]
+  },
+  {
+   "tipo": "fato",
+   "fala": "O console mais barato para jogar GTA 6 pode ser o que mais pede paciência. Vale esperar a regra oficial.",
+   "imagens": [
+    "content/imagens/xbox-series-fsr-4-1-gta-6-o-que-muda.jpg"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "fala": "O console é de 2013, o trabalho é da nuvem, e é assim que roda GTA 6 num Xbox de 2013",
+   "tela": "Jogaria na nuvem?",
+   "imagens": [
+    "url:https://www.rockstargames.com/VI/_next/static/media/poster_full.0az_iud2g3y4j.jpg?akim=1&imdensity=1&imwidth=3840|Divulgação/Rockstar Games"
+   ]
+  }
+ ],
+ "palavra_chave": "gta 6 xbox one"
+}
