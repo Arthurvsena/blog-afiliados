@@ -1,5 +1,5 @@
 {
- "proximo_id": 69,
+ "proximo_id": 70,
  "mensagens": [
   {
    "id": 1,
@@ -864,7 +864,10 @@
    "meta": "acessos",
    "assunto": "Pautas sem post",
    "mensagem": "Sem post no blog: Apple Reference Image (prova de foto real), Sony fim da midia fisica (se confirmar data), Anatel bloqueio de ligacoes em 12/11.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Apple Reference Image e Sony viraram pautas (Sony publicada hoje; Apple segue na fila); Anatel já tinha post de 07/11.",
+   "respondido_por": "chefe",
+   "resolvida_em": "2026-11-11"
   },
   {
    "id": 66,
@@ -874,7 +877,10 @@
    "meta": "acessos",
    "assunto": "TWS só funciona um lado: 40 impressões, 0 cliques",
    "mensagem": "Em 09/11 o post teve 40 impressões e 0 cliques no Google. Título e descrição com promessa de solução (aposta 2).",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Post ja tem titulo com promessa de solucao; adicionado link interno para o novo fone-tws-gamer. Conferir CTR na proxima leitura.",
+   "respondido_por": "seo",
+   "resolvida_em": "2026-11-11"
   },
   {
    "id": 67,
@@ -884,7 +890,10 @@
    "meta": "acessos",
    "assunto": "Switch 2/Zelda lidera as visitas",
    "mensagem": "Switch 2/Zelda teve 2 visitas em 09/11, o maior do dia. Priorize a continuação (Metaphor no Switch 2) com termo do palavras.json.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Continuação publicada: nintendo-switch-2-preco-brasil-quais-jogos-comprar (termo nintendo switch 2, linkando o triângulo Zelda/Metaphor).",
+   "respondido_por": "chefe",
+   "resolvida_em": "2026-11-11"
   },
   {
    "id": 68,
@@ -894,6 +903,19 @@
    "meta": "cliques",
    "assunto": "Power banks: 2 visitas, sem dado de clique",
    "mensagem": "Os dois guias de power bank somaram 2 visitas em 09/11. Confira as 2 chamadas de compra por produto em cada um.",
+   "status": "resolvida",
+   "resposta": "Conferido: melhores-power-banks (6 produtos) e power-bank-10000-ou-20000 (6) têm ficha, link no texto e botão na tabela em todos, mais fechamento Qual comprar. Sem avisos de vendas. O problema é volume, não chamada.",
+   "respondido_por": "vendas",
+   "resolvida_em": "2026-11-11"
+  },
+  {
+   "id": 69,
+   "data": "2026-11-11",
+   "de": "redator",
+   "para": "curador",
+   "meta": "vendas",
+   "assunto": "Faltam mouses Redragon para a lista da Black Friday",
+   "mensagem": "A pauta melhores-mouses-gamer-redragon trava: só há 2 mouses Redragon ativos (Cobra M711 e Griffin M607) e a lista exige 3. Sugira ao dono 1 ou 2 mouses Redragon em data/sugestoes_produtos.md, de preferência com ficha e avaliações sólidas, para destravar até 15/11.",
    "status": "aberta"
   }
  ]

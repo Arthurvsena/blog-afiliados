@@ -2,6 +2,66 @@
 
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
+## 2026-11-11 · GTA 6 preço no Brasil: R$ 449,90 e liberação à 0h de 19/11
+Link: https://nexustechai.com.br/posts/gta-6-preco-brasil-meia-noite-19-novembro-versoes/
+- WhatsApp: GTA 6 chega à meia-noite de 19/11 no Brasil: Standard R$ 449,90 e Ultimate R$ 549,90 (PS5 e Xbox Series). https://nexustechai.com.br/posts/gta-6-preco-brasil-meia-noite-19-novembro-versoes/
+- X: GTA 6 no Brasil: Standard a R$ 449,90, Ultimate a R$ 549,90 (preços de lançamento), jogável à 0h de 19/11 só no PS5 e Xbox Series. A Ultimate não dá acesso antecipado. https://nexustechai.com.br/posts/gta-6-preco-brasil-meia-noite-19-novembro-versoes/
+- Instagram (legenda): Faltam 8 dias para o GTA 6 e o preço já está nas lojas.
+  Standard custa R$ 449,90 e Ultimate R$ 549,90; migrar custa R$ 100.
+  Só PS5 e Xbox Series, liberado à meia-noite de 19/11.
+  #GTA6 #PS5 #Games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "GTA 6 já tem preço no Brasil." [2-8 s] Standard: R$ 449,90. Ultimate: R$ 549,90. [8-14 s] A Ultimate não libera o jogo antes: é à 0h de 19/11, só PS5 e Xbox Series. [14-18 s] Migrar da Standard para a Ultimate custa R$ 100. [18-20 s] "Comparativo no link da bio."
+
+## 2026-11-11 · PS Plus Extra e Deluxe em novembro 2026: Death Stranding 2
+Link: https://nexustechai.com.br/posts/ps-plus-extra-deluxe-novembro-2026-catalogo/
+- WhatsApp: PS Plus Extra e Deluxe ganham Death Stranding 2 e mais 7 jogos em 17/11, às 6h de Brasília. https://nexustechai.com.br/posts/ps-plus-extra-deluxe-novembro-2026-catalogo/
+- X: PS Plus Extra e Deluxe de novembro: Death Stranding 2, Atomfall e Dragon Quest III HD-2D entram em 17/11, às 6h. O Deluxe leva ainda Soul Reaver 2 e Freedom Wars Remastered. https://nexustechai.com.br/posts/ps-plus-extra-deluxe-novembro-2026-catalogo/
+- Instagram (legenda): Death Stranding 2 chega ao PS Plus Extra em 17/11.
+  Oito jogos no catálogo, incluindo Atomfall e Dragon Quest III HD-2D.
+  Deluxe recebe mais dois: Soul Reaver 2 e Freedom Wars Remastered.
+  #PSPlus #PS5 #Games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "PS Plus de novembro tem Death Stranding 2." [2-8 s] Oito jogos entram em 17/11, às 6h de Brasília. [8-14 s] Destaques: Atomfall e Dragon Quest III HD-2D. [14-18 s] Deluxe leva mais dois: Soul Reaver 2 e Freedom Wars. [18-20 s] "Lista completa no link da bio."
+
+## 2026-11-11 · Fim da mídia física do PlayStation em 2028: o que muda
+Link: https://nexustechai.com.br/posts/sony-fim-midia-fisica-playstation-2028-ps5-midnight-black/
+- WhatsApp: Sony reafirma: jogos novos de PlayStation só em digital a partir de jan/2028. Seus discos atuais continuam valendo. https://nexustechai.com.br/posts/sony-fim-midia-fisica-playstation-2028-ps5-midnight-black/
+- X: A Sony reafirmou: jogos lançados a partir de jan/2028 não terão disco. Seus discos atuais seguem valendo. O PS5 Midnight Black (Japão, 19/11) não tem plano para o Brasil. Possível recuo é só rumor. https://nexustechai.com.br/posts/sony-fim-midia-fisica-playstation-2028-ps5-midnight-black/
+- Instagram (legenda): O disco do PlayStation tem data para acabar: janeiro de 2028.
+  Seus jogos em disco atuais continuam jogáveis.
+  O PS5 Midnight Black é só para o Japão.
+  #PlayStation #PS5 #Games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "O disco do PlayStation vai acabar." [2-8 s] Jogos novos a partir de jan/2028 só digitais. [8-14 s] Seus discos de hoje continuam valendo. [14-18 s] PS5 Midnight Black é só do Japão; recuo da Sony é rumor. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-11 · Android atualização Samsung: quais Galaxy recebem a One UI 9
+Link: https://nexustechai.com.br/posts/one-ui-9-quais-galaxy-recebem-como-atualizar-novembro/
+- WhatsApp: One UI 9 já chegou ao Galaxy A16, A35, M35 e M54 no Brasil. Veja se o seu recebeu em Configurações. https://nexustechai.com.br/posts/one-ui-9-quais-galaxy-recebem-como-atualizar-novembro/
+- X: One UI 9 (Android 17) já chegou ao Galaxy A16, A35, M35 e M54 no Brasil. Para checar: Configurações > Atualização de software. Faça backup antes. https://nexustechai.com.br/posts/one-ui-9-quais-galaxy-recebem-como-atualizar-novembro/
+- Instagram (legenda): Seu Galaxy já pode ter a One UI 9.
+  Chegou ao A16, A35, M35 e M54, além da linha S25.
+  Confira em Configurações > Atualização de software.
+  #Samsung #OneUI9 #Android
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seu Galaxy já pode ter o Android 17." [2-8 s] One UI 9 chegou ao A16, A35, M35 e M54. [8-14 s] Abra Configurações, Atualização de software, Baixar e instalar. [14-18 s] Faça backup antes e deixe espaço livre. [18-20 s] "Lista completa no link da bio."
+
+## 2026-11-11 · Nintendo Switch 2: preço no Brasil e quais jogos comprar
+Link: https://nexustechai.com.br/posts/nintendo-switch-2-preco-brasil-quais-jogos-comprar/
+- WhatsApp: Switch 2 custa R$ 4.599,90 sugerido no Brasil. Primeiro jogo a comprar: Zelda Ocarina of Time (Metacritic 96). https://nexustechai.com.br/posts/nintendo-switch-2-preco-brasil-quais-jogos-comprar/
+- X: Switch 2 custa R$ 4.599,90 (preço sugerido desde 1/9). Primeiro jogo: Zelda Ocarina of Time, Metacritic 96. Metaphor e Pikmin 4 saem em 12/11. Black Friday: 27/11. https://nexustechai.com.br/posts/nintendo-switch-2-preco-brasil-quais-jogos-comprar/
+- Instagram (legenda): Switch 2 custa R$ 4.599,90 no preço sugerido.
+  Primeiro jogo a comprar: Zelda Ocarina of Time, Metacritic 96.
+  Metaphor ReFantazio e Pikmin 4 chegam em 12/11.
+  #Switch2 #Nintendo #Games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Comprou um Switch 2? Comece por este jogo." [2-8 s] Console: R$ 4.599,90, preço sugerido. [8-14 s] Zelda Ocarina of Time tem Metacritic 96. [14-18 s] Metaphor e Pikmin 4 saem em 12/11. [18-20 s] "Guia no link da bio."
+
+## 2026-11-11 · Fone TWS gamer: qual tem modo jogo? 3 modelos comparados
+Link: https://nexustechai.com.br/posts/fone-tws-gamer-baixa-latencia/
+- WhatsApp: Fone TWS gamer: só o Havit TW969 Lite informa latência (60 ms, segundo o fabricante). O QCY T17 tem modo de jogo. https://nexustechai.com.br/posts/fone-tws-gamer-baixa-latencia/
+- X: Fone TWS gamer: só o Havit TW969 Lite informa latência (60 ms, segundo o fabricante). O QCY T17 tem modo jogo e o T13 serve de contraste. Comparativo de 3 modelos. https://nexustechai.com.br/posts/fone-tws-gamer-baixa-latencia/
+- Instagram (legenda): Fone gamer sem fio: quem informa a latência?
+  Só o Havit TW969 Lite: 60 ms, segundo o fabricante.
+  QCY T17 tem modo jogo; o T13 não informa.
+  #FoneBluetooth #Gamer #Tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Fone sem fio para jogar: qual escolher?" [2-8 s] Havit TW969 Lite: 60 ms, segundo o fabricante. [8-14 s] QCY T17: tem modo jogo. [14-18 s] QCY T13: não informa modo jogo. [18-20 s] "Comparativo no link da bio."
+
 ## 2026-11-10 · Power bank compacto: 1 carga ou 2? 10.000 vs 20.000 mAh
 Link: https://nexustechai.com.br/posts/power-bank-10000-ou-20000-mah-qual-escolher/
 - WhatsApp: Power bank de 10.000 mAh dá cerca de 1 carga no celular; o de 20.000 dá perto de 2. Qual compensa? https://nexustechai.com.br/posts/power-bank-10000-ou-20000-mah-qual-escolher/
