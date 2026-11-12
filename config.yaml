@@ -42,7 +42,7 @@ autor:
 
 # Google AdSense (passo 12 do LEIAME.md). Vazio = sem anúncios.
 anuncios:
-  adsense_cliente: ""        # ex.: "ca-pub-1234567890123456"
+  adsense_cliente: "ca-pub-2202660403138316"
   # Blocos manuais (opcional). Sem eles, os anúncios automáticos do AdSense decidem os lugares.
   slots:
     topo: ""                 # faixa abaixo do menu
