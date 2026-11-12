@@ -57,3 +57,5 @@ Para preço, mídia física e português, o que se sabe está em nossa [cobertur
 :::veredito
 Na minha leitura, a equipe de Breath of the Wild é um bom sinal, mas sinal não é nota. Quem já tem Switch 2 e cresceu com o original pode comprar sem medo. Para todos os outros, o mais prudente é esperar as primeiras análises saírem.
 :::
+
+*Atualização:* as vendas já começaram, e o remake foi o [segundo maior lançamento de Zelda no Reino Unido](/posts/ocarina-of-time-switch-2-reino-unido-segundo-maior-lancamento-zelda/), em varejo físico.

@@ -1,25 +1,25 @@
 {
-  "ultima_execucao": "2026-11-11T07:45",
+  "ultima_execucao": "2026-11-12T07:55",
   "agentes": {
     "chefe": {
       "status": "ok",
-      "tarefa": "Coordenei os seis posts do dia, marquei as pautas como publicadas e respondi o mural."
+      "tarefa": "Coordenei os oito posts do dia, descartei a pauta frágil do iPhone 17, corrigi três posts antigos que o verificador reprovou e respondi o mural."
     },
     "pesquisador": {
       "status": "ok",
-      "tarefa": "Trouxe 6 pautas (GTA 6, PS Plus, Sony, One UI 9, Apple, Switch 2) e encheu a fila com 5 pautas novas."
+      "tarefa": "Trouxe 5 pautas (ChatGPT GIF, Porto de Santos, Ocarina no Reino Unido, Golden Joystick e iPhone 17 na Black Friday, que acabou descartada)."
     },
     "curador": {
-      "status": "ocioso",
-      "tarefa": "Não fui chamado: os subnichos têm produtos; o pedido de mouses Redragon (mural #69) e o do cabo Lightning (#63) ficam para a próxima."
+      "status": "ok",
+      "tarefa": "Sugeri os mouses Redragon Stormrage e Invader, mantive o cabo Lightning MFi e avisei que as caixas JBL/Soundcore já estão destravadas."
     },
     "redator": {
       "status": "ok",
-      "tarefa": "Escrevi GTA 6, PS Plus, Sony sem disco, One UI 9, Switch 2 e o guia de fone TWS gamer; a lista de mouses Redragon ficou sem produtos."
+      "tarefa": "Escrevi quatro notícias, o tutorial de figurinha, a análise ChatGPT x Gemini e os guias de teclado blue x red e caixas JBL/Soundcore; o iPhone 17 não fechou fonte."
     },
     "seo": {
       "status": "ok",
-      "tarefa": "Revisei os seis posts, encurtei títulos e descrições e liguei o tutorial de TWS ao novo guia."
+      "tarefa": "Revisei os oito posts, troquei palavras-chave por termos reais e liguei os posts de Zelda, ChatGPT e caixas entre si."
     },
     "atualizador": {
       "status": "ocioso",
@@ -27,23 +27,23 @@
     },
     "designer": {
       "status": "ok",
-      "tarefa": "Diagramei os seis posts; só o fone tem foto de produto, os outros cinco ficaram com logo da marca."
+      "tarefa": "Diagramei os oito posts; teclado e caixas têm foto de produto, o Porto, o Switch 2 e o Resident Evil têm fotos livres, e os de ChatGPT e WhatsApp ficaram com logo."
     },
     "vendas": {
       "status": "ok",
-      "tarefa": "Reforcei as chamadas de compra do guia de TWS gamer e confirmei as dos power banks; as notícias ficaram sem venda forçada."
+      "tarefa": "Fechei as chamadas de compra dos guias de teclado e caixas e liguei o Golden Joystick à seção de acessórios gamer."
     },
     "viral": {
       "status": "ok",
-      "tarefa": "Dei nota às pautas e escrevi os textos de rede dos seis posts; GTA 6 é o mais forte."
+      "tarefa": "Dei nota às pautas e escrevi os textos de rede dos oito posts; Porto de Santos e ChatGPT GIF são os mais fortes."
     },
     "produtor": {
-      "status": "ok",
-      "tarefa": "Escolhi a Black Friday antecipada para o Short de segunda e corrigi o gancho, que dizia \"começou\" antes do 11.11."
+      "status": "ocioso",
+      "tarefa": "Não fui chamado na rotina do portal; o recado do canal (chamada para seguir e para o blog) ficou no mural."
     },
     "roteirista": {
-      "status": "ok",
-      "tarefa": "Escrevi o Short sobre preço falso na Black Friday; o número dos R$ 125 milhões ficou de fora por ter fonte única. O Short foi montado."
+      "status": "ocioso",
+      "tarefa": "Não fui chamado hoje: o canal tem workflow próprio."
     },
     "analista": {
       "status": "ok",
@@ -51,46 +51,6 @@
     }
   },
   "historico": [
-    {
-      "data": "2026-11-02",
-      "agente": "viral",
-      "texto": "Dei nota às pautas e escrevi os textos de rede dos sete posts de hoje."
-    },
-    {
-      "data": "2026-11-02",
-      "agente": "redator",
-      "texto": "Escrevi três notícias, um tutorial, uma análise e dois guias."
-    },
-    {
-      "data": "2026-11-02",
-      "agente": "seo",
-      "texto": "Revisei os sete posts e listei as URLs para pedir indexação."
-    },
-    {
-      "data": "2026-11-02",
-      "agente": "vendas",
-      "texto": "Pus links de compra nos guias de lâmpadas, teclados e smartband."
-    },
-    {
-      "data": "2026-11-02",
-      "agente": "designer",
-      "texto": "Peguei fotos livres e diagramei os sete posts."
-    },
-    {
-      "data": "2026-11-02",
-      "agente": "chefe",
-      "texto": "Reunião: foco em listas com produto pronto, palavras certas, links internos e produtos para destravar listas antes da Black Friday."
-    },
-    {
-      "data": "2026-11-02",
-      "agente": "analista",
-      "texto": "Reunião: sem métricas novas; meta de 20 visitas no domínio novo."
-    },
-    {
-      "data": "2026-11-02",
-      "agente": "seo",
-      "texto": "Reunião: relatório com 3 pautas novas e dois casos de canibalização."
-    },
     {
       "data": "2026-11-02",
       "agente": "vendas",
@@ -348,8 +308,43 @@
     },
     {
       "data": "2026-11-12",
-      "agente": "analista",
-      "texto": "Ontem foram 4 visitas, todas na home e dos EUA (provável robô); em 10/11 foram 10, 1 do Google."
+      "agente": "pesquisador",
+      "texto": "Trouxe 5 pautas do dia, com Ocarina no Reino Unido para o pedido da analista."
+    },
+    {
+      "data": "2026-11-12",
+      "agente": "curador",
+      "texto": "Sugeri os mouses Redragon Stormrage e Invader e avisei que as caixas JBL/Soundcore já podem ser escritas."
+    },
+    {
+      "data": "2026-11-12",
+      "agente": "redator",
+      "texto": "Escrevi quatro notícias, o tutorial de figurinha, a análise ChatGPT x Gemini e os guias de teclado e caixas; o iPhone 17 ficou sem fonte."
+    },
+    {
+      "data": "2026-11-12",
+      "agente": "seo",
+      "texto": "Revisei os oito posts, troquei a palavra-chave do teclado por 'teclado gamer silencioso' e liguei o cluster Zelda e ChatGPT."
+    },
+    {
+      "data": "2026-11-12",
+      "agente": "viral",
+      "texto": "Dei nota às pautas e escrevi os textos de rede dos oito posts."
+    },
+    {
+      "data": "2026-11-12",
+      "agente": "vendas",
+      "texto": "Pus duas chamadas de compra por produto nos guias de teclado e caixas, sem preço no texto."
+    },
+    {
+      "data": "2026-11-12",
+      "agente": "designer",
+      "texto": "Diagramei os oito posts e pus fotos de produto no teclado e nas caixas."
+    },
+    {
+      "data": "2026-11-12",
+      "agente": "chefe",
+      "texto": "Descartei a pauta fraca do iPhone 17, corrigi o verificador em três posts antigos e respondi os recados do mural."
     }
   ]
 }

@@ -117,7 +117,7 @@ Os três usam switches de tato marcado, e a diferença está no som. O blue (Fiz
 
 Pense assim: o blue é uma caneta retrátil, o brown é um lápis. Os dois escrevem, só um deles irrita a casa inteira às 23h.
 
-Vale lembrar que nenhum é "o melhor para jogo" por natureza. Na maioria dos jogos, pesam mais o formato e o conforto nas mãos.
+Vale lembrar que nenhum é "o melhor para jogo" por natureza. Na maioria dos jogos, pesam mais o formato e o conforto nas mãos. Para comparar o blue com o switch linear red, veja o guia do [teclado gamer silencioso: switch blue ou red](/posts/teclado-mecanico-switch-blue-ou-red/).
 
 ## Erros comuns ao comprar um teclado gamer barato
 

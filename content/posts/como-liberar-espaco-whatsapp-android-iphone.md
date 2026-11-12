@@ -98,6 +98,8 @@ Quer mais do WhatsApp? Veja como a [Vivo quer levar o WhatsApp a lugares sem sin
 
 Cansado de áudio longo? Veja [como configurar a transcrição de áudio no WhatsApp](/posts/como-transcrever-audio-whatsapp-ativar/).
 
+Com espaço de sobra, aprenda [como fazer figurinha no WhatsApp](/posts/como-fazer-figurinha-no-whatsapp/) com as suas fotos.
+
 Depois da limpeza, proteja a conta: veja como ativar a [verificação em duas etapas no WhatsApp](/posts/whatsapp-confirmacao-duas-etapas-como-ativar/).
 
 :::dica Hábito de 1 minuto

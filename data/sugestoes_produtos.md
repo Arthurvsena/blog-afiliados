@@ -2,6 +2,34 @@
 
 O curador escreve aqui os produtos que vale cadastrar em data/produtos.csv.
 
+## Sugestões de 2026-11-12 (mural #63 e #69; Black Friday, publicar até 15/11)
+
+**Aviso para o cadastrador:** o Mercado Livre segue sem leitura aqui (403 em anúncios e no blog de reviews). Nota e avaliações do ML **não** foram conferidas por mim. Critério desta rodada: nota 4,6+ e 200+ avaliações no anúncio, loja oficial ou MercadoLíder; se o anúncio não passar, descarte. Só registrei ficha confirmada em página de loja.
+
+### acessorios-gamer: mouse Redragon (pauta `melhores-mouses-gamer-redragon`, falta 1)
+- **Mouse Gamer Redragon Stormrage M718 RGB (com fio)** (Redragon), preço não confirmado no ML. Por que: terceiro Redragon de formato ambidestro, ao lado do Cobra e do Griffin. Confirmado em Terabyteshop, KaBuM e Pichau (versões preta e branca): sensor PixArt PMW3325, 10.000 DPI, 7 botões programáveis, polling de até 1000 Hz, RGB, cabo USB. Peso não confirmado. O blog do ML cita nota 4,8 com "mais de 100 avaliações" (trecho de busca) e reclamação de suor na carcaça: **provavelmente abaixo de 200 avaliações; só cadastre se o anúncio passar do critério.**
+  Busca no ML: `Mouse Gamer Redragon Stormrage M718 RGB`
+  Linha pronta para o CSV (só falta o link):
+  `redragon-stormrage-m718,acessorios-gamer,Mouse Gamer Redragon Stormrage M718 RGB,Redragon,PRECO,NOTA,AVAL,COLE_O_LINK,,Sensor PixArt PMW3325;10.000 DPI;7 botões programáveis,sim`
+- **Mouse Gamer Redragon Invader M719 RGB (com fio)** (Redragon), cerca de R$ 90 (Pichau e Buscapé, indicativo). Por que: preço no mesmo patamar do Cobra e ficha completa. Confirmado na Pichau: sensor PixArt PMW3325, 10.000 DPI, 3 botões laterais, cabo trançado, cerca de 150 g, garantia de 12 meses; ficha Redragon: 8 botões (7 programáveis), polling 125 a 1000 Hz. **Sem nota consolidada no Brasil** (Pichau 0 avaliações) e há relato de botões que falham com o tempo (guia do ML Colômbia): só cadastre se o ML mostrar 4,6+ e 200+. Não confunda com a versão sem fio Invader Pro (M719RGB-PRO), outro produto.
+  Busca no ML: `Mouse Gamer Redragon Invader M719 RGB`
+  Linha pronta para o CSV (só falta o link):
+  `redragon-invader-m719,acessorios-gamer,Mouse Gamer Redragon Invader M719 RGB,Redragon,PRECO,NOTA,AVAL,COLE_O_LINK,,Sensor PixArt PMW3325;10.000 DPI;Cabo trançado,sim`
+- Reprovados: Redragon Taipan Pro (4,7 com 92 avaliações no ML), Mirage M690 e M656 (reclamações de cursor e conexão instáveis). Recomendação: cadastrar o Stormrage primeiro; se nenhum passar, o redator publica a lista com 2 Redragon mais um contraste (Logitech G203 ou Fortrek, já ativos).
+
+### power-banks-carregadores: cabo Lightning MFi (mural #63, mantido)
+Valem as duas fichas de 11-09 abaixo (Anker PowerLine II e Ugreen US305 1 m). Reconfirmei hoje só: MFi e garantia vitalícia no site da Anker; a Anker lista o PowerLine II USB-C para Lightning em 3 ft, 6 ft e kit de 2 (comprimento e potência variam entre anúncios, **copie do anúncio do ML, não registre PD**). Nenhum anúncio brasileiro de loja oficial foi achado fora do ML. Critério: loja oficial Anker, 4,6+ e 200+.
+
+### Capa iPhone 13 (mural #63, mantido, sem avanço)
+Nenhuma capa nova achada com ficha confiável (Gshield segue sem nota). Continua dependendo de subnicho decidido pelo dono e de 2 links de loja oficial (Spigen, Ringke ou Baseus). Sem linha de CSV.
+
+### fones-caixas-bluetooth: caixas
+- Pauta `melhores-caixas-de-som-bluetooth-jbl-soundcore`: **já destravada.** Há 3 ativas (JBL Go 4, Anker Soundcore 2, JBL Go Essential 2), que atendem `produtos_necessarios: 3`. O redator pode escrever agora.
+- Pauta `...-ate-100`: **segue travada.** Nenhuma caixa até R$ 100 com nota e avaliações verificadas. Só apareceu uma Inova RGB (R$ 75,99, 4,7, marca fraca, número de avaliações desconhecido: descartada) e a Philips TAS2505B (ficha oficial: 3 W, 10 h, IPX7; sem preço nem nota). Recomendação: o seo/redator renomeiam a pauta para "até R$ 200" com as 3 ativas (Essential 2 na faixa de R$ 100 a 200), ou o dono manda 3 links de caixas abaixo de R$ 100 com 200+ avaliações.
+
+### Resumo de 11-12
+Novas: acessorios-gamer 2 (Stormrage M718 e Invader M719, ambas condicionadas ao anúncio do ML); power-banks-carregadores 0 novas (cabo mantido); fones-caixas-bluetooth 0 novas (jbl-soundcore destravada com o catálogo atual; até 100 sem candidato verificável).
+
 ## Cadastrados em 2026-11-09 (cadastrar-produtos, Chrome)
 - ✅ JBL Go Essential 2 (`jbl-go-essential-2`): 4,9 com 7.151 avaliações, loja JBL.
 - ✅ Fone TWS gamer: Havit TW969 Lite (`havit-tw969-lite`, 4,8 com 1.839) e QCY T17 (`qcy-t17`, 4,8 com 5.245) no lugar do Havit TW970 e do JBL Quantum TWS Air (sem anúncio nacional confiável).

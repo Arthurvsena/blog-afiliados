@@ -2,6 +2,86 @@
 
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
+## 2026-11-12 · Como fazer figurinha no WhatsApp pelo celular, passo a passo
+Link: https://nexustechai.com.br/posts/como-fazer-figurinha-no-whatsapp/
+- WhatsApp: Dá para fazer figurinha com a sua foto direto no WhatsApp, sem baixar app: painel de figurinhas > Criar. Passo a passo no Android e no iPhone: https://nexustechai.com.br/posts/como-fazer-figurinha-no-whatsapp/
+- X: Você não precisa de app extra para fazer figurinha no WhatsApp. Abra uma conversa, toque no painel de figurinhas, escolha Criar e selecione a foto. Passo a passo e o que fazer se a opção não aparecer: https://nexustechai.com.br/posts/como-fazer-figurinha-no-whatsapp/
+- Instagram (legenda): Sua foto vira figurinha em 1 minuto, sem instalar nada.
+  O criador já vem no WhatsApp: painel de figurinhas, Criar, Fotos.
+  Se a opção não aparecer, atualize o app e veja o que fazer no post.
+  #whatsapp #figurinha #tutorial
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Pare de baixar app de figurinha." [2-8 s] Fato 1: o criador já vem dentro do WhatsApp. [8-14 s] Fato 2: abra uma conversa, painel de figurinhas, Criar, escolha a foto. [14-18 s] Fato 3: sem a opção, atualize o app; a de IA pode não ter chegado na sua conta. [18-20 s] "Passo a passo no link da bio."
+
+## 2026-11-12 · ChatGPT ou Gemini: qual o melhor para o celular?
+Link: https://nexustechai.com.br/posts/chatgpt-ou-gemini-qual-o-melhor/
+- WhatsApp: ChatGPT ou Gemini? Vive de Gmail e Maps no Android: Gemini. Quer app de conversa completo: ChatGPT. Comparei os planos nas páginas oficiais: https://nexustechai.com.br/posts/chatgpt-ou-gemini-qual-o-melhor/
+- X: ChatGPT ou Gemini no celular? A diferença hoje é de ecossistema, não de quem é mais inteligente. Gemini encaixa em quem vive no Google; ChatGPT, em quem quer app de conversa com voz e memória. Os dois têm plano grátis: https://nexustechai.com.br/posts/chatgpt-ou-gemini-qual-o-melhor/
+- Instagram (legenda): ChatGPT ou Gemini: qual fica no seu celular?
+  Android e Gmail, Maps e YouTube no dia a dia: o Gemini encaixa melhor.
+  Quer app completo de conversa, voz e memória: o ChatGPT.
+  #chatgpt #gemini #inteligenciaartificial
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "ChatGPT ou Gemini? Depende do seu celular." [2-8 s] Fato 1: os dois têm plano grátis, com limites. [8-14 s] Fato 2: Gemini pesa para quem vive no ecossistema Google. [14-18 s] Fato 3: ChatGPT leva para quem quer app de conversa com voz e memória. [18-20 s] "Comparativo no link da bio."
+
+## 2026-11-12 · Teclado gamer silencioso: switch blue ou red?
+Link: https://nexustechai.com.br/posts/teclado-mecanico-switch-blue-ou-red/
+- WhatsApp: Teclado gamer silencioso? Switch red. O blue estala alto e dá para ouvir no cômodo ao lado. Explico a diferença e mostro um teclado de cada tipo: https://nexustechai.com.br/posts/teclado-mecanico-switch-blue-ou-red/
+- X: Switch blue ou red? O blue é tátil e faz clique alto, o red é linear e quase silencioso. Para jogar ou dividir o quarto, red. Para sentir cada tecla, blue. Atenção: o Machenike K500-B61 não tem Ç: https://nexustechai.com.br/posts/teclado-mecanico-switch-blue-ou-red/
+- Instagram (legenda): Estalo ou silêncio?
+  O blue clica a cada toque. O red desce liso e quase some.
+  Para jogar ou dividir o quarto, o red costuma ser a escolha.
+  #tecladogamer #setup #gamer
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seu teclado acorda a casa toda?" [2-8 s] Fato 1: o switch blue faz um clique alto a cada toque. [8-14 s] Fato 2: o red é linear e bem mais quieto. [14-18 s] Fato 3: um dos teclados do post não tem Ç, confira antes. [18-20 s] "Comparativo no link da bio."
+
+## 2026-11-12 · Caixa de som Bluetooth JBL: Go 4, Essential 2 e Soundcore
+Link: https://nexustechai.com.br/posts/melhores-caixas-de-som-bluetooth-jbl-soundcore/
+- WhatsApp: Caixa Bluetooth: a Soundcore 2 tem IPX7 e até 24 h de bateria, a JBL Go 4 é a mais compacta. As três da lista têm nota 4,9: https://nexustechai.com.br/posts/melhores-caixas-de-som-bluetooth-jbl-soundcore/
+- X: JBL Go 4, Go Essential 2 ou Soundcore 2? Pela ficha: Go 4 é a mais compacta (até 7 h), Essential 2 tem modo mãos livres, Soundcore 2 tem IPX7 e até 24 h. Todas com nota 4,9 de quem comprou. Não testei: https://nexustechai.com.br/posts/melhores-caixas-de-som-bluetooth-jbl-soundcore/
+- Instagram (legenda): Três caixas Bluetooth, três notas 4,9.
+  Qual muda: a Soundcore 2 vai a 24 h e é IPX7; a Go 4 é a mais compacta.
+  Dados da ficha e das avaliações, sem teste.
+  #caixadesom #jbl #soundcore
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Três caixas Bluetooth, todas nota 4,9. Qual escolher?" [2-8 s] Fato 1: Soundcore 2, até 24 h e IPX7. [8-14 s] Fato 2: JBL Go 4, a mais compacta, até 7 h. [14-18 s] Fato 3: Go Essential 2 tem modo mãos livres. [18-20 s] "Comparativo no link da bio."
+
+## 2026-11-12 · Ataque hacker ao Porto de Santos: PF abre inquérito
+Link: https://nexustechai.com.br/posts/porto-de-santos-ataque-hacker-virus-queda-de-energia-pf-inquerito/
+- WhatsApp: Porto de Santos foi atacado por hackers: a PF abriu inquérito e a APS suspeita de vírus que só ativou com queda de energia. Os navios seguem operando. https://nexustechai.com.br/posts/porto-de-santos-ataque-hacker-virus-queda-de-energia-pf-inquerito/
+- X: Ataque hacker ao Porto de Santos: a APS suspeita de um vírus que só foi acionado após queda de energia. A PF abriu inquérito, os navios seguem operando e não há vazamento confirmado. https://nexustechai.com.br/posts/porto-de-santos-ataque-hacker-virus-queda-de-energia-pf-inquerito/
+- Instagram (legenda): O maior porto do país está trabalhando com papel e prancheta.
+  A APS suspeita de um vírus que só acordou com uma queda de energia. É hipótese, não conclusão.
+  A PF abriu inquérito; navios entram e saem normalmente.
+  #PortoDeSantos #SegurancaDigital #Tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "O maior porto do Brasil foi atacado por hackers." [2-8 s] Tudo começou com uma queda de energia na sexta (6). [8-14 s] A APS suspeita de um vírus que ficou parado até a luz voltar. Isso ainda é hipótese. [14-18 s] A PF abriu inquérito e os navios seguem operando, com registro em papel. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-12 · Ocarina of Time Switch 2: 2º maior lançamento de Zelda no UK
+Link: https://nexustechai.com.br/posts/ocarina-of-time-switch-2-reino-unido-segundo-maior-lancamento-zelda/
+- WhatsApp: Ocarina of Time no Switch 2 vendeu 35% mais que Breath of the Wild no Reino Unido (só caixa, sem número oficial). https://nexustechai.com.br/posts/ocarina-of-time-switch-2-reino-unido-segundo-maior-lancamento-zelda/
+- X: Ocarina of Time no Switch 2 foi o 2º maior lançamento de Zelda no Reino Unido: 35% acima de Breath of the Wild, em mídia física. A Nintendo não divulgou unidades e o dado vale só para o UK. https://nexustechai.com.br/posts/ocarina-of-time-switch-2-reino-unido-segundo-maior-lancamento-zelda/
+- Instagram (legenda): Zelda ainda move console.
+  Ocarina of Time vendeu 35% mais que Breath of the Wild na estreia no Reino Unido, só em caixa.
+  Metade de Tears of the Kingdom parece pouco, mas o Switch 2 tem base bem menor.
+  #Zelda #Switch2 #Nintendo
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Zelda acabou de passar Breath of the Wild." [2-8 s] No Reino Unido, Ocarina of Time vendeu 35% mais na estreia, só em mídia física. [8-14 s] É o 2º maior lançamento da série por lá. [14-18 s] Mas a Nintendo não deu números e o dado é só britânico. [18-20 s] "Contexto completo no link da bio."
+
+## 2026-11-12 · Golden Joystick Awards 2026: Resident Evil Requiem é Jogo do Ano
+Link: https://nexustechai.com.br/posts/golden-joystick-awards-2026-resident-evil-requiem-jogo-do-ano-vencedores/
+- WhatsApp: Resident Evil Requiem é Jogo do Ano no Golden Joystick 2026 por 1 ponto: 17% a 16% sobre Phantom Blade Zero. Lista completa: https://nexustechai.com.br/posts/golden-joystick-awards-2026-resident-evil-requiem-jogo-do-ano-vencedores/
+- X: Resident Evil Requiem levou o Jogo do Ano no Golden Joystick 2026 com 17% dos votos, contra 16% de Phantom Blade Zero. The Witcher 4 foi o mais aguardado. Lista de vencedores: https://nexustechai.com.br/posts/golden-joystick-awards-2026-resident-evil-requiem-jogo-do-ano-vencedores/
+- Instagram (legenda): Resident Evil Requiem é o Jogo do Ano no Golden Joystick.
+  Venceu por 1 ponto: 17% a 16% sobre Phantom Blade Zero.
+  Crimson Desert levou o de PC; The Witcher 4 foi o mais aguardado.
+  #GoldenJoystick #ResidentEvil #Games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Jogo do Ano decidido por 1 ponto." [2-8 s] Resident Evil Requiem levou com 17%, contra 16% de Phantom Blade Zero. [8-14 s] Crimson Desert ganhou o de PC e The Witcher 4 foi o mais aguardado. [14-18 s] A Capcom levou 4 prêmios só com Requiem. [18-20 s] "Lista completa no link da bio."
+
+## 2026-11-12 · ChatGPT Imagem cria GIF: como usar o Images 2.6
+Link: https://nexustechai.com.br/posts/chatgpt-images-2-6-gif-como-criar/
+- WhatsApp: O ChatGPT agora cria GIF a partir de texto ou foto, sem editor. Passo a passo e o que ainda não se sabe: https://nexustechai.com.br/posts/chatgpt-images-2-6-gif-como-criar/
+- X: O ChatGPT agora cria GIFs a partir de texto ou foto, com o Images 2.6. A OpenAI diz que as imagens saem 50% mais rápido, mas não informou limites nem se chegou ao Brasil. https://nexustechai.com.br/posts/chatgpt-images-2-6-gif-como-criar/
+- Instagram (legenda): O ChatGPT aprendeu a animar.
+  Com o Images 2.6, dá para criar GIF a partir de texto ou de uma foto.
+  Liberação gradual: pode ainda não ter chegado na sua conta.
+  #ChatGPT #InteligenciaArtificial #OpenAI
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "O ChatGPT agora faz GIF." [2-8 s] Você descreve o personagem e o movimento, ou manda uma foto. [8-14 s] A OpenAI diz que as imagens saem 50% mais rápido. [14-18 s] Mas a liberação é gradual e os limites não foram divulgados. [18-20 s] "Passo a passo no link da bio."
+
 ## 2026-11-11 · GTA 6 preço no Brasil: R$ 449,90 e liberação à 0h de 19/11
 Link: https://nexustechai.com.br/posts/gta-6-preco-brasil-meia-noite-19-novembro-versoes/
 - WhatsApp: GTA 6 chega à meia-noite de 19/11 no Brasil: Standard R$ 449,90 e Ultimate R$ 549,90 (PS5 e Xbox Series). https://nexustechai.com.br/posts/gta-6-preco-brasil-meia-noite-19-novembro-versoes/
@@ -347,159 +427,7 @@ Link: https://nexustechai.com.br/posts/gta-6-liberar-espaco-ps5-xbox-pre-carrega
   #gta6 #ps5 #xbox
 - TikTok/Reels (roteiro de 20 s): [0-2 s] "Seu console não aguenta o GTA 6? Veja antes." [2-8 s] Fato 1: o pré-carregamento ocupa até 212 GB. [8-14 s] Fato 2: no PS5, apagar jogo não tira da biblioteca. [14-18 s] Fato 3: HD externo guarda outros jogos, mas não roda o GTA no PS5. [18-20 s] "Passo a passo no link da bio."
 
-## 2026-11-07 · PlayStation ou Xbox: qual o melhor na Black Friday 2026?
-Link: https://nexustechai.com.br/posts/playstation-ou-xbox-qual-comprar-black-friday/
-- WhatsApp: PlayStation ou Xbox na Black Friday (27/11)? Para a maioria no Brasil, PS5. O Xbox só compensa se você já vive de Game Pass e nuvem: https://nexustechai.com.br/posts/playstation-ou-xbox-qual-comprar-black-friday/
-- X: PlayStation ou Xbox na Black Friday 2026? No Brasil, o PS5 leva por ser fácil de achar com garantia. Xbox só se você já usa Game Pass e acha o console com nota fiscal: https://nexustechai.com.br/posts/playstation-ou-xbox-qual-comprar-black-friday/
-- Instagram (legenda): PS5 ou Xbox na Black Friday?
-  Para a maioria no Brasil, a resposta é PS5: mais fácil de achar, com garantia.
-  O Xbox só compensa para quem já vive de Game Pass e nuvem.
-  Link na bio.
-  #ps5 #xbox #blackfriday
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "PS5 ou Xbox na Black Friday? Resposta curta." [2-8 s] Fato 1: no Brasil, PS5 é bem mais fácil de achar com garantia. [8-14 s] Fato 2: Xbox briga no Game Pass e na nuvem. [14-18 s] Fato 3: nenhum dos dois decide o GTA 6, que sai nos dois. [18-20 s] "Análise completa no link da bio."
 
-## 2026-11-07 · Zelda Notes: como usar no Ocarina of Time do Switch 2
-Link: https://nexustechai.com.br/posts/zelda-notes-ocarina-of-time-app-celular-como-usar/
-- WhatsApp: Ocarina of Time no Switch 2 ganhou ocarina virtual no celular. O Zelda Notes é grátis e traz quiz com 2.000 perguntas. Passo a passo para ativar: https://nexustechai.com.br/posts/zelda-notes-ocarina-of-time-app-celular-como-usar/
-- X: Ocarina of Time no Switch 2 agora tem o Zelda Notes: ocarina virtual na tela do celular, quiz com mais de 2.000 perguntas e dicas em imagem, via app Nintendo Switch. Passo a passo em 5 etapas: https://nexustechai.com.br/posts/zelda-notes-ocarina-of-time-app-celular-como-usar/
-- Instagram (legenda): Seu celular virou a ocarina do Zelda.
-  O Zelda Notes, dentro do app Nintendo Switch, funciona com Ocarina of Time no Switch 2.
-  Tem ocarina na tela, quiz diário e dicas em imagem. Precisa de jogo atualizado e conta Nintendo.
-  Link na bio.
-  #zelda #switch2 #nintendo
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seu celular vira a ocarina do Zelda." [2-8 s] Fato 1: o Zelda Notes roda no app Nintendo Switch e é grátis. [8-14 s] Fato 2: tem ocarina virtual e quiz com mais de 2.000 perguntas. [14-18 s] Fato 3: atualize o jogo para a 1.1.1 e entre com a mesma conta. [18-20 s] "Passo a passo no link da bio."
-
-## 2026-11-07 · Lançamento celular Motorola: Signature 27 vale trocar?
-Link: https://nexustechai.com.br/posts/motorola-signature-27-vs-signature-o-que-mudou-vale-trocar/
-- WhatsApp: Signature 27 x Signature: bateria 35% maior e tele de 200 MP, mas quem tem o de março não precisa trocar. Números da Motorola, sem teste: https://nexustechai.com.br/posts/motorola-signature-27-vs-signature-o-que-mudou-vale-trocar/
-- X: Motorola Signature 27 tem bateria 35% maior, telefoto de 200 MP (era 50 MP) e chip novo, segundo a marca. Carga com fio segue em 90 W. Quem já tem o de março ganha pouco: https://nexustechai.com.br/posts/motorola-signature-27-vs-signature-o-que-mudou-vale-trocar/
-- Instagram (legenda): Vale trocar o Signature de março pelo Signature 27?
-  Mudou: bateria 35% maior, telefoto de 200 MP e carga sem fio de 50 W.
-  Não mudou: carga com fio de 90 W e zoom óptico de 3x. Dados da Motorola, sem teste.
-  Link na bio.
-  #motorola #signature27 #celular
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Vale trocar o Signature de março?" [2-8 s] Fato 1: bateria 35% maior, segundo a Motorola. [8-14 s] Fato 2: telefoto sobe de 50 MP para 200 MP, com zoom óptico igual de 3x. [14-18 s] Fato 3: quem já tem o de março ganha pouco. [18-20 s] "Comparativo no link da bio."
-
-## 2026-11-06 · Motorola Signature 27 preço: R$ 10.999 no Brasil e versões
-Link: https://nexustechai.com.br/posts/motorola-signature-27-chega-ao-brasil-preco-versoes/
-- WhatsApp: Motorola Signature 27 no Brasil: R$ 10.999 (256 GB) e R$ 11.999 (512 GB) na pré-venda. Claro e Vivo vendem em plano a partir de R$ 7.199: https://nexustechai.com.br/posts/motorola-signature-27-chega-ao-brasil-preco-versoes/
-- X: Motorola Signature 27 chegou ao Brasil: R$ 10.999 (256 GB) e R$ 11.999 (512 GB) na pré-venda, segundo o Canaltech. Em plano, Vivo a partir de R$ 7.199 e Claro de R$ 7.799: https://nexustechai.com.br/posts/motorola-signature-27-chega-ao-brasil-preco-versoes/
-- Instagram (legenda): Motorola Signature 27 já tem preço no Brasil.
-  R$ 10.999 na versão de 256 GB e R$ 11.999 na de 512 GB, na pré-venda.
-  Claro e Vivo vendem em plano, a partir de R$ 7.799 e R$ 7.199.
-  Link na bio.
-  #motorola #signature27 #celular
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Motorola Signature 27 já tem preço no Brasil." [2-8 s] Fato 1: R$ 10.999 na versão de 256 GB. [8-14 s] Fato 2: R$ 11.999 na de 512 GB, valores de pré-venda. [14-18 s] Fato 3: Claro e Vivo vendem em plano, a partir de R$ 7.799 e R$ 7.199. [18-20 s] "Detalhes no link da bio."
-
-## 2026-11-06 · iCloud: links públicos perdem criptografia no iOS 27.3
-Link: https://nexustechai.com.br/posts/apple-icloud-links-publicos-verificacao-ios-27-3/
-- WhatsApp: Atenção, quem usa iPhone: no iOS 27.3, links do iCloud com "Qualquer um com o link" perdem a criptografia e passam por checagem da Apple. Compartilhar com pessoas específicas não muda: https://nexustechai.com.br/posts/apple-icloud-links-publicos-verificacao-ios-27-3/
-- X: Apple vai checar links públicos do iCloud a partir do iOS 27.3. Itens com "Qualquer um com o link" perdem a criptografia de ponta a ponta, até com a Proteção Avançada ligada: https://nexustechai.com.br/posts/apple-icloud-links-publicos-verificacao-ios-27-3/
-- Instagram (legenda): Links públicos do iCloud vão ser checados pela Apple.
-  Vale a partir do iOS 27.3 para o que está como "Qualquer um com o link".
-  Esses itens perdem a criptografia, mesmo com Proteção Avançada.
-  Link na bio.
-  #apple #icloud #privacidade
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seus links do iCloud vão ser checados." [2-8 s] Fato 1: vale a partir do iOS 27.3. [8-14 s] Fato 2: só para "Qualquer um com o link". [14-18 s] Fato 3: perdem a criptografia, até com Proteção Avançada. [18-20 s] "Como compartilhar com segurança: link da bio."
-
-## 2026-11-06 · Xbox Cloud Gaming: celular vira controle na Smart TV
-Link: https://nexustechai.com.br/posts/xbox-cloud-gaming-celular-como-controle-smart-tv/
-- WhatsApp: Sem controle? O Xbox Cloud Gaming testa o celular como controle na Smart TV: QR code, sem app. É prévia e o Brasil não foi citado. Como ativar: https://nexustechai.com.br/posts/xbox-cloud-gaming-celular-como-controle-smart-tv/
-- X: Xbox Cloud Gaming testa o celular como controle na Smart TV: leia o QR code e jogue pelo navegador, sem app (Android e iOS). Ainda é prévia, e o Brasil não aparece citado: https://nexustechai.com.br/posts/xbox-cloud-gaming-celular-como-controle-smart-tv/
-- Instagram (legenda): Seu celular pode virar o controle do Xbox Cloud Gaming.
-  Escaneia o QR code na Smart TV, sem instalar app.
-  É prévia, e o Brasil não foi citado de forma explícita.
-  Link na bio.
-  #xbox #cloudgaming #gamepass
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seu celular vira controle do Xbox." [2-8 s] Fato 1: abre no navegador, sem app. [8-14 s] Fato 2: conecta lendo o QR code na TV. [14-18 s] Fato 3: é prévia, e o Brasil não foi citado. [18-20 s] "Passo a passo no link da bio."
-
-## 2026-11-06 · Zelda Switch 2 Brasil: Ocarina parece teatro de fantoches
-Link: https://nexustechai.com.br/posts/zelda-ocarina-of-time-visual-fantoche-nintendo-explica/
-- WhatsApp: Por que Ocarina of Time no Switch 2 parece teatro de fantoches? A Nintendo explicou. O jogo saiu em 5/11 e tem textos em português do Brasil: https://nexustechai.com.br/posts/zelda-ocarina-of-time-visual-fantoche-nintendo-explica/
-- X: A Nintendo explicou por que Ocarina of Time no Switch 2 parece teatro de fantoches: a equipe buscou bonecos reais e o ar de filmes com efeitos práticos. Saiu em 5/11: https://nexustechai.com.br/posts/zelda-ocarina-of-time-visual-fantoche-nintendo-explica/
-- Instagram (legenda): Por que Ocarina of Time no Switch 2 parece teatro de fantoches?
-  A Nintendo explicou: a meta era a sensação de bonecos reais e de filme com efeitos práticos.
-  O jogo saiu em 5/11, só no Switch 2, com português do Brasil.
-  Link na bio.
-  #zelda #switch2 #nintendo
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Por que Ocarina parece teatro de fantoches?" [2-8 s] Fato 1: a Nintendo buscou a sensação de bonecos reais. [8-14 s] Fato 2: inspiração em filmes de efeitos práticos. [14-18 s] Fato 3: saiu em 5/11 só no Switch 2, com português do Brasil. [18-20 s] "Entrevista no link da bio."
-
-## 2026-11-06 · ChatGPT: falha de segurança em link foi corrigida
-Link: https://nexustechai.com.br/posts/chatgpt-falha-link-compartilhado-conversas-privadas-corrigida/
-- WhatsApp: Falha no ChatGPT: um link de conversa compartilhada podia dar acesso ao seu histórico em cerca de 4,5 s. A OpenAI corrigiu até 26/10 e não precisa trocar a senha: https://nexustechai.com.br/posts/chatgpt-falha-link-compartilhado-conversas-privadas-corrigida/
-- X: Falha no ChatGPT web deixava um link de conversa compartilhada rodar código na sua sessão e ler o histórico em cerca de 4,5 s. Corrigida até 26/10, segundo a Parameter: https://nexustechai.com.br/posts/chatgpt-falha-link-compartilhado-conversas-privadas-corrigida/
-- Instagram (legenda): Uma falha no ChatGPT deixava um link ler seu histórico em 4,5 segundos.
-  Já foi corrigida até 26/10, segundo os pesquisadores.
-  Sem indício de uso contra usuários comuns. Não precisa trocar a senha.
-  Link na bio.
-  #chatgpt #openai #segurancadigital
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Um link podia ler suas conversas do ChatGPT." [2-8 s] Fato 1: bastava abrir o link logado, em cerca de 4,5 s. [8-14 s] Fato 2: a OpenAI corrigiu até 26/10. [14-18 s] Fato 3: sem indício de uso contra pessoas comuns. [18-20 s] "Explicação no link da bio."
-
-## 2026-11-06 · Como configurar para não receber chamadas de desconhecidos
-Link: https://nexustechai.com.br/posts/como-bloquear-chamadas-numeros-desconhecidos-android-iphone/
-- WhatsApp: Cansou de ligação de número desconhecido? No iPhone: Ajustes > Apps > Telefone e escolha Silenciar. Passo a passo no iPhone e no Android: https://nexustechai.com.br/posts/como-bloquear-chamadas-numeros-desconhecidos-android-iphone/
-- X: Quer parar de receber ligação de número desconhecido? No iPhone: Ajustes > Apps > Telefone > Silenciar. Silenciar não é bloquear, e número oculto é outro caso: https://nexustechai.com.br/posts/como-bloquear-chamadas-numeros-desconhecidos-android-iphone/
-- Instagram (legenda): Ligação de número desconhecido o dia todo?
-  No iPhone: Ajustes > Apps > Telefone e escolha Silenciar.
-  Silenciar manda para a caixa postal, não bloqueia. Salve os números que você espera.
-  Link na bio.
-  #iphone #android #golpe
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Chega de ligação de número desconhecido." [2-8 s] Fato 1: iPhone, Ajustes > Apps > Telefone > Silenciar. [8-14 s] Fato 2: silenciar não bloqueia, vai para a caixa postal. [14-18 s] Fato 3: salve os números que você espera. [18-20 s] "Android no link da bio."
-
-## 2026-11-06 · Vale a pena comprar um PS4 em 2026? Só para este perfil
-Link: https://nexustechai.com.br/posts/analise-ps4-vale-a-pena-em-2026/
-- WhatsApp: Vale a pena comprar um PS4 em 2026? Só como console barato de catálogo, de preferência Slim usado. GTA 6 não roda nele: https://nexustechai.com.br/posts/analise-ps4-vale-a-pena-em-2026/
-- X: Vale comprar um PS4 em 2026? Como console barato para o que já saiu, sim, de preferência o Slim usado. Para GTA 6 (19/11), só PS5 ou Xbox Series: https://nexustechai.com.br/posts/analise-ps4-vale-a-pena-em-2026/
-- Instagram (legenda): Vale a pena comprar um PS4 em 2026?
-  Só como console barato de catálogo, de preferência o Slim usado.
-  O GTA 6 não roda nele: só PS5 e Xbox Series.
-  Link na bio.
-  #ps4 #playstation #gta6
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Vale comprar um PS4 em 2026?" [2-8 s] Fato 1: só como console barato para o que já saiu. [8-14 s] Fato 2: o Slim usado é o mais indicado. [14-18 s] Fato 3: GTA 6 não roda, só PS5 e Xbox Series. [18-20 s] "Análise no link da bio."
-
-## 2026-11-06 · Mouse gamer barato: 4 opções com bom custo-benefício
-Link: https://nexustechai.com.br/posts/melhores-mouses-gamer-baratos/
-- WhatsApp: Mouse gamer barato: comparamos Logitech G203, Redragon Cobra e Griffin e Fortrek Crusader por DPI, peso e botões. Veja o preço atual: https://nexustechai.com.br/posts/melhores-mouses-gamer-baratos/
-- X: Mouse gamer barato: 4 opções comparadas por DPI, peso e botões. O G203 (8.000 DPI, 85 g) é a escolha mais segura: https://nexustechai.com.br/posts/melhores-mouses-gamer-baratos/
-- Instagram (legenda): Mouse gamer barato que presta?
-  Comparamos 4: Logitech G203, Redragon Cobra, Redragon Griffin e Fortrek Crusader.
-  Critério: DPI, peso e botões. Preço atual no link.
-  Link na bio.
-  #mousegamer #setup #custobeneficio
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Mouse gamer barato que presta." [2-8 s] Fato 1: comparamos 4 modelos. [8-14 s] Fato 2: G203 tem 8.000 DPI e 85 g. [14-18 s] Fato 3: DPI alto é teto, 800 a 1.600 resolve. [18-20 s] "Lista no link da bio."
-
-## 2026-11-06 · Headset gamer barato: 4 opções custo-benefício para comprar
-Link: https://nexustechai.com.br/posts/melhores-headsets-gamer-baratos/
-- WhatsApp: Headset gamer barato: Havit, JBL, Redragon e HyperX comparados pela ficha e pelas avaliações. Veja o preço atual: https://nexustechai.com.br/posts/melhores-headsets-gamer-baratos/
-- X: Headset gamer barato: 4 comparados. O HyperX Cloud Stinger 2 é o mais completo; o Redragon Zeus Lite tem drivers de 53 mm e cabo trocável: https://nexustechai.com.br/posts/melhores-headsets-gamer-baratos/
-- Instagram (legenda): Headset gamer barato: qual escolher?
-  Comparamos Havit H2002d, JBL Quantum 100M2, Redragon Zeus Lite e HyperX Cloud Stinger 2.
-  O HyperX é o mais completo. Preço atual no link.
-  Link na bio.
-  #headsetgamer #ps5 #setup
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Headset gamer barato: qual escolher?" [2-8 s] Fato 1: comparamos 4 modelos. [8-14 s] Fato 2: HyperX Cloud Stinger 2 é o mais completo. [14-18 s] Fato 3: Redragon Zeus Lite tem drivers de 53 mm e cabo trocável. [18-20 s] "Lista no link da bio."
-
-## 2026-11-05 · Ocarina of Time Switch 2 review: nota 96 no Metacritic
-Link: https://nexustechai.com.br/posts/ocarina-of-time-switch-2-reviews-nota-metacritic-96/
-- WhatsApp: Ocarina of Time no Switch 2 tem 96 no Metacritic, a maior nota de 2026. O original de 1998 segue com 99. Veja as notas mais baixas (8/10) e o que a crítica reclama: https://nexustechai.com.br/posts/ocarina-of-time-switch-2-reviews-nota-metacritic-96/
-- X: Ocarina of Time no Switch 2 estreou com Metascore 96, a maior nota de 2026 até agora. O original de 1998 ainda tem 99. A nota mais baixa que achamos: 8/10, e a falta do Master Quest é a queixa mais citada: https://nexustechai.com.br/posts/ocarina-of-time-switch-2-reviews-nota-metacritic-96/
-- Instagram (legenda): Ocarina of Time no Switch 2: 96 no Metacritic.
-  É a maior nota de 2026, mas o original de 1998 segue com 99.
-  A crítica elogia visual e jogabilidade, e reclama da falta do Master Quest.
-  Link na bio.
-  #zelda #switch2 #ocarinaoftime
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Ocarina of Time tirou 96 no Metacritic." [2-8 s] Fato 1: é a maior nota de 2026 até agora. [8-14 s] Fato 2: o original de 1998 ainda tem 99. [14-18 s] Fato 3: a queixa mais citada é a falta do Master Quest. [18-20 s] "Todas as notas no link da bio."
-
-## 2026-11-05 · Xbox Game Pass novembro: Warhammer Survivors e Thronefall
-Link: https://nexustechai.com.br/posts/xbox-game-pass-novembro-2026-primeira-leva-warhammer-survivors/
-- WhatsApp: Game Pass de novembro: Warhammer Survivors entra em 10/11, Thronefall em 11/11 e 13 jogos têm data para 15/11. Lista completa: https://nexustechai.com.br/posts/xbox-game-pass-novembro-2026-primeira-leva-warhammer-survivors/
-- X: Xbox Game Pass novembro: Warhammer Survivors (10/11) e Thronefall (11/11) estão na primeira leva, e 13 jogos saem em 15/11, segundo o Xbox Wire. Tabela com datas e planos: https://nexustechai.com.br/posts/xbox-game-pass-novembro-2026-primeira-leva-warhammer-survivors/
-- Instagram (legenda): Game Pass de novembro já tem datas.
-  Warhammer Survivors chega em 10/11 e Thronefall em 11/11.
-  Outros 13 jogos saem do catálogo em 15/11.
-  Lista completa no link da bio.
-  #gamepass #xbox #games
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Game Pass de novembro: o que chega." [2-8 s] Fato 1: Warhammer Survivors em 10/11. [8-14 s] Fato 2: Thronefall em 11/11. [14-18 s] Fato 3: 13 jogos têm saída marcada para 15/11. [18-20 s] "Lista completa no link da bio."
 
 
 

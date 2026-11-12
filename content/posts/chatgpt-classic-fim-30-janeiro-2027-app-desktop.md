@@ -76,6 +76,8 @@ Para acompanhar o que a empresa vem lançando, veja também [o GPT-6.1 Terra](/p
 Na minha leitura, não. Quem usa o ChatGPT Classic tem até 30 de janeiro, o histórico acompanha a conta e o app novo é gratuito.
 :::
 
+*Dúvida* entre as duas IAs? Veja [ChatGPT ou Gemini: qual o melhor para o celular](/posts/chatgpt-ou-gemini-qual-o-melhor/).
+
 :::dica
 O prazo é folgado, mas deixar para a última semana é pedir para esquecer. Faça a troca neste mês.
 :::

@@ -79,3 +79,5 @@ Na minha leitura, R$ 329,90 no digital é um preço que incomoda menos do que o 
 
 Para quem ainda não tem o aparelho, o jogo sozinho não justifica o investimento. Se for comprar, espere o preço real aparecer na eShop e compare com as lojas antes de fechar.
 :::
+
+*No desempenho,* o jogo foi o [segundo maior lançamento de Zelda no Reino Unido](/posts/ocarina-of-time-switch-2-reino-unido-segundo-maior-lancamento-zelda/), segundo dados de varejo físico.

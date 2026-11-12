@@ -161,7 +161,7 @@ Redmi (IPX4) e JBL (IP54). Nenhum serve para mergulhar na água.
 
 ## Veredito
 
-Se for escolher já, {{link:qcy-t13|veja o preço atual do QCY T13 ENC}}. O Redmi fecha como alternativa enxuta e moderna, e o Philips só faz sentido se a marca pesar mais que a ficha técnica.
+Prefere som para dividir com a turma? Veja a [caixa de som Bluetooth JBL e Soundcore](/posts/melhores-caixas-de-som-bluetooth-jbl-soundcore/). Se for escolher já, {{link:qcy-t13|veja o preço atual do QCY T13 ENC}}. O Redmi fecha como alternativa enxuta e moderna, e o Philips só faz sentido se a marca pesar mais que a ficha técnica.
 
 :::veredito
 Para a maioria, o QCY T13 ENC é o melhor custo-benefício; quem quer silêncio e pode gastar um pouco mais vai bem de JBL Wave Buds 2.

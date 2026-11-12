@@ -77,3 +77,5 @@ Para ver o que vem de jogos, confira o [calendário de lançamentos do Switch 2]
 :::veredito
 Console saudável, jogos vendendo bem. Quem quer comprar não precisa esperar por causa dessa notícia.
 :::
+
+*Nos jogos:* Ocarina of Time foi o [segundo maior lançamento de Zelda no Reino Unido](/posts/ocarina-of-time-switch-2-reino-unido-segundo-maior-lancamento-zelda/).
