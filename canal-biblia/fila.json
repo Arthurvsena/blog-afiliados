@@ -52,11 +52,17 @@
   },
   {
    "slug": "a-fornalha-ardente",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-12",
+   "release": "biblia-2026-11-12",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "o-filho-prodigo",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-12",
+   "release": "biblia-2026-11-12",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "cinco-paes-e-dois-peixes",
