@@ -1,7 +1,7 @@
 {
-  "atualizado": "2026-11-11",
+  "atualizado": "2026-11-12",
   "autora": "Luisa",
-  "resumo": "O canal fez 2.599 visualizações em 28 dias (até 10/11), mas segue com 1 inscrito. O maior problema é que quem vê o Short não tem motivo para seguir o canal nem ir ao blog; as visitas do YouTube de 10/11 não foram medidas (Cloudflare pediu login).",
+  "resumo": "O canal fez 2.645 visualizações em 28 dias (até 11/11), com CTR de capa de 1,8% e ainda só 1 inscrito. O maior problema continua: ninguém que vê o Short segue o canal nem chega ao blog (0 visitas do YouTube em 10 e 11/11).",
   "funcionando": [
     "Assunto com ângulo Brasil: 'Sony quer comprar seu PS5 usado, mas não no Brasil' tem 1.127 visualizações, 63,4% assistido e 5,2% de cliques, o melhor do canal.",
     "Short curto segura mais: o iPhone Duo (0:50) teve 58,5% assistido e 375 visualizações.",
@@ -21,18 +21,18 @@
   ],
   "por_quadro": {
     "60s": {
-      "videos": 3,
-      "media_views": 182,
-      "media_pct": 55.9
+      "videos": 4,
+      "media_views": 161,
+      "media_pct": 48.9
     },
     "historias": {
       "videos": 1,
-      "media_views": 345,
-      "media_pct": 49.5
+      "media_views": 349,
+      "media_pct": 49.3
     },
     "lafora": {
       "videos": 1,
-      "media_views": 9,
+      "media_views": 11,
       "media_pct": 24.6
     },
     "antes_dos_quadros": {

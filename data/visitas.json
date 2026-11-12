@@ -869,13 +869,60 @@
     },
     {
       "dia": "2026-11-10",
-      "visitas": null,
-      "visualizacoes": null,
-      "celular_pct": null,
-      "youtube": null,
-      "paginas": null,
-      "origens": null,
-      "paises": null,
+      "visitas": 10,
+      "visualizacoes": 10,
+      "celular_pct": 30,
+      "youtube": 0,
+      "paginas": [
+        {
+          "url": "/posts/melhores-power-banks/",
+          "visitas": 3
+        },
+        {
+          "url": "/posts/whatsapp-confirmacao-duas-etapas-como-ativar/",
+          "visitas": 2
+        },
+        {
+          "url": "/posts/anatel-chamadas-abusivas-bloqueio-12-novembro-despacho-100/",
+          "visitas": 2
+        },
+        {
+          "url": "/",
+          "visitas": 1
+        },
+        {
+          "url": "/posts/zelda-notes-ocarina-of-time-app-celular-como-usar/",
+          "visitas": 1
+        },
+        {
+          "url": "/posts/melhores-power-banks-20000mah/",
+          "visitas": 1
+        }
+      ],
+      "origens": [
+        {
+          "origem": "direto",
+          "visitas": 8
+        },
+        {
+          "origem": "google",
+          "visitas": 1
+        },
+        {
+          "origem": "gemini.google.com",
+          "visitas": 1
+        }
+      ],
+      "paises": [
+        {
+          "pais": "Brasil",
+          "visitas": 9
+        },
+        {
+          "pais": "Estados Unidos",
+          "visitas": 1
+        }
+      ],
       "google": {
         "dia": "2026-11-10",
         "cliques": 1,
@@ -937,7 +984,43 @@
         ]
       },
       "faltou": [
-        "Cloudflare Web Analytics: o painel abriu na tela de login (sessão expirada no Chrome); visitas, páginas, origens, celular e YouTube de 10/11 não coletados. O dono precisa entrar de novo no Cloudflare."
+        "Cloudflare preenchido em 12/11 (coleta de 11/11 tinha falhado)"
+      ]
+    },
+    {
+      "dia": "2026-11-11",
+      "visitas": 4,
+      "visualizacoes": 7,
+      "celular_pct": 75,
+      "youtube": 0,
+      "paginas": [
+        {
+          "url": "/",
+          "visitas": 4
+        }
+      ],
+      "paginas_vistas": [
+        {
+          "url": "/",
+          "visualizacoes": 7
+        }
+      ],
+      "origens": [
+        {
+          "origem": "direto",
+          "visitas": 4
+        }
+      ],
+      "paises": [
+        {
+          "pais": "Estados Unidos",
+          "visitas": 4
+        }
+      ],
+      "google": null,
+      "faltou": [
+        "Search Console ainda sem dados de 11/11 (dia mais recente disponível é 10/11, já registrado no dia 2026-11-10)",
+        "Cloudflare: as 4 visitas foram todas na página inicial, diretas e dos Estados Unidos (provável robô/verificação, não leitor); 3 visualizações vieram de navegação interna no Brasil sem visita nova"
       ]
     }
   ]

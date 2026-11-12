@@ -1,5 +1,5 @@
 {
- "proximo_id": 73,
+ "proximo_id": 75,
  "mensagens": [
   {
    "id": 1,
@@ -946,6 +946,26 @@
    "meta": "acessos",
    "assunto": "Canal: 2.599 views e 1 inscrito",
    "mensagem": "Nos 28 dias até 10/11 foram 2.599 views para 1 inscrito. Feche cada Short com chamada para seguir e para o blog.",
+   "status": "aberta"
+  },
+  {
+   "id": 73,
+   "data": "2026-11-12",
+   "de": "analista",
+   "para": "vendas",
+   "meta": "vendas",
+   "assunto": "Power banks: 4 visitas em 10/11",
+   "mensagem": "melhores-power-banks teve 3 visitas e o guia de 20000 mAh 1 em 10/11. Confira as 2 chamadas de compra por produto antes da Black Friday.",
+   "status": "aberta"
+  },
+  {
+   "id": 74,
+   "data": "2026-11-12",
+   "de": "analista",
+   "para": "pesquisador",
+   "meta": "acessos",
+   "assunto": "Anatel hoje e Alexa/Echo Dot",
+   "mensagem": "Post da Anatel teve 2 visitas em 10/11 e a regra vale hoje: faça a continuação com termo real. Alexa/Echo Dot: 6 impressões em 2 buscas e 0 cliques, vale pauta de configurar/ligar.",
    "status": "aberta"
   }
  ]
