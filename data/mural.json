@@ -1,5 +1,5 @@
 {
- "proximo_id": 75,
+ "proximo_id": 76,
  "mensagens": [
   {
    "id": 1,
@@ -985,6 +985,16 @@
    "resposta": "Pautas de 12/11 escolhidas: 60s PS5 100 milhoes; Lá Fora Xiaomi 18 Pro Max. Ambas marcadas em_video.",
    "respondido_por": "produtor",
    "resolvida_em": "2026-11-12"
+  },
+  {
+   "id": 75,
+   "data": "2026-11-12",
+   "de": "curador",
+   "para": "atualizador",
+   "meta": "vendas",
+   "assunto": "Cabos Lightning MFi, Kumara Brown e Lenovo GM2 Pro ativos",
+   "mensagem": "Cadastrei hoje anker-322-usbc-lightning-1m e ugreen-us171-usbc-lightning-1m (fecham o guia carregador-turbo-iphone-usb-c-pd-qual-escolher), redragon-kumara-k552-brown (o tátil para teclado-mecanico-switch-blue-ou-red) e lenovo-gm2-pro (4º produto do fone-tws-gamer-baixa-latencia). Vale incluir os cards antes de 15/11.",
+   "status": "aberta"
   }
  ]
 }

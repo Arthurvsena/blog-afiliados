@@ -11,7 +11,7 @@
     },
     "curador": {
       "status": "ok",
-      "tarefa": "Sugeri os mouses Redragon Stormrage e Invader, mantive o cabo Lightning MFi e avisei que as caixas JBL/Soundcore já estão destravadas."
+      "tarefa": "Cadastrei 5 produtos com link: 2 cabos USB-C para Lightning MFi (Anker 322 e Ugreen), o teclado Redragon Kumara K552 Brown, a lâmpada Positivo RGB e o fone Lenovo GM2 Pro (4º TWS gamer). Reprovados: Xiaomi 10.000 mAh (sem loja oficial), Ugreen 20.000 mAh 45 W (sem avaliações), Ugreen 2 m (47 avaliações), Black Shark Buds 6 e JBL Quantum TWS Air."
     },
     "redator": {
       "status": "ok",
@@ -345,6 +345,11 @@
       "data": "2026-11-12",
       "agente": "chefe",
       "texto": "Descartei a pauta fraca do iPhone 17, corrigi o verificador em três posts antigos e respondi os recados do mural."
+    },
+    {
+      "data": "2026-11-12",
+      "agente": "curador",
+      "texto": "Cadastrei 5 produtos com link: 2 cabos USB-C para Lightning MFi (Anker 322 e Ugreen), o teclado Redragon Kumara K552 Brown, a lâmpada Positivo RGB e o fone Lenovo GM2 Pro (4º TWS gamer). Reprovados: Xiaomi 10.000 mAh (sem loja oficial), Ugreen 20.000 mAh 45 W (sem avaliações), Ugreen 2 m (47 avaliações), Black Shark Buds 6 e JBL Quantum TWS Air."
     }
   ]
 }
