@@ -136,6 +136,20 @@
    "segundos": 243.7,
    "publica_em": "2026-11-10 20:30",
    "status": "programado"
+  },
+  {
+   "data": "2026-11-11",
+   "tipo": "short",
+   "quadro": "60s",
+   "numero": null,
+   "slug": "2026-11-11-gta-6-xbox-one-nuvem-limite",
+   "post": "xbox-series-fsr-4-1-gta-6-o-que-muda",
+   "titulo": "GTA 6 no Xbox One: só pela nuvem, e tem porém #shorts",
+   "url": "https://youtube.com/shorts/rIKSMWXYhwc",
+   "voz": "gemini:Orus",
+   "segundos": 46.1,
+   "publica_em": "2026-11-12 12:00",
+   "status": "programado"
   }
  ]
 }
