@@ -1,0 +1,87 @@
+{
+ "tipo": "short",
+ "quadro": "60s",
+ "slug": "2026-11-12-ps5-100-milhoes-unidades",
+ "post": "xbox-series-fsr-4-1-gta-6-o-que-muda",
+ "titulo": "PS5 100 milhões: 2,1 milhões em 40 dias #shorts",
+ "resumo": "O PS5 passou de 100 milhões de unidades, segundo a Sony, via Canaltech. Desse total, 2,1 milhões vieram só nos últimos 40 dias, perto do lançamento do GTA 6, em 19/11. O dado é de envios ao varejo, não de venda ao consumidor.",
+ "hashtags": [
+  "PS5",
+  "PlayStation5",
+  "GTA6",
+  "Sony"
+ ],
+ "fontes": [
+  {
+   "nome": "Canaltech (cita IGN e Sony)",
+   "url": "https://canaltech.com.br/games/ps5-chega-a-100-milhoes-de-unidades-veja-como-ele-se-compara-ao-ps4-ps3-e-ps2/"
+  },
+  {
+   "nome": "Critical Hits",
+   "url": "https://criticalhits.com.br/games/ps5-se-aproxima-de-100-milhoes-de-consoles-vendidos/"
+  }
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O PS5 passou de cem milhões. E 2,1 milhões vieram em 40 dias.",
+   "tela": "PS5: mais de 100 milhões",
+   "imagens": [
+    "content/imagens/sony-fim-midia-fisica-playstation-2028-ps5-midnight-black.jpg"
+   ]
+  },
+  {
+   "tipo": "fato",
+   "fala": "Segundo a Sony, via Canaltech, o {PS5|Pê-Esse cinco} ultrapassou {100 milhões|cem milhões} de unidades em seis anos de vida.",
+   "imagens": [
+    "tela:https://www.playstation.com/pt-br/ps5/"
+   ],
+   "fonte": "Sony, via Canaltech, 11/11"
+  },
+  {
+   "tipo": "numero",
+   "fala": "Detalhe: {2,1 milhões|dois vírgula um milhões} desses consoles saíram só nos últimos {40 dias|quarenta dias}.",
+   "destaque": "2,1 milhões",
+   "rotulo": "nos últimos 40 dias",
+   "fonte": "Canaltech, 11/11"
+  },
+  {
+   "tipo": "barras",
+   "fala": "Mesmo assim, ele ainda está atrás do {PS2|Pê-Esse dois}, do {PS4|Pê-Esse quatro} e do {PS1|Pê-Esse um}.",
+   "itens": [
+    {"rotulo": "PS2 (até 03/2012)", "valor": 160, "unidade": "mi"},
+    {"rotulo": "PS4 (até 06/2022)", "valor": 117, "unidade": "mi"},
+    {"rotulo": "PS1 (até 03/2012)", "valor": 102.4, "unidade": "mi"},
+    {"rotulo": "PS5 (até 10/11/2026)", "valor": 100, "unidade": "mi"}
+   ],
+   "imagens": [
+    "content/imagens/gta-6-liberar-espaco-ps5-xbox-pre-carregamento-212-gb.jpg"
+   ],
+   "fonte": "Canaltech, 11/11"
+  },
+  {
+   "tipo": "info",
+   "icone": "alerta",
+   "fala": "E atenção: são envios ao varejo, não venda ao consumidor. O último balanço contava {97,9 milhões|noventa e sete vírgula nove milhões} até setembro.",
+   "fonte": "Critical Hits"
+  },
+  {
+   "tipo": "data",
+   "fala": "A pressa tem data: o {GTA 6|Gê Tê Ei seis} sai em {19 de novembro|dezenove de novembro}.",
+   "destaque": "19 NOV 2026",
+   "rotulo": "lançamento do GTA 6",
+   "imagens": [
+    "content/imagens/gta-6-preco-brasil-meia-noite-19-novembro-versoes.jpg"
+   ],
+   "fonte": "Canaltech, 11/11"
+  },
+  {
+   "tipo": "fato",
+   "fala": "Conclusão: com o {GTA 6|Gê Tê Ei seis} chegando, o {PS5|Pê-Esse cinco} fechou cem milhões com 2,1 milhões em quarenta dias. Coincidência? Talvez.",
+   "imagens": [
+    "content/imagens/gta-6-preco-brasil-meia-noite-19-novembro-versoes.jpg"
+   ]
+  }
+ ],
+ "palavra_chave": "ps5 100 milhões"
+}

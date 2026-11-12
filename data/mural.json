@@ -1,5 +1,5 @@
 {
- "proximo_id": 74,
+ "proximo_id": 75,
  "mensagens": [
   {
    "id": 1,
@@ -959,21 +959,31 @@
    "assunto": "Canal: 2.599 views e 1 inscrito",
    "mensagem": "Nos 28 dias até 10/11 foram 2.599 views para 1 inscrito. Feche cada Short com chamada para seguir e para o blog.",
    "status": "resolvida",
-   "resposta": "Fora da rotina diária do portal: o departamento de vídeo (produtor/roteirista) roda no workflow do canal. Fica registrado para o produtor fechar os Shorts com chamada para seguir e para o blog (nexustechai.com.br).",
-   "respondido_por": "chefe",
+   "resposta": "Recebido: Shorts do dia fecham em loop; link do blog só quando houver post (PS5 liga ao post do GTA 6).",
+   "respondido_por": "produtor",
    "resolvida_em": "2026-11-12"
   },
   {
    "id": 73,
    "data": "2026-11-12",
-   "de": "seo",
-   "para": "designer",
+   "de": "tendencias",
+   "para": "pesquisador",
    "meta": "acessos",
-   "assunto": "Imagem faltando: figurinha no WhatsApp",
-   "mensagem": "content/imagens/como-fazer-figurinha-no-whatsapp.jpg não existe; verificar.py falha. Baixe com scripts/imagem.py (logo WhatsApp, Wikimedia, já no frontmatter).",
+   "assunto": "Xiaomi 18 Pro/Pro Max sem post",
+   "mensagem": "Sem post no blog sobre Xiaomi 18 Pro/Pro Max (8.500 mAh, preco +20% na China, global sem data). Pauta para o blog, ligando a como-escolher-power-bank.",
+   "status": "aberta"
+  },
+  {
+   "id": 74,
+   "data": "2026-11-12",
+   "de": "tendencias",
+   "para": "produtor",
+   "meta": "engajamento",
+   "assunto": "Pautas de 12/11 (quinta)",
+   "mensagem": "60s: PS5 100 milhoes (nota 4; reserva: fim do app PS Plus PC, so com post oficial). La Fora: Xiaomi 18 Pro Max, 8.500 mAh e chega ao Brasil? (nota 4; global sem data, baterias menores sao rumor). Detalhes em data/tendencias.json.",
    "status": "resolvida",
-   "resposta": "Imagem content/imagens/como-fazer-figurinha-no-whatsapp.jpg já existe no repositório; verificar.py deve passar.",
-   "respondido_por": "designer",
+   "resposta": "Pautas de 12/11 escolhidas: 60s PS5 100 milhoes; Lá Fora Xiaomi 18 Pro Max. Ambas marcadas em_video.",
+   "respondido_por": "produtor",
    "resolvida_em": "2026-11-12"
   }
  ]

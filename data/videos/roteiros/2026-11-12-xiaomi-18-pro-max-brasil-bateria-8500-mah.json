@@ -1,0 +1,286 @@
+{
+ "tipo": "longo",
+ "quadro": "lafora",
+ "slug": "2026-11-12-xiaomi-18-pro-max-brasil-bateria-8500-mah",
+ "post": "xiaomi-18-pro-versao-global-brasil-preco-vazado",
+ "palavra_chave": "xiaomi 18 pro max brasil",
+ "titulo": "Xiaomi 18 Pro Max Brasil: 8.500 mAh, chega e por quanto?",
+ "titulos_opcoes": [
+  "Xiaomi 18 Pro Max Brasil: 8.500 mAh, chega e por quanto?",
+  "Xiaomi 18 Pro Max: 8.500 mAh na China. E no Brasil?",
+  "Xiaomi 18 Pro Max Brasil: bateria menor lá fora?"
+ ],
+ "resumo": "O Xiaomi 18 Pro Max tem bateria de 8.500 mAh e carga de 100 W na China, mas ainda não tem confirmação de venda oficial no Brasil. A versão global estreia em 17 de novembro, em Paris, e o preço em real aqui é só estimativa. Veja o que muda, a regra da Anatel e o que já dá para comprar.",
+ "hashtags": ["Xiaomi", "Xiaomi18ProMax", "celulares", "powerbank"],
+ "selo": "Lá Fora, Aqui",
+ "capa_texto": "R$ 11 MIL?",
+ "capa_texto_b": "Chega ao Brasil?",
+ "capa_cena": 8,
+ "capitulos_desc": [
+  "0:00 O celular de 8.500 mAh",
+  "0:45 Por que bombou",
+  "1:50 O que a China ganhou",
+  "3:00 E no Brasil?",
+  "4:50 O que já dá pra comprar",
+  "6:00 Veredito Nexus"
+ ],
+ "fontes": [
+  {"nome": "Ubergizmo (23/09)", "url": "https://www.ubergizmo.com/2026/09/xiaomi-18-pro-and-pro-max-debut-with-8500-mah-battery-and-dual-200mp-cameras/"},
+  {"nome": "Borncity (preço e memória)", "url": "https://borncity.com/news/xiaomi-18-pro-neuer-flaggschiff-startpreis-liegt-rund-20-prozent-hoeher/"},
+  {"nome": "Notebookcheck (evento global em Paris)", "url": "https://www.notebookcheck.com/Offiziell-Xiaomi-18-Pro-hat-globalen-Launchtermin-in-Europa.1445797.0.html"},
+  {"nome": "Xiaomi Global: lançamento da série 18 Pro (17/11)", "url": "https://www.mi.com/global/launch/xiaomi-launch-november-2026/"},
+  {"nome": "Oficina da Net (Xiaomi confirma lançamento global)", "url": "https://www.oficinadanet.com.br/xiaomi/72846-xiaomi-confirma-lancamento-global-dos-xiaomi-18-pro-e-pro-max"},
+  {"nome": "Showmetech (Brasil)", "url": "https://www.showmetech.com.br/xiaomi-18-pro-global-quando-chega-ao-brasil/"},
+  {"nome": "Canaltech (vazamento de preços e baterias globais)", "url": "https://canaltech.com.br/smartphone/xiaomi-18-pro-com-tela-traseira-ganha-versao-global-e-preco-surpreende/"},
+  {"nome": "GSMArena (preços europeus vazados)", "url": "https://www.gsmarena.com/xiaomi_18_pro_and_xiaomi_18_pro_max_european_prices_leak-news-75114.php"},
+  {"nome": "Rankia (taxa de referência do BCE, 10/11: 1 euro = R$ 6,2257)", "url": "https://www.rankia.pt/trading/forex/euro-para-real-hoje/"},
+  {"nome": "Anatel: declaração de conformidade para uso próprio", "url": "https://www.gov.br/anatel/pt-br/regulado/certificacao-de-produtos/declaracao-de-conformidade"}
+ ],
+ "produtos": ["anker-zolo-a110m-20000-45w", "baseus-bipow2-pro-20000", "ugreen-pb311-10000-20w"],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "capitulo": "O celular de 8.500 mAh",
+   "fala": "Esse Xiaomi tem {8.500 mAh|oito mil e quinhentos miliampères-hora} de bateria.",
+   "tela": "Xiaomi 18 Pro Max: 8.500 mAh",
+   "imagens": ["tela:https://www.mi.com/global/launch/xiaomi-launch-november-2026/"]
+  },
+  {
+   "tipo": "info",
+   "icone": "bateria",
+   "fala": "É o Xiaomi 18 Pro Max. A pergunta do brasileiro é simples: chega aqui? E por quanto? Já adianto que a resposta tem um porém."
+  },
+  {
+   "tipo": "numero",
+   "destaque": "8.500 mAh",
+   "rotulo": "bateria do Pro Max na China",
+   "fonte": "Ubergizmo, 23/09",
+   "fala": "Na China, o Pro Max tem bateria de {8.500 mAh|oito mil e quinhentos miliampères-hora}. O Pro, o irmão menor, tem {7.000|sete mil}."
+  },
+  {
+   "tipo": "info",
+   "icone": "check",
+   "fala": "Os links e o post completo estão na descrição. Agora vou mostrar por que esse celular bombou, o que a China ganhou e o que dá pra esperar aqui."
+  },
+  {
+   "tipo": "data",
+   "capitulo": "Por que bombou",
+   "destaque": "23 SET 2026",
+   "rotulo": "lançamento na China",
+   "fonte": "Ubergizmo, 23/09",
+   "fala": "A Xiaomi apresentou a série {18 Pro|dezoito Pro} na China em {23 de setembro|vinte e três de setembro}. E os números chamaram atenção do mundo todo."
+  },
+  {
+   "tipo": "comparativo",
+   "itens": [
+    {"valor": "5.999 yuan", "rotulo": "Xiaomi 18 Pro"},
+    {"valor": "6.999 yuan", "rotulo": "Xiaomi 18 Pro Max"}
+   ],
+   "fonte": "Ubergizmo, 23/09",
+   "fala": "Os preços de pré-venda na China começam em {5.999 yuans|cinco mil, novecentos e noventa e nove yuans} no Pro e {6.999 yuans|seis mil, novecentos e noventa e nove yuans} no Pro Max, nas versões de 256 gigabytes."
+  },
+  {
+   "tipo": "manchete",
+   "fonte": "Borncity",
+   "fala": "O Xiaomi {17 Pro|dezessete Pro} tinha começado em {5.699 yuans|cinco mil, seiscentos e noventa e nove yuans}. A Borncity lembra que a alta de preço vem junto com a pressão do custo de chips e de memória.",
+   "manchete": {
+    "url": "https://borncity.com/news/xiaomi-18-pro-neuer-flaggschiff-startpreis-liegt-rund-20-prozent-hoeher/",
+    "trecho": "einem Startpreis von 5.699 Yuan"
+   }
+  },
+  {
+   "tipo": "fato",
+   "fonte": "Borncity",
+   "fala": "O presidente da Xiaomi, {Lu Weibing|Lu Uêibing}, citou as melhorias: processador de dois nanômetros, duas câmeras de duzentos megapixels da {Leica|Laica}, tela nova e borda mais fina.",
+   "imagens": ["tela:https://www.mi.com/global/"]
+  },
+  {
+   "tipo": "info",
+   "icone": "dinheiro",
+   "fonte": "Borncity",
+   "fala": "Ele também disse, em agosto, que a memória deve seguir cara no segundo semestre. É o mesmo assunto do iPhone mais caro de 2027: memória virou o vilão do preço."
+  },
+  {
+   "tipo": "lista",
+   "capitulo": "O que a China ganhou",
+   "fonte": "Ubergizmo, 23/09",
+   "titulo_lista": "PRO MAX NA CHINA",
+   "itens": ["Bateria de 8.500 mAh", "Carga de 100 W", "Câmeras de 200 MP", "Tela de 6,9 polegadas"],
+   "fala": "Vamos à ficha do Pro Max chinês. Bateria de {8.500 mAh|oito mil e quinhentos}, carga de {100 W|cem watts} com fio, câmeras de {200 MP|duzentos megapixels} e tela de seis vírgula nove polegadas."
+  },
+  {
+   "tipo": "manchete",
+   "fonte": "Ubergizmo, 23/09",
+   "fala": "Segundo a Ubergizmo, os dois modelos têm carga de cem watts com fio e cinquenta watts sem fio.",
+   "manchete": {
+    "url": "https://www.ubergizmo.com/2026/09/xiaomi-18-pro-and-pro-max-debut-with-8500-mah-battery-and-dual-200mp-cameras/",
+    "trecho": "both supporting 100W wired and 50W wireless charging"
+   }
+  },
+  {
+   "tipo": "info",
+   "icone": "chip",
+   "fonte": "Ubergizmo, 23/09",
+   "fala": "O Pro Max usa o {Snapdragon|Esnapdrégon} {8 Elite Extreme Gen 6|oito Elite Extrem Gen seis}. O Pro usa o {8 Elite Gen 6|oito Elite Gen seis}. São chips da próxima geração da {Qualcomm|Kuálcom}."
+  },
+  {
+   "tipo": "fato",
+   "fonte": "Ubergizmo, 23/09",
+   "fala": "Os dois têm uma segunda tela na traseira, de dois vírgula sete polegadas no Pro e dois vírgula nove no Pro Max. É um destaque da linha.",
+   "imagens": ["tela:https://c.mi.com/global/", "content/imagens/xiaomi-hyperos-4-liberacao-lista-poco-x8-pro-brasil.jpg"]
+  },
+  {
+   "tipo": "info",
+   "icone": "bateria",
+   "fala": "Mas ficha de China é uma coisa. O que importa pra gente é o que sai da China. E aí a história muda."
+  },
+  {
+   "tipo": "data",
+   "capitulo": "E no Brasil?",
+   "destaque": "17 NOV 2026",
+   "rotulo": "evento global em Paris",
+   "fonte": "Xiaomi Global, 12/11",
+   "fala": "A boa notícia: a página oficial da Xiaomi marca o lançamento global para {17 de novembro|dezessete de novembro}. A Notebookcheck diz que o evento é em Paris."
+  },
+  {
+   "tipo": "manchete",
+   "fonte": "Notebookcheck",
+   "fala": "A Notebookcheck confirma a data e conta que o vice-presidente da Xiaomi postou um vídeo no X sobre o evento.",
+   "manchete": {
+    "url": "https://www.notebookcheck.com/Offiziell-Xiaomi-18-Pro-hat-globalen-Launchtermin-in-Europa.1445797.0.html",
+    "trecho": "Am 17. November ist es demnach soweit"
+   }
+  },
+  {
+   "tipo": "info",
+   "icone": "alerta",
+   "fala": "A má notícia: global não quer dizer Brasil. Até agora, a Xiaomi não anunciou a lista de países e não confirmou venda oficial por aqui. A Notebookcheck diz que o evento é da geração Pro, com o Pro e o Pro Max, mas bateria e preço globais ainda não são oficiais."
+  },
+  {
+   "tipo": "comparativo",
+   "itens": [
+    {"valor": "8.500 mAh", "rotulo": "China (oficial)"},
+    {"valor": "7.050 mAh", "rotulo": "global (rumor)"}
+   ],
+   "fonte": "Canaltech",
+   "fala": "Tem mais um problema. Segundo o Canaltech, o vazamento aponta uma bateria global menor: {7.050 mAh|sete mil e cinquenta} no Pro Max e {6.000|seis mil} no Pro. É rumor, a Xiaomi não confirmou."
+  },
+  {
+   "tipo": "fato",
+   "fonte": "Canaltech",
+   "fala": "O mesmo vazamento fala em carga de noventa watts no Pro e cem no Pro Max. Se for verdade, a carga se mantém, mas a bateria encolhe. Por enquanto, rumor.",
+   "imagens": ["content/imagens/xiaomi-18-pro-versao-global-brasil-preco-vazado.jpg"]
+  },
+  {
+   "tipo": "barras",
+   "fonte": "Canaltech e GSMArena",
+   "titulo_lista": "PREÇO VAZADO NA EUROPA (EUR)",
+   "itens": [
+    {"rotulo": "18 Pro 256 GB", "valor": 1449, "unidade": "euros"},
+    {"rotulo": "18 Pro 512 GB", "valor": 1649, "unidade": "euros"},
+    {"rotulo": "18 Pro Max 512 GB", "valor": 1849, "unidade": "euros"}
+   ],
+   "fala": "Os preços vazados na Europa são {1.449|mil, quatrocentos e quarenta e nove} euros no Pro de 256 gigas, {1.649|mil, seiscentos e quarenta e nove} no de 512 e {1.849|mil, oitocentos e quarenta e nove} euros no Pro Max. É vazamento, não preço oficial."
+  },
+  {
+   "tipo": "numero",
+   "destaque": "~ R$ 11.500",
+   "rotulo": "estimativa direta, sem imposto e frete",
+   "fonte": "BCE via Rankia, 10/11: 1 euro = R$ 6,2257",
+   "fala": "Fazendo a conta com o euro a {6,22 reais|seis reais e vinte e dois centavos}, referência do Banco Central Europeu de dez de novembro, o Pro Max sairia perto de {11.500 reais|onze mil e quinhentos reais}. É só conversão direta, uma estimativa: sem imposto, sem frete e sem margem de loja."
+  },
+  {
+   "tipo": "info",
+   "icone": "alerta",
+   "fala": "Ou seja, não é preço brasileiro. Se vier oficialmente, o valor aqui será outro, e provavelmente mais alto. Não existe preço para o Brasil confirmado."
+  },
+  {
+   "tipo": "manchete",
+   "fonte": "Showmetech",
+   "fala": "E a Showmetech lembra que os topos de linha da Xiaomi, do catorze ao dezessete, não foram vendidos oficialmente aqui por causa do custo de importação.",
+   "manchete": {
+    "url": "https://www.showmetech.com.br/xiaomi-18-pro-global-quando-chega-ao-brasil/",
+    "trecho": "devido ao alto custo de importação, ainda mais porque a empresa não tem uma fábrica no Brasil."
+   }
+  },
+  {
+   "tipo": "fato",
+   "fonte": "Anatel, conferido em 12/11",
+   "fala": "Se você pensa em importar, a Anatel pede atenção. Para uso próprio, o aparelho precisa de uma declaração de conformidade antes de ser usado no Brasil. Ela vale para a unidade, pelo número de série.",
+   "imagens": ["tela:https://www.gov.br/anatel/pt-br/regulado/certificacao-de-produtos/declaracao-de-conformidade"]
+  },
+  {
+   "tipo": "lista",
+   "fonte": "Anatel, conferido em 12/11",
+   "titulo_lista": "IMPORTANDO SEM HOMOLOGAÇÃO",
+   "itens": ["Remessa pode ser retida", "Prazo de 10 dias para pedir", "Operadora pode não habilitar", "Sem garantia de funcionar"],
+   "fala": "Sem isso, a remessa pode ser retida, e você tem dez dias corridos para pedir a homologação. A Anatel também avisa que a operadora pode não habilitar o aparelho, e que não há garantia de funcionar igual ao modelo vendido aqui."
+  },
+  {
+   "tipo": "info",
+   "icone": "relogio",
+   "fala": "Resumo do Brasil: sem data, sem preço oficial e, se você importar, sem a tranquilidade do selo da Anatel de fábrica. Esperar a Xiaomi falar é o caminho seguro."
+  },
+  {
+   "tipo": "fato",
+   "capitulo": "O que já dá pra comprar",
+   "fala": "Enquanto isso, o que dá pra fazer? O grande atrativo desse celular é a bateria. E bateria grande, você pode ter agora, com um power bank.",
+   "imagens": ["content/imagens/melhores-power-banks-20000mah.jpg", "content/imagens/como-escolher-power-bank.jpg", "content/imagens/melhores-power-banks.jpg"]
+  },
+  {
+   "tipo": "info",
+   "icone": "bateria",
+   "fonte": "Guia Nexus: como escolher power bank",
+   "fala": "Uma regra do nosso guia: um power bank entrega entre sessenta e setenta por cento da capacidade anunciada. A conta rápida é multiplicar a bateria do celular por um vírgula cinco."
+  },
+  {
+   "tipo": "numero",
+   "destaque": "12.750 mAh",
+   "rotulo": "para recarregar 8.500 mAh (conta do guia)",
+   "fonte": "Guia Nexus de power bank",
+   "fala": "Para recarregar uma bateria de {8.500 mAh|oito mil e quinhentos} por completo, a conta dá cerca de {12.750|doze mil, setecentos e cinquenta}. Então um de {20.000|vinte mil} resolve."
+  },
+  {
+   "tipo": "produto",
+   "produto": "anker-zolo-a110m-20000-45w",
+   "fala": "O primeiro é o {Anker|Ênker} Zolo de vinte mil, com saída de quarenta e cinco watts. É o mais rápido do grupo e serve pra celular topo de linha e tablet. Veja o preço atual no link."
+  },
+  {
+   "tipo": "info",
+   "icone": "carrinho",
+   "fala": "Todos os três estão no nosso catálogo, e o preço muda, então veja o valor do dia no link da descrição."
+  },
+  {
+   "tipo": "produto",
+   "produto": "baseus-bipow2-pro-20000",
+   "fala": "O {Baseus|Bêiseus} Bipow dois Pro também tem vinte mil, com vinte e dois vírgula cinco watts, cabo integrado e visor digital. É a opção de custo-benefício. Veja o preço atual no link."
+  },
+  {
+   "tipo": "produto",
+   "produto": "ugreen-pb311-10000-20w",
+   "fala": "O {Ugreen|Iugrin} PB311, de dez mil, é compacto e carrega parcialmente um celular desse tamanho. Serve se o seu uso é uma carga de emergência, não se você quer duas cargas. Veja o preço atual no link."
+  },
+  {
+   "tipo": "info",
+   "icone": "alerta",
+   "fala": "E um aviso honesto: nenhum desses chega perto dos cem watts do Xiaomi. Power bank resolve a autonomia, não a velocidade de carga que a Xiaomi promete."
+  },
+  {
+   "tipo": "info",
+   "capitulo": "Veredito Nexus",
+   "icone": "check",
+   "fala": "Meu veredito, com base nas fontes: o Xiaomi dezoito Pro Max é impressionante no papel, mas ainda é um celular chinês sem data e sem preço no Brasil."
+  },
+  {
+   "tipo": "lista",
+   "titulo_lista": "VEREDITO NEXUS",
+   "itens": ["Não segure sua compra", "Espere a Xiaomi falar do Brasil", "Bateria global pode ser menor", "Cuidado com a Anatel"],
+   "fala": "Não segure a sua compra por ele. Espere a Xiaomi falar do Brasil, lembre que a bateria global pode ser menor, e se for importar, cuide da homologação da Anatel."
+  },
+  {
+   "tipo": "cta",
+   "tela": "Você pagaria R$ 11 mil num celular desses?",
+   "fala": "E você, pagaria perto de onze mil reais num celular com bateria gigante? Responde nos comentários. Se inscreve no canal pra não perder o próximo Lá Fora, Aqui, e os links e o post completo estão na descrição."
+  }
+ ]
+}
