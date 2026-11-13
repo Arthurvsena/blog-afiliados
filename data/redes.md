@@ -2,6 +2,56 @@
 
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
+## 2026-11-13 · Xiaomi Brasil: 18 Pro e Pro Max em Paris dia 17, e aqui?
+Link: https://nexustechai.com.br/posts/xiaomi-18-pro-pro-max-evento-global-17-novembro-paris/
+- WhatsApp: Xiaomi confirmou o evento global do 18 Pro e Pro Max para terça (17/11), 10h em Brasília. Brasil? Nenhuma fonte cita. Preço e bateria ainda são rumor: https://nexustechai.com.br/posts/xiaomi-18-pro-pro-max-evento-global-17-novembro-paris/
+- X: Xiaomi 18 Pro e Pro Max chegam ao mercado global dia 17/11, em Paris (10h em Brasília). Preço e bateria da versão global seguem como rumor, e o Brasil não foi citado: https://nexustechai.com.br/posts/xiaomi-18-pro-pro-max-evento-global-17-novembro-paris/
+- Instagram (legenda): Xiaomi 18 Pro e Pro Max: evento global dia 17, em Paris.
+  Horário de Brasília: 10h, com transmissão no YouTube e no X.
+  Brasil? Sem anúncio. Preço e bateria ainda são vazamento.
+  #xiaomi #xiaomi18pro #celulares
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Xiaomi 18 Pro: e o Brasil?" [2-8 s] Fato 1: evento global dia 17/11, em Paris, 10h em Brasília. [8-14 s] Fato 2: preço e bateria da versão global são rumor. [14-18 s] Fato 3: nenhuma fonte cita lançamento no Brasil. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-13 · Nintendo Switch 2: Pikmin 4 Edition já saiu, com 72 fases
+Link: https://nexustechai.com.br/posts/pikmin-4-switch-2-edition-ja-disponivel-dandori-academy-upgrade/
+- WhatsApp: Pikmin 4 ganhou edição para Switch 2 desde 12/11: 72 fases novas no Dandori Academy e comando de voz para o Oatchi. Quem tem o original pode pagar só o upgrade: https://nexustechai.com.br/posts/pikmin-4-switch-2-edition-ja-disponivel-dandori-academy-upgrade/
+- X: Pikmin 4 Switch 2 Edition já está disponível: 72 fases cronometradas no Dandori Academy, placar online e voz para mandar no Oatchi. Upgrade pago para quem tem o original: https://nexustechai.com.br/posts/pikmin-4-switch-2-edition-ja-disponivel-dandori-academy-upgrade/
+- Instagram (legenda): Pikmin 4 voltou, agora no Switch 2.
+  72 fases do Dandori Academy, cada uma com 3 dificuldades.
+  Dá para mandar no Oatchi falando no microfone do console.
+  #pikmin4 #nintendoswitch2 #games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Pikmin 4 ganhou edição nova." [2-8 s] Fato 1: 72 fases cronometradas no Dandori Academy. [8-14 s] Fato 2: comandos de voz para o Oatchi. [14-18 s] Fato 3: quem tem o original paga só o upgrade. [18-20 s] "Mais no link da bio."
+
+## 2026-11-13 · Xbox Game Pass: GoldenEye e Wreckfest saem em 15/11
+Link: https://nexustechai.com.br/posts/xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra/
+- WhatsApp: Game Pass perde Dragon Ball Xenoverse 2, GoldenEye 007 e Wreckfest em 15/11. Se está no meio de algum, termine até sábado. Toxic Commando já entrou: https://nexustechai.com.br/posts/xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra/
+- X: Saem do Xbox Game Pass em 15/11: Dragon Ball Xenoverse 2, GoldenEye 007, Wreckfest, Moonlighter e Police Simulator. Toxic Commando já está no catálogo desde 12/11: https://nexustechai.com.br/posts/xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra/
+- Instagram (legenda): Última chamada no Game Pass.
+  Dia 15/11 saem GoldenEye 007, Wreckfest e Dragon Ball Xenoverse 2.
+  Toxic Commando já entrou, sem custo extra nos planos Ultimate, Premium e PC.
+  #xboxgamepass #xbox #games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Esses jogos saem do Game Pass dia 15." [2-8 s] Fato 1: GoldenEye 007, Wreckfest e Dragon Ball Xenoverse 2. [8-14 s] Fato 2: Moonlighter e Police Simulator também. [14-18 s] Fato 3: Toxic Commando já entrou. [18-20 s] "Lista completa no link da bio."
+
+## 2026-11-13 · Imagem de referência iPhone: prova que a foto não é de IA?
+Link: https://nexustechai.com.br/posts/apple-reference-image-iphone-18-pro-foto-real-como-funciona/
+- WhatsApp: O iPhone 18 Pro tem um modo que assina a foto no sensor para provar que é real. Mas só protege a foto tirada nesse modo, e você precisa ligar: https://nexustechai.com.br/posts/apple-reference-image-iphone-18-pro-foto-real-como-funciona/
+- X: A Imagem de referência do iPhone 18 Pro assina os dados do sensor na hora da foto, para provar depois que ela é real. Só captura no 18 Pro, é opcional e não protege fotos fora do modo: https://nexustechai.com.br/posts/apple-reference-image-iphone-18-pro-foto-real-como-funciona/
+- Instagram (legenda): Como provar que uma foto não é de IA?
+  O iPhone 18 Pro assina os dados do sensor no modo Referência.
+  É opcional e vale só para fotos tiradas nesse modo.
+  #iphone18pro #ia #apple
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Foto real ou IA? O iPhone agora prova." [2-8 s] Fato 1: o modo Referência assina o sensor na captura. [8-14 s] Fato 2: só iPhone 18 Pro captura; outros com sistema 27 só veem. [14-18 s] Fato 3: é opcional e não cobre fotos fora do modo. [18-20 s] "Como ativar no link da bio."
+
+## 2026-11-13 · Como resolver toque fantasma no celular sem trocar a tela
+Link: https://nexustechai.com.br/posts/como-resolver-toque-fantasma-celular/
+- WhatsApp: Tela do celular tocando sozinha? Antes de pagar tela nova, tem 6 passos grátis que podem resolver, começando pela película: https://nexustechai.com.br/posts/como-resolver-toque-fantasma-celular/
+- X: Tela tocando sozinha, abrindo apps e digitando letras? Nem sempre é defeito. Tire película e capa, limpe, atualize e teste no modo seguro antes de redefinir ou pagar assistência: https://nexustechai.com.br/posts/como-resolver-toque-fantasma-celular/
+- Instagram (legenda): Seu celular toca sozinho?
+  Antes de trocar a tela, teste 6 passos grátis, em ordem.
+  Comece pela película e termine no modo seguro.
+  #celular #android #tutorial
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Tela tocando sozinha? Não troque ainda." [2-8 s] Fato 1: tire película e capa e limpe a tela. [8-14 s] Fato 2: atualize o sistema e teste no modo seguro. [14-18 s] Fato 3: redefinir só no fim, com backup. [18-20 s] "Passo a passo no link da bio."
+
 ## 2026-11-12 · Como fazer figurinha no WhatsApp pelo celular, passo a passo
 Link: https://nexustechai.com.br/posts/como-fazer-figurinha-no-whatsapp/
 - WhatsApp: Dá para fazer figurinha com a sua foto direto no WhatsApp, sem baixar app: painel de figurinhas > Criar. Passo a passo no Android e no iPhone: https://nexustechai.com.br/posts/como-fazer-figurinha-no-whatsapp/
@@ -371,71 +421,4 @@ Link: https://nexustechai.com.br/posts/take-two-ceo-pirataria-gta-6-medidas-lega
   Nenhuma proteção foi detalhada. Link na bio.
   #gta6 #rockstar #games
 - TikTok/Reels (roteiro de 20 s): [0-2 s] "GTA 6 e pirataria: o que a Take-Two disse." [2-8 s] Fato 1: o CEO chamou a pirataria de "fato da vida". [8-14 s] Fato 2: se virar problema, a resposta será na Justiça e na parte técnica. [14-18 s] Fato 3: nenhuma medida foi detalhada. [18-20 s] "Matéria completa no link da bio."
-
-## 2026-11-08 · Jogos Switch 2 lançamentos: Pikmin 4 em 12/11 e o calendário
-Link: https://nexustechai.com.br/posts/switch-2-calendario-jogos-pikmin-4-xenoblade-3-monster-hunter-wilds/
-- WhatsApp: Calendário do Switch 2: Pikmin 4 em 12/11, Xenoblade 3 e Rayman Legends em 3/12, Monster Hunter Wilds em 4/12. Sem preço para o Brasil ainda: https://nexustechai.com.br/posts/switch-2-calendario-jogos-pikmin-4-xenoblade-3-monster-hunter-wilds/
-- X: Jogos do Switch 2: Pikmin 4 (12/11), Xenoblade Chronicles 3 e Rayman Legends Retold (3/12), Monster Hunter Wilds (4/12), Professor Layton (10/12). Calendário vai até 2027: https://nexustechai.com.br/posts/switch-2-calendario-jogos-pikmin-4-xenoblade-3-monster-hunter-wilds/
-- Instagram (legenda): O que jogar no Switch 2 depois do Zelda?
-  12/11: Pikmin 4.
-  3/12: Xenoblade 3 e Rayman Legends Retold.
-  4/12: Monster Hunter Wilds. Link na bio.
-  #switch2 #nintendo #games
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Switch 2: 4 jogos em menos de um mês." [2-8 s] Fato 1: Pikmin 4 chega em 12 de novembro. [8-14 s] Fato 2: Xenoblade 3 em 3/12 e Monster Hunter Wilds em 4/12. [14-18 s] Fato 3: o calendário já vai até 2027. [18-20 s] "Lista completa no link da bio."
-
-## 2026-11-07 · Lâmpada inteligente: como funciona e o erro da parede
-Link: https://nexustechai.com.br/posts/lampada-inteligente-ou-interruptor-inteligente-qual-escolher/
-- WhatsApp: Se alguém apagar o interruptor da parede, a lâmpada inteligente fica offline e a Alexa não responde. Veja quando vale trocar por interruptor inteligente: https://nexustechai.com.br/posts/lampada-inteligente-ou-interruptor-inteligente-qual-escolher/
-- X: Lâmpada inteligente ou interruptor inteligente? Aluguel e um ou dois pontos: lâmpada. Vários soquetes no mesmo circuito: interruptor (e confira o fio neutro antes). https://nexustechai.com.br/posts/lampada-inteligente-ou-interruptor-inteligente-qual-escolher/
-- Instagram (legenda): A lâmpada inteligente fica offline se alguém apagar a luz na parede.
-  Por isso, em sala com vários soquetes, o interruptor inteligente costuma fazer mais sentido.
-  Aluguel e poucos pontos: lâmpada. Casa própria e muitos pontos: interruptor.
-  Link na bio.
-  #casainteligente #alexa #tecnologia
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Sua lâmpada inteligente some do app? Olhe a parede." [2-8 s] Fato 1: sem energia no soquete, ela fica offline. [8-14 s] Fato 2: muitos interruptores Wi-Fi pedem fio neutro, confira antes. [14-18 s] Fato 3: aluguel e poucos pontos, lâmpada; vários soquetes, interruptor. [18-20 s] "Guia completo no link da bio."
-
-## 2026-11-07 · Anatel vai bloquear linhas de chamadas abusivas em 12/11
-Link: https://nexustechai.com.br/posts/anatel-chamadas-abusivas-bloqueio-12-novembro-despacho-100/
-- WhatsApp: A partir de 12/11, as operadoras podem bloquear por 15 dias linhas que fazem ligação em massa (call centers e robôs). O spam no seu celular não some na hora: https://nexustechai.com.br/posts/anatel-chamadas-abusivas-bloqueio-12-novembro-despacho-100/
-- X: Anatel define critérios para bloquear por 15 dias linhas de ligação em massa, a partir de 12/11. O alvo é quem dispara, não quem recebe. Até lá, silenciar desconhecidos ainda é com você: https://nexustechai.com.br/posts/anatel-chamadas-abusivas-bloqueio-12-novembro-despacho-100/
-- Instagram (legenda): Cansou das ligações de robô?
-  A Anatel definiu regras para bloquear por 15 dias quem faz chamadas em massa, a partir de 12/11.
-  O efeito no seu celular não é imediato. Silencie desconhecidos enquanto isso.
-  Link na bio.
-  #anatel #spam #segurancadigital
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Acabou a ligação de robô? Ainda não." [2-8 s] Fato 1: a partir de 12/11, operadoras podem bloquear por 15 dias linhas de chamadas em massa. [8-14 s] Fato 2: o alvo é quem liga, não quem recebe. [14-18 s] Fato 3: o efeito leva dias, então silencie desconhecidos no celular. [18-20 s] "Passo a passo no link da bio."
-
-## 2026-11-07 · Novidade no Status do WhatsApp: IA completa foto na tela cheia
-Link: https://nexustechai.com.br/posts/whatsapp-meta-ia-expandir-foto-status-tela-cheia/
-- WhatsApp: O Status do WhatsApp vai ganhar IA que completa a foto e tira a faixa preta das laterais. Liberação gradual, ainda sem data para o Brasil: https://nexustechai.com.br/posts/whatsapp-meta-ia-expandir-foto-status-tela-cheia/
-- X: WhatsApp começa a liberar uma ferramenta da Meta AI que cria as bordas de fotos quadradas ou horizontais para preencher o Status em tela cheia, sem esticar. Gradual, sem data para o Brasil: https://nexustechai.com.br/posts/whatsapp-meta-ia-expandir-foto-status-tela-cheia/
-- Instagram (legenda): Fim da faixa preta nas fotos do Status?
-  O WhatsApp testa uma IA que completa as laterais da foto para ela ocupar a tela toda.
-  Chega aos poucos, e ainda não há data para o Brasil.
-  Link na bio.
-  #whatsapp #metaai #novidade
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "O WhatsApp vai acabar com a faixa preta no Status." [2-8 s] Fato 1: a Meta AI cria as laterais que faltam na foto. [8-14 s] Fato 2: dá para ver a prévia e gerar outra versão. [14-18 s] Fato 3: liberação gradual, sem data para o Brasil. [18-20 s] "Detalhes no link da bio."
-
-## 2026-11-07 · GTA 6 quantos GB: como liberar espaço no PS5 e no Xbox
-Link: https://nexustechai.com.br/posts/gta-6-liberar-espaco-ps5-xbox-pre-carregamento-212-gb/
-- WhatsApp: GTA 6 pede até 212 GB no pré-carregamento. Seu PS5 ou Xbox tem esse espaço? Passo a passo para liberar antes de 9/11: https://nexustechai.com.br/posts/gta-6-liberar-espaco-ps5-xbox-pre-carregamento-212-gb/
-- X: GTA 6 ocupa até 212 GB no pré-carregamento, segundo a Rockstar. Como ver o espaço livre e apagar jogos no PS5 e no Xbox antes do download. HD externo não roda o jogo no PS5: https://nexustechai.com.br/posts/gta-6-liberar-espaco-ps5-xbox-pre-carregamento-212-gb/
-- Instagram (legenda): Seu console tem 212 GB livres para o GTA 6?
-  Mostramos como conferir o espaço e apagar jogos no PS5 e no Xbox.
-  Dica: HD externo guarda jogo antigo, mas o GTA precisa do SSD.
-  Link na bio.
-  #gta6 #ps5 #xbox
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seu console não aguenta o GTA 6? Veja antes." [2-8 s] Fato 1: o pré-carregamento ocupa até 212 GB. [8-14 s] Fato 2: no PS5, apagar jogo não tira da biblioteca. [14-18 s] Fato 3: HD externo guarda outros jogos, mas não roda o GTA no PS5. [18-20 s] "Passo a passo no link da bio."
-
-
-
-
-
-
-
-
-
-
-
-
 
