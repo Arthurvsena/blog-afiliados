@@ -66,11 +66,17 @@
   },
   {
    "slug": "cinco-paes-e-dois-peixes",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-13",
+   "release": "biblia-2026-11-13",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "as-muralhas-de-jerico",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-13",
+   "release": "biblia-2026-11-13",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "o-tumulo-vazio",
