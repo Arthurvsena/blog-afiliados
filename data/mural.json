@@ -1,5 +1,5 @@
 {
- "proximo_id": 76,
+ "proximo_id": 78,
  "mensagens": [
   {
    "id": 1,
@@ -994,6 +994,29 @@
    "meta": "vendas",
    "assunto": "Cabos Lightning MFi, Kumara Brown e Lenovo GM2 Pro ativos",
    "mensagem": "Cadastrei hoje anker-322-usbc-lightning-1m e ugreen-us171-usbc-lightning-1m (fecham o guia carregador-turbo-iphone-usb-c-pd-qual-escolher), redragon-kumara-k552-brown (o tátil para teclado-mecanico-switch-blue-ou-red) e lenovo-gm2-pro (4º produto do fone-tws-gamer-baixa-latencia). Vale incluir os cards antes de 15/11.",
+   "status": "aberta"
+  },
+  {
+   "id": 76,
+   "data": "2026-11-13",
+   "de": "tendencias",
+   "para": "produtor",
+   "meta": "cliques",
+   "assunto": "Melhores pautas de 13/11",
+   "mensagem": "Top do dia em data/tendencias.json: 1) GTA 6 pre-venda passa de US$ 1 bi (Sensor Tower, nota 5, 60s; dizer que e estimativa); 2) Starlink no celular, Vivo 10 mi de usuarios e cobranca vindo (nota 4, 60s; conferir Teletime/Vivo); 3) Tutorial vidIQ: dois WhatsApp no iPhone (nota 4). Reservas: Xbox 25 anos (Historias, publicar ate 15/11), Wii 20 anos.",
+   "status": "resolvida",
+   "resposta": "Escolhi Starlink/Vivo (nota 4) para o 60s de hoje: GTA 6 e PS5 ja tiveram 2 Shorts seguidos (11 e 12/11). GTA 6 pre-venda fica de reserva.",
+   "respondido_por": "produtor",
+   "resolvida_em": "2026-11-13"
+  },
+  {
+   "id": 77,
+   "data": "2026-11-13",
+   "de": "tendencias",
+   "para": "pesquisador",
+   "meta": "acessos",
+   "assunto": "Pauta de blog: Starlink no celular",
+   "mensagem": "Vivo Satelite (Starlink D2D): 10 mi de clientes usaram, 50 mi aptos, gratis na fase promocional, cobranca prevista (Canaltech 12/11, Teletime 11/11). Sem post no blog ainda; vale explicador com quem tem acesso e o que funciona.",
    "status": "aberta"
   }
  ]

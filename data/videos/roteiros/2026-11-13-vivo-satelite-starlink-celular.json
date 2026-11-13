@@ -1,0 +1,107 @@
+{
+ "tipo": "short",
+ "quadro": "60s",
+ "slug": "2026-11-13-vivo-satelite-starlink-celular",
+ "post": "",
+ "titulo": "Vivo Satélite: 10 milhões já usaram e vem cobrança #shorts",
+ "resumo": "O Vivo Satélite, a conexão Starlink direto no celular, já foi usado por mais de 10 milhões de clientes da Vivo, segundo a operadora. Hoje é grátis na fase promocional, mas a Vivo diz que pretende cobrar em alguns planos, sem preço nem data.",
+ "hashtags": [
+  "VivoSatelite",
+  "Starlink",
+  "Vivo",
+  "Celular"
+ ],
+ "palavra_chave": "vivo satélite",
+ "fontes": [
+  {
+   "nome": "Teletime",
+   "url": "https://teletime.com.br/11/11/2026/vivo-d2d-starlink/"
+  },
+  {
+   "nome": "Teletime (lançamento)",
+   "url": "https://teletime.com.br/26/10/2026/vivo-parceria-starlink-vivo-satelite/"
+  },
+  {
+   "nome": "Canaltech",
+   "url": "https://canaltech.com.br/telecom/10-milhoes-ja-usaram-starlink-no-celular-sem-antena-vivo-preve-cobranca/"
+  }
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Seu celular pode falar direto com um satélite.",
+   "tela": "Seu celular fala com satélite?",
+   "imagens": [
+    "tela:https://teletime.com.br/26/10/2026/vivo-parceria-starlink-vivo-satelite/"
+   ]
+  },
+  {
+   "tipo": "numero",
+   "fala": "Mais de {10 milhões|dez milhões} de clientes da Vivo já usaram o Vivo Satélite, a conexão da Starlink direto no aparelho.",
+   "destaque": "10 milhões",
+   "rotulo": "clientes da Vivo já usaram",
+   "imagens": [
+    "tela:https://teletime.com.br/11/11/2026/vivo-d2d-starlink/"
+   ],
+   "fonte": "Teletime, 11/11"
+  },
+  {
+   "tipo": "manchete",
+   "fala": "É o que a operadora disse ao Teletime. E o serviço entra sozinho quando falta sinal.",
+   "manchete": {
+    "url": "https://teletime.com.br/11/11/2026/vivo-d2d-starlink/",
+    "trecho": "mais de 10 milhões de clientes já utilizaram a tecnologia"
+   }
+  },
+  {
+   "tipo": "numero",
+   "fala": "São {50 milhões|cinquenta milhões} de clientes aptos a usar. E, por enquanto, de graça.",
+   "destaque": "50 milhões",
+   "rotulo": "clientes aptos, grátis na fase promocional",
+   "imagens": [
+    "tela:https://canaltech.com.br/telecom/10-milhoes-ja-usaram-starlink-no-celular-sem-antena-vivo-preve-cobranca/"
+   ],
+   "fonte": "Canaltech, 12/11"
+  },
+  {
+   "tipo": "lista",
+   "fala": "Mas é limitado: mensagens, localização, mapas e WhatsApp. Sem a velocidade do {4G|quatro gê}.",
+   "titulo_lista": "O QUE FUNCIONA",
+   "itens": [
+    "Mensagens",
+    "Localização e mapas",
+    "WhatsApp"
+   ],
+   "imagens": [
+    "tela:https://canaltech.com.br/telecom/10-milhoes-ja-usaram-starlink-no-celular-sem-antena-vivo-preve-cobranca/"
+   ],
+   "fonte": "Canaltech, 12/11"
+  },
+  {
+   "tipo": "info",
+   "fala": "No pré-pago, a Vivo fala em liberar com recarga a partir de {R$ 30|trinta reais}.",
+   "icone": "dinheiro",
+   "imagens": [
+    "tela:https://teletime.com.br/11/11/2026/vivo-d2d-starlink/"
+   ],
+   "fonte": "Teletime, 11/11"
+  },
+  {
+   "tipo": "info",
+   "fala": "Ou seja: o satélite é grátis, até alguém lembrar que existe fatura. Seu celular pode falar direto com um satélite.",
+   "icone": "dinheiro",
+   "imagens": [
+    "tela:https://canaltech.com.br/telecom/10-milhoes-ja-usaram-starlink-no-celular-sem-antena-vivo-preve-cobranca/"
+   ],
+   "fonte": "Teletime, 11/11 e Canaltech, 12/11"
+  },
+  {
+   "tipo": "fato",
+   "fala": "Ou seja: o satélite é grátis, até alguém lembrar que existe fatura. Seu celular pode estar ligado a um satélite agora.",
+   "imagens": [
+    "tela:https://vivo.com.br/para-voce/produtos-e-servicos/para-o-celular/vivo-satelite"
+   ],
+   "fonte": "Vivo, 13/11"
+  }
+ ]
+}

@@ -1,1018 +1,1381 @@
 {
-  "atualizado": "2026-11-12",
-  "tendencias": [
-{"data":"2026-11-12","assunto":"PS5 passa de 100 milhões de unidades: 6 anos, atrás do PS4 e do PS2, e 2,1 milhões só nos últimos 40 dias","por_que_em_alta":"Canaltech (11/11), citando IGN e a Sony: 100 milhões vendidos (sell-in) até 10/11/2026, quarto console da Sony a chegar lá; aceleração ligada ao GTA 6 (19/11). Destaque na home de games hoje.","evidencias":["https://canaltech.com.br/games/ps5-chega-a-100-milhoes-de-unidades-veja-como-ele-se-compara-ao-ps4-ps3-e-ps2/"],"angulo":"Gancho: o PS5 chegou a 100 milhões, mas 2,1 milhões vieram nos últimos 40 dias, de olho no GTA 6. Gráfico de barras PS2 (160 mi), PS4 (117 mi), PS1 (102,4 mi), PS5 (100 mi), PS3 (87,4 mi), com a ressalva de que é sell-in (envio ao varejo), não venda ao consumidor. Comentário Nexus: o GTA 6 vende console.","formato":"noticia","tipo":"short","quadro":"60s","verificar_antes":"Só o Canaltech foi lido. Confirmar no comunicado da Sony/IGN: 100 milhões até 10/11, 2,1 mi em 40 dias, e os números do PS4/PS2 (datas de corte diferentes: dizer na tela).","fontes":[{"nome":"Canaltech","url":"https://canaltech.com.br/games/ps5-chega-a-100-milhoes-de-unidades-veja-como-ele-se-compara-ao-ps4-ps3-e-ps2/"},{"nome":"IGN (a localizar)","url":"https://www.ign.com/"},{"nome":"PlayStation Blog","url":"https://blog.playstation.com/"}],"imagens_oficiais":["https://www.playstation.com/pt-br/ps5/"],"post_relacionado":"xbox-series-fsr-4-1-gta-6-o-que-muda","produto":{"id":"","como_encaixa":"Editorial puro."},"nota":4,"status":"em_video"},
-{"data":"2026-11-12","assunto":"Sony vai encerrar o app do PS Plus para PC em 10/12: menos de 0,4% dos assinantes usavam","por_que_em_alta":"Canaltech (11/11, home de games hoje), citando comunicado da Sony no PlayStation Blog: o streaming em nuvem do PS Plus no Windows acaba em 10/12; motivo declarado: uso por menos de 0,4% dos membros Premium/Deluxe. Busca web não achou o post oficial: verificar.","evidencias":["https://canaltech.com.br/games/tchau-pc-sony-vai-encerrar-app-do-ps-plus-e-jogos-em-nuvem-no-computador/"],"angulo":"Gancho: a Sony desligou um serviço porque menos de 0,4% usava. O que se perde (clássicos de PS3 no PC), o que não muda (jogos nativos na Steam/Epic) e o que quem paga Premium no Brasil ainda tem no console. Reserva do 60s do dia.","formato":"noticia","tipo":"short","quadro":"60s","verificar_antes":"Achar o post oficial no PlayStation Blog (data 10/12 e a cifra de 0,4%) e checar se o app existia para o Brasil. Sem o post, não publicar.","fontes":[{"nome":"Canaltech","url":"https://canaltech.com.br/games/tchau-pc-sony-vai-encerrar-app-do-ps-plus-e-jogos-em-nuvem-no-computador/"},{"nome":"PlayStation Blog (a localizar)","url":"https://blog.playstation.com/category/ps-plus/"}],"imagens_oficiais":["https://www.playstation.com/pt-br/ps-plus/"],"post_relacionado":"","produto":{"id":"","como_encaixa":"Editorial puro."},"nota":3,"status":"nova"},
-{"data":"2026-11-12","assunto":"Xiaomi 18 Pro Max: bateria de 8.500 mAh e 100 W na China, global ainda sem data. Chega ao Brasil? Por quanto?","por_que_em_alta":"Ubergizmo (23/09), Borncity e Digital Citizen: China, Pro a 5.999 yuan (~20% acima do 17 Pro) e Pro Max a 6.999 yuan; Lei Jun confirmou lançamento internacional em 2026, sem data, mercados ou preço; versões globais podem ter baterias menores (6.000 e 7.050 mAh, relato não oficial). Canaltech (12/11) segue cobrindo bateria gigante e Xiaomi 18 em pré-venda. Liga com a corrida de mAh e com os guias de power bank.","evidencias":["https://www.ubergizmo.com/2026/09/xiaomi-18-pro-and-pro-max-debut-with-8500-mah-battery-and-dual-200mp-cameras/","https://borncity.com/news/xiaomi-18-pro-neuer-flaggschiff-startpreis-liegt-rund-20-prozent-hoeher/","https://canaltech.com.br/smartphone/xiaomi-18-aparece-em-pre-venda-na-china-e-lancamento-pode-estar-proximo/"],"angulo":"Gancho: o Xiaomi 18 Pro Max tem 8.500 mAh e carrega a 100 W, mas a versão global pode vir com bateria menor e preço mais alto. Blocos: o que a China ganhou, por que bombou (preço +20%, memória cara), E no Brasil (sem data; importação e Selo Anatel; estimativa de preço com cotação e data), alternativas que já dá pra comprar (power bank/celulares do catálogo), veredito. Une as pautas de 07/11 e 11/11.","formato":"comparativo","tipo":"longo","quadro":"lafora","origem":"gringo","palavra_chave":"xiaomi 18 pro max brasil","criterios_gringo":"1 sim (Ubergizmo, Borncity, Digital Citizen; GSMArena a confirmar); 2 sim (Xiaomi vende no Brasil, tema bateria e preço); 3 parcial (Canaltech cobre em texto; buscar vídeo em PT no YouTube BR); 4 sim (guias de power bank e celulares). 3 de 4 ok.","verificar_antes":"Sem termo no vidIQ: nota menor. Confirmar na Xiaomi/GSMArena specs e que o lançamento global continua sem data; baterias globais menores é relato não oficial: tratar como rumor. Preço em R$ só como estimativa com a cotação do dia.","fontes":[{"nome":"Ubergizmo","url":"https://www.ubergizmo.com/2026/09/xiaomi-18-pro-and-pro-max-debut-with-8500-mah-battery-and-dual-200mp-cameras/"},{"nome":"Borncity","url":"https://borncity.com/news/xiaomi-18-pro-neuer-flaggschiff-startpreis-liegt-rund-20-prozent-hoeher/"},{"nome":"Canaltech","url":"https://canaltech.com.br/smartphone/xiaomi-18-aparece-em-pre-venda-na-china-e-lancamento-pode-estar-proximo/"}],"imagens_oficiais":["https://www.mi.com/global/"],"post_relacionado":"como-escolher-power-bank","produto":{"id":"","como_encaixa":"Power bank do catálogo como alternativa; conferir ativo=sim no CSV."},"nota":4,"status":"em_video"},
-{"data":"2026-11-12","assunto":"Galaxy Z Slide: Samsung teria celular com tela que desliza e estica (rumor, 3º tri de 2027)","por_que_em_alta":"Canaltech (11/11): renders não oficiais de Ice Universe e Sammy Guru, tela 16:9 a 21:9, patente recente citada; Samsung não confirmou nada.","evidencias":["https://canaltech.com.br/smartphone/esqueca-os-dobraveis-samsung-prepara-celular-com-tela-que-desliza-e-estica/"],"angulo":"Reserva: tratar como rumor, só se aparecer 2ª fonte de fora (GSMArena/SamMobile).","formato":"noticia","tipo":"short","quadro":"60s","verificar_antes":"Rumor de uma fonte lida: não publicar sem segunda fonte.","fontes":[{"nome":"Canaltech","url":"https://canaltech.com.br/smartphone/esqueca-os-dobraveis-samsung-prepara-celular-com-tela-que-desliza-e-estica/"}],"imagens_oficiais":[],"post_relacionado":"","produto":{"id":"","como_encaixa":"Editorial puro."},"nota":2,"status":"nova"},
-{"data":"2026-11-11","assunto":"GTA 6 no Xbox One: só pela nuvem, com fila e limite de 15 horas por mês para novo assinante","por_que_em_alta":"Canaltech (10/11): a Rockstar e a Microsoft confirmaram o jogo no Xbox One via Xbox Cloud Gaming (presets do Series S), exige Game Pass, sem PC, celular, navegador ou TV; lançamento em 19/11. Canaltech destaca na home hoje. Tema de GTA 6 segue o de maior volume da semana.","evidencias":["https://canaltech.com.br/games/xbox-one-vira-o-console-mais-barato-para-jogar-gta-6-mas-ha-um-grande-porem/"],"angulo":"Gancho: dá para jogar GTA 6 no Xbox One de 2013, mas só pela nuvem e com um limite de horas. Quem tem console antigo: o que funciona, o porém (fila, 15 h por mês para novos assinantes do Game Pass) e quando compensa comprar outro aparelho. Não repete o vídeo do pré-load: foco em quem tem console velho.","formato":"explicador","tipo":"short","quadro":"60s","verificar_antes":"Confirmar no Rockstar Newswire e no Xbox Wire a regra do Cloud Gaming (limite de 15 h, planos por hora) e se o Xbox Cloud Gaming está disponível no Brasil. Só uma fonte lida até agora.","fontes":[{"nome":"Canaltech","url":"https://canaltech.com.br/games/xbox-one-vira-o-console-mais-barato-para-jogar-gta-6-mas-ha-um-grande-porem/"},{"nome":"Rockstar Games Newswire","url":"https://www.rockstargames.com/newswire"},{"nome":"Xbox Wire (a localizar)","url":"https://news.xbox.com/pt-br/"}],"imagens_oficiais":["https://www.rockstargames.com/newswire"],"post_relacionado":"xbox-series-fsr-4-1-gta-6-o-que-muda","produto":{"id":"","como_encaixa":"Editorial puro."},"nota":5,"status":"nova"},
-{"data":"2026-11-11","assunto":"Motorola Signature 27 chega ao Brasil por R$ 10.999 com a 2ª melhor câmera do ranking DXOMark","por_que_em_alta":"Tecnoblog (05/11) e Baguete: pré-venda no site da Motorola, 256 GB a partir de R$ 10.999 e 512 GB a R$ 11.999; DXOMark 173 pontos, atrás do Huawei Pura 80 Ultra (175); Snapdragon 8 Elite Extreme Gen 6, bateria de 7.000 mAh, 90 W. Celular de R$ 11 mil gera comparação com iPhone e Galaxy.","evidencias":["https://tecnoblog.net/noticias/celular-com-a-2a-melhor-camera-do-mundo-chega-ao-brasil/","https://www.baguete.com.br/noticias/motorola-quer-concorrer-no-mercado-premium"],"angulo":"Gancho: um celular de R$ 10.999 com a segunda melhor câmera do mundo segundo o DXOMark, de uma marca que muita gente associa a celular barato. O que a nota significa, o que vem na caixa (carregador de 90 W) e para quem não faz sentido gastar isso.","formato":"noticia","tipo":"short","quadro":"60s","verificar_antes":"Abrir a página oficial da Motorola Brasil e o ranking DXOMark para confirmar preço, nota e posição; preços de operadora dependem de plano: omitir. Falar 'preço de pré-venda em 05/11'.","fontes":[{"nome":"Tecnoblog","url":"https://tecnoblog.net/noticias/celular-com-a-2a-melhor-camera-do-mundo-chega-ao-brasil/"},{"nome":"Baguete","url":"https://www.baguete.com.br/noticias/motorola-quer-concorrer-no-mercado-premium"},{"nome":"DXOMark (a conferir)","url":"https://www.dxomark.com/smartphones/"}],"imagens_oficiais":["https://www.motorola.com.br/"],"post_relacionado":"","produto":{"id":"","como_encaixa":"Editorial; curador pode avaliar se há Motorola no catálogo."},"nota":4,"status":"nova"},
-{"data":"2026-11-11","assunto":"Claude vai marcar textos gerados por IA com marca d'água invisível: o que isso prova e o que não prova","por_que_em_alta":"Tecnoblog, Canaltech, TecMundo, Fast Company Brasil, Times Brasil e Alura cobrem; a Anthropic tem página de ajuda oficial. A própria empresa diz que a marca não prova autoria. Tema forte para estudantes e criadores de conteúdo.","evidencias":["https://tecnoblog.net/noticias/anthropic-vai-identificar-textos-e-imagens-gerados-pelo-claude/","https://canaltech.com.br/inteligencia-artificial/marca-dagua-do-claude-ajuda-na-transparencia-mas-nao-prova-autoria-de-textos","https://support.claude.com/pt/articles/16266773-como-claude-marca-conteudo-gerado-por-ia"],"angulo":"Gancho: seu texto feito com IA pode carregar uma assinatura invisível. Como funciona, o que a empresa admite (edição, tradução e texto curto apagam a marca; ausência não prova que não é IA) e por que não serve de prova contra aluno ou funcionário. Liga ao tema da foto verificada do iPhone.","formato":"explicador","tipo":"short","quadro":"60s","verificar_antes":"Ler a página de ajuda oficial e confirmar escopo (modelos lançados na UE a partir de 02/08/2026 e anteriores), se o detector é público e o que vale para imagens (C2PA). Não achei data exata do anúncio: confirmar que é novidade desta semana.","fontes":[{"nome":"Tecnoblog","url":"https://tecnoblog.net/noticias/anthropic-vai-identificar-textos-e-imagens-gerados-pelo-claude/"},{"nome":"Canaltech","url":"https://canaltech.com.br/inteligencia-artificial/marca-dagua-do-claude-ajuda-na-transparencia-mas-nao-prova-autoria-de-textos"},{"nome":"Claude Help Center","url":"https://support.claude.com/pt/articles/16266773-como-claude-marca-conteudo-gerado-por-ia"}],"imagens_oficiais":[],"post_relacionado":"","produto":{"id":"","como_encaixa":"Editorial puro."},"nota":4,"status":"nova"},
-{"data":"2026-11-11","assunto":"Celulares de 12.000 mAh: Vivo e Oppo preparam baterias quase do tamanho de um power bank","por_que_em_alta":"Canaltech (10/11): leaker Digital Chat Station cita bateria de 11.970 mAh da Vivo/Jovi em produção em massa; Oppo PNC110 aparece no CMIIT com 11.460 a 11.640 mAh; GizChina como origem. Nada confirmado oficialmente.","evidencias":["https://canaltech.com.br/smartphone/12000-mah-dois-celulares-com-bateria-absurda-estao-prestes-a-chegar-ao-mercado/","https://canaltech.com.br/smartphone/xiaomi-prepara-top-barato-com-bateria-absurda-de-10000-mah/"],"angulo":"Reforça a pauta de 10.000 mAh de 05/11: juntar as duas num só Lá Fora, Aqui com a pergunta 'por que a bateria do celular vendido aqui é menor?' (Redmi Note 17 Pro Max: 9.210 mAh no Brasil). Tratar tudo como vazamento.","formato":"explicador","tipo":"longo","quadro":"lafora","origem":"gringo","criterios_gringo":"1 sim (Gizmochina, Canaltech, Digital Chat Station); 2 sim; 3 fraco (Canaltech cobre); 4 sim (power bank). Reserva da pauta de 05/11.","verificar_antes":"Tudo é vazamento: esperar fonte oficial ou segunda fonte de fora (GSMArena/Gizmochina).","fontes":[{"nome":"Canaltech (12.000 mAh)","url":"https://canaltech.com.br/smartphone/12000-mah-dois-celulares-com-bateria-absurda-estao-prestes-a-chegar-ao-mercado/"},{"nome":"Canaltech (Xiaomi 10.000 mAh)","url":"https://canaltech.com.br/smartphone/xiaomi-prepara-top-barato-com-bateria-absurda-de-10000-mah/"}],"imagens_oficiais":[],"post_relacionado":"como-escolher-power-bank","produto":{"id":"","como_encaixa":"Power bank como alternativa, conferir ativo=sim no CSV."},"nota":3,"status":"nova"},
-{"data":"2026-11-11","assunto":"Como usar o celular como webcam no OBS (Android e iPhone, sem pagar)","quadro":"tutorial","tipo":"tutorial","palavra_chave":"como usar o celular como webcam no obs","por_que_em_alta":"Dúvida com busca constante e concorrência baixa","evidencias":["vidIQ 08/11: ~15 mil buscas/mês, concorrência 29, nota 66"],"angulo":"Resultado primeiro: o celular vira câmera do PC em minutos. Caminhos oficiais (OBS Studio, webcam nativa, Continuity Camera no Mac) e problemas comuns de latência e cabo. Conferir os passos nas páginas oficiais e gravar a tela delas.","formato":"tutorial","fontes":[{"nome":"OBS Project","url":"https://obsproject.com/"}],"status":"nova","nota":4,"origem":"vidiq"},
-{"data":"2026-11-11","assunto":"Como colocar película no celular sem bolha (passo a passo)","quadro":"tutorial","tipo":"tutorial","palavra_chave":"como colocar pelicula no celular","por_que_em_alta":"Busca estável e evergreen; combina com a Black Friday (acessório comprado junto com o celular)","evidencias":["vidIQ 08/11: ~22 mil buscas/mês, concorrência 37, nota 64 (crescimento -46%: demanda estável, não em alta)"],"angulo":"Resultado: película sem bolha em 5 minutos. Limpeza, alinhamento, o que fazer com bolha e poeira.","formato":"tutorial","fontes":[],"status":"nova","nota":3,"origem":"vidiq","verificar_antes":"Achar página oficial de ajuda para mostrar o passo a passo; sem isso, descartar."},
+ "atualizado": "2026-11-13",
+ "tendencias": [
+  {
+   "data": "2026-11-13",
+   "assunto": "Pré-venda de GTA 6 passa de US$ 1 bilhão: 10,3 milhões de cópias, 75% da receita no PS5",
+   "por_que_em_alta": "Canaltech (11/11), citando o Sales Tracker da Sensor Tower: mais de US$ 1 bi e 10,3 mi de cópias a 8 dias do lançamento (19/11); PS5 com 7,73 mi e Xbox com 2,58 mi. A Take-Two só diz que as pré-vendas são 'sem precedentes'. GTA 6 é o assunto de maior volume do mês. Não está no Google Trends BR de hoje (10 itens sem tecnologia).",
+   "evidencias": [
+    "https://canaltech.com.br/games/pre-venda-de-gta-6-supera-us-1-bilhao-veja-numeros-no-ps5-e-xbox/"
+   ],
+   "angulo": "Gancho: o GTA 6 já faturou US$ 1 bilhão antes de existir. Barras: GTA 5 levou 3 dias após o lançamento (2013) para chegar ao mesmo marco. PS5 com 75% da receita. Deixar claro que são estimativas da Sensor Tower, não números da Take-Two. Comentário Nexus: o bilhão veio só de reserva.",
+   "formato": "noticia",
+   "tipo": "short",
+   "quadro": "60s",
+   "verificar_antes": "Número é estimativa de terceiro (Sensor Tower): dizer na tela. Conferir no painel da Sensor Tower e no relatório da Take-Two. Pré-venda pode ser cancelada.",
+   "fontes": [
     {
-      "data": "2026-11-10",
-      "assunto": "Magalu faz queima do Galaxy S25 Ultra antes da Black Friday: R$ 4.498,80 no Pix com cupom",
-      "por_que_em_alta": "Canaltech (09/11, 17h19): Galaxy S25 Ultra 256 GB/12 GB a R$ 4.498,80 no Pix com o cupom INFLU300, contra R$ 11.999 no lançamento. Celular top com queda forte é busca certa na semana do 11.11. Não está no Google Trends BR de hoje (sem tema de tecnologia nos 10 primeiros).",
-      "evidencias": [
-        "https://canaltech.com.br/smartphone/magalu-faz-queima-de-galaxy-s25-ultra-antes-da-black-friday/"
-      ],
-      "angulo": "Gancho: o celular de R$ 11.999 caiu para R$ 4.498 em menos de dois anos. Por que o top de linha desvaloriza tanto, quando vale comprar o modelo do ano passado e a ressalva: cupom e Pix, preço muda sem aviso.",
-      "formato": "noticia",
-      "tipo": "short",
-      "quadro": "60s",
-      "verificar_antes": "OFERTA COM PRAZO: abrir a página do Magalu e conferir preço, cupom e estoque na hora de gravar; falar 'preço visto em 09/11'. Confirmar o preço de lançamento (R$ 11.999) em uma segunda fonte. Sem link de afiliado do Magalu; se o S25 Ultra estiver no catálogo (ML), o curador avalia. Sem valor de comissão em lugar nenhum.",
-      "fontes": [
-        {"nome": "Canaltech", "url": "https://canaltech.com.br/smartphone/magalu-faz-queima-de-galaxy-s25-ultra-antes-da-black-friday/"},
-        {"nome": "Magazine Luiza (página da oferta, a conferir)", "url": "https://www.magazineluiza.com.br/"}
-      ],
-      "imagens_oficiais": ["https://www.samsung.com/br/smartphones/galaxy-s25-ultra/"],
-      "post_relacionado": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
-      "produto": {"id": "", "como_encaixa": "Conferir no CSV se há celular Samsung ativo=sim; senão editorial."},
-      "nota": 4,
-      "status": "nova"
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/games/pre-venda-de-gta-6-supera-us-1-bilhao-veja-numeros-no-ps5-e-xbox/"
     },
     {
-      "data": "2026-11-10",
-      "assunto": "Apple Reference Image: o modo do iPhone que prova que a foto não é de IA",
-      "por_que_em_alta": "Tecnoblog, Canaltech e Mundo Conectado em português; Nieman Lab, Cult of Mac, Notebookcheck e Techlicious lá fora (5+ fontes de fora). Tecnoblog segue destacando o tema hoje. Fontes divergem sobre o estágio (beta do iOS 27 ou iPhone 18 Pro) e dizem que a Apple não detalhou o Brasil.",
-      "evidencias": [
-        "https://tecnoblog.net/noticias/iphone-ganhara-modo-que-prova-que-foto-e-real-e-nao-foi-gerada-por-ia/",
-        "https://canaltech.com.br/smartphone/iphone-18-pro-ganha-recurso-para-provar-que-foto-nao-foi-criada-por-ia",
-        "https://www.niemanlab.org/2026/09/apple-launches-a-new-way-to-prove-a-photo-was-shot-with-an-iphone-not-generated-by-ai/",
-        "https://www.cultofmac.com/news/apple-reference-image"
-      ],
-      "angulo": "Gancho: num mundo de foto falsa com IA, o iPhone quer assinar a sua foto como verdadeira. Como funciona (dados do sensor + servidor da Apple, opcional nos Ajustes da câmera), o que NÃO prova, como difere do C2PA/Content Credentials (Leica, Sony, Nikon, Google) e se chega ao Brasil. Liga ao tema golpes com IA.",
-      "formato": "explicador",
-      "tipo": "longo",
-      "quadro": "lafora",
-      "origem": "gringo",
-      "criterios_gringo": "1 sim (Nieman Lab, Cult of Mac, Notebookcheck, Techlicious); 2 parcial (iPhone vende muito no BR, disponibilidade indefinida); 3 parcial (Tecnoblog e Canaltech cobriram em texto, vídeo em PT quase nada: buscar no YouTube BR antes); 4 sim (posts de iPhone e golpes)",
-      "verificar_antes": "Abrir o anúncio/página de suporte oficial da Apple: em que versão (iOS 27? iPhone 18 Pro?), quais mercados e se vale para o Brasil. Não afirmar disponibilidade aqui sem fonte.",
-      "fontes": [
-        {"nome": "Tecnoblog", "url": "https://tecnoblog.net/noticias/iphone-ganhara-modo-que-prova-que-foto-e-real-e-nao-foi-gerada-por-ia/"},
-        {"nome": "Canaltech", "url": "https://canaltech.com.br/smartphone/iphone-18-pro-ganha-recurso-para-provar-que-foto-nao-foi-criada-por-ia"},
-        {"nome": "Nieman Lab", "url": "https://www.niemanlab.org/2026/09/apple-launches-a-new-way-to-prove-a-photo-was-shot-with-an-iphone-not-generated-by-ai/"},
-        {"nome": "Cult of Mac", "url": "https://www.cultofmac.com/news/apple-reference-image"}
-      ],
-      "imagens_oficiais": ["https://www.apple.com/br/newsroom/"],
-      "post_relacionado": "iphone-duo-vale-a-pena-dobravel",
-      "produto": {"id": "", "como_encaixa": "Editorial puro."},
-      "nota": 4,
-      "status": "nova"
-    },
-    {
-      "data": "2026-11-10",
-      "assunto": "Sony acaba com a mídia física: Kojima chama de 'muito triste' e petição passa de 165 mil assinaturas",
-      "por_que_em_alta": "Tecnoblog (marcado como 'hoje' na página inicial), Critical Hits, TecMundo e Rolling Stone Brasil; Insider Gaming e Notebookcheck lá fora. A CFO da Sony reconheceu as críticas e manteve o plano. Tema forte na semana do GTA 6 (a mídia física é o assunto do pré-download de 212 GB).",
-      "evidencias": [
-        "https://tecnoblog.net/noticias/hideo-kojima-critica-fim-da-midia-fisica-no-playstation/",
-        "https://tecnoblog.net/noticias/sony-reconhece-criticas-mas-mantem-fim-da-midia-fisica/",
-        "https://criticalhits.com.br/games/hideo-kojima-se-posiciona-contra-o-fim-dos-jogos-fisicos-da-sony/",
-        "https://insider-gaming.com/hideo-kojima-says-the-end-of-physical-games-is-frightening/"
-      ],
-      "angulo": "Gancho: a Sony vai parar de fazer jogos em disco e até o criador de Metal Gear acha triste. O que muda para quem compra jogo no Brasil (revenda, empréstimo, preço, acesso offline) e o que a Sony disse. Sem opinião sobre a empresa além do que as fontes sustentam.",
-      "formato": "explicador",
-      "tipo": "short",
-      "quadro": "60s",
-      "verificar_antes": "BLOQUEANTE para números: a data do fim da mídia física (um resumo de busca diz 'a partir de janeiro de 2028') e as 165 mil assinaturas (Rolling Stone) precisam ser confirmadas no comunicado da Sony/PlayStation Blog e em 2 fontes. Confirmar o escopo (só jogos novos? só PS6?). Se não confirmar, descartar.",
-      "fontes": [
-        {"nome": "Tecnoblog (Kojima)", "url": "https://tecnoblog.net/noticias/hideo-kojima-critica-fim-da-midia-fisica-no-playstation/"},
-        {"nome": "Tecnoblog (Sony mantém)", "url": "https://tecnoblog.net/noticias/sony-reconhece-criticas-mas-mantem-fim-da-midia-fisica/"},
-        {"nome": "Critical Hits", "url": "https://criticalhits.com.br/games/hideo-kojima-se-posiciona-contra-o-fim-dos-jogos-fisicos-da-sony/"},
-        {"nome": "PlayStation Blog (a localizar)", "url": "https://blog.playstation.com"}
-      ],
-      "imagens_oficiais": ["https://www.playstation.com/pt-br/"],
-      "post_relacionado": "xbox-series-fsr-4-1-gta-6-o-que-muda",
-      "produto": {"id": "", "como_encaixa": "Editorial puro."},
-      "nota": 3,
-      "status": "nova"
-    },
-    {
-      "data": "2026-11-10",
-      "assunto": "Windows 11: Microsoft teria reajustado em 7% a 10% as licenças OEM, e PC fica mais caro",
-      "por_que_em_alta": "Tecnoblog (destaque 'hoje' na página), Hardware.com.br, Canaltech (PCs já repassaram o aumento); TechRadar, Notebookcheck e Windows Latest lá fora. A fonte original é o United Daily News (Taiwan) e a Microsoft não comentou; matérias de agosto voltam à home. Liga à pauta de memória cara (03/11).",
-      "evidencias": [
-        "https://tecnoblog.net/noticias/microsoft-teria-aumentado-preco-do-windows-11-oem-deixando-pcs-mais-caros/",
-        "https://www.hardware.com.br/noticias/pcs-windows-mais-caros-licencas-microsoft/amp/",
-        "https://canaltech.com.br/hardware/pcs-ficaram-ainda-mais-caros-por-conta-do-aumento-da-licenca-do-windows/",
-        "https://www.techradar.com/computing/windows/microsoft-reportedly-pours-fuel-on-pc-pricing-flames-as-it-implements-a-significant-increase-for-windows-11-licenses"
-      ],
-      "angulo": "Gancho: além da memória, agora o Windows também pesa no preço do PC. Tratar como relato, não como fato oficial. Licença avulsa não mudou (US$ 99 Home / US$ 199 Pro). Dica final: ver máquinas sem Windows ou usar a licença que já se tem.",
-      "formato": "explicador",
-      "tipo": "short",
-      "quadro": "60s",
-      "verificar_antes": "É REPORTAGEM DE AGOSTO que voltou à home: confirmar se há fato novo hoje. Sem isso, nota baixa e reserva. Dizer sempre 'segundo o United Daily News' e que a Microsoft não confirmou.",
-      "fontes": [
-        {"nome": "Tecnoblog", "url": "https://tecnoblog.net/noticias/microsoft-teria-aumentado-preco-do-windows-11-oem-deixando-pcs-mais-caros/"},
-        {"nome": "Hardware.com.br", "url": "https://www.hardware.com.br/noticias/pcs-windows-mais-caros-licencas-microsoft/amp/"},
-        {"nome": "TechRadar", "url": "https://www.techradar.com/computing/windows/microsoft-reportedly-pours-fuel-on-pc-pricing-flames-as-it-implements-a-significant-increase-for-windows-11-licenses"}
-      ],
-      "imagens_oficiais": [],
-      "post_relacionado": "",
-      "produto": {"id": "", "como_encaixa": "Editorial puro."},
-      "nota": 3,
-      "status": "nova"
-    },
-    {
-      "data": "2026-11-10",
-      "assunto": "Como desbloquear o celular quando esquece a senha (sem perder tudo)",
-      "quadro": "tutorial",
-      "tipo": "tutorial",
-      "palavra_chave": "como desbloquear o celular quando esquece a senha",
-      "por_que_em_alta": "Dúvida com busca constante no YouTube (não envelhece)",
-      "evidencias": [
-        "vidIQ 08/11: ~15,5 mil buscas/mês, concorrência 26, nota 67"
-      ],
-      "angulo": "Os caminhos oficiais por sistema: Encontre Meu Dispositivo do Google, SmartThings Find da Samsung e Apple (modo de recuperação/Buscar), com aviso do que é apagado e do bloqueio de fábrica. Conferir os passos nas páginas de ajuda oficiais e gravar a tela delas.",
-      "formato": "tutorial",
-      "fontes": [],
-      "status": "nova",
-      "nota": 5,
-      "origem": "vidiq"
-    },
-    {
-      "data": "2026-11-09",
-      "assunto": "11.11 e Black Friday antecipada: Mercado Livre, Shopee e Magalu liberam cupons dias antes de 27/11",
-      "por_que_em_alta": "Gazeta SP e Diário do Pará (nos resultados de busca de hoje): Shopee, Mercado Livre e Magalu adiantam a Black Friday para o dia 11, com R$ 125 milhões em cupons; Meio & Mensagem e Tecnoblog (Black November, cupons de até 15% em celular, relógio e tablet). Black Friday oficial em 27/11. Não consegui abrir a Gazeta SP (403): confirmar os números em outra fonte.",
-      "evidencias": [
-        "https://www.gazetasp.com.br/economia/shopee-mercado-livre-e-magalu-adiantam-black-friday-de-27-de-novembro-para-o-dia-11-com-r-125-milhoes-em-cupons/",
-        "https://www.meioemensagem.com.br/marketing/mercado-livre-explorara-cupons-para-11-11-e-black-friday",
-        "https://tecnoblog.net/achados/cupons-black-friday-2026-mercado-livre/"
-      ],
-      "angulo": "Gancho: a Black Friday começou 16 dias antes. Como saber se o desconto é real (histórico de preço dos últimos 60 dias, selo do Mercado Livre) e as 3 regras para não cair em preço inflado. Complementa o vídeo de golpes de 03/11 sem repetir: aqui o assunto é preço falso, não site falso.",
-      "formato": "guia",
-      "tipo": "short",
-      "quadro": "60s",
-      "verificar_antes": "Abrir a página oficial de cupons/ofertas do Mercado Livre e a regra do selo Black Friday (menor preço em 60 dias, vinda do Meio & Mensagem) e confirmar os R$ 125 milhões em uma segunda fonte. Publicar até 11/11. Sem valor de comissão em nenhum lugar.",
-      "fontes": [
-        {"nome": "Gazeta SP", "url": "https://www.gazetasp.com.br/economia/shopee-mercado-livre-e-magalu-adiantam-black-friday-de-27-de-novembro-para-o-dia-11-com-r-125-milhoes-em-cupons/"},
-        {"nome": "Meio & Mensagem", "url": "https://www.meioemensagem.com.br/marketing/mercado-livre-explorara-cupons-para-11-11-e-black-friday"},
-        {"nome": "Tecnoblog (cupons Black November)", "url": "https://tecnoblog.net/achados/cupons-black-friday-2026-mercado-livre/"}
-      ],
-      "imagens_oficiais": [],
-      "post_relacionado": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
-      "produto": {"id": "", "como_encaixa": "Sem produto no vídeo; o post liga ao guia de compras."},
-      "nota": 4,
-      "status": "em_video"
-    },
-    {
-      "data": "2026-11-09",
-      "assunto": "Histórias Tech: Tamagotchi, 30 anos do bichinho virtual que esgotou em 48 horas",
-      "por_que_em_alta": "Data redonda: lançado no Japão pela Bandai em 23/11/1996; 30 anos em duas semanas. Xataka Brasil (set/2025) fala em 100 milhões de unidades; Bandai também marcou o 30º ano. Nostalgia millennial forte no Brasil.",
-      "evidencias": [
-        "https://www.xataka.com.br/diversos/100-milhoes-tamagotchis-em-30-anos-motivo-pelo-qual-eles-continuam-vendendo-tem-um-nome-nostalgia-millennial",
-        "https://istoedinheiro.com.br/tamagotchi-nostalgia-mercado"
-      ],
-      "angulo": "Gancho: um ovo de plástico com 3 botões esgotou em 48 horas e vendeu mais de 100 milhões. Auge (1996-97, criado por Aki Maita), virada (modinha que sumiu das lojas e voltou como nostalgia/Wi-Fi), lição: produto simples que cria vínculo emocional sobrevive a qualquer moda. Fecha com pergunta: qual foi o seu e quantas vezes morreu?",
-      "formato": "curiosidade",
-      "tipo": "short",
-      "quadro": "historias",
-      "verificar_antes": "Data 23/11/1996 aparece em resumo de busca, não na Xataka: confirmar em 2 fontes (Bandai oficial e outra). 'Esgotou em 48 horas' e 'cerca de 30 países em poucos meses' vieram de um resultado de busca. Vendas: 91 mi (reportagem BR, 2023) x 98,1 mi x 100 mi (Bandai, jul/2025): usar só o número oficial da Bandai com a data. Publicar de 21 a 23/11.",
-      "fontes": [
-        {"nome": "Xataka Brasil", "url": "https://www.xataka.com.br/diversos/100-milhoes-tamagotchis-em-30-anos-motivo-pelo-qual-eles-continuam-vendendo-tem-um-nome-nostalgia-millennial"},
-        {"nome": "IstoÉ Dinheiro", "url": "https://istoedinheiro.com.br/tamagotchi-nostalgia-mercado"},
-        {"nome": "Bandai Namco (comunicado)", "url": "https://www.bandainamco.co.jp/"}
-      ],
-      "imagens_oficiais": ["https://tamagotchi-official.com/"],
-      "post_relacionado": "",
-      "produto": {"id": "", "como_encaixa": "Sem produto."},
-      "nota": 4,
-      "status": "nova"
-    },
-    {
-      "data": "2026-11-09",
-      "assunto": "GTA 6: o pré-carregamento abre hoje à noite (Xbox 21h) e à 0h de terça (PS5), 212 GB",
-      "por_que_em_alta": "Fontes de hoje (Fast Company Brasil, Diário de Pernambuco, PlayNews, Canaltech) convergem: Xbox 21h de 09/11 e PS5 0h de 10/11, horário de Brasília; só o Overdrive ainda cita 12/11. Lançamento em 19/11. Nosso Short de 06/11 tratou do conflito de datas; este é o 'chegou a hora'.",
-      "evidencias": [
-        "https://fastcompanybrasil.com/games/gta-6-tem-data-pre-download-veja-quando-baixar-ps5-xbox/",
-        "https://www.diariodepernambuco.com.br/tecnologia/2026/11/11728271-gta-6-pre-carregamento-comeca-em-10-de-novembro-e-exige-ate-212-gb-de-espaco.html",
-        "https://canaltech.com.br/games/rockstar-prepara-pre-carregamento-e-brindes-para-lancamento-de-gta-6/"
-      ],
-      "angulo": "Gancho: o download do GTA 6 libera hoje às 21h no Xbox e à meia-noite no PS5. Só para quem comprou digital; 212 GB; o pré-load não antecipa o jogo (19/11). Risco de repetir o vídeo de 06/11: abrir com a ação (checar espaço agora) e não com a divergência de datas.",
-      "formato": "alerta",
-      "tipo": "short",
-      "quadro": "60s",
-      "verificar_antes": "OBRIGATÓRIO conferir no Rockstar Newswire/suporte a data oficial por plataforma antes do roteiro. Se a Rockstar confirmar, publicar hoje ou amanhã às 12h; passado de 10/11, já perde o gancho.",
-      "fontes": [
-        {"nome": "Fast Company Brasil", "url": "https://fastcompanybrasil.com/games/gta-6-tem-data-pre-download-veja-quando-baixar-ps5-xbox/"},
-        {"nome": "Canaltech", "url": "https://canaltech.com.br/games/rockstar-prepara-pre-carregamento-e-brindes-para-lancamento-de-gta-6/"},
-        {"nome": "Rockstar Games Newswire", "url": "https://www.rockstargames.com/newswire"}
-      ],
-      "imagens_oficiais": ["https://www.rockstargames.com/newswire"],
-      "post_relacionado": "gta-6-pre-carregamento-horario-ps5-xbox-212-gb",
-      "produto": {"id": "", "como_encaixa": "Editorial puro."},
-      "nota": 4,
-      "status": "nova"
-    },
-    {
-      "data": "2026-11-07",
-      "assunto": "Histórias Tech: Xbox, os 25 anos do console que a Microsoft lançou para enfrentar a Sony",
-      "por_que_em_alta": "Data redonda: Xbox lançado em 15/11/2001 na América do Norte; Hardware.com.br e Phil Spencer abriram as comemorações dos 25 anos. Combina com a semana de GTA 6.",
-      "evidencias": [
-        "https://www.history.com/this-day-in-history/november-15/microsoft-releases-xbox-gaming-console",
-        "https://www.hardware.com.br/artigos/xbox-anuncio-bill-gates-the-rock-ces-2001-25-anos/amp/"
-      ],
-      "angulo": "Gancho: a Microsoft entrou num mercado dominado por japoneses com um console de US$ 299,99, e cerca de 25% das primeiras unidades tinham defeito no drive de DVD. Virada: Halo, Xbox Live (15/11/2002) e a briga com o PS2 (cerca de 24 milhões contra 150 milhões). Lição: perder a geração, mas construir a plataforma.",
-      "formato": "curiosidade",
-      "tipo": "short",
-      "quadro": "historias",
-      "verificar_antes": "Publicar de 13 a 15/11 para pegar a data. Preço US$ 299,99, 24 mi contra 150 mi e o defeito de 25% vieram de um resumo de busca: confirmar cada um em 2 fontes antes do roteiro.",
-      "fontes": [
-        {"nome": "History.com (15/11/2001)", "url": "https://www.history.com/this-day-in-history/november-15/microsoft-releases-xbox-gaming-console"},
-        {"nome": "Hardware.com.br", "url": "https://www.hardware.com.br/artigos/xbox-anuncio-bill-gates-the-rock-ces-2001-25-anos/amp/"},
-        {"nome": "The National", "url": "https://www.thenationalnews.com/arts-culture/2026/08/16/xbox-at-25-how-microsoft-muscled-its-way-into-console-gaming-and-changed-the-industry/"}
-      ],
-      "imagens_oficiais": ["https://news.xbox.com/pt-br/2021/05/13/comemorando-20-anos-de-xbox/amp/"],
-      "post_relacionado": "",
-      "produto": {"id": "", "como_encaixa": "Sem produto."},
-      "nota": 4,
-      "status": "nova"
-    },
-    {
-      "data": "2026-11-07",
-      "assunto": "Histórias Tech: Wii, 20 anos do console que apostou no movimento e passou PS3 e Xbox 360",
-      "por_que_em_alta": "Data redonda: Wii lançado em 19/11/2006 na América do Norte; Gazeta SP e Hardware.com.br fazem a retrospectiva dos 20 anos. Nostalgia forte e ligação com o Switch 2.",
-      "evidencias": [
-        "https://www.gazetasp.com.br/entretenimento/nintendo-wii-completa-20-anos-e-resgata-nostalgia-de-uma-epoca-em-que-videogame-tirou-familias-do-sofa-para-jogar-juntas-na-sala-de-casa/",
-        "https://www.hardware.com.br/artigos/nintendo-wii/amp/"
-      ],
-      "angulo": "Gancho: o console menos potente da geração foi o mais vendido. Auge: controle de movimento e 80 milhões de consoles em 4 anos (Hardware.com.br). Virada: o público casual foi embora e o Wii U falhou. Lição: inovar em como se joga, não em gráfico.",
-      "formato": "curiosidade",
-      "tipo": "short",
-      "quadro": "historias",
-      "verificar_antes": "Datas divergem: 19/11/2006 (América do Norte) e 02/12/2006 (Japão, Wikipedia). O total de cerca de 101 milhões vem só da Wikipedia (dado de 2019): achar o número oficial no relatório da Nintendo. Publicar perto de 19/11.",
-      "fontes": [
-        {"nome": "Gazeta SP", "url": "https://www.gazetasp.com.br/entretenimento/nintendo-wii-completa-20-anos-e-resgata-nostalgia-de-uma-epoca-em-que-videogame-tirou-familias-do-sofa-para-jogar-juntas-na-sala-de-casa/"},
-        {"nome": "Hardware.com.br", "url": "https://www.hardware.com.br/artigos/nintendo-wii/amp/"},
-        {"nome": "Nintendo (relatório de vendas, a localizar)", "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/"}
-      ],
-      "imagens_oficiais": ["https://www.nintendo.com/br/"],
-      "post_relacionado": "",
-      "produto": {"id": "", "como_encaixa": "Sem produto."},
-      "nota": 4,
-      "status": "nova"
-    },
-    {
-      "data": "2026-11-07",
-      "assunto": "Histórias Tech: PlayStation 3, 20 anos do console caro demais que quase derrubou a Sony",
-      "por_que_em_alta": "Data redonda: PS3 lançado em 11/11/2006 no Japão e 17/11/2006 na América do Norte (página oficial PlayStation Brasil); 87 milhões vendidos segundo o PlayStation. A Sony também está no debate do fim da mídia física.",
-      "evidencias": [
-        "https://www.playstation.com/pt-br/playstation-history/2007-ps3-ps-vita/",
-        "https://www.hardware.com.br/?p=285317"
-      ],
-      "angulo": "Gancho: o ex-chefe do PlayStation admitiu que a Sony ficou contente de ter sobrevivido à geração do PS3 (Hardware.com.br). Virada: preço alto, Cell e Blu-ray contra o Xbox 360. Lição: a recuperação vem de ouvir o público.",
-      "formato": "curiosidade",
-      "tipo": "short",
-      "quadro": "historias",
-      "verificar_antes": "Preço de lançamento não confirmado: achar em 2 fontes ou omitir. A versão PT-PT da página oficial cita 2007; tratar o ano com cuidado e usar a página do Brasil.",
-      "fontes": [
-        {"nome": "PlayStation Brasil (história)", "url": "https://www.playstation.com/pt-br/playstation-history/2007-ps3-ps-vita/"},
-        {"nome": "Hardware.com.br", "url": "https://www.hardware.com.br/?p=285317"}
-      ],
-      "imagens_oficiais": ["https://www.playstation.com/pt-br/playstation-history/2007-ps3-ps-vita/"],
-      "post_relacionado": "",
-      "produto": {"id": "", "como_encaixa": "Sem produto."},
-      "nota": 3,
-      "status": "nova"
-    },
-    {
-      "data": "2026-11-07",
-      "assunto": "Anatel: operadoras passam a bloquear ligações abusivas a partir de 12/11",
-      "por_que_em_alta": "Teletime (19/10): Despacho Decisório nº 100/2026 da Anatel vale a partir de 12/11; Tecnoblog, Canaltech e TNH1 cobrem. Interessa a todo mundo que recebe ligação de golpe.",
-      "evidencias": [
-        "https://teletime.com.br/19/10/2026/operadoras-bloqueio-chamadas-abusivas/",
-        "https://tecnoblog.net/noticias/anatel-define-regras-para-operadoras-bloquearem-chamadas-de-spam/",
-        "https://canaltech.com.br/telecom/fim-das-ligacoes-indesejadas-anatel-cria-regras-padronizadas-para-filtros-de-spam/"
-      ],
-      "angulo": "Gancho: a partir de quinta (12/11) a operadora pode derrubar a ligação de golpe antes de tocar. O que muda, o que não pode ser bloqueado (órgãos públicos, Defesa Civil, urgência médica) e o que fazer se uma ligação legítima cair.",
-      "formato": "alerta",
-      "tipo": "short",
-      "quadro": "60s",
-      "verificar_antes": "Abrir o despacho nº 100/2026 no site da Anatel: o prazo de 15 dias após 12/11 aparece em uma só fonte e pode ser de norma antiga. Publicar até 11/11.",
-      "fontes": [
-        {"nome": "Teletime", "url": "https://teletime.com.br/19/10/2026/operadoras-bloqueio-chamadas-abusivas/"},
-        {"nome": "Tecnoblog", "url": "https://tecnoblog.net/noticias/anatel-define-regras-para-operadoras-bloquearem-chamadas-de-spam/"},
-        {"nome": "Canaltech", "url": "https://canaltech.com.br/telecom/fim-das-ligacoes-indesejadas-anatel-cria-regras-padronizadas-para-filtros-de-spam/"},
-        {"nome": "Anatel", "url": "https://www.gov.br/anatel/"}
-      ],
-      "imagens_oficiais": [],
-      "post_relacionado": "",
-      "produto": {"id": "", "como_encaixa": "Editorial puro."},
-      "nota": 4,
-      "status": "em_video"
-    },
-    {
-      "data": "2026-11-07",
-      "assunto": "Xiaomi 18 Pro e Pro Max: preços vazados na Europa com aumento forte, global em novembro",
-      "por_que_em_alta": "GSMArena e Tech Advisor: Pro perto de EUR 1.449 e Pro Max EUR 1.849 (vazamento), no nível do iPhone 18 Pro Max na Europa; GaGadget: global em novembro com baterias menores; Xiaomi confirmou o global em 02/11.",
-      "evidencias": [
-        "https://www.gsmarena.com/xiaomi_18_pro_and_xiaomi_18_pro_max_european_prices_leak-news-75114.php",
-        "https://www.techadvisor.com/article/3264492/xiaomi-18-pro-and-pro-max-european-prices-leak-with-major-hikes.html",
-        "https://gagadget.com/en/732552-xiaomi-18-pro-goes-global-in-november-with-smaller-batteries/"
-      ],
-      "angulo": "Gancho: o top da Xiaomi custa o mesmo que um iPhone Pro Max na Europa. A memória cara explica? Chega ao Brasil? Estimar em reais com a cotação do dia, avisando que o preço é vazamento.",
-      "formato": "comparativo",
-      "tipo": "longo",
-      "quadro": "lafora",
-      "origem": "gringo",
-      "criterios_gringo": "1 sim (GSMArena, Tech Advisor, GaGadget); 2 sim (Xiaomi vende no BR, tema preço); 3 parcial (Canaltech cobriu a confirmação do global, não o preço); 4 sim (posts de celular e memória)",
-      "verificar_antes": "Preços são vazamento, não oficiais. Esperar o lançamento global para o vídeo longo; até lá, reserva.",
-      "fontes": [
-        {"nome": "GSMArena", "url": "https://www.gsmarena.com/xiaomi_18_pro_and_xiaomi_18_pro_max_european_prices_leak-news-75114.php"},
-        {"nome": "Tech Advisor", "url": "https://www.techadvisor.com/article/3264492/xiaomi-18-pro-and-pro-max-european-prices-leak-with-major-hikes.html"},
-        {"nome": "Canaltech (confirmação do global)", "url": "https://canaltech.com.br/produtos/xiaomi-confirma-18-pro-global-para-novembro-smartwatch-e-fones-sao-esperados/"}
-      ],
-      "imagens_oficiais": ["https://www.mi.com/br/"],
-      "post_relacionado": "",
-      "produto": {"id": "", "como_encaixa": "Editorial puro."},
-      "nota": 3,
-      "status": "nova"
-    },
-    {
-      "data": "2026-11-06",
-      "assunto": "GTA 6: três datas diferentes de pré-carregamento e pré-venda no Brasil",
-      "por_que_em_alta": "GTA 6 sai em 19/11 (meia-noite de Brasília, PS5 e Xbox); Canaltech, Omelete e Overdrive cobrem o pré-load, mas as fontes divergem: 10/11 (PS5), 9/11 às 21h (Xbox) ou 12/11 (página de suporte da Rockstar, segundo o Overdrive). Tamanho de 212 GB sem confirmação oficial clara.",
-      "evidencias": [
-        "https://www.omelete.com.br/games/gta-6-rockstar-confirma-tamanho-jogo-pre-carregamento",
-        "https://gameoverdrive.com.br/gta-6-rockstar-confirma-horario-brasil-novo-pre-load/",
-        "https://canaltech.com.br/games/rockstar-prepara-pre-carregamento-e-brindes-para-lancamento-de-gta-6/"
-      ],
-      "angulo": "Gancho: GTA 6 tem 212 GB e as fontes não concordam sobre quando dá para baixar. Mostrar o que é oficial (Rockstar) e quando limpar espaço. Não repetir o vídeo de 03/11: foco no conflito de datas e em como conferir.",
-      "formato": "alerta",
-      "tipo": "short",
-      "quadro": "60s",
-      "verificar_antes": "OBRIGATÓRIO abrir o Rockstar Newswire/suporte e fixar a data oficial do pré-load por plataforma; a pré-venda (R$ 449,90 e R$ 549,90) veio de um resultado de busca, confirmar nas lojas PS/Xbox ou omitir.",
-      "fontes": [
-        {
-          "nome": "Omelete",
-          "url": "https://www.omelete.com.br/games/gta-6-rockstar-confirma-tamanho-jogo-pre-carregamento"
-        },
-        {
-          "nome": "Canaltech",
-          "url": "https://canaltech.com.br/games/rockstar-prepara-pre-carregamento-e-brindes-para-lancamento-de-gta-6/"
-        },
-        {
-          "nome": "Rockstar Games Newswire",
-          "url": "https://www.rockstargames.com/newswire"
-        }
-      ],
-      "imagens_oficiais": [
-        "https://www.rockstargames.com/newswire"
-      ],
-      "post_relacionado": "xbox-series-fsr-4-1-gta-6-o-que-muda",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Editorial puro."
-      },
-      "nota": 5,
-      "status": "nova"
-    },
-    {
-      "data": "2026-11-06",
-      "assunto": "Black Friday 27/11: o Selo Anatel e o carregador ou celular que pode ser irregular",
-      "por_que_em_alta": "Procon alerta sobre golpes e falsas promoções (Procon Piracicaba 03/11; Procon-SP); a Anatel orienta checar o selo em celulares e carregadores. Sazonal, a 3 semanas da Black Friday. A operação da Anatel com ML/Amazon que achei é de 2024.",
-      "evidencias": [
-        "https://www.band.com.br/nacional/sp/black-friday-procon-alerta-como-aproveitar-sem-cair-em-dividas-e-fraudes",
-        "https://tecnoblog.net/noticias/anatel-apreende-22-mil-produtos-irregulares-da-amazon-e-mercado-livre/"
-      ],
-      "angulo": "Gancho: o carregador barato da Black Friday pode ser ilegal e perigoso. Como conferir a homologação da Anatel em 30 segundos. Diferente do vídeo de golpes de 03/11 (sites clonados): aqui o assunto é o produto.",
-      "formato": "guia",
-      "tipo": "short",
-      "quadro": "60s",
-      "verificar_antes": "Achar a página oficial da Anatel sobre como conferir homologação e confirmar o passo a passo; a apreensão é de 2024, não tratar como atual.",
-      "fontes": [
-        {
-          "nome": "Band / Procon-SP",
-          "url": "https://www.band.com.br/nacional/sp/black-friday-procon-alerta-como-aproveitar-sem-cair-em-dividas-e-fraudes"
-        },
-        {
-          "nome": "Tecnoblog (operação da Anatel, 2024)",
-          "url": "https://tecnoblog.net/noticias/anatel-apreende-22-mil-produtos-irregulares-da-amazon-e-mercado-livre/"
-        },
-        {
-          "nome": "Anatel",
-          "url": "https://www.gov.br/anatel/"
-        }
-      ],
-      "imagens_oficiais": [],
-      "post_relacionado": "melhores-carregadores-turbo",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Ligar aos carregadores do catálogo (Baseus GaN5, Ugreen Nexode, Samsung 25 W) quando o guia sair; conferir ativo=sim."
-      },
-      "nota": 4,
-      "status": "nova"
-    },
-    {
-      "data": "2026-11-06",
-      "assunto": "Galaxy Z TriFold: o celular de 3 dobras que a Samsung começou a encerrar e nunca chegou ao Brasil",
-      "por_que_em_alta": "Tecnoblog: Samsung começa a encerrar as vendas (Bloomberg) e 2ª geração só em 2027 (rumor); lançado na Coreia em 12/12/2025 e a US$ 2.899 nos EUA; sem previsão no Brasil. O tema dobráveis está quente com o iPhone Duo.",
-      "evidencias": [
-        "https://tecnoblog.net/noticias/samsung-comeca-a-encerrar-vendas-do-galaxy-z-trifold/",
-        "https://tecnoblog.net/noticias/samsung-pode-lancar-nova-geracao-do-galaxy-trifold-em-2027/"
-      ],
-      "angulo": "Gancho: o celular que vira tablet custava US$ 2.899 e saiu de linha sem chegar aqui. Por que o dobrável triplo não vingou e o que comprar no lugar.",
-      "formato": "explicador",
-      "tipo": "longo",
-      "quadro": "lafora",
-      "origem": "gringo",
-      "criterios_gringo": "1 a confirmar (Bloomberg via Tecnoblog + outra fonte de fora); 2 parcial (não vende no BR, mas ancora o debate dos dobráveis); 3 sim; 4 sim (posts de dobráveis)",
-      "verificar_antes": "Confirmar data e fonte do fim das vendas e achar uma fonte de fora; converter preços com a cotação do dia, como estimativa.",
-      "fontes": [
-        {
-          "nome": "Tecnoblog (fim das vendas)",
-          "url": "https://tecnoblog.net/noticias/samsung-comeca-a-encerrar-vendas-do-galaxy-z-trifold/"
-        },
-        {
-          "nome": "Tecnoblog (2ª geração, rumor)",
-          "url": "https://tecnoblog.net/noticias/samsung-pode-lancar-nova-geracao-do-galaxy-trifold-em-2027/"
-        },
-        {
-          "nome": "Olhar Digital (lançamento)",
-          "url": "https://olhardigital.com.br/2025/12/02/reviews/samsung-apresenta-galaxy-z-trifold/"
-        }
-      ],
-      "imagens_oficiais": [],
-      "post_relacionado": "iphone-duo-vale-a-pena-dobravel",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Editorial puro."
-      },
-      "nota": 3,
-      "status": "nova"
-    },
-    {
-      "data": "2026-11-06",
-      "assunto": "Wall Street: techs e chips caem por temor de desaceleração da IA",
-      "por_que_em_alta": "Google Trends BR de hoje: 'wall street' com 2000+ buscas, ligado à queda de chips e Nasdaq por temores sobre a IA. Não confirmei os números em fonte primária (Nasdaq -5% e US$ 2,5 tri vieram só do resumo do Trends).",
-      "evidencias": [
-        "https://trends.google.com/trending/rss?geo=BR"
-      ],
-      "angulo": "Gancho: a IA deixou memória e celular mais caros, e agora o mercado teme que ela desacelere. Só entra com 2 fontes confiáveis; ligar ao vídeo de memória e preço de 03/11.",
-      "formato": "explicador",
-      "tipo": "short",
-      "quadro": "60s",
-      "verificar_antes": "BLOQUEANTE: números não verificados. Sem 2 fontes (Reuters, InfoMoney, CNN Brasil) com data de hoje, descartar.",
-      "fontes": [],
-      "imagens_oficiais": [],
-      "post_relacionado": "",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Editorial puro."
-      },
-      "nota": 2,
-      "status": "nova"
-    },
-    {
-      "data": "2026-11-05",
-      "assunto": "Chromagraph: o app de câmera de Rian Johnson que lidera a App Store nos EUA",
-      "por_que_em_alta": "MacRumors (30/10): nº 1 em Foto e Vídeo na App Store dos EUA, anúncio no X com 6 milhões de views em 1 dia; também Gizmodo, No Film School, Newsshooter e GSMArena (05/11). Não achei cobertura em português.",
-      "evidencias": [
-        "https://macrumors.com/2026/10/30/rian-johnson-iphone-camera-app/",
-        "https://gizmodo.com/the-last-jedi-director-launches-a-new-camera-app-for-iphone-because-hes-a-good-guy-2000832061",
-        "https://nofilmschool.com/rian-johnson-steve-yedlin-app",
-        "https://www.newsshooter.com/2026/10/28/chromagraph-camera-ios-app-by-steve-yedlin-asc/"
-      ],
-      "angulo": "Gancho: o diretor de Knives Out lançou um app que troca o processamento da câmera do iPhone pelo look dos filmes dele. Chega aqui? Por quanto? Pago único (US$ 12,99 nos EUA, EUR 14,99 na Europa; conferir preço na App Store BR e converter como estimativa). Mostrar o que muda (RAW, cor, grão, halation), para quem serve e o que não faz (só foto, sem vídeo ainda). Alternativa: o app de câmera nativo; sem produto do catálogo.",
-      "formato": "explicador",
-      "tipo": "longo",
-      "quadro": "lafora",
-      "origem": "gringo",
-      "criterios_gringo": "1 sim (5+ fontes de fora); 2 sim (App Store global, iPhone é forte no BR); 3 sim (nada em PT achado); 4 parcial (posts de iPhone)",
-      "verificar_antes": "Preço e disponibilidade na App Store do Brasil e o nome exato do app no listing",
-      "fontes": [
-        {
-          "nome": "MacRumors",
-          "url": "https://macrumors.com/2026/10/30/rian-johnson-iphone-camera-app/"
-        },
-        {
-          "nome": "Gizmodo",
-          "url": "https://gizmodo.com/the-last-jedi-director-launches-a-new-camera-app-for-iphone-because-hes-a-good-guy-2000832061"
-        },
-        {
-          "nome": "No Film School",
-          "url": "https://nofilmschool.com/rian-johnson-steve-yedlin-app"
-        },
-        {
-          "nome": "Newsshooter",
-          "url": "https://www.newsshooter.com/2026/10/28/chromagraph-camera-ios-app-by-steve-yedlin-asc/"
-        }
-      ],
-      "imagens_oficiais": [
-        "Capturas oficiais na página do app na App Store (crédito Divulgação/Chromagraph); abrir com scripts/midia.py"
-      ],
-      "post_relacionado": "iphone-duo-vale-a-pena-dobravel",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Sem produto do catálogo; editorial. Curador pode avaliar tripé/lente para celular."
-      },
-      "nota": 4,
-      "status": "em_video"
-    },
-    {
-      "data": "2026-11-05",
-      "assunto": "Celular com 10.000 mAh ou mais: a corrida da bateria chegou ao Brasil?",
-      "por_que_em_alta": "Notebookcheck/GSMArena/Gizmochina (out-nov): Redmi Turbo 6 Max vaza com mais de 10.000 mAh e tela de 7 pol. (China, janeiro, não confirmado); Honor Power 2 já tem 10.080 mAh; Redmi Note 17 Pro Max global tem 10.000 mAh, mas a versão brasileira traz 9.210 mAh.",
-      "evidencias": [
-        "https://www.notebookcheck.net/Xiaomi-Redmi-Turbo-6-Max-leak-points-to-a-10-000mAh-plus-battery-and-7-inch-2K-display.1419050.0.html",
-        "https://canaltech.com.br/smartphone/bateria-de-10000-mah-6-celulares-que-desafiam-a-tomada-em-2026/"
-      ],
-      "angulo": "Gancho: lá fora já tem celular de 10.000 mAh; aqui a versão do Redmi veio com 9.210. Explicar a diferença (conferir motivo oficial, senão tratar como dúvida) e o que usar enquanto isso: power bank.",
-      "formato": "explicador",
-      "tipo": "longo",
-      "quadro": "lafora",
-      "origem": "gringo",
-      "criterios_gringo": "1 sim; 2 sim; 3 fraco (já coberto em PT); 4 sim. Reserva se a do Chromagraph cair.",
-      "fontes": [
-        {
-          "nome": "Notebookcheck (Redmi Turbo 6 Max, 08/10)",
-          "url": "https://www.notebookcheck.net/Xiaomi-Redmi-Turbo-6-Max-leak-points-to-a-10-000mAh-plus-battery-and-7-inch-2K-display.1419050.0.html"
-        },
-        {
-          "nome": "Canaltech (25/05)",
-          "url": "https://canaltech.com.br/smartphone/bateria-de-10000-mah-6-celulares-que-desafiam-a-tomada-em-2026/"
-        },
-        {
-          "nome": "Xataka Brasil (Redmi Note 17 Pro Max, 9.210 mAh)",
-          "url": "https://www.xataka.com.br/telefonia/xiaomi-lanca-redmi-note-17-pro-max-5g-no-brasil-com-a-maior-bateria-ja-vista-na-linha-9-210-mah"
-        }
-      ],
-      "imagens_oficiais": [],
-      "post_relacionado": "como-escolher-power-bank",
-      "produto": {
-        "id": "anker-a110e-20000-22w",
-        "como_encaixa": "Alternativa que já dá pra comprar: power bank de 20.000 mAh (confirmar ativo=sim no CSV)"
-      },
-      "nota": 3,
-      "status": "nova"
-    },
-    {
-      "data": "2026-11-05",
-      "assunto": "Samsung: Galaxy Buds4 Pro e Buds3 Pro vão funcionar como aparelho auditivo",
-      "por_que_em_alta": "GSMArena (05/11): recurso chega aos fones em breve; FDA liberou em 11/08 (9to5Google, Android Authority); Canaltech e Samsung Brasil já cobriram a aprovação. Sem data para o Brasil.",
-      "evidencias": [
-        "https://9to5google.com/2026/08/11/samsung-galaxy-buds-hearing-aid-feature/",
-        "https://canaltech.com.br/fone-de-ouvido/samsung-vai-transformar-galaxy-buds-em-aparelho-auditivo-eua-ja-aprovou/"
-      ],
-      "angulo": "Gancho: o fone da Samsung vai virar aparelho auditivo, nos EUA. Aqui? Sem data confirmada. Explicar o que é (adultos com perda leve a moderada, exige Galaxy com One UI 8+) e o que não substitui.",
-      "formato": "explicador",
-      "tipo": "short",
-      "quadro": "60s",
-      "verificar_antes": "Preço do Buds4 Pro no Brasil veio de resultado de busca; conferir no Samsung Brasil ou omitir.",
-      "fontes": [
-        {
-          "nome": "9to5Google",
-          "url": "https://9to5google.com/2026/08/11/samsung-galaxy-buds-hearing-aid-feature/"
-        },
-        {
-          "nome": "Canaltech",
-          "url": "https://canaltech.com.br/fone-de-ouvido/samsung-vai-transformar-galaxy-buds-em-aparelho-auditivo-eua-ja-aprovou/"
-        },
-        {
-          "nome": "Samsung Newsroom Brasil",
-          "url": "https://news.samsung.com/br/recurso-hearing-aid-do-galaxy-buds-da-samsung-e-aprovado-pela-fda"
-        }
-      ],
-      "imagens_oficiais": [],
-      "post_relacionado": "",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Editorial puro."
-      },
-      "nota": 3,
-      "status": "nova"
-    },
-    {
-      "data": "2026-11-07",
-      "assunto": "Histórias Tech #1: Orkut, o rei brasileiro que o Facebook engoliu",
-      "por_que_em_alta": "Histórias Tech de sábado 07/11. Nostalgia de alto engajamento no Brasil; TecMundo (2026), Canaltech, Olhar Digital e SBT News seguem cobrindo o Orkut. Sem notícia concorrente no dia.",
-      "evidencias": [
-        "https://canaltech.com.br/redes-sociais/a-historia-do-orkut-rede-social-ja-foi-a-favorita-do-brasil/",
-        "https://olhardigital.com.br/2024/09/30/internet-e-redes-sociais/10-anos-sem-orkut-o-legado-que-ainda-ressoa-nas-redes-sociais/",
-        "https://sbtnews.sbt.com.br/noticia/tecnologia/orkut-faz-20-anos"
-      ],
-      "angulo": "Gancho (momento dramático): o Google desligou em 30/09/2014 uma rede em que mais da metade dos usuários era brasileira. Auge (lançado em 24/01/2004 por Orkut Büyükkökten; versão em português em 2005; maioria brasileira), virada (Facebook passa o Orkut no Brasil no fim de 2011, medição comScore) e lição: ganhar o público não protege de um concorrente que chega no seu idioma e no celular. Fecha com pergunta.",
-      "formato": "curiosidade",
-      "tipo": "short",
-      "quadro": "historias",
-      "numero": 1,
-      "fatos_conferidos": {
-        "confirmado_em_2_fontes": [
-          "Lançamento em 24/01/2004 por Orkut Büyükkökten (Canaltech, SBT News, O Povo)",
-          "Encerramento em 30/09/2014 (Canaltech, Olhar Digital, Baguete; NSC Total diz 24/09, descartar)"
-        ],
-        "divergente_nao_usar_sem_conferir": [
-          "Usuários: Olhar Digital cita 40 milhões no Brasil em 2008; Canaltech cita ~34 milhões de contas brasileiras entre 66 milhões em 2014",
-          "Ultrapassagem pelo Facebook: dez/2011 (36,1 mi contra 34,4 mi, comScore, uma fonte) ou 2012 (NSC Total)"
-        ]
-      },
-      "verificar_antes": "Datas de 24/01/2004 e 30/09/2014 prontas. Número de usuários e data da ultrapassagem têm fontes divergentes: abrir as páginas e usar só o que 2 fontes repetirem, ou falar sem número.",
-      "fontes": [
-        {
-          "nome": "Canaltech (história do Orkut)",
-          "url": "https://canaltech.com.br/redes-sociais/a-historia-do-orkut-rede-social-ja-foi-a-favorita-do-brasil/"
-        },
-        {
-          "nome": "Olhar Digital (10 anos sem Orkut)",
-          "url": "https://olhardigital.com.br/2024/09/30/internet-e-redes-sociais/10-anos-sem-orkut-o-legado-que-ainda-ressoa-nas-redes-sociais/"
-        },
-        {
-          "nome": "SBT News (20 anos do Orkut)",
-          "url": "https://sbtnews.sbt.com.br/noticia/tecnologia/orkut-faz-20-anos"
-        },
-        {
-          "nome": "Baguete (Google decreta o fim do Orkut)",
-          "url": "https://www.baguete.com.br/noticias/google-decreta-o-fim-do-orkut"
-        }
-      ],
-      "imagens_oficiais": [
-        "Wikimedia Commons (logo e capturas do Orkut com licença livre); conferir a licença com scripts/midia.py"
-      ],
-      "post_relacionado": "",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Sem produto."
-      },
-      "nota": 5,
-      "status": "em_video"
-    },
-    {
-      "data": "2026-11-05",
-      "assunto": "Histórias Tech: Nokia, de rainha dos celulares à venda da divisão em 2013",
-      "por_que_em_alta": "Pauta evergreen para domingo 08/11. Tema clássico de boa retenção.",
-      "evidencias": [],
-      "angulo": "Gancho: a Nokia liderou o mercado de celulares e deixou o iPhone passar. Auge, virada (Symbian vs. iPhone/Android), venda à Microsoft e lição. Números em 2 fontes.",
-      "formato": "curiosidade",
-      "tipo": "short",
-      "quadro": "historias",
-      "numero": 2,
-      "fontes": [],
-      "imagens_oficiais": [],
-      "post_relacionado": "",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Sem produto."
-      },
-      "nota": 3,
-      "status": "nova"
-    },
-    {
-      "data": "2026-11-05",
-      "assunto": "Histórias Tech: BlackBerry, o celular dos executivos que perdeu o teclado",
-      "por_que_em_alta": "Pauta evergreen reserva; combina com a semana do iPhone Duo (aposta em novo formato).",
-      "evidencias": [],
-      "angulo": "Gancho: já foi o celular de presidentes, hoje nem fabrica mais. Auge, virada (tela sensível ao toque) e lição. Datas e números em 2 fontes.",
-      "formato": "curiosidade",
-      "tipo": "short",
-      "quadro": "historias",
-      "numero": 3,
-      "fontes": [],
-      "imagens_oficiais": [],
-      "post_relacionado": "",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Sem produto."
-      },
-      "nota": 3,
-      "status": "nova"
-    },
-    {
-      "data": "2026-11-04",
-      "assunto": "iPhone Duo: 234 mil dobras ao vivo e a tela segue inteira",
-      "por_que_em_alta": "Canaltech (03/11) destaca teste ao vivo da CNET no 7º dia com 234.640 aberturas; Samsung declara 200 mil ciclos no Fold 8 e a Apple não diz o número",
-      "evidencias": [
-        "https://canaltech.com.br/smartphone/iphone-duo-esta-ha-7-dias-sendo-dobrado-ao-vivo-e-ainda-nao-quebrou-assista/"
-      ],
-      "angulo": "Gancho: 234 mil vezes aberto e fechado e a tela não quebrou. O que o teste prova e o que não prova (não simula queda nem pressão do dia a dia).",
-      "formato": "curiosidade",
-      "tipo": "short",
-      "fontes": [
-        {
-          "nome": "Canaltech",
-          "url": "https://canaltech.com.br/smartphone/iphone-duo-esta-ha-7-dias-sendo-dobrado-ao-vivo-e-ainda-nao-quebrou-assista/"
-        },
-        {
-          "nome": "CNET (conferir a transmissão do teste Fold-a-Phone)",
-          "url": "https://www.cnet.com"
-        }
-      ],
-      "imagens_oficiais": [
-        "https://www.apple.com/br/newsroom/"
-      ],
-      "post_relacionado": "",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Editorial puro, sem produto."
-      },
-      "nota": 4,
-      "status": "em_video"
-    },
-    {
-      "data": "2026-11-04",
-      "assunto": "Sony e Microsoft recompram consoles usados: vai chegar ao Brasil?",
-      "por_que_em_alta": "Canaltech (03/11): Sony oferece até US$ 400 pelo PS5 usado após ação parecida do Xbox Series X; contexto do lançamento de GTA 6 em 19/11; no Brasil nenhuma ação foi iniciada",
-      "evidencias": [
-        "https://canaltech.com.br/games/sony-copia-xbox-e-oferece-ate-us-400-para-recomprar-playstation-5-usados/"
-      ],
-      "angulo": "Gancho: a Sony quer comprar o seu PS5 de volta por até US$ 400, mas não no Brasil. Por que as duas marcas fazem isso na semana do GTA 6.",
-      "formato": "explicador",
-      "tipo": "short",
-      "fontes": [
-        {
-          "nome": "Canaltech",
-          "url": "https://canaltech.com.br/games/sony-copia-xbox-e-oferece-ate-us-400-para-recomprar-playstation-5-usados/"
-        },
-        {
-          "nome": "PlayStation Blog (conferir antes de publicar)",
-          "url": "https://blog.playstation.com"
-        }
-      ],
-      "imagens_oficiais": [],
-      "post_relacionado": "xbox-series-fsr-4-1-gta-6-o-que-muda",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Editorial puro, sem produto."
-      },
-      "nota": 4,
-      "status": "em_video"
-    },
-    {
-      "data": "2026-11-04",
-      "assunto": "Hacker faz Mario Kart World e Pokémon Pokopia rodarem no Switch original",
-      "por_que_em_alta": "Canaltech (03/11); Switch 2 é assunto forte da semana (Zelda Ocarina em 05/11); curiosidade técnica",
-      "evidencias": [
-        "https://canaltech.com.br/games/inimaginavel-hacker-faz-jogos-do-switch-2-rodarem-no-switch-original/"
-      ],
-      "angulo": "Gancho: jogos do Switch 2 rodando no Switch de 2017, à custa de 720p, 30 FPS e travadas. O que foi cortado e por que o código não será público.",
-      "formato": "curiosidade",
-      "tipo": "short",
-      "fontes": [
-        {
-          "nome": "Canaltech",
-          "url": "https://canaltech.com.br/games/inimaginavel-hacker-faz-jogos-do-switch-2-rodarem-no-switch-original/"
-        }
-      ],
-      "imagens_oficiais": [],
-      "post_relacionado": "",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Editorial puro, sem produto."
-      },
-      "nota": 3,
-      "status": "nova"
-    },
-    {
-      "data": "2026-11-03",
-      "assunto": "GTA 6: data confirmada (19/11), pré-carregamento de até 212 GB e brindes",
-      "por_que_em_alta": "Canaltech, 03/11, destaca a confirmação da Rockstar; tema de games de alto volume; nosso blog já tem post de Xbox/GTA 6 para ligar ao vídeo",
-      "evidencias": [
-        "https://canaltech.com.br/games/rockstar-prepara-pre-carregamento-e-brindes-para-lancamento-de-gta-6/"
-      ],
-      "angulo": "Gancho: GTA 6 ocupa até 212 GB e você pode baixar antes; a hora exata de liberar no PS5 (10/11 à 0h) e no Xbox (9/11 às 21h), horário de Brasília.",
-      "formato": "noticia",
-      "tipo": "short",
-      "fontes": [
-        {
-          "nome": "Canaltech (conferir no Rockstar Newswire antes de publicar)",
-          "url": "https://canaltech.com.br/games/rockstar-prepara-pre-carregamento-e-brindes-para-lancamento-de-gta-6/"
-        },
-        {
-          "nome": "Rockstar Games Newswire",
-          "url": "https://www.rockstargames.com/newswire"
-        }
-      ],
-      "imagens_oficiais": [
-        "https://www.rockstargames.com/newswire"
-      ],
-      "post_relacionado": "xbox-series-fsr-4-1-gta-6-o-que-muda",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Sem produto."
-      },
-      "nota": 5,
-      "status": "em_video"
-    },
-    {
-      "data": "2026-11-03",
-      "assunto": "Apple avisa que iPhone pode ficar mais caro em 2027 por causa da memória",
-      "por_que_em_alta": "Resultados da Apple de 02/11 (Reuters, via Canaltech 03/11): memória sobe em 2027, margem cai para 45-46%, alguns iPhone 17 subiram US$ 100; Samsung já previa até 20% de alta no Brasil (Tecnoblog)",
-      "evidencias": [
-        "https://canaltech.com.br/smartphone/iphone-pode-ficar-ainda-mais-caro-em-2027-por-causa-da-crise-alerta-apple/",
-        "https://tecnoblog.net/noticias/eletronicos-devem-ficar-ate-20-mais-caros-no-brasil-preve-samsung/"
-      ],
-      "angulo": "Gancho: a Apple admitiu que a memória vai ficar mais cara em 2027. Por que a IA encareceu o seu celular e o que isso muda antes da Black Friday.",
-      "formato": "explicador",
-      "tipo": "longo",
-      "fontes": [
-        {
-          "nome": "Canaltech",
-          "url": "https://canaltech.com.br/smartphone/iphone-pode-ficar-ainda-mais-caro-em-2027-por-causa-da-crise-alerta-apple/"
-        },
-        {
-          "nome": "Tecnoblog",
-          "url": "https://tecnoblog.net/noticias/eletronicos-devem-ficar-ate-20-mais-caros-no-brasil-preve-samsung/"
-        }
-      ],
-      "imagens_oficiais": [
-        "https://www.apple.com/br/newsroom/"
-      ],
-      "post_relacionado": "",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Editorial puro; ponte para o guia de Black Friday."
-      },
-      "nota": 4,
-      "status": "em_video"
-    },
-    {
-      "data": "2026-11-03",
-      "assunto": "Golpes na Black Friday (27/11): sites clonados e anúncios falsos com IA",
-      "por_que_em_alta": "Sazonal: Black Friday em 27/11; Reclame AQUI alerta sobre fraudes com IA (SBT News); buscas por 'black fraude' subiram 127% (Money Times, dado de 2025); palavras.json tem dezenas de buscas 'golpe pix'",
-      "evidencias": [
-        "https://sbtnews.sbt.com.br/noticia/brasil/black-friday-site-reune-18-dicas-para-nao-cair-em-golpes",
-        "https://www.moneytimes.com.br/black-friday-ou-black-fraude-buscas-por-golpes-crescem-127-na-internet-veja-como-se-proteger-isbl/"
-      ],
-      "angulo": "Gancho: se o videogame custa metade do preço, o golpe é você. 3 sinais de oferta falsa e como checar a loja em 30 segundos.",
-      "formato": "alerta",
-      "tipo": "short",
-      "fontes": [
-        {
-          "nome": "SBT News / Reclame AQUI",
-          "url": "https://sbtnews.sbt.com.br/noticia/brasil/black-friday-site-reune-18-dicas-para-nao-cair-em-golpes"
-        },
-        {
-          "nome": "Money Times",
-          "url": "https://www.moneytimes.com.br/black-friday-ou-black-fraude-buscas-por-golpes-crescem-127-na-internet-veja-como-se-proteger-isbl/"
-        }
-      ],
-      "imagens_oficiais": [],
-      "post_relacionado": "whatsapp-confirmacao-duas-etapas-como-ativar",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Sem produto. Confirmar numa segunda fonte de 2026 antes de gravar."
-      },
-      "nota": 4,
-      "status": "em_video"
-    },
-    {
-      "data": "2026-11-03",
-      "assunto": "Zelda Ocarina of Time no Switch 2: a que horas libera no Brasil (05/11)",
-      "por_que_em_alta": "Canaltech 03/11: download na eShop à 0h de 05/11 (Brasília); a única visita do Google no nosso site foi no tema Switch 2/Zelda",
-      "evidencias": [
-        "https://canaltech.com.br/games/que-horas-the-legend-of-zelda-ocarina-of-time-remake-sera-lancado-no-brasil/"
-      ],
-      "angulo": "Gancho: Zelda Ocarina libera à meia-noite de quinta no Brasil. O que saber antes de comprar.",
-      "formato": "noticia",
-      "tipo": "short",
-      "fontes": [
-        {
-          "nome": "Canaltech",
-          "url": "https://canaltech.com.br/games/que-horas-the-legend-of-zelda-ocarina-of-time-remake-sera-lancado-no-brasil/"
-        },
-        {
-          "nome": "Nintendo Brasil",
-          "url": "https://www.nintendo.com/br/"
-        }
-      ],
-      "imagens_oficiais": [
-        "https://www.nintendo.com/br/"
-      ],
-      "post_relacionado": "zelda-ocarina-of-time-switch-2-lancamento-5-novembro-preco",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Sem produto."
-      },
-      "nota": 4,
-      "status": "em_video",
-      "quadro": "60s"
-    },
-    {
-      "data": "2026-11-03",
-      "assunto": "Xiaomi confirma linha 18 Pro global em novembro",
-      "por_que_em_alta": "Xiaomi anunciou nas redes em 02/11; Canaltech 03/11. Watch S5 e fone Clip são só vazamentos; Brasil sem data",
-      "evidencias": [
-        "https://canaltech.com.br/produtos/xiaomi-confirma-18-pro-global-para-novembro-smartwatch-e-fones-sao-esperados/"
-      ],
-      "angulo": "Gancho: a Xiaomi confirmou o 18 Pro global para novembro. O que é fato, o que é vazamento e se chega ao Brasil.",
-      "formato": "noticia",
-      "tipo": "short",
-      "fontes": [
-        {
-          "nome": "Canaltech",
-          "url": "https://canaltech.com.br/produtos/xiaomi-confirma-18-pro-global-para-novembro-smartwatch-e-fones-sao-esperados/"
-        }
-      ],
-      "imagens_oficiais": [
-        "https://www.mi.com/br/"
-      ],
-      "post_relacionado": "",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Opcional; só se citar acessórios Xiaomi (Smart Band 10)."
-      },
-      "nota": 3,
-      "status": "nova"
-    },
-    {
-      "assunto": "Espelhar a tela do celular no PC (Android e iPhone), sem gambiarra",
-      "quadro": "tutorial",
-      "tipo": "tutorial",
-      "palavra_chave": "como espelhar a tela do celular no pc",
-      "por_que_em_alta": "Dúvida com busca alta e constante no YouTube (não envelhece)",
-      "evidencias": [
-        "vidIQ 07/11: ~41 mil buscas/mês no YouTube, concorrência 55, nota 60; variação 'no notebook' ~15,5 mil/mês, concorrência 40"
-      ],
-      "angulo": "Mostrar o caminho oficial (Vincular ao Celular da Microsoft para Android, alternativas para iPhone) com gravação de tela das páginas oficiais e o resultado",
-      "formato": "tutorial",
-      "fontes": [],
-      "status": "nova",
-      "nota": 5,
-      "origem": "vidiq"
-    },
-    {
-      "assunto": "Usar o celular como webcam no PC e no OBS (passo a passo)",
-      "quadro": "tutorial",
-      "tipo": "tutorial",
-      "palavra_chave": "como usar o celular como webcam no obs",
-      "por_que_em_alta": "Dúvida com busca alta e constante no YouTube (não envelhece)",
-      "evidencias": [
-        "vidIQ 07/11: ~15 mil buscas/mês, concorrência 29, nota 66; 'como colocar a camera do celular no obs' ~11,7 mil, concorrência 21"
-      ],
-      "angulo": "Webcam boa sem gastar: apps oficiais (página oficial de cada um) e a configuração no OBS, com gravação de tela das páginas oficiais",
-      "formato": "tutorial",
-      "fontes": [],
-      "status": "nova",
-      "nota": 5,
-      "origem": "vidiq"
-    },
-    {
-      "assunto": "Como remover a conta Google do celular antes de vender (e não travar o aparelho)",
-      "quadro": "tutorial",
-      "tipo": "tutorial",
-      "palavra_chave": "como remover conta google do celular",
-      "por_que_em_alta": "Dúvida com busca alta e constante no YouTube (não envelhece)",
-      "evidencias": [
-        "vidIQ 07/11: ~24 mil buscas/mês, concorrência 46, nota 61"
-      ],
-      "angulo": "Utilidade + segurança: o passo a passo oficial da Ajuda do Google e o alerta do bloqueio de fábrica (FRP) para quem vai vender",
-      "formato": "tutorial",
-      "fontes": [],
-      "status": "nova",
-      "nota": 5,
-      "origem": "vidiq"
-    },
-    {
-      "data": "2026-11-08",
-      "assunto": "Como ter dois (ou mais) WhatsApp no iPhone",
-      "quadro": "tutorial",
-      "tipo": "tutorial",
-      "palavra_chave": "como ter varios whatsapp no ios",
-      "por_que_em_alta": "Dúvida com busca alta e constante no YouTube (não envelhece)",
-      "evidencias": [
-        "vidIQ 08/11: ~12 mil buscas/mês, concorrência 16, nota 70"
-      ],
-      "angulo": "Utilidade: as opções oficiais (WhatsApp Business no mesmo iPhone, várias contas no app) e o que não funciona; conferir na Central de Ajuda do WhatsApp antes do roteiro",
-      "formato": "tutorial",
-      "fontes": [],
-      "status": "em_video",
-      "nota": 5,
-      "origem": "vidiq"
-    },
-    {
-      "data": "2026-11-08",
-      "assunto": "Como criar um grupo de ofertas no WhatsApp (do jeito certo)",
-      "quadro": "tutorial",
-      "tipo": "tutorial",
-      "palavra_chave": "como criar grupo de ofertas no whatsapp",
-      "por_que_em_alta": "Dúvida com busca alta e constante no YouTube (não envelhece)",
-      "evidencias": [
-        "vidIQ 08/11: ~36 mil buscas/mês, concorrência 29, nota 69"
-      ],
-      "angulo": "Passo a passo do grupo/comunidade/canal com configurações de admin, regras e limites oficiais; ponte natural para as ofertas do blog sem prometer renda",
-      "formato": "tutorial",
-      "fontes": [],
-      "status": "nova",
-      "nota": 4,
-      "origem": "vidiq"
-    },
-    {
-      "data": "2026-11-08",
-      "assunto": "Como transferir as conversas do WhatsApp do Android para o iPhone",
-      "quadro": "tutorial",
-      "tipo": "tutorial",
-      "palavra_chave": "como transferir conversas do whatsapp do android para iphone",
-      "por_que_em_alta": "Dúvida com busca alta e constante no YouTube (não envelhece)",
-      "evidencias": [
-        "vidIQ 08/11: ~14 mil buscas/mês, concorrência 43, nota 60"
-      ],
-      "angulo": "Passo a passo oficial (app Mover para iOS) e os erros que fazem perder o histórico; checar requisitos na Ajuda do WhatsApp e da Apple",
-      "formato": "tutorial",
-      "fontes": [],
-      "status": "nova",
-      "nota": 4,
-      "origem": "vidiq"
+     "nome": "Sensor Tower (a localizar)",
+     "url": "https://sensortower.com/"
     }
-  ]
+   ],
+   "imagens_oficiais": [
+    "https://www.rockstargames.com/newswire"
+   ],
+   "post_relacionado": "gta-6-pre-carregamento-horario-ps5-xbox-212-gb",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "nota": 5,
+   "status": "nova",
+   "origem": "brasil"
+  },
+  {
+   "data": "2026-11-13",
+   "assunto": "Starlink no celular sem antena: 10 milhões de clientes da Vivo já usaram e a cobrança vem aí",
+   "por_que_em_alta": "Canaltech (12/11), citando Teletime (11/11): Vivo diz que 10 milhões de clientes usaram o Vivo Satélite (Starlink D2D), 50 milhões estão aptos, serviço grátis na fase promocional sem data para acabar; só mensagens, localização, mapas e WhatsApp, sem velocidade de 4G. Canaltech destaca dois textos sobre o tema na home hoje.",
+   "evidencias": [
+    "https://canaltech.com.br/telecom/10-milhoes-ja-usaram-starlink-no-celular-sem-antena-vivo-preve-cobranca/",
+    "https://canaltech.com.br/telecom/seu-celular-aceita-starlink-sem-antena-no-brasil-veja-como-descobrir/"
+   ],
+   "angulo": "Gancho: seu celular pode estar conectado a um satélite sem você saber, e hoje é de graça. O que funciona (texto, localização, WhatsApp), o que não (vídeo, ambiente fechado) e que a Vivo já fala em cobrar. Quem é elegível (planos e recarga a partir de R$ 30).",
+   "formato": "explicador",
+   "tipo": "short",
+   "quadro": "60s",
+   "verificar_antes": "Abrir a página do Vivo Satélite e o Teletime para confirmar números e elegibilidade; a lista de celulares compatíveis não veio na matéria lida: omitir ou buscar na Vivo.",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/telecom/10-milhoes-ja-usaram-starlink-no-celular-sem-antena-vivo-preve-cobranca/"
+    },
+    {
+     "nome": "Teletime (a localizar)",
+     "url": "https://teletime.com.br/"
+    },
+    {
+     "nome": "Vivo (a localizar)",
+     "url": "https://vivo.com.br/"
+    }
+   ],
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "nota": 4,
+   "status": "em_video",
+   "origem": "brasil"
+  },
+  {
+   "data": "2026-11-13",
+   "assunto": "Jogos de PS5 rodando num PS4 desbloqueado via emulador experimental (emuFive)",
+   "por_que_em_alta": "Canaltech (12/11), citando Wccftech: o desenvolvedor blue0x1 rodou God of War: Sons of Sparta (40 fps no PS4 Pro) e Hollow Knight: Silksong. Só em PS4 com jailbreak; experimental. Canaltech alerta para emuladores falsos no GitHub que roubam senhas. Fonte primária ainda não aberta.",
+   "evidencias": [
+    "https://canaltech.com.br/games/o-impossivel-aconteceu-jogos-de-ps5-comecam-a-rodar-no-ps4-via-emulador/"
+   ],
+   "angulo": "Gancho: jogos de PS5 rodando num PS4, mas não é o que parece. Quem fez, o limite (CPU Jaguar fraca, só jogos leves, só console desbloqueado) e o alerta de golpe com falsos emuladores. Não incentivar pirataria nem jailbreak.",
+   "formato": "explicador",
+   "tipo": "short",
+   "quadro": "60s",
+   "verificar_antes": "Abrir o Wccftech/post do desenvolvedor. Tratar como experimento; sem tutorial de jailbreak. Reserva se não houver segunda fonte.",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/games/o-impossivel-aconteceu-jogos-de-ps5-comecam-a-rodar-no-ps4-via-emulador/"
+    },
+    {
+     "nome": "Wccftech (a localizar)",
+     "url": "https://wccftech.com/playstation-5-games-on-playstation-4-emufive/"
+    }
+   ],
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "nota": 3,
+   "status": "nova",
+   "origem": "gringo"
+  },
+  {
+   "data": "2026-11-13",
+   "assunto": "Apple passa a aceitar dobráveis da Samsung na troca (Trade In) nos EUA: até US$ 410 pelo Fold7",
+   "por_que_em_alta": "Canaltech (12/11, 16h20): seis modelos Galaxy Z Fold/Flip entram no Trade In americano; crédito máximo US$ 410 (Fold7) a US$ 125 (Flip5), como desconto ou vale-presente; iPhone 17 Pro Max cai de US$ 885 para US$ 855. Canaltech liga ao tema de Apple e Samsung compartilharem tecnologia de tela dobrável. A matéria não cita anúncio oficial: confirmar.",
+   "evidencias": [
+    "https://canaltech.com.br/smartphone/apple-esta-comprando-celulares-dobraveis-da-samsung-veja-quanto-paga/",
+    "https://canaltech.com.br/smartphone/apple-e-samsung-vao-compartilhar-tecnologia-de-tela-dobravel-diz-jornal/"
+   ],
+   "angulo": "Gancho: a Apple agora paga pelo dobrável da Samsung, pensando no iPhone Duo. Liga ao Short do iPhone Duo e à pergunta 'vale trocar no Brasil?' (o programa é dos EUA, sem previsão aqui). Reserva do 60s.",
+   "formato": "noticia",
+   "tipo": "short",
+   "quadro": "60s",
+   "verificar_antes": "Conferir na página de Trade In da Apple EUA os valores; sem fonte oficial, não publicar. Valores em reais são estimativa.",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/smartphone/apple-esta-comprando-celulares-dobraveis-da-samsung-veja-quanto-paga/"
+    },
+    {
+     "nome": "Apple Trade In (EUA, a conferir)",
+     "url": "https://www.apple.com/shop/trade-in"
+    }
+   ],
+   "imagens_oficiais": [],
+   "post_relacionado": "iphone-duo-vale-a-pena-dobravel",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "nota": 3,
+   "status": "nova",
+   "origem": "gringo"
+  },
+  {
+   "data": "2026-11-13",
+   "assunto": "Como ter dois WhatsApp no iPhone (conta pessoal e Business, passo a passo)",
+   "quadro": "tutorial",
+   "tipo": "tutorial",
+   "palavra_chave": "como ter varios whatsapp no ios",
+   "por_que_em_alta": "Dúvida com busca real e concorrência baixa; fecha a lacuna de tutoriais com nota alta",
+   "evidencias": [
+    "vidIQ 08/11: ~12,8 mil buscas/mês, concorrência 16, nota 70"
+   ],
+   "angulo": "Resultado primeiro: duas contas de WhatsApp no mesmo iPhone em 3 minutos. Caminhos oficiais (WhatsApp + WhatsApp Business, contas múltiplas se disponível na versão atual), o que não funciona e problemas comuns. Conferir passos na Central de Ajuda do WhatsApp e gravar a tela da página.",
+   "formato": "tutorial",
+   "fontes": [
+    {
+     "nome": "Central de Ajuda do WhatsApp",
+     "url": "https://faq.whatsapp.com/"
+    }
+   ],
+   "verificar_antes": "Confirmar na página oficial se o iOS já aceita contas múltiplas no app ou só via WhatsApp Business; sem isso, descartar.",
+   "status": "nova",
+   "nota": 4,
+   "origem": "vidiq"
+  },
+  {
+   "data": "2026-11-12",
+   "assunto": "PS5 passa de 100 milhões de unidades: 6 anos, atrás do PS4 e do PS2, e 2,1 milhões só nos últimos 40 dias",
+   "por_que_em_alta": "Canaltech (11/11), citando IGN e a Sony: 100 milhões vendidos (sell-in) até 10/11/2026, quarto console da Sony a chegar lá; aceleração ligada ao GTA 6 (19/11). Destaque na home de games hoje.",
+   "evidencias": [
+    "https://canaltech.com.br/games/ps5-chega-a-100-milhoes-de-unidades-veja-como-ele-se-compara-ao-ps4-ps3-e-ps2/"
+   ],
+   "angulo": "Gancho: o PS5 chegou a 100 milhões, mas 2,1 milhões vieram nos últimos 40 dias, de olho no GTA 6. Gráfico de barras PS2 (160 mi), PS4 (117 mi), PS1 (102,4 mi), PS5 (100 mi), PS3 (87,4 mi), com a ressalva de que é sell-in (envio ao varejo), não venda ao consumidor. Comentário Nexus: o GTA 6 vende console.",
+   "formato": "noticia",
+   "tipo": "short",
+   "quadro": "60s",
+   "verificar_antes": "Só o Canaltech foi lido. Confirmar no comunicado da Sony/IGN: 100 milhões até 10/11, 2,1 mi em 40 dias, e os números do PS4/PS2 (datas de corte diferentes: dizer na tela).",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/games/ps5-chega-a-100-milhoes-de-unidades-veja-como-ele-se-compara-ao-ps4-ps3-e-ps2/"
+    },
+    {
+     "nome": "IGN (a localizar)",
+     "url": "https://www.ign.com/"
+    },
+    {
+     "nome": "PlayStation Blog",
+     "url": "https://blog.playstation.com/"
+    }
+   ],
+   "imagens_oficiais": [
+    "https://www.playstation.com/pt-br/ps5/"
+   ],
+   "post_relacionado": "xbox-series-fsr-4-1-gta-6-o-que-muda",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "nota": 4,
+   "status": "em_video"
+  },
+  {
+   "data": "2026-11-12",
+   "assunto": "Sony vai encerrar o app do PS Plus para PC em 10/12: menos de 0,4% dos assinantes usavam",
+   "por_que_em_alta": "Canaltech (11/11, home de games hoje), citando comunicado da Sony no PlayStation Blog: o streaming em nuvem do PS Plus no Windows acaba em 10/12; motivo declarado: uso por menos de 0,4% dos membros Premium/Deluxe. Busca web não achou o post oficial: verificar.",
+   "evidencias": [
+    "https://canaltech.com.br/games/tchau-pc-sony-vai-encerrar-app-do-ps-plus-e-jogos-em-nuvem-no-computador/"
+   ],
+   "angulo": "Gancho: a Sony desligou um serviço porque menos de 0,4% usava. O que se perde (clássicos de PS3 no PC), o que não muda (jogos nativos na Steam/Epic) e o que quem paga Premium no Brasil ainda tem no console. Reserva do 60s do dia.",
+   "formato": "noticia",
+   "tipo": "short",
+   "quadro": "60s",
+   "verificar_antes": "Achar o post oficial no PlayStation Blog (data 10/12 e a cifra de 0,4%) e checar se o app existia para o Brasil. Sem o post, não publicar.",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/games/tchau-pc-sony-vai-encerrar-app-do-ps-plus-e-jogos-em-nuvem-no-computador/"
+    },
+    {
+     "nome": "PlayStation Blog (a localizar)",
+     "url": "https://blog.playstation.com/category/ps-plus/"
+    }
+   ],
+   "imagens_oficiais": [
+    "https://www.playstation.com/pt-br/ps-plus/"
+   ],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "nota": 3,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-12",
+   "assunto": "Xiaomi 18 Pro Max: bateria de 8.500 mAh e 100 W na China, global ainda sem data. Chega ao Brasil? Por quanto?",
+   "por_que_em_alta": "Ubergizmo (23/09), Borncity e Digital Citizen: China, Pro a 5.999 yuan (~20% acima do 17 Pro) e Pro Max a 6.999 yuan; Lei Jun confirmou lançamento internacional em 2026, sem data, mercados ou preço; versões globais podem ter baterias menores (6.000 e 7.050 mAh, relato não oficial). Canaltech (12/11) segue cobrindo bateria gigante e Xiaomi 18 em pré-venda. Liga com a corrida de mAh e com os guias de power bank.",
+   "evidencias": [
+    "https://www.ubergizmo.com/2026/09/xiaomi-18-pro-and-pro-max-debut-with-8500-mah-battery-and-dual-200mp-cameras/",
+    "https://borncity.com/news/xiaomi-18-pro-neuer-flaggschiff-startpreis-liegt-rund-20-prozent-hoeher/",
+    "https://canaltech.com.br/smartphone/xiaomi-18-aparece-em-pre-venda-na-china-e-lancamento-pode-estar-proximo/"
+   ],
+   "angulo": "Gancho: o Xiaomi 18 Pro Max tem 8.500 mAh e carrega a 100 W, mas a versão global pode vir com bateria menor e preço mais alto. Blocos: o que a China ganhou, por que bombou (preço +20%, memória cara), E no Brasil (sem data; importação e Selo Anatel; estimativa de preço com cotação e data), alternativas que já dá pra comprar (power bank/celulares do catálogo), veredito. Une as pautas de 07/11 e 11/11.",
+   "formato": "comparativo",
+   "tipo": "longo",
+   "quadro": "lafora",
+   "origem": "gringo",
+   "palavra_chave": "xiaomi 18 pro max brasil",
+   "criterios_gringo": "1 sim (Ubergizmo, Borncity, Digital Citizen; GSMArena a confirmar); 2 sim (Xiaomi vende no Brasil, tema bateria e preço); 3 parcial (Canaltech cobre em texto; buscar vídeo em PT no YouTube BR); 4 sim (guias de power bank e celulares). 3 de 4 ok.",
+   "verificar_antes": "Sem termo no vidIQ: nota menor. Confirmar na Xiaomi/GSMArena specs e que o lançamento global continua sem data; baterias globais menores é relato não oficial: tratar como rumor. Preço em R$ só como estimativa com a cotação do dia.",
+   "fontes": [
+    {
+     "nome": "Ubergizmo",
+     "url": "https://www.ubergizmo.com/2026/09/xiaomi-18-pro-and-pro-max-debut-with-8500-mah-battery-and-dual-200mp-cameras/"
+    },
+    {
+     "nome": "Borncity",
+     "url": "https://borncity.com/news/xiaomi-18-pro-neuer-flaggschiff-startpreis-liegt-rund-20-prozent-hoeher/"
+    },
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/smartphone/xiaomi-18-aparece-em-pre-venda-na-china-e-lancamento-pode-estar-proximo/"
+    }
+   ],
+   "imagens_oficiais": [
+    "https://www.mi.com/global/"
+   ],
+   "post_relacionado": "como-escolher-power-bank",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Power bank do catálogo como alternativa; conferir ativo=sim no CSV."
+   },
+   "nota": 4,
+   "status": "em_video"
+  },
+  {
+   "data": "2026-11-12",
+   "assunto": "Galaxy Z Slide: Samsung teria celular com tela que desliza e estica (rumor, 3º tri de 2027)",
+   "por_que_em_alta": "Canaltech (11/11): renders não oficiais de Ice Universe e Sammy Guru, tela 16:9 a 21:9, patente recente citada; Samsung não confirmou nada.",
+   "evidencias": [
+    "https://canaltech.com.br/smartphone/esqueca-os-dobraveis-samsung-prepara-celular-com-tela-que-desliza-e-estica/"
+   ],
+   "angulo": "Reserva: tratar como rumor, só se aparecer 2ª fonte de fora (GSMArena/SamMobile).",
+   "formato": "noticia",
+   "tipo": "short",
+   "quadro": "60s",
+   "verificar_antes": "Rumor de uma fonte lida: não publicar sem segunda fonte.",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/smartphone/esqueca-os-dobraveis-samsung-prepara-celular-com-tela-que-desliza-e-estica/"
+    }
+   ],
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "nota": 2,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-11",
+   "assunto": "GTA 6 no Xbox One: só pela nuvem, com fila e limite de 15 horas por mês para novo assinante",
+   "por_que_em_alta": "Canaltech (10/11): a Rockstar e a Microsoft confirmaram o jogo no Xbox One via Xbox Cloud Gaming (presets do Series S), exige Game Pass, sem PC, celular, navegador ou TV; lançamento em 19/11. Canaltech destaca na home hoje. Tema de GTA 6 segue o de maior volume da semana.",
+   "evidencias": [
+    "https://canaltech.com.br/games/xbox-one-vira-o-console-mais-barato-para-jogar-gta-6-mas-ha-um-grande-porem/"
+   ],
+   "angulo": "Gancho: dá para jogar GTA 6 no Xbox One de 2013, mas só pela nuvem e com um limite de horas. Quem tem console antigo: o que funciona, o porém (fila, 15 h por mês para novos assinantes do Game Pass) e quando compensa comprar outro aparelho. Não repete o vídeo do pré-load: foco em quem tem console velho.",
+   "formato": "explicador",
+   "tipo": "short",
+   "quadro": "60s",
+   "verificar_antes": "Confirmar no Rockstar Newswire e no Xbox Wire a regra do Cloud Gaming (limite de 15 h, planos por hora) e se o Xbox Cloud Gaming está disponível no Brasil. Só uma fonte lida até agora.",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/games/xbox-one-vira-o-console-mais-barato-para-jogar-gta-6-mas-ha-um-grande-porem/"
+    },
+    {
+     "nome": "Rockstar Games Newswire",
+     "url": "https://www.rockstargames.com/newswire"
+    },
+    {
+     "nome": "Xbox Wire (a localizar)",
+     "url": "https://news.xbox.com/pt-br/"
+    }
+   ],
+   "imagens_oficiais": [
+    "https://www.rockstargames.com/newswire"
+   ],
+   "post_relacionado": "xbox-series-fsr-4-1-gta-6-o-que-muda",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "nota": 5,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-11",
+   "assunto": "Motorola Signature 27 chega ao Brasil por R$ 10.999 com a 2ª melhor câmera do ranking DXOMark",
+   "por_que_em_alta": "Tecnoblog (05/11) e Baguete: pré-venda no site da Motorola, 256 GB a partir de R$ 10.999 e 512 GB a R$ 11.999; DXOMark 173 pontos, atrás do Huawei Pura 80 Ultra (175); Snapdragon 8 Elite Extreme Gen 6, bateria de 7.000 mAh, 90 W. Celular de R$ 11 mil gera comparação com iPhone e Galaxy.",
+   "evidencias": [
+    "https://tecnoblog.net/noticias/celular-com-a-2a-melhor-camera-do-mundo-chega-ao-brasil/",
+    "https://www.baguete.com.br/noticias/motorola-quer-concorrer-no-mercado-premium"
+   ],
+   "angulo": "Gancho: um celular de R$ 10.999 com a segunda melhor câmera do mundo segundo o DXOMark, de uma marca que muita gente associa a celular barato. O que a nota significa, o que vem na caixa (carregador de 90 W) e para quem não faz sentido gastar isso.",
+   "formato": "noticia",
+   "tipo": "short",
+   "quadro": "60s",
+   "verificar_antes": "Abrir a página oficial da Motorola Brasil e o ranking DXOMark para confirmar preço, nota e posição; preços de operadora dependem de plano: omitir. Falar 'preço de pré-venda em 05/11'.",
+   "fontes": [
+    {
+     "nome": "Tecnoblog",
+     "url": "https://tecnoblog.net/noticias/celular-com-a-2a-melhor-camera-do-mundo-chega-ao-brasil/"
+    },
+    {
+     "nome": "Baguete",
+     "url": "https://www.baguete.com.br/noticias/motorola-quer-concorrer-no-mercado-premium"
+    },
+    {
+     "nome": "DXOMark (a conferir)",
+     "url": "https://www.dxomark.com/smartphones/"
+    }
+   ],
+   "imagens_oficiais": [
+    "https://www.motorola.com.br/"
+   ],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial; curador pode avaliar se há Motorola no catálogo."
+   },
+   "nota": 4,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-11",
+   "assunto": "Claude vai marcar textos gerados por IA com marca d'água invisível: o que isso prova e o que não prova",
+   "por_que_em_alta": "Tecnoblog, Canaltech, TecMundo, Fast Company Brasil, Times Brasil e Alura cobrem; a Anthropic tem página de ajuda oficial. A própria empresa diz que a marca não prova autoria. Tema forte para estudantes e criadores de conteúdo.",
+   "evidencias": [
+    "https://tecnoblog.net/noticias/anthropic-vai-identificar-textos-e-imagens-gerados-pelo-claude/",
+    "https://canaltech.com.br/inteligencia-artificial/marca-dagua-do-claude-ajuda-na-transparencia-mas-nao-prova-autoria-de-textos",
+    "https://support.claude.com/pt/articles/16266773-como-claude-marca-conteudo-gerado-por-ia"
+   ],
+   "angulo": "Gancho: seu texto feito com IA pode carregar uma assinatura invisível. Como funciona, o que a empresa admite (edição, tradução e texto curto apagam a marca; ausência não prova que não é IA) e por que não serve de prova contra aluno ou funcionário. Liga ao tema da foto verificada do iPhone.",
+   "formato": "explicador",
+   "tipo": "short",
+   "quadro": "60s",
+   "verificar_antes": "Ler a página de ajuda oficial e confirmar escopo (modelos lançados na UE a partir de 02/08/2026 e anteriores), se o detector é público e o que vale para imagens (C2PA). Não achei data exata do anúncio: confirmar que é novidade desta semana.",
+   "fontes": [
+    {
+     "nome": "Tecnoblog",
+     "url": "https://tecnoblog.net/noticias/anthropic-vai-identificar-textos-e-imagens-gerados-pelo-claude/"
+    },
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/inteligencia-artificial/marca-dagua-do-claude-ajuda-na-transparencia-mas-nao-prova-autoria-de-textos"
+    },
+    {
+     "nome": "Claude Help Center",
+     "url": "https://support.claude.com/pt/articles/16266773-como-claude-marca-conteudo-gerado-por-ia"
+    }
+   ],
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "nota": 4,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-11",
+   "assunto": "Celulares de 12.000 mAh: Vivo e Oppo preparam baterias quase do tamanho de um power bank",
+   "por_que_em_alta": "Canaltech (10/11): leaker Digital Chat Station cita bateria de 11.970 mAh da Vivo/Jovi em produção em massa; Oppo PNC110 aparece no CMIIT com 11.460 a 11.640 mAh; GizChina como origem. Nada confirmado oficialmente.",
+   "evidencias": [
+    "https://canaltech.com.br/smartphone/12000-mah-dois-celulares-com-bateria-absurda-estao-prestes-a-chegar-ao-mercado/",
+    "https://canaltech.com.br/smartphone/xiaomi-prepara-top-barato-com-bateria-absurda-de-10000-mah/"
+   ],
+   "angulo": "Reforça a pauta de 10.000 mAh de 05/11: juntar as duas num só Lá Fora, Aqui com a pergunta 'por que a bateria do celular vendido aqui é menor?' (Redmi Note 17 Pro Max: 9.210 mAh no Brasil). Tratar tudo como vazamento.",
+   "formato": "explicador",
+   "tipo": "longo",
+   "quadro": "lafora",
+   "origem": "gringo",
+   "criterios_gringo": "1 sim (Gizmochina, Canaltech, Digital Chat Station); 2 sim; 3 fraco (Canaltech cobre); 4 sim (power bank). Reserva da pauta de 05/11.",
+   "verificar_antes": "Tudo é vazamento: esperar fonte oficial ou segunda fonte de fora (GSMArena/Gizmochina).",
+   "fontes": [
+    {
+     "nome": "Canaltech (12.000 mAh)",
+     "url": "https://canaltech.com.br/smartphone/12000-mah-dois-celulares-com-bateria-absurda-estao-prestes-a-chegar-ao-mercado/"
+    },
+    {
+     "nome": "Canaltech (Xiaomi 10.000 mAh)",
+     "url": "https://canaltech.com.br/smartphone/xiaomi-prepara-top-barato-com-bateria-absurda-de-10000-mah/"
+    }
+   ],
+   "imagens_oficiais": [],
+   "post_relacionado": "como-escolher-power-bank",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Power bank como alternativa, conferir ativo=sim no CSV."
+   },
+   "nota": 3,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-11",
+   "assunto": "Como usar o celular como webcam no OBS (Android e iPhone, sem pagar)",
+   "quadro": "tutorial",
+   "tipo": "tutorial",
+   "palavra_chave": "como usar o celular como webcam no obs",
+   "por_que_em_alta": "Dúvida com busca constante e concorrência baixa",
+   "evidencias": [
+    "vidIQ 08/11: ~15 mil buscas/mês, concorrência 29, nota 66"
+   ],
+   "angulo": "Resultado primeiro: o celular vira câmera do PC em minutos. Caminhos oficiais (OBS Studio, webcam nativa, Continuity Camera no Mac) e problemas comuns de latência e cabo. Conferir os passos nas páginas oficiais e gravar a tela delas.",
+   "formato": "tutorial",
+   "fontes": [
+    {
+     "nome": "OBS Project",
+     "url": "https://obsproject.com/"
+    }
+   ],
+   "status": "nova",
+   "nota": 4,
+   "origem": "vidiq"
+  },
+  {
+   "data": "2026-11-11",
+   "assunto": "Como colocar película no celular sem bolha (passo a passo)",
+   "quadro": "tutorial",
+   "tipo": "tutorial",
+   "palavra_chave": "como colocar pelicula no celular",
+   "por_que_em_alta": "Busca estável e evergreen; combina com a Black Friday (acessório comprado junto com o celular)",
+   "evidencias": [
+    "vidIQ 08/11: ~22 mil buscas/mês, concorrência 37, nota 64 (crescimento -46%: demanda estável, não em alta)"
+   ],
+   "angulo": "Resultado: película sem bolha em 5 minutos. Limpeza, alinhamento, o que fazer com bolha e poeira.",
+   "formato": "tutorial",
+   "fontes": [],
+   "status": "nova",
+   "nota": 3,
+   "origem": "vidiq",
+   "verificar_antes": "Achar página oficial de ajuda para mostrar o passo a passo; sem isso, descartar."
+  },
+  {
+   "data": "2026-11-10",
+   "assunto": "Magalu faz queima do Galaxy S25 Ultra antes da Black Friday: R$ 4.498,80 no Pix com cupom",
+   "por_que_em_alta": "Canaltech (09/11, 17h19): Galaxy S25 Ultra 256 GB/12 GB a R$ 4.498,80 no Pix com o cupom INFLU300, contra R$ 11.999 no lançamento. Celular top com queda forte é busca certa na semana do 11.11. Não está no Google Trends BR de hoje (sem tema de tecnologia nos 10 primeiros).",
+   "evidencias": [
+    "https://canaltech.com.br/smartphone/magalu-faz-queima-de-galaxy-s25-ultra-antes-da-black-friday/"
+   ],
+   "angulo": "Gancho: o celular de R$ 11.999 caiu para R$ 4.498 em menos de dois anos. Por que o top de linha desvaloriza tanto, quando vale comprar o modelo do ano passado e a ressalva: cupom e Pix, preço muda sem aviso.",
+   "formato": "noticia",
+   "tipo": "short",
+   "quadro": "60s",
+   "verificar_antes": "OFERTA COM PRAZO: abrir a página do Magalu e conferir preço, cupom e estoque na hora de gravar; falar 'preço visto em 09/11'. Confirmar o preço de lançamento (R$ 11.999) em uma segunda fonte. Sem link de afiliado do Magalu; se o S25 Ultra estiver no catálogo (ML), o curador avalia. Sem valor de comissão em lugar nenhum.",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/smartphone/magalu-faz-queima-de-galaxy-s25-ultra-antes-da-black-friday/"
+    },
+    {
+     "nome": "Magazine Luiza (página da oferta, a conferir)",
+     "url": "https://www.magazineluiza.com.br/"
+    }
+   ],
+   "imagens_oficiais": [
+    "https://www.samsung.com/br/smartphones/galaxy-s25-ultra/"
+   ],
+   "post_relacionado": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Conferir no CSV se há celular Samsung ativo=sim; senão editorial."
+   },
+   "nota": 4,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-10",
+   "assunto": "Apple Reference Image: o modo do iPhone que prova que a foto não é de IA",
+   "por_que_em_alta": "Tecnoblog, Canaltech e Mundo Conectado em português; Nieman Lab, Cult of Mac, Notebookcheck e Techlicious lá fora (5+ fontes de fora). Tecnoblog segue destacando o tema hoje. Fontes divergem sobre o estágio (beta do iOS 27 ou iPhone 18 Pro) e dizem que a Apple não detalhou o Brasil.",
+   "evidencias": [
+    "https://tecnoblog.net/noticias/iphone-ganhara-modo-que-prova-que-foto-e-real-e-nao-foi-gerada-por-ia/",
+    "https://canaltech.com.br/smartphone/iphone-18-pro-ganha-recurso-para-provar-que-foto-nao-foi-criada-por-ia",
+    "https://www.niemanlab.org/2026/09/apple-launches-a-new-way-to-prove-a-photo-was-shot-with-an-iphone-not-generated-by-ai/",
+    "https://www.cultofmac.com/news/apple-reference-image"
+   ],
+   "angulo": "Gancho: num mundo de foto falsa com IA, o iPhone quer assinar a sua foto como verdadeira. Como funciona (dados do sensor + servidor da Apple, opcional nos Ajustes da câmera), o que NÃO prova, como difere do C2PA/Content Credentials (Leica, Sony, Nikon, Google) e se chega ao Brasil. Liga ao tema golpes com IA.",
+   "formato": "explicador",
+   "tipo": "longo",
+   "quadro": "lafora",
+   "origem": "gringo",
+   "criterios_gringo": "1 sim (Nieman Lab, Cult of Mac, Notebookcheck, Techlicious); 2 parcial (iPhone vende muito no BR, disponibilidade indefinida); 3 parcial (Tecnoblog e Canaltech cobriram em texto, vídeo em PT quase nada: buscar no YouTube BR antes); 4 sim (posts de iPhone e golpes)",
+   "verificar_antes": "Abrir o anúncio/página de suporte oficial da Apple: em que versão (iOS 27? iPhone 18 Pro?), quais mercados e se vale para o Brasil. Não afirmar disponibilidade aqui sem fonte.",
+   "fontes": [
+    {
+     "nome": "Tecnoblog",
+     "url": "https://tecnoblog.net/noticias/iphone-ganhara-modo-que-prova-que-foto-e-real-e-nao-foi-gerada-por-ia/"
+    },
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/smartphone/iphone-18-pro-ganha-recurso-para-provar-que-foto-nao-foi-criada-por-ia"
+    },
+    {
+     "nome": "Nieman Lab",
+     "url": "https://www.niemanlab.org/2026/09/apple-launches-a-new-way-to-prove-a-photo-was-shot-with-an-iphone-not-generated-by-ai/"
+    },
+    {
+     "nome": "Cult of Mac",
+     "url": "https://www.cultofmac.com/news/apple-reference-image"
+    }
+   ],
+   "imagens_oficiais": [
+    "https://www.apple.com/br/newsroom/"
+   ],
+   "post_relacionado": "iphone-duo-vale-a-pena-dobravel",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "nota": 4,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-10",
+   "assunto": "Sony acaba com a mídia física: Kojima chama de 'muito triste' e petição passa de 165 mil assinaturas",
+   "por_que_em_alta": "Tecnoblog (marcado como 'hoje' na página inicial), Critical Hits, TecMundo e Rolling Stone Brasil; Insider Gaming e Notebookcheck lá fora. A CFO da Sony reconheceu as críticas e manteve o plano. Tema forte na semana do GTA 6 (a mídia física é o assunto do pré-download de 212 GB).",
+   "evidencias": [
+    "https://tecnoblog.net/noticias/hideo-kojima-critica-fim-da-midia-fisica-no-playstation/",
+    "https://tecnoblog.net/noticias/sony-reconhece-criticas-mas-mantem-fim-da-midia-fisica/",
+    "https://criticalhits.com.br/games/hideo-kojima-se-posiciona-contra-o-fim-dos-jogos-fisicos-da-sony/",
+    "https://insider-gaming.com/hideo-kojima-says-the-end-of-physical-games-is-frightening/"
+   ],
+   "angulo": "Gancho: a Sony vai parar de fazer jogos em disco e até o criador de Metal Gear acha triste. O que muda para quem compra jogo no Brasil (revenda, empréstimo, preço, acesso offline) e o que a Sony disse. Sem opinião sobre a empresa além do que as fontes sustentam.",
+   "formato": "explicador",
+   "tipo": "short",
+   "quadro": "60s",
+   "verificar_antes": "BLOQUEANTE para números: a data do fim da mídia física (um resumo de busca diz 'a partir de janeiro de 2028') e as 165 mil assinaturas (Rolling Stone) precisam ser confirmadas no comunicado da Sony/PlayStation Blog e em 2 fontes. Confirmar o escopo (só jogos novos? só PS6?). Se não confirmar, descartar.",
+   "fontes": [
+    {
+     "nome": "Tecnoblog (Kojima)",
+     "url": "https://tecnoblog.net/noticias/hideo-kojima-critica-fim-da-midia-fisica-no-playstation/"
+    },
+    {
+     "nome": "Tecnoblog (Sony mantém)",
+     "url": "https://tecnoblog.net/noticias/sony-reconhece-criticas-mas-mantem-fim-da-midia-fisica/"
+    },
+    {
+     "nome": "Critical Hits",
+     "url": "https://criticalhits.com.br/games/hideo-kojima-se-posiciona-contra-o-fim-dos-jogos-fisicos-da-sony/"
+    },
+    {
+     "nome": "PlayStation Blog (a localizar)",
+     "url": "https://blog.playstation.com"
+    }
+   ],
+   "imagens_oficiais": [
+    "https://www.playstation.com/pt-br/"
+   ],
+   "post_relacionado": "xbox-series-fsr-4-1-gta-6-o-que-muda",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "nota": 3,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-10",
+   "assunto": "Windows 11: Microsoft teria reajustado em 7% a 10% as licenças OEM, e PC fica mais caro",
+   "por_que_em_alta": "Tecnoblog (destaque 'hoje' na página), Hardware.com.br, Canaltech (PCs já repassaram o aumento); TechRadar, Notebookcheck e Windows Latest lá fora. A fonte original é o United Daily News (Taiwan) e a Microsoft não comentou; matérias de agosto voltam à home. Liga à pauta de memória cara (03/11).",
+   "evidencias": [
+    "https://tecnoblog.net/noticias/microsoft-teria-aumentado-preco-do-windows-11-oem-deixando-pcs-mais-caros/",
+    "https://www.hardware.com.br/noticias/pcs-windows-mais-caros-licencas-microsoft/amp/",
+    "https://canaltech.com.br/hardware/pcs-ficaram-ainda-mais-caros-por-conta-do-aumento-da-licenca-do-windows/",
+    "https://www.techradar.com/computing/windows/microsoft-reportedly-pours-fuel-on-pc-pricing-flames-as-it-implements-a-significant-increase-for-windows-11-licenses"
+   ],
+   "angulo": "Gancho: além da memória, agora o Windows também pesa no preço do PC. Tratar como relato, não como fato oficial. Licença avulsa não mudou (US$ 99 Home / US$ 199 Pro). Dica final: ver máquinas sem Windows ou usar a licença que já se tem.",
+   "formato": "explicador",
+   "tipo": "short",
+   "quadro": "60s",
+   "verificar_antes": "É REPORTAGEM DE AGOSTO que voltou à home: confirmar se há fato novo hoje. Sem isso, nota baixa e reserva. Dizer sempre 'segundo o United Daily News' e que a Microsoft não confirmou.",
+   "fontes": [
+    {
+     "nome": "Tecnoblog",
+     "url": "https://tecnoblog.net/noticias/microsoft-teria-aumentado-preco-do-windows-11-oem-deixando-pcs-mais-caros/"
+    },
+    {
+     "nome": "Hardware.com.br",
+     "url": "https://www.hardware.com.br/noticias/pcs-windows-mais-caros-licencas-microsoft/amp/"
+    },
+    {
+     "nome": "TechRadar",
+     "url": "https://www.techradar.com/computing/windows/microsoft-reportedly-pours-fuel-on-pc-pricing-flames-as-it-implements-a-significant-increase-for-windows-11-licenses"
+    }
+   ],
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "nota": 3,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-10",
+   "assunto": "Como desbloquear o celular quando esquece a senha (sem perder tudo)",
+   "quadro": "tutorial",
+   "tipo": "tutorial",
+   "palavra_chave": "como desbloquear o celular quando esquece a senha",
+   "por_que_em_alta": "Dúvida com busca constante no YouTube (não envelhece)",
+   "evidencias": [
+    "vidIQ 08/11: ~15,5 mil buscas/mês, concorrência 26, nota 67"
+   ],
+   "angulo": "Os caminhos oficiais por sistema: Encontre Meu Dispositivo do Google, SmartThings Find da Samsung e Apple (modo de recuperação/Buscar), com aviso do que é apagado e do bloqueio de fábrica. Conferir os passos nas páginas de ajuda oficiais e gravar a tela delas.",
+   "formato": "tutorial",
+   "fontes": [],
+   "status": "nova",
+   "nota": 5,
+   "origem": "vidiq"
+  },
+  {
+   "data": "2026-11-09",
+   "assunto": "11.11 e Black Friday antecipada: Mercado Livre, Shopee e Magalu liberam cupons dias antes de 27/11",
+   "por_que_em_alta": "Gazeta SP e Diário do Pará (nos resultados de busca de hoje): Shopee, Mercado Livre e Magalu adiantam a Black Friday para o dia 11, com R$ 125 milhões em cupons; Meio & Mensagem e Tecnoblog (Black November, cupons de até 15% em celular, relógio e tablet). Black Friday oficial em 27/11. Não consegui abrir a Gazeta SP (403): confirmar os números em outra fonte.",
+   "evidencias": [
+    "https://www.gazetasp.com.br/economia/shopee-mercado-livre-e-magalu-adiantam-black-friday-de-27-de-novembro-para-o-dia-11-com-r-125-milhoes-em-cupons/",
+    "https://www.meioemensagem.com.br/marketing/mercado-livre-explorara-cupons-para-11-11-e-black-friday",
+    "https://tecnoblog.net/achados/cupons-black-friday-2026-mercado-livre/"
+   ],
+   "angulo": "Gancho: a Black Friday começou 16 dias antes. Como saber se o desconto é real (histórico de preço dos últimos 60 dias, selo do Mercado Livre) e as 3 regras para não cair em preço inflado. Complementa o vídeo de golpes de 03/11 sem repetir: aqui o assunto é preço falso, não site falso.",
+   "formato": "guia",
+   "tipo": "short",
+   "quadro": "60s",
+   "verificar_antes": "Abrir a página oficial de cupons/ofertas do Mercado Livre e a regra do selo Black Friday (menor preço em 60 dias, vinda do Meio & Mensagem) e confirmar os R$ 125 milhões em uma segunda fonte. Publicar até 11/11. Sem valor de comissão em nenhum lugar.",
+   "fontes": [
+    {
+     "nome": "Gazeta SP",
+     "url": "https://www.gazetasp.com.br/economia/shopee-mercado-livre-e-magalu-adiantam-black-friday-de-27-de-novembro-para-o-dia-11-com-r-125-milhoes-em-cupons/"
+    },
+    {
+     "nome": "Meio & Mensagem",
+     "url": "https://www.meioemensagem.com.br/marketing/mercado-livre-explorara-cupons-para-11-11-e-black-friday"
+    },
+    {
+     "nome": "Tecnoblog (cupons Black November)",
+     "url": "https://tecnoblog.net/achados/cupons-black-friday-2026-mercado-livre/"
+    }
+   ],
+   "imagens_oficiais": [],
+   "post_relacionado": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Sem produto no vídeo; o post liga ao guia de compras."
+   },
+   "nota": 4,
+   "status": "em_video"
+  },
+  {
+   "data": "2026-11-09",
+   "assunto": "Histórias Tech: Tamagotchi, 30 anos do bichinho virtual que esgotou em 48 horas",
+   "por_que_em_alta": "Data redonda: lançado no Japão pela Bandai em 23/11/1996; 30 anos em duas semanas. Xataka Brasil (set/2025) fala em 100 milhões de unidades; Bandai também marcou o 30º ano. Nostalgia millennial forte no Brasil.",
+   "evidencias": [
+    "https://www.xataka.com.br/diversos/100-milhoes-tamagotchis-em-30-anos-motivo-pelo-qual-eles-continuam-vendendo-tem-um-nome-nostalgia-millennial",
+    "https://istoedinheiro.com.br/tamagotchi-nostalgia-mercado"
+   ],
+   "angulo": "Gancho: um ovo de plástico com 3 botões esgotou em 48 horas e vendeu mais de 100 milhões. Auge (1996-97, criado por Aki Maita), virada (modinha que sumiu das lojas e voltou como nostalgia/Wi-Fi), lição: produto simples que cria vínculo emocional sobrevive a qualquer moda. Fecha com pergunta: qual foi o seu e quantas vezes morreu?",
+   "formato": "curiosidade",
+   "tipo": "short",
+   "quadro": "historias",
+   "verificar_antes": "Data 23/11/1996 aparece em resumo de busca, não na Xataka: confirmar em 2 fontes (Bandai oficial e outra). 'Esgotou em 48 horas' e 'cerca de 30 países em poucos meses' vieram de um resultado de busca. Vendas: 91 mi (reportagem BR, 2023) x 98,1 mi x 100 mi (Bandai, jul/2025): usar só o número oficial da Bandai com a data. Publicar de 21 a 23/11.",
+   "fontes": [
+    {
+     "nome": "Xataka Brasil",
+     "url": "https://www.xataka.com.br/diversos/100-milhoes-tamagotchis-em-30-anos-motivo-pelo-qual-eles-continuam-vendendo-tem-um-nome-nostalgia-millennial"
+    },
+    {
+     "nome": "IstoÉ Dinheiro",
+     "url": "https://istoedinheiro.com.br/tamagotchi-nostalgia-mercado"
+    },
+    {
+     "nome": "Bandai Namco (comunicado)",
+     "url": "https://www.bandainamco.co.jp/"
+    }
+   ],
+   "imagens_oficiais": [
+    "https://tamagotchi-official.com/"
+   ],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Sem produto."
+   },
+   "nota": 4,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-09",
+   "assunto": "GTA 6: o pré-carregamento abre hoje à noite (Xbox 21h) e à 0h de terça (PS5), 212 GB",
+   "por_que_em_alta": "Fontes de hoje (Fast Company Brasil, Diário de Pernambuco, PlayNews, Canaltech) convergem: Xbox 21h de 09/11 e PS5 0h de 10/11, horário de Brasília; só o Overdrive ainda cita 12/11. Lançamento em 19/11. Nosso Short de 06/11 tratou do conflito de datas; este é o 'chegou a hora'.",
+   "evidencias": [
+    "https://fastcompanybrasil.com/games/gta-6-tem-data-pre-download-veja-quando-baixar-ps5-xbox/",
+    "https://www.diariodepernambuco.com.br/tecnologia/2026/11/11728271-gta-6-pre-carregamento-comeca-em-10-de-novembro-e-exige-ate-212-gb-de-espaco.html",
+    "https://canaltech.com.br/games/rockstar-prepara-pre-carregamento-e-brindes-para-lancamento-de-gta-6/"
+   ],
+   "angulo": "Gancho: o download do GTA 6 libera hoje às 21h no Xbox e à meia-noite no PS5. Só para quem comprou digital; 212 GB; o pré-load não antecipa o jogo (19/11). Risco de repetir o vídeo de 06/11: abrir com a ação (checar espaço agora) e não com a divergência de datas.",
+   "formato": "alerta",
+   "tipo": "short",
+   "quadro": "60s",
+   "verificar_antes": "OBRIGATÓRIO conferir no Rockstar Newswire/suporte a data oficial por plataforma antes do roteiro. Se a Rockstar confirmar, publicar hoje ou amanhã às 12h; passado de 10/11, já perde o gancho.",
+   "fontes": [
+    {
+     "nome": "Fast Company Brasil",
+     "url": "https://fastcompanybrasil.com/games/gta-6-tem-data-pre-download-veja-quando-baixar-ps5-xbox/"
+    },
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/games/rockstar-prepara-pre-carregamento-e-brindes-para-lancamento-de-gta-6/"
+    },
+    {
+     "nome": "Rockstar Games Newswire",
+     "url": "https://www.rockstargames.com/newswire"
+    }
+   ],
+   "imagens_oficiais": [
+    "https://www.rockstargames.com/newswire"
+   ],
+   "post_relacionado": "gta-6-pre-carregamento-horario-ps5-xbox-212-gb",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "nota": 4,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-07",
+   "assunto": "Histórias Tech: Xbox, os 25 anos do console que a Microsoft lançou para enfrentar a Sony",
+   "por_que_em_alta": "Data redonda: Xbox lançado em 15/11/2001 na América do Norte; Hardware.com.br e Phil Spencer abriram as comemorações dos 25 anos. Combina com a semana de GTA 6.",
+   "evidencias": [
+    "https://www.history.com/this-day-in-history/november-15/microsoft-releases-xbox-gaming-console",
+    "https://www.hardware.com.br/artigos/xbox-anuncio-bill-gates-the-rock-ces-2001-25-anos/amp/"
+   ],
+   "angulo": "Gancho: a Microsoft entrou num mercado dominado por japoneses com um console de US$ 299,99, e cerca de 25% das primeiras unidades tinham defeito no drive de DVD. Virada: Halo, Xbox Live (15/11/2002) e a briga com o PS2 (cerca de 24 milhões contra 150 milhões). Lição: perder a geração, mas construir a plataforma.",
+   "formato": "curiosidade",
+   "tipo": "short",
+   "quadro": "historias",
+   "verificar_antes": "Publicar de 13 a 15/11 para pegar a data. Preço US$ 299,99, 24 mi contra 150 mi e o defeito de 25% vieram de um resumo de busca: confirmar cada um em 2 fontes antes do roteiro.",
+   "fontes": [
+    {
+     "nome": "History.com (15/11/2001)",
+     "url": "https://www.history.com/this-day-in-history/november-15/microsoft-releases-xbox-gaming-console"
+    },
+    {
+     "nome": "Hardware.com.br",
+     "url": "https://www.hardware.com.br/artigos/xbox-anuncio-bill-gates-the-rock-ces-2001-25-anos/amp/"
+    },
+    {
+     "nome": "The National",
+     "url": "https://www.thenationalnews.com/arts-culture/2026/08/16/xbox-at-25-how-microsoft-muscled-its-way-into-console-gaming-and-changed-the-industry/"
+    }
+   ],
+   "imagens_oficiais": [
+    "https://news.xbox.com/pt-br/2021/05/13/comemorando-20-anos-de-xbox/amp/"
+   ],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Sem produto."
+   },
+   "nota": 4,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-07",
+   "assunto": "Histórias Tech: Wii, 20 anos do console que apostou no movimento e passou PS3 e Xbox 360",
+   "por_que_em_alta": "Data redonda: Wii lançado em 19/11/2006 na América do Norte; Gazeta SP e Hardware.com.br fazem a retrospectiva dos 20 anos. Nostalgia forte e ligação com o Switch 2.",
+   "evidencias": [
+    "https://www.gazetasp.com.br/entretenimento/nintendo-wii-completa-20-anos-e-resgata-nostalgia-de-uma-epoca-em-que-videogame-tirou-familias-do-sofa-para-jogar-juntas-na-sala-de-casa/",
+    "https://www.hardware.com.br/artigos/nintendo-wii/amp/"
+   ],
+   "angulo": "Gancho: o console menos potente da geração foi o mais vendido. Auge: controle de movimento e 80 milhões de consoles em 4 anos (Hardware.com.br). Virada: o público casual foi embora e o Wii U falhou. Lição: inovar em como se joga, não em gráfico.",
+   "formato": "curiosidade",
+   "tipo": "short",
+   "quadro": "historias",
+   "verificar_antes": "Datas divergem: 19/11/2006 (América do Norte) e 02/12/2006 (Japão, Wikipedia). O total de cerca de 101 milhões vem só da Wikipedia (dado de 2019): achar o número oficial no relatório da Nintendo. Publicar perto de 19/11.",
+   "fontes": [
+    {
+     "nome": "Gazeta SP",
+     "url": "https://www.gazetasp.com.br/entretenimento/nintendo-wii-completa-20-anos-e-resgata-nostalgia-de-uma-epoca-em-que-videogame-tirou-familias-do-sofa-para-jogar-juntas-na-sala-de-casa/"
+    },
+    {
+     "nome": "Hardware.com.br",
+     "url": "https://www.hardware.com.br/artigos/nintendo-wii/amp/"
+    },
+    {
+     "nome": "Nintendo (relatório de vendas, a localizar)",
+     "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/"
+    }
+   ],
+   "imagens_oficiais": [
+    "https://www.nintendo.com/br/"
+   ],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Sem produto."
+   },
+   "nota": 4,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-07",
+   "assunto": "Histórias Tech: PlayStation 3, 20 anos do console caro demais que quase derrubou a Sony",
+   "por_que_em_alta": "Data redonda: PS3 lançado em 11/11/2006 no Japão e 17/11/2006 na América do Norte (página oficial PlayStation Brasil); 87 milhões vendidos segundo o PlayStation. A Sony também está no debate do fim da mídia física.",
+   "evidencias": [
+    "https://www.playstation.com/pt-br/playstation-history/2007-ps3-ps-vita/",
+    "https://www.hardware.com.br/?p=285317"
+   ],
+   "angulo": "Gancho: o ex-chefe do PlayStation admitiu que a Sony ficou contente de ter sobrevivido à geração do PS3 (Hardware.com.br). Virada: preço alto, Cell e Blu-ray contra o Xbox 360. Lição: a recuperação vem de ouvir o público.",
+   "formato": "curiosidade",
+   "tipo": "short",
+   "quadro": "historias",
+   "verificar_antes": "Preço de lançamento não confirmado: achar em 2 fontes ou omitir. A versão PT-PT da página oficial cita 2007; tratar o ano com cuidado e usar a página do Brasil.",
+   "fontes": [
+    {
+     "nome": "PlayStation Brasil (história)",
+     "url": "https://www.playstation.com/pt-br/playstation-history/2007-ps3-ps-vita/"
+    },
+    {
+     "nome": "Hardware.com.br",
+     "url": "https://www.hardware.com.br/?p=285317"
+    }
+   ],
+   "imagens_oficiais": [
+    "https://www.playstation.com/pt-br/playstation-history/2007-ps3-ps-vita/"
+   ],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Sem produto."
+   },
+   "nota": 3,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-07",
+   "assunto": "Anatel: operadoras passam a bloquear ligações abusivas a partir de 12/11",
+   "por_que_em_alta": "Teletime (19/10): Despacho Decisório nº 100/2026 da Anatel vale a partir de 12/11; Tecnoblog, Canaltech e TNH1 cobrem. Interessa a todo mundo que recebe ligação de golpe.",
+   "evidencias": [
+    "https://teletime.com.br/19/10/2026/operadoras-bloqueio-chamadas-abusivas/",
+    "https://tecnoblog.net/noticias/anatel-define-regras-para-operadoras-bloquearem-chamadas-de-spam/",
+    "https://canaltech.com.br/telecom/fim-das-ligacoes-indesejadas-anatel-cria-regras-padronizadas-para-filtros-de-spam/"
+   ],
+   "angulo": "Gancho: a partir de quinta (12/11) a operadora pode derrubar a ligação de golpe antes de tocar. O que muda, o que não pode ser bloqueado (órgãos públicos, Defesa Civil, urgência médica) e o que fazer se uma ligação legítima cair.",
+   "formato": "alerta",
+   "tipo": "short",
+   "quadro": "60s",
+   "verificar_antes": "Abrir o despacho nº 100/2026 no site da Anatel: o prazo de 15 dias após 12/11 aparece em uma só fonte e pode ser de norma antiga. Publicar até 11/11.",
+   "fontes": [
+    {
+     "nome": "Teletime",
+     "url": "https://teletime.com.br/19/10/2026/operadoras-bloqueio-chamadas-abusivas/"
+    },
+    {
+     "nome": "Tecnoblog",
+     "url": "https://tecnoblog.net/noticias/anatel-define-regras-para-operadoras-bloquearem-chamadas-de-spam/"
+    },
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/telecom/fim-das-ligacoes-indesejadas-anatel-cria-regras-padronizadas-para-filtros-de-spam/"
+    },
+    {
+     "nome": "Anatel",
+     "url": "https://www.gov.br/anatel/"
+    }
+   ],
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "nota": 4,
+   "status": "em_video"
+  },
+  {
+   "data": "2026-11-07",
+   "assunto": "Xiaomi 18 Pro e Pro Max: preços vazados na Europa com aumento forte, global em novembro",
+   "por_que_em_alta": "GSMArena e Tech Advisor: Pro perto de EUR 1.449 e Pro Max EUR 1.849 (vazamento), no nível do iPhone 18 Pro Max na Europa; GaGadget: global em novembro com baterias menores; Xiaomi confirmou o global em 02/11.",
+   "evidencias": [
+    "https://www.gsmarena.com/xiaomi_18_pro_and_xiaomi_18_pro_max_european_prices_leak-news-75114.php",
+    "https://www.techadvisor.com/article/3264492/xiaomi-18-pro-and-pro-max-european-prices-leak-with-major-hikes.html",
+    "https://gagadget.com/en/732552-xiaomi-18-pro-goes-global-in-november-with-smaller-batteries/"
+   ],
+   "angulo": "Gancho: o top da Xiaomi custa o mesmo que um iPhone Pro Max na Europa. A memória cara explica? Chega ao Brasil? Estimar em reais com a cotação do dia, avisando que o preço é vazamento.",
+   "formato": "comparativo",
+   "tipo": "longo",
+   "quadro": "lafora",
+   "origem": "gringo",
+   "criterios_gringo": "1 sim (GSMArena, Tech Advisor, GaGadget); 2 sim (Xiaomi vende no BR, tema preço); 3 parcial (Canaltech cobriu a confirmação do global, não o preço); 4 sim (posts de celular e memória)",
+   "verificar_antes": "Preços são vazamento, não oficiais. Esperar o lançamento global para o vídeo longo; até lá, reserva.",
+   "fontes": [
+    {
+     "nome": "GSMArena",
+     "url": "https://www.gsmarena.com/xiaomi_18_pro_and_xiaomi_18_pro_max_european_prices_leak-news-75114.php"
+    },
+    {
+     "nome": "Tech Advisor",
+     "url": "https://www.techadvisor.com/article/3264492/xiaomi-18-pro-and-pro-max-european-prices-leak-with-major-hikes.html"
+    },
+    {
+     "nome": "Canaltech (confirmação do global)",
+     "url": "https://canaltech.com.br/produtos/xiaomi-confirma-18-pro-global-para-novembro-smartwatch-e-fones-sao-esperados/"
+    }
+   ],
+   "imagens_oficiais": [
+    "https://www.mi.com/br/"
+   ],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "nota": 3,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-06",
+   "assunto": "GTA 6: três datas diferentes de pré-carregamento e pré-venda no Brasil",
+   "por_que_em_alta": "GTA 6 sai em 19/11 (meia-noite de Brasília, PS5 e Xbox); Canaltech, Omelete e Overdrive cobrem o pré-load, mas as fontes divergem: 10/11 (PS5), 9/11 às 21h (Xbox) ou 12/11 (página de suporte da Rockstar, segundo o Overdrive). Tamanho de 212 GB sem confirmação oficial clara.",
+   "evidencias": [
+    "https://www.omelete.com.br/games/gta-6-rockstar-confirma-tamanho-jogo-pre-carregamento",
+    "https://gameoverdrive.com.br/gta-6-rockstar-confirma-horario-brasil-novo-pre-load/",
+    "https://canaltech.com.br/games/rockstar-prepara-pre-carregamento-e-brindes-para-lancamento-de-gta-6/"
+   ],
+   "angulo": "Gancho: GTA 6 tem 212 GB e as fontes não concordam sobre quando dá para baixar. Mostrar o que é oficial (Rockstar) e quando limpar espaço. Não repetir o vídeo de 03/11: foco no conflito de datas e em como conferir.",
+   "formato": "alerta",
+   "tipo": "short",
+   "quadro": "60s",
+   "verificar_antes": "OBRIGATÓRIO abrir o Rockstar Newswire/suporte e fixar a data oficial do pré-load por plataforma; a pré-venda (R$ 449,90 e R$ 549,90) veio de um resultado de busca, confirmar nas lojas PS/Xbox ou omitir.",
+   "fontes": [
+    {
+     "nome": "Omelete",
+     "url": "https://www.omelete.com.br/games/gta-6-rockstar-confirma-tamanho-jogo-pre-carregamento"
+    },
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/games/rockstar-prepara-pre-carregamento-e-brindes-para-lancamento-de-gta-6/"
+    },
+    {
+     "nome": "Rockstar Games Newswire",
+     "url": "https://www.rockstargames.com/newswire"
+    }
+   ],
+   "imagens_oficiais": [
+    "https://www.rockstargames.com/newswire"
+   ],
+   "post_relacionado": "xbox-series-fsr-4-1-gta-6-o-que-muda",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "nota": 5,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-06",
+   "assunto": "Black Friday 27/11: o Selo Anatel e o carregador ou celular que pode ser irregular",
+   "por_que_em_alta": "Procon alerta sobre golpes e falsas promoções (Procon Piracicaba 03/11; Procon-SP); a Anatel orienta checar o selo em celulares e carregadores. Sazonal, a 3 semanas da Black Friday. A operação da Anatel com ML/Amazon que achei é de 2024.",
+   "evidencias": [
+    "https://www.band.com.br/nacional/sp/black-friday-procon-alerta-como-aproveitar-sem-cair-em-dividas-e-fraudes",
+    "https://tecnoblog.net/noticias/anatel-apreende-22-mil-produtos-irregulares-da-amazon-e-mercado-livre/"
+   ],
+   "angulo": "Gancho: o carregador barato da Black Friday pode ser ilegal e perigoso. Como conferir a homologação da Anatel em 30 segundos. Diferente do vídeo de golpes de 03/11 (sites clonados): aqui o assunto é o produto.",
+   "formato": "guia",
+   "tipo": "short",
+   "quadro": "60s",
+   "verificar_antes": "Achar a página oficial da Anatel sobre como conferir homologação e confirmar o passo a passo; a apreensão é de 2024, não tratar como atual.",
+   "fontes": [
+    {
+     "nome": "Band / Procon-SP",
+     "url": "https://www.band.com.br/nacional/sp/black-friday-procon-alerta-como-aproveitar-sem-cair-em-dividas-e-fraudes"
+    },
+    {
+     "nome": "Tecnoblog (operação da Anatel, 2024)",
+     "url": "https://tecnoblog.net/noticias/anatel-apreende-22-mil-produtos-irregulares-da-amazon-e-mercado-livre/"
+    },
+    {
+     "nome": "Anatel",
+     "url": "https://www.gov.br/anatel/"
+    }
+   ],
+   "imagens_oficiais": [],
+   "post_relacionado": "melhores-carregadores-turbo",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Ligar aos carregadores do catálogo (Baseus GaN5, Ugreen Nexode, Samsung 25 W) quando o guia sair; conferir ativo=sim."
+   },
+   "nota": 4,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-06",
+   "assunto": "Galaxy Z TriFold: o celular de 3 dobras que a Samsung começou a encerrar e nunca chegou ao Brasil",
+   "por_que_em_alta": "Tecnoblog: Samsung começa a encerrar as vendas (Bloomberg) e 2ª geração só em 2027 (rumor); lançado na Coreia em 12/12/2025 e a US$ 2.899 nos EUA; sem previsão no Brasil. O tema dobráveis está quente com o iPhone Duo.",
+   "evidencias": [
+    "https://tecnoblog.net/noticias/samsung-comeca-a-encerrar-vendas-do-galaxy-z-trifold/",
+    "https://tecnoblog.net/noticias/samsung-pode-lancar-nova-geracao-do-galaxy-trifold-em-2027/"
+   ],
+   "angulo": "Gancho: o celular que vira tablet custava US$ 2.899 e saiu de linha sem chegar aqui. Por que o dobrável triplo não vingou e o que comprar no lugar.",
+   "formato": "explicador",
+   "tipo": "longo",
+   "quadro": "lafora",
+   "origem": "gringo",
+   "criterios_gringo": "1 a confirmar (Bloomberg via Tecnoblog + outra fonte de fora); 2 parcial (não vende no BR, mas ancora o debate dos dobráveis); 3 sim; 4 sim (posts de dobráveis)",
+   "verificar_antes": "Confirmar data e fonte do fim das vendas e achar uma fonte de fora; converter preços com a cotação do dia, como estimativa.",
+   "fontes": [
+    {
+     "nome": "Tecnoblog (fim das vendas)",
+     "url": "https://tecnoblog.net/noticias/samsung-comeca-a-encerrar-vendas-do-galaxy-z-trifold/"
+    },
+    {
+     "nome": "Tecnoblog (2ª geração, rumor)",
+     "url": "https://tecnoblog.net/noticias/samsung-pode-lancar-nova-geracao-do-galaxy-trifold-em-2027/"
+    },
+    {
+     "nome": "Olhar Digital (lançamento)",
+     "url": "https://olhardigital.com.br/2025/12/02/reviews/samsung-apresenta-galaxy-z-trifold/"
+    }
+   ],
+   "imagens_oficiais": [],
+   "post_relacionado": "iphone-duo-vale-a-pena-dobravel",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "nota": 3,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-06",
+   "assunto": "Wall Street: techs e chips caem por temor de desaceleração da IA",
+   "por_que_em_alta": "Google Trends BR de hoje: 'wall street' com 2000+ buscas, ligado à queda de chips e Nasdaq por temores sobre a IA. Não confirmei os números em fonte primária (Nasdaq -5% e US$ 2,5 tri vieram só do resumo do Trends).",
+   "evidencias": [
+    "https://trends.google.com/trending/rss?geo=BR"
+   ],
+   "angulo": "Gancho: a IA deixou memória e celular mais caros, e agora o mercado teme que ela desacelere. Só entra com 2 fontes confiáveis; ligar ao vídeo de memória e preço de 03/11.",
+   "formato": "explicador",
+   "tipo": "short",
+   "quadro": "60s",
+   "verificar_antes": "BLOQUEANTE: números não verificados. Sem 2 fontes (Reuters, InfoMoney, CNN Brasil) com data de hoje, descartar.",
+   "fontes": [],
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "nota": 2,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-05",
+   "assunto": "Chromagraph: o app de câmera de Rian Johnson que lidera a App Store nos EUA",
+   "por_que_em_alta": "MacRumors (30/10): nº 1 em Foto e Vídeo na App Store dos EUA, anúncio no X com 6 milhões de views em 1 dia; também Gizmodo, No Film School, Newsshooter e GSMArena (05/11). Não achei cobertura em português.",
+   "evidencias": [
+    "https://macrumors.com/2026/10/30/rian-johnson-iphone-camera-app/",
+    "https://gizmodo.com/the-last-jedi-director-launches-a-new-camera-app-for-iphone-because-hes-a-good-guy-2000832061",
+    "https://nofilmschool.com/rian-johnson-steve-yedlin-app",
+    "https://www.newsshooter.com/2026/10/28/chromagraph-camera-ios-app-by-steve-yedlin-asc/"
+   ],
+   "angulo": "Gancho: o diretor de Knives Out lançou um app que troca o processamento da câmera do iPhone pelo look dos filmes dele. Chega aqui? Por quanto? Pago único (US$ 12,99 nos EUA, EUR 14,99 na Europa; conferir preço na App Store BR e converter como estimativa). Mostrar o que muda (RAW, cor, grão, halation), para quem serve e o que não faz (só foto, sem vídeo ainda). Alternativa: o app de câmera nativo; sem produto do catálogo.",
+   "formato": "explicador",
+   "tipo": "longo",
+   "quadro": "lafora",
+   "origem": "gringo",
+   "criterios_gringo": "1 sim (5+ fontes de fora); 2 sim (App Store global, iPhone é forte no BR); 3 sim (nada em PT achado); 4 parcial (posts de iPhone)",
+   "verificar_antes": "Preço e disponibilidade na App Store do Brasil e o nome exato do app no listing",
+   "fontes": [
+    {
+     "nome": "MacRumors",
+     "url": "https://macrumors.com/2026/10/30/rian-johnson-iphone-camera-app/"
+    },
+    {
+     "nome": "Gizmodo",
+     "url": "https://gizmodo.com/the-last-jedi-director-launches-a-new-camera-app-for-iphone-because-hes-a-good-guy-2000832061"
+    },
+    {
+     "nome": "No Film School",
+     "url": "https://nofilmschool.com/rian-johnson-steve-yedlin-app"
+    },
+    {
+     "nome": "Newsshooter",
+     "url": "https://www.newsshooter.com/2026/10/28/chromagraph-camera-ios-app-by-steve-yedlin-asc/"
+    }
+   ],
+   "imagens_oficiais": [
+    "Capturas oficiais na página do app na App Store (crédito Divulgação/Chromagraph); abrir com scripts/midia.py"
+   ],
+   "post_relacionado": "iphone-duo-vale-a-pena-dobravel",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Sem produto do catálogo; editorial. Curador pode avaliar tripé/lente para celular."
+   },
+   "nota": 4,
+   "status": "em_video"
+  },
+  {
+   "data": "2026-11-05",
+   "assunto": "Celular com 10.000 mAh ou mais: a corrida da bateria chegou ao Brasil?",
+   "por_que_em_alta": "Notebookcheck/GSMArena/Gizmochina (out-nov): Redmi Turbo 6 Max vaza com mais de 10.000 mAh e tela de 7 pol. (China, janeiro, não confirmado); Honor Power 2 já tem 10.080 mAh; Redmi Note 17 Pro Max global tem 10.000 mAh, mas a versão brasileira traz 9.210 mAh.",
+   "evidencias": [
+    "https://www.notebookcheck.net/Xiaomi-Redmi-Turbo-6-Max-leak-points-to-a-10-000mAh-plus-battery-and-7-inch-2K-display.1419050.0.html",
+    "https://canaltech.com.br/smartphone/bateria-de-10000-mah-6-celulares-que-desafiam-a-tomada-em-2026/"
+   ],
+   "angulo": "Gancho: lá fora já tem celular de 10.000 mAh; aqui a versão do Redmi veio com 9.210. Explicar a diferença (conferir motivo oficial, senão tratar como dúvida) e o que usar enquanto isso: power bank.",
+   "formato": "explicador",
+   "tipo": "longo",
+   "quadro": "lafora",
+   "origem": "gringo",
+   "criterios_gringo": "1 sim; 2 sim; 3 fraco (já coberto em PT); 4 sim. Reserva se a do Chromagraph cair.",
+   "fontes": [
+    {
+     "nome": "Notebookcheck (Redmi Turbo 6 Max, 08/10)",
+     "url": "https://www.notebookcheck.net/Xiaomi-Redmi-Turbo-6-Max-leak-points-to-a-10-000mAh-plus-battery-and-7-inch-2K-display.1419050.0.html"
+    },
+    {
+     "nome": "Canaltech (25/05)",
+     "url": "https://canaltech.com.br/smartphone/bateria-de-10000-mah-6-celulares-que-desafiam-a-tomada-em-2026/"
+    },
+    {
+     "nome": "Xataka Brasil (Redmi Note 17 Pro Max, 9.210 mAh)",
+     "url": "https://www.xataka.com.br/telefonia/xiaomi-lanca-redmi-note-17-pro-max-5g-no-brasil-com-a-maior-bateria-ja-vista-na-linha-9-210-mah"
+    }
+   ],
+   "imagens_oficiais": [],
+   "post_relacionado": "como-escolher-power-bank",
+   "produto": {
+    "id": "anker-a110e-20000-22w",
+    "como_encaixa": "Alternativa que já dá pra comprar: power bank de 20.000 mAh (confirmar ativo=sim no CSV)"
+   },
+   "nota": 3,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-05",
+   "assunto": "Samsung: Galaxy Buds4 Pro e Buds3 Pro vão funcionar como aparelho auditivo",
+   "por_que_em_alta": "GSMArena (05/11): recurso chega aos fones em breve; FDA liberou em 11/08 (9to5Google, Android Authority); Canaltech e Samsung Brasil já cobriram a aprovação. Sem data para o Brasil.",
+   "evidencias": [
+    "https://9to5google.com/2026/08/11/samsung-galaxy-buds-hearing-aid-feature/",
+    "https://canaltech.com.br/fone-de-ouvido/samsung-vai-transformar-galaxy-buds-em-aparelho-auditivo-eua-ja-aprovou/"
+   ],
+   "angulo": "Gancho: o fone da Samsung vai virar aparelho auditivo, nos EUA. Aqui? Sem data confirmada. Explicar o que é (adultos com perda leve a moderada, exige Galaxy com One UI 8+) e o que não substitui.",
+   "formato": "explicador",
+   "tipo": "short",
+   "quadro": "60s",
+   "verificar_antes": "Preço do Buds4 Pro no Brasil veio de resultado de busca; conferir no Samsung Brasil ou omitir.",
+   "fontes": [
+    {
+     "nome": "9to5Google",
+     "url": "https://9to5google.com/2026/08/11/samsung-galaxy-buds-hearing-aid-feature/"
+    },
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/fone-de-ouvido/samsung-vai-transformar-galaxy-buds-em-aparelho-auditivo-eua-ja-aprovou/"
+    },
+    {
+     "nome": "Samsung Newsroom Brasil",
+     "url": "https://news.samsung.com/br/recurso-hearing-aid-do-galaxy-buds-da-samsung-e-aprovado-pela-fda"
+    }
+   ],
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "nota": 3,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-07",
+   "assunto": "Histórias Tech #1: Orkut, o rei brasileiro que o Facebook engoliu",
+   "por_que_em_alta": "Histórias Tech de sábado 07/11. Nostalgia de alto engajamento no Brasil; TecMundo (2026), Canaltech, Olhar Digital e SBT News seguem cobrindo o Orkut. Sem notícia concorrente no dia.",
+   "evidencias": [
+    "https://canaltech.com.br/redes-sociais/a-historia-do-orkut-rede-social-ja-foi-a-favorita-do-brasil/",
+    "https://olhardigital.com.br/2024/09/30/internet-e-redes-sociais/10-anos-sem-orkut-o-legado-que-ainda-ressoa-nas-redes-sociais/",
+    "https://sbtnews.sbt.com.br/noticia/tecnologia/orkut-faz-20-anos"
+   ],
+   "angulo": "Gancho (momento dramático): o Google desligou em 30/09/2014 uma rede em que mais da metade dos usuários era brasileira. Auge (lançado em 24/01/2004 por Orkut Büyükkökten; versão em português em 2005; maioria brasileira), virada (Facebook passa o Orkut no Brasil no fim de 2011, medição comScore) e lição: ganhar o público não protege de um concorrente que chega no seu idioma e no celular. Fecha com pergunta.",
+   "formato": "curiosidade",
+   "tipo": "short",
+   "quadro": "historias",
+   "numero": 1,
+   "fatos_conferidos": {
+    "confirmado_em_2_fontes": [
+     "Lançamento em 24/01/2004 por Orkut Büyükkökten (Canaltech, SBT News, O Povo)",
+     "Encerramento em 30/09/2014 (Canaltech, Olhar Digital, Baguete; NSC Total diz 24/09, descartar)"
+    ],
+    "divergente_nao_usar_sem_conferir": [
+     "Usuários: Olhar Digital cita 40 milhões no Brasil em 2008; Canaltech cita ~34 milhões de contas brasileiras entre 66 milhões em 2014",
+     "Ultrapassagem pelo Facebook: dez/2011 (36,1 mi contra 34,4 mi, comScore, uma fonte) ou 2012 (NSC Total)"
+    ]
+   },
+   "verificar_antes": "Datas de 24/01/2004 e 30/09/2014 prontas. Número de usuários e data da ultrapassagem têm fontes divergentes: abrir as páginas e usar só o que 2 fontes repetirem, ou falar sem número.",
+   "fontes": [
+    {
+     "nome": "Canaltech (história do Orkut)",
+     "url": "https://canaltech.com.br/redes-sociais/a-historia-do-orkut-rede-social-ja-foi-a-favorita-do-brasil/"
+    },
+    {
+     "nome": "Olhar Digital (10 anos sem Orkut)",
+     "url": "https://olhardigital.com.br/2024/09/30/internet-e-redes-sociais/10-anos-sem-orkut-o-legado-que-ainda-ressoa-nas-redes-sociais/"
+    },
+    {
+     "nome": "SBT News (20 anos do Orkut)",
+     "url": "https://sbtnews.sbt.com.br/noticia/tecnologia/orkut-faz-20-anos"
+    },
+    {
+     "nome": "Baguete (Google decreta o fim do Orkut)",
+     "url": "https://www.baguete.com.br/noticias/google-decreta-o-fim-do-orkut"
+    }
+   ],
+   "imagens_oficiais": [
+    "Wikimedia Commons (logo e capturas do Orkut com licença livre); conferir a licença com scripts/midia.py"
+   ],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Sem produto."
+   },
+   "nota": 5,
+   "status": "em_video"
+  },
+  {
+   "data": "2026-11-05",
+   "assunto": "Histórias Tech: Nokia, de rainha dos celulares à venda da divisão em 2013",
+   "por_que_em_alta": "Pauta evergreen para domingo 08/11. Tema clássico de boa retenção.",
+   "evidencias": [],
+   "angulo": "Gancho: a Nokia liderou o mercado de celulares e deixou o iPhone passar. Auge, virada (Symbian vs. iPhone/Android), venda à Microsoft e lição. Números em 2 fontes.",
+   "formato": "curiosidade",
+   "tipo": "short",
+   "quadro": "historias",
+   "numero": 2,
+   "fontes": [],
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Sem produto."
+   },
+   "nota": 3,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-05",
+   "assunto": "Histórias Tech: BlackBerry, o celular dos executivos que perdeu o teclado",
+   "por_que_em_alta": "Pauta evergreen reserva; combina com a semana do iPhone Duo (aposta em novo formato).",
+   "evidencias": [],
+   "angulo": "Gancho: já foi o celular de presidentes, hoje nem fabrica mais. Auge, virada (tela sensível ao toque) e lição. Datas e números em 2 fontes.",
+   "formato": "curiosidade",
+   "tipo": "short",
+   "quadro": "historias",
+   "numero": 3,
+   "fontes": [],
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Sem produto."
+   },
+   "nota": 3,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-04",
+   "assunto": "iPhone Duo: 234 mil dobras ao vivo e a tela segue inteira",
+   "por_que_em_alta": "Canaltech (03/11) destaca teste ao vivo da CNET no 7º dia com 234.640 aberturas; Samsung declara 200 mil ciclos no Fold 8 e a Apple não diz o número",
+   "evidencias": [
+    "https://canaltech.com.br/smartphone/iphone-duo-esta-ha-7-dias-sendo-dobrado-ao-vivo-e-ainda-nao-quebrou-assista/"
+   ],
+   "angulo": "Gancho: 234 mil vezes aberto e fechado e a tela não quebrou. O que o teste prova e o que não prova (não simula queda nem pressão do dia a dia).",
+   "formato": "curiosidade",
+   "tipo": "short",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/smartphone/iphone-duo-esta-ha-7-dias-sendo-dobrado-ao-vivo-e-ainda-nao-quebrou-assista/"
+    },
+    {
+     "nome": "CNET (conferir a transmissão do teste Fold-a-Phone)",
+     "url": "https://www.cnet.com"
+    }
+   ],
+   "imagens_oficiais": [
+    "https://www.apple.com/br/newsroom/"
+   ],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro, sem produto."
+   },
+   "nota": 4,
+   "status": "em_video"
+  },
+  {
+   "data": "2026-11-04",
+   "assunto": "Sony e Microsoft recompram consoles usados: vai chegar ao Brasil?",
+   "por_que_em_alta": "Canaltech (03/11): Sony oferece até US$ 400 pelo PS5 usado após ação parecida do Xbox Series X; contexto do lançamento de GTA 6 em 19/11; no Brasil nenhuma ação foi iniciada",
+   "evidencias": [
+    "https://canaltech.com.br/games/sony-copia-xbox-e-oferece-ate-us-400-para-recomprar-playstation-5-usados/"
+   ],
+   "angulo": "Gancho: a Sony quer comprar o seu PS5 de volta por até US$ 400, mas não no Brasil. Por que as duas marcas fazem isso na semana do GTA 6.",
+   "formato": "explicador",
+   "tipo": "short",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/games/sony-copia-xbox-e-oferece-ate-us-400-para-recomprar-playstation-5-usados/"
+    },
+    {
+     "nome": "PlayStation Blog (conferir antes de publicar)",
+     "url": "https://blog.playstation.com"
+    }
+   ],
+   "imagens_oficiais": [],
+   "post_relacionado": "xbox-series-fsr-4-1-gta-6-o-que-muda",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro, sem produto."
+   },
+   "nota": 4,
+   "status": "em_video"
+  }
+ ]
 }
