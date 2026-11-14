@@ -1,6 +1,136 @@
 {
- "atualizado": "2026-11-13",
+ "atualizado": "2026-11-14",
  "tendencias": [
+  {
+   "data": "2026-11-14",
+   "assunto": "Histórias Tech: Xbox, os 25 anos do console que a Microsoft lançou para enfrentar a Sony",
+   "por_que_em_alta": "Data redonda: Xbox lançado em 15/11/2001 na América do Norte; Hardware.com.br e Phil Spencer abriram as comemorações dos 25 anos. Combina com a semana de GTA 6. Hoje (14/11) é o dia de publicar: o aniversário é 15/11. Busca de 14/11 confirma 15/11/2001 (EUA), US$ 299, Times Square com Bill Gates, Halo como jogo de lançamento, mais de 1 milhão em 3 semanas (Tecnoblog), Xbox Live em 15/11/2002 e Japão/Europa só em 2002.",
+   "evidencias": [
+    "https://www.history.com/this-day-in-history/november-15/microsoft-releases-xbox-gaming-console",
+    "https://www.hardware.com.br/artigos/xbox-anuncio-bill-gates-the-rock-ces-2001-25-anos/amp/"
+   ],
+   "angulo": "Gancho: a Microsoft entrou num mercado dominado por japoneses com um console de US$ 299,99, e cerca de 25% das primeiras unidades tinham defeito no drive de DVD. Virada: Halo, Xbox Live (15/11/2002) e a briga com o PS2 (cerca de 24 milhões contra 150 milhões). Lição: perder a geração, mas construir a plataforma.",
+   "formato": "curiosidade",
+   "tipo": "short",
+   "quadro": "historias",
+   "verificar_antes": "Publicar 14 ou 15/11. Dados já vistos em 2 fontes: 15/11/2001, US$ 299, Halo, Xbox Live 15/11/2002, mais de 1 mi em 3 semanas. AINDA SEM 2ª FONTE: defeito de 25% no drive (descartar se não achar) e vendas totais (cerca de 24 mi contra 150 a 155 mi do PS2: fontes divergem, usar 'cerca de' e citar Hardware.com.br/Tecnoblog). Hardware.com.br cita 14/11 como chegada às lojas: usar 15/11 e dizer 'América do Norte'.",
+   "fontes": [
+    {
+     "nome": "History.com (15/11/2001)",
+     "url": "https://www.history.com/this-day-in-history/november-15/microsoft-releases-xbox-gaming-console"
+    },
+    {
+     "nome": "Hardware.com.br",
+     "url": "https://www.hardware.com.br/artigos/xbox-anuncio-bill-gates-the-rock-ces-2001-25-anos/amp/"
+    },
+    {
+     "nome": "The National",
+     "url": "https://www.thenationalnews.com/arts-culture/2026/08/16/xbox-at-25-how-microsoft-muscled-its-way-into-console-gaming-and-changed-the-industry/"
+    },
+    {
+     "nome": "Tecnoblog (A história do Xbox)",
+     "url": "https://tecnoblog.net/379527/a-historia-do-xbox-do-original-ao-series-x/"
+    }
+   ],
+   "imagens_oficiais": [
+    "https://news.xbox.com/pt-br/2021/05/13/comemorando-20-anos-de-xbox/amp/"
+   ],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Sem produto."
+   },
+   "nota": 5,
+   "status": "em_video"
+  },
+  {
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "status": "nova",
+   "data": "2026-11-14",
+   "assunto": "Pré-download de GTA 6 bate recorde de tráfego da internet: mais de 33 Tbit/s, 19% acima do recorde anterior",
+   "por_que_em_alta": "Canaltech (14/11), medição da operadora DE-CIX: pico de 22,30 Tbit/s só em Frankfurt na terça (10/11), 16h20 de Brasília; recorde anterior de janeiro de 2026. Lançamento em 19/11. Tema GTA 6 segue o maior do mês.",
+   "evidencias": [
+    "https://canaltech.com.br/games/pre-carregamento-de-gta-6-bate-recorde-historico-de-trafego-de-internet/"
+   ],
+   "angulo": "Gancho: o download de um jogo derrubou o recorde de tráfego da internet. 125 GB por segundo (33 Tbit/s), 19% acima do recorde anterior; a rede usou 75% da capacidade, sem falha. Comentário Nexus: o jogo ainda nem saiu. Não repete os vídeos de pré-load e de pré-venda: aqui o foco é a infraestrutura.",
+   "formato": "noticia",
+   "tipo": "short",
+   "quadro": "60s",
+   "origem": "brasil",
+   "verificar_antes": "Abrir o comunicado da DE-CIX (de-cix.net) e conferir 33 Tbit/s, 22,30 Tbit/s e o percentual; sem isso, não publicar. A matéria não traz dados do Brasil: não afirmar nada sobre redes brasileiras.",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/games/pre-carregamento-de-gta-6-bate-recorde-historico-de-trafego-de-internet/"
+    },
+    {
+     "nome": "DE-CIX (a localizar)",
+     "url": "https://www.de-cix.net/"
+    }
+   ],
+   "nota": 4
+  },
+  {
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "status": "nova",
+   "data": "2026-11-14",
+   "assunto": "AMD teria cortado até 50% da oferta de placas de vídeo gamer até 2027; Radeon RX 9070 já passa de R$ 6.000",
+   "por_que_em_alta": "Canaltech (13/11) destaca na home: rumor do fórum chinês Board Channels, corte de 20% a 50% nas GPUs Radeon RX para parceiras, escassez ao menos até janeiro de 2027; causa: memória GDDR6 cara e capacidade indo para IA. Liga à pauta de memória cara e ao preço do PC. Dado de mercado chinês.",
+   "evidencias": [
+    "https://canaltech.com.br/hardware/amd-corta-em-ate-50-a-oferta-de-placas-de-video-gamer-ate-2027-preco-deve-subir/"
+   ],
+   "angulo": "Gancho: a placa de vídeo pode ficar ainda mais cara e a culpa é da IA. Tratar como rumor (1 fonte original chinesa), explicar o elo memória-IA-preço e o que fazer antes da Black Friday. Preço de R$ 6.000 só com a data e a loja que a matéria cita.",
+   "formato": "explicador",
+   "tipo": "short",
+   "quadro": "60s",
+   "origem": "gringo",
+   "verificar_antes": "Rumor sem confirmação da AMD. Buscar 2ª fonte de fora (Tom's Hardware, Wccftech, VideoCardz) e o preço da RX 9070 numa loja. Sem 2ª fonte, reserva.",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/hardware/amd-corta-em-ate-50-a-oferta-de-placas-de-video-gamer-ate-2027-preco-deve-subir/"
+    }
+   ],
+   "nota": 3
+  },
+  {
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "status": "nova",
+   "data": "2026-11-14",
+   "assunto": "iPhone 18 e 18e só em 2027 (2º tri), diz Gurman: a Apple muda o calendário",
+   "por_que_em_alta": "Canaltech (home de 14/11), citando Mark Gurman (Bloomberg). Rumor de analista conhecido; a Apple não confirmou. Liga ao iPhone Duo e à pauta da Apple/Samsung dobráveis.",
+   "evidencias": [
+    "https://canaltech.com.br/smartphone/apple-nao-tem-pressa-iphone-18-e-18e-ja-so-chegam-no-2t-de-2027-diz-gurman/"
+   ],
+   "angulo": "Reserva: o que significa esperar o iPhone 18 e se compensa comprar o 17 na Black Friday. Só com a fonte primária (Bloomberg) lida.",
+   "formato": "noticia",
+   "tipo": "short",
+   "quadro": "60s",
+   "origem": "brasil",
+   "verificar_antes": "Abrir a Bloomberg/Gurman (ou 2ª fonte). Tratar como relato; não publicar como fato.",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/smartphone/apple-nao-tem-pressa-iphone-18-e-18e-ja-so-chegam-no-2t-de-2027-diz-gurman/"
+    }
+   ],
+   "nota": 2
+  },
   {
    "data": "2026-11-13",
    "assunto": "Pré-venda de GTA 6 passa de US$ 1 bilhão: 10,3 milhões de cópias, 75% da receita no PS5",
@@ -779,44 +909,6 @@
   },
   {
    "data": "2026-11-07",
-   "assunto": "Histórias Tech: Xbox, os 25 anos do console que a Microsoft lançou para enfrentar a Sony",
-   "por_que_em_alta": "Data redonda: Xbox lançado em 15/11/2001 na América do Norte; Hardware.com.br e Phil Spencer abriram as comemorações dos 25 anos. Combina com a semana de GTA 6.",
-   "evidencias": [
-    "https://www.history.com/this-day-in-history/november-15/microsoft-releases-xbox-gaming-console",
-    "https://www.hardware.com.br/artigos/xbox-anuncio-bill-gates-the-rock-ces-2001-25-anos/amp/"
-   ],
-   "angulo": "Gancho: a Microsoft entrou num mercado dominado por japoneses com um console de US$ 299,99, e cerca de 25% das primeiras unidades tinham defeito no drive de DVD. Virada: Halo, Xbox Live (15/11/2002) e a briga com o PS2 (cerca de 24 milhões contra 150 milhões). Lição: perder a geração, mas construir a plataforma.",
-   "formato": "curiosidade",
-   "tipo": "short",
-   "quadro": "historias",
-   "verificar_antes": "Publicar de 13 a 15/11 para pegar a data. Preço US$ 299,99, 24 mi contra 150 mi e o defeito de 25% vieram de um resumo de busca: confirmar cada um em 2 fontes antes do roteiro.",
-   "fontes": [
-    {
-     "nome": "History.com (15/11/2001)",
-     "url": "https://www.history.com/this-day-in-history/november-15/microsoft-releases-xbox-gaming-console"
-    },
-    {
-     "nome": "Hardware.com.br",
-     "url": "https://www.hardware.com.br/artigos/xbox-anuncio-bill-gates-the-rock-ces-2001-25-anos/amp/"
-    },
-    {
-     "nome": "The National",
-     "url": "https://www.thenationalnews.com/arts-culture/2026/08/16/xbox-at-25-how-microsoft-muscled-its-way-into-console-gaming-and-changed-the-industry/"
-    }
-   ],
-   "imagens_oficiais": [
-    "https://news.xbox.com/pt-br/2021/05/13/comemorando-20-anos-de-xbox/amp/"
-   ],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Sem produto."
-   },
-   "nota": 4,
-   "status": "nova"
-  },
-  {
-   "data": "2026-11-07",
    "assunto": "Histórias Tech: Wii, 20 anos do console que apostou no movimento e passou PS3 e Xbox 360",
    "por_que_em_alta": "Data redonda: Wii lançado em 19/11/2006 na América do Norte; Gazeta SP e Hardware.com.br fazem a retrospectiva dos 20 anos. Nostalgia forte e ligação com o Switch 2.",
    "evidencias": [
@@ -1296,86 +1388,6 @@
    },
    "nota": 3,
    "status": "nova"
-  },
-  {
-   "data": "2026-11-05",
-   "assunto": "Histórias Tech: BlackBerry, o celular dos executivos que perdeu o teclado",
-   "por_que_em_alta": "Pauta evergreen reserva; combina com a semana do iPhone Duo (aposta em novo formato).",
-   "evidencias": [],
-   "angulo": "Gancho: já foi o celular de presidentes, hoje nem fabrica mais. Auge, virada (tela sensível ao toque) e lição. Datas e números em 2 fontes.",
-   "formato": "curiosidade",
-   "tipo": "short",
-   "quadro": "historias",
-   "numero": 3,
-   "fontes": [],
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Sem produto."
-   },
-   "nota": 3,
-   "status": "nova"
-  },
-  {
-   "data": "2026-11-04",
-   "assunto": "iPhone Duo: 234 mil dobras ao vivo e a tela segue inteira",
-   "por_que_em_alta": "Canaltech (03/11) destaca teste ao vivo da CNET no 7º dia com 234.640 aberturas; Samsung declara 200 mil ciclos no Fold 8 e a Apple não diz o número",
-   "evidencias": [
-    "https://canaltech.com.br/smartphone/iphone-duo-esta-ha-7-dias-sendo-dobrado-ao-vivo-e-ainda-nao-quebrou-assista/"
-   ],
-   "angulo": "Gancho: 234 mil vezes aberto e fechado e a tela não quebrou. O que o teste prova e o que não prova (não simula queda nem pressão do dia a dia).",
-   "formato": "curiosidade",
-   "tipo": "short",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/smartphone/iphone-duo-esta-ha-7-dias-sendo-dobrado-ao-vivo-e-ainda-nao-quebrou-assista/"
-    },
-    {
-     "nome": "CNET (conferir a transmissão do teste Fold-a-Phone)",
-     "url": "https://www.cnet.com"
-    }
-   ],
-   "imagens_oficiais": [
-    "https://www.apple.com/br/newsroom/"
-   ],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro, sem produto."
-   },
-   "nota": 4,
-   "status": "em_video"
-  },
-  {
-   "data": "2026-11-04",
-   "assunto": "Sony e Microsoft recompram consoles usados: vai chegar ao Brasil?",
-   "por_que_em_alta": "Canaltech (03/11): Sony oferece até US$ 400 pelo PS5 usado após ação parecida do Xbox Series X; contexto do lançamento de GTA 6 em 19/11; no Brasil nenhuma ação foi iniciada",
-   "evidencias": [
-    "https://canaltech.com.br/games/sony-copia-xbox-e-oferece-ate-us-400-para-recomprar-playstation-5-usados/"
-   ],
-   "angulo": "Gancho: a Sony quer comprar o seu PS5 de volta por até US$ 400, mas não no Brasil. Por que as duas marcas fazem isso na semana do GTA 6.",
-   "formato": "explicador",
-   "tipo": "short",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/games/sony-copia-xbox-e-oferece-ate-us-400-para-recomprar-playstation-5-usados/"
-    },
-    {
-     "nome": "PlayStation Blog (conferir antes de publicar)",
-     "url": "https://blog.playstation.com"
-    }
-   ],
-   "imagens_oficiais": [],
-   "post_relacionado": "xbox-series-fsr-4-1-gta-6-o-que-muda",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro, sem produto."
-   },
-   "nota": 4,
-   "status": "em_video"
   }
  ]
 }

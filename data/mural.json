@@ -1,5 +1,5 @@
 {
- "proximo_id": 78,
+ "proximo_id": 79,
  "mensagens": [
   {
    "id": 1,
@@ -1021,6 +1021,19 @@
    "assunto": "Pauta de blog: Starlink no celular",
    "mensagem": "Vivo Satelite (Starlink D2D): 10 mi de clientes usaram, 50 mi aptos, gratis na fase promocional, cobranca prevista (Canaltech 12/11, Teletime 11/11). Sem post no blog ainda; vale explicador com quem tem acesso e o que funciona.",
    "status": "aberta"
+  },
+  {
+   "id": 78,
+   "data": "2026-11-14",
+   "de": "tendencias",
+   "para": "produtor",
+   "meta": "engajamento",
+   "assunto": "Sábado 14/11: Histórias Tech = Xbox 25 anos",
+   "mensagem": "Top do dia em data/tendencias.json: 1) Histórias Tech Xbox 25 anos (nota 5, publicar hoje ou 15/11; conferir defeito de 25% e vendas totais antes de usar), 2) GTA 6 recorde de tráfego DE-CIX (60s, nota 4; abrir a DE-CIX), 3) Tamagotchi 30 anos (publicar 21 a 23/11). Wii e PS3 ficam para 17 a 19/11.",
+   "status": "resolvida",
+   "resposta": "Xbox 25 anos escolhido para Histórias Tech #2 (14/11). 25% do drive fica fora (so 1 fonte); vendas: cerca de 24 mi vs 150 mi do PS2.",
+   "respondido_por": "produtor",
+   "resolvida_em": "2026-11-14"
   }
  ]
 }

@@ -1,0 +1,125 @@
+{
+  "tipo": "short",
+  "quadro": "historias",
+  "numero": 2,
+  "slug": "2026-11-15-historias-tech-2-xbox",
+  "post": "",
+  "titulo": "História do Xbox: o console que dava prejuízo #shorts",
+  "titulos_opcoes": [
+    "História do Xbox: o console que dava prejuízo #shorts",
+    "Xbox: vendido a US$ 299, custava mais para fazer #shorts",
+    "Xbox, 25 anos: como a Microsoft entrou na briga #shorts"
+  ],
+  "palavra_chave": "história do xbox",
+  "resumo": "A história do Xbox, que faz 25 anos em 15 de novembro de 2026: a Microsoft lançou o console a US$ 299, abaixo do custo de fabricação, para entrar na briga com a Sony. Perdeu a geração para o PS2, mas construiu a plataforma. Histórias Tech #2.",
+  "hashtags": [
+    "Xbox",
+    "HistóriasTech",
+    "Games",
+    "Microsoft"
+  ],
+  "selo": "Histórias Tech #2",
+  "fontes": [
+    {
+      "nome": "History.com: Microsoft releases Xbox",
+      "url": "https://www.history.com/this-day-in-history/november-15/microsoft-releases-xbox-gaming-console"
+    },
+    {
+      "nome": "Hardware.com.br: Xbox, anúncio de Bill Gates na CES 2001",
+      "url": "https://www.hardware.com.br/artigos/xbox-anuncio-bill-gates-the-rock-ces-2001-25-anos/amp/"
+    },
+    {
+      "nome": "Xbox Wire Brasil: comemorando 20 anos de Xbox",
+      "url": "https://news.xbox.com/pt-br/2021/05/13/comemorando-20-anos-de-xbox/"
+    },
+    {
+      "nome": "TecMundo: Xbox Live completa 10 anos",
+      "url": "https://www.tecmundo.com.br/minha-serie/32779-parabens-xbox-live-a-rede-de-jogos-online-esta-completando-10-anos.htm"
+    },
+    {
+      "nome": "VGC: Xbox Live is now 20 years old",
+      "url": "https://www.videogameschronicle.com/news/xbox-live-is-now-20-years-old"
+    },
+    {
+      "nome": "Statista: vendas de PlayStation e Xbox",
+      "url": "https://www.statista.com/chart/amp/23465/lifetime-unit-sales-of-sonys-playstation-and-microsofts-xbox-consoles"
+    }
+  ],
+  "cenas": [
+    {
+      "tipo": "gancho",
+      "fala": "{US$ 299|duzentos e noventa e nove dólares}. Era o preço do Xbox. Mas fabricar cada um custava mais.",
+      "tela": "US$ 299. Custava mais para fazer.",
+      "imagens": [
+        "url:https://xboxwire.thesourcemediaassets.com/sites/8/2021/05/Xbox_Original_Background_3840x2160_JPG.jpg|Divulgação/Xbox",
+        "tela:https://news.xbox.com/pt-br/2021/05/13/comemorando-20-anos-de-xbox/"
+      ],
+      "fonte": "History.com e Hardware.com.br"
+    },
+    {
+      "tipo": "manchete",
+      "fala": "Bill Gates revelou o Xbox na CES, em janeiro de 2001. E a Microsoft comprou a Bungie para lançar o console com Halo.",
+      "manchete": {
+        "url": "https://www.hardware.com.br/artigos/xbox-anuncio-bill-gates-the-rock-ces-2001-25-anos/amp/",
+        "trecho": "pela primeira vez, deixem-me revelar o Xbox"
+      },
+      "fonte": "Hardware.com.br e History.com"
+    },
+    {
+      "tipo": "data",
+      "fala": "O Xbox chegou aos EUA em 15 de novembro de 2001. Sem lucro no aparelho, a Microsoft dependia dos jogos.",
+      "imagens": [
+        "url:https://xboxwire.thesourcemediaassets.com/sites/8/2021/05/Xbox_Original_Background_3840x2160_JPG.jpg|Divulgação/Xbox"
+      ],
+      "fonte": "History.com e Xbox Wire Brasil",
+      "destaque": "15 NOV 2001",
+      "rotulo": "o Xbox chega aos EUA"
+    },
+    {
+      "tipo": "data",
+      "fala": "Um ano depois, em 15 de novembro de 2002, nasceu o Xbox Live, o jogo online do console.",
+      "destaque": "15 NOV 2002",
+      "rotulo": "nasce o Xbox Live",
+      "imagens": [
+        "url:https://xboxwire.thesourcemediaassets.com/sites/8/2021/05/20thAnniv_Keyart_Horiz_CMYK_Final_JPG.jpg|Divulgação/Xbox"
+      ],
+      "fonte": "TecMundo e VGC"
+    },
+    {
+      "tipo": "barras",
+      "fala": "Mesmo assim, o Xbox vendeu cerca de {24 milhões|vinte e quatro milhões}. O PlayStation 2, mais de {150 milhões|cento e cinquenta milhões}.",
+      "itens": [
+        {
+          "rotulo": "Xbox (cerca de)",
+          "valor": 24,
+          "unidade": "mi"
+        },
+        {
+          "rotulo": "PlayStation 2 (mais de)",
+          "valor": 150,
+          "unidade": "mi"
+        }
+      ],
+      "imagens": [
+        "url:https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png|Divulgação/Microsoft"
+      ],
+      "fonte": "Hardware.com.br e Statista"
+    },
+    {
+      "tipo": "fato",
+      "fala": "A Microsoft perdeu aquela geração, mas montou a plataforma que segue até hoje, no Xbox Series.",
+      "imagens": [
+        "url:https://xboxwire.thesourcemediaassets.com/sites/8/2021/05/20thAnniv_Keyart_Horiz_CMYK_Final_JPG.jpg|Divulgação/Xbox"
+      ],
+      "fonte": "Xbox Wire Brasil"
+    },
+    {
+      "tipo": "cta",
+      "fala": "A lição: perder a primeira batalha pode ser o preço de entrar na guerra. Qual foi o seu primeiro Xbox? Afinal, tudo começou com um preço:",
+      "tela": "Qual foi o seu primeiro Xbox?",
+      "imagens": [
+        "url:https://xboxwire.thesourcemediaassets.com/sites/8/2021/05/Xbox_Original_Background_3840x2160_JPG.jpg|Divulgação/Xbox"
+      ]
+    }
+  ]
+}
