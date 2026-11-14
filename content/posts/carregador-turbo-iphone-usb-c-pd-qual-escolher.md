@@ -123,7 +123,7 @@ O Ugreen Nexode chega a 45 W com PD, usa GaN, tem duas portas USB-C e é homolog
 
 ## E o iPhone com Lightning?
 
-Se o seu iPhone ainda usa Lightning, o carregador USB-C PD continua valendo. Muda só o cabo: a Apple indica um cabo USB-C para Lightning nesses modelos. Nenhum dos três carregadores acima deve ser comprado pensando que o cabo certo já vem junto. Confira no anúncio.
+Se o seu iPhone ainda usa Lightning, o carregador USB-C PD continua valendo. Muda só o cabo: a Apple indica um cabo USB-C para Lightning nesses modelos. Nenhum dos três carregadores acima deve ser comprado pensando que o cabo certo já vem junto. Confira no anúncio. Se precisar do cabo, veja [qual cabo USB-C para Lightning comprar](/posts/cabo-usb-c-lightning-qual-comprar-iphone/).
 
 Vale lembrar também que carga sem fio e MagSafe seguem outra regra. Segundo a Apple, o iPhone 16, 17 e Air pedem adaptador de 30 W ou mais para o carregador magnético. Para quem usa MagSafe, 30 W é o piso.
 

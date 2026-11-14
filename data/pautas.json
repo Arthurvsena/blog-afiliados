@@ -725,7 +725,7 @@
  },
  {
   "id": "como-transferir-whatsapp-android-para-iphone",
-  "viral": 3,
+  "viral": 4,
   "titulo": "Como passar o WhatsApp do Android para o iPhone mantendo as conversas",
   "palavra_chave": "como transferir whatsapp do android para o iphone",
   "secundarias": [
@@ -751,8 +751,9 @@
   ],
   "prioridade": "media",
   "motivo": "Pico de busca quando saem iPhones novos (iPhone Duo à venda no Brasil). Método oficial com o app Migrar para iOS, que exige iPhone novo ou restaurado e mesmo número; ferramentas pagas de terceiros devem ser citadas só como alternativa, com cautela (fontes de fabricantes). O redator confere requisitos de versão na Central de Ajuda do WhatsApp e na página da Apple.",
-  "status": "pendente",
-  "criada": "2026-11-01"
+  "status": "publicada",
+  "criada": "2026-11-01",
+  "post": "como-transferir-whatsapp-android-para-iphone"
  },
  {
   "id": "whatsapp-clonado-o-que-fazer-passo-a-passo",
@@ -3291,7 +3292,7 @@
  },
  {
   "id": "como-resolver-linha-verde-na-tela-do-celular",
-  "viral": 3,
+  "viral": 4,
   "titulo": "Linha verde na tela do celular: o que causa e como resolver",
   "palavra_chave": "como resolver linha verde na tela do celular",
   "secundarias": [],
@@ -3703,5 +3704,320 @@
    }
   ],
   "post": "xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra"
+ },
+ {
+  "id": "chatgpt-voz-avancada-padrao-saem-11-dezembro-live-voice",
+  "titulo": "ChatGPT vai aposentar os modos de voz Avançado e Padrão em 11 de dezembro",
+  "palavra_chave": "chatgpt voz",
+  "editoria": "inteligencia-artificial",
+  "fontes": [
+   {
+    "nome": "OpenAI Help Center: ChatGPT Voice",
+    "url": "https://help.openai.com/pt-br/articles/20001274-chatgpt-voice"
+   },
+   {
+    "nome": "Interesting Engineering",
+    "url": "https://interestingengineering.com/ai-robotics/chatgpt-drops-two-voice-modes-december-2026"
+   },
+   {
+    "nome": "Open Magazine",
+    "url": "https://openthemagazine.com/technology/quick-take-chatgpt-is-retiring-two-voice-modes-what-changes-on-december-11-seven-things-to-know"
+   }
+  ],
+  "motivo": "Afeta quem usa o ChatGPT por voz; migração automática para o Live Voice. Conferir na página oficial o que a OpenAI diz sobre a data antes de escrever.",
+  "secundarias": [],
+  "fontes_termo": [],
+  "forca": 0.0,
+  "tipo": "noticia",
+  "produtos_necessarios": 0,
+  "status": "publicada",
+  "prioridade": "hoje",
+  "criada": "2026-11-14",
+  "viral": 4,
+  "post": "chatgpt-voz-avancada-padrao-saem-11-dezembro-live-voice"
+ },
+ {
+  "id": "anthropic-ipo-nasdaq-ant-o-que-o-s-1-revela-claude",
+  "titulo": "Anthropic abre o capital: o que o S-1 revela sobre o Claude e a corrida da IA",
+  "palavra_chave": "anthropic ipo",
+  "editoria": "tecnologia",
+  "fontes": [
+   {
+    "nome": "Verdict",
+    "url": "https://www.verdict.co.uk/newsletters/anthropic-files-for-ipo"
+   },
+   {
+    "nome": "Mobile World Live",
+    "url": "https://mobileworldlive.com/north-america/anthropic-files-for-ipo-as-revenue-surges"
+   },
+   {
+    "nome": "InvestmentNews",
+    "url": "https://www.investmentnews.com/equities/anthropic-files-for-ipo-as-ai-giant-nears-1t-valuation/266819"
+   }
+  ],
+  "motivo": "S-1 público de 26/10 (ticker ANT, Nasdaq), estreia esperada antes do Thanksgiving. Tratar avaliação e data de estreia como expectativa de imprensa; sem preço ou data oficial.",
+  "secundarias": [],
+  "fontes_termo": [],
+  "forca": 0.0,
+  "tipo": "noticia",
+  "produtos_necessarios": 0,
+  "status": "pendente",
+  "prioridade": "hoje",
+  "criada": "2026-11-14",
+  "viral": 4
+ },
+ {
+  "id": "playstation-store-black-friday-2026-ate-75-o-que-muda-16-novembro",
+  "titulo": "Black Friday da PlayStation Store: até 75% de desconto e nova leva em 16 de novembro",
+  "palavra_chave": "black friday playstation store",
+  "editoria": "games",
+  "fontes": [
+   {
+    "nome": "PlayStation Blog",
+    "url": "https://blog.playstation.com/2026/11/03/playstations-black-friday-deals-2026/"
+   },
+   {
+    "nome": "Overdrive",
+    "url": "https://gameoverdrive.com.br/black-friday-ps-store-2026-descontos-jogos/"
+   },
+   {
+    "nome": "Fast Company Brasil",
+    "url": "https://fastcompanybrasil.com/games/playstation-store-libera-ofertas-black-friday-com-descontos-ate-75/"
+   }
+  ],
+  "motivo": "Campanha de 4 a 30/11; novos títulos em 16/11. Sem tabela de preços em reais confirmada; linkar playstation-ou-xbox-qual-comprar-black-friday.",
+  "secundarias": [],
+  "fontes_termo": [],
+  "forca": 0.0,
+  "tipo": "noticia",
+  "produtos_necessarios": 0,
+  "status": "publicada",
+  "prioridade": "hoje",
+  "criada": "2026-11-14",
+  "viral": 5,
+  "post": "playstation-store-black-friday-2026-ate-75-o-que-muda-16-novembro"
+ },
+ {
+  "id": "xbox-nano-controle-r-379-brasil-novembro-o-que-e",
+  "titulo": "Controle Xbox Nano chega ao Brasil em novembro por R$ 379: o que é e para quem serve",
+  "palavra_chave": "controle xbox nano",
+  "editoria": "games",
+  "fontes": [
+   {
+    "nome": "Xbox Wire em Português",
+    "url": "https://news.xbox.com/pt-br/2026/10/14/conheca-o-controle-xbox-nano/"
+   },
+   {
+    "nome": "Xbox Brasil (página do produto)",
+    "url": "https://www.xbox.com/pt-BR/accessories/controllers/xbox-nano-controller"
+   },
+   {
+    "nome": "Overdrive",
+    "url": "https://gameoverdrive.com.br/xbox-nano-controle-preco-brasil-lancamento/"
+   }
+  ],
+  "motivo": "Preço oficial sugerido em reais (datar), Bluetooth para PC, Android, iOS e smart TV; sem dia exato de chegada. Linkar xbox-cloud-gaming-celular-como-controle-smart-tv.",
+  "secundarias": [],
+  "fontes_termo": [],
+  "forca": 0.0,
+  "tipo": "noticia",
+  "produtos_necessarios": 0,
+  "status": "publicada",
+  "prioridade": "hoje",
+  "criada": "2026-11-14",
+  "viral": 4,
+  "post": "xbox-nano-controle-r-379-brasil-novembro-o-que-e"
+ },
+ {
+  "id": "galaxy-s27-samsung-confirma-modelos-diferentes-o-que-e-rumor",
+  "titulo": "Galaxy S27: o que a Samsung confirmou e o que ainda é rumor",
+  "palavra_chave": "galaxy s27",
+  "editoria": "celulares",
+  "fontes": [
+   {
+    "nome": "Canaltech",
+    "url": "https://canaltech.com.br/smartphone/galaxy-s27-tera-modelos-com-propostas-diferentes-para-cada-publico-diz-samsung/"
+   },
+   {
+    "nome": "Android Authority",
+    "url": "https://androidauthority.com/samsung-galaxy-s27-plans-q3-2026-earnings-call-3729435"
+   },
+   {
+    "nome": "PhoneArena",
+    "url": "https://www.phonearena.com/news/samsung-q3-2026-mobile-division-loss-galaxy-s26-series-2027-galaxy-s27-expectations_id184413"
+   }
+  ],
+  "motivo": "Confirmado no balanço do 3T26: modelos com identidades distintas. Sem data/specs oficiais; janeiro 2027, quatro modelos e modelo Pro são rumor e devem ser rotulados assim. Linkar galaxy-s26-oferta-mais-barato-que-iphone-17-antes-da-black-friday.",
+  "secundarias": [],
+  "fontes_termo": [],
+  "forca": 0.0,
+  "tipo": "noticia",
+  "produtos_necessarios": 0,
+  "status": "pendente",
+  "prioridade": "hoje",
+  "criada": "2026-11-14",
+  "viral": 3
+ },
+ {
+  "id": "cabo-usb-c-lightning-qual-comprar-iphone",
+  "titulo": "Cabo USB-C para Lightning: qual comprar para o iPhone e o que checar",
+  "palavra_chave": "cabo usb c lightning",
+  "secundarias": [
+   "cabo usb c iphone",
+   "cabo usb c apple",
+   "carregador usb c lightning"
+  ],
+  "fontes_termo": [
+   "google",
+   "mercadolivre"
+  ],
+  "forca": 4.69,
+  "tipo": "guia",
+  "produtos_necessarios": 0,
+  "motivo": "Maior forca livre do subnicho (Google e ML), sem post cobrindo; pre-Black Friday e o plano pede cabo. Sem preco no texto; curador cadastra cabo se faltar.",
+  "status": "publicada",
+  "criada": "2026-11-14",
+  "subnicho": "power-banks-carregadores",
+  "post": "cabo-usb-c-lightning-qual-comprar-iphone"
+ },
+ {
+  "id": "tomada-inteligente-16a-ou-20a-qual-escolher",
+  "titulo": "Tomada inteligente 16A ou 20A: qual escolher para ar-condicionado e eletrodomésticos",
+  "palavra_chave": "tomada inteligente 16a ou 20a",
+  "secundarias": [
+   "qual a melhor tomada inteligente para ar condicionado"
+  ],
+  "fontes_termo": [
+   "google"
+  ],
+  "forca": 1.25,
+  "tipo": "guia",
+  "produtos_necessarios": 0,
+  "motivo": "Duvida tecnica de compra com pouca concorrencia; casa inteligente tem poucos posts e Alexa+ traz publico.",
+  "status": "pendente",
+  "criada": "2026-11-14",
+  "subnicho": "casa-inteligente"
+ },
+ {
+  "id": "mi-band-ou-smartwatch-qual-escolher",
+  "titulo": "Mi Band ou smartwatch barato: qual vale mais a pena",
+  "palavra_chave": "mi band ou smartwatch",
+  "secundarias": [
+   "mi band ou redmi watch",
+   "mi band vs redmi watch",
+   "mi band vs galaxy fit 3",
+   "mi band melhor custo beneficio"
+  ],
+  "fontes_termo": [
+   "google"
+  ],
+  "forca": 1.58,
+  "tipo": "guia",
+  "produtos_necessarios": 0,
+  "motivo": "Comparacao real de busca, intencao de compra; complementa os guias de smartband ja publicados.",
+  "status": "publicada",
+  "criada": "2026-11-14",
+  "subnicho": "smartwatches-smartbands",
+  "post": "mi-band-ou-smartwatch-qual-escolher"
+ },
+ {
+  "id": "nintendo-switch-oled-vale-a-pena-black-friday",
+  "titulo": "Nintendo Switch OLED vale a pena na Black Friday ou é melhor ir de Switch 2?",
+  "palavra_chave": "nintendo switch oled",
+  "secundarias": [
+   "nintendo switch barato",
+   "nintendo switch lite",
+   "nintendo switch comprar"
+  ],
+  "fontes_termo": [
+   "google",
+   "mercadolivre"
+  ],
+  "forca": 4.8,
+  "tipo": "analise",
+  "produtos_necessarios": 0,
+  "motivo": "Termo de games com maior forca (Google e ML) sem cobertura; encaixa com o interesse atual em Switch 2 e Black Friday.",
+  "status": "publicada",
+  "criada": "2026-11-14",
+  "editoria": "games",
+  "post": "nintendo-switch-oled-vale-a-pena-black-friday"
+ },
+ {
+  "id": "claude-ia-como-usar-como-funciona",
+  "titulo": "Claude IA: como usar, o que faz e se vale a pena pagar",
+  "palavra_chave": "claude ia como usar",
+  "secundarias": [
+   "claude ia como funciona",
+   "claude ia o que faz",
+   "claude ai vale a pena pagar"
+  ],
+  "fontes_termo": [
+   "google"
+  ],
+  "forca": 1.83,
+  "tipo": "tutorial",
+  "produtos_necessarios": 0,
+  "motivo": "Varias buscas sobre Claude sem post; editoria de IA com poucos tutoriais.",
+  "status": "pendente",
+  "criada": "2026-11-14",
+  "editoria": "inteligencia-artificial"
+ },
+ {
+  "id": "gemini-google-ai-plus-vale-a-pena",
+  "titulo": "Gemini Google AI Plus vale a pena? O que muda do plano grátis",
+  "palavra_chave": "gemini google ai plus vale a pena",
+  "secundarias": [
+   "gemini google ai plus é bom",
+   "google gemini vale a pena"
+  ],
+  "fontes_termo": [
+   "google"
+  ],
+  "forca": 1.75,
+  "tipo": "analise",
+  "produtos_necessarios": 0,
+  "motivo": "Busca de compra/avaliacao; aproveita a cobertura recente de Gemini 4.",
+  "status": "pendente",
+  "criada": "2026-11-14",
+  "editoria": "inteligencia-artificial"
+ },
+ {
+  "id": "alexa-compativel-tv-samsung-como-conectar",
+  "titulo": "Alexa com TV Samsung: como conectar e quais comandos funcionam",
+  "palavra_chave": "alexa compativel com tv samsung",
+  "secundarias": [
+   "alexa compativel com netflix",
+   "alexa compativel com iphone"
+  ],
+  "fontes_termo": [
+   "google"
+  ],
+  "forca": 4.92,
+  "tipo": "tutorial",
+  "produtos_necessarios": 0,
+  "motivo": "Maior forca de casa inteligente; liga com Alexa+ e Echo Dot, posts que ja ganham impressoes.",
+  "status": "pendente",
+  "criada": "2026-11-14",
+  "editoria": "tecnologia"
+ },
+ {
+  "id": "celular-motorola-lancamento-barato-qual-comprar",
+  "titulo": "Motorola lançamento barato: qual celular comprar agora",
+  "palavra_chave": "motorola lançamento barato",
+  "secundarias": [
+   "lançamento celular barato",
+   "celular lançamento bom e barato",
+   "celular motorola lançamento barato"
+  ],
+  "fontes_termo": [
+   "google"
+  ],
+  "forca": 2.0,
+  "tipo": "guia",
+  "produtos_necessarios": 0,
+  "motivo": "Intencao de compra em celulares, editoria forte; puxa para Signature 27 e linhas de entrada na Black Friday.",
+  "status": "pendente",
+  "criada": "2026-11-14",
+  "editoria": "celulares"
  }
 ]

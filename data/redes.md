@@ -2,6 +2,78 @@
 
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
+
+## 2026-11-14 · Mi Band ou smartwatch: Smart Band 10 vs Redmi Watch e Bip 6
+Link: https://nexustechai.com.br/posts/mi-band-ou-smartwatch-qual-escolher/
+- WhatsApp: Mi Band dura até 3 semanas (pela ficha), mas não atende ligação nem tem GPS. Comparei 5 modelos e mostro quando o smartwatch vale: https://nexustechai.com.br/posts/mi-band-ou-smartwatch-qual-escolher/
+- X: Mi Band ou smartwatch? Dos 5 modelos comparados, só o Redmi Watch 5 Active atende chamada e só o Amazfit Bip 6 informa GPS. A Smart Band 10 vai a até 3 semanas de bateria (ficha). https://nexustechai.com.br/posts/mi-band-ou-smartwatch-qual-escolher/
+- Instagram (legenda): Mi Band ou smartwatch: qual escolher?
+  Se você quer passos, sono e notificações, a Mi Band basta e dura até 3 semanas (ficha).
+  Chamada no pulso e GPS próprio só em smartwatch.
+  Comparativo com 5 modelos no link da bio.
+  #miband #smartwatch #tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Mi Band ou smartwatch: onde você erra?" [2-8 s] Fato 1: Smart Band 10 informa até 3 semanas de bateria. [8-14 s] Fato 2: só o Redmi Watch 5 Active atende chamada. [14-18 s] Fato 3: só o Amazfit Bip 6 informa GPS integrado. [18-20 s] "Comparativo completo no link da bio."
+
+## 2026-11-14 · Cabo USB-C Lightning: qual comprar para o iPhone (MFi)
+Link: https://nexustechai.com.br/posts/cabo-usb-c-lightning-qual-comprar-iphone/
+- WhatsApp: iPhone com porta Lightning e carregador USB-C novo? O cabo precisa ser USB-C para Lightning e ter o selo MFi. Guia com o que conferir: https://nexustechai.com.br/posts/cabo-usb-c-lightning-qual-comprar-iphone/
+- X: Se o seu iPhone ainda é Lightning (iPhone 14 e anteriores), o cabo USB-C para Lightning com selo MFi é o que liga ao carregador novo. Veja o que checar e 2 opções de 1 metro: https://nexustechai.com.br/posts/cabo-usb-c-lightning-qual-comprar-iphone/
+- Instagram (legenda): Seu iPhone é Lightning e o carregador é USB-C?
+  Então o cabo importa: procure o selo MFi (Made for iPhone) na embalagem.
+  Anúncio "compatível" não é a mesma coisa. Guia completo no link da bio.
+  #iphone #carregador #tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seu cabo de iPhone pode estar errado." [2-8 s] Fato 1: iPhone 14 e anteriores usam Lightning, então o cabo é USB-C para Lightning. [8-14 s] Fato 2: procure o selo MFi, "compatível" não basta. [14-18 s] Fato 3: o cabo só entrega o que o carregador oferece. [18-20 s] "Guia completo no link da bio."
+
+## 2026-11-14 · Nintendo Switch OLED vale a pena na Black Friday 2026?
+Link: https://nexustechai.com.br/posts/nintendo-switch-oled-vale-a-pena-black-friday/
+- WhatsApp: O Switch OLED só vale na Black Friday se o preço ficar bem abaixo do Switch 2 (R$ 4.599,90 sugerido). O desempenho é o mesmo do Switch comum: muda tela e bateria. https://nexustechai.com.br/posts/nintendo-switch-oled-vale-a-pena-black-friday/
+- X: Switch OLED na Black Friday: mesmo desempenho do Switch comum, tela OLED de 7" e bateria de 4,5 a 9 h. Só compensa com preço bem abaixo do Switch 2 (R$ 4.599,90 sugerido). Análise, sem teste próprio: https://nexustechai.com.br/posts/nintendo-switch-oled-vale-a-pena-black-friday/
+- Instagram (legenda): Switch OLED ou Switch 2 na Black Friday?
+  O OLED tem a melhor tela da geração e bateria de até 9 h, mas o mesmo desempenho do Switch comum.
+  Não roda os jogos exclusivos do Switch 2. Só vale com desconto real.
+  #nintendoswitch #blackfriday #games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Switch OLED na Black Friday: vale?" [2-8 s] Fato 1: desempenho igual ao Switch comum, muda a tela OLED e a bateria de até 9 h. [8-14 s] Fato 2: não roda jogos exclusivos do Switch 2, que custa R$ 4.599,90 sugerido. [14-18 s] Fato 3: só compensa com preço bem abaixo e garantia no Brasil. [18-20 s] "Análise completa no link da bio."
+
+## 2026-11-14 · Como transferir WhatsApp do Android para o iPhone sem perder
+Link: https://nexustechai.com.br/posts/como-transferir-whatsapp-android-para-iphone/
+- WhatsApp: Vai trocar o Android pelo iPhone? O WhatsApp só leva as conversas se o iPhone for novo ou estiver de fábrica. Se já configurou, não vale. Passo a passo: https://nexustechai.com.br/posts/como-transferir-whatsapp-android-para-iphone/
+- X: Para levar o WhatsApp do Android ao iPhone com as conversas, use o Migrar para iOS. Pegadinha: só vale com iPhone novo ou restaurado de fábrica e o mesmo número. Passo a passo: https://nexustechai.com.br/posts/como-transferir-whatsapp-android-para-iphone/
+- Instagram (legenda): Trocou o Android pelo iPhone e quer manter o WhatsApp?
+  O app Migrar para iOS é de graça, mas só funciona com iPhone novo ou de fábrica.
+  Já configurou? Leia antes de apagar qualquer coisa.
+  #whatsapp #iphone #android
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Iphone novo? Não configure antes disso." [2-8 s] Fato 1: o Migrar para iOS leva as conversas, de graça. [8-14 s] Fato 2: só com iPhone novo ou de fábrica e o mesmo número. [14-18 s] Fato 3: WhatsApp Business e histórico de chamadas não passam. [18-20 s] "Passo a passo no link da bio."
+
+## 2026-11-14 · Controle Xbox Nano no Brasil: R$ 379 e lançamento em novembro
+Link: https://nexustechai.com.br/posts/xbox-nano-controle-r-379-brasil-novembro-o-que-e/
+- WhatsApp: O controle Xbox Nano tem 13 cm, 100 g e preço sugerido de R$ 379 no Brasil. Chega em novembro, mas a bateria ainda não foi divulgada: https://nexustechai.com.br/posts/xbox-nano-controle-r-379-brasil-novembro-o-que-e/
+- X: Controle Xbox Nano: 13 cm, 100 g, Bluetooth e R$ 379 sugeridos no anúncio de 14/10. Lançamento previsto para novembro, sem data, e a Microsoft não disse quanto dura a bateria: https://nexustechai.com.br/posts/xbox-nano-controle-r-379-brasil-novembro-o-que-e/
+- Instagram (legenda): O menor controle do Xbox custa R$ 379 (preço sugerido).
+  13 cm, 100 g e Bluetooth: cabe na bolsa e conecta no celular.
+  Falta a Microsoft dizer a autonomia da bateria e a data exata.
+  #xbox #controle #games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Controle Xbox Nano: R$ 379 no Brasil." [2-8 s] Fato 1: 13 cm e 100 g, o menor da linha. [8-14 s] Fato 2: Bluetooth, funciona em Xbox, PC, Android e iOS. [14-18 s] Fato 3: bateria e data exata ainda não saíram. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-14 · ChatGPT voz: Avançado e Padrão saem em 11 de dezembro
+Link: https://nexustechai.com.br/posts/chatgpt-voz-avancada-padrao-saem-11-dezembro-live-voice/
+- WhatsApp: O ChatGPT vai aposentar os modos de voz Avançado e Padrão em 11/12 e migrar todo mundo para o Live Voice. Atenção: vídeo e compartilhar tela ainda dependem do modo antigo, sem prazo. https://nexustechai.com.br/posts/chatgpt-voz-avancada-padrao-saem-11-dezembro-live-voice/
+- X: ChatGPT: os modos de voz Avançado e Padrão saem em 11/12, segundo a imprensa. O Live Voice vira o padrão, mas vídeo ao vivo e compartilhar tela ainda não existem nele e não há prazo: https://nexustechai.com.br/posts/chatgpt-voz-avancada-padrao-saem-11-dezembro-live-voice/
+- Instagram (legenda): O ChatGPT muda a voz em 11 de dezembro.
+  Avançado e Padrão saem, e o Live Voice vira o padrão, sem você fazer nada.
+  Mas vídeo ao vivo e compartilhar tela ainda dependem do modo antigo.
+  #chatgpt #openai #inteligenciaartificial
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "ChatGPT: duas vozes vão sumir dia 11/12." [2-8 s] Fato 1: Avançado e Padrão saem, o Live Voice vira o padrão. [8-14 s] Fato 2: ele escuta e fala ao mesmo tempo, dá para interromper. [14-18 s] Fato 3: vídeo e tela ainda dependem do modo antigo, sem prazo. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-14 · PlayStation Store: Black Friday até 75% off e nova leva em 16/11
+Link: https://nexustechai.com.br/posts/playstation-store-black-friday-2026-ate-75-o-que-muda-16-novembro/
+- WhatsApp: Black Friday da PS Store vai até 30/11 com até 75% off, mas alguns descontos acabam sexta (20/11) e entra leva nova segunda (16/11). Confira jogo a jogo: https://nexustechai.com.br/posts/playstation-store-black-friday-2026-ate-75-o-que-muda-16-novembro/
+- X: PS Store com até 75% off até 30/11. Datas que importam, segundo a Sony: nova leva em 16/11 e fim de alguns descontos em 20/11. O percentual varia por jogo e região: https://nexustechai.com.br/posts/playstation-store-black-friday-2026-ate-75-o-que-muda-16-novembro/
+- Instagram (legenda): A Black Friday da PS Store não espera o dia 27.
+  Até 75% off até 30/11, mas alguns descontos acabam na sexta (20/11).
+  Segunda (16/11) entra leva nova, ainda sem lista divulgada.
+  #playstation #blackfriday #ps5
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "PS Store: não deixe para o dia 27." [2-8 s] Fato 1: até 75% off, campanha vai até 30/11. [8-14 s] Fato 2: segunda (16/11) entra leva nova de jogos. [14-18 s] Fato 3: alguns descontos acabam sexta (20/11). [18-20 s] "Calendário completo no link da bio."
+
 ## 2026-11-13 · Xiaomi Brasil: 18 Pro e Pro Max em Paris dia 17, e aqui?
 Link: https://nexustechai.com.br/posts/xiaomi-18-pro-pro-max-evento-global-17-novembro-paris/
 - WhatsApp: Xiaomi confirmou o evento global do 18 Pro e Pro Max para terça (17/11), 10h em Brasília. Brasil? Nenhuma fonte cita. Preço e bateria ainda são rumor: https://nexustechai.com.br/posts/xiaomi-18-pro-pro-max-evento-global-17-novembro-paris/
@@ -345,80 +417,3 @@ Link: https://nexustechai.com.br/posts/analise-iphone-11-vale-a-pena-em-2026/
   Só compensa barato e com bateria boa. Link na bio.
   #iPhone11 #Apple #iPhoneUsado
 - TikTok/Reels (roteiro de 20 s): [0-2 s] "iPhone 11 em 2026, vale?" [2-8 s] Fato 1: recebe o iOS 27. [8-14 s] Fato 2: sem Apple Intelligence, com LCD e Lightning. [14-18 s] Fato 3: tudo depende da saúde da bateria. [18-20 s] "Checklist no link da bio."
-
-## 2026-11-09 · Teclado do iPhone evita sugerir 266 termos em português
-Link: https://nexustechai.com.br/posts/iphone-teclado-lista-palavras-bloqueadas-ios-26-3/
-- WhatsApp: O teclado do iPhone tem uma lista de termos que ele evita sugerir, 266 em português (número de um pesquisador, não da Apple). Você digita o que quiser; só não ganha sugestão. https://nexustechai.com.br/posts/iphone-teclado-lista-palavras-bloqueadas-ios-26-3/
-- X: Pesquisador achou no iOS uma lista de 1.119 termos que o teclado do iPhone evita sugerir, 266 em português. Tem xingamentos e expressões políticas. Dá para digitar tudo; a Apple não detalhou os critérios. https://nexustechai.com.br/posts/iphone-teclado-lista-palavras-bloqueadas-ios-26-3/
-- Instagram (legenda): O teclado do iPhone tem uma lista de palavras que não sugere.
-  Um pesquisador achou 1.119 termos, 266 em português.
-  Você pode digitar tudo normalmente.
-  A Apple não explicou por que há expressões políticas. Link na bio.
-  #iphone #ios #apple
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "O seu iPhone evita sugerir certas palavras." [2-8 s] Fato 1: um pesquisador achou 1.119 termos no iOS, 266 em português. [8-14 s] Fato 2: a maioria é palavrão, mas há expressões políticas. [14-18 s] Fato 3: você ainda digita tudo; só some a sugestão. [18-20 s] "Detalhes e resposta da Apple no link da bio."
-
-## 2026-11-08 · Power bank iPhone: 4 modelos USB-C PD para a Black Friday
-Link: https://nexustechai.com.br/posts/melhores-power-banks-iphone/
-- WhatsApp: Vai comprar power bank para o iPhone? Procure USB-C com PD de 20 W ou mais e confira o cabo: do iPhone 15 em diante é USB-C, no 14 e anteriores é Lightning. Separei 4 modelos: https://nexustechai.com.br/posts/melhores-power-banks-iphone/
-- X: Power bank para iPhone: o que importa é USB-C com Power Delivery (20 W ou mais). Do iPhone 15 em diante o cabo é USB-C; no 14 e antes, Lightning. 4 modelos de Ugreen, Anker e Baseus, pela ficha, sem teste: https://nexustechai.com.br/posts/melhores-power-banks-iphone/
-- Instagram (legenda): Power bank para iPhone: o que checar antes de comprar.
-  USB-C com PD de 20 W ou mais carrega rápido.
-  iPhone 15 em diante usa USB-C; do 14 para trás, Lightning.
-  Nenhum dos 4 da lista é MagSafe. Link na bio.
-  #powerbank #iphone #blackfriday
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Power bank para iPhone: não compre sem checar isto." [2-8 s] Fato 1: precisa de USB-C com Power Delivery, de 20 W ou mais. [8-14 s] Fato 2: iPhone 15 em diante é USB-C; 14 e antes, Lightning. [14-18 s] Fato 3: 10.000 mAh para o dia a dia, 20.000 mAh para viagem. [18-20 s] "Os 4 modelos no link da bio."
-
-## 2026-11-08 · iPhone novo ou usado: a garantia decide
-Link: https://nexustechai.com.br/posts/iphone-novo-ou-recondicionado-vale-a-pena/
-Postar antes da Black Friday (27/11), quando sobe a busca por iPhone recondicionado.
-- WhatsApp: iPhone novo ou recondicionado? A Apple dá 1 ano de garantia no novo. No recondicionado, o mínimo da lei é 90 dias, e a nota fiscal precisa dizer "recondicionado". Antes de comprar: https://nexustechai.com.br/posts/iphone-novo-ou-recondicionado-vale-a-pena/
-- X: iPhone novo: 1 ano de garantia da Apple (já inclui os 90 dias da lei). Recondicionado: no mínimo 90 dias, com a loja respondendo. Se o preço chega perto do de um novo, compre o novo. https://nexustechai.com.br/posts/iphone-novo-ou-recondicionado-vale-a-pena/
-- Instagram (legenda): iPhone recondicionado na Black Friday: vale?
-  Novo: 1 ano de garantia da Apple.
-  Recondicionado: no mínimo 90 dias, pela lei.
-  Só compensa com desconto grande, loja conhecida e nota fiscal clara. Link na bio.
-  #iphone #blackfriday #recondicionado
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "iPhone novo ou recondicionado? A garantia decide." [2-8 s] Fato 1: o novo tem 1 ano de garantia da Apple. [8-14 s] Fato 2: o recondicionado tem no mínimo 90 dias pela lei. [14-18 s] Fato 3: exija "recondicionado" na nota fiscal. [18-20 s] "Análise completa no link da bio."
-
-## 2026-11-08 · Como configurar para transcrever áudio no WhatsApp
-Link: https://nexustechai.com.br/posts/como-transcrever-audio-whatsapp-ativar/
-- WhatsApp: Cansou de ouvir áudio de 3 minutos? Configurações > Conversas > Transcrição de mensagens de voz, e o WhatsApp escreve para você. É de graça: https://nexustechai.com.br/posts/como-transcrever-audio-whatsapp-ativar/
-- X: Transcrever áudio no WhatsApp: Configurações > Conversas > Transcrição de mensagens de voz. De graça, e segundo o WhatsApp a transcrição é feita no seu aparelho. https://nexustechai.com.br/posts/como-transcrever-audio-whatsapp-ativar/
-- Instagram (legenda): Áudio de 3 minutos no ônibus sem fone? Deixe o WhatsApp escrever.
-  Configurações > Conversas > Transcrição de mensagens de voz.
-  É grátis e feita no seu celular, segundo o WhatsApp.
-  Link na bio.
-  #whatsapp #dicas #tecnologia
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Pare de ouvir áudio longo no WhatsApp." [2-8 s] Fato 1: abra Configurações e toque em Conversas. [8-14 s] Fato 2: ligue Transcrição de mensagens de voz. [14-18 s] Fato 3: o texto aparece embaixo do áudio, feito no seu aparelho. [18-20 s] "Passo a passo no link da bio."
-
-## 2026-11-08 · Óculos Gemini da Warby Parker: pré-venda em 12 de novembro
-Link: https://nexustechai.com.br/posts/oculos-warby-parker-gemini-pre-venda-12-novembro/
-- WhatsApp: Os óculos com Gemini da Warby Parker abrem pré-venda em 12/11. São só de áudio (sem tela), sem preço definido e sem previsão no Brasil, segundo a Samsung: https://nexustechai.com.br/posts/oculos-warby-parker-gemini-pre-venda-12-novembro/
-- X: Óculos com Gemini da Warby Parker: pré-venda em 12/11, entrega no fim do ano. Câmera, microfone e alto-falantes, sem tela. Preço não divulgado e sem data no Brasil. https://nexustechai.com.br/posts/oculos-warby-parker-gemini-pre-venda-12-novembro/
-- Instagram (legenda): Óculos que conversam com o Gemini abrem pré-venda em 12/11.
-  Não têm tela: só câmera, microfone e alto-falante.
-  Preço não saiu e o Brasil está sem previsão. Link na bio.
-  #gemini #oculosinteligentes #google
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Óculos com Gemini abrem pré-venda dia 12." [2-8 s] Fato 1: são só de áudio, sem tela nas lentes. [8-14 s] Fato 2: bateria de até 9 h, segundo a Samsung. [14-18 s] Fato 3: preço não divulgado e sem previsão no Brasil. [18-20 s] "Detalhes no link da bio."
-
-## 2026-11-08 · Quick Share vai fazer backup automático de fotos no Windows
-Link: https://nexustechai.com.br/posts/android-quick-share-backup-automatico-fotos-windows/
-- WhatsApp: O Android deve ganhar backup automático de fotos e vídeos no Windows pelo Quick Share, sem nuvem. Ainda sem data e sem confirmação para o Brasil: https://nexustechai.com.br/posts/android-quick-share-backup-automatico-fotos-windows/
-- X: Android deve ganhar backup automático de fotos e vídeos no PC com Windows pelo Quick Share, sem nuvem. Apareceu nas notas do Google Play services 26.43. Sem data nem Brasil confirmado. https://nexustechai.com.br/posts/android-quick-share-backup-automatico-fotos-windows/
-- Instagram (legenda): Backup das fotos do Android direto no PC, sem pagar nuvem.
-  O recurso apareceu nas notas do Google Play services 26.43.
-  Sem data, sem lista de aparelhos e sem Brasil confirmado. Link na bio.
-  #android #quickshare #windows
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seu Android vai salvar as fotos no PC sozinho." [2-8 s] Fato 1: o Quick Share ganha backup automático para Windows. [8-14 s] Fato 2: as cópias ficam no computador, sem nuvem. [14-18 s] Fato 3: o Google não deu data nem confirmou o Brasil. [18-20 s] "Detalhes no link da bio."
-
-## 2026-11-08 · GTA 6 pirataria: CEO da Take-Two fala em resposta legal
-Link: https://nexustechai.com.br/posts/take-two-ceo-pirataria-gta-6-medidas-legais-tecnicas/
-- WhatsApp: O CEO da Take-Two disse que pirataria é "fato da vida", mas que a empresa reage na Justiça e na parte técnica se GTA 6 virar alvo. Foi fala em evento, sem detalhe das proteções: https://nexustechai.com.br/posts/take-two-ceo-pirataria-gta-6-medidas-legais-tecnicas/
-- X: GTA 6 e pirataria: Strauss Zelnick, CEO da Take-Two, chamou de "fato da vida" e disse que haverá resposta legal e técnica se virar problema. Declaração em evento, sem medidas detalhadas. https://nexustechai.com.br/posts/take-two-ceo-pirataria-gta-6-medidas-legais-tecnicas/
-- Instagram (legenda): GTA 6 vai ser pirateado? O chefe da Take-Two respondeu.
-  Para ele, pirataria é "fato da vida".
-  Se virar problema, a resposta será legal e técnica.
-  Nenhuma proteção foi detalhada. Link na bio.
-  #gta6 #rockstar #games
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "GTA 6 e pirataria: o que a Take-Two disse." [2-8 s] Fato 1: o CEO chamou a pirataria de "fato da vida". [8-14 s] Fato 2: se virar problema, a resposta será na Justiça e na parte técnica. [14-18 s] Fato 3: nenhuma medida foi detalhada. [18-20 s] "Matéria completa no link da bio."
-

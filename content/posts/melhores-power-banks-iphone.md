@@ -40,7 +40,7 @@ Segundo a Apple, do iPhone 8 em diante a carga rápida pede um adaptador de 20 W
 
 Na prática: 20 W de USB-C PD já acelera qualquer iPhone recente. Mais watts ajudam só nos modelos mais novos, ou se você carrega outro aparelho ao mesmo tempo.
 
-O detalhe que importa é o cabo. Do iPhone 15 em diante, a entrada é USB-C. No iPhone 14 e nos anteriores é Lightning. Quem tem um modelo antigo não deve escolher só pelo cabo embutido, porque ele é USB-C e não encaixa. Precisa de uma porta USB-C livre e de um cabo USB-C para Lightning.
+O detalhe que importa é o cabo. Do iPhone 15 em diante, a entrada é USB-C. No iPhone 14 e nos anteriores é Lightning. Quem tem um modelo antigo não deve escolher só pelo cabo embutido, porque ele é USB-C e não encaixa. Precisa de uma porta USB-C livre e de um [cabo USB-C para Lightning com selo MFi](/posts/cabo-usb-c-lightning-qual-comprar-iphone/).
 
 ## Comparativo de power banks para iPhone
 
