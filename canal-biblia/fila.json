@@ -80,7 +80,10 @@
   },
   {
    "slug": "o-tumulo-vazio",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-14",
+   "release": "biblia-2026-11-14",
+   "voz": "gemini:Orus"
   }
  ],
  "ideias": [
