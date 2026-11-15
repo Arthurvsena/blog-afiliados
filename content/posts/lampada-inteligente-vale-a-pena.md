@@ -135,7 +135,7 @@ Combine com a casa toda: o interruptor fica ligado e a luz se controla por app, 
 
 Lâmpada inteligente é um ótimo primeiro passo para casa conectada, porque custa pouco perto do resto e o resultado aparece no mesmo dia. Mas ela entrega conforto, não grandes economias.
 
-Compre uma ou duas, teste no cômodo que você mais usa e só depois decida se quer espalhar pela casa. Para escolher o modelo, o nosso comparativo com [as 4 melhores lâmpadas inteligentes para Alexa](/posts/melhores-lampadas-inteligentes-alexa/) mostra nota, avaliações e para quem cada uma não serve. Se for começar por uma só, {{link:elgin-smart-color-10w|a Elgin Smart Color 10 W}} (dimerizável e bivolt) ou {{link:tplink-tapo-l530e|a TP-Link Tapo L530E}} são opções, confirmando antes a compatibilidade com o seu assistente na ficha.
+Compre uma ou duas, teste no cômodo que você mais usa e só depois decida se quer espalhar pela casa. Para escolher o modelo, o nosso comparativo com [as 4 melhores lâmpadas inteligentes para Alexa](/posts/melhores-lampadas-inteligentes-alexa/) mostra nota, avaliações e para quem cada uma não serve. Se for começar por uma só, {{link:elgin-smart-color-10w|a Elgin Smart Color 10 W}} (dimerizável e bivolt) ou {{link:tplink-tapo-l530e|a TP-Link Tapo L530E}} são opções, confirmando antes a compatibilidade com o seu assistente na ficha. Depois da compra, veja [como configurar a lâmpada inteligente no Wi-Fi e na Alexa](/posts/como-configurar-lampada-inteligente-wifi-alexa/).
 
 :::veredito
 Vale a pena se você tem Wi-Fi 2,4 GHz e usa Alexa ou Google. Se quer só economizar, fique no LED comum.

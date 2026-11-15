@@ -149,7 +149,7 @@ Se alguém desligar na parede, a lâmpada some da rede. Deixe o interruptor semp
 
 Nenhuma delas troca o seu interruptor, mas todas fazem a luz obedecer a voz, e isso já resolve boa parte do que se espera de uma casa conectada. Se for comprar só uma, sem rodeio, a escolha é esta.
 
-Se a Alexa ainda é novidade na sua casa, veja o [novo Echo Dot, que já traz hub de casa inteligente embutido](/posts/echo-dot-echo-time-brasil-pre-venda-11-novembro/) e a notícia sobre o [Alexa Plus no Brasil, com acesso grátis até fevereiro de 2027](/posts/alexa-plus-brasil-acesso-gratis-prorrogado-fevereiro-2027/). Quem quiser entender os limites antes de gastar deve ler o guia [lâmpada inteligente vale a pena](/posts/lampada-inteligente-vale-a-pena/), que explica o que muda com Wi-Fi, roteador e interruptor. É leitura curta e evita arrependimento.
+Se a Alexa ainda é novidade na sua casa, veja o [novo Echo Dot, que já traz hub de casa inteligente embutido](/posts/echo-dot-echo-time-brasil-pre-venda-11-novembro/) e a notícia sobre o [Alexa Plus no Brasil, com acesso grátis até fevereiro de 2027](/posts/alexa-plus-brasil-acesso-gratis-prorrogado-fevereiro-2027/). Quem quiser entender os limites antes de gastar deve ler o guia [lâmpada inteligente vale a pena](/posts/lampada-inteligente-vale-a-pena/), que explica o que muda com Wi-Fi, roteador e interruptor. É leitura curta e evita arrependimento. Já comprou? Siga o passo a passo para [configurar a lâmpada inteligente no Wi-Fi e na Alexa](/posts/como-configurar-lampada-inteligente-wifi-alexa/).
 
 :::veredito
 Para começar sem erro, Intelbras EWS 410 pela nota ou Avant Pera Neo pelo branco ajustável. Tapo e Elgin valem se você confirmar a Alexa na ficha.

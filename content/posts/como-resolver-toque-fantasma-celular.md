@@ -66,6 +66,8 @@ Se o toque fantasma continua mesmo depois da redefinição, o problema tende a s
 
 A Samsung diz que, se a tela não responde ou está rachada, o aparelho pode precisar de reparo. Em celulares da marca, dá para conversar pelo chat, WhatsApp ou agendar o reparo online pela conta Samsung. Em outras marcas, procure a assistência autorizada. Se o celular ainda está na garantia, comece por ela: mexer antes em oficina qualquer pode complicar a cobertura.
 
+Se o problema for uma linha colorida na imagem, e não toque sozinho, veja [como resolver linha verde na tela do celular](/posts/como-resolver-linha-verde-na-tela-do-celular/).
+
 Outro cuidado da Samsung: se a tela só responde a gestos com dois dedos ou toque duplo, pode ser o TalkBack ligado. Confira em Configurações > Acessibilidade > TalkBack e desative.
 
 Na minha leitura, os passos 2 a 5 resolvem boa parte dos casos e não custam nada. Só redefina se tiver backup feito, e só pague por tela nova depois de esgotar a lista.

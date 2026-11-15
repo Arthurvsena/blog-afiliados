@@ -3,6 +3,83 @@
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
 
+## 2026-11-15 · Como configurar lâmpada inteligente: Wi-Fi 2,4 GHz e Alexa
+Link: https://nexustechai.com.br/posts/como-configurar-lampada-inteligente-wifi-alexa/
+- WhatsApp: Comprou lâmpada Wi-Fi e ela não aparece na Alexa? A ordem certa é app do fabricante, rede 2,4 GHz e só depois a Alexa. Passo a passo: https://nexustechai.com.br/posts/como-configurar-lampada-inteligente-wifi-alexa/
+- X: Lâmpada inteligente não aparece na Alexa? Quase sempre é a rede errada (precisa de 2,4 GHz) ou a conta do fabricante sem vincular. A ordem certa e o que fazer se travar: https://nexustechai.com.br/posts/como-configurar-lampada-inteligente-wifi-alexa/
+- Instagram (legenda): Lâmpada Wi-Fi nova e a Alexa não acha?
+  Primeiro ela entra no Wi-Fi de 2,4 GHz pelo app do fabricante.
+  Só depois você vincula a conta na Alexa.
+  Passo a passo e soluções no link da bio.
+  #lampadainteligente #alexa #casainteligente
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Lâmpada inteligente não aparece na Alexa? Ordem errada." [2-8 s] Fato 1: configure primeiro no app do fabricante. [8-14 s] Fato 2: use Wi-Fi 2,4 GHz, a faixa que a maioria exige. [14-18 s] Fato 3: deixe o interruptor de parede sempre ligado. [18-20 s] "Passo a passo no link da bio."
+
+## 2026-11-15 · Tomada inteligente 16A ou 20A: qual usar no ar-condicionado
+Link: https://nexustechai.com.br/posts/tomada-inteligente-16a-ou-20a-qual-escolher/
+- WhatsApp: Ar-condicionado em tomada inteligente? Um aparelho de 1.500 W em 127 V puxa cerca de 12 A, mais que uma de 10 A deve levar. Veja a conta e quando 16 A ou 20 A servem: https://nexustechai.com.br/posts/tomada-inteligente-16a-ou-20a-qual-escolher/
+- X: Tomada inteligente 16A ou 20A para ar-condicionado? 1.500 W em 127 V dão cerca de 12 A, e o compressor puxa mais na partida. Só vale com aval do fabricante para carga de motor: https://nexustechai.com.br/posts/tomada-inteligente-16a-ou-20a-qual-escolher/
+- Instagram (legenda): Vai ligar o ar-condicionado numa tomada inteligente?
+  Watts divididos pela tensão dão os amperes: 1.500 W em 127 V são cerca de 12 A.
+  A de 10 A não é para motor; 16 A ou 20 A só com aval do fabricante.
+  Conta e checklist no link da bio.
+  #tomadainteligente #casainteligente #tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Tomada inteligente no ar-condicionado? Calma." [2-8 s] Fato 1: 1.500 W em 127 V dão cerca de 12 A, acima de uma tomada de 10 A. [8-14 s] Fato 2: o compressor puxa mais na partida, e a Tapo diz que a P100 não serve para esse tipo de carga. [14-18 s] Fato 3: 16 A ou 20 A só com aval do fabricante. [18-20 s] "Checklist no link da bio."
+
+## 2026-11-15 · Starlink Brasil vale a pena? Só se a fibra não chega aí
+Link: https://nexustechai.com.br/posts/starlink-brasil-vale-a-pena-internet-satelite-residencial/
+- WhatsApp: Starlink só vale a pena se a fibra não chega até você. Com fibra na rua, o satélite tende a sair mais caro e com mais latência. Planos e checklist: https://nexustechai.com.br/posts/starlink-brasil-vale-a-pena-internet-satelite-residencial/
+- X: Starlink no Brasil vale a pena? Só para quem não tem fibra: sítio, fazenda, bairro sem cabo. Com fibra na rua, tende a custar mais e ter mais latência. Os preços variam por endereço, então confirme antes: https://nexustechai.com.br/posts/starlink-brasil-vale-a-pena-internet-satelite-residencial/
+- Instagram (legenda): Starlink vale a pena? Depende de uma coisa: a fibra chega aí?
+  Se não chega, o satélite pode ser a melhor saída.
+  Se chega, ele tende a custar mais e ter mais latência.
+  Checklist antes de contratar no link da bio.
+  #starlink #internet #tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Starlink vale a pena? Só se a fibra não chega aí." [2-8 s] Fato 1: funciona em sítio e fazenda, onde não há cabo. [8-14 s] Fato 2: precisa de céu aberto; árvore e chuva forte atrapalham. [14-18 s] Fato 3: preço e promoção variam por endereço, confirme no site. [18-20 s] "Checklist completo no link da bio."
+
+## 2026-11-15 · Como resolver linha verde na tela do celular: 3 testes grátis
+Link: https://nexustechai.com.br/posts/como-resolver-linha-verde-na-tela-do-celular/
+- WhatsApp: Linha verde na tela do celular? Antes de pagar reparo, faça 3 testes grátis: reiniciar, atualizar e modo seguro. Se a linha ficar, o caminho é garantia: https://nexustechai.com.br/posts/como-resolver-linha-verde-na-tela-do-celular/
+- X: Linha verde na tela do celular? Comece pelo que não custa nada: reiniciar, atualizar o sistema e testar no modo seguro. Se ela continuar, o defeito provavelmente é físico e o caminho é garantia ou assistência: https://nexustechai.com.br/posts/como-resolver-linha-verde-na-tela-do-celular/
+- Instagram (legenda): Linha verde na tela? Não corra para pagar reparo.
+  Reinicie, atualize o sistema e teste no modo seguro, nessa ordem.
+  Se a linha continuar, provavelmente é defeito físico: acione a garantia primeiro.
+  Dica: filme a tela com data para provar que não foi queda.
+  #celular #tutorial #samsung
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Linha verde na tela? Não pague reparo ainda." [2-8 s] Fato 1: reinicie e atualize o sistema, que custam zero. [8-14 s] Fato 2: teste no modo seguro; se a linha some, suspeite de app. [14-18 s] Fato 3: se ela fica, provavelmente é físico, então garantia ou assistência autorizada. [18-20 s] "Passo a passo no link da bio."
+
+## 2026-11-15 · Claude IA: Anthropic pede IPO na Nasdaq com o código ANT
+Link: https://nexustechai.com.br/posts/anthropic-ipo-nasdaq-ant-s-1-claude/
+- WhatsApp: A dona do Claude pediu à SEC para abrir capital na Nasdaq, com o código ANT. Preço e data da estreia ainda não saíram. O que já é fato: https://nexustechai.com.br/posts/anthropic-ipo-nasdaq-ant-s-1-claude/
+- X: A Anthropic, dona do Claude, divulgou o S-1 e quer listar na Nasdaq como ANT. Preço, ações e data de estreia não foram definidos. Valores de 1,5 a 2 tri de dólares são avaliação reportada pela imprensa, não oficial: https://nexustechai.com.br/posts/anthropic-ipo-nasdaq-ant-s-1-claude/
+- Instagram (legenda): A dona do Claude quer entrar na bolsa.
+  A Anthropic divulgou o S-1 e pretende listar na Nasdaq com o código ANT.
+  Preço e data da estreia ainda não foram definidos; avaliações de trilhões são expectativa da imprensa.
+  Fato e palpite separados no link da bio.
+  #claude #anthropic #ia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "A dona do Claude quer ir para a bolsa." [2-8 s] Fato 1: a Anthropic divulgou o S-1 e quer listar na Nasdaq como ANT. [8-14 s] Fato 2: preço, ações e data de estreia ainda não saíram. [14-18 s] Fato 3: avaliações de trilhões são expectativa da imprensa, não dado oficial. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-15 · Novo Galaxy S27: o que a Samsung confirmou e o que é rumor
+Link: https://nexustechai.com.br/posts/galaxy-s27-samsung-confirma-modelos-diferentes-o-que-e-rumor/
+- WhatsApp: Galaxy S27: a Samsung só confirmou que os modelos terão propostas diferentes. Data, preço e S27 Pro ainda são rumor, e nada de Brasil. https://nexustechai.com.br/posts/galaxy-s27-samsung-confirma-modelos-diferentes-o-que-e-rumor/
+- X: Novo Galaxy S27: o único dado oficial da Samsung é que os modelos terão propostas diferentes. Data, preço, S27 Pro e Brasil seguem como rumor. O que é fato e o que não é: https://nexustechai.com.br/posts/galaxy-s27-samsung-confirma-modelos-diferentes-o-que-e-rumor/
+- Instagram (legenda): Galaxy S27: o que a Samsung confirmou de verdade?
+  Só que os modelos terão propostas diferentes para cada perfil de comprador.
+  Data, preço e S27 Pro ainda são rumor, e não há informação sobre o Brasil.
+  Fato e rumor separados no link da bio.
+  #galaxys27 #samsung #celulares
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Galaxy S27: o que é oficial e o que é rumor." [2-8 s] Fato 1: a Samsung confirmou modelos com propostas diferentes. [8-14 s] Fato 2: data, preço e S27 Pro são rumor, sem ficha oficial. [14-18 s] Fato 3: não há informação sobre venda no Brasil. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-15 · Jogos grátis Epic Games: Knightica até 19/11, às 13h
+Link: https://nexustechai.com.br/posts/epic-games-knightica-gratis-12-19-novembro-como-resgatar/
+- WhatsApp: Knightica, que custa R$ 39,99 na Epic, está grátis até quinta (19/11), às 13h de Brasília. Passo a passo para resgatar: https://nexustechai.com.br/posts/epic-games-knightica-gratis-12-19-novembro-como-resgatar/
+- X: Jogos grátis da Epic: Knightica (R$ 39,99 na loja) sai de graça até quinta, 19/11, às 13h de Brasília. Resgatou, é seu na biblioteca. Passo a passo: https://nexustechai.com.br/posts/epic-games-knightica-gratis-12-19-novembro-como-resgatar/
+- Instagram (legenda): Knightica está de graça na Epic Games Store.
+  Na loja custa R$ 39,99; o resgate vale até quinta, 19/11, às 13h (Brasília).
+  Depois de resgatar, o jogo fica na sua biblioteca.
+  Passo a passo no link da bio.
+  #epicgames #jogosgratis #games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Jogo de R$ 39,99 de graça na Epic." [2-8 s] Fato 1: Knightica, roguelike de estratégia, está grátis desde 12/11. [8-14 s] Fato 2: o prazo termina quinta, 19/11, às 13h de Brasília. [14-18 s] Fato 3: resgatou, fica na biblioteca. [18-20 s] "Passo a passo no link da bio."
+
 ## 2026-11-14 · Mi Band ou smartwatch: Smart Band 10 vs Redmi Watch e Bip 6
 Link: https://nexustechai.com.br/posts/mi-band-ou-smartwatch-qual-escolher/
 - WhatsApp: Mi Band dura até 3 semanas (pela ficha), mas não atende ligação nem tem GPS. Comparei 5 modelos e mostro quando o smartwatch vale: https://nexustechai.com.br/posts/mi-band-ou-smartwatch-qual-escolher/

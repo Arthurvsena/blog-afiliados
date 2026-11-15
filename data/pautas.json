@@ -2825,7 +2825,7 @@
  },
  {
   "id": "melhores-mouses-gamer-redragon",
-  "viral": 3,
+  "viral": 4,
   "titulo": "Mouse gamer Redragon: qual modelo vale a pena",
   "palavra_chave": "mouse gamer redragon",
   "secundarias": [
@@ -3315,8 +3315,9 @@
   ],
   "prioridade": "media",
   "motivo": "Termo real do palavras.json (Google, sem cobertura). Problema comum em OLED, com intenção de solução imediata: reiniciar, atualizar o sistema, modo seguro, checar pressão ou queda e garantia/assistência. Complementa a pauta pendente de toque fantasma sem canibalizá-la (sintoma diferente); linkar uma na outra. O redator confere as orientações de suporte da Samsung e da Apple e deixa claro que, se a linha persiste, é defeito físico da tela. Não afirmar prazo de garantia sem fonte.",
-  "status": "pendente",
-  "criada": "2026-11-11"
+  "status": "publicada",
+  "criada": "2026-11-11",
+  "post": "como-resolver-linha-verde-na-tela-do-celular"
  },
  {
   "id": "starlink-brasil-vale-a-pena-internet-satelite-residencial",
@@ -3341,8 +3342,9 @@
   ],
   "prioridade": "media",
   "motivo": "Termo real do palavras.json (Google, força 1,83, intenção de compra, sem cobertura). Ângulo distinto do post vivo-satelite-starlink-celular-brasil (celular direto ao satélite): aqui é a antena residencial, para quem mora fora da cobertura de fibra. O redator abre a página oficial e ao menos um veículo confiável nesta execução para planos, equipamento e cobertura; preços só com data e fonte. Linkar o post da Vivo. Conferir quem está no topo antes de escrever.",
-  "status": "pendente",
-  "criada": "2026-11-11"
+  "status": "publicada",
+  "criada": "2026-11-11",
+  "post": "starlink-brasil-vale-a-pena-internet-satelite-residencial"
  },
  {
   "id": "como-configurar-lampada-inteligente-wifi-alexa",
@@ -3359,8 +3361,9 @@
   "produtos_necessarios": 0,
   "prioridade": "media",
   "motivo": "Termo real do palavras.json (Google, sem cobertura), guia sem dependência de produtos que leva ao melhores-lampadas-inteligentes-alexa e a lampada-inteligente-vale-a-pena (que respondem a outras buscas). Pontos: rede Wi-Fi de 2,4 GHz, app do fabricante, adicionar na Alexa, falhas comuns. Usar só procedimentos conferidos na ajuda da Amazon/Alexa e do fabricante.",
-  "status": "pendente",
-  "criada": "2026-11-11"
+  "status": "publicada",
+  "criada": "2026-11-11",
+  "post": "como-configurar-lampada-inteligente-wifi-alexa"
  },
  {
   "id": "ocarina-of-time-switch-2-reino-unido-segundo-maior-lancamento-zelda",
@@ -3761,10 +3764,11 @@
   "forca": 0.0,
   "tipo": "noticia",
   "produtos_necessarios": 0,
-  "status": "pendente",
+  "status": "publicada",
   "prioridade": "hoje",
   "criada": "2026-11-14",
-  "viral": 4
+  "viral": 4,
+  "post": "anthropic-ipo-nasdaq-ant-s-1-claude"
  },
  {
   "id": "playstation-store-black-friday-2026-ate-75-o-que-muda-16-novembro",
@@ -3853,10 +3857,11 @@
   "forca": 0.0,
   "tipo": "noticia",
   "produtos_necessarios": 0,
-  "status": "pendente",
+  "status": "publicada",
   "prioridade": "hoje",
   "criada": "2026-11-14",
-  "viral": 3
+  "viral": 4,
+  "post": "galaxy-s27-samsung-confirma-modelos-diferentes-o-que-e-rumor"
  },
  {
   "id": "cabo-usb-c-lightning-qual-comprar-iphone",
@@ -3894,9 +3899,11 @@
   "tipo": "guia",
   "produtos_necessarios": 0,
   "motivo": "Duvida tecnica de compra com pouca concorrencia; casa inteligente tem poucos posts e Alexa+ traz publico.",
-  "status": "pendente",
+  "status": "publicada",
   "criada": "2026-11-14",
-  "subnicho": "casa-inteligente"
+  "subnicho": "casa-inteligente",
+  "viral": 2,
+  "post": "tomada-inteligente-16a-ou-20a-qual-escolher"
  },
  {
   "id": "mi-band-ou-smartwatch-qual-escolher",
@@ -3960,7 +3967,8 @@
   "motivo": "Varias buscas sobre Claude sem post; editoria de IA com poucos tutoriais.",
   "status": "pendente",
   "criada": "2026-11-14",
-  "editoria": "inteligencia-artificial"
+  "editoria": "inteligencia-artificial",
+  "viral": 4
  },
  {
   "id": "gemini-google-ai-plus-vale-a-pena",
@@ -4019,5 +4027,36 @@
   "status": "pendente",
   "criada": "2026-11-14",
   "editoria": "celulares"
+ },
+ {
+  "id": "epic-games-knightica-gratis-12-19-novembro-como-resgatar",
+  "titulo": "Knightica está grátis na Epic Games Store até 19 de novembro: como resgatar",
+  "palavra_chave": "jogos grátis epic",
+  "editoria": "games",
+  "tipo": "noticia",
+  "prioridade": "hoje",
+  "status": "publicada",
+  "criada": "2026-11-15",
+  "secundarias": [],
+  "fontes_termo": [],
+  "forca": 0.0,
+  "produtos_necessarios": 0,
+  "fontes": [
+   {
+    "nome": "Dealabs",
+    "url": "https://www.dealabs.com/bons-plans/epic-games-knightica-gratuit-sur-pc-dematerialise-3447136"
+   },
+   {
+    "nome": "MyDealz",
+    "url": "https://www.mydealz.de/deals/epic-games-store-kostenlos-knightica-12112026-19112026-2865440"
+   },
+   {
+    "nome": "Derecha Diario",
+    "url": "https://derechadiario.com.ar/us/argentina/epic-games-store-free-game-november-12-how-to-redeem-it"
+   }
+  ],
+  "motivo": "Oferta vai de 12 a 19/11/2026 (roguelike autobattler da Mad Mango Games). Fontes de ofertas, sem comunicado oficial aberto: o redator deve conferir a página da Epic antes de publicar e escrever o horário em Brasília só se confirmar. Conferir se o termo existe em palavras.json.",
+  "viral": 5,
+  "post": "epic-games-knightica-gratis-12-19-novembro-como-resgatar"
  }
 ]

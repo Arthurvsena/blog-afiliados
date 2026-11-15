@@ -1,5 +1,5 @@
 {
- "ultima_execucao": "2026-11-14T07:49",
+ "ultima_execucao": "2026-11-15T08:00",
  "agentes": {
   "chefe": {
    "status": "ok",
@@ -7,19 +7,19 @@
   },
   "pesquisador": {
    "status": "ok",
-   "tarefa": "Trouxe 5 notícias do dia e completei a fila com 8 pautas (Black Friday, cabos, smartbands)."
+   "tarefa": "Trouxe 5 notícias do dia, incluindo o jogo grátis da Epic, que confirmei no endpoint oficial. A fila segue com 9 pautas."
   },
   "curador": {
    "status": "ocioso",
-   "tarefa": "Não fui chamado: todos os subnichos têm 3+ produtos ativos."
+   "tarefa": "Não fui chamado: o pedido de tomada 16A/20A do mural #79 fica para a próxima rodada."
   },
   "redator": {
    "status": "ok",
-   "tarefa": "Escrevi PlayStation Store, ChatGPT voz, Xbox Nano, o tutorial de WhatsApp, a análise do Switch OLED e os guias de cabo Lightning e Mi Band."
+   "tarefa": "Escrevi Epic Knightica, Galaxy S27, Anthropic IPO, linha verde, Starlink e os guias de tomada e lâmpada inteligente."
   },
   "seo": {
    "status": "ok",
-   "tarefa": "Revisei títulos, descrições e links dos 7 posts e separei o Mi Band do post irmão."
+   "tarefa": "Troquei palavras-chave para termos reais do palavras.json e reforcei os links internos dos 7 posts."
   },
   "atualizador": {
    "status": "ocioso",
@@ -27,11 +27,11 @@
   },
   "designer": {
    "status": "ok",
-   "tarefa": "Coloquei fotos e diagramei os 7 posts."
+   "tarefa": "Coloquei foto e diagramei os 7 posts, desviando do bug do regex dos blocos."
   },
   "vendas": {
    "status": "ok",
-   "tarefa": "Pus chamadas de compra nos 2 guias e liguei headsets e cabos aos outros posts sem forçar venda."
+   "tarefa": "Pus chamadas de compra nos guias, uma câmera no Starlink e um carregador no Galaxy S27; pedi tomada 16A/20A ao curador."
   },
   "viral": {
    "status": "ok",
@@ -51,36 +51,6 @@
   }
  },
  "historico": [
-  {
-   "data": "2026-11-06",
-   "agente": "vendas",
-   "texto": "Fechei a lista de mouses com links para os 4 produtos e liguei o PS4 ao guia de headsets."
-  },
-  {
-   "data": "2026-11-06",
-   "agente": "designer",
-   "texto": "Pus foto e diagramei os nove posts; cinco notícias ficaram com logo por falta de foto de divulgação."
-  },
-  {
-   "data": "2026-11-06",
-   "agente": "analista",
-   "texto": "Ontem foram 9 visitas, 6 vieram do Google; Ocarina (4) e Motorola Signature 27 (3) lideraram."
-  },
-  {
-   "data": "2026-11-07",
-   "agente": "pesquisador",
-   "texto": "Trouxe 5 pautas e 6 novas na fila de análises, tutorial e lista."
-  },
-  {
-   "data": "2026-11-07",
-   "agente": "curador",
-   "texto": "Sugeri 2 power banks para iPhone e 3 caixas Bluetooth para o dono cadastrar."
-  },
-  {
-   "data": "2026-11-07",
-   "agente": "redator",
-   "texto": "Escrevi três notícias, o tutorial do GTA 6, a análise PlayStation x Xbox e o guia lâmpada x interruptor."
-  },
   {
    "data": "2026-11-07",
    "agente": "seo",
@@ -350,6 +320,36 @@
    "data": "2026-11-14",
    "agente": "designer",
    "texto": "Fotos e diagramação dos 7 posts."
+  },
+  {
+   "data": "2026-11-15",
+   "agente": "vendas",
+   "texto": "Pus chamadas de compra nos guias de tomada e lâmpada e liguei Starlink e Galaxy S27 a produtos sem forçar venda."
+  },
+  {
+   "data": "2026-11-15",
+   "agente": "redator",
+   "texto": "Escrevi 3 notícias, 1 tutorial, 1 análise e 2 guias de compra."
+  },
+  {
+   "data": "2026-11-15",
+   "agente": "viral",
+   "texto": "Notas das pautas e textos de rede dos 7 posts."
+  },
+  {
+   "data": "2026-11-15",
+   "agente": "seo",
+   "texto": "Revisei títulos, descrições e links dos 7 posts."
+  },
+  {
+   "data": "2026-11-15",
+   "agente": "designer",
+   "texto": "Fotos e diagramação dos 7 posts."
+  },
+  {
+   "data": "2026-11-15",
+   "agente": "pesquisador",
+   "texto": "Pauta de 5 notícias do dia."
   }
  ]
 }

@@ -124,7 +124,7 @@ Para controlar a luz de um cômodo, veja se compensa mais [lâmpada inteligente 
 
 Na minha leitura, tomada inteligente é um acessório útil para o conforto do dia a dia, mas pede atenção à segurança se você ignorar a ficha. Pelas fichas e pelos relatos de compradores, o erro está quase sempre em pedir demais da tomada.
 
-Ainda não temos tomada inteligente no nosso catálogo. Se você quer começar a casa conectada pela luz, que é mais simples, o nosso [comparativo de lâmpadas inteligentes para Alexa](/posts/melhores-lampadas-inteligentes-alexa/) mostra nota, avaliações e para quem cada uma não serve. Um exemplo é a {{link:tplink-tapo-l530e|lâmpada TP-Link Tapo L530E}}, que usa o aplicativo Tapo e dispensa a conta de amperagem da tomada:
+Se a dúvida é ar-condicionado, leia [tomada inteligente 16A ou 20A: qual usar no ar-condicionado](/posts/tomada-inteligente-16a-ou-20a-qual-escolher/). Ainda não temos tomada inteligente de carga alta no nosso catálogo. Se você quer começar a casa conectada pela luz, que é mais simples, o nosso [comparativo de lâmpadas inteligentes para Alexa](/posts/melhores-lampadas-inteligentes-alexa/) mostra nota, avaliações e para quem cada uma não serve. Um exemplo é a {{link:tplink-tapo-l530e|lâmpada TP-Link Tapo L530E}}, que usa o aplicativo Tapo e dispensa a conta de amperagem da tomada:
 
 {{produto:tplink-tapo-l530e}}
 
