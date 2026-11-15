@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-14",
+ "atualizado": "2026-11-15",
  "tendencias": [
   {
    "data": "2026-11-14",
@@ -42,6 +42,126 @@
    },
    "nota": 5,
    "status": "em_video"
+  },
+  {
+   "data": "2026-11-15",
+   "assunto": "Histórias Tech: PlayStation 3, 20 anos do console caro demais que quase derrubou a Sony",
+   "por_que_em_alta": "Data redonda: 20 anos do PS3 (Japão 11/11/2006; América do Norte 17/11/2006; Europa 23/03/2007). Time Extension (11/11) e O Povo (11/11) fazem a retrospectiva; página oficial PlayStation Brasil confirma as datas. Semana do GTA 6, fim da mídia física e PS5 100 mi: PlayStation está no centro da conversa.",
+   "evidencias": [
+    "https://www.timeextension.com/news/2026/11/anniversary-ps3-sonys-most-controversial-playstation-turns-20-today",
+    "https://www.opovo.com.br/vidaearte/2026/11/11/com-problemas-e-jogos-classicos-playstation-3-completa-20-anos.html",
+    "https://www.playstation.com/pt-br/playstation-history/2007-ps3-ps-vita/"
+   ],
+   "angulo": "Gancho: o console que a Sony lançou por US$ 599 e que o Brasil só recebeu oficialmente em 2010. Auge anterior: PS2 dominante. Virada: preço alto (US$ 499 e US$ 599 nos EUA), chip Cell difícil de programar, Blu-ray e atraso na Europa (23/03/2007) enquanto o Xbox 360 saía na frente; recuperação com cortes de preço e exclusivos, fechando com cerca de 87,4 mi (acima do Xbox 360, abaixo do Wii). Lição: tecnologia de ponta não salva produto caro. Publicar até 17/11 (lançamento nos EUA).",
+   "formato": "curiosidade",
+   "tipo": "short",
+   "quadro": "historias",
+   "verificar_antes": "Preços US$ 499/599 e 87,4 mi: Time Extension e Wikipedia; falta 2ª fonte oficial (PlayStation Brasil ou Hardware.com.br). Brasil 2010: confirmar em 2ª fonte. Abrir também a página PT-BR oficial (a PT-PT cita 2007). Escrever 'cerca de 87 milhões, dado de 2017'.",
+   "fontes": [
+    {
+     "nome": "Time Extension (11/11/2026)",
+     "url": "https://www.timeextension.com/news/2026/11/anniversary-ps3-sonys-most-controversial-playstation-turns-20-today"
+    },
+    {
+     "nome": "O Povo",
+     "url": "https://www.opovo.com.br/vidaearte/2026/11/11/com-problemas-e-jogos-classicos-playstation-3-completa-20-anos.html"
+    },
+    {
+     "nome": "PlayStation Brasil (história)",
+     "url": "https://www.playstation.com/pt-br/playstation-history/2007-ps3-ps-vita/"
+    },
+    {
+     "nome": "Hardware.com.br",
+     "url": "https://www.hardware.com.br/?p=285317"
+    }
+   ],
+   "imagens_oficiais": [
+    "https://www.playstation.com/pt-br/playstation-history/2007-ps3-ps-vita/"
+   ],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Sem produto."
+   },
+   "nota": 5,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-15",
+   "assunto": "Histórias Tech: Wii, 20 anos do console que apostou no movimento e passou PS3 e Xbox 360",
+   "por_que_em_alta": "Data redonda em 4 dias: Wii lançado em 19/11/2006 na América do Norte; Gazeta SP e Olhar Digital (nov/2026) fazem a retrospectiva; Nintendo cita 101,63 mi de consoles (Olhar Digital) e o Switch passou o Wii com 156,59 mi.",
+   "evidencias": [
+    "https://www.gazetasp.com.br/entretenimento/nintendo-wii-completa-20-anos-e-resgata-nostalgia-de-uma-epoca-em-que-videogame-tirou-familias-do-sofa-para-jogar-juntas-na-sala-de-casa/",
+    "https://www.hardware.com.br/artigos/nintendo-wii/amp/",
+    "https://olhardigital.com.br/curiosidades/?p=38665"
+   ],
+   "angulo": "Gancho: o console menos potente da geração foi o mais vendido. Auge: controle de movimento e 80 milhões de consoles em 4 anos (Hardware.com.br). Virada: o público casual foi embora e o Wii U falhou. Lição: inovar em como se joga, não em gráfico.",
+   "formato": "curiosidade",
+   "tipo": "short",
+   "quadro": "historias",
+   "verificar_antes": "Datas divergem: 19/11/2006 (América do Norte) e 02/12/2006 (Japão). 101,63 mi é de 2019 (unidades enviadas); confirmar no relatório da Nintendo. Publicar em 18 ou 19/11.",
+   "fontes": [
+    {
+     "nome": "Gazeta SP",
+     "url": "https://www.gazetasp.com.br/entretenimento/nintendo-wii-completa-20-anos-e-resgata-nostalgia-de-uma-epoca-em-que-videogame-tirou-familias-do-sofa-para-jogar-juntas-na-sala-de-casa/"
+    },
+    {
+     "nome": "Hardware.com.br",
+     "url": "https://www.hardware.com.br/artigos/nintendo-wii/amp/"
+    },
+    {
+     "nome": "Nintendo (relatório de vendas, a localizar)",
+     "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/"
+    },
+    {
+     "nome": "Olhar Digital",
+     "url": "https://olhardigital.com.br/curiosidades/?p=38665"
+    }
+   ],
+   "imagens_oficiais": [
+    "https://www.nintendo.com/br/"
+   ],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Sem produto."
+   },
+   "nota": 5,
+   "status": "nova"
+  },
+  {
+   "data": "2026-11-15",
+   "assunto": "Histórias Tech: Half-Life e a Valve, a dupla de ex-funcionários da Microsoft que fez um jogo e criou a Steam",
+   "por_que_em_alta": "Evergreen com gancho: Valve completou 30 anos em 24/08/2026 e Half-Life saiu em nov/1998 (dia 19 não confirmado). Nostalgia gamer em semana de grandes lançamentos. Sem pico de busca medido.",
+   "evidencias": [
+    "https://gamesradar.com/history-of-valve",
+    "https://www.filfre.net/2024/12/half-life/"
+   ],
+   "angulo": "Gancho: dois ex-Microsoft gastaram os primeiros anos da Valve num único jogo. Auge: Half-Life (1998, engine do Quake modificada). Virada: mods (Counter-Strike) e a ideia de vender jogos pela internet (Steam, 2003). Lição: a plataforma valeu mais que o jogo. Fecha com pergunta.",
+   "formato": "curiosidade",
+   "tipo": "short",
+   "quadro": "historias",
+   "verificar_antes": "Confirmar em 2 fontes: dia do lançamento (19/11/1998), fundação (24/08/1996), lançamento da Steam. Sem isso, usar só o ano.",
+   "fontes": [
+    {
+     "nome": "GamesRadar (History of Valve)",
+     "url": "https://gamesradar.com/history-of-valve"
+    },
+    {
+     "nome": "The Digital Antiquarian",
+     "url": "https://www.filfre.net/2024/12/half-life/"
+    }
+   ],
+   "imagens_oficiais": [
+    "https://www.valvesoftware.com/"
+   ],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Sem produto."
+   },
+   "nota": 3,
+   "status": "nova"
   },
   {
    "produto": {
@@ -909,78 +1029,6 @@
   },
   {
    "data": "2026-11-07",
-   "assunto": "Histórias Tech: Wii, 20 anos do console que apostou no movimento e passou PS3 e Xbox 360",
-   "por_que_em_alta": "Data redonda: Wii lançado em 19/11/2006 na América do Norte; Gazeta SP e Hardware.com.br fazem a retrospectiva dos 20 anos. Nostalgia forte e ligação com o Switch 2.",
-   "evidencias": [
-    "https://www.gazetasp.com.br/entretenimento/nintendo-wii-completa-20-anos-e-resgata-nostalgia-de-uma-epoca-em-que-videogame-tirou-familias-do-sofa-para-jogar-juntas-na-sala-de-casa/",
-    "https://www.hardware.com.br/artigos/nintendo-wii/amp/"
-   ],
-   "angulo": "Gancho: o console menos potente da geração foi o mais vendido. Auge: controle de movimento e 80 milhões de consoles em 4 anos (Hardware.com.br). Virada: o público casual foi embora e o Wii U falhou. Lição: inovar em como se joga, não em gráfico.",
-   "formato": "curiosidade",
-   "tipo": "short",
-   "quadro": "historias",
-   "verificar_antes": "Datas divergem: 19/11/2006 (América do Norte) e 02/12/2006 (Japão, Wikipedia). O total de cerca de 101 milhões vem só da Wikipedia (dado de 2019): achar o número oficial no relatório da Nintendo. Publicar perto de 19/11.",
-   "fontes": [
-    {
-     "nome": "Gazeta SP",
-     "url": "https://www.gazetasp.com.br/entretenimento/nintendo-wii-completa-20-anos-e-resgata-nostalgia-de-uma-epoca-em-que-videogame-tirou-familias-do-sofa-para-jogar-juntas-na-sala-de-casa/"
-    },
-    {
-     "nome": "Hardware.com.br",
-     "url": "https://www.hardware.com.br/artigos/nintendo-wii/amp/"
-    },
-    {
-     "nome": "Nintendo (relatório de vendas, a localizar)",
-     "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/"
-    }
-   ],
-   "imagens_oficiais": [
-    "https://www.nintendo.com/br/"
-   ],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Sem produto."
-   },
-   "nota": 4,
-   "status": "nova"
-  },
-  {
-   "data": "2026-11-07",
-   "assunto": "Histórias Tech: PlayStation 3, 20 anos do console caro demais que quase derrubou a Sony",
-   "por_que_em_alta": "Data redonda: PS3 lançado em 11/11/2006 no Japão e 17/11/2006 na América do Norte (página oficial PlayStation Brasil); 87 milhões vendidos segundo o PlayStation. A Sony também está no debate do fim da mídia física.",
-   "evidencias": [
-    "https://www.playstation.com/pt-br/playstation-history/2007-ps3-ps-vita/",
-    "https://www.hardware.com.br/?p=285317"
-   ],
-   "angulo": "Gancho: o ex-chefe do PlayStation admitiu que a Sony ficou contente de ter sobrevivido à geração do PS3 (Hardware.com.br). Virada: preço alto, Cell e Blu-ray contra o Xbox 360. Lição: a recuperação vem de ouvir o público.",
-   "formato": "curiosidade",
-   "tipo": "short",
-   "quadro": "historias",
-   "verificar_antes": "Preço de lançamento não confirmado: achar em 2 fontes ou omitir. A versão PT-PT da página oficial cita 2007; tratar o ano com cuidado e usar a página do Brasil.",
-   "fontes": [
-    {
-     "nome": "PlayStation Brasil (história)",
-     "url": "https://www.playstation.com/pt-br/playstation-history/2007-ps3-ps-vita/"
-    },
-    {
-     "nome": "Hardware.com.br",
-     "url": "https://www.hardware.com.br/?p=285317"
-    }
-   ],
-   "imagens_oficiais": [
-    "https://www.playstation.com/pt-br/playstation-history/2007-ps3-ps-vita/"
-   ],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Sem produto."
-   },
-   "nota": 3,
-   "status": "nova"
-  },
-  {
-   "data": "2026-11-07",
    "assunto": "Anatel: operadoras passam a bloquear ligações abusivas a partir de 12/11",
    "por_que_em_alta": "Teletime (19/10): Despacho Decisório nº 100/2026 da Anatel vale a partir de 12/11; Tecnoblog, Canaltech e TNH1 cobrem. Interessa a todo mundo que recebe ligação de golpe.",
    "evidencias": [
@@ -1368,26 +1416,6 @@
    },
    "nota": 5,
    "status": "em_video"
-  },
-  {
-   "data": "2026-11-05",
-   "assunto": "Histórias Tech: Nokia, de rainha dos celulares à venda da divisão em 2013",
-   "por_que_em_alta": "Pauta evergreen para domingo 08/11. Tema clássico de boa retenção.",
-   "evidencias": [],
-   "angulo": "Gancho: a Nokia liderou o mercado de celulares e deixou o iPhone passar. Auge, virada (Symbian vs. iPhone/Android), venda à Microsoft e lição. Números em 2 fontes.",
-   "formato": "curiosidade",
-   "tipo": "short",
-   "quadro": "historias",
-   "numero": 2,
-   "fontes": [],
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Sem produto."
-   },
-   "nota": 3,
-   "status": "nova"
   }
  ]
 }

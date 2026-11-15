@@ -67,13 +67,13 @@
     },
     {
       "tipo": "data",
-      "fala": "O Xbox chegou aos EUA em 15 de novembro de 2001. Sem lucro no aparelho, a Microsoft dependia dos jogos.",
+      "fala": "O Xbox chegou à América do Norte em 15 de novembro de 2001. Sem lucro no aparelho, a Microsoft dependia dos jogos.",
       "imagens": [
         "url:https://xboxwire.thesourcemediaassets.com/sites/8/2021/05/Xbox_Original_Background_3840x2160_JPG.jpg|Divulgação/Xbox"
       ],
       "fonte": "History.com e Xbox Wire Brasil",
       "destaque": "15 NOV 2001",
-      "rotulo": "o Xbox chega aos EUA"
+      "rotulo": "o Xbox chega à América do Norte"
     },
     {
       "tipo": "data",
@@ -87,7 +87,7 @@
     },
     {
       "tipo": "barras",
-      "fala": "Mesmo assim, o Xbox vendeu cerca de {24 milhões|vinte e quatro milhões}. O PlayStation 2, mais de {150 milhões|cento e cinquenta milhões}.",
+      "fala": "Mesmo assim, o Xbox vendeu cerca de {24 milhões|vinte e quatro milhões}. O PlayStation 2, cerca de {150 milhões|cento e cinquenta milhões}.",
       "itens": [
         {
           "rotulo": "Xbox (cerca de)",
@@ -95,7 +95,7 @@
           "unidade": "mi"
         },
         {
-          "rotulo": "PlayStation 2 (mais de)",
+          "rotulo": "PlayStation 2 (cerca de)",
           "valor": 150,
           "unidade": "mi"
         }

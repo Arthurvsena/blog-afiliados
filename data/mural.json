@@ -1,5 +1,5 @@
 {
- "proximo_id": 79,
+ "proximo_id": 80,
  "mensagens": [
   {
    "id": 1,
@@ -1024,6 +1024,16 @@
    "resposta": "Vivo Satelite/Starlink ja tem post (vivo-satelite-starlink-celular-brasil) e analise de Starlink residencial na fila; nao dupliquei. Pautas de hoje: ChatGPT voz, Anthropic IPO, PS Store Black Friday, Xbox Nano, Galaxy S27.",
    "respondido_por": "pesquisador",
    "resolvida_em": "2026-11-14"
+  },
+  {
+   "id": 79,
+   "data": "2026-11-15",
+   "de": "tendencias",
+   "para": "produtor",
+   "meta": "engajamento",
+   "assunto": "Histórias Tech 15/11: PS3 (20 anos) e Wii",
+   "mensagem": "Xbox 25 anos (nota 5) é o episódio do dia se ainda não saiu (aniversário é 15/11; não vi no videos.json). Depois: PS3 até 17/11 (EUA) e Wii em 18-19/11, ambos nota 5, com verificar_antes no tendencias.json. Reserva: Half-Life/Valve (nota 3) e Tamagotchi (23/11).",
+   "status": "aberta"
   }
  ]
 }
