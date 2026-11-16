@@ -1,6 +1,259 @@
 {
- "atualizado": "2026-11-15",
+ "atualizado": "2026-11-16",
  "tendencias": [
+  {
+   "data": "2026-11-16",
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "status": "nova",
+   "assunto": "CNH Digital na blitz: só vale aberta no app CNH do Brasil; print e PDF não valem",
+   "por_que_em_alta": "Google Trends BR hoje (16/11): 'cnh digital' na lista de buscas em alta (único termo de tecnologia); Correio Braziliense e Detran-PR orientam que a versão impressa não vale e que o documento deve ser mostrado no app oficial. Portal do Trânsito cita a Senatran: print não vale, PDF serve para bancos, abre sem internet se baixada antes, infração leve (multa de R$ 88,38 e 3 pontos).",
+   "evidencias": [
+    "https://www.portaldotransito.com.br/noticias/fiscalizacao-e-legislacao/cnh-digital-em-pdf-vale-na-blitz-senatran-esclarece-duvida-de-motoristas/",
+    "https://www.correiobraziliense.com.br/cbradar/cnh-digital-blitz-validade/",
+    "https://canaltech.com.br/carros/cnh-digital-como-nao-passar-aperto-em-blitz-e-aeroportos"
+   ],
+   "angulo": "Gancho: o print da sua CNH no celular não vale em blitz. O que vale (só o app oficial, baixado antes, abre sem sinal), o que a Senatran diz do PDF e da multa. Comentário Nexus: bateria a 1% é multa. Pode virar tutorial 'como baixar a CNH digital' depois.",
+   "formato": "alerta",
+   "tipo": "short",
+   "quadro": "60s",
+   "origem": "brasil",
+   "verificar_antes": "Confirmar na Senatran/gov.br (página da CNH Digital) as regras de print, PDF e a multa (R$ 88,38, 3 pontos, infração leve); sem fonte oficial, não publicar. Não afirmar regra de estado específico.",
+   "fontes": [
+    {
+     "nome": "Portal do Trânsito (Senatran)",
+     "url": "https://www.portaldotransito.com.br/noticias/fiscalizacao-e-legislacao/cnh-digital-em-pdf-vale-na-blitz-senatran-esclarece-duvida-de-motoristas/"
+    },
+    {
+     "nome": "Correio Braziliense",
+     "url": "https://www.correiobraziliense.com.br/cbradar/cnh-digital-blitz-validade/"
+    },
+    {
+     "nome": "Gov.br CNH do Brasil (a conferir)",
+     "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-senatran"
+    }
+   ],
+   "nota": 5
+  },
+  {
+   "data": "2026-11-16",
+   "imagens_oficiais": [],
+   "post_relacionado": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Alternativas do catálogo (celulares/acessórios ativo=sim) como 'comprar agora'; conferir CSV."
+   },
+   "status": "nova",
+   "assunto": "RAMageddon: por que tudo de tecnologia vai ficar mais caro (placa de vídeo, Galaxy S27, Windows e celular)",
+   "por_que_em_alta": "Memória cara pela corrida da IA aparece em várias pautas desta semana: AMD cortando oferta de GPU (Canaltech 13/11), Galaxy S27 com alta de cerca de US$ 100 e 1 TB nos Pro/Ultra (SamMobile, Android Authority, Techadvisor, Canaltech, 4gnews), Windows 11 OEM mais caro, Xiaomi 18 com preço +20%. Black Friday em 27/11 torna a pergunta 'compro agora ou espero?' atual.",
+   "evidencias": [
+    "https://canaltech.com.br/smartphone/galaxy-s27-pode-ser-muito-mais-potente-mas-preco-tambem-deve-subir-entenda/",
+    "https://www.sammobile.com/?p=16680865",
+    "https://androidauthority.com/samsung-galaxy-s27-memory-storage-configurations-leak-3713926",
+    "https://canaltech.com.br/hardware/amd-corta-em-ate-50-a-oferta-de-placas-de-video-gamer-ate-2027-preco-deve-subir/"
+   ],
+   "angulo": "Gancho: a IA está comprando a memória do mundo e quem paga é você. Como funciona (fábricas priorizam memória de IA), o que subiu e o que é só rumor (S27, AMD), E no Brasil (Black Friday: vale comprar agora?), alternativas que já dá pra comprar do catálogo, veredito. Une 4 pautas soltas.",
+   "formato": "explicador",
+   "tipo": "longo",
+   "quadro": "lafora",
+   "origem": "gringo",
+   "palavra_chave": "memoria ram preço alta ia",
+   "criterios_gringo": "1 sim (SamMobile, Android Authority, Techadvisor, Notebookcheck); 2 sim (preço de celular, PC e GPU no Brasil); 3 parcial (Canaltech cobre em texto; checar vídeo em PT no YouTube BR); 4 sim (guias de compra e Black Friday). 3 de 4 ok.",
+   "verificar_antes": "Sem termo no vidIQ: nota menor e dizer isso. Separar fato (preço da memória, com fonte de mercado como TrendForce) de rumor (S27, corte de 50% da AMD). Abrir fonte primária de preço de DRAM. Nada de 'vai custar R$ X' sem cotação e data.",
+   "fontes": [
+    {
+     "nome": "Canaltech (Galaxy S27)",
+     "url": "https://canaltech.com.br/smartphone/galaxy-s27-pode-ser-muito-mais-potente-mas-preco-tambem-deve-subir-entenda/"
+    },
+    {
+     "nome": "SamMobile",
+     "url": "https://www.sammobile.com/?p=16680865"
+    },
+    {
+     "nome": "Android Authority",
+     "url": "https://androidauthority.com/samsung-galaxy-s27-memory-storage-configurations-leak-3713926"
+    },
+    {
+     "nome": "Canaltech (AMD)",
+     "url": "https://canaltech.com.br/hardware/amd-corta-em-ate-50-a-oferta-de-placas-de-video-gamer-ate-2027-preco-deve-subir/"
+    }
+   ],
+   "nota": 4
+  },
+  {
+   "data": "2026-11-16",
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "status": "nova",
+   "assunto": "Galaxy S27 deve subir cerca de US$ 100 e trazer 1 TB nos modelos Pro e Ultra (vazamento)",
+   "por_que_em_alta": "Vários veículos em PT e EN: Canaltech, Oficina da Net, SamMobile (alta de 130 mil won), Android Authority (configurações de memória), Techadvisor, 4gnews. Nada confirmado pela Samsung. Hoje no destaque de smartphones do Canaltech.",
+   "evidencias": [
+    "https://canaltech.com.br/smartphone/galaxy-s27-pode-ser-muito-mais-potente-mas-preco-tambem-deve-subir-entenda/",
+    "https://androidauthority.com/samsung-galaxy-s27-memory-storage-configurations-leak-3713926"
+   ],
+   "angulo": "Reserva do 60s, ou bloco do Lá Fora sobre RAMageddon. Tratar como vazamento; a ressalva: a diferença entre versões de armazenamento pode até cair, o preço base é que sobe.",
+   "formato": "noticia",
+   "tipo": "short",
+   "quadro": "60s",
+   "origem": "gringo",
+   "verificar_antes": "Rumor sem confirmação. Abrir SamMobile e Android Authority e confirmar os números antes de citar. Não repetir 'dobro de armazenamento' sem fonte.",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/smartphone/galaxy-s27-pode-ser-muito-mais-potente-mas-preco-tambem-deve-subir-entenda/"
+    },
+    {
+     "nome": "Android Authority",
+     "url": "https://androidauthority.com/samsung-galaxy-s27-memory-storage-configurations-leak-3713926"
+    },
+    {
+     "nome": "SamMobile",
+     "url": "https://www.sammobile.com/?p=16680865"
+    }
+   ],
+   "nota": 3
+  },
+  {
+   "data": "2026-11-16",
+   "imagens_oficiais": [
+    "https://www.motorola.com.br/"
+   ],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "status": "nova",
+   "assunto": "Motorola Signature 27 vai aceitar o GrapheneOS, o Android ultrasseguro, primeira vez em celular da marca",
+   "por_que_em_alta": "Canaltech: Signature 27 ganha suporte ao GrapheneOS; Tecnoblog destaca 'celular da Motorola com Android superseguro vai custar caro' (ontem, 15/11). Liga ao Signature 27 de R$ 10.999 já na lista. Não achei a matéria do Tecnoblog para ler: só o título na home.",
+   "evidencias": [
+    "https://canaltech.com.br/smartphone/motorola-signature-27-ganha-suporte-a-sistema-android-ultrasseguro/"
+   ],
+   "angulo": "Gancho: um sistema que quase ninguém conhece quer proteger seu celular até do fabricante. O que é o GrapheneOS, o que se perde (apps Google, bancos) e para quem faz sentido. Une com a pauta do Signature 27.",
+   "formato": "explicador",
+   "tipo": "short",
+   "quadro": "60s",
+   "origem": "brasil",
+   "verificar_antes": "Abrir o site do GrapheneOS e o anúncio da Motorola Brasil: confirmar suporte, preço, disponibilidade no Brasil e compatibilidade com apps de banco. Só 1 fonte lida.",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/smartphone/motorola-signature-27-ganha-suporte-a-sistema-android-ultrasseguro/"
+    },
+    {
+     "nome": "GrapheneOS (a conferir)",
+     "url": "https://grapheneos.org/"
+    }
+   ],
+   "nota": 3
+  },
+  {
+   "data": "2026-11-16",
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "status": "nova",
+   "assunto": "Como fazer o Gemini lembrar de você em qualquer conversa (memória, passo a passo)",
+   "quadro": "tutorial",
+   "tipo": "tutorial",
+   "formato": "tutorial",
+   "palavra_chave": "como fazer o gemini lembrar",
+   "por_que_em_alta": "Canaltech destaca o tutorial na home de hoje; TecMundo e Canaltech cobriram a memória do Gemini; caminho: Configurações > Inteligência Personalizada > Memória, com histórico para ver e apagar. Sem termo no vidIQ ainda: nota menor.",
+   "evidencias": [
+    "https://canaltech.com.br/inteligencia-artificial/gemini-agora-usa-chats-antigos-para-entender-seus-gostos-e-te-responder-melhor/",
+    "https://www.tecmundo.com.br/produto/414040-gemini-live-agora-lembra-de-conversas-passadas-saiba-como-ativar.htm"
+   ],
+   "angulo": "Resultado primeiro: o Gemini passa a saber seu nome, trabalho e preferências sem repetir. Passos, como ver e apagar a memória (privacidade) e o que fazer se a opção não aparece.",
+   "verificar_antes": "Fontes divergem: uma diz que exige plano Google AI e idioma em inglês dos EUA; Gemini Live com memória só nos EUA. Abrir a página oficial de ajuda do Google em PT-BR; se a opção não existir no Brasil, descartar. Conferir o termo no vidIQ na próxima rodada.",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/inteligencia-artificial/gemini-agora-usa-chats-antigos-para-entender-seus-gostos-e-te-responder-melhor/"
+    },
+    {
+     "nome": "Ajuda do Gemini (a conferir)",
+     "url": "https://support.google.com/gemini"
+    }
+   ],
+   "origem": "brasil",
+   "nota": 3
+  },
+  {
+   "data": "2026-11-16",
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "status": "nova",
+   "assunto": "Black Friday 27/11: TIM dá GTA VI na compra do PS5 Digital, mas o preço depende de troca e plano",
+   "por_que_em_alta": "Canaltech (03/11): PS5 Slim Digital por R$ 2.376 à vista (24x de R$ 99) só com plano TIM com fidelização e entrega de um PS4 usado; jogo retirado a partir de 19/11. A matéria diz que não dá para garantir esse preço só contratando o plano. GTA 6 sai quinta (19/11).",
+   "evidencias": [
+    "https://canaltech.com.br/telecom/tim-da-gta-vi-de-graca-na-compra-de-ps5-em-oferta-da-black-friday/"
+   ],
+   "angulo": "Gancho: o PS5 'com GTA 6 de graça' tem pegadinha. Conta de quem não entrega PS4 usado e fidelização. Liga a Black Friday antecipada.",
+   "formato": "alerta",
+   "tipo": "short",
+   "quadro": "60s",
+   "origem": "brasil",
+   "verificar_antes": "OFERTA COM PRAZO: abrir a página da TIM e conferir regras e prazo na hora de gravar; matéria tem 13 dias. Se acabou, descartar. Sem link de afiliado; preço visto em data.",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/telecom/tim-da-gta-vi-de-graca-na-compra-de-ps5-em-oferta-da-black-friday/"
+    },
+    {
+     "nome": "TIM (a conferir)",
+     "url": "https://www.tim.com.br/"
+    }
+   ],
+   "nota": 3
+  },
+  {
+   "data": "2026-11-16",
+   "imagens_oficiais": [
+    "https://news.microsoft.com/"
+   ],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "status": "nova",
+   "assunto": "Histórias Tech: Windows 1.0, o 'programa' da Microsoft que chegou em 20/11/1985 e ninguém queria",
+   "por_que_em_alta": "Evergreen com gancho: aniversário em 4 dias (41 anos, não é data redonda) e a Microsoft segue no centro da conversa (Xbox 25 anos, Windows 11 mais caro). Sem pico de busca medido; nota baixa.",
+   "evidencias": [
+    "https://www.history.com/this-day-in-history/november-20/microsoft-releases-windows-1-0"
+   ],
+   "angulo": "Gancho: a primeira versão do Windows foi chamada de lenta e feia, e mesmo assim virou o sistema do mundo. Auge: interface gráfica sobre o MS-DOS. Virada: Windows 3.0 (1990). Lição: o produto ruim que chega primeiro pode ganhar tempo.",
+   "formato": "curiosidade",
+   "tipo": "short",
+   "quadro": "historias",
+   "verificar_antes": "Nenhuma fonte aberta nesta rodada: confirmar 20/11/1985 e os fatos em 2 fontes (History.com, Computer History Museum/Microsoft). Sem isso, descartar.",
+   "fontes": [
+    {
+     "nome": "History.com (a conferir)",
+     "url": "https://www.history.com/this-day-in-history/november-20/microsoft-releases-windows-1-0"
+    },
+    {
+     "nome": "Computer History Museum (a localizar)",
+     "url": "https://computerhistory.org/"
+    }
+   ],
+   "nota": 3
+  },
   {
    "data": "2026-11-14",
    "assunto": "Histórias Tech: Xbox, os 25 anos do console que a Microsoft lançou para enfrentar a Sony",
@@ -1147,275 +1400,6 @@
    },
    "nota": 5,
    "status": "nova"
-  },
-  {
-   "data": "2026-11-06",
-   "assunto": "Black Friday 27/11: o Selo Anatel e o carregador ou celular que pode ser irregular",
-   "por_que_em_alta": "Procon alerta sobre golpes e falsas promoções (Procon Piracicaba 03/11; Procon-SP); a Anatel orienta checar o selo em celulares e carregadores. Sazonal, a 3 semanas da Black Friday. A operação da Anatel com ML/Amazon que achei é de 2024.",
-   "evidencias": [
-    "https://www.band.com.br/nacional/sp/black-friday-procon-alerta-como-aproveitar-sem-cair-em-dividas-e-fraudes",
-    "https://tecnoblog.net/noticias/anatel-apreende-22-mil-produtos-irregulares-da-amazon-e-mercado-livre/"
-   ],
-   "angulo": "Gancho: o carregador barato da Black Friday pode ser ilegal e perigoso. Como conferir a homologação da Anatel em 30 segundos. Diferente do vídeo de golpes de 03/11 (sites clonados): aqui o assunto é o produto.",
-   "formato": "guia",
-   "tipo": "short",
-   "quadro": "60s",
-   "verificar_antes": "Achar a página oficial da Anatel sobre como conferir homologação e confirmar o passo a passo; a apreensão é de 2024, não tratar como atual.",
-   "fontes": [
-    {
-     "nome": "Band / Procon-SP",
-     "url": "https://www.band.com.br/nacional/sp/black-friday-procon-alerta-como-aproveitar-sem-cair-em-dividas-e-fraudes"
-    },
-    {
-     "nome": "Tecnoblog (operação da Anatel, 2024)",
-     "url": "https://tecnoblog.net/noticias/anatel-apreende-22-mil-produtos-irregulares-da-amazon-e-mercado-livre/"
-    },
-    {
-     "nome": "Anatel",
-     "url": "https://www.gov.br/anatel/"
-    }
-   ],
-   "imagens_oficiais": [],
-   "post_relacionado": "melhores-carregadores-turbo",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Ligar aos carregadores do catálogo (Baseus GaN5, Ugreen Nexode, Samsung 25 W) quando o guia sair; conferir ativo=sim."
-   },
-   "nota": 4,
-   "status": "nova"
-  },
-  {
-   "data": "2026-11-06",
-   "assunto": "Galaxy Z TriFold: o celular de 3 dobras que a Samsung começou a encerrar e nunca chegou ao Brasil",
-   "por_que_em_alta": "Tecnoblog: Samsung começa a encerrar as vendas (Bloomberg) e 2ª geração só em 2027 (rumor); lançado na Coreia em 12/12/2025 e a US$ 2.899 nos EUA; sem previsão no Brasil. O tema dobráveis está quente com o iPhone Duo.",
-   "evidencias": [
-    "https://tecnoblog.net/noticias/samsung-comeca-a-encerrar-vendas-do-galaxy-z-trifold/",
-    "https://tecnoblog.net/noticias/samsung-pode-lancar-nova-geracao-do-galaxy-trifold-em-2027/"
-   ],
-   "angulo": "Gancho: o celular que vira tablet custava US$ 2.899 e saiu de linha sem chegar aqui. Por que o dobrável triplo não vingou e o que comprar no lugar.",
-   "formato": "explicador",
-   "tipo": "longo",
-   "quadro": "lafora",
-   "origem": "gringo",
-   "criterios_gringo": "1 a confirmar (Bloomberg via Tecnoblog + outra fonte de fora); 2 parcial (não vende no BR, mas ancora o debate dos dobráveis); 3 sim; 4 sim (posts de dobráveis)",
-   "verificar_antes": "Confirmar data e fonte do fim das vendas e achar uma fonte de fora; converter preços com a cotação do dia, como estimativa.",
-   "fontes": [
-    {
-     "nome": "Tecnoblog (fim das vendas)",
-     "url": "https://tecnoblog.net/noticias/samsung-comeca-a-encerrar-vendas-do-galaxy-z-trifold/"
-    },
-    {
-     "nome": "Tecnoblog (2ª geração, rumor)",
-     "url": "https://tecnoblog.net/noticias/samsung-pode-lancar-nova-geracao-do-galaxy-trifold-em-2027/"
-    },
-    {
-     "nome": "Olhar Digital (lançamento)",
-     "url": "https://olhardigital.com.br/2025/12/02/reviews/samsung-apresenta-galaxy-z-trifold/"
-    }
-   ],
-   "imagens_oficiais": [],
-   "post_relacionado": "iphone-duo-vale-a-pena-dobravel",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "nota": 3,
-   "status": "nova"
-  },
-  {
-   "data": "2026-11-06",
-   "assunto": "Wall Street: techs e chips caem por temor de desaceleração da IA",
-   "por_que_em_alta": "Google Trends BR de hoje: 'wall street' com 2000+ buscas, ligado à queda de chips e Nasdaq por temores sobre a IA. Não confirmei os números em fonte primária (Nasdaq -5% e US$ 2,5 tri vieram só do resumo do Trends).",
-   "evidencias": [
-    "https://trends.google.com/trending/rss?geo=BR"
-   ],
-   "angulo": "Gancho: a IA deixou memória e celular mais caros, e agora o mercado teme que ela desacelere. Só entra com 2 fontes confiáveis; ligar ao vídeo de memória e preço de 03/11.",
-   "formato": "explicador",
-   "tipo": "short",
-   "quadro": "60s",
-   "verificar_antes": "BLOQUEANTE: números não verificados. Sem 2 fontes (Reuters, InfoMoney, CNN Brasil) com data de hoje, descartar.",
-   "fontes": [],
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "nota": 2,
-   "status": "nova"
-  },
-  {
-   "data": "2026-11-05",
-   "assunto": "Chromagraph: o app de câmera de Rian Johnson que lidera a App Store nos EUA",
-   "por_que_em_alta": "MacRumors (30/10): nº 1 em Foto e Vídeo na App Store dos EUA, anúncio no X com 6 milhões de views em 1 dia; também Gizmodo, No Film School, Newsshooter e GSMArena (05/11). Não achei cobertura em português.",
-   "evidencias": [
-    "https://macrumors.com/2026/10/30/rian-johnson-iphone-camera-app/",
-    "https://gizmodo.com/the-last-jedi-director-launches-a-new-camera-app-for-iphone-because-hes-a-good-guy-2000832061",
-    "https://nofilmschool.com/rian-johnson-steve-yedlin-app",
-    "https://www.newsshooter.com/2026/10/28/chromagraph-camera-ios-app-by-steve-yedlin-asc/"
-   ],
-   "angulo": "Gancho: o diretor de Knives Out lançou um app que troca o processamento da câmera do iPhone pelo look dos filmes dele. Chega aqui? Por quanto? Pago único (US$ 12,99 nos EUA, EUR 14,99 na Europa; conferir preço na App Store BR e converter como estimativa). Mostrar o que muda (RAW, cor, grão, halation), para quem serve e o que não faz (só foto, sem vídeo ainda). Alternativa: o app de câmera nativo; sem produto do catálogo.",
-   "formato": "explicador",
-   "tipo": "longo",
-   "quadro": "lafora",
-   "origem": "gringo",
-   "criterios_gringo": "1 sim (5+ fontes de fora); 2 sim (App Store global, iPhone é forte no BR); 3 sim (nada em PT achado); 4 parcial (posts de iPhone)",
-   "verificar_antes": "Preço e disponibilidade na App Store do Brasil e o nome exato do app no listing",
-   "fontes": [
-    {
-     "nome": "MacRumors",
-     "url": "https://macrumors.com/2026/10/30/rian-johnson-iphone-camera-app/"
-    },
-    {
-     "nome": "Gizmodo",
-     "url": "https://gizmodo.com/the-last-jedi-director-launches-a-new-camera-app-for-iphone-because-hes-a-good-guy-2000832061"
-    },
-    {
-     "nome": "No Film School",
-     "url": "https://nofilmschool.com/rian-johnson-steve-yedlin-app"
-    },
-    {
-     "nome": "Newsshooter",
-     "url": "https://www.newsshooter.com/2026/10/28/chromagraph-camera-ios-app-by-steve-yedlin-asc/"
-    }
-   ],
-   "imagens_oficiais": [
-    "Capturas oficiais na página do app na App Store (crédito Divulgação/Chromagraph); abrir com scripts/midia.py"
-   ],
-   "post_relacionado": "iphone-duo-vale-a-pena-dobravel",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Sem produto do catálogo; editorial. Curador pode avaliar tripé/lente para celular."
-   },
-   "nota": 4,
-   "status": "em_video"
-  },
-  {
-   "data": "2026-11-05",
-   "assunto": "Celular com 10.000 mAh ou mais: a corrida da bateria chegou ao Brasil?",
-   "por_que_em_alta": "Notebookcheck/GSMArena/Gizmochina (out-nov): Redmi Turbo 6 Max vaza com mais de 10.000 mAh e tela de 7 pol. (China, janeiro, não confirmado); Honor Power 2 já tem 10.080 mAh; Redmi Note 17 Pro Max global tem 10.000 mAh, mas a versão brasileira traz 9.210 mAh.",
-   "evidencias": [
-    "https://www.notebookcheck.net/Xiaomi-Redmi-Turbo-6-Max-leak-points-to-a-10-000mAh-plus-battery-and-7-inch-2K-display.1419050.0.html",
-    "https://canaltech.com.br/smartphone/bateria-de-10000-mah-6-celulares-que-desafiam-a-tomada-em-2026/"
-   ],
-   "angulo": "Gancho: lá fora já tem celular de 10.000 mAh; aqui a versão do Redmi veio com 9.210. Explicar a diferença (conferir motivo oficial, senão tratar como dúvida) e o que usar enquanto isso: power bank.",
-   "formato": "explicador",
-   "tipo": "longo",
-   "quadro": "lafora",
-   "origem": "gringo",
-   "criterios_gringo": "1 sim; 2 sim; 3 fraco (já coberto em PT); 4 sim. Reserva se a do Chromagraph cair.",
-   "fontes": [
-    {
-     "nome": "Notebookcheck (Redmi Turbo 6 Max, 08/10)",
-     "url": "https://www.notebookcheck.net/Xiaomi-Redmi-Turbo-6-Max-leak-points-to-a-10-000mAh-plus-battery-and-7-inch-2K-display.1419050.0.html"
-    },
-    {
-     "nome": "Canaltech (25/05)",
-     "url": "https://canaltech.com.br/smartphone/bateria-de-10000-mah-6-celulares-que-desafiam-a-tomada-em-2026/"
-    },
-    {
-     "nome": "Xataka Brasil (Redmi Note 17 Pro Max, 9.210 mAh)",
-     "url": "https://www.xataka.com.br/telefonia/xiaomi-lanca-redmi-note-17-pro-max-5g-no-brasil-com-a-maior-bateria-ja-vista-na-linha-9-210-mah"
-    }
-   ],
-   "imagens_oficiais": [],
-   "post_relacionado": "como-escolher-power-bank",
-   "produto": {
-    "id": "anker-a110e-20000-22w",
-    "como_encaixa": "Alternativa que já dá pra comprar: power bank de 20.000 mAh (confirmar ativo=sim no CSV)"
-   },
-   "nota": 3,
-   "status": "nova"
-  },
-  {
-   "data": "2026-11-05",
-   "assunto": "Samsung: Galaxy Buds4 Pro e Buds3 Pro vão funcionar como aparelho auditivo",
-   "por_que_em_alta": "GSMArena (05/11): recurso chega aos fones em breve; FDA liberou em 11/08 (9to5Google, Android Authority); Canaltech e Samsung Brasil já cobriram a aprovação. Sem data para o Brasil.",
-   "evidencias": [
-    "https://9to5google.com/2026/08/11/samsung-galaxy-buds-hearing-aid-feature/",
-    "https://canaltech.com.br/fone-de-ouvido/samsung-vai-transformar-galaxy-buds-em-aparelho-auditivo-eua-ja-aprovou/"
-   ],
-   "angulo": "Gancho: o fone da Samsung vai virar aparelho auditivo, nos EUA. Aqui? Sem data confirmada. Explicar o que é (adultos com perda leve a moderada, exige Galaxy com One UI 8+) e o que não substitui.",
-   "formato": "explicador",
-   "tipo": "short",
-   "quadro": "60s",
-   "verificar_antes": "Preço do Buds4 Pro no Brasil veio de resultado de busca; conferir no Samsung Brasil ou omitir.",
-   "fontes": [
-    {
-     "nome": "9to5Google",
-     "url": "https://9to5google.com/2026/08/11/samsung-galaxy-buds-hearing-aid-feature/"
-    },
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/fone-de-ouvido/samsung-vai-transformar-galaxy-buds-em-aparelho-auditivo-eua-ja-aprovou/"
-    },
-    {
-     "nome": "Samsung Newsroom Brasil",
-     "url": "https://news.samsung.com/br/recurso-hearing-aid-do-galaxy-buds-da-samsung-e-aprovado-pela-fda"
-    }
-   ],
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "nota": 3,
-   "status": "nova"
-  },
-  {
-   "data": "2026-11-07",
-   "assunto": "Histórias Tech #1: Orkut, o rei brasileiro que o Facebook engoliu",
-   "por_que_em_alta": "Histórias Tech de sábado 07/11. Nostalgia de alto engajamento no Brasil; TecMundo (2026), Canaltech, Olhar Digital e SBT News seguem cobrindo o Orkut. Sem notícia concorrente no dia.",
-   "evidencias": [
-    "https://canaltech.com.br/redes-sociais/a-historia-do-orkut-rede-social-ja-foi-a-favorita-do-brasil/",
-    "https://olhardigital.com.br/2024/09/30/internet-e-redes-sociais/10-anos-sem-orkut-o-legado-que-ainda-ressoa-nas-redes-sociais/",
-    "https://sbtnews.sbt.com.br/noticia/tecnologia/orkut-faz-20-anos"
-   ],
-   "angulo": "Gancho (momento dramático): o Google desligou em 30/09/2014 uma rede em que mais da metade dos usuários era brasileira. Auge (lançado em 24/01/2004 por Orkut Büyükkökten; versão em português em 2005; maioria brasileira), virada (Facebook passa o Orkut no Brasil no fim de 2011, medição comScore) e lição: ganhar o público não protege de um concorrente que chega no seu idioma e no celular. Fecha com pergunta.",
-   "formato": "curiosidade",
-   "tipo": "short",
-   "quadro": "historias",
-   "numero": 1,
-   "fatos_conferidos": {
-    "confirmado_em_2_fontes": [
-     "Lançamento em 24/01/2004 por Orkut Büyükkökten (Canaltech, SBT News, O Povo)",
-     "Encerramento em 30/09/2014 (Canaltech, Olhar Digital, Baguete; NSC Total diz 24/09, descartar)"
-    ],
-    "divergente_nao_usar_sem_conferir": [
-     "Usuários: Olhar Digital cita 40 milhões no Brasil em 2008; Canaltech cita ~34 milhões de contas brasileiras entre 66 milhões em 2014",
-     "Ultrapassagem pelo Facebook: dez/2011 (36,1 mi contra 34,4 mi, comScore, uma fonte) ou 2012 (NSC Total)"
-    ]
-   },
-   "verificar_antes": "Datas de 24/01/2004 e 30/09/2014 prontas. Número de usuários e data da ultrapassagem têm fontes divergentes: abrir as páginas e usar só o que 2 fontes repetirem, ou falar sem número.",
-   "fontes": [
-    {
-     "nome": "Canaltech (história do Orkut)",
-     "url": "https://canaltech.com.br/redes-sociais/a-historia-do-orkut-rede-social-ja-foi-a-favorita-do-brasil/"
-    },
-    {
-     "nome": "Olhar Digital (10 anos sem Orkut)",
-     "url": "https://olhardigital.com.br/2024/09/30/internet-e-redes-sociais/10-anos-sem-orkut-o-legado-que-ainda-ressoa-nas-redes-sociais/"
-    },
-    {
-     "nome": "SBT News (20 anos do Orkut)",
-     "url": "https://sbtnews.sbt.com.br/noticia/tecnologia/orkut-faz-20-anos"
-    },
-    {
-     "nome": "Baguete (Google decreta o fim do Orkut)",
-     "url": "https://www.baguete.com.br/noticias/google-decreta-o-fim-do-orkut"
-    }
-   ],
-   "imagens_oficiais": [
-    "Wikimedia Commons (logo e capturas do Orkut com licença livre); conferir a licença com scripts/midia.py"
-   ],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Sem produto."
-   },
-   "nota": 5,
-   "status": "em_video"
   }
  ]
 }

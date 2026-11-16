@@ -1,0 +1,102 @@
+{
+ "tipo": "short",
+ "quadro": "60s",
+ "slug": "2026-11-16-cnh-digital-blitz-print-nao-vale",
+ "post": "",
+ "titulo": "CNH digital na blitz: print não vale #shorts",
+ "resumo": "CNH digital na blitz só vale aberta no app CNH do Brasil, segundo a Senatran. Print, PDF e versão impressa não substituem o documento. Baixe antes: ele abre sem internet.",
+ "hashtags": [
+  "CNHDigital",
+  "Blitz",
+  "Senatran",
+  "Transito"
+ ],
+ "selo": "Brasil",
+ "palavra_chave": "cnh digital",
+ "fontes": [
+  {
+   "nome": "Portal do Trânsito (Senatran)",
+   "url": "https://www.portaldotransito.com.br/noticias/fiscalizacao-e-legislacao/cnh-digital-em-pdf-vale-na-blitz-senatran-esclarece-duvida-de-motoristas/"
+  },
+  {
+   "nome": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/cbradar/cnh-digital-blitz-validade/"
+  },
+  {
+   "nome": "Ministério dos Transportes / Senatran",
+   "url": "https://www.gov.br/transportes/pt-br/assuntos/transito"
+  }
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O print da sua CNH no celular não vale na blitz.",
+   "tela": "Print da CNH não vale na blitz",
+   "imagens": [
+    "tela:https://www.gov.br/transportes/pt-br/assuntos/transito"
+   ]
+  },
+  {
+   "tipo": "manchete",
+   "fala": "Segundo a Senatran, manter uma captura de tela não substitui a forma oficial de apresentar a habilitação.",
+   "manchete": {
+    "url": "https://www.portaldotransito.com.br/noticias/fiscalizacao-e-legislacao/cnh-digital-em-pdf-vale-na-blitz-senatran-esclarece-duvida-de-motoristas/",
+    "trecho": "manter uma captura de tela não substitui a forma oficial de apresentação"
+   }
+  },
+  {
+   "tipo": "info",
+   "fala": "Só vale a CNH aberta no aplicativo oficial, o CNH do Brasil.",
+   "icone": "check",
+   "imagens": [
+    "tela:https://www.gov.br/transportes/pt-br/assuntos/transito"
+   ],
+   "fonte": "Senatran, via Portal do Trânsito, 14/10"
+  },
+  {
+   "tipo": "lista",
+   "fala": "Print, PDF e versão impressa não substituem o documento no app.",
+   "titulo_lista": "NÃO SUBSTITUEM",
+   "itens": [
+    "Print da tela",
+    "Arquivo em PDF",
+    "Versão impressa"
+   ],
+   "fonte": "Senatran e Correio Braziliense",
+   "imagens": [
+    "estoque:police traffic checkpoint"
+   ]
+  },
+  {
+   "tipo": "info",
+   "fala": "O detalhe: se você baixar antes, ela abre mesmo sem internet.",
+   "icone": "wifi",
+   "fonte": "Senatran, via Portal do Trânsito, 14/10",
+   "imagens": [
+    "estoque:smartphone phone screen"
+   ]
+  },
+  {
+   "tipo": "fato",
+   "fala": "Sinal falhou na estrada? Sem problema, desde que a CNH já esteja baixada. Faça isso em casa, com Wi-Fi.",
+   "imagens": [
+    "estoque:highway road night"
+   ]
+  },
+  {
+   "tipo": "fato",
+   "fala": "E celular sem bateria? Aí nem o app abre. A CNH física original continua valendo, então guarde ela também.",
+   "imagens": [
+    "estoque:smartphone low battery"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "fala": "O print da sua CNH no celular não vale na blitz.",
+   "tela": "Sua CNH está baixada?",
+   "imagens": [
+    "tela:https://www.gov.br/transportes/pt-br/assuntos/transito"
+   ]
+  }
+ ]
+}
