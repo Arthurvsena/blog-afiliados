@@ -1,20 +1,24 @@
-# Leitura diária: 2026-11-12 (dia medido: 11/11)
+# Relatório diário: 2026-11-16 (Luisa)
 
-## Ontem em números
-- **4 visitas e 7 visualizações** (1,75 página por visita), todas na página inicial, diretas e dos Estados Unidos. É quase certo robô ou verificação, não leitor.
-- Contra a média dos 7 dias anteriores (04 a 10/11: 5,1 visitas e 8,1 visualizações por dia): **-22% em visitas, -14% em visualizações**. Páginas por visita: 1,75 contra 1,58 da média.
-- Origem: Google 0 (média de 2,0 por dia), direto 4 (média de 3,0), redes 0. Sem Google ontem; o Search Console ainda não tem 11/11 (último dia: 10/11, 1 clique, 195 impressões, posição 11,2).
-- Referência útil, 10/11: 10 visitas (8 diretas, 1 Google, 1 Gemini).
+## Aviso: sem dados do site
+O Cloudflare Web Analytics pediu login na coleta. Visitas, visualizações, páginas por visita e origens de 15/11 estão **sem dado** (e os dias 12 a 14/11 também não foram coletados). Não dá para comparar com a média dos 7 dias. O dono precisa entrar de novo em dash.cloudflare.com no Chrome.
 
-## O que bombou
-- Ontem não houve post lido: as 4 visitas foram na home. Nenhum post "em alta" (3x a própria média).
-- Em 10/11 (dia real mais recente): `melhores-power-banks` 3 visitas, `whatsapp-confirmacao-duas-etapas` 2, `anatel-chamadas-abusivas-bloqueio` 2. O Gemini mandou 1 visita para o power bank 20.000 mAh.
-- Buscas de 10/11 com impressões: Alexa/Echo Dot (3 + 3), Zelda Notes (20 impressões, o único clique).
+## 1. Ontem em números
+- Site (15/11): sem dado.
+- Google (Search Console, último dia disponível: 14/11): 0 cliques, 181 impressões, posição média 13,2.
+- Google, semana 08 a 14/11: 8 cliques, 1.460 impressões, CTR 0,5%, posição média 10,7. A semana anterior teve 14 cliques e 923 impressões (CTR 1,5%), então as impressões subiram e os cliques caíram.
+- YouTube (28 dias até 15/11): 4.250 views, 2 inscritos, CTR 2,0%, 54,1% assistido em média.
 
-## O que fazer hoje
-1. `vendas`: power banks tiveram 4 visitas em 10/11 (guia geral e de 20.000 mAh); conferir as 2 chamadas de compra e o cartão antes da Black Friday.
-2. `pesquisador`: a regra da Anatel contra chamadas abusivas vale hoje (12/11) e o post teve 2 visitas; fazer a continuação ("o que mudou hoje") com termo real de `palavras.json`.
-3. `pesquisador`: Alexa/Echo Dot soma 6 impressões em duas buscas em 10/11 e o tutorial tem 12 impressões e 0 cliques; pauta de "como configurar/ligar" com título de solução.
+## 2. O que bombou
+- Site: sem dado de visitas por post.
+- Google em 14/11, páginas com mais impressões e 0 cliques: Alexa Echo Dot primeira vez (36), fone TWS "só funciona um lado" (30), HyperOS 4 / POCO X8 Pro (18).
+- YouTube: Shorts "Sony quer comprar seu PS5 usado" (1.128 views, 63,4% assistido) e "GTA 6 no Xbox One" (913 views). O Short "PS5 100 milhões" tem a melhor retenção (85,9%) com 574 views.
+- Em alta (3x a própria média): sem dado.
 
-## Canal do YouTube
-28 dias até 11/11: 2.645 visualizações (eram 2.599), CTR de miniatura 1,8%, +1 inscrito. O problema segue o mesmo: muitas views, quase nenhum inscrito nem visita ao blog (0 do YouTube em 10 e 11/11).
+## 3. O que fazer hoje
+1. `seo`: título e descrição dos posts da Alexa e do TWS, que têm impressões e 0 cliques.
+2. `produtor`: pôr a chamada para o blog nos Shorts com mais views, porque 4.250 views trouxeram só 2 inscritos.
+3. Dono: reentrar no Cloudflare para a coleta de amanhã.
+
+## Canal
+Resumo em `data/leitura_canal.json`: não foi reescrito hoje, porque as regras pedem comparar vídeos do mesmo quadro e a coleta de hoje foi parcial.

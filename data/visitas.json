@@ -1022,6 +1022,87 @@
         "Search Console ainda sem dados de 11/11 (dia mais recente disponível é 10/11, já registrado no dia 2026-11-10)",
         "Cloudflare: as 4 visitas foram todas na página inicial, diretas e dos Estados Unidos (provável robô/verificação, não leitor); 3 visualizações vieram de navegação interna no Brasil sem visita nova"
       ]
+    },
+    {
+      "dia": "2026-11-15",
+      "visitas": null,
+      "visualizacoes": null,
+      "celular_pct": null,
+      "youtube": null,
+      "paginas": [],
+      "origens": [],
+      "google": {
+        "dia": "2026-11-14",
+        "cliques": 0,
+        "impressoes": 181,
+        "ctr": 0,
+        "posicao": 13.2,
+        "consultas": [
+          {
+            "termo": "como configurar alexa echo dot",
+            "cliques": 0,
+            "impressoes": 10
+          },
+          {
+            "termo": "como configurar alexa",
+            "cliques": 0,
+            "impressoes": 3
+          },
+          {
+            "termo": "lampada alexa",
+            "cliques": 0,
+            "impressoes": 2
+          },
+          {
+            "termo": "ipohone duo",
+            "cliques": 0,
+            "impressoes": 2
+          },
+          {
+            "termo": "lâmpada alexa",
+            "cliques": 0,
+            "impressoes": 2
+          }
+        ],
+        "paginas": [
+          {
+            "url": "/posts/como-configurar-alexa-echo-dot-primeira-vez/",
+            "cliques": 0,
+            "impressoes": 36
+          },
+          {
+            "url": "/posts/fone-tws-so-funciona-um-lado/",
+            "cliques": 0,
+            "impressoes": 30
+          },
+          {
+            "url": "/posts/xiaomi-hyperos-4-liberacao-lista-poco-x8-pro-brasil/",
+            "cliques": 0,
+            "impressoes": 18
+          },
+          {
+            "url": "/posts/zelda-ocarina-of-time-switch-2-lancamento-5-novembro-preco/",
+            "cliques": 0,
+            "impressoes": 15
+          },
+          {
+            "url": "/posts/analise-iphone-11-vale-a-pena-em-2026/",
+            "cliques": 0,
+            "impressoes": 10
+          }
+        ],
+        "semana_08_a_14": {
+          "cliques": 8,
+          "impressoes": 1460,
+          "ctr": 0.5,
+          "posicao": 10.7
+        }
+      },
+      "faltou": [
+        "Cloudflare Web Analytics pediu login (tela 'Sign in to Cloudflare'); visitas, páginas, origens, celular e YouTube de 15/11 não coletados",
+        "Search Console: dia mais recente disponível é 14/11 (sem dados de 15/11)",
+        "Dias 12 a 14/11 não foram coletados em execuções anteriores"
+      ]
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
- "proximo_id": 81,
+ "proximo_id": 83,
  "mensagens": [
   {
    "id": 1,
@@ -1050,6 +1050,26 @@
    "resposta": "Foto CC0 do iPhone 17 Pro Max (Commons) aplicada.",
    "respondido_por": "designer",
    "resolvida_em": "2026-11-16"
+  },
+  {
+   "id": 81,
+   "data": "2026-11-16",
+   "de": "analista",
+   "para": "seo",
+   "meta": "cliques",
+   "assunto": "CTR do Google em 0,5%",
+   "mensagem": "Semana 08-14/11: 1.460 impressões, 8 cliques, posição 10,7. Em 14/11 a Alexa Echo Dot (36 impressões) e o TWS 'só funciona um lado' (30) tiveram 0 cliques. Reescreva título e descrição dos dois.",
+   "status": "aberta"
+  },
+  {
+   "id": 82,
+   "data": "2026-11-16",
+   "de": "analista",
+   "para": "produtor",
+   "meta": "acessos",
+   "assunto": "Shorts com views mas sem inscritos",
+   "mensagem": "28 dias: 4.250 views e 2 inscritos. O Short do PS5 usado fez 1.128 views. Ponha a chamada para o blog e para o canal no fim dos próximos Shorts desse tipo.",
+   "status": "aberta"
   }
  ]
 }
