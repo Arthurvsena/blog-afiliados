@@ -3615,7 +3615,7 @@
   "tipo": "noticia",
   "prioridade": "hoje",
   "motivo": "Atualização de novembro começou em 10/11/2026 em fases; segundo a Jetstream cobre 23 modelos (Pixel 6a ao Pixel 11 Pro Fold, com Pixel Fold e Tablet), traz 32 correções e o Pixel Drop. Pixel 6 e Pixel 6 Pro saem da lista (dado só da Jetstream, que cita o suporte do Google; BGR já havia noticiado o fim do suporte do Pixel 6 em outubro; marcar como 'segundo a Jetstream'). O blog do Google não cita o Brasil como mercado de nenhum recurso de IA, só Wi-Fi Auto-Connect+ do Google Fi; a liberação por região é gradual: não prometer data no Brasil. Recursos que dependem de modelo: ícones personalizados (6a em diante), Pixel Search (6 em diante), Extreme Battery Charging (Pixel 10), resumos de notificações (Pixel 9+). Termo 'atualização android pixel novembro' (Google, sem post cobrindo). Sem termo secundário no palavras.json.",
-  "status": "pendente",
+  "status": "descartada",
   "criada": "2026-11-13",
   "palavra_chave": "atualização android pixel novembro",
   "secundarias": [],
@@ -3646,7 +3646,7 @@
   "tipo": "noticia",
   "prioridade": "hoje",
   "motivo": "Gemini Intelligence ganha recursos no Pixel 10 pelo Pixel Drop de novembro: Rambler (tira vícios de fala e formata o ditado), Create My Widget (widget por descrição em texto; Pixel 10 e 11, 'em mercados selecionados', chegando ao Pixel Watch) e automação de tarefas em apps (Google: expandindo para Reino Unido, Índia e Japão). Limites confirmados pelo Google: só 'países e idiomas selecionados', maiores de 18 anos, Pixel 10a fora; Gemini ligando por você é só nos EUA (9to5Google); o blog não cita o Brasil. Primeiro celular de terceiros com Gemini Intelligence: motorola signature 27, pré-venda nos EUA em 19/11. Responde à busca 'celular com inteligência artificial' mostrando o que já vale e o que ainda não chega ao Brasil. Não afirmar disponibilidade no Brasil.",
-  "status": "pendente",
+  "status": "descartada",
   "criada": "2026-11-13",
   "palavra_chave": "celular com inteligência artificial",
   "secundarias": [
@@ -3965,10 +3965,11 @@
   "tipo": "tutorial",
   "produtos_necessarios": 0,
   "motivo": "Varias buscas sobre Claude sem post; editoria de IA com poucos tutoriais.",
-  "status": "pendente",
+  "status": "publicada",
   "criada": "2026-11-14",
   "editoria": "inteligencia-artificial",
-  "viral": 4
+  "viral": 4,
+  "post": "claude-ia-como-usar-como-funciona"
  },
  {
   "id": "gemini-google-ai-plus-vale-a-pena",
@@ -3987,7 +3988,8 @@
   "motivo": "Busca de compra/avaliacao; aproveita a cobertura recente de Gemini 4.",
   "status": "pendente",
   "criada": "2026-11-14",
-  "editoria": "inteligencia-artificial"
+  "editoria": "inteligencia-artificial",
+  "viral": 3
  },
  {
   "id": "alexa-compativel-tv-samsung-como-conectar",
@@ -4006,7 +4008,8 @@
   "motivo": "Maior forca de casa inteligente; liga com Alexa+ e Echo Dot, posts que ja ganham impressoes.",
   "status": "pendente",
   "criada": "2026-11-14",
-  "editoria": "tecnologia"
+  "editoria": "tecnologia",
+  "viral": 2
  },
  {
   "id": "celular-motorola-lancamento-barato-qual-comprar",
@@ -4026,7 +4029,8 @@
   "motivo": "Intencao de compra em celulares, editoria forte; puxa para Signature 27 e linhas de entrada na Black Friday.",
   "status": "pendente",
   "criada": "2026-11-14",
-  "editoria": "celulares"
+  "editoria": "celulares",
+  "viral": 4
  },
  {
   "id": "epic-games-knightica-gratis-12-19-novembro-como-resgatar",
@@ -4058,5 +4062,271 @@
   "motivo": "Oferta vai de 12 a 19/11/2026 (roguelike autobattler da Mad Mango Games). Fontes de ofertas, sem comunicado oficial aberto: o redator deve conferir a página da Epic antes de publicar e escrever o horário em Brasília só se confirmar. Conferir se o termo existe em palavras.json.",
   "viral": 5,
   "post": "epic-games-knightica-gratis-12-19-novembro-como-resgatar"
+ },
+ {
+  "id": "pix-6-anos-1-bilhao-chaves-banco-central-numeros",
+  "titulo": "Pix completa 6 anos com mais de 1 bilhão de chaves: o que mudou e os números do BC",
+  "palavra_chave": "pix 6 anos",
+  "secundarias": [],
+  "editoria": "tecnologia",
+  "fontes": [
+   {
+    "nome": "Banco Central: Estatísticas do Pix",
+    "url": "https://www.bcb.gov.br/estabilidadefinanceira/estatisticaspix"
+   },
+   {
+    "nome": "Olhar Digital",
+    "url": "https://olhardigital.com.br/2026/11/16/pro/pix-completa-6-anos-com-mais-de-1-bilhao-de-chaves-cadastradas/"
+   }
+  ],
+  "tipo": "noticia",
+  "produtos_necessarios": 0,
+  "motivo": "Aniversário de hoje (16/11); afeta todo brasileiro; liga com os guias de golpe Pix já publicados. Conferir os números nas estatísticas do BC antes de publicar.",
+  "prioridade": "hoje",
+  "status": "publicada",
+  "criada": "2026-11-16",
+  "viral": 4,
+  "post": "pix-6-anos-1-bilhao-chaves-banco-central-numeros"
+ },
+ {
+  "id": "gta-6-pre-carregamento-recorde-trafego-internet-de-cix",
+  "titulo": "Pré-carregamento de GTA 6 bate recorde de tráfego de internet, diz DE-CIX",
+  "palavra_chave": "gta 6 pré-carregamento",
+  "secundarias": [],
+  "editoria": "games",
+  "fontes": [
+   {
+    "nome": "DE-CIX (operadora de pontos de troca de tráfego)",
+    "url": "https://www.de-cix.net/en/about-de-cix/media-library/press-releases"
+   },
+   {
+    "nome": "Canaltech",
+    "url": "https://canaltech.com.br/games/pre-carregamento-de-gta-6-bate-recorde-historico-de-trafego-de-internet/"
+   }
+  ],
+  "tipo": "noticia",
+  "produtos_necessarios": 0,
+  "motivo": "GTA 6 sai à meia-noite de 19/11; tema que o Google já entrega em games. Atenção: Canaltech converte 33 Tbit/s em 125 GB/s, o que está errado (33 Tbit/s é cerca de 4 GB/s); não repetir a conversão. Linkar os posts de pré-load e preço já publicados.",
+  "prioridade": "hoje",
+  "status": "publicada",
+  "criada": "2026-11-16",
+  "viral": 5,
+  "post": "gta-6-pre-carregamento-recorde-trafego-internet-de-cix"
+ },
+ {
+  "id": "wolfenstein-3-machinegames-confirmado-xbox-25-anos",
+  "titulo": "Wolfenstein 3 está em produção, confirma a chefe do Xbox no aniversário de 25 anos",
+  "palavra_chave": "wolfenstein 3",
+  "secundarias": [],
+  "editoria": "games",
+  "fontes": [
+   {
+    "nome": "Asha Sharma (CEO do Xbox) / MachineGames, publicação oficial no X, 12/11",
+    "url": "https://x.com/MachineGames"
+   },
+   {
+    "nome": "Canaltech",
+    "url": "https://canaltech.com.br/games/xbox-faz-25-anos-e-quem-ganha-o-presente-sao-os-fas-de-wolfenstein/"
+   },
+   {
+    "nome": "VGC",
+    "url": "https://www.videogameschronicle.com/"
+   }
+  ],
+  "tipo": "noticia",
+  "produtos_necessarios": 0,
+  "motivo": "Anúncio de 12/11 (sem plataforma nem data: dizer isso). Entram junto os anúncios dos 25 anos: modo cooperativo em Halo Campaign Evolved, Modo Matança em DOOM The Dark Ages Revelations e 21 clássicos do Xbox original no PC. O redator precisa abrir a fonte primária; a busca da pauta só achou o Canaltech. Se não confirmar, tratar como 'segundo o VGC'.",
+  "prioridade": "hoje",
+  "status": "pendente",
+  "criada": "2026-11-16",
+  "viral": 3
+ },
+ {
+  "id": "iphone-18-e-18e-so-no-segundo-trimestre-2027-gurman",
+  "titulo": "iPhone 18 e 18e só em 2027: o que a Bloomberg diz e o que isso muda para quem quer comprar",
+  "palavra_chave": "iphone 18 lançamento",
+  "secundarias": [],
+  "editoria": "celulares",
+  "fontes": [
+   {
+    "nome": "Bloomberg (Mark Gurman, Power On)",
+    "url": "https://www.bloomberg.com/technology"
+   },
+   {
+    "nome": "MacRumors",
+    "url": "https://www.macrumors.com/2026/05/07/when-is-the-iphone-18-coming-out/"
+   },
+   {
+    "nome": "Canaltech",
+    "url": "https://canaltech.com.br/smartphone/apple-nao-tem-pressa-iphone-18-e-18e-ja-so-chegam-no-2t-de-2027-diz-gurman/"
+   }
+  ],
+  "tipo": "noticia",
+  "produtos_necessarios": 0,
+  "motivo": "Relato de imprensa, não anúncio da Apple: Pro, Pro Max e o iPhone Duo no segundo semestre de 2026 e o iPhone 18 e o 18e (A20) no 2T de 2027. Escrever como relato e dizer o que não está confirmado. Sem nada sobre Brasil na fonte; ligar a iphone-duo e aos posts de iPhone 13 e Black Friday (quem espera vs. quem compra agora).",
+  "prioridade": "hoje",
+  "status": "publicada",
+  "criada": "2026-11-16",
+  "viral": 4,
+  "post": "iphone-18-e-18e-so-no-segundo-trimestre-2027-gurman"
+ },
+ {
+  "id": "microsoft-pane-global-outlook-teams-copilot-70-paises",
+  "titulo": "Pane global da Microsoft derruba Outlook, Teams e Copilot em mais de 70 países; serviço voltou no sábado",
+  "palavra_chave": "microsoft pane outlook teams",
+  "secundarias": [],
+  "editoria": "tecnologia",
+  "fontes": [
+   {
+    "nome": "Olhar Digital",
+    "url": "https://olhardigital.com.br/2026/11/15/seguranca/falha-da-microsoft-mostra-riscos-de-concentrar-servicos-digitais/"
+   },
+   {
+    "nome": "The Guardian (14/11, citado pelo Olhar Digital; abrir a matéria)",
+    "url": "https://www.theguardian.com/technology"
+   }
+  ],
+  "tipo": "noticia",
+  "produtos_necessarios": 0,
+  "motivo": "Fato de 12 a 14/11 (a Microsoft atribuiu a uma atualização de capacidade de rede e descartou ataque). Fonte frágil: só o Olhar Digital foi aberto e a fonte oficial (página de status da Microsoft) não apareceu. O redator só publica se achar a matéria do Guardian ou o comunicado da Microsoft; senão, descartar. Cuidado para não confundir com a falha do Paint já publicada.",
+  "prioridade": "hoje",
+  "status": "pendente",
+  "criada": "2026-11-16",
+  "viral": 3
+ },
+ {
+  "id": "mi-band-10-ou-galaxy-fit-3-qual-comprar",
+  "titulo": "Mi Band 10 ou Galaxy Fit 3: qual smartband comprar antes da Black Friday",
+  "palavra_chave": "mi band vs galaxy fit 3",
+  "secundarias": [
+   "smartband galaxy fit 3",
+   "smartband samsung galaxy fit3",
+   "mi band 10"
+  ],
+  "fontes_termo": [
+   "google",
+   "mercadolivre"
+  ],
+  "forca": 2.0,
+  "subnicho": "smartwatches-smartbands",
+  "tipo": "comparativo",
+  "produtos_necessarios": 2,
+  "produtos_sugeridos": [
+   "xiaomi-smart-band-10",
+   "samsung-galaxy-fit3"
+  ],
+  "motivo": "Subnicho com menos posts; busca de comparação com intenção de compra, 2 produtos já ativos no CSV; encaixa na Black Friday de 27/11.",
+  "status": "publicada",
+  "criada": "2026-11-16",
+  "post": "mi-band-10-ou-galaxy-fit-3-qual-comprar"
+ },
+ {
+  "id": "playstation-barato-qual-ps5-comprar-black-friday",
+  "titulo": "PlayStation barato: qual PS5 vale comprar na Black Friday",
+  "palavra_chave": "playstation barato",
+  "secundarias": [
+   "playstation 5",
+   "playstation 5 pro"
+  ],
+  "fontes_termo": [
+   "google",
+   "mercadolivre"
+  ],
+  "forca": 4.33,
+  "editoria": "games",
+  "fontes": [
+   {
+    "nome": "PlayStation (site oficial Brasil)",
+    "url": "https://www.playstation.com/pt-br/ps5/"
+   }
+  ],
+  "tipo": "analise",
+  "produtos_necessarios": 0,
+  "motivo": "Maior força de compra da editoria games (Google e Mercado Livre) e ainda sem cobertura; GTA 6 e a Black Friday puxam a busca. Conferir preços e ofertas na semana, sem preço fixo no texto; não repetir o post playstation-ou-xbox-qual-comprar-black-friday, foco em edição do PS5 (Digital, com disco, Pro).",
+  "status": "publicada",
+  "criada": "2026-11-16",
+  "post": "playstation-barato-qual-ps5-comprar-black-friday"
+ },
+ {
+  "id": "lancamentos-jogos-ps5-novembro-2026-gta-6",
+  "titulo": "Lançamentos de jogos para PS5 em novembro de 2026: GTA 6 e o que mais chega",
+  "palavra_chave": "lançamento jogos ps5",
+  "secundarias": [
+   "lançamento jogos ps5 outubro"
+  ],
+  "fontes_termo": [
+   "google"
+  ],
+  "forca": 1.67,
+  "editoria": "games",
+  "fontes": [
+   {
+    "nome": "Rockstar Games Newswire: Grand Theft Auto VI Pre-Load Begins on November 10",
+    "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10"
+   },
+   {
+    "nome": "PlayStation Store Brasil (a conferir pelo redator)",
+    "url": "https://store.playstation.com/pt-br/"
+   }
+  ],
+  "tipo": "analise",
+  "produtos_necessarios": 0,
+  "motivo": "Pauta GTA 6 com ângulo novo, porque horário (0h de 19/11), espaço (212 GB) e preço já têm post publicado e o pré-carregamento abriu em 10/11. Aqui GTA 6 vira o destaque de uma lista de lançamentos do mês, com link interno para os 3 posts. Termo real sem post. ATENÇÃO: o palavras.json não traz termo de GTA 6; preço (R$ 449,90) só aparece em Tecnoblog e Critical Hits, não em fonte oficial lida por mim, então o redator não deve cravar preço sem abrir a página oficial. A página da Rockstar lida só confirma pré-carregamento em 10/11 (título); a lista dos demais jogos precisa de fonte oficial de cada um.",
+  "status": "pendente",
+  "criada": "2026-11-16"
+ },
+ {
+  "id": "melhores-ias-gratis-celular-android",
+  "titulo": "Inteligência artificial para celular Android: as IAs grátis que valem instalar",
+  "palavra_chave": "inteligencia artificial para celular android",
+  "secundarias": [
+   "inteligência artificial para celular grátis",
+   "inteligência artificial para celular",
+   "melhor inteligência artificial para celular",
+   "aplicativo inteligência artificial para celular"
+  ],
+  "fontes_termo": [
+   "google"
+  ],
+  "forca": 3.58,
+  "editoria": "inteligencia-artificial",
+  "fontes": [
+   {
+    "nome": "Google Gemini (página oficial)",
+    "url": "https://gemini.google.com/"
+   },
+   {
+    "nome": "ChatGPT (OpenAI)",
+    "url": "https://openai.com/chatgpt/"
+   }
+  ],
+  "tipo": "analise",
+  "produtos_necessarios": 0,
+  "motivo": "Termo de maior força da editoria de IA, com 5 variações agrupadas e sem post. Testar nada: descrever o que cada app oferece nos planos grátis conforme as páginas oficiais abertas na execução, e linkar para os posts de Gemini, Claude e IA da Samsung.",
+  "status": "pendente",
+  "criada": "2026-11-16"
+ },
+ {
+  "id": "tomada-inteligente-alexa-como-configurar",
+  "titulo": "Tomada inteligente com Alexa: como configurar e o que dá para automatizar",
+  "palavra_chave": "tomada inteligente alexa",
+  "secundarias": [
+   "tomada inteligente tuya"
+  ],
+  "fontes_termo": [
+   "google",
+   "mercadolivre"
+  ],
+  "forca": 4.19,
+  "subnicho": "casa-inteligente",
+  "tipo": "guia",
+  "produtos_necessarios": 0,
+  "produtos_sugeridos": [
+   "tplink-tapo-p110"
+  ],
+  "motivo": "Termo com Google e Mercado Livre, força 4,19 e intenção de quem vai comprar; guia de passo a passo com chamada para o Tapo P110 via card, sem preço. Linkar o post tomada-inteligente-vale-a-pena e o de configuração da Echo Dot, sem canibalizar.",
+  "status": "publicada",
+  "criada": "2026-11-16",
+  "post": "tomada-inteligente-alexa-como-configurar"
  }
 ]

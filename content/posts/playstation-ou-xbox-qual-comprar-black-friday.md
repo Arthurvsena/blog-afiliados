@@ -134,6 +134,8 @@ Se a dúvida é entre console de mesa e portátil, a [análise do Nintendo Switc
 
 Se o orçamento não chega ao console atual, o PS4 ainda existe como opção barata. Mas ele não roda o GTA 6, e a análise completa está em [vale a pena comprar um PS4 em 2026](/posts/analise-ps4-vale-a-pena-em-2026/).
 
+Já decidiu pelo PlayStation e falta escolher a edição? Veja [qual PS5 comprar na Black Friday: Digital, com disco ou Pro](/posts/playstation-barato-qual-ps5-comprar-black-friday/).
+
 ## Acessórios que servem nos dois
 
 Console novo pede headset (veja a lista de [headsets gamer baratos](/posts/melhores-headsets-gamer-baratos/)). Um exemplo que consta no nosso catálogo como compatível com PlayStation e Xbox é o {{link:jbl-quantum-100m2|JBL Quantum 100M2}}, ligado por cabo. Veja o preço atual no card; para comparar outras opções, passe pelo [guia de acessórios gamer](/categoria/acessorios-gamer/).

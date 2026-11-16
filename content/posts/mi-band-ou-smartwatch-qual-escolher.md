@@ -3,7 +3,7 @@ titulo: "Mi Band ou smartwatch: Smart Band 10 vs Redmi Watch e Bip 6"
 slug: mi-band-ou-smartwatch-qual-escolher
 descricao: "Mi Band ou smartwatch? Veja a Smart Band 10 frente ao Galaxy Fit3, Redmi Watch 5 Active e Amazfit Bip 6 em bateria, tela, GPS e chamadas."
 palavra_chave: "mi band ou smartwatch"
-palavras_secundarias: ["mi band ou redmi watch", "mi band vs redmi watch", "mi band vs galaxy fit 3", "mi band melhor custo beneficio"]
+palavras_secundarias: ["mi band ou redmi watch", "mi band vs redmi watch", "mi band melhor custo beneficio"]
 subnicho: smartwatches-smartbands
 tipo: guia
 produtos: [xiaomi-smart-band-10, samsung-galaxy-fit3, xiaomi-smart-band-9-active, xiaomi-redmi-watch-5-active, amazfit-bip-6]
@@ -17,7 +17,7 @@ faq:
   - pergunta: "Mi Band ou Redmi Watch: qual dura mais?"
     resposta: "Pela ficha dos anúncios, a Xiaomi Smart Band 10 informa até 3 semanas de bateria e o Redmi Watch 5 Active, até 18 dias. A diferença é pequena. O Redmi Watch troca um pouco de autonomia por tela maior e chamadas Bluetooth."
   - pergunta: "Mi Band ou Galaxy Fit3: qual é melhor?"
-    resposta: "Os dois têm tela AMOLED, resistência à água até 50 m e nota 4,9 nos anúncios. A Smart Band 10 tem tela maior (1,72 polegada contra 1,6) e bateria de até 3 semanas, contra 13 dias do Galaxy Fit3. O Fit3 tem a vantagem de ser da Samsung, o que ajuda quem já usa celular da marca."
+    resposta: "Os dois têm tela AMOLED, resistência à água até 50 m e nota 4,9 nos anúncios. A Smart Band 10 tem tela maior (1,72 polegada contra 1,6) e bateria de até 3 semanas, contra 13 dias do Galaxy Fit3. O Fit3 tem a vantagem de ser da Samsung, o que ajuda quem já usa celular da marca. Para o duelo completo, veja [Mi Band vs Galaxy Fit 3](/posts/mi-band-10-ou-galaxy-fit-3-qual-comprar/)."
   - pergunta: "Mi Band tem GPS?"
     resposta: "Pela ficha dos anúncios, as Mi Bands deste guia não informam GPS integrado e, em geral, as smartbands usam o GPS do celular. Entre os modelos deste guia, só o Amazfit Bip 6 informa GPS integrado."
   - pergunta: "Dá para atender ligação pela Mi Band?"

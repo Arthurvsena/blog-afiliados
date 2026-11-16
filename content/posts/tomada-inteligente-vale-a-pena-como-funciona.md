@@ -76,6 +76,8 @@ Aparelho de potência alta pede tomada com amperagem maior, e há modelos de 16 
 
 **Fica a dica:** leia a potência na etiqueta do aparelho e compare com a ficha da tomada antes de pagar.
 
+Já decidiu comprar? Veja [como configurar a tomada inteligente com a Alexa](/posts/tomada-inteligente-alexa-como-configurar/), passo a passo.
+
 ## Tomada inteligente economiza energia?
 
 Só um pouco, e do seu jeito. A tomada também consome uma pequena quantidade de energia para manter o Wi-Fi ligado. O ganho aparece quando você usa a agenda para cortar o que ficaria ligado: carregador esquecido, ventilador a noite toda, luzes de decoração.

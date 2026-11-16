@@ -1,5 +1,5 @@
 {
- "ultima_execucao": "2026-11-15T08:00",
+ "ultima_execucao": "2026-11-16T08:15",
  "agentes": {
   "chefe": {
    "status": "ok",
@@ -7,19 +7,19 @@
   },
   "pesquisador": {
    "status": "ok",
-   "tarefa": "Trouxe 5 notícias do dia, incluindo o jogo grátis da Epic, que confirmei no endpoint oficial. A fila segue com 9 pautas."
+   "tarefa": "Trouxe 5 notícias do dia (GTA 6, Pix, iPhone 18, Wolfenstein, pane da Microsoft) e enchi a fila com 5 pautas, até 14."
   },
   "curador": {
-   "status": "ocioso",
-   "tarefa": "Não fui chamado: o pedido de tomada 16A/20A do mural #79 fica para a próxima rodada."
+   "status": "ok",
+   "tarefa": "Achei a Intelbras ETW 1001+ (20 A) para o guia de tomada e deixei caixas até R$ 100 e mouses Redragon para o dono decidir."
   },
   "redator": {
    "status": "ok",
-   "tarefa": "Escrevi Epic Knightica, Galaxy S27, Anthropic IPO, linha verde, Starlink e os guias de tomada e lâmpada inteligente."
+   "tarefa": "Escrevi GTA 6/DE-CIX, Pix 6 anos, iPhone 18, Claude IA, PS5 na Black Friday, Mi Band x Galaxy Fit 3 e tomada inteligente com Alexa."
   },
   "seo": {
    "status": "ok",
-   "tarefa": "Troquei palavras-chave para termos reais do palavras.json e reforcei os links internos dos 7 posts."
+   "tarefa": "Ajustei títulos, descrições e links internos dos 7 posts e separei a palavra-chave do Mi Band da do guia antigo."
   },
   "atualizador": {
    "status": "ocioso",
@@ -27,15 +27,15 @@
   },
   "designer": {
    "status": "ok",
-   "tarefa": "Coloquei foto e diagramei os 7 posts, desviando do bug do regex dos blocos."
+   "tarefa": "Pus foto e diagramei os 7 posts; a Pix usa o logo oficial e o iPhone 18 uma foto do 17 Pro Max."
   },
   "vendas": {
    "status": "ok",
-   "tarefa": "Pus chamadas de compra nos guias, uma câmera no Starlink e um carregador no Galaxy S27; pedi tomada 16A/20A ao curador."
+   "tarefa": "Pus cabo e power bank no iPhone 18, headsets no PS5, links no Mi Band x Fit 3 e na tomada Tapo; Pix e Claude ficaram sem venda forçada."
   },
   "viral": {
    "status": "ok",
-   "tarefa": "Dei as notas das pautas e escrevi os textos de rede dos 7 posts."
+   "tarefa": "Dei notas às pautas e escrevi os textos de rede dos 7 posts, com GTA 6 em primeiro."
   },
   "produtor": {
    "status": "ocioso",
@@ -51,41 +51,6 @@
   }
  },
  "historico": [
-  {
-   "data": "2026-11-07",
-   "agente": "seo",
-   "texto": "Revisei os sete posts e liguei Zelda, Motorola e GTA 6 entre si."
-  },
-  {
-   "data": "2026-11-07",
-   "agente": "viral",
-   "texto": "Escrevi os textos de rede dos sete posts de hoje."
-  },
-  {
-   "data": "2026-11-07",
-   "agente": "vendas",
-   "texto": "Pus chamadas de compra no guia da lâmpada e o headset no PlayStation x Xbox."
-  },
-  {
-   "data": "2026-11-07",
-   "agente": "designer",
-   "texto": "Peguei fotos e diagramei os sete posts."
-  },
-  {
-   "data": "2026-11-08",
-   "agente": "analista",
-   "texto": "Ontem foram 3 visitas (1 do Google); o iPhone 13 tem 40 impressões e 0 cliques."
-  },
-  {
-   "data": "2026-11-09",
-   "agente": "pesquisador",
-   "texto": "Trouxe 5 pautas de notícia e 2 de \"vale a pena\" (iPhone 12 e 11)."
-  },
-  {
-   "data": "2026-11-09",
-   "agente": "curador",
-   "texto": "Sugeri o Black Shark Buds 6 ANC como reserva para TWS gamer."
-  },
   {
    "data": "2026-11-09",
    "agente": "redator",
@@ -350,6 +315,41 @@
    "data": "2026-11-15",
    "agente": "pesquisador",
    "texto": "Pauta de 5 notícias do dia."
+  },
+  {
+   "data": "2026-11-16",
+   "agente": "redator",
+   "texto": "Escrevi 7 posts: GTA 6/DE-CIX, Pix, iPhone 18, Claude IA, PS5, Mi Band x Fit 3 e tomada com Alexa."
+  },
+  {
+   "data": "2026-11-16",
+   "agente": "pesquisador",
+   "texto": "Trouxe 5 notícias do dia e 5 pautas novas para a fila."
+  },
+  {
+   "data": "2026-11-16",
+   "agente": "curador",
+   "texto": "Pesquisei a tomada Intelbras 20 A para o guia de tomada."
+  },
+  {
+   "data": "2026-11-16",
+   "agente": "seo",
+   "texto": "Revisei os 7 posts do dia."
+  },
+  {
+   "data": "2026-11-16",
+   "agente": "viral",
+   "texto": "Textos de rede dos 7 posts em data/redes.md."
+  },
+  {
+   "data": "2026-11-16",
+   "agente": "vendas",
+   "texto": "Chamadas de compra em iPhone 18, PS5, Mi Band e tomada."
+  },
+  {
+   "data": "2026-11-16",
+   "agente": "designer",
+   "texto": "Fotos e componentes nos 7 posts."
   }
  ]
 }

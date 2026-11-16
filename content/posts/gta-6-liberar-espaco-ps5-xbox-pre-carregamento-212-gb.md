@@ -103,3 +103,5 @@ Libere um pouco mais que 212 GB: o número é um teto que pode mudar com a atual
 :::veredito
 Aperte a gaveta hoje: apague o que você não joga, confira o espaço e deixe pelo menos 212 GB livres antes de 9/11.
 :::
+
+**Leia também:** [o recorde de tráfego que o pré-carregamento de GTA 6 causou](/posts/gta-6-pre-carregamento-recorde-trafego-internet-de-cix/).

@@ -83,3 +83,5 @@ Libere 212 GB e comece a baixar no primeiro minuto. Xbox em 9/11 às 21h, PS5 em
 :::
 
 **Leia também:** [o que o CEO da Take-Two disse sobre a pirataria de GTA 6](/posts/take-two-ceo-pirataria-gta-6-medidas-legais-tecnicas/).
+
+**Leia também:** [GTA 6 bate recorde de tráfego na DE-CIX com o pré-carregamento](/posts/gta-6-pre-carregamento-recorde-trafego-internet-de-cix/).

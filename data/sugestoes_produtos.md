@@ -2,6 +2,26 @@
 
 O curador escreve aqui os produtos que vale cadastrar em data/produtos.csv.
 
+## Sugestões de 2026-11-16 (mural #79, caixas até R$ 100, mouses Redragon)
+
+**Aviso:** o ML segue sem leitura (403). Nota e avaliações do ML não conferidas; critério no cadastro: 4,5+ e 200+ avaliações, loja oficial ou MercadoLíder, Anatel.
+
+### casa-inteligente: tomada de 20 A (mural #79)
+- **Tomada Inteligente Wi-Fi Intelbras ETW 1001+ (10 A e 20 A)** (Intelbras), preço não confirmado (a loja Intelbras mostra "indisponível"; confira estoque no ML). Por que: única tomada Intelbras de 20 A achada e a ficha cobre carga maior que a Tapo P110. Confirmado na loja oficial Intelbras: corrente máxima 20 A (plugues de 10 A e 20 A), 2.540 W em 127 V e 4.400 W em 220 V (FP 1), bivolt 100 a 240 V, medição de consumo em tempo real, Wi-Fi 2,4 GHz, Bluetooth 5.1, garantia de 1 ano. **A página não cita ar-condicionado nem Anatel:** o texto do guia deve mandar comparar a potência da etiqueta do aparelho com o limite e não prometer que "aceita ar-condicionado" ou carga de motor (partida de compressor pode passar da nominal; não confirmado). Um manual Intelbras de outro modelo orienta não instalar perto de ar-condicionado por calor e vento.
+  Busca no ML: `Tomada Inteligente Intelbras ETW 1001+ 20A Wi-Fi`
+  Linha pronta para o CSV (só falta o link):
+  `intelbras-etw-1001-plus,casa-inteligente,Tomada Inteligente Wi-Fi Intelbras ETW 1001+ 10 A e 20 A,Intelbras,PRECO,NOTA,AVAL,COLE_O_LINK,,Corrente máxima de 20 A;Medição de consumo em tempo real;Bivolt com Wi-Fi 2,4 GHz,sim`
+- **Atenção ao nome:** o **EWS 1001** é um interruptor de parede (lâmpadas), **não** é tomada; não cadastrar. Não achei tomada Intelbras de 16 A. A ETW 1002 (dupla) tem 10 A no total: não serve. Segunda tomada de 16/20 A: nenhuma com ficha confirmada; o dono pode mandar o link de outra marca (ex.: outra tomada 20 A do ML) para eu conferir.
+
+### acessorios-gamer: mouses Redragon (`melhores-mouses-gamer-redragon`)
+- Sem produto novo. Ativos: Cobra M711 e Griffin M607. As duas sugestões de 11-12 (Stormrage M718 e Invader M719, fichas lá) continuam pendentes e dependem de o anúncio passar de 4,6 e 200 avaliações. O M718 é a primeira escolha. Se nenhuma passar, a lista sai com 2 Redragon + 1 contraste (Logitech G203 ou Fortrek Crusader, já ativos).
+
+### fones-caixas-bluetooth: caixas até R$ 100
+- Nada novo confirmado: a busca de hoje não trouxe ficha de Philips TAS2505B, Mondial nem Multilaser SP250. Citadas sem ficha (não cadastrar): Xiaomi Mi Compact Speaker 2, Philco Extreme PBS55BT. A pauta segue travada. Recomendação mantida: virar "até R$ 200" com JBL Go Essential 2 (R$ 172 no CSV), Soundcore 2 e Go 4, ou o dono manda 3 links abaixo de R$ 100.
+
+### Resumo de 11-16
+Novas: casa-inteligente 1 (Intelbras ETW 1001+); acessorios-gamer 0 novas (pendentes M718/M719); fones-caixas-bluetooth 0.
+
 ## Sugestões de 2026-11-12 (mural #63 e #69; Black Friday, publicar até 15/11)
 
 **Aviso para o cadastrador:** o Mercado Livre segue sem leitura aqui (403 em anúncios e no blog de reviews). Nota e avaliações do ML **não** foram conferidas por mim. Critério desta rodada: nota 4,6+ e 200+ avaliações no anúncio, loja oficial ou MercadoLíder; se o anúncio não passar, descarte. Só registrei ficha confirmada em página de loja.

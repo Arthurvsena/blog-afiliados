@@ -87,6 +87,8 @@ Pela ficha, ela tem Wi-Fi, 10 A bivolt e padrão brasileiro de 3 pinos. A nota �
 
 ## Como escolher sem errar
 
+Depois da compra, o próximo passo é [conectar a tomada inteligente à Alexa](/posts/tomada-inteligente-alexa-como-configurar/).
+
 1. **Veja a potência do aparelho** na etiqueta e converta em amperes.
 2. **Deixe folga.** Mire em uso bem abaixo do teto da tomada.
 3. **Cheque o formato do pino** da tomada na parede.

@@ -3,6 +3,83 @@
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
 
+## 2026-11-16 · Tomada inteligente Alexa: como configurar em 5 passos
+Link: https://nexustechai.com.br/posts/tomada-inteligente-alexa-como-configurar/
+- WhatsApp: Alexa não acha sua tomada inteligente? Quase sempre é a ordem: app da marca primeiro, skill depois. Passo a passo: https://nexustechai.com.br/posts/tomada-inteligente-alexa-como-configurar/
+- X: Tomada inteligente não aparece na Alexa? Configure no app da marca, confirme que está online e só então ative a skill. Passo a passo com a Tapo P110 e o limite de 10 A: https://nexustechai.com.br/posts/tomada-inteligente-alexa-como-configurar/
+- Instagram (legenda): A Alexa não acha a tomada inteligente?
+  O erro mais comum é começar pelo app da Alexa.
+  Primeiro o app da marca e o Wi-Fi, depois a skill.
+  Passo a passo no link da bio.
+  #alexa #casainteligente #tomadainteligente
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Alexa não acha sua tomada? Você fez na ordem errada." [2-8 s] Fato 1: configure no app da marca e teste ligar e desligar. [8-14 s] Fato 2: só então ative a skill na Alexa. [14-18 s] Fato 3: confira os amperes, a P110 é de 10 A. [18-20 s] "Passo a passo no link da bio."
+
+## 2026-11-16 · Mi Band vs Galaxy Fit 3: 3 semanas ou 13 dias de bateria?
+Link: https://nexustechai.com.br/posts/mi-band-10-ou-galaxy-fit-3-qual-comprar/
+- WhatsApp: Mi Band 10 ou Galaxy Fit3? Até 3 semanas de bateria contra 13 dias, e nenhuma tem GPS. Comparativo: https://nexustechai.com.br/posts/mi-band-10-ou-galaxy-fit-3-qual-comprar/
+- X: Mi Band 10 informa até 3 semanas de bateria; o Galaxy Fit3, até 13 dias. As duas têm nota 4,9 e nenhuma tem GPS. Qual compensa antes da Black Friday: https://nexustechai.com.br/posts/mi-band-10-ou-galaxy-fit-3-qual-comprar/
+- Instagram (legenda): Carregar a smartband 1 vez por mês ou 2?
+  Mi Band 10: até 3 semanas. Galaxy Fit3: até 13 dias.
+  Se você usa Galaxy, o Samsung Health pode pesar mais.
+  Comparativo completo no link da bio.
+  #miband #galaxyfit3 #smartband
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Mi Band ou Galaxy Fit3? A bateria decide." [2-8 s] Fato 1: até 3 semanas contra até 13 dias. [8-14 s] Fato 2: nenhuma tem GPS, as duas aguentam 50 m de água. [14-18 s] Fato 3: quem usa Samsung ganha o Samsung Health. [18-20 s] "Comparativo no link da bio."
+
+## 2026-11-16 · PlayStation barato: qual PS5 comprar na Black Friday 2026
+Link: https://nexustechai.com.br/posts/playstation-barato-qual-ps5-comprar-black-friday/
+- WhatsApp: Vai comprar PS5 na Black Friday? O Digital não lê disco (o leitor é vendido à parte). Veja qual edição compensa: https://nexustechai.com.br/posts/playstation-barato-qual-ps5-comprar-black-friday/
+- X: PS5 mais barato nem sempre é o que compensa: o Digital (825 GB) não lê disco, o com leitor tem 1 TB e o Pro, 2 TB. Guia antes da Black Friday: https://nexustechai.com.br/posts/playstation-barato-qual-ps5-comprar-black-friday/
+- Instagram (legenda): PS5 barato na Black Friday pode sair caro.
+  O Digital não lê disco e o leitor é vendido à parte.
+  825 GB, 1 TB ou 2 TB: cada edição serve a um tipo de jogador.
+  Guia completo no link da bio.
+  #ps5 #blackfriday #playstation
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "PS5 barato? Cuidado com este detalhe." [2-8 s] Fato 1: o Digital não lê disco, o leitor é vendido à parte. [8-14 s] Fato 2: SSD de 825 GB, 1 TB e 2 TB (Pro). [14-18 s] Fato 3: o Pro só compensa com TV 4K de 120 Hz. [18-20 s] "Guia completo no link da bio."
+
+## 2026-11-16 · Claude IA como usar: grátis no Brasil e quando vale o Pro
+Link: https://nexustechai.com.br/posts/claude-ia-como-usar-como-funciona/
+- WhatsApp: O Claude (IA da Anthropic) tem plano grátis e funciona no Brasil. O Pro custa US$ 20/mês e só vale se você bate no limite. Passo a passo: https://nexustechai.com.br/posts/claude-ia-como-usar-como-funciona/
+- X: Claude IA: dá para usar de graça no Brasil (site e app). O Pro é US$ 20/mês e só compensa se você esbarra no limite do plano Free. Passo a passo: https://nexustechai.com.br/posts/claude-ia-como-usar-como-funciona/
+- Instagram (legenda): Claude IA de graça no Brasil? Dá.
+  Funciona no navegador e no app, com limite que renova a cada 5 horas.
+  O Pro (US$ 20/mês) só vale se o limite virar rotina.
+  Passo a passo no link da bio.
+  #claude #ia #tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Claude IA é grátis no Brasil?" [2-8 s] Fato 1: sim, em claude.ai e nos apps, com limite que renova a cada 5 horas. [8-14 s] Fato 2: o Pro custa US$ 20/mês. [14-18 s] Fato 3: só assine se bater no limite toda semana. [18-20 s] "Passo a passo no link da bio."
+
+## 2026-11-16 · iPhone 18 lançamento: modelo básico só em 2027, diz Gurman
+Link: https://nexustechai.com.br/posts/iphone-18-e-18e-so-no-segundo-trimestre-2027-gurman/
+- WhatsApp: Rumor: o iPhone 18 comum e o 18e só chegariam no 2º trimestre de 2027, segundo Gurman. Os Pro vêm antes, em setembro. A Apple não confirmou. https://nexustechai.com.br/posts/iphone-18-e-18e-so-no-segundo-trimestre-2027-gurman/
+- X: Segundo Mark Gurman (Bloomberg), iPhone 18 e 18e ficam para o 2º trimestre de 2027; os Pro viriam em setembro. É relato, a Apple não confirmou. O que é rumor e o que não se sabe: https://nexustechai.com.br/posts/iphone-18-e-18e-so-no-segundo-trimestre-2027-gurman/
+- Instagram (legenda): Rumor: o iPhone 18 básico só em 2027.
+  Segundo Gurman, o 18 e o 18e ficam para o 2º trimestre.
+  Os Pro viriam antes, em setembro.
+  A Apple não confirmou nada. Vale esperar? Link da bio.
+  #iphone18 #apple #rumor
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "iPhone 18 básico só em 2027? Rumor." [2-8 s] Fato 1: Gurman diz 2º trimestre de 2027 para o 18 e o 18e. [8-14 s] Fato 2: os Pro viriam antes, em setembro. [14-18 s] Fato 3: a Apple não confirmou nada. [18-20 s] "Vale esperar? Link na bio."
+
+## 2026-11-16 · Pix 6 anos: 1 bilhão de chaves e 52% são aleatórias
+Link: https://nexustechai.com.br/posts/pix-6-anos-1-bilhao-chaves-banco-central-numeros/
+- WhatsApp: O Pix fez 6 anos: 1 bilhão de chaves e 7,1 bilhões de transações só em setembro. Mais da metade das chaves é aleatória. https://nexustechai.com.br/posts/pix-6-anos-1-bilhao-chaves-banco-central-numeros/
+- X: Pix completa 6 anos com 1,008 bilhão de chaves, 52,3% aleatórias, e 7,1 bilhões de transações em setembro, segundo dados do BC. Os números e como se proteger: https://nexustechai.com.br/posts/pix-6-anos-1-bilhao-chaves-banco-central-numeros/
+- Instagram (legenda): O Pix fez 6 anos e já tem mais de 1 bilhão de chaves.
+  52,3% são aleatórias: muita gente parou de expor CPF e celular.
+  Em setembro foram 7,1 bilhões de transações.
+  Números e dicas de segurança no link da bio.
+  #pix #bancocentral #tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "O Pix tem 1 bilhão de chaves." [2-8 s] Fato 1: 52,3% são chaves aleatórias. [8-14 s] Fato 2: 7,1 bilhões de transações só em setembro. [14-18 s] Fato 3: confira sempre o nome do recebedor. [18-20 s] "Números completos no link da bio."
+
+## 2026-11-16 · GTA 6 pré-carregamento bate recorde de internet: 33 Tbit/s
+Link: https://nexustechai.com.br/posts/gta-6-pre-carregamento-recorde-trafego-internet-de-cix/
+- WhatsApp: O pré-carregamento de GTA 6 bateu o recorde de tráfego da DE-CIX: 33,01 Tbit/s. O jogo libera quinta, 19/11, e pede 212 GB. Já baixou? https://nexustechai.com.br/posts/gta-6-pre-carregamento-recorde-trafego-internet-de-cix/
+- X: Pré-carregamento de GTA 6 levou a DE-CIX a 33,01 Tbit/s, 19% acima do recorde anterior. O jogo destrava quinta (19/11) e pede até 212 GB. O que fazer antes: https://nexustechai.com.br/posts/gta-6-pre-carregamento-recorde-trafego-internet-de-cix/
+- Instagram (legenda): O pré-carregamento de GTA 6 bateu o recorde de tráfego da DE-CIX.
+  Foram 33,01 Tbit/s, 19% acima da marca anterior.
+  O jogo libera quinta, 19/11, e ocupa até 212 GB.
+  Checklist para baixar sem fila no link da bio.
+  #gta6 #ps5 #xbox
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "GTA 6 bateu o recorde da internet." [2-8 s] Fato 1: 33,01 Tbit/s na DE-CIX, 19% acima do recorde. [8-14 s] Fato 2: o arquivo pede até 212 GB. [14-18 s] Fato 3: o jogo destrava à meia-noite de quinta, 19/11. [18-20 s] "Checklist no link da bio."
+
 ## 2026-11-15 · Como configurar lâmpada inteligente: Wi-Fi 2,4 GHz e Alexa
 Link: https://nexustechai.com.br/posts/como-configurar-lampada-inteligente-wifi-alexa/
 - WhatsApp: Comprou lâmpada Wi-Fi e ela não aparece na Alexa? A ordem certa é app do fabricante, rede 2,4 GHz e só depois a Alexa. Passo a passo: https://nexustechai.com.br/posts/como-configurar-lampada-inteligente-wifi-alexa/
