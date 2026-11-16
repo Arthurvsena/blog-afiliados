@@ -128,6 +128,13 @@ Quer outras categorias? Veja também [lâmpadas inteligentes](/posts/melhores-la
 
 Se o iPhone entra na lista, leia também [iPhone novo ou usado: o que muda na garantia do recondicionado](/posts/iphone-novo-ou-recondicionado-vale-a-pena/). Para quem vai levar um power bank junto, veja os [power banks para iPhone](/posts/melhores-power-banks-iphone/).
 
+## Listas prontas para comparar antes do dia 27
+Se você já sabe o que quer, estes guias mostram cada produto com prós, contras e para quem não serve:
+- iPhone e carregamento: [carregador turbo para iPhone com USB-C PD](/posts/carregador-turbo-iphone-usb-c-pd-qual-escolher/).
+- Bateria portátil: [power bank de 10.000 ou 20.000 mAh](/posts/power-bank-10000-ou-20000-mah-qual-escolher/).
+- Games: [mouses gamer baratos](/posts/melhores-mouses-gamer-baratos/), [teclado mecânico blue ou red](/posts/teclado-mecanico-switch-blue-ou-red/) e [fone TWS gamer de baixa latência](/posts/fone-tws-gamer-baixa-latencia/).
+- Pulso: [smartbands custo-benefício](/posts/melhores-smartbands-custo-beneficio/).
+
 ## O que fica
 
 :::dica Anote hoje

@@ -3048,7 +3048,7 @@
     "url": "https://criticalhits.com.br/games/gta-6-sera-liberado-a-meia-noite-no-brasil/"
    }
   ],
-  "prioridade": "hoje",
+  "prioridade": "alta",
   "motivo": "Lançamento em 19/11 (PS5 e Xbox Series), a 8 dias. Imprensa BR: edição padrão R$ 449,90 e Ultimate R$ 549,90 (preço de lançamento, citar com a data; redator confirma nas lojas PlayStation/Xbox), liberação às 00h de 19/11 no horário de Brasília. Termo fora do palavras.json (sem termos de GTA 6): usar como se busca. Pré-carregamento já tem post (gta-6-pre-carregamento-horario-ps5-xbox-212-gb): linkar, não repetir. Não há data de embargo de reviews confirmada: não afirmar.",
   "status": "publicada",
   "post": "gta-6-preco-brasil-meia-noite-19-novembro-versoes",
@@ -4328,5 +4328,88 @@
   "status": "publicada",
   "criada": "2026-11-16",
   "post": "tomada-inteligente-alexa-como-configurar"
+ },
+ {
+  "id": "fone-bluetooth-jbl-qual-comprar",
+  "titulo": "Fone Bluetooth JBL: qual comprar e quais valem o preço",
+  "palavra_chave": "fone bluetooth jbl",
+  "secundarias": [
+   "fone tws jbl"
+  ],
+  "fontes_termo": [
+   "google",
+   "mercadolivre"
+  ],
+  "forca": 4.41,
+  "subnicho": "fones-caixas-bluetooth",
+  "tipo": "lista",
+  "produtos_necessarios": 0,
+  "produtos_sugeridos": [],
+  "motivo": "Maior termo sem post (força 4,41); linkar melhores-fones-tws-bluetooth.",
+  "status": "pendente",
+  "criada": "2026-11-16"
+ },
+ {
+  "id": "carregador-usb-c-apple-qual-comprar",
+  "titulo": "Carregador USB-C Apple: o original vale a pena ou há opção melhor?",
+  "palavra_chave": "carregador usb c apple",
+  "secundarias": [
+   "carregador usb c iphone",
+   "cabo usb c apple"
+  ],
+  "fontes_termo": [
+   "google",
+   "mercadolivre"
+  ],
+  "forca": 4.22,
+  "subnicho": "power-banks-carregadores",
+  "tipo": "lista",
+  "produtos_necessarios": 0,
+  "produtos_sugeridos": [],
+  "motivo": "Três termos de força 3,7 a 4,2 sem post; ligar ao guia de carregador turbo e ao de cabo.",
+  "status": "pendente",
+  "criada": "2026-11-16",
+  "prioridade": "alta"
+ },
+ {
+  "id": "teclado-gamer-mecanico-qual-comprar",
+  "titulo": "Teclado gamer mecânico: 4 opções e como escolher",
+  "palavra_chave": "teclado gamer mecânico",
+  "secundarias": [
+   "teclado gamer redragon"
+  ],
+  "fontes_termo": [
+   "google",
+   "mercadolivre"
+  ],
+  "forca": 4.22,
+  "subnicho": "acessorios-gamer",
+  "tipo": "lista",
+  "produtos_necessarios": 0,
+  "produtos_sugeridos": [],
+  "motivo": "Força 4,22 sem post próprio; hoje cai no guia até 200. Diferenciar do blue ou red.",
+  "status": "pendente",
+  "criada": "2026-11-16",
+  "prioridade": "alta"
+ },
+ {
+  "id": "nintendo-switch-barato-qual-comprar",
+  "titulo": "Nintendo Switch barato: Lite, OLED ou Switch 2 antes da Black Friday",
+  "palavra_chave": "nintendo switch barato",
+  "secundarias": [
+   "nintendo switch lite"
+  ],
+  "fontes_termo": [
+   "google",
+   "mercadolivre"
+  ],
+  "forca": 4.6,
+  "subnicho": "games",
+  "tipo": "guia",
+  "produtos_necessarios": 0,
+  "produtos_sugeridos": [],
+  "motivo": "Termo de compra mais forte sem post (4,6), com Black Friday em 27/11; ligar a nintendo-switch-oled-vale-a-pena-black-friday.",
+  "status": "pendente",
+  "criada": "2026-11-16"
  }
 ]

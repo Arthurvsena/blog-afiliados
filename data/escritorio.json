@@ -3,35 +3,35 @@
   "agentes": {
     "chefe": {
       "status": "ok",
-      "tarefa": "Coordenei a rotina: 3 notícias, 1 tutorial, 1 análise e 2 guias de compra, todos revisados."
+      "tarefa": "Reunião: foco em CTR do Google (0,5%) e nas listas da Black Friday (carregador USB-C Apple, teclado gamer), com ofertas onde já há leitura."
     },
     "pesquisador": {
       "status": "ok",
-      "tarefa": "Trouxe 5 notícias do dia (GTA 6, Pix, iPhone 18, Wolfenstein, pane da Microsoft) e enchi a fila com 5 pautas, até 14."
+      "tarefa": "Reunião: Propôs GTA 6, listas da BF e medição de títulos."
     },
     "curador": {
       "status": "ok",
-      "tarefa": "Achei a Intelbras ETW 1001+ (20 A) para o guia de tomada e deixei caixas até R$ 100 e mouses Redragon para o dono decidir."
+      "tarefa": "Reunião: ML em 403; sugeriu Intelbras ETW 1001+ e caixas até R$ 200; nada inventado."
     },
     "redator": {
       "status": "ok",
-      "tarefa": "Escrevi GTA 6/DE-CIX, Pix 6 anos, iPhone 18, Claude IA, PS5 na Black Friday, Mi Band x Galaxy Fit 3 e tomada inteligente com Alexa."
+      "tarefa": "Reunião: Propôs listas da BF, ofertas e GTA 6."
     },
     "seo": {
       "status": "ok",
-      "tarefa": "Ajustei títulos, descrições e links internos dos 7 posts e separei a palavra-chave do Mi Band da do guia antigo."
+      "tarefa": "Reunião: CTR 0,5%; reescreveu TWS, Echo Dot e power banks; 4 pautas de termos fortes."
     },
     "atualizador": {
-      "status": "ocioso",
-      "tarefa": "Nenhum post não-notícia com 30 dias ou mais."
+      "status": "ok",
+      "tarefa": "Reunião: Propôs ofertas no PS4/Echo Dot e fim da canibalização de power bank."
     },
     "designer": {
       "status": "ok",
-      "tarefa": "Pus foto e diagramei os 7 posts; a Pix usa o logo oficial e o iPhone 18 uma foto do 17 Pro Max."
+      "tarefa": "Reunião: Foto do iPhone 13 é de um 13 Pro; capas da Alexa+ repetidas."
     },
     "vendas": {
       "status": "ok",
-      "tarefa": "Pus cabo e power bank no iPhone 18, headsets no PS5, links no Mi Band x Fit 3 e na tomada Tapo; Pix e Claude ficaram sem venda forçada."
+      "tarefa": "Reunião: Guia da BF agora linka as 6 listas; falta oferta no Echo Dot e PS4."
     },
     "viral": {
       "status": "ok",
@@ -46,56 +46,11 @@
       "tarefa": "Não fui chamado hoje: o canal tem workflow próprio."
     },
     "analista": {
-      "status": "erro",
-      "tarefa": "O Cloudflare pediu login: o dono precisa entrar de novo em dash.cloudflare.com no Chrome. Sem visitas de 12 a 15/11. Google 12-15/11: 4 cliques, 805 impressões (15/11: 0 cliques, 242 impressões)."
+      "status": "ok",
+      "tarefa": "Reunião: Sem Cloudflare desde 12/11; Google 12–15/11: 4 cliques e 805 impressões."
     }
   },
   "historico": [
-    {
-      "data": "2026-11-09",
-      "agente": "seo",
-      "texto": "Separei as palavras-chave dos iPhones e resolvi a canibalização dos posts de golpe do Pix."
-    },
-    {
-      "data": "2026-11-09",
-      "agente": "viral",
-      "texto": "Escrevi os textos de rede dos sete posts de hoje."
-    },
-    {
-      "data": "2026-11-09",
-      "agente": "vendas",
-      "texto": "Liguei as análises dos iPhones e o HyperOS 4 aos guias de power banks e carregadores."
-    },
-    {
-      "data": "2026-11-09",
-      "agente": "designer",
-      "texto": "Pus foto e diagramei os sete posts."
-    },
-    {
-      "data": "2026-11-09",
-      "agente": "analista",
-      "texto": "Ontem foi 1 visita, vinda do Google; 0 do YouTube. Google: 186 impressões e 2 cliques."
-    },
-    {
-      "data": "2026-11-09",
-      "agente": "analista",
-      "texto": "Semana: 34 visitas (+143%), 11 cliques no ML (+450%), 0 pedidos, 14 cliques do Google; meta: 50 visitas."
-    },
-    {
-      "data": "2026-11-09",
-      "agente": "curador",
-      "texto": "Cadastrei 7 produtos com link pelo Chrome: 3 fones e caixas (JBL Go Essential 2, Havit TW969 Lite, QCY T17), 1 teclado Red (Machenike K500-B61), 1 smartband (Huawei Band 11), 1 câmera Wi-Fi (Intelbras iM5SC) e 1 power bank MagSafe (Anker MagGo). Destrava TWS gamer, teclado blue x red e caixas JBL/Soundcore."
-    },
-    {
-      "data": "2026-11-09",
-      "agente": "chefe",
-      "texto": "Reunião: 4 apostas (guias antes da Black Friday, títulos do iPhone 13/Alexa+/TWS, triângulo de games, games e celulares). Participaram analista, seo, vendas, curador, designer, pesquisador, redator e atualizador."
-    },
-    {
-      "data": "2026-11-10",
-      "agente": "pesquisador",
-      "texto": "Trouxe 5 pautas: Switch 2 com 26 milhões, Zelda edição especial contra o modelo comum, Motorola Signature 27 na Vivo, GPT-6 Cyber e o tutorial de fone TWS que não conecta."
-    },
     {
       "data": "2026-11-10",
       "agente": "redator",
@@ -350,6 +305,51 @@
       "data": "2026-11-16",
       "agente": "analista",
       "texto": "Cloudflare pediu login; sem visitas de 12 a 15/11. Google nos 4 dias: 4 cliques, 805 impressões."
+    },
+    {
+      "data": "2026-11-16",
+      "agente": "analista",
+      "texto": "Sem Cloudflare desde 12/11; Google 12–15/11: 4 cliques e 805 impressões."
+    },
+    {
+      "data": "2026-11-16",
+      "agente": "seo",
+      "texto": "CTR 0,5%; reescreveu TWS, Echo Dot e power banks; 4 pautas de termos fortes."
+    },
+    {
+      "data": "2026-11-16",
+      "agente": "vendas",
+      "texto": "Guia da BF agora linka as 6 listas; falta oferta no Echo Dot e PS4."
+    },
+    {
+      "data": "2026-11-16",
+      "agente": "curador",
+      "texto": "ML em 403; sugeriu Intelbras ETW 1001+ e caixas até R$ 200; nada inventado."
+    },
+    {
+      "data": "2026-11-16",
+      "agente": "designer",
+      "texto": "Foto do iPhone 13 é de um 13 Pro; capas da Alexa+ repetidas."
+    },
+    {
+      "data": "2026-11-16",
+      "agente": "pesquisador",
+      "texto": "Propôs GTA 6, listas da BF e medição de títulos."
+    },
+    {
+      "data": "2026-11-16",
+      "agente": "redator",
+      "texto": "Propôs listas da BF, ofertas e GTA 6."
+    },
+    {
+      "data": "2026-11-16",
+      "agente": "atualizador",
+      "texto": "Propôs ofertas no PS4/Echo Dot e fim da canibalização de power bank."
+    },
+    {
+      "data": "2026-11-16",
+      "agente": "chefe",
+      "texto": "Reunião: 4 apostas (redator, seo, atualizador, pesquisador)."
     }
   ]
 }

@@ -1,7 +1,7 @@
 ---
-titulo: "Melhor power bank: 6 modelos de 10.000 e 20.000 mAh"
+titulo: "Melhores power banks 2026: 6 de 10.000 e 20.000 mAh"
 slug: melhores-power-banks
-descricao: "Melhor power bank para cada uso: Ugreen, Anker e Baseus de 10.000 e 20.000 mAh, com carga rápida de 20 a 45 W. Veja qual combina com você."
+descricao: "Melhor power bank por uso: Ugreen, Anker e Baseus de 10.000 e 20.000 mAh com carga rápida de 20 a 45 W. Veja prós, contras e para quem não serve."
 palavra_chave: "melhor power bank"
 palavras_secundarias: ["melhores power bank", "power bank anker", "power bank ugreen", "power bank baseus", "power bank carregamento rapido"]
 subnicho: power-banks-carregadores

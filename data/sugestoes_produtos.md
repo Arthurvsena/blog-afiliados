@@ -19,6 +19,12 @@ O curador escreve aqui os produtos que vale cadastrar em data/produtos.csv.
 ### fones-caixas-bluetooth: caixas até R$ 100
 - Nada novo confirmado: a busca de hoje não trouxe ficha de Philips TAS2505B, Mondial nem Multilaser SP250. Citadas sem ficha (não cadastrar): Xiaomi Mi Compact Speaker 2, Philco Extreme PBS55BT. A pauta segue travada. Recomendação mantida: virar "até R$ 200" com JBL Go Essential 2 (R$ 172 no CSV), Soundcore 2 e Go 4, ou o dono manda 3 links abaixo de R$ 100.
 
+### Reunião de 11-16: pautas novas (JBL, carregador Apple, teclado gamer, Switch barato)
+- **Fone JBL** (`Fone Bluetooth JBL`, precisa de 0 declarado, mas a lista pede 3+): ativos JBL Wave Buds 2 e JBL Quantum 100M2 (headset). Candidatos achados, **sem nota/avaliações do ML conferidas** (ML 403): JBL Tune Buds 2 (TWS, IP54, driver dinâmico 10 mm, SBC/AAC/LC3, 5,4 g por fone; fonte gameoverdrive) e JBL Tune Flex 2 (ANC adaptativo, resistente a água e poeira; lojas Kabum e Pichau, ~R$ 487 na Kabum, acima do perfil custo-benefício). Autonomia do Flex 2 não confirmada. Sem linha de CSV: o cadastrador confere a nota e o preço no anúncio da loja JBL. Wave Beam 2: ficha incompleta, não sugerir.
+- **Carregador USB-C Apple**: não confirmei página da Apple Brasil nem o código do modelo nacional (só o MHJE3ZM/A europeu, 20 W, 1 porta USB-C). Sem linha de CSV. A pauta pode usar os ativos Samsung 25 W, Ugreen 30 W/45 W e Baseus 30 W como "opção melhor"; o original só entra com link do dono.
+- **Teclado gamer (4 opções)**: já há 6 ativos (Dark Avenger K568, Fizz K617, Kumara Pro, Kumara K552, Machenike K500). Nada a cadastrar.
+- **Switch barato**: o catálogo não tem console nem subnicho de games/consoles. Não verifiquei anúncio; depende de o dono decidir subnicho e mandar links.
+
 ### Resumo de 11-16
 Novas: casa-inteligente 1 (Intelbras ETW 1001+); acessorios-gamer 0 novas (pendentes M718/M719); fones-caixas-bluetooth 0.
 

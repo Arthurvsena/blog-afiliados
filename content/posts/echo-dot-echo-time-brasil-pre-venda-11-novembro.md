@@ -1,7 +1,7 @@
 ---
-titulo: "Novo Echo Dot no Brasil: preço de R$ 819 e o Echo Time"
+titulo: "Novo Echo Dot no Brasil: preço a partir de R$ 819 e Echo Time"
 slug: echo-dot-echo-time-brasil-pre-venda-11-novembro
-descricao: "Novo Echo Dot sai a partir de R$ 819 e o Echo Time, despertador com tela, a R$ 1.499 na pré-venda. Lançamento oficial em 11 de novembro."
+descricao: "Pré-venda do novo Echo Dot e do Echo Time (R$ 1.499), o despertador com tela da Alexa. Veja o que muda e a data do lançamento oficial, 11 de novembro."
 palavra_chave: "novo echo dot brasil preço"
 editoria: tecnologia
 tipo: noticia

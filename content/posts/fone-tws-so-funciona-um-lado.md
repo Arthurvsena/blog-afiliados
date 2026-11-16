@@ -1,7 +1,7 @@
 ---
-titulo: "Fone TWS só funciona um lado? Resete os dois e resolva"
+titulo: "Fone TWS só funciona um lado? 5 passos que resolvem"
 slug: fone-tws-so-funciona-um-lado
-descricao: "Fone TWS só funciona um lado? Carregue os dois, apague o pareamento e resete juntos para sincronizar de novo. Veja a ordem e o que fazer se não resolver."
+descricao: "Fone TWS só funciona um lado? Carregue os dois, apague o pareamento e resete juntos: a ordem certa em 5 passos e o que fazer se não resolver."
 palavra_chave: "fone tws so funciona um lado"
 palavras_secundarias: ["fone tws como ligar", "fone tws como usar", "fone tws um lado mais baixo que o outro"]
 editoria: tutoriais
