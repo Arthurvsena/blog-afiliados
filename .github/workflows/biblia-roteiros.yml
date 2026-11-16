@@ -30,6 +30,8 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          # disparado pelo biblia-diario.yml (robô do GitHub): sem isto a ação recusa rodar
+          allowed_bots: "github-actions"
           github_token: ${{ secrets.GITHUB_TOKEN }}
           show_full_output: true
           prompt: "Escreva o lote de roteiros novos do canal Bíblia Animada: leia .claude/skills/biblia-roteiros/SKILL.md e siga todos os passos até o fim. Não faça commit: o workflow faz."
