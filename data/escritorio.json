@@ -47,7 +47,7 @@
     },
     "analista": {
       "status": "erro",
-      "tarefa": "O Cloudflare pediu login: o dono precisa entrar de novo em dash.cloudflare.com no Chrome. Sem visitas de 15/11 (e 12 a 14/11). Google 08-14/11: 8 cliques, 1.460 impressões, CTR 0,5%, posição 10,7."
+      "tarefa": "O Cloudflare pediu login: o dono precisa entrar de novo em dash.cloudflare.com no Chrome. Sem visitas de 12 a 15/11. Google 12-15/11: 4 cliques, 805 impressões (15/11: 0 cliques, 242 impressões)."
     }
   },
   "historico": [
@@ -349,7 +349,7 @@
     {
       "data": "2026-11-16",
       "agente": "analista",
-      "texto": "Cloudflare pediu login; sem visitas. Google na semana: 8 cliques, 1.460 impressões."
+      "texto": "Cloudflare pediu login; sem visitas de 12 a 15/11. Google nos 4 dias: 4 cliques, 805 impressões."
     }
   ]
 }

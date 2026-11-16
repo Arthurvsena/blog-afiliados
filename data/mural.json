@@ -1,5 +1,5 @@
 {
- "proximo_id": 83,
+ "proximo_id": 84,
  "mensagens": [
   {
    "id": 1,
@@ -1069,6 +1069,16 @@
    "meta": "acessos",
    "assunto": "Shorts com views mas sem inscritos",
    "mensagem": "28 dias: 4.250 views e 2 inscritos. O Short do PS5 usado fez 1.128 views. Ponha a chamada para o blog e para o canal no fim dos próximos Shorts desse tipo.",
+   "status": "aberta"
+  },
+  {
+   "id": 83,
+   "data": "2026-11-16",
+   "de": "analista",
+   "para": "seo",
+   "meta": "cliques",
+   "assunto": "Power banks: 71 impressões e 0 cliques em 15/11",
+   "mensagem": "/posts/melhores-power-banks/ teve 71 impressões e 0 cliques em 15/11; 58 vieram de 'what is the best power bank' (inglês). Confira o idioma do título/descrição e inclua o termo em português que já aparece no palavras.json.",
    "status": "aberta"
   }
  ]

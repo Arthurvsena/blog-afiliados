@@ -1024,7 +1024,153 @@
       ]
     },
     {
-      "dia": "2026-11-15",
+      "dia": "2026-11-12",
+      "visitas": null,
+      "visualizacoes": null,
+      "celular_pct": null,
+      "youtube": null,
+      "paginas": [],
+      "origens": [],
+      "google": {
+        "dia": "2026-11-12",
+        "cliques": 3,
+        "impressoes": 195,
+        "ctr": 1.5,
+        "posicao": 11.0,
+        "consultas": [
+          {
+            "termo": "como configurar alexa echo dot",
+            "cliques": 0,
+            "impressoes": 6
+          },
+          {
+            "termo": "iphone duo",
+            "cliques": 0,
+            "impressoes": 3
+          },
+          {
+            "termo": "amazon echo plus",
+            "cliques": 0,
+            "impressoes": 2
+          },
+          {
+            "termo": "gta 6 nexus",
+            "cliques": 0,
+            "impressoes": 1
+          },
+          {
+            "termo": "zelda notes on emulator",
+            "cliques": 0,
+            "impressoes": 1
+          }
+        ],
+        "paginas": [
+          {
+            "url": "/posts/xiaomi-hyperos-4-liberacao-lista-poco-x8-pro-brasil/",
+            "cliques": 1,
+            "impressoes": 20
+          },
+          {
+            "url": "/posts/fone-tws-nao-conecta/",
+            "cliques": 1,
+            "impressoes": 7
+          },
+          {
+            "url": "/posts/switch-2-zelda-40-anos-lancamento-esgotado-brasil/",
+            "cliques": 1,
+            "impressoes": 5
+          },
+          {
+            "url": "/posts/power-bank-10000-ou-20000-mah-qual-escolher/",
+            "cliques": 0,
+            "impressoes": 24
+          },
+          {
+            "url": "/posts/fone-tws-so-funciona-um-lado/",
+            "cliques": 0,
+            "impressoes": 15
+          }
+        ]
+      },
+      "faltou": [
+        "Cloudflare Web Analytics pediu login (tela 'Sign in to Cloudflare', conferido de novo na recuperação de 16/11); visitas, páginas, origens, celular e YouTube não coletados"
+      ]
+    },
+    {
+      "dia": "2026-11-13",
+      "visitas": null,
+      "visualizacoes": null,
+      "celular_pct": null,
+      "youtube": null,
+      "paginas": [],
+      "origens": [],
+      "google": {
+        "dia": "2026-11-13",
+        "cliques": 1,
+        "impressoes": 187,
+        "ctr": 0.5,
+        "posicao": 11.6,
+        "consultas": [
+          {
+            "termo": "como configurar alexa",
+            "cliques": 0,
+            "impressoes": 5
+          },
+          {
+            "termo": "como configurar alexa echo dot",
+            "cliques": 0,
+            "impressoes": 5
+          },
+          {
+            "termo": "best high end power bank",
+            "cliques": 0,
+            "impressoes": 2
+          },
+          {
+            "termo": "lampada alexa",
+            "cliques": 0,
+            "impressoes": 2
+          },
+          {
+            "termo": "echo dot como configurar",
+            "cliques": 0,
+            "impressoes": 2
+          }
+        ],
+        "paginas": [
+          {
+            "url": "/posts/xbox-cloud-gaming-celular-como-controle-smart-tv/",
+            "cliques": 1,
+            "impressoes": 7
+          },
+          {
+            "url": "/posts/one-ui-9-quais-galaxy-recebem-como-atualizar-novembro/",
+            "cliques": 0,
+            "impressoes": 31
+          },
+          {
+            "url": "/posts/como-configurar-alexa-echo-dot-primeira-vez/",
+            "cliques": 0,
+            "impressoes": 23
+          },
+          {
+            "url": "/posts/fone-tws-so-funciona-um-lado/",
+            "cliques": 0,
+            "impressoes": 22
+          },
+          {
+            "url": "/posts/power-bank-10000-ou-20000-mah-qual-escolher/",
+            "cliques": 0,
+            "impressoes": 19
+          }
+        ]
+      },
+      "faltou": [
+        "Cloudflare Web Analytics pediu login (tela 'Sign in to Cloudflare', conferido de novo na recuperação de 16/11); visitas, páginas, origens, celular e YouTube não coletados"
+      ]
+    },
+    {
+      "dia": "2026-11-14",
       "visitas": null,
       "visualizacoes": null,
       "celular_pct": null,
@@ -1090,18 +1236,78 @@
             "cliques": 0,
             "impressoes": 10
           }
-        ],
-        "semana_08_a_14": {
-          "cliques": 8,
-          "impressoes": 1460,
-          "ctr": 0.5,
-          "posicao": 10.7
-        }
+        ]
       },
       "faltou": [
-        "Cloudflare Web Analytics pediu login (tela 'Sign in to Cloudflare'); visitas, páginas, origens, celular e YouTube de 15/11 não coletados",
-        "Search Console: dia mais recente disponível é 14/11 (sem dados de 15/11)",
-        "Dias 12 a 14/11 não foram coletados em execuções anteriores"
+        "Cloudflare Web Analytics pediu login (tela 'Sign in to Cloudflare', conferido de novo na recuperação de 16/11); visitas, páginas, origens, celular e YouTube não coletados"
+      ]
+    },
+    {
+      "dia": "2026-11-15",
+      "visitas": null,
+      "visualizacoes": null,
+      "celular_pct": null,
+      "youtube": null,
+      "paginas": [],
+      "origens": [],
+      "google": {
+        "dia": "2026-11-15",
+        "cliques": 0,
+        "impressoes": 242,
+        "ctr": 0,
+        "posicao": 10.1,
+        "consultas": [
+          {
+            "termo": "what is the best power bank",
+            "cliques": 0,
+            "impressoes": 58
+          },
+          {
+            "termo": "como configurar alexa echo dot",
+            "cliques": 0,
+            "impressoes": 18
+          },
+          {
+            "termo": "best high end power bank",
+            "cliques": 0,
+            "impressoes": 5
+          },
+          {
+            "termo": "lampada alexa",
+            "cliques": 0,
+            "impressoes": 5
+          },
+          {
+            "termo": "iphone 11 compensa em 2026",
+            "cliques": 0,
+            "impressoes": 4
+          }
+        ],
+        "paginas": [
+          {
+            "url": "/posts/melhores-power-banks/",
+            "cliques": 0,
+            "impressoes": 71
+          },
+          {
+            "url": "/posts/como-configurar-alexa-echo-dot-primeira-vez/",
+            "cliques": 0,
+            "impressoes": 42
+          },
+          {
+            "url": "/posts/xiaomi-hyperos-4-liberacao-lista-poco-x8-pro-brasil/",
+            "cliques": 0,
+            "impressoes": 27
+          },
+          {
+            "url": "/posts/zelda-ocarina-of-time-switch-2-lancamento-5-novembro-preco/",
+            "cliques": 0,
+            "impressoes": 21
+          }
+        ]
+      },
+      "faltou": [
+        "Cloudflare Web Analytics pediu login (tela 'Sign in to Cloudflare', conferido de novo na recuperação de 16/11); visitas, páginas, origens, celular e YouTube não coletados"
       ]
     }
   ]
