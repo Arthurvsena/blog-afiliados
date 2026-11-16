@@ -192,6 +192,34 @@
       "segundos": 38.5,
       "publica_em": "2026-11-16 12:05",
       "status": "programado"
+    },
+    {
+      "data": "2026-11-15",
+      "tipo": "short",
+      "quadro": "historias",
+      "numero": 2,
+      "slug": "2026-11-15-historias-tech-2-xbox",
+      "post": "",
+      "titulo": "História do Xbox: o console que dava prejuízo #shorts",
+      "url": "https://youtube.com/shorts/2089Dcrgt5o",
+      "voz": null,
+      "segundos": null,
+      "publica_em": "2026-11-16 15:40",
+      "status": "publicado"
+    },
+    {
+      "data": "2026-11-13",
+      "tipo": "short",
+      "quadro": "60s",
+      "numero": null,
+      "slug": "2026-11-13-vivo-satelite-starlink-celular",
+      "post": "",
+      "titulo": "Vivo Satélite: 10 milhões já usaram e vem cobrança #shorts",
+      "url": "https://youtube.com/shorts/yRw0QKG1dkg",
+      "voz": null,
+      "segundos": null,
+      "publica_em": "2026-11-17 15:00",
+      "status": "programado"
     }
   ]
 }
