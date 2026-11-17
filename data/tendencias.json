@@ -1,6 +1,115 @@
 {
- "atualizado": "2026-11-16",
+ "atualizado": "2026-11-17",
  "tendencias": [
+  {
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "status": "em_video",
+   "data": "2026-11-17",
+   "assunto": "Sony fecha a PS Store do PS3 e do Vita: Brasil sem data exata, e o que acontece com os jogos que você comprou",
+   "por_que_em_alta": "Destaque do Canaltech (16/11, Diego Corumba): loja do PS3 fecha até o fim de 2026 e a do Vita em julho de 2027; Brasil sem data exata; México, Nicarágua e Honduras já fecharam; compras antigas seguem baixáveis 'por tempo indeterminado'; Sony diz que não vai recuar (em 2021 recuou). Fora: VGC, Gematsu, Tom's Guide, Digital Trends, GamesRadar cobriram o plano (anúncio de jul/2026). Liga com os 20 anos do PS3 e com o fim da mídia física.",
+   "evidencias": [
+    "https://canaltech.com.br/games/sony-anuncia-o-fechamento-definitivo-da-ps-store-no-ps3-e-ps-vita/",
+    "https://www.gematsu.com/2026/07/playstation-store-for-ps3-ps-vita-to-close-in-july-2027",
+    "https://www.tomsguide.com/news/ps3-vita-and-psp-stores-officially-closing-what-you-need-to-know"
+   ],
+   "angulo": "Gancho: a Sony vai apagar a loja do PS3 e você só tem tempo até o fim do ano para comprar. O que fecha, o que fica (o que já é seu continua baixável), o que o Brasil sabe (sem data oficial) e a lição de jogo digital não ser seu. Publicar junto à semana dos 20 anos do PS3.",
+   "formato": "alerta",
+   "tipo": "short",
+   "quadro": "60s",
+   "origem": "brasil",
+   "verificar_antes": "Datas divergem: Canaltech diz PS3 até fim de 2026 e Vita julho/2027; fontes de fora falam em fechamento global do PS3 e Vita até julho/2027 em etapas. Abrir o PlayStation Blog/página de suporte da Sony e usar só a data confirmada; Brasil: sem data, dizer isso. Nada de dizer que o jogo comprado some.",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/games/sony-anuncia-o-fechamento-definitivo-da-ps-store-no-ps3-e-ps-vita/"
+    },
+    {
+     "nome": "Gematsu",
+     "url": "https://www.gematsu.com/2026/07/playstation-store-for-ps3-ps-vita-to-close-in-july-2027"
+    },
+    {
+     "nome": "Tom's Guide",
+     "url": "https://www.tomsguide.com/news/ps3-vita-and-psp-stores-officially-closing-what-you-need-to-know"
+    },
+    {
+     "nome": "PlayStation (a conferir)",
+     "url": "https://www.playstation.com/pt-br/support/"
+    }
+   ],
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "nota": 4
+  },
+  {
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "status": "nova",
+   "data": "2026-11-17",
+   "assunto": "75% dos brasileiros veem a tecnologia chinesa de forma positiva (Ipsos), mas a pesquisa foi encomendada pela Jovi",
+   "por_que_em_alta": "Canaltech (16/11): Ipsos, 1.200 adultos (classes A, B, C), 30/09 a 05/10, margem 2,8 pp; 75% positivos contra 69% em 2025; smartphones são o setor mais ligado à China (65%). Ressalva: encomendada por fabricante chinesa. Liga com Xiaomi 18 e a lista de celulares.",
+   "evidencias": [
+    "https://canaltech.com.br/produtos/brasileiros-perderam-o-preconceito-com-tecnologia-chinesa-veja-pesquisa/"
+   ],
+   "angulo": "Gancho: três em cada quatro brasileiros já confiam em tecnologia chinesa, mas quem pagou a pesquisa foi uma marca chinesa. Barras 2025 x 2026, ressalva na tela, comentário Nexus: pesquisa boa é a que diz quem pagou.",
+   "formato": "noticia",
+   "tipo": "short",
+   "quadro": "60s",
+   "origem": "brasil",
+   "verificar_antes": "Só uma fonte (Canaltech). Procurar release da Ipsos/Jovi. Dizer na tela que foi encomendada pela Jovi. Não generalizar para marcas.",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/produtos/brasileiros-perderam-o-preconceito-com-tecnologia-chinesa-veja-pesquisa/"
+    }
+   ],
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "nota": 3
+  },
+  {
+   "imagens_oficiais": [],
+   "post_relacionado": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
+   "status": "nova",
+   "data": "2026-11-17",
+   "assunto": "Como saber se um site é confiável antes de comprar na Black Friday (passo a passo com ferramentas oficiais)",
+   "por_que_em_alta": "Black Friday em 27/11. Forbes Tech cita levantamento da Serasa (out/2026): sites falsos são o golpe nº 1 (53%), Pix 42%; Procon e Senacon (Portal de Prefeitura, 10/11) reforçam alerta. Sem termo no vidIQ: nota menor; pedir ao vidIQ de quarta termos 'como saber se um site é confiável'. Não repete o Short de 09/11 (3 regras contra preço falso): aqui é verificação de loja, com gravação de tela.",
+   "evidencias": [
+    "https://forbes.com.br/forbes-tech/2026/10/black-friday-como-se-proteger-de-golpes-digitais-e-evitar-prejuizos/",
+    "https://portaldeprefeitura.com.br/brasil/black-friday-atencao-redobrada-contra-golpes-fraudes-senacon/635806/",
+    "https://www.band.com.br/nacional/sp/black-friday-procon-alerta-como-aproveitar-sem-cair-em-dividas-e-fraudes"
+   ],
+   "angulo": "Resultado primeiro: em 3 minutos você checa se a loja existe antes de pagar. Passos: conferir o domínio e o CNPJ (consulta pública da Receita), ver reclamações (consumidor.gov.br, Reclame Aqui), conferir lista do Procon-SP, cadeado não prova nada, pagamento seguro. Se já caiu: o que fazer (7 dias de arrependimento, contestar no banco, MED do Pix). Publicar terça 19h, 10 dias antes da data.",
+   "formato": "tutorial",
+   "tipo": "tutorial",
+   "quadro": "tutorial",
+   "palavra_chave": "como saber se um site é confiável",
+   "verificar_antes": "Conferir cada passo nas páginas oficiais (Receita, consumidor.gov.br, Procon-SP, Banco Central sobre MED) e o número da Serasa. Sem termo no vidIQ: dizer. Não citar nome de loja como golpista.",
+   "fontes": [
+    {
+     "nome": "Forbes Brasil (Serasa)",
+     "url": "https://forbes.com.br/forbes-tech/2026/10/black-friday-como-se-proteger-de-golpes-digitais-e-evitar-prejuizos/"
+    },
+    {
+     "nome": "Consumidor.gov.br",
+     "url": "https://www.consumidor.gov.br/"
+    },
+    {
+     "nome": "Procon-SP",
+     "url": "https://www.procon.sp.gov.br/"
+    }
+   ],
+   "origem": "brasil",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "nota": 4
+  },
   {
    "data": "2026-11-16",
    "imagens_oficiais": [],
@@ -1162,7 +1271,7 @@
    "angulo": "Os caminhos oficiais por sistema: Encontre Meu Dispositivo do Google, SmartThings Find da Samsung e Apple (modo de recuperação/Buscar), com aviso do que é apagado e do bloqueio de fábrica. Conferir os passos nas páginas de ajuda oficiais e gravar a tela delas.",
    "formato": "tutorial",
    "fontes": [],
-   "status": "nova",
+   "status": "em_video",
    "nota": 5,
    "origem": "vidiq"
   },
@@ -1278,127 +1387,6 @@
     "como_encaixa": "Editorial puro."
    },
    "nota": 4,
-   "status": "nova"
-  },
-  {
-   "data": "2026-11-07",
-   "assunto": "Anatel: operadoras passam a bloquear ligações abusivas a partir de 12/11",
-   "por_que_em_alta": "Teletime (19/10): Despacho Decisório nº 100/2026 da Anatel vale a partir de 12/11; Tecnoblog, Canaltech e TNH1 cobrem. Interessa a todo mundo que recebe ligação de golpe.",
-   "evidencias": [
-    "https://teletime.com.br/19/10/2026/operadoras-bloqueio-chamadas-abusivas/",
-    "https://tecnoblog.net/noticias/anatel-define-regras-para-operadoras-bloquearem-chamadas-de-spam/",
-    "https://canaltech.com.br/telecom/fim-das-ligacoes-indesejadas-anatel-cria-regras-padronizadas-para-filtros-de-spam/"
-   ],
-   "angulo": "Gancho: a partir de quinta (12/11) a operadora pode derrubar a ligação de golpe antes de tocar. O que muda, o que não pode ser bloqueado (órgãos públicos, Defesa Civil, urgência médica) e o que fazer se uma ligação legítima cair.",
-   "formato": "alerta",
-   "tipo": "short",
-   "quadro": "60s",
-   "verificar_antes": "Abrir o despacho nº 100/2026 no site da Anatel: o prazo de 15 dias após 12/11 aparece em uma só fonte e pode ser de norma antiga. Publicar até 11/11.",
-   "fontes": [
-    {
-     "nome": "Teletime",
-     "url": "https://teletime.com.br/19/10/2026/operadoras-bloqueio-chamadas-abusivas/"
-    },
-    {
-     "nome": "Tecnoblog",
-     "url": "https://tecnoblog.net/noticias/anatel-define-regras-para-operadoras-bloquearem-chamadas-de-spam/"
-    },
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/telecom/fim-das-ligacoes-indesejadas-anatel-cria-regras-padronizadas-para-filtros-de-spam/"
-    },
-    {
-     "nome": "Anatel",
-     "url": "https://www.gov.br/anatel/"
-    }
-   ],
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "nota": 4,
-   "status": "em_video"
-  },
-  {
-   "data": "2026-11-07",
-   "assunto": "Xiaomi 18 Pro e Pro Max: preços vazados na Europa com aumento forte, global em novembro",
-   "por_que_em_alta": "GSMArena e Tech Advisor: Pro perto de EUR 1.449 e Pro Max EUR 1.849 (vazamento), no nível do iPhone 18 Pro Max na Europa; GaGadget: global em novembro com baterias menores; Xiaomi confirmou o global em 02/11.",
-   "evidencias": [
-    "https://www.gsmarena.com/xiaomi_18_pro_and_xiaomi_18_pro_max_european_prices_leak-news-75114.php",
-    "https://www.techadvisor.com/article/3264492/xiaomi-18-pro-and-pro-max-european-prices-leak-with-major-hikes.html",
-    "https://gagadget.com/en/732552-xiaomi-18-pro-goes-global-in-november-with-smaller-batteries/"
-   ],
-   "angulo": "Gancho: o top da Xiaomi custa o mesmo que um iPhone Pro Max na Europa. A memória cara explica? Chega ao Brasil? Estimar em reais com a cotação do dia, avisando que o preço é vazamento.",
-   "formato": "comparativo",
-   "tipo": "longo",
-   "quadro": "lafora",
-   "origem": "gringo",
-   "criterios_gringo": "1 sim (GSMArena, Tech Advisor, GaGadget); 2 sim (Xiaomi vende no BR, tema preço); 3 parcial (Canaltech cobriu a confirmação do global, não o preço); 4 sim (posts de celular e memória)",
-   "verificar_antes": "Preços são vazamento, não oficiais. Esperar o lançamento global para o vídeo longo; até lá, reserva.",
-   "fontes": [
-    {
-     "nome": "GSMArena",
-     "url": "https://www.gsmarena.com/xiaomi_18_pro_and_xiaomi_18_pro_max_european_prices_leak-news-75114.php"
-    },
-    {
-     "nome": "Tech Advisor",
-     "url": "https://www.techadvisor.com/article/3264492/xiaomi-18-pro-and-pro-max-european-prices-leak-with-major-hikes.html"
-    },
-    {
-     "nome": "Canaltech (confirmação do global)",
-     "url": "https://canaltech.com.br/produtos/xiaomi-confirma-18-pro-global-para-novembro-smartwatch-e-fones-sao-esperados/"
-    }
-   ],
-   "imagens_oficiais": [
-    "https://www.mi.com/br/"
-   ],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "nota": 3,
-   "status": "nova"
-  },
-  {
-   "data": "2026-11-06",
-   "assunto": "GTA 6: três datas diferentes de pré-carregamento e pré-venda no Brasil",
-   "por_que_em_alta": "GTA 6 sai em 19/11 (meia-noite de Brasília, PS5 e Xbox); Canaltech, Omelete e Overdrive cobrem o pré-load, mas as fontes divergem: 10/11 (PS5), 9/11 às 21h (Xbox) ou 12/11 (página de suporte da Rockstar, segundo o Overdrive). Tamanho de 212 GB sem confirmação oficial clara.",
-   "evidencias": [
-    "https://www.omelete.com.br/games/gta-6-rockstar-confirma-tamanho-jogo-pre-carregamento",
-    "https://gameoverdrive.com.br/gta-6-rockstar-confirma-horario-brasil-novo-pre-load/",
-    "https://canaltech.com.br/games/rockstar-prepara-pre-carregamento-e-brindes-para-lancamento-de-gta-6/"
-   ],
-   "angulo": "Gancho: GTA 6 tem 212 GB e as fontes não concordam sobre quando dá para baixar. Mostrar o que é oficial (Rockstar) e quando limpar espaço. Não repetir o vídeo de 03/11: foco no conflito de datas e em como conferir.",
-   "formato": "alerta",
-   "tipo": "short",
-   "quadro": "60s",
-   "verificar_antes": "OBRIGATÓRIO abrir o Rockstar Newswire/suporte e fixar a data oficial do pré-load por plataforma; a pré-venda (R$ 449,90 e R$ 549,90) veio de um resultado de busca, confirmar nas lojas PS/Xbox ou omitir.",
-   "fontes": [
-    {
-     "nome": "Omelete",
-     "url": "https://www.omelete.com.br/games/gta-6-rockstar-confirma-tamanho-jogo-pre-carregamento"
-    },
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/games/rockstar-prepara-pre-carregamento-e-brindes-para-lancamento-de-gta-6/"
-    },
-    {
-     "nome": "Rockstar Games Newswire",
-     "url": "https://www.rockstargames.com/newswire"
-    }
-   ],
-   "imagens_oficiais": [
-    "https://www.rockstargames.com/newswire"
-   ],
-   "post_relacionado": "xbox-series-fsr-4-1-gta-6-o-que-muda",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "nota": 5,
    "status": "nova"
   }
  ]

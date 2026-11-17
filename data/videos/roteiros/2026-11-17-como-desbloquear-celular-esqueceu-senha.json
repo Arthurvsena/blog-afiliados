@@ -1,0 +1,347 @@
+{
+ "tipo": "longo",
+ "quadro": "tutorial",
+ "slug": "2026-11-17-como-desbloquear-celular-esqueceu-senha",
+ "post": "",
+ "titulo": "Como desbloquear o celular quando esquece a senha (2026)",
+ "palavra_chave": "como desbloquear o celular quando esquece a senha",
+ "resumo": "Como desbloquear o celular quando esquece a senha: no iPhone e no Android, o caminho oficial costuma apagar os dados, e depois pede a sua conta Apple ou Google. Veja o que tentar primeiro, o passo a passo por sistema e o que fazer se nada funcionar. Só vale para o seu próprio aparelho.",
+ "hashtags": [
+  "Tutorial",
+  "Celular",
+  "EsqueciASenha",
+  "iPhone",
+  "Android"
+ ],
+ "selo": "Nexus Ensina",
+ "capa_texto": "ESQUECEU A SENHA?",
+ "capa_texto_b": "VAI APAGAR?",
+ "capa_cena": 1,
+ "fontes": [
+  {
+   "nome": "Apple: Se você esqueceu o código do iPhone ou ele está desativado",
+   "url": "https://support.apple.com/pt-br/118430"
+  },
+  {
+   "nome": "Apple: Usar um computador para redefinir o iPhone e o código de acesso",
+   "url": "https://support.apple.com/pt-br/HT204306"
+  },
+  {
+   "nome": "Apple: Redefinir o iPhone sem computador (Bloqueio de Segurança)",
+   "url": "https://support.apple.com/en-us/105090"
+  },
+  {
+   "nome": "Google: Encontrar, bloquear ou apagar um dispositivo Android perdido (Find Hub)",
+   "url": "https://support.google.com/android/answer/6160491"
+  },
+  {
+   "nome": "Android: Como redefinir o Android",
+   "url": "https://www.android.com/intl/pt_br/articles/como-resetar-android/"
+  },
+  {
+   "nome": "Samsung Brasil: Métodos de bloqueio no Galaxy (suporte)",
+   "url": "https://www.samsung.com/br/support/mobile-devices/metodos-de-bloqueio-no-meu-smartphone-galaxy/"
+  }
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Esqueceu a senha do celular? Quase sempre, destravar apaga tudo. Veja o caminho oficial.",
+   "tela": "Esqueceu a senha do celular?",
+   "imagens": [
+    "tela:https://support.apple.com/pt-br/118430"
+   ]
+  },
+  {
+   "tipo": "fato",
+   "capitulo": "O resultado",
+   "fala": "Em uns dez minutos você vai saber qual caminho oficial usar no seu iPhone ou no Android. Mas já vou avisar: quase sempre o caminho apaga o aparelho.",
+   "imagens": [
+    "tela:https://support.google.com/android/answer/6160491",
+    "tela:https://support.apple.com/pt-br/HT204306"
+   ],
+   "fonte": "Apple; Google"
+  },
+  {
+   "tipo": "info",
+   "icone": "alerta",
+   "fala": "Esse vídeo é só para o seu próprio celular. Não ensino a burlar bloqueio de aparelho dos outros, nem de celular achado ou comprado de procedência duvidosa.",
+   "tela": "Só para o SEU aparelho"
+  },
+  {
+   "tipo": "info",
+   "capitulo": "O que você precisa",
+   "icone": "check",
+   "fala": "O que você precisa. Saber a senha da sua conta Apple, no iPhone, ou da conta Google, no Android. Sem ela, o celular pode não voltar a funcionar depois.",
+   "tela": "Tenha a senha da conta à mão",
+   "fonte": "Apple; Google"
+  },
+  {
+   "tipo": "fato",
+   "fala": "Também precisa de internet no celular, ou de um computador, e de bateria. A Google, por exemplo, pede que o aparelho esteja ligado, com conexão e com uma conta Google.",
+   "imagens": [
+    "tela:https://support.google.com/android/answer/6160491",
+    "tela:https://www.android.com/intl/pt_br/articles/como-resetar-android/"
+   ],
+   "fonte": "Google, Central de Ajuda"
+  },
+  {
+   "tipo": "info",
+   "icone": "alerta",
+   "fala": "E o aviso mais importante do vídeo. Na maioria dos caminhos oficiais, os dados do aparelho são apagados. Fotos e conversas que não estão em backup podem ser perdidas.",
+   "tela": "Quase sempre APAGA os dados",
+   "fonte": "Apple; Google; Samsung"
+  },
+  {
+   "tipo": "comparativo",
+   "fala": "Resumindo. No iPhone, tudo apaga. No Android do Google, apagar é o caminho. Em alguns Galaxy, a Samsung pode oferecer um caminho próprio, que depende do modelo e da região.",
+   "itens": [
+    {
+     "valor": "iPhone",
+     "rotulo": "apaga"
+    },
+    {
+     "valor": "Android",
+     "rotulo": "apaga"
+    },
+    {
+     "valor": "Galaxy",
+     "rotulo": "varia por modelo"
+    }
+   ],
+   "fonte": "Apple; Google; Samsung"
+  },
+  {
+   "tipo": "passo",
+   "capitulo": "iPhone: primeiro tente isso",
+   "fala": "No iPhone, a Apple manda tentar primeiro a Redefinição do Código. Se você trocou o código há pouco, no iOS 17 ou mais novo, o código antigo ainda funciona por setenta e duas horas.",
+   "tela": "Tente o código ANTIGO (até 72 h)",
+   "imagens": [
+    "tela:https://support.apple.com/pt-br/118430",
+    "tela:https://support.apple.com/en-us/105039"
+   ],
+   "fonte": "Apple, Suporte"
+  },
+  {
+   "tipo": "passo",
+   "capitulo": "iPhone: sem computador",
+   "fala": "Passo um. Na tela de bloqueio, digite um código errado até aparecer iPhone indisponível. Depois, toque em Esqueci o código.",
+   "tela": "Tela > \"Esqueci o código\"",
+   "imagens": [
+    "tela:https://support.apple.com/en-us/105090",
+    "tela:https://support.apple.com/pt-br/118430"
+   ],
+   "fonte": "Apple, Suporte"
+  },
+  {
+   "tipo": "info",
+   "icone": "wifi",
+   "fala": "Se o botão Esqueci o código não aparecer, é porque falta internet no iPhone ou o Buscar não estava ligado. Aí o caminho é o computador, que eu mostro já já.",
+   "tela": "Sem internet ou Buscar: use o computador",
+   "fonte": "Apple, Suporte"
+  },
+  {
+   "tipo": "passo",
+   "fala": "Passo dois. Na tela Bloqueio de Segurança, toque em Iniciar redefinição do iPhone. Isso exige internet e o Buscar ligado antes. Em seguida, digite a senha da sua conta Apple.",
+   "tela": "Iniciar redefinição > senha Apple",
+   "imagens": [
+    "tela:https://support.apple.com/en-us/105090",
+    "tela:https://support.apple.com/pt-br/118430"
+   ],
+   "fonte": "Apple, Suporte"
+  },
+  {
+   "tipo": "passo",
+   "fala": "Passo três. Toque em Apagar iPhone. A Apple avisa que isso apaga para sempre todos os seus dados e ajustes. Quando reiniciar, configure de novo, restaure um backup, se tiver, e crie um código novo.",
+   "tela": "Apagar iPhone > restaurar backup",
+   "imagens": [
+    "tela:https://support.apple.com/en-us/105090",
+    "tela:https://support.apple.com/pt-br/HT204306"
+   ],
+   "fonte": "Apple, Suporte"
+  },
+  {
+   "tipo": "info",
+   "icone": "cadeado",
+   "fala": "Repare: a Apple pede a senha da conta Apple de propósito. É o bloqueio que impede outra pessoa de usar um iPhone que não é dela. Se você não lembra a senha, recupere a conta primeiro.",
+   "tela": "Conta Apple: o bloqueio de fábrica",
+   "fonte": "Apple, Suporte"
+  },
+  {
+   "tipo": "manchete",
+   "fala": "E se for preciso recuperar a conta, a página da Apple avisa que o e-mail de confirmação pode levar até setenta e duas horas.",
+   "manchete": {
+    "url": "https://support.apple.com/pt-br/118574",
+    "trecho": "O Suporte da Apple não pode encurtar o período de espera"
+   },
+   "fonte": "Apple, Suporte"
+  },
+  {
+   "tipo": "passo",
+   "capitulo": "iPhone: com computador",
+   "fala": "Passo quatro, se o iPhone não tem a opção na tela. Use um Mac ou um PC com Windows, um cabo e internet. Desligue o iPhone e conecte o cabo ao computador e depois ao aparelho.",
+   "tela": "Desligue > conecte o cabo",
+   "imagens": [
+    "tela:https://support.apple.com/pt-br/HT204306",
+    "tela:https://support.apple.com/pt-br/118430"
+   ],
+   "fonte": "Apple, Suporte"
+  },
+  {
+   "tipo": "passo",
+   "fala": "Passo cinco. Segure o botão certo do seu modelo até ver um computador e um cabo na tela. Nos modelos com Face ID, é o botão lateral. No iPhone sete, é o de diminuir volume. No seis S ou mais antigo, é o botão de Início.",
+   "tela": "Segure até ver o computador e o cabo",
+   "imagens": [
+    "tela:https://support.apple.com/pt-br/HT204306"
+   ],
+   "fonte": "Apple, Suporte"
+  },
+  {
+   "tipo": "info",
+   "icone": "relogio",
+   "fala": "Se o iPhone reiniciar no meio do caminho, desligue e refaça o modo de recuperação. A Apple diz que o download pode levar mais de quinze minutos.",
+   "tela": "Reiniciou? Refaça o modo de recuperação",
+   "fonte": "Apple, Suporte"
+  },
+  {
+   "tipo": "fato",
+   "fala": "Passo seis. No Mac, abra o Finder e escolha o iPhone. No Windows, abra o app Dispositivos Apple. Clique em Restaurar. A Apple avisa: esse processo apaga os dados do iPhone, e pode levar até uma hora.",
+   "imagens": [
+    "tela:https://support.apple.com/pt-br/HT204306",
+    "tela:https://support.apple.com/pt-br/118430"
+   ],
+   "fonte": "Apple, Suporte"
+  },
+  {
+   "tipo": "passo",
+   "capitulo": "Android do Google",
+   "fala": "Agora o Android. Passo sete. Em outro celular ou computador, entre em android ponto com barra find, com a mesma conta Google do aparelho travado, e escolha o dispositivo.",
+   "tela": "android.com/find > sua conta Google",
+   "imagens": [
+    "tela:https://www.android.com/find",
+    "tela:https://support.google.com/android/answer/6160491"
+   ],
+   "fonte": "Google, Central de Ajuda"
+  },
+  {
+   "tipo": "passo",
+   "fala": "Passo oito. Nas configurações do dispositivo, toque em Redefinição de fábrica. A página do Google avisa que esses passos apagam todos os dados do aparelho de forma permanente, e que cartões de memória podem não ser apagados.",
+   "tela": "Configurações > Redefinição de fábrica",
+   "imagens": [
+    "tela:https://support.google.com/android/answer/6160491",
+    "tela:https://www.android.com/intl/pt_br/articles/como-resetar-android/"
+   ],
+   "fonte": "Google, Central de Ajuda"
+  },
+  {
+   "tipo": "info",
+   "icone": "wifi",
+   "fala": "Só que isso depende de requisitos. O celular precisa estar ligado, com internet, com uma conta Google conectada e com o Encontre Meu Dispositivo ativado. Se faltar algum, o apagamento remoto não funciona.",
+   "tela": "Ligado + internet + conta Google",
+   "fonte": "Google, Central de Ajuda"
+  },
+  {
+   "tipo": "info",
+   "icone": "cadeado",
+   "fala": "E o bloqueio de fábrica do Android? Depois do reset, o Google exige que você entre na conta Google. A página do Android diz que é preciso estar online para fazer login. Sem a senha, o celular não é liberado.",
+   "tela": "Depois do reset: conta Google",
+   "fonte": "Android, como redefinir"
+  },
+  {
+   "tipo": "fato",
+   "capitulo": "Samsung Galaxy",
+   "fala": "No Samsung Galaxy, o caminho depende do modelo e da região. Em páginas de suporte da Samsung de outros países, há a opção de usar o bloqueio de tela anterior, se ele foi trocado há pouco tempo.",
+   "imagens": [
+    "tela:https://www.samsung.com/br/support/mobile-devices/metodos-de-bloqueio-no-meu-smartphone-galaxy/",
+    "tela:https://www.samsung.com/br/support/"
+   ],
+   "fonte": "Samsung, Suporte"
+  },
+  {
+   "tipo": "passo",
+   "fala": "Passo nove. Procure, na página de suporte da Samsung do Brasil, o artigo Esqueci a senha padrão do meu smartphone, e siga as instruções que aparecerem para o seu modelo.",
+   "tela": "Suporte Samsung Brasil: \"Esqueci a senha\"",
+   "imagens": [
+    "tela:https://www.samsung.com/br/support/mobile-devices/metodos-de-bloqueio-no-meu-smartphone-galaxy/",
+    "tela:https://www.samsung.com/br/support/"
+   ],
+   "fonte": "Samsung, Suporte"
+  },
+  {
+   "tipo": "info",
+   "icone": "alerta",
+   "fala": "Atenção. Assim como no iPhone e no Android, redefinir o Galaxy pode apagar as informações do aparelho. Se ele tinha conta Google, digite a conta certa na primeira configuração, para não cair no bloqueio de fábrica.",
+   "tela": "Pode perder TUDO + conta certa",
+   "fonte": "Samsung, Suporte"
+  },
+  {
+   "tipo": "fato",
+   "fala": "Um detalhe. A Samsung muda o recurso conforme modelo e região, e eu não confirmei o passo a passo do Galaxy na página brasileira. Se a opção não aparecer, procure o atendimento oficial da Samsung.",
+   "imagens": [
+    "tela:https://www.samsung.com/br/support/mobile-devices/metodos-de-bloqueio-no-meu-smartphone-galaxy/",
+    "tela:https://www.samsung.com/br/support/"
+   ],
+   "fonte": "Samsung, Suporte"
+  },
+  {
+   "tipo": "lista",
+   "capitulo": "Se não funcionou",
+   "titulo_lista": "SE NÃO FUNCIONOU",
+   "fala": "Se não funcionou, são três saídas. Confira se o celular tem internet e se o Buscar ou o Encontre Meu Dispositivo estavam ligados. Confira se a conta é a mesma do aparelho. E, se nada resolver, procure o suporte oficial.",
+   "itens": [
+    "Internet e localização ligadas",
+    "Conta certa do aparelho",
+    "Suporte oficial do fabricante"
+   ],
+   "imagens": [
+    "tela:https://support.apple.com/pt-br/118430"
+   ]
+  },
+  {
+   "tipo": "fato",
+   "fala": "Esqueceu a senha da conta, e não só a do celular? Faça a recuperação da conta no site oficial, sem pressa e sem repetir o pedido, porque isso pode alongar a espera.",
+   "imagens": [
+    "tela:https://support.apple.com/pt-br/118574",
+    "tela:https://www.android.com/find"
+   ],
+   "fonte": "Apple, Suporte"
+  },
+  {
+   "tipo": "info",
+   "icone": "alerta",
+   "fala": "E um alerta final. Desconfie de site ou aplicativo que promete desbloquear sem perder nada, ou que pede dinheiro. Os caminhos oficiais, que acabei de mostrar, apagam os dados. Não prometa a si mesmo o contrário.",
+   "tela": "Sem promessa de \"sem perder nada\""
+  },
+  {
+   "tipo": "fato",
+   "fala": "Para a próxima vez, faça backup. No Android, o caminho é Configurações, Google, Backup, Fazer backup agora. No iPhone, o iCloud faz backup todo dia, com o aparelho no carregador e no Wi-Fi.",
+   "imagens": [
+    "tela:https://www.android.com/intl/pt_br/articles/como-resetar-android/",
+    "tela:https://support.apple.com/pt-br/108306"
+   ],
+   "fonte": "Android; Apple"
+  },
+  {
+   "tipo": "lista",
+   "titulo_lista": "RESUMO",
+   "fala": "Resumindo. No iPhone, use a tela Esqueci o código, ou o computador. No Android, use o Encontre Meu Dispositivo. No Galaxy, siga o suporte da Samsung. E lembre: quase tudo apaga os dados.",
+   "itens": [
+    "iPhone: Esqueci o código ou computador",
+    "Android: android.com/find",
+    "Galaxy: suporte da Samsung Brasil",
+    "Quase tudo apaga os dados"
+   ],
+   "imagens": [
+    "tela:https://support.apple.com/pt-br/118430"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "fala": "As páginas oficiais estão no link na descrição. E me conta: que tutorial você quer ver no próximo? Se inscreve no canal pra não perder os próximos passo a passo.",
+   "tela": "Que tutorial você quer no próximo?",
+   "imagens": [
+    "tela:https://support.google.com/android/answer/6160491"
+   ]
+  }
+ ]
+}

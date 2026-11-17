@@ -1,0 +1,113 @@
+{
+ "tipo": "short",
+ "quadro": "60s",
+ "slug": "2026-11-17-ps-store-ps3-vita-fechamento",
+ "post": "",
+ "titulo": "PS Store do PS3 e do Vita vai fechar: e o Brasil? #shorts",
+ "resumo": "A PS Store do PS3 e do Vita vai fechar: na maioria dos países, em julho de 2027. A Sony não cita o Brasil nominalmente. O que você já comprou continua baixável.",
+ "hashtags": [
+  "PS3",
+  "PlayStation",
+  "PSVita",
+  "Sony"
+ ],
+ "fontes": [
+  {
+   "nome": "PlayStation Blog (Sony)",
+   "url": "https://blog.playstation.com/2026/07/01/an-update-on-playstation-store-for-ps3-and-ps-vita/"
+  },
+  {
+   "nome": "Canaltech",
+   "url": "https://canaltech.com.br/games/sony-anuncia-o-fechamento-definitivo-da-ps-store-no-ps3-e-ps-vita/"
+  },
+  {
+   "nome": "Gematsu",
+   "url": "https://www.gematsu.com/2026/07/playstation-store-for-ps3-ps-vita-to-close-in-july-2027"
+  }
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A loja do PS3 está com os dias contados.",
+   "tela": "A loja do PS3 vai fechar",
+   "imagens": [
+    "url:https://gmedia.playstation.com/is/image/SIEPDC/ps3-intro-advert-image-block-02-en-23oct24?$native$&fmt=jpg&wid=1280|Divulgação/PlayStation"
+   ]
+  },
+  {
+   "tipo": "fato",
+   "fala": "A Sony confirmou: a loja digital do {PS3|PS três} e do Vita vai fechar. Jogo novo, só até lá.",
+   "imagens": [
+    "tela:https://blog.playstation.com/2026/07/01/an-update-on-playstation-store-for-ps3-and-ps-vita/",
+    "url:https://gmedia.playstation.com/is/image/SIEPDC/ps3-console-image-block-01-en-18nov24?$native$&fmt=jpg&wid=1280|Divulgação/PlayStation"
+   ],
+   "fonte": "PlayStation Blog, 01/07"
+  },
+  {
+   "tipo": "data",
+   "fala": "Na maior parte dos países, a loja do PS3 e do Vita fecha em julho de {2027|dois mil e vinte e sete}.",
+   "destaque": "JUL 2027",
+   "rotulo": "PS3 e Vita, maioria dos países",
+   "imagens": [
+    "url:https://gmedia.playstation.com/is/image/SIEPDC/ps3-xrossmediabar-image-block-02-en-17oct24?$native$&fmt=jpg&wid=1280|Divulgação/PlayStation"
+   ],
+   "fonte": "PlayStation Blog, 01/07"
+  },
+  {
+   "tipo": "info",
+   "fala": "Mas alguns países da América Latina saem antes. No México, em Honduras e na Nicarágua, o fechamento do PS3 começa em agosto de {2026|dois mil e vinte e seis}.",
+   "icone": "alerta",
+   "imagens": [
+    "url:https://gmedia.playstation.com/is/image/SIEPDC/ps3-console-image-block-01-en-18nov24?$native$&fmt=jpg&wid=1280|Divulgação/PlayStation"
+   ],
+   "fonte": "PlayStation Blog, 01/07"
+  },
+  {
+   "tipo": "manchete",
+   "fala": "E o Brasil? A Sony não cita o nosso país, então não há data confirmada.",
+   "manchete": {
+    "url": "https://canaltech.com.br/games/sony-anuncia-o-fechamento-definitivo-da-ps-store-no-ps3-e-ps-vita/",
+    "trecho": "No Brasil, ainda não há sinal de quando o término chegará."
+   }
+  },
+  {
+   "tipo": "fato",
+   "fala": "A boa notícia: o que você já comprou continua baixável. A Sony diz que vale por tempo indeterminado.",
+   "imagens": [
+    "url:https://blog.playstation.com/tachyon/2026/07/70bb22030b29f4234fd812253bf1129b00609c4c.jpg|Divulgação/PlayStation",
+    "url:https://gmedia.playstation.com/is/image/SIEPDC/ps3-xrossmediabar-image-block-02-en-17oct24?$native$&fmt=jpg&wid=1280|Divulgação/PlayStation"
+   ],
+   "fonte": "PlayStation Blog e Gematsu"
+  },
+  {
+   "tipo": "lista",
+   "fala": "Baixe o que é seu enquanto a loja está aberta.",
+   "titulo_lista": "ENQUANTO A LOJA ABRE",
+   "itens": [
+    "Veja sua biblioteca",
+    "Compre o que falta",
+    "Baixe o que é seu"
+   ],
+   "imagens": [
+    "url:https://gmedia.playstation.com/is/image/SIEPDC/ps3-intro-advert-image-block-02-en-23oct24?$native$&fmt=jpg&wid=1280|Divulgação/PlayStation"
+   ]
+  },
+  {
+   "tipo": "fato",
+   "fala": "Em 2021 a Sony já tentou fechar e recuou. Agora o motivo é o pagamento antigo.",
+   "imagens": [
+    "url:https://gmedia.playstation.com/is/image/SIEPDC/ps3-console-image-block-01-en-18nov24?$native$&fmt=jpg&wid=1280|Divulgação/PlayStation"
+   ],
+   "fonte": "Canaltech; PlayStation Blog"
+  },
+  {
+   "tipo": "cta",
+   "fala": "Jogo digital é um aluguel bem longo. Qual jogo do PS3 você baixaria? A loja do PS3 está com os dias contados.",
+   "tela": "Qual jogo do PS3 você baixaria?",
+   "imagens": [
+    "url:https://blog.playstation.com/tachyon/2026/07/70bb22030b29f4234fd812253bf1129b00609c4c.jpg|Divulgação/PlayStation"
+   ]
+  }
+ ],
+ "palavra_chave": "ps store ps3"
+}
