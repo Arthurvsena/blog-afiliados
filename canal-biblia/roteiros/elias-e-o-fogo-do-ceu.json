@@ -1,0 +1,25 @@
+{
+ "slug": "elias-e-o-fogo-do-ceu",
+ "titulo": "Um profeta sozinho desafiou 450 profetas de Baal… e o fogo caiu do céu",
+ "descricao": "Um profeta sozinho desafiou 450 profetas de Baal… e o fogo caiu do céu. 1 Reis 18 em menos de 1 minuto.\n\n\"O Senhor é Deus! O Senhor é Deus!\" (1 Reis 18:39)",
+ "hashtags": ["elias", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "1 Reis 18",
+ "heroi": {"nome": "Elias", "cores": ["#c8602e", "#e8c45a", "#2e5a7a", "#d9d0b0", "#5a7a3a"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "Um profeta sozinho desafiou quatrocentos e cinquenta profetas de Baal. E o povo inteiro assistiu.", "cenario": "monte", "hora": "dia", "camera": "afasta",
+   "elementos": [{"tipo": "multidao", "x": 300, "n": 8, "plano": "fundo"}, {"tipo": "heroi", "x": 760, "variante": "idoso", "olhar": -1}]},
+  {"fala": "Elias disse ao povo: até quando vocês vão ficar em dúvida? Se o Senhor é Deus, sigam o Senhor.", "cenario": "monte", "hora": "dia", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 540, "variante": "idoso", "pose": "apontando"}, {"tipo": "multidao", "x": 540, "n": 7, "plano": "fundo"}]},
+  {"fala": "Os profetas de Baal clamaram desde a manhã. Ninguém respondeu.", "cenario": "monte", "hora": "dia", "camera": "aproxima",
+   "elementos": [{"tipo": "multidao", "x": 540, "n": 6, "pose": "bracos_erguidos", "treme": true}, {"tipo": "fogo", "x": 540, "plano": "fundo"}]},
+  {"fala": "Então Elias refez o altar, pôs a lenha e mandou derramar água sobre tudo. Três vezes.", "cenario": "monte", "hora": "por_do_sol", "camera": "aproxima", "texto_tela": "3 vezes",
+   "elementos": [{"tipo": "heroi", "x": 340, "variante": "idoso", "olhar": 1}, {"tipo": "mesa", "x": 740}]},
+  {"fala": "Elias fez uma oração simples. E o fogo do Senhor caiu do céu.", "cenario": "monte", "hora": "por_do_sol", "camera": "zoom_forte", "efeitos": ["fogo_do_ceu", "luz_divina"],
+   "elementos": [{"tipo": "heroi", "x": 540, "variante": "idoso", "pose": "orando"}, {"tipo": "fogo", "x": 780}]},
+  {"fala": "Consumiu o sacrifício, a lenha, as pedras e até a água. O povo se prostrou.", "cenario": "monte", "hora": "noite", "camera": "afasta", "efeitos": ["brasas"],
+   "elementos": [{"tipo": "multidao", "x": 540, "n": 9, "pose": "ajoelhado", "plano": "fundo"}, {"tipo": "heroi", "x": 540, "variante": "idoso", "pose": "bracos_erguidos"}]},
+  {"fala": "O Senhor é Deus! O Senhor é Deus!", "versiculo": true, "texto_tela": "1 Reis 18:39", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 540, "plano": "fundo", "dy": 260, "escala": 1.4, "variante": "idoso", "pose": "bracos_erguidos"}]}
+ ]
+}

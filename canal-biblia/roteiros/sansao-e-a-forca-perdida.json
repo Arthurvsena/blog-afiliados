@@ -1,0 +1,25 @@
+{
+ "slug": "sansao-e-a-forca-perdida",
+ "titulo": "O homem mais forte da Bíblia perdeu tudo por contar um segredo",
+ "descricao": "O homem mais forte da Bíblia perdeu tudo por contar um segredo. Juízes 16 em menos de 1 minuto.\n\n\"Senhor Deus, lembra-te de mim e fortalece-me só desta vez.\" (Juízes 16:28)",
+ "hashtags": ["sansao", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "Juízes 16",
+ "heroi": {"nome": "Sansão", "cores": ["#a83a2e", "#e0b24a", "#2e5a6b", "#d9d0b0"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "O homem mais forte da Bíblia perdeu tudo por causa de um segredo.", "cenario": "cidade", "hora": "dia", "camera": "afasta",
+   "elementos": [{"tipo": "heroi", "x": 540, "pose": "bracos_erguidos"}, {"tipo": "multidao", "x": 200, "plano": "fundo", "n": 4, "variante": "soldado"}]},
+  {"fala": "A força de Sansão vinha de Deus. Os filisteus queriam descobrir como vencê-lo.", "cenario": "interior", "hora": "noite", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 300, "olhar": 1}, {"tipo": "pessoa", "x": 740, "variante": "soldado", "olhar": -1}]},
+  {"fala": "Dalila insistiu dia após dia, até ele ceder e contar que seu cabelo nunca fora cortado.", "cenario": "interior", "hora": "noite", "camera": "zoom_forte",
+   "elementos": [{"tipo": "heroi", "x": 300, "olhar": 1, "pose": "sentado"}, {"tipo": "pessoa", "x": 720, "variante": "mulher", "olhar": -1}]},
+  {"fala": "Cortaram o cabelo dele enquanto dormia. A força foi embora, e ele foi preso.", "cenario": "prisao", "hora": "noite", "camera": "desce",
+   "elementos": [{"tipo": "heroi", "x": 540, "pose": "caido"}, {"tipo": "pessoa", "x": 820, "variante": "soldado", "olhar": -1}]},
+  {"fala": "Os filisteus fizeram uma grande festa e o levaram ao templo para zombar dele. Mas o cabelo já tinha crescido.", "cenario": "templo", "hora": "noite", "camera": "afasta",
+   "elementos": [{"tipo": "multidao", "x": 540, "plano": "fundo", "n": 11}, {"tipo": "heroi", "x": 540, "olhar": 1}]},
+  {"fala": "Sansão orou pela última vez, empurrou as colunas e o templo veio abaixo.", "cenario": "templo", "hora": "noite", "camera": "zoom_forte", "tremor": true,
+   "elementos": [{"tipo": "muralha", "x": 540, "cai_em": 0.5}, {"tipo": "heroi", "x": 540, "pose": "bracos_erguidos"}]},
+  {"fala": "Senhor Deus, lembra-te de mim e fortalece-me só desta vez.", "versiculo": true, "texto_tela": "Juízes 16:28", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 540, "plano": "fundo", "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ]
+}

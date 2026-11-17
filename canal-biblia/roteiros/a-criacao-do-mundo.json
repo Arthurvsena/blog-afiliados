@@ -1,0 +1,25 @@
+{
+ "slug": "a-criacao-do-mundo",
+ "titulo": "No começo não existia nada… e Deus criou tudo em sete dias",
+ "descricao": "No começo não existia nada… e Deus criou tudo em sete dias. Gênesis 1 e 2 em menos de 1 minuto.\n\n\"Viu Deus tudo quanto havia feito, e eis que era muito bom.\" (Gênesis 1:31)",
+ "hashtags": ["criacao", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "Gênesis 1–2",
+ "heroi": {"nome": "Adão", "cores": ["#2e7a8c", "#f0c85a", "#c8602e", "#e8f0d0", "#6a4a8c"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "No começo, a terra era sem forma e vazia, e havia trevas. Então Deus disse: haja luz. E houve luz.", "cenario": "ceu", "hora": "noite", "camera": "aproxima", "efeitos": ["luz_divina"], "texto_tela": "7 dias", "contar": false,
+   "elementos": []},
+  {"fala": "Depois, Deus separou as águas, fez surgir a terra seca e a cobriu de plantas.", "cenario": "campo", "hora": "amanhecer", "camera": "afasta",
+   "elementos": [{"tipo": "palmeira", "x": 300}, {"tipo": "palmeira", "x": 780, "plano": "fundo"}]},
+  {"fala": "No quarto dia, colocou o sol, a lua e as estrelas no céu.", "cenario": "ceu", "hora": "por_do_sol", "camera": "sobe",
+   "elementos": [{"tipo": "estrela", "x": 540, "altura": 800}]},
+  {"fala": "Encheu o mar de peixes e o céu de aves. Depois, a terra de animais.", "cenario": "mar", "hora": "dia", "camera": "aproxima",
+   "elementos": [{"tipo": "peixe_grande", "x": 300}, {"tipo": "pomba", "x": 760, "altura": 600}, {"tipo": "ovelha", "x": 880, "n": 2, "plano": "fundo"}]},
+  {"fala": "E no sexto dia, Deus formou o ser humano, à sua imagem, e soprou nele o fôlego de vida.", "cenario": "jardim", "hora": "amanhecer", "camera": "zoom_forte", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "x": 540, "pose": "bracos_erguidos"}]},
+  {"fala": "No sétimo dia, Deus descansou. A obra estava completa.", "cenario": "jardim", "hora": "por_do_sol", "camera": "afasta",
+   "elementos": [{"tipo": "heroi", "x": 360, "olhar": 1}, {"tipo": "pessoa", "x": 600, "variante": "mulher", "olhar": -1}, {"tipo": "leao", "x": 860, "plano": "fundo"}]},
+  {"fala": "Viu Deus tudo quanto havia feito, e eis que era muito bom.", "versiculo": true, "texto_tela": "Gênesis 1:31", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 540, "plano": "fundo", "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ]
+}

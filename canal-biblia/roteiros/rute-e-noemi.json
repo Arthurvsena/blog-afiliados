@@ -1,0 +1,25 @@
+{
+ "slug": "rute-e-noemi",
+ "titulo": "Ela podia voltar para casa e ter uma vida fácil, mas escolheu ficar ao lado de Noemi",
+ "descricao": "Ela podia voltar para casa e ter uma vida fácil, mas escolheu ficar ao lado de Noemi. Rute 1 em menos de 1 minuto.\n\n\"Aonde quer que fores, irei eu, e onde quer que pousares, pousarei.\" (Rute 1:16)",
+ "hashtags": ["rute", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "Rute 1",
+ "heroi": {"nome": "Rute", "cores": ["#a8436a", "#e8c45a", "#4a7a5a", "#e8dcc0"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "Ela podia voltar para casa e recomeçar. Mas escolheu ficar ao lado de quem tinha perdido tudo.", "cenario": "deserto", "hora": "por_do_sol", "camera": "direita",
+   "elementos": [{"tipo": "heroi", "x": 300, "variante": "mulher", "olhar": 1}, {"tipo": "pessoa", "x": 580, "variante": "mulher", "pano": true, "olhar": 1}]},
+  {"fala": "Noemi vivia em Moabe, longe de casa. Ali morreram o marido dela e os dois filhos.", "cenario": "campo", "hora": "noite", "camera": "aproxima",
+   "elementos": [{"tipo": "pessoa", "x": 540, "variante": "mulher", "pano": true, "pose": "ajoelhado"}]},
+  {"fala": "Sozinha, Noemi decidiu voltar para Belém. As noras, Rute e Orfa, foram com ela.", "cenario": "deserto", "hora": "por_do_sol", "camera": "direita",
+   "elementos": [{"tipo": "pessoa", "x": 300, "variante": "mulher", "pano": true, "pose": "andando", "anda_ate": 500}, {"tipo": "heroi", "x": 560, "variante": "mulher", "pose": "andando", "anda_ate": 700}, {"tipo": "pessoa", "x": 820, "variante": "mulher", "pose": "andando", "anda_ate": 860}]},
+  {"fala": "Noemi pediu que as duas voltassem para suas famílias. Orfa se despediu chorando.", "cenario": "deserto", "hora": "por_do_sol", "camera": "aproxima",
+   "elementos": [{"tipo": "pessoa", "x": 820, "variante": "mulher", "olhar": 1, "pose": "abraco"}, {"tipo": "pessoa", "x": 300, "variante": "mulher", "olhar": -1}]},
+  {"fala": "Mas Rute ficou. E foi ela quem disse a frase que atravessou os séculos.", "cenario": "deserto", "hora": "por_do_sol", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "x": 540, "variante": "mulher", "olhar": 1, "pose": "abraco"}, {"tipo": "pessoa", "x": 300, "variante": "mulher", "pano": true, "olhar": 1}]},
+  {"fala": "Em Belém, ela recomeçou, colhendo espigas no campo. E um dia se casou com Boaz.", "cenario": "campo", "hora": "dia", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 540, "variante": "mulher", "pose": "ajoelhado"}, {"tipo": "palmeira", "x": 880, "plano": "fundo"}]},
+  {"fala": "Aonde quer que fores, irei eu, e onde quer que pousares, pousarei.", "versiculo": true, "texto_tela": "Rute 1:16", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 540, "plano": "fundo", "dy": 260, "escala": 1.4, "variante": "mulher", "pose": "bracos_erguidos"}]}
+ ]
+}

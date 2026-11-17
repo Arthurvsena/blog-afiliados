@@ -1,0 +1,25 @@
+{
+ "slug": "gideao-e-os-300",
+ "titulo": "Deus mandou o exército ficar menor… até sobrarem só 300 homens contra milhares",
+ "descricao": "Deus mandou o exército ficar menor… até sobrarem só 300 homens contra milhares. Juízes 7 em menos de 1 minuto.\n\n\"Espada pelo Senhor e por Gideão!\" (Juízes 7:20)",
+ "hashtags": ["gideao", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "Juízes 7",
+ "heroi": {"nome": "Gideão", "cores": ["#3a7a4a", "#e8c45a", "#8c3a5a", "#d9d0b0"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "Deus disse a Gideão: seu exército é grande demais. E mandou diminuir.", "cenario": "campo", "hora": "dia", "camera": "afasta",
+   "elementos": [{"tipo": "multidao", "x": 380, "n": 12, "variante": "soldado", "plano": "fundo"}, {"tipo": "heroi", "x": 740, "olhar": -1}]},
+  {"fala": "Eram trinta e dois mil homens. Os com medo voltaram para casa e sobraram dez mil.", "cenario": "campo", "hora": "dia", "camera": "aproxima", "texto_tela": "32000", "contar": false,
+   "elementos": [{"tipo": "multidao", "x": 540, "n": 10, "variante": "soldado", "plano": "fundo"}, {"tipo": "heroi", "x": 540, "olhar": 1}]},
+  {"fala": "Deus ainda separou os que bebiam água com as mãos. Restaram apenas trezentos.", "cenario": "campo", "hora": "dia", "camera": "aproxima", "texto_tela": "300 homens",
+   "elementos": [{"tipo": "multidao", "x": 540, "n": 3, "variante": "soldado", "plano": "fundo"}, {"tipo": "heroi", "x": 380, "pose": "ajoelhado", "olhar": 1}]},
+  {"fala": "De noite, o acampamento inimigo parecia um mar de gente. E Gideão levou só trombetas, jarros e tochas.", "cenario": "deserto", "hora": "noite", "camera": "direita",
+   "elementos": [{"tipo": "multidao", "x": 740, "n": 12, "variante": "soldado", "plano": "fundo"}, {"tipo": "heroi", "x": 260, "olhar": 1}]},
+  {"fala": "Os trezentos quebraram os jarros, ergueram as tochas e tocaram as trombetas ao mesmo tempo.", "cenario": "deserto", "hora": "noite", "camera": "aproxima", "tremor": true, "efeitos": ["brasas"],
+   "elementos": [{"tipo": "heroi", "x": 540, "pose": "bracos_erguidos"}, {"tipo": "multidao", "x": 540, "n": 6, "variante": "soldado", "plano": "fundo", "pose": "bracos_erguidos"}]},
+  {"fala": "O inimigo entrou em pânico e fugiu. Israel venceu sem lutar.", "cenario": "deserto", "hora": "amanhecer", "camera": "afasta",
+   "elementos": [{"tipo": "multidao", "x": 760, "n": 8, "variante": "soldado", "pose": "andando", "entra": "direita"}, {"tipo": "heroi", "x": 300, "olhar": 1}]},
+  {"fala": "Espada pelo Senhor e por Gideão!", "versiculo": true, "texto_tela": "Juízes 7:20", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 540, "plano": "fundo", "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ]
+}

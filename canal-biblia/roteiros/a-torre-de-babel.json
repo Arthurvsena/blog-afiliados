@@ -1,0 +1,25 @@
+{
+ "slug": "a-torre-de-babel",
+ "titulo": "O mundo inteiro falava a mesma língua, até querer chegar ao céu por conta própria",
+ "descricao": "O mundo inteiro falava a mesma língua, até querer chegar ao céu por conta própria. Gênesis 11 em menos de 1 minuto.\n\n\"Por isso chamou-se Babel, porque ali o Senhor confundiu a língua de toda a terra.\" (Gênesis 11:9)",
+ "hashtags": ["babel", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "Gênesis 11",
+ "heroi": {"nome": "Construtor", "cores": ["#c8742e", "#e8c45a", "#3a5a8c", "#cfd9a8"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "O mundo inteiro falava a mesma língua. E, juntos, os homens decidiram chegar ao céu por conta própria.", "cenario": "campo", "hora": "dia", "camera": "afasta",
+   "elementos": [{"tipo": "multidao", "x": 540, "n": 10, "plano": "fundo"}, {"tipo": "heroi", "x": 540, "pose": "apontando"}]},
+  {"fala": "Disseram: vamos fazer tijolos, construir uma cidade e uma torre cujo topo toque o céu.", "cenario": "cidade", "hora": "dia", "camera": "sobe",
+   "elementos": [{"tipo": "muralha", "x": 700}, {"tipo": "heroi", "x": 320, "olhar": 1}]},
+  {"fala": "E acrescentaram o verdadeiro motivo: para fazermos um nome para nós mesmos.", "cenario": "cidade", "hora": "por_do_sol", "camera": "aproxima",
+   "elementos": [{"tipo": "muralha", "x": 540, "plano": "fundo"}, {"tipo": "heroi", "x": 540, "pose": "bracos_erguidos"}]},
+  {"fala": "Mas Deus desceu para ver a cidade e a torre. E viu o orgulho por trás de tudo aquilo.", "cenario": "cidade", "hora": "por_do_sol", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "muralha", "x": 540, "plano": "fundo"}, {"tipo": "heroi", "x": 300, "olhar": 1}]},
+  {"fala": "Então, de repente, ninguém mais entendia o que o outro dizia.", "cenario": "cidade", "hora": "noite", "camera": "aproxima", "tremor": true,
+   "elementos": [{"tipo": "heroi", "x": 320, "olhar": 1, "pose": "apontando"}, {"tipo": "multidao", "x": 720, "n": 5, "treme": true}]},
+  {"fala": "A obra parou, e o povo se espalhou por toda a terra.", "cenario": "deserto", "hora": "amanhecer", "camera": "afasta",
+   "elementos": [{"tipo": "multidao", "x": 300, "n": 4, "pose": "andando", "anda_ate": 140}, {"tipo": "heroi", "x": 700, "pose": "andando", "anda_ate": 900}]},
+  {"fala": "Por isso chamou-se Babel, porque ali o Senhor confundiu a língua de toda a terra.", "versiculo": true, "texto_tela": "Gênesis 11:9", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 540, "plano": "fundo", "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ]
+}

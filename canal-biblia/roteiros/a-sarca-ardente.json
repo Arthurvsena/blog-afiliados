@@ -1,0 +1,25 @@
+{
+ "slug": "a-sarca-ardente",
+ "titulo": "Uma sarça pegou fogo, mas não virou cinza… e Deus falou de dentro dela",
+ "descricao": "Uma sarça pegou fogo, mas não virou cinza… e Deus falou de dentro dela. Êxodo 3 em menos de 1 minuto.\n\n\"Disse Deus a Moisés: Eu Sou o que Sou.\" (Êxodo 3:14)",
+ "hashtags": ["moises", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "Êxodo 3",
+ "heroi": {"nome": "Moisés", "cores": ["#b8452f", "#e8c45a", "#3a6b5a", "#d9d0b0"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "Uma sarça pegou fogo. E o fogo não parava de queimar, mas ela nunca virava cinza.", "cenario": "deserto", "hora": "por_do_sol", "camera": "zoom_forte", "efeitos": ["brasas"],
+   "elementos": [{"tipo": "fogo", "x": 540, "escala": 1.3}, {"tipo": "heroi", "x": 260, "variante": "idoso", "olhar": 1}]},
+  {"fala": "Moisés cuidava das ovelhas do sogro quando viu aquilo e foi olhar mais de perto.", "cenario": "monte", "hora": "dia", "camera": "direita",
+   "elementos": [{"tipo": "ovelha", "x": 300, "n": 4}, {"tipo": "heroi", "x": 560, "variante": "idoso", "pose": "andando", "anda_ate": 640, "olhar": 1}]},
+  {"fala": "De dentro do fogo, Deus o chamou: Moisés, Moisés! Tira as sandálias, porque esta terra é santa.", "cenario": "deserto", "hora": "por_do_sol", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "fogo", "x": 700}, {"tipo": "heroi", "x": 300, "variante": "idoso", "pose": "ajoelhado", "olhar": 1}]},
+  {"fala": "Deus tinha visto o sofrimento do povo no Egito e queria libertá-lo. E mandou Moisés falar com o faraó.", "cenario": "cidade", "hora": "dia", "camera": "aproxima",
+   "elementos": [{"tipo": "multidao", "x": 380, "n": 8, "plano": "fundo", "pose": "ajoelhado"}, {"tipo": "heroi", "x": 760, "variante": "idoso", "olhar": -1}]},
+  {"fala": "Moisés teve medo: quem sou eu para isso? Deus respondeu: Eu estarei contigo.", "cenario": "deserto", "hora": "noite", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "x": 420, "variante": "idoso", "olhar": 1, "pose": "orando"}, {"tipo": "fogo", "x": 760}]},
+  {"fala": "O homem que fugiu do Egito ia voltar para libertar um povo inteiro.", "cenario": "deserto", "hora": "amanhecer", "camera": "direita",
+   "elementos": [{"tipo": "heroi", "x": 200, "variante": "idoso", "pose": "andando", "anda_ate": 720}]},
+  {"fala": "Disse Deus a Moisés: Eu Sou o que Sou.", "versiculo": true, "texto_tela": "Êxodo 3:14", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 540, "plano": "fundo", "dy": 260, "escala": 1.4, "variante": "idoso", "pose": "bracos_erguidos"}]}
+ ]
+}

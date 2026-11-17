@@ -1,0 +1,25 @@
+{
+ "slug": "o-bezerro-de-ouro",
+ "titulo": "Moisés subiu para falar com Deus e o povo, impaciente, fez um ídolo de ouro",
+ "descricao": "Moisés subiu para falar com Deus e o povo, impaciente, fez um ídolo de ouro. Êxodo 32 em menos de 1 minuto.\n\n\"O Senhor, o Senhor Deus compassivo, clemente e longânimo.\" (Êxodo 34:6)",
+ "hashtags": ["moises", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "Êxodo 32",
+ "heroi": {"nome": "Moisés", "cores": ["#8c5a2e", "#d9b24a", "#2e6b6b", "#c8452e"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "Moisés demorou na montanha. E o povo, impaciente, fez um ídolo de ouro.", "cenario": "deserto", "hora": "por_do_sol", "camera": "aproxima",
+   "elementos": [{"tipo": "multidao", "x": 540, "n": 9, "plano": "fundo"}, {"tipo": "fogo", "x": 540, "escala": 0.8}]},
+  {"fala": "Moisés tinha subido o monte para receber a lei de Deus. Passaram-se quarenta dias.", "cenario": "monte", "hora": "noite", "camera": "sobe", "texto_tela": "40 dias", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "x": 540, "variante": "idoso", "pose": "orando"}]},
+  {"fala": "Lá embaixo, o povo pediu a Arão: faça deuses que vão adiante de nós.", "cenario": "deserto", "hora": "dia", "camera": "aproxima",
+   "elementos": [{"tipo": "multidao", "x": 330, "n": 7, "pose": "apontando"}, {"tipo": "pessoa", "x": 760, "variante": "sacerdote", "olhar": -1}]},
+  {"fala": "Arão juntou o ouro deles e fez um bezerro. O povo o adorou e fez festa.", "cenario": "deserto", "hora": "por_do_sol", "camera": "afasta",
+   "elementos": [{"tipo": "multidao", "x": 540, "n": 10, "plano": "fundo", "pose": "bracos_erguidos"}, {"tipo": "fogo", "x": 540, "escala": 0.8}]},
+  {"fala": "Moisés desceu, viu tudo aquilo e quebrou as tábuas no chão.", "cenario": "monte", "hora": "por_do_sol", "camera": "zoom_forte", "tremor": true,
+   "elementos": [{"tipo": "tabuas", "x": 540}, {"tipo": "heroi", "x": 300, "variante": "idoso", "olhar": 1, "pose": "bracos_erguidos"}]},
+  {"fala": "Depois, ele voltou ao monte e pediu perdão pelo povo. E Deus ouviu.", "cenario": "monte", "hora": "amanhecer", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "x": 540, "variante": "idoso", "pose": "ajoelhado"}]},
+  {"fala": "O Senhor, o Senhor Deus compassivo, clemente e longânimo.", "versiculo": true, "texto_tela": "Êxodo 34:6", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 540, "plano": "fundo", "dy": 260, "escala": 1.4, "variante": "idoso", "pose": "bracos_erguidos"}]}
+ ]
+}

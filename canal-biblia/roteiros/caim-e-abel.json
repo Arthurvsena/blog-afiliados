@@ -1,0 +1,25 @@
+{
+ "slug": "caim-e-abel",
+ "titulo": "O primeiro crime da história aconteceu entre dois irmãos… e Deus fez uma pergunta",
+ "descricao": "O primeiro crime da história aconteceu entre dois irmãos… e Deus fez uma pergunta. Gênesis 4 em menos de 1 minuto.\n\n\"Onde está Abel, teu irmão? Respondeu: Não sei; sou eu guarda do meu irmão?\" (Gênesis 4:9)",
+ "hashtags": ["caimeabel", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "Gênesis 4",
+ "heroi": {"nome": "Abel", "cores": ["#3a7a6a", "#e0b24a", "#8c4a3a", "#e8dcc0"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "O primeiro crime da história aconteceu entre dois irmãos.", "cenario": "campo", "hora": "por_do_sol", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 320, "variante": "pastor", "olhar": 1}, {"tipo": "pessoa", "x": 760, "variante": "homem", "olhar": -1}]},
+  {"fala": "Abel era pastor de ovelhas. Caim, agricultor. Cada um levou uma oferta a Deus.", "cenario": "campo", "hora": "dia", "camera": "afasta",
+   "elementos": [{"tipo": "heroi", "x": 300, "variante": "pastor", "olhar": 1}, {"tipo": "ovelha", "x": 160, "n": 3, "plano": "fundo"}, {"tipo": "pessoa", "x": 780, "variante": "homem", "olhar": -1}]},
+  {"fala": "Deus aceitou a oferta de Abel. Mas não a de Caim. E Caim ficou furioso.", "cenario": "campo", "hora": "por_do_sol", "camera": "zoom_forte", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "fogo", "x": 330}, {"tipo": "pessoa", "x": 760, "variante": "homem", "olhar": -1, "pose": "ajoelhado"}]},
+  {"fala": "Deus o avisou: o pecado está à porta, mas você pode dominá-lo. Caim não ouviu.", "cenario": "campo", "hora": "noite", "camera": "aproxima",
+   "elementos": [{"tipo": "pessoa", "x": 540, "variante": "homem", "olhar": 1}, {"tipo": "luz", "x": 800, "altura": 700}]},
+  {"fala": "No campo, Caim atacou o irmão. Abel nunca mais se levantou.", "cenario": "campo", "hora": "noite", "camera": "desce",
+   "elementos": [{"tipo": "heroi", "x": 360, "variante": "pastor", "pose": "caido"}, {"tipo": "pessoa", "x": 760, "variante": "homem", "olhar": -1}]},
+  {"fala": "Mas Deus perguntou a Caim: onde está o seu irmão? E Caim respondeu com uma pergunta.", "cenario": "campo", "hora": "amanhecer", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "pessoa", "x": 540, "variante": "homem", "olhar": 1, "pose": "ajoelhado"}]},
+  {"fala": "Onde está Abel, teu irmão? Respondeu: Não sei; sou eu guarda do meu irmão?", "versiculo": true, "texto_tela": "Gênesis 4:9", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 540, "plano": "fundo", "dy": 260, "escala": 1.4, "variante": "pastor", "pose": "bracos_erguidos"}]}
+ ]
+}

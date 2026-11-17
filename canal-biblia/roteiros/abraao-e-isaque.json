@@ -1,0 +1,27 @@
+{
+ "slug": "abraao-e-isaque",
+ "titulo": "Deus pediu a coisa mais difícil que um pai poderia dar… e Abraão foi até o fim",
+ "descricao": "Deus pediu a coisa mais difícil que um pai poderia dar… e Abraão foi até o fim. Gênesis 22 em menos de 1 minuto.\n\n\"Abraão chamou aquele lugar: O Senhor Proverá.\" (Gênesis 22:14)",
+ "hashtags": ["abraao", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "Gênesis 22",
+ "heroi": {"nome": "Abraão", "cores": ["#6b3e8c", "#e6b84a", "#2e7a6a", "#d9d0b0"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "Deus pediu a Abraão a coisa mais difícil do mundo: entregar o filho que ele esperou a vida inteira.", "cenario": "deserto", "hora": "por_do_sol", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 540, "variante": "idoso", "pose": "orando"}], "efeitos": ["luz_divina"]},
+  {"fala": "Abraão acordou cedo e partiu com Isaque. No terceiro dia, viu o monte de longe.", "cenario": "deserto", "hora": "dia", "camera": "direita", "texto_tela": "3 dias",
+   "elementos": [{"tipo": "heroi", "x": 300, "variante": "idoso", "pose": "andando", "anda_ate": 420}, {"tipo": "pessoa", "x": 620, "variante": "crianca", "pose": "andando", "anda_ate": 740}]},
+  {"fala": "Isaque perguntou: pai, temos o fogo e a lenha. Mas onde está o cordeiro? Abraão respondeu: Deus proverá.", "cenario": "monte", "hora": "dia", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 380, "variante": "idoso", "olhar": 1}, {"tipo": "pessoa", "x": 700, "variante": "crianca", "olhar": -1}]},
+  {"fala": "No altar, Abraão ergueu a faca.", "cenario": "monte", "hora": "por_do_sol", "camera": "zoom_forte",
+   "elementos": [{"tipo": "fogo", "x": 780}, {"tipo": "heroi", "x": 420, "variante": "idoso", "pose": "bracos_erguidos"}]},
+  {"fala": "Então um anjo gritou do céu: Abraão! Não faça nada ao menino!", "cenario": "monte", "hora": "por_do_sol", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "pessoa", "x": 540, "variante": "anjo", "plano": "fundo", "escala": 1.6}, {"tipo": "heroi", "x": 380, "variante": "idoso", "olhar": 1, "pose": "ajoelhado"}]},
+  {"fala": "Abraão olhou e viu um carneiro preso pelos chifres no mato.", "cenario": "monte", "hora": "amanhecer", "camera": "aproxima",
+   "elementos": [{"tipo": "ovelha", "x": 760, "n": 1}, {"tipo": "heroi", "x": 360, "variante": "idoso", "olhar": 1}]},
+  {"fala": "Abraão confiou até o fim. E Deus cuidou de tudo.", "cenario": "monte", "hora": "amanhecer", "camera": "afasta", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "x": 400, "variante": "idoso", "pose": "bracos_erguidos"}, {"tipo": "pessoa", "x": 700, "variante": "crianca"}]},
+  {"fala": "Abraão chamou aquele lugar: O Senhor Proverá.", "versiculo": true, "texto_tela": "Gênesis 22:14", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 540, "plano": "fundo", "dy": 260, "escala": 1.4, "variante": "idoso", "pose": "bracos_erguidos"}]}
+ ]
+}

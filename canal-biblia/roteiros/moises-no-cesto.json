@@ -1,0 +1,25 @@
+{
+ "slug": "moises-no-cesto",
+ "titulo": "O faraó mandou matar todos os bebês hebreus… mas uma mãe colocou o filho no rio",
+ "descricao": "O faraó mandou matar todos os bebês hebreus… mas uma mãe colocou o filho no rio. Êxodo 2 em menos de 1 minuto.\n\n\"E ela lhe chamou Moisés, porque das águas o tirei.\" (Êxodo 2:10)",
+ "hashtags": ["moises", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "Êxodo 2",
+ "heroi": {"nome": "Moisés", "cores": ["#2e6b7a", "#e8c45a", "#a84a3a", "#cfd9a8"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "O faraó mandou jogar no rio todos os meninos hebreus. Mas uma mãe teve um plano.", "cenario": "cidade", "hora": "dia", "camera": "aproxima",
+   "elementos": [{"tipo": "pessoa", "x": 300, "variante": "farao", "olhar": 1}, {"tipo": "pessoa", "x": 760, "variante": "mulher", "olhar": -1}]},
+  {"fala": "Ela escondeu o filho por três meses. Quando não deu mais, colocou o bebê numa cesta e a deixou à beira do rio.", "cenario": "mar", "hora": "amanhecer", "camera": "aproxima", "texto_tela": "3 meses", "contar": false,
+   "elementos": [{"tipo": "heroi", "x": 560, "variante": "crianca", "escala": 0.45, "dy": 60}, {"tipo": "pessoa", "x": 250, "variante": "mulher", "pose": "ajoelhado", "olhar": 1}]},
+  {"fala": "A irmã dele ficou de longe, só olhando.", "cenario": "mar", "hora": "amanhecer", "camera": "direita",
+   "elementos": [{"tipo": "heroi", "x": 720, "variante": "crianca", "escala": 0.45, "dy": 60}, {"tipo": "pessoa", "x": 220, "variante": "crianca", "olhar": 1, "escala": 0.9}]},
+  {"fala": "A filha do faraó desceu ao rio, abriu a cesta e viu o menino chorando. E teve compaixão.", "cenario": "mar", "hora": "dia", "camera": "zoom_forte",
+   "elementos": [{"tipo": "pessoa", "x": 300, "variante": "mulher", "coroa": true, "olhar": 1}, {"tipo": "heroi", "x": 640, "variante": "crianca", "escala": 0.45, "dy": 60}]},
+  {"fala": "A irmã se aproximou e ofereceu: quer que eu chame uma ama? Foi buscar a própria mãe do menino!", "cenario": "campo", "hora": "dia", "camera": "aproxima",
+   "elementos": [{"tipo": "pessoa", "x": 300, "variante": "crianca", "olhar": 1, "pose": "apontando"}, {"tipo": "pessoa", "x": 740, "variante": "mulher", "olhar": -1, "coroa": true}]},
+  {"fala": "O bebê que o faraó queria morto cresceu para libertar o povo de Israel.", "cenario": "cidade", "hora": "amanhecer", "camera": "afasta", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "x": 540, "pose": "bracos_erguidos"}, {"tipo": "multidao", "x": 540, "plano": "fundo", "n": 9}]},
+  {"fala": "E ela lhe chamou Moisés, porque das águas o tirei.", "versiculo": true, "texto_tela": "Êxodo 2:10", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 540, "plano": "fundo", "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "elias-e-os-corvos",
+ "titulo": "Em plena seca, Deus mandou aves levarem comida a um homem escondido no deserto",
+ "descricao": "Em plena seca, Deus mandou aves levarem comida a um homem escondido no deserto. 1 Reis 17 em menos de 1 minuto.\n\n\"Os corvos lhe traziam pão e carne de manhã, e pão e carne à tarde.\" (1 Reis 17:6)",
+ "hashtags": ["elias", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "1 Reis 17",
+ "heroi": {"nome": "Elias", "cores": ["#2e6b5a", "#e0b24a", "#a8452e", "#e8dcc0"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "Em plena seca, Deus mandou aves levarem comida a um homem escondido no deserto.", "cenario": "deserto", "hora": "dia", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 360, "variante": "idoso", "olhar": 1}, {"tipo": "pomba", "x": 760, "altura": 500, "cor": "#1f1f26", "entra": "direita"}]},
+  {"fala": "Elias avisou ao rei Acabe que não choveria nos próximos anos, a não ser pela palavra dele.", "cenario": "palacio", "hora": "dia", "camera": "aproxima",
+   "elementos": [{"tipo": "pessoa", "x": 720, "variante": "rei", "olhar": -1}, {"tipo": "heroi", "x": 330, "variante": "idoso", "pose": "apontando", "olhar": 1}]},
+  {"fala": "Depois, Deus o mandou se esconder junto ao ribeiro de Querite, onde ele beberia água.", "cenario": "campo", "hora": "dia", "camera": "afasta",
+   "elementos": [{"tipo": "heroi", "x": 540, "variante": "idoso", "pose": "andando", "anda_ate": 620, "olhar": 1}, {"tipo": "palmeira", "x": 900, "plano": "fundo"}]},
+  {"fala": "E a comida? Deus ordenou que os corvos o sustentassem.", "cenario": "deserto", "hora": "amanhecer", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 360, "variante": "idoso", "olhar": 1, "pose": "sentado"}, {"tipo": "pomba", "x": 700, "altura": 560, "cor": "#1f1f26", "entra": "direita"}, {"tipo": "pomba", "x": 860, "altura": 700, "cor": "#1f1f26", "entra": "direita"}]},
+  {"fala": "Todas as manhãs e todas as tardes, as aves chegavam. Elias nunca ficou sem pão.", "cenario": "deserto", "hora": "por_do_sol", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "x": 360, "variante": "idoso", "olhar": 1}, {"tipo": "pomba", "x": 700, "altura": 500, "cor": "#1f1f26", "entra": "direita"}]},
+  {"fala": "Até que o ribeiro secou. Mas Deus já tinha o próximo passo preparado.", "cenario": "deserto", "hora": "dia", "camera": "direita",
+   "elementos": [{"tipo": "heroi", "x": 240, "variante": "idoso", "pose": "andando", "anda_ate": 700, "olhar": 1}]},
+  {"fala": "Os corvos lhe traziam pão e carne de manhã, e pão e carne à tarde.", "versiculo": true, "texto_tela": "1 Reis 17:6", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 540, "plano": "fundo", "dy": 260, "escala": 1.4, "variante": "idoso", "pose": "bracos_erguidos"}]}
+ ]
+}

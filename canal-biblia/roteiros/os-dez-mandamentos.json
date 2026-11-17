@@ -1,0 +1,25 @@
+{
+ "slug": "os-dez-mandamentos",
+ "titulo": "Um monte em chamas, trovões e uma voz que fez o povo inteiro tremer",
+ "descricao": "Um monte em chamas, trovões e uma voz que fez o povo inteiro tremer. Êxodo 19 e 20 em menos de 1 minuto.\n\n\"Não terás outros deuses diante de mim.\" (Êxodo 20:3)",
+ "hashtags": ["moises", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "Êxodo 19–20",
+ "heroi": {"nome": "Moisés", "cores": ["#2e4a8c", "#d9b24a", "#8c2e4a", "#d9e0d0"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "Um monte coberto de fumaça, trovões e fogo. E uma voz que fez o povo inteiro tremer.", "cenario": "monte", "hora": "noite", "camera": "aproxima", "tremor": true, "efeitos": ["raios", "brasas"], "tempestade": true,
+   "elementos": [{"tipo": "multidao", "x": 540, "n": 9, "plano": "fundo", "treme": true}]},
+  {"fala": "Três meses depois de saírem do Egito, os israelitas acamparam diante do monte Sinai.", "cenario": "deserto", "hora": "dia", "camera": "afasta", "texto_tela": "3 meses", "contar": false,
+   "elementos": [{"tipo": "multidao", "x": 380, "n": 10, "plano": "fundo"}, {"tipo": "heroi", "x": 760, "variante": "idoso", "olhar": -1}]},
+  {"fala": "Deus os chamou: se guardarem a minha aliança, serão o meu povo. Eles responderam: faremos tudo o que o Senhor disse.", "cenario": "monte", "hora": "por_do_sol", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "x": 540, "variante": "idoso", "pose": "orando"}]},
+  {"fala": "No terceiro dia, o monte tremeu. Moisés subiu, e Deus falou dali com ele.", "cenario": "monte", "hora": "noite", "camera": "sobe", "tremor": true, "efeitos": ["raios"],
+   "elementos": [{"tipo": "heroi", "x": 540, "variante": "idoso", "pose": "andando", "anda_ate": 600, "olhar": 1}]},
+  {"fala": "Deus lhe deu dez mandamentos, escritos em duas tábuas de pedra.", "cenario": "monte", "hora": "amanhecer", "camera": "zoom_forte", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "tabuas", "x": 540}, {"tipo": "heroi", "x": 260, "variante": "idoso", "olhar": 1}]},
+  {"fala": "Eles resumem o essencial: amar a Deus e respeitar o próximo. E o primeiro de todos vem de Deus.", "cenario": "monte", "hora": "dia", "camera": "afasta",
+   "elementos": [{"tipo": "heroi", "x": 540, "variante": "idoso", "pose": "bracos_erguidos"}, {"tipo": "multidao", "x": 540, "n": 8, "plano": "fundo", "pose": "ajoelhado"}]},
+  {"fala": "Não terás outros deuses diante de mim.", "versiculo": true, "texto_tela": "Êxodo 20:3", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 540, "plano": "fundo", "dy": 260, "escala": 1.4, "variante": "idoso", "pose": "bracos_erguidos"}]}
+ ]
+}

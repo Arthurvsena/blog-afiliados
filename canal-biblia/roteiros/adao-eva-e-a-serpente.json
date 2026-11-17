@@ -1,0 +1,25 @@
+{
+ "slug": "adao-eva-e-a-serpente",
+ "titulo": "Tinham um jardim perfeito e uma única regra… e uma serpente chegou com uma pergunta",
+ "descricao": "Tinham um jardim perfeito e uma única regra… e uma serpente chegou com uma pergunta. Gênesis 3 em menos de 1 minuto.\n\n\"Então chamou o Senhor Deus ao homem e lhe perguntou: Onde estás?\" (Gênesis 3:9)",
+ "hashtags": ["adaoeeva", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "Gênesis 3",
+ "heroi": {"nome": "Adão", "cores": ["#4a7a3a", "#e8c45a", "#a8452e", "#d9e0b0"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "Tinham um jardim perfeito e uma única regra. Até que uma serpente chegou com uma pergunta.", "cenario": "jardim", "hora": "dia", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 300, "olhar": 1}, {"tipo": "pessoa", "x": 480, "variante": "mulher", "olhar": 1}, {"tipo": "cobra", "x": 800}]},
+  {"fala": "Deus tinha dado a Adão e Eva tudo do Éden, menos o fruto de uma árvore. Se comessem, morreriam.", "cenario": "jardim", "hora": "amanhecer", "camera": "afasta", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "x": 300, "olhar": 1}, {"tipo": "pessoa", "x": 460, "variante": "mulher", "olhar": 1}, {"tipo": "palmeira", "x": 820}]},
+  {"fala": "A serpente disse a Eva: vocês não vão morrer. Vão ser como Deus.", "cenario": "jardim", "hora": "dia", "camera": "zoom_forte",
+   "elementos": [{"tipo": "cobra", "x": 740}, {"tipo": "pessoa", "x": 340, "variante": "mulher", "olhar": 1}]},
+  {"fala": "Eva comeu. E deu também a Adão, que comeu.", "cenario": "jardim", "hora": "por_do_sol", "camera": "aproxima",
+   "elementos": [{"tipo": "pessoa", "x": 340, "variante": "mulher", "olhar": 1}, {"tipo": "heroi", "x": 700, "olhar": -1}]},
+  {"fala": "Na hora, perceberam que estavam nus. E, quando ouviram Deus andando no jardim, se esconderam.", "cenario": "jardim", "hora": "noite", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "x": 360, "pose": "ajoelhado", "plano": "fundo"}, {"tipo": "pessoa", "x": 720, "variante": "mulher", "pose": "ajoelhado", "plano": "fundo"}]},
+  {"fala": "Deus os tirou do Éden, mas antes fez roupas de peles para vesti-los. Mesmo no erro, ele cuidou deles.", "cenario": "deserto", "hora": "por_do_sol", "camera": "direita",
+   "elementos": [{"tipo": "heroi", "x": 300, "pose": "andando", "anda_ate": 520}, {"tipo": "pessoa", "x": 160, "variante": "mulher", "pose": "andando", "anda_ate": 360}]},
+  {"fala": "Então chamou o Senhor Deus ao homem e lhe perguntou: Onde estás?", "versiculo": true, "texto_tela": "Gênesis 3:9", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 540, "plano": "fundo", "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ]
+}
