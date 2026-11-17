@@ -33,7 +33,7 @@ imagem:
   arquivo: analise-alexa-plus-brasil-vale-a-pena-assinar.jpg
   credito: Smart Home Perfected/Wikimedia Commons
   licenca: CC BY 2.0
-  fonte: https://commons.wikimedia.org/wiki/File:Alexa_Amazon_Echo_Dot_3rd_Gen_Smart_Speaker_-_Sandstone_Fabric_(Creative_Commons)_(51048461088).jpg
+  fonte: https://commons.wikimedia.org/wiki/File:Alexa_Amazon_Echo_Smart_Speaker_-_Flashing_Blue_Ring_(Creative_Commons)_(51048329823).jpg
 ---
 Sua **Alexa é compatível com Alexa Plus** se for um Echo ou Fire TV recente, e hoje vale a pena pedir acesso só porque é de graça. Para quem tem Prime e um aparelho compatível, entrar na fila não custa nada. Pagar o valor avulso anunciado de R$ 99 por mês, na minha leitura, não faz sentido para quase ninguém.
 

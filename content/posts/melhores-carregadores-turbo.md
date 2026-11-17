@@ -140,3 +140,5 @@ Tem iPhone? Veja quantos watts cada modelo pede no guia de [carregador turbo par
 :::veredito
 Na minha leitura, o Samsung de 25 W é a compra segura para quem tem Galaxy, e o Ugreen de 45 W vale para quem carrega mais de um aparelho. O Baseus é o meio-termo com cabo incluso. Antes de fechar, confira a Anatel e a reputação do vendedor.
 :::
+
+Dúvida sobre o original? Veja se o [carregador USB-C Apple precisa ser o original](/posts/carregador-usb-c-apple-qual-comprar/).

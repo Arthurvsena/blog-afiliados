@@ -2,6 +2,29 @@
 
 O curador escreve aqui os produtos que vale cadastrar em data/produtos.csv.
 
+## Sugestões de 2026-11-17 (pautas travadas: caixas até R$ 100, mouses Redragon, fone JBL, tomada 20 A)
+
+**Aviso:** o ML segue sem leitura (403). Nota e avaliações do ML não conferidas; critério no cadastro: 4,5+ e 200+ avaliações, loja oficial JBL ou MercadoLíder. Não repito as sugestões de 11-16 e 11-12 (Intelbras ETW 1001+, Stormrage M718, Invader M719), que seguem valendo.
+
+### fones-caixas-bluetooth: fone JBL (`fone-bluetooth-jbl-qual-comprar`)
+- **Headphone Bluetooth JBL Tune 520BT** (JBL), referência de R$ 180 a R$ 210 em lojas (Buscapé, Zoom, KaBuM; indicativo, as fontes divergem). Por que: é a JBL on-ear mais citada no custo-benefício e traz formato diferente dos ativos (Wave Buds 2 é TWS, Quantum 100M2 é headset gamer com fio), então dá a 3ª opção. Confirmado no Tecnoblog: driver de 33 mm, Bluetooth 5.3, bateria de 450 mAh, até 57 h de música e 35 h em ligações, botões laterais com acionamento de assistente. Pontofrio: USB-C, recarga rápida (5 min dão 3 h) e sem cancelamento de ruído. Multiponto, peso e microfone não confirmados: não registre. Compre da loja oficial JBL (falsificação).
+  Busca no ML: `Headphone Bluetooth JBL Tune 520BT`
+  Linha pronta para o CSV (só falta o link):
+  `jbl-tune-520bt,fones-caixas-bluetooth,Headphone Bluetooth JBL Tune 520BT,JBL,PRECO,NOTA,AVAL,COLE_O_LINK,,Até 57 h de bateria (segundo o fabricante);Bluetooth 5.3;Driver de 33 mm;Carga por USB-C,sim`
+- Com ele a pauta fecha 3 (Wave Buds 2, Quantum 100M2, Tune 520BT). JBL Tune Buds 2 (11-16) fica como reserva se o dono quiser mais um TWS.
+
+### fones-caixas-bluetooth: caixas até R$ 100
+- Busca nova não trouxe ficha nem preço confirmados. Mais citadas em guias: Xiaomi Mi Compact Speaker 2 e i2GO Essential Sound Go (esta já reprovada em 11-03 por 4,4 com 50 avaliações). Philco PBS30, Multilaser SP395 e SP250: sem ficha lida. Nada para cadastrar. Mantida a recomendação: pauta vira "até R$ 200" com Go Essential 2, Go 4 e Soundcore 2, ou o dono manda 3 links.
+
+### acessorios-gamer: mouses Redragon
+- Sem produto novo (não pesquisei de novo; ver M718 e M719 em 11-12).
+
+### casa-inteligente: tomada 20 A
+- Sem alternativa nova além da Intelbras ETW 1001+ de 11-16.
+
+### Resumo de 11-17
+Novas: fones-caixas-bluetooth 1 (JBL Tune 520BT); caixas até R$ 100 0; acessorios-gamer 0; casa-inteligente 0.
+
 ## Sugestões de 2026-11-16 (mural #79, caixas até R$ 100, mouses Redragon)
 
 **Aviso:** o ML segue sem leitura (403). Nota e avaliações do ML não conferidas; critério no cadastro: 4,5+ e 200+ avaliações, loja oficial ou MercadoLíder, Anatel.

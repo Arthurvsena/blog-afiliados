@@ -7,7 +7,7 @@ palavras_secundarias: ["ps4 em 2026", "ainda vale a pena comprar ps4"]
 editoria: analises
 tipo: analise
 publicado: 2026-11-06 11:00
-atualizado: 2026-11-06
+atualizado: 2026-11-17
 fontes:
   - nome: "PlayStation Brasil (página do PS4: modelos e PS Plus)"
     url: "https://www.playstation.com/pt-br/ps4/"
@@ -137,7 +137,7 @@ Na minha leitura, a conta é simples: se o orçamento só alcança o PS4, vale. 
 
 ## Veredito
 
-Resumindo: PS4 Slim usado para economizar, PS5 para jogar o que vem aí. Sem rodeio. Se for ficar com o PS4, um bom fone faz diferença nos jogos online: veja os [headsets gamer baratos](/posts/melhores-headsets-gamer-baratos/), com opções de P3 que a ficha diz serem compatíveis com PlayStation.
+Resumindo: PS4 Slim usado para economizar, PS5 para jogar o que vem aí. Sem rodeio. Se for ficar com o PS4, um bom fone faz diferença nos jogos online. O {{link:havit-h2002d|Havit H2002d}} é um exemplo com conector P3; confira a compatibilidade com o seu console no anúncio. Veja também os [headsets gamer baratos](/posts/melhores-headsets-gamer-baratos/), com opções de P3 que a ficha diz serem compatíveis com PlayStation.
 
 :::veredito
 O PS4 vale a pena em 2026 apenas como console usado e barato para quem quer o catálogo da geração passada. Quem quer GTA 6 e os próximos lançamentos deve ir de PS5.

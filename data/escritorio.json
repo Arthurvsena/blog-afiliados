@@ -1,41 +1,41 @@
 {
-  "ultima_execucao": "2026-11-16T08:15",
+  "ultima_execucao": "2026-11-17T07:55",
   "agentes": {
     "chefe": {
       "status": "ok",
-      "tarefa": "Reunião: foco em CTR do Google (0,5%) e nas listas da Black Friday (carregador USB-C Apple, teclado gamer), com ofertas onde já há leitura."
+      "tarefa": "Coordenei a rotina: 4 notícias, 1 tutorial, 1 análise e 2 guias de compra, e reabri o pedido do Echo Dot no mural."
     },
     "pesquisador": {
       "status": "ok",
-      "tarefa": "Reunião: Propôs GTA 6, listas da BF e medição de títulos."
+      "tarefa": "Achei 4 notícias com fonte (Zelda, presente digital do Switch, Motorola na Black Friday, biometria da Anatel); a quinta não tinha fonte firme."
     },
     "curador": {
       "status": "ok",
-      "tarefa": "Reunião: ML em 403; sugeriu Intelbras ETW 1001+ e caixas até R$ 200; nada inventado."
+      "tarefa": "Sugeri o JBL Tune 520BT para destravar a lista de JBL; caixas até R$ 100 e Redragon seguem sem produto confirmado."
     },
     "redator": {
       "status": "ok",
-      "tarefa": "Reunião: Propôs listas da BF, ofertas e GTA 6."
+      "tarefa": "Escrevi 8 posts: 4 notícias, o tutorial de desativar IA no Samsung, a análise de lançamentos do PS5 e os guias de carregador USB-C Apple e teclado gamer."
     },
     "seo": {
       "status": "ok",
-      "tarefa": "Reunião: CTR 0,5%; reescreveu TWS, Echo Dot e power banks; 4 pautas de termos fortes."
+      "tarefa": "Reescrevi títulos e descrições dos 8 posts do dia mirando o CTR e passei links de volta nos guias de carregador e teclado."
     },
     "atualizador": {
       "status": "ok",
-      "tarefa": "Reunião: Propôs ofertas no PS4/Echo Dot e fim da canibalização de power bank."
+      "tarefa": "Pus uma oferta no PS4 e outra no iPhone Duo e liguei links internos, conforme a aposta da semana."
     },
     "designer": {
       "status": "ok",
-      "tarefa": "Reunião: Foto do iPhone 13 é de um 13 Pro; capas da Alexa+ repetidas."
+      "tarefa": "Pus foto e blocos em todos os posts do dia e troquei as fotos do iPhone 13 e da Alexa+."
     },
     "vendas": {
       "status": "ok",
-      "tarefa": "Reunião: Guia da BF agora linka as 6 listas; falta oferta no Echo Dot e PS4."
+      "tarefa": "Garanti 2 chamadas por produto nos guias de carregador e teclado e ofertas leves no PS5, PS4 e iPhone Duo."
     },
     "viral": {
       "status": "ok",
-      "tarefa": "Dei notas às pautas e escrevi os textos de rede dos 7 posts, com GTA 6 em primeiro."
+      "tarefa": "Dei nota às pautas e escrevi os textos de rede dos 8 posts."
     },
     "produtor": {
       "status": "ocioso",
@@ -51,46 +51,6 @@
     }
   },
   "historico": [
-    {
-      "data": "2026-11-10",
-      "agente": "redator",
-      "texto": "Escrevi três notícias, um tutorial, uma análise e os guias de carregador turbo para iPhone e de power bank de 10.000 contra 20.000 mAh."
-    },
-    {
-      "data": "2026-11-10",
-      "agente": "seo",
-      "texto": "Revisei os sete posts, separei o cluster de power banks e troquei título e descrição do iPhone 13, da Alexa+ e do TWS que toca só de um lado."
-    },
-    {
-      "data": "2026-11-10",
-      "agente": "viral",
-      "texto": "Dei nota às pautas e escrevi os textos de rede dos sete posts; Switch 2 com Zelda é o mais forte."
-    },
-    {
-      "data": "2026-11-10",
-      "agente": "vendas",
-      "texto": "Pus duas chamadas de compra por produto nos guias de carregador e power bank, antes da Black Friday."
-    },
-    {
-      "data": "2026-11-10",
-      "agente": "designer",
-      "texto": "Diagramei os sete posts com tabelas, prós e contras e veredito; as fotos entraram pelo editor."
-    },
-    {
-      "data": "2026-11-10",
-      "agente": "atualizador",
-      "texto": "Fechei o triângulo Switch 2, Zelda e Ocarina e liguei Motorola e Alexa a outros posts com links internos."
-    },
-    {
-      "data": "2026-11-10",
-      "agente": "chefe",
-      "texto": "Tirei da fila as sete pautas do dia e baixei as fotos, porque os scripts de imagem não rodam para os subagentes."
-    },
-    {
-      "data": "2026-11-10",
-      "agente": "analista",
-      "texto": "Ontem foram 5 visitas, 3 vieram do Google (273 impressões, 1 clique); +6% sobre a média de 7 dias."
-    },
     {
       "data": "2026-11-11",
       "agente": "pesquisador",
@@ -350,6 +310,46 @@
       "data": "2026-11-16",
       "agente": "chefe",
       "texto": "Reunião: 4 apostas (redator, seo, atualizador, pesquisador)."
+    },
+    {
+      "data": "2026-11-17",
+      "agente": "pesquisador",
+      "texto": "Pautei 4 notícias com fonte confirmada."
+    },
+    {
+      "data": "2026-11-17",
+      "agente": "redator",
+      "texto": "Escrevi 8 posts, de Anatel a teclado gamer mecânico."
+    },
+    {
+      "data": "2026-11-17",
+      "agente": "seo",
+      "texto": "Revisei títulos e descrições dos posts do dia."
+    },
+    {
+      "data": "2026-11-17",
+      "agente": "viral",
+      "texto": "Notas virais e textos de rede dos 8 posts."
+    },
+    {
+      "data": "2026-11-17",
+      "agente": "vendas",
+      "texto": "Revisei as chamadas de compra dos guias e posts novos."
+    },
+    {
+      "data": "2026-11-17",
+      "agente": "designer",
+      "texto": "Fotos, blocos e capas dos posts do dia."
+    },
+    {
+      "data": "2026-11-17",
+      "agente": "atualizador",
+      "texto": "Ofertas no PS4 e no iPhone Duo."
+    },
+    {
+      "data": "2026-11-17",
+      "agente": "curador",
+      "texto": "Sugeri o JBL Tune 520BT."
     }
   ]
 }

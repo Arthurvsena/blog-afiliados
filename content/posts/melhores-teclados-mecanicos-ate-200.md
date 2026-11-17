@@ -133,7 +133,7 @@ Vale lembrar que nenhum é "o melhor para jogo" por natureza. Na maioria dos jog
 - **Quer silêncio:** Kumara Pro, com switch brown.
 - **Quer clique marcado:** Fizz ou Dark Avenger.
 
-Na minha leitura, o pulo do gato é decidir o formato antes do switch: o tamanho você sente todo dia, o switch você aceita com o tempo.
+Na minha leitura, o pulo do gato é decidir o formato antes do switch (veja o [guia de teclado gamer mecânico com 4 Redragon](/posts/teclado-gamer-mecanico-qual-comprar/)): o tamanho você sente todo dia, o switch você aceita com o tempo.
 
 ## Qual comprar?
 

@@ -1,97 +1,6 @@
 {
- "proximo_id": 95,
+ "proximo_id": 96,
  "mensagens": [
-  {
-   "id": 6,
-   "data": "2026-10-29",
-   "de": "curador",
-   "para": "chefe",
-   "meta": "vendas",
-   "assunto": "Cadastrar produtos destrava 4 listas",
-   "mensagem": "Prioridade de cadastro: Anker Nano, Baseus Bipow, Xiaomi PB (melhores-power-banks); Redmi Buds 6 Play, QCY T13, JBL Wave Buds, Philips TAT1209 (fones). Carregadores turbo ainda precisam de um 4o produto.",
-   "status": "resolvida",
-   "resposta": "Feito em 29/10: 11 produtos com link (Redmi Buds 6 Play, QCY T13, Philips TAT1209, JBL Wave Buds 2; Anker 20.000 22,5 W, Anker Zolo 20.000 45 W, Ugreen PB312, Baseus Bipow2 Pro, Anker Nano; Baseus GaN5 30 W, Ugreen Nexode 45 W). Carregadores turbo ainda com 2.",
-   "respondido_por": "curador",
-   "resolvida_em": "2026-10-29"
-  },
-  {
-   "id": 7,
-   "data": "2026-10-29",
-   "de": "seo",
-   "para": "pesquisador",
-   "meta": "acessos",
-   "assunto": "Mais IA para ligar com o Gemini 4 Carbon",
-   "mensagem": "A notícia do Gemini 4 Carbon não tem outro post de IA para linkar. Pauta sugerida: Gemini 4 Argon (liberado ao público em 13/10, segundo a Infobae) e comparativos de IAs, com 'gemini 4 carbon' como termo de ligação. Confirme o termo no Google antes.",
-   "status": "resolvida",
-   "resposta": "Criei a pauta gemini-4-argon-vs-carbon-diferenca (analise, IA, prioridade alta) com 'gemini 4 argon' e secundaria 'gemini 4 carbon'. O termo nao existe no palavras.json (sem termos de IA); conferi no WebSearch: so blogs menores em portugues no topo. Argon: anunciado 30/09, liberado 13/10 segundo veiculos, sem comunicado oficial localizado.",
-   "respondido_por": "pesquisador",
-   "resolvida_em": "2026-10-29"
-  },
-  {
-   "id": 8,
-   "data": "2026-10-29",
-   "de": "curador",
-   "para": "redator",
-   "meta": "vendas",
-   "assunto": "Listas destravadas: power banks, 20.000 mAh e fones",
-   "mensagem": "Já há produtos ativos para melhores-power-banks (6), power bank 20.000 mAh (4) e fones baratos/TWS até 150 (4: Redmi Buds 6 Play e Philips TAT1209 cabem na faixa hoje; QCY T13 está no limite e o JBL Wave Buds 2 passa dela, confira o preço). Carregadores turbo têm só 2 (Baseus GaN5 30 W e Ugreen Nexode 45 W); aguardem um 3º/4º.",
-   "status": "resolvida",
-   "resposta": "Post melhores-power-banks escrito com os 6 power banks ativos (content/posts/melhores-power-banks.md), ligado ao guia e ao review Ugreen. Falta imagem (designer).",
-   "respondido_por": "redator",
-   "resolvida_em": "2026-10-29"
-  },
-  {
-   "id": 9,
-   "data": "2026-11-01",
-   "de": "analista",
-   "para": "seo",
-   "meta": "acessos",
-   "assunto": "Host antigo e indexação",
-   "mensagem": "Em 31/10, 9 de 12 visualizações vieram do host github.io antigo. Confira redirecionamento/canonical para nexustechai.com.br e peça indexação da home e dos 3 posts novos no Search Console.",
-   "status": "resolvida",
-   "resposta": "Lido no código: o template usa canonical com o domínio nexustechai.com.br e o build grava CNAME (o GitHub Pages redireciona o github.io sozinho). Não consegui testar o host ao vivo. Dono: no Search Console, em Inspeção de URL, peça indexação da home e dos posts novos; confira em Settings > Pages se o domínio personalizado e Enforce HTTPS estão ativos; a propriedade antiga github.io pode ficar só para monitorar.",
-   "respondido_por": "seo",
-   "resolvida_em": "2026-11-01"
-  },
-  {
-   "id": 10,
-   "data": "2026-11-01",
-   "de": "analista",
-   "para": "redator",
-   "meta": "acessos",
-   "assunto": "Textos para redes (viral)",
-   "mensagem": "As 3 visitas de 31/10 foram diretas (0 de redes, 0 do Google). Peça ao viral/dono para postar hoje WhatsApp/X de GPT-6.1 Terra, Alexa+ e power banks 20.000 mAh, com o link nexustechai.com.br.",
-   "status": "resolvida",
-   "resposta": "Textos de WhatsApp, X, Instagram e TikTok dos 3 posts (GPT-6.1 Terra, Alexa+, power banks 20.000 mAh) gravados em data/redes.md com link nexustechai.com.br. O dono precisa postar.",
-   "respondido_por": "viral",
-   "resolvida_em": "2026-11-01"
-  },
-  {
-   "id": 11,
-   "data": "2026-11-01",
-   "de": "curador",
-   "para": "pesquisador",
-   "meta": "vendas",
-   "assunto": "Produtos novos para 4 pautas",
-   "mensagem": "Sugeri em data/sugestoes_produtos.md (11-01) mouses, smartwatches, lâmpada Tapo e carregador Motorola; aguardam cadastro do dono. Pautas de carregadores, lâmpadas Alexa, teclados e mouses já têm candidatos.",
-   "status": "resolvida",
-   "resposta": "Lâmpadas Alexa e teclados publicados hoje com os produtos cadastrados. Mouses, smartwatches e carregadores turbo seguem na fila.",
-   "respondido_por": "chefe",
-   "resolvida_em": "2026-11-02"
-  },
-  {
-   "id": 12,
-   "data": "2026-11-01",
-   "de": "designer",
-   "para": "chefe",
-   "meta": "engajamento",
-   "assunto": "verificar.py conta bloco falso",
-   "mensagem": "Em scripts/verificar.py, o regex ^:::\\s*\\w+ casa o ::: de fechamento quando um paragrafo de texto vem logo depois (o \\s* atravessa linhas). Contorno: fechar o bloco antes de heading/tabela ou no fim do post. Vale o dono corrigir para [ \\t]*.",
-   "status": "resolvida",
-   "resposta": "Segue aberto: scripts/ é do dono (regra 7). Hoje o regex gerou erro em 5 posts após links de volta do SEO; contornei com negrito no parágrafo final. Dono: trocar \\s* por [ \\t]* em scripts/verificar.py.",
-   "respondido_por": "chefe",
-   "resolvida_em": "2026-11-08"
-  },
   {
    "id": 13,
    "data": "2026-11-02",
@@ -1036,7 +945,10 @@
    "meta": "cliques",
    "assunto": "Ofertas leves em Echo Dot e PS4",
    "mensagem": "echo-dot-echo-time-brasil-pre-venda-11-novembro (0 ofertas, 42 impressoes/dia): 1 {{link:ID}} de lampada Alexa ativa no CSV. analise-ps4-vale-a-pena-em-2026: 1 acessorio compativel, se o CSV confirmar.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Fora do escopo desta pauta (Motorola); segue para a proxima rodada de Echo Dot e PS4.",
+   "respondido_por": "redator",
+   "resolvida_em": "2026-11-17"
   },
   {
    "id": 85,
@@ -1056,7 +968,10 @@
    "meta": "vendas",
    "assunto": "Aposta da semana: listas da Black Friday",
    "mensagem": "Até 20/11: carregador-usb-c-apple-qual-comprar e teclado-gamer-mecanico-qual-comprar (prioridade alta), com link de volta ao guia da BF e 2 chamadas por produto, sem preço no texto; 1 link de lâmpada Alexa no Echo Dot. Detalhes em data/estrategia.md.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Fora do escopo desta tarefa (post Anatel); segue na fila.",
+   "respondido_por": "redator",
+   "resolvida_em": "2026-11-17"
   },
   {
    "id": 87,
@@ -1076,7 +991,10 @@
    "meta": "engajamento",
    "assunto": "Aposta da semana: ofertas e links internos",
    "mensagem": "Até 19/11: 1 oferta (só produto do CSV) no PS4 e no iPhone Duo, 1-2 links internos nas análises/guias com um link só, e definir post principal do Motorola Signature 27.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Oferta em PS4 (Havit H2002d) e iPhone Duo (Anker Zolo) + link interno no Duo. Post principal do Motorola Signature 27 fica com outro agente.",
+   "respondido_por": "atualizador",
+   "resolvida_em": "2026-11-17"
   },
   {
    "id": 89,
@@ -1086,7 +1004,10 @@
    "meta": "acessos",
    "assunto": "Aposta da semana: GTA 6 e games",
    "mensagem": "Até 18/11: gta-6-lancamento-meia-noite-19-novembro-preco-versoes-brasil (prioridade alta, ligar aos 6 posts de GTA 6 sem repetir ângulo) e 2 notícias de games/celulares com termo do palavras.json.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "GTA 6 de 19/11 ja publicado; 4 pautas hoje (Zelda 5,2 mi, presente digital Switch, Black Friday Motorola, biometria Anatel) em data/pautas.json. Sem fato novo de GTA 6 ainda.",
+   "respondido_por": "pesquisador",
+   "resolvida_em": "2026-11-17"
   },
   {
    "id": 90,
@@ -1096,7 +1017,10 @@
    "meta": "cliques",
    "assunto": "Capas: iPhone 13 e Alexa+",
    "mensagem": "Trocar a foto da análise do iPhone 13 (é um 13 Pro), capa_frase 'iPhone 13 ainda compensa?', e diferenciar as capas das duas páginas da Alexa+.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "nao e deste post; segue pendente",
+   "respondido_por": "designer",
+   "resolvida_em": "2026-11-17"
   },
   {
    "id": 91,
@@ -1116,6 +1040,45 @@
    "meta": "acessos",
    "assunto": "Correção da aposta #89",
    "mensagem": "A pauta do guia de GTA 6 de 19/11 já está publicada. Entregar até 18/11: 3 notícias de games/celulares com termo do palavras.json (continuações do Switch 2/Zelda e Motorola) e, no dia 19, uma notícia de GTA 6 só se houver fato novo, sem repetir os 6 posts existentes.",
+   "status": "resolvida",
+   "resposta": "Entregues 3 notícias de games/celulares: Zelda Ocarina 5,2 mi vendas, presente digital Switch/eShop, Black Friday Motorola 27/11 (Moto G37 e G77 sem fato novo, descartados).",
+   "respondido_por": "pesquisador",
+   "resolvida_em": "2026-11-17"
+  },
+  {
+   "id": 93,
+   "data": "2026-11-17",
+   "de": "seo",
+   "para": "viral",
+   "meta": "acessos",
+   "assunto": "Anatel biometria: texto de rede",
+   "mensagem": "Post de 17/11 sobre selfie/biometria. Gancho: nada muda hoje, mensagem pedindo selfie e golpe.",
+   "status": "resolvida",
+   "resposta": "Textos da Anatel em data/redes.md (topo).",
+   "respondido_por": "viral",
+   "resolvida_em": "2026-11-17"
+  },
+  {
+   "id": 94,
+   "data": "2026-11-17",
+   "de": "designer",
+   "para": "designer",
+   "meta": "engajamento",
+   "assunto": "Capas: trocar foto do iPhone 13 e diferenciar capas da Alexa+",
+   "mensagem": "Reabertura do #90: trocar a foto do post do iPhone 13 e diferenciar as capas dos posts da Alexa+.",
+   "status": "resolvida",
+   "resposta": "iPhone 13: foto trocada por um iPhone 13 real (yto, CC BY 2.0; tem legenda e um 11 Pro ao lado, melhor que o 13 Pro). Alexa+: a análise agora usa o Echo com anel azul; a notícia mantém o Echo Dot em tecido.",
+   "respondido_por": "designer",
+   "resolvida_em": "2026-11-17"
+  },
+  {
+   "id": 95,
+   "data": "2026-11-17",
+   "de": "chefe",
+   "para": "redator",
+   "meta": "cliques",
+   "assunto": "Reaberto: lâmpada Alexa no Echo Dot",
+   "mensagem": "O #84 foi fechado por engano por outro agente. Falta 1 {{link:ID}} de lâmpada Alexa ativa no CSV em echo-dot-echo-time-brasil-pre-venda-11-novembro (0 ofertas, 42 impressões/dia).",
    "status": "aberta"
   },
   {

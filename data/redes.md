@@ -3,6 +3,86 @@
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
 
+## 2026-11-17 · Teclado gamer mecânico: qual comprar? 4 Redragon
+Link: https://nexustechai.com.br/posts/teclado-gamer-mecanico-qual-comprar/
+- WhatsApp: Antes da Black Friday: no teclado mecânico, o formato (60%, TKL) pesa mais que o switch. 4 Redragon comparados: https://nexustechai.com.br/posts/teclado-gamer-mecanico-qual-comprar/
+- X: Todo mundo escolhe teclado mecânico pelo switch e erra no tamanho. 60%, TKL ou sem fio? 4 Redragon comparados, com para quem cada um serve e para quem não serve: https://nexustechai.com.br/posts/teclado-gamer-mecanico-qual-comprar/
+- Instagram (legenda): Teclado mecânico: escolha o formato antes da cor do switch.
+  60% libera mesa, TKL mantém as setas, sem fio dá liberdade.
+  4 Redragon comparados antes da Black Friday. Link na bio.
+  #tecladogamer #redragon #blackfriday
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Vai comprar teclado mecânico? Não comece pelo switch." [2-8 s] Fato 1: TKL corta só o numérico; 60% corta também as setas. [8-14 s] Fato 2: brown é tátil e discreto; blue é barulhento. [14-18 s] Fato 3: para jogo competitivo, muita gente prefere cabo. [18-20 s] "4 Redragon comparados no link da bio."
+
+## 2026-11-17 · Carregador USB-C Apple: precisa ser o original? 4 opções
+Link: https://nexustechai.com.br/posts/carregador-usb-c-apple-qual-comprar/
+- WhatsApp: Não precisa do carregador original da Apple: ela aceita outra marca com USB-C PD. Mas o iPhone 17 só carrega rápido com 40 W. 4 opções: https://nexustechai.com.br/posts/carregador-usb-c-apple-qual-comprar/
+- X: A Apple aceita carregador de outra marca no iPhone, desde que seja USB-C com PD. O que muda é a potência: 18 W para iPhone 15 e 16, 40 W para o iPhone 17 chegar a 50% em cerca de 20 min. 4 opções: https://nexustechai.com.br/posts/carregador-usb-c-apple-qual-comprar/
+- Instagram (legenda): Carregador original da Apple é opção, não obrigação.
+  O que importa são os watts do seu iPhone: 18 W, 20 W ou 40 W.
+  Mostramos 4 opções com Anatel antes da Black Friday. Link na bio.
+  #iphone #carregador #blackfriday
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Precisa do carregador original do iPhone?" [2-8 s] Fato 1: a Apple aceita outra marca com USB-C PD. [8-14 s] Fato 2: iPhone 15 e 16 pedem 18 W; iPhone 17 pede 40 W. [14-18 s] Fato 3: exija Anatel e confira o cabo. [18-20 s] "4 opções no link da bio."
+
+## 2026-11-17 · Lançamento jogos PS5 em novembro: GTA 6 e o que mais sai
+Link: https://nexustechai.com.br/posts/lancamento-jogos-ps5-novembro-2026-gta-6/
+- WhatsApp: GTA 6 sai dia 19 por R$ 449,90 (Standard). Se pesou, tem Isaac online e Gothic 3 Classic no mesmo mês. Calendário do PS5: https://nexustechai.com.br/posts/lancamento-jogos-ps5-novembro-2026-gta-6/
+- X: GTA 6 chega dia 19 a R$ 449,90. Mas novembro tem mais no PS5: Isaac com coop online para 4 (19/11) e Gothic 3 Classic (24/11). Datas e para quem serve cada um: https://nexustechai.com.br/posts/lancamento-jogos-ps5-novembro-2026-gta-6/
+- Instagram (legenda): GTA 6 sai dia 19, mas nem todo bolso aguenta R$ 449,90.
+  Novembro tem Isaac online com coop para 4 e Gothic 3 Classic.
+  Calendário completo do PS5 no link da bio.
+  #ps5 #gta6 #games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "GTA 6 custa R$ 449,90. Tem alternativa?" [2-8 s] Fato 1: GTA 6 sai dia 19, sem disco na versão física. [8-14 s] Fato 2: Isaac ganha coop online para 4 no mesmo dia. [14-18 s] Fato 3: Gothic 3 Classic chega dia 24. [18-20 s] "Calendário completo no link da bio."
+
+## 2026-11-17 · Como desativar a inteligência artificial do celular Samsung
+Link: https://nexustechai.com.br/posts/como-desativar-ia-celular-samsung-android/
+- WhatsApp: Desligar o Galaxy AI não desliga o Gemini: são 2 interruptores separados no Samsung. Passo a passo: https://nexustechai.com.br/posts/como-desativar-ia-celular-samsung-android/
+- X: Seu Galaxy tem duas IAs com interruptores separados: Galaxy AI (Samsung) e Gemini (Google). Excluir o app do Gemini não tira ele do botão liga/desliga. Onde desligar cada uma: https://nexustechai.com.br/posts/como-desativar-ia-celular-samsung-android/
+- Instagram (legenda): Seu Galaxy tem duas IAs, e desligar uma não desliga a outra.
+  Alguns recursos do Galaxy AI já vêm ligados de fábrica.
+  Excluir o app do Gemini não tira ele do botão liga/desliga.
+  #galaxyai #gemini #samsung
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seu Galaxy tem duas IAs, com dois interruptores." [2-8 s] Fato 1: Galaxy AI é da Samsung, Gemini é do Google. [8-14 s] Fato 2: alguns recursos do Galaxy AI já vêm ligados de fábrica. [14-18 s] Fato 3: excluir o app do Gemini não tira ele do botão liga/desliga. [18-20 s] "Passo a passo no link da bio."
+
+## 2026-11-17 · Nintendo Switch 2: presente digital na eShop, como funciona
+Link: https://nexustechai.com.br/posts/switch-2-presente-digital-eshop-familia-como-funciona-atualizacao-23-5/
+- WhatsApp: Switch 2 agora deixa dar jogo de presente pela eShop, mas só a quem está no seu grupo familiar (até 8 contas). https://nexustechai.com.br/posts/switch-2-presente-digital-eshop-familia-como-funciona-atualizacao-23-5/
+- X: Switch 2 e Switch ganharam presente digital na eShop (atualização 23.5.0). Chega na hora, sem código. Mas só vale para o grupo familiar, até 8 contas, e o Brasil ainda não foi confirmado: https://nexustechai.com.br/posts/switch-2-presente-digital-eshop-familia-como-funciona-atualizacao-23-5/
+- Instagram (legenda): Agora dá para dar jogo de presente no Switch 2.
+  Sem cartão, sem código: chega direto no Menu HOME.
+  A trava: só para quem está no seu grupo familiar.
+  #switch2 #nintendo #eshop
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Switch 2 já deixa dar jogo de presente." [2-8 s] Fato 1: chega na hora, sem código. [8-14 s] Fato 2: só para o grupo familiar, até 8 contas. [14-18 s] Fato 3: contas infantis não enviam e o Brasil não foi confirmado. [18-20 s] "Passo a passo no link da bio."
+
+## 2026-11-17 · Zelda Ocarina of Time vende 5,2 milhões em 4 dias no Switch 2
+Link: https://nexustechai.com.br/posts/zelda-ocarina-of-time-5-2-milhoes-vendas-quatro-dias-switch-2-recorde/
+- WhatsApp: Zelda Ocarina of Time vendeu 5,2 milhões de cópias em 4 dias no Switch 2, segundo a Nintendo. https://nexustechai.com.br/posts/zelda-ocarina-of-time-5-2-milhoes-vendas-quatro-dias-switch-2-recorde/
+- X: Ocarina of Time vendeu 5,2 milhões em 4 dias no Switch 2, mais de 1,3 milhão por dia. É a maior estreia própria da Nintendo no console, mas o número soma físico e digital e é da empresa: https://nexustechai.com.br/posts/zelda-ocarina-of-time-5-2-milhoes-vendas-quatro-dias-switch-2-recorde/
+- Instagram (legenda): 5,2 milhões de Zelda em 4 dias.
+  Ocarina of Time fez a maior estreia própria da Nintendo no Switch 2.
+  Só no Japão foram 810 mil cópias. O que o número não mostra está no link da bio.
+  #zelda #switch2 #nintendo
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Zelda vendeu 5,2 milhões em 4 dias." [2-8 s] Fato 1: são mais de 1,3 milhão de cópias por dia no Switch 2. [8-14 s] Fato 2: 810 mil foram só no Japão. [14-18 s] Fato 3: a Nintendo não separa físico e digital nem cita o Brasil. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-17 · Motorola lançamento 2026 barato: 15% no Pix em 27/11
+Link: https://nexustechai.com.br/posts/motorola-black-friday-2026-27-novembro-pix-15-parcelas-quais-modelos/
+- WhatsApp: Black Friday da Motorola é 27/11: até 15% no Pix e 21x sem juros. Mas a loja não mostra preço, então anote o de hoje. https://nexustechai.com.br/posts/motorola-black-friday-2026-27-novembro-pix-15-parcelas-quais-modelos/
+- X: Motorola marcou a Black Friday para 27/11: até 15% no Pix, até 21x sem juros, frete grátis acima de R$ 50. O "até" é o teto e a página não mostra preços. Quais Moto G e Edge entram: https://nexustechai.com.br/posts/motorola-black-friday-2026-27-novembro-pix-15-parcelas-quais-modelos/
+- Instagram (legenda): Black Friday da Motorola: 27 de novembro.
+  Até 15% no Pix e 21x sem juros, mas "até" é só o teto.
+  Anote o preço de hoje para comparar. Lista de modelos no link da bio.
+  #motorola #blackfriday #motog
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Black Friday da Motorola: 27 de novembro." [2-8 s] Fato 1: até 15% no Pix e 21x sem juros. [8-14 s] Fato 2: o 15% é o teto, a página não mostra preço de nenhum modelo. [14-18 s] Fato 3: parte das ofertas começa antes do dia 27. [18-20 s] "Lista dos modelos no link da bio."
+
+## 2026-11-17 · Anatel biometria facial no celular: prazos e golpe da selfie
+Link: https://nexustechai.com.br/posts/anatel-biometria-facial-linhas-celular-prazos-2027-2029-golpe-selfie/
+- WhatsApp: Mensagem pedindo sua selfie para não perder a linha? É golpe. A Anatel só vai exigir biometria facial a partir de setembro de 2027. https://nexustechai.com.br/posts/anatel-biometria-facial-linhas-celular-prazos-2027-2029-golpe-selfie/
+- X: A Anatel vai exigir biometria facial para manter linhas de celular, mas os prazos vão de set/2027 a 2029. Hoje nada muda. Quem pedir sua selfie agora é golpista. Datas e quem entra: https://nexustechai.com.br/posts/anatel-biometria-facial-linhas-celular-prazos-2027-2029-golpe-selfie/
+- Instagram (legenda): Pediram sua selfie para "não perder a linha"?
+  É golpe. A biometria da Anatel só começa em setembro de 2027.
+  Veja os prazos e quem precisa fazer no link da bio.
+  #anatel #golpe #segurancadigital
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Pediram sua selfie para não perder a linha? Golpe." [2-8 s] Fato 1: a Anatel vai exigir biometria facial, mas só a partir de setembro de 2027. [8-14 s] Fato 2: suspensão de linhas sem validação só em 2029. [14-18 s] Fato 3: a validação será em canais oficiais da operadora. [18-20 s] "Prazos completos no link da bio."
+
 ## 2026-11-16 · Tomada inteligente Alexa: como configurar em 5 passos
 Link: https://nexustechai.com.br/posts/tomada-inteligente-alexa-como-configurar/
 - WhatsApp: Alexa não acha sua tomada inteligente? Quase sempre é a ordem: app da marca primeiro, skill depois. Passo a passo: https://nexustechai.com.br/posts/tomada-inteligente-alexa-como-configurar/

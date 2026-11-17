@@ -155,3 +155,5 @@ Na minha leitura, o {{link:samsung-ep-ta800-25w|Samsung de 25 W}} é o bom e bar
 - Se você tem iPhone 15 ou 16 e quer gastar pouco, vá de {{link:samsung-ep-ta800-25w|Samsung EP-TA800}}.
 - Se você quer um carregador pequeno e com cabo para a mochila, vá de {{link:baseus-gan5-30w|Baseus GaN5 30 W}}.
 - Se você tem iPhone 17 ou carrega dois aparelhos juntos, vá de {{link:ugreen-nexode-45w-2c|Ugreen Nexode 45 W}}.
+
+Dúvida sobre o original? Veja se o [carregador USB-C Apple precisa ser o original](/posts/carregador-usb-c-apple-qual-comprar/).

@@ -7,7 +7,7 @@ palavras_secundarias: ["iphone duo ficha técnica", "novo iphone duo"]
 editoria: analises
 tipo: analise
 publicado: 2026-11-02 11:00
-atualizado: 2026-11-02
+atualizado: 2026-11-17
 fontes:
   - nome: "Apple Brasil (página do iPhone Duo)"
     url: "https://www.apple.com/br/iphone-duo/"
@@ -123,6 +123,8 @@ Não faz para quem quer o melhor custo-benefício, para quem precisa de chip fí
 - **Esperar a segunda geração:** a regra antiga. O primeiro modelo de uma categoria costuma ser o que mais aprende com o público.
 
 Para os números de lançamento, prazos e a oferta da TIM, veja a notícia [iPhone Duo: preço no Brasil de R$ 21.999 a R$ 30.999](/posts/iphone-duo-preco-brasil-entrega-2027/). Outro topo de linha a caminho do país está no post do [Motorola Signature 27 no Brasil](/posts/motorola-signature-27-brasil-pre-registro-data/), e a Apple também tem lançamento caro em outra categoria: o [MacBook Pro OLED touch no Brasil](/posts/macbook-pro-oled-touch-preco-brasil/).
+
+Se a bateria é a sua dúvida e você quer um reforço de carga, o {{link:anker-zolo-a110m-20000-45w|Anker Zolo de 20.000 mAh}} é uma opção da nossa lista de power banks (não confirmei a compatibilidade com o Duo, então veja o guia dos [melhores power banks para iPhone](/posts/melhores-power-banks-iphone/) antes de escolher).
 
 ## Veredito: iPhone Duo vale a pena?
 

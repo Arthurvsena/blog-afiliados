@@ -128,7 +128,7 @@ Um detalhe que importa: a ficha dos anúncios não cita troca de switch (hot-swa
 
 Vale lembrar que os dois são de entrada. A diferença de switch pesa menos do que o formato e o layout no dia a dia, então decida isso antes.
 
-Quer mais opções de marca e formato? Veja o [teclado gamer barato: 3 mecânicos Redragon](/posts/melhores-teclados-mecanicos-ate-200/). Ele é uma lista por formato e conexão; este guia trata só da escolha do switch.
+Para decidir o formato antes do switch, veja o [guia de teclado gamer mecânico](/posts/teclado-gamer-mecanico-qual-comprar/). Quer mais opções de marca e formato? Veja o [teclado gamer barato: 3 mecânicos Redragon](/posts/melhores-teclados-mecanicos-ate-200/). Ele é uma lista por formato e conexão; este guia trata só da escolha do switch.
 
 ## Perguntas frequentes sobre switch blue ou red
 

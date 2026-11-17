@@ -35,9 +35,9 @@ faq:
     resposta: "Segundo a Oficina da Net, a bateria de pouco mais de 3.200 mAh dá conta de um dia de uso moderado, mas não é destaque, e em unidades usadas costuma decepcionar."
 imagem:
   arquivo: analise-iphone-13-vale-a-pena-em-2026.jpg
-  credito: SimonWaldherr/Wikimedia Commons
-  licenca: CC BY-SA 4.0
-  fonte: https://commons.wikimedia.org/wiki/File:Apple_iPhone_13_Pro.jpg
+  credito: yto/Wikimedia Commons
+  licenca: CC BY 2.0
+  fonte: https://www.flickr.com/photos/27983255@N00/52344937813
 ---
 O iPhone 13 ainda vale a pena em 2026, mas só se o preço estiver bem abaixo do que a loja pede pelos modelos mais novos e se você aceitar tela de 60 Hz, porta Lightning e nenhuma função de Apple Intelligence. Fora disso, é dinheiro mal gasto.
 
