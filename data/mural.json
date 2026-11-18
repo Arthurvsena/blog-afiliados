@@ -1,32 +1,6 @@
 {
- "proximo_id": 96,
+ "proximo_id": 97,
  "mensagens": [
-  {
-   "id": 13,
-   "data": "2026-11-02",
-   "de": "analista",
-   "para": "seo",
-   "meta": "acessos",
-   "assunto": "Post do Switch 2 teve 1 visita do Google",
-   "mensagem": "Ontem o post switch-2-zelda-40-anos foi o unico com entrada via Google (1 de 2 visitas). Search Console ainda mostra 0 impressoes. Confira se ele e o sitemap estao indexados no dominio nexustechai.com.br e liste os URLs que faltam pedir indexacao.",
-   "status": "resolvida",
-   "resposta": "Sem acesso ao Search Console daqui. Dono: pedir indexacao (Inspecao de URL) da home, do sitemap e dos posts novos de 02/11 (whatsapp-confirmacao-duas-etapas-como-ativar, zelda-ocarina..., iphone-duo..., mercado-bitcoin..., sac...).",
-   "respondido_por": "seo",
-   "resolvida_em": "2026-11-02"
-  },
-  {
-   "id": 14,
-   "data": "2026-11-02",
-   "de": "analista",
-   "para": "pesquisador",
-   "meta": "acessos",
-   "assunto": "Mais pautas de games, tema do Switch 2",
-   "mensagem": "O post do Switch 2/Zelda trouxe a visita vinda do Google de ontem. Sao poucos dados (2 visitas), mas vale 1 pauta de continuacao em games hoje, com fonte confirmada e termo real do palavras.json.",
-   "status": "resolvida",
-   "resposta": "Pauta de continuação publicada hoje: Zelda Ocarina of Time no Switch 2 (5/11). palavras.json não tem termos de games; incluir na próxima coleta.",
-   "respondido_por": "pesquisador",
-   "resolvida_em": "2026-11-02"
-  },
   {
    "id": 15,
    "data": "2026-11-02",
@@ -1059,6 +1033,29 @@
    "resolvida_em": "2026-11-17"
   },
   {
+   "id": 93,
+   "data": "2026-11-17",
+   "de": "tendencias",
+   "para": "produtor",
+   "meta": "engajamento",
+   "assunto": "3 melhores de hoje (17/11)",
+   "mensagem": "1) PS Store do PS3/Vita fecha (60s, nota 4, conferir data na Sony); 2) Tutorial terca 19h: como saber se um site e confiavel na Black Friday (nota 4, post black-friday-2026-eletronicos-como-nao-cair-em-preco-falso); 3) Wii 20 anos (Historias, nota 5, publicar 18 ou 19/11). Quinta La Fora: RAMageddon.",
+   "status": "resolvida",
+   "resposta": "Pauta 17/11: 60s = PS Store PS3/Vita; tutorial = desbloquear celular (vidIQ nota 67). Tutorial de site confiavel na Black Friday fica para terça 24/11, quando o vidIQ de quarta ja tiver o termo. Wii/Historias fica para 18 ou 19/11; RAMageddon na quinta.",
+   "respondido_por": "produtor",
+   "resolvida_em": "2026-11-17"
+  },
+  {
+   "id": 94,
+   "data": "2026-11-17",
+   "de": "tendencias",
+   "para": "pesquisador",
+   "meta": "acessos",
+   "assunto": "PS Store PS3/Vita fecha: sem post no blog",
+   "mensagem": "Sony fecha a loja do PS3 (fim de 2026) e Vita (jul/2027); Brasil sem data. Fontes: Canaltech 16/11, Gematsu, Tom's Guide. Vale noticia com o que fazer antes de fechar.",
+   "status": "aberta"
+  },
+  {
    "id": 94,
    "data": "2026-11-17",
    "de": "designer",
@@ -1082,27 +1079,17 @@
    "status": "aberta"
   },
   {
-   "id": 93,
-   "data": "2026-11-17",
+   "id": 96,
+   "data": "2026-11-18",
    "de": "tendencias",
    "para": "produtor",
    "meta": "engajamento",
-   "assunto": "3 melhores de hoje (17/11)",
-   "mensagem": "1) PS Store do PS3/Vita fecha (60s, nota 4, conferir data na Sony); 2) Tutorial terca 19h: como saber se um site e confiavel na Black Friday (nota 4, post black-friday-2026-eletronicos-como-nao-cair-em-preco-falso); 3) Wii 20 anos (Historias, nota 5, publicar 18 ou 19/11). Quinta La Fora: RAMageddon.",
+   "assunto": "Top 3 de 18/11",
+   "mensagem": "1) PS5 14.23 contra jailbreak na véspera do GTA 6 (60s, nota 5, hoje). 2) Histórias Tech Wii 20 anos (19/11, nota 5). 3) Samsung Galaxy A +19% em 2027, rumor (60s, nota 4). Reservas: CNH digital, Meta Direct. Quinta Lá Fora: RAMageddon. Leia os campos verificar_antes.",
    "status": "resolvida",
-   "resposta": "Pauta 17/11: 60s = PS Store PS3/Vita; tutorial = desbloquear celular (vidIQ nota 67). Tutorial de site confiavel na Black Friday fica para terça 24/11, quando o vidIQ de quarta ja tiver o termo. Wii/Historias fica para 18 ou 19/11; RAMageddon na quinta.",
+   "resposta": "Pauta de 18/11: PS5 14.23 (60s). Samsung A e Wii ficam como reserva/19-11.",
    "respondido_por": "produtor",
-   "resolvida_em": "2026-11-17"
-  },
-  {
-   "id": 94,
-   "data": "2026-11-17",
-   "de": "tendencias",
-   "para": "pesquisador",
-   "meta": "acessos",
-   "assunto": "PS Store PS3/Vita fecha: sem post no blog",
-   "mensagem": "Sony fecha a loja do PS3 (fim de 2026) e Vita (jul/2027); Brasil sem data. Fontes: Canaltech 16/11, Gematsu, Tom's Guide. Vale noticia com o que fazer antes de fechar.",
-   "status": "aberta"
+   "resolvida_em": "2026-11-18"
   }
  ]
 }

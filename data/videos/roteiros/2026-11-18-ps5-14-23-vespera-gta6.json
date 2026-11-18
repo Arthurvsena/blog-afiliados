@@ -1,0 +1,93 @@
+{
+  "tipo": "short",
+  "quadro": "60s",
+  "slug": "2026-11-18-ps5-14-23-vespera-gta6",
+  "post": "",
+  "titulo": "PS5 atualização 14.23: segurança e a véspera do GTA 6 #shorts",
+  "resumo": "A atualização 14.23 do PS5 chegou na terça (17/11) com \"correções de segurança\", menos de 24 horas depois de a 14.22 ser burlada, segundo o Canaltech. A ligação com o GTA 6 é a leitura do site, não da Sony. Atualize o console e fuja de PS5 desbloqueado.",
+  "hashtags": [
+    "PS5",
+    "GTA6",
+    "PlayStation",
+    "Sony"
+  ],
+  "fontes": [
+    {
+      "nome": "Canaltech",
+      "url": "https://canaltech.com.br/games/para-conter-pirataria-de-gta-6-sony-libera-atualizacao-de-seguranca-urgente-para-o-ps5/"
+    },
+    {
+      "nome": "PlayStation Suporte Brasil",
+      "url": "https://www.playstation.com/pt-br/support/hardware/ps5/system-software-info/"
+    }
+  ],
+  "cenas": [
+    {
+      "tipo": "gancho",
+      "fala": "A Sony lançou outra atualização do PS5. De novo.",
+      "tela": "Sony lançou outra atualização do PS5",
+      "imagens": [
+        "url:https://gmedia.playstation.com/is/image/SIEPDC/ps5-product-thumbnail-01-en-14sep21?$facebook$|Divulgação/PlayStation"
+      ]
+    },
+    {
+      "tipo": "numero",
+      "fala": "É a {14.23|catorze ponto vinte e três}, liberada na terça. A nota da Sony diz só isto: correções de segurança.",
+      "destaque": "14.23",
+      "rotulo": "nova versão do PS5",
+      "fonte": "Canaltech, 17/11",
+      "imagens": [
+        "url:https://gmedia.playstation.com/is/image/SIEPDC/ps5-pro-dualsense-image-block-01-en-16aug24?$facebook$|Divulgação/PlayStation"
+      ]
+    },
+    {
+      "tipo": "manchete",
+      "fala": "Segundo o Canaltech, a anterior, a {14.22|catorze ponto vinte e dois}, foi burlada por um usuário em menos de vinte e quatro horas.",
+      "manchete": {
+        "url": "https://canaltech.com.br/games/para-conter-pirataria-de-gta-6-sony-libera-atualizacao-de-seguranca-urgente-para-o-ps5/",
+        "trecho": "não demorou 24 horas"
+      }
+    },
+    {
+      "tipo": "fato",
+      "fala": "O mesmo site diz que essa briga entre a Sony e os hackers já dura cerca de dois meses.",
+      "imagens": [
+        "tela:https://www.playstation.com/pt-br/support/hardware/ps5/system-software-info/"
+      ],
+      "fonte": "Canaltech, 17/11"
+    },
+    {
+      "tipo": "info",
+      "fala": "E o timing chama atenção: o {GTA 6|GTA seis} sai amanhã. A Sony não falou do jogo; essa ligação é leitura do Canaltech.",
+      "icone": "calendario",
+      "fonte": "Canaltech, 17/11"
+    },
+    {
+      "tipo": "lista",
+      "fala": "O que fazer: atualize o console. E fuja de PS5 desbloqueado: tem risco de banimento e de golpe.",
+      "titulo_lista": "NO SEU PS5",
+      "itens": [
+        "Atualize o sistema",
+        "Fuja de console desbloqueado",
+        "Risco: banimento e golpe"
+      ],
+      "imagens": [
+        "url:https://gmedia.playstation.com/is/image/SIEPDC/dualsense-controller-product-thumbnail-01-en-14sep21?$facebook$|Divulgação/PlayStation"
+      ]
+    },
+    {
+      "tipo": "info",
+      "fala": "Ou seja: a Sony corre atrás de uma falha enquanto o resto de nós só quer atualizar e jogar.",
+      "icone": "calendario"
+    },
+    {
+      "tipo": "cta",
+      "fala": "Qual versão está no seu console? Porque a Sony lançou outra atualização do PS5.",
+      "tela": "Qual versão do seu PS5?",
+      "imagens": [
+        "url:https://gmedia.playstation.com/is/image/SIEPDC/ps5-product-thumbnail-01-en-14sep21?$facebook$|Divulgação/PlayStation"
+      ]
+    }
+  ],
+  "palavra_chave": "ps5 atualização 14.23"
+}
