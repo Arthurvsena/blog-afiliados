@@ -134,6 +134,10 @@ Se você vai jogar muito no portátil ou na cama sem incomodar ninguém, um head
 Se o Switch vai virar seu console de ônibus ou de madrugada, vale conferir o {{link:jbl-quantum-100m2|preço do JBL Quantum 100M2}}. É um headset com fio e microfone removível. Se você só joga na TV com caixa de som, não precisa.
 :::
 
+## Leia também
+
+Comparando com os outros modelos? Veja [Nintendo Switch barato: Lite, OLED ou Switch 2](/posts/nintendo-switch-barato-qual-comprar/).
+
 ## Veredito
 
 :::veredito

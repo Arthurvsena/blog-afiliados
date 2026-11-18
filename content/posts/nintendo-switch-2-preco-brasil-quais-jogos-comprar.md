@@ -117,6 +117,10 @@ Não vale se o orçamento está apertado, se você joga só em PC ou PlayStation
 Os valores deste post são de agosto a novembro de 2026 e vêm da imprensa e da Nintendo. Antes de pagar, veja o preço atual na eShop e na loja.
 :::
 
+## Leia também
+
+Comparando com os outros modelos? Veja [Nintendo Switch barato: Lite, OLED ou Switch 2](/posts/nintendo-switch-barato-qual-comprar/).
+
 ## Veredito
 
 :::veredito

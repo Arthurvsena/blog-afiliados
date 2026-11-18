@@ -139,3 +139,7 @@ Na minha leitura, a tomada inteligente é o jeito mais barato de começar uma ca
 :::veredito
 Configure no app da marca, confirme que está online e só então ative a skill na Alexa. Para aparelhos leves, é bom e barato. Para os pesados, confira os amperes primeiro.
 :::
+
+## Leia também
+
+Tem TV Samsung? Veja [como conectar a Alexa à TV Samsung](/posts/alexa-compativel-tv-samsung-como-conectar/).

@@ -37,7 +37,7 @@ O Echo Dot mantém o corpo redondo e compacto, agora revestido de tecido. Vem em
 
 A Amazon diz que os graves ficaram 50% maiores que na geração anterior. O Showmetech também aponta quatro microfones e o chip AZ3.
 
-O detalhe que importa é o hub de casa inteligente embutido. Na prática, lâmpadas, tomadas e ar-condicionado compatíveis conversam com ele sem uma central separada. Para quem quer começar a automatizar a casa, é uma caixa a menos para comprar. Se a ideia é começar pela luz, veja se a [lâmpada inteligente vale a pena](/posts/lampada-inteligente-vale-a-pena/) no seu caso, e confira as [melhores lâmpadas inteligentes compatíveis com Alexa](/posts/melhores-lampadas-inteligentes-alexa/).
+O detalhe que importa é o hub de casa inteligente embutido. Na prática, lâmpadas, tomadas e ar-condicionado compatíveis conversam com ele sem uma central separada. Para quem quer começar a automatizar a casa, é uma caixa a menos para comprar. Se a ideia é começar pela luz, veja se a [lâmpada inteligente vale a pena](/posts/lampada-inteligente-vale-a-pena/) no seu caso, e confira as [melhores lâmpadas inteligentes compatíveis com Alexa](/posts/melhores-lampadas-inteligentes-alexa/). Para testar o hub sem gastar muito, uma {{link:intelbras-ews-410|lâmpada Wi-Fi RGB da Intelbras}} costuma ser o primeiro item da casa conectada.
 
 Mas atenção: o aparelho liga na tomada. Não tem bateria.
 

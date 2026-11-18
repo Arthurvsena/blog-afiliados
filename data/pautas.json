@@ -4007,10 +4007,11 @@
     "tipo": "tutorial",
     "produtos_necessarios": 0,
     "motivo": "Maior forca de casa inteligente; liga com Alexa+ e Echo Dot, posts que ja ganham impressoes.",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-14",
     "editoria": "tecnologia",
-    "viral": 2
+    "viral": 2,
+    "post": "alexa-compativel-tv-samsung-como-conectar"
   },
   {
     "id": "celular-motorola-lancamento-barato-qual-comprar",
@@ -4028,10 +4029,11 @@
     "tipo": "guia",
     "produtos_necessarios": 0,
     "motivo": "Intencao de compra em celulares, editoria forte; puxa para Signature 27 e linhas de entrada na Black Friday.",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-14",
     "editoria": "celulares",
-    "viral": 4
+    "viral": 4,
+    "post": "motorola-lancamento-barato-qual-celular-comprar"
   },
   {
     "id": "epic-games-knightica-gratis-12-19-novembro-como-resgatar",
@@ -4138,7 +4140,7 @@
     "produtos_necessarios": 0,
     "motivo": "Anúncio de 12/11 (sem plataforma nem data: dizer isso). Entram junto os anúncios dos 25 anos: modo cooperativo em Halo Campaign Evolved, Modo Matança em DOOM The Dark Ages Revelations e 21 clássicos do Xbox original no PC. O redator precisa abrir a fonte primária; a busca da pauta só achou o Canaltech. Se não confirmar, tratar como 'segundo o VGC'.",
     "prioridade": "hoje",
-    "status": "pendente",
+    "status": "descartada",
     "criada": "2026-11-16",
     "viral": 3
   },
@@ -4191,7 +4193,7 @@
     "produtos_necessarios": 0,
     "motivo": "Fato de 12 a 14/11 (a Microsoft atribuiu a uma atualização de capacidade de rede e descartou ataque). Fonte frágil: só o Olhar Digital foi aberto e a fonte oficial (página de status da Microsoft) não apareceu. O redator só publica se achar a matéria do Guardian ou o comunicado da Microsoft; senão, descartar. Cuidado para não confundir com a falha do Paint já publicada.",
     "prioridade": "hoje",
-    "status": "pendente",
+    "status": "descartada",
     "criada": "2026-11-16",
     "viral": 3
   },
@@ -4306,9 +4308,10 @@
     "tipo": "analise",
     "produtos_necessarios": 0,
     "motivo": "Termo de maior força da editoria de IA, com 5 variações agrupadas e sem post. Testar nada: descrever o que cada app oferece nos planos grátis conforme as páginas oficiais abertas na execução, e linkar para os posts de Gemini, Claude e IA da Samsung.",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-16",
-    "viral": 4
+    "viral": 4,
+    "post": "melhores-ias-gratis-celular-android"
   },
   {
     "id": "tomada-inteligente-alexa-como-configurar",
@@ -4418,9 +4421,10 @@
     "produtos_necessarios": 0,
     "produtos_sugeridos": [],
     "motivo": "Termo de compra mais forte sem post (4,6), com Black Friday em 27/11; ligar a nintendo-switch-oled-vale-a-pena-black-friday.",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-16",
-    "viral": 4
+    "viral": 4,
+    "post": "nintendo-switch-barato-qual-comprar"
   },
   {
     "id": "zelda-ocarina-of-time-5-2-milhoes-vendas-quatro-dias-switch-2-recorde",
@@ -4542,5 +4546,151 @@
     "prioridade": "hoje",
     "viral": 5,
     "post": "anatel-biometria-facial-linhas-celular-prazos-2027-2029-golpe-selfie"
+  },
+  {
+    "id": "ps-store-ps3-vita-fecha-brasil-o-que-fazer-antes",
+    "titulo": "Sony fecha a PS Store do PS3 e do Vita: o que muda no Brasil e o que fazer antes",
+    "palavra_chave": "ps store ps3 fecha",
+    "secundarias": [],
+    "editoria": "games",
+    "fontes": [
+      {
+        "nome": "Canaltech (16/11)",
+        "url": "https://canaltech.com.br/games/sony-anuncia-o-fechamento-definitivo-da-ps-store-no-ps3-e-ps-vita/"
+      },
+      {
+        "nome": "Omelete",
+        "url": "https://www.omelete.com.br/games/ps3-ps-vita-playstation-store-fim"
+      },
+      {
+        "nome": "Gematsu",
+        "url": "https://www.gematsu.com/2026/07/playstation-store-for-ps3-ps-vita-to-close-in-july-2027"
+      },
+      {
+        "nome": "Tom's Guide",
+        "url": "https://www.tomsguide.com/news/ps3-vita-and-psp-stores-officially-closing-what-you-need-to-know"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Mural #94. Fato: loja do PS3 fecha no fim de 2026 no Brasil (Canaltech/Omelete: sem data exata; no melhor cenario 31/12), Vita em julho/2027; compras antigas seguem baixaveis 'por tempo indeterminado' (nao dizer que o jogo some); a Sony tinha recuado em 2021. Plano e de jul/2026, reforcado agora: datas divergem entre fontes, usar so o que Canaltech/Omelete dizem e abrir a pagina de suporte da Sony. Termo 'ps store ps3 fecha' nao esta no palavras.json (so 'playstation move ps3'): SEO ajusta. Angulo novo: nao repete o post de fim da midia fisica (2028).",
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-18",
+    "viral": 4,
+    "post": "ps-store-ps3-vita-fecha-brasil-o-que-fazer-antes"
+  },
+  {
+    "id": "gemini-sotaques-regionais-portugues-66-vozes-como-ativar",
+    "titulo": "Gemini ganha vozes com sotaques regionais em português: como ativar no Android e no iPhone",
+    "palavra_chave": "gemini google como usar",
+    "secundarias": [],
+    "editoria": "inteligencia-artificial",
+    "fontes": [
+      {
+        "nome": "Google (blog Gemini app, 16/11)",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/"
+      },
+      {
+        "nome": "Canaltech (17/11)",
+        "url": "https://canaltech.com.br/inteligencia-artificial/google-libera-novos-sotaques-regionais-em-portugues-no-gemini-veja-como-ativar/"
+      },
+      {
+        "nome": "Android Authority",
+        "url": "https://www.androidauthority.com/google-gemini-new-regional-voices-3735654/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Google libera 66 vozes regionais em 7 variantes (incluindo portugues do Brasil) no app Gemini, Android e iOS. Caminho: Configuracoes > Voz > Voz do Gemini, ou menu do Gemini Live. A matéria nao diz quais sotaques brasileiros: o redator abre o blog do Google; se nao listar, dizer que o menu so permite ouvir as previas. Liga com os termos 'gemini google como usar' (1,25) e 'gemini google usar' (1,92).",
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-18",
+    "viral": 3,
+    "post": "gemini-sotaques-regionais-portugues-66-vozes-como-ativar"
+  },
+  {
+    "id": "motorola-signature-27-grapheneos-primeiro-celular-da-marca",
+    "titulo": "Motorola Signature 27 vai aceitar o GrapheneOS, o Android ultrasseguro: o que muda",
+    "palavra_chave": "motorola signature lançamento no brasil",
+    "secundarias": [
+      "motorola lançamento top de linha"
+    ],
+    "editoria": "celulares",
+    "fontes": [
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/smartphone/motorola-signature-27-ganha-suporte-a-sistema-android-ultrasseguro/"
+      },
+      {
+        "nome": "GrapheneOS",
+        "url": "https://grapheneos.org/"
+      },
+      {
+        "nome": "91mobiles",
+        "url": "https://www.91mobiles.com/hub/motorola-signature-27-official-support-grapheneos-announced/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "fato de 24/09, não é notícia do dia",
+    "prioridade": "hoje",
+    "status": "descartada",
+    "criada": "2026-11-18",
+    "viral": 3
+  },
+  {
+    "id": "google-maps-ask-maps-roteiros-ia-gemini-o-que-chega-ao-brasil",
+    "titulo": "Google Maps ganha roteiros de viagem com IA no Ask Maps: o que já vale no Brasil e o que é só nos EUA",
+    "palavra_chave": "google maps gemini roteiro ia",
+    "secundarias": [],
+    "editoria": "tecnologia",
+    "fontes": [
+      {
+        "nome": "Canaltech (17/11)",
+        "url": "https://canaltech.com.br/inteligencia-artificial/google-maps-ganha-ia-que-monta-roteiros-de-viagem-busca-em-listas-e-agenda-servicos/"
+      },
+      {
+        "nome": "Unite.ai",
+        "url": "https://www.unite.ai/?p=519064"
+      },
+      {
+        "nome": "Android Authority",
+        "url": "https://www.androidauthority.com/google-maps-ask-maps-update-3735628/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Anuncio de 16-17/11: roteiros de varios dias com pins numerados e busca em listas salvas valem em todos os paises do Ask Maps (Brasil nao e nomeado: dizer que nao esta confirmado); painel 'saiba antes de ir' e agendamento por IA (ligar para salao, oficina) so nos EUA no inicio. Android e iOS. O redator abre o blog oficial do Google (Maps) para confirmar; sem ele, citar como 'segundo o Canaltech'.",
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-18",
+    "viral": 3,
+    "post": "google-maps-ask-maps-roteiros-ia-gemini-o-que-chega-ao-brasil"
+  },
+  {
+    "id": "tim-gta-vi-gratis-ps5-digital-black-friday-regras-troca-plano",
+    "titulo": "GTA VI de graça com PS5 na TIM: as regras da oferta e o que a letra miúda não garante",
+    "palavra_chave": "gta 6 ps5 tim oferta",
+    "secundarias": [],
+    "editoria": "games",
+    "fontes": [
+      {
+        "nome": "Canaltech (03/11, regras)",
+        "url": "https://canaltech.com.br/telecom/tim-da-gta-vi-de-graca-na-compra-de-ps5-em-oferta-da-black-friday/"
+      },
+      {
+        "nome": "TIM",
+        "url": "https://www.tim.com.br/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "GTA 6 sai quinta (19/11): compras de 30/10 a 18/11 retiram o jogo a partir de 19/11; depois o jogo vem junto enquanto durar o estoque; ofertas ate 01/12. PS5 Slim Digital R$ 2.376 so com plano Ultracombo/Black Familia VIP com fidelizacao e troca de PS4 usado; o Canaltech diz que nao da para garantir o preco so com o plano. A TIM nao explicou como o jogo chega num PS5 sem leitor; GTA avulso R$ 449. Fato novo e util no dia do lancamento (aposta 4), angulo de oferta que nenhum post cobre (ver gta-6-lancamento-meia-noite). Abrir a pagina da TIM para confirmar; se nao der, 'segundo o Canaltech'.",
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-18",
+    "viral": 5,
+    "post": "tim-gta-vi-gratis-ps5-digital-black-friday-regras-troca-plano"
   }
 ]
