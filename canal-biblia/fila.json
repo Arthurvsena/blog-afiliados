@@ -85,20 +85,68 @@
    "release": "biblia-2026-11-14",
    "voz": "gemini:Orus"
   },
-  {"slug": "abraao-e-isaque", "status": "pronto"},
-  {"slug": "moises-no-cesto", "status": "pronto"},
-  {"slug": "a-sarca-ardente", "status": "pronto"},
-  {"slug": "sansao-e-a-forca-perdida", "status": "pronto"},
-  {"slug": "gideao-e-os-300", "status": "pronto"},
-  {"slug": "rute-e-noemi", "status": "pronto"},
-  {"slug": "elias-e-o-fogo-do-ceu", "status": "pronto"},
-  {"slug": "elias-e-os-corvos", "status": "pronto"},
-  {"slug": "a-torre-de-babel", "status": "pronto"},
-  {"slug": "caim-e-abel", "status": "pronto"},
-  {"slug": "adao-eva-e-a-serpente", "status": "pronto"},
-  {"slug": "a-criacao-do-mundo", "status": "pronto"},
-  {"slug": "os-dez-mandamentos", "status": "pronto"},
-  {"slug": "o-bezerro-de-ouro", "status": "pronto"}
+  {
+   "slug": "abraao-e-isaque",
+   "status": "produzido",
+   "produzido": "2026-11-18",
+   "release": "biblia-2026-11-18",
+   "voz": "gemini:Orus"
+  },
+  {
+   "slug": "moises-no-cesto",
+   "status": "produzido",
+   "produzido": "2026-11-18",
+   "release": "biblia-2026-11-18",
+   "voz": "gemini:Orus"
+  },
+  {
+   "slug": "a-sarca-ardente",
+   "status": "pronto"
+  },
+  {
+   "slug": "sansao-e-a-forca-perdida",
+   "status": "pronto"
+  },
+  {
+   "slug": "gideao-e-os-300",
+   "status": "pronto"
+  },
+  {
+   "slug": "rute-e-noemi",
+   "status": "pronto"
+  },
+  {
+   "slug": "elias-e-o-fogo-do-ceu",
+   "status": "pronto"
+  },
+  {
+   "slug": "elias-e-os-corvos",
+   "status": "pronto"
+  },
+  {
+   "slug": "a-torre-de-babel",
+   "status": "pronto"
+  },
+  {
+   "slug": "caim-e-abel",
+   "status": "pronto"
+  },
+  {
+   "slug": "adao-eva-e-a-serpente",
+   "status": "pronto"
+  },
+  {
+   "slug": "a-criacao-do-mundo",
+   "status": "pronto"
+  },
+  {
+   "slug": "os-dez-mandamentos",
+   "status": "pronto"
+  },
+  {
+   "slug": "o-bezerro-de-ouro",
+   "status": "pronto"
+  }
  ],
  "ideias": [
   "Ana e a oração pelo filho Samuel (1 Samuel 1)",
