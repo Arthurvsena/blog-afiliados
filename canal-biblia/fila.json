@@ -101,11 +101,17 @@
   },
   {
    "slug": "a-sarca-ardente",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-19",
+   "release": "biblia-2026-11-19",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "sansao-e-a-forca-perdida",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-19",
+   "release": "biblia-2026-11-19",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "gideao-e-os-300",
