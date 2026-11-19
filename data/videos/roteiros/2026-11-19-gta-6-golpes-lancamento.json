@@ -1,0 +1,99 @@
+{
+ "tipo": "short",
+ "quadro": "60s",
+ "slug": "2026-11-19-gta-6-golpes-lancamento",
+ "post": "gta-6-preco-brasil-meia-noite-19-novembro-versoes",
+ "titulo": "GTA 6 golpes: 3 armadilhas no lançamento #shorts",
+ "resumo": "GTA 6 golpes já circulam no lançamento: anúncio de versão para PC ou PS4 (não confirmada, o jogo é para PS5 e Xbox Series), códigos falsos e lojas só com Pix abaixo do preço oficial de R$ 449,90. Veja as defesas.",
+ "hashtags": [
+  "GTA6",
+  "Golpe",
+  "Segurança",
+  "Games"
+ ],
+ "fontes": [
+  {
+   "nome": "Canaltech",
+   "url": "https://canaltech.com.br/seguranca/3-golpes-mais-perigosos-na-semana-de-lancamento-de-gta-6-saiba-como-se-proteger/"
+  },
+  {
+   "nome": "Tecnoblog",
+   "url": "https://tecnoblog.net/noticias/preco-de-gta-6-no-brasil-e-revelado-r-449/"
+  },
+  {
+   "nome": "Rockstar Games",
+   "url": "https://www.rockstargames.com/VI"
+  }
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O GTA 6 que você baixa fora da loja oficial pode ser vírus.",
+   "tela": "GTA 6 fora da loja? Pode ser vírus",
+   "imagens": [
+    "url:https://www.rockstargames.com/VI/_next/static/media/poster_full.0az_iud2g3y4j.jpg?akim=1&imdensity=1&imwidth=3840|Divulgação/Rockstar Games"
+   ]
+  },
+  {
+   "tipo": "fato",
+   "fala": "Golpe um: a versão falsa. A Rockstar só confirma o jogo para {PS5|pê-ésse cinco} e Xbox Series. Anúncio de versão para PC ou {PS4|pê-ésse quatro} não tem confirmação, e o instalador pode trazer malware.",
+   "imagens": [
+    "tela:https://www.rockstargames.com/VI"
+   ],
+   "fonte": "Canaltech, 18/11; Rockstar Games"
+  },
+  {
+   "tipo": "info",
+   "fala": "Golpe dois: código e gift card falso. Sem disco, tudo vira código, e desconto de origem duvidosa é isca.",
+   "icone": "alerta",
+   "imagens": [
+    "content/imagens/gta-6-preco-brasil-meia-noite-19-novembro-versoes.jpg"
+   ],
+   "fonte": "Canaltech, 18/11"
+  },
+  {
+   "tipo": "numero",
+   "fala": "Golpe três: loja com {Pix|piks} e preço muito abaixo dos {R$ 449,90|quatrocentos e quarenta e nove e noventa} oficiais.",
+   "destaque": "R$ 449,90",
+   "rotulo": "edição Standard, preço oficial",
+   "imagens": [
+    "content/imagens/lancamento-jogos-ps5-novembro-2026-gta-6.jpg"
+   ],
+   "fonte": "Tecnoblog, 18/11"
+  },
+  {
+   "tipo": "manchete",
+   "fala": "Esse é o preço da edição Standard no Brasil. Muito abaixo disso, desconfie.",
+   "manchete": {
+    "url": "https://tecnoblog.net/noticias/preco-de-gta-6-no-brasil-e-revelado-r-449/",
+    "trecho": "chega ao Brasil custando R$ 449,90"
+   }
+  },
+  {
+   "tipo": "lista",
+   "fala": "Defesa: ative a verificação em duas etapas na conta PlayStation ou Xbox, e compre só na loja oficial do console.",
+   "titulo_lista": "COMO SE PROTEGER",
+   "itens": [
+    "Verificação em duas etapas",
+    "Só na PS Store ou Xbox Store"
+   ],
+   "imagens": [
+    "content/imagens/gta-6-liberar-espaco-ps5-xbox-pre-carregamento-212-gb.jpg"
+   ],
+   "fonte": "Canaltech, 18/11"
+  },
+  {
+   "tipo": "fato",
+   "fala": "Anos de espera, segundos para cair num golpe. O GTA 6 que você baixa fora da loja oficial...",
+   "imagens": [
+    "content/imagens/take-two-ceo-pirataria-gta-6-medidas-legais-tecnicas.jpg"
+   ]
+  }
+ ],
+ "palavra_chave": "gta 6 golpes",
+ "titulos_opcoes": [
+  "GTA 6 golpes: 3 armadilhas no lançamento #shorts",
+  "GTA 6 golpe: não baixe isso fora da loja #shorts",
+  "GTA 6 falso: o golpe do instalador para PC #shorts"
+ ]
+}

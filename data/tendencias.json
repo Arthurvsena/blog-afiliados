@@ -1,6 +1,211 @@
 {
- "atualizado": "2026-11-18",
+ "atualizado": "2026-11-19",
  "tendencias": [
+  {
+   "data": "2026-11-19",
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "status": "em_video",
+   "tipo": "short",
+   "quadro": "60s",
+   "origem": "brasil",
+   "assunto": "3 golpes mais perigosos na semana de lançamento de GTA 6 (versão falsa para PC, códigos falsos, lojas falsas com Pix)",
+   "por_que_em_alta": "Canaltech (18/11, André Lourenti Magalhães), na home de segurança hoje, dia do lançamento: GTA 6 não tem versão para PC nem PS4; códigos e gift cards falsos; lojas com preço bem abaixo de R$ 449,90 e só Pix. Junta o maior assunto do mês com Black Friday em 27/11.",
+   "evidencias": [
+    "https://canaltech.com.br/seguranca/3-golpes-mais-perigosos-na-semana-de-lancamento-de-gta-6-saiba-como-se-proteger/"
+   ],
+   "angulo": "Gancho: o GTA 6 que você baixa fora da loja oficial pode ser vírus. Os 3 golpes em 3 cenas (PC/PS4 falso, código falso, loja falsa com Pix), preço oficial como régua e 2 defesas (verificação em duas etapas, comprar só na PS Store/Xbox Store). Comentário Nexus: 13 anos de espera, 13 segundos para cair num golpe.",
+   "formato": "alerta",
+   "verificar_antes": "Só o Canaltech lido. Confirmar na página da PS Store/Xbox Store o preço de R$ 449,90 e que não há versão de PC (Rockstar). Não citar loja como golpista.",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/seguranca/3-golpes-mais-perigosos-na-semana-de-lancamento-de-gta-6-saiba-como-se-proteger/"
+    },
+    {
+     "nome": "Rockstar Games (a conferir)",
+     "url": "https://www.rockstargames.com/newswire"
+    }
+   ],
+   "nota": 5
+  },
+  {
+   "data": "2026-11-19",
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "status": "nova",
+   "tipo": "short",
+   "quadro": "60s",
+   "origem": "brasil",
+   "assunto": "GTA 6 saiu hoje: o review do Canaltech, 30 fps, 212 GB e o que muda por console",
+   "por_que_em_alta": "Dia do lançamento (19/11). Canaltech publicou review (18/11, Jones Oliveira, feito no PS5 Pro: muito positivo, 30 fps nos consoles, PSSR e ray tracing) e matéria sobre o Series S com FSR 4. Diário de Pernambuco e outros: Xbox One só via nuvem, desbloqueio à meia-noite. Assunto nº 1 do mês.",
+   "evidencias": [
+    "https://canaltech.com.br/games/review-grand-theft-auto-6/",
+    "https://canaltech.com.br/games/como-o-xbox-series-s-roda-gta-6-rockstar-usa-amd-fsr-4-inedito-e-mantem-ray-tracing/",
+    "https://www.diariodepernambuco.com.br/tecnologia/2026/11/11729275-gta-6-tudo-o-que-voce-precisa-saber-antes-do-lancamento-desta-quinta-19.html"
+   ],
+   "angulo": "Gancho: 13 anos de espera e o jogo roda a 30 fps. Resumo do review (prós e contras) com o desempenho por console. Cuidado para não repetir os vídeos de pré-load, Xbox One e pré-venda: aqui é a recepção e a performance.",
+   "formato": "noticia",
+   "verificar_antes": "Review é de um veículo só: dizer 'segundo o Canaltech'. Conferir o 30 fps na Rockstar/Take-Two (Olhar Digital 11/11 cita). Não dizer 'testamos'. Não falar de nota que não existe.",
+   "fontes": [
+    {
+     "nome": "Canaltech (review)",
+     "url": "https://canaltech.com.br/games/review-grand-theft-auto-6/"
+    },
+    {
+     "nome": "Olhar Digital",
+     "url": "https://olhardigital.com.br/2026/11/11/games-e-consoles/gta-6-30-fps-ps5-pro-xbox-cloud-gaming/"
+    },
+    {
+     "nome": "Rockstar (a conferir)",
+     "url": "https://www.rockstargames.com/newswire"
+    }
+   ],
+   "nota": 4
+  },
+  {
+   "data": "2026-11-19",
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "status": "nova",
+   "tipo": "short",
+   "quadro": "60s",
+   "origem": "gringo",
+   "assunto": "iPhone Duo: Apple vende peças de reparo e a tela interna custa US$ 999 (fora a ressalva do título da matéria)",
+   "por_que_em_alta": "Canaltech (18/11, Nathan Vieira), citando GSMArena e 9to5Mac: Self Service Repair com tela interna US$ 999, display US$ 499, bateria US$ 119, aluguel de kit US$ 49. A manchete diz R$ 5.776 e o corpo converte para ~R$ 5.115: números divergem. Continua o assunto iPhone Duo, que já deu vídeo nosso.",
+   "evidencias": [
+    "https://canaltech.com.br/smartphone/quebrou-o-iphone-duo-tela-interna-de-reposicao-custa-r-5776/"
+   ],
+   "angulo": "Gancho: quebrar a tela de dentro do iPhone Duo pode custar quase o preço de um celular novo. Barras com peças (tela interna, externa, bateria), o que é o autorreparo da Apple e a pergunta: dobrável vale o risco? Só dólar, com conversão estimada e data.",
+   "formato": "explicador",
+   "verificar_antes": "Abrir a página de Self Service Repair da Apple (preços em dólar, e se existe no Brasil: normalmente não). Divergência R$ 5.776 x US$ 999: usar só o dólar da Apple. Não repetir o ângulo do vídeo de 04/11 (234 mil dobras).",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/smartphone/quebrou-o-iphone-duo-tela-interna-de-reposicao-custa-r-5776/"
+    },
+    {
+     "nome": "Apple Self Service Repair (a conferir)",
+     "url": "https://selfservicerepair.com/"
+    }
+   ],
+   "criterios_gringo": "1 sim (GSMArena, 9to5Mac); 2 parcial (reparo oficial pode não existir no Brasil); 3 parcial; 4 sim (post do iPhone Duo). 3 de 4.",
+   "nota": 4
+  },
+  {
+   "data": "2026-11-19",
+   "imagens_oficiais": [],
+   "post_relacionado": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "status": "nova",
+   "tipo": "short",
+   "quadro": "60s",
+   "origem": "brasil",
+   "assunto": "Oppo vai baixar preços em até 30% no Brasil na Black Friday (A6t por R$ 799, A5 Pro de R$ 2.899 por R$ 1.999)",
+   "por_que_em_alta": "Canaltech (18/11, Nathan Vieira) na home de celulares: A6t R$ 799 a partir de 23/11, A5 Pro R$ 1.999 na última semana, Reno16 F R$ 2.999 no Pix, tela grátis até 30/11. A matéria não cita comunicado oficial. Contraste com as pautas de alta de preço (RAMageddon).",
+   "evidencias": [
+    "https://canaltech.com.br/smartphone/oppo-vai-baixar-precos-de-celulares-e-acessorios-em-ate-30-no-brasil/"
+   ],
+   "angulo": "Gancho: enquanto a memória sobe o preço de tudo, a Oppo promete baixar até 30%. Tabela com 4 modelos e canal (Mercado Livre, operadoras com plano e fidelização), e a pegadinha: preço com plano não é preço do aparelho. Preços com data.",
+   "formato": "alerta",
+   "verificar_antes": "Sem comunicado oficial: abrir o site da Oppo Brasil e a página da campanha. Oferta tem prazo: conferir no dia de gravar. Sem link de afiliado.",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/smartphone/oppo-vai-baixar-precos-de-celulares-e-acessorios-em-ate-30-no-brasil/"
+    },
+    {
+     "nome": "Oppo Brasil (a conferir)",
+     "url": "https://www.oppo.com/br/"
+    }
+   ],
+   "nota": 3
+  },
+  {
+   "data": "2026-11-19",
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "status": "nova",
+   "tipo": "short",
+   "quadro": "60s",
+   "origem": "gringo",
+   "assunto": "Motorola Edge 70 Neo: bateria de 7.000 mAh, lançamento em 24/11 na Índia, Brasil sem confirmação",
+   "por_que_em_alta": "Canaltech (home de 19/11), citando TheTechOutlook: evento em 24/11, tela AMOLED 6,8 pol. 144 Hz, Snapdragon 7s Gen 3, 7.000 mAh, 45 W, IP64; preço não divulgado; Brasil não confirmado. Casa com a tendência de baterias gigantes (pauta 12.000 mAh).",
+   "evidencias": [
+    "https://canaltech.com.br/smartphone/motorola-vai-lancar-novo-celular-dias-antes-da-black-friday-veja-o-que-sabemos/"
+   ],
+   "angulo": "Reserva ou bloco do Lá Fora de baterias: o intermediário com 7.000 mAh que estreia na Índia. Chega ao Brasil? Sem preço, dizer isso.",
+   "formato": "noticia",
+   "verificar_antes": "Só uma fonte de segunda mão. Abrir a página da Motorola Índia/Flipkart; não afirmar Brasil. Esperar o evento de 24/11 para publicar.",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/smartphone/motorola-vai-lancar-novo-celular-dias-antes-da-black-friday-veja-o-que-sabemos/"
+    },
+    {
+     "nome": "Motorola (a conferir)",
+     "url": "https://www.motorola.com/"
+    }
+   ],
+   "criterios_gringo": "1 parcial; 2 parcial; 3 sim; 4 parcial. Fraca: reserva.",
+   "nota": 2
+  },
+  {
+   "data": "2026-11-19",
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "status": "nova",
+   "tipo": "tutorial",
+   "quadro": "tutorial",
+   "origem": "brasil",
+   "assunto": "Como ativar a verificação em duas etapas na conta PlayStation e Xbox (antes que roubem sua conta)",
+   "por_que_em_alta": "Canaltech (18/11) recomenda 2FA como defesa nos golpes da semana do GTA 6; jogo exige conta online e muita gente cria conta nova para o lançamento. Sem termo no vidIQ ainda: nota menor; pedir ao vidIQ de domingo 'como ativar verificação em duas etapas'.",
+   "evidencias": [
+    "https://canaltech.com.br/seguranca/3-golpes-mais-perigosos-na-semana-de-lancamento-de-gta-6-saiba-como-se-proteger/"
+   ],
+   "formato": "tutorial",
+   "palavra_chave": "como ativar verificação em duas etapas playstation",
+   "angulo": "Resultado primeiro: em 4 minutos a conta com o seu GTA 6 fica protegida. Passos com gravação das páginas oficiais de conta da Sony e da Microsoft, o que fazer se perder o celular do código, e o aviso de golpe de falso suporte.",
+   "verificar_antes": "Conferir cada passo nas páginas oficiais (PlayStation Suporte, Microsoft Conta) e o menu em português. Sem termo no vidIQ: dizer.",
+   "fontes": [
+    {
+     "nome": "PlayStation Suporte (a conferir)",
+     "url": "https://www.playstation.com/pt-br/support/"
+    },
+    {
+     "nome": "Microsoft Conta (a conferir)",
+     "url": "https://account.microsoft.com/security"
+    },
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/seguranca/3-golpes-mais-perigosos-na-semana-de-lancamento-de-gta-6-saiba-como-se-proteger/"
+    }
+   ],
+   "nota": 3
+  },
   {
    "data": "2026-11-18",
    "imagens_oficiais": [],
@@ -289,7 +494,7 @@
     "id": "",
     "como_encaixa": "Alternativas do catálogo (celulares/acessórios ativo=sim) como 'comprar agora'; conferir CSV."
    },
-   "status": "nova",
+   "status": "em_video",
    "assunto": "RAMageddon: por que tudo de tecnologia vai ficar mais caro (placa de vídeo, Galaxy S27, Windows e celular)",
    "por_que_em_alta": "Memória cara pela corrida da IA aparece em várias pautas desta semana: AMD cortando oferta de GPU (Canaltech 13/11), Galaxy S27 com alta de cerca de US$ 100 e 1 TB nos Pro/Ultra (SamMobile, Android Authority, Techadvisor, Canaltech, 4gnews), Windows 11 OEM mais caro, Xiaomi 18 com preço +20%. Black Friday em 27/11 torna a pergunta 'compro agora ou espero?' atual.",
    "evidencias": [
@@ -475,7 +680,7 @@
    },
    "status": "nova",
    "assunto": "Histórias Tech: Windows 1.0, o 'programa' da Microsoft que chegou em 20/11/1985 e ninguém queria",
-   "por_que_em_alta": "Evergreen com gancho: aniversário em 4 dias (41 anos, não é data redonda) e a Microsoft segue no centro da conversa (Xbox 25 anos, Windows 11 mais caro). Sem pico de busca medido; nota baixa.",
+   "por_que_em_alta": "Aniversário amanhã (20/11/1985, 41 anos). Busca de 19/11 confirma em 3 fontes: Wikipedia (1.01 vendido nos EUA por US$ 99, MS-DOS Executive como gerenciador de arquivos, 1.02 internacional em mai/1986, suporte até 31/12/2001), Register e History.com. Datas da 1ª demonstração divergem (1983): usar só 20/11/1985. Publicar 20/11 ou fim de semana.",
    "evidencias": [
     "https://www.history.com/this-day-in-history/november-20/microsoft-releases-windows-1-0"
    ],
@@ -483,7 +688,7 @@
    "formato": "curiosidade",
    "tipo": "short",
    "quadro": "historias",
-   "verificar_antes": "Nenhuma fonte aberta nesta rodada: confirmar 20/11/1985 e os fatos em 2 fontes (History.com, Computer History Museum/Microsoft). Sem isso, descartar.",
+   "verificar_antes": "Datas de 1985 em 2 fontes OK; nome 1.0 x 1.01 varia entre fontes: dizer 'primeira versão de varejo'. Fotos: Microsoft/Wikimedia (licença livre).",
    "fontes": [
     {
      "nome": "History.com (a conferir)",
@@ -494,7 +699,7 @@
      "url": "https://computerhistory.org/"
     }
    ],
-   "nota": 3
+   "nota": 4
   },
   {
    "data": "2026-11-14",
@@ -1186,207 +1391,6 @@
    "produto": {
     "id": "",
     "como_encaixa": "Power bank como alternativa, conferir ativo=sim no CSV."
-   },
-   "nota": 3,
-   "status": "nova"
-  },
-  {
-   "data": "2026-11-11",
-   "assunto": "Como usar o celular como webcam no OBS (Android e iPhone, sem pagar)",
-   "quadro": "tutorial",
-   "tipo": "tutorial",
-   "palavra_chave": "como usar o celular como webcam no obs",
-   "por_que_em_alta": "Dúvida com busca constante e concorrência baixa",
-   "evidencias": [
-    "vidIQ 08/11: ~15 mil buscas/mês, concorrência 29, nota 66"
-   ],
-   "angulo": "Resultado primeiro: o celular vira câmera do PC em minutos. Caminhos oficiais (OBS Studio, webcam nativa, Continuity Camera no Mac) e problemas comuns de latência e cabo. Conferir os passos nas páginas oficiais e gravar a tela delas.",
-   "formato": "tutorial",
-   "fontes": [
-    {
-     "nome": "OBS Project",
-     "url": "https://obsproject.com/"
-    }
-   ],
-   "status": "nova",
-   "nota": 4,
-   "origem": "vidiq"
-  },
-  {
-   "data": "2026-11-11",
-   "assunto": "Como colocar película no celular sem bolha (passo a passo)",
-   "quadro": "tutorial",
-   "tipo": "tutorial",
-   "palavra_chave": "como colocar pelicula no celular",
-   "por_que_em_alta": "Busca estável e evergreen; combina com a Black Friday (acessório comprado junto com o celular)",
-   "evidencias": [
-    "vidIQ 08/11: ~22 mil buscas/mês, concorrência 37, nota 64 (crescimento -46%: demanda estável, não em alta)"
-   ],
-   "angulo": "Resultado: película sem bolha em 5 minutos. Limpeza, alinhamento, o que fazer com bolha e poeira.",
-   "formato": "tutorial",
-   "fontes": [],
-   "status": "nova",
-   "nota": 3,
-   "origem": "vidiq",
-   "verificar_antes": "Achar página oficial de ajuda para mostrar o passo a passo; sem isso, descartar."
-  },
-  {
-   "data": "2026-11-10",
-   "assunto": "Magalu faz queima do Galaxy S25 Ultra antes da Black Friday: R$ 4.498,80 no Pix com cupom",
-   "por_que_em_alta": "Canaltech (09/11, 17h19): Galaxy S25 Ultra 256 GB/12 GB a R$ 4.498,80 no Pix com o cupom INFLU300, contra R$ 11.999 no lançamento. Celular top com queda forte é busca certa na semana do 11.11. Não está no Google Trends BR de hoje (sem tema de tecnologia nos 10 primeiros).",
-   "evidencias": [
-    "https://canaltech.com.br/smartphone/magalu-faz-queima-de-galaxy-s25-ultra-antes-da-black-friday/"
-   ],
-   "angulo": "Gancho: o celular de R$ 11.999 caiu para R$ 4.498 em menos de dois anos. Por que o top de linha desvaloriza tanto, quando vale comprar o modelo do ano passado e a ressalva: cupom e Pix, preço muda sem aviso.",
-   "formato": "noticia",
-   "tipo": "short",
-   "quadro": "60s",
-   "verificar_antes": "OFERTA COM PRAZO: abrir a página do Magalu e conferir preço, cupom e estoque na hora de gravar; falar 'preço visto em 09/11'. Confirmar o preço de lançamento (R$ 11.999) em uma segunda fonte. Sem link de afiliado do Magalu; se o S25 Ultra estiver no catálogo (ML), o curador avalia. Sem valor de comissão em lugar nenhum.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/smartphone/magalu-faz-queima-de-galaxy-s25-ultra-antes-da-black-friday/"
-    },
-    {
-     "nome": "Magazine Luiza (página da oferta, a conferir)",
-     "url": "https://www.magazineluiza.com.br/"
-    }
-   ],
-   "imagens_oficiais": [
-    "https://www.samsung.com/br/smartphones/galaxy-s25-ultra/"
-   ],
-   "post_relacionado": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Conferir no CSV se há celular Samsung ativo=sim; senão editorial."
-   },
-   "nota": 4,
-   "status": "nova"
-  },
-  {
-   "data": "2026-11-10",
-   "assunto": "Apple Reference Image: o modo do iPhone que prova que a foto não é de IA",
-   "por_que_em_alta": "Tecnoblog, Canaltech e Mundo Conectado em português; Nieman Lab, Cult of Mac, Notebookcheck e Techlicious lá fora (5+ fontes de fora). Tecnoblog segue destacando o tema hoje. Fontes divergem sobre o estágio (beta do iOS 27 ou iPhone 18 Pro) e dizem que a Apple não detalhou o Brasil.",
-   "evidencias": [
-    "https://tecnoblog.net/noticias/iphone-ganhara-modo-que-prova-que-foto-e-real-e-nao-foi-gerada-por-ia/",
-    "https://canaltech.com.br/smartphone/iphone-18-pro-ganha-recurso-para-provar-que-foto-nao-foi-criada-por-ia",
-    "https://www.niemanlab.org/2026/09/apple-launches-a-new-way-to-prove-a-photo-was-shot-with-an-iphone-not-generated-by-ai/",
-    "https://www.cultofmac.com/news/apple-reference-image"
-   ],
-   "angulo": "Gancho: num mundo de foto falsa com IA, o iPhone quer assinar a sua foto como verdadeira. Como funciona (dados do sensor + servidor da Apple, opcional nos Ajustes da câmera), o que NÃO prova, como difere do C2PA/Content Credentials (Leica, Sony, Nikon, Google) e se chega ao Brasil. Liga ao tema golpes com IA.",
-   "formato": "explicador",
-   "tipo": "longo",
-   "quadro": "lafora",
-   "origem": "gringo",
-   "criterios_gringo": "1 sim (Nieman Lab, Cult of Mac, Notebookcheck, Techlicious); 2 parcial (iPhone vende muito no BR, disponibilidade indefinida); 3 parcial (Tecnoblog e Canaltech cobriram em texto, vídeo em PT quase nada: buscar no YouTube BR antes); 4 sim (posts de iPhone e golpes)",
-   "verificar_antes": "Abrir o anúncio/página de suporte oficial da Apple: em que versão (iOS 27? iPhone 18 Pro?), quais mercados e se vale para o Brasil. Não afirmar disponibilidade aqui sem fonte.",
-   "fontes": [
-    {
-     "nome": "Tecnoblog",
-     "url": "https://tecnoblog.net/noticias/iphone-ganhara-modo-que-prova-que-foto-e-real-e-nao-foi-gerada-por-ia/"
-    },
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/smartphone/iphone-18-pro-ganha-recurso-para-provar-que-foto-nao-foi-criada-por-ia"
-    },
-    {
-     "nome": "Nieman Lab",
-     "url": "https://www.niemanlab.org/2026/09/apple-launches-a-new-way-to-prove-a-photo-was-shot-with-an-iphone-not-generated-by-ai/"
-    },
-    {
-     "nome": "Cult of Mac",
-     "url": "https://www.cultofmac.com/news/apple-reference-image"
-    }
-   ],
-   "imagens_oficiais": [
-    "https://www.apple.com/br/newsroom/"
-   ],
-   "post_relacionado": "iphone-duo-vale-a-pena-dobravel",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "nota": 4,
-   "status": "nova"
-  },
-  {
-   "data": "2026-11-10",
-   "assunto": "Sony acaba com a mídia física: Kojima chama de 'muito triste' e petição passa de 165 mil assinaturas",
-   "por_que_em_alta": "Tecnoblog (marcado como 'hoje' na página inicial), Critical Hits, TecMundo e Rolling Stone Brasil; Insider Gaming e Notebookcheck lá fora. A CFO da Sony reconheceu as críticas e manteve o plano. Tema forte na semana do GTA 6 (a mídia física é o assunto do pré-download de 212 GB).",
-   "evidencias": [
-    "https://tecnoblog.net/noticias/hideo-kojima-critica-fim-da-midia-fisica-no-playstation/",
-    "https://tecnoblog.net/noticias/sony-reconhece-criticas-mas-mantem-fim-da-midia-fisica/",
-    "https://criticalhits.com.br/games/hideo-kojima-se-posiciona-contra-o-fim-dos-jogos-fisicos-da-sony/",
-    "https://insider-gaming.com/hideo-kojima-says-the-end-of-physical-games-is-frightening/"
-   ],
-   "angulo": "Gancho: a Sony vai parar de fazer jogos em disco e até o criador de Metal Gear acha triste. O que muda para quem compra jogo no Brasil (revenda, empréstimo, preço, acesso offline) e o que a Sony disse. Sem opinião sobre a empresa além do que as fontes sustentam.",
-   "formato": "explicador",
-   "tipo": "short",
-   "quadro": "60s",
-   "verificar_antes": "BLOQUEANTE para números: a data do fim da mídia física (um resumo de busca diz 'a partir de janeiro de 2028') e as 165 mil assinaturas (Rolling Stone) precisam ser confirmadas no comunicado da Sony/PlayStation Blog e em 2 fontes. Confirmar o escopo (só jogos novos? só PS6?). Se não confirmar, descartar.",
-   "fontes": [
-    {
-     "nome": "Tecnoblog (Kojima)",
-     "url": "https://tecnoblog.net/noticias/hideo-kojima-critica-fim-da-midia-fisica-no-playstation/"
-    },
-    {
-     "nome": "Tecnoblog (Sony mantém)",
-     "url": "https://tecnoblog.net/noticias/sony-reconhece-criticas-mas-mantem-fim-da-midia-fisica/"
-    },
-    {
-     "nome": "Critical Hits",
-     "url": "https://criticalhits.com.br/games/hideo-kojima-se-posiciona-contra-o-fim-dos-jogos-fisicos-da-sony/"
-    },
-    {
-     "nome": "PlayStation Blog (a localizar)",
-     "url": "https://blog.playstation.com"
-    }
-   ],
-   "imagens_oficiais": [
-    "https://www.playstation.com/pt-br/"
-   ],
-   "post_relacionado": "xbox-series-fsr-4-1-gta-6-o-que-muda",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "nota": 3,
-   "status": "nova"
-  },
-  {
-   "data": "2026-11-10",
-   "assunto": "Windows 11: Microsoft teria reajustado em 7% a 10% as licenças OEM, e PC fica mais caro",
-   "por_que_em_alta": "Tecnoblog (destaque 'hoje' na página), Hardware.com.br, Canaltech (PCs já repassaram o aumento); TechRadar, Notebookcheck e Windows Latest lá fora. A fonte original é o United Daily News (Taiwan) e a Microsoft não comentou; matérias de agosto voltam à home. Liga à pauta de memória cara (03/11).",
-   "evidencias": [
-    "https://tecnoblog.net/noticias/microsoft-teria-aumentado-preco-do-windows-11-oem-deixando-pcs-mais-caros/",
-    "https://www.hardware.com.br/noticias/pcs-windows-mais-caros-licencas-microsoft/amp/",
-    "https://canaltech.com.br/hardware/pcs-ficaram-ainda-mais-caros-por-conta-do-aumento-da-licenca-do-windows/",
-    "https://www.techradar.com/computing/windows/microsoft-reportedly-pours-fuel-on-pc-pricing-flames-as-it-implements-a-significant-increase-for-windows-11-licenses"
-   ],
-   "angulo": "Gancho: além da memória, agora o Windows também pesa no preço do PC. Tratar como relato, não como fato oficial. Licença avulsa não mudou (US$ 99 Home / US$ 199 Pro). Dica final: ver máquinas sem Windows ou usar a licença que já se tem.",
-   "formato": "explicador",
-   "tipo": "short",
-   "quadro": "60s",
-   "verificar_antes": "É REPORTAGEM DE AGOSTO que voltou à home: confirmar se há fato novo hoje. Sem isso, nota baixa e reserva. Dizer sempre 'segundo o United Daily News' e que a Microsoft não confirmou.",
-   "fontes": [
-    {
-     "nome": "Tecnoblog",
-     "url": "https://tecnoblog.net/noticias/microsoft-teria-aumentado-preco-do-windows-11-oem-deixando-pcs-mais-caros/"
-    },
-    {
-     "nome": "Hardware.com.br",
-     "url": "https://www.hardware.com.br/noticias/pcs-windows-mais-caros-licencas-microsoft/amp/"
-    },
-    {
-     "nome": "TechRadar",
-     "url": "https://www.techradar.com/computing/windows/microsoft-reportedly-pours-fuel-on-pc-pricing-flames-as-it-implements-a-significant-increase-for-windows-11-licenses"
-    }
-   ],
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
    },
    "nota": 3,
    "status": "nova"

@@ -1,0 +1,352 @@
+{
+  "tipo": "longo",
+  "quadro": "lafora",
+  "slug": "2026-11-19-ramageddon-memoria-ram-preco-ia-black-friday",
+  "post": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
+  "palavra_chave": "memória ram preço",
+  "titulo": "Memória RAM: preço em alta por causa da IA, e no Brasil?",
+  "titulos_opcoes": [
+    "Memória RAM: preço em alta por causa da IA, e no Brasil?",
+    "Memória RAM, IA e preço: comprar na Black Friday ou esperar?",
+    "Memória RAM e IA: o que já subiu e o que é rumor"
+  ],
+  "resumo": "Memória RAM: o preço está em alta por causa da IA, e isso pode encarecer celular, placa de vídeo e notebook. Separo o que já subiu, com fonte, do que ainda é rumor, e explico se vale comprar na Black Friday de 27/11 ou esperar.",
+  "hashtags": [
+    "memoriaRAM",
+    "BlackFriday",
+    "tecnologia",
+    "IA",
+    "RAMageddon"
+  ],
+  "selo": "Lá Fora, Aqui",
+  "capa_texto": "TUDO MAIS CARO?",
+  "capa_texto_b": "ATÉ +15% NO 4T",
+  "capa_cena": 2,
+  "capitulos_desc": [
+    "0:00 Gancho",
+    "0:25 Por que bombou",
+    "1:05 Como funciona",
+    "2:40 E no Brasil?",
+    "4:30 Alternativas que já dá pra comprar",
+    "5:40 Veredito"
+  ],
+  "fontes": [
+    {
+      "nome": "TrendForce (previsão de preços de memória 4T26, 30/09/2026)",
+      "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+    },
+    {
+      "nome": "Canaltech: AMD corta a oferta de placas de vídeo (13/11/2026)",
+      "url": "https://canaltech.com.br/hardware/amd-corta-em-ate-50-a-oferta-de-placas-de-video-gamer-ate-2027-preco-deve-subir/"
+    },
+    {
+      "nome": "Canaltech: Galaxy S27 (22/09/2026)",
+      "url": "https://canaltech.com.br/smartphone/galaxy-s27-pode-ser-muito-mais-potente-mas-preco-tambem-deve-subir-entenda/"
+    },
+    {
+      "nome": "SamMobile: Galaxy S27 (01/10/2026)",
+      "url": "https://www.sammobile.com/?p=16680865"
+    },
+    {
+      "nome": "Android Authority: Galaxy S27 (22/09/2026)",
+      "url": "https://androidauthority.com/samsung-galaxy-s27-memory-storage-configurations-leak-3713926"
+    },
+    {
+      "nome": "Tecnoblog: Samsung prevê eletrônicos até 20% mais caros (11/12/2025)",
+      "url": "https://tecnoblog.net/noticias/eletronicos-devem-ficar-ate-20-mais-caros-no-brasil-preve-samsung/"
+    },
+    {
+      "nome": "Metrópoles: dólar fecha a R$ 5,78 em 17/11/2026",
+      "url": "https://www.metropoles.com/brasil/dolar-ibovespa-bolsa-17-novembro"
+    }
+  ],
+  "produtos": [
+    "anker-zolo-a110m-20000-45w",
+    "jbl-wave-buds-2",
+    "logitech-g203-lightsync"
+  ],
+  "cenas": [
+    {
+      "tipo": "gancho",
+      "tela": "A IA está engolindo a memória do mundo",
+      "capitulo": "Gancho",
+      "fala": "A IA está engolindo a memória do mundo. E a conta pode chegar no seu bolso.",
+      "imagens": [
+        "tela:https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ]
+    },
+    {
+      "tipo": "fato",
+      "fala": "Celular, placa de vídeo, notebook: tudo que tem {memória RAM|memória rãm} pode ficar mais caro. Mas o quanto isso chega ao Brasil? Vou separar fato de rumor.",
+      "imagens": [
+        "content/imagens/apple-memoria-mais-cara-2027-iphone-preco-brasil.jpg"
+      ]
+    },
+    {
+      "tipo": "info",
+      "icone": "carrinho",
+      "fala": "E ainda tem a Black Friday, dia {27|vinte e sete}. Comprar agora ou esperar? Eu respondo no final. Os links estão na descrição."
+    },
+    {
+      "tipo": "info",
+      "icone": "chip",
+      "capitulo": "Por que bombou",
+      "fala": "Esse assunto ganhou o apelido de {RAMageddon|rãmagedom}, e ele explodiu em poucos dias por causa de três notícias."
+    },
+    {
+      "tipo": "manchete",
+      "fala": "Primeira: a {AMD|ê-ême-dê} teria cortado a oferta de placas de vídeo. É um rumor de um fórum chinês, que o Canaltech noticiou em {13 de novembro|treze de novembro}.",
+      "manchete": {
+        "url": "https://canaltech.com.br/hardware/amd-corta-em-ate-50-a-oferta-de-placas-de-video-gamer-ate-2027-preco-deve-subir/",
+        "trecho": "entre 20 e 50%"
+      },
+      "fonte": "Canaltech, 13/11"
+    },
+    {
+      "tipo": "fato",
+      "fala": "Segunda: o Galaxy {S27|ésse vinte e sete}, que só deve sair em {2027|dois mil e vinte e sete}, apareceu em vazamentos com a conta mais alta por causa da memória.",
+      "imagens": [
+        "content/imagens/galaxy-s27-samsung-confirma-modelos-diferentes-o-que-e-rumor.jpg",
+        "tela:https://www.sammobile.com/?p=16680865"
+      ]
+    },
+    {
+      "tipo": "numero",
+      "destaque": "US$ 100",
+      "rotulo": "alta rumorada no Galaxy S27",
+      "fala": "O SamMobile fala em cerca de {130 mil won|cento e trinta mil uóns}, algo perto de {100 dólares|cem dólares}. É vazamento de um informante coreano, e a Samsung não confirmou.",
+      "fonte": "SamMobile, 01/10"
+    },
+    {
+      "tipo": "info",
+      "icone": "alerta",
+      "fala": "Terceira: a pergunta que o brasileiro faz. Se tudo isso é verdade, o que muda na minha compra? É isso que vamos responder."
+    },
+    {
+      "tipo": "fato",
+      "capitulo": "Como funciona",
+      "fala": "Vamos ao porquê. Resultado primeiro: a memória está em falta porque a inteligência artificial consome uma quantidade enorme dela.",
+      "imagens": [
+        "tela:https://www.trendforce.com/presscenter/news/20260930-13258.html",
+        "content/imagens/black-friday-2026-eletronicos-como-nao-cair-em-preco-falso.jpg"
+      ]
+    },
+    {
+      "tipo": "info",
+      "icone": "ia",
+      "fala": "Servidores de IA, nos data centers, precisam de muita memória. E as fabricantes têm um número limitado de fábricas."
+    },
+    {
+      "tipo": "info",
+      "icone": "chip",
+      "fala": "Pense numa padaria com um forno só. Chega uma encomenda enorme de uma empresa grande. O forno passa a assar o pedido dela primeiro, e o pãozinho do bairro atrasa e fica mais caro."
+    },
+    {
+      "tipo": "manchete",
+      "fala": "Não sou eu que digo. A TrendForce, que acompanha o mercado de memória, escreve que os fornecedores priorizam a produção avançada para servidores, e isso mantém a oferta abaixo da procura.",
+      "manchete": {
+        "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
+        "trecho": "keeping the overall market undersupplied"
+      },
+      "fonte": "TrendForce, 30/09"
+    },
+    {
+      "tipo": "barras",
+      "fala": "E os números da TrendForce para o último trimestre do ano: a memória {DRAM|dê-rãm} convencional deve subir de {10% a 15%|dez a quinze por cento} sobre o trimestre anterior. A memória de armazenamento, a {NAND|nand}, de {15% a 20%|quinze a vinte por cento}.",
+      "itens": [
+        {
+          "rotulo": "DRAM convencional (teto)",
+          "valor": 15,
+          "unidade": "%"
+        },
+        {
+          "rotulo": "NAND (teto)",
+          "valor": 20,
+          "unidade": "%"
+        }
+      ],
+      "fonte": "TrendForce, previsão 4T26, 30/09"
+    },
+    {
+      "tipo": "info",
+      "icone": "relogio",
+      "fala": "Detalhe importante: a própria TrendForce diz que o ritmo da alta deve desacelerar, e que o armazenamento de consumo tem demanda fraca. Ou seja: sobe, mas não é uma ladeira sem fim."
+    },
+    {
+      "tipo": "fato",
+      "fala": "Por que isso chega na prateleira? Porque memória é peça de celular, de notebook e de placa de vídeo. Se a peça encarece, o fabricante escolhe: absorve o custo ou repassa.",
+      "imagens": [
+        "content/imagens/galaxy-s26-oferta-mais-barato-que-iphone-17-antes-da-black-friday.jpg"
+      ]
+    },
+    {
+      "tipo": "comparativo",
+      "fala": "E repassar é o que o vazamento do S27 sugere. A Android Authority relata que a Samsung manteria as mesmas memórias do S26 por causa do custo. O {S27 Ultra|ésse vinte e sete Ultra} teria 12 gigas de RAM com 256 ou 512 de armazenamento, e uma versão de 16 gigas com um terabyte.",
+      "itens": [
+        {
+          "valor": "12 GB",
+          "rotulo": "RAM, versões 256/512 GB"
+        },
+        {
+          "valor": "16 GB",
+          "rotulo": "RAM, versão 1 TB"
+        }
+      ],
+      "fonte": "Android Authority, 22/09 (vazamento)"
+    },
+    {
+      "tipo": "info",
+      "icone": "alerta",
+      "fala": "Tudo isso é vazamento, não é anúncio. A Samsung não confirmou, e as especificações podem mudar até o lançamento."
+    },
+    {
+      "tipo": "linha",
+      "fala": "Resumindo a linha do tempo do que é público: em setembro, a TrendForce prevê alta de memória no fim do ano. Em outubro, o SamMobile fala do preço do S27. Em novembro, o rumor da AMD aparece.",
+      "itens": [
+        {
+          "data": "30/09",
+          "texto": "TrendForce prevê alta no 4T26"
+        },
+        {
+          "data": "01/10",
+          "texto": "SamMobile: S27 US$ 100 mais caro (rumor)"
+        },
+        {
+          "data": "13/11",
+          "texto": "Canaltech: rumor de corte da AMD"
+        }
+      ]
+    },
+    {
+      "tipo": "fato",
+      "capitulo": "E no Brasil?",
+      "fala": "E no Brasil? Primeiro o que é fato. Em dezembro de {2025|dois mil e vinte e cinco}, a Samsung disse ao Tecnoblog que a memória subia desde setembro, e previu alta de até {20%|vinte por cento} em celulares e notebooks em {2026|dois mil e vinte e seis}.",
+      "imagens": [
+        "tela:https://tecnoblog.net/noticias/eletronicos-devem-ficar-ate-20-mais-caros-no-brasil-preve-samsung/",
+        "content/imagens/apple-memoria-mais-cara-2027-iphone-preco-brasil.jpg"
+      ]
+    },
+    {
+      "tipo": "manchete",
+      "fala": "Quem falou foi Gustavo Assunção, vice-presidente sênior da Samsung no Brasil. A previsão era de {10% a 20%|dez a vinte por cento} no preço final, mais forte nos celulares básicos e intermediários.",
+      "manchete": {
+        "url": "https://tecnoblog.net/noticias/eletronicos-devem-ficar-ate-20-mais-caros-no-brasil-preve-samsung/",
+        "trecho": "Gustavo Assunção"
+      },
+      "fonte": "Tecnoblog, 11/12/2025"
+    },
+    {
+      "tipo": "info",
+      "icone": "alerta",
+      "fala": "Atenção: isso foi uma previsão de um ano atrás, de uma fabricante, para eletrônicos em geral. Não é o preço de nenhum aparelho de hoje."
+    },
+    {
+      "tipo": "numero",
+      "destaque": "R$ 6 mil",
+      "rotulo": "RX 9070 no Brasil, segundo o Canaltech (sem levantamento citado)",
+      "fala": "O segundo fato está na placa de vídeo. O Canaltech diz que a {Radeon RX 9070|rêidion érre-xis noventa setenta} passou de {R$ 6.000|seis mil reais} no Brasil, quando custava perto de {R$ 4.500|quatro mil e quinhentos reais}.",
+      "fonte": "Canaltech, 13/11"
+    },
+    {
+      "tipo": "info",
+      "icone": "check",
+      "fala": "Já o corte de oferta da AMD, que explicaria parte da alta, é rumor. Vem de um fórum chinês e vale para o mercado da China. A AMD não confirmou."
+    },
+    {
+      "tipo": "numero",
+      "destaque": "≈ R$ 578",
+      "rotulo": "US$ 100 a R$ 5,78, estimativa sem impostos",
+      "fala": "E o Galaxy S27? Se a alta de cem dólares valesse aqui, a conta direta, com o dólar a {R$ 5,78|cinco reais e setenta e oito centavos} em {17 de novembro|dezessete de novembro}, daria cerca de {578 reais|quinhentos e setenta e oito reais}. É estimativa, sem impostos, e o preço brasileiro é outro.",
+      "fonte": "Metrópoles, dólar a R$ 5,78 em 17/11"
+    },
+    {
+      "tipo": "lista",
+      "titulo_lista": "FATO OU RUMOR?",
+      "fala": "Então, separando: fato é a previsão de alta da memória pela TrendForce. O preço da placa AMD no Brasil é o que o Canaltech reporta, sem citar levantamento. Rumor é o corte da AMD, o aumento do S27 e qualquer preço em reais para o ano que vem.",
+      "itens": [
+        "FATO: previsão de alta de memória (TrendForce)",
+        "REPORTADO: RX 9070 acima de R$ 6 mil (Canaltech)",
+        "RUMOR: corte de oferta da AMD",
+        "RUMOR: Galaxy S27 US$ 100 mais caro"
+      ]
+    },
+    {
+      "tipo": "data",
+      "destaque": "27 NOV",
+      "rotulo": "Black Friday 2026",
+      "fala": "E a Black Friday, dia {27 de novembro|vinte e sete de novembro}? Comprar ou esperar?"
+    },
+    {
+      "tipo": "fato",
+      "fala": "Na minha leitura, baseada nessas fontes: se você já precisa trocar e achou um preço bom, a pressão de custo é um motivo para não ficar adiando sem plano. Se o seu aparelho atual ainda funciona, não precisa correr.",
+      "imagens": [
+        "content/imagens/motorola-black-friday-2026-27-novembro-pix-15-parcelas-quais-modelos.jpg"
+      ]
+    },
+    {
+      "tipo": "info",
+      "icone": "dinheiro",
+      "fala": "E a regra do nosso guia vale em dobro: anote o preço de hoje, confira em duas lojas e desconfie do desconto que só devolve o preço de sempre. Alta de memória não é desculpa para pagar caro."
+    },
+    {
+      "tipo": "info",
+      "icone": "caixa",
+      "capitulo": "Alternativas que já dá pra comprar",
+      "fala": "Agora as alternativas. Aviso: nosso catálogo não tem celular nem memória. Então o que dá é fazer o seu aparelho atual durar mais, com itens que não carregam memória RAM como o celular. A pressão é menor, mas não é zero."
+    },
+    {
+      "tipo": "produto",
+      "produto": "anker-zolo-a110m-20000-45w",
+      "fala": "Primeiro, o power bank Anker Zolo. Pelo catálogo: {20.000 mAh|vinte mil miliamperes}, carga de até {45 W|quarenta e cinco watts} e dois cabos integrados. Serve para quem quer espremer a vida do celular atual. Não serve para quem só quer o celular mais rápido, porque ele resolve bateria, não desempenho. Veja o preço atual no link."
+    },
+    {
+      "tipo": "info",
+      "icone": "ia",
+      "fala": "Esse foi o primeiro. O próximo é para quem anda de fone o dia todo."
+    },
+    {
+      "tipo": "produto",
+      "produto": "jbl-wave-buds-2",
+      "fala": "Segundo, o fone JBL Wave Buds 2. Pelo catálogo: Bluetooth {5.3|cinco ponto três}, cancelamento de ruído e até {40 horas|quarenta horas} de bateria com o estojo. Para quem quer um fone de marca conhecida sem trocar de celular. Não serve para quem precisa de som de estúdio. Veja o preço atual no link."
+    },
+    {
+      "tipo": "info",
+      "icone": "jogo",
+      "fala": "E o terceiro é para quem joga."
+    },
+    {
+      "tipo": "produto",
+      "produto": "logitech-g203-lightsync",
+      "fala": "Terceiro, para quem joga: o mouse Logitech G203. Pelo catálogo: sensor de {8.000 DPI|oito mil dê-pê-ái}, RGB e fio. Ele melhora o jogo no PC que você já tem, sem placa de vídeo nova. Não serve para quem quer mouse sem fio. Veja o preço atual no link."
+    },
+    {
+      "tipo": "fato",
+      "capitulo": "Veredito",
+      "fala": "Veredito Nexus. A IA está, sim, pressionando a memória, e isso é público, com número da TrendForce. Mas o que vai custar mais caro no seu bolso, ainda ninguém sabe.",
+      "imagens": [
+        "tela:https://canaltech.com.br/hardware/amd-corta-em-ate-50-a-oferta-de-placas-de-video-gamer-ate-2027-preco-deve-subir/",
+        "content/imagens/black-friday-2026-eletronicos-como-nao-cair-em-preco-falso.jpg"
+      ]
+    },
+    {
+      "tipo": "lista",
+      "titulo_lista": "O QUE FAZER",
+      "fala": "Meu conselho: um, não compre por medo de rumor. Dois, se já precisa trocar, compare o preço em duas lojas na Black Friday. Três, se o aparelho ainda serve, estenda a vida dele.",
+      "itens": [
+        "Não compre por medo de rumor",
+        "Já precisa trocar? Compare em 2 lojas",
+        "Aparelho ainda serve? Estenda a vida dele"
+      ]
+    },
+    {
+      "tipo": "info",
+      "icone": "check",
+      "fala": "O post com o passo a passo para fugir de preço falso na Black Friday está no blog. Link na descrição."
+    },
+    {
+      "tipo": "cta",
+      "tela": "Você compra na Black Friday ou espera?",
+      "fala": "E você, vai comprar na Black Friday ou esperar? Conta nos comentários. Se inscreve no canal para acompanhar essa história, e o link do guia está na descrição."
+    }
+  ]
+}
