@@ -28,7 +28,7 @@ imagem:
 ---
 Fone TWS gamer é o fone sem fio com modo jogo, que corta parte do atraso entre o que acontece na tela e o som no ouvido. Dos três desta lista, dois declaram o recurso na ficha: o Havit TW969 Lite e o QCY T17. O terceiro, o QCY T13, entra como contraste.
 
-Vale lembrar o limite: todas as informações aqui vêm da ficha dos produtos e das notas dos compradores. Eu não testei nenhum deles.
+Vale lembrar o limite: todas as informações aqui vêm da ficha dos produtos e das notas dos compradores. Eu não testei nenhum deles. Para jogo competitivo ou console, compare com o [headset gamer Bluetooth ou com fio](/posts/headset-gamer-bluetooth-ou-fio-qual-escolher/).
 
 ## Comparativo rápido: fone TWS gamer
 

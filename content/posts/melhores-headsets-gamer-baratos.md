@@ -157,7 +157,7 @@ Nota alta em volume grande é um bom sinal, mas não garante conforto. Em headse
 - **Quer som mais encorpado e cabo trocável:** Redragon Zeus Lite.
 - **Joga tiro e quer áudio espacial:** HyperX Cloud Stinger 2.
 
-Na minha leitura, o pulo do gato é escolher pelo conector e pelo cabo antes de olhar a marca. Headset que não encaixa no seu aparelho vai para a gaveta. Quem monta o setup completo pode ver também os [teclados mecânicos até 200 reais](/posts/melhores-teclados-mecanicos-ate-200/) e o [mouse gamer barato](/posts/melhores-mouses-gamer-baratos/).
+Na minha leitura, o pulo do gato é escolher pelo conector e pelo cabo antes de olhar a marca. Headset que não encaixa no seu aparelho vai para a gaveta. Em dúvida entre fio e sem fio, veja [headset gamer Bluetooth ou com fio](/posts/headset-gamer-bluetooth-ou-fio-qual-escolher/). Quem monta o setup completo pode ver também os [teclados mecânicos até 200 reais](/posts/melhores-teclados-mecanicos-ate-200/) e o [mouse gamer barato](/posts/melhores-mouses-gamer-baratos/).
 
 ## Qual comprar?
 

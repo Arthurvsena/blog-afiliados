@@ -1,41 +1,41 @@
 {
-  "ultima_execucao": "2026-11-18T07:51",
+  "ultima_execucao": "2026-11-19T07:45",
   "agentes": {
     "chefe": {
       "status": "ok",
-      "tarefa": "Coordenei a rotina: 4 notícias, 1 tutorial, 1 análise e 1 guia de compra, descartei uma notícia velha e corrigi os blocos que o verificador acusava."
+      "tarefa": "Coordenei a rotina: 3 notícias, 1 tutorial, 1 análise e 2 guias de compra, todos revisados por SEO, viral, vendas e design."
     },
     "pesquisador": {
       "status": "ok",
-      "tarefa": "Trouxe 5 pautas de notícia (PS Store do PS3, Gemini, Motorola, Google Maps, TIM com GTA VI) e respondi o mural da PS Store."
+      "tarefa": "Trouxe 5 pautas de notícia (GTA 6 no PS5 Pro, GPT-6.2, Gemini Notebook, Claro, Oppo) e completei a fila com 8 pautas novas."
     },
     "curador": {
       "status": "ocioso",
-      "tarefa": "Não fui chamado: as sugestões de produto já estão em data/sugestoes_produtos.md à espera do dono."
+      "tarefa": "Não fui chamado: nenhum subnicho ficou travado por falta de produto hoje."
     },
     "redator": {
       "status": "ok",
-      "tarefa": "Escrevi 4 notícias, o tutorial da Alexa na TV Samsung, a análise de IAs grátis, o guia do Switch barato e o do Moto barato; a notícia do GrapheneOS caiu por ser de setembro."
+      "tarefa": "Escrevi as notícias da Claro, do GTA 6 no PS5 Pro e da Oppo, o tutorial do golpe do Pix errado, a análise do Galaxy A07 e os guias de power bank solar e headset gamer."
     },
     "seo": {
       "status": "ok",
-      "tarefa": "Ajustei títulos, descrições e links internos dos 8 posts do dia; power banks e Echo Dot seguem pendentes."
+      "tarefa": "Revisei os 7 posts e cortei a seção de 20.000 mAh do guia de power banks, como pedia o mural #96."
     },
     "atualizador": {
       "status": "ocioso",
-      "tarefa": "Nenhum post que não seja notícia tem 30 dias ou mais sem atualização."
+      "tarefa": "Não fui chamado: nenhum post que não seja notícia tem 30 dias ou mais."
     },
     "designer": {
       "status": "ok",
-      "tarefa": "Pus imagem e blocos em todos os posts do dia, quase sempre com logo reserva por falta de foto livre."
+      "tarefa": "Pus foto e blocos nos 7 posts e troquei a capa do guia de power banks."
     },
     "vendas": {
       "status": "ok",
-      "tarefa": "Pus chamadas leves de compra em 6 dos posts, sem preço no texto e sem forçar venda nas notícias."
+      "tarefa": "Pus chamadas de compra nos guias de power bank solar e headset, e uma dica de carregador na análise do A07."
     },
     "viral": {
       "status": "ok",
-      "tarefa": "Dei nota às pautas e escrevi os textos de rede dos 8 posts do dia."
+      "tarefa": "Dei nota às pautas, afiei títulos e escrevi os textos de rede dos 7 posts."
     },
     "produtor": {
       "status": "ocioso",
@@ -51,36 +51,6 @@
     }
   },
   "historico": [
-    {
-      "data": "2026-11-11",
-      "agente": "analista",
-      "texto": "Cloudflare pediu login: o dono precisa entrar de novo. Visitas de 10/11 sem dado. Deu para ler o Google: 1 clique, 195 impressões, posição 11,2."
-    },
-    {
-      "data": "2026-11-12",
-      "agente": "pesquisador",
-      "texto": "Trouxe 5 pautas do dia, com Ocarina no Reino Unido para o pedido da analista."
-    },
-    {
-      "data": "2026-11-12",
-      "agente": "curador",
-      "texto": "Sugeri os mouses Redragon Stormrage e Invader e avisei que as caixas JBL/Soundcore já podem ser escritas."
-    },
-    {
-      "data": "2026-11-12",
-      "agente": "redator",
-      "texto": "Escrevi quatro notícias, o tutorial de figurinha, a análise ChatGPT x Gemini e os guias de teclado e caixas; o iPhone 17 ficou sem fonte."
-    },
-    {
-      "data": "2026-11-12",
-      "agente": "seo",
-      "texto": "Revisei os oito posts, troquei a palavra-chave do teclado por 'teclado gamer silencioso' e liguei o cluster Zelda e ChatGPT."
-    },
-    {
-      "data": "2026-11-12",
-      "agente": "viral",
-      "texto": "Dei nota às pautas e escrevi os textos de rede dos oito posts."
-    },
     {
       "data": "2026-11-12",
       "agente": "vendas",
@@ -350,6 +320,36 @@
       "data": "2026-11-18",
       "agente": "designer",
       "texto": "Pus imagem e blocos nos posts do dia."
+    },
+    {
+      "data": "2026-11-19",
+      "agente": "pesquisador",
+      "texto": "Achei 5 notícias com fonte e enchi a fila de pautas."
+    },
+    {
+      "data": "2026-11-19",
+      "agente": "redator",
+      "texto": "Escrevi 7 posts do dia, de notícia a guia de compra."
+    },
+    {
+      "data": "2026-11-19",
+      "agente": "seo",
+      "texto": "Cortei os 20.000 mAh do guia de power banks e revisei os posts."
+    },
+    {
+      "data": "2026-11-19",
+      "agente": "viral",
+      "texto": "Escrevi os textos de rede dos 7 posts."
+    },
+    {
+      "data": "2026-11-19",
+      "agente": "vendas",
+      "texto": "Pus chamadas de compra nos guias e na análise do A07."
+    },
+    {
+      "data": "2026-11-19",
+      "agente": "designer",
+      "texto": "Pus foto e blocos nos 7 posts do dia."
     }
   ]
 }

@@ -2,8 +2,82 @@
 
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
+## 2026-11-19 · Headset gamer Bluetooth atrasa o som? No console, fio ganha
+Link: https://nexustechai.com.br/posts/headset-gamer-bluetooth-ou-fio-qual-escolher/
+- WhatsApp: Fone Bluetooth comum não conecta direto no PS5 nem no Xbox, e em jogo de tiro o som chega atrasado. Quando o fio vale mais: https://nexustechai.com.br/posts/headset-gamer-bluetooth-ou-fio-qual-escolher/
+- X: Headset gamer Bluetooth: atraso no som, bateria e incompatibilidade com console. Para PC e PS5, o com fio ainda é a escolha segura; Bluetooth serve para celular. https://nexustechai.com.br/posts/headset-gamer-bluetooth-ou-fio-qual-escolher/
+- Instagram (legenda): Seu fone Bluetooth não liga no PS5?
+  Em geral é assim mesmo: console não aceita Bluetooth comum.
+  E em jogo de tiro o som ainda chega atrasado.
+  Quando o fio ganha e quando o sem fio serve, no link da bio.
+  #headsetgamer #ps5 #games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seu fone Bluetooth não funciona no PS5?" [2-8 s] Fato 1: console em geral não aceita Bluetooth comum. [8-14 s] Fato 2: o sinal sem fio atrasa o som em jogo de tiro. [14-18 s] Fato 3: com fio, é só ligar no P3 do controle. [18-20 s] "Guia completo no link da bio."
 
+## 2026-11-19 · Power bank solar vale a pena? Nos testes, nunca passou de 50%
+Link: https://nexustechai.com.br/posts/power-bank-solar-vale-a-pena/
+- WhatsApp: Power bank solar promete carregar no sol, mas em teste nunca passou de 50% da bateria e esquentou até 80 °C. O que comprar no lugar: https://nexustechai.com.br/posts/power-bank-solar-vale-a-pena/
+- X: Power bank solar: segundo teste citado pelo Tecnoblog, dias no sol e nunca passou da metade da carga; alguns chegaram a 80 °C. Para emergência até serve, para trilha não. https://nexustechai.com.br/posts/power-bank-solar-vale-a-pena/
+- Instagram (legenda): Power bank solar carrega no sol? Nem perto.
+  Em teste, nenhum passou de 50% da bateria em dias de sol.
+  Alguns esquentaram até 80 °C.
+  O que levar no lugar está no link da bio.
+  #powerbank #tecnologia #camping
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Power bank solar é furada?" [2-8 s] Fato 1: em teste, dias no sol e nunca passou de 50%. [8-14 s] Fato 2: alguns chegaram a 80 °C e o controlador corta a recarga. [14-18 s] Fato 3: melhor um power bank comum carregado na tomada. [18-20 s] "Guia completo no link da bio."
 
+## 2026-11-19 · Review celular Samsung Galaxy A07: 6 anos de suporte, sem NFC
+Link: https://nexustechai.com.br/posts/galaxy-a07-vale-a-pena-review/
+- WhatsApp: Galaxy A07: celular barato com 6 anos de atualização da Samsung, mas sem NFC (não paga por aproximação). Review: https://nexustechai.com.br/posts/galaxy-a07-vale-a-pena-review/
+- X: Galaxy A07 tem bateria de 5.000 mAh e até 6 anos de atualizações, segundo a Samsung. O porém: sem NFC e só 4G na versão original. Para quem serve e para quem não: https://nexustechai.com.br/posts/galaxy-a07-vale-a-pena-review/
+- Instagram (legenda): Celular barato com 6 anos de suporte?
+  O Galaxy A07 tem bateria de 5.000 mAh e tela de 90 Hz.
+  Mas não tem NFC e a câmera é básica.
+  Veja para quem vale a pena (link na bio).
+  #galaxya07 #samsung #celularbarato
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Celular barato com 6 anos de atualização?" [2-8 s] Fato 1: Galaxy A07 recebe até 6 anos de patches de segurança, segundo a Samsung. [8-14 s] Fato 2: bateria de 5.000 mAh e tela de 90 Hz. [14-18 s] Fato 3: sem NFC e câmera básica. [18-20 s] "Review completo no link da bio."
+
+## 2026-11-19 · Golpe Pix errado: como funciona e o que fazer se cair
+Link: https://nexustechai.com.br/posts/golpe-pix-errado-o-que-fazer/
+- WhatsApp: Recebeu Pix de desconhecido e pedem de volta? Só devolva pelo botão de devolução do app, nunca para outra conta. Senão você paga duas vezes: https://nexustechai.com.br/posts/golpe-pix-errado-o-que-fazer/
+- X: Golpe do Pix errado: o criminoso manda Pix, pede o valor de volta em outra conta e aciona o MED. Você perde duas vezes. Devolva só pelo botão do app. Já caiu? Prazo de 80 dias para contestar: https://nexustechai.com.br/posts/golpe-pix-errado-o-que-fazer/
+- Instagram (legenda): Te mandaram um Pix "por engano"?
+  Não devolva para a conta que a pessoa passar.
+  Use só a opção de devolução do app do banco.
+  O golpista ainda aciona o MED e fica com os dois valores.
+  #pix #golpe #segurancadigital
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Pix errado na sua conta? Cuidado." [2-8 s] Fato 1: o golpista pede o dinheiro de volta em outra conta. [8-14 s] Fato 2: depois aciona o MED e fica com os dois valores. [14-18 s] Fato 3: devolva só pelo botão do app; já caiu, você tem 80 dias para contestar. [18-20 s] "Passo a passo no link da bio."
+
+## 2026-11-19 · Oppo Black Friday: A6t por R$ 799 e A5 Pro por R$ 1.999
+Link: https://nexustechai.com.br/posts/oppo-black-friday-2026-ate-30-a6t-a5-pro-reno16-f-mercado-livre/
+- WhatsApp: Oppo A6t por R$ 799 no Mercado Livre a partir de 23/11 e A5 Pro de R$ 2.899 por R$ 1.999. Confira as regras: https://nexustechai.com.br/posts/oppo-black-friday-2026-ate-30-a6t-a5-pro-reno16-f-mercado-livre/
+- X: Oppo na Black Friday: A6t (6.000 mAh) por R$ 799 no ML a partir de 23/11 e A5 Pro de R$ 2.899 por R$ 1.999. Valores informados pelo Canaltech, podem mudar: https://nexustechai.com.br/posts/oppo-black-friday-2026-ate-30-a6t-a5-pro-reno16-f-mercado-livre/
+- Instagram (legenda): Celular Oppo por R$ 799 na Black Friday.
+  É o A6t, com bateria de 6.000 mAh, no Mercado Livre a partir de 23/11.
+  O A5 Pro cai de R$ 2.899 para R$ 1.999.
+  Anote o preço de hoje para comparar no dia.
+  #oppo #blackfriday #celularbarato
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Celular com 6.000 mAh por R$ 799?" [2-8 s] Fato 1: Oppo A6t a R$ 799 no ML a partir de 23/11. [8-14 s] Fato 2: A5 Pro cai de R$ 2.899 para R$ 1.999. [14-18 s] Fato 3: Reno16 F tem troca de tela grátis se ativado até 30/11. [18-20 s] "Regras completas no link da bio."
+
+## 2026-11-19 · GTA 6 no PS5 Pro não roda a 60 FPS: Rockstar culpa a CPU
+Link: https://nexustechai.com.br/posts/rockstar-ps5-pro-nao-roda-gta-6-60-fps-cpu-input-lag/
+- WhatsApp: GTA 6 no PS5 Pro fica em 30 FPS. A Rockstar diz que a CPU, quase igual à do PS5 comum, é o gargalo: https://nexustechai.com.br/posts/rockstar-ps5-pro-nao-roda-gta-6-60-fps-cpu-input-lag/
+- X: GTA 6 no PS5 Pro não roda a 60 FPS. Segundo a Rockstar, a CPU quase igual à do PS5 comum não cumpre os 16 ms por quadro. O estúdio diz ter cortado 1 frame de input lag vs. RDR2: https://nexustechai.com.br/posts/rockstar-ps5-pro-nao-roda-gta-6-60-fps-cpu-input-lag/
+- Instagram (legenda): GTA 6 no PS5 Pro não chega a 60 FPS.
+  A Rockstar culpa a CPU, não a GPU.
+  Em troca, diz ter cortado 1 frame de atraso no controle.
+  Vale trocar de console por isso? Veja no link da bio.
+  #gta6 #ps5pro #rockstar
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "GTA 6 no PS5 Pro não roda a 60 FPS." [2-8 s] Fato 1: a Rockstar culpa a CPU, só um pouco melhor que a do PS5 comum. [8-14 s] Fato 2: o jogo trava em 30 FPS nos consoles. [14-18 s] Fato 3: o estúdio diz ter cortado 1 frame de input lag vs. RDR2. [18-20 s] "Análise completa no link da bio."
+
+## 2026-11-19 · iPhone 17 Claro: 21x de R$ 139, mas só com troca e plano
+Link: https://nexustechai.com.br/posts/claro-multi-friday-iphone-17-21x-139-galaxy-s26-condicoes/
+- WhatsApp: iPhone 17 em 21x de R$ 139 na Claro, mas só com troca de usado e Plano Multi 200 GB. Leia a letra miúda antes: https://nexustechai.com.br/posts/claro-multi-friday-iphone-17-21x-139-galaxy-s26-condicoes/
+- X: iPhone 17 de 256 GB na Claro: 21x de R$ 139 (R$ 2.919 no total), mas só com Claro Troca e Plano Multi 200 GB. O preço do plano ainda não foi divulgado. Letra miúda: https://nexustechai.com.br/posts/claro-multi-friday-iphone-17-21x-139-galaxy-s26-condicoes/
+- Instagram (legenda): iPhone 17 em 21x de R$ 139 na Claro.
+  Mas só com Claro Troca e Plano Multi 200 GB.
+  O desconto da troca é "até R$ 2 mil", conforme o usado.
+  Veja o que a Claro não contou, antes da Black Friday (27/11).
+  #iphone17 #claro #blackfriday
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "iPhone 17 a R$ 139 por mês? Tem pegadinha." [2-8 s] Fato 1: 21x de R$ 139 na Claro, R$ 2.919 no total. [8-14 s] Fato 2: só com Claro Troca e Plano Multi 200 GB. [14-18 s] Fato 3: preço do plano e fim da oferta não foram informados. [18-20 s] "Letra miúda completa no link da bio."
 
 ## 2026-11-18 · Motorola lançamento barato: qual celular comprar agora
 Link: https://nexustechai.com.br/posts/motorola-lancamento-barato-qual-celular-comprar/

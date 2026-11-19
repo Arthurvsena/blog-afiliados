@@ -83,6 +83,8 @@ As pesquisas citadas não detalham a metodologia nas reportagens que li, como o 
 
 Na minha leitura, cinco minutos no Detector de Sites e na pesquisa de preço custam menos que 80 dias de dor de cabeça com o banco. Vale desconfiar mais, comprar em lojas conhecidas e deixar o link recebido por mensagem de lado.
 
+Outro golpe comum no Pix: o [golpe Pix errado, com pedido de devolução em dobro](/posts/golpe-pix-errado-o-que-fazer/).
+
 :::veredito
 Oferta boa demais em loja desconhecida: não pague por Pix.
 :::

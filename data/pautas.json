@@ -4692,5 +4692,280 @@
     "criada": "2026-11-18",
     "viral": 5,
     "post": "tim-gta-vi-gratis-ps5-digital-black-friday-regras-troca-plano"
+  },
+  {
+    "id": "rockstar-ps5-pro-nao-roda-gta-6-60-fps-cpu-input-lag",
+    "titulo": "Rockstar explica por que o PS5 Pro não roda GTA 6 a 60 FPS: o gargalo é a CPU",
+    "palavra_chave": "gta 6 ps5 pro 60 fps",
+    "secundarias": [],
+    "editoria": "games",
+    "fontes": [
+      {
+        "nome": "Push Square (entrevista com a Rockstar, 11/2026)",
+        "url": "https://www.pushsquare.com/news/2026/11/ps5-pro-is-not-powerful-enough-to-run-gta-6-at-60fps-rockstar-explains-frame-rate-decision"
+      },
+      {
+        "nome": "Canaltech (18/11)",
+        "url": "https://canaltech.com.br/games/rockstar-confirma-que-ps5-pro-nao-e-potente-o-suficiente-para-rodar-gta-6-a-60-fps/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Fato novo de GTA 6 no dia do lançamento (aposta 4): Marc Chambers (Rockstar) diz que a CPU do PS5 Pro é pouco melhor que a do PS5 base; David Hynd diz que cortaram 1 frame de input lag vs RDR2. Ângulo inédito, nenhum dos posts de GTA 6 cobre. Abrir o Push Square; termo a conferir em palavras.json.",
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-19",
+    "viral": 5,
+    "post": "rockstar-ps5-pro-nao-roda-gta-6-60-fps-cpu-input-lag"
+  },
+  {
+    "id": "gpt-6-2-astra-sol-openai-20-por-cento-mais-barato-o-que-muda",
+    "titulo": "OpenAI lança GPT-6.2 Astra e Sol: 20% mais barato na API e o que muda no ChatGPT",
+    "palavra_chave": "chatgpt novo modelo",
+    "secundarias": [],
+    "editoria": "inteligencia-artificial",
+    "fontes": [
+      {
+        "nome": "Digital Trends",
+        "url": "https://www.digitaltrends.com/computing/openai-gpt-6-2-astra-sol-launch/"
+      },
+      {
+        "nome": "TechCrunch",
+        "url": "https://techcrunch.com/?p=3167633"
+      },
+      {
+        "nome": "Canaltech (19/11, estreia dividiu usuários)",
+        "url": "https://canaltech.com.br/inteligencia-artificial/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Lançado em 17/11 no ChatGPT Work, Codex e API (planos Plus, Pro, Enterprise, Edu). Astra US$ 8/M entrada (era 10), Sol US$ 2/M. Números são da OpenAI, sem teste independente; dizer isso. Redator abre o blog da OpenAI para confirmar; não afirmar disponibilidade grátis nem no plano Go. Não repete chatgpt-voz-avancada (12/11).",
+    "prioridade": "hoje",
+    "status": "pendente",
+    "criada": "2026-11-19",
+    "viral": 3
+  },
+  {
+    "id": "gemini-notebook-sites-interativos-como-criar-make-me-a-site",
+    "titulo": "Gemini Notebook cria sites interativos a partir das suas anotações: como fazer",
+    "palavra_chave": "gemini notebook como usar",
+    "secundarias": [
+      "notebooklm como usar"
+    ],
+    "editoria": "inteligencia-artificial",
+    "fontes": [
+      {
+        "nome": "Google (blog Gemini Notebook)",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites"
+      },
+      {
+        "nome": "Canaltech (18/11)",
+        "url": "https://canaltech.com.br/apps/gemini-notebook-cria-sites-interativos-de-estudo-a-partir-das-suas-anotacoes-e-livros/"
+      },
+      {
+        "nome": "Android Authority",
+        "url": "https://androidauthority.com/gemini-notebook-research-interactive-sites-3735782"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Anunciado em 16/11, web, maiores de 18 anos, inclui Workspace; celular ainda não. Passo a passo: criar caderno, adicionar fontes, pedir 'make me a site', abrir no Studio. Brasil não nomeado: dizer que o lançamento é global mas sem confirmação por país. Aviso de que a IA erra. Confirmar o termo em palavras.json.",
+    "prioridade": "hoje",
+    "status": "pendente",
+    "criada": "2026-11-19",
+    "viral": 3
+  },
+  {
+    "id": "claro-multi-friday-iphone-17-21x-139-galaxy-s26-condicoes",
+    "titulo": "Claro Multi Friday: iPhone 17 em 21x de R$ 139 e Galaxy S26, e a letra miúda do Claro Troca",
+    "palavra_chave": "iphone 17 black friday",
+    "secundarias": [],
+    "editoria": "celulares",
+    "fontes": [
+      {
+        "nome": "Canaltech (18/11)",
+        "url": "https://canaltech.com.br/smartphone/iphone-17-aparece-com-parcelas-de-r-139-na-black-friday-da-claro/"
+      },
+      {
+        "nome": "Claro (campanha Multi Friday)",
+        "url": "https://www.claro.com.br/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Oferta exige Claro Troca (até R$ 2 mil, depende do usado) e Plano Multi 200 GB. Também iPhone 16, S26, S26 Ultra, Moto G37 e 2 por 1 (Edge 70 Fusion ou A57). Validade não informada. Fonte única de imprensa mais a página da Claro: o redator abre a página para confirmar; se não der, 'segundo o Canaltech'. Sem repetir motorola-black-friday (27/11). Preço é de campanha, com data.",
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-19",
+    "viral": 5,
+    "post": "claro-multi-friday-iphone-17-21x-139-galaxy-s26-condicoes"
+  },
+  {
+    "id": "oppo-black-friday-2026-ate-30-a6t-a5-pro-reno16-f-mercado-livre",
+    "titulo": "Oppo corta até 30% na Black Friday no Brasil: A6t, A5 Pro e Reno16 F, onde e quando",
+    "palavra_chave": "oppo black friday",
+    "secundarias": [],
+    "editoria": "celulares",
+    "fontes": [
+      {
+        "nome": "Canaltech (18/11)",
+        "url": "https://ir.canalte.ch/ct-11781"
+      },
+      {
+        "nome": "Oppo no Mercado Livre (loja oficial, Black Friday)",
+        "url": "https://www.mercadolivre.com.br/loja/oppo/black-friday"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "A6t R$ 799 no ML a partir de 23/11; A5 Pro de R$ 2.899 por R$ 1.999; Reno16 F R$ 2.999 no Pix; tela frontal grátis 1 vez no Reno16/16 F ativado até 30/11; 2 anos de garantia. Segunda fonte é a loja oficial no ML (leitor compra lá); redator confere preços na página, e o que não conferir vai como 'segundo o Canaltech'.",
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-19",
+    "viral": 4,
+    "post": "oppo-black-friday-2026-ate-30-a6t-a5-pro-reno16-f-mercado-livre"
+  },
+  {
+    "id": "ia-gratis-criar-videos-como-fazer",
+    "titulo": "Como criar vídeos com IA de graça: 5 opções que funcionam no celular",
+    "palavra_chave": "ia grátis para criar vídeos",
+    "secundarias": [],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 2.75,
+    "editoria": "inteligencia-artificial",
+    "tipo": "tutorial",
+    "produtos_necessarios": 0,
+    "motivo": "Busca forte (2,75) sem post; editoria de IA pede tutoriais.",
+    "status": "pendente",
+    "criada": "2026-11-19"
+  },
+  {
+    "id": "inteligencia-artificial-como-usar-no-celular",
+    "titulo": "Inteligência artificial no celular: como usar no dia a dia, passo a passo",
+    "palavra_chave": "inteligência artificial como usar no celular",
+    "secundarias": [
+      "inteligência artificial para celular"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 2.5,
+    "editoria": "inteligencia-artificial",
+    "tipo": "tutorial",
+    "produtos_necessarios": 0,
+    "motivo": "Termo 2,5 sem cobertura; complementa o post de IAs grátis para Android.",
+    "status": "pendente",
+    "criada": "2026-11-19"
+  },
+  {
+    "id": "golpe-pix-errado-o-que-fazer",
+    "titulo": "Golpe do Pix errado: como funciona e o que fazer se cair",
+    "palavra_chave": "golpe pix errado",
+    "secundarias": [
+      "golpe pix errado o que fazer"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 2.0,
+    "editoria": "tecnologia",
+    "tipo": "tutorial",
+    "produtos_necessarios": 0,
+    "motivo": "Termo sem post; Black Friday aumenta golpes e o público é enorme.",
+    "status": "publicada",
+    "criada": "2026-11-19",
+    "post": "golpe-pix-errado-o-que-fazer"
+  },
+  {
+    "id": "review-samsung-galaxy-a07-vale-a-pena",
+    "titulo": "Galaxy A07 vale a pena? Análise de ficha técnica e para quem serve",
+    "palavra_chave": "review celular samsung galaxy a07",
+    "secundarias": [],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 2.83,
+    "editoria": "celulares",
+    "tipo": "analise",
+    "produtos_necessarios": 0,
+    "motivo": "Review de celular de entrada com busca 2,83 sem post (conferir fonte oficial e preços antes de escrever).",
+    "status": "publicada",
+    "criada": "2026-11-19",
+    "post": "galaxy-a07-vale-a-pena-review"
+  },
+  {
+    "id": "power-bank-solar-vale-a-pena",
+    "titulo": "Power bank solar vale a pena? O que ele carrega de verdade",
+    "palavra_chave": "power bank solar",
+    "secundarias": [],
+    "fontes_termo": [
+      "google",
+      "mercadolivre"
+    ],
+    "forca": 3.87,
+    "subnicho": "power-banks-carregadores",
+    "tipo": "guia",
+    "produtos_necessarios": 0,
+    "motivo": "Termo Google+ML (3,87) sem post; guia desmistifica e leva às listas de power bank.",
+    "status": "publicada",
+    "criada": "2026-11-19",
+    "post": "power-bank-solar-vale-a-pena"
+  },
+  {
+    "id": "headset-gamer-bluetooth-ou-fio-qual-escolher",
+    "titulo": "Headset gamer Bluetooth ou com fio: qual escolher",
+    "palavra_chave": "headset gamer bluetooth",
+    "secundarias": [],
+    "fontes_termo": [
+      "google",
+      "mercadolivre"
+    ],
+    "forca": 3.88,
+    "subnicho": "acessorios-gamer",
+    "tipo": "guia",
+    "produtos_necessarios": 0,
+    "motivo": "Termo Google+ML (3,88) sem post; 13 produtos gamer ativos.",
+    "status": "publicada",
+    "criada": "2026-11-19",
+    "post": "headset-gamer-bluetooth-ou-fio-qual-escolher"
+  },
+  {
+    "id": "mouse-gamer-logitech-qual-escolher",
+    "titulo": "Mouse gamer Logitech: qual escolher (G203 e alternativas)",
+    "palavra_chave": "mouse gamer logitech",
+    "secundarias": [],
+    "fontes_termo": [
+      "google",
+      "mercadolivre"
+    ],
+    "forca": 4.0,
+    "subnicho": "acessorios-gamer",
+    "tipo": "guia",
+    "produtos_necessarios": 0,
+    "motivo": "Termo 4,0 Google+ML sem post; G203 está no catálogo.",
+    "status": "pendente",
+    "criada": "2026-11-19"
+  },
+  {
+    "id": "carregador-turbo-samsung-qual-comprar",
+    "titulo": "Carregador turbo Samsung: 25 W, 45 W ou genérico, qual comprar",
+    "palavra_chave": "carregador turbo samsung",
+    "secundarias": [
+      "carregador turbo tipo c"
+    ],
+    "fontes_termo": [
+      "google",
+      "mercadolivre"
+    ],
+    "forca": 4.19,
+    "subnicho": "power-banks-carregadores",
+    "tipo": "guia",
+    "produtos_necessarios": 0,
+    "motivo": "Termo 4,19 Google+ML sem post; EP-TA800 no catálogo.",
+    "status": "pendente",
+    "criada": "2026-11-19"
   }
 ]

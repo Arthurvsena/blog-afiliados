@@ -98,6 +98,8 @@ Muita gente paga porque "um parente pediu". Se o número foi clonado, siga o pas
 
 Na minha leitura, o MED é uma boa rede de proteção, não um seguro. Aja no mesmo dia, junte as provas e trate qualquer devolução como bônus.
 
+Recebeu um Pix de desconhecido que pede devolução? Veja o [golpe do Pix errado e o que fazer](/posts/golpe-pix-errado-o-que-fazer/).
+
 :::veredito
 Caiu no golpe: app do banco, MED e BO hoje. Dá para tentar, mas não conte com o dinheiro de volta.
 :::
