@@ -1,0 +1,94 @@
+{
+ "tipo": "short",
+ "quadro": "60s",
+ "slug": "2026-11-20-gta-6-autosave-falha-como-se-proteger",
+ "post": "",
+ "titulo": "GTA 6 autosave falha e jogadores perdem 10 horas #shorts",
+ "resumo": "GTA 6 tem relatos de autosave falhando e jogadores perdendo mais de 10 horas no PS5 e no Xbox, segundo o Canaltech. A Rockstar não confirmou causa nem frequência. Veja 3 defesas simples para não perder seu progresso.",
+ "hashtags": ["GTA6", "Rockstar", "PS5", "Xbox"],
+ "fontes": [
+  {
+   "nome": "Canaltech",
+   "url": "https://canaltech.com.br/games/falha-grava-no-autosave-de-gta-6-faz-jogadores-perderem-dezenas-de-horas-de-gameplay/"
+  },
+  {
+   "nome": "Rockstar Games (página oficial do jogo)",
+   "url": "https://www.rockstargames.com/VI"
+  }
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O jogo mais esperado da década pode apagar suas dez horas.",
+   "tela": "Pode apagar suas 10 horas",
+   "imagens": [
+    "tela:https://www.rockstargames.com/VI"
+   ]
+  },
+  {
+   "tipo": "fato",
+   "fala": "Segundo o Canaltech, jogadores de {GTA 6|Gê Tê Á seis} relatam travamentos no PS5 e no Xbox que podem corromper o save.",
+   "imagens": [
+    "url:https://www.rockstargames.com/VI/_next/static/media/poster_full.0az_iud2g3y4j.jpg?akim=1&imdensity=1&imwidth=3840|Divulgação/Rockstar Games",
+    "url:https://www.rockstargames.com/VI/_next/static/media/shard1.14.-n-5n.4nws.png?akim=1&imdensity=1&imwidth=3840|Divulgação/Rockstar Games"
+   ],
+   "fonte": "Canaltech, 19/11"
+  },
+  {
+   "tipo": "numero",
+   "fala": "Tem gente contando mais de {10 horas|dez horas} de jogo perdidas.",
+   "destaque": "10+ h",
+   "rotulo": "perdidas, segundo relatos",
+   "imagens": [
+    "url:https://www.rockstargames.com/VI/_next/static/media/shard3.120i1.3ll3tb9.png?akim=1&imdensity=1&imwidth=3840|Divulgação/Rockstar Games"
+   ],
+   "fonte": "Canaltech, 19/11"
+  },
+  {
+   "tipo": "manchete",
+   "fala": "A causa não foi confirmada, e a {Rockstar|Róquestar} não disse com que frequência o {autosave|autossêive} cria backups.",
+   "manchete": {
+    "url": "https://canaltech.com.br/games/falha-grava-no-autosave-de-gta-6-faz-jogadores-perderem-dezenas-de-horas-de-gameplay/",
+    "trecho": "mais de 10 horas de jogo"
+   }
+  },
+  {
+   "tipo": "info",
+   "fala": "Defesa um: salve manualmente, e com frequência.",
+   "icone": "check",
+   "imagens": [
+    "url:https://www.rockstargames.com/VI/_next/static/media/shard5.0qdavlhu9vx3m.png?akim=1&imdensity=1&imwidth=3840|Divulgação/Rockstar Games"
+   ]
+  },
+  {
+   "tipo": "lista",
+   "fala": "Dois: não desligue o console com o jogo rodando. Três: o {autosave|autossêive} não aparece no menu de salvar. Procure na aba Carregar jogo.",
+   "titulo_lista": "COMO SE PROTEGER",
+   "itens": [
+    "Salve manualmente",
+    "Não desligue com o jogo aberto",
+    "Ache o autosave em Carregar jogo"
+   ],
+   "imagens": [
+    "url:https://www.rockstargames.com/VI/_next/static/media/shard0.0_vm6ya9-h67x.png?akim=1&imdensity=1&imwidth=3840|Divulgação/Rockstar Games"
+   ],
+   "fonte": "Canaltech, 19/11"
+  },
+  {
+   "tipo": "fato",
+   "fala": "Com um jogo desses, o botão de salvar virou item de sobrevivência.",
+   "imagens": [
+    "url:https://www.rockstargames.com/VI/_next/static/media/shard4.0bi8cg9mdh8p4.png?akim=1&imdensity=1&imwidth=3840|Divulgação/Rockstar Games"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "fala": "Salvou agora? Porque o jogo mais esperado da década pode apagar suas dez horas.",
+   "tela": "Você já salvou hoje?",
+   "imagens": [
+    "url:https://www.rockstargames.com/VI/_next/static/media/poster_full.0az_iud2g3y4j.jpg?akim=1&imdensity=1&imwidth=3840|Divulgação/Rockstar Games"
+   ]
+  }
+ ],
+ "palavra_chave": "gta 6 autosave"
+}

@@ -1,6 +1,255 @@
 {
- "atualizado": "2026-11-19",
+ "atualizado": "2026-11-20",
  "tendencias": [
+  {
+   "data": "2026-11-20",
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "status": "em_video",
+   "origem": "brasil",
+   "assunto": "GTA 6: falha no autosave faz jogadores perderem dezenas de horas no PS5 e no Xbox (e como se proteger)",
+   "por_que_em_alta": "Canaltech (19/11, 13h06, Raphael Giannotti): relatos de travamentos que corrompem o save, até 10+ horas perdidas, jogadores presos na 1ª missão; autosave não aparece no menu de salvar (fica na aba Carregar jogo); sem comunicado da Rockstar. Dia 2 do lançamento, assunto nº 1 do mês. Busca extra em inglês não achou confirmação independente.",
+   "evidencias": [
+    "https://canaltech.com.br/games/falha-grava-no-autosave-de-gta-6-faz-jogadores-perderem-dezenas-de-horas-de-gameplay/"
+   ],
+   "angulo": "Gancho: o jogo mais esperado da década pode apagar suas 10 horas. O que os jogadores relatam, o que ninguém confirmou (causa e frequência), e 3 defesas práticas: salvar manualmente, não desligar o console, procurar o autosave na aba Carregar jogo. Comentário Nexus: 13 anos de espera e o botão de salvar virou item de sobrevivência.",
+   "formato": "alerta",
+   "tipo": "short",
+   "quadro": "60s",
+   "verificar_antes": "Só o Canaltech lido; sem 2ª fonte nem posicionamento da Rockstar. Buscar Rockstar Support/newswire e imprensa de fora antes de gravar; dizer 'jogadores relatam'. Se a Rockstar soltar patch, atualizar. Não repetir os vídeos de golpes e de 30 fps.",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/games/falha-grava-no-autosave-de-gta-6-faz-jogadores-perderem-dezenas-de-horas-de-gameplay/"
+    },
+    {
+     "nome": "Rockstar Support (a conferir)",
+     "url": "https://support.rockstargames.com/"
+    }
+   ],
+   "nota": 4
+  },
+  {
+   "data": "2026-11-20",
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "status": "nova",
+   "origem": "gringo",
+   "assunto": "Xiaomi 18 Pro chega à Europa por €1.399, mas com bateria menor que a da China; e no Brasil?",
+   "por_que_em_alta": "Global em Paris em 17/11: Techloy, Gizchina, 91mobiles, TechNode e Gagadget concordam em €1.399 (18 Pro) e €1.599 (Pro Max 512 GB); vazamentos indicam bateria de 7.000 para 6.000 mAh na versão global (não confirmado). Showmetech (BR) cobre o lançamento; o link sugere Brasil em jan/2027, não confirmado. Já fizemos o Lá Fora da versão chinesa em 12/11: este é o ângulo 'global é diferente'.",
+   "evidencias": [
+    "https://www.techloy.com/xiaomi-18-pro-max-global-launch-price-specs/",
+    "https://technode.com/2026/11/18/xiaomi-takes-its-rear-screen-flagship-phones-overseas-starting-at-e1399/",
+    "https://gagadget.com/en/733586-xiaomi-18-pro-heads-to-europe-on-nov-17-with-smaller-batteries/",
+    "https://www.showmetech.com.br/xiaomi-18-pro-pro-max-lancamento-global-brasil-janeiro-2027/"
+   ],
+   "angulo": "Lá Fora, Aqui: o Xiaomi que bombou na China vira outro celular quando sai de lá (bateria menor, preço de €1.399). Por que importa, tabela China x Europa, o que se sabe do Brasil (sem data oficial: dizer), alternativas do catálogo e veredito. Preço em reais só como estimativa com cotação e data.",
+   "formato": "comparativo",
+   "tipo": "longo",
+   "quadro": "lafora",
+   "palavra_chave": "xiaomi 18 pro preço brasil",
+   "criterios_gringo": "1 sim (5+ fontes em 3 dias); 2 sim (Xiaomi é top 3 no Brasil, importação e lançamento futuro); 3 parcial (Showmetech e Canaltech em texto; checar vídeo em PT no YouTube BR); 4 sim (post/guia de Xiaomi). 3 a 4 de 4.",
+   "verificar_antes": "Sem termo no vidIQ: nota menor e dizer. Confirmar bateria global na página oficial da Xiaomi (Europa); data do Brasil só se Xiaomi Brasil confirmar. Abrir o Showmetech para ler (só o título visto). Não repetir o roteiro de 12/11. Candidato à quinta 26/11.",
+   "fontes": [
+    {
+     "nome": "Techloy",
+     "url": "https://www.techloy.com/xiaomi-18-pro-max-global-launch-price-specs/"
+    },
+    {
+     "nome": "TechNode",
+     "url": "https://technode.com/2026/11/18/xiaomi-takes-its-rear-screen-flagship-phones-overseas-starting-at-e1399/"
+    },
+    {
+     "nome": "Gagadget",
+     "url": "https://gagadget.com/en/733586-xiaomi-18-pro-heads-to-europe-on-nov-17-with-smaller-batteries/"
+    },
+    {
+     "nome": "Xiaomi (a conferir)",
+     "url": "https://www.mi.com/global/"
+    }
+   ],
+   "nota": 4
+  },
+  {
+   "data": "2026-11-20",
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "status": "nova",
+   "origem": "brasil",
+   "assunto": "Como usar o celular como webcam no OBS (Android e iPhone, sem pagar)",
+   "por_que_em_alta": "vidIQ (18/11): 'como usar o celular como webcam no obs' 15 mil buscas/mês, concorrência 29, nota 66; 'como usar o celular como webcam' 46,6 mil, concorrência 50, nota 62; 'como colocar a camera do celular no obs' 11,7 mil, concorrência 21, nota 68. Evergreen, dá para mostrar com gravação de tela do OBS e das páginas oficiais.",
+   "evidencias": [
+    "data/vidiq.json: como usar o celular como webcam no obs (vidIQ: 15 mil buscas/mês, concorrência 29, nota 66)"
+   ],
+   "angulo": "Resultado primeiro: em 5 minutos o celular vira uma webcam melhor que a do notebook. Passos com a página oficial do OBS, Câmera de Continuidade da Apple e a opção de webcam do Android (USB); o que precisa, para quem não serve e os 3 erros comuns (câmera não aparece, imagem espelhada, atraso).",
+   "formato": "tutorial",
+   "tipo": "tutorial",
+   "quadro": "tutorial",
+   "palavra_chave": "como usar o celular como webcam no obs",
+   "verificar_antes": "Conferir cada passo nas páginas oficiais (OBS Project, Apple Continuity Camera, Android/Google). Versões: Android 14+ e iOS 16+ a confirmar. Não indicar app pirata. Candidato à terça 25/11.",
+   "fontes": [
+    {
+     "nome": "OBS Project (a conferir)",
+     "url": "https://obsproject.com/kb"
+    },
+    {
+     "nome": "Apple Suporte (a conferir)",
+     "url": "https://support.apple.com/pt-br"
+    },
+    {
+     "nome": "Ajuda do Android (a conferir)",
+     "url": "https://support.google.com/android"
+    }
+   ],
+   "nota": 4
+  },
+  {
+   "data": "2026-11-20",
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "status": "nova",
+   "origem": "brasil",
+   "assunto": "Como desbloquear o celular quando esquece a senha (só pelos caminhos oficiais do fabricante)",
+   "por_que_em_alta": "vidIQ (18/11): 'como desbloquear o celular quando esquece a senha' 15,5 mil buscas/mês, concorrência 26, nota 67 (a melhor relação do arquivo para dúvida de celular).",
+   "evidencias": [
+    "data/vidiq.json: como desbloquear o celular quando esquece a senha (vidIQ: 15,5 mil buscas/mês, concorrência 26, nota 67)"
+   ],
+   "angulo": "Resultado primeiro: como voltar ao celular sem perder tudo (e quando perder é inevitável). Caminhos oficiais: Encontre meu dispositivo (Google), Find My Mobile (Samsung), iCloud/Buscar (Apple); o aviso de que tudo apaga sem backup; e o alerta contra sites e 'técnicos' que prometem desbloqueio.",
+   "formato": "tutorial",
+   "tipo": "tutorial",
+   "quadro": "tutorial",
+   "palavra_chave": "como desbloquear o celular quando esquece a senha",
+   "verificar_antes": "Só páginas oficiais; mostrar que exige a conta do dono do aparelho (não ensinar a burlar bloqueio de celular alheio/roubado). Conferir menus em PT-BR. Segunda opção para terça 02/12.",
+   "fontes": [
+    {
+     "nome": "Google Encontre meu dispositivo (a conferir)",
+     "url": "https://support.google.com/android"
+    },
+    {
+     "nome": "Samsung Suporte (a conferir)",
+     "url": "https://www.samsung.com/br/support/"
+    },
+    {
+     "nome": "Apple Suporte (a conferir)",
+     "url": "https://support.apple.com/pt-br"
+    }
+   ],
+   "nota": 4
+  },
+  {
+   "data": "2026-11-20",
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "status": "nova",
+   "origem": "brasil",
+   "assunto": "Vulnerabilidade 'Java4Shell' (CVE-2026-114938): nota 9,2 e correção da Oracle de 17/11",
+   "por_que_em_alta": "Canaltech (19/11, Marcelo Fischer), com Tom's Hardware, Calif, Oracle, CERT-EU e Check Point: falha no decodificador Base64 do OpenJDK, execução remota de código; afeta Java 17, 21, 25 e 27 em CPUs com AVX-512 VBMI (Ice Lake, Zen 4); sem ataques confirmados até 18/11. Assunto técnico: público menor.",
+   "evidencias": [
+    "https://canaltech.com.br/seguranca/vulnerabilidade-critica-afeta-milhoes-de-sites-apps-e-servicos-feitos-em-java/"
+   ],
+   "angulo": "Gancho: uma falha nota 9,2 no Java pode afetar milhões de sites e apps. Em linguagem simples: o que é, quem precisa agir (quem administra servidor, não o usuário comum) e o que o usuário faz (nada além de atualizar apps).",
+   "formato": "alerta",
+   "tipo": "short",
+   "quadro": "60s",
+   "verificar_antes": "Conferir CVE, nota e versões no aviso da Oracle e no CERT-EU antes de citar. Não dizer que o usuário comum corre risco direto. Reserva.",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/seguranca/vulnerabilidade-critica-afeta-milhoes-de-sites-apps-e-servicos-feitos-em-java/"
+    },
+    {
+     "nome": "Oracle Security Alerts (a conferir)",
+     "url": "https://www.oracle.com/security-alerts/"
+    },
+    {
+     "nome": "CERT-EU (a conferir)",
+     "url": "https://cert.europa.eu/"
+    }
+   ],
+   "nota": 3
+  },
+  {
+   "data": "2026-11-20",
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "status": "nova",
+   "origem": "gringo",
+   "assunto": "Projeto 'Protect Our Games Act' nos EUA quer que jogos comprados funcionem para sempre",
+   "por_que_em_alta": "Canaltech (19/11), citando Notebookcheck: deputado Maxwell Frost apresentou o projeto em 18/11 (evento Future of Game Ownership); exige acesso a servidores se o serviço oficial for encerrado. Liga com a pauta do fechamento da PS Store do PS3. Divergência: busca achou um projeto de nome igual na Califórnia (AB 1921, aprovado na Assembleia em maio, só jogos de 2027 em diante); a UE recusou lei em junho.",
+   "evidencias": [
+    "https://canaltech.com.br/games/nova-lei-garante-que-jogos-comprados-funcionem-para-sempre/",
+    "https://engadget.com/2174011/california-lawmakers-are-working-on-a-bill-to-preserve-access-to-online-games"
+   ],
+   "angulo": "Gancho: você comprou o jogo, mas a empresa pode apagar o servidor. O que o projeto prevê, por que ainda não é lei, e o que muda para o brasileiro (nada ainda). Comentário Nexus: dono do jogo é quem tem o servidor.",
+   "formato": "explicador",
+   "tipo": "short",
+   "quadro": "60s",
+   "criterios_gringo": "1 sim (Notebookcheck, Engadget, GamesRadar); 2 parcial; 3 parcial; 4 parcial (PS3). 2 a 3 de 4: reserva.",
+   "verificar_antes": "Matéria diz projeto federal sem número; busca mostra versão da Califórnia: abrir Notebookcheck e o texto no Congresso/legislatura antes de gravar. Título da matéria diz 'nova lei': é só projeto. Reserva.",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/games/nova-lei-garante-que-jogos-comprados-funcionem-para-sempre/"
+    },
+    {
+     "nome": "Engadget",
+     "url": "https://engadget.com/2174011/california-lawmakers-are-working-on-a-bill-to-preserve-access-to-online-games"
+    }
+   ],
+   "nota": 3
+  },
+  {
+   "data": "2026-11-20",
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "status": "nova",
+   "origem": "brasil",
+   "assunto": "iPhone 18, 18e e Air 2 já em março? Rumor da cadeia de suprimentos contradiz Gurman (2º tri de 2027)",
+   "por_que_em_alta": "Canaltech (19/11, Bruno Bertonzin), com ItHome: iPhone 18, 18e e Air 2 no 1º tri de 2027; Apple não confirmou. Nossa pauta de 14/11 (Gurman: iPhone 18 e 18e só no 2º tri de 2027) diz outra coisa: rumores brigando.",
+   "evidencias": [
+    "https://canaltech.com.br/smartphone/apple-pode-surpreender-com-3-novos-iphones-ja-em-marco-diz-leaker/"
+   ],
+   "angulo": "Gancho: dois rumores sobre o próximo iPhone, duas datas diferentes. Quem disse o quê, quem costuma acertar e o que esperar. Só vale se juntar com a pauta de Gurman e deixar claro que é rumor.",
+   "formato": "explicador",
+   "tipo": "short",
+   "quadro": "60s",
+   "verificar_antes": "Rumor, fonte de segunda mão (ItHome). Reserva; só gravar com 2ª fonte (Gurman/Bloomberg) lida.",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/smartphone/apple-pode-surpreender-com-3-novos-iphones-ja-em-marco-diz-leaker/"
+    }
+   ],
+   "nota": 2
+  },
   {
    "data": "2026-11-19",
    "imagens_oficiais": [],
@@ -680,7 +929,7 @@
    },
    "status": "nova",
    "assunto": "Histórias Tech: Windows 1.0, o 'programa' da Microsoft que chegou em 20/11/1985 e ninguém queria",
-   "por_que_em_alta": "Aniversário amanhã (20/11/1985, 41 anos). Busca de 19/11 confirma em 3 fontes: Wikipedia (1.01 vendido nos EUA por US$ 99, MS-DOS Executive como gerenciador de arquivos, 1.02 internacional em mai/1986, suporte até 31/12/2001), Register e History.com. Datas da 1ª demonstração divergem (1983): usar só 20/11/1985. Publicar 20/11 ou fim de semana.",
+   "por_que_em_alta": "HOJE (20/11/2026) faz 41 anos do lançamento do Windows 1.0 (busca de 20/11 confirma 20/11/1985, US$ 99, interface gráfica sobre o MS-DOS). Publicar hoje ou no fim de semana. Aniversário amanhã (20/11/1985, 41 anos). Busca de 19/11 confirma em 3 fontes: Wikipedia (1.01 vendido nos EUA por US$ 99, MS-DOS Executive como gerenciador de arquivos, 1.02 internacional em mai/1986, suporte até 31/12/2001), Register e History.com. Datas da 1ª demonstração divergem (1983): usar só 20/11/1985. Publicar 20/11 ou fim de semana.",
    "evidencias": [
     "https://www.history.com/this-day-in-history/november-20/microsoft-releases-windows-1-0"
    ],
@@ -699,7 +948,7 @@
      "url": "https://computerhistory.org/"
     }
    ],
-   "nota": 4
+   "nota": 5
   },
   {
    "data": "2026-11-14",
@@ -1024,71 +1273,6 @@
   },
   {
    "data": "2026-11-13",
-   "assunto": "Jogos de PS5 rodando num PS4 desbloqueado via emulador experimental (emuFive)",
-   "por_que_em_alta": "Canaltech (12/11), citando Wccftech: o desenvolvedor blue0x1 rodou God of War: Sons of Sparta (40 fps no PS4 Pro) e Hollow Knight: Silksong. Só em PS4 com jailbreak; experimental. Canaltech alerta para emuladores falsos no GitHub que roubam senhas. Fonte primária ainda não aberta.",
-   "evidencias": [
-    "https://canaltech.com.br/games/o-impossivel-aconteceu-jogos-de-ps5-comecam-a-rodar-no-ps4-via-emulador/"
-   ],
-   "angulo": "Gancho: jogos de PS5 rodando num PS4, mas não é o que parece. Quem fez, o limite (CPU Jaguar fraca, só jogos leves, só console desbloqueado) e o alerta de golpe com falsos emuladores. Não incentivar pirataria nem jailbreak.",
-   "formato": "explicador",
-   "tipo": "short",
-   "quadro": "60s",
-   "verificar_antes": "Abrir o Wccftech/post do desenvolvedor. Tratar como experimento; sem tutorial de jailbreak. Reserva se não houver segunda fonte.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/games/o-impossivel-aconteceu-jogos-de-ps5-comecam-a-rodar-no-ps4-via-emulador/"
-    },
-    {
-     "nome": "Wccftech (a localizar)",
-     "url": "https://wccftech.com/playstation-5-games-on-playstation-4-emufive/"
-    }
-   ],
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "nota": 3,
-   "status": "nova",
-   "origem": "gringo"
-  },
-  {
-   "data": "2026-11-13",
-   "assunto": "Apple passa a aceitar dobráveis da Samsung na troca (Trade In) nos EUA: até US$ 410 pelo Fold7",
-   "por_que_em_alta": "Canaltech (12/11, 16h20): seis modelos Galaxy Z Fold/Flip entram no Trade In americano; crédito máximo US$ 410 (Fold7) a US$ 125 (Flip5), como desconto ou vale-presente; iPhone 17 Pro Max cai de US$ 885 para US$ 855. Canaltech liga ao tema de Apple e Samsung compartilharem tecnologia de tela dobrável. A matéria não cita anúncio oficial: confirmar.",
-   "evidencias": [
-    "https://canaltech.com.br/smartphone/apple-esta-comprando-celulares-dobraveis-da-samsung-veja-quanto-paga/",
-    "https://canaltech.com.br/smartphone/apple-e-samsung-vao-compartilhar-tecnologia-de-tela-dobravel-diz-jornal/"
-   ],
-   "angulo": "Gancho: a Apple agora paga pelo dobrável da Samsung, pensando no iPhone Duo. Liga ao Short do iPhone Duo e à pergunta 'vale trocar no Brasil?' (o programa é dos EUA, sem previsão aqui). Reserva do 60s.",
-   "formato": "noticia",
-   "tipo": "short",
-   "quadro": "60s",
-   "verificar_antes": "Conferir na página de Trade In da Apple EUA os valores; sem fonte oficial, não publicar. Valores em reais são estimativa.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/smartphone/apple-esta-comprando-celulares-dobraveis-da-samsung-veja-quanto-paga/"
-    },
-    {
-     "nome": "Apple Trade In (EUA, a conferir)",
-     "url": "https://www.apple.com/shop/trade-in"
-    }
-   ],
-   "imagens_oficiais": [],
-   "post_relacionado": "iphone-duo-vale-a-pena-dobravel",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "nota": 3,
-   "status": "nova",
-   "origem": "gringo"
-  },
-  {
-   "data": "2026-11-13",
    "assunto": "Como ter dois WhatsApp no iPhone (conta pessoal e Business, passo a passo)",
    "quadro": "tutorial",
    "tipo": "tutorial",
@@ -1149,39 +1333,6 @@
   },
   {
    "data": "2026-11-12",
-   "assunto": "Sony vai encerrar o app do PS Plus para PC em 10/12: menos de 0,4% dos assinantes usavam",
-   "por_que_em_alta": "Canaltech (11/11, home de games hoje), citando comunicado da Sony no PlayStation Blog: o streaming em nuvem do PS Plus no Windows acaba em 10/12; motivo declarado: uso por menos de 0,4% dos membros Premium/Deluxe. Busca web não achou o post oficial: verificar.",
-   "evidencias": [
-    "https://canaltech.com.br/games/tchau-pc-sony-vai-encerrar-app-do-ps-plus-e-jogos-em-nuvem-no-computador/"
-   ],
-   "angulo": "Gancho: a Sony desligou um serviço porque menos de 0,4% usava. O que se perde (clássicos de PS3 no PC), o que não muda (jogos nativos na Steam/Epic) e o que quem paga Premium no Brasil ainda tem no console. Reserva do 60s do dia.",
-   "formato": "noticia",
-   "tipo": "short",
-   "quadro": "60s",
-   "verificar_antes": "Achar o post oficial no PlayStation Blog (data 10/12 e a cifra de 0,4%) e checar se o app existia para o Brasil. Sem o post, não publicar.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/games/tchau-pc-sony-vai-encerrar-app-do-ps-plus-e-jogos-em-nuvem-no-computador/"
-    },
-    {
-     "nome": "PlayStation Blog (a localizar)",
-     "url": "https://blog.playstation.com/category/ps-plus/"
-    }
-   ],
-   "imagens_oficiais": [
-    "https://www.playstation.com/pt-br/ps-plus/"
-   ],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "nota": 3,
-   "status": "nova"
-  },
-  {
-   "data": "2026-11-12",
    "assunto": "Xiaomi 18 Pro Max: bateria de 8.500 mAh e 100 W na China, global ainda sem data. Chega ao Brasil? Por quanto?",
    "por_que_em_alta": "Ubergizmo (23/09), Borncity e Digital Citizen: China, Pro a 5.999 yuan (~20% acima do 17 Pro) e Pro Max a 6.999 yuan; Lei Jun confirmou lançamento internacional em 2026, sem data, mercados ou preço; versões globais podem ter baterias menores (6.000 e 7.050 mAh, relato não oficial). Canaltech (12/11) segue cobrindo bateria gigante e Xiaomi 18 em pré-venda. Liga com a corrida de mAh e com os guias de power bank.",
    "evidencias": [
@@ -1221,145 +1372,6 @@
    },
    "nota": 4,
    "status": "em_video"
-  },
-  {
-   "data": "2026-11-12",
-   "assunto": "Galaxy Z Slide: Samsung teria celular com tela que desliza e estica (rumor, 3º tri de 2027)",
-   "por_que_em_alta": "Canaltech (11/11): renders não oficiais de Ice Universe e Sammy Guru, tela 16:9 a 21:9, patente recente citada; Samsung não confirmou nada.",
-   "evidencias": [
-    "https://canaltech.com.br/smartphone/esqueca-os-dobraveis-samsung-prepara-celular-com-tela-que-desliza-e-estica/"
-   ],
-   "angulo": "Reserva: tratar como rumor, só se aparecer 2ª fonte de fora (GSMArena/SamMobile).",
-   "formato": "noticia",
-   "tipo": "short",
-   "quadro": "60s",
-   "verificar_antes": "Rumor de uma fonte lida: não publicar sem segunda fonte.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/smartphone/esqueca-os-dobraveis-samsung-prepara-celular-com-tela-que-desliza-e-estica/"
-    }
-   ],
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "nota": 2,
-   "status": "nova"
-  },
-  {
-   "data": "2026-11-11",
-   "assunto": "GTA 6 no Xbox One: só pela nuvem, com fila e limite de 15 horas por mês para novo assinante",
-   "por_que_em_alta": "Canaltech (10/11): a Rockstar e a Microsoft confirmaram o jogo no Xbox One via Xbox Cloud Gaming (presets do Series S), exige Game Pass, sem PC, celular, navegador ou TV; lançamento em 19/11. Canaltech destaca na home hoje. Tema de GTA 6 segue o de maior volume da semana.",
-   "evidencias": [
-    "https://canaltech.com.br/games/xbox-one-vira-o-console-mais-barato-para-jogar-gta-6-mas-ha-um-grande-porem/"
-   ],
-   "angulo": "Gancho: dá para jogar GTA 6 no Xbox One de 2013, mas só pela nuvem e com um limite de horas. Quem tem console antigo: o que funciona, o porém (fila, 15 h por mês para novos assinantes do Game Pass) e quando compensa comprar outro aparelho. Não repete o vídeo do pré-load: foco em quem tem console velho.",
-   "formato": "explicador",
-   "tipo": "short",
-   "quadro": "60s",
-   "verificar_antes": "Confirmar no Rockstar Newswire e no Xbox Wire a regra do Cloud Gaming (limite de 15 h, planos por hora) e se o Xbox Cloud Gaming está disponível no Brasil. Só uma fonte lida até agora.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/games/xbox-one-vira-o-console-mais-barato-para-jogar-gta-6-mas-ha-um-grande-porem/"
-    },
-    {
-     "nome": "Rockstar Games Newswire",
-     "url": "https://www.rockstargames.com/newswire"
-    },
-    {
-     "nome": "Xbox Wire (a localizar)",
-     "url": "https://news.xbox.com/pt-br/"
-    }
-   ],
-   "imagens_oficiais": [
-    "https://www.rockstargames.com/newswire"
-   ],
-   "post_relacionado": "xbox-series-fsr-4-1-gta-6-o-que-muda",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "nota": 5,
-   "status": "nova"
-  },
-  {
-   "data": "2026-11-11",
-   "assunto": "Motorola Signature 27 chega ao Brasil por R$ 10.999 com a 2ª melhor câmera do ranking DXOMark",
-   "por_que_em_alta": "Tecnoblog (05/11) e Baguete: pré-venda no site da Motorola, 256 GB a partir de R$ 10.999 e 512 GB a R$ 11.999; DXOMark 173 pontos, atrás do Huawei Pura 80 Ultra (175); Snapdragon 8 Elite Extreme Gen 6, bateria de 7.000 mAh, 90 W. Celular de R$ 11 mil gera comparação com iPhone e Galaxy.",
-   "evidencias": [
-    "https://tecnoblog.net/noticias/celular-com-a-2a-melhor-camera-do-mundo-chega-ao-brasil/",
-    "https://www.baguete.com.br/noticias/motorola-quer-concorrer-no-mercado-premium"
-   ],
-   "angulo": "Gancho: um celular de R$ 10.999 com a segunda melhor câmera do mundo segundo o DXOMark, de uma marca que muita gente associa a celular barato. O que a nota significa, o que vem na caixa (carregador de 90 W) e para quem não faz sentido gastar isso.",
-   "formato": "noticia",
-   "tipo": "short",
-   "quadro": "60s",
-   "verificar_antes": "Abrir a página oficial da Motorola Brasil e o ranking DXOMark para confirmar preço, nota e posição; preços de operadora dependem de plano: omitir. Falar 'preço de pré-venda em 05/11'.",
-   "fontes": [
-    {
-     "nome": "Tecnoblog",
-     "url": "https://tecnoblog.net/noticias/celular-com-a-2a-melhor-camera-do-mundo-chega-ao-brasil/"
-    },
-    {
-     "nome": "Baguete",
-     "url": "https://www.baguete.com.br/noticias/motorola-quer-concorrer-no-mercado-premium"
-    },
-    {
-     "nome": "DXOMark (a conferir)",
-     "url": "https://www.dxomark.com/smartphones/"
-    }
-   ],
-   "imagens_oficiais": [
-    "https://www.motorola.com.br/"
-   ],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial; curador pode avaliar se há Motorola no catálogo."
-   },
-   "nota": 4,
-   "status": "nova"
-  },
-  {
-   "data": "2026-11-11",
-   "assunto": "Claude vai marcar textos gerados por IA com marca d'água invisível: o que isso prova e o que não prova",
-   "por_que_em_alta": "Tecnoblog, Canaltech, TecMundo, Fast Company Brasil, Times Brasil e Alura cobrem; a Anthropic tem página de ajuda oficial. A própria empresa diz que a marca não prova autoria. Tema forte para estudantes e criadores de conteúdo.",
-   "evidencias": [
-    "https://tecnoblog.net/noticias/anthropic-vai-identificar-textos-e-imagens-gerados-pelo-claude/",
-    "https://canaltech.com.br/inteligencia-artificial/marca-dagua-do-claude-ajuda-na-transparencia-mas-nao-prova-autoria-de-textos",
-    "https://support.claude.com/pt/articles/16266773-como-claude-marca-conteudo-gerado-por-ia"
-   ],
-   "angulo": "Gancho: seu texto feito com IA pode carregar uma assinatura invisível. Como funciona, o que a empresa admite (edição, tradução e texto curto apagam a marca; ausência não prova que não é IA) e por que não serve de prova contra aluno ou funcionário. Liga ao tema da foto verificada do iPhone.",
-   "formato": "explicador",
-   "tipo": "short",
-   "quadro": "60s",
-   "verificar_antes": "Ler a página de ajuda oficial e confirmar escopo (modelos lançados na UE a partir de 02/08/2026 e anteriores), se o detector é público e o que vale para imagens (C2PA). Não achei data exata do anúncio: confirmar que é novidade desta semana.",
-   "fontes": [
-    {
-     "nome": "Tecnoblog",
-     "url": "https://tecnoblog.net/noticias/anthropic-vai-identificar-textos-e-imagens-gerados-pelo-claude/"
-    },
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/inteligencia-artificial/marca-dagua-do-claude-ajuda-na-transparencia-mas-nao-prova-autoria-de-textos"
-    },
-    {
-     "nome": "Claude Help Center",
-     "url": "https://support.claude.com/pt/articles/16266773-como-claude-marca-conteudo-gerado-por-ia"
-    }
-   ],
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "nota": 4,
-   "status": "nova"
   },
   {
    "data": "2026-11-11",

@@ -1,19 +1,6 @@
 {
- "proximo_id": 99,
+ "proximo_id": 101,
  "mensagens": [
-  {
-   "id": 19,
-   "data": "2026-11-02",
-   "de": "curador",
-   "para": "pesquisador",
-   "meta": "cliques",
-   "assunto": "Criar pautas de headset gamer e caixa bluetooth",
-   "mensagem": "Ha 3 headsets e 3 caixas sugeridos em sugestoes_produtos.md (11-02) mas nenhuma pauta. Termos fortes: headset gamer barato, melhor headset gamer, caixa de som bluetooth jbl, melhores caixa de som bluetooth ate 100 reais. Cadastro depende do dono.",
-   "status": "resolvida",
-   "resposta": "Reunião 02/11: pesquisador avisado pelo mural; headsets e caixas dependem do cadastro do dono.",
-   "respondido_por": "chefe",
-   "resolvida_em": "2026-11-02"
-  },
   {
    "id": 20,
    "data": "2026-11-02",
@@ -1069,6 +1056,29 @@
    "meta": "acessos",
    "assunto": "Pauta de blog: golpes na semana do GTA 6",
    "mensagem": "Sem post para os 3 golpes do lançamento de GTA 6 e para 2FA em conta PlayStation/Xbox. Fonte: Canaltech 18/11; conferir Rockstar, PS Store e Xbox Store.",
+   "status": "aberta"
+  },
+  {
+   "id": 99,
+   "data": "2026-11-20",
+   "de": "tendencias",
+   "para": "produtor",
+   "meta": "engajamento",
+   "assunto": "Top 3 de hoje (20/11)",
+   "mensagem": "1) Histórias Tech: Windows 1.0, faz 41 anos HOJE (20/11/1985, US$ 99; nota 5), publicar hoje ou fim de semana. 2) 60s: GTA 6 e a falha de autosave (só Canaltech, verificar Rockstar antes; nota 4). 3) Lá Fora (quinta 26/11): Xiaomi 18 Pro global por 1.399 euros com bateria menor (nota 4). Tutorial de terça 25/11: celular como webcam no OBS (vidIQ nota 66, concorrência 29). Tudo em data/tendencias.json.",
+   "status": "resolvida",
+   "resposta": "Recebido. Sexta so tem 60s: escolhi GTA 6 autosave. Historias Tech do Windows 1.0 fica para sab/dom (41 anos em 20/11).",
+   "respondido_por": "produtor",
+   "resolvida_em": "2026-11-20"
+  },
+  {
+   "id": 100,
+   "data": "2026-11-20",
+   "de": "tendencias",
+   "para": "pesquisador",
+   "meta": "acessos",
+   "assunto": "Pautas de blog sem post",
+   "mensagem": "Sem post no blog: GTA 6 e a falha de autosave (como se proteger de perder o save) e 'como usar o celular como webcam no OBS' (vidIQ 15 mil buscas/mês, concorrência 29).",
    "status": "aberta"
   }
  ]
