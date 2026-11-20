@@ -4840,7 +4840,8 @@
     "produtos_necessarios": 0,
     "motivo": "Busca forte (2,75) sem post; editoria de IA pede tutoriais.",
     "status": "pendente",
-    "criada": "2026-11-19"
+    "criada": "2026-11-19",
+    "viral": 4
   },
   {
     "id": "inteligencia-artificial-como-usar-no-celular",
@@ -4858,7 +4859,8 @@
     "produtos_necessarios": 0,
     "motivo": "Termo 2,5 sem cobertura; complementa o post de IAs grátis para Android.",
     "status": "pendente",
-    "criada": "2026-11-19"
+    "criada": "2026-11-19",
+    "viral": 2
   },
   {
     "id": "golpe-pix-errado-o-que-fazer",
@@ -4947,7 +4949,8 @@
     "produtos_necessarios": 0,
     "motivo": "Termo 4,0 Google+ML sem post; G203 está no catálogo.",
     "status": "pendente",
-    "criada": "2026-11-19"
+    "criada": "2026-11-19",
+    "viral": 2
   },
   {
     "id": "carregador-turbo-samsung-qual-comprar",
@@ -4966,6 +4969,150 @@
     "produtos_necessarios": 0,
     "motivo": "Termo 4,19 Google+ML sem post; EP-TA800 no catálogo.",
     "status": "pendente",
-    "criada": "2026-11-19"
+    "criada": "2026-11-19",
+    "viral": 3
+  },
+  {
+    "id": "gta-6-reviews-nota-99-metacritic-empata-ocarina-of-time",
+    "titulo": "GTA 6 tem nota 99 no Metacritic e empata com Zelda Ocarina of Time",
+    "palavra_chave": "gta 6 nota metacritic",
+    "editoria": "games",
+    "fontes": [
+      {
+        "nome": "Digital Trends",
+        "url": "https://digitaltrends.com/gaming/gta-6-opens-to-roaring-critical-acclaim-matching-zeldas-historic-score"
+      },
+      {
+        "nome": "Dexerto",
+        "url": "https://www.dexerto.com/gta/gta-6-is-the-joint-best-reviewed-game-of-the-all-time-3429300/"
+      },
+      {
+        "nome": "TechPowerUp",
+        "url": "https://www.techpowerup.com/354998/gta-6-review-roundup-99-on-metacritic-and-118-perfect-scores"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "prioridade": "hoje",
+    "motivo": "Fato novo do dia seguinte ao lançamento (reviews, 99 no Metacritic, OpenCritic 99; PS5 base ~30 fps segundo a Digital Trends). Ângulo ainda não coberto nos posts de GTA 6. Sem confirmação oficial da Rockstar; citar as notas como dos agregadores e que podem mudar.",
+    "status": "pendente",
+    "criada": "2026-11-20",
+    "secundarias": [
+      "gta 6 review",
+      "gta 6 vale a pena"
+    ],
+    "viral": 5
+  },
+  {
+    "id": "golpes-gta-6-3-golpes-semana-lancamento-como-evitar",
+    "titulo": "3 golpes do lançamento de GTA 6: versão falsa, código falso e loja fake",
+    "palavra_chave": "golpe gta 6",
+    "editoria": "tecnologia",
+    "fontes": [
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/seguranca/3-golpes-mais-perigosos-na-semana-de-lancamento-de-gta-6-saiba-como-se-proteger/"
+      },
+      {
+        "nome": "TecMundo",
+        "url": "https://www.tecmundo.com.br/voxel/504900-pre-venda-de-gta-6-vira-alvo-de-golpes-no-brasil-veja-como-evitar-fraudes-na-compra-do-jogo.htm"
+      },
+      {
+        "nome": "Tecnoblog (preço oficial no Brasil, R$ 449)",
+        "url": "https://tecnoblog.net/noticias/preco-de-gta-6-no-brasil-e-revelado-r-449/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "prioridade": "hoje",
+    "motivo": "Mural #98 (tendencias). Canaltech de 18/11: golpes de versão para PC/PS4 e falsos betas, códigos e gift cards falsos, lojas com preço abaixo de R$ 449,90 só no Pix. Só se compra na PlayStation Store, Xbox Store ou varejista conhecido; GTA 6 não tem PC nem PS4. Linkar o guia de golpes da Black Friday. Conferir preço e lojas na PS Store/Xbox Store ao redigir.",
+    "status": "pendente",
+    "criada": "2026-11-20",
+    "viral": 5
+  },
+  {
+    "id": "como-ativar-verificacao-duas-etapas-playstation-xbox-conta-gta-6",
+    "titulo": "Como ativar a verificação em duas etapas no PlayStation e no Xbox",
+    "palavra_chave": "verificação em duas etapas playstation xbox",
+    "editoria": "tutoriais",
+    "fontes": [
+      {
+        "nome": "PlayStation (verificação em duas etapas)",
+        "url": "https://www.playstation.com/en-us/support/account/2sv-login/"
+      },
+      {
+        "nome": "Microsoft Suporte (conta Microsoft/Xbox)",
+        "url": "https://support.microsoft.com/pt-br/account-billing/como-usar-a-verifica%C3%A7%C3%A3o-em-duas-etapas-para-sua-conta-microsoft-c7910146-672f-01e9-50a0-93b4585e7eb4"
+      },
+      {
+        "nome": "Canaltech (dica de 2FA na semana do GTA 6)",
+        "url": "https://canaltech.com.br/seguranca/3-golpes-mais-perigosos-na-semana-de-lancamento-de-gta-6-saiba-como-se-proteger/"
+      }
+    ],
+    "tipo": "tutorial",
+    "produtos_necessarios": 0,
+    "prioridade": "hoje",
+    "motivo": "Mural #98: 2FA em PlayStation e Xbox na semana do GTA 6 (conta guarda a compra de R$ 449,90). PlayStation: Gerenciamento de Conta > Segurança > Verificação em duas etapas (app autenticador ou SMS, guardar 10 códigos de backup); Xbox: account.microsoft.com/security > Gerenciar como entro > Segurança adicional. Passo a passo só do que as páginas oficiais dizem; linkar a pauta de golpes do GTA 6 e o tutorial de 2FA do WhatsApp.",
+    "status": "pendente",
+    "criada": "2026-11-20",
+    "secundarias": [
+      "autenticação de dois fatores psn",
+      "2fa xbox"
+    ],
+    "viral": 4
+  },
+  {
+    "id": "xiaomi-18-pro-max-brasil-fim-de-janeiro-2027-preco-europa",
+    "titulo": "Xiaomi 18 Pro Max chega ao Brasil no fim de janeiro de 2027: o que se sabe do preço",
+    "palavra_chave": "xiaomi 18 pro max brasil",
+    "editoria": "celulares",
+    "fontes": [
+      {
+        "nome": "Showmetech (comunicado da Xiaomi Brasil, 17/11)",
+        "url": "https://www.showmetech.com.br/xiaomi-18-pro-pro-max-lancamento-global-brasil-janeiro-2027/"
+      },
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/smartphone/xiaomi-18-pro-max-e-oficial-veja-o-que-muda-no-novo-top-de-linha/"
+      },
+      {
+        "nome": "Oficina da Net",
+        "url": "https://www.oficinadanet.com.br/xiaomi/74248-xiaomi-18-pro-18-pro-max-lancamento"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "prioridade": "hoje",
+    "motivo": "Xiaomi Brasil confirmou ao receber o lançamento global (17/11): Pro Max no Brasil a partir do fim de janeiro de 2027, preço e cores depois; Pro sem data para o país. Na Espanha: Pro de EUR 1.399,99 e Pro Max de EUR 1.599,99 (referência, não é preço brasileiro). O post existente do evento global não cobre o Brasil. Não afirmar preço em R$.",
+    "status": "pendente",
+    "criada": "2026-11-20",
+    "viral": 4
+  },
+  {
+    "id": "nintendo-black-friday-2026-switch-2-mario-kart-us-499-vale-no-brasil",
+    "titulo": "Nintendo Black Friday 2026: Switch 2 com Mario Kart por US$ 499,99 vale no Brasil?",
+    "palavra_chave": "switch 2 black friday",
+    "editoria": "games",
+    "fontes": [
+      {
+        "nome": "Showmetech (comunicado da Nintendo, 17/11)",
+        "url": "https://www.showmetech.com.br/black-friday-nintendo-2026-switch-2-eua/"
+      },
+      {
+        "nome": "Game Over Drive",
+        "url": "https://gameoverdrive.com.br/black-friday-nintendo-2026-switch-2-ofertas-brasil/"
+      },
+      {
+        "nome": "Nintendo (condições das ofertas nos EUA)",
+        "url": "https://www.nintendo.com/us/retail-offers"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "prioridade": "hoje",
+    "motivo": "Nintendo anunciou nos EUA: Switch 2 + Mario Kart World a US$ 499,99 de 22/11 a 5/12; jogos físicos com US$ 20 de desconto de 22 a 29/11; eShop em promoção de 19/11 a 2/12. Não há confirmação de que valha no Brasil (dizem as matérias). Ligar ao guia de Switch barato e à análise do Switch OLED; sem prometer desconto brasileiro. Conferir a página da Nintendo ao redigir.",
+    "status": "pendente",
+    "criada": "2026-11-20",
+    "viral": 4
   }
 ]

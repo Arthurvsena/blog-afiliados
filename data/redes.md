@@ -2,6 +2,83 @@
 
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
+## 2026-11-20 · Carregador turbo Samsung: 25 W ou 45 W? Veja o teto do Galaxy
+Link: https://nexustechai.com.br/posts/carregador-turbo-samsung-qual-comprar/
+- WhatsApp: Antes da Black Friday: no teste com o S25 Ultra, carregador de 25 W entregou ~20 W e o de 45 W chegou a ~40 W. Veja qual vale para o seu Galaxy: https://nexustechai.com.br/posts/carregador-turbo-samsung-qual-comprar/
+- X: Carregador de 25 W ou 45 W para Galaxy? Num teste com o S25 Ultra, o de 25 W entregou ~20 W e os de 45 W ~40 W. Se o seu celular só aceita 25 W, não pague mais. Guia com 4 opções: https://nexustechai.com.br/posts/carregador-turbo-samsung-qual-comprar/
+- Instagram (legenda): Mais watts nem sempre carregam mais rápido.
+  S25 Ultra no teste: 25 W entregou ~20 W; 45 W chegou a ~40 W.
+  Galaxy básico? 25 W resolve.
+  Guia com 4 carregadores no link da bio.
+  #samsung #carregador #blackfriday
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Carregador de 45 W no Galaxy: vale?" [2-8 s] Fato 1: no S25 Ultra, 25 W entregou ~20 W. [8-14 s] Fato 2: 45 W chegou a ~40 W. [14-18 s] Fato 3: se o seu só aceita 25 W, não compensa. [18-20 s] "Guia no link da bio."
+
+## 2026-11-20 · Xbox Game Pass ou PS Plus: qual assinatura vale mais
+Link: https://nexustechai.com.br/posts/xbox-game-pass-ou-ps-plus-qual-assinar/
+- WhatsApp: Game Pass ou PS Plus? Só o Game Pass Ultimate tem lançamentos no dia 1, e o catálogo do PS Plus só começa no Extra. Comparei os planos: https://nexustechai.com.br/posts/xbox-game-pass-ou-ps-plus-qual-assinar/
+- X: Game Pass ou PS Plus? Pelas páginas oficiais, só o Game Pass Ultimate traz lançamentos no dia 1. No PS Plus, o catálogo só começa no Extra. Comparação por plano: https://nexustechai.com.br/posts/xbox-game-pass-ou-ps-plus-qual-assinar/
+- Instagram (legenda): Game Pass ou PS Plus? A marca importa menos que o plano.
+  Lançamentos no dia 1: só no Game Pass Ultimate.
+  Catálogo no PS Plus: só a partir do Extra.
+  Comparação completa no link da bio.
+  #gamepass #psplus #games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Game Pass ou PS Plus? Escolha pelo plano." [2-8 s] Fato 1: lançamentos no dia 1 só no Game Pass Ultimate. [8-14 s] Fato 2: PS Plus Essential não tem catálogo; começa no Extra. [14-18 s] Fato 3: joga um ou dois jogos por ano? Talvez nem compense. [18-20 s] "Comparação no link da bio."
+
+## 2026-11-20 · Verificação em duas etapas PlayStation e Xbox antes do GTA 6
+Link: https://nexustechai.com.br/posts/como-ativar-verificacao-duas-etapas-playstation-xbox-conta-gta-6/
+- WhatsApp: Antes de comprar o GTA 6, ative a verificação em duas etapas na conta PSN e Xbox. Leva menos de 5 minutos: https://nexustechai.com.br/posts/como-ativar-verificacao-duas-etapas-playstation-xbox-conta-gta-6/
+- X: Só a senha não protege sua conta de PlayStation ou Xbox. Ative a verificação em duas etapas antes de comprar o GTA 6; leva menos de 5 minutos e o passo a passo está aqui: https://nexustechai.com.br/posts/como-ativar-verificacao-duas-etapas-playstation-xbox-conta-gta-6/
+- Instagram (legenda): Sua senha sozinha não protege o GTA 6 que você vai comprar.
+  A verificação em duas etapas leva menos de 5 minutos.
+  Passo a passo para PSN e Xbox no link da bio.
+  Guarde os códigos de backup.
+  #gta6 #playstation #xbox
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Proteja sua conta antes do GTA 6." [2-8 s] Fato 1: no PlayStation, Segurança > Editar > 2-Step Verification. [8-14 s] Fato 2: no Xbox, a conta Microsoft, em Segurança. [14-18 s] Fato 3: guarde os códigos de backup. [18-20 s] "Passo a passo no link da bio."
+
+## 2026-11-20 · Xiaomi 18 Pro Max no Brasil: fim de janeiro e preço em aberto
+Link: https://nexustechai.com.br/posts/xiaomi-18-pro-max-brasil-fim-de-janeiro-2027-preco-europa/
+- WhatsApp: Xiaomi 18 Pro Max chega ao Brasil a partir do fim de janeiro de 2027. Preço em reais ainda não saiu (na Espanha é EUR 1.599,99): https://nexustechai.com.br/posts/xiaomi-18-pro-max-brasil-fim-de-janeiro-2027-preco-europa/
+- X: A Xiaomi confirmou o 18 Pro Max no Brasil a partir do fim de janeiro de 2027. Preço em reais: não divulgado. Na Espanha parte de EUR 1.599,99, mas não dá para converter direto. https://nexustechai.com.br/posts/xiaomi-18-pro-max-brasil-fim-de-janeiro-2027-preco-europa/
+- Instagram (legenda): Xiaomi 18 Pro Max tem data no Brasil: fim de janeiro de 2027.
+  O preço em reais ainda não saiu.
+  Na Espanha, parte de EUR 1.599,99.
+  Vale esperar? A conta completa está no link da bio.
+  #xiaomi #celulares #lancamento
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Xiaomi 18 Pro Max já tem data no Brasil." [2-8 s] Fato 1: a partir do fim de janeiro de 2027, segundo a Xiaomi Brasil. [8-14 s] Fato 2: na Espanha parte de EUR 1.599,99. [14-18 s] Fato 3: preço em reais ainda não saiu, e o 18 Pro sem data. [18-20 s] "Vale esperar? Link na bio."
+
+## 2026-11-20 · Switch 2 Black Friday: US$ 499,99 só nos EUA, e aqui?
+Link: https://nexustechai.com.br/posts/switch-2-black-friday-mario-kart-us-499-vale-no-brasil/
+- WhatsApp: Switch 2 com Mario Kart World a US$ 499,99 é só nos EUA (22/11 a 5/12). No Brasil, a Nintendo não confirmou nada: https://nexustechai.com.br/posts/switch-2-black-friday-mario-kart-us-499-vale-no-brasil/
+- X: A Nintendo lançou Black Friday do Switch 2 com Mario Kart World a US$ 499,99, mas só nos EUA. No Brasil, nada confirmado e o preço sugerido segue em R$ 4.599,90. https://nexustechai.com.br/posts/switch-2-black-friday-mario-kart-us-499-vale-no-brasil/
+- Instagram (legenda): Switch 2 a US$ 499,99 com Mario Kart World?
+  Só nos Estados Unidos, de 22/11 a 5/12.
+  No Brasil, a Nintendo não confirmou campanha.
+  O que fazer antes do dia 27, no link da bio.
+  #switch2 #blackfriday #nintendo
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Switch 2 a US$ 499,99? Só nos EUA." [2-8 s] Fato 1: pacote com Mario Kart World e 90 dias de Online, de 22/11 a 5/12. [8-14 s] Fato 2: no Brasil a Nintendo não confirmou Black Friday. [14-18 s] Fato 3: preço sugerido aqui é R$ 4.599,90. [18-20 s] "O que fazer, no link da bio."
+
+## 2026-11-20 · Golpe GTA 6: 3 fraudes e por que abaixo de R$ 449,90 é isca
+Link: https://nexustechai.com.br/posts/golpe-gta-6-3-golpes-semana-lancamento-como-evitar/
+- WhatsApp: GTA 6 só tem versão para PS5 e Xbox Series. Loja que vende abaixo de R$ 449,90, só no Pix, é golpe. Os 3 sinais: https://nexustechai.com.br/posts/golpe-gta-6-3-golpes-semana-lancamento-como-evitar/
+- X: Golpe GTA 6: versão falsa para PC/PS4, código "barato" e loja que só aceita Pix abaixo de R$ 449,90. Os 3 golpes apontados pelo Canaltech e como se proteger. https://nexustechai.com.br/posts/golpe-gta-6-3-golpes-semana-lancamento-como-evitar/
+- Instagram (legenda): GTA 6 não existe para PC nem PS4.
+  Se alguém vende, é golpe.
+  Preço oficial: R$ 449,90. Abaixo disso, só no Pix? Foge.
+  Os 3 golpes e os cuidados, no link da bio.
+  #gta6 #golpe #seguranca
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "GTA 6 pra PC? É golpe." [2-8 s] Fato 1: só PS5 e Xbox Series. [8-14 s] Fato 2: código barato de revendedor dá problema. [14-18 s] Fato 3: abaixo de R$ 449,90 só no Pix é loja fake. [18-20 s] "Os cuidados estão no link da bio."
+
+## 2026-11-20 · GTA 6 nota Metacritic: 99 e empate com Ocarina of Time
+Link: https://nexustechai.com.br/posts/gta-6-nota-metacritic-99-empata-ocarina-of-time/
+- WhatsApp: GTA 6 chegou a 99 no Metacritic e empatou com Zelda Ocarina of Time, recorde de 1998. GTA 5 tinha 97. Nota ainda pode mudar: https://nexustechai.com.br/posts/gta-6-nota-metacritic-99-empata-ocarina-of-time/
+- X: GTA 6 está com 99 no Metacritic e empata com Zelda: Ocarina of Time, que segurava o recorde desde 1998 (GTA 4 tem 98, GTA 5 tem 97). A nota ainda pode mudar com novas análises. https://nexustechai.com.br/posts/gta-6-nota-metacritic-99-empata-ocarina-of-time/
+- Instagram (legenda): GTA 6 tem 99 no Metacritic.
+  É o empate com Zelda: Ocarina of Time, recorde desde 1998.
+  Melhor nota da história da Rockstar (GTA 5 tinha 97).
+  Mas nota alta não é compra no impulso: veja o que ainda não se sabe, no link da bio.
+  #gta6 #games #metacritic
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "GTA 6 empatou com o jogo mais bem avaliado da história." [2-8 s] Fato 1: 99 no Metacritic, igual a Zelda Ocarina of Time, de 1998. [8-14 s] Fato 2: GTA 4 tinha 98 e GTA 5, 97. [14-18 s] Fato 3: a nota ainda pode mudar com novas análises. [18-20 s] "Vale a pena? Leia no link da bio."
+
 ## 2026-11-19 · Headset gamer Bluetooth atrasa o som? No console, fio ganha
 Link: https://nexustechai.com.br/posts/headset-gamer-bluetooth-ou-fio-qual-escolher/
 - WhatsApp: Fone Bluetooth comum não conecta direto no PS5 nem no Xbox, e em jogo de tiro o som chega atrasado. Quando o fio vale mais: https://nexustechai.com.br/posts/headset-gamer-bluetooth-ou-fio-qual-escolher/

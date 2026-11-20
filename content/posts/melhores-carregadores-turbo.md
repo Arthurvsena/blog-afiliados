@@ -144,3 +144,5 @@ Na minha leitura, o Samsung de 25 W é a compra segura para quem tem Galaxy, e o
 ## Leia também
 
 Dúvida sobre o original? Veja se o [carregador USB-C Apple precisa ser o original](/posts/carregador-usb-c-apple-qual-comprar/).
+
+Tem Galaxy? Veja o [carregador turbo Samsung: 25 W, 45 W ou outro](/posts/carregador-turbo-samsung-qual-comprar/).
