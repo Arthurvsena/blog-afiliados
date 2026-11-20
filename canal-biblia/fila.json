@@ -115,11 +115,17 @@
   },
   {
    "slug": "gideao-e-os-300",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-20",
+   "release": "biblia-2026-11-20",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "rute-e-noemi",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-20",
+   "release": "biblia-2026-11-20",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "elias-e-o-fogo-do-ceu",
