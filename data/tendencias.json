@@ -1,6 +1,120 @@
 {
- "atualizado": "2026-11-20",
+ "atualizado": "2026-11-21",
  "tendencias": [
+  {
+   "data": "2026-11-21",
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "status": "nova",
+   "origem": "brasil",
+   "assunto": "Histórias Tech: Xbox 360, 21 anos do console que nasceu antes da Sony e quase morreu de superaquecimento (as 'luzes da morte')",
+   "por_que_em_alta": "Aniversário amanhã (22/11/2005, 21 anos). Hardware.com.br, Canaltech (retrospectiva), Tecnoblog, Vandal e Heise cobrem a data; Hardware.com.br e Vandal citam prejuízo acima de US$ 1 bilhão com os defeitos. Encaixa no sábado/domingo de Histórias Tech nº 3 e liga com a série Xbox/GTA 6. Cuidado: terceiro episódio da Microsoft em 8 dias (Xbox, Windows 1.0).",
+   "evidencias": [
+    "https://www.hardware.com.br/artigos/xbox-360-luzes-morte-historia/",
+    "https://canaltech.com.br/games/aniversario-xbox-360-20-relembre-historia/",
+    "https://vandal.elespanol.com/noticia/1350785266/20-anos-de-xbox-360-el-error-de-1150-millones-que-casi-mata-a-la-marca/"
+   ],
+   "angulo": "Gancho: o console da Microsoft chegou um ano antes do PS3 e, em 2005, já nasceu com gente relatando travamentos no dia do lançamento. Auge: saiu na frente (22/11/2005), Xbox Live e a geração HD. Virada: as luzes vermelhas, a garantia estendida e o prejuízo declarado. Lição: chegar primeiro não vale se o produto não aguenta. Fecha com pergunta: quem aqui teve um que apitou? Gráfico: linha do tempo 2005-2010 e número do prejuízo.",
+   "formato": "curiosidade",
+   "tipo": "short",
+   "quadro": "historias",
+   "verificar_antes": "Confirmar em 2 fontes: 22/11/2005 (EUA/Canadá; Europa 02/12 e Japão 10/12), prejuízo (US$ 1,15 bi: conferir no relatório da Microsoft de 2007 ou Hardware.com.br lido por inteiro) e a extensão de garantia para 3 anos. Divergência: nº de países no lançamento (13 x 36): evitar. Significado das luzes diverge entre fontes: dizer só 'luzes vermelhas', sem decodificar. Fotos: Wikimedia (licença livre) ou imprensa Microsoft/Xbox.",
+   "fontes": [
+    {
+     "nome": "Hardware.com.br",
+     "url": "https://www.hardware.com.br/artigos/xbox-360-luzes-morte-historia/"
+    },
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/games/aniversario-xbox-360-20-relembre-historia/"
+    },
+    {
+     "nome": "Tecnoblog",
+     "url": "https://tecnoblog.net/especiais/a-historia-do-xbox-do-original-ao-series-x/"
+    }
+   ],
+   "nota": 5
+  },
+  {
+   "data": "2026-11-21",
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "status": "em_video",
+   "origem": "brasil",
+   "assunto": "Histórias Tech: Blockbuster e Netflix, a locadora que riu da oferta de US$ 50 milhões e fechou",
+   "por_que_em_alta": "Evergreen sempre forte e com gancho de Black Friday/streaming. Fortune (2023), Newsweek e Hardware.com.br contam a oferta de 2000 (US$ 50 mi); falência em 2010, última loja corporativa em 2014. Ressalva: o relato vem dos livros dos fundadores e o CEO da época contesta que tenha havido negociação séria.",
+   "evidencias": [
+    "https://fortune.com/2023/04/14/netflix-cofounder-marc-randolph-recalls-blockbuster-rejecting-chance-to-buy-it/",
+    "https://newsweek.com/fact-check-did-blockbuster-turn-downchance-buy-netflix-50-million-1575557",
+    "https://www.hardware.com.br/artigos/dia-blockbuster-nao-quis-comprar-a-netflix/"
+   ],
+   "angulo": "Gancho: em 2000 a Netflix pediu US$ 50 milhões à Blockbuster e, segundo os fundadores, ouviu risada. Auge: milhares de lojas. Virada: multas por atraso, o DVD pelo correio e o streaming. Lição: o negócio que dava lucro era o que ia acabar. Dizer 'segundo os fundadores', citar a contestação do CEO, e fechar com a última loja (Oregon). Fecha com pergunta.",
+   "formato": "curiosidade",
+   "tipo": "short",
+   "quadro": "historias",
+   "verificar_antes": "Conferir 2 fontes para: ano 2000, valor, falência (set/2010) e última loja corporativa fechada (2014). Atenção: relato contestado: não afirmar como fato absoluto. Número de lojas no auge: só se achar 2 fontes. Fotos: Wikimedia (licença livre) ou sem foto, gráfico nosso.",
+   "fontes": [
+    {
+     "nome": "Fortune",
+     "url": "https://fortune.com/2023/04/14/netflix-cofounder-marc-randolph-recalls-blockbuster-rejecting-chance-to-buy-it/"
+    },
+    {
+     "nome": "Newsweek",
+     "url": "https://newsweek.com/fact-check-did-blockbuster-turn-downchance-buy-netflix-50-million-1575557"
+    },
+    {
+     "nome": "Hardware.com.br",
+     "url": "https://www.hardware.com.br/artigos/dia-blockbuster-nao-quis-comprar-a-netflix/"
+    }
+   ],
+   "nota": 4
+  },
+  {
+   "data": "2026-11-21",
+   "imagens_oficiais": [],
+   "post_relacionado": "",
+   "produto": {
+    "id": "",
+    "como_encaixa": "Editorial puro."
+   },
+   "status": "nova",
+   "origem": "brasil",
+   "assunto": "Histórias Tech: Dreamcast, o console que a Sega lançou em 27/11/1998 e que influenciou tudo, mas fechou em 3 anos",
+   "por_que_em_alta": "Aniversário em 6 dias (27/11/1998, Japão; EUA 09/09/1999; Europa 14/10/1999). Canaltech ('o mais influente paradoxo'), Hardware.com.br, VGC e Wikipedia cobrem. Sega saiu do hardware em 2001. Vendas divergem (cerca de 9,13 milhões no ciclo todo x 5,87 mi até set/2000).",
+   "evidencias": [
+    "https://canaltech.com.br/games/20-anos-do-dreamcast-o-mais-influente-paradoxo-da-historia-dos-videogames-127787/",
+    "https://www.hardware.com.br/artigos/a-queda-do-dreamcast-ultimo-console-sega/",
+    "https://videogameschronicle.com/features/dreamcast-at-25-how-segas-final-console-was-one-of-gamings-most-beautiful-failures"
+   ],
+   "angulo": "Gancho: o console da Sega foi um dos mais influentes da história e ainda assim durou três anos. Auge: online e VMU em 1998/99, 500 mil unidades em 2 semanas nos EUA. Virada: PlayStation 2 e o legado do Saturn. Lição: ser o melhor não basta quando o público já escolheu. Publicar 27 a 29/11.",
+   "formato": "curiosidade",
+   "tipo": "short",
+   "quadro": "historias",
+   "verificar_antes": "Confirmar em 2 fontes: datas por região, 500 mil em 2 semanas, 'parou de produzir em 2001' (jan/2001, Sega) e total vendido (usar 'cerca de 9 milhões', dado Wikipedia + 2ª fonte). Prejuízo da Sega diverge (US$ 242 mi x 269,8 mi): evitar. Fotos Wikimedia (licença livre).",
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/games/20-anos-do-dreamcast-o-mais-influente-paradoxo-da-historia-dos-videogames-127787/"
+    },
+    {
+     "nome": "Hardware.com.br",
+     "url": "https://www.hardware.com.br/artigos/a-queda-do-dreamcast-ultimo-console-sega/"
+    },
+    {
+     "nome": "VGC",
+     "url": "https://videogameschronicle.com/features/dreamcast-at-25-how-segas-final-console-was-one-of-gamings-most-beautiful-failures"
+    }
+   ],
+   "nota": 4
+  },
   {
    "data": "2026-11-20",
    "imagens_oficiais": [],
@@ -1293,119 +1407,6 @@
    "status": "nova",
    "nota": 4,
    "origem": "vidiq"
-  },
-  {
-   "data": "2026-11-12",
-   "assunto": "PS5 passa de 100 milhões de unidades: 6 anos, atrás do PS4 e do PS2, e 2,1 milhões só nos últimos 40 dias",
-   "por_que_em_alta": "Canaltech (11/11), citando IGN e a Sony: 100 milhões vendidos (sell-in) até 10/11/2026, quarto console da Sony a chegar lá; aceleração ligada ao GTA 6 (19/11). Destaque na home de games hoje.",
-   "evidencias": [
-    "https://canaltech.com.br/games/ps5-chega-a-100-milhoes-de-unidades-veja-como-ele-se-compara-ao-ps4-ps3-e-ps2/"
-   ],
-   "angulo": "Gancho: o PS5 chegou a 100 milhões, mas 2,1 milhões vieram nos últimos 40 dias, de olho no GTA 6. Gráfico de barras PS2 (160 mi), PS4 (117 mi), PS1 (102,4 mi), PS5 (100 mi), PS3 (87,4 mi), com a ressalva de que é sell-in (envio ao varejo), não venda ao consumidor. Comentário Nexus: o GTA 6 vende console.",
-   "formato": "noticia",
-   "tipo": "short",
-   "quadro": "60s",
-   "verificar_antes": "Só o Canaltech foi lido. Confirmar no comunicado da Sony/IGN: 100 milhões até 10/11, 2,1 mi em 40 dias, e os números do PS4/PS2 (datas de corte diferentes: dizer na tela).",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/games/ps5-chega-a-100-milhoes-de-unidades-veja-como-ele-se-compara-ao-ps4-ps3-e-ps2/"
-    },
-    {
-     "nome": "IGN (a localizar)",
-     "url": "https://www.ign.com/"
-    },
-    {
-     "nome": "PlayStation Blog",
-     "url": "https://blog.playstation.com/"
-    }
-   ],
-   "imagens_oficiais": [
-    "https://www.playstation.com/pt-br/ps5/"
-   ],
-   "post_relacionado": "xbox-series-fsr-4-1-gta-6-o-que-muda",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "nota": 4,
-   "status": "em_video"
-  },
-  {
-   "data": "2026-11-12",
-   "assunto": "Xiaomi 18 Pro Max: bateria de 8.500 mAh e 100 W na China, global ainda sem data. Chega ao Brasil? Por quanto?",
-   "por_que_em_alta": "Ubergizmo (23/09), Borncity e Digital Citizen: China, Pro a 5.999 yuan (~20% acima do 17 Pro) e Pro Max a 6.999 yuan; Lei Jun confirmou lançamento internacional em 2026, sem data, mercados ou preço; versões globais podem ter baterias menores (6.000 e 7.050 mAh, relato não oficial). Canaltech (12/11) segue cobrindo bateria gigante e Xiaomi 18 em pré-venda. Liga com a corrida de mAh e com os guias de power bank.",
-   "evidencias": [
-    "https://www.ubergizmo.com/2026/09/xiaomi-18-pro-and-pro-max-debut-with-8500-mah-battery-and-dual-200mp-cameras/",
-    "https://borncity.com/news/xiaomi-18-pro-neuer-flaggschiff-startpreis-liegt-rund-20-prozent-hoeher/",
-    "https://canaltech.com.br/smartphone/xiaomi-18-aparece-em-pre-venda-na-china-e-lancamento-pode-estar-proximo/"
-   ],
-   "angulo": "Gancho: o Xiaomi 18 Pro Max tem 8.500 mAh e carrega a 100 W, mas a versão global pode vir com bateria menor e preço mais alto. Blocos: o que a China ganhou, por que bombou (preço +20%, memória cara), E no Brasil (sem data; importação e Selo Anatel; estimativa de preço com cotação e data), alternativas que já dá pra comprar (power bank/celulares do catálogo), veredito. Une as pautas de 07/11 e 11/11.",
-   "formato": "comparativo",
-   "tipo": "longo",
-   "quadro": "lafora",
-   "origem": "gringo",
-   "palavra_chave": "xiaomi 18 pro max brasil",
-   "criterios_gringo": "1 sim (Ubergizmo, Borncity, Digital Citizen; GSMArena a confirmar); 2 sim (Xiaomi vende no Brasil, tema bateria e preço); 3 parcial (Canaltech cobre em texto; buscar vídeo em PT no YouTube BR); 4 sim (guias de power bank e celulares). 3 de 4 ok.",
-   "verificar_antes": "Sem termo no vidIQ: nota menor. Confirmar na Xiaomi/GSMArena specs e que o lançamento global continua sem data; baterias globais menores é relato não oficial: tratar como rumor. Preço em R$ só como estimativa com a cotação do dia.",
-   "fontes": [
-    {
-     "nome": "Ubergizmo",
-     "url": "https://www.ubergizmo.com/2026/09/xiaomi-18-pro-and-pro-max-debut-with-8500-mah-battery-and-dual-200mp-cameras/"
-    },
-    {
-     "nome": "Borncity",
-     "url": "https://borncity.com/news/xiaomi-18-pro-neuer-flaggschiff-startpreis-liegt-rund-20-prozent-hoeher/"
-    },
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/smartphone/xiaomi-18-aparece-em-pre-venda-na-china-e-lancamento-pode-estar-proximo/"
-    }
-   ],
-   "imagens_oficiais": [
-    "https://www.mi.com/global/"
-   ],
-   "post_relacionado": "como-escolher-power-bank",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Power bank do catálogo como alternativa; conferir ativo=sim no CSV."
-   },
-   "nota": 4,
-   "status": "em_video"
-  },
-  {
-   "data": "2026-11-11",
-   "assunto": "Celulares de 12.000 mAh: Vivo e Oppo preparam baterias quase do tamanho de um power bank",
-   "por_que_em_alta": "Canaltech (10/11): leaker Digital Chat Station cita bateria de 11.970 mAh da Vivo/Jovi em produção em massa; Oppo PNC110 aparece no CMIIT com 11.460 a 11.640 mAh; GizChina como origem. Nada confirmado oficialmente.",
-   "evidencias": [
-    "https://canaltech.com.br/smartphone/12000-mah-dois-celulares-com-bateria-absurda-estao-prestes-a-chegar-ao-mercado/",
-    "https://canaltech.com.br/smartphone/xiaomi-prepara-top-barato-com-bateria-absurda-de-10000-mah/"
-   ],
-   "angulo": "Reforça a pauta de 10.000 mAh de 05/11: juntar as duas num só Lá Fora, Aqui com a pergunta 'por que a bateria do celular vendido aqui é menor?' (Redmi Note 17 Pro Max: 9.210 mAh no Brasil). Tratar tudo como vazamento.",
-   "formato": "explicador",
-   "tipo": "longo",
-   "quadro": "lafora",
-   "origem": "gringo",
-   "criterios_gringo": "1 sim (Gizmochina, Canaltech, Digital Chat Station); 2 sim; 3 fraco (Canaltech cobre); 4 sim (power bank). Reserva da pauta de 05/11.",
-   "verificar_antes": "Tudo é vazamento: esperar fonte oficial ou segunda fonte de fora (GSMArena/Gizmochina).",
-   "fontes": [
-    {
-     "nome": "Canaltech (12.000 mAh)",
-     "url": "https://canaltech.com.br/smartphone/12000-mah-dois-celulares-com-bateria-absurda-estao-prestes-a-chegar-ao-mercado/"
-    },
-    {
-     "nome": "Canaltech (Xiaomi 10.000 mAh)",
-     "url": "https://canaltech.com.br/smartphone/xiaomi-prepara-top-barato-com-bateria-absurda-de-10000-mah/"
-    }
-   ],
-   "imagens_oficiais": [],
-   "post_relacionado": "como-escolher-power-bank",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Power bank como alternativa, conferir ativo=sim no CSV."
-   },
-   "nota": 3,
-   "status": "nova"
   }
  ]
 }

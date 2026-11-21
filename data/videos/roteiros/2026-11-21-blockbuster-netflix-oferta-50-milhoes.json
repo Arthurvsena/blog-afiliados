@@ -1,0 +1,94 @@
+{
+  "tipo": "short",
+  "quadro": "historias",
+  "numero": 3,
+  "slug": "2026-11-21-blockbuster-netflix-oferta-50-milhoes",
+  "post": "",
+  "titulo": "Blockbuster x Netflix: a oferta de US$ 50 milhões #shorts",
+  "titulos_opcoes": [
+    "Blockbuster x Netflix: a oferta de US$ 50 milhões #shorts",
+    "Blockbuster riu da Netflix? O que se sabe #shorts",
+    "Como a Blockbuster caiu | Histórias Tech #3 #shorts"
+  ],
+  "palavra_chave": "blockbuster netflix",
+  "resumo": "Blockbuster x Netflix: em 2000, segundo os fundadores da Netflix, a locadora recusou comprá-la por US$ 50 milhões. O ex-CEO da Blockbuster contesta. Em 2010, ela pediu recuperação judicial. Histórias Tech #3.",
+  "hashtags": [
+    "Netflix",
+    "Blockbuster",
+    "HistóriasTech",
+    "Streaming"
+  ],
+  "selo": "Histórias Tech #3",
+  "fontes": [
+    {
+      "nome": "Fortune: Marc Randolph recalls Blockbuster rejecting",
+      "url": "https://fortune.com/2023/04/14/netflix-cofounder-marc-randolph-recalls-blockbuster-rejecting-chance-to-buy-it/"
+    },
+    {
+      "nome": "Newsweek: Fact Check",
+      "url": "https://newsweek.com/fact-check-did-blockbuster-turn-downchance-buy-netflix-50-million-1575557"
+    },
+    {
+      "nome": "Hardware.com.br: o dia em que a Blockbuster não quis comprar a Netflix",
+      "url": "https://www.hardware.com.br/artigos/dia-blockbuster-nao-quis-comprar-a-netflix/"
+    }
+  ],
+  "cenas": [
+    {
+      "tipo": "gancho",
+      "fala": "Dallas, 2000. A Netflix pede {US$ 50 milhões|cinquenta milhões de dólares} pela empresa. E, segundo os fundadores, a Blockbuster ri.",
+      "tela": "Netflix pediu US$ 50 milhões",
+      "imagens": [
+        "tela:https://www.hardware.com.br/artigos/dia-blockbuster-nao-quis-comprar-a-netflix/",
+        "estoque:movie rental store shelves"
+      ],
+      "fonte": "Fortune e Hardware.com.br"
+    },
+    {
+      "tipo": "data",
+      "fala": "A Blockbuster dominava o aluguel de filmes. Reed Hastings e Marc Randolph foram oferecer a Netflix, que ainda dava prejuízo e alugava DVDs pelo correio.",
+      "destaque": "2000",
+      "rotulo": "a oferta, segundo os fundadores",
+      "imagens": [
+        "url:https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Anchorage_Blockbuster_video_store_%2840131155020%29.jpg/1280px-Anchorage_Blockbuster_video_store_%2840131155020%29.jpg|Wikimedia Commons/CC BY 2.0"
+      ],
+      "fonte": "Fortune, Newsweek e Hardware.com.br"
+    },
+    {
+      "tipo": "citacao",
+      "fala": "Mas o ex-CEO, John Antioco, nega que houvesse negociação séria. Diz que a história não aconteceu desse jeito.",
+      "tela": "Não aconteceu do jeito que contam",
+      "autor": "John Antioco, ex-CEO da Blockbuster (Newsweek, 2021; tradução livre)",
+      "imagens": [
+        "url:https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Blockbuster_Video_store_-_Byres_Road_-_Glasgow_circa_2011.jpg/1280px-Blockbuster_Video_store_-_Byres_Road_-_Glasgow_circa_2011.jpg|Wikimedia Commons/CC0"
+      ],
+      "fonte": "Newsweek, 11/03/2021"
+    },
+    {
+      "tipo": "data",
+      "fala": "Segundo Hastings, grande parte do lucro da Blockbuster vinha de multas por atraso. Em setembro de 2010, incapaz de pagar a dívida, ela pediu recuperação judicial.",
+      "destaque": "SET 2010",
+      "rotulo": "recuperação judicial",
+      "imagens": [
+        "url:https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Anchorage_Blockbuster_video_store_%2841894012562%29.jpg/1280px-Anchorage_Blockbuster_video_store_%2841894012562%29.jpg|Wikimedia Commons/CC BY 2.0"
+      ],
+      "fonte": "Hardware.com.br e Newsweek"
+    },
+    {
+      "tipo": "fato",
+      "fala": "Hoje, resta uma loja em Bend, no Oregon, tema de um documentário da Netflix. Em 2021, a Netflix já valia mais de {US$ 231 bilhões|duzentos e trinta e um bilhões de dólares}.",
+      "imagens": [
+        "url:https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Blockbuster_Video_Store%2C_Inverness_-_geograph.org.uk_-_3330304.jpg/1280px-Blockbuster_Video_Store%2C_Inverness_-_geograph.org.uk_-_3330304.jpg|Wikimedia Commons/CC BY-SA 2.0"
+      ],
+      "fonte": "Newsweek, 11/03/2021"
+    },
+    {
+      "tipo": "cta",
+      "fala": "A lição: o lucro de hoje pode ser justamente o que acaba amanhã. Qual negócio de hoje corre esse risco? Tudo isso começou numa sala em:",
+      "tela": "Qual negócio de hoje corre esse risco?",
+      "imagens": [
+        "url:https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Anchorage_Blockbuster_video_store_%2840131155020%29.jpg/1280px-Anchorage_Blockbuster_video_store_%2840131155020%29.jpg|Wikimedia Commons/CC BY 2.0"
+      ]
+    }
+  ]
+}

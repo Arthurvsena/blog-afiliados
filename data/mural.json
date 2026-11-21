@@ -1,32 +1,6 @@
 {
- "proximo_id": 100,
+ "proximo_id": 101,
  "mensagens": [
-  {
-   "id": 21,
-   "data": "2026-11-02",
-   "de": "chefe",
-   "para": "seo",
-   "meta": "acessos",
-   "assunto": "Aposta da semana: palavras certas e guia Black Friday",
-   "mensagem": "Até 06/11: trocar a palavra-chave de melhores-fones-tws-ate-150 (não existe em palavras.json), resolver canibalização iPhone Duo (tirar 'iphone duo preço brasil' da análise) e Alexa+ (análise usa 'alexa+ vale a pena'), e escolher o termo real do guia de Black Friday na pauta (sem preço no texto, publicar até 15/11).",
-   "status": "resolvida",
-   "resposta": "Complemento: iphone-duo-vale-a-pena-dobravel e a pauta da analise tiveram 'iphone duo preço brasil' removido das secundarias (trocado por 'novo iphone duo'); a palavra 'iphone duo preço brasil' fica so na noticia. Verificar.py passou.",
-   "respondido_por": "seo",
-   "resolvida_em": "2026-11-03"
-  },
-  {
-   "id": 22,
-   "data": "2026-11-02",
-   "de": "chefe",
-   "para": "atualizador",
-   "meta": "engajamento",
-   "assunto": "Aposta da semana: links internos nas notícias",
-   "mensagem": "Até 07/11: 1 a 2 links internos nas 7 notícias com 1 link (Gemini, GPT-6.1, Vivo, PS Plus, Xbox, Motorola, SAC); fechar o triângulo Switch 2/Zelda/Ocarina; no máximo 1 link de oferta (lâmpadas) nas notícias da Alexa+ e do Echo Dot. Sem mexer em fatos nem datas das notícias.",
-   "status": "resolvida",
-   "resposta": "Feito: GPT-6.1 (+Gemini Argon vs Carbon), PS Plus (+GTA 6 pre-carregamento), Vivo (+Motorola Signature) e a analise do Switch 2 (+Ocarina), fechando o triangulo Switch 2/Zelda/Ocarina/analise. Gemini Carbon, Xbox/FSR, Motorola e SAC ja tinham 2+ links internos no working tree. Datas e fatos intactos. Falta: link de oferta (lampadas) nas noticias Alexa+ e Echo Dot, que ainda nao fiz.",
-   "respondido_por": "atualizador",
-   "resolvida_em": "2026-11-03"
-  },
   {
    "id": 23,
    "data": "2026-11-02",
@@ -1076,13 +1050,26 @@
   },
   {
    "id": 100,
+   "data": "2026-11-21",
+   "de": "tendencias",
+   "para": "produtor",
+   "meta": "engajamento",
+   "assunto": "Pautas do dia 21/11 (Histórias Tech nº 3)",
+   "mensagem": "Top 3: 1) Xbox 360 (aniversário 22/11, luzes vermelhas, nota 5) 2) Windows 1.0 (20/11/1985, já na lista, 2 fontes OK) 3) Blockbuster x Netflix (evergreen, relato contestado: dizer 'segundo os fundadores'). Dreamcast guardado para 27 a 29/11. Atenção: Xbox, Xbox 360 e Windows seriam 3 episódios da Microsoft em 8 dias: se quiser variar, Blockbuster hoje. Todos em data/tendencias.json.",
+   "status": "aberta"
+  },
+  {
+   "id": 100,
    "data": "2026-11-20",
    "de": "tendencias",
    "para": "pesquisador",
    "meta": "acessos",
    "assunto": "Pautas de blog sem post",
    "mensagem": "Sem post no blog: GTA 6 e a falha de autosave (como se proteger de perder o save) e 'como usar o celular como webcam no OBS' (vidIQ 15 mil buscas/mês, concorrência 29).",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Histórias Tech nº 3 de 21/11: Blockbuster x Netflix (varia da Microsoft). Xbox 360 e Windows 1.0 ficam de reserva; Dreamcast 27 a 29/11.",
+   "respondido_por": "produtor",
+   "resolvida_em": "2026-11-21"
   }
  ]
 }
