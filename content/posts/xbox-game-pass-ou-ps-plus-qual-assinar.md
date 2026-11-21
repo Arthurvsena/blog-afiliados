@@ -2,12 +2,12 @@
 titulo: "Xbox Game Pass ou PS Plus: qual assinatura vale mais"
 slug: xbox-game-pass-ou-ps-plus-qual-assinar
 descricao: "Xbox Game Pass ou PlayStation Plus? Compare planos, catálogo, lançamentos no dia 1 e nuvem e veja qual assinatura faz mais sentido para você."
-palavra_chave: "xbox game pass"
-palavras_secundarias: ["xbox game pass vale a pena", "playstation plus", "playstation plus extra", "xbox game pass ultimate", "xbox game pass essential"]
+palavra_chave: "xbox game pass ou ps plus"
+palavras_secundarias: ["xbox game pass vale a pena", "xbox game pass", "playstation plus", "playstation plus extra", "xbox game pass ultimate", "xbox game pass essential"]
 editoria: analises
 tipo: analise
 publicado: 2026-11-20 10:00
-atualizado: 2026-11-20
+atualizado: 2026-11-21
 fontes:
   - nome: "Xbox Game Pass (site oficial Brasil)"
     url: "https://www.xbox.com/pt-BR/xbox-game-pass"
@@ -40,9 +40,9 @@ imagem:
 
 **Xbox Game Pass ou PS Plus?** A diferença que decide está nos planos: só o Game Pass Ultimate traz lançamentos no dia 1, e o catálogo do PS Plus só começa no Extra (o Essential não tem). Quem joga muito tende a se dar melhor no Xbox; quem vive no PS5 fica com a Sony. Abaixo, plano por plano.
 
-Vale lembrar uma coisa antes de tudo: eu não testei nenhum dos dois serviços. A comparação abaixo vem das páginas oficiais de cada plano, abertas nesta quinta-feira (20/11/2026).
+Vale lembrar uma coisa antes de tudo: eu não testei nenhum dos dois serviços. A comparação abaixo vem das páginas oficiais de cada plano, reabertas neste sábado (21/11/2026).
 
-## Comparativo rápido
+## Xbox Game Pass ou PS Plus: comparativo rápido
 
 | Plano | Ponto forte | Para quem é |
 |---|---|---|

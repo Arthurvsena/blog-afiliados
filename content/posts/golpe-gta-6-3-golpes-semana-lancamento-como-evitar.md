@@ -57,12 +57,12 @@ O Canaltech lista seis cuidados:
 - ativar a verificação em duas etapas nas contas PlayStation e Xbox;
 - manter antivírus ativo no computador;
 - fugir de lojas com poucas formas de pagamento.
+Quer mais sinais de site falso? Veja o [guia de golpes da Black Friday](/posts/golpes-black-friday-2026-golpe-pix-o-que-fazer/). E para entender os preços e as edições, o texto sobre [GTA 6 no Brasil, com preço e versões](/posts/gta-6-preco-brasil-meia-noite-19-novembro-versoes/).
+
 
 :::dica Atalho seguro
 Compre direto na PlayStation Store ou na Xbox Store: o código já cai na sua conta, sem intermediário.
 :::
-
-Para mais sinais de site falso, veja o [guia de golpes da Black Friday](/posts/golpes-black-friday-2026-golpe-pix-o-que-fazer/). E para entender os preços e as edições, o texto sobre [GTA 6 no Brasil, com preço e versões](/posts/gta-6-preco-brasil-meia-noite-19-novembro-versoes/).
 
 ## O que ainda não se sabe
 

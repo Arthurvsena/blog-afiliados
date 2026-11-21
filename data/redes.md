@@ -2,6 +2,72 @@
 
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
+## 2026-11-21 · GTA 6 autosave falha e apaga 11 horas de jogo no PS5
+Link: https://nexustechai.com.br/posts/gta-6-autosave-falha-perder-save-como-se-proteger/
+- WhatsApp: Streamer perdeu 11 horas de GTA 6 no PS5 por causa do autosave. A Rockstar não explicou a causa. Dica: salve na mão com frequência: https://nexustechai.com.br/posts/gta-6-autosave-falha-perder-save-como-se-proteger/
+- X: GTA 6: streamer perdeu 11 horas de progresso no PS5 depois de desligar o console. O autosave só roda após missões e a Rockstar não explicou a falha. Salve manualmente: https://nexustechai.com.br/posts/gta-6-autosave-falha-perder-save-como-se-proteger/
+- Instagram (legenda): 11 horas de GTA 6 perdidas num desligamento.
+  O autosave salva pouco e não funciona no meio da missão.
+  Salve manualmente, são 15 slots.
+  Passo a passo no link da bio.
+  #gta6 #ps5 #games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Perdeu 11 horas de GTA 6 num clique." [2-8 s] Fato 1: streamer desligou o PS5 e o progresso sumiu. [8-14 s] Fato 2: o autosave só roda depois de missões. [14-18 s] Fato 3: a Rockstar ainda não explicou a causa. [18-20 s] "Como salvar na mão: link na bio."
+
+## 2026-11-21 · Inteligência artificial para celular Android: Gemini com 2 GB
+Link: https://nexustechai.com.br/posts/gemini-app-celular-android-go-2-gb-ram-como-funciona/
+- WhatsApp: O Gemini agora roda em celular Android Go, a partir de 2 GB de RAM (segundo o Tecnoblog). Ainda não dá para garantir que chega ao seu aparelho: https://nexustechai.com.br/posts/gemini-app-celular-android-go-2-gb-ram-como-funciona/
+- X: O app do Gemini agora funciona em Android Go com pouca RAM (piso de 2 GB, segundo o Tecnoblog). Tem Gemini Live e câmera. Alguns recursos podem faltar: https://nexustechai.com.br/posts/gemini-app-celular-android-go-2-gb-ram-como-funciona/
+- Instagram (legenda): IA no celular básico, de verdade.
+  O Gemini agora roda em Android Go, a partir de 2 GB de RAM.
+  Tem conversa por voz, câmera e imagens.
+  Detalhes e limites no link da bio.
+  #gemini #android #ia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seu celular barato agora tem Gemini." [2-8 s] Fato 1: roda em Android Go, a partir de 2 GB de RAM. [8-14 s] Fato 2: Gemini Live, câmera e criação de imagens. [14-18 s] Fato 3: o "ok, Google" pode não funcionar. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-21 · Gemini 4 Neon: Google lança modelo, preço e onde usar
+Link: https://nexustechai.com.br/posts/gemini-4-neon-google-lanca-preco-onde-usar/
+- WhatsApp: O Google lançou o Gemini 4 Neon, modelo do meio da família. Está no app só para assinantes Pro e Ultra. Sem preço em reais: https://nexustechai.com.br/posts/gemini-4-neon-google-lanca-preco-onde-usar/
+- X: Google lança o Gemini 4 Neon: app para assinantes AI Pro e Ultra; na API, US$ 3 por milhão de tokens de entrada e US$ 15 de saída. Quem usa o grátis não vê o modelo: https://nexustechai.com.br/posts/gemini-4-neon-google-lanca-preco-onde-usar/
+- Instagram (legenda): O Gemini 4 Neon chegou.
+  Fica entre o Carbon e o Hydrogen.
+  No app, só para AI Pro e Ultra. Na API, US$ 3 por milhão de tokens.
+  Quem usa o grátis não vê.
+  #gemini #google #ia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "O Google lançou o Gemini 4 Neon." [2-8 s] Fato 1: é o modelo do meio, entre Carbon e Hydrogen. [8-14 s] Fato 2: no app, só para AI Pro e Ultra. [14-18 s] Fato 3: na API, US$ 3 por milhão de tokens de entrada. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-21 · One UI 9.5 App Lock: bloqueie apps no Galaxy S26, mas só no beta
+Link: https://nexustechai.com.br/posts/samsung-app-lock-one-ui-9-5-bloquear-apps-galaxy-s26/
+- WhatsApp: Samsung testa cadeado em cada app no Galaxy S26, sem Pasta Segura. Ainda é beta e não há data no Brasil: https://nexustechai.com.br/posts/samsung-app-lock-one-ui-9-5-bloquear-apps-galaxy-s26/
+- X: Samsung testa o App Lock na One UI 9.5: tranque apps individuais com biometria ou PIN, sem Pasta Segura. Estreou no Galaxy S26, em beta. Sem data no Brasil: https://nexustechai.com.br/posts/samsung-app-lock-one-ui-9-5-bloquear-apps-galaxy-s26/
+- Instagram (legenda): Cadeado em cada app no Galaxy.
+  O App Lock da One UI 9.5 pede biometria ou PIN para abrir o app.
+  Não é Pasta Segura: só tranca.
+  Por enquanto é beta no S26.
+  #samsung #oneui #galaxys26
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Samsung vai deixar trancar app por app." [2-8 s] Fato 1: App Lock pede biometria ou PIN. [8-14 s] Fato 2: não copia o app, diferente da Pasta Segura. [14-18 s] Fato 3: só em beta no S26, sem data no Brasil. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-21 · IA grátis para criar vídeos: o que funciona sem pagar
+Link: https://nexustechai.com.br/posts/ia-gratis-criar-videos-como-fazer/
+- WhatsApp: Dá para criar vídeo com IA de graça no celular, com limites. Vibes, Dreamina e Clipchamp funcionam; Gemini e Canva cobram: https://nexustechai.com.br/posts/ia-gratis-criar-videos-como-fazer/
+- X: IA grátis para criar vídeos: Vibes (Meta), Dreamina (CapCut) e Clipchamp funcionam sem assinatura, com limites. Gemini e Canva cobram. Passo a passo: https://nexustechai.com.br/posts/ia-gratis-criar-videos-como-fazer/
+- Instagram (legenda): Vídeo com IA sem pagar? Dá, com limite.
+  Vibes, Dreamina e Clipchamp são grátis.
+  Gemini e Canva pedem assinatura.
+  Passo a passo no link da bio.
+  #ia #videocomia #appsgratis
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Vídeo com IA de graça existe." [2-8 s] Fato 1: Vibes, da Meta, é gratuito. [8-14 s] Fato 2: Dreamina dá créditos diários. [14-18 s] Fato 3: Gemini e Canva cobram. [18-20 s] "Passo a passo no link da bio."
+
+## 2026-11-21 · Jogos grátis Epic Games: Alien: Isolation e Mark of the Deep
+Link: https://nexustechai.com.br/posts/epic-games-alien-isolation-mark-of-the-deep-gratis-19-26-novembro/
+- WhatsApp: Alien: Isolation e Mark of the Deep estão grátis na Epic até 26/11. Um deles é de estúdio de São Paulo. Precisa de verificação em duas etapas: https://nexustechai.com.br/posts/epic-games-alien-isolation-mark-of-the-deep-gratis-19-26-novembro/
+- X: Epic Games: Alien: Isolation e Mark of the Deep grátis até 26/11. Resgatando, ficam na biblioteca para sempre. Mark of the Deep é de um estúdio de São Paulo. Ative a verificação em duas etapas antes: https://nexustechai.com.br/posts/epic-games-alien-isolation-mark-of-the-deep-gratis-19-26-novembro/
+- Instagram (legenda): Dois jogos de graça na Epic até 26/11.
+  Alien: Isolation (terror) e Mark of the Deep (feito em São Paulo).
+  Precisa de verificação em duas etapas na conta.
+  Passo a passo no link da bio.
+  #epicgames #jogosgratis #games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Dois jogos grátis na Epic, só até 26/11." [2-8 s] Fato 1: Alien: Isolation, terror de fugir de um monstro. [8-14 s] Fato 2: Mark of the Deep, aventura pirata feita em São Paulo. [14-18 s] Fato 3: ative a verificação em duas etapas antes. [18-20 s] "Passo a passo no link da bio."
+
 ## 2026-11-20 · Carregador turbo Samsung: 25 W ou 45 W? Veja o teto do Galaxy
 Link: https://nexustechai.com.br/posts/carregador-turbo-samsung-qual-comprar/
 - WhatsApp: Antes da Black Friday: no teste com o S25 Ultra, carregador de 25 W entregou ~20 W e o de 45 W chegou a ~40 W. Veja qual vale para o seu Galaxy: https://nexustechai.com.br/posts/carregador-turbo-samsung-qual-comprar/

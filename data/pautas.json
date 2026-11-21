@@ -2255,8 +2255,9 @@
     ],
     "prioridade": "media",
     "motivo": "Comparação com busca própria e ligação com os posts mensais de PS Plus e Game Pass já publicados (bom para links internos). Planos e preços mudam: não colocar valor, mandar conferir nos sites oficiais; o redator abre as páginas oficiais antes de afirmar o que cada plano inclui.",
-    "status": "pendente",
-    "criada": "2026-11-07"
+    "status": "publicada",
+    "criada": "2026-11-07",
+    "post": "xbox-game-pass-ou-ps-plus-qual-assinar"
   },
   {
     "id": "iphone-novo-ou-recondicionado-vale-a-pena",
@@ -4742,7 +4743,7 @@
     "produtos_necessarios": 0,
     "motivo": "Lançado em 17/11 no ChatGPT Work, Codex e API (planos Plus, Pro, Enterprise, Edu). Astra US$ 8/M entrada (era 10), Sol US$ 2/M. Números são da OpenAI, sem teste independente; dizer isso. Redator abre o blog da OpenAI para confirmar; não afirmar disponibilidade grátis nem no plano Go. Não repete chatgpt-voz-avancada (12/11).",
     "prioridade": "hoje",
-    "status": "pendente",
+    "status": "descartada",
     "criada": "2026-11-19",
     "viral": 3
   },
@@ -4772,7 +4773,7 @@
     "produtos_necessarios": 0,
     "motivo": "Anunciado em 16/11, web, maiores de 18 anos, inclui Workspace; celular ainda não. Passo a passo: criar caderno, adicionar fontes, pedir 'make me a site', abrir no Studio. Brasil não nomeado: dizer que o lançamento é global mas sem confirmação por país. Aviso de que a IA erra. Confirmar o termo em palavras.json.",
     "prioridade": "hoje",
-    "status": "pendente",
+    "status": "descartada",
     "criada": "2026-11-19",
     "viral": 3
   },
@@ -4839,9 +4840,10 @@
     "tipo": "tutorial",
     "produtos_necessarios": 0,
     "motivo": "Busca forte (2,75) sem post; editoria de IA pede tutoriais.",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-19",
-    "viral": 4
+    "viral": 4,
+    "post": "ia-gratis-criar-videos-como-fazer"
   },
   {
     "id": "inteligencia-artificial-como-usar-no-celular",
@@ -4948,9 +4950,10 @@
     "tipo": "guia",
     "produtos_necessarios": 0,
     "motivo": "Termo 4,0 Google+ML sem post; G203 está no catálogo.",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-19",
-    "viral": 2
+    "viral": 2,
+    "post": "mouse-gamer-logitech-qual-escolher"
   },
   {
     "id": "carregador-turbo-samsung-qual-comprar",
@@ -4968,9 +4971,10 @@
     "tipo": "guia",
     "produtos_necessarios": 0,
     "motivo": "Termo 4,19 Google+ML sem post; EP-TA800 no catálogo.",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-19",
-    "viral": 3
+    "viral": 3,
+    "post": "carregador-turbo-samsung-qual-comprar"
   },
   {
     "id": "gta-6-reviews-nota-99-metacritic-empata-ocarina-of-time",
@@ -5114,5 +5118,149 @@
     "status": "pendente",
     "criada": "2026-11-20",
     "viral": 4
+  },
+  {
+    "id": "gta-6-autosave-falha-perder-save-como-se-proteger",
+    "titulo": "GTA 6: falha no autosave faz jogadores perderem horas de progresso; como se proteger",
+    "palavra_chave": "gta 6 autosave",
+    "secundarias": [
+      "gta 6 salvar jogo",
+      "gta 6 perdeu progresso"
+    ],
+    "editoria": "games",
+    "fontes": [
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/games/falha-grava-no-autosave-de-gta-6-faz-jogadores-perderem-dezenas-de-horas-de-gameplay/"
+      },
+      {
+        "nome": "Critical Hits",
+        "url": "https://criticalhits.com.br/games/streamer-perde-11-horas-de-progresso-em-gta-6-apos-desligar-ps5/"
+      },
+      {
+        "nome": "Video Games Chronicle (como o autosave funciona)",
+        "url": "https://www.videogameschronicle.com/guide/gta-6-psa-heres-how-gta-6-autosave-works/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "prioridade": "hoje",
+    "motivo": "Fato novo do GTA 6 (mural #100): streamer perdeu 10-11h no PS5; autosave de slot único, 15 slots manuais. Rockstar sem posicionamento oficial nas fontes: tratar causa como suspeita da comunidade. Conferir se Rockstar se pronunciou antes de publicar; linkar guia de liberar espaço e de golpes do GTA 6.",
+    "status": "publicada",
+    "criada": "2026-11-21",
+    "viral": 5,
+    "post": "gta-6-autosave-falha-perder-save-como-se-proteger"
+  },
+  {
+    "id": "gemini-4-neon-google-lanca-preco-onde-usar",
+    "titulo": "Gemini 4 Neon: Google lança modelo intermediário; o que muda para quem usa o app",
+    "palavra_chave": "gemini 4 neon",
+    "secundarias": [
+      "gemini google ai"
+    ],
+    "editoria": "inteligencia-artificial",
+    "fontes": [
+      {
+        "nome": "Google (blog oficial)",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+      },
+      {
+        "nome": "ActuIA (resumo de 19/11)",
+        "url": "https://www.actuia.com/veille/2026-11-19/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "prioridade": "hoje",
+    "motivo": "Lançado em 18/11, fica entre Carbon e Hydrogen; app Gemini para assinantes Pro e Ultra, API paga (US$ 3 entrada / US$ 15 saída por milhão de tokens, contexto 1 mi). Benchmarks são dados da Google. Ligar aos posts do Gemini 4 Carbon e Argon x Carbon; dizer se chega ao Brasil só se a página do Google confirmar.",
+    "status": "publicada",
+    "criada": "2026-11-21",
+    "viral": 4,
+    "post": "gemini-4-neon-google-lanca-preco-onde-usar"
+  },
+  {
+    "id": "gemini-app-celular-android-go-2-gb-ram-como-funciona",
+    "titulo": "Gemini chega a celulares Android de entrada com 2 GB de RAM: o que muda e quem recebe",
+    "palavra_chave": "inteligencia artificial para celular android",
+    "secundarias": [
+      "inteligência artificial para celular grátis",
+      "inteligência artificial para celular"
+    ],
+    "editoria": "celulares",
+    "fontes": [
+      {
+        "nome": "Google (blog oficial)",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/"
+      },
+      {
+        "nome": "Tecnoblog",
+        "url": "https://tecnoblog.net/noticias/app-do-gemini-agora-funciona-ate-em-celulares-android-com-pouca-ram/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "prioridade": "hoje",
+    "motivo": "Anúncio de 18/11: app completo do Gemini em Android (Go edition) com 2 GB de RAM e conta Google; antes exigia 6 GB nas funções principais; sem lista de modelos; liberação gradual. Termo 3,58 sem post. Útil para o leitor de celular barato. Ligar a melhores-ias-gratis-celular-android.",
+    "status": "publicada",
+    "criada": "2026-11-21",
+    "viral": 4,
+    "post": "gemini-app-celular-android-go-2-gb-ram-como-funciona"
+  },
+  {
+    "id": "samsung-app-lock-one-ui-9-5-bloquear-apps-galaxy-s26",
+    "titulo": "Samsung testa App Lock na One UI 9.5: bloquear apps individualmente no Galaxy",
+    "palavra_chave": "one ui 9.5 app lock",
+    "secundarias": [
+      "lançamento celular samsung"
+    ],
+    "editoria": "celulares",
+    "fontes": [
+      {
+        "nome": "Tecnoblog (20/11)",
+        "url": "https://tecnoblog.net/noticias/samsung-agora-permite-bloquear-apps-individualmente-nos-celulares/"
+      },
+      {
+        "nome": "SamMobile (citada pelo Tecnoblog)",
+        "url": "https://www.sammobile.com/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "prioridade": "hoje",
+    "motivo": "Recurso nativo no beta da One UI 9.5 (começa no Galaxy S26): biometria/PIN/senha, esconde notificações e widgets; não substitui Pasta Segura. Sem data nem lista de modelos no Brasil: tratar como beta. Procurar o link direto do SamMobile e fonte Samsung antes de publicar. Ligar ao post do One UI 9.",
+    "status": "publicada",
+    "criada": "2026-11-21",
+    "viral": 3,
+    "post": "samsung-app-lock-one-ui-9-5-bloquear-apps-galaxy-s26"
+  },
+  {
+    "id": "epic-games-alien-isolation-mark-of-the-deep-gratis-19-26-novembro",
+    "titulo": "Epic Games: Alien: Isolation e Mark of the Deep grátis até 26 de novembro; como resgatar",
+    "palavra_chave": "jogos gratis epic games",
+    "secundarias": [
+      "epic games gratis"
+    ],
+    "editoria": "games",
+    "fontes": [
+      {
+        "nome": "Epic Games Store",
+        "url": "https://store.epicgames.com/pt-BR/free-games"
+      },
+      {
+        "nome": "Game Over Drive",
+        "url": "https://gameoverdrive.com.br/alien-isolation-gratis-epic-games-novembro-2026/"
+      },
+      {
+        "nome": "TecMundo (cobertura semanal Epic)",
+        "url": "https://www.tecmundo.com.br/voxel/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "prioridade": "hoje",
+    "motivo": "Troca às 13h (Brasília) de 19/11, até 26/11; Mark of the Deep é do estúdio brasileiro Mad Mimic. Confirmar na página da Epic antes de publicar (a fonte de apoio é uma só). Mesmo formato do post Knightica.",
+    "status": "pendente",
+    "criada": "2026-11-21",
+    "viral": 5
   }
 ]
