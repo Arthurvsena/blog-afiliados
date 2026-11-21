@@ -129,11 +129,17 @@
   },
   {
    "slug": "elias-e-o-fogo-do-ceu",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-21",
+   "release": "biblia-2026-11-21",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "elias-e-os-corvos",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-21",
+   "release": "biblia-2026-11-21",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "a-torre-de-babel",
