@@ -143,11 +143,17 @@
   },
   {
    "slug": "a-torre-de-babel",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-22",
+   "release": "biblia-2026-11-22",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "caim-e-abel",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-22",
+   "release": "biblia-2026-11-22",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "adao-eva-e-a-serpente",
