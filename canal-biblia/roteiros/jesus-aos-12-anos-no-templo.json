@@ -1,0 +1,25 @@
+{
+ "slug": "jesus-aos-12-anos-no-templo",
+ "titulo": "Os pais de Jesus o procuraram por três dias… e ele estava onde ninguém esperava",
+ "descricao": "Os pais de Jesus o procuraram por três dias… e ele estava onde ninguém esperava. Lucas 2:41–52 em menos de 1 minuto.\n\n\"Não sabíeis que me convinha estar na casa de meu Pai?\" (Lucas 2:49)",
+ "hashtags": ["jesus", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "Lucas 2:41–52",
+ "heroi": {"nome": "Jesus", "cores": ["#e8dcc0", "#c9a45a", "#5a7f9c", "#8a5a3c"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "Os pais de Jesus o procuraram por três dias. E ele estava onde ninguém esperava.", "cenario": "cidade", "hora": "dia", "camera": "afasta", "texto_tela": "3 dias", "contar": false,
+   "elementos": [{"tipo": "pessoa", "variante": "mulher", "x": 330, "olhar": 1, "pose": "andando", "anda_ate": 450}, {"tipo": "pessoa", "variante": "homem", "x": 160, "olhar": 1, "pose": "andando", "anda_ate": 300}]},
+  {"fala": "Todo ano, a família ia a Jerusalém para a festa da Páscoa. Quando Jesus tinha doze anos, foram como sempre.", "cenario": "cidade", "hora": "dia", "camera": "direita",
+   "elementos": [{"tipo": "heroi", "variante": "crianca", "x": 400, "pose": "andando", "anda_ate": 560, "olhar": 1, "veste": "branca"}, {"tipo": "multidao", "x": 800, "n": 6, "plano": "fundo"}]},
+  {"fala": "Na volta, José e Maria caminharam um dia inteiro, achando que o menino estava no meio dos parentes. Mas ele não estava.", "cenario": "deserto", "hora": "por_do_sol", "camera": "aproxima",
+   "elementos": [{"tipo": "pessoa", "variante": "mulher", "x": 360, "olhar": 1}, {"tipo": "pessoa", "variante": "homem", "x": 720, "olhar": -1}]},
+  {"fala": "Voltaram a Jerusalém, aflitos. E depois de três dias, o encontraram no templo.", "cenario": "cidade", "hora": "dia", "camera": "aproxima", "texto_tela": "3 dias", "contar": false,
+   "elementos": [{"tipo": "pessoa", "variante": "mulher", "x": 300, "pose": "andando", "anda_ate": 460, "olhar": 1}, {"tipo": "pessoa", "variante": "homem", "x": 160, "pose": "andando", "anda_ate": 340, "olhar": 1}]},
+  {"fala": "Estava sentado entre os mestres, ouvindo e fazendo perguntas. E todos se admiravam da inteligência das suas respostas.", "cenario": "templo", "hora": "dia", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "variante": "crianca", "x": 540, "pose": "sentado", "veste": "branca"}, {"tipo": "pessoa", "variante": "sacerdote", "x": 240, "olhar": 1}, {"tipo": "pessoa", "variante": "idoso", "x": 840, "olhar": -1}]},
+  {"fala": "Maria disse: filho, por que fez isso? Procurávamos você, aflitos. E ele respondeu com uma pergunta.", "cenario": "templo", "hora": "dia", "camera": "zoom_forte",
+   "elementos": [{"tipo": "pessoa", "variante": "mulher", "x": 280, "olhar": 1}, {"tipo": "heroi", "variante": "crianca", "x": 760, "olhar": -1, "veste": "branca"}]},
+  {"fala": "Não sabíeis que me convinha estar na casa de meu Pai?", "versiculo": true, "texto_tela": "Lucas 2:49", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "variante": "crianca", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "bracos_erguidos", "veste": "branca"}]}
+ ]
+}

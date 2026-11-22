@@ -1,0 +1,25 @@
+{
+ "slug": "o-nascimento-de-jesus",
+ "titulo": "O Rei do mundo nasceu onde dormem os animais… e os primeiros a saber foram uns pastores",
+ "descricao": "O Rei do mundo nasceu onde dormem os animais… e os primeiros a saber foram uns pastores. Lucas 2 em menos de 1 minuto.\n\n\"Hoje vos nasceu, na cidade de Davi, o Salvador, que é Cristo, o Senhor.\" (Lucas 2:11)",
+ "hashtags": ["natal", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "Lucas 2",
+ "heroi": {"nome": "Maria", "cores": ["#3d6fa8", "#f2e6c8", "#c28a4a", "#7a9e8c"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "O Rei do mundo nasceu onde dormem os animais. E os primeiros a saber foram uns pastores.", "cenario": "interior", "hora": "noite", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "ovelha", "x": 800, "n": 2, "plano": "fundo"}, {"tipo": "heroi", "variante": "mulher", "x": 540, "pose": "abraco"}]},
+  {"fala": "Maria e José viajaram até Belém por causa de um recenseamento ordenado pelo imperador.", "cenario": "deserto", "hora": "por_do_sol", "camera": "direita",
+   "elementos": [{"tipo": "heroi", "variante": "mulher", "x": 300, "pose": "andando", "anda_ate": 560, "olhar": 1}, {"tipo": "pessoa", "variante": "homem", "x": 160, "pose": "andando", "anda_ate": 400, "olhar": 1}]},
+  {"fala": "Chegaram a Belém, mas não havia lugar para eles na hospedaria.", "cenario": "cidade", "hora": "noite", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "variante": "mulher", "x": 360, "olhar": 1}, {"tipo": "pessoa", "variante": "homem", "x": 720, "olhar": -1}]},
+  {"fala": "Ali, Maria deu à luz o seu filho e o deitou numa manjedoura.", "cenario": "interior", "hora": "noite", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "variante": "mulher", "x": 540, "pose": "ajoelhado"}, {"tipo": "estrela", "x": 540, "altura": 700}]},
+  {"fala": "Nos campos, pastores vigiavam as ovelhas. De repente, um anjo apareceu e a luz de Deus os cercou. Eles ficaram com muito medo.", "cenario": "campo", "hora": "noite", "camera": "sobe", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "pessoa", "variante": "pastor", "x": 300, "pose": "ajoelhado"}, {"tipo": "ovelha", "x": 800, "n": 4}, {"tipo": "pessoa", "variante": "anjo", "x": 560, "plano": "fundo", "escala": 1.6, "dy": -200}]},
+  {"fala": "O anjo disse: não tenham medo. Eu trago uma boa notícia de grande alegria para todo o povo.", "cenario": "campo", "hora": "noite", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "pessoa", "variante": "anjo", "x": 540, "escala": 1.3}, {"tipo": "pessoa", "variante": "pastor", "x": 260, "olhar": 1}, {"tipo": "pessoa", "variante": "pastor", "x": 820, "olhar": -1}]},
+  {"fala": "Hoje vos nasceu, na cidade de Davi, o Salvador, que é Cristo, o Senhor.", "versiculo": true, "texto_tela": "Lucas 2:11", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "variante": "mulher", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ]
+}

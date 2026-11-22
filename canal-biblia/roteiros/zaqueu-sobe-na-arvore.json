@@ -1,0 +1,25 @@
+{
+ "slug": "zaqueu-sobe-na-arvore",
+ "titulo": "O homem mais odiado da cidade subiu numa árvore… e Jesus parou bem embaixo dele",
+ "descricao": "O homem mais odiado da cidade subiu numa árvore… e Jesus parou bem embaixo dele. Lucas 19 em menos de 1 minuto.\n\n\"O Filho do Homem veio buscar e salvar o perdido.\" (Lucas 19:10)",
+ "hashtags": ["zaqueu", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "Lucas 19",
+ "heroi": {"nome": "Zaqueu", "cores": ["#9a4a2f", "#e0c070", "#4f7a5a", "#f0e4c4"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "O homem mais odiado da cidade subiu numa árvore. E Jesus parou bem embaixo dele.", "cenario": "cidade", "hora": "dia", "camera": "sobe",
+   "elementos": [{"tipo": "palmeira", "x": 540}, {"tipo": "heroi", "x": 540, "dy": -330, "escala": 0.8, "pose": "sentado"}, {"tipo": "pessoa", "variante": "jesus", "x": 800, "olhar": -1}]},
+  {"fala": "Zaqueu era chefe dos cobradores de impostos, e muito rico. O povo o desprezava.", "cenario": "cidade", "hora": "dia", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 540, "olhar": 1}, {"tipo": "multidao", "x": 200, "n": 4, "plano": "fundo", "olhar": 1}]},
+  {"fala": "Jesus passava por Jericó, e Zaqueu queria vê-lo. Mas era baixo, e a multidão tapava tudo.", "cenario": "cidade", "hora": "dia", "camera": "aproxima",
+   "elementos": [{"tipo": "multidao", "x": 540, "n": 8, "plano": "frente"}, {"tipo": "heroi", "x": 250, "olhar": 1}]},
+  {"fala": "Então ele correu na frente e subiu num sicômoro, para ver Jesus passar.", "cenario": "cidade", "hora": "dia", "camera": "sobe",
+   "elementos": [{"tipo": "palmeira", "x": 540}, {"tipo": "heroi", "x": 540, "dy": -330, "escala": 0.8, "pose": "sentado"}]},
+  {"fala": "Jesus olhou para cima e disse: Zaqueu, desce depressa! Hoje preciso ficar na tua casa.", "cenario": "cidade", "hora": "dia", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "palmeira", "x": 540}, {"tipo": "heroi", "x": 540, "dy": -330, "escala": 0.8, "pose": "sentado"}, {"tipo": "pessoa", "variante": "jesus", "x": 800, "olhar": -1, "pose": "apontando"}]},
+  {"fala": "O povo murmurou. Mas Zaqueu prometeu dar metade dos seus bens aos pobres e devolver quatro vezes mais a quem ele enganou.", "cenario": "interior", "hora": "dia", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "x": 360, "olhar": 1, "pose": "bracos_erguidos"}, {"tipo": "pessoa", "variante": "jesus", "x": 760, "olhar": -1}]},
+  {"fala": "O Filho do Homem veio buscar e salvar o perdido.", "versiculo": true, "texto_tela": "Lucas 19:10", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ]
+}

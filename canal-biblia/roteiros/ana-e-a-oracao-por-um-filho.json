@@ -1,0 +1,25 @@
+{
+ "slug": "ana-e-a-oracao-por-um-filho",
+ "titulo": "Ela chorou no templo pedindo um filho… e o sacerdote achou que ela estava bêbada",
+ "descricao": "Ela chorou no templo pedindo um filho… e o sacerdote achou que ela estava bêbada. 1 Samuel 1 em menos de 1 minuto.\n\n\"Por este menino orava eu, e o Senhor me concedeu a petição que lhe fiz.\" (1 Samuel 1:27)",
+ "hashtags": ["ana", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "1 Samuel 1",
+ "heroi": {"nome": "Ana", "cores": ["#b5527a", "#f0d9a0", "#5b7fa3", "#8c3b4a"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "Ela chorava tanto no templo que o sacerdote achou que estava bêbada.", "cenario": "templo", "hora": "por_do_sol", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "variante": "mulher", "x": 500, "pose": "ajoelhado", "olhar": 1}, {"tipo": "pessoa", "variante": "sacerdote", "x": 850, "olhar": -1, "plano": "fundo"}]},
+  {"fala": "Ana não tinha filhos. Todo ano ia ao templo, e todo ano voltava com o coração partido.", "cenario": "interior", "hora": "noite", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "variante": "mulher", "x": 540, "pose": "sentado"}]},
+  {"fala": "Um dia, ela derramou a alma diante de Deus. Prometeu: se me der um filho, eu o entrego ao Senhor.", "cenario": "templo", "hora": "por_do_sol", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "variante": "mulher", "x": 480, "pose": "orando", "olhar": 1}]},
+  {"fala": "O sacerdote Eli a ouviu e disse: vai em paz. E o Deus de Israel te conceda o que pediste.", "cenario": "templo", "hora": "por_do_sol", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "variante": "mulher", "x": 300, "olhar": 1}, {"tipo": "pessoa", "variante": "sacerdote", "x": 700, "olhar": -1}]},
+  {"fala": "Deus se lembrou de Ana. E ela deu à luz um menino: Samuel.", "cenario": "interior", "hora": "amanhecer", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "variante": "mulher", "x": 540, "pose": "abraco"}]},
+  {"fala": "Quando ele cresceu, Ana cumpriu a promessa. Levou o menino ao templo e o entregou ao Senhor.", "cenario": "templo", "hora": "dia", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "variante": "mulher", "x": 300, "olhar": 1, "pose": "andando", "anda_ate": 450}, {"tipo": "pessoa", "variante": "crianca", "x": 620, "olhar": -1}, {"tipo": "pessoa", "variante": "sacerdote", "x": 850, "olhar": -1}]},
+  {"fala": "Por este menino orava eu, e o Senhor me concedeu a petição que lhe fiz.", "versiculo": true, "texto_tela": "1 Samuel 1:27", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "variante": "mulher", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ]
+}

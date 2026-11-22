@@ -1,0 +1,25 @@
+{
+ "slug": "jesus-acalma-a-tempestade",
+ "titulo": "O barco estava afundando e Jesus dormia… até que acordaram ele",
+ "descricao": "O barco estava afundando e Jesus dormia… até que acordaram ele. Marcos 4:35–41 em menos de 1 minuto.\n\n\"Cala-te, aquieta-te! E o vento cessou, e fez-se grande bonança.\" (Marcos 4:39)",
+ "hashtags": ["jesus", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "Marcos 4:35–41",
+ "heroi": {"nome": "Jesus", "cores": ["#e8dcc0", "#3f7f9c", "#c9a45a", "#7a5a3c"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "O barco estava enchendo de água. E Jesus dormia.", "cenario": "mar", "hora": "noite", "camera": "aproxima", "tempestade": true, "tremor": true,
+   "elementos": [{"tipo": "barco", "x": 540}, {"tipo": "heroi", "x": 540, "pose": "caido", "veste": "branca"}]},
+  {"fala": "Ao fim de um dia de ensino, Jesus disse aos discípulos: vamos para a outra margem.", "cenario": "mar", "hora": "por_do_sol", "camera": "aproxima",
+   "elementos": [{"tipo": "barco", "x": 540}, {"tipo": "heroi", "x": 540, "veste": "branca", "pose": "apontando"}]},
+  {"fala": "No meio do lago, veio uma tempestade violenta. As ondas batiam no barco, e ele quase se encheu de água.", "cenario": "mar", "hora": "noite", "camera": "aproxima", "tempestade": true, "tremor": true, "efeitos": ["raios"],
+   "elementos": [{"tipo": "barco", "x": 540}]},
+  {"fala": "Jesus dormia na popa, com a cabeça num travesseiro. Os discípulos o acordaram: Mestre, não te importa que a gente morra?", "cenario": "mar", "hora": "noite", "camera": "zoom_forte", "tempestade": true,
+   "elementos": [{"tipo": "barco", "x": 540, "plano": "fundo"}, {"tipo": "pessoa", "variante": "homem", "x": 300, "olhar": 1, "pose": "apontando", "treme": true}, {"tipo": "heroi", "x": 760, "olhar": -1, "veste": "branca"}]},
+  {"fala": "Jesus se levantou, repreendeu o vento e disse ao mar: cala-te, aquieta-te!", "cenario": "mar", "hora": "noite", "camera": "aproxima", "tempestade": true, "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "barco", "x": 540, "plano": "fundo"}, {"tipo": "heroi", "x": 540, "pose": "bracos_erguidos", "veste": "branca"}]},
+  {"fala": "O vento parou e veio uma grande calma. Os discípulos ficaram com muito medo e se perguntavam: quem é este, que até o vento e o mar lhe obedecem?", "cenario": "mar", "hora": "amanhecer", "camera": "afasta",
+   "elementos": [{"tipo": "barco", "x": 540}, {"tipo": "heroi", "x": 540, "veste": "branca"}], "efeitos": ["luz_divina"]},
+  {"fala": "Cala-te, aquieta-te! E o vento cessou, e fez-se grande bonança.", "versiculo": true, "texto_tela": "Marcos 4:39", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "bracos_erguidos", "veste": "branca"}]}
+ ]
+}

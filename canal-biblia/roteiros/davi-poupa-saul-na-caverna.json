@@ -1,0 +1,25 @@
+{
+ "slug": "davi-poupa-saul-na-caverna",
+ "titulo": "O rei queria matá-lo. Quando Davi o teve nas mãos, fez algo que ninguém esperava",
+ "descricao": "O rei queria matá-lo. Quando Davi o teve nas mãos, fez algo que ninguém esperava. 1 Samuel 24 em menos de 1 minuto.\n\n\"Não estenderei a mão contra o meu senhor, pois é o ungido do Senhor.\" (1 Samuel 24:10)",
+ "hashtags": ["davi", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "1 Samuel 24",
+ "heroi": {"nome": "Davi", "cores": ["#8a3b2a", "#d9b45a", "#2c5d74", "#efe3c0"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "O rei queria matá-lo. Quando Davi o teve nas mãos, fez algo que ninguém esperava.", "cenario": "deserto", "hora": "por_do_sol", "camera": "afasta",
+   "elementos": [{"tipo": "pessoa", "variante": "rei", "x": 760, "olhar": -1, "plano": "fundo"}, {"tipo": "heroi", "x": 330, "olhar": 1}]},
+  {"fala": "Saul saiu com três mil homens escolhidos para caçar Davi no deserto.", "cenario": "deserto", "hora": "por_do_sol", "camera": "aproxima", "texto_tela": "3.000 homens",
+   "elementos": [{"tipo": "multidao", "x": 540, "n": 11, "variante": "soldado", "plano": "fundo"}, {"tipo": "pessoa", "variante": "rei", "x": 540, "olhar": 1}]},
+  {"fala": "Mas Saul entrou sozinho numa caverna. Justo onde Davi e seus homens estavam escondidos.", "cenario": "monte", "hora": "dia", "camera": "aproxima",
+   "elementos": [{"tipo": "pessoa", "variante": "rei", "x": 330, "olhar": 1, "pose": "andando", "anda_ate": 480}, {"tipo": "heroi", "x": 850, "olhar": -1, "plano": "fundo"}]},
+  {"fala": "Os homens de Davi sussurraram: é a sua chance. Mate-o!", "cenario": "monte", "hora": "noite", "camera": "aproxima",
+   "elementos": [{"tipo": "multidao", "x": 300, "n": 4, "plano": "fundo"}, {"tipo": "heroi", "x": 760, "olhar": -1}]},
+  {"fala": "Davi chegou perto e cortou só a ponta do manto do rei. E até isso pesou na consciência dele.", "cenario": "monte", "hora": "noite", "camera": "zoom_forte",
+   "elementos": [{"tipo": "heroi", "x": 420, "olhar": 1, "pose": "ajoelhado"}, {"tipo": "pessoa", "variante": "rei", "x": 760, "olhar": -1}]},
+  {"fala": "Depois, Davi mostrou o pedaço do manto ao rei, lá fora. Saul chorou e reconheceu: tu és mais justo do que eu.", "cenario": "deserto", "hora": "amanhecer", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "x": 300, "olhar": 1, "pose": "bracos_erguidos"}, {"tipo": "pessoa", "variante": "rei", "x": 780, "olhar": -1, "pose": "ajoelhado"}]},
+  {"fala": "Não estenderei a mão contra o meu senhor, pois é o ungido do Senhor.", "versiculo": true, "texto_tela": "1 Samuel 24:10", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "samuel-ouve-a-voz-de-deus",
+ "titulo": "De madrugada, alguém chamou o menino três vezes… mas não era quem ele pensava",
+ "descricao": "De madrugada, alguém chamou o menino três vezes… mas não era quem ele pensava. 1 Samuel 3 em menos de 1 minuto.\n\n\"Fala, Senhor, porque o teu servo ouve.\" (1 Samuel 3:10)",
+ "hashtags": ["samuel", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "1 Samuel 3",
+ "heroi": {"nome": "Samuel", "cores": ["#3f7f6b", "#e8d08a", "#7a4a8c", "#f4ecd6"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "De madrugada, uma voz chamou: Samuel! Samuel!", "cenario": "templo", "hora": "noite", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "variante": "crianca", "x": 540, "pose": "sentado"}]},
+  {"fala": "O menino correu até o sacerdote Eli: aqui estou, o senhor me chamou? Eli respondeu: não chamei. Volta a dormir.", "cenario": "templo", "hora": "noite", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "variante": "crianca", "x": 250, "pose": "andando", "anda_ate": 480, "olhar": 1}, {"tipo": "pessoa", "variante": "idoso", "x": 760, "olhar": -1}]},
+  {"fala": "A voz chamou outra vez. E de novo. Três vezes.", "cenario": "templo", "hora": "noite", "camera": "zoom_forte", "efeitos": ["luz_divina"], "texto_tela": "3 vezes",
+   "elementos": [{"tipo": "heroi", "variante": "crianca", "x": 540, "pose": "sentado"}]},
+  {"fala": "Então Eli entendeu que era o Senhor. E ensinou o menino o que responder.", "cenario": "templo", "hora": "noite", "camera": "aproxima",
+   "elementos": [{"tipo": "pessoa", "variante": "idoso", "x": 340, "olhar": 1}, {"tipo": "heroi", "variante": "crianca", "x": 740, "olhar": -1}]},
+  {"fala": "Samuel voltou para a cama. E a voz o chamou de novo.", "cenario": "interior", "hora": "noite", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "variante": "crianca", "x": 540, "pose": "ajoelhado"}]},
+  {"fala": "Dessa vez ele respondeu. E dali em diante, Deus falou a todo o Israel por meio dele.", "cenario": "templo", "hora": "amanhecer", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "multidao", "x": 300, "plano": "fundo", "n": 7}, {"tipo": "heroi", "variante": "crianca", "x": 640, "pose": "bracos_erguidos"}]},
+  {"fala": "Fala, Senhor, porque o teu servo ouve.", "versiculo": true, "texto_tela": "1 Samuel 3:10", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "variante": "crianca", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ]
+}

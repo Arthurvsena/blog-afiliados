@@ -1,0 +1,25 @@
+{
+ "slug": "ester-diante-do-rei",
+ "titulo": "Entrar sem ser chamada diante do rei podia custar a vida dela… e Ester entrou",
+ "descricao": "Entrar sem ser chamada diante do rei podia custar a vida dela… e Ester entrou. Ester 4–5 em menos de 1 minuto.\n\n\"Irei ter com o rei, ainda que contra a lei; se perecer, pereci.\" (Ester 4:16)",
+ "hashtags": ["ester", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "Ester 4–5",
+ "heroi": {"nome": "Ester", "cores": ["#7c2f5c", "#e6c26a", "#3a6f8f", "#f1e4c8"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "Entrar sem ser chamada diante do rei podia custar a vida. E Ester entrou.", "cenario": "palacio", "hora": "dia", "camera": "afasta",
+   "elementos": [{"tipo": "trono", "x": 700, "plano": "fundo"}, {"tipo": "pessoa", "variante": "rei", "x": 700, "olhar": -1}, {"tipo": "heroi", "variante": "mulher", "x": 250, "olhar": 1, "pose": "andando", "anda_ate": 380}]},
+  {"fala": "Um decreto mandava matar todos os judeus do reino. Ester também era judia, mas ninguém sabia.", "cenario": "cidade", "hora": "noite", "camera": "aproxima",
+   "elementos": [{"tipo": "multidao", "x": 540, "n": 9, "pose": "ajoelhado"}]},
+  {"fala": "O primo dela, Mardoqueu, pediu: fala com o rei. Ester respondeu que quem entrava sem ser chamado morria, a não ser que o rei estendesse o cetro.", "cenario": "interior", "hora": "noite", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "variante": "mulher", "x": 330, "olhar": 1}, {"tipo": "pessoa", "variante": "idoso", "x": 760, "olhar": -1}]},
+  {"fala": "Mardoqueu insistiu: quem sabe não foi para um momento como este que você chegou ao trono?", "cenario": "interior", "hora": "noite", "camera": "zoom_forte",
+   "elementos": [{"tipo": "pessoa", "variante": "idoso", "x": 760, "olhar": -1, "pose": "apontando"}, {"tipo": "heroi", "variante": "mulher", "x": 330, "olhar": 1}]},
+  {"fala": "Ester pediu que todos jejuassem por três dias. E decidiu: irei, mesmo contra a lei.", "cenario": "interior", "hora": "noite", "camera": "aproxima", "efeitos": ["luz_divina"], "texto_tela": "3 dias",
+   "elementos": [{"tipo": "heroi", "variante": "mulher", "x": 540, "pose": "ajoelhado"}]},
+  {"fala": "No terceiro dia, ela entrou. O rei a viu e estendeu o cetro. Ester foi poupada.", "cenario": "palacio", "hora": "dia", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "trono", "x": 700, "plano": "fundo"}, {"tipo": "pessoa", "variante": "rei", "x": 700, "olhar": -1, "pose": "apontando"}, {"tipo": "heroi", "variante": "mulher", "x": 300, "olhar": 1, "pose": "andando", "anda_ate": 420}]},
+  {"fala": "Irei ter com o rei, ainda que contra a lei; se perecer, pereci.", "versiculo": true, "texto_tela": "Ester 4:16", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "variante": "mulher", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ]
+}

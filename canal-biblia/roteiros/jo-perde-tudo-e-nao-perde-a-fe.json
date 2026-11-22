@@ -1,0 +1,25 @@
+{
+ "slug": "jo-perde-tudo-e-nao-perde-a-fe",
+ "titulo": "Perdeu tudo em um dia: bens e filhos. E mesmo assim, ele disse isto",
+ "descricao": "Perdeu tudo em um dia: bens e filhos. E mesmo assim, ele disse isto. Jó 1–2; 42 em menos de 1 minuto.\n\n\"O Senhor o deu, o Senhor o tomou; bendito seja o nome do Senhor.\" (Jó 1:21)",
+ "hashtags": ["jo", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "Jó 1–2; 42",
+ "heroi": {"nome": "Jó", "cores": ["#6b5a3c", "#c9a45a", "#4a6f6a", "#e8dcc0"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "Ele perdeu tudo em um único dia. E mesmo assim, olhou para o céu e disse isto.", "cenario": "deserto", "hora": "por_do_sol", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "variante": "idoso", "x": 540, "pose": "ajoelhado"}]},
+  {"fala": "Jó era um homem íntegro e muito rico. Temia a Deus e fugia do mal.", "cenario": "campo", "hora": "dia", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "variante": "idoso", "x": 420}, {"tipo": "ovelha", "x": 760, "n": 5}, {"tipo": "camelo", "x": 900, "plano": "fundo"}]},
+  {"fala": "Então, em um só dia, chegaram notícias terríveis: os rebanhos foram levados e os filhos morreram.", "cenario": "campo", "hora": "noite", "camera": "aproxima", "tempestade": true, "efeitos": ["raios"],
+   "elementos": [{"tipo": "heroi", "variante": "idoso", "x": 540, "pose": "caido"}]},
+  {"fala": "Jó rasgou o manto, rapou a cabeça e se lançou ao chão para adorar.", "cenario": "deserto", "hora": "noite", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "variante": "idoso", "x": 540, "pose": "ajoelhado"}]},
+  {"fala": "Depois, uma doença cobriu o corpo dele. Até a esposa disse: amaldiçoa a Deus e morre.", "cenario": "interior", "hora": "noite", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "variante": "idoso", "x": 330, "pose": "sentado"}, {"tipo": "pessoa", "variante": "mulher", "x": 780, "olhar": -1}]},
+  {"fala": "Jó não amaldiçoou. E no fim, Deus lhe devolveu o dobro de tudo o que ele tinha perdido.", "cenario": "campo", "hora": "amanhecer", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "variante": "idoso", "x": 420, "pose": "bracos_erguidos"}, {"tipo": "ovelha", "x": 780, "n": 8}]},
+  {"fala": "O Senhor o deu, o Senhor o tomou; bendito seja o nome do Senhor.", "versiculo": true, "texto_tela": "Jó 1:21", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "variante": "idoso", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ]
+}

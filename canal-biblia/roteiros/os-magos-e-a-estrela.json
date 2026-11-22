@@ -1,0 +1,25 @@
+{
+ "slug": "os-magos-e-a-estrela",
+ "titulo": "Eles seguiram uma estrela por um deserto inteiro… e um rei queria destruir o que eles procuravam",
+ "descricao": "Eles seguiram uma estrela por um deserto inteiro… e um rei queria destruir o que eles procuravam. Mateus 2 em menos de 1 minuto.\n\n\"Ao verem a estrela, alegraram-se com grande alegria.\" (Mateus 2:10)",
+ "hashtags": ["magos", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "Mateus 2",
+ "heroi": {"nome": "Os magos", "cores": ["#2f4f8f", "#d9a63c", "#8a3f6e", "#e9dfc8", "#3f8a78"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "Eles seguiram uma estrela pelo deserto. Mas um rei queria destruir o que eles procuravam.", "cenario": "deserto", "hora": "noite", "camera": "aproxima",
+   "elementos": [{"tipo": "estrela", "x": 700, "altura": 800}, {"tipo": "camelo", "x": 330, "plano": "fundo"}, {"tipo": "heroi", "variante": "idoso", "x": 520, "olhar": 1, "pose": "andando", "anda_ate": 600}]},
+  {"fala": "Magos do Oriente chegaram a Jerusalém perguntando: onde está o rei que nasceu? Vimos a sua estrela.", "cenario": "cidade", "hora": "dia", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "variante": "idoso", "x": 330, "olhar": 1}, {"tipo": "multidao", "x": 780, "n": 4, "plano": "fundo"}]},
+  {"fala": "O rei Herodes se perturbou. E pediu: quando o encontrarem, voltem e me contem, para que eu também o adore.", "cenario": "palacio", "hora": "dia", "camera": "zoom_forte",
+   "elementos": [{"tipo": "trono", "x": 700, "plano": "fundo"}, {"tipo": "pessoa", "variante": "rei", "x": 700, "olhar": -1}, {"tipo": "heroi", "variante": "idoso", "x": 280, "olhar": 1}]},
+  {"fala": "Os magos partiram. E a estrela que viram no Oriente ia adiante deles, até parar sobre o lugar onde o menino estava.", "cenario": "deserto", "hora": "noite", "camera": "direita",
+   "elementos": [{"tipo": "estrela", "x": 800, "altura": 750}, {"tipo": "heroi", "variante": "idoso", "x": 250, "olhar": 1, "pose": "andando", "anda_ate": 560}]},
+  {"fala": "Ao verem a estrela, se alegraram muito. Entraram na casa, viram o menino com Maria e se prostraram diante dele.", "cenario": "interior", "hora": "noite", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "variante": "idoso", "x": 360, "pose": "ajoelhado", "olhar": 1}, {"tipo": "pessoa", "variante": "mulher", "x": 700, "olhar": -1, "pose": "abraco"}]},
+  {"fala": "Deram presentes: ouro, incenso e mirra. Avisados em sonho, voltaram para casa por outro caminho. E Herodes ficou sem resposta.", "cenario": "deserto", "hora": "amanhecer", "camera": "afasta",
+   "elementos": [{"tipo": "heroi", "variante": "idoso", "x": 300, "olhar": 1, "pose": "andando", "anda_ate": 700}, {"tipo": "camelo", "x": 160, "plano": "fundo"}]},
+  {"fala": "Ao verem a estrela, alegraram-se com grande alegria.", "versiculo": true, "texto_tela": "Mateus 2:10", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "variante": "idoso", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ]
+}

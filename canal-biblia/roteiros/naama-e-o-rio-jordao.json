@@ -1,0 +1,25 @@
+{
+ "slug": "naama-e-o-rio-jordao",
+ "titulo": "O general mais poderoso da Síria estava doente… e a cura era mergulhar num rio comum",
+ "descricao": "O general mais poderoso da Síria estava doente… e a cura era mergulhar num rio comum. 2 Reis 5 em menos de 1 minuto.\n\n\"A sua carne se tornou como a carne de uma criança, e ficou limpo.\" (2 Reis 5:14)",
+ "hashtags": ["naama", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "2 Reis 5",
+ "heroi": {"nome": "Naamã", "cores": ["#a8432f", "#d8b268", "#33626f", "#efe2c2"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "O general mais poderoso da Síria estava doente. E a cura era mergulhar num rio comum.", "cenario": "deserto", "hora": "por_do_sol", "camera": "aproxima",
+   "elementos": [{"tipo": "multidao", "x": 250, "plano": "fundo", "n": 5, "variante": "soldado"}, {"tipo": "heroi", "x": 540}]},
+  {"fala": "Naamã era um grande comandante, mas tinha lepra. Uma menina israelita, que servia sua esposa, disse: o profeta de Israel pode curá-lo.", "cenario": "interior", "hora": "dia", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 330, "olhar": 1}, {"tipo": "pessoa", "variante": "crianca", "x": 760, "olhar": -1}]},
+  {"fala": "Ele viajou até Israel, com cavalos e carros, e parou na porta da casa do profeta Eliseu.", "cenario": "cidade", "hora": "dia", "camera": "direita",
+   "elementos": [{"tipo": "heroi", "x": 300, "olhar": 1, "pose": "andando", "anda_ate": 480}, {"tipo": "pessoa", "variante": "idoso", "x": 800, "olhar": -1}]},
+  {"fala": "Eliseu nem saiu. Mandou dizer: vai e lava-te sete vezes no Jordão.", "cenario": "cidade", "hora": "dia", "camera": "aproxima", "texto_tela": "7 vezes",
+   "elementos": [{"tipo": "pessoa", "variante": "idoso", "x": 760, "olhar": -1, "pose": "apontando"}, {"tipo": "heroi", "x": 330, "olhar": 1}]},
+  {"fala": "Naamã ficou furioso: eu esperava um gesto grandioso! E foi embora. Mas seus servos o convenceram: é tão simples.", "cenario": "deserto", "hora": "por_do_sol", "camera": "afasta",
+   "elementos": [{"tipo": "heroi", "x": 380, "olhar": 1, "pose": "andando", "anda_ate": 560}, {"tipo": "multidao", "x": 800, "n": 3, "plano": "fundo"}]},
+  {"fala": "Ele desceu ao Jordão e mergulhou sete vezes. E a pele ficou nova, como a de uma criança.", "cenario": "mar", "hora": "dia", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "x": 540, "pose": "bracos_erguidos"}]},
+  {"fala": "A sua carne se tornou como a carne de uma criança, e ficou limpo.", "versiculo": true, "texto_tela": "2 Reis 5:14", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ]
+}

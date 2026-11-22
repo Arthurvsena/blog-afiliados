@@ -1,0 +1,25 @@
+{
+ "slug": "a-agua-que-virou-vinho",
+ "titulo": "A festa de casamento ficou sem vinho… e o primeiro milagre de Jesus foi aqui",
+ "descricao": "A festa de casamento ficou sem vinho… e o primeiro milagre de Jesus foi aqui. João 2 em menos de 1 minuto.\n\n\"Fazei tudo o que ele vos disser.\" (João 2:5)",
+ "hashtags": ["jesus", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "João 2",
+ "heroi": {"nome": "Jesus", "cores": ["#e8dcc0", "#a3414f", "#c9a45a", "#5a7f9c"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "A festa de casamento ficou sem vinho. E foi ali que Jesus fez o seu primeiro milagre.", "cenario": "interior", "hora": "noite", "camera": "aproxima",
+   "elementos": [{"tipo": "mesa", "x": 540, "plano": "fundo"}, {"tipo": "heroi", "x": 540, "veste": "branca"}, {"tipo": "multidao", "x": 800, "n": 4, "plano": "fundo"}]},
+  {"fala": "Em Caná da Galileia, Jesus, Maria e os discípulos foram convidados para um casamento.", "cenario": "interior", "hora": "noite", "camera": "afasta",
+   "elementos": [{"tipo": "heroi", "x": 520, "veste": "branca"}, {"tipo": "pessoa", "variante": "mulher", "x": 300, "olhar": 1}, {"tipo": "multidao", "x": 820, "n": 5, "plano": "fundo"}]},
+  {"fala": "De repente, o vinho acabou. Maria avisou Jesus: eles não têm mais vinho.", "cenario": "interior", "hora": "noite", "camera": "aproxima",
+   "elementos": [{"tipo": "pessoa", "variante": "mulher", "x": 300, "olhar": 1, "pose": "apontando"}, {"tipo": "heroi", "x": 760, "olhar": -1, "veste": "branca"}]},
+  {"fala": "Maria disse aos servos: fazei tudo o que ele vos disser. Jesus mandou encher de água seis talhas de pedra.", "cenario": "interior", "hora": "noite", "camera": "aproxima", "texto_tela": "6 talhas",
+   "elementos": [{"tipo": "pessoa", "variante": "homem", "x": 300, "olhar": 1, "pose": "andando", "anda_ate": 420}, {"tipo": "heroi", "x": 760, "olhar": -1, "pose": "apontando", "veste": "branca"}]},
+  {"fala": "Depois mandou: agora tirem um pouco e levem ao mestre da festa. Os servos obedeceram.", "cenario": "interior", "hora": "noite", "camera": "zoom_forte", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "pessoa", "variante": "homem", "x": 360, "olhar": 1}, {"tipo": "pessoa", "variante": "idoso", "x": 760, "olhar": -1}]},
+  {"fala": "O mestre provou e se espantou: todos servem o bom vinho primeiro. Você guardou o melhor até agora!", "cenario": "interior", "hora": "noite", "camera": "aproxima",
+   "elementos": [{"tipo": "mesa", "x": 540, "plano": "fundo"}, {"tipo": "pessoa", "variante": "idoso", "x": 360, "olhar": 1, "pose": "bracos_erguidos"}, {"tipo": "heroi", "x": 760, "olhar": -1, "veste": "branca"}], "efeitos": ["luz_divina"]},
+  {"fala": "Fazei tudo o que ele vos disser.", "versiculo": true, "texto_tela": "João 2:5", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "bracos_erguidos", "veste": "branca"}]}
+ ]
+}

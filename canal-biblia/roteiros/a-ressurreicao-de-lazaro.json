@@ -1,0 +1,25 @@
+{
+ "slug": "a-ressurreicao-de-lazaro",
+ "titulo": "Ele já estava morto havia quatro dias… quando Jesus gritou o nome dele",
+ "descricao": "Ele já estava morto havia quatro dias… quando Jesus gritou o nome dele. João 11 em menos de 1 minuto.\n\n\"Eu sou a ressurreição e a vida; quem crê em mim, ainda que morra, viverá.\" (João 11:25)",
+ "hashtags": ["lazaro", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "João 11",
+ "heroi": {"nome": "Jesus", "cores": ["#e8dcc0", "#6a4a8c", "#c9a45a", "#3f7a6f"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "Ele já estava morto havia quatro dias. E Jesus gritou o nome dele.", "cenario": "monte", "hora": "dia", "camera": "zoom_forte", "texto_tela": "4 dias", "contar": false,
+   "elementos": [{"tipo": "tumulo", "x": 760, "aberto": false}, {"tipo": "heroi", "x": 320, "olhar": 1, "pose": "apontando", "veste": "branca"}]},
+  {"fala": "Lázaro, amigo de Jesus, ficou doente. As irmãs dele, Marta e Maria, mandaram avisar o Mestre.", "cenario": "interior", "hora": "dia", "camera": "aproxima",
+   "elementos": [{"tipo": "pessoa", "variante": "mulher", "x": 330, "olhar": 1}, {"tipo": "pessoa", "variante": "mulher", "x": 760, "olhar": -1}]},
+  {"fala": "Quando Jesus chegou, Lázaro já estava no túmulo havia quatro dias. Marta disse: se tivesses estado aqui, meu irmão não teria morrido.", "cenario": "cidade", "hora": "dia", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "x": 330, "olhar": 1, "veste": "branca"}, {"tipo": "pessoa", "variante": "mulher", "x": 760, "olhar": -1, "pose": "ajoelhado"}]},
+  {"fala": "Jesus respondeu: eu sou a ressurreição e a vida. E ao ver todos chorando, Jesus também chorou.", "cenario": "cidade", "hora": "dia", "camera": "zoom_forte", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "x": 540, "pose": "orando", "veste": "branca"}, {"tipo": "multidao", "x": 250, "n": 5, "plano": "fundo", "pose": "ajoelhado"}]},
+  {"fala": "Foram até o túmulo. Jesus mandou: tirem a pedra. E orou ao Pai em voz alta.", "cenario": "monte", "hora": "dia", "camera": "aproxima",
+   "elementos": [{"tipo": "tumulo", "x": 760, "aberto": true, "aberto_em": 0.5}, {"tipo": "heroi", "x": 330, "olhar": 1, "pose": "orando", "veste": "branca"}, {"tipo": "multidao", "x": 540, "n": 4, "plano": "fundo"}]},
+  {"fala": "Então gritou: Lázaro, vem para fora! E o morto saiu, com as faixas ainda nos pés e nas mãos.", "cenario": "monte", "hora": "dia", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "tumulo", "x": 760, "aberto": true}, {"tipo": "heroi", "x": 330, "olhar": 1, "pose": "bracos_erguidos", "veste": "branca"}, {"tipo": "pessoa", "variante": "homem", "x": 600, "olhar": -1, "pose": "andando", "entra": "direita"}]},
+  {"fala": "Eu sou a ressurreição e a vida; quem crê em mim, ainda que morra, viverá.", "versiculo": true, "texto_tela": "João 11:25", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "bracos_erguidos", "veste": "branca"}]}
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "salomao-e-as-duas-maes",
+ "titulo": "Duas mulheres diziam ser a mãe do mesmo bebê… e o rei pediu uma espada",
+ "descricao": "Duas mulheres diziam ser a mãe do mesmo bebê… e o rei pediu uma espada. 1 Reis 3 em menos de 1 minuto.\n\n\"Viram que havia nele a sabedoria de Deus para fazer justiça.\" (1 Reis 3:28)",
+ "hashtags": ["salomao", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "referencia": "1 Reis 3",
+ "heroi": {"nome": "Salomão", "cores": ["#5a3b8c", "#e0b84a", "#2f7a6a", "#f3e6c4"]},
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "cenas": [
+  {"fala": "Duas mulheres diziam ser a mãe do mesmo bebê. E o rei pediu uma espada.", "cenario": "palacio", "hora": "dia", "camera": "aproxima",
+   "elementos": [{"tipo": "trono", "x": 540, "plano": "fundo"}, {"tipo": "heroi", "x": 540, "pose": "apontando"}]},
+  {"fala": "Elas moravam na mesma casa. Uma criança morreu de noite, e as duas disputaram o bebê que ficou vivo.", "cenario": "interior", "hora": "noite", "camera": "aproxima",
+   "elementos": [{"tipo": "pessoa", "variante": "mulher", "x": 330, "olhar": 1}, {"tipo": "pessoa", "variante": "mulher", "x": 760, "olhar": -1}]},
+  {"fala": "Foram ao rei Salomão. Cada uma jurava: o filho é meu.", "cenario": "palacio", "hora": "dia", "camera": "afasta",
+   "elementos": [{"tipo": "trono", "x": 540, "plano": "fundo"}, {"tipo": "heroi", "x": 540}, {"tipo": "pessoa", "variante": "mulher", "x": 200, "olhar": 1}, {"tipo": "pessoa", "variante": "mulher", "x": 880, "olhar": -1}]},
+  {"fala": "Salomão disse: tragam uma espada. Dividam o menino vivo ao meio e deem metade a cada uma.", "cenario": "palacio", "hora": "dia", "camera": "zoom_forte",
+   "elementos": [{"tipo": "heroi", "x": 440, "olhar": 1}, {"tipo": "pessoa", "variante": "soldado", "x": 800, "olhar": -1}]},
+  {"fala": "Uma aceitou. Mas a outra gritou: não! Dê o menino a ela, mas não o mate!", "cenario": "palacio", "hora": "dia", "camera": "aproxima",
+   "elementos": [{"tipo": "pessoa", "variante": "mulher", "x": 300, "olhar": 1, "pose": "ajoelhado"}, {"tipo": "pessoa", "variante": "mulher", "x": 780, "olhar": -1}]},
+  {"fala": "Salomão entendeu quem era a mãe de verdade: a que preferiu perder o filho a vê-lo morrer.", "cenario": "palacio", "hora": "dia", "camera": "aproxima", "efeitos": ["luz_divina"],
+   "elementos": [{"tipo": "heroi", "x": 540, "pose": "apontando"}, {"tipo": "pessoa", "variante": "mulher", "x": 260, "olhar": 1, "pose": "abraco"}]},
+  {"fala": "Viram que havia nele a sabedoria de Deus para fazer justiça.", "versiculo": true, "texto_tela": "1 Reis 3:28", "cenario": "ceu", "camera": "aproxima",
+   "elementos": [{"tipo": "heroi", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ]
+}
