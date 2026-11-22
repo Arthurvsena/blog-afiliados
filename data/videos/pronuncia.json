@@ -1,5 +1,7 @@
 {
   "_como_usar": "Como a voz grátis deve falar nomes em inglês (pronúncia brasileira). Chave = como aparece no texto; valor = como a voz lê. Confira com: python3 scripts/video_motion.py --pronuncia 'texto'. O roteirista acrescenta palavras novas aqui.",
+  "Tamagotchi": "Tamagótchi",
+  "Bandai": "Bandái",
   "Apple Watch": "Épou uótchi",
   "AirPods": "érpods",
   "iPhone": "Aifone",

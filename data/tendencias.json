@@ -1,1412 +1,1420 @@
 {
- "atualizado": "2026-11-21",
- "tendencias": [
-  {
-   "data": "2026-11-21",
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "nova",
-   "origem": "brasil",
-   "assunto": "Histórias Tech: Xbox 360, 21 anos do console que nasceu antes da Sony e quase morreu de superaquecimento (as 'luzes da morte')",
-   "por_que_em_alta": "Aniversário amanhã (22/11/2005, 21 anos). Hardware.com.br, Canaltech (retrospectiva), Tecnoblog, Vandal e Heise cobrem a data; Hardware.com.br e Vandal citam prejuízo acima de US$ 1 bilhão com os defeitos. Encaixa no sábado/domingo de Histórias Tech nº 3 e liga com a série Xbox/GTA 6. Cuidado: terceiro episódio da Microsoft em 8 dias (Xbox, Windows 1.0).",
-   "evidencias": [
-    "https://www.hardware.com.br/artigos/xbox-360-luzes-morte-historia/",
-    "https://canaltech.com.br/games/aniversario-xbox-360-20-relembre-historia/",
-    "https://vandal.elespanol.com/noticia/1350785266/20-anos-de-xbox-360-el-error-de-1150-millones-que-casi-mata-a-la-marca/"
-   ],
-   "angulo": "Gancho: o console da Microsoft chegou um ano antes do PS3 e, em 2005, já nasceu com gente relatando travamentos no dia do lançamento. Auge: saiu na frente (22/11/2005), Xbox Live e a geração HD. Virada: as luzes vermelhas, a garantia estendida e o prejuízo declarado. Lição: chegar primeiro não vale se o produto não aguenta. Fecha com pergunta: quem aqui teve um que apitou? Gráfico: linha do tempo 2005-2010 e número do prejuízo.",
-   "formato": "curiosidade",
-   "tipo": "short",
-   "quadro": "historias",
-   "verificar_antes": "Confirmar em 2 fontes: 22/11/2005 (EUA/Canadá; Europa 02/12 e Japão 10/12), prejuízo (US$ 1,15 bi: conferir no relatório da Microsoft de 2007 ou Hardware.com.br lido por inteiro) e a extensão de garantia para 3 anos. Divergência: nº de países no lançamento (13 x 36): evitar. Significado das luzes diverge entre fontes: dizer só 'luzes vermelhas', sem decodificar. Fotos: Wikimedia (licença livre) ou imprensa Microsoft/Xbox.",
-   "fontes": [
+  "atualizado": "2026-11-22",
+  "tendencias": [
     {
-     "nome": "Hardware.com.br",
-     "url": "https://www.hardware.com.br/artigos/xbox-360-luzes-morte-historia/"
+      "data": "2026-11-22",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "status": "em_video",
+      "origem": "brasil",
+      "formato": "curiosidade",
+      "tipo": "short",
+      "quadro": "historias",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "assunto": "Histórias Tech: Tamagotchi, 30 anos (23/11/1996) do bichinho virtual que vendeu mais de 100 milhões e virou febre em dois anos",
+      "por_que_em_alta": "Aniversário de 30 anos amanhã (23/11/1996, Japão). Xataka Brasil (100 milhões em 30 anos, nostalgia), Domus (data de lançamento), Bandai (100 milhões até jul/2025) e Milenio (exposição 'Dai Tamagotchi' em Tóquio). Não é Microsoft: quebra a sequência Xbox/Windows. Divergência: idade da criadora Aki Maita (30 ou 31) e quem criou (Maita e Yokoi); evitar a idade.",
+      "evidencias": [
+        "https://www.xataka.com.br/diversos/100-milhoes-tamagotchis-em-30-anos-motivo-pelo-qual-eles-continuam-vendendo-tem-um-nome-nostalgia-millennial",
+        "https://www.domusweb.it/en/news/2026/01/22/tamagotchi-story-design-90s.html",
+        "https://www.milenio.com/tecnologia/tamagotchi-cumple-30-anos-japon-celebra-exposicion"
+      ],
+      "angulo": "Gancho: um brinquedo de plástico com três botões e um ovo na tela fez crianças do mundo todo sofrerem por um bicho que morria. Auge: lançamento em 23/11/1996 e mais de 40 milhões em ~2,5 anos. Virada: proibido em escolas, moda passa, Bandai quase some; volta em 2004 e na nostalgia. Lição: produto simples e emocional atravessa gerações. Fecha com pergunta: o seu morreu de quê? Gráfico: linha do tempo 1996-2026 e número 100 milhões.",
+      "fontes": [
+        {
+          "nome": "Xataka Brasil",
+          "url": "https://www.xataka.com.br/diversos/100-milhoes-tamagotchis-em-30-anos-motivo-pelo-qual-eles-continuam-vendendo-tem-um-nome-nostalgia-millennial"
+        },
+        {
+          "nome": "Domus",
+          "url": "https://www.domusweb.it/en/news/2026/01/22/tamagotchi-story-design-90s.html"
+        }
+      ],
+      "verificar_antes": "2 fontes para: data 23/11/1996, 40 milhões em 2,5 anos (Uniqlo, confirmar com Bandai), 100 milhões (Bandai jul/2025), volta em 2004. Fotos: Wikimedia CC ou imprensa Bandai com crédito. Publicar 22 ou 23/11.",
+      "nota": 4.5
     },
     {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/games/aniversario-xbox-360-20-relembre-historia/"
+      "data": "2026-11-22",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "status": "nova",
+      "origem": "brasil",
+      "formato": "curiosidade",
+      "tipo": "short",
+      "quadro": "historias",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "assunto": "Histórias Tech: Gradiente e Nintendo, o Phantom System e a joint venture Playtronic que levou o Nintendo 64 ao Brasil (R$ 680 em 1996)",
+      "por_que_em_alta": "N64 completa 30 anos em 2026 (Brasil, 29/09/1996 em uma só fonte). Canaltech, TecMundo, Time Extension e Vidaextra cobrem o lado brasileiro. Ângulo local forte e pouco contado em Shorts.",
+      "evidencias": [
+        "https://canaltech.com.br/games/quanto-custaria-um-nintendo-64-hoje-com-a-inflacao/",
+        "https://www.tecmundo.com.br/mercado/124706-historia-gradiente-marca-historica-brasil-video.htm",
+        "https://www.timeextension.com/features/its-almost-like-a-religion-the-incredible-journey-to-document-nintendos-history-in-brazil"
+      ],
+      "angulo": "Gancho: o Brasil já vendeu clone do NES e depois virou parceiro oficial da Nintendo. Auge: Playtronic (Gradiente+Estrela). Virada: dólar e fim da parceria em 2003. Lição: depender de importação em moeda forte.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/games/quanto-custaria-um-nintendo-64-hoje-com-a-inflacao/"
+        },
+        {
+          "nome": "TecMundo",
+          "url": "https://www.tecmundo.com.br/mercado/124706-historia-gradiente-marca-historica-brasil-video.htm"
+        }
+      ],
+      "verificar_antes": "Data 29/09/1996 e preço R$ 680 estão em uma fonte só; fim da parceria em 2003 conferir. Sem 2ª fonte, não publicar a data.",
+      "nota": 3.5
     },
     {
-     "nome": "Tecnoblog",
-     "url": "https://tecnoblog.net/especiais/a-historia-do-xbox-do-original-ao-series-x/"
+      "data": "2026-11-21",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "origem": "brasil",
+      "assunto": "Histórias Tech: Xbox 360, 21 anos do console que nasceu antes da Sony e quase morreu de superaquecimento (as 'luzes da morte')",
+      "por_que_em_alta": "Aniversário amanhã (22/11/2005, 21 anos). Hardware.com.br, Canaltech (retrospectiva), Tecnoblog, Vandal e Heise cobrem a data; Hardware.com.br e Vandal citam prejuízo acima de US$ 1 bilhão com os defeitos. Encaixa no sábado/domingo de Histórias Tech nº 3 e liga com a série Xbox/GTA 6. Cuidado: terceiro episódio da Microsoft em 8 dias (Xbox, Windows 1.0). [22/11: segurar para depois, regra de não repetir Microsoft; Tamagotchi tem prioridade.]",
+      "evidencias": [
+        "https://www.hardware.com.br/artigos/xbox-360-luzes-morte-historia/",
+        "https://canaltech.com.br/games/aniversario-xbox-360-20-relembre-historia/",
+        "https://vandal.elespanol.com/noticia/1350785266/20-anos-de-xbox-360-el-error-de-1150-millones-que-casi-mata-a-la-marca/"
+      ],
+      "angulo": "Gancho: o console da Microsoft chegou um ano antes do PS3 e, em 2005, já nasceu com gente relatando travamentos no dia do lançamento. Auge: saiu na frente (22/11/2005), Xbox Live e a geração HD. Virada: as luzes vermelhas, a garantia estendida e o prejuízo declarado. Lição: chegar primeiro não vale se o produto não aguenta. Fecha com pergunta: quem aqui teve um que apitou? Gráfico: linha do tempo 2005-2010 e número do prejuízo.",
+      "formato": "curiosidade",
+      "tipo": "short",
+      "quadro": "historias",
+      "verificar_antes": "Confirmar em 2 fontes: 22/11/2005 (EUA/Canadá; Europa 02/12 e Japão 10/12), prejuízo (US$ 1,15 bi: conferir no relatório da Microsoft de 2007 ou Hardware.com.br lido por inteiro) e a extensão de garantia para 3 anos. Divergência: nº de países no lançamento (13 x 36): evitar. Significado das luzes diverge entre fontes: dizer só 'luzes vermelhas', sem decodificar. Fotos: Wikimedia (licença livre) ou imprensa Microsoft/Xbox.",
+      "fontes": [
+        {
+          "nome": "Hardware.com.br",
+          "url": "https://www.hardware.com.br/artigos/xbox-360-luzes-morte-historia/"
+        },
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/games/aniversario-xbox-360-20-relembre-historia/"
+        },
+        {
+          "nome": "Tecnoblog",
+          "url": "https://tecnoblog.net/especiais/a-historia-do-xbox-do-original-ao-series-x/"
+        }
+      ],
+      "nota": 5
+    },
+    {
+      "data": "2026-11-21",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "em_video",
+      "origem": "brasil",
+      "assunto": "Histórias Tech: Blockbuster e Netflix, a locadora que riu da oferta de US$ 50 milhões e fechou",
+      "por_que_em_alta": "Evergreen sempre forte e com gancho de Black Friday/streaming. Fortune (2023), Newsweek e Hardware.com.br contam a oferta de 2000 (US$ 50 mi); falência em 2010, última loja corporativa em 2014. Ressalva: o relato vem dos livros dos fundadores e o CEO da época contesta que tenha havido negociação séria.",
+      "evidencias": [
+        "https://fortune.com/2023/04/14/netflix-cofounder-marc-randolph-recalls-blockbuster-rejecting-chance-to-buy-it/",
+        "https://newsweek.com/fact-check-did-blockbuster-turn-downchance-buy-netflix-50-million-1575557",
+        "https://www.hardware.com.br/artigos/dia-blockbuster-nao-quis-comprar-a-netflix/"
+      ],
+      "angulo": "Gancho: em 2000 a Netflix pediu US$ 50 milhões à Blockbuster e, segundo os fundadores, ouviu risada. Auge: milhares de lojas. Virada: multas por atraso, o DVD pelo correio e o streaming. Lição: o negócio que dava lucro era o que ia acabar. Dizer 'segundo os fundadores', citar a contestação do CEO, e fechar com a última loja (Oregon). Fecha com pergunta.",
+      "formato": "curiosidade",
+      "tipo": "short",
+      "quadro": "historias",
+      "verificar_antes": "Conferir 2 fontes para: ano 2000, valor, falência (set/2010) e última loja corporativa fechada (2014). Atenção: relato contestado: não afirmar como fato absoluto. Número de lojas no auge: só se achar 2 fontes. Fotos: Wikimedia (licença livre) ou sem foto, gráfico nosso.",
+      "fontes": [
+        {
+          "nome": "Fortune",
+          "url": "https://fortune.com/2023/04/14/netflix-cofounder-marc-randolph-recalls-blockbuster-rejecting-chance-to-buy-it/"
+        },
+        {
+          "nome": "Newsweek",
+          "url": "https://newsweek.com/fact-check-did-blockbuster-turn-downchance-buy-netflix-50-million-1575557"
+        },
+        {
+          "nome": "Hardware.com.br",
+          "url": "https://www.hardware.com.br/artigos/dia-blockbuster-nao-quis-comprar-a-netflix/"
+        }
+      ],
+      "nota": 4
+    },
+    {
+      "data": "2026-11-21",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "origem": "brasil",
+      "assunto": "Histórias Tech: Dreamcast, o console que a Sega lançou em 27/11/1998 e que influenciou tudo, mas fechou em 3 anos",
+      "por_que_em_alta": "Aniversário em 6 dias (27/11/1998, Japão; EUA 09/09/1999; Europa 14/10/1999). Canaltech ('o mais influente paradoxo'), Hardware.com.br, VGC e Wikipedia cobrem. Sega saiu do hardware em 2001. Vendas divergem (cerca de 9,13 milhões no ciclo todo x 5,87 mi até set/2000).",
+      "evidencias": [
+        "https://canaltech.com.br/games/20-anos-do-dreamcast-o-mais-influente-paradoxo-da-historia-dos-videogames-127787/",
+        "https://www.hardware.com.br/artigos/a-queda-do-dreamcast-ultimo-console-sega/",
+        "https://videogameschronicle.com/features/dreamcast-at-25-how-segas-final-console-was-one-of-gamings-most-beautiful-failures"
+      ],
+      "angulo": "Gancho: o console da Sega foi um dos mais influentes da história e ainda assim durou três anos. Auge: online e VMU em 1998/99, 500 mil unidades em 2 semanas nos EUA. Virada: PlayStation 2 e o legado do Saturn. Lição: ser o melhor não basta quando o público já escolheu. Publicar 27 a 29/11.",
+      "formato": "curiosidade",
+      "tipo": "short",
+      "quadro": "historias",
+      "verificar_antes": "Confirmar em 2 fontes: datas por região, 500 mil em 2 semanas, 'parou de produzir em 2001' (jan/2001, Sega) e total vendido (usar 'cerca de 9 milhões', dado Wikipedia + 2ª fonte). Prejuízo da Sega diverge (US$ 242 mi x 269,8 mi): evitar. Fotos Wikimedia (licença livre).",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/games/20-anos-do-dreamcast-o-mais-influente-paradoxo-da-historia-dos-videogames-127787/"
+        },
+        {
+          "nome": "Hardware.com.br",
+          "url": "https://www.hardware.com.br/artigos/a-queda-do-dreamcast-ultimo-console-sega/"
+        },
+        {
+          "nome": "VGC",
+          "url": "https://videogameschronicle.com/features/dreamcast-at-25-how-segas-final-console-was-one-of-gamings-most-beautiful-failures"
+        }
+      ],
+      "nota": 4
+    },
+    {
+      "data": "2026-11-20",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "em_video",
+      "origem": "brasil",
+      "assunto": "GTA 6: falha no autosave faz jogadores perderem dezenas de horas no PS5 e no Xbox (e como se proteger)",
+      "por_que_em_alta": "Canaltech (19/11, 13h06, Raphael Giannotti): relatos de travamentos que corrompem o save, até 10+ horas perdidas, jogadores presos na 1ª missão; autosave não aparece no menu de salvar (fica na aba Carregar jogo); sem comunicado da Rockstar. Dia 2 do lançamento, assunto nº 1 do mês. Busca extra em inglês não achou confirmação independente.",
+      "evidencias": [
+        "https://canaltech.com.br/games/falha-grava-no-autosave-de-gta-6-faz-jogadores-perderem-dezenas-de-horas-de-gameplay/"
+      ],
+      "angulo": "Gancho: o jogo mais esperado da década pode apagar suas 10 horas. O que os jogadores relatam, o que ninguém confirmou (causa e frequência), e 3 defesas práticas: salvar manualmente, não desligar o console, procurar o autosave na aba Carregar jogo. Comentário Nexus: 13 anos de espera e o botão de salvar virou item de sobrevivência.",
+      "formato": "alerta",
+      "tipo": "short",
+      "quadro": "60s",
+      "verificar_antes": "Só o Canaltech lido; sem 2ª fonte nem posicionamento da Rockstar. Buscar Rockstar Support/newswire e imprensa de fora antes de gravar; dizer 'jogadores relatam'. Se a Rockstar soltar patch, atualizar. Não repetir os vídeos de golpes e de 30 fps.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/games/falha-grava-no-autosave-de-gta-6-faz-jogadores-perderem-dezenas-de-horas-de-gameplay/"
+        },
+        {
+          "nome": "Rockstar Support (a conferir)",
+          "url": "https://support.rockstargames.com/"
+        }
+      ],
+      "nota": 4
+    },
+    {
+      "data": "2026-11-20",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "origem": "gringo",
+      "assunto": "Xiaomi 18 Pro chega à Europa por €1.399, mas com bateria menor que a da China; e no Brasil?",
+      "por_que_em_alta": "Global em Paris em 17/11: Techloy, Gizchina, 91mobiles, TechNode e Gagadget concordam em €1.399 (18 Pro) e €1.599 (Pro Max 512 GB); vazamentos indicam bateria de 7.000 para 6.000 mAh na versão global (não confirmado). Showmetech (BR) cobre o lançamento; o link sugere Brasil em jan/2027, não confirmado. Já fizemos o Lá Fora da versão chinesa em 12/11: este é o ângulo 'global é diferente'.",
+      "evidencias": [
+        "https://www.techloy.com/xiaomi-18-pro-max-global-launch-price-specs/",
+        "https://technode.com/2026/11/18/xiaomi-takes-its-rear-screen-flagship-phones-overseas-starting-at-e1399/",
+        "https://gagadget.com/en/733586-xiaomi-18-pro-heads-to-europe-on-nov-17-with-smaller-batteries/",
+        "https://www.showmetech.com.br/xiaomi-18-pro-pro-max-lancamento-global-brasil-janeiro-2027/"
+      ],
+      "angulo": "Lá Fora, Aqui: o Xiaomi que bombou na China vira outro celular quando sai de lá (bateria menor, preço de €1.399). Por que importa, tabela China x Europa, o que se sabe do Brasil (sem data oficial: dizer), alternativas do catálogo e veredito. Preço em reais só como estimativa com cotação e data.",
+      "formato": "comparativo",
+      "tipo": "longo",
+      "quadro": "lafora",
+      "palavra_chave": "xiaomi 18 pro preço brasil",
+      "criterios_gringo": "1 sim (5+ fontes em 3 dias); 2 sim (Xiaomi é top 3 no Brasil, importação e lançamento futuro); 3 parcial (Showmetech e Canaltech em texto; checar vídeo em PT no YouTube BR); 4 sim (post/guia de Xiaomi). 3 a 4 de 4.",
+      "verificar_antes": "Sem termo no vidIQ: nota menor e dizer. Confirmar bateria global na página oficial da Xiaomi (Europa); data do Brasil só se Xiaomi Brasil confirmar. Abrir o Showmetech para ler (só o título visto). Não repetir o roteiro de 12/11. Candidato à quinta 26/11.",
+      "fontes": [
+        {
+          "nome": "Techloy",
+          "url": "https://www.techloy.com/xiaomi-18-pro-max-global-launch-price-specs/"
+        },
+        {
+          "nome": "TechNode",
+          "url": "https://technode.com/2026/11/18/xiaomi-takes-its-rear-screen-flagship-phones-overseas-starting-at-e1399/"
+        },
+        {
+          "nome": "Gagadget",
+          "url": "https://gagadget.com/en/733586-xiaomi-18-pro-heads-to-europe-on-nov-17-with-smaller-batteries/"
+        },
+        {
+          "nome": "Xiaomi (a conferir)",
+          "url": "https://www.mi.com/global/"
+        }
+      ],
+      "nota": 4
+    },
+    {
+      "data": "2026-11-20",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "origem": "brasil",
+      "assunto": "Como usar o celular como webcam no OBS (Android e iPhone, sem pagar)",
+      "por_que_em_alta": "vidIQ (18/11): 'como usar o celular como webcam no obs' 15 mil buscas/mês, concorrência 29, nota 66; 'como usar o celular como webcam' 46,6 mil, concorrência 50, nota 62; 'como colocar a camera do celular no obs' 11,7 mil, concorrência 21, nota 68. Evergreen, dá para mostrar com gravação de tela do OBS e das páginas oficiais.",
+      "evidencias": [
+        "data/vidiq.json: como usar o celular como webcam no obs (vidIQ: 15 mil buscas/mês, concorrência 29, nota 66)"
+      ],
+      "angulo": "Resultado primeiro: em 5 minutos o celular vira uma webcam melhor que a do notebook. Passos com a página oficial do OBS, Câmera de Continuidade da Apple e a opção de webcam do Android (USB); o que precisa, para quem não serve e os 3 erros comuns (câmera não aparece, imagem espelhada, atraso).",
+      "formato": "tutorial",
+      "tipo": "tutorial",
+      "quadro": "tutorial",
+      "palavra_chave": "como usar o celular como webcam no obs",
+      "verificar_antes": "Conferir cada passo nas páginas oficiais (OBS Project, Apple Continuity Camera, Android/Google). Versões: Android 14+ e iOS 16+ a confirmar. Não indicar app pirata. Candidato à terça 25/11.",
+      "fontes": [
+        {
+          "nome": "OBS Project (a conferir)",
+          "url": "https://obsproject.com/kb"
+        },
+        {
+          "nome": "Apple Suporte (a conferir)",
+          "url": "https://support.apple.com/pt-br"
+        },
+        {
+          "nome": "Ajuda do Android (a conferir)",
+          "url": "https://support.google.com/android"
+        }
+      ],
+      "nota": 4
+    },
+    {
+      "data": "2026-11-20",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "origem": "brasil",
+      "assunto": "Como desbloquear o celular quando esquece a senha (só pelos caminhos oficiais do fabricante)",
+      "por_que_em_alta": "vidIQ (18/11): 'como desbloquear o celular quando esquece a senha' 15,5 mil buscas/mês, concorrência 26, nota 67 (a melhor relação do arquivo para dúvida de celular).",
+      "evidencias": [
+        "data/vidiq.json: como desbloquear o celular quando esquece a senha (vidIQ: 15,5 mil buscas/mês, concorrência 26, nota 67)"
+      ],
+      "angulo": "Resultado primeiro: como voltar ao celular sem perder tudo (e quando perder é inevitável). Caminhos oficiais: Encontre meu dispositivo (Google), Find My Mobile (Samsung), iCloud/Buscar (Apple); o aviso de que tudo apaga sem backup; e o alerta contra sites e 'técnicos' que prometem desbloqueio.",
+      "formato": "tutorial",
+      "tipo": "tutorial",
+      "quadro": "tutorial",
+      "palavra_chave": "como desbloquear o celular quando esquece a senha",
+      "verificar_antes": "Só páginas oficiais; mostrar que exige a conta do dono do aparelho (não ensinar a burlar bloqueio de celular alheio/roubado). Conferir menus em PT-BR. Segunda opção para terça 02/12.",
+      "fontes": [
+        {
+          "nome": "Google Encontre meu dispositivo (a conferir)",
+          "url": "https://support.google.com/android"
+        },
+        {
+          "nome": "Samsung Suporte (a conferir)",
+          "url": "https://www.samsung.com/br/support/"
+        },
+        {
+          "nome": "Apple Suporte (a conferir)",
+          "url": "https://support.apple.com/pt-br"
+        }
+      ],
+      "nota": 4
+    },
+    {
+      "data": "2026-11-20",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "origem": "brasil",
+      "assunto": "Vulnerabilidade 'Java4Shell' (CVE-2026-114938): nota 9,2 e correção da Oracle de 17/11",
+      "por_que_em_alta": "Canaltech (19/11, Marcelo Fischer), com Tom's Hardware, Calif, Oracle, CERT-EU e Check Point: falha no decodificador Base64 do OpenJDK, execução remota de código; afeta Java 17, 21, 25 e 27 em CPUs com AVX-512 VBMI (Ice Lake, Zen 4); sem ataques confirmados até 18/11. Assunto técnico: público menor.",
+      "evidencias": [
+        "https://canaltech.com.br/seguranca/vulnerabilidade-critica-afeta-milhoes-de-sites-apps-e-servicos-feitos-em-java/"
+      ],
+      "angulo": "Gancho: uma falha nota 9,2 no Java pode afetar milhões de sites e apps. Em linguagem simples: o que é, quem precisa agir (quem administra servidor, não o usuário comum) e o que o usuário faz (nada além de atualizar apps).",
+      "formato": "alerta",
+      "tipo": "short",
+      "quadro": "60s",
+      "verificar_antes": "Conferir CVE, nota e versões no aviso da Oracle e no CERT-EU antes de citar. Não dizer que o usuário comum corre risco direto. Reserva.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/seguranca/vulnerabilidade-critica-afeta-milhoes-de-sites-apps-e-servicos-feitos-em-java/"
+        },
+        {
+          "nome": "Oracle Security Alerts (a conferir)",
+          "url": "https://www.oracle.com/security-alerts/"
+        },
+        {
+          "nome": "CERT-EU (a conferir)",
+          "url": "https://cert.europa.eu/"
+        }
+      ],
+      "nota": 3
+    },
+    {
+      "data": "2026-11-20",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "origem": "gringo",
+      "assunto": "Projeto 'Protect Our Games Act' nos EUA quer que jogos comprados funcionem para sempre",
+      "por_que_em_alta": "Canaltech (19/11), citando Notebookcheck: deputado Maxwell Frost apresentou o projeto em 18/11 (evento Future of Game Ownership); exige acesso a servidores se o serviço oficial for encerrado. Liga com a pauta do fechamento da PS Store do PS3. Divergência: busca achou um projeto de nome igual na Califórnia (AB 1921, aprovado na Assembleia em maio, só jogos de 2027 em diante); a UE recusou lei em junho.",
+      "evidencias": [
+        "https://canaltech.com.br/games/nova-lei-garante-que-jogos-comprados-funcionem-para-sempre/",
+        "https://engadget.com/2174011/california-lawmakers-are-working-on-a-bill-to-preserve-access-to-online-games"
+      ],
+      "angulo": "Gancho: você comprou o jogo, mas a empresa pode apagar o servidor. O que o projeto prevê, por que ainda não é lei, e o que muda para o brasileiro (nada ainda). Comentário Nexus: dono do jogo é quem tem o servidor.",
+      "formato": "explicador",
+      "tipo": "short",
+      "quadro": "60s",
+      "criterios_gringo": "1 sim (Notebookcheck, Engadget, GamesRadar); 2 parcial; 3 parcial; 4 parcial (PS3). 2 a 3 de 4: reserva.",
+      "verificar_antes": "Matéria diz projeto federal sem número; busca mostra versão da Califórnia: abrir Notebookcheck e o texto no Congresso/legislatura antes de gravar. Título da matéria diz 'nova lei': é só projeto. Reserva.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/games/nova-lei-garante-que-jogos-comprados-funcionem-para-sempre/"
+        },
+        {
+          "nome": "Engadget",
+          "url": "https://engadget.com/2174011/california-lawmakers-are-working-on-a-bill-to-preserve-access-to-online-games"
+        }
+      ],
+      "nota": 3
+    },
+    {
+      "data": "2026-11-20",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "origem": "brasil",
+      "assunto": "iPhone 18, 18e e Air 2 já em março? Rumor da cadeia de suprimentos contradiz Gurman (2º tri de 2027)",
+      "por_que_em_alta": "Canaltech (19/11, Bruno Bertonzin), com ItHome: iPhone 18, 18e e Air 2 no 1º tri de 2027; Apple não confirmou. Nossa pauta de 14/11 (Gurman: iPhone 18 e 18e só no 2º tri de 2027) diz outra coisa: rumores brigando.",
+      "evidencias": [
+        "https://canaltech.com.br/smartphone/apple-pode-surpreender-com-3-novos-iphones-ja-em-marco-diz-leaker/"
+      ],
+      "angulo": "Gancho: dois rumores sobre o próximo iPhone, duas datas diferentes. Quem disse o quê, quem costuma acertar e o que esperar. Só vale se juntar com a pauta de Gurman e deixar claro que é rumor.",
+      "formato": "explicador",
+      "tipo": "short",
+      "quadro": "60s",
+      "verificar_antes": "Rumor, fonte de segunda mão (ItHome). Reserva; só gravar com 2ª fonte (Gurman/Bloomberg) lida.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/smartphone/apple-pode-surpreender-com-3-novos-iphones-ja-em-marco-diz-leaker/"
+        }
+      ],
+      "nota": 2
+    },
+    {
+      "data": "2026-11-19",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "em_video",
+      "tipo": "short",
+      "quadro": "60s",
+      "origem": "brasil",
+      "assunto": "3 golpes mais perigosos na semana de lançamento de GTA 6 (versão falsa para PC, códigos falsos, lojas falsas com Pix)",
+      "por_que_em_alta": "Canaltech (18/11, André Lourenti Magalhães), na home de segurança hoje, dia do lançamento: GTA 6 não tem versão para PC nem PS4; códigos e gift cards falsos; lojas com preço bem abaixo de R$ 449,90 e só Pix. Junta o maior assunto do mês com Black Friday em 27/11.",
+      "evidencias": [
+        "https://canaltech.com.br/seguranca/3-golpes-mais-perigosos-na-semana-de-lancamento-de-gta-6-saiba-como-se-proteger/"
+      ],
+      "angulo": "Gancho: o GTA 6 que você baixa fora da loja oficial pode ser vírus. Os 3 golpes em 3 cenas (PC/PS4 falso, código falso, loja falsa com Pix), preço oficial como régua e 2 defesas (verificação em duas etapas, comprar só na PS Store/Xbox Store). Comentário Nexus: 13 anos de espera, 13 segundos para cair num golpe.",
+      "formato": "alerta",
+      "verificar_antes": "Só o Canaltech lido. Confirmar na página da PS Store/Xbox Store o preço de R$ 449,90 e que não há versão de PC (Rockstar). Não citar loja como golpista.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/seguranca/3-golpes-mais-perigosos-na-semana-de-lancamento-de-gta-6-saiba-como-se-proteger/"
+        },
+        {
+          "nome": "Rockstar Games (a conferir)",
+          "url": "https://www.rockstargames.com/newswire"
+        }
+      ],
+      "nota": 5
+    },
+    {
+      "data": "2026-11-19",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "tipo": "short",
+      "quadro": "60s",
+      "origem": "brasil",
+      "assunto": "GTA 6 saiu hoje: o review do Canaltech, 30 fps, 212 GB e o que muda por console",
+      "por_que_em_alta": "Dia do lançamento (19/11). Canaltech publicou review (18/11, Jones Oliveira, feito no PS5 Pro: muito positivo, 30 fps nos consoles, PSSR e ray tracing) e matéria sobre o Series S com FSR 4. Diário de Pernambuco e outros: Xbox One só via nuvem, desbloqueio à meia-noite. Assunto nº 1 do mês.",
+      "evidencias": [
+        "https://canaltech.com.br/games/review-grand-theft-auto-6/",
+        "https://canaltech.com.br/games/como-o-xbox-series-s-roda-gta-6-rockstar-usa-amd-fsr-4-inedito-e-mantem-ray-tracing/",
+        "https://www.diariodepernambuco.com.br/tecnologia/2026/11/11729275-gta-6-tudo-o-que-voce-precisa-saber-antes-do-lancamento-desta-quinta-19.html"
+      ],
+      "angulo": "Gancho: 13 anos de espera e o jogo roda a 30 fps. Resumo do review (prós e contras) com o desempenho por console. Cuidado para não repetir os vídeos de pré-load, Xbox One e pré-venda: aqui é a recepção e a performance.",
+      "formato": "noticia",
+      "verificar_antes": "Review é de um veículo só: dizer 'segundo o Canaltech'. Conferir o 30 fps na Rockstar/Take-Two (Olhar Digital 11/11 cita). Não dizer 'testamos'. Não falar de nota que não existe.",
+      "fontes": [
+        {
+          "nome": "Canaltech (review)",
+          "url": "https://canaltech.com.br/games/review-grand-theft-auto-6/"
+        },
+        {
+          "nome": "Olhar Digital",
+          "url": "https://olhardigital.com.br/2026/11/11/games-e-consoles/gta-6-30-fps-ps5-pro-xbox-cloud-gaming/"
+        },
+        {
+          "nome": "Rockstar (a conferir)",
+          "url": "https://www.rockstargames.com/newswire"
+        }
+      ],
+      "nota": 4
+    },
+    {
+      "data": "2026-11-19",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "tipo": "short",
+      "quadro": "60s",
+      "origem": "gringo",
+      "assunto": "iPhone Duo: Apple vende peças de reparo e a tela interna custa US$ 999 (fora a ressalva do título da matéria)",
+      "por_que_em_alta": "Canaltech (18/11, Nathan Vieira), citando GSMArena e 9to5Mac: Self Service Repair com tela interna US$ 999, display US$ 499, bateria US$ 119, aluguel de kit US$ 49. A manchete diz R$ 5.776 e o corpo converte para ~R$ 5.115: números divergem. Continua o assunto iPhone Duo, que já deu vídeo nosso.",
+      "evidencias": [
+        "https://canaltech.com.br/smartphone/quebrou-o-iphone-duo-tela-interna-de-reposicao-custa-r-5776/"
+      ],
+      "angulo": "Gancho: quebrar a tela de dentro do iPhone Duo pode custar quase o preço de um celular novo. Barras com peças (tela interna, externa, bateria), o que é o autorreparo da Apple e a pergunta: dobrável vale o risco? Só dólar, com conversão estimada e data.",
+      "formato": "explicador",
+      "verificar_antes": "Abrir a página de Self Service Repair da Apple (preços em dólar, e se existe no Brasil: normalmente não). Divergência R$ 5.776 x US$ 999: usar só o dólar da Apple. Não repetir o ângulo do vídeo de 04/11 (234 mil dobras).",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/smartphone/quebrou-o-iphone-duo-tela-interna-de-reposicao-custa-r-5776/"
+        },
+        {
+          "nome": "Apple Self Service Repair (a conferir)",
+          "url": "https://selfservicerepair.com/"
+        }
+      ],
+      "criterios_gringo": "1 sim (GSMArena, 9to5Mac); 2 parcial (reparo oficial pode não existir no Brasil); 3 parcial; 4 sim (post do iPhone Duo). 3 de 4.",
+      "nota": 4
+    },
+    {
+      "data": "2026-11-19",
+      "imagens_oficiais": [],
+      "post_relacionado": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "tipo": "short",
+      "quadro": "60s",
+      "origem": "brasil",
+      "assunto": "Oppo vai baixar preços em até 30% no Brasil na Black Friday (A6t por R$ 799, A5 Pro de R$ 2.899 por R$ 1.999)",
+      "por_que_em_alta": "Canaltech (18/11, Nathan Vieira) na home de celulares: A6t R$ 799 a partir de 23/11, A5 Pro R$ 1.999 na última semana, Reno16 F R$ 2.999 no Pix, tela grátis até 30/11. A matéria não cita comunicado oficial. Contraste com as pautas de alta de preço (RAMageddon).",
+      "evidencias": [
+        "https://canaltech.com.br/smartphone/oppo-vai-baixar-precos-de-celulares-e-acessorios-em-ate-30-no-brasil/"
+      ],
+      "angulo": "Gancho: enquanto a memória sobe o preço de tudo, a Oppo promete baixar até 30%. Tabela com 4 modelos e canal (Mercado Livre, operadoras com plano e fidelização), e a pegadinha: preço com plano não é preço do aparelho. Preços com data.",
+      "formato": "alerta",
+      "verificar_antes": "Sem comunicado oficial: abrir o site da Oppo Brasil e a página da campanha. Oferta tem prazo: conferir no dia de gravar. Sem link de afiliado.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/smartphone/oppo-vai-baixar-precos-de-celulares-e-acessorios-em-ate-30-no-brasil/"
+        },
+        {
+          "nome": "Oppo Brasil (a conferir)",
+          "url": "https://www.oppo.com/br/"
+        }
+      ],
+      "nota": 3
+    },
+    {
+      "data": "2026-11-19",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "tipo": "short",
+      "quadro": "60s",
+      "origem": "gringo",
+      "assunto": "Motorola Edge 70 Neo: bateria de 7.000 mAh, lançamento em 24/11 na Índia, Brasil sem confirmação",
+      "por_que_em_alta": "Canaltech (home de 19/11), citando TheTechOutlook: evento em 24/11, tela AMOLED 6,8 pol. 144 Hz, Snapdragon 7s Gen 3, 7.000 mAh, 45 W, IP64; preço não divulgado; Brasil não confirmado. Casa com a tendência de baterias gigantes (pauta 12.000 mAh).",
+      "evidencias": [
+        "https://canaltech.com.br/smartphone/motorola-vai-lancar-novo-celular-dias-antes-da-black-friday-veja-o-que-sabemos/"
+      ],
+      "angulo": "Reserva ou bloco do Lá Fora de baterias: o intermediário com 7.000 mAh que estreia na Índia. Chega ao Brasil? Sem preço, dizer isso.",
+      "formato": "noticia",
+      "verificar_antes": "Só uma fonte de segunda mão. Abrir a página da Motorola Índia/Flipkart; não afirmar Brasil. Esperar o evento de 24/11 para publicar.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/smartphone/motorola-vai-lancar-novo-celular-dias-antes-da-black-friday-veja-o-que-sabemos/"
+        },
+        {
+          "nome": "Motorola (a conferir)",
+          "url": "https://www.motorola.com/"
+        }
+      ],
+      "criterios_gringo": "1 parcial; 2 parcial; 3 sim; 4 parcial. Fraca: reserva.",
+      "nota": 2
+    },
+    {
+      "data": "2026-11-19",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "tipo": "tutorial",
+      "quadro": "tutorial",
+      "origem": "brasil",
+      "assunto": "Como ativar a verificação em duas etapas na conta PlayStation e Xbox (antes que roubem sua conta)",
+      "por_que_em_alta": "Canaltech (18/11) recomenda 2FA como defesa nos golpes da semana do GTA 6; jogo exige conta online e muita gente cria conta nova para o lançamento. Sem termo no vidIQ ainda: nota menor; pedir ao vidIQ de domingo 'como ativar verificação em duas etapas'.",
+      "evidencias": [
+        "https://canaltech.com.br/seguranca/3-golpes-mais-perigosos-na-semana-de-lancamento-de-gta-6-saiba-como-se-proteger/"
+      ],
+      "formato": "tutorial",
+      "palavra_chave": "como ativar verificação em duas etapas playstation",
+      "angulo": "Resultado primeiro: em 4 minutos a conta com o seu GTA 6 fica protegida. Passos com gravação das páginas oficiais de conta da Sony e da Microsoft, o que fazer se perder o celular do código, e o aviso de golpe de falso suporte.",
+      "verificar_antes": "Conferir cada passo nas páginas oficiais (PlayStation Suporte, Microsoft Conta) e o menu em português. Sem termo no vidIQ: dizer.",
+      "fontes": [
+        {
+          "nome": "PlayStation Suporte (a conferir)",
+          "url": "https://www.playstation.com/pt-br/support/"
+        },
+        {
+          "nome": "Microsoft Conta (a conferir)",
+          "url": "https://account.microsoft.com/security"
+        },
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/seguranca/3-golpes-mais-perigosos-na-semana-de-lancamento-de-gta-6-saiba-como-se-proteger/"
+        }
+      ],
+      "nota": 3
+    },
+    {
+      "data": "2026-11-18",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "em_video",
+      "quadro": "60s",
+      "tipo": "short",
+      "origem": "brasil",
+      "assunto": "Sony solta atualização 14.23 do PS5 na véspera do GTA 6 para travar o jailbreak",
+      "por_que_em_alta": "Canaltech (17/11, Diego Corumba): versão 14.23 com 'ajustes de segurança'; a 14.22 teria sido desbloqueada em menos de 24 h pelo usuário Gezine; disputa de ~2 meses; GTA 6 sai quinta (19/11). Home de games do Canaltech hoje.",
+      "evidencias": [
+        "https://canaltech.com.br/games/para-conter-pirataria-de-gta-6-sony-libera-atualizacao-de-seguranca-urgente-para-o-ps5/"
+      ],
+      "angulo": "Gancho: a Sony lançou uma atualização urgente do PS5 um dia antes do GTA 6. O que mudou (só 'ajustes de segurança'), a corrida com hackers, e o que fazer (atualizar, nada de console desbloqueado: risco de banimento e golpe). Comentário Nexus: o jogo mais esperado da década já tem patch de véspera. Sem tutorial de jailbreak.",
+      "formato": "alerta",
+      "verificar_antes": "Abrir a página oficial de software do sistema do PS5 (suporte PlayStation) e confirmar 14.23 e a data. A ligação com GTA 6 é interpretação do Canaltech: dizer 'segundo o Canaltech'. Não incentivar jailbreak.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/games/para-conter-pirataria-de-gta-6-sony-libera-atualizacao-de-seguranca-urgente-para-o-ps5/"
+        },
+        {
+          "nome": "PlayStation Suporte (a conferir)",
+          "url": "https://www.playstation.com/pt-br/support/"
+        }
+      ],
+      "nota": 5
+    },
+    {
+      "data": "2026-11-18",
+      "imagens_oficiais": [],
+      "post_relacionado": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "quadro": "60s",
+      "tipo": "short",
+      "origem": "gringo",
+      "assunto": "Samsung avalia subir até 19% o preço dos Galaxy A em 2027 por causa da memória cara (rumor)",
+      "por_que_em_alta": "Canaltech (18/11): relato do SEDaily e Sammy Fans; alta de US$ 30 a US$ 60 em A07, A17 e A57 a partir de 01/01/2027; A17 5G +18,6%, A57 +9,1%; memória foi de 20% a 54% do custo de celular básico. Não confirmado pela Samsung. Os Galaxy A são os mais vendidos no Brasil. Fecha a série RAMageddon.",
+      "evidencias": [
+        "https://canaltech.com.br/smartphone/samsung-pode-aumentar-precos-dos-celulares-galaxy-a-em-ate-19-em-2027/"
+      ],
+      "angulo": "Gancho: o celular Samsung mais barato pode ficar até 19% mais caro em janeiro. Barras por modelo, o porquê (IA comprando memória), ressalva de rumor, e a pergunta da Black Friday: comprar agora? Valores em reais só como estimativa.",
+      "formato": "explicador",
+      "verificar_antes": "Rumor de jornal coreano, sem confirmação. Buscar SEDaily/Sammy Fans e 2ª fonte; conversão em R$ com cotação e data. Se o Lá Fora RAMageddon sair antes, usar como bloco dele.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/smartphone/samsung-pode-aumentar-precos-dos-celulares-galaxy-a-em-ate-19-em-2027/"
+        },
+        {
+          "nome": "Sammy Fans (a localizar)",
+          "url": "https://sammyfans.com/"
+        }
+      ],
+      "nota": 4,
+      "criterios_gringo": "1 parcial (SEDaily + Sammy Fans, Canaltech); 2 sim; 3 parcial; 4 sim (Black Friday e guias de celular). 3 de 4."
+    },
+    {
+      "data": "2026-11-18",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "quadro": "60s",
+      "tipo": "short",
+      "origem": "brasil",
+      "assunto": "Hacker que vazou GTA 6 em 2022 se declara culpado na Justiça britânica",
+      "por_que_em_alta": "Canaltech (17/11), com EuroGamer e BBC: Arion Kurtaj, 21, admitiu a invasão da Rockstar (90 arquivos, 60 min de gameplay, ~US$ 5 mi de custo segundo a empresa) e extorsão; sentença em data futura. Pega carona na semana de lançamento do GTA 6.",
+      "evidencias": [
+        "https://canaltech.com.br/games/hacker-que-invadiu-rockstar-usando-um-fire-stick-e-vazou-gta-6-se-declara-culpado/"
+      ],
+      "angulo": "Gancho: o jogo mais vigiado do mundo foi invadido com um Fire Stick, a TV de um hotel e um teclado. Como foi, o que vazou, o prejuízo declarado e a lição de segurança. Foco no método e no prejuízo, sem detalhes pessoais.",
+      "formato": "curiosidade",
+      "verificar_antes": "Caso envolve uma pessoa: citar só o que a Justiça/BBC/EuroGamer confirmam, sem detalhes de saúde e sem os episódios sensacionalistas. Abrir BBC e EuroGamer. Sem 2ª fonte lida, reserva.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/games/hacker-que-invadiu-rockstar-usando-um-fire-stick-e-vazou-gta-6-se-declara-culpado/"
+        },
+        {
+          "nome": "BBC (a localizar)",
+          "url": "https://www.bbc.com/news"
+        },
+        {
+          "nome": "Eurogamer (a localizar)",
+          "url": "https://www.eurogamer.net/"
+        }
+      ],
+      "nota": 3
+    },
+    {
+      "data": "2026-11-18",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "quadro": "60s",
+      "tipo": "short",
+      "origem": "brasil",
+      "assunto": "Meta testa o Direct, app de mensagens do Instagram que funciona sem conta no Instagram",
+      "por_que_em_alta": "Canaltech (17/11, 15h03): teste na Turquia e Tailândia, Android e iOS; terceiro app de conversa da Meta ao lado de WhatsApp e Messenger; sem previsão para outros países. Destaque na home de tecnologia hoje.",
+      "evidencias": [
+        "https://canaltech.com.br/apps/meta-testa-novo-app-de-mensagens-que-mistura-instagram-e-messenger/"
+      ],
+      "angulo": "Gancho: a Meta vai ter um terceiro app de mensagens. O que o Direct faz (sem conta no Instagram, só contatos iniciam conversa, controle para pais), e a pergunta: precisamos de mais um? Sem previsão para o Brasil.",
+      "formato": "noticia",
+      "verificar_antes": "Só o Canaltech lido. Buscar o anúncio da Meta/Instagram; não afirmar chegada ao Brasil.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/apps/meta-testa-novo-app-de-mensagens-que-mistura-instagram-e-messenger/"
+        },
+        {
+          "nome": "Meta/Instagram (a localizar)",
+          "url": "https://about.instagram.com/blog"
+        }
+      ],
+      "nota": 3
+    },
+    {
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "status": "em_video",
+      "data": "2026-11-17",
+      "assunto": "Sony fecha a PS Store do PS3 e do Vita: Brasil sem data exata, e o que acontece com os jogos que você comprou",
+      "por_que_em_alta": "Destaque do Canaltech (16/11, Diego Corumba): loja do PS3 fecha até o fim de 2026 e a do Vita em julho de 2027; Brasil sem data exata; México, Nicarágua e Honduras já fecharam; compras antigas seguem baixáveis 'por tempo indeterminado'; Sony diz que não vai recuar (em 2021 recuou). Fora: VGC, Gematsu, Tom's Guide, Digital Trends, GamesRadar cobriram o plano (anúncio de jul/2026). Liga com os 20 anos do PS3 e com o fim da mídia física.",
+      "evidencias": [
+        "https://canaltech.com.br/games/sony-anuncia-o-fechamento-definitivo-da-ps-store-no-ps3-e-ps-vita/",
+        "https://www.gematsu.com/2026/07/playstation-store-for-ps3-ps-vita-to-close-in-july-2027",
+        "https://www.tomsguide.com/news/ps3-vita-and-psp-stores-officially-closing-what-you-need-to-know"
+      ],
+      "angulo": "Gancho: a Sony vai apagar a loja do PS3 e você só tem tempo até o fim do ano para comprar. O que fecha, o que fica (o que já é seu continua baixável), o que o Brasil sabe (sem data oficial) e a lição de jogo digital não ser seu. Publicar junto à semana dos 20 anos do PS3.",
+      "formato": "alerta",
+      "tipo": "short",
+      "quadro": "60s",
+      "origem": "brasil",
+      "verificar_antes": "Datas divergem: Canaltech diz PS3 até fim de 2026 e Vita julho/2027; fontes de fora falam em fechamento global do PS3 e Vita até julho/2027 em etapas. Abrir o PlayStation Blog/página de suporte da Sony e usar só a data confirmada; Brasil: sem data, dizer isso. Nada de dizer que o jogo comprado some.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/games/sony-anuncia-o-fechamento-definitivo-da-ps-store-no-ps3-e-ps-vita/"
+        },
+        {
+          "nome": "Gematsu",
+          "url": "https://www.gematsu.com/2026/07/playstation-store-for-ps3-ps-vita-to-close-in-july-2027"
+        },
+        {
+          "nome": "Tom's Guide",
+          "url": "https://www.tomsguide.com/news/ps3-vita-and-psp-stores-officially-closing-what-you-need-to-know"
+        },
+        {
+          "nome": "PlayStation (a conferir)",
+          "url": "https://www.playstation.com/pt-br/support/"
+        }
+      ],
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "nota": 4
+    },
+    {
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "status": "nova",
+      "data": "2026-11-17",
+      "assunto": "75% dos brasileiros veem a tecnologia chinesa de forma positiva (Ipsos), mas a pesquisa foi encomendada pela Jovi",
+      "por_que_em_alta": "Canaltech (16/11): Ipsos, 1.200 adultos (classes A, B, C), 30/09 a 05/10, margem 2,8 pp; 75% positivos contra 69% em 2025; smartphones são o setor mais ligado à China (65%). Ressalva: encomendada por fabricante chinesa. Liga com Xiaomi 18 e a lista de celulares.",
+      "evidencias": [
+        "https://canaltech.com.br/produtos/brasileiros-perderam-o-preconceito-com-tecnologia-chinesa-veja-pesquisa/"
+      ],
+      "angulo": "Gancho: três em cada quatro brasileiros já confiam em tecnologia chinesa, mas quem pagou a pesquisa foi uma marca chinesa. Barras 2025 x 2026, ressalva na tela, comentário Nexus: pesquisa boa é a que diz quem pagou.",
+      "formato": "noticia",
+      "tipo": "short",
+      "quadro": "60s",
+      "origem": "brasil",
+      "verificar_antes": "Só uma fonte (Canaltech). Procurar release da Ipsos/Jovi. Dizer na tela que foi encomendada pela Jovi. Não generalizar para marcas.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/produtos/brasileiros-perderam-o-preconceito-com-tecnologia-chinesa-veja-pesquisa/"
+        }
+      ],
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "nota": 3
+    },
+    {
+      "imagens_oficiais": [],
+      "post_relacionado": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
+      "status": "nova",
+      "data": "2026-11-17",
+      "assunto": "Como saber se um site é confiável antes de comprar na Black Friday (passo a passo com ferramentas oficiais)",
+      "por_que_em_alta": "Black Friday em 27/11. Forbes Tech cita levantamento da Serasa (out/2026): sites falsos são o golpe nº 1 (53%), Pix 42%; Procon e Senacon (Portal de Prefeitura, 10/11) reforçam alerta. Sem termo no vidIQ: nota menor; pedir ao vidIQ de quarta termos 'como saber se um site é confiável'. Não repete o Short de 09/11 (3 regras contra preço falso): aqui é verificação de loja, com gravação de tela.",
+      "evidencias": [
+        "https://forbes.com.br/forbes-tech/2026/10/black-friday-como-se-proteger-de-golpes-digitais-e-evitar-prejuizos/",
+        "https://portaldeprefeitura.com.br/brasil/black-friday-atencao-redobrada-contra-golpes-fraudes-senacon/635806/",
+        "https://www.band.com.br/nacional/sp/black-friday-procon-alerta-como-aproveitar-sem-cair-em-dividas-e-fraudes"
+      ],
+      "angulo": "Resultado primeiro: em 3 minutos você checa se a loja existe antes de pagar. Passos: conferir o domínio e o CNPJ (consulta pública da Receita), ver reclamações (consumidor.gov.br, Reclame Aqui), conferir lista do Procon-SP, cadeado não prova nada, pagamento seguro. Se já caiu: o que fazer (7 dias de arrependimento, contestar no banco, MED do Pix). Publicar terça 19h, 10 dias antes da data.",
+      "formato": "tutorial",
+      "tipo": "tutorial",
+      "quadro": "tutorial",
+      "palavra_chave": "como saber se um site é confiável",
+      "verificar_antes": "Conferir cada passo nas páginas oficiais (Receita, consumidor.gov.br, Procon-SP, Banco Central sobre MED) e o número da Serasa. Sem termo no vidIQ: dizer. Não citar nome de loja como golpista.",
+      "fontes": [
+        {
+          "nome": "Forbes Brasil (Serasa)",
+          "url": "https://forbes.com.br/forbes-tech/2026/10/black-friday-como-se-proteger-de-golpes-digitais-e-evitar-prejuizos/"
+        },
+        {
+          "nome": "Consumidor.gov.br",
+          "url": "https://www.consumidor.gov.br/"
+        },
+        {
+          "nome": "Procon-SP",
+          "url": "https://www.procon.sp.gov.br/"
+        }
+      ],
+      "origem": "brasil",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "nota": 4
+    },
+    {
+      "data": "2026-11-16",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "assunto": "CNH Digital na blitz: só vale aberta no app CNH do Brasil; print e PDF não valem",
+      "por_que_em_alta": "Google Trends BR hoje (16/11): 'cnh digital' na lista de buscas em alta (único termo de tecnologia); Correio Braziliense e Detran-PR orientam que a versão impressa não vale e que o documento deve ser mostrado no app oficial. Portal do Trânsito cita a Senatran: print não vale, PDF serve para bancos, abre sem internet se baixada antes, infração leve (multa de R$ 88,38 e 3 pontos).",
+      "evidencias": [
+        "https://www.portaldotransito.com.br/noticias/fiscalizacao-e-legislacao/cnh-digital-em-pdf-vale-na-blitz-senatran-esclarece-duvida-de-motoristas/",
+        "https://www.correiobraziliense.com.br/cbradar/cnh-digital-blitz-validade/",
+        "https://canaltech.com.br/carros/cnh-digital-como-nao-passar-aperto-em-blitz-e-aeroportos"
+      ],
+      "angulo": "Gancho: o print da sua CNH no celular não vale em blitz. O que vale (só o app oficial, baixado antes, abre sem sinal), o que a Senatran diz do PDF e da multa. Comentário Nexus: bateria a 1% é multa. Pode virar tutorial 'como baixar a CNH digital' depois.",
+      "formato": "alerta",
+      "tipo": "short",
+      "quadro": "60s",
+      "origem": "brasil",
+      "verificar_antes": "Confirmar na Senatran/gov.br (página da CNH Digital) as regras de print, PDF e a multa (R$ 88,38, 3 pontos, infração leve); sem fonte oficial, não publicar. Não afirmar regra de estado específico.",
+      "fontes": [
+        {
+          "nome": "Portal do Trânsito (Senatran)",
+          "url": "https://www.portaldotransito.com.br/noticias/fiscalizacao-e-legislacao/cnh-digital-em-pdf-vale-na-blitz-senatran-esclarece-duvida-de-motoristas/"
+        },
+        {
+          "nome": "Correio Braziliense",
+          "url": "https://www.correiobraziliense.com.br/cbradar/cnh-digital-blitz-validade/"
+        },
+        {
+          "nome": "Gov.br CNH do Brasil (a conferir)",
+          "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-senatran"
+        }
+      ],
+      "nota": 5
+    },
+    {
+      "data": "2026-11-16",
+      "imagens_oficiais": [],
+      "post_relacionado": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Alternativas do catálogo (celulares/acessórios ativo=sim) como 'comprar agora'; conferir CSV."
+      },
+      "status": "em_video",
+      "assunto": "RAMageddon: por que tudo de tecnologia vai ficar mais caro (placa de vídeo, Galaxy S27, Windows e celular)",
+      "por_que_em_alta": "Memória cara pela corrida da IA aparece em várias pautas desta semana: AMD cortando oferta de GPU (Canaltech 13/11), Galaxy S27 com alta de cerca de US$ 100 e 1 TB nos Pro/Ultra (SamMobile, Android Authority, Techadvisor, Canaltech, 4gnews), Windows 11 OEM mais caro, Xiaomi 18 com preço +20%. Black Friday em 27/11 torna a pergunta 'compro agora ou espero?' atual.",
+      "evidencias": [
+        "https://canaltech.com.br/smartphone/galaxy-s27-pode-ser-muito-mais-potente-mas-preco-tambem-deve-subir-entenda/",
+        "https://www.sammobile.com/?p=16680865",
+        "https://androidauthority.com/samsung-galaxy-s27-memory-storage-configurations-leak-3713926",
+        "https://canaltech.com.br/hardware/amd-corta-em-ate-50-a-oferta-de-placas-de-video-gamer-ate-2027-preco-deve-subir/"
+      ],
+      "angulo": "Gancho: a IA está comprando a memória do mundo e quem paga é você. Como funciona (fábricas priorizam memória de IA), o que subiu e o que é só rumor (S27, AMD), E no Brasil (Black Friday: vale comprar agora?), alternativas que já dá pra comprar do catálogo, veredito. Une 4 pautas soltas.",
+      "formato": "explicador",
+      "tipo": "longo",
+      "quadro": "lafora",
+      "origem": "gringo",
+      "palavra_chave": "memoria ram preço alta ia",
+      "criterios_gringo": "1 sim (SamMobile, Android Authority, Techadvisor, Notebookcheck); 2 sim (preço de celular, PC e GPU no Brasil); 3 parcial (Canaltech cobre em texto; checar vídeo em PT no YouTube BR); 4 sim (guias de compra e Black Friday). 3 de 4 ok.",
+      "verificar_antes": "Sem termo no vidIQ: nota menor e dizer isso. Separar fato (preço da memória, com fonte de mercado como TrendForce) de rumor (S27, corte de 50% da AMD). Abrir fonte primária de preço de DRAM. Nada de 'vai custar R$ X' sem cotação e data.",
+      "fontes": [
+        {
+          "nome": "Canaltech (Galaxy S27)",
+          "url": "https://canaltech.com.br/smartphone/galaxy-s27-pode-ser-muito-mais-potente-mas-preco-tambem-deve-subir-entenda/"
+        },
+        {
+          "nome": "SamMobile",
+          "url": "https://www.sammobile.com/?p=16680865"
+        },
+        {
+          "nome": "Android Authority",
+          "url": "https://androidauthority.com/samsung-galaxy-s27-memory-storage-configurations-leak-3713926"
+        },
+        {
+          "nome": "Canaltech (AMD)",
+          "url": "https://canaltech.com.br/hardware/amd-corta-em-ate-50-a-oferta-de-placas-de-video-gamer-ate-2027-preco-deve-subir/"
+        }
+      ],
+      "nota": 4
+    },
+    {
+      "data": "2026-11-16",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "assunto": "Galaxy S27 deve subir cerca de US$ 100 e trazer 1 TB nos modelos Pro e Ultra (vazamento)",
+      "por_que_em_alta": "Vários veículos em PT e EN: Canaltech, Oficina da Net, SamMobile (alta de 130 mil won), Android Authority (configurações de memória), Techadvisor, 4gnews. Nada confirmado pela Samsung. Hoje no destaque de smartphones do Canaltech.",
+      "evidencias": [
+        "https://canaltech.com.br/smartphone/galaxy-s27-pode-ser-muito-mais-potente-mas-preco-tambem-deve-subir-entenda/",
+        "https://androidauthority.com/samsung-galaxy-s27-memory-storage-configurations-leak-3713926"
+      ],
+      "angulo": "Reserva do 60s, ou bloco do Lá Fora sobre RAMageddon. Tratar como vazamento; a ressalva: a diferença entre versões de armazenamento pode até cair, o preço base é que sobe.",
+      "formato": "noticia",
+      "tipo": "short",
+      "quadro": "60s",
+      "origem": "gringo",
+      "verificar_antes": "Rumor sem confirmação. Abrir SamMobile e Android Authority e confirmar os números antes de citar. Não repetir 'dobro de armazenamento' sem fonte.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/smartphone/galaxy-s27-pode-ser-muito-mais-potente-mas-preco-tambem-deve-subir-entenda/"
+        },
+        {
+          "nome": "Android Authority",
+          "url": "https://androidauthority.com/samsung-galaxy-s27-memory-storage-configurations-leak-3713926"
+        },
+        {
+          "nome": "SamMobile",
+          "url": "https://www.sammobile.com/?p=16680865"
+        }
+      ],
+      "nota": 3
+    },
+    {
+      "data": "2026-11-16",
+      "imagens_oficiais": [
+        "https://www.motorola.com.br/"
+      ],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "assunto": "Motorola Signature 27 vai aceitar o GrapheneOS, o Android ultrasseguro, primeira vez em celular da marca",
+      "por_que_em_alta": "Canaltech: Signature 27 ganha suporte ao GrapheneOS; Tecnoblog destaca 'celular da Motorola com Android superseguro vai custar caro' (ontem, 15/11). Liga ao Signature 27 de R$ 10.999 já na lista. Não achei a matéria do Tecnoblog para ler: só o título na home.",
+      "evidencias": [
+        "https://canaltech.com.br/smartphone/motorola-signature-27-ganha-suporte-a-sistema-android-ultrasseguro/"
+      ],
+      "angulo": "Gancho: um sistema que quase ninguém conhece quer proteger seu celular até do fabricante. O que é o GrapheneOS, o que se perde (apps Google, bancos) e para quem faz sentido. Une com a pauta do Signature 27.",
+      "formato": "explicador",
+      "tipo": "short",
+      "quadro": "60s",
+      "origem": "brasil",
+      "verificar_antes": "Abrir o site do GrapheneOS e o anúncio da Motorola Brasil: confirmar suporte, preço, disponibilidade no Brasil e compatibilidade com apps de banco. Só 1 fonte lida.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/smartphone/motorola-signature-27-ganha-suporte-a-sistema-android-ultrasseguro/"
+        },
+        {
+          "nome": "GrapheneOS (a conferir)",
+          "url": "https://grapheneos.org/"
+        }
+      ],
+      "nota": 3
+    },
+    {
+      "data": "2026-11-16",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "assunto": "Como fazer o Gemini lembrar de você em qualquer conversa (memória, passo a passo)",
+      "quadro": "tutorial",
+      "tipo": "tutorial",
+      "formato": "tutorial",
+      "palavra_chave": "como fazer o gemini lembrar",
+      "por_que_em_alta": "Canaltech destaca o tutorial na home de hoje; TecMundo e Canaltech cobriram a memória do Gemini; caminho: Configurações > Inteligência Personalizada > Memória, com histórico para ver e apagar. Sem termo no vidIQ ainda: nota menor.",
+      "evidencias": [
+        "https://canaltech.com.br/inteligencia-artificial/gemini-agora-usa-chats-antigos-para-entender-seus-gostos-e-te-responder-melhor/",
+        "https://www.tecmundo.com.br/produto/414040-gemini-live-agora-lembra-de-conversas-passadas-saiba-como-ativar.htm"
+      ],
+      "angulo": "Resultado primeiro: o Gemini passa a saber seu nome, trabalho e preferências sem repetir. Passos, como ver e apagar a memória (privacidade) e o que fazer se a opção não aparece.",
+      "verificar_antes": "Fontes divergem: uma diz que exige plano Google AI e idioma em inglês dos EUA; Gemini Live com memória só nos EUA. Abrir a página oficial de ajuda do Google em PT-BR; se a opção não existir no Brasil, descartar. Conferir o termo no vidIQ na próxima rodada.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/inteligencia-artificial/gemini-agora-usa-chats-antigos-para-entender-seus-gostos-e-te-responder-melhor/"
+        },
+        {
+          "nome": "Ajuda do Gemini (a conferir)",
+          "url": "https://support.google.com/gemini"
+        }
+      ],
+      "origem": "brasil",
+      "nota": 3
+    },
+    {
+      "data": "2026-11-16",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "assunto": "Black Friday 27/11: TIM dá GTA VI na compra do PS5 Digital, mas o preço depende de troca e plano",
+      "por_que_em_alta": "Canaltech (03/11): PS5 Slim Digital por R$ 2.376 à vista (24x de R$ 99) só com plano TIM com fidelização e entrega de um PS4 usado; jogo retirado a partir de 19/11. A matéria diz que não dá para garantir esse preço só contratando o plano. GTA 6 sai quinta (19/11).",
+      "evidencias": [
+        "https://canaltech.com.br/telecom/tim-da-gta-vi-de-graca-na-compra-de-ps5-em-oferta-da-black-friday/"
+      ],
+      "angulo": "Gancho: o PS5 'com GTA 6 de graça' tem pegadinha. Conta de quem não entrega PS4 usado e fidelização. Liga a Black Friday antecipada.",
+      "formato": "alerta",
+      "tipo": "short",
+      "quadro": "60s",
+      "origem": "brasil",
+      "verificar_antes": "OFERTA COM PRAZO: abrir a página da TIM e conferir regras e prazo na hora de gravar; matéria tem 13 dias. Se acabou, descartar. Sem link de afiliado; preço visto em data.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/telecom/tim-da-gta-vi-de-graca-na-compra-de-ps5-em-oferta-da-black-friday/"
+        },
+        {
+          "nome": "TIM (a conferir)",
+          "url": "https://www.tim.com.br/"
+        }
+      ],
+      "nota": 3
+    },
+    {
+      "data": "2026-11-16",
+      "imagens_oficiais": [
+        "https://news.microsoft.com/"
+      ],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "assunto": "Histórias Tech: Windows 1.0, o 'programa' da Microsoft que chegou em 20/11/1985 e ninguém queria",
+      "por_que_em_alta": "HOJE (20/11/2026) faz 41 anos do lançamento do Windows 1.0 (busca de 20/11 confirma 20/11/1985, US$ 99, interface gráfica sobre o MS-DOS). Publicar hoje ou no fim de semana. Aniversário amanhã (20/11/1985, 41 anos). Busca de 19/11 confirma em 3 fontes: Wikipedia (1.01 vendido nos EUA por US$ 99, MS-DOS Executive como gerenciador de arquivos, 1.02 internacional em mai/1986, suporte até 31/12/2001), Register e History.com. Datas da 1ª demonstração divergem (1983): usar só 20/11/1985. Publicar 20/11 ou fim de semana.",
+      "evidencias": [
+        "https://www.history.com/this-day-in-history/november-20/microsoft-releases-windows-1-0"
+      ],
+      "angulo": "Gancho: a primeira versão do Windows foi chamada de lenta e feia, e mesmo assim virou o sistema do mundo. Auge: interface gráfica sobre o MS-DOS. Virada: Windows 3.0 (1990). Lição: o produto ruim que chega primeiro pode ganhar tempo.",
+      "formato": "curiosidade",
+      "tipo": "short",
+      "quadro": "historias",
+      "verificar_antes": "Datas de 1985 em 2 fontes OK; nome 1.0 x 1.01 varia entre fontes: dizer 'primeira versão de varejo'. Fotos: Microsoft/Wikimedia (licença livre).",
+      "fontes": [
+        {
+          "nome": "History.com (a conferir)",
+          "url": "https://www.history.com/this-day-in-history/november-20/microsoft-releases-windows-1-0"
+        },
+        {
+          "nome": "Computer History Museum (a localizar)",
+          "url": "https://computerhistory.org/"
+        }
+      ],
+      "nota": 5
+    },
+    {
+      "data": "2026-11-14",
+      "assunto": "Histórias Tech: Xbox, os 25 anos do console que a Microsoft lançou para enfrentar a Sony",
+      "por_que_em_alta": "Data redonda: Xbox lançado em 15/11/2001 na América do Norte; Hardware.com.br e Phil Spencer abriram as comemorações dos 25 anos. Combina com a semana de GTA 6. Hoje (14/11) é o dia de publicar: o aniversário é 15/11. Busca de 14/11 confirma 15/11/2001 (EUA), US$ 299, Times Square com Bill Gates, Halo como jogo de lançamento, mais de 1 milhão em 3 semanas (Tecnoblog), Xbox Live em 15/11/2002 e Japão/Europa só em 2002.",
+      "evidencias": [
+        "https://www.history.com/this-day-in-history/november-15/microsoft-releases-xbox-gaming-console",
+        "https://www.hardware.com.br/artigos/xbox-anuncio-bill-gates-the-rock-ces-2001-25-anos/amp/"
+      ],
+      "angulo": "Gancho: a Microsoft entrou num mercado dominado por japoneses com um console de US$ 299,99, e cerca de 25% das primeiras unidades tinham defeito no drive de DVD. Virada: Halo, Xbox Live (15/11/2002) e a briga com o PS2 (cerca de 24 milhões contra 150 milhões). Lição: perder a geração, mas construir a plataforma.",
+      "formato": "curiosidade",
+      "tipo": "short",
+      "quadro": "historias",
+      "verificar_antes": "Publicar 14 ou 15/11. Dados já vistos em 2 fontes: 15/11/2001, US$ 299, Halo, Xbox Live 15/11/2002, mais de 1 mi em 3 semanas. AINDA SEM 2ª FONTE: defeito de 25% no drive (descartar se não achar) e vendas totais (cerca de 24 mi contra 150 a 155 mi do PS2: fontes divergem, usar 'cerca de' e citar Hardware.com.br/Tecnoblog). Hardware.com.br cita 14/11 como chegada às lojas: usar 15/11 e dizer 'América do Norte'.",
+      "fontes": [
+        {
+          "nome": "History.com (15/11/2001)",
+          "url": "https://www.history.com/this-day-in-history/november-15/microsoft-releases-xbox-gaming-console"
+        },
+        {
+          "nome": "Hardware.com.br",
+          "url": "https://www.hardware.com.br/artigos/xbox-anuncio-bill-gates-the-rock-ces-2001-25-anos/amp/"
+        },
+        {
+          "nome": "The National",
+          "url": "https://www.thenationalnews.com/arts-culture/2026/08/16/xbox-at-25-how-microsoft-muscled-its-way-into-console-gaming-and-changed-the-industry/"
+        },
+        {
+          "nome": "Tecnoblog (A história do Xbox)",
+          "url": "https://tecnoblog.net/379527/a-historia-do-xbox-do-original-ao-series-x/"
+        }
+      ],
+      "imagens_oficiais": [
+        "https://news.xbox.com/pt-br/2021/05/13/comemorando-20-anos-de-xbox/amp/"
+      ],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Sem produto."
+      },
+      "nota": 5,
+      "status": "em_video"
+    },
+    {
+      "data": "2026-11-15",
+      "assunto": "Histórias Tech: PlayStation 3, 20 anos do console caro demais que quase derrubou a Sony",
+      "por_que_em_alta": "Data redonda: 20 anos do PS3 (Japão 11/11/2006; América do Norte 17/11/2006; Europa 23/03/2007). Time Extension (11/11) e O Povo (11/11) fazem a retrospectiva; página oficial PlayStation Brasil confirma as datas. Semana do GTA 6, fim da mídia física e PS5 100 mi: PlayStation está no centro da conversa.",
+      "evidencias": [
+        "https://www.timeextension.com/news/2026/11/anniversary-ps3-sonys-most-controversial-playstation-turns-20-today",
+        "https://www.opovo.com.br/vidaearte/2026/11/11/com-problemas-e-jogos-classicos-playstation-3-completa-20-anos.html",
+        "https://www.playstation.com/pt-br/playstation-history/2007-ps3-ps-vita/"
+      ],
+      "angulo": "Gancho: o console que a Sony lançou por US$ 599 e que o Brasil só recebeu oficialmente em 2010. Auge anterior: PS2 dominante. Virada: preço alto (US$ 499 e US$ 599 nos EUA), chip Cell difícil de programar, Blu-ray e atraso na Europa (23/03/2007) enquanto o Xbox 360 saía na frente; recuperação com cortes de preço e exclusivos, fechando com cerca de 87,4 mi (acima do Xbox 360, abaixo do Wii). Lição: tecnologia de ponta não salva produto caro. Publicar até 17/11 (lançamento nos EUA).",
+      "formato": "curiosidade",
+      "tipo": "short",
+      "quadro": "historias",
+      "verificar_antes": "Preços US$ 499/599 e 87,4 mi: Time Extension e Wikipedia; falta 2ª fonte oficial (PlayStation Brasil ou Hardware.com.br). Brasil 2010: confirmar em 2ª fonte. Abrir também a página PT-BR oficial (a PT-PT cita 2007). Escrever 'cerca de 87 milhões, dado de 2017'.",
+      "fontes": [
+        {
+          "nome": "Time Extension (11/11/2026)",
+          "url": "https://www.timeextension.com/news/2026/11/anniversary-ps3-sonys-most-controversial-playstation-turns-20-today"
+        },
+        {
+          "nome": "O Povo",
+          "url": "https://www.opovo.com.br/vidaearte/2026/11/11/com-problemas-e-jogos-classicos-playstation-3-completa-20-anos.html"
+        },
+        {
+          "nome": "PlayStation Brasil (história)",
+          "url": "https://www.playstation.com/pt-br/playstation-history/2007-ps3-ps-vita/"
+        },
+        {
+          "nome": "Hardware.com.br",
+          "url": "https://www.hardware.com.br/?p=285317"
+        }
+      ],
+      "imagens_oficiais": [
+        "https://www.playstation.com/pt-br/playstation-history/2007-ps3-ps-vita/"
+      ],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Sem produto."
+      },
+      "nota": 5,
+      "status": "nova"
+    },
+    {
+      "data": "2026-11-15",
+      "assunto": "Histórias Tech: Wii, 20 anos do console que apostou no movimento e passou PS3 e Xbox 360",
+      "por_que_em_alta": "Data redonda em 4 dias: Wii lançado em 19/11/2006 na América do Norte; Gazeta SP e Olhar Digital (nov/2026) fazem a retrospectiva; Nintendo cita 101,63 mi de consoles (Olhar Digital) e o Switch passou o Wii com 156,59 mi.",
+      "evidencias": [
+        "https://www.gazetasp.com.br/entretenimento/nintendo-wii-completa-20-anos-e-resgata-nostalgia-de-uma-epoca-em-que-videogame-tirou-familias-do-sofa-para-jogar-juntas-na-sala-de-casa/",
+        "https://www.hardware.com.br/artigos/nintendo-wii/amp/",
+        "https://olhardigital.com.br/curiosidades/?p=38665"
+      ],
+      "angulo": "Gancho: o console menos potente da geração foi o mais vendido. Auge: controle de movimento e 80 milhões de consoles em 4 anos (Hardware.com.br). Virada: o público casual foi embora e o Wii U falhou. Lição: inovar em como se joga, não em gráfico.",
+      "formato": "curiosidade",
+      "tipo": "short",
+      "quadro": "historias",
+      "verificar_antes": "Datas divergem: 19/11/2006 (América do Norte) e 02/12/2006 (Japão). 101,63 mi é de 2019 (unidades enviadas); confirmar no relatório da Nintendo. Publicar em 18 ou 19/11.",
+      "fontes": [
+        {
+          "nome": "Gazeta SP",
+          "url": "https://www.gazetasp.com.br/entretenimento/nintendo-wii-completa-20-anos-e-resgata-nostalgia-de-uma-epoca-em-que-videogame-tirou-familias-do-sofa-para-jogar-juntas-na-sala-de-casa/"
+        },
+        {
+          "nome": "Hardware.com.br",
+          "url": "https://www.hardware.com.br/artigos/nintendo-wii/amp/"
+        },
+        {
+          "nome": "Nintendo (relatório de vendas, a localizar)",
+          "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/"
+        },
+        {
+          "nome": "Olhar Digital",
+          "url": "https://olhardigital.com.br/curiosidades/?p=38665"
+        }
+      ],
+      "imagens_oficiais": [
+        "https://www.nintendo.com/br/"
+      ],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Sem produto."
+      },
+      "nota": 5,
+      "status": "nova"
+    },
+    {
+      "data": "2026-11-15",
+      "assunto": "Histórias Tech: Half-Life e a Valve, a dupla de ex-funcionários da Microsoft que fez um jogo e criou a Steam",
+      "por_que_em_alta": "Evergreen com gancho: Valve completou 30 anos em 24/08/2026 e Half-Life saiu em nov/1998 (dia 19 não confirmado). Nostalgia gamer em semana de grandes lançamentos. Sem pico de busca medido.",
+      "evidencias": [
+        "https://gamesradar.com/history-of-valve",
+        "https://www.filfre.net/2024/12/half-life/"
+      ],
+      "angulo": "Gancho: dois ex-Microsoft gastaram os primeiros anos da Valve num único jogo. Auge: Half-Life (1998, engine do Quake modificada). Virada: mods (Counter-Strike) e a ideia de vender jogos pela internet (Steam, 2003). Lição: a plataforma valeu mais que o jogo. Fecha com pergunta.",
+      "formato": "curiosidade",
+      "tipo": "short",
+      "quadro": "historias",
+      "verificar_antes": "Confirmar em 2 fontes: dia do lançamento (19/11/1998), fundação (24/08/1996), lançamento da Steam. Sem isso, usar só o ano.",
+      "fontes": [
+        {
+          "nome": "GamesRadar (History of Valve)",
+          "url": "https://gamesradar.com/history-of-valve"
+        },
+        {
+          "nome": "The Digital Antiquarian",
+          "url": "https://www.filfre.net/2024/12/half-life/"
+        }
+      ],
+      "imagens_oficiais": [
+        "https://www.valvesoftware.com/"
+      ],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Sem produto."
+      },
+      "nota": 3,
+      "status": "nova"
+    },
+    {
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "status": "nova",
+      "data": "2026-11-14",
+      "assunto": "Pré-download de GTA 6 bate recorde de tráfego da internet: mais de 33 Tbit/s, 19% acima do recorde anterior",
+      "por_que_em_alta": "Canaltech (14/11), medição da operadora DE-CIX: pico de 22,30 Tbit/s só em Frankfurt na terça (10/11), 16h20 de Brasília; recorde anterior de janeiro de 2026. Lançamento em 19/11. Tema GTA 6 segue o maior do mês.",
+      "evidencias": [
+        "https://canaltech.com.br/games/pre-carregamento-de-gta-6-bate-recorde-historico-de-trafego-de-internet/"
+      ],
+      "angulo": "Gancho: o download de um jogo derrubou o recorde de tráfego da internet. 125 GB por segundo (33 Tbit/s), 19% acima do recorde anterior; a rede usou 75% da capacidade, sem falha. Comentário Nexus: o jogo ainda nem saiu. Não repete os vídeos de pré-load e de pré-venda: aqui o foco é a infraestrutura.",
+      "formato": "noticia",
+      "tipo": "short",
+      "quadro": "60s",
+      "origem": "brasil",
+      "verificar_antes": "Abrir o comunicado da DE-CIX (de-cix.net) e conferir 33 Tbit/s, 22,30 Tbit/s e o percentual; sem isso, não publicar. A matéria não traz dados do Brasil: não afirmar nada sobre redes brasileiras.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/games/pre-carregamento-de-gta-6-bate-recorde-historico-de-trafego-de-internet/"
+        },
+        {
+          "nome": "DE-CIX (a localizar)",
+          "url": "https://www.de-cix.net/"
+        }
+      ],
+      "nota": 4
+    },
+    {
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "status": "nova",
+      "data": "2026-11-14",
+      "assunto": "AMD teria cortado até 50% da oferta de placas de vídeo gamer até 2027; Radeon RX 9070 já passa de R$ 6.000",
+      "por_que_em_alta": "Canaltech (13/11) destaca na home: rumor do fórum chinês Board Channels, corte de 20% a 50% nas GPUs Radeon RX para parceiras, escassez ao menos até janeiro de 2027; causa: memória GDDR6 cara e capacidade indo para IA. Liga à pauta de memória cara e ao preço do PC. Dado de mercado chinês.",
+      "evidencias": [
+        "https://canaltech.com.br/hardware/amd-corta-em-ate-50-a-oferta-de-placas-de-video-gamer-ate-2027-preco-deve-subir/"
+      ],
+      "angulo": "Gancho: a placa de vídeo pode ficar ainda mais cara e a culpa é da IA. Tratar como rumor (1 fonte original chinesa), explicar o elo memória-IA-preço e o que fazer antes da Black Friday. Preço de R$ 6.000 só com a data e a loja que a matéria cita.",
+      "formato": "explicador",
+      "tipo": "short",
+      "quadro": "60s",
+      "origem": "gringo",
+      "verificar_antes": "Rumor sem confirmação da AMD. Buscar 2ª fonte de fora (Tom's Hardware, Wccftech, VideoCardz) e o preço da RX 9070 numa loja. Sem 2ª fonte, reserva.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/hardware/amd-corta-em-ate-50-a-oferta-de-placas-de-video-gamer-ate-2027-preco-deve-subir/"
+        }
+      ],
+      "nota": 3
+    },
+    {
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "status": "nova",
+      "data": "2026-11-14",
+      "assunto": "iPhone 18 e 18e só em 2027 (2º tri), diz Gurman: a Apple muda o calendário",
+      "por_que_em_alta": "Canaltech (home de 14/11), citando Mark Gurman (Bloomberg). Rumor de analista conhecido; a Apple não confirmou. Liga ao iPhone Duo e à pauta da Apple/Samsung dobráveis.",
+      "evidencias": [
+        "https://canaltech.com.br/smartphone/apple-nao-tem-pressa-iphone-18-e-18e-ja-so-chegam-no-2t-de-2027-diz-gurman/"
+      ],
+      "angulo": "Reserva: o que significa esperar o iPhone 18 e se compensa comprar o 17 na Black Friday. Só com a fonte primária (Bloomberg) lida.",
+      "formato": "noticia",
+      "tipo": "short",
+      "quadro": "60s",
+      "origem": "brasil",
+      "verificar_antes": "Abrir a Bloomberg/Gurman (ou 2ª fonte). Tratar como relato; não publicar como fato.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/smartphone/apple-nao-tem-pressa-iphone-18-e-18e-ja-so-chegam-no-2t-de-2027-diz-gurman/"
+        }
+      ],
+      "nota": 2
+    },
+    {
+      "data": "2026-11-13",
+      "assunto": "Pré-venda de GTA 6 passa de US$ 1 bilhão: 10,3 milhões de cópias, 75% da receita no PS5",
+      "por_que_em_alta": "Canaltech (11/11), citando o Sales Tracker da Sensor Tower: mais de US$ 1 bi e 10,3 mi de cópias a 8 dias do lançamento (19/11); PS5 com 7,73 mi e Xbox com 2,58 mi. A Take-Two só diz que as pré-vendas são 'sem precedentes'. GTA 6 é o assunto de maior volume do mês. Não está no Google Trends BR de hoje (10 itens sem tecnologia).",
+      "evidencias": [
+        "https://canaltech.com.br/games/pre-venda-de-gta-6-supera-us-1-bilhao-veja-numeros-no-ps5-e-xbox/"
+      ],
+      "angulo": "Gancho: o GTA 6 já faturou US$ 1 bilhão antes de existir. Barras: GTA 5 levou 3 dias após o lançamento (2013) para chegar ao mesmo marco. PS5 com 75% da receita. Deixar claro que são estimativas da Sensor Tower, não números da Take-Two. Comentário Nexus: o bilhão veio só de reserva.",
+      "formato": "noticia",
+      "tipo": "short",
+      "quadro": "60s",
+      "verificar_antes": "Número é estimativa de terceiro (Sensor Tower): dizer na tela. Conferir no painel da Sensor Tower e no relatório da Take-Two. Pré-venda pode ser cancelada.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/games/pre-venda-de-gta-6-supera-us-1-bilhao-veja-numeros-no-ps5-e-xbox/"
+        },
+        {
+          "nome": "Sensor Tower (a localizar)",
+          "url": "https://sensortower.com/"
+        }
+      ],
+      "imagens_oficiais": [
+        "https://www.rockstargames.com/newswire"
+      ],
+      "post_relacionado": "gta-6-pre-carregamento-horario-ps5-xbox-212-gb",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "nota": 5,
+      "status": "nova",
+      "origem": "brasil"
     }
-   ],
-   "nota": 5
-  },
-  {
-   "data": "2026-11-21",
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "em_video",
-   "origem": "brasil",
-   "assunto": "Histórias Tech: Blockbuster e Netflix, a locadora que riu da oferta de US$ 50 milhões e fechou",
-   "por_que_em_alta": "Evergreen sempre forte e com gancho de Black Friday/streaming. Fortune (2023), Newsweek e Hardware.com.br contam a oferta de 2000 (US$ 50 mi); falência em 2010, última loja corporativa em 2014. Ressalva: o relato vem dos livros dos fundadores e o CEO da época contesta que tenha havido negociação séria.",
-   "evidencias": [
-    "https://fortune.com/2023/04/14/netflix-cofounder-marc-randolph-recalls-blockbuster-rejecting-chance-to-buy-it/",
-    "https://newsweek.com/fact-check-did-blockbuster-turn-downchance-buy-netflix-50-million-1575557",
-    "https://www.hardware.com.br/artigos/dia-blockbuster-nao-quis-comprar-a-netflix/"
-   ],
-   "angulo": "Gancho: em 2000 a Netflix pediu US$ 50 milhões à Blockbuster e, segundo os fundadores, ouviu risada. Auge: milhares de lojas. Virada: multas por atraso, o DVD pelo correio e o streaming. Lição: o negócio que dava lucro era o que ia acabar. Dizer 'segundo os fundadores', citar a contestação do CEO, e fechar com a última loja (Oregon). Fecha com pergunta.",
-   "formato": "curiosidade",
-   "tipo": "short",
-   "quadro": "historias",
-   "verificar_antes": "Conferir 2 fontes para: ano 2000, valor, falência (set/2010) e última loja corporativa fechada (2014). Atenção: relato contestado: não afirmar como fato absoluto. Número de lojas no auge: só se achar 2 fontes. Fotos: Wikimedia (licença livre) ou sem foto, gráfico nosso.",
-   "fontes": [
-    {
-     "nome": "Fortune",
-     "url": "https://fortune.com/2023/04/14/netflix-cofounder-marc-randolph-recalls-blockbuster-rejecting-chance-to-buy-it/"
-    },
-    {
-     "nome": "Newsweek",
-     "url": "https://newsweek.com/fact-check-did-blockbuster-turn-downchance-buy-netflix-50-million-1575557"
-    },
-    {
-     "nome": "Hardware.com.br",
-     "url": "https://www.hardware.com.br/artigos/dia-blockbuster-nao-quis-comprar-a-netflix/"
-    }
-   ],
-   "nota": 4
-  },
-  {
-   "data": "2026-11-21",
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "nova",
-   "origem": "brasil",
-   "assunto": "Histórias Tech: Dreamcast, o console que a Sega lançou em 27/11/1998 e que influenciou tudo, mas fechou em 3 anos",
-   "por_que_em_alta": "Aniversário em 6 dias (27/11/1998, Japão; EUA 09/09/1999; Europa 14/10/1999). Canaltech ('o mais influente paradoxo'), Hardware.com.br, VGC e Wikipedia cobrem. Sega saiu do hardware em 2001. Vendas divergem (cerca de 9,13 milhões no ciclo todo x 5,87 mi até set/2000).",
-   "evidencias": [
-    "https://canaltech.com.br/games/20-anos-do-dreamcast-o-mais-influente-paradoxo-da-historia-dos-videogames-127787/",
-    "https://www.hardware.com.br/artigos/a-queda-do-dreamcast-ultimo-console-sega/",
-    "https://videogameschronicle.com/features/dreamcast-at-25-how-segas-final-console-was-one-of-gamings-most-beautiful-failures"
-   ],
-   "angulo": "Gancho: o console da Sega foi um dos mais influentes da história e ainda assim durou três anos. Auge: online e VMU em 1998/99, 500 mil unidades em 2 semanas nos EUA. Virada: PlayStation 2 e o legado do Saturn. Lição: ser o melhor não basta quando o público já escolheu. Publicar 27 a 29/11.",
-   "formato": "curiosidade",
-   "tipo": "short",
-   "quadro": "historias",
-   "verificar_antes": "Confirmar em 2 fontes: datas por região, 500 mil em 2 semanas, 'parou de produzir em 2001' (jan/2001, Sega) e total vendido (usar 'cerca de 9 milhões', dado Wikipedia + 2ª fonte). Prejuízo da Sega diverge (US$ 242 mi x 269,8 mi): evitar. Fotos Wikimedia (licença livre).",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/games/20-anos-do-dreamcast-o-mais-influente-paradoxo-da-historia-dos-videogames-127787/"
-    },
-    {
-     "nome": "Hardware.com.br",
-     "url": "https://www.hardware.com.br/artigos/a-queda-do-dreamcast-ultimo-console-sega/"
-    },
-    {
-     "nome": "VGC",
-     "url": "https://videogameschronicle.com/features/dreamcast-at-25-how-segas-final-console-was-one-of-gamings-most-beautiful-failures"
-    }
-   ],
-   "nota": 4
-  },
-  {
-   "data": "2026-11-20",
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "em_video",
-   "origem": "brasil",
-   "assunto": "GTA 6: falha no autosave faz jogadores perderem dezenas de horas no PS5 e no Xbox (e como se proteger)",
-   "por_que_em_alta": "Canaltech (19/11, 13h06, Raphael Giannotti): relatos de travamentos que corrompem o save, até 10+ horas perdidas, jogadores presos na 1ª missão; autosave não aparece no menu de salvar (fica na aba Carregar jogo); sem comunicado da Rockstar. Dia 2 do lançamento, assunto nº 1 do mês. Busca extra em inglês não achou confirmação independente.",
-   "evidencias": [
-    "https://canaltech.com.br/games/falha-grava-no-autosave-de-gta-6-faz-jogadores-perderem-dezenas-de-horas-de-gameplay/"
-   ],
-   "angulo": "Gancho: o jogo mais esperado da década pode apagar suas 10 horas. O que os jogadores relatam, o que ninguém confirmou (causa e frequência), e 3 defesas práticas: salvar manualmente, não desligar o console, procurar o autosave na aba Carregar jogo. Comentário Nexus: 13 anos de espera e o botão de salvar virou item de sobrevivência.",
-   "formato": "alerta",
-   "tipo": "short",
-   "quadro": "60s",
-   "verificar_antes": "Só o Canaltech lido; sem 2ª fonte nem posicionamento da Rockstar. Buscar Rockstar Support/newswire e imprensa de fora antes de gravar; dizer 'jogadores relatam'. Se a Rockstar soltar patch, atualizar. Não repetir os vídeos de golpes e de 30 fps.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/games/falha-grava-no-autosave-de-gta-6-faz-jogadores-perderem-dezenas-de-horas-de-gameplay/"
-    },
-    {
-     "nome": "Rockstar Support (a conferir)",
-     "url": "https://support.rockstargames.com/"
-    }
-   ],
-   "nota": 4
-  },
-  {
-   "data": "2026-11-20",
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "nova",
-   "origem": "gringo",
-   "assunto": "Xiaomi 18 Pro chega à Europa por €1.399, mas com bateria menor que a da China; e no Brasil?",
-   "por_que_em_alta": "Global em Paris em 17/11: Techloy, Gizchina, 91mobiles, TechNode e Gagadget concordam em €1.399 (18 Pro) e €1.599 (Pro Max 512 GB); vazamentos indicam bateria de 7.000 para 6.000 mAh na versão global (não confirmado). Showmetech (BR) cobre o lançamento; o link sugere Brasil em jan/2027, não confirmado. Já fizemos o Lá Fora da versão chinesa em 12/11: este é o ângulo 'global é diferente'.",
-   "evidencias": [
-    "https://www.techloy.com/xiaomi-18-pro-max-global-launch-price-specs/",
-    "https://technode.com/2026/11/18/xiaomi-takes-its-rear-screen-flagship-phones-overseas-starting-at-e1399/",
-    "https://gagadget.com/en/733586-xiaomi-18-pro-heads-to-europe-on-nov-17-with-smaller-batteries/",
-    "https://www.showmetech.com.br/xiaomi-18-pro-pro-max-lancamento-global-brasil-janeiro-2027/"
-   ],
-   "angulo": "Lá Fora, Aqui: o Xiaomi que bombou na China vira outro celular quando sai de lá (bateria menor, preço de €1.399). Por que importa, tabela China x Europa, o que se sabe do Brasil (sem data oficial: dizer), alternativas do catálogo e veredito. Preço em reais só como estimativa com cotação e data.",
-   "formato": "comparativo",
-   "tipo": "longo",
-   "quadro": "lafora",
-   "palavra_chave": "xiaomi 18 pro preço brasil",
-   "criterios_gringo": "1 sim (5+ fontes em 3 dias); 2 sim (Xiaomi é top 3 no Brasil, importação e lançamento futuro); 3 parcial (Showmetech e Canaltech em texto; checar vídeo em PT no YouTube BR); 4 sim (post/guia de Xiaomi). 3 a 4 de 4.",
-   "verificar_antes": "Sem termo no vidIQ: nota menor e dizer. Confirmar bateria global na página oficial da Xiaomi (Europa); data do Brasil só se Xiaomi Brasil confirmar. Abrir o Showmetech para ler (só o título visto). Não repetir o roteiro de 12/11. Candidato à quinta 26/11.",
-   "fontes": [
-    {
-     "nome": "Techloy",
-     "url": "https://www.techloy.com/xiaomi-18-pro-max-global-launch-price-specs/"
-    },
-    {
-     "nome": "TechNode",
-     "url": "https://technode.com/2026/11/18/xiaomi-takes-its-rear-screen-flagship-phones-overseas-starting-at-e1399/"
-    },
-    {
-     "nome": "Gagadget",
-     "url": "https://gagadget.com/en/733586-xiaomi-18-pro-heads-to-europe-on-nov-17-with-smaller-batteries/"
-    },
-    {
-     "nome": "Xiaomi (a conferir)",
-     "url": "https://www.mi.com/global/"
-    }
-   ],
-   "nota": 4
-  },
-  {
-   "data": "2026-11-20",
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "nova",
-   "origem": "brasil",
-   "assunto": "Como usar o celular como webcam no OBS (Android e iPhone, sem pagar)",
-   "por_que_em_alta": "vidIQ (18/11): 'como usar o celular como webcam no obs' 15 mil buscas/mês, concorrência 29, nota 66; 'como usar o celular como webcam' 46,6 mil, concorrência 50, nota 62; 'como colocar a camera do celular no obs' 11,7 mil, concorrência 21, nota 68. Evergreen, dá para mostrar com gravação de tela do OBS e das páginas oficiais.",
-   "evidencias": [
-    "data/vidiq.json: como usar o celular como webcam no obs (vidIQ: 15 mil buscas/mês, concorrência 29, nota 66)"
-   ],
-   "angulo": "Resultado primeiro: em 5 minutos o celular vira uma webcam melhor que a do notebook. Passos com a página oficial do OBS, Câmera de Continuidade da Apple e a opção de webcam do Android (USB); o que precisa, para quem não serve e os 3 erros comuns (câmera não aparece, imagem espelhada, atraso).",
-   "formato": "tutorial",
-   "tipo": "tutorial",
-   "quadro": "tutorial",
-   "palavra_chave": "como usar o celular como webcam no obs",
-   "verificar_antes": "Conferir cada passo nas páginas oficiais (OBS Project, Apple Continuity Camera, Android/Google). Versões: Android 14+ e iOS 16+ a confirmar. Não indicar app pirata. Candidato à terça 25/11.",
-   "fontes": [
-    {
-     "nome": "OBS Project (a conferir)",
-     "url": "https://obsproject.com/kb"
-    },
-    {
-     "nome": "Apple Suporte (a conferir)",
-     "url": "https://support.apple.com/pt-br"
-    },
-    {
-     "nome": "Ajuda do Android (a conferir)",
-     "url": "https://support.google.com/android"
-    }
-   ],
-   "nota": 4
-  },
-  {
-   "data": "2026-11-20",
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "nova",
-   "origem": "brasil",
-   "assunto": "Como desbloquear o celular quando esquece a senha (só pelos caminhos oficiais do fabricante)",
-   "por_que_em_alta": "vidIQ (18/11): 'como desbloquear o celular quando esquece a senha' 15,5 mil buscas/mês, concorrência 26, nota 67 (a melhor relação do arquivo para dúvida de celular).",
-   "evidencias": [
-    "data/vidiq.json: como desbloquear o celular quando esquece a senha (vidIQ: 15,5 mil buscas/mês, concorrência 26, nota 67)"
-   ],
-   "angulo": "Resultado primeiro: como voltar ao celular sem perder tudo (e quando perder é inevitável). Caminhos oficiais: Encontre meu dispositivo (Google), Find My Mobile (Samsung), iCloud/Buscar (Apple); o aviso de que tudo apaga sem backup; e o alerta contra sites e 'técnicos' que prometem desbloqueio.",
-   "formato": "tutorial",
-   "tipo": "tutorial",
-   "quadro": "tutorial",
-   "palavra_chave": "como desbloquear o celular quando esquece a senha",
-   "verificar_antes": "Só páginas oficiais; mostrar que exige a conta do dono do aparelho (não ensinar a burlar bloqueio de celular alheio/roubado). Conferir menus em PT-BR. Segunda opção para terça 02/12.",
-   "fontes": [
-    {
-     "nome": "Google Encontre meu dispositivo (a conferir)",
-     "url": "https://support.google.com/android"
-    },
-    {
-     "nome": "Samsung Suporte (a conferir)",
-     "url": "https://www.samsung.com/br/support/"
-    },
-    {
-     "nome": "Apple Suporte (a conferir)",
-     "url": "https://support.apple.com/pt-br"
-    }
-   ],
-   "nota": 4
-  },
-  {
-   "data": "2026-11-20",
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "nova",
-   "origem": "brasil",
-   "assunto": "Vulnerabilidade 'Java4Shell' (CVE-2026-114938): nota 9,2 e correção da Oracle de 17/11",
-   "por_que_em_alta": "Canaltech (19/11, Marcelo Fischer), com Tom's Hardware, Calif, Oracle, CERT-EU e Check Point: falha no decodificador Base64 do OpenJDK, execução remota de código; afeta Java 17, 21, 25 e 27 em CPUs com AVX-512 VBMI (Ice Lake, Zen 4); sem ataques confirmados até 18/11. Assunto técnico: público menor.",
-   "evidencias": [
-    "https://canaltech.com.br/seguranca/vulnerabilidade-critica-afeta-milhoes-de-sites-apps-e-servicos-feitos-em-java/"
-   ],
-   "angulo": "Gancho: uma falha nota 9,2 no Java pode afetar milhões de sites e apps. Em linguagem simples: o que é, quem precisa agir (quem administra servidor, não o usuário comum) e o que o usuário faz (nada além de atualizar apps).",
-   "formato": "alerta",
-   "tipo": "short",
-   "quadro": "60s",
-   "verificar_antes": "Conferir CVE, nota e versões no aviso da Oracle e no CERT-EU antes de citar. Não dizer que o usuário comum corre risco direto. Reserva.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/seguranca/vulnerabilidade-critica-afeta-milhoes-de-sites-apps-e-servicos-feitos-em-java/"
-    },
-    {
-     "nome": "Oracle Security Alerts (a conferir)",
-     "url": "https://www.oracle.com/security-alerts/"
-    },
-    {
-     "nome": "CERT-EU (a conferir)",
-     "url": "https://cert.europa.eu/"
-    }
-   ],
-   "nota": 3
-  },
-  {
-   "data": "2026-11-20",
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "nova",
-   "origem": "gringo",
-   "assunto": "Projeto 'Protect Our Games Act' nos EUA quer que jogos comprados funcionem para sempre",
-   "por_que_em_alta": "Canaltech (19/11), citando Notebookcheck: deputado Maxwell Frost apresentou o projeto em 18/11 (evento Future of Game Ownership); exige acesso a servidores se o serviço oficial for encerrado. Liga com a pauta do fechamento da PS Store do PS3. Divergência: busca achou um projeto de nome igual na Califórnia (AB 1921, aprovado na Assembleia em maio, só jogos de 2027 em diante); a UE recusou lei em junho.",
-   "evidencias": [
-    "https://canaltech.com.br/games/nova-lei-garante-que-jogos-comprados-funcionem-para-sempre/",
-    "https://engadget.com/2174011/california-lawmakers-are-working-on-a-bill-to-preserve-access-to-online-games"
-   ],
-   "angulo": "Gancho: você comprou o jogo, mas a empresa pode apagar o servidor. O que o projeto prevê, por que ainda não é lei, e o que muda para o brasileiro (nada ainda). Comentário Nexus: dono do jogo é quem tem o servidor.",
-   "formato": "explicador",
-   "tipo": "short",
-   "quadro": "60s",
-   "criterios_gringo": "1 sim (Notebookcheck, Engadget, GamesRadar); 2 parcial; 3 parcial; 4 parcial (PS3). 2 a 3 de 4: reserva.",
-   "verificar_antes": "Matéria diz projeto federal sem número; busca mostra versão da Califórnia: abrir Notebookcheck e o texto no Congresso/legislatura antes de gravar. Título da matéria diz 'nova lei': é só projeto. Reserva.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/games/nova-lei-garante-que-jogos-comprados-funcionem-para-sempre/"
-    },
-    {
-     "nome": "Engadget",
-     "url": "https://engadget.com/2174011/california-lawmakers-are-working-on-a-bill-to-preserve-access-to-online-games"
-    }
-   ],
-   "nota": 3
-  },
-  {
-   "data": "2026-11-20",
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "nova",
-   "origem": "brasil",
-   "assunto": "iPhone 18, 18e e Air 2 já em março? Rumor da cadeia de suprimentos contradiz Gurman (2º tri de 2027)",
-   "por_que_em_alta": "Canaltech (19/11, Bruno Bertonzin), com ItHome: iPhone 18, 18e e Air 2 no 1º tri de 2027; Apple não confirmou. Nossa pauta de 14/11 (Gurman: iPhone 18 e 18e só no 2º tri de 2027) diz outra coisa: rumores brigando.",
-   "evidencias": [
-    "https://canaltech.com.br/smartphone/apple-pode-surpreender-com-3-novos-iphones-ja-em-marco-diz-leaker/"
-   ],
-   "angulo": "Gancho: dois rumores sobre o próximo iPhone, duas datas diferentes. Quem disse o quê, quem costuma acertar e o que esperar. Só vale se juntar com a pauta de Gurman e deixar claro que é rumor.",
-   "formato": "explicador",
-   "tipo": "short",
-   "quadro": "60s",
-   "verificar_antes": "Rumor, fonte de segunda mão (ItHome). Reserva; só gravar com 2ª fonte (Gurman/Bloomberg) lida.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/smartphone/apple-pode-surpreender-com-3-novos-iphones-ja-em-marco-diz-leaker/"
-    }
-   ],
-   "nota": 2
-  },
-  {
-   "data": "2026-11-19",
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "em_video",
-   "tipo": "short",
-   "quadro": "60s",
-   "origem": "brasil",
-   "assunto": "3 golpes mais perigosos na semana de lançamento de GTA 6 (versão falsa para PC, códigos falsos, lojas falsas com Pix)",
-   "por_que_em_alta": "Canaltech (18/11, André Lourenti Magalhães), na home de segurança hoje, dia do lançamento: GTA 6 não tem versão para PC nem PS4; códigos e gift cards falsos; lojas com preço bem abaixo de R$ 449,90 e só Pix. Junta o maior assunto do mês com Black Friday em 27/11.",
-   "evidencias": [
-    "https://canaltech.com.br/seguranca/3-golpes-mais-perigosos-na-semana-de-lancamento-de-gta-6-saiba-como-se-proteger/"
-   ],
-   "angulo": "Gancho: o GTA 6 que você baixa fora da loja oficial pode ser vírus. Os 3 golpes em 3 cenas (PC/PS4 falso, código falso, loja falsa com Pix), preço oficial como régua e 2 defesas (verificação em duas etapas, comprar só na PS Store/Xbox Store). Comentário Nexus: 13 anos de espera, 13 segundos para cair num golpe.",
-   "formato": "alerta",
-   "verificar_antes": "Só o Canaltech lido. Confirmar na página da PS Store/Xbox Store o preço de R$ 449,90 e que não há versão de PC (Rockstar). Não citar loja como golpista.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/seguranca/3-golpes-mais-perigosos-na-semana-de-lancamento-de-gta-6-saiba-como-se-proteger/"
-    },
-    {
-     "nome": "Rockstar Games (a conferir)",
-     "url": "https://www.rockstargames.com/newswire"
-    }
-   ],
-   "nota": 5
-  },
-  {
-   "data": "2026-11-19",
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "nova",
-   "tipo": "short",
-   "quadro": "60s",
-   "origem": "brasil",
-   "assunto": "GTA 6 saiu hoje: o review do Canaltech, 30 fps, 212 GB e o que muda por console",
-   "por_que_em_alta": "Dia do lançamento (19/11). Canaltech publicou review (18/11, Jones Oliveira, feito no PS5 Pro: muito positivo, 30 fps nos consoles, PSSR e ray tracing) e matéria sobre o Series S com FSR 4. Diário de Pernambuco e outros: Xbox One só via nuvem, desbloqueio à meia-noite. Assunto nº 1 do mês.",
-   "evidencias": [
-    "https://canaltech.com.br/games/review-grand-theft-auto-6/",
-    "https://canaltech.com.br/games/como-o-xbox-series-s-roda-gta-6-rockstar-usa-amd-fsr-4-inedito-e-mantem-ray-tracing/",
-    "https://www.diariodepernambuco.com.br/tecnologia/2026/11/11729275-gta-6-tudo-o-que-voce-precisa-saber-antes-do-lancamento-desta-quinta-19.html"
-   ],
-   "angulo": "Gancho: 13 anos de espera e o jogo roda a 30 fps. Resumo do review (prós e contras) com o desempenho por console. Cuidado para não repetir os vídeos de pré-load, Xbox One e pré-venda: aqui é a recepção e a performance.",
-   "formato": "noticia",
-   "verificar_antes": "Review é de um veículo só: dizer 'segundo o Canaltech'. Conferir o 30 fps na Rockstar/Take-Two (Olhar Digital 11/11 cita). Não dizer 'testamos'. Não falar de nota que não existe.",
-   "fontes": [
-    {
-     "nome": "Canaltech (review)",
-     "url": "https://canaltech.com.br/games/review-grand-theft-auto-6/"
-    },
-    {
-     "nome": "Olhar Digital",
-     "url": "https://olhardigital.com.br/2026/11/11/games-e-consoles/gta-6-30-fps-ps5-pro-xbox-cloud-gaming/"
-    },
-    {
-     "nome": "Rockstar (a conferir)",
-     "url": "https://www.rockstargames.com/newswire"
-    }
-   ],
-   "nota": 4
-  },
-  {
-   "data": "2026-11-19",
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "nova",
-   "tipo": "short",
-   "quadro": "60s",
-   "origem": "gringo",
-   "assunto": "iPhone Duo: Apple vende peças de reparo e a tela interna custa US$ 999 (fora a ressalva do título da matéria)",
-   "por_que_em_alta": "Canaltech (18/11, Nathan Vieira), citando GSMArena e 9to5Mac: Self Service Repair com tela interna US$ 999, display US$ 499, bateria US$ 119, aluguel de kit US$ 49. A manchete diz R$ 5.776 e o corpo converte para ~R$ 5.115: números divergem. Continua o assunto iPhone Duo, que já deu vídeo nosso.",
-   "evidencias": [
-    "https://canaltech.com.br/smartphone/quebrou-o-iphone-duo-tela-interna-de-reposicao-custa-r-5776/"
-   ],
-   "angulo": "Gancho: quebrar a tela de dentro do iPhone Duo pode custar quase o preço de um celular novo. Barras com peças (tela interna, externa, bateria), o que é o autorreparo da Apple e a pergunta: dobrável vale o risco? Só dólar, com conversão estimada e data.",
-   "formato": "explicador",
-   "verificar_antes": "Abrir a página de Self Service Repair da Apple (preços em dólar, e se existe no Brasil: normalmente não). Divergência R$ 5.776 x US$ 999: usar só o dólar da Apple. Não repetir o ângulo do vídeo de 04/11 (234 mil dobras).",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/smartphone/quebrou-o-iphone-duo-tela-interna-de-reposicao-custa-r-5776/"
-    },
-    {
-     "nome": "Apple Self Service Repair (a conferir)",
-     "url": "https://selfservicerepair.com/"
-    }
-   ],
-   "criterios_gringo": "1 sim (GSMArena, 9to5Mac); 2 parcial (reparo oficial pode não existir no Brasil); 3 parcial; 4 sim (post do iPhone Duo). 3 de 4.",
-   "nota": 4
-  },
-  {
-   "data": "2026-11-19",
-   "imagens_oficiais": [],
-   "post_relacionado": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "nova",
-   "tipo": "short",
-   "quadro": "60s",
-   "origem": "brasil",
-   "assunto": "Oppo vai baixar preços em até 30% no Brasil na Black Friday (A6t por R$ 799, A5 Pro de R$ 2.899 por R$ 1.999)",
-   "por_que_em_alta": "Canaltech (18/11, Nathan Vieira) na home de celulares: A6t R$ 799 a partir de 23/11, A5 Pro R$ 1.999 na última semana, Reno16 F R$ 2.999 no Pix, tela grátis até 30/11. A matéria não cita comunicado oficial. Contraste com as pautas de alta de preço (RAMageddon).",
-   "evidencias": [
-    "https://canaltech.com.br/smartphone/oppo-vai-baixar-precos-de-celulares-e-acessorios-em-ate-30-no-brasil/"
-   ],
-   "angulo": "Gancho: enquanto a memória sobe o preço de tudo, a Oppo promete baixar até 30%. Tabela com 4 modelos e canal (Mercado Livre, operadoras com plano e fidelização), e a pegadinha: preço com plano não é preço do aparelho. Preços com data.",
-   "formato": "alerta",
-   "verificar_antes": "Sem comunicado oficial: abrir o site da Oppo Brasil e a página da campanha. Oferta tem prazo: conferir no dia de gravar. Sem link de afiliado.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/smartphone/oppo-vai-baixar-precos-de-celulares-e-acessorios-em-ate-30-no-brasil/"
-    },
-    {
-     "nome": "Oppo Brasil (a conferir)",
-     "url": "https://www.oppo.com/br/"
-    }
-   ],
-   "nota": 3
-  },
-  {
-   "data": "2026-11-19",
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "nova",
-   "tipo": "short",
-   "quadro": "60s",
-   "origem": "gringo",
-   "assunto": "Motorola Edge 70 Neo: bateria de 7.000 mAh, lançamento em 24/11 na Índia, Brasil sem confirmação",
-   "por_que_em_alta": "Canaltech (home de 19/11), citando TheTechOutlook: evento em 24/11, tela AMOLED 6,8 pol. 144 Hz, Snapdragon 7s Gen 3, 7.000 mAh, 45 W, IP64; preço não divulgado; Brasil não confirmado. Casa com a tendência de baterias gigantes (pauta 12.000 mAh).",
-   "evidencias": [
-    "https://canaltech.com.br/smartphone/motorola-vai-lancar-novo-celular-dias-antes-da-black-friday-veja-o-que-sabemos/"
-   ],
-   "angulo": "Reserva ou bloco do Lá Fora de baterias: o intermediário com 7.000 mAh que estreia na Índia. Chega ao Brasil? Sem preço, dizer isso.",
-   "formato": "noticia",
-   "verificar_antes": "Só uma fonte de segunda mão. Abrir a página da Motorola Índia/Flipkart; não afirmar Brasil. Esperar o evento de 24/11 para publicar.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/smartphone/motorola-vai-lancar-novo-celular-dias-antes-da-black-friday-veja-o-que-sabemos/"
-    },
-    {
-     "nome": "Motorola (a conferir)",
-     "url": "https://www.motorola.com/"
-    }
-   ],
-   "criterios_gringo": "1 parcial; 2 parcial; 3 sim; 4 parcial. Fraca: reserva.",
-   "nota": 2
-  },
-  {
-   "data": "2026-11-19",
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "nova",
-   "tipo": "tutorial",
-   "quadro": "tutorial",
-   "origem": "brasil",
-   "assunto": "Como ativar a verificação em duas etapas na conta PlayStation e Xbox (antes que roubem sua conta)",
-   "por_que_em_alta": "Canaltech (18/11) recomenda 2FA como defesa nos golpes da semana do GTA 6; jogo exige conta online e muita gente cria conta nova para o lançamento. Sem termo no vidIQ ainda: nota menor; pedir ao vidIQ de domingo 'como ativar verificação em duas etapas'.",
-   "evidencias": [
-    "https://canaltech.com.br/seguranca/3-golpes-mais-perigosos-na-semana-de-lancamento-de-gta-6-saiba-como-se-proteger/"
-   ],
-   "formato": "tutorial",
-   "palavra_chave": "como ativar verificação em duas etapas playstation",
-   "angulo": "Resultado primeiro: em 4 minutos a conta com o seu GTA 6 fica protegida. Passos com gravação das páginas oficiais de conta da Sony e da Microsoft, o que fazer se perder o celular do código, e o aviso de golpe de falso suporte.",
-   "verificar_antes": "Conferir cada passo nas páginas oficiais (PlayStation Suporte, Microsoft Conta) e o menu em português. Sem termo no vidIQ: dizer.",
-   "fontes": [
-    {
-     "nome": "PlayStation Suporte (a conferir)",
-     "url": "https://www.playstation.com/pt-br/support/"
-    },
-    {
-     "nome": "Microsoft Conta (a conferir)",
-     "url": "https://account.microsoft.com/security"
-    },
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/seguranca/3-golpes-mais-perigosos-na-semana-de-lancamento-de-gta-6-saiba-como-se-proteger/"
-    }
-   ],
-   "nota": 3
-  },
-  {
-   "data": "2026-11-18",
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "em_video",
-   "quadro": "60s",
-   "tipo": "short",
-   "origem": "brasil",
-   "assunto": "Sony solta atualização 14.23 do PS5 na véspera do GTA 6 para travar o jailbreak",
-   "por_que_em_alta": "Canaltech (17/11, Diego Corumba): versão 14.23 com 'ajustes de segurança'; a 14.22 teria sido desbloqueada em menos de 24 h pelo usuário Gezine; disputa de ~2 meses; GTA 6 sai quinta (19/11). Home de games do Canaltech hoje.",
-   "evidencias": [
-    "https://canaltech.com.br/games/para-conter-pirataria-de-gta-6-sony-libera-atualizacao-de-seguranca-urgente-para-o-ps5/"
-   ],
-   "angulo": "Gancho: a Sony lançou uma atualização urgente do PS5 um dia antes do GTA 6. O que mudou (só 'ajustes de segurança'), a corrida com hackers, e o que fazer (atualizar, nada de console desbloqueado: risco de banimento e golpe). Comentário Nexus: o jogo mais esperado da década já tem patch de véspera. Sem tutorial de jailbreak.",
-   "formato": "alerta",
-   "verificar_antes": "Abrir a página oficial de software do sistema do PS5 (suporte PlayStation) e confirmar 14.23 e a data. A ligação com GTA 6 é interpretação do Canaltech: dizer 'segundo o Canaltech'. Não incentivar jailbreak.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/games/para-conter-pirataria-de-gta-6-sony-libera-atualizacao-de-seguranca-urgente-para-o-ps5/"
-    },
-    {
-     "nome": "PlayStation Suporte (a conferir)",
-     "url": "https://www.playstation.com/pt-br/support/"
-    }
-   ],
-   "nota": 5
-  },
-  {
-   "data": "2026-11-18",
-   "imagens_oficiais": [],
-   "post_relacionado": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "nova",
-   "quadro": "60s",
-   "tipo": "short",
-   "origem": "gringo",
-   "assunto": "Samsung avalia subir até 19% o preço dos Galaxy A em 2027 por causa da memória cara (rumor)",
-   "por_que_em_alta": "Canaltech (18/11): relato do SEDaily e Sammy Fans; alta de US$ 30 a US$ 60 em A07, A17 e A57 a partir de 01/01/2027; A17 5G +18,6%, A57 +9,1%; memória foi de 20% a 54% do custo de celular básico. Não confirmado pela Samsung. Os Galaxy A são os mais vendidos no Brasil. Fecha a série RAMageddon.",
-   "evidencias": [
-    "https://canaltech.com.br/smartphone/samsung-pode-aumentar-precos-dos-celulares-galaxy-a-em-ate-19-em-2027/"
-   ],
-   "angulo": "Gancho: o celular Samsung mais barato pode ficar até 19% mais caro em janeiro. Barras por modelo, o porquê (IA comprando memória), ressalva de rumor, e a pergunta da Black Friday: comprar agora? Valores em reais só como estimativa.",
-   "formato": "explicador",
-   "verificar_antes": "Rumor de jornal coreano, sem confirmação. Buscar SEDaily/Sammy Fans e 2ª fonte; conversão em R$ com cotação e data. Se o Lá Fora RAMageddon sair antes, usar como bloco dele.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/smartphone/samsung-pode-aumentar-precos-dos-celulares-galaxy-a-em-ate-19-em-2027/"
-    },
-    {
-     "nome": "Sammy Fans (a localizar)",
-     "url": "https://sammyfans.com/"
-    }
-   ],
-   "nota": 4,
-   "criterios_gringo": "1 parcial (SEDaily + Sammy Fans, Canaltech); 2 sim; 3 parcial; 4 sim (Black Friday e guias de celular). 3 de 4."
-  },
-  {
-   "data": "2026-11-18",
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "nova",
-   "quadro": "60s",
-   "tipo": "short",
-   "origem": "brasil",
-   "assunto": "Hacker que vazou GTA 6 em 2022 se declara culpado na Justiça britânica",
-   "por_que_em_alta": "Canaltech (17/11), com EuroGamer e BBC: Arion Kurtaj, 21, admitiu a invasão da Rockstar (90 arquivos, 60 min de gameplay, ~US$ 5 mi de custo segundo a empresa) e extorsão; sentença em data futura. Pega carona na semana de lançamento do GTA 6.",
-   "evidencias": [
-    "https://canaltech.com.br/games/hacker-que-invadiu-rockstar-usando-um-fire-stick-e-vazou-gta-6-se-declara-culpado/"
-   ],
-   "angulo": "Gancho: o jogo mais vigiado do mundo foi invadido com um Fire Stick, a TV de um hotel e um teclado. Como foi, o que vazou, o prejuízo declarado e a lição de segurança. Foco no método e no prejuízo, sem detalhes pessoais.",
-   "formato": "curiosidade",
-   "verificar_antes": "Caso envolve uma pessoa: citar só o que a Justiça/BBC/EuroGamer confirmam, sem detalhes de saúde e sem os episódios sensacionalistas. Abrir BBC e EuroGamer. Sem 2ª fonte lida, reserva.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/games/hacker-que-invadiu-rockstar-usando-um-fire-stick-e-vazou-gta-6-se-declara-culpado/"
-    },
-    {
-     "nome": "BBC (a localizar)",
-     "url": "https://www.bbc.com/news"
-    },
-    {
-     "nome": "Eurogamer (a localizar)",
-     "url": "https://www.eurogamer.net/"
-    }
-   ],
-   "nota": 3
-  },
-  {
-   "data": "2026-11-18",
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "nova",
-   "quadro": "60s",
-   "tipo": "short",
-   "origem": "brasil",
-   "assunto": "Meta testa o Direct, app de mensagens do Instagram que funciona sem conta no Instagram",
-   "por_que_em_alta": "Canaltech (17/11, 15h03): teste na Turquia e Tailândia, Android e iOS; terceiro app de conversa da Meta ao lado de WhatsApp e Messenger; sem previsão para outros países. Destaque na home de tecnologia hoje.",
-   "evidencias": [
-    "https://canaltech.com.br/apps/meta-testa-novo-app-de-mensagens-que-mistura-instagram-e-messenger/"
-   ],
-   "angulo": "Gancho: a Meta vai ter um terceiro app de mensagens. O que o Direct faz (sem conta no Instagram, só contatos iniciam conversa, controle para pais), e a pergunta: precisamos de mais um? Sem previsão para o Brasil.",
-   "formato": "noticia",
-   "verificar_antes": "Só o Canaltech lido. Buscar o anúncio da Meta/Instagram; não afirmar chegada ao Brasil.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/apps/meta-testa-novo-app-de-mensagens-que-mistura-instagram-e-messenger/"
-    },
-    {
-     "nome": "Meta/Instagram (a localizar)",
-     "url": "https://about.instagram.com/blog"
-    }
-   ],
-   "nota": 3
-  },
-  {
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "status": "em_video",
-   "data": "2026-11-17",
-   "assunto": "Sony fecha a PS Store do PS3 e do Vita: Brasil sem data exata, e o que acontece com os jogos que você comprou",
-   "por_que_em_alta": "Destaque do Canaltech (16/11, Diego Corumba): loja do PS3 fecha até o fim de 2026 e a do Vita em julho de 2027; Brasil sem data exata; México, Nicarágua e Honduras já fecharam; compras antigas seguem baixáveis 'por tempo indeterminado'; Sony diz que não vai recuar (em 2021 recuou). Fora: VGC, Gematsu, Tom's Guide, Digital Trends, GamesRadar cobriram o plano (anúncio de jul/2026). Liga com os 20 anos do PS3 e com o fim da mídia física.",
-   "evidencias": [
-    "https://canaltech.com.br/games/sony-anuncia-o-fechamento-definitivo-da-ps-store-no-ps3-e-ps-vita/",
-    "https://www.gematsu.com/2026/07/playstation-store-for-ps3-ps-vita-to-close-in-july-2027",
-    "https://www.tomsguide.com/news/ps3-vita-and-psp-stores-officially-closing-what-you-need-to-know"
-   ],
-   "angulo": "Gancho: a Sony vai apagar a loja do PS3 e você só tem tempo até o fim do ano para comprar. O que fecha, o que fica (o que já é seu continua baixável), o que o Brasil sabe (sem data oficial) e a lição de jogo digital não ser seu. Publicar junto à semana dos 20 anos do PS3.",
-   "formato": "alerta",
-   "tipo": "short",
-   "quadro": "60s",
-   "origem": "brasil",
-   "verificar_antes": "Datas divergem: Canaltech diz PS3 até fim de 2026 e Vita julho/2027; fontes de fora falam em fechamento global do PS3 e Vita até julho/2027 em etapas. Abrir o PlayStation Blog/página de suporte da Sony e usar só a data confirmada; Brasil: sem data, dizer isso. Nada de dizer que o jogo comprado some.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/games/sony-anuncia-o-fechamento-definitivo-da-ps-store-no-ps3-e-ps-vita/"
-    },
-    {
-     "nome": "Gematsu",
-     "url": "https://www.gematsu.com/2026/07/playstation-store-for-ps3-ps-vita-to-close-in-july-2027"
-    },
-    {
-     "nome": "Tom's Guide",
-     "url": "https://www.tomsguide.com/news/ps3-vita-and-psp-stores-officially-closing-what-you-need-to-know"
-    },
-    {
-     "nome": "PlayStation (a conferir)",
-     "url": "https://www.playstation.com/pt-br/support/"
-    }
-   ],
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "nota": 4
-  },
-  {
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "status": "nova",
-   "data": "2026-11-17",
-   "assunto": "75% dos brasileiros veem a tecnologia chinesa de forma positiva (Ipsos), mas a pesquisa foi encomendada pela Jovi",
-   "por_que_em_alta": "Canaltech (16/11): Ipsos, 1.200 adultos (classes A, B, C), 30/09 a 05/10, margem 2,8 pp; 75% positivos contra 69% em 2025; smartphones são o setor mais ligado à China (65%). Ressalva: encomendada por fabricante chinesa. Liga com Xiaomi 18 e a lista de celulares.",
-   "evidencias": [
-    "https://canaltech.com.br/produtos/brasileiros-perderam-o-preconceito-com-tecnologia-chinesa-veja-pesquisa/"
-   ],
-   "angulo": "Gancho: três em cada quatro brasileiros já confiam em tecnologia chinesa, mas quem pagou a pesquisa foi uma marca chinesa. Barras 2025 x 2026, ressalva na tela, comentário Nexus: pesquisa boa é a que diz quem pagou.",
-   "formato": "noticia",
-   "tipo": "short",
-   "quadro": "60s",
-   "origem": "brasil",
-   "verificar_antes": "Só uma fonte (Canaltech). Procurar release da Ipsos/Jovi. Dizer na tela que foi encomendada pela Jovi. Não generalizar para marcas.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/produtos/brasileiros-perderam-o-preconceito-com-tecnologia-chinesa-veja-pesquisa/"
-    }
-   ],
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "nota": 3
-  },
-  {
-   "imagens_oficiais": [],
-   "post_relacionado": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
-   "status": "nova",
-   "data": "2026-11-17",
-   "assunto": "Como saber se um site é confiável antes de comprar na Black Friday (passo a passo com ferramentas oficiais)",
-   "por_que_em_alta": "Black Friday em 27/11. Forbes Tech cita levantamento da Serasa (out/2026): sites falsos são o golpe nº 1 (53%), Pix 42%; Procon e Senacon (Portal de Prefeitura, 10/11) reforçam alerta. Sem termo no vidIQ: nota menor; pedir ao vidIQ de quarta termos 'como saber se um site é confiável'. Não repete o Short de 09/11 (3 regras contra preço falso): aqui é verificação de loja, com gravação de tela.",
-   "evidencias": [
-    "https://forbes.com.br/forbes-tech/2026/10/black-friday-como-se-proteger-de-golpes-digitais-e-evitar-prejuizos/",
-    "https://portaldeprefeitura.com.br/brasil/black-friday-atencao-redobrada-contra-golpes-fraudes-senacon/635806/",
-    "https://www.band.com.br/nacional/sp/black-friday-procon-alerta-como-aproveitar-sem-cair-em-dividas-e-fraudes"
-   ],
-   "angulo": "Resultado primeiro: em 3 minutos você checa se a loja existe antes de pagar. Passos: conferir o domínio e o CNPJ (consulta pública da Receita), ver reclamações (consumidor.gov.br, Reclame Aqui), conferir lista do Procon-SP, cadeado não prova nada, pagamento seguro. Se já caiu: o que fazer (7 dias de arrependimento, contestar no banco, MED do Pix). Publicar terça 19h, 10 dias antes da data.",
-   "formato": "tutorial",
-   "tipo": "tutorial",
-   "quadro": "tutorial",
-   "palavra_chave": "como saber se um site é confiável",
-   "verificar_antes": "Conferir cada passo nas páginas oficiais (Receita, consumidor.gov.br, Procon-SP, Banco Central sobre MED) e o número da Serasa. Sem termo no vidIQ: dizer. Não citar nome de loja como golpista.",
-   "fontes": [
-    {
-     "nome": "Forbes Brasil (Serasa)",
-     "url": "https://forbes.com.br/forbes-tech/2026/10/black-friday-como-se-proteger-de-golpes-digitais-e-evitar-prejuizos/"
-    },
-    {
-     "nome": "Consumidor.gov.br",
-     "url": "https://www.consumidor.gov.br/"
-    },
-    {
-     "nome": "Procon-SP",
-     "url": "https://www.procon.sp.gov.br/"
-    }
-   ],
-   "origem": "brasil",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "nota": 4
-  },
-  {
-   "data": "2026-11-16",
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "nova",
-   "assunto": "CNH Digital na blitz: só vale aberta no app CNH do Brasil; print e PDF não valem",
-   "por_que_em_alta": "Google Trends BR hoje (16/11): 'cnh digital' na lista de buscas em alta (único termo de tecnologia); Correio Braziliense e Detran-PR orientam que a versão impressa não vale e que o documento deve ser mostrado no app oficial. Portal do Trânsito cita a Senatran: print não vale, PDF serve para bancos, abre sem internet se baixada antes, infração leve (multa de R$ 88,38 e 3 pontos).",
-   "evidencias": [
-    "https://www.portaldotransito.com.br/noticias/fiscalizacao-e-legislacao/cnh-digital-em-pdf-vale-na-blitz-senatran-esclarece-duvida-de-motoristas/",
-    "https://www.correiobraziliense.com.br/cbradar/cnh-digital-blitz-validade/",
-    "https://canaltech.com.br/carros/cnh-digital-como-nao-passar-aperto-em-blitz-e-aeroportos"
-   ],
-   "angulo": "Gancho: o print da sua CNH no celular não vale em blitz. O que vale (só o app oficial, baixado antes, abre sem sinal), o que a Senatran diz do PDF e da multa. Comentário Nexus: bateria a 1% é multa. Pode virar tutorial 'como baixar a CNH digital' depois.",
-   "formato": "alerta",
-   "tipo": "short",
-   "quadro": "60s",
-   "origem": "brasil",
-   "verificar_antes": "Confirmar na Senatran/gov.br (página da CNH Digital) as regras de print, PDF e a multa (R$ 88,38, 3 pontos, infração leve); sem fonte oficial, não publicar. Não afirmar regra de estado específico.",
-   "fontes": [
-    {
-     "nome": "Portal do Trânsito (Senatran)",
-     "url": "https://www.portaldotransito.com.br/noticias/fiscalizacao-e-legislacao/cnh-digital-em-pdf-vale-na-blitz-senatran-esclarece-duvida-de-motoristas/"
-    },
-    {
-     "nome": "Correio Braziliense",
-     "url": "https://www.correiobraziliense.com.br/cbradar/cnh-digital-blitz-validade/"
-    },
-    {
-     "nome": "Gov.br CNH do Brasil (a conferir)",
-     "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-senatran"
-    }
-   ],
-   "nota": 5
-  },
-  {
-   "data": "2026-11-16",
-   "imagens_oficiais": [],
-   "post_relacionado": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Alternativas do catálogo (celulares/acessórios ativo=sim) como 'comprar agora'; conferir CSV."
-   },
-   "status": "em_video",
-   "assunto": "RAMageddon: por que tudo de tecnologia vai ficar mais caro (placa de vídeo, Galaxy S27, Windows e celular)",
-   "por_que_em_alta": "Memória cara pela corrida da IA aparece em várias pautas desta semana: AMD cortando oferta de GPU (Canaltech 13/11), Galaxy S27 com alta de cerca de US$ 100 e 1 TB nos Pro/Ultra (SamMobile, Android Authority, Techadvisor, Canaltech, 4gnews), Windows 11 OEM mais caro, Xiaomi 18 com preço +20%. Black Friday em 27/11 torna a pergunta 'compro agora ou espero?' atual.",
-   "evidencias": [
-    "https://canaltech.com.br/smartphone/galaxy-s27-pode-ser-muito-mais-potente-mas-preco-tambem-deve-subir-entenda/",
-    "https://www.sammobile.com/?p=16680865",
-    "https://androidauthority.com/samsung-galaxy-s27-memory-storage-configurations-leak-3713926",
-    "https://canaltech.com.br/hardware/amd-corta-em-ate-50-a-oferta-de-placas-de-video-gamer-ate-2027-preco-deve-subir/"
-   ],
-   "angulo": "Gancho: a IA está comprando a memória do mundo e quem paga é você. Como funciona (fábricas priorizam memória de IA), o que subiu e o que é só rumor (S27, AMD), E no Brasil (Black Friday: vale comprar agora?), alternativas que já dá pra comprar do catálogo, veredito. Une 4 pautas soltas.",
-   "formato": "explicador",
-   "tipo": "longo",
-   "quadro": "lafora",
-   "origem": "gringo",
-   "palavra_chave": "memoria ram preço alta ia",
-   "criterios_gringo": "1 sim (SamMobile, Android Authority, Techadvisor, Notebookcheck); 2 sim (preço de celular, PC e GPU no Brasil); 3 parcial (Canaltech cobre em texto; checar vídeo em PT no YouTube BR); 4 sim (guias de compra e Black Friday). 3 de 4 ok.",
-   "verificar_antes": "Sem termo no vidIQ: nota menor e dizer isso. Separar fato (preço da memória, com fonte de mercado como TrendForce) de rumor (S27, corte de 50% da AMD). Abrir fonte primária de preço de DRAM. Nada de 'vai custar R$ X' sem cotação e data.",
-   "fontes": [
-    {
-     "nome": "Canaltech (Galaxy S27)",
-     "url": "https://canaltech.com.br/smartphone/galaxy-s27-pode-ser-muito-mais-potente-mas-preco-tambem-deve-subir-entenda/"
-    },
-    {
-     "nome": "SamMobile",
-     "url": "https://www.sammobile.com/?p=16680865"
-    },
-    {
-     "nome": "Android Authority",
-     "url": "https://androidauthority.com/samsung-galaxy-s27-memory-storage-configurations-leak-3713926"
-    },
-    {
-     "nome": "Canaltech (AMD)",
-     "url": "https://canaltech.com.br/hardware/amd-corta-em-ate-50-a-oferta-de-placas-de-video-gamer-ate-2027-preco-deve-subir/"
-    }
-   ],
-   "nota": 4
-  },
-  {
-   "data": "2026-11-16",
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "nova",
-   "assunto": "Galaxy S27 deve subir cerca de US$ 100 e trazer 1 TB nos modelos Pro e Ultra (vazamento)",
-   "por_que_em_alta": "Vários veículos em PT e EN: Canaltech, Oficina da Net, SamMobile (alta de 130 mil won), Android Authority (configurações de memória), Techadvisor, 4gnews. Nada confirmado pela Samsung. Hoje no destaque de smartphones do Canaltech.",
-   "evidencias": [
-    "https://canaltech.com.br/smartphone/galaxy-s27-pode-ser-muito-mais-potente-mas-preco-tambem-deve-subir-entenda/",
-    "https://androidauthority.com/samsung-galaxy-s27-memory-storage-configurations-leak-3713926"
-   ],
-   "angulo": "Reserva do 60s, ou bloco do Lá Fora sobre RAMageddon. Tratar como vazamento; a ressalva: a diferença entre versões de armazenamento pode até cair, o preço base é que sobe.",
-   "formato": "noticia",
-   "tipo": "short",
-   "quadro": "60s",
-   "origem": "gringo",
-   "verificar_antes": "Rumor sem confirmação. Abrir SamMobile e Android Authority e confirmar os números antes de citar. Não repetir 'dobro de armazenamento' sem fonte.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/smartphone/galaxy-s27-pode-ser-muito-mais-potente-mas-preco-tambem-deve-subir-entenda/"
-    },
-    {
-     "nome": "Android Authority",
-     "url": "https://androidauthority.com/samsung-galaxy-s27-memory-storage-configurations-leak-3713926"
-    },
-    {
-     "nome": "SamMobile",
-     "url": "https://www.sammobile.com/?p=16680865"
-    }
-   ],
-   "nota": 3
-  },
-  {
-   "data": "2026-11-16",
-   "imagens_oficiais": [
-    "https://www.motorola.com.br/"
-   ],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "nova",
-   "assunto": "Motorola Signature 27 vai aceitar o GrapheneOS, o Android ultrasseguro, primeira vez em celular da marca",
-   "por_que_em_alta": "Canaltech: Signature 27 ganha suporte ao GrapheneOS; Tecnoblog destaca 'celular da Motorola com Android superseguro vai custar caro' (ontem, 15/11). Liga ao Signature 27 de R$ 10.999 já na lista. Não achei a matéria do Tecnoblog para ler: só o título na home.",
-   "evidencias": [
-    "https://canaltech.com.br/smartphone/motorola-signature-27-ganha-suporte-a-sistema-android-ultrasseguro/"
-   ],
-   "angulo": "Gancho: um sistema que quase ninguém conhece quer proteger seu celular até do fabricante. O que é o GrapheneOS, o que se perde (apps Google, bancos) e para quem faz sentido. Une com a pauta do Signature 27.",
-   "formato": "explicador",
-   "tipo": "short",
-   "quadro": "60s",
-   "origem": "brasil",
-   "verificar_antes": "Abrir o site do GrapheneOS e o anúncio da Motorola Brasil: confirmar suporte, preço, disponibilidade no Brasil e compatibilidade com apps de banco. Só 1 fonte lida.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/smartphone/motorola-signature-27-ganha-suporte-a-sistema-android-ultrasseguro/"
-    },
-    {
-     "nome": "GrapheneOS (a conferir)",
-     "url": "https://grapheneos.org/"
-    }
-   ],
-   "nota": 3
-  },
-  {
-   "data": "2026-11-16",
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "nova",
-   "assunto": "Como fazer o Gemini lembrar de você em qualquer conversa (memória, passo a passo)",
-   "quadro": "tutorial",
-   "tipo": "tutorial",
-   "formato": "tutorial",
-   "palavra_chave": "como fazer o gemini lembrar",
-   "por_que_em_alta": "Canaltech destaca o tutorial na home de hoje; TecMundo e Canaltech cobriram a memória do Gemini; caminho: Configurações > Inteligência Personalizada > Memória, com histórico para ver e apagar. Sem termo no vidIQ ainda: nota menor.",
-   "evidencias": [
-    "https://canaltech.com.br/inteligencia-artificial/gemini-agora-usa-chats-antigos-para-entender-seus-gostos-e-te-responder-melhor/",
-    "https://www.tecmundo.com.br/produto/414040-gemini-live-agora-lembra-de-conversas-passadas-saiba-como-ativar.htm"
-   ],
-   "angulo": "Resultado primeiro: o Gemini passa a saber seu nome, trabalho e preferências sem repetir. Passos, como ver e apagar a memória (privacidade) e o que fazer se a opção não aparece.",
-   "verificar_antes": "Fontes divergem: uma diz que exige plano Google AI e idioma em inglês dos EUA; Gemini Live com memória só nos EUA. Abrir a página oficial de ajuda do Google em PT-BR; se a opção não existir no Brasil, descartar. Conferir o termo no vidIQ na próxima rodada.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/inteligencia-artificial/gemini-agora-usa-chats-antigos-para-entender-seus-gostos-e-te-responder-melhor/"
-    },
-    {
-     "nome": "Ajuda do Gemini (a conferir)",
-     "url": "https://support.google.com/gemini"
-    }
-   ],
-   "origem": "brasil",
-   "nota": 3
-  },
-  {
-   "data": "2026-11-16",
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "nova",
-   "assunto": "Black Friday 27/11: TIM dá GTA VI na compra do PS5 Digital, mas o preço depende de troca e plano",
-   "por_que_em_alta": "Canaltech (03/11): PS5 Slim Digital por R$ 2.376 à vista (24x de R$ 99) só com plano TIM com fidelização e entrega de um PS4 usado; jogo retirado a partir de 19/11. A matéria diz que não dá para garantir esse preço só contratando o plano. GTA 6 sai quinta (19/11).",
-   "evidencias": [
-    "https://canaltech.com.br/telecom/tim-da-gta-vi-de-graca-na-compra-de-ps5-em-oferta-da-black-friday/"
-   ],
-   "angulo": "Gancho: o PS5 'com GTA 6 de graça' tem pegadinha. Conta de quem não entrega PS4 usado e fidelização. Liga a Black Friday antecipada.",
-   "formato": "alerta",
-   "tipo": "short",
-   "quadro": "60s",
-   "origem": "brasil",
-   "verificar_antes": "OFERTA COM PRAZO: abrir a página da TIM e conferir regras e prazo na hora de gravar; matéria tem 13 dias. Se acabou, descartar. Sem link de afiliado; preço visto em data.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/telecom/tim-da-gta-vi-de-graca-na-compra-de-ps5-em-oferta-da-black-friday/"
-    },
-    {
-     "nome": "TIM (a conferir)",
-     "url": "https://www.tim.com.br/"
-    }
-   ],
-   "nota": 3
-  },
-  {
-   "data": "2026-11-16",
-   "imagens_oficiais": [
-    "https://news.microsoft.com/"
-   ],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "status": "nova",
-   "assunto": "Histórias Tech: Windows 1.0, o 'programa' da Microsoft que chegou em 20/11/1985 e ninguém queria",
-   "por_que_em_alta": "HOJE (20/11/2026) faz 41 anos do lançamento do Windows 1.0 (busca de 20/11 confirma 20/11/1985, US$ 99, interface gráfica sobre o MS-DOS). Publicar hoje ou no fim de semana. Aniversário amanhã (20/11/1985, 41 anos). Busca de 19/11 confirma em 3 fontes: Wikipedia (1.01 vendido nos EUA por US$ 99, MS-DOS Executive como gerenciador de arquivos, 1.02 internacional em mai/1986, suporte até 31/12/2001), Register e History.com. Datas da 1ª demonstração divergem (1983): usar só 20/11/1985. Publicar 20/11 ou fim de semana.",
-   "evidencias": [
-    "https://www.history.com/this-day-in-history/november-20/microsoft-releases-windows-1-0"
-   ],
-   "angulo": "Gancho: a primeira versão do Windows foi chamada de lenta e feia, e mesmo assim virou o sistema do mundo. Auge: interface gráfica sobre o MS-DOS. Virada: Windows 3.0 (1990). Lição: o produto ruim que chega primeiro pode ganhar tempo.",
-   "formato": "curiosidade",
-   "tipo": "short",
-   "quadro": "historias",
-   "verificar_antes": "Datas de 1985 em 2 fontes OK; nome 1.0 x 1.01 varia entre fontes: dizer 'primeira versão de varejo'. Fotos: Microsoft/Wikimedia (licença livre).",
-   "fontes": [
-    {
-     "nome": "History.com (a conferir)",
-     "url": "https://www.history.com/this-day-in-history/november-20/microsoft-releases-windows-1-0"
-    },
-    {
-     "nome": "Computer History Museum (a localizar)",
-     "url": "https://computerhistory.org/"
-    }
-   ],
-   "nota": 5
-  },
-  {
-   "data": "2026-11-14",
-   "assunto": "Histórias Tech: Xbox, os 25 anos do console que a Microsoft lançou para enfrentar a Sony",
-   "por_que_em_alta": "Data redonda: Xbox lançado em 15/11/2001 na América do Norte; Hardware.com.br e Phil Spencer abriram as comemorações dos 25 anos. Combina com a semana de GTA 6. Hoje (14/11) é o dia de publicar: o aniversário é 15/11. Busca de 14/11 confirma 15/11/2001 (EUA), US$ 299, Times Square com Bill Gates, Halo como jogo de lançamento, mais de 1 milhão em 3 semanas (Tecnoblog), Xbox Live em 15/11/2002 e Japão/Europa só em 2002.",
-   "evidencias": [
-    "https://www.history.com/this-day-in-history/november-15/microsoft-releases-xbox-gaming-console",
-    "https://www.hardware.com.br/artigos/xbox-anuncio-bill-gates-the-rock-ces-2001-25-anos/amp/"
-   ],
-   "angulo": "Gancho: a Microsoft entrou num mercado dominado por japoneses com um console de US$ 299,99, e cerca de 25% das primeiras unidades tinham defeito no drive de DVD. Virada: Halo, Xbox Live (15/11/2002) e a briga com o PS2 (cerca de 24 milhões contra 150 milhões). Lição: perder a geração, mas construir a plataforma.",
-   "formato": "curiosidade",
-   "tipo": "short",
-   "quadro": "historias",
-   "verificar_antes": "Publicar 14 ou 15/11. Dados já vistos em 2 fontes: 15/11/2001, US$ 299, Halo, Xbox Live 15/11/2002, mais de 1 mi em 3 semanas. AINDA SEM 2ª FONTE: defeito de 25% no drive (descartar se não achar) e vendas totais (cerca de 24 mi contra 150 a 155 mi do PS2: fontes divergem, usar 'cerca de' e citar Hardware.com.br/Tecnoblog). Hardware.com.br cita 14/11 como chegada às lojas: usar 15/11 e dizer 'América do Norte'.",
-   "fontes": [
-    {
-     "nome": "History.com (15/11/2001)",
-     "url": "https://www.history.com/this-day-in-history/november-15/microsoft-releases-xbox-gaming-console"
-    },
-    {
-     "nome": "Hardware.com.br",
-     "url": "https://www.hardware.com.br/artigos/xbox-anuncio-bill-gates-the-rock-ces-2001-25-anos/amp/"
-    },
-    {
-     "nome": "The National",
-     "url": "https://www.thenationalnews.com/arts-culture/2026/08/16/xbox-at-25-how-microsoft-muscled-its-way-into-console-gaming-and-changed-the-industry/"
-    },
-    {
-     "nome": "Tecnoblog (A história do Xbox)",
-     "url": "https://tecnoblog.net/379527/a-historia-do-xbox-do-original-ao-series-x/"
-    }
-   ],
-   "imagens_oficiais": [
-    "https://news.xbox.com/pt-br/2021/05/13/comemorando-20-anos-de-xbox/amp/"
-   ],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Sem produto."
-   },
-   "nota": 5,
-   "status": "em_video"
-  },
-  {
-   "data": "2026-11-15",
-   "assunto": "Histórias Tech: PlayStation 3, 20 anos do console caro demais que quase derrubou a Sony",
-   "por_que_em_alta": "Data redonda: 20 anos do PS3 (Japão 11/11/2006; América do Norte 17/11/2006; Europa 23/03/2007). Time Extension (11/11) e O Povo (11/11) fazem a retrospectiva; página oficial PlayStation Brasil confirma as datas. Semana do GTA 6, fim da mídia física e PS5 100 mi: PlayStation está no centro da conversa.",
-   "evidencias": [
-    "https://www.timeextension.com/news/2026/11/anniversary-ps3-sonys-most-controversial-playstation-turns-20-today",
-    "https://www.opovo.com.br/vidaearte/2026/11/11/com-problemas-e-jogos-classicos-playstation-3-completa-20-anos.html",
-    "https://www.playstation.com/pt-br/playstation-history/2007-ps3-ps-vita/"
-   ],
-   "angulo": "Gancho: o console que a Sony lançou por US$ 599 e que o Brasil só recebeu oficialmente em 2010. Auge anterior: PS2 dominante. Virada: preço alto (US$ 499 e US$ 599 nos EUA), chip Cell difícil de programar, Blu-ray e atraso na Europa (23/03/2007) enquanto o Xbox 360 saía na frente; recuperação com cortes de preço e exclusivos, fechando com cerca de 87,4 mi (acima do Xbox 360, abaixo do Wii). Lição: tecnologia de ponta não salva produto caro. Publicar até 17/11 (lançamento nos EUA).",
-   "formato": "curiosidade",
-   "tipo": "short",
-   "quadro": "historias",
-   "verificar_antes": "Preços US$ 499/599 e 87,4 mi: Time Extension e Wikipedia; falta 2ª fonte oficial (PlayStation Brasil ou Hardware.com.br). Brasil 2010: confirmar em 2ª fonte. Abrir também a página PT-BR oficial (a PT-PT cita 2007). Escrever 'cerca de 87 milhões, dado de 2017'.",
-   "fontes": [
-    {
-     "nome": "Time Extension (11/11/2026)",
-     "url": "https://www.timeextension.com/news/2026/11/anniversary-ps3-sonys-most-controversial-playstation-turns-20-today"
-    },
-    {
-     "nome": "O Povo",
-     "url": "https://www.opovo.com.br/vidaearte/2026/11/11/com-problemas-e-jogos-classicos-playstation-3-completa-20-anos.html"
-    },
-    {
-     "nome": "PlayStation Brasil (história)",
-     "url": "https://www.playstation.com/pt-br/playstation-history/2007-ps3-ps-vita/"
-    },
-    {
-     "nome": "Hardware.com.br",
-     "url": "https://www.hardware.com.br/?p=285317"
-    }
-   ],
-   "imagens_oficiais": [
-    "https://www.playstation.com/pt-br/playstation-history/2007-ps3-ps-vita/"
-   ],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Sem produto."
-   },
-   "nota": 5,
-   "status": "nova"
-  },
-  {
-   "data": "2026-11-15",
-   "assunto": "Histórias Tech: Wii, 20 anos do console que apostou no movimento e passou PS3 e Xbox 360",
-   "por_que_em_alta": "Data redonda em 4 dias: Wii lançado em 19/11/2006 na América do Norte; Gazeta SP e Olhar Digital (nov/2026) fazem a retrospectiva; Nintendo cita 101,63 mi de consoles (Olhar Digital) e o Switch passou o Wii com 156,59 mi.",
-   "evidencias": [
-    "https://www.gazetasp.com.br/entretenimento/nintendo-wii-completa-20-anos-e-resgata-nostalgia-de-uma-epoca-em-que-videogame-tirou-familias-do-sofa-para-jogar-juntas-na-sala-de-casa/",
-    "https://www.hardware.com.br/artigos/nintendo-wii/amp/",
-    "https://olhardigital.com.br/curiosidades/?p=38665"
-   ],
-   "angulo": "Gancho: o console menos potente da geração foi o mais vendido. Auge: controle de movimento e 80 milhões de consoles em 4 anos (Hardware.com.br). Virada: o público casual foi embora e o Wii U falhou. Lição: inovar em como se joga, não em gráfico.",
-   "formato": "curiosidade",
-   "tipo": "short",
-   "quadro": "historias",
-   "verificar_antes": "Datas divergem: 19/11/2006 (América do Norte) e 02/12/2006 (Japão). 101,63 mi é de 2019 (unidades enviadas); confirmar no relatório da Nintendo. Publicar em 18 ou 19/11.",
-   "fontes": [
-    {
-     "nome": "Gazeta SP",
-     "url": "https://www.gazetasp.com.br/entretenimento/nintendo-wii-completa-20-anos-e-resgata-nostalgia-de-uma-epoca-em-que-videogame-tirou-familias-do-sofa-para-jogar-juntas-na-sala-de-casa/"
-    },
-    {
-     "nome": "Hardware.com.br",
-     "url": "https://www.hardware.com.br/artigos/nintendo-wii/amp/"
-    },
-    {
-     "nome": "Nintendo (relatório de vendas, a localizar)",
-     "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/"
-    },
-    {
-     "nome": "Olhar Digital",
-     "url": "https://olhardigital.com.br/curiosidades/?p=38665"
-    }
-   ],
-   "imagens_oficiais": [
-    "https://www.nintendo.com/br/"
-   ],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Sem produto."
-   },
-   "nota": 5,
-   "status": "nova"
-  },
-  {
-   "data": "2026-11-15",
-   "assunto": "Histórias Tech: Half-Life e a Valve, a dupla de ex-funcionários da Microsoft que fez um jogo e criou a Steam",
-   "por_que_em_alta": "Evergreen com gancho: Valve completou 30 anos em 24/08/2026 e Half-Life saiu em nov/1998 (dia 19 não confirmado). Nostalgia gamer em semana de grandes lançamentos. Sem pico de busca medido.",
-   "evidencias": [
-    "https://gamesradar.com/history-of-valve",
-    "https://www.filfre.net/2024/12/half-life/"
-   ],
-   "angulo": "Gancho: dois ex-Microsoft gastaram os primeiros anos da Valve num único jogo. Auge: Half-Life (1998, engine do Quake modificada). Virada: mods (Counter-Strike) e a ideia de vender jogos pela internet (Steam, 2003). Lição: a plataforma valeu mais que o jogo. Fecha com pergunta.",
-   "formato": "curiosidade",
-   "tipo": "short",
-   "quadro": "historias",
-   "verificar_antes": "Confirmar em 2 fontes: dia do lançamento (19/11/1998), fundação (24/08/1996), lançamento da Steam. Sem isso, usar só o ano.",
-   "fontes": [
-    {
-     "nome": "GamesRadar (History of Valve)",
-     "url": "https://gamesradar.com/history-of-valve"
-    },
-    {
-     "nome": "The Digital Antiquarian",
-     "url": "https://www.filfre.net/2024/12/half-life/"
-    }
-   ],
-   "imagens_oficiais": [
-    "https://www.valvesoftware.com/"
-   ],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Sem produto."
-   },
-   "nota": 3,
-   "status": "nova"
-  },
-  {
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "status": "nova",
-   "data": "2026-11-14",
-   "assunto": "Pré-download de GTA 6 bate recorde de tráfego da internet: mais de 33 Tbit/s, 19% acima do recorde anterior",
-   "por_que_em_alta": "Canaltech (14/11), medição da operadora DE-CIX: pico de 22,30 Tbit/s só em Frankfurt na terça (10/11), 16h20 de Brasília; recorde anterior de janeiro de 2026. Lançamento em 19/11. Tema GTA 6 segue o maior do mês.",
-   "evidencias": [
-    "https://canaltech.com.br/games/pre-carregamento-de-gta-6-bate-recorde-historico-de-trafego-de-internet/"
-   ],
-   "angulo": "Gancho: o download de um jogo derrubou o recorde de tráfego da internet. 125 GB por segundo (33 Tbit/s), 19% acima do recorde anterior; a rede usou 75% da capacidade, sem falha. Comentário Nexus: o jogo ainda nem saiu. Não repete os vídeos de pré-load e de pré-venda: aqui o foco é a infraestrutura.",
-   "formato": "noticia",
-   "tipo": "short",
-   "quadro": "60s",
-   "origem": "brasil",
-   "verificar_antes": "Abrir o comunicado da DE-CIX (de-cix.net) e conferir 33 Tbit/s, 22,30 Tbit/s e o percentual; sem isso, não publicar. A matéria não traz dados do Brasil: não afirmar nada sobre redes brasileiras.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/games/pre-carregamento-de-gta-6-bate-recorde-historico-de-trafego-de-internet/"
-    },
-    {
-     "nome": "DE-CIX (a localizar)",
-     "url": "https://www.de-cix.net/"
-    }
-   ],
-   "nota": 4
-  },
-  {
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "status": "nova",
-   "data": "2026-11-14",
-   "assunto": "AMD teria cortado até 50% da oferta de placas de vídeo gamer até 2027; Radeon RX 9070 já passa de R$ 6.000",
-   "por_que_em_alta": "Canaltech (13/11) destaca na home: rumor do fórum chinês Board Channels, corte de 20% a 50% nas GPUs Radeon RX para parceiras, escassez ao menos até janeiro de 2027; causa: memória GDDR6 cara e capacidade indo para IA. Liga à pauta de memória cara e ao preço do PC. Dado de mercado chinês.",
-   "evidencias": [
-    "https://canaltech.com.br/hardware/amd-corta-em-ate-50-a-oferta-de-placas-de-video-gamer-ate-2027-preco-deve-subir/"
-   ],
-   "angulo": "Gancho: a placa de vídeo pode ficar ainda mais cara e a culpa é da IA. Tratar como rumor (1 fonte original chinesa), explicar o elo memória-IA-preço e o que fazer antes da Black Friday. Preço de R$ 6.000 só com a data e a loja que a matéria cita.",
-   "formato": "explicador",
-   "tipo": "short",
-   "quadro": "60s",
-   "origem": "gringo",
-   "verificar_antes": "Rumor sem confirmação da AMD. Buscar 2ª fonte de fora (Tom's Hardware, Wccftech, VideoCardz) e o preço da RX 9070 numa loja. Sem 2ª fonte, reserva.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/hardware/amd-corta-em-ate-50-a-oferta-de-placas-de-video-gamer-ate-2027-preco-deve-subir/"
-    }
-   ],
-   "nota": 3
-  },
-  {
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "status": "nova",
-   "data": "2026-11-14",
-   "assunto": "iPhone 18 e 18e só em 2027 (2º tri), diz Gurman: a Apple muda o calendário",
-   "por_que_em_alta": "Canaltech (home de 14/11), citando Mark Gurman (Bloomberg). Rumor de analista conhecido; a Apple não confirmou. Liga ao iPhone Duo e à pauta da Apple/Samsung dobráveis.",
-   "evidencias": [
-    "https://canaltech.com.br/smartphone/apple-nao-tem-pressa-iphone-18-e-18e-ja-so-chegam-no-2t-de-2027-diz-gurman/"
-   ],
-   "angulo": "Reserva: o que significa esperar o iPhone 18 e se compensa comprar o 17 na Black Friday. Só com a fonte primária (Bloomberg) lida.",
-   "formato": "noticia",
-   "tipo": "short",
-   "quadro": "60s",
-   "origem": "brasil",
-   "verificar_antes": "Abrir a Bloomberg/Gurman (ou 2ª fonte). Tratar como relato; não publicar como fato.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/smartphone/apple-nao-tem-pressa-iphone-18-e-18e-ja-so-chegam-no-2t-de-2027-diz-gurman/"
-    }
-   ],
-   "nota": 2
-  },
-  {
-   "data": "2026-11-13",
-   "assunto": "Pré-venda de GTA 6 passa de US$ 1 bilhão: 10,3 milhões de cópias, 75% da receita no PS5",
-   "por_que_em_alta": "Canaltech (11/11), citando o Sales Tracker da Sensor Tower: mais de US$ 1 bi e 10,3 mi de cópias a 8 dias do lançamento (19/11); PS5 com 7,73 mi e Xbox com 2,58 mi. A Take-Two só diz que as pré-vendas são 'sem precedentes'. GTA 6 é o assunto de maior volume do mês. Não está no Google Trends BR de hoje (10 itens sem tecnologia).",
-   "evidencias": [
-    "https://canaltech.com.br/games/pre-venda-de-gta-6-supera-us-1-bilhao-veja-numeros-no-ps5-e-xbox/"
-   ],
-   "angulo": "Gancho: o GTA 6 já faturou US$ 1 bilhão antes de existir. Barras: GTA 5 levou 3 dias após o lançamento (2013) para chegar ao mesmo marco. PS5 com 75% da receita. Deixar claro que são estimativas da Sensor Tower, não números da Take-Two. Comentário Nexus: o bilhão veio só de reserva.",
-   "formato": "noticia",
-   "tipo": "short",
-   "quadro": "60s",
-   "verificar_antes": "Número é estimativa de terceiro (Sensor Tower): dizer na tela. Conferir no painel da Sensor Tower e no relatório da Take-Two. Pré-venda pode ser cancelada.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/games/pre-venda-de-gta-6-supera-us-1-bilhao-veja-numeros-no-ps5-e-xbox/"
-    },
-    {
-     "nome": "Sensor Tower (a localizar)",
-     "url": "https://sensortower.com/"
-    }
-   ],
-   "imagens_oficiais": [
-    "https://www.rockstargames.com/newswire"
-   ],
-   "post_relacionado": "gta-6-pre-carregamento-horario-ps5-xbox-212-gb",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "nota": 5,
-   "status": "nova",
-   "origem": "brasil"
-  },
-  {
-   "data": "2026-11-13",
-   "assunto": "Starlink no celular sem antena: 10 milhões de clientes da Vivo já usaram e a cobrança vem aí",
-   "por_que_em_alta": "Canaltech (12/11), citando Teletime (11/11): Vivo diz que 10 milhões de clientes usaram o Vivo Satélite (Starlink D2D), 50 milhões estão aptos, serviço grátis na fase promocional sem data para acabar; só mensagens, localização, mapas e WhatsApp, sem velocidade de 4G. Canaltech destaca dois textos sobre o tema na home hoje.",
-   "evidencias": [
-    "https://canaltech.com.br/telecom/10-milhoes-ja-usaram-starlink-no-celular-sem-antena-vivo-preve-cobranca/",
-    "https://canaltech.com.br/telecom/seu-celular-aceita-starlink-sem-antena-no-brasil-veja-como-descobrir/"
-   ],
-   "angulo": "Gancho: seu celular pode estar conectado a um satélite sem você saber, e hoje é de graça. O que funciona (texto, localização, WhatsApp), o que não (vídeo, ambiente fechado) e que a Vivo já fala em cobrar. Quem é elegível (planos e recarga a partir de R$ 30).",
-   "formato": "explicador",
-   "tipo": "short",
-   "quadro": "60s",
-   "verificar_antes": "Abrir a página do Vivo Satélite e o Teletime para confirmar números e elegibilidade; a lista de celulares compatíveis não veio na matéria lida: omitir ou buscar na Vivo.",
-   "fontes": [
-    {
-     "nome": "Canaltech",
-     "url": "https://canaltech.com.br/telecom/10-milhoes-ja-usaram-starlink-no-celular-sem-antena-vivo-preve-cobranca/"
-    },
-    {
-     "nome": "Teletime (a localizar)",
-     "url": "https://teletime.com.br/"
-    },
-    {
-     "nome": "Vivo (a localizar)",
-     "url": "https://vivo.com.br/"
-    }
-   ],
-   "imagens_oficiais": [],
-   "post_relacionado": "",
-   "produto": {
-    "id": "",
-    "como_encaixa": "Editorial puro."
-   },
-   "nota": 4,
-   "status": "em_video",
-   "origem": "brasil"
-  },
-  {
-   "data": "2026-11-13",
-   "assunto": "Como ter dois WhatsApp no iPhone (conta pessoal e Business, passo a passo)",
-   "quadro": "tutorial",
-   "tipo": "tutorial",
-   "palavra_chave": "como ter varios whatsapp no ios",
-   "por_que_em_alta": "Dúvida com busca real e concorrência baixa; fecha a lacuna de tutoriais com nota alta",
-   "evidencias": [
-    "vidIQ 08/11: ~12,8 mil buscas/mês, concorrência 16, nota 70"
-   ],
-   "angulo": "Resultado primeiro: duas contas de WhatsApp no mesmo iPhone em 3 minutos. Caminhos oficiais (WhatsApp + WhatsApp Business, contas múltiplas se disponível na versão atual), o que não funciona e problemas comuns. Conferir passos na Central de Ajuda do WhatsApp e gravar a tela da página.",
-   "formato": "tutorial",
-   "fontes": [
-    {
-     "nome": "Central de Ajuda do WhatsApp",
-     "url": "https://faq.whatsapp.com/"
-    }
-   ],
-   "verificar_antes": "Confirmar na página oficial se o iOS já aceita contas múltiplas no app ou só via WhatsApp Business; sem isso, descartar.",
-   "status": "nova",
-   "nota": 4,
-   "origem": "vidiq"
-  }
- ]
+  ]
 }

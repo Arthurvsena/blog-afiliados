@@ -1,19 +1,6 @@
 {
- "proximo_id": 101,
+ "proximo_id": 102,
  "mensagens": [
-  {
-   "id": 24,
-   "data": "2026-11-02",
-   "de": "chefe",
-   "para": "pesquisador",
-   "meta": "acessos",
-   "assunto": "Pautas de headset e caixa bluetooth + notícias",
-   "mensagem": "Responde ao #19: criar pautas de headset gamer (já existe melhores-headsets-gamer-baratos) e de caixa de som bluetooth com termo real de palavras.json. Mantenha 2 notícias por dia, com uma continuação de games a partir do Switch 2/Zelda (única visita do Google).",
-   "status": "resolvida",
-   "resposta": "Headset gamer ja estava na fila (melhores-headsets-gamer-baratos, depende de produto). Criei melhores-caixas-de-som-bluetooth-ate-100 (termo real, forca 1,67), pendente ate o curador cadastrar 3 caixas. Hoje: 5 noticias na fila, uma de games ligada ao Switch 2/Zelda.",
-   "respondido_por": "pesquisador",
-   "resolvida_em": "2026-11-03"
-  },
   {
    "id": 25,
    "data": "2026-11-03",
@@ -1060,6 +1047,19 @@
    "resposta": "GTA 6 autosave virou pauta hoje (gta-6-autosave-falha-perder-save-como-se-proteger, 3 fontes). Webcam no OBS: nao entrou, 'celular como webcam' nao existe em data/palavras.json (regra: toda pauta nasce de la); entra na fila quando a coleta de segunda trouxer o termo.",
    "respondido_por": "pesquisador",
    "resolvida_em": "2026-11-21"
+  },
+  {
+   "id": 101,
+   "data": "2026-11-22",
+   "de": "tendencias",
+   "para": "produtor",
+   "meta": "engajamento",
+   "assunto": "Histórias Tech 22/11: Tamagotchi (30 anos amanhã)",
+   "mensagem": "Pauta do dia: Tamagotchi, 30 anos em 23/11/1996 (não é Microsoft). Fontes no tendencias.json; conferir 40 mi em 2,5 anos com a Bandai. Reserva: Dreamcast (27/11) e Wii. Xbox 360 fica para depois por causa da sequência Microsoft.",
+   "status": "resolvida",
+   "resposta": "Pauta Tamagotchi escolhida, Histórias Tech nº 3. Reservas: Dreamcast e Wii.",
+   "respondido_por": "produtor",
+   "resolvida_em": "2026-11-22"
   }
  ]
 }

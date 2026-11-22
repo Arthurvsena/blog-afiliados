@@ -1,0 +1,88 @@
+{
+  "tipo": "short",
+  "quadro": "historias",
+  "numero": 3,
+  "slug": "2026-11-22-historias-tech-3-tamagotchi",
+  "post": "",
+  "titulo": "História do Tamagotchi: 30 anos do bichinho virtual #shorts",
+  "titulos_opcoes": [
+    "História do Tamagotchi: 30 anos do bichinho virtual #shorts",
+    "Tamagotchi vendeu 100 milhões: como foi a febre #shorts",
+    "Tamagotchi, 30 anos: o bichinho que não podia morrer #shorts"
+  ],
+  "palavra_chave": "história do tamagotchi",
+  "resumo": "A história do Tamagotchi, que faz 30 anos em 23 de novembro de 2026: lançado no Japão em 1996, vendeu cerca de 40 milhões em dois anos e meio e já passa de 100 milhões de unidades enviadas, segundo a Bandai. Histórias Tech #3.",
+  "hashtags": ["Tamagotchi", "HistóriasTech", "Nostalgia", "Anos90"],
+  "selo": "Histórias Tech #3",
+  "fontes": [
+    {"nome": "Bandai Namco: Tamagotchi, 100 milhões (31/07/2025) e lançamento em 23/11/1996", "url": "https://www.bandainamco.co.jp/en/ir/library/newsletter82_special.html"},
+    {"nome": "Wikipedia: Tamagotchi (lançamento em 23/11/1996)", "url": "https://en.wikipedia.org/wiki/Tamagotchi"},
+    {"nome": "Essential Japan: Tamagotchi passa de 100 milhões (40 milhões em dois anos e meio)", "url": "https://essential-japan.com/news/bandais-tamagotchi-has-officially-shipped-over-100-million-units-worldwide/"},
+    {"nome": "Uniqlo: 30 Years of Tamagotchi (40 milhões em dois anos e meio)", "url": "https://www.uniqlo.com/us/en/news/topics/2025121701/"},
+    {"nome": "Xataka Brasil: 100 milhões de Tamagotchis em 30 anos", "url": "https://www.xataka.com.br/diversos/100-milhoes-tamagotchis-em-30-anos-motivo-pelo-qual-eles-continuam-vendendo-tem-um-nome-nostalgia-millennial"},
+    {"nome": "Bandai America (2004): Tamagotchi Connection reintroduzido", "url": "https://mimitchi.com/tamaplus/press/pr_072904.shtml"}
+  ],
+  "cenas": [
+    {
+      "tipo": "gancho",
+      "fala": "Um bichinho de plástico que morria se você o esquecesse. E o mundo inteiro entrou na brincadeira.",
+      "tela": "O bichinho que não podia ser esquecido",
+      "imagens": ["url:https://commons.wikimedia.org/wiki/Special:FilePath/Tamagotchi_0124_ubt.jpeg?width=1200|Wikimedia Commons/Tomasz Sienicki (CC BY-SA 3.0)"]
+    },
+    {
+      "tipo": "data",
+      "fala": "Em 23 de novembro de 1996, no Japão, a Bandai lançou o Tamagotchi: um animal de estimação digital que cabia no bolso.",
+      "destaque": "23 NOV 1996",
+      "rotulo": "a Bandai lança o Tamagotchi no Japão",
+      "imagens": ["url:https://commons.wikimedia.org/wiki/Special:FilePath/Virtual_Pets_at_Rupriikki_Media_Museum.JPG?width=1200|Wikimedia Commons/Trogain (CC BY-SA 4.0)"],
+      "fonte": "Bandai Namco e Wikipedia"
+    },
+    {
+      "tipo": "fato",
+      "fala": "Era um ovo na tela, e você cuidando dele até crescer. Se esquecesse de cuidar, o bichinho não perdoava. Só isso já bastava.",
+      "imagens": [
+        "url:https://commons.wikimedia.org/wiki/Special:FilePath/Tamagotchi_store.jpg?width=1200|Wikimedia Commons/Antonio Rubio (CC BY 2.0)",
+        "tela:https://www.bandainamco.co.jp/en/ir/library/newsletter82_special.html"
+      ]
+    },
+    {
+      "tipo": "numero",
+      "fala": "A febre foi tão grande que, em cerca de dois anos e meio, ele vendeu {40 milhões|quarenta milhões} de unidades.",
+      "destaque": "40 milhões",
+      "rotulo": "em cerca de 2,5 anos",
+      "imagens": ["url:https://commons.wikimedia.org/wiki/Special:FilePath/Virtual_Pets_at_Rupriikki_Media_Museum.JPG?width=1200|Wikimedia Commons/Trogain (CC BY-SA 4.0)"],
+      "fonte": "Essential Japan e Uniqlo"
+    },
+    {
+      "tipo": "linha",
+      "fala": "Mas toda febre passa, e o Tamagotchi saiu de moda. Em 2004, ele voltou com o Tamagotchi Connection, que se conectava a outros por infravermelho. E segue vendendo até hoje.",
+      "itens": [
+        {"data": "1996", "texto": "lançamento no Japão"},
+        {"data": "2004", "texto": "volta com o Tamagotchi Connection"},
+        {"data": "2025", "texto": "100 milhões enviados"}
+      ],
+      "imagens": ["url:https://commons.wikimedia.org/wiki/Special:FilePath/Tamagotchi_0124_ubt.jpeg?width=1200|Wikimedia Commons/Tomasz Sienicki (CC BY-SA 3.0)"],
+      "fonte": "Bandai Namco e Bandai America"
+    },
+    {
+      "tipo": "numero",
+      "fala": "Em julho de 2025, a Bandai contou: já eram {100 milhões|cem milhões} de unidades enviadas no mundo.",
+      "destaque": "100 milhões",
+      "rotulo": "de unidades até 31/07/2025",
+      "imagens": ["url:https://commons.wikimedia.org/wiki/Special:FilePath/Tamagotchi_store.jpg?width=1200|Wikimedia Commons/Antonio Rubio (CC BY 2.0)"],
+      "fonte": "Bandai Namco, 31/07/2025"
+    },
+    {
+      "tipo": "fato",
+      "fala": "A lição: um produto simples, que cria um laço emocional com quem usa, atravessa gerações. Não precisou de tela grande nem de internet.",
+      "imagens": ["url:https://commons.wikimedia.org/wiki/Special:FilePath/Virtual_Pets_at_Rupriikki_Media_Museum.JPG?width=1200|Wikimedia Commons/Trogain (CC BY-SA 4.0)"],
+      "fonte": "Xataka Brasil"
+    },
+    {
+      "tipo": "cta",
+      "fala": "Trinta anos depois, uma pergunta ficou. O seu morreu de quê?",
+      "tela": "O seu morreu de quê?",
+      "imagens": ["url:https://commons.wikimedia.org/wiki/Special:FilePath/Tamagotchi_0124_ubt.jpeg?width=1200|Wikimedia Commons/Tomasz Sienicki (CC BY-SA 3.0)"]
+    }
+  ]
+}
