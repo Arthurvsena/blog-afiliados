@@ -140,6 +140,8 @@ Para decidir o formato antes do switch, veja o [guia de teclado gamer mecânico]
 
 **O Machenike K500-B61 tem Ç?** Não, o layout é US em inglês.
 
+Ainda não sabe se vale o mecânico? Leia [teclado mecânico ou membrana](/posts/teclado-mecanico-ou-membrana-qual-escolher/).
+
 :::veredito
 Para jogar e para casa compartilhada, o red do Machenike, desde que você aceite o layout em inglês. Para digitar em português com clique marcado, o blue do Dark Avenger.
 :::

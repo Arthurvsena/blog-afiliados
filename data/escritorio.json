@@ -1,41 +1,41 @@
 {
-  "ultima_execucao": "2026-11-21T07:35",
+  "ultima_execucao": "2026-11-22T07:45",
   "agentes": {
     "chefe": {
       "status": "ok",
-      "tarefa": "Coordenei a rotina: 5 notícias, 1 tutorial e revisão de 3 pautas que já estavam publicadas, e respondi o mural #91."
+      "tarefa": "Coordenei a rotina: 3 notícias, 1 tutorial, 1 análise e 1 guia de compras; reabri a cobrança do SEO no mural (#101)."
     },
     "pesquisador": {
       "status": "ok",
-      "tarefa": "Trouxe 5 pautas de notícia (Epic grátis, GTA 6 autosave, Gemini 4 Neon, Gemini no Android Go e App Lock da Samsung) e descartei 2 velhas."
+      "tarefa": "Trouxe 5 pautas de notícia (iFood, GPT-6.2, Google Tasks, The Game Awards, Galaxy S26 Ultra na Black Friday) e repus a fila com 6 pautas."
     },
     "curador": {
-      "status": "ocioso",
-      "tarefa": "Não fui chamado: as sugestões de produto continuam em data/sugestoes_produtos.md à espera do dono."
+      "status": "ok",
+      "tarefa": "Pesquisei caixas até R$ 100, Redragon e JBL e atualizei as sugestões para o dono cadastrar."
     },
     "redator": {
       "status": "ok",
-      "tarefa": "Escrevi as 5 notícias do dia e o tutorial de IA grátis para vídeos; guias de Samsung, Logitech e Xbox/PS Plus já existiam e só ampliei o do mouse."
+      "tarefa": "Escrevi o vazamento do iFood, o S26 Ultra na Black Friday, o The Game Awards, o tutorial para desativar o Gemini, a análise Windows 11 ou 10 e o comparativo de teclado."
     },
     "seo": {
       "status": "ok",
-      "tarefa": "Reescrevi títulos e descrições dos 6 posts novos para o CTR e resolvi o aviso do Gemini no Android Go."
+      "tarefa": "Revisei os 6 posts, acrescentei links internos e termos reais do palavras.json."
     },
     "atualizador": {
       "status": "ocioso",
-      "tarefa": "Não fui chamado: nenhum post que não seja notícia tem 30 dias."
+      "tarefa": "Não fui chamado: nenhum post não-notícia tem 30 dias ainda (o mais antigo é de 28/10)."
     },
     "designer": {
       "status": "ok",
-      "tarefa": "Coloquei foto real nos 7 posts; só o tutorial de vídeos com IA ficou com logo do Clipchamp."
+      "tarefa": "Coloquei capa e diagramação nos 6 posts (logos onde não achei foto livre) e troquei a capa do S26 que trazia preço."
     },
     "vendas": {
       "status": "ok",
-      "tarefa": "Liguei o GTA 6 aos headsets e a Epic aos mouses do catálogo; deixei de fora as notícias sem produto ligado."
+      "tarefa": "Revisei os 6 posts: o comparativo de teclado ganhou chamadas por produto; as notícias só ligam ao guia da Black Friday."
     },
     "viral": {
       "status": "ok",
-      "tarefa": "Dei notas às pautas, afiei os posts e escrevi os textos de rede em data/redes.md."
+      "tarefa": "Dei nota às pautas e escrevi os textos de rede dos 6 posts em data/redes.md."
     },
     "produtor": {
       "status": "ok",
@@ -51,41 +51,6 @@
     }
   },
   "historico": [
-    {
-      "data": "2026-11-12",
-      "agente": "chefe",
-      "texto": "Descartei a pauta fraca do iPhone 17, corrigi o verificador em três posts antigos e respondi os recados do mural."
-    },
-    {
-      "data": "2026-11-12",
-      "agente": "curador",
-      "texto": "Cadastrei 5 produtos com link: 2 cabos USB-C para Lightning MFi (Anker 322 e Ugreen), o teclado Redragon Kumara K552 Brown, a lâmpada Positivo RGB e o fone Lenovo GM2 Pro (4º TWS gamer). Reprovados: Xiaomi 10.000 mAh (sem loja oficial), Ugreen 20.000 mAh 45 W (sem avaliações), Ugreen 2 m (47 avaliações), Black Shark Buds 6 e JBL Quantum TWS Air."
-    },
-    {
-      "data": "2026-11-13",
-      "agente": "chefe",
-      "texto": "Coordenei a rotina: 5 posts publicados e as fichas de pauta recuperadas depois de um acidente."
-    },
-    {
-      "data": "2026-11-13",
-      "agente": "pesquisador",
-      "texto": "Trouxe 5 notícias do dia e refiz as fichas de pauta com as fontes reabertas."
-    },
-    {
-      "data": "2026-11-13",
-      "agente": "redator",
-      "texto": "Escrevi Xiaomi 18 Pro, Pikmin 4, Game Pass, Imagem de Referência da Apple e o tutorial de toque fantasma; as caixas até R$ 100 ficaram sem produtos."
-    },
-    {
-      "data": "2026-11-13",
-      "agente": "seo",
-      "texto": "Revisei títulos e descrições dos 5 posts."
-    },
-    {
-      "data": "2026-11-13",
-      "agente": "vendas",
-      "texto": "Liguei Game Pass e Pikmin ao guia de headsets gamer."
-    },
     {
       "data": "2026-11-13",
       "agente": "designer",
@@ -350,6 +315,41 @@
       "data": "2026-11-21",
       "agente": "viral",
       "texto": "Textos de rede dos 6 posts."
+    },
+    {
+      "data": "2026-11-22",
+      "agente": "pesquisador",
+      "texto": "5 pautas de notícia e 6 pautas de fila."
+    },
+    {
+      "data": "2026-11-22",
+      "agente": "curador",
+      "texto": "Sugestões de caixas, Redragon e JBL."
+    },
+    {
+      "data": "2026-11-22",
+      "agente": "redator",
+      "texto": "6 posts novos."
+    },
+    {
+      "data": "2026-11-22",
+      "agente": "seo",
+      "texto": "Revisão de 6 posts e links internos."
+    },
+    {
+      "data": "2026-11-22",
+      "agente": "vendas",
+      "texto": "Chamadas de compra no comparativo de teclado."
+    },
+    {
+      "data": "2026-11-22",
+      "agente": "designer",
+      "texto": "Capas e diagramação de 6 posts."
+    },
+    {
+      "data": "2026-11-22",
+      "agente": "viral",
+      "texto": "Textos de rede de 6 posts."
     }
   ]
 }

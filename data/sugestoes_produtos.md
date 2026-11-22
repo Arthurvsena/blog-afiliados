@@ -2,6 +2,30 @@
 
 O curador escreve aqui os produtos que vale cadastrar em data/produtos.csv.
 
+## Sugestões de 2026-11-22 (pautas travadas: caixas até R$ 100, mouses Redragon, fone JBL)
+
+**Aviso:** o ML segue sem leitura (403). Nota e avaliações do ML não conferidas; critério no cadastro: 4,5+ e 200+ avaliações, loja oficial ou MercadoLíder. Nenhuma sugestão de 11-17, 11-16 e 11-12 foi cadastrada ainda (CSV sem JBL Tune 520BT, Stormrage M718 nem Invader M719); elas seguem valendo.
+
+### fones-caixas-bluetooth: caixas até R$ 100
+- **Mini Caixa de Som Xiaomi Mi Compact Bluetooth Speaker 2 (2 W)** (Xiaomi), referência de R$ 87,90 na Amazon em 30/07/2026 (guia descubraoquee; preço de novembro não confirmado). Por que: única caixa de marca conhecida achada perto de R$ 100. Confirmado na KaBuM: 2 W (4 ohms), Bluetooth 4.2, alcance de cerca de 10 m. Autonomia diverge (6 h a 80% de volume na PcComponentes, até 4 h no Intcomex): não registre número. Contra: 2 W é caixinha de bolso, não serve para sala nem festa; carga por Micro-USB (Alza). Sem IP confirmado. Só cadastre se o anúncio da loja oficial Xiaomi ou MercadoLíder tiver 4,5+ e 200+.
+  Busca no ML: `Mini Caixa de Som Xiaomi 2W Bluetooth Mi Compact Speaker 2`
+  Linha pronta para o CSV (só falta o link):
+  `xiaomi-mi-compact-speaker-2,fones-caixas-bluetooth,Mini Caixa de Som Bluetooth Xiaomi Mi Compact Speaker 2 2 W,Xiaomi,PRECO,NOTA,AVAL,COLE_O_LINK,,2 W de potência;Bluetooth 4.2;Alcance de cerca de 10 m;Formato de bolso,sim`
+- Sem ficha para outras: Philco PBS30/PBS45BT, Multilaser SP250, Philips TAS2505B, Boombox Philco 10 W (cerca de R$ 122 no ML segundo Olhar Digital em abril, acima do teto). Com 1 candidato, a pauta "até R$ 100" continua sem 3: manter a recomendação de virar "até R$ 200" (Go Essential 2, Go 4, Soundcore 2 e Xiaomi como extra barato) ou o dono mandar 2 links abaixo de R$ 100.
+
+### acessorios-gamer: mouses Redragon
+- **Mouse Gamer Redragon Cobra Pro M711-PRO sem fio RGB (16.000 DPI)** (Redragon), de R$ 164 a R$ 223 na KaBuM e R$ 226 a R$ 300 em outras lojas (indicativo; acima dos ativos, de R$ 80 a R$ 95). Por que: o ML mostra selo "mais vendido" em anúncios do Cobra Pro; dá à lista um sem fio com a marca. Confirmado na KaBuM: sensor Pixart PMW3335, 16.000 DPI, 1000 Hz, 8 botões programáveis, switches Huano 20M, bateria de 700 mAh (cerca de 6 dias segundo a loja), dongle USB ou cabo USB-C removível de 1,8 m, garantia de 12 meses. Peso diverge (100 g Pichau, 135 g Terabyte): não registre. Não confundir com o Cobra M711 com fio, que já está ativo.
+  Busca no ML: `Mouse Gamer Redragon Cobra Pro M711-PRO Wireless 16000 DPI`
+  Linha pronta para o CSV (só falta o link):
+  `redragon-cobra-pro-m711-pro,acessorios-gamer,Mouse Gamer Redragon Cobra Pro M711-PRO Sem Fio RGB 16000 DPI,Redragon,PRECO,NOTA,AVAL,COLE_O_LINK,,Sensor Pixart PMW3335 de 16.000 DPI;Sem fio com dongle ou cabo USB-C;8 botões programáveis;Bateria de 700 mAh,sim`
+- Citados sem ficha (não cadastrar): Devourer M993, K1ng M724, M910-K. As reservas M718 e M719 de 11-12 seguem pendentes.
+
+### fones-caixas-bluetooth: fone JBL
+- Nada novo. Vale a sugestão de 11-17 (JBL Tune 520BT, linha de CSV pronta lá), que fecha a pauta com Wave Buds 2 e Quantum 100M2.
+
+### Resumo de 11-22
+Novas: caixas até R$ 100 1 (Xiaomi Compact Speaker 2, ficha parcial); mouses Redragon 1 (Cobra Pro M711-PRO); fone JBL 0 (Tune 520BT de 11-17 segue pendente). Nota e avaliações do ML não conferidas (403).
+
 ## Sugestões de 2026-11-17 (pautas travadas: caixas até R$ 100, mouses Redragon, fone JBL, tomada 20 A)
 
 **Aviso:** o ML segue sem leitura (403). Nota e avaliações do ML não conferidas; critério no cadastro: 4,5+ e 200+ avaliações, loja oficial JBL ou MercadoLíder. Não repito as sugestões de 11-16 e 11-12 (Intelbras ETW 1001+, Stormrage M718, Invader M719), que seguem valendo.

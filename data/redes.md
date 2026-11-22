@@ -2,6 +2,72 @@
 
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
+## 2026-11-22 · Teclado mecânico ou membrana: qual escolher para jogar?
+Link: https://nexustechai.com.br/posts/teclado-mecanico-ou-membrana-qual-escolher/
+- WhatsApp: Mecânico ou membrana para jogar? Blue faz clique alto, brown é discreto. Comparativo com 2 mecânicos ABNT2: https://nexustechai.com.br/posts/teclado-mecanico-ou-membrana-qual-escolher/
+- X: Teclado mecânico ou membrana? Para jogar, o mecânico leva vantagem no toque; a membrana ganha em preço e silêncio. O switch blue é barulhento, o brown é discreto: https://nexustechai.com.br/posts/teclado-mecanico-ou-membrana-qual-escolher/
+- Instagram (legenda): Clique ou borracha: qual teclado é o seu?
+  O mecânico tem toque definido e cada tecla independente.
+  A membrana é mais barata e silenciosa.
+  Blue faz barulho, brown é discreto. Comparativo no link da bio.
+  #teclado #gamer #setup
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Mecânico ou membrana: qual vale para jogar?" [2-8 s] Fato 1: no mecânico, cada tecla tem seu switch. [8-14 s] Fato 2: blue faz clique alto, brown é discreto. [14-18 s] Fato 3: membrana é mais barata e silenciosa. [18-20 s] "Comparativo completo: link na bio."
+
+## 2026-11-22 · Windows 11 ou 10 para jogos: o 11 ganha só 1,2% a 5%
+Link: https://nexustechai.com.br/posts/windows-11-ou-10-para-jogos/
+- WhatsApp: Windows 11 ou 10 para jogos? O 11 ganhou só 1,2% a 5% de FPS num teste, mas o Windows 10 perdeu o suporte normal em 14/10/2025. https://nexustechai.com.br/posts/windows-11-ou-10-para-jogos/
+- X: Windows 11 ou 10 para jogos: em teste com 14 jogos, o 11 25H2 ficou só 1,2% a 5% à frente. O que pesa é o fim do suporte do 10 (14/10/2025). Dá para seguir com ESU até 12/10/2027: https://nexustechai.com.br/posts/windows-11-ou-10-para-jogos/
+- Instagram (legenda): Vale trocar o Windows 10 pelo 11 para jogar?
+  O ganho de FPS é pequeno: 1,2% a 5% num teste.
+  O que pesa é o fim do suporte do 10, em outubro de 2025.
+  Requisitos e ESU no link da bio.
+  #windows11 #games #pcgamer
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Windows 11 dá mais FPS que o 10? Quase nada." [2-8 s] Fato 1: teste com 14 jogos, 1,2% a 5% à frente. [8-14 s] Fato 2: o Windows 10 perdeu o suporte em 14/10/2025. [14-18 s] Fato 3: o ESU protege o 10 até 12/10/2027. [18-20 s] "Veja se seu PC aceita: link na bio."
+
+## 2026-11-22 · Gemini Google como desativar no Android: 3 atalhos
+Link: https://nexustechai.com.br/posts/gemini-google-como-desativar-android/
+- WhatsApp: O Gemini abre sozinho no seu Android? Dá para cortar em 3 minutos: botão liga/desliga, Ok Google e tela de bloqueio. Passo a passo: https://nexustechai.com.br/posts/gemini-google-como-desativar-android/
+- X: Não existe botão único para desligar o Gemini no Android. São 3 portas: botão liga/desliga, Ok Google e tela de bloqueio. Passo a passo do Google, em português: https://nexustechai.com.br/posts/gemini-google-como-desativar-android/
+- Instagram (legenda): O Gemini vive abrindo sem você chamar?
+  Desinstalar não resolve, segundo o próprio Google.
+  Desligue 3 atalhos: botão, Ok Google e tela de bloqueio.
+  Passo a passo no link da bio.
+  #gemini #android #tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "O Gemini abre sozinho no seu celular? Resolve em 3 passos." [2-8 s] Fato 1: desinstalar não tira ele como assistente padrão. [8-14 s] Fato 2: desligue botão liga/desliga, Ok Google e tela de bloqueio. [14-18 s] Fato 3: dá para voltar ao Google Assistente, se a opção aparecer. [18-20 s] "Passo a passo: link na bio."
+
+## 2026-11-22 · The Game Awards 2026: GTA 6 lidera com 8 indicações
+Link: https://nexustechai.com.br/posts/the-game-awards-2026-indicados-gta-6-oito-indicacoes/
+- WhatsApp: GTA 6 lidera o The Game Awards 2026 com 8 indicações e o Zelda Ocarina of Time disputa Jogo do Ano. Dá para votar até 9/12: https://nexustechai.com.br/posts/the-game-awards-2026-indicados-gta-6-oito-indicacoes/
+- X: The Game Awards 2026: GTA 6 lidera com 8 indicações. Seis jogos disputam Jogo do Ano, incluindo Zelda Ocarina of Time. Cerimônia em 10/12, voto do público até 9/12: https://nexustechai.com.br/posts/the-game-awards-2026-indicados-gta-6-oito-indicacoes/
+- Instagram (legenda): GTA 6 chegou ao Game Awards com 8 indicações.
+  Zelda Ocarina of Time também está no Jogo do Ano.
+  Cerimônia em 10/12, votação aberta até 9/12.
+  Lista completa no link da bio.
+  #gta6 #thegameawards #games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "GTA 6 tem 8 indicações no Game Awards." [2-8 s] Fato 1: seis jogos disputam Jogo do Ano, com Zelda Ocarina of Time. [8-14 s] Fato 2: cerimônia em 10 de dezembro. [14-18 s] Fato 3: você vota de graça até 9/12. [18-20 s] "Lista completa: link na bio."
+
+## 2026-11-22 · Galaxy S26 Ultra na Black Friday: só vale até R$ 6.300
+Link: https://nexustechai.com.br/posts/galaxy-s26-ultra-black-friday-2026-preco-vale-a-pena-ou-s25-ultra/
+- WhatsApp: Galaxy S26 Ultra na Black Friday: acima de R$ 6.300 não vale, diz o Canaltech. Se o S25 Ultra estiver R$ 800 mais barato, ele ganha: https://nexustechai.com.br/posts/galaxy-s26-ultra-black-friday-2026-preco-vale-a-pena-ou-s25-ultra/
+- X: Black Friday (27/11): Galaxy S26 Ultra 256 GB só compensa até R$ 6.300, segundo o Canaltech. Já o S25 Ultra vence se a diferença passar de R$ 800. Faixas e conta: https://nexustechai.com.br/posts/galaxy-s26-ultra-black-friday-2026-preco-vale-a-pena-ou-s25-ultra/
+- Instagram (legenda): Qual Galaxy comprar na Black Friday?
+  S26 Ultra 256 GB: teto de R$ 6.300 (Canaltech).
+  Se o S25 Ultra estiver R$ 800 mais barato, ele leva.
+  Faixas completas no link da bio.
+  #blackfriday #galaxys26ultra #samsung
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "S26 Ultra por mais de R$ 6.300? Pule." [2-8 s] Fato 1: a Samsung subiu a tabela oficial em outubro. [8-14 s] Fato 2: o Canaltech vê preço bom até R$ 6.300 no 256 GB. [14-18 s] Fato 3: com R$ 800 de diferença, o S25 Ultra ganha. [18-20 s] "Conta completa: link na bio."
+
+## 2026-11-22 · iFood vazamento de dados: CPF de entregadores e o que fazer
+Link: https://nexustechai.com.br/posts/ifood-ataque-hacker-14-novembro-dados-entregadores-restaurantes/
+- WhatsApp: iFood confirmou vazamento: clientes perderam só o telefone, mas entregadores e restaurantes tiveram CPF exposto. Cuidado com ligação "do iFood": https://nexustechai.com.br/posts/ifood-ataque-hacker-14-novembro-dados-entregadores-restaurantes/
+- X: iFood confirma ataque hacker de 14/11. Clientes: só telefone. Entregadores e restaurantes: CPF e, às vezes, conta bancária. Senha e cartão não, diz a empresa. O que fazer: https://nexustechai.com.br/posts/ifood-ataque-hacker-14-novembro-dados-entregadores-restaurantes/
+- Instagram (legenda): Seu telefone pode estar na mão de golpista.
+  O iFood confirmou o vazamento do ataque de 14/11.
+  Entregadores e restaurantes tiveram CPF exposto.
+  Não passe código nem pague "taxa" a falso atendente.
+  #ifood #vazamentodedados #golpe
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "O iFood vazou seus dados?" [2-8 s] Fato 1: clientes, só telefone. [8-14 s] Fato 2: entregadores e restaurantes, CPF e às vezes conta bancária. [14-18 s] Fato 3: senha e cartão não vazaram, diz a empresa. [18-20 s] "Como se proteger de golpe: link na bio."
+
 ## 2026-11-21 · GTA 6 autosave falha e apaga 11 horas de jogo no PS5
 Link: https://nexustechai.com.br/posts/gta-6-autosave-falha-perder-save-como-se-proteger/
 - WhatsApp: Streamer perdeu 11 horas de GTA 6 no PS5 por causa do autosave. A Rockstar não explicou a causa. Dica: salve na mão com frequência: https://nexustechai.com.br/posts/gta-6-autosave-falha-perder-save-como-se-proteger/

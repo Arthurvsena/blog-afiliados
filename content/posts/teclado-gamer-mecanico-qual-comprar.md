@@ -177,6 +177,8 @@ Quer só um teclado gamer silencioso? O [guia de switch blue ou red](/posts/tecl
 
 **Teclado mecânico sem fio serve para jogo?** Serve, mas no competitivo muita gente prefere o cabo.
 
+Em dúvida entre os dois tipos? Veja [teclado mecânico ou membrana](/posts/teclado-mecanico-ou-membrana-qual-escolher/).
+
 :::veredito
 Na minha leitura, o Kumara K552 é o ponto de partida para a maioria. Quer sem fio, o Kumara Pro. Mesa apertada, o Fizz. Gosta de clique, o Dark Avenger.
 :::

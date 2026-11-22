@@ -2381,8 +2381,9 @@
     ],
     "prioridade": "media",
     "motivo": "Comparação com busca própria, editoria tecnologia com poucos posts de análise. Pontos: fim do suporte ao Windows 10, requisitos (TPM 2.0), desempenho em jogos segundo testes independentes que o redator abra com WebSearch. Sem testes nossos. Ligar com os posts de games (GTA 6, FSR 4.1) como gancho de leitura.",
-    "status": "pendente",
-    "criada": "2026-11-07"
+    "status": "publicada",
+    "criada": "2026-11-07",
+    "post": "windows-11-ou-10-para-jogos"
   },
   {
     "id": "switch-2-calendario-jogos-pikmin-4-xenoblade-3-monster-hunter-wilds",
@@ -4999,7 +5000,7 @@
     "produtos_necessarios": 0,
     "prioridade": "hoje",
     "motivo": "Fato novo do dia seguinte ao lançamento (reviews, 99 no Metacritic, OpenCritic 99; PS5 base ~30 fps segundo a Digital Trends). Ângulo ainda não coberto nos posts de GTA 6. Sem confirmação oficial da Rockstar; citar as notas como dos agregadores e que podem mudar.",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-20",
     "secundarias": [
       "gta 6 review",
@@ -5030,7 +5031,7 @@
     "produtos_necessarios": 0,
     "prioridade": "hoje",
     "motivo": "Mural #98 (tendencias). Canaltech de 18/11: golpes de versão para PC/PS4 e falsos betas, códigos e gift cards falsos, lojas com preço abaixo de R$ 449,90 só no Pix. Só se compra na PlayStation Store, Xbox Store ou varejista conhecido; GTA 6 não tem PC nem PS4. Linkar o guia de golpes da Black Friday. Conferir preço e lojas na PS Store/Xbox Store ao redigir.",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-20",
     "viral": 5
   },
@@ -5088,7 +5089,7 @@
     "produtos_necessarios": 0,
     "prioridade": "hoje",
     "motivo": "Xiaomi Brasil confirmou ao receber o lançamento global (17/11): Pro Max no Brasil a partir do fim de janeiro de 2027, preço e cores depois; Pro sem data para o país. Na Espanha: Pro de EUR 1.399,99 e Pro Max de EUR 1.599,99 (referência, não é preço brasileiro). O post existente do evento global não cobre o Brasil. Não afirmar preço em R$.",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-20",
     "viral": 4
   },
@@ -5115,7 +5116,7 @@
     "produtos_necessarios": 0,
     "prioridade": "hoje",
     "motivo": "Nintendo anunciou nos EUA: Switch 2 + Mario Kart World a US$ 499,99 de 22/11 a 5/12; jogos físicos com US$ 20 de desconto de 22 a 29/11; eShop em promoção de 19/11 a 2/12. Não há confirmação de que valha no Brasil (dizem as matérias). Ligar ao guia de Switch barato e à análise do Switch OLED; sem prometer desconto brasileiro. Conferir a página da Nintendo ao redigir.",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-20",
     "viral": 4
   },
@@ -5259,8 +5260,250 @@
     "produtos_necessarios": 0,
     "prioridade": "hoje",
     "motivo": "Troca às 13h (Brasília) de 19/11, até 26/11; Mark of the Deep é do estúdio brasileiro Mad Mimic. Confirmar na página da Epic antes de publicar (a fonte de apoio é uma só). Mesmo formato do post Knightica.",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-21",
     "viral": 5
+  },
+  {
+    "id": "ifood-ataque-hacker-14-novembro-dados-entregadores-restaurantes",
+    "titulo": "iFood confirma ataque hacker: o que vazou e o que fazer",
+    "palavra_chave": "ifood vazamento de dados",
+    "editoria": "tecnologia",
+    "fontes": [
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/seguranca/ifood-sofre-ataque-hacker-e-expoe-dados-de-clientes-e-entregadores-veja-o-que-vazou/"
+      },
+      {
+        "nome": "Mobile Time",
+        "url": "https://www.mobiletime.com.br/noticias/19/11/2026/ifood-vazamento-de-dados/"
+      },
+      {
+        "nome": "Band",
+        "url": "https://www.band.com.br/ciencia-e-tecnologia/ifood-confirma-vazamento-de-dados-de-clientes-restaurantes-e-entregadores"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-22",
+    "viral": 5,
+    "post": "ifood-ataque-hacker-14-novembro-dados-entregadores-restaurantes"
+  },
+  {
+    "id": "openai-gpt-6-2-astra-sol-lancamento-preco-chatgpt",
+    "titulo": "GPT-6.2 Astra e Sol: OpenAI lança modelos mais baratos na API",
+    "palavra_chave": "gpt-6.2 astra sol",
+    "editoria": "inteligencia-artificial",
+    "fontes": [
+      {
+        "nome": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+      },
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/inteligencia-artificial/openai-lanca-gpt-62-astra-e-sol-mais-baratos-mas-estreia-divide-usuarios/"
+      },
+      {
+        "nome": "Digital Trends",
+        "url": "https://www.digitaltrends.com/computing/openai-gpt-6-2-astra-sol-launch/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "prioridade": "hoje",
+    "status": "pendente",
+    "criada": "2026-11-22",
+    "viral": 3
+  },
+  {
+    "id": "google-tasks-gemini-agente-gratis-seis-paises-brasil-so-pro",
+    "titulo": "Google Tasks: agente do Gemini fica grátis, mas não no Brasil",
+    "palavra_chave": "google tasks gemini agente",
+    "editoria": "inteligencia-artificial",
+    "fontes": [
+      {
+        "nome": "Google (Central de Ajuda do Gemini)",
+        "url": "https://support.google.com/gemini/answer/17094507?hl=en"
+      },
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/inteligencia-artificial/google-libera-agente-de-ia-gratuito-que-faz-ligacoes-e-compras-por-voce/"
+      },
+      {
+        "nome": "Digital Trends",
+        "url": "https://digitaltrends.com/cool-tech/google-gemini-tasks-free"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "prioridade": "hoje",
+    "status": "pendente",
+    "criada": "2026-11-22",
+    "viral": 2
+  },
+  {
+    "id": "the-game-awards-2026-indicados-gta-6-oito-indicacoes-10-dezembro",
+    "titulo": "The Game Awards 2026: GTA 6 lidera com 8 indicações; data e onde ver",
+    "palavra_chave": "the game awards 2026 indicados",
+    "editoria": "games",
+    "fontes": [
+      {
+        "nome": "Omelete",
+        "url": "https://www.omelete.com.br/games/the-game-awards-2026-indicados-sao-anunciados-veja-lista-completa"
+      },
+      {
+        "nome": "Einerd",
+        "url": "https://www.einerd.com/the-game-awards-2026-indicados-gta-6/"
+      },
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/games/the-game-awards-2026-ja-tem-data-marcada/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-22",
+    "viral": 4,
+    "post": "the-game-awards-2026-indicados-gta-6-oito-indicacoes"
+  },
+  {
+    "id": "galaxy-s26-ultra-black-friday-2026-preco-vale-a-pena-ou-s25-ultra",
+    "titulo": "Galaxy S26 Ultra na Black Friday: preço-alvo e quando o S25 Ultra vale mais",
+    "palavra_chave": "galaxy s26 ultra black friday",
+    "editoria": "celulares",
+    "fontes": [
+      {
+        "nome": "Samsung Newsroom Brasil",
+        "url": "https://news.samsung.com/br/samsung-inicia-entregas-do-galaxy-s26-series-no-brasil"
+      },
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/smartphone/galaxy-s26-quanto-vale-a-pena-pagar-na-black-friday-2026/"
+      },
+      {
+        "nome": "Tecnoblog",
+        "url": "https://tecnoblog.net/achados/galaxy-s26-ultra-despenca-de-preco-no-mes-da-black-friday/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-22",
+    "viral": 5,
+    "post": "galaxy-s26-ultra-black-friday-2026-preco-vale-a-pena-ou-s25-ultra"
+  },
+  {
+    "id": "teclado-mecanico-ou-membrana-qual-escolher",
+    "titulo": "Teclado mecânico ou de membrana: qual vale mais a pena para jogar e trabalhar",
+    "palavra_chave": "teclado mecânico ou membrana",
+    "secundarias": [
+      "teclado mecânico ou semi mecânico"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 2.67,
+    "subnicho": "acessorios-gamer",
+    "tipo": "comparativo",
+    "produtos_necessarios": 2,
+    "motivo": "Comparação 2,67 e 2,33 no Google; liga ao guia de teclado gamer mecânico e à lista até R$ 200, que já estão no ar.",
+    "status": "publicada",
+    "criada": "2026-11-22",
+    "post": "teclado-mecanico-ou-membrana-qual-escolher"
+  },
+  {
+    "id": "fone-tws-como-usar-ligar-parear",
+    "titulo": "Fone TWS: como ligar, parear e usar sem erro",
+    "palavra_chave": "fone tws como usar",
+    "secundarias": [
+      "fone de ouvido sem fio como usar",
+      "fone tws como ligar"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 1.83,
+    "subnicho": "fones-caixas-bluetooth",
+    "tipo": "guia",
+    "produtos_necessarios": 0,
+    "motivo": "Dúvida real (1,83, 1,83 e 1,75) sem post; entrada para quem acabou de comprar e leva às listas de TWS.",
+    "status": "pendente",
+    "criada": "2026-11-22"
+  },
+  {
+    "id": "camera-wifi-como-funciona-como-escolher",
+    "titulo": "Câmera Wi-Fi: como funciona, o que precisa e como escolher",
+    "palavra_chave": "câmera wifi como funciona",
+    "secundarias": [],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 1.17,
+    "subnicho": "casa-inteligente",
+    "tipo": "guia",
+    "produtos_necessarios": 0,
+    "motivo": "Sem post no subnicho; o catálogo tem a Intelbras Mibo iM5SC para o card.",
+    "status": "pendente",
+    "criada": "2026-11-22"
+  },
+  {
+    "id": "gemini-google-como-desativar-android",
+    "titulo": "Como desativar o Gemini no celular Android passo a passo",
+    "palavra_chave": "gemini google como desativar",
+    "secundarias": [
+      "gemini google como usar"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 1.58,
+    "editoria": "inteligencia-artificial",
+    "tipo": "tutorial",
+    "produtos_necessarios": 0,
+    "motivo": "Dúvida 1,58 sem post na editoria de IA; complementa o post de desativar IA no Samsung.",
+    "status": "publicada",
+    "criada": "2026-11-22",
+    "post": "gemini-google-como-desativar-android"
+  },
+  {
+    "id": "claude-ai-vale-a-pena-pagar-review",
+    "titulo": "Claude vale a pena pagar? O que muda no plano pago",
+    "palavra_chave": "claude ai vale a pena pagar",
+    "secundarias": [
+      "claude ai review"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 1.58,
+    "editoria": "inteligencia-artificial",
+    "tipo": "analise",
+    "produtos_necessarios": 0,
+    "motivo": "Intenção de compra 1,58 e 1,75; já existe o post de como usar o Claude para linkar. Conferir preços na página oficial antes de escrever.",
+    "status": "pendente",
+    "criada": "2026-11-22"
+  },
+  {
+    "id": "como-resgatar-jogos-gratuitos-epic-games",
+    "titulo": "Como resgatar jogos grátis da Epic Games e não perder nenhum",
+    "palavra_chave": "como resgatar jogos gratuitos epic games",
+    "secundarias": [
+      "melhores jogos gratis que a epic ja deu"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 1.58,
+    "editoria": "games",
+    "tipo": "tutorial",
+    "produtos_necessarios": 0,
+    "motivo": "Games tem poucos tutoriais; as notícias semanais da Epic já geram tráfego recorrente para linkar.",
+    "status": "pendente",
+    "criada": "2026-11-22"
   }
 ]
