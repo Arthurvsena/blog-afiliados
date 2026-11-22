@@ -1415,6 +1415,101 @@
       "nota": 5,
       "status": "nova",
       "origem": "brasil"
+    },
+    {
+      "data": "2026-11-22",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "origem": "brasil",
+      "assunto": "Como ter dois WhatsApp no iPhone (sem app pirata)",
+      "por_que_em_alta": "vidIQ (08/11, pesquisa de perguntas): 'como ter varios whatsapp no ios' 12853 buscas/mês, concorrência 16, nota 70. Evergreen, dá para mostrar com gravação de tela e páginas oficiais.",
+      "evidencias": [
+        "data/vidiq.json: como ter varios whatsapp no ios (vidIQ: 12853 buscas/mês, concorrência 16, nota 70)"
+      ],
+      "angulo": "Resultado primeiro: duas contas de WhatsApp no mesmo iPhone. Mostra o recurso oficial de várias contas, o WhatsApp Business como segunda conta e o que não funciona; para quem não serve e os erros comuns.",
+      "formato": "tutorial",
+      "tipo": "tutorial",
+      "quadro": "tutorial",
+      "palavra_chave": "como ter varios whatsapp no ios",
+      "verificar_antes": "Conferir na Central de Ajuda do WhatsApp se o recurso de múltiplas contas já vale para iOS e em qual versão; não indicar app clonado ou de terceiros.",
+      "fontes": [
+        {
+          "nome": "Central de Ajuda do WhatsApp (a conferir)",
+          "url": "https://faq.whatsapp.com/"
+        }
+      ],
+      "nota": 3
+    },
+    {
+      "data": "2026-11-22",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "origem": "brasil",
+      "assunto": "Como tirar anúncios do celular Android (pop-ups e tela de bloqueio)",
+      "por_que_em_alta": "vidIQ (08/11, pesquisa de perguntas): 'como tirar anuncios do celular' 12436 buscas/mês, concorrência 40, nota 61. Evergreen, dá para mostrar com gravação de tela e páginas oficiais.",
+      "evidencias": [
+        "data/vidiq.json: como tirar anuncios do celular (vidIQ: 12436 buscas/mês, concorrência 40, nota 61)"
+      ],
+      "angulo": "Resultado primeiro: celular sem propaganda pulando na tela. Passos: achar o app culpado, notificações, DNS privado, Play Protect e ajustes da marca (Samsung, Xiaomi); o que é golpe e o que é anúncio normal.",
+      "formato": "tutorial",
+      "tipo": "tutorial",
+      "quadro": "tutorial",
+      "palavra_chave": "como tirar anuncios do celular",
+      "verificar_antes": "Conferir cada passo na Ajuda do Android/Google Play e nas páginas oficiais de Samsung e Xiaomi; não indicar 'limpador' milagroso.",
+      "fontes": [
+        {
+          "nome": "Ajuda do Google Play (a conferir)",
+          "url": "https://support.google.com/googleplay"
+        },
+        {
+          "nome": "Ajuda do Android (a conferir)",
+          "url": "https://support.google.com/android"
+        }
+      ],
+      "nota": 3
+    },
+    {
+      "data": "2026-11-22",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "status": "nova",
+      "origem": "brasil",
+      "assunto": "Como passar as conversas do WhatsApp do Android para o iPhone",
+      "por_que_em_alta": "vidIQ (08/11, pesquisa de perguntas): 'como transferir conversas do whatsapp do android para iphone' 14821 buscas/mês, concorrência 43, nota 60. Evergreen, dá para mostrar com gravação de tela e páginas oficiais.",
+      "evidencias": [
+        "data/vidiq.json: como transferir conversas do whatsapp do android para iphone (vidIQ: 14821 buscas/mês, concorrência 43, nota 60)"
+      ],
+      "angulo": "Resultado primeiro: histórico inteiro no iPhone novo. Passo a passo oficial com o app Mover para iOS, o que precisa antes (mesmo número, iPhone zerado, Wi-Fi) e os erros que fazem perder conversa.",
+      "formato": "tutorial",
+      "tipo": "tutorial",
+      "quadro": "tutorial",
+      "palavra_chave": "como transferir conversas do whatsapp do android para iphone",
+      "verificar_antes": "Conferir na Central de Ajuda do WhatsApp e no Suporte Apple (Mover para iOS) as versões mínimas de Android e iOS.",
+      "fontes": [
+        {
+          "nome": "Central de Ajuda do WhatsApp (a conferir)",
+          "url": "https://faq.whatsapp.com/"
+        },
+        {
+          "nome": "Apple Suporte (a conferir)",
+          "url": "https://support.apple.com/pt-br"
+        }
+      ],
+      "nota": 3
     }
   ]
 }

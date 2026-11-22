@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-18",
+  "atualizado": "2026-11-22",
   "fonte": "vidIQ (keyword research, perguntas em português; outliers de Shorts)",
   "creditos_restantes": 15,
   "como_ler": "volume_mensal = buscas estimadas por mês no YouTube; concorrencia 0-100 (menor = mais fácil aparecer); nota 0-100 (maior = melhor oportunidade). Prefira nota >= 60 e concorrência <= 50.",
@@ -412,6 +412,11 @@
     },
     {
       "dia": "2026-11-18",
+      "consulta": "nenhuma: saldo 15 < 20 (renova em 2026-12-03)",
+      "creditos": 0
+    },
+    {
+      "dia": "2026-11-22",
       "consulta": "nenhuma: saldo 15 < 20 (renova em 2026-12-03)",
       "creditos": 0
     }
