@@ -56,14 +56,13 @@
     "seg_narrador": {
       "status": "ok",
       "tarefa": "Narrei com a voz do Gemini e mixei efeitos e trilha"
+    },
+    "seg_roteirista": {
+      "status": "ok",
+      "tarefa": "Lote de roteiros do Segura Aí 3D pronto"
     }
   },
   "historico": [
-    {
-      "data": "2026-11-14",
-      "agente": "redator",
-      "texto": "Escrevi 7 posts: 3 notícias, 1 tutorial, 1 análise e 2 guias."
-    },
     {
       "data": "2026-11-14",
       "agente": "seo",
@@ -358,6 +357,11 @@
       "data": "2026-11-23",
       "agente": "seg_narrador",
       "texto": "Narrei com a voz do Gemini e mixei efeitos e trilha"
+    },
+    {
+      "data": "2026-11-23",
+      "agente": "seg_roteirista",
+      "texto": "Lote de roteiros do Segura Aí 3D pronto"
     }
   ]
 }
