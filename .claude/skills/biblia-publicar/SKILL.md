@@ -52,7 +52,8 @@ O `file_upload` aceita até 10 MB por chamada, então o vídeo vai em partes de 
 
 ## 3. TikTok
 1. Abra `https://www.tiktok.com/tiktokstudio/upload`. Se pedir login, pule o TikTok e registre.
-   Se `canal.tiktok_usuario` estiver preenchido, confira que a conta aberta é ela.
+   Se `canal.tiktok_usuario` estiver preenchido, confira que a conta aberta é ela. **Nunca publique na conta
+   do Segura Aí 3D** (`@seguraai3d` ou `@nexus_tech_ia`, ver `segura-ai/config.yaml`): se for ela, pule o TikTok e registre.
 2. Entregue o arquivo remontado ao `input[type=file]` da página (o que tem `accept` de vídeo).
 3. Legenda: apague o texto que o TikTok preencher e digite o `SLUG-tiktok.txt` (`computer type`).
 4. Em configurações: quem pode ver **Todos**; comentários permitidos; ative **"Conteúdo gerado por IA"**

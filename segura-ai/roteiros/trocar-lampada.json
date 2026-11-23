@@ -1,0 +1,614 @@
+{
+ "slug": "trocar-lampada",
+ "titulo": "Você troca lâmpada em cima da cadeira? O placar não tá a seu favor",
+ "descricao": "Quatro jeitos de trocar uma lâmpada: três errados e um certo, com a NR-10 explicada em 3D.",
+ "placar_nome": "LÂMPADA",
+ "hashtags": [
+  "segurancadotrabalho",
+  "nr10",
+  "eletricidade",
+  "dicasdecasa",
+  "curiosidades",
+  "animacao3d"
+ ],
+ "comenta": "SOBREVIVI",
+ "estilo_voz": "narrador brasileiro jovem, animado e bem-humorado, ritmo rápido de TikTok, como quem conta uma história engraçada para um amigo, sem pausas longas",
+ "fontes": [
+  "NR-10, item 10.5.1 (sequência de desenergização)"
+ ],
+ "cenas": [
+  {
+   "fala": "Se você troca lâmpada em cima da cadeira, a lâmpada tá ganhando de você.",
+   "ambiente": "sala",
+   "camera": "personagem",
+   "objetos": [
+    {
+     "tipo": "lampada"
+    },
+    {
+     "id": "cad",
+     "tipo": "cadeira_plastico",
+     "x": 0.3,
+     "z": 0.2
+    }
+   ],
+   "personagem": {
+    "em_cima": "cad",
+    "acao": "esticar",
+    "alvo": "lampada.lampada",
+    "momento": 0.05
+   },
+   "placar": {
+    "a": 1,
+    "b": 0,
+    "em": "ganhando"
+   },
+   "rebobinar": true
+  },
+  {
+   "fala": "Primeira tentativa: cadeira de plástico. Ela foi feita pra você sentar, não pra ficar em pé se esticando.",
+   "ambiente": "sala",
+   "camera": "geral",
+   "tag": "TENTATIVA 1",
+   "objetos": [
+    {
+     "tipo": "lampada"
+    },
+    {
+     "id": "cad",
+     "tipo": "cadeira_plastico",
+     "x": 0.3,
+     "z": 0.2
+    }
+   ],
+   "personagem": {
+    "em_cima": "cad",
+    "acao": "subir",
+    "de": [
+     1.0,
+     0.8
+    ],
+    "esticar": true,
+    "alvo": "lampada.lampada",
+    "momento": 0.02
+   },
+   "etiquetas": [
+    {
+     "texto": "Cadeira de plástico",
+     "em": "cadeira",
+     "sai": "ela",
+     "alvo": "cad.assento"
+    },
+    {
+     "texto": "Feita pra sentar",
+     "tipo": "ok",
+     "em": "sentar",
+     "y": 300
+    },
+    {
+     "texto": "Em pé e esticado",
+     "tipo": "erro",
+     "em": "nao",
+     "y": 415
+    }
+   ]
+  },
+  {
+   "fala": "O peso vai todo pra uma perna... e ela abre. Lâmpada um, você zero.",
+   "ambiente": "sala",
+   "camera": "personagem",
+   "tag": "TENTATIVA 1",
+   "efeitos": [
+    "noite"
+   ],
+   "objetos": [
+    {
+     "tipo": "lampada"
+    },
+    {
+     "id": "cad",
+     "tipo": "cadeira_plastico",
+     "x": 0.3,
+     "z": 0.2
+    }
+   ],
+   "personagem": {
+    "em_cima": "cad",
+    "acao": "cair",
+    "alvo": "lampada.lampada",
+    "momento": "abre"
+   },
+   "etiquetas": [
+    {
+     "texto": "Peso todo numa perna",
+     "tipo": "erro",
+     "em": "peso",
+     "sai": "abre"
+    }
+   ],
+   "seta": {
+    "alvo": "cad.perna",
+    "em": "peso",
+    "sai": "abre"
+   },
+   "placar": {
+    "a": 1,
+    "b": 0,
+    "em": "lampada"
+   },
+   "rebobinar": true
+  },
+  {
+   "fala": "Beleza, pega a escada. Mas você abre ela pela metade, no chão molhado do banheiro, e sobe até o último degrau.",
+   "ambiente": "banheiro",
+   "camera": "geral",
+   "tag": "TENTATIVA 2",
+   "objetos": [
+    {
+     "id": "esc",
+     "tipo": "escada",
+     "aberta": false,
+     "x": 0.2,
+     "z": 0.0,
+     "degrau": 4
+    },
+    {
+     "tipo": "poca",
+     "x": 0.2,
+     "z": 0.3
+    }
+   ],
+   "personagem": {
+    "em_cima": "esc",
+    "degrau": 4,
+    "acao": "subir",
+    "de": [
+     1.2,
+     1.0
+    ],
+    "momento": "sobe"
+   },
+   "etiquetas": [
+    {
+     "texto": "Aberta pela metade",
+     "tipo": "erro",
+     "em": "metade",
+     "alvo": "esc.topo"
+    },
+    {
+     "texto": "Chão molhado",
+     "tipo": "erro",
+     "em": "molhado",
+     "alvo": "poca.poca"
+    },
+    {
+     "texto": "Último degrau",
+     "tipo": "erro",
+     "em": "ultimo"
+    }
+   ]
+  },
+  {
+   "fala": "Lá em cima não tem onde segurar, a escada escorrega... Lâmpada dois, você zero.",
+   "ambiente": "banheiro",
+   "camera": "personagem",
+   "tag": "TENTATIVA 2",
+   "efeitos": [
+    "noite"
+   ],
+   "objetos": [
+    {
+     "id": "esc",
+     "tipo": "escada",
+     "aberta": false,
+     "x": 0.2,
+     "z": 0.0,
+     "degrau": 4
+    },
+    {
+     "tipo": "poca",
+     "x": 0.2,
+     "z": 0.3
+    }
+   ],
+   "personagem": {
+    "em_cima": "esc",
+    "degrau": 4,
+    "acao": "cair",
+    "momento": "escorrega",
+    "cai_em": [
+     1.0,
+     1.0
+    ]
+   },
+   "placar": {
+    "a": 2,
+    "b": 0,
+    "em": "lampada"
+   },
+   "rebobinar": true
+  },
+  {
+   "fala": "Agora sim: escada toda aberta e travada, chão seco, e você para dois degraus antes do topo.",
+   "ambiente": "sala",
+   "camera": "geral",
+   "tag": "TENTATIVA 3",
+   "objetos": [
+    {
+     "tipo": "lampada"
+    },
+    {
+     "tipo": "interruptor",
+     "desligado": true
+    },
+    {
+     "id": "esc",
+     "tipo": "escada",
+     "x": 0.05,
+     "z": 0.15,
+     "degrau": 2
+    }
+   ],
+   "personagem": {
+    "em_cima": "esc",
+    "degrau": 2,
+    "acao": "subir",
+    "de": [
+     1.2,
+     1.0
+    ],
+    "momento": 0.05
+   },
+   "etiquetas": [
+    {
+     "texto": "Toda aberta e travada",
+     "tipo": "ok",
+     "em": "aberta",
+     "alvo": "esc.topo"
+    },
+    {
+     "texto": "Chão seco",
+     "tipo": "ok",
+     "em": "seco"
+    },
+    {
+     "texto": "2 degraus abaixo do topo",
+     "tipo": "ok",
+     "em": "dois"
+    }
+   ]
+  },
+  {
+   "fala": "Aí você apaga no interruptor e põe a mão no bocal. Seguro, né? Olha o que tem dentro da parede.",
+   "ambiente": "sala",
+   "camera": "personagem",
+   "tag": "TENTATIVA 3",
+   "objetos": [
+    {
+     "tipo": "lampada"
+    },
+    {
+     "tipo": "interruptor",
+     "desligado": true
+    },
+    {
+     "id": "esc",
+     "tipo": "escada",
+     "x": 0.05,
+     "z": 0.15,
+     "degrau": 2
+    }
+   ],
+   "personagem": {
+    "em_cima": "esc",
+    "degrau": 2,
+    "acao": "mexer",
+    "alvo": "lampada.bocal",
+    "momento": "bocal"
+   },
+   "etiquetas": [
+    {
+     "texto": "Interruptor desligado",
+     "tipo": "info",
+     "em": "interruptor",
+     "alvo": "interruptor.botao"
+    }
+   ]
+  },
+  {
+   "fala": "Em muita casa, o interruptor foi ligado no fio errado. Ele corta o neutro, mas a fase continua chegando no bocal.",
+   "ambiente": "sala",
+   "camera": "parede",
+   "tag": "TENTATIVA 3",
+   "efeitos": [
+    "raio_x"
+   ],
+   "objetos": [
+    {
+     "tipo": "lampada"
+    },
+    {
+     "tipo": "interruptor",
+     "desligado": true
+    },
+    {
+     "id": "esc",
+     "tipo": "escada",
+     "x": 0.05,
+     "z": 0.15,
+     "degrau": 2
+    }
+   ],
+   "personagem": {
+    "em_cima": "esc",
+    "degrau": 2,
+    "acao": "mexer",
+    "alvo": "lampada.bocal",
+    "momento": 0.0
+   },
+   "etiquetas": [
+    {
+     "texto": "Neutro",
+     "tipo": "#2f7bff",
+     "em": "neutro",
+     "alvo": "fio_neutro"
+    },
+    {
+     "texto": "Fase",
+     "tipo": "erro",
+     "em": "fase",
+     "alvo": "fio_fase"
+    },
+    {
+     "texto": "Bocal energizado",
+     "tipo": "aviso",
+     "em": "bocal",
+     "alvo": "lampada.bocal"
+    }
+   ]
+  },
+  {
+   "fala": "Lâmpada três, você zero.",
+   "ambiente": "sala",
+   "camera": "geral",
+   "tag": "TENTATIVA 3",
+   "efeitos": [
+    "noite"
+   ],
+   "objetos": [
+    {
+     "tipo": "lampada"
+    },
+    {
+     "tipo": "interruptor",
+     "desligado": true
+    },
+    {
+     "id": "esc",
+     "tipo": "escada",
+     "x": 0.05,
+     "z": 0.15,
+     "degrau": 2
+    }
+   ],
+   "personagem": {
+    "em_cima": "esc",
+    "degrau": 2,
+    "acao": "choque",
+    "alvo": "lampada.bocal",
+    "momento": 0.0,
+    "duracao": 0.9
+   },
+   "placar": {
+    "a": 3,
+    "b": 0,
+    "em": "lampada"
+   },
+   "rebobinar": true
+  },
+  {
+   "fala": "Então faz do jeito de quem trabalha com eletricidade. Um: desliga o disjuntor do circuito.",
+   "ambiente": "sala",
+   "camera": "perto:quadro_disjuntores.quadro",
+   "tag": "JEITO CERTO",
+   "objetos": [
+    {
+     "tipo": "lampada"
+    },
+    {
+     "tipo": "quadro_disjuntores",
+     "desligar_em": "desliga"
+    }
+   ],
+   "personagem": {
+    "pos": [
+     -2.45,
+     -2.15
+    ],
+    "acao": "mexer",
+    "alvo": "quadro_disjuntores.disjuntor",
+    "momento": "desliga"
+   },
+   "etiquetas": [
+    {
+     "texto": "1. Desliga o disjuntor",
+     "tipo": "ok",
+     "em": "desliga",
+     "alvo": "quadro_disjuntores.disjuntor"
+    }
+   ]
+  },
+  {
+   "fala": "Dois: avisa a casa e deixa um bilhete no quadro, pra ninguém religar.",
+   "ambiente": "sala",
+   "camera": "perto:quadro_disjuntores.quadro",
+   "tag": "JEITO CERTO",
+   "objetos": [
+    {
+     "tipo": "lampada"
+    },
+    {
+     "tipo": "quadro_disjuntores"
+    },
+    {
+     "tipo": "bilhete"
+    }
+   ],
+   "personagem": {
+    "pos": [
+     -2.45,
+     -2.15
+    ],
+    "acao": "mexer",
+    "alvo": "bilhete.bilhete",
+    "momento": "bilhete"
+   },
+   "etiquetas": [
+    {
+     "texto": "2. Ninguém religa",
+     "tipo": "ok",
+     "em": "bilhete",
+     "alvo": "bilhete.bilhete"
+    }
+   ]
+  },
+  {
+   "fala": "Três: testa o bocal com a chave teste. Não acendeu? Agora pode.",
+   "ambiente": "sala",
+   "camera": "personagem",
+   "tag": "JEITO CERTO",
+   "objetos": [
+    {
+     "tipo": "lampada"
+    },
+    {
+     "id": "esc",
+     "tipo": "escada",
+     "x": 0.05,
+     "z": 0.15,
+     "degrau": 2
+    }
+   ],
+   "personagem": {
+    "em_cima": "esc",
+    "degrau": 2,
+    "acao": "mexer",
+    "alvo": "lampada.bocal",
+    "momento": "testa",
+    "segura": "chave_teste"
+   },
+   "etiquetas": [
+    {
+     "texto": "3. Testa antes",
+     "tipo": "ok",
+     "em": "testa"
+    },
+    {
+     "texto": "Neon apagado = sem tensão",
+     "tipo": "info",
+     "em": "acendeu"
+    }
+   ]
+  },
+  {
+   "fala": "Na NR-10, isso tem nome: desenergizar, impedir o religamento e confirmar a ausência de tensão.",
+   "ambiente": "sala",
+   "camera": "geral",
+   "tag": "NR-10",
+   "objetos": [
+    {
+     "tipo": "lampada"
+    },
+    {
+     "id": "esc",
+     "tipo": "escada",
+     "x": 0.05,
+     "z": 0.15,
+     "degrau": 2
+    }
+   ],
+   "personagem": {
+    "em_cima": "esc",
+    "degrau": 2,
+    "acao": "esticar",
+    "alvo": "lampada.lampada",
+    "momento": 0.1
+   },
+   "etiquetas": [
+    {
+     "texto": "Desenergizar",
+     "tipo": "ok",
+     "em": "desenergizar"
+    },
+    {
+     "texto": "Impedir religamento",
+     "tipo": "ok",
+     "em": "impedir"
+    },
+    {
+     "texto": "Confirmar sem tensão",
+     "tipo": "ok",
+     "em": "confirmar"
+    }
+   ]
+  },
+  {
+   "fala": "Lâmpada trocada! Placar final: três a um pra lâmpada... mas quem saiu andando foi você.",
+   "ambiente": "sala",
+   "camera": "geral",
+   "efeitos": [
+    "confete"
+   ],
+   "confete_em": "trocada",
+   "objetos": [
+    {
+     "tipo": "lampada",
+     "acende_em": "trocada"
+    }
+   ],
+   "personagem": {
+    "pos": [
+     0.3,
+     0.6
+    ],
+    "acao": "comemorar"
+   },
+   "placar": {
+    "a": 3,
+    "b": 1,
+    "em": "placar",
+    "erro": false
+   }
+  },
+  {
+   "fala": "Segue o Segura Aí pra sobreviver à sua própria casa. E se você já trocou lâmpada em cima da cadeira, comenta: SOBREVIVI.",
+   "ambiente": "sala",
+   "camera": "rosto",
+   "objetos": [
+    {
+     "tipo": "lampada",
+     "acesa": true
+    },
+    {
+     "id": "cad",
+     "tipo": "cadeira_plastico",
+     "x": -1.3,
+     "z": -0.6
+    }
+   ],
+   "personagem": {
+    "pos": [
+     0.2,
+     0.6
+    ],
+    "acao": "apontar",
+    "capacete": true
+   },
+   "chamada": {
+    "nome": "SEGURA AÍ 3D",
+    "comenta": "SOBREVIVI",
+    "em": "comenta"
+   }
+  }
+ ]
+}

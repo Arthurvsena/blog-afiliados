@@ -630,6 +630,14 @@ def build():
             escritorio[chave] = json.loads(arq.read_text(encoding="utf-8"))
     if isinstance(escritorio.get("videos_canal"), dict):
         escritorio["videos_canal"] = escritorio["videos_canal"].get("videos", [])[-12:]
+    fila_seg = RAIZ / "segura-ai" / "fila.json"
+    if fila_seg.exists():   # canal Segura Aí 3D (TikTok)
+        fs = json.loads(fila_seg.read_text(encoding="utf-8"))
+        rs = fs.get("roteiros", [])
+        pubs = [r for r in rs if r.get("status") == "publicado"]
+        escritorio["segura"] = {"publicados": len(pubs), "produzidos": sum(1 for r in rs if r.get("status") == "produzido"),
+                                "fila": sum(1 for r in rs if r.get("status") == "pronto"), "ideias": len(fs.get("ideias", [])),
+                                "ultimo": pubs[-1]["slug"] if pubs else None}
     mur = RAIZ / "data" / "mural.json"
     if mur.exists():
         msgs = json.loads(mur.read_text(encoding="utf-8")).get("mensagens", [])

@@ -21,12 +21,17 @@
   .ultima { color:var(--suave); font-size:20px; }
   .cena { position:relative; border:4px solid var(--borda); box-shadow:0 0 0 4px #000, 8px 8px 0 4px #000; background:#000; }
   canvas { display:block; width:100%; image-rendering:pixelated; image-rendering:crisp-edges; }
-  .rotulo { position:absolute; transform:translate(-50%,-100%); background:#fff; color:#111; border:2px solid #000;
+  .rotulo { position:absolute; transform:translate(-50%,-100%); transition:none; background:#fff; color:#111; border:2px solid #000;
             padding:1px 6px 2px; font-size:clamp(11px,1.6vw,19px); white-space:nowrap; cursor:pointer; pointer-events:auto; }
   .rotulo::after { content:""; position:absolute; left:50%; bottom:-6px; margin-left:-4px; border:4px solid transparent; border-top-color:#000; }
   .rotulo .pt { display:inline-block; width:8px; height:8px; margin-right:5px; border:1px solid #000; }
   .rotulo.ativo { background:var(--ocioso); }
   .sobre { position:absolute; color:#1b2a12; font-size:clamp(9px,1.35vw,17px); line-height:1.05; pointer-events:none; }
+  .sala-nome { position:absolute; font-family:"Press Start 2P",monospace; font-size:clamp(5px,0.85vw,10px); color:#e6e8ff; background:#0008; padding:2px 4px; pointer-events:none; }
+  .rotulo.vivo { background:#5ee08a; }
+  .aovivo { margin:10px 0 0; font-size:21px; }
+  .pisca { color:#5ee08a; animation:pisca 1s steps(2) infinite; }
+  @keyframes pisca { 50% { opacity:.2; } }
   .relogio { position:absolute; color:#7dff9b; font-family:"Press Start 2P",monospace; font-size:clamp(5px,0.9vw,10px); transform:translate(-50%,-50%); pointer-events:none; }
   .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; }
   .stat { background:var(--painel); border:3px solid var(--borda); padding:10px 12px; box-shadow:4px 4px 0 #000; }
@@ -81,8 +86,9 @@
   </header>
 
   <div class="cena" id="cena-box">
-    <canvas id="cena" aria-label="Escritório em pixel art com os agentes do blog trabalhando"></canvas>
+    <canvas id="cena" aria-label="Escritório em pixel art dividido em departamentos, com os agentes trabalhando"></canvas>
   </div>
+  <div class="aovivo" id="aovivo">Conferindo quem está trabalhando...</div>
 
   <h2>QUADRO DE METAS</h2>
   <div class="stats" id="stats"></div>
@@ -90,6 +96,9 @@
   <h2>CANAL DO YOUTUBE</h2>
   <div class="stats" id="ytstats"></div>
   <div class="yt" id="yt"></div>
+
+  <h2>TIKTOK · SEGURA AÍ 3D</h2>
+  <div class="stats" id="tkstats"></div>
 
   <h2>EQUIPE</h2>
   <div class="equipe" id="equipe"></div>
@@ -110,104 +119,167 @@
 <script>
 (() => {
 const D = JSON.parse(document.getElementById('dados').textContent);
-const W = 660, H = 216;
+const REPO = 'Arthurvsena/blog-afiliados';
+// Tela lógica de 480x300 "pixels", desenhada em dobro para ficar nítida.
+const W = 480, H = 300, ESC = 2;
 const cv = document.getElementById('cena'), box = document.getElementById('cena-box');
-cv.width = W; cv.height = H;
+cv.width = W * ESC; cv.height = H * ESC;
 const g = cv.getContext('2d');
+g.imageSmoothingEnabled = false; g.scale(ESC, ESC);
 const P = (c, x, y, w = 1, h = 1) => { g.fillStyle = c; g.fillRect(Math.round(x), Math.round(y), w, h); };
 
+// ---------- departamentos (salas) ----------
+const SALAS = [
+  { id:'redacao', nome:'REDAÇÃO NEXUS', x:4,   y:4,   w:272, h:148, piso:['#5b4636','#634d3b'], parede:'#2b3a55', faixa:'#2f4060' },
+  { id:'metricas',nome:'MÉTRICAS',      x:280, y:4,   w:96,  h:70,  piso:['#3a4a5e','#40526a'], parede:'#24324a', faixa:'#2a3a56' },
+  { id:'copa',    nome:'COPA',          x:280, y:78,  w:96,  h:74,  piso:['#6b5a3a','#75633f'], parede:'#4a3a2a', faixa:'#55432f' },
+  { id:'youtube', nome:'ESTÚDIO YOUTUBE', x:380, y:4, w:96,  h:148, piso:['#3b2f45','#43354f'], parede:'#2a1f33', faixa:'#33263d' },
+  { id:'biblia',  nome:'ESTÚDIO BÍBLIA ANIMADA', x:4, y:178, w:176, h:118, piso:['#5e5236','#685b3c'], parede:'#3d3322', faixa:'#463b27' },
+  { id:'tiktok',  nome:'ESTÚDIO TIKTOK · SEGURA AÍ 3D', x:184, y:178, w:292, h:118, piso:['#263a3a','#2b4242'], parede:'#152626', faixa:'#1b2f2f' },
+];
+const PAREDE = 16;   // altura da parede no topo de cada sala
+
 // ---------- equipe (personagens originais) ----------
+// mesa: onde o agente senta; estacao: aonde vai quando está trabalhando de verdade
 const AG = [
-  { id:'pesquisador', nome:'Pesquisador', cargo:'Caça pautas no Google', x:52,  y:100, cam:'#3d7be0', cab:'#2e1d12', pele:'#f1c29b', acc:'oculos', luz:'#7fd0ff' },
-  { id:'curador',     nome:'Curador',     cargo:'Escolhe os produtos e gera os links', x:144, y:100, cam:'#e0803d', cab:'#c9a227', pele:'#d9a074', acc:'bone',   luz:'#ffd27f', aux:'#c23b3b' },
-  { id:'redator',     nome:'Redator',     cargo:'Escreve os posts',     x:236, y:100, cam:'#8a4fd6', cab:'#151515', pele:'#8d5a3b', acc:'fone',   luz:'#d6a6ff', aux:'#5ee08a' },
-  { id:'analista',    nome:'Analista',    cargo:'Lê visitas, cliques e pedidos', x:328, y:100, cam:'#2f9e6e', cab:'#4a2c1a', pele:'#e8b98f', acc:'redondo', luz:'#9effc8' },
-  { id:'seo',         nome:'Estrategista SEO', cargo:'Leva o blog ao topo do Google', x:52, y:170, cam:'#2bb39a', cab:'#0f0f0f', pele:'#5a3825', acc:'curto', luz:'#8affd9' },
-  { id:'vendas',      nome:'Vendas',      cargo:'Faz cada post levar à compra', x:144, y:170, cam:'#e0b23d', cab:'#c4461c', pele:'#f6d6bd', acc:'ruiva', luz:'#ffe08a' },
-  { id:'designer',    nome:'Designer',    cargo:'Cuida da marca e da cara de cada post', x:236, y:170, cam:'#7C5CFF', cab:'#e8c27a', pele:'#c98f6b', acc:'boina', luz:'#c9b8ff', aux:'#14213D' },
-  { id:'viral',       nome:'Viral',       cargo:'Faz os posts se espalharem', x:420, y:100, cam:'#ff5d73', cab:'#2a1a12', pele:'#c98f6b', acc:'bone', aux:'#111', luz:'#ffb3c0' },
-  { id:'produtor',    nome:'Produtor',    cargo:'Comanda o canal no YouTube', x:512, y:100, cam:'#1f2937', cab:'#e8e8e8', pele:'#e8b98f', acc:'fone', aux:'#ff5d73', luz:'#ff9aa8' },
-  { id:'roteirista',  nome:'Roteirista',  cargo:'Escreve os roteiros dos vídeos', x:512, y:170, cam:'#f59e0b', cab:'#3b2416', pele:'#a86b4a', acc:'longo', luz:'#ffd27f' },
-  { id:'tendencias',  nome:'Tendências',  cargo:'Caça o que está em alta', x:604, y:100, cam:'#14b8a6', cab:'#6b3b1f', pele:'#d9a074', acc:'oculos', luz:'#7ff5e6' },
-  { id:'atualizador', nome:'Atualizador', cargo:'Mantém posts frescos', x:328, y:170, cam:'#d64f7a', cab:'#121212', pele:'#f1cdb0', acc:'barba', forte:true,  luz:'#ffa6c4' },
+  { id:'pesquisador', sala:'redacao', nome:'Pesquisador', cargo:'Caça pautas no Google', mesa:[36,62],  estacao:[136,36], cam:'#3d7be0', cab:'#2e1d12', pele:'#f1c29b', acc:'oculos' },
+  { id:'curador',     sala:'redacao', nome:'Curador',     cargo:'Escolhe os produtos e gera os links', mesa:[94,62], estacao:[200,36], cam:'#e0803d', cab:'#c9a227', pele:'#d9a074', acc:'bone', aux:'#c23b3b' },
+  { id:'redator',     sala:'redacao', nome:'Redator',     cargo:'Escreve os posts', mesa:[152,62], estacao:[136,36], cam:'#8a4fd6', cab:'#151515', pele:'#8d5a3b', acc:'fone', aux:'#5ee08a' },
+  { id:'seo',         sala:'redacao', nome:'Estrategista SEO', cargo:'Leva o blog ao topo do Google', mesa:[210,62], estacao:[64,36], cam:'#2bb39a', cab:'#0f0f0f', pele:'#5a3825', acc:'curto' },
+  { id:'vendas',      sala:'redacao', nome:'Vendas',      cargo:'Faz cada post levar à compra', mesa:[36,122], estacao:[64,36], cam:'#e0b23d', cab:'#c4461c', pele:'#f6d6bd', acc:'ruiva' },
+  { id:'designer',    sala:'redacao', nome:'Designer',    cargo:'Cuida da marca e da cara de cada post', mesa:[94,122], estacao:[248,96], cam:'#7C5CFF', cab:'#e8c27a', pele:'#c98f6b', acc:'boina', aux:'#14213D' },
+  { id:'atualizador', sala:'redacao', nome:'Atualizador', cargo:'Mantém posts frescos', mesa:[152,122], estacao:[200,36], cam:'#d64f7a', cab:'#121212', pele:'#f1cdb0', acc:'barba', forte:true },
+  { id:'viral',       sala:'redacao', nome:'Viral',       cargo:'Faz os posts se espalharem', mesa:[210,122], estacao:[248,96], cam:'#ff5d73', cab:'#2a1a12', pele:'#c98f6b', acc:'bone', aux:'#111' },
+  { id:'analista',    sala:'metricas', nome:'Analista',   cargo:'Lê visitas, cliques e pedidos', mesa:[328,56], estacao:[358,30], cam:'#2f9e6e', cab:'#4a2c1a', pele:'#e8b98f', acc:'redondo' },
+  { id:'tendencias',  sala:'youtube', nome:'Tendências',  cargo:'Caça o que está em alta', mesa:[428,52], estacao:[402,30], cam:'#14b8a6', cab:'#6b3b1f', pele:'#d9a074', acc:'oculos' },
+  { id:'produtor',    sala:'youtube', nome:'Produtor',    cargo:'Comanda o canal no YouTube', mesa:[404,122], estacao:[456,92], cam:'#1f2937', cab:'#e8e8e8', pele:'#e8b98f', acc:'fone', aux:'#ff5d73' },
+  { id:'roteirista',  sala:'youtube', nome:'Roteirista',  cargo:'Escreve os roteiros dos vídeos', mesa:[452,122], estacao:[402,30], cam:'#f59e0b', cab:'#3b2416', pele:'#a86b4a', acc:'longo' },
+  { id:'bib_roteirista', sala:'biblia', nome:'Roteirista bíblico', cargo:'Escreve as histórias da Bíblia', mesa:[44,236], estacao:[150,208], cam:'#a3414f', cab:'#2b1a10', pele:'#c98f6b', acc:'coque' },
+  { id:'bib_animador',   sala:'biblia', nome:'Animador 2D', cargo:'Desenha e monta os vídeos da Bíblia', mesa:[110,236], estacao:[150,270], cam:'#c9a45a', cab:'#151515', pele:'#f1c29b', acc:'fone', aux:'#5a7f9c' },
+  { id:'seg_roteirista', sala:'tiktok', nome:'Roteirista 3D', cargo:'Pesquisa as normas e escreve os roteiros', mesa:[214,236], estacao:[300,208], cam:'#ff7a1a', cab:'#4a2c1a', pele:'#f2b98a', acc:'capacete', aux:'#ffb300' },
+  { id:'seg_animador',   sala:'tiktok', nome:'Animador 3D', cargo:'Anima as cenas em 3D', mesa:[272,236], estacao:[444,206], cam:'#2f4fa8', cab:'#151515', pele:'#d9a074', acc:'oculos' },
+  { id:'seg_narrador',   sala:'tiktok', nome:'Narrador', cargo:'Dá voz aos vídeos (Gemini)', mesa:[330,236], estacao:[388,270], cam:'#22b35e', cab:'#6b3b1f', pele:'#8d5a3b', acc:'fone', aux:'#ffd23f' },
+  { id:'seg_publicador', sala:'tiktok', nome:'Publicador', cargo:'Posta no TikTok pelo Chrome', mesa:[388,236], estacao:[444,270], cam:'#ff3b6b', cab:'#c9a227', pele:'#f6d6bd', acc:'bone', aux:'#111' },
 ];
 const CHEFE = { id:'chefe', nome:'Editor-chefe', cargo:'Coordena a rotina', cam:'#2a2f45', cab:'#3b2a20', pele:'#e8b98f', acc:'gravata', aux:'#ff5d73' };
-AG.forEach((a, i) => a.seed = i * 37);
-// apelidos da equipe (config.yaml > equipe); o cargo continua aparecendo no cartão
+AG.forEach((a, i) => { a.seed = i * 37; a.x = a.mesa[0]; a.y = a.mesa[1] - 6; a.fase = 'mesa'; a.timer = (i * 13) % 40; });
 const APELIDOS = D.equipe || {};
 [...AG, CHEFE].forEach(a => { a.funcao = a.nome; if (APELIDOS[a.id]) a.nome = APELIDOS[a.id]; });
+
+// rotinas (workflows do GitHub) -> quem trabalha nelas
+const ROTINAS = {
+  'diario.yml': ['chefe','pesquisador','curador','redator','seo','vendas','designer','atualizador','viral'],
+  'palavras.yml': ['pesquisador','seo'],
+  'semanal.yml': ['chefe','analista','seo','vendas'],
+  'publicar.yml': ['designer'],
+  'videos.yml': ['tendencias','produtor','roteirista'],
+  'teste-voz.yml': ['produtor'],
+  'biblia-roteiros.yml': ['bib_roteirista'],
+  'biblia-diario.yml': ['bib_animador'],
+  'biblia-piloto.yml': ['bib_animador'],
+  'segura-roteiros.yml': ['seg_roteirista'],
+  'segura-diario.yml': ['seg_animador','seg_narrador'],
+};
 
 const agoraSP = () => new Date(new Date().toLocaleString('en-US', { timeZone:'America/Sao_Paulo' }));
 const hojeSP = () => { const d = agoraSP(); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; };
 const info = id => (D.agentes && D.agentes[id]) || { status:'ocioso', tarefa:'Aguardando a primeira rotina.' };
-const rodouHoje = () => (D.ultima_execucao || '').slice(0,10) === hojeSP();
-const noite = () => { const h = agoraSP().getHours(); return h >= 20 || h < 7; };
+const noite = () => { const h = agoraSP().getHours(); return h >= 22 || h < 6; };
 
+// ---------- quem está trabalhando AGORA (de verdade) ----------
+const AO_VIVO = { agentes:{}, rotinas:[], ok:null, quando:null };
+async function atualizarAoVivo() {
+  const ativos = {}, rotinas = [];
+  let ok = true;
+  try {
+    const r = await fetch(`https://api.github.com/repos/${REPO}/actions/runs?per_page=30`, { cache:'no-store' });
+    if (!r.ok) throw new Error(r.status);
+    const j = await r.json();
+    for (const run of j.workflow_runs || []) {
+      if (!['in_progress','queued','waiting','pending','requested'].includes(run.status)) continue;
+      const arq = (run.path || '').split('/').pop();
+      const quem = ROTINAS[arq] || [];
+      rotinas.push(run.name);
+      quem.forEach(id => ativos[id] = { tarefa: `Rodando: ${run.name}`, desde: run.run_started_at || run.created_at });
+    }
+  } catch (e) { ok = false; }
+  try {   // tarefas no Chrome do Arthur avisam por data/ao_vivo.json
+    const r = await fetch(`https://raw.githubusercontent.com/${REPO}/main/data/ao_vivo.json?t=${Date.now()}`, { cache:'no-store' });
+    if (r.ok) {
+      const j = await r.json();
+      for (const [id, v] of Object.entries(j.agentes || {})) {
+        if (Date.now() - new Date(v.desde).getTime() < 3 * 3600e3) ativos[id] = v;
+      }
+    }
+  } catch (e) {}
+  AO_VIVO.agentes = ativos; AO_VIVO.rotinas = rotinas; AO_VIVO.ok = ok; AO_VIVO.quando = agoraSP();
+  painelAoVivo();
+}
 function estado(id) {
-  const s = info(id).status;
-  if (s === 'erro') return 'erro';
+  if (AO_VIVO.agentes[id]) return 'trabalhando';
+  if (info(id).status === 'erro') return 'erro';
   if (noite()) return 'dormindo';
-  if (s === 'ok' && rodouHoje()) return 'trabalhando';
   return 'ocioso';
 }
 
 // ---------- cenário ----------
-function fundo(t) {
+function sala(s, t) {
+  for (let y = s.y + PAREDE; y < s.y + s.h; y += 12) for (let x = s.x; x < s.x + s.w; x += 12)
+    P(((x + y) / 12) % 2 ? s.piso[0] : s.piso[1], x, y, Math.min(12, s.x + s.w - x), Math.min(12, s.y + s.h - y));
+  P(s.parede, s.x, s.y, s.w, PAREDE);
+  for (let x = s.x; x < s.x + s.w; x += 16) P(s.faixa, x, s.y, 8, PAREDE);
+  P('#151a26', s.x, s.y + PAREDE - 2, s.w, 2);
+  // contorno (paredes) com porta na parte de baixo
+  P('#0b0e16', s.x - 2, s.y - 2, s.w + 4, 2); P('#0b0e16', s.x - 2, s.y - 2, 2, s.h + 4); P('#0b0e16', s.x + s.w, s.y - 2, 2, s.h + 4);
+  const porta = s.y > 150 ? 'cima' : 'baixo';
+  const py = porta === 'baixo' ? s.y + s.h : s.y - 2, mx = s.x + s.w / 2;
+  P('#0b0e16', s.x - 2, py, mx - 14 - s.x + 2, 2); P('#0b0e16', mx + 14, py, s.x + s.w - mx - 12, 2);
+}
+function decoracao(t) {
   const n = noite();
-  P('#2b3a55', 0, 0, W, 72);                                   // parede
-  for (let x = 0; x < W; x += 24) P('#2f4060', x, 0, 12, 72);  // listras
-  P('#1d2738', 0, 70, W, 4);                                   // rodapé
-  for (let y = 74; y < H; y += 16) for (let x = 0; x < W; x += 16)
-    P(((x + y) / 16) % 2 ? '#5b4636' : '#634d3b', x, y, 16, 16); // piso
-  // janela
-  P('#10141f', 148, 8, 92, 50);
-  P(n ? '#0f1a3a' : '#8fd3ff', 151, 11, 86, 44);
-  if (n) { for (let i = 0; i < 14; i++) P((t / 8 + i) % 9 < 1 ? '#fff' : '#c8d2ff', 153 + (i * 29) % 82, 13 + (i * 17) % 22); P('#f4f1c9', 220, 16, 7, 7); P('#0f1a3a', 222, 15, 6, 6); }
-  else { P('#ffe066', 214, 15, 10, 10); P('#ffffffcc', 160 + (t / 6) % 90, 20, 14, 4); P('#ffffffcc', 166 + (t / 6) % 90, 17, 8, 3); }
-  const pr = [[151,30,12],[163,24,10],[173,34,14],[187,20,12],[199,28,10],[209,36,12],[221,26,16]];
-  pr.forEach(([x,y,w]) => { P(n ? '#1b2440' : '#5d7a99', x, y, w, 55 - y);
-    for (let yy = y + 3; yy < 52; yy += 5) for (let xx = x + 2; xx < x + w - 2; xx += 4) if (n && (xx * yy) % 7 < 3) P('#ffd166', xx, yy, 2, 2); });
-  P('#10141f', 193, 11, 2, 44); P('#10141f', 151, 32, 86, 2);
-  // quadro de metas
-  P('#8a6a4a', 12, 8, 98, 54); P('#e9ecef', 15, 11, 92, 48);
-  P('#ff5d73', 98, 50, 6, 2); P('#3d7be0', 90, 50, 6, 2);
-  // relógio digital
-  P('#10141f', 256, 16, 44, 16); P('#03140a', 258, 18, 40, 12);
-  // estante de servidor
-  P('#1a1d26', 328, 10, 44, 62); P('#2a2e3b', 330, 12, 40, 58);
-  for (let r = 0; r < 5; r++) { P('#11131a', 332, 15 + r * 11, 36, 8);
-    for (let l = 0; l < 4; l++) P(((t + r * 3 + l * 5) % 14) < 7 ? '#5ee08a' : '#1d4d2c', 335 + l * 4, 18 + r * 11, 2, 2);
-    P(((t + r) % 30) < 2 ? '#ff5d73' : '#4a1520', 362, 18 + r * 11, 2, 2); }
-  // planta (no canto da parede, entre o quadro e a janela)
-  P('#8a4b2a', 118, 58, 16, 12); P('#6e3b20', 118, 58, 16, 2);
-  [[120,44,4,14],[124,38,4,20],[129,46,4,12],[116,50,4,5],[132,52,4,4]].forEach(([x,y,w,h]) => P('#3fa34d', x, y, w, h));
-  // cafeteira na bancada, ao lado do relógio
-  P('#4e3a2b', 302, 52, 22, 4); P('#2b2b2b', 306, 36, 14, 16); P('#555', 308, 38, 10, 4); P('#ff5d73', 316, 46, 1, 1);
-  P('#ddd', 310, 48, 4, 4); if (t % 16 < 8) P('#ffffff88', 311, 44 - (t % 8) / 3, 1, 2);
-  // tapete do corredor
-  P('#3a2f4a', 6, 138, W - 12, 20); P('#4a3d5e', 8, 140, W - 16, 16);
-  // TV de tendências (Viral)
-  P('#10141f', 392, 12, 70, 42); P(n ? '#0b1020' : '#141a2e', 395, 15, 64, 36);
-  [[400,40,5],[408,36,9],[416,31,14],[424,27,18],[432,22,23],[440,19,26],[448,16,29]].forEach(([x,y,h],i) => P(i === 6 ? '#ff5d73' : '#7C5CFF', x, y + (i === 6 && t % 20 < 10 ? -1 : 0), 6, h + 3 - (y - 16) * 0 ));
-  P('#2b2b2b', 424, 54, 6, 6); P('#1d2738', 416, 60, 22, 2);
-  // estúdio: luz de gravação (REC)
-  P('#1a0a0e', 484, 16, 56, 20); P('#2b0a10', 486, 18, 52, 16);
-  if (t % 30 < 20) { P('#ff2d4b', 492, 21, 10, 10); P('#ff8a9b', 494, 22, 3, 3); }
-  P('#ffe3e8', 508, 22, 3, 8); P('#ffe3e8', 508, 22, 6, 2); P('#ffe3e8', 513, 22, 2, 4); P('#ffe3e8', 508, 25, 6, 2); P('#ffe3e8', 512, 27, 2, 3);
-  P('#ffe3e8', 517, 22, 2, 8); P('#ffe3e8', 517, 22, 6, 2); P('#ffe3e8', 517, 25, 5, 2); P('#ffe3e8', 517, 28, 6, 2);
-  P('#ffe3e8', 526, 22, 2, 8); P('#ffe3e8', 526, 22, 6, 2); P('#ffe3e8', 526, 28, 6, 2);
-  // pufe e planta no canto
-  P('#ff5d73', 402, 182, 26, 14); P('#d94a60', 402, 192, 26, 4); P('#8a4b2a', 444, 186, 14, 12); P('#3fa34d', 446, 172, 4, 14); P('#3fa34d', 451, 168, 4, 18); P('#3fa34d', 442, 178, 4, 8);
+  // corredor
+  for (let x = 0; x < W; x += 12) P(x % 24 ? '#3a3f4f' : '#353a49', x, 154, 12, 22);
+  P('#4a3d5e', 8, 160, W - 16, 10);
+  // REDAÇÃO: janela, quadro de metas, servidor, impressora
+  P('#10141f', 120, 1, 50, 14); P(n ? '#0f1a3a' : '#8fd3ff', 122, 2, 46, 12); if (!n) P('#ffe066', 158, 4, 5, 5);
+  P('#8a6a4a', 10, 2, 44, 13); P('#e9ecef', 12, 3, 40, 11);
+  P('#1a1d26', 230, 2, 22, 14); for (let r = 0; r < 3; r++) for (let l = 0; l < 4; l++) P(((t + r * 3 + l * 5) % 14) < 7 ? '#5ee08a' : '#1d4d2c', 233 + l * 4, 4 + r * 4, 2, 2);
+  P('#ddd', 128, 28, 18, 10); P('#999', 130, 26, 14, 3); P('#fff', 131, 24, 12, 3);                     // impressora (estação)
+  P('#c9a227', 194, 28, 14, 10); P('#8a6a14', 194, 28, 14, 2);                                          // caixas de produtos
+  P('#e9ecef', 56, 22, 20, 14); P('#7C5CFF', 58, 26, 4, 8); P('#2bb39a', 64, 30, 4, 4); P('#ff5d73', 70, 24, 4, 10); // gráfico de SEO
+  P('#222', 240, 86, 18, 12); P('#ff5d73', 243, 89, 12, 6);                                             // mesa de luz do designer/viral
+  // MÉTRICAS: telão com gráfico
+  P('#10141f', 344, 1, 30, 14); P('#0b1a12', 346, 2, 26, 12);
+  [[348,10],[352,8],[356,9],[360,5],[364,6],[368,3]].forEach(([x,y]) => P('#5ee08a', x, y + 1, 3, 13 - y));
+  // COPA: cafeteira, sofá, plantinha
+  P('#4e3a2b', 284, 98, 30, 6); P('#2b2b2b', 290, 86, 12, 12); P('#ff5d73', 299, 94, 1, 1); if (t % 16 < 8) P('#ffffff88', 295, 82 - (t % 8) / 3, 1, 2);
+  P('#5b6ee1', 330, 124, 40, 12); P('#4b5bd0', 330, 118, 40, 6); P('#8a4b2a', 360, 98, 10, 8); P('#3fa34d', 362, 88, 3, 10); P('#3fa34d', 366, 86, 3, 12);
+  // ESTÚDIO YOUTUBE: luz REC e câmera no tripé
+  P('#1a0a0e', 430, 2, 30, 12); if (t % 30 < 20) P('#ff2d4b', 434, 5, 6, 6); P('#ffe3e8', 444, 6, 12, 4);
+  P('#111', 452, 82, 10, 7); P('#444', 456, 89, 2, 10); P('#444', 452, 98, 10, 1);
+  P('#ddd', 396, 24, 14, 10); P('#14b8a6', 398, 28, 2, 4); P('#ff5d73', 404, 26, 2, 6);                   // quadro de tendências
+  // BÍBLIA: rolo de pergaminho, mesa de luz
+  P('#e9dcc0', 20, 181, 40, 10); P('#c9a45a', 18, 181, 3, 10); P('#c9a45a', 59, 181, 3, 10);
+  P('#f4e4b8', 144, 200, 16, 10); P('#8a6a4a', 144, 210, 16, 2);
+  P('#333', 142, 262, 20, 12); P('#ffd166', 145, 265, 14, 6);
+  // TIKTOK: logo neon, ring light, render, mural de normas
+  P('#0b0b0b', 300, 180, 70, 13); const neon = t % 40 < 36;
+  P(neon ? '#25f4ee' : '#1a6664', 304, 183, 3, 7); P(neon ? '#fe2c55' : '#661220', 306, 183, 3, 7);
+  for (const [i, ch] of [...'SEGURA AÍ'].entries()) if (ch !== ' ') P(neon ? '#ffd23f' : '#6b5a1a', 314 + i * 6, 184, 4, 6);
+  P('#e9ecef', 292, 200, 18, 12); P('#ff3b3b', 294, 202, 6, 2); P('#22b35e', 294, 206, 10, 2);           // mural de normas (estação do roteirista)
+  P('#1a1d26', 436, 196, 18, 18); for (let l = 0; l < 4; l++) P(((t + l * 4) % 10) < 5 ? '#ff7a1a' : '#4a2208', 439 + l * 4, 200, 2, 2); // render 3D
+  P('#ddd', 384, 262, 10, 12); P('#222', 386, 260, 6, 3);                                               // microfone (narrador)
+  P('#ffd23f', 440, 258, 12, 2); P('#ffd23f', 438, 260, 2, 8); P('#ffd23f', 452, 260, 2, 8); P('#111', 444, 262, 4, 8); // ring light + celular
 }
 
 // ---------- pessoas ----------
 function pessoa(px, py, c, t, modo) {
   const dorm = modo === 'dormindo', trab = modo === 'trabalhando';
   const dy = dorm ? 2 : 0;
-  if (c.forte) P(c.cam, px, py + 9, 12, 8); else P(c.cam, px + 1, py + 9, 10, 8);   // corpo
-  P(c.pele, px + 5, py + 9, 2, 1);                              // pescoço
+  if (c.forte) P(c.cam, px, py + 9, 12, 8); else P(c.cam, px + 1, py + 9, 10, 8);
+  P(c.pele, px + 5, py + 9, 2, 1);
   if (c.acc === 'gravata') { P('#fff', px + 4, py + 9, 4, 3); P(c.aux, px + 5, py + 9, 2, 6); }
-  P(c.pele, px + 2, py + 2 + dy, 8, 7);                         // rosto
+  P(c.pele, px + 2, py + 2 + dy, 8, 7);
   P(c.cab, px + 2, py + dy, 8, 3); P(c.cab, px + 2, py + 3 + dy, 1, 3); P(c.cab, px + 9, py + 3 + dy, 1, 3);
   if (dorm) { P('#3a2a20', px + 3, py + 6 + dy, 2, 1); P('#3a2a20', px + 7, py + 6 + dy, 2, 1); }
   else if ((t + c.seed) % 70 < 3) { P('#3a2a20', px + 3, py + 5, 2, 1); P('#3a2a20', px + 7, py + 5, 2, 1); }
@@ -216,133 +288,138 @@ function pessoa(px, py, c, t, modo) {
   switch (c.acc) {
     case 'oculos': P('#111', px + 3, py + 3, 3, 1); P('#111', px + 6, py + 3, 3, 1); P('#111', px + 3, py + 4, 1, 2); P('#111', px + 8, py + 4, 1, 2); break;
     case 'bone': P(c.aux, px + 1, py - 1 + dy, 10, 3); P(c.aux, px + 9, py + 1 + dy, 4, 1); break;
+    case 'capacete': P(c.aux, px + 1, py - 2 + dy, 10, 4); P(c.aux, px, py + 1 + dy, 12, 1); P('#ffe08a', px + 3, py - 1 + dy, 2, 1); break;
     case 'fone': P('#222', px + 1, py - 1 + dy, 10, 1); P('#222', px + 1, py + dy, 1, 4); P('#222', px + 10, py + dy, 1, 4); P(c.aux, px, py + 3 + dy, 2, 3); P(c.aux, px + 10, py + 3 + dy, 2, 3); break;
     case 'coque': P(c.cab, px + 4, py - 3 + dy, 4, 3); break;
     case 'barba': P(c.cab, px + 2, py + 7 + dy, 8, 2); P(c.pele, px + 5, py + 7 + dy, 2, 1); break;
     case 'gravata': P(c.cab, px + 3, py - 1, 6, 1); break;
-    case 'redondo': // cabelo comprido moreno + óculos redondos
+    case 'redondo':
       P(c.cab, px + 1, py - 1 + dy, 10, 2); P(c.cab, px + 1, py + 1 + dy, 2, 9); P(c.cab, px + 9, py + 1 + dy, 2, 9);
-      P('#111', px + 3, py + 3, 2, 1); P('#111', px + 7, py + 3, 2, 1); P('#111', px + 2, py + 4, 1, 1); P('#111', px + 5, py + 4, 1, 1);
-      P('#111', px + 6, py + 4, 1, 1); P('#111', px + 9, py + 4, 1, 1); P('#111', px + 3, py + 5, 2, 1); P('#111', px + 7, py + 5, 2, 1); break;
+      P('#111', px + 3, py + 3, 2, 1); P('#111', px + 7, py + 3, 2, 1); P('#111', px + 3, py + 5, 2, 1); P('#111', px + 7, py + 5, 2, 1); break;
     case 'curto': P(c.pele, px + 2, py + 4 + dy, 1, 2); P(c.pele, px + 9, py + 4 + dy, 1, 2); P(c.cab, px + 2, py - 1 + dy, 8, 1); break;
-    case 'ruiva': P(c.cab, px + 1, py - 1 + dy, 10, 2); P(c.cab, px + 1, py + 1 + dy, 2, 10); P(c.cab, px + 9, py + 1 + dy, 2, 10); P('#d9895f', px + 3, py + 6 + dy, 1, 1); P('#d9895f', px + 8, py + 6 + dy, 1, 1); P('#d9895f', px + 4, py + 7 + dy, 1, 1); P('#d9895f', px + 7, py + 7 + dy, 1, 1); break;
+    case 'ruiva': P(c.cab, px + 1, py - 1 + dy, 10, 2); P(c.cab, px + 1, py + 1 + dy, 2, 10); P(c.cab, px + 9, py + 1 + dy, 2, 10); break;
     case 'longo': P(c.cab, px + 1, py + 1 + dy, 2, 9); P(c.cab, px + 9, py + 1 + dy, 2, 9); break;
-    case 'boina': P(c.aux, px + 1, py - 1 + dy, 10, 3); P(c.aux, px + 2, py - 2 + dy, 8, 1); P(c.aux, px + 6, py - 3 + dy, 1, 1); break;
+    case 'boina': P(c.aux, px + 1, py - 1 + dy, 10, 3); P(c.aux, px + 2, py - 2 + dy, 8, 1); break;
   }
-  // braços
-  const f = Math.floor((t + c.seed) / 3) % 2;
-  if (trab) {
-    P(c.cam, px - 1, py + 10, 2, 5); P(c.cam, px + 11, py + 10, 2, 5);
-    P(c.pele, px, py + 14 - f, 3, 2); P(c.pele, px + 9, py + 13 + f, 3, 2);
-  } else if (modo === 'ocioso' && (t + c.seed * 3) % 120 < 40) {      // gole de café
-    P(c.cam, px - 1, py + 10, 2, 5); P(c.cam, px + 10, py + 6, 2, 5);
-    P(c.pele, px + 9, py + 5, 3, 2); P('#eee', px + 9, py + 3, 3, 3);
-  } else { P(c.cam, px - 1, py + 10, 2, 6); P(c.cam, px + 11, py + 10, 2, 6); }
+  const f = Math.floor((t + c.seed) / 2) % 2;
+  if (trab) { P(c.cam, px - 1, py + 10, 2, 5); P(c.cam, px + 11, py + 10, 2, 5); P(c.pele, px, py + 14 - f, 3, 2); P(c.pele, px + 9, py + 13 + f, 3, 2); }
+  else { P(c.cam, px - 1, py + 10, 2, 6); P(c.cam, px + 11, py + 10, 2, 6); }
   if (dorm) zzz(px + 12, py - 4, t + c.seed);
   if (modo === 'erro') { P('#ff5d73', px + 5, py - 9, 2, 5); P('#ff5d73', px + 5, py - 3, 2, 2); }
 }
-
-function zzz(x, y, t) {
-  const o = (t / 4) % 12;
-  const z = [[0,0],[1,0],[2,0],[1,1],[0,2],[1,2],[2,2]];
-  z.forEach(([a,b]) => P('#c8d2ff', x + a + o / 4, y + b - o / 2, 1, 1));
+function pernas(px, py, t, andando, c) {
+  const f = andando ? Math.floor((t + c.seed) / 3) % 2 : 0;
+  P('#1d2030', px + 2, py + 17, 3, 4 + f); P('#1d2030', px + 7, py + 17, 3, 5 - f);
+  P('#111', px + 1, py + 20 + f, 4, 2); P('#111', px + 7, py + 21 - f, 4, 2);
 }
-
-function mesa(a, t, modo) {
-  g.save(); g.translate(a.x, a.y); g.scale(2, 2);
-  const x = 0, y = 0;
-  const px = x - 6, py = y - 14;
-  pessoa(px, py, a, t, modo);
-  if (modo === 'trabalhando' && t % 10 < 8) { g.fillStyle = a.luz + '44'; g.fillRect(px + 8, py + 1, 6, 10); }
-  P('#c9ccd3', x + 6, y - 10, 13, 10); P('#aeb3bd', x + 6, y - 10, 13, 1); P('#fff', x + 12, y - 6, 1, 1); // notebook (traseira)
-  P('#9aa0aa', x + 4, y - 1, 16, 1);
-  P('#8a5a33', x - 20, y, 42, 4); P('#6b4425', x - 20, y + 4, 42, 11); P('#5a381d', x - 20, y + 4, 42, 1);
-  P('#4e3019', x - 19, y + 15, 3, 2); P('#4e3019', x + 18, y + 15, 3, 2);
-  if (a.id !== 'atualizador') { P('#e8e8e8', x - 17, y - 3, 3, 3); P('#6b3a1f', x - 16, y - 3, 1, 1); }   // caneca
+function zzz(x, y, t) { const o = (t / 4) % 12; [[0,0],[1,0],[2,0],[1,1],[0,2],[1,2],[2,2]].forEach(([a,b]) => P('#c8d2ff', x + a + o / 4, y + b - o / 2, 1, 1)); }
+function mesaDe(a, t, modo) {
+  const [x, y] = a.mesa;
+  const tela = modo === 'trabalhando' ? (t % 10 < 8 ? '#9fe8ff' : '#7fd0ff') : (modo === 'dormindo' ? '#111' : '#2a3350');
+  P('#c9ccd3', x - 6, y - 10, 13, 10); P(tela, x - 5, y - 9, 11, 7); P('#9aa0aa', x - 8, y - 1, 16, 1);
+  P('#8a5a33', x - 20, y, 40, 4); P('#6b4425', x - 20, y + 4, 40, 10); P('#5a381d', x - 20, y + 4, 40, 1);
+  P('#4e3019', x - 19, y + 14, 3, 2); P('#4e3019', x + 16, y + 14, 3, 2);
+  P('#e8e8e8', x - 17, y - 3, 3, 3);
   if (modo === 'trabalhando' && t % 12 < 6) P('#ffffff99', x - 16, y - 6 - (t % 6) / 3, 1, 2);
-  if (a.id === 'redator') { P('#fff', x - 12, y - 2, 6, 2); P('#fff', x - 11, y - 3, 6, 1); }   // papéis
-  if (a.id === 'curador') { P('#c48a4a', x - 13, y - 5, 7, 5); P('#8a5a2a', x - 13, y - 3, 7, 1); } // caixa
-  if (a.id === 'analista') { P('#fff', x - 16, y - 7, 9, 7); P('#2f9e6e', x - 15, y - 3, 1, 3); P('#2f9e6e', x - 13, y - 5, 1, 5); P('#7C5CFF', x - 11, y - 4, 1, 4); P('#2f9e6e', x - 9, y - 6, 1, 6); }
-  if (a.id === 'vendas') { P('#ffd60a', x - 16, y - 6, 7, 6); P('#b38f00', x - 15, y - 8, 1, 2); P('#b38f00', x - 11, y - 8, 1, 2); P('#b38f00', x - 15, y - 8, 5, 1); }
-  if (a.id === 'produtor') { P('#222', x - 16, y - 8, 8, 6); P('#444', x - 16, y - 8, 8, 1); P('#ff5d73', x - 15, y - 6, 2, 2); P('#111', x - 13, y - 2, 1, 2); }   // câmera
-  if (a.id === 'roteirista') { P('#fff', x - 16, y - 3, 8, 3); P('#111', x - 16, y - 6, 8, 3); P('#fff', x - 15, y - 6, 1, 3); P('#fff', x - 12, y - 6, 1, 3); P('#fff', x - 9, y - 6, 1, 3); }   // claquete
-  if (a.id === 'tendencias') { P('#ddd', x - 17, y - 9, 8, 9); P('#14b8a6', x - 16, y - 3, 1, 2); P('#14b8a6', x - 14, y - 5, 1, 4); P('#ff5d73', x - 12, y - 8, 1, 7); P('#888', x - 18, y - 1, 10, 1); }   // gráfico em alta
-  if (a.id === 'viral') { // celular com coração
-    P('#111', x - 15, y - 9, 6, 9); P('#8fd3ff', x - 14, y - 8, 4, 6); P('#ff5d73', x - 13, y - 6, 1, 1); P('#ff5d73', x - 11, y - 6, 1, 1); P('#ff5d73', x - 13, y - 5, 3, 1); P('#ff5d73', x - 12, y - 4, 1, 1); }
-  if (a.id === 'atualizador') { // carrinho preto
-    P('#111', x - 19, y - 4, 10, 3); P('#111', x - 17, y - 6, 5, 2); P('#8fd3ff', x - 16, y - 5, 1, 1); P('#8fd3ff', x - 14, y - 5, 1, 1);
-    P('#ffe08a', x - 10, y - 3, 1, 1); P('#ff5d73', x - 19, y - 3, 1, 1); P('#555', x - 18, y - 1, 2, 1); P('#555', x - 12, y - 1, 2, 1); }
-  if (a.id === 'designer') { // paleta de cores e caneta
-    P('#e9d8b4', x - 15, y - 3, 8, 3); P('#7C5CFF', x - 14, y - 3, 2, 1); P('#FF4D8D', x - 11, y - 3, 2, 1); P('#4CC9F0', x - 14, y - 2, 2, 1); P('#FF9F1A', x - 11, y - 2, 2, 1);
-    P('#222', x - 4, y - 4, 1, 4); }
-  g.restore();
 }
 
-// ---------- editor-chefe andando ----------
-const ROTA = [[52,152],[144,152],[236,152],[328,152],[420,152],[512,152],[604,152],[604,214],[512,214],[328,214],[236,214],[144,214],[52,214]];
-let chefe = { x:52, y:152, alvo:1, pausa:0 };
+// ---------- movimento: só quem está trabalhando anda ----------
+function mover(a, modo) {
+  const [mx, my] = a.mesa, [ex, ey] = a.estacao;
+  const alvoMesa = [mx, my - 6];
+  if (modo !== 'trabalhando') {              // volta para a mesa e fica
+    const [tx, ty] = alvoMesa; const d = Math.hypot(tx - a.x, ty - a.y);
+    if (d > 1) { a.x += (tx - a.x) / d * 1.1; a.y += (ty - a.y) / d * 1.1; a.andando = true; } else { a.x = tx; a.y = ty; a.andando = false; }
+    a.fase = 'mesa'; return;
+  }
+  if (a.timer > 0) { a.timer--; a.andando = false; return; }
+  const [tx, ty] = a.fase === 'indo' ? [ex, ey] : alvoMesa;
+  const d = Math.hypot(tx - a.x, ty - a.y);
+  if (d < 1.2) {
+    a.x = tx; a.y = ty; a.andando = false;
+    if (a.fase === 'indo') { a.fase = 'voltando'; a.timer = 40 + (a.seed % 30); }      // usa a estação
+    else { a.fase = 'indo'; a.timer = 60 + (a.seed % 45); }                          // digita na mesa
+    return;
+  }
+  a.x += (tx - a.x) / d * 1.3; a.y += (ty - a.y) / d * 1.3; a.andando = true;
+}
+
+// ---------- chefe (Arthur) passeando pelo corredor e pelas salas ----------
+const ROTA = [[20,166],[140,166],[140,120],[140,166],[300,166],[320,120],[300,166],[420,166],[420,120],[420,166],[240,166],[240,200],[240,166],[90,166],[90,210],[90,166]];
+const chefe = { x:20, y:166, alvo:1, pausa:0, seed:5 };
 function moverChefe() {
   if (noite()) return;
   if (chefe.pausa > 0) { chefe.pausa--; return; }
-  const [tx, ty] = ROTA[chefe.alvo];
-  const dx = tx - chefe.x, dy = ty - chefe.y, d = Math.hypot(dx, dy);
-  if (d < 1) { chefe.alvo = (chefe.alvo + 1) % ROTA.length; chefe.pausa = 45; return; }
-  chefe.x += dx / d * 1.2; chefe.y += dy / d * 1.2;
-}
-function desenharChefe(t) {
-  const cx = noite() ? 374 : chefe.x, cy = noite() ? 152 : chefe.y;
-  g.save(); g.translate(cx, cy); g.scale(2, 2);
-  const px = -6, py = -22;
-  const andando = chefe.pausa === 0 && !noite();
-  const f = andando ? Math.floor(t / 4) % 2 : 0;
-  P('#1d2030', px + 2, py + 17, 3, 4 + f); P('#1d2030', px + 7, py + 17, 3, 5 - f);
-  P('#111', px + 1, py + 20 + f, 4, 2); P('#111', px + 7, py + 21 - f, 4, 2);
-  pessoa(px, py, { ...CHEFE, seed:5 }, t, noite() ? 'dormindo' : 'ocioso');
-  if (!andando && !noite()) { P('#fff', px + 13, py - 6, 9, 7); P('#111', px + 17, py - 5, 1, 3); P('#111', px + 17, py - 1, 1, 1); }
-  g.restore();
+  const [tx, ty] = ROTA[chefe.alvo]; const dx = tx - chefe.x, dy = ty - chefe.y, d = Math.hypot(dx, dy);
+  if (d < 1) { chefe.alvo = (chefe.alvo + 1) % ROTA.length; chefe.pausa = ty < 160 || ty > 175 ? 50 : 6; return; }
+  chefe.x += dx / d * 1.1; chefe.y += dy / d * 1.1;
 }
 
 // ---------- loop ----------
 let t = 0;
 function quadro() {
-  fundo(t);
-  AG.slice(0, 4).forEach(a => mesa(a, t, estado(a.id)));
-  if (chefe.y < 190 && !noite()) desenharChefe(t);
-  AG.slice(4).forEach(a => mesa(a, t, estado(a.id)));
-  if (chefe.y >= 190 || noite()) desenharChefe(t);
+  P('#0e1020', 0, 0, W, H);
+  SALAS.forEach(s => sala(s, t));
+  decoracao(t);
+  const desenhos = [];
+  AG.forEach(a => {
+    const modo = estado(a.id);
+    mover(a, modo);
+    const naMesa = !a.andando && Math.abs(a.x - a.mesa[0]) < 1 && Math.abs(a.y - (a.mesa[1] - 6)) < 1;
+    desenhos.push({ y: a.y + 14, f: () => {
+      const px = a.x - 6, py = a.y - 14;
+      if (!naMesa) pernas(px, py, t, a.andando, a);
+      pessoa(px, py, a, t, naMesa ? modo : (modo === 'trabalhando' ? 'ocioso' : modo));
+      if (modo === 'trabalhando' && !naMesa && !a.andando && t % 20 < 14) { P('#fff', px + 13, py - 7, 7, 5); P('#111', px + 14, py - 5, 1, 1); P('#111', px + 16, py - 5, 1, 1); P('#111', px + 18, py - 5, 1, 1); }
+    } });
+    desenhos.push({ y: a.mesa[1] + 1, f: () => mesaDe(a, t, naMesa ? modo : 'ocioso') });
+  });
+  const cmodo = noite() ? 'dormindo' : (AO_VIVO.agentes.chefe ? 'trabalhando' : 'ocioso');
+  const cx = noite() ? 330 : chefe.x, cy = noite() ? 130 : chefe.y;
+  desenhos.push({ y: cy, f: () => { const px = cx - 6, py = cy - 22; pernas(px, py, t, chefe.pausa === 0 && !noite(), chefe); pessoa(px, py, { ...CHEFE, seed:5 }, t, cmodo); } });
+  desenhos.sort((a, b) => a.y - b.y).forEach(d => d.f());
   if (noite()) { g.fillStyle = 'rgba(10,14,40,.38)'; g.fillRect(0, 0, W, H); }
   moverChefe(); t++;
+  posicionarRotulos();
 }
 setInterval(quadro, 1000 / 15);
 
-// ---------- sobreposições HTML ----------
+// ---------- rótulos HTML (acompanham quem anda) ----------
 const pct = (v, m) => (v / m * 100) + '%';
+const ROT = {};
 function rotulos() {
-  AG.forEach(a => {
-    const el = document.createElement('div');
-    el.className = 'rotulo'; el.dataset.id = a.id;
-    el.style.left = pct(a.x, W); el.style.top = pct(a.y - 34, H);
-    const st = estado(a.id);
-    const cor = { trabalhando:'#5ee08a', ocioso:'#ffd166', dormindo:'#9aa0d0', erro:'#ff5d73' }[st];
-    const cartas = (D.mural || []).filter(m => m.status === 'aberta' && (m.para === a.id)).length;
-    el.innerHTML = `<span class="pt" style="background:${cor}"></span><span class="txt">${a.nome}</span>${cartas ? `<span class="cartas" title="mensagens pendentes">✉${cartas}</span>` : ''}`;
-    el.title = info(a.id).tarefa || '';
-    el.onclick = () => destacar(a.id);
-    box.appendChild(el);
+  SALAS.forEach(s => { const el = document.createElement('div'); el.className = 'sala-nome'; el.textContent = s.nome;
+    el.style.left = pct(s.x + 3, W); el.style.top = pct(s.y + s.h - 9, H); box.appendChild(el); });
+  [...AG, { id:'chefe' }].forEach(a => {
+    const el = document.createElement('div'); el.className = 'rotulo'; el.dataset.id = a.id;
+    el.onclick = () => destacar(a.id); box.appendChild(el); ROT[a.id] = el;
   });
-  const quadroTxt = document.createElement('div');
-  quadroTxt.className = 'sobre';
-  quadroTxt.style.left = pct(18, W); quadroTxt.style.top = pct(13, H);
-  const m = D.metricas || {};
-  const sem = m.semana || {};
-  const v = x => (x === null || x === undefined) ? '—' : x;
-  quadroTxt.innerHTML = `POSTS: ${m.posts ?? 0} · FILA: ${m.fila ?? 0}<br>PRODUTOS: ${m.produtos ?? 0}<br>VISITAS 7D: ${v(sem.visitas)}<br>CLIQUES ML: ${v(sem.cliques_ml)} · PEDIDOS: ${v(sem.pedidos)}`;
-  box.appendChild(quadroTxt);
-  const rel = document.createElement('div');
-  rel.className = 'relogio'; rel.style.left = pct(278, W); rel.style.top = pct(24, H);
-  box.appendChild(rel);
+  const rel = document.createElement('div'); rel.className = 'relogio'; rel.style.left = pct(32, W); rel.style.top = pct(8.5, H); box.appendChild(rel);
   const tic = () => { const d = agoraSP(); rel.textContent = `${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`; };
   tic(); setInterval(tic, 10000);
+}
+function posicionarRotulos() {
+  const cor = { trabalhando:'#5ee08a', ocioso:'#ffd166', dormindo:'#9aa0d0', erro:'#ff5d73' };
+  [...AG, { id:'chefe', nome: APELIDOS.chefe || CHEFE.nome, x: noite() ? 330 : chefe.x, y: (noite() ? 130 : chefe.y) - 8 }].forEach(a => {
+    const el = ROT[a.id]; if (!el) return;
+    const st = a.id === 'chefe' ? (noite() ? 'dormindo' : (AO_VIVO.agentes.chefe ? 'trabalhando' : 'ocioso')) : estado(a.id);
+    el.style.left = pct(a.x, W); el.style.top = pct(a.y - 18, H);
+    const cartas = (D.mural || []).filter(m => m.status === 'aberta' && m.para === a.id).length;
+    const html = `<span class="pt" style="background:${cor[st]}"></span><span class="txt">${a.nome}</span>${cartas ? `<span class="cartas">✉${cartas}</span>` : ''}`;
+    if (el._h !== html) { el.innerHTML = html; el._h = html; }
+    el.title = (AO_VIVO.agentes[a.id] || {}).tarefa || info(a.id).tarefa || '';
+    el.classList.toggle('vivo', st === 'trabalhando');
+  });
+}
+
+function painelAoVivo() {
+  const el = document.getElementById('aovivo'); if (!el) return;
+  const ids = Object.keys(AO_VIVO.agentes);
+  const nome = id => (AG.find(a => a.id === id) || CHEFE).nome;
+  const hora = AO_VIVO.quando ? `${String(AO_VIVO.quando.getHours()).padStart(2,'0')}:${String(AO_VIVO.quando.getMinutes()).padStart(2,'0')}` : '';
+  el.innerHTML = ids.length
+    ? `<span class="pisca">●</span> TRABALHANDO AGORA: ${ids.map(nome).join(', ')}${AO_VIVO.rotinas.length ? ` <span class="vazio">(${AO_VIVO.rotinas.join(' · ')})</span>` : ''}`
+    : `<span class="vazio">● Ninguém trabalhando agora${AO_VIVO.ok === false ? ' (não consegui falar com o GitHub)' : ''}. Conferido às ${hora}.</span>`;
 }
 
 function destacar(id) {
@@ -387,16 +464,21 @@ function paineis() {
     <p class="vazio">Números do YouTube Studio, atualizados ${escY(Y.atualizado || '')}. Leitura da Luisa de ${escY(L.atualizado || '')}.</p>`
     : '<p class="vazio">&gt; Os números do canal entram na próxima rotina de visitas._</p>';
 
-  const rotulo = { trabalhando:'TRABALHOU HOJE', ocioso:'SEM TAREFA HOJE', dormindo:'DORMINDO', erro:'PRECISA DE AJUDA' };
+  const S = D.segura || {};
+  document.getElementById('tkstats').innerHTML = [
+    [S.publicados ?? 0, 'vídeos publicados'], [S.produzidos ?? 0, 'prontos para postar'], [S.fila ?? 0, 'roteiros na fila'],
+    [S.ideias ?? 0, 'ideias guardadas'], [S.ultimo || '—', 'último publicado'],
+  ].map(([n, r]) => `<div class="stat"><b style="font-size:${String(n).length > 6 ? 11 : 20}px">${escY(n)}</b>${r}</div>`).join('');
+  const rotulo = { trabalhando:'TRABALHANDO AGORA', ocioso:'DESCANSANDO', dormindo:'DORMINDO', erro:'PRECISA DE AJUDA' };
   const classe = { trabalhando:'ok', ocioso:'ocioso', dormindo:'ocioso', erro:'erro' };
   const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;' }[c]));
   document.getElementById('equipe').innerHTML = [CHEFE, ...AG].map(a => {
-    const st = a.id === 'chefe' ? (info('chefe').status === 'erro' ? 'erro' : (rodouHoje() ? 'trabalhando' : 'ocioso')) : estado(a.id);
+    const st = estado(a.id);
     return `<div class="agente" data-id="${a.id}">
       <div class="nome"><span class="cor" style="background:${a.cam}"></span>${a.nome.toUpperCase()}</div>
       <div class="cargo">${a.funcao !== a.nome ? a.funcao + ' · ' : ''}${a.cargo}</div>
       <span class="st ${classe[st]}">${rotulo[st]}</span>
-      <div class="tarefa">${esc(info(a.id).tarefa)}</div></div>`;
+      <div class="tarefa">${esc((AO_VIVO.agentes[a.id] || {}).tarefa || info(a.id).tarefa)}</div></div>`;
   }).join('');
   document.querySelectorAll('.agente').forEach(e => e.onclick = () => destacar(e.dataset.id));
 
@@ -419,6 +501,7 @@ function paineis() {
 }
 
 rotulos(); paineis(); quadro();
+atualizarAoVivo().then(paineis); setInterval(() => atualizarAoVivo().then(paineis), 60000);
 })();
 </script>
 </body>

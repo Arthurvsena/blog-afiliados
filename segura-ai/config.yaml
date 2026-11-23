@@ -1,0 +1,19 @@
+# Canal Segura Aí 3D (separado da Nexus e da Bíblia Animada). Lido por segura-ai/diario.py e pelas
+# skills segura-roteiros e segura-publicar. Mude aqui; o resto se ajusta sozinho.
+canal:
+  nome: "Segura Aí 3D"
+  tiktok_usuario: "@seguraai3d"      # a tarefa de publicação confere que esta é a conta aberta
+  conta_antiga: "@nexus_tech_ia"      # mesmo perfil antes de renomear (aceito enquanto o @ não muda)
+  descricao_curta: "Segurança do dia a dia em 3D. Aprenda rindo, viva seguro."
+
+producao:
+  videos_por_dia: 1
+  vozes: ["gemini:Fenrir", "gemini:Orus"]   # revezamento (mesmo teste A/B da Nexus)
+  fila_minima: 4              # abaixo disso, a produção pede roteiros novos ao roteirista
+  roteiros_por_lote: 7        # uma semana
+
+publicacao:
+  horario: "12:10"            # horário da tarefa agendada no Chrome (hora de Brasília)
+  rotulo_ia: true             # marcar "Conteúdo gerado por IA" no TikTok (a voz é de IA)
+
+hashtags_fixas: ["seguraai3d", "segurancadotrabalho", "animacao3d", "curiosidades"]

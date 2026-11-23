@@ -1,0 +1,82 @@
+name: Segura Aí 3D (vídeo do dia)
+
+# Disparado todo dia pela tarefa agendada "Disparar rotinas do blog e do canal" (o agendamento do GitHub atrasa horas),
+# ou à mão pela aba Actions. Monta o vídeo do dia (segura-ai/diario.py) e publica num Release segura-AAAA-MM-DD;
+# a tarefa "Segura Aí 3D: publicar" (Chrome do Arthur) posta no TikTok.
+on:
+  workflow_dispatch:
+    inputs:
+      quantos:
+        description: "Quantos vídeos montar"
+        default: "1"
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: segura
+  cancel-in-progress: false
+
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Ferramentas
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+          pip install -r requirements.txt numpy playwright
+          python -m playwright install --with-deps chromium
+      - name: Escritório: agentes do Segura Aí trabalhando
+        run: python3 scripts/escritorio.py trabalhando seg_animador seg_narrador "Montando o vídeo do dia do Segura Aí 3D"
+      - name: Conferir roteiros
+        run: python3 segura-ai/diario.py --checar
+      - name: Montar o vídeo do dia
+        run: python3 segura-ai/diario.py --saida _segura --quantos "${{ github.event.inputs.quantos || '1' }}"
+      - name: Publicar num Release (a tarefa do Chrome baixa daqui)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DIA=$(TZ=America/Sao_Paulo date +%Y-%m-%d)
+          ls _segura/*.mp4 >/dev/null 2>&1 || { echo "Nenhum vídeo montado hoje."; exit 0; }
+          if gh release view "segura-$DIA" >/dev/null 2>&1; then
+            gh release upload "segura-$DIA" _segura/*.mp4 _segura/*.txt _segura/*.json --clobber
+          else
+            gh release create "segura-$DIA" _segura/*.mp4 _segura/*.txt _segura/*.json --title "Segura Aí 3D $DIA" --notes "Vídeo do canal Segura Aí 3D montado em $DIA." --prerelease
+          fi
+      - name: Escritório: registrar o que foi feito
+        if: always()
+        run: |
+          N=$(ls _segura/*.mp4 2>/dev/null | wc -l)
+          if [ "$N" -gt 0 ]; then
+            python3 scripts/escritorio.py feito seg_animador "Animei $N vídeo(s) em 3D do Segura Aí: $(ls _segura/*.mp4 | xargs -n1 basename | sed 's/.mp4//' | tr '\n' ' ')"
+            python3 scripts/escritorio.py feito seg_narrador "Narrei com a voz do Gemini e mixei efeitos e trilha"
+          else
+            python3 scripts/escritorio.py erro seg_animador "Não consegui montar o vídeo hoje (veja o log do Actions)"
+            python3 scripts/escritorio.py parado seg_narrador "Sem vídeo para narrar hoje"
+          fi
+      - name: Salvar a fila e o escritório
+        if: always()
+        run: |
+          git config user.name "rotina-segura"
+          git config user.email "rotina-segura@users.noreply.github.com"
+          git add segura-ai/fila.json data/escritorio.json
+          git diff --cached --quiet || git commit -m "Segura Aí 3D: vídeo de $(TZ=America/Sao_Paulo date +%Y-%m-%d)"
+          git pull --rebase -X theirs origin main && git push
+      - name: Pedir roteiros novos se a fila estiver acabando
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          RESTANTES=$(cat _segura_restantes.txt 2>/dev/null || echo 99)
+          MINIMO=$(python3 -c "import yaml;print(yaml.safe_load(open('segura-ai/config.yaml'))['producao']['fila_minima'])")
+          if [ "$RESTANTES" -lt "$MINIMO" ]; then
+            echo "Fila com $RESTANTES roteiros: pedindo um lote novo."
+            gh workflow run segura-roteiros.yml --ref main || echo "não consegui disparar o roteirista"
+          fi

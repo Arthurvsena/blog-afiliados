@@ -1,0 +1,54 @@
+name: Segura Aí 3D (roteiros novos)
+
+# Escreve um lote de roteiros novos (skill segura-roteiros). Disparado sozinho pelo segura-diario.yml
+# quando a fila fica curta, ou à mão pela aba Actions.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: segura-roteiros
+  cancel-in-progress: false
+
+jobs:
+  roteiros:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Ferramentas (prévias das cenas)
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+          pip install -r requirements.txt numpy playwright
+          python -m playwright install --with-deps chromium
+      - name: Escritório: roteirista trabalhando
+        run: |
+          python3 scripts/escritorio.py trabalhando seg_roteirista "Escrevendo o lote de roteiros do Segura Aí 3D"
+          git config user.name "rotina-segura"
+          git config user.email "rotina-segura@users.noreply.github.com"
+      - name: Roteirista (Claude)
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          allowed_bots: "github-actions"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          show_full_output: true
+          prompt: "Escreva o lote de roteiros novos do canal Segura Aí 3D: leia .claude/skills/segura-roteiros/SKILL.md e siga todos os passos até o fim. Não faça commit: o workflow faz."
+          claude_args: |
+            --model sonnet
+            --max-turns 300
+            --disallowedTools "ScheduleWakeup,Monitor,CronCreate"
+            --allowedTools "Skill,Read,Write,Edit,Glob,Grep,WebSearch,WebFetch,Bash(python3 segura-ai/montar.py:*),Bash(python3 segura-ai/diario.py:*),Bash(python3 -c:*),Bash(ls:*)"
+      - name: Conferir e salvar
+        if: always()
+        run: |
+          python3 segura-ai/diario.py --checar || true
+          python3 scripts/escritorio.py feito seg_roteirista "Lote de roteiros do Segura Aí 3D pronto" --se-trabalhando
+          git add segura-ai/roteiros segura-ai/fila.json data/escritorio.json
+          git diff --cached --quiet || git commit -m "Segura Aí 3D: roteiros novos $(TZ=America/Sao_Paulo date +%Y-%m-%d)"
+          git pull --rebase -X theirs origin main && git push

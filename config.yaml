@@ -33,6 +33,12 @@ equipe:
   produtor: ""            # departamento de vídeo (falta apelido)
   roteirista: ""          # departamento de vídeo (falta apelido)
   tendencias: ""          # departamento de vídeo (falta apelido)
+  bib_roteirista: "Salmo"    # estúdio Bíblia Animada (apelidos provisórios)
+  bib_animador: "Pincel"
+  seg_roteirista: "Kiko"     # estúdio TikTok Segura Aí 3D (apelidos provisórios)
+  seg_animador: "Pixel"
+  seg_narrador: "Fenrir"
+  seg_publicador: "Zap"
 
 # A voz que assina todos os posts (pseudônimo, explicado na página Sobre).
 autor:

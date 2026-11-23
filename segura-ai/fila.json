@@ -1,0 +1,18 @@
+{
+ "_como_funciona": "roteiros: prontos em segura-ai/roteiros/, na ordem de produção. status: pronto -> produzido (data, release) -> publicado. ideias: o roteirista escreve de cima para baixo.",
+ "roteiros": [
+  {"slug": "trocar-lampada", "status": "pronto"}
+ ],
+ "ideias": [
+  {"slug": "panela-pegando-fogo", "tema": "Óleo da panela pegou fogo: jogar água (errado), abanar (errado), tampa + desligar o fogo (certo)", "placar": "FOGO"},
+  {"slug": "chuveiro-eletrico-choque", "tema": "Mexer no chuveiro elétrico ligado, com o pé molhado: desligar o disjuntor antes de trocar a resistência", "placar": "CHUVEIRO"},
+  {"slug": "benjamim-sobrecarga", "tema": "Benjamim com geladeira, micro-ondas e ar ligados: aquecimento, tomada derretida, circuito próprio", "placar": "TOMADA"},
+  {"slug": "escorregar-banheiro", "tema": "Banheiro molhado: chinelo errado, sem tapete antiderrapante, a barra de apoio e o piso seco", "placar": "PISO"},
+  {"slug": "botijao-vazamento", "tema": "Cheiro de gás: acender a luz (errado), testar com fósforo (errado), fechar o registro e abrir janelas (certo), teste com espuma de sabão", "placar": "GÁS"},
+  {"slug": "fio-no-chao", "tema": "Extensão atravessando o corredor: tropeço, fio esmagado, passar o fio rente à parede", "placar": "FIO"},
+  {"slug": "cabo-da-panela", "tema": "Cabo da panela virado para fora do fogão: criança puxa, queimadura, cabo para dentro e bocas de trás", "placar": "PANELA"},
+  {"slug": "extintor-certo", "tema": "Que extintor usar em casa: água em fogo elétrico (errado), as classes A, B e C explicadas", "placar": "FOGO"},
+  {"slug": "escada-domestica", "tema": "Escada doméstica: apoio errado, carregar peso subindo, os 3 pontos de apoio", "placar": "ESCADA"},
+  {"slug": "tomada-crianca", "tema": "Tomada sem protetor e criança curiosa: protetor de tomada e altura certa", "placar": "TOMADA"}
+ ]
+}

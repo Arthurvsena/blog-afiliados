@@ -140,3 +140,17 @@ e as skills `biblia-roteiros` (roteiros, GitHub Actions) e `biblia-publicar` (Ch
 Produção diária: workflow `biblia-diario.yml` (vídeos num Release `biblia-AAAA-MM-DD`); roteiros novos:
 `biblia-roteiros.yml`. Configuração em `canal-biblia/config.yaml`; fila em `canal-biblia/fila.json`.
 Os agentes da Nexus não mexem nessa pasta.
+
+## Canal Segura Aí 3D (TikTok, projeto separado)
+`segura-ai/` é o canal de TikTok de segurança do dia a dia em animação 3D (three.js), conta `@seguraai3d`
+(antes `@nexus_tech_ia`). **Não** usa a voz de Rafa Lins nem as regras de posts acima: segue
+`segura-ai/CATALOGO.md` e as skills `segura-roteiros` (roteiros, GitHub Actions) e `segura-publicar`
+(Chrome do dono, 1 vídeo por dia). Produção diária: workflow `segura-diario.yml` (vídeo num Release
+`segura-AAAA-MM-DD`); roteiros novos: `segura-roteiros.yml`. Os agentes da Nexus não mexem nessa pasta.
+
+## Escritório
+`site/templates/escritorio.html` mostra os departamentos (Redação, Métricas, Copa, Estúdio YouTube,
+Estúdio Bíblia, Estúdio TikTok). Um agente só anda e trabalha na tela quando a rotina dele está rodando
+de verdade: o escritório consulta as rotinas em andamento no GitHub Actions e o arquivo `data/ao_vivo.json`
+(tarefas no Chrome marcam com `python3 scripts/escritorio.py trabalhando AGENTE "tarefa"` + push e
+desmarcam com `feito`/`erro`). Agente novo = acrescentar em `AG` e `ROTINAS` no template e o apelido em `config.yaml > equipe`.
