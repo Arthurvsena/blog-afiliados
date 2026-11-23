@@ -48,19 +48,17 @@
     "analista": {
       "status": "ok",
       "tarefa": "Ontem (22/11) foram 4 visitas, todas diretas, 0 do Google. Semana no Cloudflare: 44 visitas, 4 do Google; CTR do Google em 0,2%."
+    },
+    "seg_animador": {
+      "status": "ok",
+      "tarefa": "Animei 1 vídeo(s) em 3D do Segura Aí: trocar-lampada "
+    },
+    "seg_narrador": {
+      "status": "ok",
+      "tarefa": "Narrei com a voz do Gemini e mixei efeitos e trilha"
     }
   },
   "historico": [
-    {
-      "data": "2026-11-13",
-      "agente": "viral",
-      "texto": "Dei as notas das pautas e escrevi os textos de rede dos 5 posts."
-    },
-    {
-      "data": "2026-11-14",
-      "agente": "pesquisador",
-      "texto": "Trouxe 5 notícias e 8 pautas novas para a fila."
-    },
     {
       "data": "2026-11-14",
       "agente": "redator",
@@ -350,6 +348,16 @@
       "data": "2026-11-23",
       "agente": "analista",
       "texto": "Leitura diária: 4 visitas em 22/11 (todas diretas); semana 44 visitas, 4 do Google; canal 4.395 views e +2 inscritos."
+    },
+    {
+      "data": "2026-11-23",
+      "agente": "seg_animador",
+      "texto": "Animei 1 vídeo(s) em 3D do Segura Aí: trocar-lampada "
+    },
+    {
+      "data": "2026-11-23",
+      "agente": "seg_narrador",
+      "texto": "Narrei com a voz do Gemini e mixei efeitos e trilha"
     }
   ]
 }
