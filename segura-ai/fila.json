@@ -3,10 +3,11 @@
  "roteiros": [
   {
    "slug": "trocar-lampada",
-   "status": "produzido",
+   "status": "publicado",
    "produzido": "2026-11-23",
    "release": "segura-2026-11-23",
-   "voz": "gemini:Fenrir"
+   "voz": "gemini:Fenrir",
+   "publicado": "2026-11-23 19:15 (agendado no TikTok)"
   }
  ],
  "ideias": [

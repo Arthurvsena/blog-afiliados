@@ -60,14 +60,13 @@
     "seg_roteirista": {
       "status": "ok",
       "tarefa": "Lote de roteiros do Segura Aí 3D pronto"
+    },
+    "seg_publicador": {
+      "status": "ok",
+      "tarefa": "Agendei o vídeo da lâmpada no TikTok para hoje às 19:15"
     }
   },
   "historico": [
-    {
-      "data": "2026-11-15",
-      "agente": "designer",
-      "texto": "Fotos e diagramação dos 7 posts."
-    },
     {
       "data": "2026-11-15",
       "agente": "pesquisador",
@@ -362,6 +361,11 @@
       "data": "2026-11-23",
       "agente": "curador",
       "texto": "Cadastrei 8 produtos com link: caixa Xiaomi Mi Compact 2 e JBL Tune 520BT (fones-caixas), 3 mouses Redragon sem fio (Cobra Pro, King Pro, Storm Pro), câmeras Tapo C200 e C210 e o Redmi Watch 5 Lite. Tomada Intelbras 20 A reprovada (sem avaliações)."
+    },
+    {
+      "data": "2026-11-23",
+      "agente": "seg_publicador",
+      "texto": "Agendei o vídeo da lâmpada no TikTok para hoje às 19:15"
     }
   ]
 }
