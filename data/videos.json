@@ -234,6 +234,20 @@
       "segundos": 66.1,
       "publica_em": "2026-11-23 09:00",
       "status": "programado"
+    },
+    {
+      "data": "2026-11-23",
+      "tipo": "short",
+      "quadro": "60s",
+      "numero": null,
+      "slug": "2026-11-23-samsung-galaxy-a-preco-2027",
+      "post": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
+      "titulo": "Galaxy A: preço pode subir até 19% em 2027 (rumor) #shorts",
+      "url": "https://youtube.com/shorts/Uv864LxSnWI",
+      "voz": "gemini:Fenrir",
+      "segundos": 47.9,
+      "publica_em": "2026-11-23 12:00",
+      "status": "programado"
     }
   ]
 }
