@@ -13,7 +13,7 @@ producao:
   roteiros_por_lote: 7        # uma semana
 
 publicacao:
-  horario: "12:10"            # horário da tarefa agendada no Chrome (hora de Brasília)
+  horario: "19:17"            # horário da tarefa agendada "Segura Aí 3D: publicar no TikTok (Chrome)"
   rotulo_ia: true             # marcar "Conteúdo gerado por IA" no TikTok (a voz é de IA)
 
 hashtags_fixas: ["seguraai3d", "segurancadotrabalho", "animacao3d", "curiosidades"]
