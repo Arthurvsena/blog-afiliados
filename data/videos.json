@@ -220,6 +220,20 @@
       "segundos": null,
       "publica_em": "2026-11-17 15:00",
       "status": "programado"
+    },
+    {
+      "data": "2026-11-22",
+      "tipo": "short",
+      "quadro": "historias",
+      "numero": 3,
+      "slug": "2026-11-22-historias-tech-3-tamagotchi",
+      "post": "",
+      "titulo": "História do Tamagotchi: 30 anos do bichinho virtual #shorts",
+      "url": "https://youtube.com/shorts/_ELOkUE0sAA",
+      "voz": "gemini:Orus",
+      "segundos": 66.1,
+      "publica_em": "2026-11-23 09:00",
+      "status": "programado"
     }
   ]
 }
