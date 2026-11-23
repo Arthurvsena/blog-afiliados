@@ -331,6 +331,263 @@
         "AdSense: sem dado (a página redirecionou para login; não fiz login)",
         "YouTube: 2 Shorts (GTA 6 212 GB e Black Friday) não estão em data/videos.json, voz desconhecida"
       ]
+    },
+    {
+      "semana": "2026-11-09",
+      "visitas": null,
+      "visualizacoes": null,
+      "cliques_ml": 16,
+      "pedidos": 0,
+      "google": null,
+      "paginas": [],
+      "consultas": [],
+      "produtos": [],
+      "origens": [],
+      "adsense": null,
+      "celular_pct": null,
+      "faltou": [
+        "Coletada retroativamente em 23/11 só no painel do ML (cliques e pedidos de 09 a 15/11)",
+        "Cloudflare, Search Console e YouTube desta semana não foram salvos (Cloudflare pedia login)"
+      ]
+    },
+    {
+      "semana": "2026-11-16",
+      "visitas": 44,
+      "visualizacoes": 44,
+      "cliques_ml": 12,
+      "pedidos": 1,
+      "google": {
+        "cliques": 3,
+        "impressoes": 1230,
+        "ctr": 0.2,
+        "posicao": 11.5
+      },
+      "paginas": [
+        {
+          "url": "/",
+          "visitas": 16,
+          "cliques_google": null,
+          "impressoes": null,
+          "posicao": null
+        },
+        {
+          "url": "/posts/melhores-power-banks-20000mah/",
+          "visitas": 5,
+          "cliques_google": null,
+          "impressoes": null,
+          "posicao": null
+        },
+        {
+          "url": "/posts/claro-multi-friday-iphone-17-21x-139-galaxy-s26-condicoes/",
+          "visitas": 3,
+          "cliques_google": 1,
+          "impressoes": 17,
+          "posicao": 10.9
+        },
+        {
+          "url": "/posts/carregador-usb-c-apple-qual-comprar/",
+          "visitas": 3,
+          "cliques_google": null,
+          "impressoes": null,
+          "posicao": null
+        },
+        {
+          "url": "/posts/carregador-turbo-iphone-usb-c-pd-qual-escolher/",
+          "visitas": 3,
+          "cliques_google": null,
+          "impressoes": null,
+          "posicao": null
+        },
+        {
+          "url": "/posts/xiaomi-hyperos-4-liberacao-lista-poco-x8-pro-brasil/",
+          "visitas": null,
+          "cliques_google": 1,
+          "impressoes": 92,
+          "posicao": 10.1
+        },
+        {
+          "url": "/posts/analise-ps4-vale-a-pena-em-2026/",
+          "visitas": null,
+          "cliques_google": 1,
+          "impressoes": 88,
+          "posicao": 5.0
+        },
+        {
+          "url": "/posts/melhores-power-banks/",
+          "visitas": null,
+          "cliques_google": 0,
+          "impressoes": 188,
+          "posicao": 6.3
+        },
+        {
+          "url": "/posts/analise-iphone-11-vale-a-pena-em-2026/",
+          "visitas": null,
+          "cliques_google": 0,
+          "impressoes": 132,
+          "posicao": 8.0
+        },
+        {
+          "url": "/posts/como-configurar-alexa-echo-dot-primeira-vez/",
+          "visitas": null,
+          "cliques_google": 0,
+          "impressoes": 117,
+          "posicao": 12.8
+        },
+        {
+          "url": "/posts/melhores-lampadas-inteligentes-alexa/",
+          "visitas": null,
+          "cliques_google": 0,
+          "impressoes": 87,
+          "posicao": 14.0
+        },
+        {
+          "url": "/posts/analise-alexa-plus-brasil-vale-a-pena-assinar/",
+          "visitas": null,
+          "cliques_google": 0,
+          "impressoes": 57,
+          "posicao": 16.6
+        },
+        {
+          "url": "/posts/como-desativar-ia-celular-samsung-android/",
+          "visitas": null,
+          "cliques_google": 0,
+          "impressoes": 29,
+          "posicao": 4.9
+        },
+        {
+          "url": "/posts/fone-tws-so-funciona-um-lado/",
+          "visitas": null,
+          "cliques_google": 0,
+          "impressoes": 28,
+          "posicao": 11.9
+        }
+      ],
+      "consultas": [
+        {
+          "termo": "what is the best power bank",
+          "cliques": 0,
+          "impressoes": 81,
+          "posicao": 5.3
+        },
+        {
+          "termo": "como configurar alexa echo dot",
+          "cliques": 0,
+          "impressoes": 42,
+          "posicao": 11.0
+        },
+        {
+          "termo": "lampada alexa",
+          "cliques": 0,
+          "impressoes": 33,
+          "posicao": 11.9
+        },
+        {
+          "termo": "best high end power bank",
+          "cliques": 0,
+          "impressoes": 17,
+          "posicao": 5.9
+        },
+        {
+          "termo": "iphone 11 compensa em 2026",
+          "cliques": 0,
+          "impressoes": 16,
+          "posicao": 8.6
+        },
+        {
+          "termo": "best trending power bank",
+          "cliques": 0,
+          "impressoes": 13,
+          "posicao": 5.1
+        },
+        {
+          "termo": "compensa comprar iphone 11 em 2026",
+          "cliques": 0,
+          "impressoes": 13,
+          "posicao": 7.5
+        },
+        {
+          "termo": "best most popular power bank",
+          "cliques": 0,
+          "impressoes": 12,
+          "posicao": 5.2
+        },
+        {
+          "termo": "best advanced power bank",
+          "cliques": 0,
+          "impressoes": 12,
+          "posicao": 5.3
+        },
+        {
+          "termo": "lampada inteligente alexa",
+          "cliques": 0,
+          "impressoes": 12,
+          "posicao": 14.2
+        }
+      ],
+      "produtos": [
+        {
+          "id": null,
+          "nome": "Balança de precisão digital de cozinha 5 kg (venda indireta, fora do catálogo)",
+          "cliques": null,
+          "pedidos": 1
+        }
+      ],
+      "origens": [
+        {
+          "origem": "direto",
+          "visitas": 37
+        },
+        {
+          "origem": "google",
+          "visitas": 4
+        },
+        {
+          "origem": "facebook",
+          "visitas": 2
+        },
+        {
+          "origem": "whatsapp (l.wl.co)",
+          "visitas": 1
+        }
+      ],
+      "adsense": null,
+      "celular_pct": 39,
+      "youtube": {
+        "views": 168,
+        "horas": 1.1,
+        "inscritos": 0,
+        "videos": [
+          {
+            "slug": "2026-11-13-vivo-satelite-starlink-celular",
+            "views": 43,
+            "retencao_pct": null,
+            "ctr": null,
+            "voz": null
+          },
+          {
+            "slug": "2026-11-16-cnh-digital-blitz-print-nao-vale",
+            "views": 35,
+            "retencao_pct": null,
+            "ctr": null,
+            "voz": "gemini:Fenrir"
+          },
+          {
+            "slug": "2026-11-15-historias-tech-2-xbox",
+            "views": 4,
+            "retencao_pct": null,
+            "ctr": null,
+            "voz": null
+          }
+        ]
+      },
+      "faltou": [
+        "Search Console mostra 15 a 21/11 (atraso de 2 dias do Google); só há propriedade de prefixo https://nexustechai.com.br/, a de domínio não está verificada",
+        "Consultas: as 3 com clique são anônimas; top 10 por impressões",
+        "Cloudflare: só as 5 páginas mais vistas; visualizações = visitas (44)",
+        "AdSense: sem dado (site ainda não aprovado; painel pede para corrigir dados do site)",
+        "ML: sem clique por produto; o pedido foi venda indireta de produto fora do catálogo",
+        "YouTube: retenção e CTR por vídeo não coletados (views da lista de Shorts, total desde a publicação)"
+      ]
     }
   ]
 }

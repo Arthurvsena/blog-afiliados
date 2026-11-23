@@ -201,3 +201,4 @@ Miniaturas: a Luisa só lê o resultado do "Testar e comparar" do YouTube Studio
 ## 10. Aprendizados (a Luisa preenche toda segunda)
 > Começa vazio. Ex.: "Ganchos com pergunta de preço retêm mais que ganchos com especificação."
 - 2026-11-09 (hipótese, amostra de 7 vídeos): Shorts que abrem com um fato concreto (Sony/PS5 usado, 63,4% assistido; iPhone Duo, 58,5%) retêm mais que os de lançamento (Ocarina, 48,1%). Testar uma variável por vez.
+- 2026-11-23 (hipótese, 8 vídeos do 60s): os dois 60s que mais seguraram abrem com um número grande na primeira frase (Vivo Satélite, 106,6%; PS5 100 milhões, 85,7%); os que abrem com regra ou dúvida de data ficaram em 41,0% e 44,6%. Variável da semana: número na primeira frase em todos os 60s.

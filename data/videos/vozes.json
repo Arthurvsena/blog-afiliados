@@ -4,7 +4,7 @@
     "gemini:Fenrir": 0.5,
     "gemini:Orus": 0.5
   },
-  "decisao": "2026-11-09: menos de 10 vídeos por voz (Fenrir 6, Orus 3). Shorts: Fenrir 54,8% de retenção (4 vídeos) contra Orus 44,6% (1 vídeo). Amostra pequena: mantém 50/50.",
+  "decisao": "2026-11-23: menos de 10 vídeos por voz (Fenrir 8, Orus 6). Shorts: Orus 62,5% de retenção (3 vídeos) contra Fenrir 53,2% (6 vídeos), 17% a mais para Orus, mas na semana de 09/11 a vantagem era do Fenrir. Longos: Orus 27,1% (2) contra Fenrir 19,6% (2). Amostra pequena e sem 2 semanas seguidas: mantém 50/50.",
   "historico": [
     {
       "data": "2026-11-09",
@@ -13,6 +13,14 @@
         "gemini:Orus": 0.5
       },
       "motivo": "2026-11-09: menos de 10 vídeos por voz (Fenrir 6, Orus 3). Shorts: Fenrir 54,8% de retenção (4 vídeos) contra Orus 44,6% (1 vídeo). Amostra pequena: mantém 50/50."
+    },
+    {
+      "data": "2026-11-23",
+      "pesos": {
+        "gemini:Fenrir": 0.5,
+        "gemini:Orus": 0.5
+      },
+      "motivo": "2026-11-23: menos de 10 vídeos por voz (Fenrir 8, Orus 6). Shorts: Orus 62,5% de retenção (3 vídeos) contra Fenrir 53,2% (6 vídeos), 17% a mais para Orus, mas na semana de 09/11 a vantagem era do Fenrir. Longos: Orus 27,1% (2) contra Fenrir 19,6% (2). Amostra pequena e sem 2 semanas seguidas: mantém 50/50."
     }
   ]
 }

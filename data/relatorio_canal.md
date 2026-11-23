@@ -1,58 +1,65 @@
-# Relatório do canal Nexus Tech IA: semana de 2 a 8/11/2026 (Produtor)
+# Relatório do canal Nexus Tech IA: semana de 16 a 22/11/2026 (Produtor)
 
-Fonte: `data/metricas.json` (youtube), `data/visitas.json`, `data/videos.json`, `data/videos/vozes.json`. É a primeira semana medida, então não há comparação com semana anterior. Amostra pequena: os números mostram direção, não prova.
+Fontes: `data/metricas.json` (semana 2026-11-16, `youtube`), `data/youtube.json` (28 dias até 22/11), `data/leitura_canal.json`, `data/visitas.json`, `data/videos.json`, `data/videos/vozes.json` e a pasta `data/videos/roteiros/`. Retenção e CTR por vídeo não foram coletados nesta semana. As views por vídeo são o total desde a publicação, não só da semana. Amostra pequena: os números mostram direção, não prova.
 
 ## 1. Resumo
-| Número | Semana |
-|---|---|
-| Views | 2.483 |
-| Horas assistidas | 8,7 |
-| Inscritos novos | 1 |
-| Impressões / CTR | 1.549 / 1,4% |
-| Visitas ao blog vindas do YouTube | 0 (origens do blog: 19 diretas, 15 Google) |
-
-Leitura: o canal já entrega views, mas **não converte em inscrito nem em visita ao blog**. 1 inscrito em 2.483 views e zero visitas vindas do YouTube. Esse é o ponto fraco a atacar, pois nossa meta é acessos.
-
-## 2. Vídeos que mais funcionaram
-| Vídeo | Views | Retenção | CTR |
+| Número | 16 a 22/11 | 2 a 8/11 | Variação |
 |---|---|---|---|
-| Sony recompra PS5 usado (não chega ao Brasil) | 1.130 | 63,4% | 5,5% |
-| Ocarina of Time no Switch 2 | 474 | 48,1% | 0,0% |
-| iPhone Duo, 234 mil dobras | 374 | 58,5% | 1,2% |
-| Histórias Tech #1 (Orkut) | 332 | 49,3% | 1,6% |
+| Views | 168 | 2.483 | -93% |
+| Horas assistidas | 1,1 | 8,7 | -87% |
+| Inscritos novos | 0 | 1 | -1 |
+| Impressões / CTR | não coletado | 1.549 / 1,4% | n/a |
+| Visitas ao blog vindas do YouTube | 0 | 0 | igual |
 
-- Sozinho, o Short da Sony traz 45% das views da semana. O padrão: **fato concreto + ângulo Brasil ("não chega aqui")**, com CTR 5,5%.
-- Os Shorts de lançamento/preço sem tensão (Ocarina) tiveram retenção mais baixa (48,1%).
-- Os piores: Chromagraph (longo "Lá Fora, Aqui"), 7 views e 24,6% de retenção; GTA 6 datas, 53 views e 44,6%.
-- Atenção: o GTA 6 "212 GB" (92 views, CTR 10,5%, retenção 40,8%) e o "Black Friday: 3 sinais de oferta falsa" (15 views, CTR 7,4%) têm CTR alto, ou seja, o tema/título atrai, mas a retenção é fraca. Os dois não estão em `data/videos.json` (ver ação 4).
+A semana de 9 a 15/11 não tem número do YouTube em `metricas.json`. Na janela de 28 dias (`youtube.json`) o canal tem 4.395 views, 51,9% assistido, CTR de capa de 2,0% e +2 inscritos. De 16/11 para 23/11 a janela de 28 dias só subiu 145 views (4.250 para 4.395), o que bate com a semana fraca.
 
-## 3. Short x longo
-- Shorts: quase todas as views (2.4 mil+). Retenção de 41% a 63%.
-- Longos: muito fracos. Smartband x smartwatch: 6 views (retenção boa, 72,3%, mas sem público); Chromagraph: 7 views (24,6%). Dois uploads do smartband com o mesmo título dividiram a audiência (5 + 1 views); o duplicado deve ser removido ou ficar privado.
-- Hipótese: longo novo sem inscritos depende de busca; só vale com termo do vidIQ com demanda medida e título com a palavra-chave. Chromagraph (pauta de nicho) não tinha demanda provada.
+**Por que a semana caiu: quase não publicamos.** A grade pede 9 vídeos por semana (`config.yaml > video.grade`). Em `data/videos.json` só há 2 vídeos novos na semana: CNH digital (16/11) e Histórias Tech #3, Tamagotchi (22/11). Os roteiros de 17 a 21/11 foram escritos e 7 deles não aparecem nem em `videos.json` nem na lista do YouTube Studio (`youtube.json`):
+- 17/11: tutorial "Como desbloquear o celular quando esquece a senha" e 60s "PS Store do PS3 e do Vita vai fechar"
+- 18/11: 60s "PS5 atualização 14.23"
+- 19/11: 60s "GTA 6 golpes: 3 armadilhas no lançamento" e Lá Fora "Memória RAM: preço em alta por causa da IA"
+- 20/11: 60s "GTA 6 autosave falha"
+- 21/11: Histórias Tech "Blockbuster x Netflix"
+
+Antes de tirar qualquer conclusão de tema ou voz, é preciso saber onde a publicação (parte B da skill `canal-diario`, no Chrome do dono) parou. Sem vídeo no ar, não há views para medir.
+
+## 2. Vídeos da semana e os que trouxeram gente ao blog
+**Ao blog: nenhum.** `data/visitas.json` não tem nenhuma visita com origem YouTube em todo o período medido, e a semana inteira (44 visitas) também teve 0. Não há "3 vídeos que mais trouxeram gente ao blog" para listar. É a terceira semana seguida com zero, e o motivo é concreto: CNH digital, Vivo Satélite, Histórias Tech #2 e #3 estão em `videos.json` com `post` vazio, ou seja, sem matéria do blog ligada ao vídeo.
+
+Views (total desde a publicação, coleta de `metricas.json`, com o % assistido de `youtube.json`):
+| Vídeo | Quadro | Views | % assistido | CTR da capa |
+|---|---|---|---|---|
+| Vivo Satélite: 10 milhões já usaram (13/11) | 60s | 43 | 106,6% | 1,3% (309 impressões) |
+| CNH digital na blitz: print não vale (16/11) | 60s | 35 | 41,0% | 1,9% (156 impressões) |
+| Histórias Tech #2: Xbox (15/11) | historias | 4 | 69,0% | 0% (45 impressões) |
+| Histórias Tech #3: Tamagotchi (22/11) | historias | sem dado | sem dado | sem dado |
+
+- **Vivo Satélite** é o melhor sinal da semana: 0:32 de vídeo e as pessoas assistem mais de uma vez (106,6%). Abre com um número grande ("10 milhões").
+- **CNH digital** abre com uma regra e perde mais da metade do público (41,0%), o pior 60s da janela.
+- **Xbox** segura (69,0%), mas ninguém clicou na capa: o problema é título e capa, não o vídeo.
+
+## 3. Short x longo (28 dias, `youtube.json`)
+| Formato | Vídeos | Views | Horas | Inscritos | % assistido médio | Impressões |
+|---|---|---|---|---|---|---|
+| Short | 14 | 4.181 | 14,9 | 2 | 59,3% | 1.732 |
+| Longo | 5 | 214 | 2,3 | 1 | 23,1% | 3.265 |
+
+- **O Short é o que funciona**: 95% das views e 87% das horas.
+- **O longo recebe impressões e perde a pessoa no começo**: 3.265 impressões (mais que os Shorts), mas 23,1% assistido. Smartband x smartwatch teve 1.854 impressões e 2,2% de CTR, ou seja, a capa chama e o começo não segura.
+- **Lá Fora, Aqui é o pior quadro**: Chromagraph (10 views, 24,6%) e Xiaomi 18 Pro Max (7 views, 14,5%). Média de 8 views.
+- **Tutorial é o único longo com sinal bom**: "Como ter vários WhatsApp no iOS" teve 4,6% de CTR em 522 impressões e trouxe 1 inscrito com só 71 views.
 
 ## 4. Vozes Fenrir x Orus (decisão da Luisa em `data/videos/vozes.json`)
-Menos de 10 vídeos por voz (Fenrir 6, Orus 3). Nos Shorts, Fenrir 54,8% de retenção (4 vídeos) contra Orus 44,6% (1 vídeo). Amostra pequena demais: **mantém 50/50**. Não tirar conclusão ainda; a diferença pode ser do tema, não da voz (o melhor vídeo, Sony, foi com Fenrir, mas o pior, Chromagraph, também).
+Vídeos por voz: Fenrir 8, Orus 6, menos de 10 cada. Nos Shorts, Orus teve 62,5% assistido (3 vídeos) contra 53,2% do Fenrir (6 vídeos), 17% a mais para o Orus. Nos longos, Orus 27,1% (2) contra Fenrir 19,6% (2). Na semana de 9/11 a vantagem era do Fenrir. **Sem 10 vídeos por voz e sem 2 semanas seguidas na mesma direção, fica 50/50.**
 
-## 5. Aprendizados (para a seção 10 do manual)
-1. Gancho de "fato concreto + não chega ao Brasil" é o que gera clique (CTR 5,5%) e retenção (63%).
-2. CTR alto com retenção baixa (GTA 6 212 GB, Black Friday) = título promete mais que o começo do vídeo entrega; o gancho precisa trazer a promessa logo.
-3. Longos sem demanda de busca provada não andam.
+Para a medida valer na próxima segunda: Vivo Satélite e Histórias Tech #2 estão com `voz` vazia em `videos.json`, e os Shorts "GTA 6 212 GB" e "Black Friday: 3 sinais de oferta falsa" seguem sem registro. São 4 vídeos que a Luisa não consegue contar por voz.
 
-## 6. Recomendações para a próxima semana (uma variável por vez)
-**Para `tendencias`**
-- Priorizar para o "Nexus em 60s" pautas do tipo "[empresa] faz X, mas não no Brasil" / "chega aqui? por quanto?" (padrão do vídeo da Sony). Marcar essas pautas com nota mais alta.
-- Para os longos de terça (tutorial) e quinta (Lá Fora): só pauta com termo do `data/vidiq.json` com volume alto e concorrência baixa. Sem termo medido, não entra.
-- Black Friday e GTA 6 (pré-download) mostraram CTR alto: manter pautas dessa semana de Black Friday (golpe/oferta falsa, como conferir preço), que também puxam o guia de compras do blog.
+## 5. Aprendizados
+1. Número grande na primeira frase segura o 60s (Vivo Satélite 106,6%, PS5 100 milhões 85,7%). Abrir com regra ou dúvida de data derruba (CNH 41,0%, GTA 6 datas 44,6%). É a variável da semana definida pela Luisa.
+2. Histórias Tech retém (Xbox 69,0%), mas depende da capa e do título: Xbox teve 0% de CTR, Orkut teve 1,3% e 348 views.
+3. Views sem link para o blog não viram acesso: 4.395 views em 28 dias e 0 visitas no site.
+4. Sem publicação diária o canal some: a semana com 2 uploads fez 168 views.
 
-**Para `roteirista`**
-- Abrir o Short com o dado concreto na primeira frase e a promessa do título já nos primeiros 2 segundos (corrige o caso GTA 6 e Black Friday).
-- Teste de variável única: no "Nexus em 60s", comparar gancho "fato + não chega ao Brasil" contra gancho de lançamento/preço, mantendo o resto igual.
-- Todo vídeo: levar a pessoa ao blog. O YouTube trouxe 0 visitas; a chamada do Short deve citar o post relacionado quando houver (link da bio) e a descrição do longo deve ter o link para o guia/post.
-- Evitar repetir o formato do Ocarina (lançamento + preço sem tensão). Histórias Tech #2: tema com virada forte e dado em 2 fontes (o #1 do Orkut teve 49,3%; o Ato 2 deve ser mais curto).
-
-## 7. Ações para o Produtor/equipe
-1. Remover ou deixar privado o upload duplicado do smartband.
-2. Cadastrar em `data/videos.json` os Shorts "GTA 6 212 GB" e "Black Friday: 3 sinais de oferta falsa" (voz desconhecida; a Luisa não consegue medir voz sem isso).
-3. Não programar mais longo "Lá Fora" sem termo vidIQ validado; no lugar, repetir um tutorial de terça com busca clara.
-4. Pedir ao `viral` textos de divulgação do Short da Sony (o melhor da semana) para as redes, apontando para o post relacionado.
+## 6. Três ações para a semana de 23 a 29/11 (Black Friday em 27/11)
+1. **Publicar a grade inteira e registrar tudo** (meta: acessos). Descobrir com o dono por que os vídeos de 17 a 21/11 não foram ao ar (parte B da `canal-diario`) e voltar a 1 vídeo por quadro do dia. Do que ficou parado, ainda valem o tutorial de desbloquear o celular (busca "como..." perene), o Blockbuster x Netflix (história perene) e os golpes do GTA 6, que puxam para a semana da Black Friday. O "PS5 14.23, véspera do GTA 6" venceu e sai da fila. Todo vídeo publicado entra em `videos.json` com `voz` e `post` preenchidos, e quem publicar completa a voz do Vivo Satélite e do Xbox e cadastra os dois Shorts antigos sem registro. Ainda aparece no canal um segundo upload do Smartband (1 view), que deve ficar privado.
+2. **Todo Short leva ao blog e pede para seguir** (meta: acessos e engajamento). A escolha da pauta passa a exigir um post relacionado no blog. Sem post, a pauta só entra se for muito forte. O post vai no comentário fixado e na descrição, e o fim tem uma chamada com motivo concreto ("amanhã tem o próximo"), como a Luisa pediu (mural #104). Nesta semana, os 60s de Black Friday (golpe, preço falso, como conferir oferta) apontam para o guia da Black Friday do blog. Objetivo: a primeira visita com origem YouTube em `visitas.json`.
+3. **Uma variável só, e o Lá Fora pausado** (meta: engajamento). Todos os 60s com 30 a 40 s e um número na primeira frase, comparados com a média de 62,5%. Na quinta (26/11), no lugar do Lá Fora, Aqui, entra um tutorial "como fazer" com termo do `data/vidiq.json`. O roteiro do RAMageddon fica guardado e não sai como Lá Fora nesta semana. Nos longos, a resposta aparece nos primeiros 15 segundos. No Histórias Tech #4, título com ano ou número e capa revisada antes de publicar (o Xbox teve 0% de CTR).

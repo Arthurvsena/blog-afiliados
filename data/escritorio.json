@@ -10,8 +10,8 @@
       "tarefa": "Trouxe 5 pautas de notícia (GTA 6 vendas, Anatel e SMS, Edge 70 Neo, GPT-6.2 e Google Tasks); a fila ficou com 5 pautas e precisa de reposição."
     },
     "curador": {
-      "status": "ocioso",
-      "tarefa": "Não fui chamado: as sugestões de produtos de ontem seguem esperando o dono cadastrar."
+      "status": "ok",
+      "tarefa": "Cadastrei 8 produtos com link: caixa Xiaomi Mi Compact 2 e JBL Tune 520BT (fones-caixas), 3 mouses Redragon sem fio (Cobra Pro, King Pro, Storm Pro), câmeras Tapo C200 e C210 e o Redmi Watch 5 Lite. Tomada Intelbras 20 A reprovada (sem avaliações)."
     },
     "redator": {
       "status": "ok",
@@ -47,7 +47,7 @@
     },
     "analista": {
       "status": "ok",
-      "tarefa": "Ontem (22/11) foram 4 visitas, todas diretas, 0 do Google. Semana no Cloudflare: 44 visitas, 4 do Google; CTR do Google em 0,2%."
+      "tarefa": "Semana 16-22/11: 44 visitas, 12 cliques no ML e o 1º pedido (venda indireta). Google em CTR 0,2%. Meta: 20 cliques na Black Friday."
     },
     "seg_animador": {
       "status": "ok",
@@ -63,16 +63,6 @@
     }
   },
   "historico": [
-    {
-      "data": "2026-11-15",
-      "agente": "viral",
-      "texto": "Notas das pautas e textos de rede dos 7 posts."
-    },
-    {
-      "data": "2026-11-15",
-      "agente": "seo",
-      "texto": "Revisei títulos, descrições e links dos 7 posts."
-    },
     {
       "data": "2026-11-15",
       "agente": "designer",
@@ -362,6 +352,16 @@
       "data": "2026-11-23",
       "agente": "viral",
       "texto": "Escrevi os textos de rede social dos 9 posts de hoje."
+    },
+    {
+      "data": "2026-11-23",
+      "agente": "analista",
+      "texto": "Fechei o relatório da semana: 44 visitas, 12 cliques no ML, 1º pedido; meta de 20 cliques na semana da Black Friday."
+    },
+    {
+      "data": "2026-11-23",
+      "agente": "curador",
+      "texto": "Cadastrei 8 produtos com link: caixa Xiaomi Mi Compact 2 e JBL Tune 520BT (fones-caixas), 3 mouses Redragon sem fio (Cobra Pro, King Pro, Storm Pro), câmeras Tapo C200 e C210 e o Redmi Watch 5 Lite. Tomada Intelbras 20 A reprovada (sem avaliações)."
     }
   ]
 }
