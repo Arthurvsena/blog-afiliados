@@ -1,0 +1,110 @@
+{
+ "tipo": "short",
+ "quadro": "60s",
+ "slug": "2026-11-23-samsung-galaxy-a-preco-2027",
+ "post": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
+ "titulo": "Galaxy A: preço pode subir até 19% em 2027 (rumor) #shorts",
+ "resumo": "Samsung avalia subir até 19% o preço dos Galaxy A a partir de 1º de janeiro de 2027, segundo relatos da imprensa sul-coreana. É rumor: a Samsung não confirmou. O motivo seria a memória mais cara.",
+ "hashtags": [
+  "Samsung",
+  "GalaxyA",
+  "BlackFriday",
+  "Celulares"
+ ],
+ "fontes": [
+  {
+   "nome": "Canaltech",
+   "url": "https://canaltech.com.br/smartphone/samsung-pode-aumentar-precos-dos-celulares-galaxy-a-em-ate-19-em-2027/"
+  },
+  {
+   "nome": "iPhone in Canada (cita SEDaily)",
+   "url": "https://www.iphoneincanada.ca/2026/11/17/samsung-to-raise-galaxy-a-prices-by-up-to-19-because-of-memory-costs/"
+  },
+  {
+   "nome": "Samsung Brasil, linha Galaxy A",
+   "url": "https://www.samsung.com/br/smartphones/galaxy-a/"
+  },
+  {
+   "nome": "Foto do Galaxy A17 5G: Captainmorlypogi1959/Wikimedia Commons (CC BY-SA 4.0)",
+   "url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A17_5G_2026.jpg"
+  }
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O Galaxy A, da Samsung, pode ficar até {19%|dezenove por cento} mais caro em janeiro.",
+   "tela": "Galaxy A até 19% mais caro?",
+   "imagens": [
+    "content/imagens/galaxy-a07-vale-a-pena-review.jpg"
+   ]
+  },
+  {
+   "tipo": "fato",
+   "fala": "É rumor: a Samsung não confirmou. A imprensa sul-coreana diz que a empresa avalia reajustar a linha Galaxy A.",
+   "tela": "Rumor: a Samsung não confirmou",
+   "imagens": [
+    "tela:https://www.samsung.com/br/smartphones/galaxy-a/"
+   ],
+   "fonte": "Canaltech, 18/11"
+  },
+  {
+   "tipo": "manchete",
+   "fala": "Pelo relato, o aumento começaria em primeiro de janeiro de dois mil e vinte e sete.",
+   "manchete": {
+    "url": "https://canaltech.com.br/smartphone/samsung-pode-aumentar-precos-dos-celulares-galaxy-a-em-ate-19-em-2027/",
+    "trecho": "Por enquanto, os reajustes seguem em avaliação e não representam uma confirmação oficial da Samsung."
+   }
+  },
+  {
+   "tipo": "comparativo",
+   "fala": "O Galaxy A17 5G subiria {18,6%|dezoito vírgula seis por cento}. O A57, {9,1%|nove vírgula um por cento}.",
+   "itens": [
+    {
+     "valor": "+18,6%",
+     "rotulo": "Galaxy A17 5G"
+    },
+    {
+     "valor": "+9,1%",
+     "rotulo": "Galaxy A57"
+    }
+   ],
+   "imagens": [
+    "content/imagens/galaxy-a17-5g-wikimedia.jpg"
+   ],
+   "fonte": "Canaltech, 18/11 (rumor)"
+  },
+  {
+   "tipo": "numero",
+   "fala": "Em dólar, seriam {US$ 30 a 60|trinta a sessenta dólares} a mais por aparelho.",
+   "destaque": "US$ 30 a 60",
+   "rotulo": "a mais por aparelho (rumor)",
+   "imagens": [
+    "content/imagens/black-friday-2026-eletronicos-como-nao-cair-em-preco-falso.jpg"
+   ],
+   "fonte": "Canaltech, 18/11"
+  },
+  {
+   "tipo": "info",
+   "fala": "O motivo seria a memória do celular, que ficou mais cara por causa da demanda da inteligência artificial.",
+   "icone": "chip",
+   "fonte": "Canaltech, 18/11",
+   "imagens": []
+  },
+  {
+   "tipo": "fato",
+   "fala": "Rumor não é preço final. Mas por isso a Black Friday merece olho de lince: preço falso e promessa velha enganam.",
+   "imagens": [
+    "content/imagens/black-friday-2026-eletronicos-como-nao-cair-em-preco-falso.jpg"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "fala": "No link da bio tem como não cair em preço falso. E eu sigo essa série de preços da Black Friday. Será que a Samsung confirma o Galaxy A até dezenove por cento mais caro?",
+   "tela": "Você compraria antes de janeiro?",
+   "imagens": [
+    "content/imagens/galaxy-a07-vale-a-pena-review.jpg"
+   ]
+  }
+ ],
+ "palavra_chave": "galaxy a preço 2027"
+}

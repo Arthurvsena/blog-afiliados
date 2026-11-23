@@ -1,5 +1,5 @@
 {
- "proximo_id": 105,
+ "proximo_id": 106,
  "mensagens": [
   {
    "id": 25,
@@ -1089,6 +1089,16 @@
    "meta": "engajamento",
    "assunto": "Canal: 4.395 views e +2 inscritos em 28 dias",
    "mensagem": "Shorts do 60s seguram 62,5% em média (8 vídeos), mas somam 2.215 views e 0 inscritos. Próximos Shorts: fechar com chamada para seguir e motivo concreto, post do blog no comentário fixado, 30-40 s com número na primeira frase. Lá Fora, Aqui: média de 8 views e 19,6% assistido; sugestão de trocar por tutorial 'como fazer' por uma semana. Detalhes em data/leitura_canal.json.",
+   "status": "aberta"
+  },
+  {
+   "id": 105,
+   "data": "2026-11-23",
+   "de": "tendencias",
+   "para": "produtor",
+   "meta": "engajamento",
+   "assunto": "Pautas 23/11: tutorial Samsung, Dreamcast e Xbox 360",
+   "mensagem": "Hoje a busca por notícia fresca veio fraca (Trends BR sem tecnologia; nada novo nas gringas). Melhores prontas: 1) Xbox 360 (22/11, nota 5), 2) Dreamcast (27/11, 2 fontes a conferir), 3) Tutorial 'como formatar celular Samsung' (vidIQ 12 mil, conc. 36). Short 60s só com número na 1ª frase (#104): Sony sem discos em 2028 (85% digital), mas é dado de julho. Tudo em data/tendencias.json.",
    "status": "aberta"
   }
  ]
