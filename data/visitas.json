@@ -1541,9 +1541,9 @@
         }
       },
       "faltou": [
-        "Cloudflare: janela 'últimas 24 horas' (22/11 02:29 a 23/11 02:29 BRT), não o dia civil exato",
-        "Search Console: 22/11 ainda não disponível; usado 21/11"
-      ]
+        "Search Console: 22/11 ainda não disponível em 23/11 07:45; usado 21/11"
+      ],
+      "cloudflare_conferido": "dia civil 22/11 00:00-23:59 BRT (conferido às 07:45 de 23/11, igual à janela de 24h)"
     }
   ]
 }

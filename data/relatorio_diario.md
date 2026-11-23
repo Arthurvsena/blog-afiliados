@@ -1,7 +1,7 @@
 # Relatório diário: leitura de ontem (22/11), feita em 2026-11-23 (Luisa)
 
 ## Aviso sobre a base de comparação
-O Cloudflare voltou a abrir depois de pedir login desde 12/11. Os dias 16 a 21/11 **não têm registro diário**, então não dá para fazer a média dos 7 dias anteriores dia a dia. A comparação abaixo usa o bloco de 7 dias do próprio Cloudflare (`semana_cloudflare`, 16/11 a 23/11), que **inclui o dia 22**. O dado de ontem é a janela "últimas 24 horas" (22/11 02:29 a 23/11 02:29), não o dia civil exato.
+O Cloudflare voltou a abrir depois de pedir login desde 12/11. Os dias 16 a 21/11 **não têm registro diário**, então não dá para fazer a média dos 7 dias anteriores dia a dia. A comparação abaixo usa o bloco de 7 dias do próprio Cloudflare (`semana_cloudflare`, 16/11 a 23/11), que **inclui o dia 22**. O dado de ontem foi conferido às 07:45 no dia civil (22/11, 00:00 a 23:59 de Brasília) e bate com a janela de 24 horas: 4 visitas.
 
 ## 1. Ontem em números (22/11)
 - **4 visitas, 4 visualizações, 1,0 página por visita.** Todas diretas (0 do Google, 0 de redes). 1 de 4 no celular (25%).
