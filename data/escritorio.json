@@ -47,15 +47,10 @@
     },
     "analista": {
       "status": "ok",
-      "tarefa": "Reunião: Sem Cloudflare desde 12/11; Google 12–15/11: 4 cliques e 805 impressões."
+      "tarefa": "Ontem (22/11) foram 4 visitas, todas diretas, 0 do Google. Semana no Cloudflare: 44 visitas, 4 do Google; CTR do Google em 0,2%."
     }
   },
   "historico": [
-    {
-      "data": "2026-11-13",
-      "agente": "designer",
-      "texto": "Coloquei imagens e diagramei os 5 posts."
-    },
     {
       "data": "2026-11-13",
       "agente": "viral",
@@ -350,6 +345,11 @@
       "data": "2026-11-22",
       "agente": "viral",
       "texto": "Textos de rede de 6 posts."
+    },
+    {
+      "data": "2026-11-23",
+      "agente": "analista",
+      "texto": "Leitura diária: 4 visitas em 22/11 (todas diretas); semana 44 visitas, 4 do Google; canal 4.395 views e +2 inscritos."
     }
   ]
 }

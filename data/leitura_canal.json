@@ -1,44 +1,30 @@
 {
-  "atualizado": "2026-11-12",
+  "atualizado": "2026-11-23",
   "autora": "Luisa",
-  "resumo": "O canal fez 2.645 visualizações em 28 dias (até 11/11), com CTR de capa de 1,8% e ainda só 1 inscrito. O maior problema continua: ninguém que vê o Short segue o canal nem chega ao blog (0 visitas do YouTube em 10 e 11/11).",
+  "resumo": "O canal fez 4.395 visualizações em 28 dias (até 22/11), com 51,9% assistido e CTR de capa de 2,0%, mas só +2 inscritos. O maior problema segue o mesmo: o Short é assistido e ninguém segue o canal nem vai ao blog (0 visitas do YouTube no site em 22/11).",
   "funcionando": [
-    "Assunto com ângulo Brasil: 'Sony quer comprar seu PS5 usado, mas não no Brasil' tem 1.127 visualizações, 63,4% assistido e 5,2% de cliques, o melhor do canal.",
-    "Short curto segura mais: o iPhone Duo (0:50) teve 58,5% assistido e 375 visualizações.",
-    "Black Friday antecipada (0:37) teve 75,1% assistido, a melhor retenção dos Shorts, mas só 20 visualizações (31 impressões): o vídeo prende, falta alcance.",
-    "Quem abre o longo assiste: o Smartband reteve 72,3%, mas tem só 5 visualizações."
+    "Quadro 60s prende: 8 vídeos com média de 62,5% assistido; PS5 100 milhões (0:39) teve 85,7% e Vivo Satélite (0:32) 106,6%, sinal de que curto e com número no título segura.",
+    "Ângulo Brasil puxa views: 'Sony quer comprar seu PS5 usado, mas não no Brasil' segue o maior do canal, 1.131 views, 63,4% assistido, 4,3% de cliques e 1 inscrito.",
+    "GTA 6 no Xbox One fez 910 views com 57,1% assistido: assunto quente de games traz alcance.",
+    "Tutorial que alguém procura: 'Como ter vários WhatsApp no iOS' teve 4,6% de cliques na capa (522 impressões) e 1 inscrito com só 71 views."
   ],
   "nao_funcionando": [
-    "Inscrição: 2.516 visualizações para +1 inscrito. O Short solto não dá motivo para seguir.",
-    "Longos sem alcance: Chromagraph teve 9 visualizações, 0,5% de cliques na capa (768 impressões) e 24,6% assistido; Smartband, 1,4% (209 impressões).",
-    "Quadro 60s: Ocarina teve 474 visualizações, 48,1% assistido e 0% de cliques na capa; GTA 6 pré-carregamento, 53 visualizações e 44,6%.",
-    "GTA 6 (212 GB): 40,8% assistido, o pior dos Shorts de notícia; o começo não prendeu."
+    "Inscrição: 4.395 views para +2 inscritos; os 8 Shorts do 60s somaram 2.215 views e 0 inscritos. Falta motivo para seguir.",
+    "Lá Fora, Aqui sem alcance e sem retenção: 2 vídeos com média de 8 views e 19,6% assistido; Chromagraph teve 0,5% de cliques em 825 impressões.",
+    "Longos perdem gente cedo: Smartband 30,1% e WhatsApp iOS 24% assistido; o Smartband teve 1.854 impressões e 2,2% de cliques, então a capa até chama, o começo é que não segura.",
+    "Histórias Tech oscila: Orkut 348 views e 49,5%; Xbox só 4 views (45 impressões, 0% de cliques), apesar de 69% assistido."
   ],
   "acoes": [
-    "Shorts de 30 a 40 segundos, com o ângulo Brasil na primeira frase.",
-    "Todo Short chama para o post do blog (comentário fixado e link na descrição): hoje são 0 visitas do YouTube.",
-    "Vídeos longos que alguém procura (tutorial 'como fazer') e capa com texto curto e grande."
+    "Todo Short termina com uma chamada para seguir o canal e um motivo concreto ('amanhã tem o próximo'), e leva ao post do blog no comentário fixado.",
+    "Manter o 60s entre 30 e 40 segundos com um número na primeira frase (PS5 e Vivo Satélite foram os que mais seguraram).",
+    "Pausar o Lá Fora, Aqui por uma semana e trocar por um tutorial 'como fazer' (o único longo com cliques na capa acima de 4%).",
+    "Longo: mostrar a resposta nos primeiros 15 segundos; mudar só essa variável na semana."
   ],
   "por_quadro": {
-    "60s": {
-      "videos": 4,
-      "media_views": 161,
-      "media_pct": 48.9
-    },
-    "historias": {
-      "videos": 1,
-      "media_views": 349,
-      "media_pct": 49.3
-    },
-    "lafora": {
-      "videos": 1,
-      "media_views": 11,
-      "media_pct": 24.6
-    },
-    "antes_dos_quadros": {
-      "videos": 6,
-      "media_views": 292,
-      "media_pct": 55.3
-    }
+    "60s": {"videos": 8, "media_views": 277, "media_pct": 62.5},
+    "historias": {"videos": 2, "media_views": 176, "media_pct": 59.2},
+    "lafora": {"videos": 2, "media_views": 8, "media_pct": 19.6},
+    "tutorial": {"videos": 1, "media_views": 71, "media_pct": 24.0},
+    "antes_dos_quadros": {"videos": 6, "media_views": 290, "media_pct": 44.0}
   }
 }

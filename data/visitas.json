@@ -1309,6 +1309,241 @@
       "faltou": [
         "Cloudflare Web Analytics pediu login (tela 'Sign in to Cloudflare', conferido de novo na recuperação de 16/11); visitas, páginas, origens, celular e YouTube não coletados"
       ]
+    },
+    {
+      "dia": "2026-11-22",
+      "visitas": 4,
+      "visualizacoes": 4,
+      "celular_pct": 25,
+      "youtube": 0,
+      "paginas": [
+        {
+          "url": "/",
+          "visitas": 3
+        },
+        {
+          "url": "/posts/claro-multi-friday-iphone-17-21x-139-galaxy-s26-condicoes/",
+          "visitas": 1
+        }
+      ],
+      "origens": [
+        {
+          "origem": "direto",
+          "visitas": 4
+        }
+      ],
+      "paises": [
+        {
+          "pais": "Estados Unidos",
+          "visitas": 2
+        },
+        {
+          "pais": "Noruega",
+          "visitas": 1
+        },
+        {
+          "pais": "Brasil",
+          "visitas": 1
+        }
+      ],
+      "semana_cloudflare": {
+        "periodo": "últimos 7 dias (16/11 a 23/11, BRT)",
+        "visitas": 44,
+        "celular_pct": 39,
+        "origens": [
+          {
+            "origem": "direto",
+            "visitas": 37
+          },
+          {
+            "origem": "google",
+            "visitas": 4
+          },
+          {
+            "origem": "facebook",
+            "visitas": 2
+          },
+          {
+            "origem": "l.wl.co (WhatsApp)",
+            "visitas": 1
+          }
+        ],
+        "paginas": [
+          {
+            "url": "/",
+            "visitas": 16
+          },
+          {
+            "url": "/posts/melhores-power-banks-20000mah/",
+            "visitas": 5
+          },
+          {
+            "url": "/posts/claro-multi-friday-iphone-17-21x-139-galaxy-s26-condicoes/",
+            "visitas": 3
+          },
+          {
+            "url": "/posts/carregador-usb-c-apple-qual-comprar/",
+            "visitas": 3
+          },
+          {
+            "url": "/posts/carregador-turbo-iphone-usb-c-pd-qual-escolher/",
+            "visitas": 3
+          }
+        ],
+        "paises": [
+          {
+            "pais": "Brasil",
+            "visitas": 34
+          },
+          {
+            "pais": "Estados Unidos",
+            "visitas": 6
+          },
+          {
+            "pais": "Rússia",
+            "visitas": 2
+          },
+          {
+            "pais": "Canadá",
+            "visitas": 1
+          },
+          {
+            "pais": "Noruega",
+            "visitas": 1
+          }
+        ]
+      },
+      "google": {
+        "dia": "2026-11-21",
+        "cliques": 0,
+        "impressoes": 112,
+        "ctr": 0,
+        "posicao": 17.5,
+        "consultas": [
+          {
+            "termo": "tomada inteligente",
+            "cliques": 0,
+            "impressoes": 3
+          },
+          {
+            "termo": "como funciona a lâmpada inteligente",
+            "cliques": 0,
+            "impressoes": 3
+          },
+          {
+            "termo": "iphone 11 compensa em 2026",
+            "cliques": 0,
+            "impressoes": 2
+          },
+          {
+            "termo": "vale a pena comprar iphone 12 em 2026",
+            "cliques": 0,
+            "impressoes": 2
+          },
+          {
+            "termo": "lampada alexa",
+            "cliques": 0,
+            "impressoes": 2
+          }
+        ],
+        "paginas": [
+          {
+            "url": "/posts/analise-iphone-11-vale-a-pena-em-2026/",
+            "cliques": 0,
+            "impressoes": 20
+          },
+          {
+            "url": "/posts/analise-ps4-vale-a-pena-em-2026/",
+            "cliques": 0,
+            "impressoes": 14
+          },
+          {
+            "url": "/posts/analise-alexa-plus-brasil-vale-a-pena-assinar/",
+            "cliques": 0,
+            "impressoes": 12
+          },
+          {
+            "url": "/posts/fone-tws-so-funciona-um-lado/",
+            "cliques": 0,
+            "impressoes": 8
+          },
+          {
+            "url": "/posts/claro-multi-friday-iphone-17-21x-139-galaxy-s26-condicoes/",
+            "cliques": 0,
+            "impressoes": 8
+          }
+        ],
+        "dias_7": [
+          {
+            "dia": "2026-11-15",
+            "cliques": 0,
+            "impressoes": 242
+          },
+          {
+            "dia": "2026-11-16",
+            "cliques": 0,
+            "impressoes": 172
+          },
+          {
+            "dia": "2026-11-17",
+            "cliques": 0,
+            "impressoes": 210
+          },
+          {
+            "dia": "2026-11-18",
+            "cliques": 0,
+            "impressoes": 161
+          },
+          {
+            "dia": "2026-11-19",
+            "cliques": 2,
+            "impressoes": 182
+          },
+          {
+            "dia": "2026-11-20",
+            "cliques": 1,
+            "impressoes": 152
+          },
+          {
+            "dia": "2026-11-21",
+            "cliques": 0,
+            "impressoes": 112
+          }
+        ],
+        "semana": {
+          "periodo": "15 a 21/11",
+          "cliques": 3,
+          "impressoes": 1230,
+          "ctr": 0.2,
+          "posicao": 11.5,
+          "consultas_top": [
+            {
+              "termo": "what is the best power bank",
+              "impressoes": 81
+            },
+            {
+              "termo": "como configurar alexa echo dot",
+              "impressoes": 42
+            },
+            {
+              "termo": "lampada alexa",
+              "impressoes": 33
+            },
+            {
+              "termo": "best high end power bank",
+              "impressoes": 17
+            },
+            {
+              "termo": "iphone 11 compensa em 2026",
+              "impressoes": 16
+            }
+          ]
+        }
+      },
+      "faltou": [
+        "Cloudflare: janela 'últimas 24 horas' (22/11 02:29 a 23/11 02:29 BRT), não o dia civil exato",
+        "Search Console: 22/11 ainda não disponível; usado 21/11"
+      ]
     }
   ]
 }

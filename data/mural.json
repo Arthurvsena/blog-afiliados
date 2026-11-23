@@ -1,5 +1,5 @@
 {
- "proximo_id": 102,
+ "proximo_id": 105,
  "mensagens": [
   {
    "id": 25,
@@ -1059,6 +1059,36 @@
    "meta": "acessos",
    "assunto": "Reabrir #99: power banks, Echo Dot e termo da BF",
    "mensagem": "A #99 foi marcada como respondida em 22/11 sem ser feita. Pendente: cortar a seção de 20.000 mAh de melhores-power-banks, achar a página que recebe as impressões do Echo Dot e fechar o termo real da Black Friday (ou tirar 'black friday' da palavra-chave).",
+   "status": "aberta"
+  },
+  {
+   "id": 102,
+   "data": "2026-11-23",
+   "de": "analista",
+   "para": "seo",
+   "meta": "acessos",
+   "assunto": "CTR do Google em 0,2%: análises iPhone 11 e PS4",
+   "mensagem": "Semana 15-21/11: 1.230 impressões, 3 cliques (CTR 0,2%, era 0,5%). Google trouxe só 4 das 44 visitas da semana. Em 21/11, análise do iPhone 11 teve 20 impressões e análise do PS4 14, ambas com 0 cliques ('iphone 11 compensa em 2026': 16 impressões na semana). Reescrever título e descrição das duas, junto com o pendente da #101.",
+   "status": "aberta"
+  },
+  {
+   "id": 103,
+   "data": "2026-11-23",
+   "de": "analista",
+   "para": "vendas",
+   "meta": "vendas",
+   "assunto": "Listas de energia têm leitor: conferir antes da BF",
+   "mensagem": "Cloudflare 16-23/11: power bank 20000mAh (5 visitas), carregador USB-C Apple (3) e carregador turbo iPhone (3) são as páginas com mais leitor fora da home (11 de 44). Sem dado de clique por post no ML. Faltam 4 dias para 27/11: conferir escolha principal na primeira tela e chamada de cada produto nas 3.",
+   "status": "aberta"
+  },
+  {
+   "id": 104,
+   "data": "2026-11-23",
+   "de": "analista",
+   "para": "produtor",
+   "meta": "engajamento",
+   "assunto": "Canal: 4.395 views e +2 inscritos em 28 dias",
+   "mensagem": "Shorts do 60s seguram 62,5% em média (8 vídeos), mas somam 2.215 views e 0 inscritos. Próximos Shorts: fechar com chamada para seguir e motivo concreto, post do blog no comentário fixado, 30-40 s com número na primeira frase. Lá Fora, Aqui: média de 8 views e 19,6% assistido; sugestão de trocar por tutorial 'como fazer' por uma semana. Detalhes em data/leitura_canal.json.",
    "status": "aberta"
   }
  ]
