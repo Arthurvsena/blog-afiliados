@@ -1,3 +1,8 @@
 {
-  "agentes": {}
+  "agentes": {
+    "seg_publicador": {
+      "desde": "2026-11-23T10:18:19-03:00",
+      "tarefa": "Agendando no TikTok o vídeo da lâmpada"
+    }
+  }
 }
