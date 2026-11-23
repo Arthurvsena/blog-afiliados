@@ -26,7 +26,7 @@ jobs:
           sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
           pip install -r requirements.txt numpy playwright
           python -m playwright install --with-deps chromium
-      - name: Escritório: roteirista trabalhando
+      - name: "Escritório: roteirista trabalhando"
         run: |
           python3 scripts/escritorio.py trabalhando seg_roteirista "Escrevendo o lote de roteiros do Segura Aí 3D"
           git config user.name "rotina-segura"
