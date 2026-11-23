@@ -28,6 +28,7 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: "Escritório: roteirista trabalhando"
         run: |
+          python3 -c "import json;print(sum(1 for r in json.load(open('segura-ai/fila.json'))['roteiros'] if r.get('status')=='pronto'))" > /tmp/antes.txt
           python3 scripts/escritorio.py trabalhando seg_roteirista "Escrevendo o lote de roteiros do Segura Aí 3D"
           git config user.name "rotina-segura"
           git config user.email "rotina-segura@users.noreply.github.com"
@@ -48,7 +49,10 @@ jobs:
         if: always()
         run: |
           python3 segura-ai/diario.py --checar || true
-          python3 scripts/escritorio.py feito seg_roteirista "Lote de roteiros do Segura Aí 3D pronto" --se-trabalhando
+          DEPOIS=$(python3 -c "import json;print(sum(1 for r in json.load(open('segura-ai/fila.json'))['roteiros'] if r.get('status')=='pronto'))")
+          NOVOS=$((DEPOIS - $(cat /tmp/antes.txt)))
+          if [ "$NOVOS" -gt 0 ]; then python3 scripts/escritorio.py feito seg_roteirista "Escrevi $NOVOS roteiros novos do Segura Aí 3D";
+          else python3 scripts/escritorio.py erro seg_roteirista "O lote de roteiros não saiu (veja o log do Actions)"; fi
           git add segura-ai/roteiros segura-ai/fila.json data/escritorio.json
           git diff --cached --quiet || git commit -m "Segura Aí 3D: roteiros novos $(TZ=America/Sao_Paulo date +%Y-%m-%d)"
           git pull --rebase -X theirs origin main && git push

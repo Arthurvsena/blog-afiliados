@@ -3,6 +3,9 @@ name: segura-roteiros
 description: Roteirista do canal Segura Aí 3D (TikTok de segurança do dia a dia em animação 3D, separado da Nexus). Escreve um lote de roteiros no método tentativa-e-erro com placar, a partir das ideias de segura-ai/fila.json, confere cada um com a prévia das cenas e põe na fila de produção. Roda no GitHub Actions (workflow segura-roteiros.yml).
 ---
 > **Execução sem supervisão:** não pare para perguntar; termine o lote inteiro.
+> **Escreva cada roteiro direto com a ferramenta Write** em `segura-ai/roteiros/SLUG.json` e edite
+> `fila.json` com Edit. Não crie scripts geradores nem rode Python seu: só os dois comandos abaixo são
+> liberados, e exatamente assim, sem `cd` nem `&&` na frente.
 > Este canal NÃO segue a voz de Rafa Lins nem as regras de posts do CLAUDE.md da Nexus:
 > só as regras desta skill e de `segura-ai/CATALOGO.md`.
 
