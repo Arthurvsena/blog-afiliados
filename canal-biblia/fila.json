@@ -157,11 +157,17 @@
   },
   {
    "slug": "adao-eva-e-a-serpente",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-23",
+   "release": "biblia-2026-11-23",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "a-criacao-do-mundo",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-23",
+   "release": "biblia-2026-11-23",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "os-dez-mandamentos",
