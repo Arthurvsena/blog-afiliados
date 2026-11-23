@@ -59,7 +59,7 @@
     },
     "seg_roteirista": {
       "status": "ok",
-      "tarefa": "Lote de roteiros do Segura Aí 3D pronto"
+      "tarefa": "Escrevi 7 roteiros novos do Segura Aí 3D"
     },
     "seg_publicador": {
       "status": "ok",
@@ -67,11 +67,6 @@
     }
   },
   "historico": [
-    {
-      "data": "2026-11-15",
-      "agente": "pesquisador",
-      "texto": "Pauta de 5 notícias do dia."
-    },
     {
       "data": "2026-11-16",
       "agente": "redator",
@@ -366,6 +361,11 @@
       "data": "2026-11-23",
       "agente": "seg_publicador",
       "texto": "Agendei o vídeo da lâmpada no TikTok para hoje às 19:15"
+    },
+    {
+      "data": "2026-11-23",
+      "agente": "seg_roteirista",
+      "texto": "Escrevi 7 roteiros novos do Segura Aí 3D"
     }
   ]
 }
