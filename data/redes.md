@@ -2,6 +2,105 @@
 
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
+## 2026-11-23 · Câmera wifi: como funciona e como escolher a certa
+Link: https://nexustechai.com.br/posts/camera-wifi-como-funciona-como-escolher/
+- WhatsApp: Antes de comprar câmera Wi-Fi, leve o celular até o ponto onde ela vai ficar e veja se o sinal chega. Guia com o que checar: https://nexustechai.com.br/posts/camera-wifi-como-funciona-como-escolher/
+- X: Câmera Wi-Fi não é sem energia: só tira o cabo de rede. Antes de comprar, cheque sinal no local, rede 2,4 GHz, tomada e onde gravar (microSD, nuvem ou gravador). Guia: https://nexustechai.com.br/posts/camera-wifi-como-funciona-como-escolher/
+- Instagram (legenda): A maioria dos problemas de câmera Wi-Fi vem da instalação, não do aparelho.
+  Sinal que não chega, falta de lugar para gravar e senha de fábrica são os três erros mais comuns.
+  Teste o Wi-Fi no ponto exato antes de furar a parede.
+  O guia traz o checklist de compra. Link na bio.
+  #camerawifi #casainteligente #seguranca
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Antes de comprar câmera Wi-Fi, faça este teste." [2-8 s] Fato 1: leve o celular até o ponto de instalação e veja se o sinal chega; muro e garagem costumam ser zona morta. [8-14 s] Fato 2: muitas câmeras usam só Wi-Fi 2,4 GHz, e ainda precisam de tomada. [14-18 s] Fato 3: defina onde gravar (microSD, nuvem ou gravador) e troque a senha de fábrica. [18-20 s] "Checklist completo: link na bio."
+
+## 2026-11-23 · Fone TWS como usar: ligar, parear e carregar sem erro
+Link: https://nexustechai.com.br/posts/fone-tws-como-usar-ligar-parear/
+- WhatsApp: Comprou fone TWS e não sabe por onde começar? São 4 passos: carregar, ligar, parear e guardar no estojo. Guia para Android e iPhone: https://nexustechai.com.br/posts/fone-tws-como-usar-ligar-parear/
+- X: Fone TWS novo "não liga"? Quase sempre é bateria. A ordem certa são 4 passos: carregar o estojo, tirar os fones, parear uma vez no Bluetooth e guardar. Guia para Android e iPhone: https://nexustechai.com.br/posts/fone-tws-como-usar-ligar-parear/
+- Instagram (legenda): Fone TWS novo que não liga ou não conecta quase nunca está com defeito.
+  Em geral é bateria vazia ou ordem errada.
+  Carregue o estojo, tire os fones, pareie uma vez e guarde para carregar.
+  O guia mostra o passo a passo no Android e no iPhone. Link na bio.
+  #fonetws #bluetooth #tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seu fone TWS novo não liga? Calma, não é defeito." [2-8 s] Fato 1: fone sem bateria é a causa mais comum, então carregue o estojo primeiro. [8-14 s] Fato 2: tire os fones do estojo para ligar e pareie no Bluetooth do celular, Android ou iPhone. [14-18 s] Fato 3: depois do primeiro pareamento, abrir o estojo basta para reconectar. [18-20 s] "Guia completo: link na bio."
+
+## 2026-11-23 · Gemini Google AI Plus vale a pena? O que muda do grátis
+Link: https://nexustechai.com.br/posts/gemini-google-ai-plus-vale-a-pena/
+- WhatsApp: O Google AI Plus custa R$ 24,99 por mês e dá 400 GB e limite 2x, mas a IA é a mesma do plano grátis. Vale a pena? https://nexustechai.com.br/posts/gemini-google-ai-plus-vale-a-pena/
+- X: Google AI Plus no Brasil: R$ 24,99 por mês, 400 GB e limites 2x maiores. O modelo é o mesmo do grátis (Gemini 4 Hydrogen); o Neon só vem no Pro. Para quem compensa: https://nexustechai.com.br/posts/gemini-google-ai-plus-vale-a-pena/
+- Instagram (legenda): Pagar pelo Google AI Plus não te dá uma IA melhor.
+  São R$ 24,99 por mês para ter 400 GB e limites 2x maiores, com o mesmo modelo do plano grátis.
+  Faz sentido se você já enche o Drive e o Gmail e usa o Gemini todo dia.
+  Quem usa pouco fica bem no grátis. Link na bio.
+  #gemini #googleaiplus #inteligenciaartificial
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Pagar R$ 24,99 no Gemini não te dá uma IA melhor." [2-8 s] Fato 1: o Google AI Plus traz 400 GB de armazenamento e limites 2x maiores. [8-14 s] Fato 2: o modelo é o mesmo do plano grátis, o Gemini 4 Hydrogen; o Neon é só no Pro. [14-18 s] Fato 3: compensa para quem já precisa de espaço no Google e bate no limite. [18-20 s] "Análise completa: link na bio."
+
+## 2026-11-23 · Como resgatar jogos gratuitos Epic Games: passo a passo
+Link: https://nexustechai.com.br/posts/como-resgatar-jogos-gratuitos-epic-games/
+- WhatsApp: Jogo grátis da Epic só entra na conta se você clicar em "Obter" e depois em "Fazer pedido". Passo a passo: https://nexustechai.com.br/posts/como-resgatar-jogos-gratuitos-epic-games/
+- X: Jogo grátis da Epic Games só entra na biblioteca depois de dois cliques: "Obter" e "Fazer pedido". Sem o segundo, nada. A vitrine troca toda quinta, por volta do meio-dia (Brasília). Passo a passo: https://nexustechai.com.br/posts/como-resgatar-jogos-gratuitos-epic-games/
+- Instagram (legenda): Muita gente clica em "Obter" e acha que resgatou o jogo grátis da Epic. Não resgatou.
+  Falta confirmar em "Fazer pedido".
+  Depois disso o jogo fica na biblioteca, e você instala quando quiser.
+  Os jogos trocam toda quinta, por volta do meio-dia. Link na bio.
+  #epicgames #jogosgratis #games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Você pode estar perdendo jogo grátis da Epic sem saber." [2-8 s] Fato 1: clicar em "Obter" não basta, é preciso confirmar em "Fazer pedido". [8-14 s] Fato 2: resgatar e instalar são coisas separadas, o jogo fica na biblioteca. [14-18 s] Fato 3: a vitrine troca toda quinta, por volta do meio-dia. [18-20 s] "Passo a passo: link na bio."
+
+## 2026-11-23 · Google Tasks do Gemini fica grátis em 6 países, mas não no Brasil
+Link: https://nexustechai.com.br/posts/google-tasks-gemini-agente-gratis-seis-paises-brasil-so-pro/
+- WhatsApp: O agente Tasks do Gemini ficou grátis em 6 países, mas o Brasil não entrou. Aqui, só nos planos AI Pro e Ultra: https://nexustechai.com.br/posts/google-tasks-gemini-agente-gratis-seis-paises-brasil-so-pro/
+- X: O Google liberou de graça o agente Tasks do Gemini nos EUA, Canadá, Austrália, Índia, Japão e Coreia do Sul. No Brasil segue só para assinantes do AI Pro e Ultra, sem previsão de mudança: https://nexustechai.com.br/posts/google-tasks-gemini-agente-gratis-seis-paises-brasil-so-pro/
+- Instagram (legenda): O agente de IA do Gemini ficou grátis em 6 países. O Brasil não está na lista.
+  O Tasks toca tarefas em segundo plano e avisa quando termina.
+  Aqui, só para quem assina o Google AI Pro ou Ultra, e o Google não deu previsão.
+  Ligações e compras pelo Google Pay, por ora, só nos EUA. Link na bio.
+  #gemini #google #inteligenciaartificial
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "O Google deu um agente de IA de graça, mas não para o Brasil." [2-8 s] Fato 1: o Tasks, do Gemini, ficou grátis em EUA, Canadá, Austrália, Índia, Japão e Coreia do Sul. [8-14 s] Fato 2: no Brasil, só com o plano AI Pro ou Ultra, sem data para mudar. [14-18 s] Fato 3: ele faz tarefas em segundo plano, mas as compras só funcionam nos EUA por enquanto. [18-20 s] "Detalhes: link na bio."
+
+## 2026-11-23 · Motorola Edge 70 Neo chega à Índia em 24/11; e o Brasil?
+Link: https://nexustechai.com.br/posts/motorola-edge-70-neo-lancamento-24-novembro-india-chega-ao-brasil/
+- WhatsApp: O Motorola Edge 70 Neo estreia amanhã na Índia com bateria de 7.000 mAh e tela de 144 Hz. No Brasil, ainda sem confirmação: https://nexustechai.com.br/posts/motorola-edge-70-neo-lancamento-24-novembro-india-chega-ao-brasil/
+- X: O Motorola Edge 70 Neo será lançado na Índia amanhã (24/11) com 7.000 mAh, tela de 144 Hz e Snapdragon 7s Gen 3. Preço (o Digit estima Rs 30.000 a 35.000, não oficial) e vinda ao Brasil: sem confirmação. https://nexustechai.com.br/posts/motorola-edge-70-neo-lancamento-24-novembro-india-chega-ao-brasil/
+- Instagram (legenda): O Edge 70 Neo estreia amanhã na Índia com 7.000 mAh.
+  A tela é AMOLED de 6,8 polegadas com até 144 Hz.
+  Preço oficial e vinda ao Brasil ainda não foram confirmados.
+  Quem quer Motorola na Black Friday (27/11) deve olhar o que já está à venda. Link na bio.
+  #motorola #edge70neo #celulares
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Motorola vai lançar um celular com 7.000 mAh amanhã." [2-8 s] Fato 1: o Edge 70 Neo estreia na Índia dia 24/11. [8-14 s] Fato 2: tela AMOLED de 6,8 polegadas com até 144 Hz e Snapdragon 7s Gen 3. [14-18 s] Fato 3: vinda ao Brasil e preço oficial não foram confirmados. [18-20 s] "O que já dá para comprar aqui: link na bio."
+
+## 2026-11-23 · GPT-6.2 Astra e Sol: OpenAI baixa o preço do Astra na API
+Link: https://nexustechai.com.br/posts/openai-gpt-6-2-astra-sol-lancamento-preco-chatgpt/
+- WhatsApp: A OpenAI cortou 20% o preço do GPT-6.2 Astra na API (entrada de US$ 10 para US$ 8 por milhão de tokens). No ChatGPT, só assinantes têm os novos modelos: https://nexustechai.com.br/posts/openai-gpt-6-2-astra-sol-lancamento-preco-chatgpt/
+- X: A OpenAI baixou 20% o preço do GPT-6.2 Astra na API: US$ 8 de entrada e US$ 40 de saída por milhão de tokens. O Sol continua a US$ 2. No ChatGPT, só assinantes (Plus, Pro, Enterprise e Edu). Os números de desempenho são da própria empresa: https://nexustechai.com.br/posts/openai-gpt-6-2-astra-sol-lancamento-preco-chatgpt/
+- Instagram (legenda): O GPT-6.2 Astra ficou 20% mais barato na API da OpenAI.
+  O Sol manteve o preço de US$ 2 por milhão de tokens de entrada.
+  No ChatGPT, os dois modelos são só para assinantes, e a estreia dividiu desenvolvedores.
+  Os números de desempenho são da própria OpenAI. Detalhes no link da bio.
+  #openai #chatgpt #inteligenciaartificial
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "A OpenAI baixou o preço do GPT-6.2 Astra." [2-8 s] Fato 1: corte de 20% na API, de US$ 10 para US$ 8 a entrada. [8-14 s] Fato 2: o Sol segue a US$ 2 e, em programação, fica a menos de meio ponto do Astra, segundo a OpenAI. [14-18 s] Fato 3: no ChatGPT, só assinantes têm acesso, e a estreia dividiu usuários. [18-20 s] "Detalhes: link na bio."
+
+## 2026-11-23 · Anatel vai bloquear SMS sem cadastro: prazo é de até 90 dias
+Link: https://nexustechai.com.br/posts/anatel-bloqueio-sms-golpe-codigo-curto-black-friday/
+- WhatsApp: A Anatel vai bloquear SMS de empresas sem cadastro, mas em até 90 dias. Até lá, link por SMS na Black Friday é suspeito. 7 cuidados: https://nexustechai.com.br/posts/anatel-bloqueio-sms-golpe-codigo-curto-black-friday/
+- X: A Anatel decidiu que operadoras terão de bloquear SMS de código curto sem cadastro, mas o prazo é de até 90 dias, segundo a imprensa. A Black Friday é sexta (27/11). 7 cuidados para não cair em SMS falso: https://nexustechai.com.br/posts/anatel-bloqueio-sms-golpe-codigo-curto-black-friday/
+- Instagram (legenda): O bloqueio de SMS falso da Anatel só chega em até 90 dias.
+  A Black Friday é nesta sexta, 27/11.
+  Até lá, quem se protege é você: não clique em link de SMS e nunca passe código de verificação.
+  Os 7 cuidados estão no link da bio.
+  #anatel #golpe #blackfriday
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "A Anatel vai bloquear SMS falso, mas só depois da Black Friday." [2-8 s] Fato 1: operadoras terão de barrar SMS de código curto sem cadastro. [8-14 s] Fato 2: o prazo é de até 90 dias, segundo a imprensa. [14-18 s] Fato 3: até lá, não clique em link de SMS e nunca passe o código recebido. [18-20 s] "Os 7 cuidados: link na bio."
+
+## 2026-11-23 · GTA 6 vendas: 19,1 milhões é estimativa da Sensor Tower
+Link: https://nexustechai.com.br/posts/gta-6-vendas-19-milhoes-estimativa-sensor-tower-nao-oficial/
+- WhatsApp: GTA 6 teria vendido 19,1 milhões de cópias na estreia, mas é estimativa da Sensor Tower: Rockstar e Take-Two não confirmaram. https://nexustechai.com.br/posts/gta-6-vendas-19-milhoes-estimativa-sensor-tower-nao-oficial/
+- X: GTA 6 teria vendido 19,1 milhões de cópias (US$ 1,84 bi) até o lançamento, segundo a Sensor Tower. Atenção: é estimativa, Rockstar e Take-Two não confirmaram. O que vale e o que não: https://nexustechai.com.br/posts/gta-6-vendas-19-milhoes-estimativa-sensor-tower-nao-oficial/
+- Instagram (legenda): 19,1 milhões de cópias do GTA 6? Calma, não é número oficial.
+  É estimativa da Sensor Tower, divulgada pela Reuters.
+  Rockstar e Take-Two ainda não confirmaram.
+  Detalhes e o que ainda não se sabe no link da bio.
+  #gta6 #games #rockstar
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "GTA 6 vendeu 19 milhões? Não é bem assim." [2-8 s] Fato 1: a Sensor Tower estima 19,1 milhões de cópias e US$ 1,84 bi. [8-14 s] Fato 2: Rockstar e Take-Two não confirmaram. [14-18 s] Fato 3: no Brasil, a Standard custa R$ 449,90. [18-20 s] "Veja o que vale: link na bio."
+
 ## 2026-11-22 · Teclado mecânico ou membrana: qual escolher para jogar?
 Link: https://nexustechai.com.br/posts/teclado-mecanico-ou-membrana-qual-escolher/
 - WhatsApp: Mecânico ou membrana para jogar? Blue faz clique alto, brown é discreto. Comparativo com 2 mecânicos ABNT2: https://nexustechai.com.br/posts/teclado-mecanico-ou-membrana-qual-escolher/
@@ -299,7 +398,7 @@ Link: https://nexustechai.com.br/posts/motorola-lancamento-barato-qual-celular-c
   #motorola #motog47 #blackfriday
 - TikTok/Reels (roteiro de 20 s): [0-2 s] "Moto G47: vale comprar?" [2-8 s] Fato 1: bateria de 5.200 mAh e IP64. [8-14 s] Fato 2: só 4 GB de RAM e carga de 20 W. [14-18 s] Fato 3: Black Friday é 27/11, até 15% no Pix. [18-20 s] "Comparativo completo no link da bio."
 
-## ## 2026-11-18 · Nintendo Switch barato: Lite, OLED ou Switch 2?
+## 2026-11-18 · Nintendo Switch barato: Lite, OLED ou Switch 2?
 Link: https://nexustechai.com.br/posts/nintendo-switch-barato-qual-comprar/
 - WhatsApp: O Switch Lite é o mais barato, mas não joga na TV. Veja qual modelo escolher antes da Black Friday (27/11): https://nexustechai.com.br/posts/nintendo-switch-barato-qual-comprar/
 - X: Switch Lite não joga na TV. O OLED tem a mesma potência do comum, só a tela é melhor. O Switch 2 tem bateria menor. Comparei os 3 antes da Black Friday: https://nexustechai.com.br/posts/nintendo-switch-barato-qual-comprar/
@@ -348,359 +447,4 @@ Link: https://nexustechai.com.br/posts/gemini-sotaques-regionais-portugues-66-vo
   A liberação é gradual. Passo a passo no link da bio.
   #gemini #google #inteligenciaartificial
 - TikTok/Reels (roteiro de 20 s): [0-2 s] "O Gemini ganhou sotaque." [2-8 s] Fato 1: são 66 vozes regionais. [8-14 s] Fato 2: português do Brasil está incluído, no Android e iOS. [14-18 s] Fato 3: menu Voz do Gemini, ouça as prévias. [18-20 s] "Passo a passo no link da bio."
-
-## 2026-11-18 · PlayStation Store do PS3 pode fechar no Brasil em 2026
-Link: https://nexustechai.com.br/posts/ps-store-ps3-vita-fecha-brasil-o-que-fazer-antes/
-- WhatsApp: A loja do PS3 pode fechar no Brasil até o fim de 2026 (a do Vita, em julho de 2027). Data exata daqui ainda não saiu. Baixe seus jogos antes: https://nexustechai.com.br/posts/ps-store-ps3-vita-fecha-brasil-o-que-fazer-antes/
-- X: A PS Store do PS3 pode fechar no Brasil até o fim de 2026 e a do Vita em julho de 2027. A data exata daqui não foi definida. O que comprar e baixar antes: https://nexustechai.com.br/posts/ps-store-ps3-vita-fecha-brasil-o-que-fazer-antes/
-- Instagram (legenda): A loja do PS3 está com os dias contados.
-  Pode fechar no Brasil até o fim de 2026; o Vita fica até julho de 2027.
-  A data exata daqui ainda não saiu. Veja o que fazer antes. Link na bio.
-  #ps3 #playstation #games
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "A loja do PS3 vai fechar." [2-8 s] Fato 1: pode fechar no Brasil até o fim de 2026. [8-14 s] Fato 2: a do Vita fica até julho de 2027. [14-18 s] Fato 3: data exata daqui não definida; quem já comprou pode baixar de novo. [18-20 s] "Checklist no link da bio."
-
-## 2026-11-18 · GTA 6 PS5 TIM oferta: R$ 2.376 com jogo, só com troca
-Link: https://nexustechai.com.br/posts/tim-gta-vi-gratis-ps5-digital-black-friday-regras-troca-plano/
-- WhatsApp: A TIM dá GTA VI no PS5 Digital por R$ 2.376, mas só com plano fidelizado e troca de PS4 usado. Leia a letra miúda: https://nexustechai.com.br/posts/tim-gta-vi-gratis-ps5-digital-black-friday-regras-troca-plano/
-- X: GTA VI "de graça" na TIM: PS5 Digital por R$ 2.376, mas exige plano com fidelização e um PS4 usado na troca. A TIM não disse o preço sem troca. Letra miúda: https://nexustechai.com.br/posts/tim-gta-vi-gratis-ps5-digital-black-friday-regras-troca-plano/
-- Instagram (legenda): GTA VI grátis na TIM? Só com condições.
-  PS5 Digital por R$ 2.376 exige plano com fidelização e PS4 usado.
-  Veja as 3 perguntas antes de ir à loja. Link na bio.
-  #gta6 #ps5 #blackfriday
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "GTA 6 grátis na TIM? Tem pegadinha." [2-8 s] Fato 1: PS5 Digital por R$ 2.376. [8-14 s] Fato 2: exige plano com fidelização e PS4 usado. [14-18 s] Fato 3: a TIM não disse o preço sem troca. [18-20 s] "Letra miúda no link da bio."
-
-## 2026-11-17 · Teclado gamer mecânico: qual comprar? 4 Redragon
-Link: https://nexustechai.com.br/posts/teclado-gamer-mecanico-qual-comprar/
-- WhatsApp: Antes da Black Friday: no teclado mecânico, o formato (60%, TKL) pesa mais que o switch. 4 Redragon comparados: https://nexustechai.com.br/posts/teclado-gamer-mecanico-qual-comprar/
-- X: Todo mundo escolhe teclado mecânico pelo switch e erra no tamanho. 60%, TKL ou sem fio? 4 Redragon comparados, com para quem cada um serve e para quem não serve: https://nexustechai.com.br/posts/teclado-gamer-mecanico-qual-comprar/
-- Instagram (legenda): Teclado mecânico: escolha o formato antes da cor do switch.
-  60% libera mesa, TKL mantém as setas, sem fio dá liberdade.
-  4 Redragon comparados antes da Black Friday. Link na bio.
-  #tecladogamer #redragon #blackfriday
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Vai comprar teclado mecânico? Não comece pelo switch." [2-8 s] Fato 1: TKL corta só o numérico; 60% corta também as setas. [8-14 s] Fato 2: brown é tátil e discreto; blue é barulhento. [14-18 s] Fato 3: para jogo competitivo, muita gente prefere cabo. [18-20 s] "4 Redragon comparados no link da bio."
-
-## 2026-11-17 · Carregador USB-C Apple: precisa ser o original? 4 opções
-Link: https://nexustechai.com.br/posts/carregador-usb-c-apple-qual-comprar/
-- WhatsApp: Não precisa do carregador original da Apple: ela aceita outra marca com USB-C PD. Mas o iPhone 17 só carrega rápido com 40 W. 4 opções: https://nexustechai.com.br/posts/carregador-usb-c-apple-qual-comprar/
-- X: A Apple aceita carregador de outra marca no iPhone, desde que seja USB-C com PD. O que muda é a potência: 18 W para iPhone 15 e 16, 40 W para o iPhone 17 chegar a 50% em cerca de 20 min. 4 opções: https://nexustechai.com.br/posts/carregador-usb-c-apple-qual-comprar/
-- Instagram (legenda): Carregador original da Apple é opção, não obrigação.
-  O que importa são os watts do seu iPhone: 18 W, 20 W ou 40 W.
-  Mostramos 4 opções com Anatel antes da Black Friday. Link na bio.
-  #iphone #carregador #blackfriday
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Precisa do carregador original do iPhone?" [2-8 s] Fato 1: a Apple aceita outra marca com USB-C PD. [8-14 s] Fato 2: iPhone 15 e 16 pedem 18 W; iPhone 17 pede 40 W. [14-18 s] Fato 3: exija Anatel e confira o cabo. [18-20 s] "4 opções no link da bio."
-
-## 2026-11-17 · Lançamento jogos PS5 em novembro: GTA 6 e o que mais sai
-Link: https://nexustechai.com.br/posts/lancamento-jogos-ps5-novembro-2026-gta-6/
-- WhatsApp: GTA 6 sai dia 19 por R$ 449,90 (Standard). Se pesou, tem Isaac online e Gothic 3 Classic no mesmo mês. Calendário do PS5: https://nexustechai.com.br/posts/lancamento-jogos-ps5-novembro-2026-gta-6/
-- X: GTA 6 chega dia 19 a R$ 449,90. Mas novembro tem mais no PS5: Isaac com coop online para 4 (19/11) e Gothic 3 Classic (24/11). Datas e para quem serve cada um: https://nexustechai.com.br/posts/lancamento-jogos-ps5-novembro-2026-gta-6/
-- Instagram (legenda): GTA 6 sai dia 19, mas nem todo bolso aguenta R$ 449,90.
-  Novembro tem Isaac online com coop para 4 e Gothic 3 Classic.
-  Calendário completo do PS5 no link da bio.
-  #ps5 #gta6 #games
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "GTA 6 custa R$ 449,90. Tem alternativa?" [2-8 s] Fato 1: GTA 6 sai dia 19, sem disco na versão física. [8-14 s] Fato 2: Isaac ganha coop online para 4 no mesmo dia. [14-18 s] Fato 3: Gothic 3 Classic chega dia 24. [18-20 s] "Calendário completo no link da bio."
-
-## 2026-11-17 · Como desativar a inteligência artificial do celular Samsung
-Link: https://nexustechai.com.br/posts/como-desativar-ia-celular-samsung-android/
-- WhatsApp: Desligar o Galaxy AI não desliga o Gemini: são 2 interruptores separados no Samsung. Passo a passo: https://nexustechai.com.br/posts/como-desativar-ia-celular-samsung-android/
-- X: Seu Galaxy tem duas IAs com interruptores separados: Galaxy AI (Samsung) e Gemini (Google). Excluir o app do Gemini não tira ele do botão liga/desliga. Onde desligar cada uma: https://nexustechai.com.br/posts/como-desativar-ia-celular-samsung-android/
-- Instagram (legenda): Seu Galaxy tem duas IAs, e desligar uma não desliga a outra.
-  Alguns recursos do Galaxy AI já vêm ligados de fábrica.
-  Excluir o app do Gemini não tira ele do botão liga/desliga.
-  #galaxyai #gemini #samsung
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seu Galaxy tem duas IAs, com dois interruptores." [2-8 s] Fato 1: Galaxy AI é da Samsung, Gemini é do Google. [8-14 s] Fato 2: alguns recursos do Galaxy AI já vêm ligados de fábrica. [14-18 s] Fato 3: excluir o app do Gemini não tira ele do botão liga/desliga. [18-20 s] "Passo a passo no link da bio."
-
-## 2026-11-17 · Nintendo Switch 2: presente digital na eShop, como funciona
-Link: https://nexustechai.com.br/posts/switch-2-presente-digital-eshop-familia-como-funciona-atualizacao-23-5/
-- WhatsApp: Switch 2 agora deixa dar jogo de presente pela eShop, mas só a quem está no seu grupo familiar (até 8 contas). https://nexustechai.com.br/posts/switch-2-presente-digital-eshop-familia-como-funciona-atualizacao-23-5/
-- X: Switch 2 e Switch ganharam presente digital na eShop (atualização 23.5.0). Chega na hora, sem código. Mas só vale para o grupo familiar, até 8 contas, e o Brasil ainda não foi confirmado: https://nexustechai.com.br/posts/switch-2-presente-digital-eshop-familia-como-funciona-atualizacao-23-5/
-- Instagram (legenda): Agora dá para dar jogo de presente no Switch 2.
-  Sem cartão, sem código: chega direto no Menu HOME.
-  A trava: só para quem está no seu grupo familiar.
-  #switch2 #nintendo #eshop
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Switch 2 já deixa dar jogo de presente." [2-8 s] Fato 1: chega na hora, sem código. [8-14 s] Fato 2: só para o grupo familiar, até 8 contas. [14-18 s] Fato 3: contas infantis não enviam e o Brasil não foi confirmado. [18-20 s] "Passo a passo no link da bio."
-
-## 2026-11-17 · Zelda Ocarina of Time vende 5,2 milhões em 4 dias no Switch 2
-Link: https://nexustechai.com.br/posts/zelda-ocarina-of-time-5-2-milhoes-vendas-quatro-dias-switch-2-recorde/
-- WhatsApp: Zelda Ocarina of Time vendeu 5,2 milhões de cópias em 4 dias no Switch 2, segundo a Nintendo. https://nexustechai.com.br/posts/zelda-ocarina-of-time-5-2-milhoes-vendas-quatro-dias-switch-2-recorde/
-- X: Ocarina of Time vendeu 5,2 milhões em 4 dias no Switch 2, mais de 1,3 milhão por dia. É a maior estreia própria da Nintendo no console, mas o número soma físico e digital e é da empresa: https://nexustechai.com.br/posts/zelda-ocarina-of-time-5-2-milhoes-vendas-quatro-dias-switch-2-recorde/
-- Instagram (legenda): 5,2 milhões de Zelda em 4 dias.
-  Ocarina of Time fez a maior estreia própria da Nintendo no Switch 2.
-  Só no Japão foram 810 mil cópias. O que o número não mostra está no link da bio.
-  #zelda #switch2 #nintendo
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Zelda vendeu 5,2 milhões em 4 dias." [2-8 s] Fato 1: são mais de 1,3 milhão de cópias por dia no Switch 2. [8-14 s] Fato 2: 810 mil foram só no Japão. [14-18 s] Fato 3: a Nintendo não separa físico e digital nem cita o Brasil. [18-20 s] "Detalhes no link da bio."
-
-## 2026-11-17 · Motorola lançamento 2026 barato: 15% no Pix em 27/11
-Link: https://nexustechai.com.br/posts/motorola-black-friday-2026-27-novembro-pix-15-parcelas-quais-modelos/
-- WhatsApp: Black Friday da Motorola é 27/11: até 15% no Pix e 21x sem juros. Mas a loja não mostra preço, então anote o de hoje. https://nexustechai.com.br/posts/motorola-black-friday-2026-27-novembro-pix-15-parcelas-quais-modelos/
-- X: Motorola marcou a Black Friday para 27/11: até 15% no Pix, até 21x sem juros, frete grátis acima de R$ 50. O "até" é o teto e a página não mostra preços. Quais Moto G e Edge entram: https://nexustechai.com.br/posts/motorola-black-friday-2026-27-novembro-pix-15-parcelas-quais-modelos/
-- Instagram (legenda): Black Friday da Motorola: 27 de novembro.
-  Até 15% no Pix e 21x sem juros, mas "até" é só o teto.
-  Anote o preço de hoje para comparar. Lista de modelos no link da bio.
-  #motorola #blackfriday #motog
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Black Friday da Motorola: 27 de novembro." [2-8 s] Fato 1: até 15% no Pix e 21x sem juros. [8-14 s] Fato 2: o 15% é o teto, a página não mostra preço de nenhum modelo. [14-18 s] Fato 3: parte das ofertas começa antes do dia 27. [18-20 s] "Lista dos modelos no link da bio."
-
-## 2026-11-17 · Anatel biometria facial no celular: prazos e golpe da selfie
-Link: https://nexustechai.com.br/posts/anatel-biometria-facial-linhas-celular-prazos-2027-2029-golpe-selfie/
-- WhatsApp: Mensagem pedindo sua selfie para não perder a linha? É golpe. A Anatel só vai exigir biometria facial a partir de setembro de 2027. https://nexustechai.com.br/posts/anatel-biometria-facial-linhas-celular-prazos-2027-2029-golpe-selfie/
-- X: A Anatel vai exigir biometria facial para manter linhas de celular, mas os prazos vão de set/2027 a 2029. Hoje nada muda. Quem pedir sua selfie agora é golpista. Datas e quem entra: https://nexustechai.com.br/posts/anatel-biometria-facial-linhas-celular-prazos-2027-2029-golpe-selfie/
-- Instagram (legenda): Pediram sua selfie para "não perder a linha"?
-  É golpe. A biometria da Anatel só começa em setembro de 2027.
-  Veja os prazos e quem precisa fazer no link da bio.
-  #anatel #golpe #segurancadigital
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Pediram sua selfie para não perder a linha? Golpe." [2-8 s] Fato 1: a Anatel vai exigir biometria facial, mas só a partir de setembro de 2027. [8-14 s] Fato 2: suspensão de linhas sem validação só em 2029. [14-18 s] Fato 3: a validação será em canais oficiais da operadora. [18-20 s] "Prazos completos no link da bio."
-
-## 2026-11-16 · Tomada inteligente Alexa: como configurar em 5 passos
-Link: https://nexustechai.com.br/posts/tomada-inteligente-alexa-como-configurar/
-- WhatsApp: Alexa não acha sua tomada inteligente? Quase sempre é a ordem: app da marca primeiro, skill depois. Passo a passo: https://nexustechai.com.br/posts/tomada-inteligente-alexa-como-configurar/
-- X: Tomada inteligente não aparece na Alexa? Configure no app da marca, confirme que está online e só então ative a skill. Passo a passo com a Tapo P110 e o limite de 10 A: https://nexustechai.com.br/posts/tomada-inteligente-alexa-como-configurar/
-- Instagram (legenda): A Alexa não acha a tomada inteligente?
-  O erro mais comum é começar pelo app da Alexa.
-  Primeiro o app da marca e o Wi-Fi, depois a skill.
-  Passo a passo no link da bio.
-  #alexa #casainteligente #tomadainteligente
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Alexa não acha sua tomada? Você fez na ordem errada." [2-8 s] Fato 1: configure no app da marca e teste ligar e desligar. [8-14 s] Fato 2: só então ative a skill na Alexa. [14-18 s] Fato 3: confira os amperes, a P110 é de 10 A. [18-20 s] "Passo a passo no link da bio."
-
-## 2026-11-16 · Mi Band vs Galaxy Fit 3: 3 semanas ou 13 dias de bateria?
-Link: https://nexustechai.com.br/posts/mi-band-10-ou-galaxy-fit-3-qual-comprar/
-- WhatsApp: Mi Band 10 ou Galaxy Fit3? Até 3 semanas de bateria contra 13 dias, e nenhuma tem GPS. Comparativo: https://nexustechai.com.br/posts/mi-band-10-ou-galaxy-fit-3-qual-comprar/
-- X: Mi Band 10 informa até 3 semanas de bateria; o Galaxy Fit3, até 13 dias. As duas têm nota 4,9 e nenhuma tem GPS. Qual compensa antes da Black Friday: https://nexustechai.com.br/posts/mi-band-10-ou-galaxy-fit-3-qual-comprar/
-- Instagram (legenda): Carregar a smartband 1 vez por mês ou 2?
-  Mi Band 10: até 3 semanas. Galaxy Fit3: até 13 dias.
-  Se você usa Galaxy, o Samsung Health pode pesar mais.
-  Comparativo completo no link da bio.
-  #miband #galaxyfit3 #smartband
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Mi Band ou Galaxy Fit3? A bateria decide." [2-8 s] Fato 1: até 3 semanas contra até 13 dias. [8-14 s] Fato 2: nenhuma tem GPS, as duas aguentam 50 m de água. [14-18 s] Fato 3: quem usa Samsung ganha o Samsung Health. [18-20 s] "Comparativo no link da bio."
-
-## 2026-11-16 · PlayStation barato: qual PS5 comprar na Black Friday 2026
-Link: https://nexustechai.com.br/posts/playstation-barato-qual-ps5-comprar-black-friday/
-- WhatsApp: Vai comprar PS5 na Black Friday? O Digital não lê disco (o leitor é vendido à parte). Veja qual edição compensa: https://nexustechai.com.br/posts/playstation-barato-qual-ps5-comprar-black-friday/
-- X: PS5 mais barato nem sempre é o que compensa: o Digital (825 GB) não lê disco, o com leitor tem 1 TB e o Pro, 2 TB. Guia antes da Black Friday: https://nexustechai.com.br/posts/playstation-barato-qual-ps5-comprar-black-friday/
-- Instagram (legenda): PS5 barato na Black Friday pode sair caro.
-  O Digital não lê disco e o leitor é vendido à parte.
-  825 GB, 1 TB ou 2 TB: cada edição serve a um tipo de jogador.
-  Guia completo no link da bio.
-  #ps5 #blackfriday #playstation
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "PS5 barato? Cuidado com este detalhe." [2-8 s] Fato 1: o Digital não lê disco, o leitor é vendido à parte. [8-14 s] Fato 2: SSD de 825 GB, 1 TB e 2 TB (Pro). [14-18 s] Fato 3: o Pro só compensa com TV 4K de 120 Hz. [18-20 s] "Guia completo no link da bio."
-
-## 2026-11-16 · Claude IA como usar: grátis no Brasil e quando vale o Pro
-Link: https://nexustechai.com.br/posts/claude-ia-como-usar-como-funciona/
-- WhatsApp: O Claude (IA da Anthropic) tem plano grátis e funciona no Brasil. O Pro custa US$ 20/mês e só vale se você bate no limite. Passo a passo: https://nexustechai.com.br/posts/claude-ia-como-usar-como-funciona/
-- X: Claude IA: dá para usar de graça no Brasil (site e app). O Pro é US$ 20/mês e só compensa se você esbarra no limite do plano Free. Passo a passo: https://nexustechai.com.br/posts/claude-ia-como-usar-como-funciona/
-- Instagram (legenda): Claude IA de graça no Brasil? Dá.
-  Funciona no navegador e no app, com limite que renova a cada 5 horas.
-  O Pro (US$ 20/mês) só vale se o limite virar rotina.
-  Passo a passo no link da bio.
-  #claude #ia #tecnologia
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Claude IA é grátis no Brasil?" [2-8 s] Fato 1: sim, em claude.ai e nos apps, com limite que renova a cada 5 horas. [8-14 s] Fato 2: o Pro custa US$ 20/mês. [14-18 s] Fato 3: só assine se bater no limite toda semana. [18-20 s] "Passo a passo no link da bio."
-
-## 2026-11-16 · iPhone 18 lançamento: modelo básico só em 2027, diz Gurman
-Link: https://nexustechai.com.br/posts/iphone-18-e-18e-so-no-segundo-trimestre-2027-gurman/
-- WhatsApp: Rumor: o iPhone 18 comum e o 18e só chegariam no 2º trimestre de 2027, segundo Gurman. Os Pro vêm antes, em setembro. A Apple não confirmou. https://nexustechai.com.br/posts/iphone-18-e-18e-so-no-segundo-trimestre-2027-gurman/
-- X: Segundo Mark Gurman (Bloomberg), iPhone 18 e 18e ficam para o 2º trimestre de 2027; os Pro viriam em setembro. É relato, a Apple não confirmou. O que é rumor e o que não se sabe: https://nexustechai.com.br/posts/iphone-18-e-18e-so-no-segundo-trimestre-2027-gurman/
-- Instagram (legenda): Rumor: o iPhone 18 básico só em 2027.
-  Segundo Gurman, o 18 e o 18e ficam para o 2º trimestre.
-  Os Pro viriam antes, em setembro.
-  A Apple não confirmou nada. Vale esperar? Link da bio.
-  #iphone18 #apple #rumor
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "iPhone 18 básico só em 2027? Rumor." [2-8 s] Fato 1: Gurman diz 2º trimestre de 2027 para o 18 e o 18e. [8-14 s] Fato 2: os Pro viriam antes, em setembro. [14-18 s] Fato 3: a Apple não confirmou nada. [18-20 s] "Vale esperar? Link na bio."
-
-## 2026-11-16 · Pix 6 anos: 1 bilhão de chaves e 52% são aleatórias
-Link: https://nexustechai.com.br/posts/pix-6-anos-1-bilhao-chaves-banco-central-numeros/
-- WhatsApp: O Pix fez 6 anos: 1 bilhão de chaves e 7,1 bilhões de transações só em setembro. Mais da metade das chaves é aleatória. https://nexustechai.com.br/posts/pix-6-anos-1-bilhao-chaves-banco-central-numeros/
-- X: Pix completa 6 anos com 1,008 bilhão de chaves, 52,3% aleatórias, e 7,1 bilhões de transações em setembro, segundo dados do BC. Os números e como se proteger: https://nexustechai.com.br/posts/pix-6-anos-1-bilhao-chaves-banco-central-numeros/
-- Instagram (legenda): O Pix fez 6 anos e já tem mais de 1 bilhão de chaves.
-  52,3% são aleatórias: muita gente parou de expor CPF e celular.
-  Em setembro foram 7,1 bilhões de transações.
-  Números e dicas de segurança no link da bio.
-  #pix #bancocentral #tecnologia
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "O Pix tem 1 bilhão de chaves." [2-8 s] Fato 1: 52,3% são chaves aleatórias. [8-14 s] Fato 2: 7,1 bilhões de transações só em setembro. [14-18 s] Fato 3: confira sempre o nome do recebedor. [18-20 s] "Números completos no link da bio."
-
-## 2026-11-16 · GTA 6 pré-carregamento bate recorde de internet: 33 Tbit/s
-Link: https://nexustechai.com.br/posts/gta-6-pre-carregamento-recorde-trafego-internet-de-cix/
-- WhatsApp: O pré-carregamento de GTA 6 bateu o recorde de tráfego da DE-CIX: 33,01 Tbit/s. O jogo libera quinta, 19/11, e pede 212 GB. Já baixou? https://nexustechai.com.br/posts/gta-6-pre-carregamento-recorde-trafego-internet-de-cix/
-- X: Pré-carregamento de GTA 6 levou a DE-CIX a 33,01 Tbit/s, 19% acima do recorde anterior. O jogo destrava quinta (19/11) e pede até 212 GB. O que fazer antes: https://nexustechai.com.br/posts/gta-6-pre-carregamento-recorde-trafego-internet-de-cix/
-- Instagram (legenda): O pré-carregamento de GTA 6 bateu o recorde de tráfego da DE-CIX.
-  Foram 33,01 Tbit/s, 19% acima da marca anterior.
-  O jogo libera quinta, 19/11, e ocupa até 212 GB.
-  Checklist para baixar sem fila no link da bio.
-  #gta6 #ps5 #xbox
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "GTA 6 bateu o recorde da internet." [2-8 s] Fato 1: 33,01 Tbit/s na DE-CIX, 19% acima do recorde. [8-14 s] Fato 2: o arquivo pede até 212 GB. [14-18 s] Fato 3: o jogo destrava à meia-noite de quinta, 19/11. [18-20 s] "Checklist no link da bio."
-
-## 2026-11-15 · Como configurar lâmpada inteligente: Wi-Fi 2,4 GHz e Alexa
-Link: https://nexustechai.com.br/posts/como-configurar-lampada-inteligente-wifi-alexa/
-- WhatsApp: Comprou lâmpada Wi-Fi e ela não aparece na Alexa? A ordem certa é app do fabricante, rede 2,4 GHz e só depois a Alexa. Passo a passo: https://nexustechai.com.br/posts/como-configurar-lampada-inteligente-wifi-alexa/
-- X: Lâmpada inteligente não aparece na Alexa? Quase sempre é a rede errada (precisa de 2,4 GHz) ou a conta do fabricante sem vincular. A ordem certa e o que fazer se travar: https://nexustechai.com.br/posts/como-configurar-lampada-inteligente-wifi-alexa/
-- Instagram (legenda): Lâmpada Wi-Fi nova e a Alexa não acha?
-  Primeiro ela entra no Wi-Fi de 2,4 GHz pelo app do fabricante.
-  Só depois você vincula a conta na Alexa.
-  Passo a passo e soluções no link da bio.
-  #lampadainteligente #alexa #casainteligente
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Lâmpada inteligente não aparece na Alexa? Ordem errada." [2-8 s] Fato 1: configure primeiro no app do fabricante. [8-14 s] Fato 2: use Wi-Fi 2,4 GHz, a faixa que a maioria exige. [14-18 s] Fato 3: deixe o interruptor de parede sempre ligado. [18-20 s] "Passo a passo no link da bio."
-
-## 2026-11-15 · Tomada inteligente 16A ou 20A: qual usar no ar-condicionado
-Link: https://nexustechai.com.br/posts/tomada-inteligente-16a-ou-20a-qual-escolher/
-- WhatsApp: Ar-condicionado em tomada inteligente? Um aparelho de 1.500 W em 127 V puxa cerca de 12 A, mais que uma de 10 A deve levar. Veja a conta e quando 16 A ou 20 A servem: https://nexustechai.com.br/posts/tomada-inteligente-16a-ou-20a-qual-escolher/
-- X: Tomada inteligente 16A ou 20A para ar-condicionado? 1.500 W em 127 V dão cerca de 12 A, e o compressor puxa mais na partida. Só vale com aval do fabricante para carga de motor: https://nexustechai.com.br/posts/tomada-inteligente-16a-ou-20a-qual-escolher/
-- Instagram (legenda): Vai ligar o ar-condicionado numa tomada inteligente?
-  Watts divididos pela tensão dão os amperes: 1.500 W em 127 V são cerca de 12 A.
-  A de 10 A não é para motor; 16 A ou 20 A só com aval do fabricante.
-  Conta e checklist no link da bio.
-  #tomadainteligente #casainteligente #tecnologia
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Tomada inteligente no ar-condicionado? Calma." [2-8 s] Fato 1: 1.500 W em 127 V dão cerca de 12 A, acima de uma tomada de 10 A. [8-14 s] Fato 2: o compressor puxa mais na partida, e a Tapo diz que a P100 não serve para esse tipo de carga. [14-18 s] Fato 3: 16 A ou 20 A só com aval do fabricante. [18-20 s] "Checklist no link da bio."
-
-## 2026-11-15 · Starlink Brasil vale a pena? Só se a fibra não chega aí
-Link: https://nexustechai.com.br/posts/starlink-brasil-vale-a-pena-internet-satelite-residencial/
-- WhatsApp: Starlink só vale a pena se a fibra não chega até você. Com fibra na rua, o satélite tende a sair mais caro e com mais latência. Planos e checklist: https://nexustechai.com.br/posts/starlink-brasil-vale-a-pena-internet-satelite-residencial/
-- X: Starlink no Brasil vale a pena? Só para quem não tem fibra: sítio, fazenda, bairro sem cabo. Com fibra na rua, tende a custar mais e ter mais latência. Os preços variam por endereço, então confirme antes: https://nexustechai.com.br/posts/starlink-brasil-vale-a-pena-internet-satelite-residencial/
-- Instagram (legenda): Starlink vale a pena? Depende de uma coisa: a fibra chega aí?
-  Se não chega, o satélite pode ser a melhor saída.
-  Se chega, ele tende a custar mais e ter mais latência.
-  Checklist antes de contratar no link da bio.
-  #starlink #internet #tecnologia
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Starlink vale a pena? Só se a fibra não chega aí." [2-8 s] Fato 1: funciona em sítio e fazenda, onde não há cabo. [8-14 s] Fato 2: precisa de céu aberto; árvore e chuva forte atrapalham. [14-18 s] Fato 3: preço e promoção variam por endereço, confirme no site. [18-20 s] "Checklist completo no link da bio."
-
-## 2026-11-15 · Como resolver linha verde na tela do celular: 3 testes grátis
-Link: https://nexustechai.com.br/posts/como-resolver-linha-verde-na-tela-do-celular/
-- WhatsApp: Linha verde na tela do celular? Antes de pagar reparo, faça 3 testes grátis: reiniciar, atualizar e modo seguro. Se a linha ficar, o caminho é garantia: https://nexustechai.com.br/posts/como-resolver-linha-verde-na-tela-do-celular/
-- X: Linha verde na tela do celular? Comece pelo que não custa nada: reiniciar, atualizar o sistema e testar no modo seguro. Se ela continuar, o defeito provavelmente é físico e o caminho é garantia ou assistência: https://nexustechai.com.br/posts/como-resolver-linha-verde-na-tela-do-celular/
-- Instagram (legenda): Linha verde na tela? Não corra para pagar reparo.
-  Reinicie, atualize o sistema e teste no modo seguro, nessa ordem.
-  Se a linha continuar, provavelmente é defeito físico: acione a garantia primeiro.
-  Dica: filme a tela com data para provar que não foi queda.
-  #celular #tutorial #samsung
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Linha verde na tela? Não pague reparo ainda." [2-8 s] Fato 1: reinicie e atualize o sistema, que custam zero. [8-14 s] Fato 2: teste no modo seguro; se a linha some, suspeite de app. [14-18 s] Fato 3: se ela fica, provavelmente é físico, então garantia ou assistência autorizada. [18-20 s] "Passo a passo no link da bio."
-
-## 2026-11-15 · Claude IA: Anthropic pede IPO na Nasdaq com o código ANT
-Link: https://nexustechai.com.br/posts/anthropic-ipo-nasdaq-ant-s-1-claude/
-- WhatsApp: A dona do Claude pediu à SEC para abrir capital na Nasdaq, com o código ANT. Preço e data da estreia ainda não saíram. O que já é fato: https://nexustechai.com.br/posts/anthropic-ipo-nasdaq-ant-s-1-claude/
-- X: A Anthropic, dona do Claude, divulgou o S-1 e quer listar na Nasdaq como ANT. Preço, ações e data de estreia não foram definidos. Valores de 1,5 a 2 tri de dólares são avaliação reportada pela imprensa, não oficial: https://nexustechai.com.br/posts/anthropic-ipo-nasdaq-ant-s-1-claude/
-- Instagram (legenda): A dona do Claude quer entrar na bolsa.
-  A Anthropic divulgou o S-1 e pretende listar na Nasdaq com o código ANT.
-  Preço e data da estreia ainda não foram definidos; avaliações de trilhões são expectativa da imprensa.
-  Fato e palpite separados no link da bio.
-  #claude #anthropic #ia
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "A dona do Claude quer ir para a bolsa." [2-8 s] Fato 1: a Anthropic divulgou o S-1 e quer listar na Nasdaq como ANT. [8-14 s] Fato 2: preço, ações e data de estreia ainda não saíram. [14-18 s] Fato 3: avaliações de trilhões são expectativa da imprensa, não dado oficial. [18-20 s] "Detalhes no link da bio."
-
-## 2026-11-15 · Novo Galaxy S27: o que a Samsung confirmou e o que é rumor
-Link: https://nexustechai.com.br/posts/galaxy-s27-samsung-confirma-modelos-diferentes-o-que-e-rumor/
-- WhatsApp: Galaxy S27: a Samsung só confirmou que os modelos terão propostas diferentes. Data, preço e S27 Pro ainda são rumor, e nada de Brasil. https://nexustechai.com.br/posts/galaxy-s27-samsung-confirma-modelos-diferentes-o-que-e-rumor/
-- X: Novo Galaxy S27: o único dado oficial da Samsung é que os modelos terão propostas diferentes. Data, preço, S27 Pro e Brasil seguem como rumor. O que é fato e o que não é: https://nexustechai.com.br/posts/galaxy-s27-samsung-confirma-modelos-diferentes-o-que-e-rumor/
-- Instagram (legenda): Galaxy S27: o que a Samsung confirmou de verdade?
-  Só que os modelos terão propostas diferentes para cada perfil de comprador.
-  Data, preço e S27 Pro ainda são rumor, e não há informação sobre o Brasil.
-  Fato e rumor separados no link da bio.
-  #galaxys27 #samsung #celulares
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Galaxy S27: o que é oficial e o que é rumor." [2-8 s] Fato 1: a Samsung confirmou modelos com propostas diferentes. [8-14 s] Fato 2: data, preço e S27 Pro são rumor, sem ficha oficial. [14-18 s] Fato 3: não há informação sobre venda no Brasil. [18-20 s] "Detalhes no link da bio."
-
-## 2026-11-15 · Jogos grátis Epic Games: Knightica até 19/11, às 13h
-Link: https://nexustechai.com.br/posts/epic-games-knightica-gratis-12-19-novembro-como-resgatar/
-- WhatsApp: Knightica, que custa R$ 39,99 na Epic, está grátis até quinta (19/11), às 13h de Brasília. Passo a passo para resgatar: https://nexustechai.com.br/posts/epic-games-knightica-gratis-12-19-novembro-como-resgatar/
-- X: Jogos grátis da Epic: Knightica (R$ 39,99 na loja) sai de graça até quinta, 19/11, às 13h de Brasília. Resgatou, é seu na biblioteca. Passo a passo: https://nexustechai.com.br/posts/epic-games-knightica-gratis-12-19-novembro-como-resgatar/
-- Instagram (legenda): Knightica está de graça na Epic Games Store.
-  Na loja custa R$ 39,99; o resgate vale até quinta, 19/11, às 13h (Brasília).
-  Depois de resgatar, o jogo fica na sua biblioteca.
-  Passo a passo no link da bio.
-  #epicgames #jogosgratis #games
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Jogo de R$ 39,99 de graça na Epic." [2-8 s] Fato 1: Knightica, roguelike de estratégia, está grátis desde 12/11. [8-14 s] Fato 2: o prazo termina quinta, 19/11, às 13h de Brasília. [14-18 s] Fato 3: resgatou, fica na biblioteca. [18-20 s] "Passo a passo no link da bio."
-
-## 2026-11-14 · Mi Band ou smartwatch: Smart Band 10 vs Redmi Watch e Bip 6
-Link: https://nexustechai.com.br/posts/mi-band-ou-smartwatch-qual-escolher/
-- WhatsApp: Mi Band dura até 3 semanas (pela ficha), mas não atende ligação nem tem GPS. Comparei 5 modelos e mostro quando o smartwatch vale: https://nexustechai.com.br/posts/mi-band-ou-smartwatch-qual-escolher/
-- X: Mi Band ou smartwatch? Dos 5 modelos comparados, só o Redmi Watch 5 Active atende chamada e só o Amazfit Bip 6 informa GPS. A Smart Band 10 vai a até 3 semanas de bateria (ficha). https://nexustechai.com.br/posts/mi-band-ou-smartwatch-qual-escolher/
-- Instagram (legenda): Mi Band ou smartwatch: qual escolher?
-  Se você quer passos, sono e notificações, a Mi Band basta e dura até 3 semanas (ficha).
-  Chamada no pulso e GPS próprio só em smartwatch.
-  Comparativo com 5 modelos no link da bio.
-  #miband #smartwatch #tecnologia
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Mi Band ou smartwatch: onde você erra?" [2-8 s] Fato 1: Smart Band 10 informa até 3 semanas de bateria. [8-14 s] Fato 2: só o Redmi Watch 5 Active atende chamada. [14-18 s] Fato 3: só o Amazfit Bip 6 informa GPS integrado. [18-20 s] "Comparativo completo no link da bio."
-
-## 2026-11-14 · Cabo USB-C Lightning: qual comprar para o iPhone (MFi)
-Link: https://nexustechai.com.br/posts/cabo-usb-c-lightning-qual-comprar-iphone/
-- WhatsApp: iPhone com porta Lightning e carregador USB-C novo? O cabo precisa ser USB-C para Lightning e ter o selo MFi. Guia com o que conferir: https://nexustechai.com.br/posts/cabo-usb-c-lightning-qual-comprar-iphone/
-- X: Se o seu iPhone ainda é Lightning (iPhone 14 e anteriores), o cabo USB-C para Lightning com selo MFi é o que liga ao carregador novo. Veja o que checar e 2 opções de 1 metro: https://nexustechai.com.br/posts/cabo-usb-c-lightning-qual-comprar-iphone/
-- Instagram (legenda): Seu iPhone é Lightning e o carregador é USB-C?
-  Então o cabo importa: procure o selo MFi (Made for iPhone) na embalagem.
-  Anúncio "compatível" não é a mesma coisa. Guia completo no link da bio.
-  #iphone #carregador #tecnologia
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seu cabo de iPhone pode estar errado." [2-8 s] Fato 1: iPhone 14 e anteriores usam Lightning, então o cabo é USB-C para Lightning. [8-14 s] Fato 2: procure o selo MFi, "compatível" não basta. [14-18 s] Fato 3: o cabo só entrega o que o carregador oferece. [18-20 s] "Guia completo no link da bio."
-
-## 2026-11-14 · Nintendo Switch OLED vale a pena na Black Friday 2026?
-Link: https://nexustechai.com.br/posts/nintendo-switch-oled-vale-a-pena-black-friday/
-- WhatsApp: O Switch OLED só vale na Black Friday se o preço ficar bem abaixo do Switch 2 (R$ 4.599,90 sugerido). O desempenho é o mesmo do Switch comum: muda tela e bateria. https://nexustechai.com.br/posts/nintendo-switch-oled-vale-a-pena-black-friday/
-- X: Switch OLED na Black Friday: mesmo desempenho do Switch comum, tela OLED de 7" e bateria de 4,5 a 9 h. Só compensa com preço bem abaixo do Switch 2 (R$ 4.599,90 sugerido). Análise, sem teste próprio: https://nexustechai.com.br/posts/nintendo-switch-oled-vale-a-pena-black-friday/
-- Instagram (legenda): Switch OLED ou Switch 2 na Black Friday?
-  O OLED tem a melhor tela da geração e bateria de até 9 h, mas o mesmo desempenho do Switch comum.
-  Não roda os jogos exclusivos do Switch 2. Só vale com desconto real.
-  #nintendoswitch #blackfriday #games
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Switch OLED na Black Friday: vale?" [2-8 s] Fato 1: desempenho igual ao Switch comum, muda a tela OLED e a bateria de até 9 h. [8-14 s] Fato 2: não roda jogos exclusivos do Switch 2, que custa R$ 4.599,90 sugerido. [14-18 s] Fato 3: só compensa com preço bem abaixo e garantia no Brasil. [18-20 s] "Análise completa no link da bio."
-
-## 2026-11-14 · Como transferir WhatsApp do Android para o iPhone sem perder
-Link: https://nexustechai.com.br/posts/como-transferir-whatsapp-android-para-iphone/
-- WhatsApp: Vai trocar o Android pelo iPhone? O WhatsApp só leva as conversas se o iPhone for novo ou estiver de fábrica. Se já configurou, não vale. Passo a passo: https://nexustechai.com.br/posts/como-transferir-whatsapp-android-para-iphone/
-- X: Para levar o WhatsApp do Android ao iPhone com as conversas, use o Migrar para iOS. Pegadinha: só vale com iPhone novo ou restaurado de fábrica e o mesmo número. Passo a passo: https://nexustechai.com.br/posts/como-transferir-whatsapp-android-para-iphone/
-- Instagram (legenda): Trocou o Android pelo iPhone e quer manter o WhatsApp?
-  O app Migrar para iOS é de graça, mas só funciona com iPhone novo ou de fábrica.
-  Já configurou? Leia antes de apagar qualquer coisa.
-  #whatsapp #iphone #android
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Iphone novo? Não configure antes disso." [2-8 s] Fato 1: o Migrar para iOS leva as conversas, de graça. [8-14 s] Fato 2: só com iPhone novo ou de fábrica e o mesmo número. [14-18 s] Fato 3: WhatsApp Business e histórico de chamadas não passam. [18-20 s] "Passo a passo no link da bio."
-
-## 2026-11-14 · Controle Xbox Nano no Brasil: R$ 379 e lançamento em novembro
-Link: https://nexustechai.com.br/posts/xbox-nano-controle-r-379-brasil-novembro-o-que-e/
-- WhatsApp: O controle Xbox Nano tem 13 cm, 100 g e preço sugerido de R$ 379 no Brasil. Chega em novembro, mas a bateria ainda não foi divulgada: https://nexustechai.com.br/posts/xbox-nano-controle-r-379-brasil-novembro-o-que-e/
-- X: Controle Xbox Nano: 13 cm, 100 g, Bluetooth e R$ 379 sugeridos no anúncio de 14/10. Lançamento previsto para novembro, sem data, e a Microsoft não disse quanto dura a bateria: https://nexustechai.com.br/posts/xbox-nano-controle-r-379-brasil-novembro-o-que-e/
-- Instagram (legenda): O menor controle do Xbox custa R$ 379 (preço sugerido).
-  13 cm, 100 g e Bluetooth: cabe na bolsa e conecta no celular.
-  Falta a Microsoft dizer a autonomia da bateria e a data exata.
-  #xbox #controle #games
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Controle Xbox Nano: R$ 379 no Brasil." [2-8 s] Fato 1: 13 cm e 100 g, o menor da linha. [8-14 s] Fato 2: Bluetooth, funciona em Xbox, PC, Android e iOS. [14-18 s] Fato 3: bateria e data exata ainda não saíram. [18-20 s] "Detalhes no link da bio."
-
-## 2026-11-14 · ChatGPT voz: Avançado e Padrão saem em 11 de dezembro
-Link: https://nexustechai.com.br/posts/chatgpt-voz-avancada-padrao-saem-11-dezembro-live-voice/
-- WhatsApp: O ChatGPT vai aposentar os modos de voz Avançado e Padrão em 11/12 e migrar todo mundo para o Live Voice. Atenção: vídeo e compartilhar tela ainda dependem do modo antigo, sem prazo. https://nexustechai.com.br/posts/chatgpt-voz-avancada-padrao-saem-11-dezembro-live-voice/
-- X: ChatGPT: os modos de voz Avançado e Padrão saem em 11/12, segundo a imprensa. O Live Voice vira o padrão, mas vídeo ao vivo e compartilhar tela ainda não existem nele e não há prazo: https://nexustechai.com.br/posts/chatgpt-voz-avancada-padrao-saem-11-dezembro-live-voice/
-- Instagram (legenda): O ChatGPT muda a voz em 11 de dezembro.
-  Avançado e Padrão saem, e o Live Voice vira o padrão, sem você fazer nada.
-  Mas vídeo ao vivo e compartilhar tela ainda dependem do modo antigo.
-  #chatgpt #openai #inteligenciaartificial
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "ChatGPT: duas vozes vão sumir dia 11/12." [2-8 s] Fato 1: Avançado e Padrão saem, o Live Voice vira o padrão. [8-14 s] Fato 2: ele escuta e fala ao mesmo tempo, dá para interromper. [14-18 s] Fato 3: vídeo e tela ainda dependem do modo antigo, sem prazo. [18-20 s] "Detalhes no link da bio."
-
-## 2026-11-14 · PlayStation Store: Black Friday até 75% off e nova leva em 16/11
-Link: https://nexustechai.com.br/posts/playstation-store-black-friday-2026-ate-75-o-que-muda-16-novembro/
-- WhatsApp: Black Friday da PS Store vai até 30/11 com até 75% off, mas alguns descontos acabam sexta (20/11) e entra leva nova segunda (16/11). Confira jogo a jogo: https://nexustechai.com.br/posts/playstation-store-black-friday-2026-ate-75-o-que-muda-16-novembro/
-- X: PS Store com até 75% off até 30/11. Datas que importam, segundo a Sony: nova leva em 16/11 e fim de alguns descontos em 20/11. O percentual varia por jogo e região: https://nexustechai.com.br/posts/playstation-store-black-friday-2026-ate-75-o-que-muda-16-novembro/
-- Instagram (legenda): A Black Friday da PS Store não espera o dia 27.
-  Até 75% off até 30/11, mas alguns descontos acabam na sexta (20/11).
-  Segunda (16/11) entra leva nova, ainda sem lista divulgada.
-  #playstation #blackfriday #ps5
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "PS Store: não deixe para o dia 27." [2-8 s] Fato 1: até 75% off, campanha vai até 30/11. [8-14 s] Fato 2: segunda (16/11) entra leva nova de jogos. [14-18 s] Fato 3: alguns descontos acabam sexta (20/11). [18-20 s] "Calendário completo no link da bio."
-
-## 2026-11-13 · Xiaomi Brasil: 18 Pro e Pro Max em Paris dia 17, e aqui?
-Link: https://nexustechai.com.br/posts/xiaomi-18-pro-pro-max-evento-global-17-novembro-paris/
-- WhatsApp: Xiaomi confirmou o evento global do 18 Pro e Pro Max para terça (17/11), 10h em Brasília. Brasil? Nenhuma fonte cita. Preço e bateria ainda são rumor: https://nexustechai.com.br/posts/xiaomi-18-pro-pro-max-evento-global-17-novembro-paris/
-- X: Xiaomi 18 Pro e Pro Max chegam ao mercado global dia 17/11, em Paris (10h em Brasília). Preço e bateria da versão global seguem como rumor, e o Brasil não foi citado: https://nexustechai.com.br/posts/xiaomi-18-pro-pro-max-evento-global-17-novembro-paris/
-- Instagram (legenda): Xiaomi 18 Pro e Pro Max: evento global dia 17, em Paris.
-  Horário de Brasília: 10h, com transmissão no YouTube e no X.
-  Brasil? Sem anúncio. Preço e bateria ainda são vazamento.
-  #xiaomi #xiaomi18pro #celulares
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Xiaomi 18 Pro: e o Brasil?" [2-8 s] Fato 1: evento global dia 17/11, em Paris, 10h em Brasília. [8-14 s] Fato 2: preço e bateria da versão global são rumor. [14-18 s] Fato 3: nenhuma fonte cita lançamento no Brasil. [18-20 s] "Detalhes no link da bio."
-
-## 2026-11-13 · Nintendo Switch 2: Pikmin 4 Edition já saiu, com 72 fases
-Link: https://nexustechai.com.br/posts/pikmin-4-switch-2-edition-ja-disponivel-dandori-academy-upgrade/
-- WhatsApp: Pikmin 4 ganhou edição para Switch 2 desde 12/11: 72 fases novas no Dandori Academy e comando de voz para o Oatchi. Quem tem o original pode pagar só o upgrade: https://nexustechai.com.br/posts/pikmin-4-switch-2-edition-ja-disponivel-dandori-academy-upgrade/
-- X: Pikmin 4 Switch 2 Edition já está disponível: 72 fases cronometradas no Dandori Academy, placar online e voz para mandar no Oatchi. Upgrade pago para quem tem o original: https://nexustechai.com.br/posts/pikmin-4-switch-2-edition-ja-disponivel-dandori-academy-upgrade/
-- Instagram (legenda): Pikmin 4 voltou, agora no Switch 2.
-  72 fases do Dandori Academy, cada uma com 3 dificuldades.
-  Dá para mandar no Oatchi falando no microfone do console.
-  #pikmin4 #nintendoswitch2 #games
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Pikmin 4 ganhou edição nova." [2-8 s] Fato 1: 72 fases cronometradas no Dandori Academy. [8-14 s] Fato 2: comandos de voz para o Oatchi. [14-18 s] Fato 3: quem tem o original paga só o upgrade. [18-20 s] "Mais no link da bio."
-
-## 2026-11-13 · Xbox Game Pass: GoldenEye e Wreckfest saem em 15/11
-Link: https://nexustechai.com.br/posts/xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra/
-- WhatsApp: Game Pass perde Dragon Ball Xenoverse 2, GoldenEye 007 e Wreckfest em 15/11. Se está no meio de algum, termine até sábado. Toxic Commando já entrou: https://nexustechai.com.br/posts/xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra/
-- X: Saem do Xbox Game Pass em 15/11: Dragon Ball Xenoverse 2, GoldenEye 007, Wreckfest, Moonlighter e Police Simulator. Toxic Commando já está no catálogo desde 12/11: https://nexustechai.com.br/posts/xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra/
-- Instagram (legenda): Última chamada no Game Pass.
-  Dia 15/11 saem GoldenEye 007, Wreckfest e Dragon Ball Xenoverse 2.
-  Toxic Commando já entrou, sem custo extra nos planos Ultimate, Premium e PC.
-  #xboxgamepass #xbox #games
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Esses jogos saem do Game Pass dia 15." [2-8 s] Fato 1: GoldenEye 007, Wreckfest e Dragon Ball Xenoverse 2. [8-14 s] Fato 2: Moonlighter e Police Simulator também. [14-18 s] Fato 3: Toxic Commando já entrou. [18-20 s] "Lista completa no link da bio."
 

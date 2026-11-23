@@ -73,3 +73,4 @@ Resgate os dois até 26/11. É grátis, ficam na biblioteca e só exige conta co
 
 - A rodada anterior: [Knightica grátis na Epic](/posts/epic-games-knightica-gratis-12-19-novembro-como-resgatar/).
 - Assinaturas: [o PS Plus de novembro](/posts/ps-plus-novembro-2026-dead-island-2-tomb-raider/).
+- Primeira vez? Veja [como resgatar jogos gratuitos da Epic Games](/posts/como-resgatar-jogos-gratuitos-epic-games/) passo a passo.

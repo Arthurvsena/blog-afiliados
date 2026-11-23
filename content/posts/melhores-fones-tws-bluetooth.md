@@ -182,6 +182,9 @@ Em geral sim, pelo Bluetooth padrão. Recursos de app podem variar, então confi
 
 Se o seu dia tem barulho, {{link:jbl-wave-buds-2|veja o preço atual do JBL Wave Buds 2}}. Se o foco é chamada e bateria, o QCY T13 ENC é a escolha mais segura pelo histórico de avaliações.
 
+
+Primeira vez com um fone sem fio? Veja [fone TWS como usar: ligar, parear e carregar](/posts/fone-tws-como-usar-ligar-parear/).
+
 :::veredito
 JBL Wave Buds 2 para quem quer silêncio, QCY T13 ENC para chamadas e bateria longa; Philips e Redmi cobrem o uso simples.
 :::

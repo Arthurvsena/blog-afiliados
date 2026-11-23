@@ -74,6 +74,8 @@ O reset apaga todos os pareamentos salvos no fone. Depois, você precisa conecta
 
 Se o fone é velho e falha toda semana, insistir no reset é gastar tempo. Na minha leitura, vale trocar. Para a maioria, o {{link:qcy-t13|QCY T13 (veja o preço atual)}} é uma troca segura pela ficha, com bateria de até 40 h somando o estojo. Compare com outros modelos em [fone TWS Bluetooth: os melhores](/posts/melhores-fones-tws-bluetooth/) ou veja a lista de [fones Bluetooth baratos e bons](/posts/fones-bluetooth-baratos-bons/).
 
+Primeira vez com um fone sem fio? Veja [fone TWS como usar: ligar, parear e carregar](/posts/fone-tws-como-usar-ligar-parear/).
+
 :::dica Antes de trocar
 Se o fone ainda está na garantia, tente a assistência primeiro. Reset e pareamento limpo custam zero. Se a garantia acabou e você quer algo ainda mais em conta, o {{link:redmi-buds-6-play|Redmi Buds 6 Play (ver o preço)}} tem Bluetooth 5.4 pela ficha. Nenhum fone novo dispensa os passos acima: se o problema era o celular, ele volta com o modelo novo.
 :::

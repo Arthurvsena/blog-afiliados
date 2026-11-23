@@ -72,6 +72,9 @@ Se o reset não resolveu e o fone já está velho, trocar costuma sair mais bara
 
 Se a dúvida é se vale ficar no sem fio, veja [fone Bluetooth ou com fio](/posts/fone-bluetooth-ou-com-fio/). Para quem quer trocar sem gastar muito, a lista de [fones Bluetooth bons e em conta](/posts/fones-bluetooth-baratos-bons/) ajuda. Se você usa o fone para jogar, compare os modelos com modo jogo em [fone TWS gamer](/posts/fone-tws-gamer-baixa-latencia/).
 
+
+Primeira vez com um fone sem fio? Veja [fone TWS como usar: ligar, parear e carregar](/posts/fone-tws-como-usar-ligar-parear/).
+
 :::dica Se o problema voltar
 Se acontecer toda semana, desconfie do aparelho e não do seu jeito de usar. Fone que perde o par várias vezes não vale ficar remendando.
 :::

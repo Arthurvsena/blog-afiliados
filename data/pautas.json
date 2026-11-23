@@ -3989,10 +3989,11 @@
     "tipo": "analise",
     "produtos_necessarios": 0,
     "motivo": "Busca de compra/avaliacao; aproveita a cobertura recente de Gemini 4.",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-14",
     "editoria": "inteligencia-artificial",
-    "viral": 3
+    "viral": 3,
+    "post": "gemini-google-ai-plus-vale-a-pena"
   },
   {
     "id": "alexa-compativel-tv-samsung-como-conectar",
@@ -5058,13 +5059,14 @@
     "produtos_necessarios": 0,
     "prioridade": "hoje",
     "motivo": "Mural #98: 2FA em PlayStation e Xbox na semana do GTA 6 (conta guarda a compra de R$ 449,90). PlayStation: Gerenciamento de Conta > Segurança > Verificação em duas etapas (app autenticador ou SMS, guardar 10 códigos de backup); Xbox: account.microsoft.com/security > Gerenciar como entro > Segurança adicional. Passo a passo só do que as páginas oficiais dizem; linkar a pauta de golpes do GTA 6 e o tutorial de 2FA do WhatsApp.",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-20",
     "secundarias": [
       "autenticação de dois fatores psn",
       "2fa xbox"
     ],
-    "viral": 4
+    "viral": 4,
+    "post": "como-ativar-verificacao-duas-etapas-playstation-xbox-conta-gta-6"
   },
   {
     "id": "xiaomi-18-pro-max-brasil-fim-de-janeiro-2027-preco-europa",
@@ -5313,9 +5315,10 @@
     "tipo": "noticia",
     "produtos_necessarios": 0,
     "prioridade": "hoje",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-22",
-    "viral": 3
+    "viral": 3,
+    "post": "openai-gpt-6-2-astra-sol-lancamento-preco-chatgpt"
   },
   {
     "id": "google-tasks-gemini-agente-gratis-seis-paises-brasil-so-pro",
@@ -5339,9 +5342,10 @@
     "tipo": "noticia",
     "produtos_necessarios": 0,
     "prioridade": "hoje",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-22",
-    "viral": 2
+    "viral": 2,
+    "post": "google-tasks-gemini-agente-gratis-seis-paises-brasil-so-pro"
   },
   {
     "id": "the-game-awards-2026-indicados-gta-6-oito-indicacoes-10-dezembro",
@@ -5432,8 +5436,10 @@
     "tipo": "guia",
     "produtos_necessarios": 0,
     "motivo": "Dúvida real (1,83, 1,83 e 1,75) sem post; entrada para quem acabou de comprar e leva às listas de TWS.",
-    "status": "pendente",
-    "criada": "2026-11-22"
+    "status": "publicada",
+    "criada": "2026-11-22",
+    "viral": 3,
+    "post": "fone-tws-como-usar-ligar-parear"
   },
   {
     "id": "camera-wifi-como-funciona-como-escolher",
@@ -5448,8 +5454,10 @@
     "tipo": "guia",
     "produtos_necessarios": 0,
     "motivo": "Sem post no subnicho; o catálogo tem a Intelbras Mibo iM5SC para o card.",
-    "status": "pendente",
-    "criada": "2026-11-22"
+    "status": "publicada",
+    "criada": "2026-11-22",
+    "viral": 3,
+    "post": "camera-wifi-como-funciona-como-escolher"
   },
   {
     "id": "gemini-google-como-desativar-android",
@@ -5486,7 +5494,8 @@
     "produtos_necessarios": 0,
     "motivo": "Intenção de compra 1,58 e 1,75; já existe o post de como usar o Claude para linkar. Conferir preços na página oficial antes de escrever.",
     "status": "pendente",
-    "criada": "2026-11-22"
+    "criada": "2026-11-22",
+    "viral": 3
   },
   {
     "id": "como-resgatar-jogos-gratuitos-epic-games",
@@ -5503,7 +5512,93 @@
     "tipo": "tutorial",
     "produtos_necessarios": 0,
     "motivo": "Games tem poucos tutoriais; as notícias semanais da Epic já geram tráfego recorrente para linkar.",
-    "status": "pendente",
-    "criada": "2026-11-22"
+    "status": "publicada",
+    "criada": "2026-11-22",
+    "viral": 4,
+    "post": "como-resgatar-jogos-gratuitos-epic-games"
+  },
+  {
+    "id": "gta-6-vendas-19-milhoes-sensor-tower-primeiro-dia-receita",
+    "titulo": "GTA 6 vende 19 milhões de cópias no lançamento, estima Sensor Tower: o que o número diz e o que não é oficial",
+    "palavra_chave": "gta 6 vendas",
+    "editoria": "games",
+    "fontes": [
+      {
+        "nome": "Tecnoblog (Sensor Tower/Reuters)",
+        "url": "https://tecnoblog.net/noticias/gta-6-ja-vendeu-mais-de-19-milhoes-de-copias-diz-consultoria/"
+      },
+      {
+        "nome": "Critical Hits",
+        "url": "https://criticalhits.com.br/games/gta-6-chega-a-19-milhoes-de-copias-vendidas-estima-a-sensor-tower/"
+      },
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/games/pre-venda-de-gta-6-supera-us-1-bilhao-veja-numeros-no-ps5-e-xbox/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Maior lançamento do ano; estimativa de terceiros (não oficial), 75% PS5 e preços em real R$ 449,90/R$ 549,90. Tratar como estimativa.",
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-23",
+    "viral": 5,
+    "post": "gta-6-vendas-19-milhoes-estimativa-sensor-tower-nao-oficial"
+  },
+  {
+    "id": "anatel-sms-codigo-curto-bloqueio-90-dias-golpe-o-que-muda-para-voce",
+    "titulo": "Anatel manda bloquear SMS de empresas sem cadastro: o que muda e como se proteger de golpe por mensagem",
+    "palavra_chave": "anatel bloqueio sms golpe",
+    "editoria": "tecnologia",
+    "fontes": [
+      {
+        "nome": "Teletime",
+        "url": "https://teletime.com.br/04/11/2026/anatel-sms-codigos-curtos/"
+      },
+      {
+        "nome": "Tecnoblog",
+        "url": "https://tecnoblog.net/noticias/anatel-decide-operadoras-deverao-bloquear-o-sms-de-empresas-sem-cadastro/"
+      },
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/seguranca/anatel-manda-operadoras-bloquearem-sms-falso-usado-em-golpes/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Decisão de 4/11 (mais de 2 dias, mas sem post sobre o tema e a Black Friday dispara golpes por SMS). Prazos variam entre veículos: conferir; fonte primária (ato da Anatel) não localizada.",
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-23",
+    "viral": 5,
+    "post": "anatel-bloqueio-sms-golpe-codigo-curto-black-friday"
+  },
+  {
+    "id": "motorola-edge-70-neo-lancamento-24-novembro-india-chega-ao-brasil",
+    "titulo": "Motorola Edge 70 Neo: lançamento é amanhã (24/11) na Índia; o que se sabe e se chega ao Brasil",
+    "palavra_chave": "motorola edge 70 neo",
+    "editoria": "celulares",
+    "fontes": [
+      {
+        "nome": "Motorola/Flipkart (página oficial do lançamento, via Digit)",
+        "url": "https://www.digit.in/news/mobile-phones/motorola-edge-70-neo-confirmed-to-launch-on-nov-24-from-price-to-specs-here-is-all-you-need-to-know.html"
+      },
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/smartphone/motorola-vai-lancar-novo-celular-dias-antes-da-black-friday-veja-o-que-sabemos/"
+      },
+      {
+        "nome": "GSMArena",
+        "url": "https://m.gsmarena.com/motorola_edge_70_india_launch_teaser_flipkart-news-70599.php"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Data confirmada na página oficial; preço e Brasil NÃO confirmados (dizer isso no texto; atualizar após o evento). Ficha: 6,8\" 144 Hz, 7.000 mAh, 45 W.",
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-23",
+    "viral": 2,
+    "post": "motorola-edge-70-neo-lancamento-24-novembro-india-chega-ao-brasil"
   }
 ]

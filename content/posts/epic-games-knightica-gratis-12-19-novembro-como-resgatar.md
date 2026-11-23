@@ -78,3 +78,4 @@ Confira os requisitos de PC na página do jogo antes de baixar.
 - Catálogo de assinatura: [as saídas do Xbox Game Pass em 15/11](/posts/xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra/) e [o PS Plus de novembro](/posts/ps-plus-novembro-2026-dead-island-2-tomb-raider/).
 - Lançamentos: [Metaphor: ReFantazio no Switch 2](/posts/metaphor-refantazio-switch-2-lancamento-12-novembro/).
 - Joga no PC e quer um acessório melhor? Veja o guia de [mouse gamer barato](/posts/melhores-mouses-gamer-baratos/) ou o de [headset gamer barato](/posts/melhores-headsets-gamer-baratos/).
+- Primeira vez? Veja [como resgatar jogos gratuitos da Epic Games](/posts/como-resgatar-jogos-gratuitos-epic-games/) passo a passo.
