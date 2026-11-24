@@ -1,0 +1,319 @@
+{
+ "tipo": "longo",
+ "quadro": "tutorial",
+ "slug": "2026-11-24-como-usar-celular-como-webcam-no-obs",
+ "post": "",
+ "titulo": "Como usar o celular como webcam no OBS (passo a passo 2026)",
+ "palavra_chave": "como usar o celular como webcam no obs",
+ "resumo": "Como usar o celular como webcam no OBS: no iPhone, o caminho oficial e grátis é a Câmera de Continuidade, que exige um Mac; no Android, é o modo Webcam por USB, que depende do fabricante. Veja o passo a passo, quem fica de fora e como resolver câmera que não aparece, imagem espelhada e atraso.",
+ "hashtags": [
+  "OBS",
+  "Webcam",
+  "Tutorial",
+  "Android",
+  "iPhone"
+ ],
+ "selo": "Nexus Ensina",
+ "capa_texto": "SEM PAGAR NADA",
+ "capa_texto_b": "FUNCIONA NO SEU?",
+ "capa_cena": 1,
+ "fontes": [
+  {
+   "nome": "OBS Project: Smartphone Camera Guide",
+   "url": "https://obsproject.com/kb/smartphone-camera-guide"
+  },
+  {
+   "nome": "OBS Project: Video Capture Sources",
+   "url": "https://obsproject.com/kb/video-capture-sources"
+  },
+  {
+   "nome": "OBS Project: Sources Guide",
+   "url": "https://obsproject.com/kb/sources-guide"
+  },
+  {
+   "nome": "OBS Project: Quick Start Guide",
+   "url": "https://obsproject.com/kb/quick-start-guide"
+  },
+  {
+   "nome": "Apple: Câmera de Continuidade, usar o iPhone como webcam do Mac",
+   "url": "https://support.apple.com/pt-br/102546"
+  },
+  {
+   "nome": "Android Open Source Project: Use a device as a webcam",
+   "url": "https://source.android.com/docs/core/camera/webcam?hl=pt-br"
+  }
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Seu celular pode virar a webcam do {OBS|ô-bê-ésse}, sem pagar nada. Mas só em alguns casos, e eu mostro se é o seu.",
+   "tela": "Celular vira webcam. Grátis.",
+   "imagens": [
+    "tela:https://obsproject.com/kb/smartphone-camera-guide"
+   ]
+  },
+  {
+   "tipo": "fato",
+   "capitulo": "O resultado",
+   "fala": "Em poucos minutos, o seu celular vai aparecer no {OBS|ô-bê-ésse} como uma câmera, e você escolhe ele como qualquer webcam. Sem comprar nada e sem app pirata, se o seu aparelho for dos que têm o caminho oficial.",
+   "imagens": [
+    "tela:https://obsproject.com/kb/video-capture-sources",
+    "tela:https://obsproject.com/kb/smartphone-camera-guide"
+   ],
+   "fonte": "OBS Project"
+  },
+  {
+   "tipo": "info",
+   "icone": "alerta",
+   "fala": "Mas já vou avisar: o caminho oficial e grátis muda conforme o seu celular e o seu computador. Por isso eu separei tudo por caso.",
+   "tela": "O caminho muda conforme o aparelho"
+  },
+  {
+   "tipo": "comparativo",
+   "capitulo": "O que você precisa",
+   "fala": "Primeiro, o que você precisa. No iPhone, o caminho oficial da Apple é a Câmera de Continuidade, e ela funciona com um Mac. No Android, é o modo webcam por cabo, que depende do fabricante.",
+   "itens": [
+    {
+     "valor": "iPhone",
+     "rotulo": "com Mac"
+    },
+    {
+     "valor": "Android",
+     "rotulo": "cabo USB"
+    }
+   ],
+   "fonte": "Apple; Google"
+  },
+  {
+   "tipo": "fato",
+   "fala": "No iPhone, a Apple pede iOS dezesseis ou mais novo, modelo iPhone XR ou posterior, e um Mac com macOS Ventura treze ou mais novo.",
+   "imagens": [
+    "tela:https://support.apple.com/pt-br/102546"
+   ],
+   "fonte": "Apple, Suporte"
+  },
+  {
+   "tipo": "lista",
+   "titulo_lista": "IPHONE: O QUE PRECISA",
+   "fala": "Também precisa da mesma Conta Apple nos dois aparelhos, com autenticação de dois fatores, e Wi-Fi e Bluetooth ligados, com os aparelhos por perto. A Câmera de Continuidade tem que estar ativada.",
+   "itens": [
+    "iOS 16 ou mais novo (XR em diante)",
+    "Mac com macOS Ventura 13+",
+    "Mesma Conta Apple",
+    "Wi-Fi e Bluetooth ligados"
+   ],
+   "imagens": [
+    "tela:https://support.apple.com/pt-br/102546"
+   ],
+   "fonte": "Apple, Suporte"
+  },
+  {
+   "tipo": "numero",
+   "destaque": "Android 14",
+   "rotulo": "versão mínima (QPR1)",
+   "fala": "No Android, a página do Google para desenvolvedores diz que o recurso exige Android catorze, versão QPR um, ou mais nova.",
+   "fonte": "Android Open Source Project"
+  },
+  {
+   "tipo": "info",
+   "icone": "alerta",
+   "fala": "Agora o aviso importante. Quem não é atendido de graça: iPhone com computador Windows. A Câmera de Continuidade é só para Mac. E no Android, a opção Webcam só aparece se o fabricante ativou.",
+   "tela": "iPhone + Windows: sem caminho oficial grátis",
+   "fonte": "Apple; OBS Project"
+  },
+  {
+   "tipo": "manchete",
+   "fala": "O guia do próprio OBS descreve a Câmera de Continuidade como um recurso embutido no macOS e no iOS. Para outros casos, ele lista apps de terceiros.",
+   "manchete": {
+    "url": "https://obsproject.com/kb/smartphone-camera-guide",
+    "trecho": "Continuity Camera"
+   },
+   "fonte": "OBS Project"
+  },
+  {
+   "tipo": "fato",
+   "fala": "Eu não vou ensinar app de terceiros aqui, porque eles variam e podem ter versões grátis limitadas. Se o seu caso é iPhone com Windows, vale conferir a página do OBS, no link da descrição.",
+   "imagens": [
+    "tela:https://obsproject.com/kb/smartphone-camera-guide"
+   ],
+   "fonte": "OBS Project"
+  },
+  {
+   "tipo": "passo",
+   "capitulo": "iPhone com Mac",
+   "fala": "Passo um. Prenda o iPhone num suporte firme, com as câmeras de trás voltadas para você, na horizontal ou na vertical, e sem nada na frente.",
+   "tela": "Prenda o iPhone com a câmera de trás para você",
+   "imagens": [
+    "tela:https://support.apple.com/pt-br/102546"
+   ],
+   "fonte": "Apple, Suporte"
+  },
+  {
+   "tipo": "fato",
+   "fala": "Passo dois. Confira que o iPhone está perto do Mac, com Wi-Fi e Bluetooth ligados e a mesma Conta Apple. Se preferir cabo, a Apple diz que a conexão pode ser por fio, e o iPhone precisa confiar no Mac.",
+   "imagens": [
+    "tela:https://support.apple.com/pt-br/102546",
+    "tela:https://obsproject.com/download"
+   ],
+   "fonte": "Apple, Suporte"
+  },
+  {
+   "tipo": "passo",
+   "fala": "Passo três. Abra o {OBS|ô-bê-ésse} e, na caixa Fontes, clique no sinal de mais. Escolha Dispositivo de Captura de Vídeo, que na versão em inglês se chama Video Capture Device.",
+   "tela": "Fontes > + > Dispositivo de Captura de Vídeo",
+   "imagens": [
+    "tela:https://obsproject.com/kb/video-capture-sources",
+    "tela:https://obsproject.com/kb/quick-start-guide"
+   ],
+   "fonte": "OBS Project"
+  },
+  {
+   "tipo": "passo",
+   "fala": "Passo quatro. Abra as propriedades da fonte e, na lista Dispositivo, escolha o seu iPhone. A imagem da câmera deve aparecer na prévia do OBS.",
+   "tela": "Propriedades > Dispositivo > seu iPhone",
+   "imagens": [
+    "tela:https://obsproject.com/kb/video-capture-sources"
+   ],
+   "fonte": "OBS Project"
+  },
+  {
+   "tipo": "info",
+   "icone": "check",
+   "fala": "Pronto. Se a imagem apareceu, a parte principal está feita. Agora é só ajustar o enquadramento, como em qualquer fonte do OBS.",
+   "tela": "Imagem na prévia = funcionou",
+   "imagens": null
+  },
+  {
+   "tipo": "passo",
+   "capitulo": "Android por cabo",
+   "fala": "Agora o Android. Passo um. Use um cabo USB que transfere dados, não só carrega, e ligue o celular ao computador.",
+   "tela": "Cabo USB de dados > computador",
+   "imagens": [
+    "tela:https://source.android.com/docs/core/camera/webcam?hl=pt-br"
+   ],
+   "fonte": "Android Open Source Project"
+  },
+  {
+   "tipo": "passo",
+   "fala": "Passo dois. Nas configurações de USB do celular, procure a opção Webcam e escolha ela. Aí o celular passa a se apresentar ao computador como uma câmera comum.",
+   "tela": "Preferências de USB > Webcam",
+   "imagens": [
+    "tela:https://source.android.com/docs/core/camera/webcam?hl=pt-br"
+   ],
+   "fonte": "Android Open Source Project"
+  },
+  {
+   "tipo": "info",
+   "icone": "cadeado",
+   "fala": "Se a opção Webcam não aparece, o seu celular provavelmente não tem o recurso. Ele depende do fabricante, e não adianta procurar mais. Nesse caso, o caminho grátis oficial acaba aqui.",
+   "tela": "Sem a opção Webcam? O celular não tem",
+   "fonte": "Google"
+  },
+  {
+   "tipo": "passo",
+   "fala": "Passo três. Abra o {OBS|ô-bê-ésse}, clique no mais em Fontes e escolha Dispositivo de Captura de Vídeo. Dê um nome, como Celular, e confirme.",
+   "tela": "Fontes > + > Dispositivo de Captura de Vídeo",
+   "imagens": [
+    "tela:https://obsproject.com/kb/video-capture-sources"
+   ],
+   "fonte": "OBS Project"
+  },
+  {
+   "tipo": "passo",
+   "fala": "Passo quatro. Em Dispositivo, escolha o seu celular. Se a imagem não aparecer, mexa em Resolução e FPS, porque o OBS avisa que, se o aparelho não aceita a resolução, a fonte não mostra nada.",
+   "tela": "Dispositivo > celular > Resolução/FPS",
+   "imagens": [
+    "tela:https://obsproject.com/kb/video-capture-sources"
+   ],
+   "fonte": "OBS Project"
+  },
+  {
+   "tipo": "fato",
+   "fala": "Um detalhe de qualidade. O Google diz que, por {USB|u-ésse-bê} dois ponto zero, o formato YUYV não passa de setecentos e vinte p a trinta quadros por segundo. Já o formato MJPEG pode chegar a quatro K.",
+   "imagens": [
+    "tela:https://source.android.com/docs/core/camera/webcam?hl=pt-br"
+   ],
+   "fonte": "Android Open Source Project"
+  },
+  {
+   "tipo": "lista",
+   "capitulo": "Se não funcionou",
+   "titulo_lista": "3 ERROS COMUNS",
+   "fala": "Se não funcionou, são três problemas comuns. A câmera não aparece na lista, a imagem sai espelhada, ou o vídeo chega atrasado. Vou resolver um por um.",
+   "itens": [
+    "Câmera não aparece",
+    "Imagem espelhada",
+    "Atraso no vídeo"
+   ],
+   "imagens": [
+    "tela:https://obsproject.com/kb/video-capture-sources"
+   ]
+  },
+  {
+   "tipo": "passo",
+   "fala": "Erro um, a câmera não aparece. Confira se o cabo transfere dados, se a opção Webcam está marcada, ou, no iPhone, se a mesma conta e o Bluetooth estão ligados. Depois, no OBS, veja se o dispositivo está ativo e se a resolução é aceita.",
+   "tela": "Cabo, opção Webcam, conta, resolução",
+   "imagens": [
+    "tela:https://obsproject.com/kb/video-capture-sources",
+    "tela:https://support.apple.com/pt-br/102546"
+   ],
+   "fonte": "OBS Project; Apple"
+  },
+  {
+   "tipo": "info",
+   "icone": "alerta",
+   "fala": "A Apple também lembra: o iPhone não pode estar compartilhando dados celulares, e o Mac não pode estar compartilhando a internet. Isso também pode atrapalhar.",
+   "tela": "Sem compartilhar internet",
+   "fonte": "Apple, Suporte"
+  },
+  {
+   "tipo": "passo",
+   "fala": "Erro dois, imagem espelhada. Clique com o botão direito na fonte, vá em Transformar e escolha Inverter horizontalmente. Se a imagem estiver de cabeça para baixo, a página do OBS cita a opção Inverter verticalmente.",
+   "tela": "Botão direito > Transformar > Inverter",
+   "imagens": [
+    "tela:https://obsproject.com/kb/sources-guide",
+    "tela:https://obsproject.com/kb/video-capture-sources"
+   ],
+   "fonte": "OBS Project"
+  },
+  {
+   "tipo": "passo",
+   "fala": "Erro três, atraso. No Windows, nas propriedades da fonte, mexa em Buffering. A página do OBS diz que desativar ajuda quando o aparelho tem atraso, e ativar ajuda quando o vídeo trava.",
+   "tela": "Propriedades > Buffering: Desativar",
+   "imagens": [
+    "tela:https://obsproject.com/kb/video-capture-sources"
+   ],
+   "fonte": "OBS Project"
+  },
+  {
+   "tipo": "info",
+   "icone": "bateria",
+   "fala": "E uma dica de bônus. Câmera ligada por horas esquenta e gasta bateria. O próprio Google avisa que a câmera pode ficar ligada por horas, então deixe o celular carregando.",
+   "tela": "Deixe o celular carregando",
+   "fonte": "Android Open Source Project"
+  },
+  {
+   "tipo": "lista",
+   "titulo_lista": "RESUMO",
+   "fala": "Resumindo. iPhone com Mac usa a Câmera de Continuidade. Android usa o modo Webcam por USB, se o fabricante ativou. No OBS, é sempre Dispositivo de Captura de Vídeo e escolher o aparelho. Espelhou? Inverter. Atrasou? Buffering.",
+   "itens": [
+    "iPhone + Mac: Câmera de Continuidade",
+    "Android: Webcam no USB",
+    "OBS: Dispositivo de Captura de Vídeo",
+    "Espelhou: Transformar > Inverter",
+    "Atrasou: Buffering"
+   ],
+   "imagens": [
+    "tela:https://obsproject.com/kb/smartphone-camera-guide"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "fala": "As páginas oficiais estão no link na descrição. E me conta: você usa iPhone ou Android? Que tutorial você quer no próximo? Se inscreve no canal pra não perder os próximos passo a passo.",
+   "tela": "iPhone ou Android? Qual o próximo tutorial?",
+   "imagens": [
+    "tela:https://obsproject.com/"
+   ]
+  }
+ ]
+}

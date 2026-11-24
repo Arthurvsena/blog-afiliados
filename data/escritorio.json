@@ -39,11 +39,11 @@
     },
     "produtor": {
       "status": "ok",
-      "tarefa": "Escolhi os golpes do GTA 6 (Short) e o RAMageddon (longo) e revisei os dois roteiros."
+      "tarefa": "Escolhi o alerta da Black Friday (Short) e o tutorial do celular como webcam no OBS (longo) e revisei os dois roteiros."
     },
     "roteirista": {
       "status": "ok",
-      "tarefa": "Escrevi o Short dos golpes do GTA 6 e o longo sobre memória RAM e IA; o Short foi montado, o longo está na fila."
+      "tarefa": "Escrevi o Short das 17 armadilhas da Black Friday e o tutorial do celular como webcam no OBS; o Short foi montado, o longo está na fila."
     },
     "analista": {
       "status": "ok",
@@ -334,38 +334,13 @@
     },
     {
       "data": "2026-11-24",
-      "agente": "pesquisador",
-      "texto": "Trouxe 4 notícias e o Switch Lite como pautas de hoje."
+      "agente": "produtor",
+      "texto": "Pauta e revisão: Black Friday/Procon (Short) e webcam no OBS (longo)."
     },
     {
       "data": "2026-11-24",
-      "agente": "redator",
-      "texto": "Escrevi 7 posts novos, entre eles Redragon e JBL."
-    },
-    {
-      "data": "2026-11-24",
-      "agente": "seo",
-      "texto": "Revisei os 8 posts do dia."
-    },
-    {
-      "data": "2026-11-24",
-      "agente": "viral",
-      "texto": "Escrevi os textos de rede dos 8 posts."
-    },
-    {
-      "data": "2026-11-24",
-      "agente": "vendas",
-      "texto": "Reforcei chamadas nos guias Redragon e JBL."
-    },
-    {
-      "data": "2026-11-24",
-      "agente": "designer",
-      "texto": "Fotos e blocos visuais nos posts do dia."
-    },
-    {
-      "data": "2026-11-24",
-      "agente": "atualizador",
-      "texto": "Escolha principal, FAQ e Veja também em 7 posts."
+      "agente": "roteirista",
+      "texto": "Roteiros do Short das 17 armadilhas e do tutorial de webcam no OBS."
     }
   ]
 }

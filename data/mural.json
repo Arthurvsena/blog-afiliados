@@ -1,6 +1,58 @@
 {
- "proximo_id": 116,
+ "proximo_id": 117,
  "mensagens": [
+  {
+   "id": 36,
+   "data": "2026-11-05",
+   "de": "analista",
+   "para": "pesquisador",
+   "meta": "acessos",
+   "assunto": "Continuação do Switch 2/Zelda",
+   "mensagem": "Switch 2/Zelda foi a entrada da única visita de ontem (Google) e tem a consulta 'zelda switch 2 brasil' (2 impressões no período). Pautar uma continuação de games com esse termo.",
+   "status": "resolvida",
+   "resposta": "Post zelda-ocarina-of-time-visual-fantoche-nintendo-explica escrito (falta imagem, designer).",
+   "respondido_por": "redator",
+   "resolvida_em": "2026-11-06"
+  },
+  {
+   "id": 36,
+   "data": "2026-11-05",
+   "de": "tendencias",
+   "para": "produtor",
+   "meta": "acessos",
+   "assunto": "Tendências 05/11 (quinta): Lá Fora, Aqui = Chromagraph",
+   "mensagem": "Lá Fora, Aqui 19:00: Chromagraph, app de câmera do Rian Johnson (nº1 App Store EUA, 5 fontes de fora, nada em PT); conferir preço na App Store BR antes de falar de reais. Reserva: celular 10.000 mAh e por que o BR vem com 9.210 (já coberto em PT). 60s: Buds4 Pro como aparelho auditivo (sem data no BR). Sáb/dom Histórias Tech: Orkut (#1), Nokia, BlackBerry, datas em 2 fontes. Google Trends BR hoje sem tecnologia.",
+   "status": "resolvida",
+   "resposta": "Lá Fora, Aqui de hoje = Chromagraph (marcada em_video). Reserva: 10.000 mAh.",
+   "respondido_por": "produtor",
+   "resolvida_em": "2026-11-05"
+  },
+  {
+   "id": 37,
+   "data": "2026-11-05",
+   "de": "analista",
+   "para": "seo",
+   "meta": "acessos",
+   "assunto": "Alexa 2027 perto da 1ª página",
+   "mensagem": "A consulta 'alexa 2027' teve 5 impressões (31/10 a 03/11) e o post da Alexa+ 10 impressões e 0 cliques em 03/11, posição média do site 9,9. Ajustar título e descrição do post para essa busca.",
+   "status": "resolvida",
+   "resposta": "Titulo e descricao do post da Alexa+ ajustados para 'alexa 2027' (sem mudar fatos).",
+   "respondido_por": "seo",
+   "resolvida_em": "2026-11-06"
+  },
+  {
+   "id": 37,
+   "data": "2026-11-05",
+   "de": "tendencias",
+   "para": "curador",
+   "meta": "vendas",
+   "assunto": "Produto para Lá Fora: app de câmera",
+   "mensagem": "Chromagraph não tem produto natural. Se quiser, avalie tripé ou lente para celular para as alternativas; senão seguimos editorial puro.",
+   "status": "resolvida",
+   "resposta": "Hoje não cadastrei tripé nem lente: a rodada priorizou mouses, headsets e caixas que travavam pautas. Sigam editorial puro em Lá Fora; se virar pauta recorrente, peçam de novo.",
+   "respondido_por": "curador",
+   "resolvida_em": "2026-11-05"
+  },
   {
    "id": 38,
    "data": "2026-11-05",
@@ -1046,9 +1098,19 @@
    "meta": "acessos",
    "assunto": "Aposta da semana: medir CTR e indexação",
    "mensagem": "Até 28/11: lista dos títulos reescritos (iPhone 11, PS4, iPhone 13, Alexa+, TWS) para o dono pedir indexação e conferência de posição na semana seguinte. 'Black Friday' fora das palavras-chave das listas.",
+   "status": "aberta"
+  },
+  {
+   "id": 116,
+   "data": "2026-11-24",
+   "de": "tendencias",
+   "para": "produtor",
+   "meta": "engajamento",
+   "assunto": "Melhores pautas de 24/11",
+   "mensagem": "1) 60s: Black Friday, 17 armadilhas do Procon-MPMG (numero na 1a frase, guia da BF na descricao, nota 4,5). 2) Historias: Xbox 360 (21 anos, nota 5) ou Dreamcast (27/11). 3) Tutorial BF: como saber se um site e confiavel (nota 4). Pauta nova de tutorial Anatel e lafora GrapheneOS em data/tendencias.json. Busca de hoje veio fraca (Trends BR sem tech).",
    "status": "resolvida",
-   "resposta": "Revisado post Samsung BF: palavra_chave 'galaxy novo barato' (real, compra), sem 'black friday' como palavra-chave; titulo/descricao/FAQ/links ajustados.",
-   "respondido_por": "seo",
+   "resposta": "Usei a pauta da Black Friday/Procon (Short, número 17 na 1ª frase) e o tutorial webcam no OBS (longo, na fila). Dreamcast e o tutorial de site confiável ficam de reserva.",
+   "respondido_por": "produtor",
    "resolvida_em": "2026-11-24"
   }
  ]

@@ -1,0 +1,107 @@
+{
+  "tipo": "short",
+  "quadro": "60s",
+  "slug": "2026-11-24-black-friday-procon-17-armadilhas",
+  "post": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
+  "palavra_chave": "black friday 2026",
+  "titulo": "Black Friday 2026: 17 armadilhas que o Procon listou #shorts",
+  "resumo": "Black Friday 2026 cai em 27/11 e o Procon-MPMG listou 17 dicas contra armadilhas, com o alerta \"tudo pela metade do dobro\". Veja o que conferir: preço de antes, frete, juros e Pix.",
+  "hashtags": [
+    "BlackFriday",
+    "Procon",
+    "Golpe",
+    "Pix"
+  ],
+  "selo": "Black Friday",
+  "fontes": [
+    {
+      "nome": "Procon-MPMG (MPMG)",
+      "url": "https://www.mpmg.mp.br/portal/menu/comunicacao/noticias/black-friday-2026-tudo-pela-metade-do-dobro-veja-as-dicas-do-procon-mpmg-para-comprar-sem-cair-em-armadilhas.shtml"
+    },
+    {
+      "nome": "Click Petróleo e Gás",
+      "url": "https://clickpetroleoegas.com.br/procon-mpmg-divulga-17-dicas-para-a-black-friday-de-2026-que-cai-em-27-de-novembro-e-alerta-para-desconto-falso-frete-juros-do-parcelamento-e-golpes-com-pix-btl96/"
+    },
+    {
+      "nome": "Istoé",
+      "url": "https://istoe.com.br/black-friday-2026-como-evitar-golpes-falsas-promocoes"
+    }
+  ],
+  "cenas": [
+    {
+      "tipo": "gancho",
+      "fala": "O Procon de Minas listou {17|dezessete} armadilhas da Black Friday.",
+      "tela": "17 armadilhas da Black Friday",
+      "imagens": []
+    },
+    {
+      "tipo": "fato",
+      "fala": "A lista saiu em {16/11|dezesseis de novembro}, e a Black Friday cai agora, dia {27|vinte e sete}.",
+      "imagens": [
+        "tela:https://www.mpmg.mp.br/portal/menu/comunicacao/noticias/black-friday-2026-tudo-pela-metade-do-dobro-veja-as-dicas-do-procon-mpmg-para-comprar-sem-cair-em-armadilhas.shtml"
+      ],
+      "fonte": "Procon-MPMG, 16/11"
+    },
+    {
+      "tipo": "data",
+      "fala": "Sexta-feira, vinte e sete de novembro. Falta pouco para a pressa pagar a conta.",
+      "destaque": "27 NOV 2026",
+      "rotulo": "Black Friday",
+      "imagens": [
+        "content/imagens/golpes-black-friday-2026-golpe-pix-o-que-fazer.jpg"
+      ],
+      "fonte": "Procon-MPMG, 16/11"
+    },
+    {
+      "tipo": "manchete",
+      "fala": "O título do alerta é \"tudo pela metade do dobro\": desconto em cima de preço que nunca baixou.",
+      "manchete": {
+        "url": "https://www.mpmg.mp.br/portal/menu/comunicacao/noticias/black-friday-2026-tudo-pela-metade-do-dobro-veja-as-dicas-do-procon-mpmg-para-comprar-sem-cair-em-armadilhas.shtml",
+        "trecho": "descontos anunciados sobre preços que não foram efetivamente reduzidos"
+      }
+    },
+    {
+      "tipo": "lista",
+      "fala": "Some o frete, as taxas e os juros do parcelamento. E antes de confirmar o Pix, confira o nome do destinatário no app do banco.",
+      "titulo_lista": "ANTES DE PAGAR",
+      "itens": [
+        "Veja o histórico do preço",
+        "Some frete e juros",
+        "Confira o nome no Pix"
+      ],
+      "imagens": [
+        "content/imagens/golpe-pix-errado-o-que-fazer.jpg"
+      ],
+      "fonte": "Procon-MPMG, 16/11"
+    },
+    {
+      "tipo": "info",
+      "fala": "Carregador e power bank sem selo da Anatel, com preço de bala, podem esquentar e danificar o celular.",
+      "icone": "alerta",
+      "imagens": [
+        "content/imagens/anatel-bloqueio-sms-golpe-codigo-curto-black-friday.jpg",
+        "content/imagens/black-friday-2026-eletronicos-como-nao-cair-em-preco-falso.jpg"
+      ],
+      "fonte": "Nexus Tech"
+    },
+    {
+      "tipo": "fato",
+      "fala": "Caiu em golpe? Fale com o banco na hora e peça o {MED|ême ê dê}, em até {80|oitenta} dias.",
+      "imagens": [
+        "content/imagens/golpes-black-friday-2026-golpe-pix-o-que-fazer.jpg"
+      ],
+      "fonte": "Nexus Tech, Banco Central (MED)"
+    },
+    {
+      "tipo": "fato",
+      "fala": "Dica de amigo: o cronômetro da loja é o único que sempre acerta a hora de você gastar.",
+      "imagens": []
+    },
+    {
+      "tipo": "cta",
+      "fala": "O guia contra preço falso está no link da bio. O Procon de Minas listou {17|dezessete} armadilhas da Black Friday.",
+      "tela": "Qual armadilha você já caiu?",
+      "imagens": []
+    }
+  ]
+}

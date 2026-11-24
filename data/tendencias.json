@@ -1,6 +1,100 @@
 {
-  "atualizado": "2026-11-22",
+  "atualizado": "2026-11-24",
   "tendencias": [
+    {
+      "data": "2026-11-24",
+      "imagens_oficiais": [],
+      "post_relacionado": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
+      "status": "em_video",
+      "origem": "brasil",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "assunto": "Black Friday 27/11: o truque da 'metade do dobro' e os sinais de golpe em eletrônicos (Procon-MPMG, Anatel)",
+      "quadro": "60s",
+      "formato": "alerta",
+      "tipo": "short",
+      "nota": 4.5,
+      "por_que_em_alta": "Black Friday em 3 dias (27/11); Procon-MPMG publicou 17 dicas em 16/11 e Istoé, Band e Procon-PR cobrem golpes e falsas promoções. Gancho de número disponível (17 dicas, MED em até 80 dias).",
+      "evidencias": [
+        "https://clickpetroleoegas.com.br/procon-mpmg-divulga-17-dicas-para-a-black-friday-de-2026-que-cai-em-27-de-novembro-e-alerta-para-desconto-falso-frete-juros-do-parcelamento-e-golpes-com-pix-btl96/",
+        "https://istoe.com.br/black-friday-2026-como-evitar-golpes-falsas-promocoes"
+      ],
+      "angulo": "Gancho com número na 1ª frase: 'O Procon de Minas listou 17 armadilhas da Black Friday e a mais velha ainda funciona'. Mostrar preço inflado antes, frete por fora via Pix, selo Anatel. Comentário seco. Link do guia da BF na descrição.",
+      "fontes": [
+        {
+          "nome": "Procon-MPMG (via Click Petróleo e Gás)",
+          "url": "https://clickpetroleoegas.com.br/procon-mpmg-divulga-17-dicas-para-a-black-friday-de-2026-que-cai-em-27-de-novembro-e-alerta-para-desconto-falso-frete-juros-do-parcelamento-e-golpes-com-pix-btl96/"
+        },
+        {
+          "nome": "Istoé",
+          "url": "https://istoe.com.br/black-friday-2026-como-evitar-golpes-falsas-promocoes"
+        }
+      ],
+      "verificar_antes": "Abrir a nota do Procon-MPMG na fonte primária (site do MPMG) antes de gravar; as fontes acima são secundárias. Publicar até 26/11."
+    },
+    {
+      "data": "2026-11-24",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "status": "nova",
+      "origem": "brasil",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "assunto": "Como conferir se um celular ou eletrônico é homologado pela Anatel antes de comprar na Black Friday",
+      "quadro": "tutorial",
+      "formato": "tutorial",
+      "tipo": "longo",
+      "nota": 3.5,
+      "por_que_em_alta": "Black Friday em 3 dias; reportagens de Procon citam o selo/homologação Anatel como proteção contra produto falso. Sem termo medido no vidIQ ainda: nota menor.",
+      "evidencias": [
+        "https://istoe.com.br/black-friday-2026-como-evitar-golpes-falsas-promocoes"
+      ],
+      "angulo": "Resultado primeiro: em 2 minutos você consulta o modelo na base da Anatel. Gravação de tela do site oficial da Anatel; erros comuns (modelo errado, número de homologação).",
+      "fontes": [
+        {
+          "nome": "Anatel",
+          "url": "https://www.gov.br/anatel/pt-br"
+        }
+      ],
+      "verificar_antes": "Conferir os passos na página oficial da Anatel (Mosaico/consulta de homologação) e buscar termo no autocompletar do YouTube/Google antes de gravar."
+    },
+    {
+      "data": "2026-11-24",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "status": "nova",
+      "origem": "gringo",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "assunto": "Android sem Google (GrapheneOS) no Motorola Signature 27: chega aqui? por quanto?",
+      "quadro": "lafora",
+      "formato": "explicador",
+      "tipo": "longo",
+      "nota": 3,
+      "por_que_em_alta": "Tecnoblog e Canaltech cobrem o Signature 27 (a partir de R$ 10.999 segundo a busca de hoje) com suporte ao GrapheneOS; Notebookcheck cobriu o plano da Motorola. Fontes divergem sobre data (alguns dizem 2027).",
+      "evidencias": [
+        "https://canaltech.com.br/smartphone/motorola-signature-27-ganha-suporte-a-sistema-android-ultrasseguro/",
+        "https://tecnoblog.net/noticias/motorola-tera-suporte-a-android-sem-google-com-foco-em-privacidade/"
+      ],
+      "angulo": "O que é o GrapheneOS, o que se perde sem os serviços do Google, quando e se chega ao Brasil. Tratar data como não confirmada.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/smartphone/motorola-signature-27-ganha-suporte-a-sistema-android-ultrasseguro/"
+        },
+        {
+          "nome": "Tecnoblog",
+          "url": "https://tecnoblog.net/noticias/motorola-tera-suporte-a-android-sem-google-com-foco-em-privacidade/"
+        }
+      ],
+      "verificar_antes": "Confirmar preço e data na Motorola Brasil e no projeto GrapheneOS; sem termo vidIQ: pauta com nota menor. Pode ser antecipada como 60s (já há pauta de 16/11)."
+    },
     {
       "data": "2026-11-22",
       "imagens_oficiais": [],
@@ -268,7 +362,7 @@
         "id": "",
         "como_encaixa": "Editorial puro."
       },
-      "status": "nova",
+      "status": "em_video",
       "origem": "brasil",
       "assunto": "Como usar o celular como webcam no OBS (Android e iPhone, sem pagar)",
       "por_que_em_alta": "vidIQ (18/11): 'como usar o celular como webcam no obs' 15 mil buscas/mês, concorrência 29, nota 66; 'como usar o celular como webcam' 46,6 mil, concorrência 50, nota 62; 'como colocar a camera do celular no obs' 11,7 mil, concorrência 21, nota 68. Evergreen, dá para mostrar com gravação de tela do OBS e das páginas oficiais.",
@@ -1325,191 +1419,6 @@
         }
       ],
       "nota": 4
-    },
-    {
-      "produto": {
-        "id": "",
-        "como_encaixa": "Editorial puro."
-      },
-      "imagens_oficiais": [],
-      "post_relacionado": "",
-      "status": "nova",
-      "data": "2026-11-14",
-      "assunto": "AMD teria cortado até 50% da oferta de placas de vídeo gamer até 2027; Radeon RX 9070 já passa de R$ 6.000",
-      "por_que_em_alta": "Canaltech (13/11) destaca na home: rumor do fórum chinês Board Channels, corte de 20% a 50% nas GPUs Radeon RX para parceiras, escassez ao menos até janeiro de 2027; causa: memória GDDR6 cara e capacidade indo para IA. Liga à pauta de memória cara e ao preço do PC. Dado de mercado chinês.",
-      "evidencias": [
-        "https://canaltech.com.br/hardware/amd-corta-em-ate-50-a-oferta-de-placas-de-video-gamer-ate-2027-preco-deve-subir/"
-      ],
-      "angulo": "Gancho: a placa de vídeo pode ficar ainda mais cara e a culpa é da IA. Tratar como rumor (1 fonte original chinesa), explicar o elo memória-IA-preço e o que fazer antes da Black Friday. Preço de R$ 6.000 só com a data e a loja que a matéria cita.",
-      "formato": "explicador",
-      "tipo": "short",
-      "quadro": "60s",
-      "origem": "gringo",
-      "verificar_antes": "Rumor sem confirmação da AMD. Buscar 2ª fonte de fora (Tom's Hardware, Wccftech, VideoCardz) e o preço da RX 9070 numa loja. Sem 2ª fonte, reserva.",
-      "fontes": [
-        {
-          "nome": "Canaltech",
-          "url": "https://canaltech.com.br/hardware/amd-corta-em-ate-50-a-oferta-de-placas-de-video-gamer-ate-2027-preco-deve-subir/"
-        }
-      ],
-      "nota": 3
-    },
-    {
-      "produto": {
-        "id": "",
-        "como_encaixa": "Editorial puro."
-      },
-      "imagens_oficiais": [],
-      "post_relacionado": "",
-      "status": "nova",
-      "data": "2026-11-14",
-      "assunto": "iPhone 18 e 18e só em 2027 (2º tri), diz Gurman: a Apple muda o calendário",
-      "por_que_em_alta": "Canaltech (home de 14/11), citando Mark Gurman (Bloomberg). Rumor de analista conhecido; a Apple não confirmou. Liga ao iPhone Duo e à pauta da Apple/Samsung dobráveis.",
-      "evidencias": [
-        "https://canaltech.com.br/smartphone/apple-nao-tem-pressa-iphone-18-e-18e-ja-so-chegam-no-2t-de-2027-diz-gurman/"
-      ],
-      "angulo": "Reserva: o que significa esperar o iPhone 18 e se compensa comprar o 17 na Black Friday. Só com a fonte primária (Bloomberg) lida.",
-      "formato": "noticia",
-      "tipo": "short",
-      "quadro": "60s",
-      "origem": "brasil",
-      "verificar_antes": "Abrir a Bloomberg/Gurman (ou 2ª fonte). Tratar como relato; não publicar como fato.",
-      "fontes": [
-        {
-          "nome": "Canaltech",
-          "url": "https://canaltech.com.br/smartphone/apple-nao-tem-pressa-iphone-18-e-18e-ja-so-chegam-no-2t-de-2027-diz-gurman/"
-        }
-      ],
-      "nota": 2
-    },
-    {
-      "data": "2026-11-13",
-      "assunto": "Pré-venda de GTA 6 passa de US$ 1 bilhão: 10,3 milhões de cópias, 75% da receita no PS5",
-      "por_que_em_alta": "Canaltech (11/11), citando o Sales Tracker da Sensor Tower: mais de US$ 1 bi e 10,3 mi de cópias a 8 dias do lançamento (19/11); PS5 com 7,73 mi e Xbox com 2,58 mi. A Take-Two só diz que as pré-vendas são 'sem precedentes'. GTA 6 é o assunto de maior volume do mês. Não está no Google Trends BR de hoje (10 itens sem tecnologia).",
-      "evidencias": [
-        "https://canaltech.com.br/games/pre-venda-de-gta-6-supera-us-1-bilhao-veja-numeros-no-ps5-e-xbox/"
-      ],
-      "angulo": "Gancho: o GTA 6 já faturou US$ 1 bilhão antes de existir. Barras: GTA 5 levou 3 dias após o lançamento (2013) para chegar ao mesmo marco. PS5 com 75% da receita. Deixar claro que são estimativas da Sensor Tower, não números da Take-Two. Comentário Nexus: o bilhão veio só de reserva.",
-      "formato": "noticia",
-      "tipo": "short",
-      "quadro": "60s",
-      "verificar_antes": "Número é estimativa de terceiro (Sensor Tower): dizer na tela. Conferir no painel da Sensor Tower e no relatório da Take-Two. Pré-venda pode ser cancelada.",
-      "fontes": [
-        {
-          "nome": "Canaltech",
-          "url": "https://canaltech.com.br/games/pre-venda-de-gta-6-supera-us-1-bilhao-veja-numeros-no-ps5-e-xbox/"
-        },
-        {
-          "nome": "Sensor Tower (a localizar)",
-          "url": "https://sensortower.com/"
-        }
-      ],
-      "imagens_oficiais": [
-        "https://www.rockstargames.com/newswire"
-      ],
-      "post_relacionado": "gta-6-pre-carregamento-horario-ps5-xbox-212-gb",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Editorial puro."
-      },
-      "nota": 5,
-      "status": "nova",
-      "origem": "brasil"
-    },
-    {
-      "data": "2026-11-22",
-      "imagens_oficiais": [],
-      "post_relacionado": "",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Editorial puro."
-      },
-      "status": "nova",
-      "origem": "brasil",
-      "assunto": "Como ter dois WhatsApp no iPhone (sem app pirata)",
-      "por_que_em_alta": "vidIQ (08/11, pesquisa de perguntas): 'como ter varios whatsapp no ios' 12853 buscas/mês, concorrência 16, nota 70. Evergreen, dá para mostrar com gravação de tela e páginas oficiais.",
-      "evidencias": [
-        "data/vidiq.json: como ter varios whatsapp no ios (vidIQ: 12853 buscas/mês, concorrência 16, nota 70)"
-      ],
-      "angulo": "Resultado primeiro: duas contas de WhatsApp no mesmo iPhone. Mostra o recurso oficial de várias contas, o WhatsApp Business como segunda conta e o que não funciona; para quem não serve e os erros comuns.",
-      "formato": "tutorial",
-      "tipo": "tutorial",
-      "quadro": "tutorial",
-      "palavra_chave": "como ter varios whatsapp no ios",
-      "verificar_antes": "Conferir na Central de Ajuda do WhatsApp se o recurso de múltiplas contas já vale para iOS e em qual versão; não indicar app clonado ou de terceiros.",
-      "fontes": [
-        {
-          "nome": "Central de Ajuda do WhatsApp (a conferir)",
-          "url": "https://faq.whatsapp.com/"
-        }
-      ],
-      "nota": 3
-    },
-    {
-      "data": "2026-11-22",
-      "imagens_oficiais": [],
-      "post_relacionado": "",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Editorial puro."
-      },
-      "status": "nova",
-      "origem": "brasil",
-      "assunto": "Como tirar anúncios do celular Android (pop-ups e tela de bloqueio)",
-      "por_que_em_alta": "vidIQ (08/11, pesquisa de perguntas): 'como tirar anuncios do celular' 12436 buscas/mês, concorrência 40, nota 61. Evergreen, dá para mostrar com gravação de tela e páginas oficiais.",
-      "evidencias": [
-        "data/vidiq.json: como tirar anuncios do celular (vidIQ: 12436 buscas/mês, concorrência 40, nota 61)"
-      ],
-      "angulo": "Resultado primeiro: celular sem propaganda pulando na tela. Passos: achar o app culpado, notificações, DNS privado, Play Protect e ajustes da marca (Samsung, Xiaomi); o que é golpe e o que é anúncio normal.",
-      "formato": "tutorial",
-      "tipo": "tutorial",
-      "quadro": "tutorial",
-      "palavra_chave": "como tirar anuncios do celular",
-      "verificar_antes": "Conferir cada passo na Ajuda do Android/Google Play e nas páginas oficiais de Samsung e Xiaomi; não indicar 'limpador' milagroso.",
-      "fontes": [
-        {
-          "nome": "Ajuda do Google Play (a conferir)",
-          "url": "https://support.google.com/googleplay"
-        },
-        {
-          "nome": "Ajuda do Android (a conferir)",
-          "url": "https://support.google.com/android"
-        }
-      ],
-      "nota": 3
-    },
-    {
-      "data": "2026-11-22",
-      "imagens_oficiais": [],
-      "post_relacionado": "",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Editorial puro."
-      },
-      "status": "nova",
-      "origem": "brasil",
-      "assunto": "Como passar as conversas do WhatsApp do Android para o iPhone",
-      "por_que_em_alta": "vidIQ (08/11, pesquisa de perguntas): 'como transferir conversas do whatsapp do android para iphone' 14821 buscas/mês, concorrência 43, nota 60. Evergreen, dá para mostrar com gravação de tela e páginas oficiais.",
-      "evidencias": [
-        "data/vidiq.json: como transferir conversas do whatsapp do android para iphone (vidIQ: 14821 buscas/mês, concorrência 43, nota 60)"
-      ],
-      "angulo": "Resultado primeiro: histórico inteiro no iPhone novo. Passo a passo oficial com o app Mover para iOS, o que precisa antes (mesmo número, iPhone zerado, Wi-Fi) e os erros que fazem perder conversa.",
-      "formato": "tutorial",
-      "tipo": "tutorial",
-      "quadro": "tutorial",
-      "palavra_chave": "como transferir conversas do whatsapp do android para iphone",
-      "verificar_antes": "Conferir na Central de Ajuda do WhatsApp e no Suporte Apple (Mover para iOS) as versões mínimas de Android e iOS.",
-      "fontes": [
-        {
-          "nome": "Central de Ajuda do WhatsApp (a conferir)",
-          "url": "https://faq.whatsapp.com/"
-        },
-        {
-          "nome": "Apple Suporte (a conferir)",
-          "url": "https://support.apple.com/pt-br"
-        }
-      ],
-      "nota": 3
     }
   ]
 }
