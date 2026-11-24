@@ -1,7 +1,7 @@
 ---
-titulo: "Vale a pena comprar um PS4 em 2026? Só para este perfil"
+titulo: "Vale a pena comprar um PS4 em 2026? Só neste caso"
 slug: analise-ps4-vale-a-pena-em-2026
-descricao: "Vale a pena comprar um PS4 em 2026? Só como console barato de catálogo. Veja o que a Sony mantém, o que ficou para trás e como comprar usado."
+descricao: "PS4 em 2026 ainda vale a pena? Só como console barato: o GTA 6 não roda nele. Veja o que a Sony mantém e como comprar usado."
 palavra_chave: "vale a pena comprar um ps4 em 2026"
 palavras_secundarias: ["ps4 em 2026", "ainda vale a pena comprar ps4"]
 editoria: analises

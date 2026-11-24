@@ -1,36 +1,34 @@
-# Relatório de vendas: semana de 2026-11-16
+# Relatório de vendas: semana de 2026-11-24
 
-## Onde estamos
-- Último dado fechado (2 a 8/11): 34 visitas, 11 cliques no ML (32,4% de taxa de clique), 0 pedidos, Google com 923 impressões e posição média 10,9. Fonte: `data/relatorio_metricas.md`. Ainda não há fechamento de 9 a 15/11.
-- Segue sem dado de clique por post ou por produto: o painel do ML não separa. Com 2 semanas de medição e 0 pedidos, ainda é cedo para culpar a oferta; o gargalo é volume e clique no Google.
-- Guias de compra da aposta 1 do plano **entregues**: tws gamer, teclado blue ou red, carregador turbo iPhone, mouses gamer e power bank 10.000 ou 20.000 mAh (publicados de 06 a 12/11), todos com ficha e chamadas `{{link}}` no texto.
+## Onde estamos (semana 16 a 22/11, fonte: `data/relatorio_metricas.md`)
+- 44 visitas, 12 cliques no ML (27,3% de taxa de clique, contra 32,4% na semana de 2/11), 1 pedido (8,3% dos cliques). O pedido foi indireto (balança de cozinha fora do catálogo): prova que o clique vira compra, mas não diz qual oferta convenceu.
+- 84% das visitas são diretas e o Google mandou só 4. Quem chega pelo Google quer comprar, e é esse público que falta.
+- Segue sem dado de clique por post ou produto. Sem sub-ID por post, não dá para saber o que vende.
 
 ## Onde perdemos cliques e vendas
-1. **Google sem clique**: power banks (71 impressões em 15/11, 0 cliques, boa parte de busca em inglês), Alexa Echo Dot (23, 36 e 42 impressões em 3 dias, nunca clicou), HyperOS 4/POCO (27) e Ocarina (21). Título e termo, não oferta (seo, mural #81).
-2. **Tutoriais sem nenhuma oferta**: `como-resolver-toque-fantasma-celular` e `como-resolver-linha-verde-na-tela-do-celular` (tutoriais novos com tema de celular, 0 chamadas). Só vale oferta se o CSV tiver produto ligado ao assunto (película, capa); hoje não há. Manter sem forçar e linkar o guia de categoria.
-3. **Notícias de alto interesse sem oferta**: Echo Dot/Echo Time (0 ofertas, tem lâmpadas Alexa no CSV: ligar com 1 `{{link}}` de lâmpada compatível), análises iPhone Duo e PS4 (0 ofertas; PS4 aceita headset ou controle se houver no CSV). Pedido ao redator/atualizador.
-4. **iPhone 13 (117 impressões, 0 cliques)**: oferta existe (2 chamadas); problema é o título no Google.
-5. **Power banks**: 3 guias (geral, 20.000 mAh e o novo "10.000 ou 20.000") competem; o geral deve linkar o novo e não repetir a seção longa.
+1. **Páginas com leitura e zero oferta**: análise do iPhone 11 (132 impressões, posição 8,0, 0 ofertas). **Corrigido hoje**: `:::dica` no fim com 2 cabos USB-C para Lightning MFi do catálogo (Anker 322 e Ugreen US171).
+2. **Google sem clique, perto da 1ª página**: Echo Dot (117 impressões, posição 12,8), lâmpadas Alexa (87, posição 14,0, já com 16 chamadas), HyperOS 4 (92). Problema de título e posição, não de oferta (seo).
+3. **Power bank 20000 mAh** (página mais lida da semana, 5 visitas): primeira tela já tem a escolha principal com `{{link}}` e a tabela tem botão em todas as linhas. Nada a mudar na oferta. O `melhores-power-banks` tem 188 impressões e 0 cliques, a maioria de busca em inglês; não adianta mexer na oferta.
+4. **Engajamento 1,0 página por visita**: quem entra numa lista não abre outra. O fechamento das 3 listas de energia precisa de "veja também" (redator).
+5. **Notícias de alto interesse sem oferta**: Echo Dot/Echo Time e PS4 ficam com 1 chamada cada. Manter leve, 1 a 2 por post.
 
 ## Funil da Black Friday (27/11)
-- Entrada: guia `black-friday-2026-eletronicos-como-nao-cair-em-preco-falso` (8 produtos, 8 chamadas) e `golpes-black-friday-2026-...` (0 ofertas, só informação; manter assim).
-- **Corrigido hoje**: o guia da BF não linkava nenhuma das 5 listas novas. Adicionei a seção "Listas prontas para comparar antes do dia 27" com links para carregador turbo iPhone, power bank 10k/20k, mouses, teclado, TWS gamer e smartbands.
-- Caminho: BF (confiança) -> lista da categoria (comparação) -> ficha/botão. Falta: `melhores-fones-tws-bluetooth` e `melhores-carregadores-turbo` abrirem com a escolha principal na primeira tela e um link de volta para o guia da BF.
-- Sem termo real "black friday" em `data/palavras.json` (0 ocorrências): seo precisa de termo alternativo ("como saber se desconto é real" etc.). Aviso do verificador: palavra-chave fora do título.
-- Regras: sem preço, sem desconto prometido, sem "últimas unidades". Dia 27: atualizar o guia com data e sem preço.
+- Entrada: guia `black-friday-2026-eletronicos-como-nao-cair-em-preco-falso` linka as 6 listas. Em 27/11, atualizar a data do guia, sem preço e sem prometer desconto.
+- Caminho: guia da BF -> lista da categoria -> ficha ou botão. Falta `melhores-fones-tws-bluetooth` e `melhores-carregadores-turbo` abrirem com a escolha principal e linkarem de volta ao guia da BF.
+- Sem urgência falsa, sem "últimas unidades", sem preço no texto.
 
-## O que testar na semana
-- Cliques ML da semana de 09/11 e 16/11 contra as 11 da semana base (meta do plano: 14).
-- Echo Dot com 1 oferta de lâmpada e PS4 com 1 oferta de acessório, medidos pelo sub-ID por post se o dono ativar.
-- Abrir as listas da BF pela escolha principal e checar queda de saída na página.
+## O que testar na semana (meta: 20 cliques, melhor semana até hoje: 16)
+- Cliques do iPhone 11 após a oferta de cabo (sem sub-ID, só pela soma semanal).
+- Guias da BF e listas de energia com "veja também" contra o 1,0 página por visita.
+- Taxa de clique de 27% ou mais com mais visitas do Google.
 
 ## 3 apostas de venda da semana
-1. **Funil BF**: guia BF -> 6 listas, com ligação de volta e escolha principal na primeira tela (vendas + atualizador).
-2. **Ofertas leves nas notícias que o Google já mostra**: Echo Dot (lâmpada Alexa) e PS4 (acessório), máx. 1 a 2 chamadas dentro de frase útil.
-3. **Pauta com produto**: comparativo "carregador GaN ou comum para iPhone" e "headset para Switch 2" na semana da BF, sem preço, só se o CSV confirmar compatibilidade.
+1. **Funil BF** (vendas + atualizador): guia -> listas, com escolha principal na primeira tela e link de volta nas listas de TWS e carregador turbo.
+2. **Oferta leve onde o Google já mostra o post**: iPhone 11 (feito), Echo Dot e PS4, no máximo 2 chamadas.
+3. **Pauta com produto**: "carregador GaN ou comum para iPhone" (o catálogo tem Ugreen Nexode, Baseus GaN5 e Samsung 25 W) e "como saber se o desconto é real", sem preço.
 
 ## Produtos com cliques e zero pedidos por 2 semanas
-Sem dado por produto; nada para o curador. Sugestão ao dono: sub-ID por post no gerador do ML.
+Sem dado por produto; nada a repassar ao curador. Pedido ao dono: ativar sub-ID por post no gerador de links do ML.
 
-## Regras mantidas
-Sem urgência falsa, sem preço no texto, sem promessa de desconto, sem valores de ganhos.
+## Aviso técnico
+Em `scripts/verificar.py` linha 102, o `\s*` cruza linhas: um `:::` de fechamento seguido de texto na linha de baixo conta como bloco aberto. Mural #12, o dono corrige.

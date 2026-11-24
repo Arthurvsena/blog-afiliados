@@ -18,9 +18,9 @@ tags: ["Alexa+", "Amazon", "Amazon Prime", "casa inteligente", "Echo", "assisten
 capa_frase: "Alexa+ segue de graça"
 imagem:
   arquivo: alexa-plus-brasil-acesso-gratis-prorrogado-fevereiro-2027.jpg
-  credito: Smart Home Perfected/Wikimedia Commons
-  licenca: CC BY 2.0
-  fonte: https://commons.wikimedia.org/wiki/File:Alexa_Amazon_Echo_Dot_3rd_Gen_Smart_Speaker_-_Sandstone_Fabric_(Creative_Commons)_(51048461088).jpg
+  credito: 'Logo: Amazon Alexa (Wikimedia Commons)'
+  licenca: Public domain
+  fonte: https://commons.wikimedia.org/wiki/File:Amazon_Alexa_logo.svg
 ---
 A Alexa Plus Brasil continua grátis por mais tempo. A Amazon confirmou ao Tecnoblog, em matéria de 30 de outubro, que o acesso antecipado da assistente com IA generativa vai durar pelo menos até fevereiro de 2027. A previsão anterior era outubro de 2026. Quem tem Prime e um aparelho compatível pode pedir acesso sem pagar a mais.
 

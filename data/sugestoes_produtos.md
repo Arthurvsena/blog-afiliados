@@ -2,6 +2,19 @@
 
 O curador escreve aqui os produtos que vale cadastrar em data/produtos.csv.
 
+## Sugestões de 2026-11-24 (reunião de estratégia; Black Friday em 27/11)
+
+**Situação (58 ativos):** mouses Redragon destravada (Cobra M711, Griffin M607, Cobra Pro, King Pro, Storm Pro; precisa de 2). Fone JBL destravada (Wave Buds 2, Quantum 100M2, Tune 520BT; precisa de 0, lista pede 3+). Caixas até R$ 100 segue travada: 1 ativa abaixo de R$ 100 (Xiaomi Compact Speaker 2, R$ 64,99), precisa de 3. Sem produto novo hoje: não fiz pesquisa nova e o ML segue sem leitura, então nenhuma ficha, nota ou preço novo foi inventado.
+
+**Para a Black Friday:** não há produto a cadastrar que destrave pauta. Apostas com o catálogo atual (preço só no card): power banks Anker Zolo 45 W e Baseus Bipow2 Pro (melhor custo-benefício 20.000 mAh), câmeras Tapo C200 (48.768 avaliações) e C210, Galaxy Fit3 e Redmi Watch 5 Lite (muitas avaliações), headsets Havit H2002d e JBL Quantum 100M2. Carregador original da Apple e capa iPhone 13 seguem dependendo do dono.
+
+**Pendentes de cadastro (seguem valendo):** tomada Intelbras ETW 1001+ (11-16), Redragon Stormrage M718 e Invader M719 (11-12, agora dispensáveis: pauta fechada), JBL Tune Buds 2 (reserva).
+
+**Caixas até R$ 100:** recomendação mantida: virar "até R$ 200" (Go Essential 2, Go 4, Soundcore 2, Xiaomi como extra barato) ou o dono mandar 2 links de caixas abaixo de R$ 100 com 200+ avaliações.
+
+### Resumo de 11-24
+Novas: 0 em todos os subnichos. Destravadas: mouses Redragon e fone JBL. Travada: caixas até R$ 100.
+
 ## Sugestões de 2026-11-22 (pautas travadas: caixas até R$ 100, mouses Redragon, fone JBL)
 
 **Aviso:** o ML segue sem leitura (403). Nota e avaliações do ML não conferidas; critério no cadastro: 4,5+ e 200+ avaliações, loja oficial ou MercadoLíder. Nenhuma sugestão de 11-17, 11-16 e 11-12 foi cadastrada ainda (CSV sem JBL Tune 520BT, Stormrage M718 nem Invader M719); elas seguem valendo.

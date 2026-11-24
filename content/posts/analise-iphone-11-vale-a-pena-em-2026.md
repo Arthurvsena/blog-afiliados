@@ -1,9 +1,9 @@
 ---
-titulo: "Vale a pena comprar o iPhone 11 em 2026? Depende da bateria"
+titulo: "iPhone 11 compensa em 2026? Só com bateria boa"
 slug: analise-iphone-11-vale-a-pena-em-2026
-descricao: "Vale a pena comprar o iPhone 11 em 2026? Entra no iOS 27, mas tem tela LCD, Lightning e fica sem Apple Intelligence. Veja o que checar antes."
-palavra_chave: "vale a pena comprar o iphone 11 em 2026"
-palavras_secundarias: ["iphone 11 em 2026", "iphone 11 ainda vale a pena", "iphone 11 recebe ios 27"]
+descricao: "iPhone 11 compensa em 2026? Recebe o iOS 27, mas tem tela LCD e fica sem Apple Intelligence. Veja o que checar antes de comprar usado."
+palavra_chave: "iphone 11 compensa em 2026"
+palavras_secundarias: ["vale a pena comprar o iphone 11 em 2026", "iphone 11 em 2026", "iphone 11 ainda vale a pena", "iphone 11 recebe ios 27"]
 editoria: analises
 tipo: analise
 publicado: 2026-11-09 10:00
@@ -39,7 +39,7 @@ imagem:
   licenca: CC BY 2.0
   fonte: https://commons.wikimedia.org/wiki/File:2019-12-22_IPhone_11_Pro.jpg
 ---
-O iPhone 11 ainda vale a pena em 2026 para quem quer um iPhone barato e básico, desde que a bateria esteja boa e o aparelho venha com nota fiscal e garantia. Ele recebe o iOS 27, mas fica de fora de todos os recursos de Apple Intelligence.
+O iPhone 11 compensa em 2026 para quem quer um iPhone barato e básico, desde que a bateria esteja boa e o aparelho venha com nota fiscal e garantia. Ele recebe o iOS 27, mas fica de fora de todos os recursos de Apple Intelligence.
 
 Não tive o aparelho nas mãos. Esta análise parte da página da Apple, da imprensa brasileira e da ficha técnica pública do modelo.
 
@@ -147,3 +147,7 @@ Não vale para quem quer guardar o aparelho por muitos anos, usar a IA da Apple,
 O iPhone 11 virou compra de oportunidade, não de primeira escolha. Com bateria boa, nota fiscal e preço de aparelho antigo, vale. Pagando perto do valor de um mais novo, espere ou vá de iPhone 13 ou 15.
 
 Vai comprar na Black Friday? Antes, leia [como não cair em preço falso em eletrônicos](/posts/black-friday-2026-eletronicos-como-nao-cair-em-preco-falso/). Se o orçamento aperta, veja [como a memória mais cara pode encarecer o iPhone](/posts/apple-memoria-mais-cara-2027-iphone-preco-brasil/).
+
+:::dica Se for ficar com o iPhone 11
+O iPhone 11 usa Lightning, não USB-C. Para carregar rápido num carregador moderno, vale um cabo USB-C para Lightning certificado MFi, como o {{link:anker-322-usbc-lightning-1m|Anker 322}} ou o {{link:ugreen-us171-usbc-lightning-1m|Ugreen US171}}. Cabo sem certificação pode falhar ou nem carregar.
+:::

@@ -1,65 +1,59 @@
-# Relatório de SEO: 2026-11-16
+# Relatório de SEO: 2026-11-24
 
-Situação: 132 posts. Search Console de 08 a 14/11: 1.460 impressões, 8 cliques (CTR 0,5%), posição média 10,7. O gargalo segue sendo **CTR**: há muita impressão entre as posições 5 e 10 sem clique. Referência: diretrizes do Google Search Central (conteúdo útil, E-E-A-T, sem spam); não pesquisei mudanças novas nesta rodada. Detalhe por consulta da semana 08-14/11 ainda não está em `data/metricas.json` (só até 02/11), então a análise por consulta usa o mural #81/#83 e a semana anterior.
+Situação: 184 posts. Search Console de 15 a 21/11: 1.230 impressões, 3 cliques (CTR 0,2%, era 0,5%), posição média 11,5; o Google trouxe 4 das 44 visitas. O gargalo segue sendo CTR e consultas em inglês sem clique. Base de referência: diretrizes do Google Search Central (conteúdo útil, E-E-A-T); sem pesquisa de mudanças novas nesta rodada.
 
-## Feito nesta rodada (mural #81 e #83)
-- `fone-tws-so-funciona-um-lado`: título "Fone TWS só funciona um lado? 5 passos que resolvem" (promessa de solução) e descrição nova.
-- `melhores-power-banks`: título "Melhores power banks 2026: 6 de 10.000 e 20.000 mAh" (usa o plural real "melhores power bank"). As 58 impressões de "what is the best power bank" são em inglês: não vale perseguir; o post já está em português e o idioma não vai render clique. Foco no termo em português.
-- `echo-dot-echo-time-brasil-pre-venda-11-novembro`: título e descrição com o preço e a data. Se o clique não vier, a consulta provavelmente cai em `como-configurar-alexa-echo-dot-primeira-vez` (conferir a página no Search Console).
+## Pendências #101/#105/#102 (resolvidas agora)
+- `melhores-power-banks`: a seção de 20.000 mAh já está reduzida a um parágrafo com link ao guia de 20.000 e ao comparativo 10.000 x 20.000; título "2 de 10.000 mAh por uso". Canibalização tratada. As ~120 impressões em inglês ("best power bank") não valem perseguir.
+- Echo Dot: a consulta "como configurar alexa echo dot" (42 impressões, posição 11,0) cai em `como-configurar-alexa-echo-dot-primeira-vez` (palavra-chave igual). Melhorar esse post com FAQ e link à notícia do Echo Dot; "lampada alexa" (33 imp., pos. 11,9) cai em `melhores-lampadas-inteligentes-alexa`.
+- Black Friday: **não existe termo de Black Friday em `data/palavras.json`**. Decisão: guias de BF seguem sem a expressão como palavra-chave de lista; usar o termo só nas notícias datadas (concorrência alta de grandes sites).
+- iPhone 11 e PS4 (#102): título e descrição reescritos. iPhone 11: "iPhone 11 compensa em 2026? Só com bateria boa", palavra-chave trocada para "iphone 11 compensa em 2026" (consulta real do Search Console, 16 + 13 impressões nas posições 7,5 a 8,6). PS4: "Vale a pena comprar um PS4 em 2026? Só neste caso" com o GTA 6 na descrição. Medir em 7 dias.
 
-## Oportunidades de palavras (sem `coberto_por`, mais fortes)
-| Termo | Força | Post sugerido | Pauta |
-|---|---|---|---|
-| alexa compatível com tv samsung | 4,92 | guia/FAQ casa inteligente | já na fila de ideias |
-| nintendo switch barato | 4,60 | guia (Lite, OLED, Switch 2) antes da Black Friday | adicionada |
-| fone bluetooth jbl | 4,41 | lista | adicionada |
-| carregador usb c apple | 4,22 | lista (junto de usb c iphone, cabo usb c apple) | adicionada |
-| teclado gamer mecânico | 4,22 | lista | adicionada |
-| carregador turbo samsung / tipo c | 4,19 / 4,13 | lista única de carregador turbo Android | sugerida |
-| mouse gamer redragon | 4,13 | lista | já coberta em parte por melhores-mouses-gamer-baratos |
-| headset gamer havit/redragon | 4,03 | lista | sugerida |
-| tomada inteligente intelbras | 3,78 | review/comparativo | sugerida |
-| power bank solar | 3,87 | guia (alerta honesto: carga solar é lenta) | sugerida |
+## Oportunidades de palavras (sem `coberto_por`; notícias de tecnologia fora da lista)
+| Termo | Força | Post sugerido |
+|---|---|---|
+| fone bluetooth jbl | 4,41 | lista (precisa de 3 produtos JBL no catálogo) |
+| carregador turbo tipo c | 4,13 | guia ligado a carregadores turbo |
+| mouse gamer redragon | 4,13 | lista (produtos pendentes do dono) |
+| headset gamer havit | 4,03 | lista |
+| nintendo switch lite | 4,03 | guia/análise Switch barato |
+| carregador usb c iphone | 3,94 | guia (já na pauta do carregador USB-C Apple) |
+| teclado gamer redragon | 3,92 | review/lista |
+| cabo usb c | 3,88 | lista |
+| nintendo switch desbloqueado | 3,83 | alerta/guia (cuidado: risco e garantia) |
+| fone tws jbl | 3,81 | junto com o post de JBL |
+| tomada inteligente intelbras | 3,78 | review/comparativo |
 
 ## Quase na 1ª página (posição 8 a 20)
-- iPhone 13 (posição 8,3; 117 impressões; 0 cliques): título/descrição com veredito já trocados na semana passada; medir. Consultas "vale a pena em 2026" na posição 8 a 10: manter a expressão no H2 e no FAQ.
-- `melhores-power-banks` (20,6) e `melhores-power-banks-20000mah` (17,7): canibalizam. Reduzir a seção de 20.000 mAh no principal e linkar o guia específico (aposta do redator).
-- `melhores-lampadas-inteligentes-alexa` (20,2): reforçar FAQ com termos de dúvida e receber links das notícias de Alexa/Echo Dot.
-- Alexa+ (5,8; 0 cliques): descrição com "grátis até fevereiro de 2027".
-- `whatsapp-confirmacao-duas-etapas-como-ativar` (10,4): título com "passo a passo" e 1 link interno a `whatsapp-clonado-o-que-fazer-passo-a-passo`.
+- iPhone 11 (7,5 a 8,6): reescrito; reforçar H2 "iPhone 11 compensa em 2026?".
+- `como-configurar-alexa-echo-dot-primeira-vez` (11,0) e `melhores-lampadas-inteligentes-alexa` (11,9 e 14,2): FAQ com "lâmpada inteligente Alexa" e links entre si e para a notícia do Echo Dot.
+- iPhone 13 (8,3; 117 impressões): medir o título novo; capa ainda com foto de 13 Pro (designer).
+- `whatsapp-confirmacao-duas-etapas-como-ativar` (10,4): título com "passo a passo".
 
 ## Buscas sem post próprio
-- "alexa 2027" (posição 5,2): cabe na análise/notícia da Alexa+; não precisa de post novo.
-- "ugreen pb311" (posição 7,0): já tem review; conferir se o título tem o código do modelo.
-- Echo Dot: se a consulta for "como configurar echo dot", o post existe; se for "alexa echo dot preço", ficar com a notícia.
+- "lampada inteligente alexa" (12 imp.): cabe no post de lâmpadas Alexa; sem post novo.
+- Consultas em inglês de power bank: ignorar.
 
 ## Clusters
-- Power banks: guia principal, 20.000 mAh, iPhone, 10.000 ou 20.000, review Ugreen e como escolher (completo). Falta: power bank solar e comparativo Anker x Ugreen.
-- Fones: faltam JBL e "fone bluetooth iphone". Fone TWS já tem guia, gamer, não conecta e um lado.
-- Gamer: falta teclado gamer mecânico, mouse/headset Redragon e Havit.
-- Casa inteligente: Alexa compatível com TV Samsung e iPhone; tomada Intelbras.
-- Games: Switch barato; Switch 2/Zelda/Ocarina ligados entre si (confirmar com o atualizador).
+- Power banks: completo; faltam power bank solar e Anker x Ugreen.
+- Fones: faltam JBL e "fone bluetooth iphone".
+- Gamer: faltam teclado mecânico, mouse/headset Redragon e Havit.
+- Casa inteligente: faltam tomada Intelbras e lâmpada Alexa x Positivo.
+- Games: Switch barato/Lite sem subnicho no catálogo (curador).
 
 ## Canibalização
-- `melhores-power-banks` x `melhores-power-banks-20000mah`: diferenciar (principal: 10.000 e uso geral; 20.000: viagem e notebook).
-- `melhores-fones-tws-bluetooth` x `fones-bluetooth-baratos-bons`: ambos miram "fone bluetooth barato/tws"; manter o primeiro como principal e o segundo com recorte de preço.
-- `melhores-carregadores-turbo` x `carregador-turbo-iphone-usb-c-pd-qual-escolher`: separar Android x iPhone nos títulos.
-- Três posts do Motorola Signature 27 (pré-registro, preço e pré-venda): o mais novo deve ser o principal; linkar os outros.
+- Power banks: resolvida. Pendentes: `melhores-fones-tws-bluetooth` x `fones-bluetooth-baratos-bons`; `melhores-carregadores-turbo` x `carregador-turbo-iphone-usb-c-pd-qual-escolher`; três posts do Motorola Signature 27 (linkar ao mais novo).
 
 ## Sazonalidade (próximas 8 semanas)
-- Black Friday 27/11: listas e os guias de carregador, power bank, TWS e Switch no ar e linkados até 20/11; checklist de preço falso já existe.
-- GTA 6 em 19/11: notícias e tutoriais de espaço e pré-carregamento rendem tráfego imediato.
-- Cyber Monday 30/11, Natal (guia de presentes tech até 05/12) e Réveillon.
-- Xiaomi 18 Pro em 17/11 (evento global) e Gemini 4 / GPT-6: notícias com termos reais.
+- Black Friday 27/11 e Cyber Monday 30/11: atualizar listas e guia da BF com links cruzados nesta semana.
+- Natal (guia de presentes tech até 05/12), Réveillon, retrospectiva 2026 e CES em janeiro.
 
 ## Ações do dono
-- Cadastrar cabo Lightning MFi e capas de iPhone 13; pedir indexação no Search Console dos posts alterados.
-- Ativar sub-ID por post no gerador de links do ML.
-- Divulgar os textos de `data/redes.md` (WhatsApp e X) com foco na Black Friday.
+- Cadastrar produtos JBL, Redragon e cabo Lightning MFi; liberar login do Cloudflare (sem dado de visitas desde 12/11).
+- Pedir indexação no Search Console dos posts alterados; divulgar `data/redes.md` na Black Friday.
 
 ## Top 5 prioridades da semana
-1. Medir CTR dos 3 títulos trocados e do iPhone 13; trocar de novo se continuar zerado.
-2. Separar power banks (cortar 20.000 mAh do principal) e linkar os guias.
-3. Publicar "nintendo switch barato" e "carregador usb c apple" antes de 27/11.
-4. Ligar notícias de Alexa/Echo Dot a `melhores-lampadas-inteligentes-alexa` e ao guia de configuração.
-5. Fazer o analista salvar as consultas da semana 08-14/11 em `data/metricas.json`.
+1. Medir CTR de iPhone 11, PS4, iPhone 13 e TWS; trocar de novo se seguir zerado.
+2. Redator: carregador USB-C Apple e Switch barato/Lite antes de 27/11.
+3. Ligar notícias de Alexa/Echo Dot a `melhores-lampadas-inteligentes-alexa` e ao guia de configuração.
+4. Curador/dono: 3 produtos JBL e Redragon para destravar as listas.
+5. Analista: salvar as consultas do Search Console da semana em `data/metricas.json`.

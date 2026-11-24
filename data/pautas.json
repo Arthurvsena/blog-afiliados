@@ -4358,7 +4358,8 @@
     "motivo": "Maior termo sem post (força 4,41); linkar melhores-fones-tws-bluetooth.",
     "status": "pendente",
     "criada": "2026-11-16",
-    "viral": 4
+    "viral": 4,
+    "prioridade": "alta"
   },
   {
     "id": "carregador-usb-c-apple-qual-comprar",
@@ -5600,5 +5601,29 @@
     "criada": "2026-11-23",
     "viral": 2,
     "post": "motorola-edge-70-neo-lancamento-24-novembro-india-chega-ao-brasil"
+  },
+  {
+    "id": "nintendo-switch-lite-vale-a-pena-2026",
+    "titulo": "Nintendo Switch Lite: vale a pena em 2026? Para quem ainda serve",
+    "palavra_chave": "nintendo switch lite",
+    "editoria": "games",
+    "tipo": "analise",
+    "produtos_necessarios": 0,
+    "motivo": "Termo com força 4,03 em palavras.json sem post; Google e ML. Sem preço no texto; só fatos de fonte aberta nesta execução.",
+    "prioridade": "alta",
+    "status": "pendente",
+    "criada": "2026-11-24"
+  },
+  {
+    "id": "carregador-gan-ou-comum-iphone",
+    "titulo": "Carregador GaN ou comum para iPhone: qual compensa",
+    "palavra_chave": "carregador usb c iphone",
+    "tipo": "guia",
+    "subnicho": "power-banks-carregadores",
+    "produtos_necessarios": 3,
+    "motivo": "Termo 3,94 em palavras.json; aposta do relatório de vendas. Linkar carregador-usb-c-apple-qual-comprar e carregador-turbo-iphone-usb-c-pd-qual-escolher sem canibalizar, e o guia da Black Friday.",
+    "prioridade": "alta",
+    "status": "pendente",
+    "criada": "2026-11-24"
   }
 ]

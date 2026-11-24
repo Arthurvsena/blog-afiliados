@@ -3,35 +3,35 @@
   "agentes": {
     "chefe": {
       "status": "ok",
-      "tarefa": "Coordenei a rotina: 5 notícias, 1 tutorial, 1 análise e 2 guias; reabri a #101 no mural e cortei um número de 39 milhões que veio só de busca."
+      "tarefa": "Reunião: foco no funil da Black Friday (listas, escolha principal, veja também) e em termos com busca e sem post."
     },
     "pesquisador": {
       "status": "ok",
-      "tarefa": "Trouxe 5 pautas de notícia (GTA 6 vendas, Anatel e SMS, Edge 70 Neo, GPT-6.2 e Google Tasks); a fila ficou com 5 pautas e precisa de reposição."
+      "tarefa": "Propôs termos com busca: Switch Lite e celulares da BF."
     },
     "curador": {
       "status": "ok",
-      "tarefa": "Cadastrei 8 produtos com link: caixa Xiaomi Mi Compact 2 e JBL Tune 520BT (fones-caixas), 3 mouses Redragon sem fio (Cobra Pro, King Pro, Storm Pro), câmeras Tapo C200 e C210 e o Redmi Watch 5 Lite. Tomada Intelbras 20 A reprovada (sem avaliações)."
+      "tarefa": "Redragon e JBL destravados; caixas até R$ 100 vira \"até R$ 200\"; apostas de BF só com o catálogo."
     },
     "redator": {
       "status": "ok",
-      "tarefa": "Escrevi as 5 notícias do dia, o tutorial das jogos grátis da Epic, a análise do Gemini AI Plus e os guias de fone TWS e câmera Wi-Fi."
+      "tarefa": "Propôs veja também nas listas de energia, Redragon/JBL e guia GaN."
     },
     "seo": {
       "status": "ok",
-      "tarefa": "Reescrevi títulos e descrições dos 9 posts do dia e liguei os guias de TWS e Epic aos posts antigos; as pendências da #101 seguem abertas."
+      "tarefa": "Relatório semanal: CTR 0,2%; reescreveu iPhone 11 e PS4; Echo Dot e lâmpadas mapeados."
     },
     "atualizador": {
-      "status": "ocioso",
-      "tarefa": "Não fui chamado: nenhum post que não seja notícia tem 30 dias ou mais."
+      "status": "ok",
+      "tarefa": "Propôs escolha principal em TWS e turbo e FAQ de Echo Dot e lâmpadas."
     },
     "designer": {
       "status": "ok",
-      "tarefa": "Pus foto e blocos visuais nos 9 posts; Anatel, Google Tasks, Gemini AI Plus e Epic ficaram com logo por falta de foto livre."
+      "tarefa": "Trocou a foto repetida da Alexa+; iPhone 13 segue sem foto oficial."
     },
     "vendas": {
       "status": "ok",
-      "tarefa": "Pus links de compra no Edge 70 Neo, no GTA 6 e reforcei as chamadas nos guias de TWS e câmera Wi-Fi, sem preço no texto."
+      "tarefa": "Relatório semanal: 2 ofertas no iPhone 11 e funil da BF; pautas GaN e desconto real."
     },
     "viral": {
       "status": "ok",
@@ -47,7 +47,7 @@
     },
     "analista": {
       "status": "ok",
-      "tarefa": "Semana 16-22/11: 44 visitas, 12 cliques no ML e o 1º pedido (venda indireta). Google em CTR 0,2%. Meta: 20 cliques na Black Friday."
+      "tarefa": "Resumo da semana 16–22/11: 44 visitas, 12 cliques, 1 pedido; meta de 20 cliques."
     },
     "seg_animador": {
       "status": "ok",
@@ -67,51 +67,6 @@
     }
   },
   "historico": [
-    {
-      "data": "2026-11-16",
-      "agente": "redator",
-      "texto": "Escrevi 7 posts: GTA 6/DE-CIX, Pix, iPhone 18, Claude IA, PS5, Mi Band x Fit 3 e tomada com Alexa."
-    },
-    {
-      "data": "2026-11-16",
-      "agente": "pesquisador",
-      "texto": "Trouxe 5 notícias do dia e 5 pautas novas para a fila."
-    },
-    {
-      "data": "2026-11-16",
-      "agente": "curador",
-      "texto": "Pesquisei a tomada Intelbras 20 A para o guia de tomada."
-    },
-    {
-      "data": "2026-11-16",
-      "agente": "seo",
-      "texto": "Revisei os 7 posts do dia."
-    },
-    {
-      "data": "2026-11-16",
-      "agente": "viral",
-      "texto": "Textos de rede dos 7 posts em data/redes.md."
-    },
-    {
-      "data": "2026-11-16",
-      "agente": "vendas",
-      "texto": "Chamadas de compra em iPhone 18, PS5, Mi Band e tomada."
-    },
-    {
-      "data": "2026-11-16",
-      "agente": "designer",
-      "texto": "Fotos e componentes nos 7 posts."
-    },
-    {
-      "data": "2026-11-16",
-      "agente": "analista",
-      "texto": "Cloudflare pediu login; sem visitas de 12 a 15/11. Google nos 4 dias: 4 cliques, 805 impressões."
-    },
-    {
-      "data": "2026-11-16",
-      "agente": "analista",
-      "texto": "Sem Cloudflare desde 12/11; Google 12–15/11: 4 cliques e 805 impressões."
-    },
     {
       "data": "2026-11-16",
       "agente": "seo",
@@ -366,6 +321,51 @@
       "data": "2026-11-23",
       "agente": "seg_roteirista",
       "texto": "Escrevi 7 roteiros novos do Segura Aí 3D"
+    },
+    {
+      "data": "2026-11-24",
+      "agente": "chefe",
+      "texto": "Reunião: foco no funil da Black Friday (listas, escolha principal, veja também) e em termos com busca e sem post."
+    },
+    {
+      "data": "2026-11-24",
+      "agente": "analista",
+      "texto": "Resumo da semana 16–22/11: 44 visitas, 12 cliques, 1 pedido; meta de 20 cliques."
+    },
+    {
+      "data": "2026-11-24",
+      "agente": "seo",
+      "texto": "Relatório semanal: CTR 0,2%; reescreveu iPhone 11 e PS4; Echo Dot e lâmpadas mapeados."
+    },
+    {
+      "data": "2026-11-24",
+      "agente": "vendas",
+      "texto": "Relatório semanal: 2 ofertas no iPhone 11 e funil da BF; pautas GaN e desconto real."
+    },
+    {
+      "data": "2026-11-24",
+      "agente": "curador",
+      "texto": "Redragon e JBL destravados; caixas até R$ 100 vira \"até R$ 200\"; apostas de BF só com o catálogo."
+    },
+    {
+      "data": "2026-11-24",
+      "agente": "designer",
+      "texto": "Trocou a foto repetida da Alexa+; iPhone 13 segue sem foto oficial."
+    },
+    {
+      "data": "2026-11-24",
+      "agente": "pesquisador",
+      "texto": "Propôs termos com busca: Switch Lite e celulares da BF."
+    },
+    {
+      "data": "2026-11-24",
+      "agente": "redator",
+      "texto": "Propôs veja também nas listas de energia, Redragon/JBL e guia GaN."
+    },
+    {
+      "data": "2026-11-24",
+      "agente": "atualizador",
+      "texto": "Propôs escolha principal em TWS e turbo e FAQ de Echo Dot e lâmpadas."
     }
   ]
 }
