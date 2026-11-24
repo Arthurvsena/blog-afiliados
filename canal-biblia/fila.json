@@ -182,7 +182,21 @@
    "produzido": "2026-11-24",
    "release": "biblia-2026-11-24",
    "voz": "gemini:Orus"
-  }
+  },
+  {"slug": "o-bom-samaritano", "status": "pronto"},
+  {"slug": "a-oferta-da-viuva-pobre", "status": "pronto"},
+  {"slug": "o-cego-bartimeu", "status": "pronto"},
+  {"slug": "a-mulher-que-tocou-no-manto", "status": "pronto"},
+  {"slug": "a-ultima-ceia", "status": "pronto"},
+  {"slug": "pedro-nega-jesus", "status": "pronto"},
+  {"slug": "o-ladrao-na-cruz", "status": "pronto"},
+  {"slug": "tome-e-as-marcas-dos-cravos", "status": "pronto"},
+  {"slug": "saulo-na-estrada-de-damasco", "status": "pronto"},
+  {"slug": "paulo-e-silas-na-prisao", "status": "pronto"},
+  {"slug": "a-ovelha-perdida", "status": "pronto"},
+  {"slug": "o-semeador", "status": "pronto"},
+  {"slug": "a-mulher-samaritana", "status": "pronto"},
+  {"slug": "jaco-luta-com-o-anjo", "status": "pronto"}
  ],
  "ideias": [
   "Ana e a oração pelo filho Samuel (1 Samuel 1)",
@@ -198,18 +212,6 @@
   "A água que virou vinho em Caná (João 2)",
   "Jesus acalma a tempestade (Marcos 4:35–41)",
   "A ressurreição de Lázaro (João 11)",
-  "Zaqueu sobe na árvore (Lucas 19)",
-  "O bom samaritano (Lucas 10)",
-  "A oferta da viúva pobre (Marcos 12:41–44)",
-  "O cego Bartimeu (Marcos 10:46–52)",
-  "A mulher que tocou no manto (Marcos 5:25–34)",
-  "A última ceia (Mateus 26)",
-  "Pedro nega Jesus três vezes (Lucas 22)",
-  "O ladrão na cruz (Lucas 23:39–43)",
-  "Tomé e as marcas dos cravos (João 20:24–29)",
-  "Saulo na estrada de Damasco (Atos 9)",
-  "Paulo e Silas cantando na prisão (Atos 16)",
-  "A ovelha perdida (Lucas 15:1–7)",
-  "O semeador (Mateus 13)"
+  "Zaqueu sobe na árvore (Lucas 19)"
  ]
 }

@@ -1,0 +1,19 @@
+{
+ "slug": "a-oferta-da-viuva-pobre",
+ "titulo": "Os ricos deram muito… mas Jesus disse que ela deu mais do que todos",
+ "referencia": "Marcos 12:41-44",
+ "heroi": {"nome": "A viúva", "cores": ["#6b4a8c", "#e0a458", "#3d8a7a", "#f1e6cf"]},
+ "hashtags": ["viuvapobre", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "cenas": [
+  {"fala": "Muita gente rica jogou dinheiro grande no templo. Mas Jesus só reparou em uma pessoa.", "cenario": "templo", "hora": "dia", "camera": "aproxima", "elementos": [{"tipo": "pessoa", "variante": "rei", "x": 300, "olhar": 1}, {"tipo": "pessoa", "variante": "homem", "pano": true, "x": 780, "olhar": -1}, {"tipo": "pessoa", "variante": "jesus", "plano": "fundo", "x": 540, "escala": 0.8}]},
+  {"fala": "Jesus estava sentado em frente à caixa de ofertas, observando como o povo contribuía.", "cenario": "templo", "hora": "dia", "camera": "afasta", "elementos": [{"tipo": "pessoa", "variante": "jesus", "x": 300, "pose": "sentado", "olhar": 1}, {"tipo": "multidao", "plano": "fundo", "x": 780, "n": 6}]},
+  {"fala": "Os ricos davam bastante. E iam embora com a cabeça erguida.", "cenario": "templo", "hora": "por_do_sol", "camera": "direita", "elementos": [{"tipo": "pessoa", "variante": "homem", "x": 200, "anda_ate": 700, "pose": "andando", "olhar": 1}, {"tipo": "pessoa", "variante": "rei", "plano": "fundo", "x": 860, "olhar": -1}]},
+  {"fala": "Então chegou uma viúva pobre. E colocou duas moedinhas de pouquíssimo valor.", "cenario": "templo", "hora": "por_do_sol", "camera": "aproxima", "elementos": [{"tipo": "heroi", "variante": "mulher", "x": 540, "olhar": 1, "entra": "esquerda"}], "texto_tela": "2 moedinhas"},
+  {"fala": "Ninguém notou. Ninguém aplaudiu. Mas Jesus chamou os discípulos para perto.", "cenario": "templo", "hora": "por_do_sol", "camera": "aproxima", "elementos": [{"tipo": "pessoa", "variante": "jesus", "x": 300, "olhar": 1}, {"tipo": "multidao", "plano": "fundo", "x": 740, "n": 5, "variante": "homem"}, {"tipo": "heroi", "variante": "mulher", "plano": "fundo", "x": 900, "escala": 0.8}]},
+  {"fala": "E disse: esta viúva pobre deu mais do que todos os outros.", "cenario": "templo", "hora": "amanhecer", "camera": "aproxima", "elementos": [{"tipo": "pessoa", "variante": "jesus", "x": 380, "olhar": 1, "pose": "apontando"}, {"tipo": "heroi", "variante": "mulher", "x": 760, "olhar": -1}], "efeitos": ["luz_divina"]},
+  {"fala": "Os outros deram do que sobrava. Ela deu tudo o que tinha para viver.", "cenario": "templo", "hora": "amanhecer", "camera": "zoom_forte", "elementos": [{"tipo": "heroi", "variante": "mulher", "x": 540, "pose": "orando"}], "efeitos": ["luz_divina"]},
+  {"fala": "Ela, porém, da sua pobreza, deu tudo o que possuía, todo o seu sustento.", "versiculo": true, "texto_tela": "Marcos 12:44", "cenario": "ceu", "camera": "aproxima", "elementos": [{"tipo": "heroi", "variante": "mulher", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ],
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "descricao": "Os ricos deram muito… mas Jesus disse que ela deu mais do que todos. Marcos 12:41-44 em menos de 1 minuto.\n\n\"Ela, porém, da sua pobreza, deu tudo o que possuía, todo o seu sustento.\" (Marcos 12:44)"
+}

@@ -1,0 +1,19 @@
+{
+ "slug": "a-ovelha-perdida",
+ "titulo": "Ele tinha cem ovelhas e deixou noventa e nove para trás por causa de uma",
+ "referencia": "Lucas 15:1-7",
+ "heroi": {"nome": "O pastor", "cores": ["#4f8a5a", "#d9a43a", "#a8503c", "#f0e6c8"]},
+ "hashtags": ["ovelhaperdida", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "cenas": [
+  {"fala": "Um pastor tinha cem ovelhas. Perdeu uma. E deixou as noventa e nove para ir atrás dela.", "cenario": "campo", "hora": "dia", "camera": "aproxima", "elementos": [{"tipo": "ovelha", "x": 740, "n": 5}, {"tipo": "heroi", "variante": "pastor", "x": 330, "olhar": 1, "cajado": true}], "texto_tela": "99 + 1", "contar": false},
+  {"fala": "Jesus contou essa história porque os religiosos reclamavam que Ele recebia gente de má fama.", "cenario": "cidade", "hora": "dia", "camera": "afasta", "elementos": [{"tipo": "pessoa", "variante": "jesus", "x": 380, "olhar": 1}, {"tipo": "multidao", "plano": "fundo", "x": 780, "n": 6, "olhar": -1}]},
+  {"fala": "Se um de vocês tem cem ovelhas e perde uma, o que faz?", "cenario": "campo", "hora": "dia", "camera": "aproxima", "elementos": [{"tipo": "heroi", "variante": "pastor", "x": 540, "cajado": true, "pose": "apontando"}]},
+  {"fala": "O pastor sai pelo campo, procurando em cada canto, até encontrá-la.", "cenario": "deserto", "hora": "por_do_sol", "camera": "direita", "elementos": [{"tipo": "heroi", "variante": "pastor", "x": 200, "anda_ate": 520, "cajado": true, "pose": "andando", "olhar": 1}]},
+  {"fala": "Longe do rebanho, a ovelha estava sozinha, sem saber voltar.", "cenario": "deserto", "hora": "noite", "camera": "aproxima", "elementos": [{"tipo": "ovelha", "x": 620, "n": 1}, {"tipo": "heroi", "variante": "pastor", "plano": "fundo", "x": 200, "anda_ate": 360, "olhar": 1, "cajado": true}]},
+  {"fala": "Quando a encontra, não briga com ela. Coloca nos ombros, cheio de alegria.", "cenario": "campo", "hora": "amanhecer", "camera": "aproxima", "elementos": [{"tipo": "heroi", "variante": "pastor", "x": 540, "cajado": true, "pose": "bracos_erguidos"}], "efeitos": ["luz_divina"]},
+  {"fala": "Chega em casa, chama os amigos e vizinhos e faz festa. Porque encontrou a que estava perdida.", "cenario": "campo", "hora": "dia", "camera": "afasta", "elementos": [{"tipo": "heroi", "variante": "pastor", "x": 420, "cajado": true, "pose": "bracos_erguidos"}, {"tipo": "multidao", "plano": "fundo", "x": 780, "n": 6, "pose": "bracos_erguidos"}]},
+  {"fala": "Alegrem-se comigo; encontrei a minha ovelha perdida.", "versiculo": true, "texto_tela": "Lucas 15:6", "cenario": "ceu", "camera": "aproxima", "elementos": [{"tipo": "heroi", "variante": "pastor", "cajado": true, "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ],
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "descricao": "Ele tinha cem ovelhas e deixou noventa e nove para trás por causa de uma. Lucas 15:1-7 em menos de 1 minuto.\n\n\"Alegrem-se comigo; encontrei a minha ovelha perdida.\" (Lucas 15:6)"
+}

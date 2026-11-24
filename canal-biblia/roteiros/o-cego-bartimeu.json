@@ -1,0 +1,19 @@
+{
+ "slug": "o-cego-bartimeu",
+ "titulo": "Todos mandaram ele ficar quieto… mas ele gritou ainda mais alto",
+ "referencia": "Marcos 10:46-52",
+ "heroi": {"nome": "Bartimeu", "cores": ["#c0562f", "#2d5f8a", "#e8c872", "#f4ead2"]},
+ "hashtags": ["bartimeu", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "cenas": [
+  {"fala": "Todos mandaram o homem ficar calado. Ele gritou ainda mais alto.", "cenario": "cidade", "hora": "dia", "camera": "aproxima", "elementos": [{"tipo": "heroi", "x": 380, "olhar": 1, "pose": "bracos_erguidos"}, {"tipo": "multidao", "plano": "fundo", "x": 780, "n": 7, "olhar": -1}]},
+  {"fala": "Bartimeu era cego e vivia pedindo esmola na beira da estrada de Jericó.", "cenario": "cidade", "hora": "dia", "camera": "afasta", "elementos": [{"tipo": "heroi", "x": 540, "pose": "sentado", "olhar": 1}, {"tipo": "palmeira", "x": 880, "plano": "fundo"}]},
+  {"fala": "Um dia, ouviu dizer que Jesus de Nazaré estava passando por ali.", "cenario": "cidade", "hora": "dia", "camera": "direita", "elementos": [{"tipo": "pessoa", "variante": "jesus", "plano": "fundo", "x": 250, "anda_ate": 700, "pose": "andando"}, {"tipo": "heroi", "x": 700, "pose": "sentado", "olhar": -1}]},
+  {"fala": "E começou a gritar: Jesus, filho de Davi, tem misericórdia de mim!", "cenario": "cidade", "hora": "dia", "camera": "zoom_forte", "elementos": [{"tipo": "heroi", "x": 540, "pose": "bracos_erguidos"}]},
+  {"fala": "Muitos o repreendiam para que se calasse. Mas Bartimeu gritou mais alto ainda.", "cenario": "cidade", "hora": "por_do_sol", "camera": "aproxima", "elementos": [{"tipo": "multidao", "plano": "fundo", "x": 250, "n": 6, "olhar": 1}, {"tipo": "heroi", "x": 700, "pose": "bracos_erguidos", "olhar": -1}], "tremor": true},
+  {"fala": "Jesus parou. E mandou chamar o cego. Bartimeu largou o manto e foi até Ele.", "cenario": "cidade", "hora": "dia", "camera": "aproxima", "elementos": [{"tipo": "pessoa", "variante": "jesus", "x": 800, "olhar": -1}, {"tipo": "heroi", "x": 200, "anda_ate": 560, "pose": "andando", "olhar": 1}], "efeitos": ["luz_divina"]},
+  {"fala": "O que você quer que eu faça? Mestre, eu quero ver. E na mesma hora, ele enxergou.", "cenario": "cidade", "hora": "amanhecer", "camera": "zoom_forte", "elementos": [{"tipo": "pessoa", "variante": "jesus", "x": 360, "olhar": 1, "pose": "apontando"}, {"tipo": "heroi", "x": 720, "olhar": -1, "pose": "bracos_erguidos"}], "efeitos": ["luz_divina"]},
+  {"fala": "Vá, a sua fé o curou.", "versiculo": true, "texto_tela": "Marcos 10:52", "cenario": "ceu", "camera": "aproxima", "elementos": [{"tipo": "heroi", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ],
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "descricao": "Todos mandaram ele ficar quieto… mas ele gritou ainda mais alto. Marcos 10:46-52 em menos de 1 minuto.\n\n\"Vá, a sua fé o curou.\" (Marcos 10:52)"
+}

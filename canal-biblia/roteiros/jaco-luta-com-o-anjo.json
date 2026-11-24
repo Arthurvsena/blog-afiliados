@@ -1,0 +1,19 @@
+{
+ "slug": "jaco-luta-com-o-anjo",
+ "titulo": "Ele lutou a noite inteira e só soltou quando recebeu uma bênção",
+ "referencia": "Gênesis 32:22-32",
+ "heroi": {"nome": "Jacó", "cores": ["#7a3f8a", "#d99a3a", "#3a7f7f", "#efe0bb"]},
+ "hashtags": ["jaco", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "cenas": [
+  {"fala": "Um homem lutou a noite inteira com alguém que não conseguiu vencer. E saiu mancando.", "cenario": "deserto", "hora": "noite", "camera": "aproxima", "elementos": [{"tipo": "heroi", "x": 380, "olhar": 1, "pose": "abraco"}, {"tipo": "pessoa", "variante": "anjo", "x": 700, "olhar": -1, "pose": "abraco"}], "efeitos": ["luz_divina"]},
+  {"fala": "Jacó estava com medo. No dia seguinte ia encontrar o irmão Esaú, a quem tinha enganado anos antes.", "cenario": "deserto", "hora": "por_do_sol", "camera": "afasta", "elementos": [{"tipo": "heroi", "x": 300, "olhar": 1}, {"tipo": "camelo", "plano": "fundo", "x": 700}]},
+  {"fala": "Mandou todos atravessarem o rio Jaboque com seus bens. E ficou sozinho no escuro.", "cenario": "deserto", "hora": "noite", "camera": "aproxima", "elementos": [{"tipo": "heroi", "x": 540, "pose": "sentado"}]},
+  {"fala": "Então um homem apareceu e lutou com ele até o amanhecer.", "cenario": "deserto", "hora": "noite", "camera": "zoom_forte", "elementos": [{"tipo": "heroi", "x": 380, "olhar": 1, "pose": "abraco"}, {"tipo": "pessoa", "variante": "anjo", "x": 700, "olhar": -1, "pose": "abraco"}], "efeitos": ["luz_divina"], "tremor": true},
+  {"fala": "Vendo que não vencia, o homem tocou a coxa de Jacó e a deslocou. Mesmo assim, Jacó não largou.", "cenario": "deserto", "hora": "noite", "camera": "aproxima", "elementos": [{"tipo": "heroi", "x": 380, "olhar": 1, "pose": "caido"}, {"tipo": "pessoa", "variante": "anjo", "x": 700, "olhar": -1}], "efeitos": ["luz_divina"]},
+  {"fala": "Me deixe ir, já está amanhecendo. E Jacó respondeu: não te deixarei ir se não me abençoares.", "cenario": "deserto", "hora": "amanhecer", "camera": "zoom_forte", "elementos": [{"tipo": "heroi", "x": 380, "olhar": 1, "pose": "ajoelhado"}, {"tipo": "pessoa", "variante": "anjo", "x": 700, "olhar": -1}], "efeitos": ["luz_divina"]},
+  {"fala": "O homem perguntou: qual é o seu nome? Jacó. E então o abençoou.", "cenario": "deserto", "hora": "amanhecer", "camera": "aproxima", "elementos": [{"tipo": "pessoa", "variante": "anjo", "x": 640, "olhar": -1, "pose": "bracos_erguidos"}, {"tipo": "heroi", "x": 340, "olhar": 1, "pose": "ajoelhado"}], "efeitos": ["luz_divina"]},
+  {"fala": "Você lutou com Deus e com os homens, e venceu.", "versiculo": true, "texto_tela": "Gênesis 32:28", "cenario": "ceu", "camera": "aproxima", "elementos": [{"tipo": "heroi", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ],
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "descricao": "Ele lutou a noite inteira e só soltou quando recebeu uma bênção. Gênesis 32:22-32 em menos de 1 minuto.\n\n\"Você lutou com Deus e com os homens, e venceu.\" (Gênesis 32:28)"
+}

@@ -1,0 +1,19 @@
+{
+ "slug": "pedro-nega-jesus",
+ "titulo": "Ele jurou que nunca abandonaria Jesus… e antes do galo cantar, negou três vezes",
+ "referencia": "Lucas 22:54-62",
+ "heroi": {"nome": "Pedro", "cores": ["#3b6b9a", "#d98e3d", "#7c8f4e", "#efe2c0"]},
+ "hashtags": ["pedro", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "cenas": [
+  {"fala": "Pedro jurou: Senhor, mesmo que todos te abandonem, eu nunca vou te abandonar.", "cenario": "monte", "hora": "noite", "camera": "aproxima", "elementos": [{"tipo": "heroi", "x": 360, "olhar": 1, "pose": "bracos_erguidos"}, {"tipo": "pessoa", "variante": "jesus", "x": 740, "olhar": -1}]},
+  {"fala": "Mas Jesus respondeu: hoje, antes de o galo cantar, você me negará três vezes.", "cenario": "monte", "hora": "noite", "camera": "zoom_forte", "elementos": [{"tipo": "pessoa", "variante": "jesus", "x": 700, "olhar": -1, "pose": "apontando"}, {"tipo": "heroi", "x": 340, "olhar": 1}]},
+  {"fala": "Jesus foi preso. Pedro seguiu de longe e se sentou no pátio, junto da fogueira.", "cenario": "cidade", "hora": "noite", "camera": "aproxima", "elementos": [{"tipo": "fogo", "x": 560}, {"tipo": "heroi", "x": 300, "olhar": 1}, {"tipo": "pessoa", "variante": "soldado", "x": 820, "olhar": -1}]},
+  {"fala": "Uma serva disse: este homem também estava com Jesus. Pedro respondeu: mulher, eu não o conheço.", "cenario": "cidade", "hora": "noite", "camera": "zoom_forte", "elementos": [{"tipo": "heroi", "x": 330, "olhar": 1}, {"tipo": "pessoa", "variante": "mulher", "x": 760, "olhar": -1, "pose": "apontando"}]},
+  {"fala": "Pouco depois, outro o reconheceu. E Pedro negou de novo. Uma hora mais tarde, um terceiro insistiu.", "cenario": "cidade", "hora": "noite", "camera": "aproxima", "elementos": [{"tipo": "fogo", "x": 560}, {"tipo": "heroi", "x": 300, "olhar": 1}, {"tipo": "multidao", "plano": "fundo", "x": 800, "n": 4, "olhar": -1}], "texto_tela": "3 vezes", "contar": false},
+  {"fala": "Pedro negou pela terceira vez. E nesse instante, o galo cantou.", "cenario": "cidade", "hora": "amanhecer", "camera": "zoom_forte", "elementos": [{"tipo": "heroi", "x": 540, "pose": "caido"}], "efeitos": ["luz_divina"]},
+  {"fala": "O Senhor se voltou e olhou para Pedro. Ele se lembrou de tudo. Saiu dali e chorou amargamente.", "cenario": "cidade", "hora": "amanhecer", "camera": "aproxima", "elementos": [{"tipo": "heroi", "x": 360, "olhar": 1, "pose": "ajoelhado"}, {"tipo": "pessoa", "variante": "jesus", "plano": "fundo", "x": 800, "olhar": -1}]},
+  {"fala": "O Senhor voltou-se e olhou diretamente para Pedro.", "versiculo": true, "texto_tela": "Lucas 22:61", "cenario": "ceu", "camera": "aproxima", "elementos": [{"tipo": "heroi", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "ajoelhado"}]}
+ ],
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "descricao": "Ele jurou que nunca abandonaria Jesus… e antes do galo cantar, negou três vezes. Lucas 22:54-62 em menos de 1 minuto.\n\n\"O Senhor voltou-se e olhou diretamente para Pedro.\" (Lucas 22:61)"
+}

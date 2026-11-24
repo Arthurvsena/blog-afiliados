@@ -1,0 +1,19 @@
+{
+ "slug": "paulo-e-silas-na-prisao",
+ "titulo": "Presos e machucados, eles cantaram à meia-noite… e a prisão tremeu",
+ "referencia": "Atos 16:16-34",
+ "heroi": {"nome": "Paulo", "cores": ["#3a5f9a", "#e0b04a", "#a8483c", "#efe6cf"]},
+ "hashtags": ["paulosilas", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "cenas": [
+  {"fala": "À meia-noite, dois homens presos e machucados começaram a cantar. E a prisão tremeu.", "cenario": "prisao", "hora": "noite", "camera": "aproxima", "elementos": [{"tipo": "heroi", "x": 380, "pose": "orando"}, {"tipo": "pessoa", "variante": "homem", "pano": true, "x": 700, "pose": "orando"}], "efeitos": ["luz_divina"]},
+  {"fala": "Paulo e Silas foram espancados e jogados na prisão, com os pés presos no tronco.", "cenario": "prisao", "hora": "noite", "camera": "afasta", "elementos": [{"tipo": "heroi", "x": 380, "pose": "sentado"}, {"tipo": "pessoa", "variante": "homem", "pano": true, "x": 700, "pose": "sentado"}, {"tipo": "pessoa", "variante": "soldado", "plano": "fundo", "x": 900, "olhar": -1}]},
+  {"fala": "Dava para reclamar. Eles escolheram orar e cantar hinos a Deus, enquanto os outros presos escutavam.", "cenario": "prisao", "hora": "noite", "camera": "aproxima", "elementos": [{"tipo": "heroi", "x": 380, "pose": "orando"}, {"tipo": "pessoa", "variante": "homem", "pano": true, "x": 700, "pose": "orando"}], "efeitos": ["luz_divina"]},
+  {"fala": "De repente, um terremoto sacudiu os alicerces da prisão. E todas as portas se abriram.", "cenario": "prisao", "hora": "noite", "camera": "zoom_forte", "elementos": [{"tipo": "heroi", "x": 380}, {"tipo": "pessoa", "variante": "homem", "pano": true, "x": 700}], "tremor": true, "efeitos": ["raios"]},
+  {"fala": "O carcereiro acordou, viu as portas abertas e achou que todos tinham fugido. Ia se matar.", "cenario": "prisao", "hora": "noite", "camera": "aproxima", "elementos": [{"tipo": "pessoa", "variante": "soldado", "x": 540, "pose": "ajoelhado"}], "tremor": true},
+  {"fala": "Mas Paulo gritou: não faça nenhum mal a si mesmo! Estamos todos aqui!", "cenario": "prisao", "hora": "noite", "camera": "aproxima", "elementos": [{"tipo": "heroi", "x": 330, "olhar": 1, "pose": "apontando"}, {"tipo": "pessoa", "variante": "soldado", "x": 760, "olhar": -1, "pose": "ajoelhado"}]},
+  {"fala": "Tremendo, o carcereiro perguntou: o que devo fazer para ser salvo?", "cenario": "prisao", "hora": "amanhecer", "camera": "zoom_forte", "elementos": [{"tipo": "pessoa", "variante": "soldado", "x": 700, "olhar": -1, "pose": "ajoelhado"}, {"tipo": "heroi", "x": 340, "olhar": 1}], "efeitos": ["luz_divina"]},
+  {"fala": "Creia no Senhor Jesus, e serão salvos, você e os de sua casa.", "versiculo": true, "texto_tela": "Atos 16:31", "cenario": "ceu", "camera": "aproxima", "elementos": [{"tipo": "heroi", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ],
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "descricao": "Presos e machucados, eles cantaram à meia-noite… e a prisão tremeu. Atos 16:16-34 em menos de 1 minuto.\n\n\"Creia no Senhor Jesus, e serão salvos, você e os de sua casa.\" (Atos 16:31)"
+}

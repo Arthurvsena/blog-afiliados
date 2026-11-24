@@ -1,0 +1,19 @@
+{
+ "slug": "saulo-na-estrada-de-damasco",
+ "titulo": "Ele perseguia os cristãos… até uma luz do céu derrubá-lo no chão",
+ "referencia": "Atos 9:1-19",
+ "heroi": {"nome": "Saulo", "cores": ["#5a3d8a", "#d4a23a", "#2f7a6a", "#efe3c8"]},
+ "hashtags": ["saulo", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "cenas": [
+  {"fala": "Uma luz do céu derrubou um perseguidor no chão. E uma voz perguntou: por que você me persegue?", "cenario": "deserto", "hora": "dia", "camera": "aproxima", "elementos": [{"tipo": "heroi", "x": 540, "pose": "caido"}], "efeitos": ["luz_divina"]},
+  {"fala": "Saulo queria prender os seguidores de Jesus. Pegou cartas de autorização e partiu para Damasco.", "cenario": "deserto", "hora": "dia", "camera": "direita", "elementos": [{"tipo": "heroi", "x": 200, "anda_ate": 560, "pose": "andando", "olhar": 1}, {"tipo": "pessoa", "variante": "soldado", "plano": "fundo", "x": 800, "olhar": -1}]},
+  {"fala": "No caminho, perto de Damasco, uma luz brilhou do céu ao redor dele.", "cenario": "deserto", "hora": "dia", "camera": "aproxima", "elementos": [{"tipo": "heroi", "x": 540, "pose": "caido"}], "efeitos": ["luz_divina"], "tremor": true},
+  {"fala": "Ele caiu no chão e ouviu: Saulo, Saulo, por que você me persegue? Quem és, Senhor? Eu sou Jesus.", "cenario": "deserto", "hora": "dia", "camera": "zoom_forte", "elementos": [{"tipo": "heroi", "x": 540, "pose": "caido"}], "efeitos": ["luz_divina"]},
+  {"fala": "Saulo se levantou, abriu os olhos… e não enxergava nada. Foi levado pela mão até a cidade.", "cenario": "cidade", "hora": "por_do_sol", "camera": "aproxima", "elementos": [{"tipo": "heroi", "x": 520, "anda_ate": 620, "pose": "andando", "olhar": 1}, {"tipo": "pessoa", "variante": "soldado", "plano": "fundo", "x": 300, "olhar": 1}]},
+  {"fala": "Ficou três dias cego, sem comer nem beber.", "cenario": "interior", "hora": "noite", "camera": "aproxima", "elementos": [{"tipo": "heroi", "x": 540, "pose": "orando"}], "texto_tela": "3 dias"},
+  {"fala": "Então Ananias, enviado por Deus, pôs as mãos nele. Algo como escamas caiu dos olhos de Saulo, e ele voltou a ver.", "cenario": "interior", "hora": "amanhecer", "camera": "aproxima", "elementos": [{"tipo": "pessoa", "variante": "homem", "barba": true, "x": 380, "olhar": 1}, {"tipo": "heroi", "x": 700, "olhar": -1, "pose": "bracos_erguidos"}], "efeitos": ["luz_divina"]},
+  {"fala": "Saulo, Saulo, por que você me persegue?", "versiculo": true, "texto_tela": "Atos 9:4", "cenario": "ceu", "camera": "aproxima", "elementos": [{"tipo": "heroi", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ],
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "descricao": "Ele perseguia os cristãos… até uma luz do céu derrubá-lo no chão. Atos 9:1-19 em menos de 1 minuto.\n\n\"Saulo, Saulo, por que você me persegue?\" (Atos 9:4)"
+}

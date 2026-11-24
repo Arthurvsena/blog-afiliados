@@ -1,0 +1,19 @@
+{
+ "slug": "a-mulher-que-tocou-no-manto",
+ "titulo": "Doze anos doente, sem esperança… até tocar na borda do manto de Jesus",
+ "referencia": "Marcos 5:25-34",
+ "heroi": {"nome": "A mulher", "cores": ["#2e7d6e", "#c9534b", "#e8c46a", "#f2e8d0"]},
+ "hashtags": ["mulherdomanto", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "cenas": [
+  {"fala": "Doze anos de doença. Todo o dinheiro gasto. E em vez de melhorar, só piorou.", "cenario": "interior", "hora": "noite", "camera": "aproxima", "elementos": [{"tipo": "heroi", "variante": "mulher", "x": 540, "pose": "sentado"}], "texto_tela": "12 anos", "contar": false},
+  {"fala": "Mas ela ouviu falar de Jesus. E pensou: se eu tocar nem que seja nas roupas dele, ficarei curada.", "cenario": "cidade", "hora": "dia", "camera": "afasta", "elementos": [{"tipo": "heroi", "variante": "mulher", "x": 300, "olhar": 1}, {"tipo": "multidao", "plano": "fundo", "x": 760, "n": 6}]},
+  {"fala": "Uma multidão apertava Jesus por todos os lados. Ela precisou se esconder no meio do povo.", "cenario": "cidade", "hora": "dia", "camera": "aproxima", "elementos": [{"tipo": "multidao", "x": 500, "n": 8}, {"tipo": "pessoa", "variante": "jesus", "x": 800, "olhar": -1}], "tremor": true},
+  {"fala": "Chegou por trás, esticou a mão… e tocou no manto dele.", "cenario": "cidade", "hora": "dia", "camera": "zoom_forte", "elementos": [{"tipo": "heroi", "variante": "mulher", "x": 330, "olhar": 1, "pose": "apontando"}, {"tipo": "pessoa", "variante": "jesus", "x": 720, "olhar": -1}]},
+  {"fala": "Na mesma hora, o sangramento parou. Ela sentiu no corpo que estava curada.", "cenario": "cidade", "hora": "amanhecer", "camera": "aproxima", "elementos": [{"tipo": "heroi", "variante": "mulher", "x": 540, "pose": "bracos_erguidos"}], "efeitos": ["luz_divina"]},
+  {"fala": "Jesus parou e perguntou: quem tocou em mim? Ela veio tremendo e contou toda a verdade.", "cenario": "cidade", "hora": "por_do_sol", "camera": "aproxima", "elementos": [{"tipo": "pessoa", "variante": "jesus", "x": 720, "olhar": -1}, {"tipo": "heroi", "variante": "mulher", "x": 330, "olhar": 1, "pose": "ajoelhado", "treme": true}]},
+  {"fala": "Jesus não a repreendeu. Olhou para ela com carinho.", "cenario": "cidade", "hora": "amanhecer", "camera": "zoom_forte", "elementos": [{"tipo": "pessoa", "variante": "jesus", "x": 700, "olhar": -1}, {"tipo": "heroi", "variante": "mulher", "x": 340, "olhar": 1, "pose": "ajoelhado"}], "efeitos": ["luz_divina"]},
+  {"fala": "Filha, a sua fé a curou. Vá em paz.", "versiculo": true, "texto_tela": "Marcos 5:34", "cenario": "ceu", "camera": "aproxima", "elementos": [{"tipo": "heroi", "variante": "mulher", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ],
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "descricao": "Doze anos doente, sem esperança… até tocar na borda do manto de Jesus. Marcos 5:25-34 em menos de 1 minuto.\n\n\"Filha, a sua fé a curou. Vá em paz.\" (Marcos 5:34)"
+}

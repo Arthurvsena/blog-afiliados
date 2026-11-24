@@ -1,0 +1,19 @@
+{
+ "slug": "o-semeador",
+ "titulo": "A mesma semente caiu em quatro lugares… e só em um deu fruto",
+ "referencia": "Mateus 13:1-23",
+ "heroi": {"nome": "O semeador", "cores": ["#8a6a2e", "#3f7a5a", "#c9503c", "#f0e4c0"]},
+ "hashtags": ["semeador", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "cenas": [
+  {"fala": "A mesma semente caiu em quatro lugares diferentes. E só em um deles ela deu fruto.", "cenario": "campo", "hora": "dia", "camera": "aproxima", "elementos": [{"tipo": "heroi", "x": 420, "olhar": 1, "pose": "apontando"}]},
+  {"fala": "Jesus estava num barco, à beira do mar, ensinando a multidão em parábolas.", "cenario": "mar", "hora": "dia", "camera": "afasta", "elementos": [{"tipo": "barco", "x": 340}, {"tipo": "pessoa", "variante": "jesus", "x": 340, "olhar": 1, "plano": "fundo", "escala": 0.8}, {"tipo": "multidao", "plano": "fundo", "x": 820, "n": 7, "olhar": -1}]},
+  {"fala": "Um semeador saiu para semear. Parte das sementes caiu no caminho, e as aves vieram e comeram.", "cenario": "campo", "hora": "dia", "camera": "aproxima", "elementos": [{"tipo": "heroi", "x": 330, "olhar": 1, "pose": "andando"}, {"tipo": "pomba", "x": 760, "altura": 420}]},
+  {"fala": "Outra parte caiu em terreno pedregoso. Brotou depressa, mas sem raiz, o sol a queimou.", "cenario": "deserto", "hora": "dia", "camera": "aproxima", "elementos": [{"tipo": "heroi", "x": 540, "pose": "ajoelhado"}]},
+  {"fala": "Outra caiu no meio dos espinhos, que cresceram e sufocaram a planta.", "cenario": "jardim", "hora": "por_do_sol", "camera": "aproxima", "elementos": [{"tipo": "heroi", "x": 540, "pose": "ajoelhado"}]},
+  {"fala": "Mas outra parte caiu em boa terra. E deu fruto: cem, sessenta, trinta por um.", "cenario": "campo", "hora": "amanhecer", "camera": "sobe", "elementos": [{"tipo": "heroi", "x": 540, "pose": "bracos_erguidos"}], "efeitos": ["luz_divina"], "texto_tela": "100 por 1", "contar": false},
+  {"fala": "Depois Jesus explicou: a semente é a palavra. E o coração de cada pessoa é o tipo de terra.", "cenario": "campo", "hora": "amanhecer", "camera": "aproxima", "elementos": [{"tipo": "pessoa", "variante": "jesus", "x": 380, "olhar": 1}, {"tipo": "multidao", "plano": "fundo", "x": 780, "n": 5, "olhar": -1}], "efeitos": ["luz_divina"]},
+  {"fala": "O que foi semeado em boa terra é aquele que ouve a palavra e a entende.", "versiculo": true, "texto_tela": "Mateus 13:23", "cenario": "ceu", "camera": "aproxima", "elementos": [{"tipo": "heroi", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ],
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "descricao": "A mesma semente caiu em quatro lugares… e só em um deu fruto. Mateus 13:1-23 em menos de 1 minuto.\n\n\"O que foi semeado em boa terra é aquele que ouve a palavra e a entende.\" (Mateus 13:23)"
+}

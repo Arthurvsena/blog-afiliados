@@ -1,0 +1,19 @@
+{
+ "slug": "a-ultima-ceia",
+ "titulo": "Ele sabia que seria traído… e mesmo assim sentou à mesa com todos eles",
+ "referencia": "Mateus 26:17-30",
+ "heroi": {"nome": "Jesus", "cores": ["#f2efe6", "#c9a24d", "#8a2f3a", "#6d8aa8"]},
+ "hashtags": ["ultimaceia", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "cenas": [
+  {"fala": "Jesus sabia que um dos amigos o trairia. E mesmo assim sentou à mesa com todos.", "cenario": "interior", "hora": "noite", "camera": "aproxima", "elementos": [{"tipo": "mesa", "x": 540}, {"tipo": "multidao", "plano": "fundo", "x": 540, "n": 5, "variante": "homem"}, {"tipo": "heroi", "x": 540, "veste": "branca"}]},
+  {"fala": "Era a noite da Páscoa. Os discípulos prepararam a ceia num salão no andar de cima.", "cenario": "interior", "hora": "noite", "camera": "afasta", "elementos": [{"tipo": "mesa", "x": 540}, {"tipo": "multidao", "plano": "fundo", "x": 540, "n": 6, "variante": "homem"}]},
+  {"fala": "Durante a refeição, Jesus disse: um de vocês vai me trair.", "cenario": "interior", "hora": "noite", "camera": "zoom_forte", "elementos": [{"tipo": "mesa", "x": 540}, {"tipo": "heroi", "x": 540, "veste": "branca"}]},
+  {"fala": "Eles ficaram tristes e perguntaram, um por um: Senhor, sou eu?", "cenario": "interior", "hora": "noite", "camera": "aproxima", "elementos": [{"tipo": "multidao", "x": 540, "n": 6, "variante": "homem", "pose": "ajoelhado"}]},
+  {"fala": "Então Jesus pegou o pão, deu graças, partiu e entregou aos discípulos.", "cenario": "interior", "hora": "noite", "camera": "aproxima", "elementos": [{"tipo": "mesa", "x": 540}, {"tipo": "heroi", "x": 540, "veste": "branca", "pose": "bracos_erguidos"}], "efeitos": ["luz_divina"]},
+  {"fala": "Depois pegou o cálice e disse que era o seu sangue, derramado por muitos para o perdão dos pecados.", "cenario": "interior", "hora": "noite", "camera": "zoom_forte", "elementos": [{"tipo": "mesa", "x": 540}, {"tipo": "heroi", "x": 540, "veste": "branca", "pose": "bracos_erguidos"}], "efeitos": ["luz_divina"]},
+  {"fala": "Cantaram um hino e saíram para o monte das Oliveiras.", "cenario": "monte", "hora": "noite", "camera": "afasta", "elementos": [{"tipo": "heroi", "x": 300, "veste": "branca", "anda_ate": 520, "pose": "andando", "olhar": 1}, {"tipo": "multidao", "plano": "fundo", "x": 780, "n": 5, "variante": "homem"}]},
+  {"fala": "Tomem e comam; isto é o meu corpo.", "versiculo": true, "texto_tela": "Mateus 26:26", "cenario": "ceu", "camera": "aproxima", "elementos": [{"tipo": "heroi", "veste": "branca", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ],
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "descricao": "Ele sabia que seria traído… e mesmo assim sentou à mesa com todos eles. Mateus 26:17-30 em menos de 1 minuto.\n\n\"Tomem e comam; isto é o meu corpo.\" (Mateus 26:26)"
+}

@@ -1,0 +1,19 @@
+{
+ "slug": "a-mulher-samaritana",
+ "titulo": "Ela ia buscar água ao meio-dia para não encontrar ninguém… e encontrou Jesus",
+ "referencia": "João 4:1-30",
+ "heroi": {"nome": "A samaritana", "cores": ["#b0483f", "#2f6f8f", "#e0b85a", "#f3e8d0"]},
+ "hashtags": ["samaritana", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "cenas": [
+  {"fala": "Ela foi buscar água ao meio-dia, para não cruzar com ninguém. E ali encontrou Jesus.", "cenario": "deserto", "hora": "dia", "camera": "aproxima", "elementos": [{"tipo": "heroi", "variante": "mulher", "x": 330, "olhar": 1, "pose": "andando"}, {"tipo": "pessoa", "variante": "jesus", "x": 760, "olhar": -1, "pose": "sentado"}]},
+  {"fala": "Jesus estava cansado da viagem e sentou junto ao poço de Jacó, na Samaria.", "cenario": "deserto", "hora": "dia", "camera": "afasta", "elementos": [{"tipo": "pessoa", "variante": "jesus", "x": 620, "pose": "sentado", "olhar": -1}, {"tipo": "palmeira", "x": 220, "plano": "fundo"}]},
+  {"fala": "Judeus e samaritanos não se davam bem. Mesmo assim, Jesus pediu a ela: dá-me de beber.", "cenario": "deserto", "hora": "dia", "camera": "aproxima", "elementos": [{"tipo": "pessoa", "variante": "jesus", "x": 700, "olhar": -1, "pose": "sentado"}, {"tipo": "heroi", "variante": "mulher", "x": 320, "olhar": 1}]},
+  {"fala": "Ela estranhou. Jesus respondeu que tinha uma água viva para oferecer.", "cenario": "deserto", "hora": "dia", "camera": "zoom_forte", "elementos": [{"tipo": "pessoa", "variante": "jesus", "x": 700, "olhar": -1, "pose": "sentado"}, {"tipo": "heroi", "variante": "mulher", "x": 320, "olhar": 1}], "efeitos": ["luz_divina"]},
+  {"fala": "Então falou da vida dela, coisas que não tinha como saber. Ela já tinha tido cinco maridos.", "cenario": "deserto", "hora": "por_do_sol", "camera": "aproxima", "elementos": [{"tipo": "pessoa", "variante": "jesus", "x": 700, "olhar": -1, "pose": "sentado"}, {"tipo": "heroi", "variante": "mulher", "x": 320, "olhar": 1}], "texto_tela": "5 maridos", "contar": false},
+  {"fala": "Ela entendeu que estava diante de alguém especial. E Jesus disse que era o Messias.", "cenario": "deserto", "hora": "amanhecer", "camera": "zoom_forte", "elementos": [{"tipo": "heroi", "variante": "mulher", "x": 340, "olhar": 1, "pose": "bracos_erguidos"}, {"tipo": "pessoa", "variante": "jesus", "x": 720, "olhar": -1}], "efeitos": ["luz_divina"]},
+  {"fala": "Deixou o cântaro ali e correu para a cidade, chamando todos: venham ver um homem que me contou tudo o que fiz!", "cenario": "cidade", "hora": "dia", "camera": "direita", "elementos": [{"tipo": "heroi", "variante": "mulher", "x": 200, "anda_ate": 560, "pose": "andando", "olhar": 1}, {"tipo": "multidao", "plano": "fundo", "x": 820, "n": 6, "olhar": -1}]},
+  {"fala": "Quem beber da água que eu lhe der nunca mais terá sede.", "versiculo": true, "texto_tela": "João 4:14", "cenario": "ceu", "camera": "aproxima", "elementos": [{"tipo": "heroi", "variante": "mulher", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "bracos_erguidos"}]}
+ ],
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "descricao": "Ela ia buscar água ao meio-dia para não encontrar ninguém… e encontrou Jesus. João 4:1-30 em menos de 1 minuto.\n\n\"Quem beber da água que eu lhe der nunca mais terá sede.\" (João 4:14)"
+}

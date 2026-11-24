@@ -1,0 +1,19 @@
+{
+ "slug": "o-ladrao-na-cruz",
+ "titulo": "No último momento de vida, ele pediu uma coisa e ouviu uma promessa",
+ "referencia": "Lucas 23:39-43",
+ "heroi": {"nome": "O ladrão", "cores": ["#7a5a3a", "#c9a24d", "#4f7a8a", "#e9dcc0"]},
+ "hashtags": ["ladraonacruz", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "cenas": [
+  {"fala": "Na última hora de vida, um criminoso pediu uma coisa. E ouviu uma promessa.", "cenario": "monte", "hora": "por_do_sol", "camera": "aproxima", "elementos": [{"tipo": "cruz", "x": 540, "escala": 1.2}], "efeitos": ["luz_divina"]},
+  {"fala": "Jesus foi crucificado no meio de dois criminosos. Um de cada lado.", "cenario": "monte", "hora": "por_do_sol", "camera": "afasta", "elementos": [{"tipo": "cruz", "x": 240, "escala": 0.9}, {"tipo": "cruz", "x": 540, "escala": 1.2}, {"tipo": "cruz", "x": 840, "escala": 0.9}]},
+  {"fala": "Um deles insultava Jesus: se você é o Cristo, salve a si mesmo e a nós!", "cenario": "monte", "hora": "por_do_sol", "camera": "aproxima", "elementos": [{"tipo": "cruz", "x": 300, "escala": 1.1}, {"tipo": "cruz", "x": 780, "escala": 1.1, "plano": "fundo"}]},
+  {"fala": "Mas o outro o repreendeu: você nem teme a Deus? Nós merecemos o castigo. Este homem não fez nada de mal.", "cenario": "monte", "hora": "por_do_sol", "camera": "zoom_forte", "elementos": [{"tipo": "heroi", "x": 540, "pose": "sentado"}]},
+  {"fala": "E então ele pediu: Jesus, lembra-te de mim quando vieres no teu reino.", "cenario": "monte", "hora": "noite", "camera": "zoom_forte", "elementos": [{"tipo": "heroi", "x": 540, "pose": "orando"}], "tempestade": true},
+  {"fala": "Era só uma frase. Sem tempo para mudar de vida. Só fé.", "cenario": "monte", "hora": "noite", "camera": "aproxima", "elementos": [{"tipo": "cruz", "x": 540, "escala": 1.2}], "efeitos": ["luz_divina"]},
+  {"fala": "E Jesus respondeu, mesmo sofrendo na cruz.", "cenario": "monte", "hora": "noite", "camera": "aproxima", "elementos": [{"tipo": "cruz", "x": 540, "escala": 1.2}, {"tipo": "heroi", "x": 240, "plano": "fundo", "pose": "orando"}], "efeitos": ["luz_divina"]},
+  {"fala": "Eu lhe garanto: hoje você estará comigo no paraíso.", "versiculo": true, "texto_tela": "Lucas 23:43", "cenario": "ceu", "camera": "aproxima", "elementos": [{"tipo": "heroi", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "orando"}]}
+ ],
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "descricao": "No último momento de vida, ele pediu uma coisa e ouviu uma promessa. Lucas 23:39-43 em menos de 1 minuto.\n\n\"Eu lhe garanto: hoje você estará comigo no paraíso.\" (Lucas 23:43)"
+}

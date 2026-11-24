@@ -1,0 +1,19 @@
+{
+ "slug": "tome-e-as-marcas-dos-cravos",
+ "titulo": "Ele só acreditaria se visse com os próprios olhos… e Jesus voltou por causa dele",
+ "referencia": "João 20:24-29",
+ "heroi": {"nome": "Tomé", "cores": ["#8a5a2e", "#3f7f8c", "#d9b45a", "#f0e6cc"]},
+ "hashtags": ["tome", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "cenas": [
+  {"fala": "Se eu não vir e não tocar, não acredito. Foi isso que Tomé disse.", "cenario": "interior", "hora": "noite", "camera": "aproxima", "elementos": [{"tipo": "heroi", "x": 540, "olhar": 1, "pose": "apontando"}]},
+  {"fala": "Jesus tinha ressuscitado e aparecido aos discípulos. Mas Tomé não estava lá naquele dia.", "cenario": "interior", "hora": "noite", "camera": "afasta", "elementos": [{"tipo": "multidao", "x": 700, "n": 5, "variante": "homem", "pose": "bracos_erguidos"}, {"tipo": "pessoa", "variante": "jesus", "plano": "fundo", "x": 700, "escala": 0.8}]},
+  {"fala": "Os outros contaram: nós vimos o Senhor! Mas Tomé não se convenceu.", "cenario": "interior", "hora": "noite", "camera": "aproxima", "elementos": [{"tipo": "multidao", "x": 250, "n": 4, "variante": "homem", "olhar": 1}, {"tipo": "heroi", "x": 760, "olhar": -1}]},
+  {"fala": "Ele disse que só creria se visse as marcas dos pregos e pusesse a mão no lado de Jesus.", "cenario": "interior", "hora": "noite", "camera": "zoom_forte", "elementos": [{"tipo": "heroi", "x": 540, "pose": "apontando", "olhar": 1}]},
+  {"fala": "Oito dias depois, estavam todos juntos, de portas trancadas. De repente, Jesus apareceu no meio deles.", "cenario": "interior", "hora": "amanhecer", "camera": "aproxima", "elementos": [{"tipo": "pessoa", "variante": "jesus", "x": 540, "entra": "fade"}, {"tipo": "multidao", "plano": "fundo", "x": 540, "n": 6, "variante": "homem"}], "efeitos": ["luz_divina"], "texto_tela": "8 dias", "contar": false},
+  {"fala": "E chamou Tomé: ponha o seu dedo aqui, veja as minhas mãos. Não seja incrédulo, mas crente.", "cenario": "interior", "hora": "amanhecer", "camera": "zoom_forte", "elementos": [{"tipo": "pessoa", "variante": "jesus", "x": 700, "olhar": -1, "pose": "bracos_erguidos"}, {"tipo": "heroi", "x": 340, "olhar": 1}], "efeitos": ["luz_divina"]},
+  {"fala": "Tomé caiu de joelhos e disse: meu Senhor e meu Deus!", "cenario": "interior", "hora": "amanhecer", "camera": "aproxima", "elementos": [{"tipo": "heroi", "x": 540, "pose": "ajoelhado"}, {"tipo": "pessoa", "variante": "jesus", "plano": "fundo", "x": 820, "olhar": -1}], "efeitos": ["luz_divina"]},
+  {"fala": "Porque me viste, creste? Bem-aventurados os que não viram e creram.", "versiculo": true, "texto_tela": "João 20:29", "cenario": "ceu", "camera": "aproxima", "elementos": [{"tipo": "heroi", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "ajoelhado"}]}
+ ],
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "descricao": "Ele só acreditaria se visse com os próprios olhos… e Jesus voltou por causa dele. João 20:24-29 em menos de 1 minuto.\n\n\"Porque me viste, creste? Bem-aventurados os que não viram e creram.\" (João 20:29)"
+}

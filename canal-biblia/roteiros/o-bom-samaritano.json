@@ -1,0 +1,19 @@
+{
+ "slug": "o-bom-samaritano",
+ "titulo": "Dois passaram direto pelo homem ferido… quem parou era o que ninguém esperava",
+ "referencia": "Lucas 10:25-37",
+ "heroi": {"nome": "Samaritano", "cores": ["#3c7a6b", "#d9a441", "#8a3b52", "#efe3c4"]},
+ "hashtags": ["bomsamaritano", "historiasdabiblia", "biblia", "fe", "shorts"],
+ "cenas": [
+  {"fala": "Um homem foi assaltado e largado na estrada, quase morto. E quem passou por ele não ajudou.", "cenario": "deserto", "hora": "dia", "camera": "aproxima", "elementos": [{"tipo": "pessoa", "variante": "homem", "x": 620, "pose": "caido"}, {"tipo": "pessoa", "variante": "sacerdote", "x": 220, "anda_ate": 380, "olhar": 1, "pose": "andando"}]},
+  {"fala": "Primeiro passou um sacerdote. Viu o homem… e foi para o outro lado.", "cenario": "deserto", "hora": "dia", "camera": "direita", "elementos": [{"tipo": "pessoa", "variante": "homem", "x": 700, "pose": "caido"}, {"tipo": "pessoa", "variante": "sacerdote", "x": 150, "anda_ate": 420, "olhar": 1, "pose": "andando"}]},
+  {"fala": "Depois passou um levita. Também viu… e também seguiu em frente.", "cenario": "deserto", "hora": "por_do_sol", "camera": "direita", "elementos": [{"tipo": "pessoa", "variante": "homem", "x": 700, "pose": "caido"}, {"tipo": "pessoa", "variante": "homem", "pano": true, "x": 150, "anda_ate": 420, "olhar": 1, "pose": "andando"}]},
+  {"fala": "Então chegou um samaritano, de um povo que os judeus desprezavam. E ele teve compaixão.", "cenario": "deserto", "hora": "por_do_sol", "camera": "aproxima", "elementos": [{"tipo": "pessoa", "variante": "homem", "x": 700, "pose": "caido"}, {"tipo": "heroi", "x": 330, "olhar": 1, "pose": "ajoelhado", "entra": "esquerda"}], "efeitos": ["luz_divina"]},
+  {"fala": "Cuidou das feridas, colocou o homem no seu próprio animal e o levou até uma hospedaria.", "cenario": "campo", "hora": "por_do_sol", "camera": "direita", "elementos": [{"tipo": "camelo", "x": 600, "olhar": 1}, {"tipo": "heroi", "x": 300, "anda_ate": 420, "olhar": 1, "pose": "andando"}]},
+  {"fala": "Deu dois denários ao dono e disse: cuide dele. O que gastar a mais, eu pago na volta.", "cenario": "interior", "hora": "noite", "camera": "aproxima", "elementos": [{"tipo": "heroi", "x": 380, "olhar": 1}, {"tipo": "pessoa", "variante": "homem", "x": 720, "olhar": -1}], "texto_tela": "2 denários"},
+  {"fala": "Jesus perguntou: qual dos três foi o próximo daquele homem? Aquele que teve misericórdia.", "cenario": "cidade", "hora": "dia", "camera": "afasta", "elementos": [{"tipo": "pessoa", "variante": "jesus", "x": 360, "olhar": 1}, {"tipo": "multidao", "plano": "fundo", "x": 760, "n": 6}]},
+  {"fala": "Vá e faça o mesmo.", "versiculo": true, "texto_tela": "Lucas 10:37", "cenario": "ceu", "camera": "aproxima", "elementos": [{"tipo": "heroi", "plano": "fundo", "x": 540, "dy": 260, "escala": 1.4, "pose": "apontando"}]}
+ ],
+ "estilo_voz": "contador de histórias bíblicas brasileiro, sotaque do Brasil, voz grave, calorosa e emocionante, ritmo de Shorts (cerca de 150 palavras por minuto), com pausas dramáticas nas viradas da história",
+ "descricao": "Dois passaram direto pelo homem ferido… quem parou era o que ninguém esperava. Lucas 10:25-37 em menos de 1 minuto.\n\n\"Vá e faça o mesmo.\" (Lucas 10:37)"
+}
