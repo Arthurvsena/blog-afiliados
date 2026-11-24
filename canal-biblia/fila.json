@@ -171,11 +171,17 @@
   },
   {
    "slug": "os-dez-mandamentos",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-24",
+   "release": "biblia-2026-11-24",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "o-bezerro-de-ouro",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-24",
+   "release": "biblia-2026-11-24",
+   "voz": "gemini:Orus"
   }
  ],
  "ideias": [
