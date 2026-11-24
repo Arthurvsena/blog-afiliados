@@ -1,6 +1,6 @@
 {
  "fones-caixas-bluetooth": {
-  "atualizado": "2026-11-16",
+  "atualizado": "2026-11-24",
   "termos": [
    {
     "termo": "fone bluetooth jbl",
@@ -168,17 +168,6 @@
     "coberto_por": null
    },
    {
-    "termo": "fone bluetooth apple",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 2.44,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "fone bluetooth ouvido jbl",
     "fontes": [
      "google",
@@ -273,6 +262,17 @@
      "mercadolivre"
     ],
     "forca": 2.22,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "fone bluetooth apple",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 2.19,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -443,6 +443,17 @@
     "coberto_por": null
    },
    {
+    "termo": "fone bluetooth osseo",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.94,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "fone bluetooth pequeno",
     "fontes": [
      "google",
@@ -466,17 +477,6 @@
    },
    {
     "termo": "fone bluetooth m10",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.92,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "fone bluetooth sony",
     "fontes": [
      "google",
      "mercadolivre"
@@ -520,17 +520,6 @@
     "coberto_por": null
    },
    {
-    "termo": "fone bluetooth osseo",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.86,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "fone bluetooth grande",
     "fontes": [
      "google",
@@ -564,6 +553,17 @@
     "coberto_por": null
    },
    {
+    "termo": "fone bluetooth branco",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.77,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "fone tws air 31",
     "fontes": [
      "google",
@@ -576,6 +576,17 @@
    },
    {
     "termo": "fone bluetooth infantil",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.75,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "fone bluetooth sony",
     "fontes": [
      "google",
      "mercadolivre"
@@ -641,12 +652,23 @@
     "coberto_por": null
    },
    {
-    "termo": "fone bluetooth branco",
+    "termo": "fone bluetooth corrida",
     "fontes": [
      "google",
      "mercadolivre"
     ],
-    "forca": 1.69,
+    "forca": 1.67,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "fone bluetooth capacete",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.61,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -696,17 +718,6 @@
     "coberto_por": null
    },
    {
-    "termo": "fone bluetooth soundcore",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.56,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "fone bluetooth anti ruido",
     "fontes": [
      "google",
@@ -718,34 +729,12 @@
     "coberto_por": null
    },
    {
-    "termo": "fone bluetooth corrida",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.5,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "fone tws edifier x2 plus",
     "fontes": [
      "google",
      "mercadolivre"
     ],
     "forca": 1.5,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "fone bluetooth capacete",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.44,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -773,6 +762,17 @@
     "coberto_por": null
    },
    {
+    "termo": "fone bluetooth orelha",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.37,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "fone bluetooth i12",
     "fontes": [
      "google",
@@ -784,18 +784,18 @@
     "coberto_por": null
    },
    {
-    "termo": "fone bluetooth discreto",
+    "termo": "fone bluetooth soundcore",
     "fontes": [
      "google",
      "mercadolivre"
     ],
-    "forca": 1.28,
+    "forca": 1.31,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
    },
    {
-    "termo": "fone bluetooth orelha",
+    "termo": "fone bluetooth discreto",
     "fontes": [
      "google",
      "mercadolivre"
@@ -872,7 +872,29 @@
     "coberto_por": null
    },
    {
+    "termo": "fone bluetooth m25",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.07,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "fone bluetooth philco",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.07,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "fone bluetooth realme",
     "fontes": [
      "google",
      "mercadolivre"
@@ -916,17 +938,6 @@
     "coberto_por": null
    },
    {
-    "termo": "fone bluetooth realme",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 0.98,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "fone bluetooth harry potter",
     "fontes": [
      "google",
@@ -938,12 +949,34 @@
     "coberto_por": null
    },
    {
-    "termo": "fone bluetooth m25",
+    "termo": "fone bluetooth multiponto",
     "fontes": [
      "google",
      "mercadolivre"
     ],
-    "forca": 0.9,
+    "forca": 0.91,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "fone bluetooth ok gold",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 0.79,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "fone bluetooth redragon",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 0.79,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -954,18 +987,7 @@
      "google",
      "mercadolivre"
     ],
-    "forca": 0.85,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "fone bluetooth multiponto",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 0.82,
+    "forca": 0.77,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -988,16 +1010,6 @@
      "mercadolivre"
     ],
     "forca": 0.68,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "caixa de som bluetooth boombox 4 jbl",
-    "fontes": [
-     "google"
-    ],
-    "forca": 2.92,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -1027,7 +1039,7 @@
     "fontes": [
      "google"
     ],
-    "forca": 2.5,
+    "forca": 2.42,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": "melhores-caixas-de-som-bluetooth-jbl-soundcore"
@@ -1053,16 +1065,6 @@
     "coberto_por": null
    },
    {
-    "termo": "caixa de som bluetooth",
-    "fontes": [
-     "google"
-    ],
-    "forca": 2.33,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "fone tws é bom",
     "fontes": [
      "google"
@@ -1078,6 +1080,16 @@
      "mercadolivre"
     ],
     "forca": 2.28,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "caixa de som bluetooth boombox 4 jbl",
+    "fontes": [
+     "google"
+    ],
+    "forca": 2.17,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -1111,6 +1123,16 @@
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
+   },
+   {
+    "termo": "caixa de som bluetooth jbl boombox 4",
+    "fontes": [
+     "google"
+    ],
+    "forca": 2.0,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "melhores-caixas-de-som-bluetooth-jbl-soundcore"
    },
    {
     "termo": "caixa de som bluetooth com microfone",
@@ -1163,6 +1185,16 @@
     "coberto_por": null
    },
    {
+    "termo": "fone bluetooth com fio",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.83,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "fone de ouvido sem fio samsung",
     "fontes": [
      "google"
@@ -1173,23 +1205,23 @@
     "coberto_por": null
    },
    {
-    "termo": "fone de ouvido sem fio com cancelamento de ruido",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.83,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "fone de ouvido sem fio como usar",
+    "termo": "fone de ouvido sem fio como conectar",
     "fontes": [
      "google"
     ],
     "forca": 1.83,
     "intencao": "duvida",
     "tipo_post": "guia",
+    "coberto_por": null
+   },
+   {
+    "termo": "caixa de som bluetooth pequena",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.83,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
     "coberto_por": null
    },
    {
@@ -1200,25 +1232,15 @@
     "forca": 1.83,
     "intencao": "duvida",
     "tipo_post": "guia",
-    "coberto_por": null
+    "coberto_por": "fone-tws-como-usar-ligar-parear"
    },
    {
-    "termo": "fone bluetooth ou com fio",
+    "termo": "fone bluetooth custo beneficio",
     "fontes": [
      "google"
     ],
     "forca": 1.75,
-    "intencao": "comparacao",
-    "tipo_post": "comparativo",
-    "coberto_por": "fone-bluetooth-ou-com-fio"
-   },
-   {
-    "termo": "fone bluetooth com fio",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.75,
-    "intencao": "navegacao",
+    "intencao": "compra",
     "tipo_post": "lista",
     "coberto_por": null
    },
@@ -1233,16 +1255,6 @@
     "coberto_por": null
    },
    {
-    "termo": "fone de ouvido sem fio custo beneficio",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.75,
-    "intencao": "compra",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "fone de ouvido sem fio para pc",
     "fontes": [
      "google"
@@ -1253,7 +1265,7 @@
     "coberto_por": null
    },
    {
-    "termo": "caixa de som bluetooth pequena",
+    "termo": "caixa de som bluetooth grande",
     "fontes": [
      "google"
     ],
@@ -1270,16 +1282,6 @@
     "forca": 1.75,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "fone tws ou ows",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.75,
-    "intencao": "comparacao",
-    "tipo_post": "comparativo",
     "coberto_por": null
    },
    {
@@ -1323,6 +1325,16 @@
     "coberto_por": null
    },
    {
+    "termo": "fone bluetooth com microfone",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.67,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "fone de ouvido sem fio iphone",
     "fontes": [
      "google"
@@ -1343,6 +1355,16 @@
     "coberto_por": null
    },
    {
+    "termo": "fone de ouvido sem fio com cancelamento de ruido",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.67,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "fone de ouvido sem fio original apple",
     "fontes": [
      "google"
@@ -1353,12 +1375,12 @@
     "coberto_por": null
    },
    {
-    "termo": "caixa de som bluetooth grande",
+    "termo": "melhores caixa de som bluetooth custo beneficio",
     "fontes": [
      "google"
     ],
     "forca": 1.67,
-    "intencao": "navegacao",
+    "intencao": "compra",
     "tipo_post": "lista",
     "coberto_por": null
    },
@@ -1403,6 +1425,16 @@
     "coberto_por": null
    },
    {
+    "termo": "fone tws ou ows",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.67,
+    "intencao": "comparacao",
+    "tipo_post": "comparativo",
+    "coberto_por": null
+   },
+   {
     "termo": "fone tws um lado mais baixo que o outro",
     "fontes": [
      "google"
@@ -1433,7 +1465,17 @@
     "coberto_por": null
    },
    {
-    "termo": "fone bluetooth custo beneficio",
+    "termo": "fone bluetooth original samsung",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.58,
+    "intencao": "compra",
+    "tipo_post": "review",
+    "coberto_por": null
+   },
+   {
+    "termo": "fone de ouvido sem fio melhor custo beneficio",
     "fontes": [
      "google"
     ],
@@ -1443,7 +1485,7 @@
     "coberto_por": null
    },
    {
-    "termo": "fone bluetooth com microfone",
+    "termo": "fone de ouvido sem fio para iphone",
     "fontes": [
      "google"
     ],
@@ -1453,17 +1495,7 @@
     "coberto_por": null
    },
    {
-    "termo": "caixa de som bluetooth custo beneficio",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.58,
-    "intencao": "compra",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "caixa de som bluetooth com microfone sem fio",
+    "termo": "caixa de som bluetooth pequena e potente",
     "fontes": [
      "google"
     ],
@@ -1493,16 +1525,6 @@
     "coberto_por": null
    },
    {
-    "termo": "fone bluetooth original samsung",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.5,
-    "intencao": "compra",
-    "tipo_post": "review",
-    "coberto_por": null
-   },
-   {
     "termo": "fone de ouvido sem fio philips",
     "fontes": [
      "google"
@@ -1513,7 +1535,7 @@
     "coberto_por": null
    },
    {
-    "termo": "fone de ouvido sem fio melhor custo beneficio",
+    "termo": "fone de ouvido sem fio custo beneficio",
     "fontes": [
      "google"
     ],
@@ -1523,27 +1545,17 @@
     "coberto_por": null
    },
    {
-    "termo": "fone de ouvido sem fio para iphone",
+    "termo": "caixa de som bluetooth custo beneficio",
     "fontes": [
      "google"
     ],
     "forca": 1.5,
-    "intencao": "navegacao",
+    "intencao": "compra",
     "tipo_post": "lista",
     "coberto_por": null
    },
    {
-    "termo": "fone de ouvido sem fio com gancho",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.5,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "caixa de som bluetooth pequena e potente",
+    "termo": "caixa de som bluetooth com microfone sem fio",
     "fontes": [
      "google"
     ],
@@ -1581,21 +1593,11 @@
     "intencao": "compra",
     "tipo_post": "lista",
     "coberto_por": null
-   },
-   {
-    "termo": "fone ouvido tws sem fio",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.5,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
    }
   ]
  },
  "power-banks-carregadores": {
-  "atualizado": "2026-11-16",
+  "atualizado": "2026-11-24",
   "termos": [
    {
     "termo": "cabo usb c lightning",
@@ -1628,7 +1630,7 @@
     "forca": 4.22,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "carregador-usb-c-apple-qual-comprar"
    },
    {
     "termo": "carregador turbo samsung",
@@ -1639,7 +1641,7 @@
     "forca": 4.19,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "carregador-turbo-samsung-qual-comprar"
    },
    {
     "termo": "carregador turbo tipo c",
@@ -1675,23 +1677,12 @@
     "coberto_por": null
    },
    {
-    "termo": "power bank solar",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 3.87,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "power bank iphone",
     "fontes": [
      "google",
      "mercadolivre"
     ],
-    "forca": 3.78,
+    "forca": 3.75,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": "melhores-power-banks-iphone"
@@ -1763,6 +1754,17 @@
     "coberto_por": null
    },
    {
+    "termo": "power bank samsung",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 3.46,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "cabo usb c hdmi",
     "fontes": [
      "google",
@@ -1785,23 +1787,12 @@
     "coberto_por": null
    },
    {
-    "termo": "power bank samsung",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 3.21,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "power bank baseus",
     "fontes": [
      "google",
      "mercadolivre"
     ],
-    "forca": 3.17,
+    "forca": 3.26,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -1827,6 +1818,17 @@
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
+   },
+   {
+    "termo": "power bank solar",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 2.87,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "power-bank-solar-vale-a-pena"
    },
    {
     "termo": "carregador turbo carro",
@@ -1879,6 +1881,17 @@
      "mercadolivre"
     ],
     "forca": 2.62,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "power bank anker",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 2.55,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -1939,17 +1952,6 @@
     "coberto_por": null
    },
    {
-    "termo": "power bank anker",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 2.3,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "power bank energia solar",
     "fontes": [
      "google",
@@ -1983,7 +1985,7 @@
     "coberto_por": null
    },
    {
-    "termo": "power bank magsafe",
+    "termo": "power bank luz solar",
     "fontes": [
      "google",
      "mercadolivre"
@@ -2247,17 +2249,6 @@
     "coberto_por": null
    },
    {
-    "termo": "power bank carregamento solar",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 2.19,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "power bank fino",
     "fontes": [
      "google",
@@ -2269,7 +2260,7 @@
     "coberto_por": null
    },
    {
-    "termo": "power bank luz solar",
+    "termo": "power bank magnetico",
     "fontes": [
      "google",
      "mercadolivre"
@@ -2319,6 +2310,17 @@
      "mercadolivre"
     ],
     "forca": 2.19,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "carregador turbo c",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 2.13,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -2390,17 +2392,6 @@
     "coberto_por": null
    },
    {
-    "termo": "power bank magnetico",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 2.11,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "power bank ugreen 20000mah",
     "fontes": [
      "google",
@@ -2410,17 +2401,6 @@
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": "review-power-bank-ugreen-pb311-10000"
-   },
-   {
-    "termo": "carregador turbo automotivo",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 2.11,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
    },
    {
     "termo": "carregador turbo v8",
@@ -2478,17 +2458,6 @@
     "coberto_por": null
    },
    {
-    "termo": "carregador turbo c",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 2.05,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "carregador turbo retratil",
     "fontes": [
      "google",
@@ -2520,6 +2489,17 @@
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": "carregador-turbo-iphone-usb-c-pd-qual-escolher"
+   },
+   {
+    "termo": "carregador turbo automotivo",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 2.02,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
    },
    {
     "termo": "carregador turbo usb",
@@ -2566,7 +2546,40 @@
     "coberto_por": null
    },
    {
+    "termo": "power bank 20000mah",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 2.0,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "melhores-power-banks-20000mah"
+   },
+   {
+    "termo": "power bank mini",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 2.0,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "carregador turbo ugreen",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 2.0,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "cabo usb c reforçado",
     "fontes": [
      "google",
      "mercadolivre"
@@ -2665,39 +2678,6 @@
     "coberto_por": null
    },
    {
-    "termo": "carregador usb c branco",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.94,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "power bank 20000mah",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.92,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "melhores-power-banks-20000mah"
-   },
-   {
-    "termo": "power bank mini",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.92,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "power bank residencial",
     "fontes": [
      "google",
@@ -2753,12 +2733,12 @@
     "coberto_por": null
    },
    {
-    "termo": "cabo usb c reforçado",
+    "termo": "power bank carregamento rapido",
     "fontes": [
      "google",
      "mercadolivre"
     ],
-    "forca": 1.89,
+    "forca": 1.87,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -2816,10 +2796,10 @@
     "forca": 1.86,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "carregador-turbo-samsung-qual-comprar"
    },
    {
-    "termo": "carregador usb c iphone 15",
+    "termo": "carregador usb c branco",
     "fontes": [
      "google",
      "mercadolivre"
@@ -2830,7 +2810,7 @@
     "coberto_por": null
    },
    {
-    "termo": "carregador usb c notebook hp",
+    "termo": "carregador usb c iphone 15",
     "fontes": [
      "google",
      "mercadolivre"
@@ -2874,12 +2854,12 @@
     "coberto_por": null
    },
    {
-    "termo": "power bank samsung 20000mah",
+    "termo": "power bank fancy",
     "fontes": [
      "google",
      "mercadolivre"
     ],
-    "forca": 1.84,
+    "forca": 1.83,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -2904,7 +2884,7 @@
     "forca": 1.83,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "carregador-turbo-samsung-qual-comprar"
    },
    {
     "termo": "cabo usb c thunderbolt 4",
@@ -2951,12 +2931,12 @@
     "coberto_por": null
    },
    {
-    "termo": "power bank carregamento rapido",
+    "termo": "power bank pequeno",
     "fontes": [
      "google",
      "mercadolivre"
     ],
-    "forca": 1.78,
+    "forca": 1.8,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -2984,6 +2964,17 @@
     "coberto_por": null
    },
    {
+    "termo": "power bank carregamento solar",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.77,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "carregador turbo tipo c samsung",
     "fontes": [
      "google",
@@ -3003,10 +2994,21 @@
     "forca": 1.77,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "carregador-usb-c-apple-qual-comprar"
    },
    {
     "termo": "carregador usb c gan 65w",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.77,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "carregador usb c notebook hp",
     "fontes": [
      "google",
      "mercadolivre"
@@ -3083,6 +3085,17 @@
     "coberto_por": "cabo-usb-c-lightning-qual-comprar-iphone"
    },
    {
+    "termo": "power bank ccc",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.73,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "power bank grande",
     "fontes": [
      "google",
@@ -3095,6 +3108,17 @@
    },
    {
     "termo": "power bank tomada",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.73,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "power bank ultra fino",
     "fontes": [
      "google",
      "mercadolivre"
@@ -3138,34 +3162,23 @@
     "coberto_por": null
    },
    {
-    "termo": "power bank lanterna",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.72,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "power bank pequeno",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.72,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "carregador turbo portatil",
     "fontes": [
      "google",
      "mercadolivre"
     ],
     "forca": 1.72,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "power bank forte",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.7,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -3182,28 +3195,6 @@
     "coberto_por": null
    },
    {
-    "termo": "power bank veicular",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.69,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "power bank fancy",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.67,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "power bank indução iphone",
     "fontes": [
      "google",
@@ -3215,12 +3206,12 @@
     "coberto_por": null
    },
    {
-    "termo": "power bank ccc",
+    "termo": "power bank starlink",
     "fontes": [
      "google",
      "mercadolivre"
     ],
-    "forca": 1.64,
+    "forca": 1.67,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -3237,7 +3228,18 @@
     "coberto_por": null
    },
    {
-    "termo": "power bank vinko",
+    "termo": "power bank starlink mini",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.64,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "carregador usb c tomada",
     "fontes": [
      "google",
      "mercadolivre"
@@ -3250,7 +3252,7 @@
   ]
  },
  "smartwatches-smartbands": {
-  "atualizado": "2026-11-16",
+  "atualizado": "2026-11-24",
   "termos": [
    {
     "termo": "smartband samsung",
@@ -3280,7 +3282,7 @@
      "google",
      "mercadolivre"
     ],
-    "forca": 3.42,
+    "forca": 3.33,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": "melhores-smartbands-custo-beneficio"
@@ -3429,23 +3431,23 @@
     "coberto_por": null
    },
    {
+    "termo": "smartband gps",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 2.05,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "melhores-smartbands-custo-beneficio"
+   },
+   {
     "termo": "smartband mi band 10",
     "fontes": [
      "google",
      "mercadolivre"
     ],
     "forca": 2.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "melhores-smartbands-custo-beneficio"
-   },
-   {
-    "termo": "smartband gps",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.97,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": "melhores-smartbands-custo-beneficio"
@@ -3495,6 +3497,17 @@
     "coberto_por": null
    },
    {
+    "termo": "mi band 9",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.83,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "mi band pulseira",
     "fontes": [
      "google",
@@ -3534,17 +3547,6 @@
      "mercadolivre"
     ],
     "forca": 1.77,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "mi band 9",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.75,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -3605,23 +3607,23 @@
     "coberto_por": null
    },
    {
-    "termo": "mi band 10 pro",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.4,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "mi band 8",
     "fontes": [
      "google",
      "mercadolivre"
     ],
     "forca": 1.34,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "mi band 10 pro",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.32,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -3636,6 +3638,17 @@
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
+   },
+   {
+    "termo": "smartband multi b2",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 0.98,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "melhores-smartbands-custo-beneficio"
    },
    {
     "termo": "smartband huawei 10",
@@ -3752,6 +3765,16 @@
     "coberto_por": "melhores-smartwatches-baratos"
    },
    {
+    "termo": "smartband com gps",
+    "fontes": [
+     "google"
+    ],
+    "forca": 2.42,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "melhores-smartbands-custo-beneficio"
+   },
+   {
     "termo": "smartwatch barato com nfc para pagamento",
     "fontes": [
      "google"
@@ -3762,17 +3785,17 @@
     "coberto_por": "melhores-smartwatches-baratos"
    },
    {
-    "termo": "smartwatch barato vale a pena",
+    "termo": "smartwatch barato para atividade fisica",
     "fontes": [
      "google"
     ],
-    "forca": 2.25,
+    "forca": 2.33,
     "intencao": "compra",
     "tipo_post": "lista",
     "coberto_por": "melhores-smartwatches-baratos"
    },
    {
-    "termo": "smartwatch barato para atividade fisica",
+    "termo": "smartwatch barato vale a pena",
     "fontes": [
      "google"
     ],
@@ -3833,16 +3856,6 @@
    },
    {
     "termo": "smartband para iphone",
-    "fontes": [
-     "google"
-    ],
-    "forca": 2.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "melhores-smartbands-custo-beneficio"
-   },
-   {
-    "termo": "smartband com gps",
     "fontes": [
      "google"
     ],
@@ -3930,6 +3943,16 @@
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": "melhores-smartbands-custo-beneficio"
+   },
+   {
+    "termo": "qual smartwatch barato tem nfc",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.83,
+    "intencao": "compra",
+    "tipo_post": "lista",
+    "coberto_por": "melhores-smartwatches-baratos"
    },
    {
     "termo": "smartwatch barato para natação",
@@ -4040,16 +4063,6 @@
     "intencao": "compra",
     "tipo_post": "review",
     "coberto_por": null
-   },
-   {
-    "termo": "qual smartwatch barato tem nfc",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.75,
-    "intencao": "compra",
-    "tipo_post": "lista",
-    "coberto_por": "melhores-smartwatches-baratos"
    },
    {
     "termo": "smartwatch barato para academia",
@@ -4182,16 +4195,6 @@
     "coberto_por": "melhores-smartwatches-baratos"
    },
    {
-    "termo": "smartwatch barato com gps para corrida",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.58,
-    "intencao": "compra",
-    "tipo_post": "lista",
-    "coberto_por": "melhores-smartwatches-baratos"
-   },
-   {
     "termo": "smartwatch bom e barato original",
     "fontes": [
      "google"
@@ -4240,6 +4243,16 @@
     "intencao": "comparacao",
     "tipo_post": "comparativo",
     "coberto_por": "mi-band-ou-smartwatch-qual-escolher"
+   },
+   {
+    "termo": "smartwatch barato mas bom",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.5,
+    "intencao": "compra",
+    "tipo_post": "lista",
+    "coberto_por": "melhores-smartwatches-baratos"
    },
    {
     "termo": "smartband bom e barato",
@@ -4292,6 +4305,16 @@
     "coberto_por": null
    },
    {
+    "termo": "smartwatch apple original barato",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.42,
+    "intencao": "compra",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "smartband compatível com iphone",
     "fontes": [
      "google"
@@ -4318,6 +4341,16 @@
     ],
     "forca": 1.42,
     "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "relógio inteligente bom e barato",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.42,
+    "intencao": "compra",
     "tipo_post": "lista",
     "coberto_por": null
    },
@@ -4362,33 +4395,23 @@
     "coberto_por": "melhores-smartwatches-baratos"
    },
    {
-    "termo": "smartwatch mais barato da samsung",
+    "termo": "smartwatch barato com strava",
     "fontes": [
      "google"
     ],
     "forca": 1.33,
     "intencao": "compra",
     "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "melhores-smartwatches-baratos"
    },
    {
-    "termo": "relógio inteligente infantil",
+    "termo": "relógio inteligente apple",
     "fontes": [
      "google"
     ],
     "forca": 1.33,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "relogio inteligente vale a pena",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.33,
-    "intencao": "compra",
-    "tipo_post": "review",
     "coberto_por": null
    },
    {
@@ -4572,7 +4595,7 @@
     "coberto_por": null
    },
    {
-    "termo": "smartwatch barato com strava",
+    "termo": "smartwatch barato com gps para corrida",
     "fontes": [
      "google"
     ],
@@ -4580,6 +4603,16 @@
     "intencao": "compra",
     "tipo_post": "lista",
     "coberto_por": "melhores-smartwatches-baratos"
+   },
+   {
+    "termo": "smartwatch mais barato da samsung",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.25,
+    "intencao": "compra",
+    "tipo_post": "lista",
+    "coberto_por": null
    },
    {
     "termo": "smartband com gps e nfc",
@@ -4592,13 +4625,23 @@
     "coberto_por": "melhores-smartbands-custo-beneficio"
    },
    {
-    "termo": "relógio inteligente apple",
+    "termo": "relógio inteligente masculino",
     "fontes": [
      "google"
     ],
     "forca": 1.25,
     "intencao": "navegacao",
     "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "relogio inteligente vale a pena",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.25,
+    "intencao": "compra",
+    "tipo_post": "review",
     "coberto_por": null
    },
    {
@@ -4609,16 +4652,6 @@
     "forca": 1.25,
     "intencao": "compra",
     "tipo_post": "review",
-    "coberto_por": null
-   },
-   {
-    "termo": "relógio inteligente bom e barato",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.25,
-    "intencao": "compra",
-    "tipo_post": "lista",
     "coberto_por": null
    },
    {
@@ -4673,16 +4706,6 @@
    },
    {
     "termo": "smartband prova dagua",
-    "fontes": [
-     "mercadolivre"
-    ],
-    "forca": 1.19,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "melhores-smartbands-custo-beneficio"
-   },
-   {
-    "termo": "smartband relogio inteligente m6",
     "fontes": [
      "mercadolivre"
     ],
@@ -4762,27 +4785,7 @@
     "coberto_por": null
    },
    {
-    "termo": "smartwatch barato que atende ligação",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.17,
-    "intencao": "compra",
-    "tipo_post": "lista",
-    "coberto_por": "melhores-smartwatches-baratos"
-   },
-   {
-    "termo": "smartwatch barato e de qualidade",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.17,
-    "intencao": "compra",
-    "tipo_post": "lista",
-    "coberto_por": "melhores-smartwatches-baratos"
-   },
-   {
-    "termo": "smartwatch barato e funcional",
+    "termo": "smartwatch barato com spotify",
     "fontes": [
      "google"
     ],
@@ -4794,7 +4797,7 @@
   ]
  },
  "acessorios-gamer": {
-  "atualizado": "2026-11-16",
+  "atualizado": "2026-11-24",
   "termos": [
    {
     "termo": "teclado gamer barato",
@@ -4816,7 +4819,7 @@
     "forca": 4.22,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "teclado-gamer-mecanico-qual-comprar"
    },
    {
     "termo": "mouse gamer redragon",
@@ -4871,7 +4874,7 @@
     "forca": 4.0,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "mouse-gamer-logitech-qual-escolher"
    },
    {
     "termo": "teclado gamer redragon",
@@ -4893,7 +4896,7 @@
     "forca": 3.88,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "headset-gamer-bluetooth-ou-fio-qual-escolher"
    },
    {
     "termo": "teclado gamer branco",
@@ -5391,17 +5394,6 @@
     "coberto_por": null
    },
    {
-    "termo": "teclado gamer havit",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 2.05,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "teclado gamer compacto",
     "fontes": [
      "google",
@@ -5512,6 +5504,17 @@
     "coberto_por": null
    },
    {
+    "termo": "teclado gamer havit",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.97,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "teclado gamer oex",
     "fontes": [
      "google",
@@ -5611,7 +5614,7 @@
     "coberto_por": null
    },
    {
-    "termo": "headset gamer razer",
+    "termo": "teclado gamer aula",
     "fontes": [
      "google",
      "mercadolivre"
@@ -5622,7 +5625,7 @@
     "coberto_por": null
    },
    {
-    "termo": "teclado gamer aula",
+    "termo": "teclado gamer hyperx alloy core",
     "fontes": [
      "google",
      "mercadolivre"
@@ -5721,6 +5724,28 @@
     "coberto_por": null
    },
    {
+    "termo": "headset gamer attack shark l80 pro",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.75,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "headset gamer razer",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.75,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "mouse gamer attack shark r1",
     "fontes": [
      "google",
@@ -5776,7 +5801,7 @@
     "coberto_por": null
    },
    {
-    "termo": "headset gamer attack shark l80 pro",
+    "termo": "teclado gamer via bluetooth",
     "fontes": [
      "google",
      "mercadolivre"
@@ -5787,12 +5812,12 @@
     "coberto_por": null
    },
    {
-    "termo": "teclado gamer via bluetooth",
+    "termo": "headset gamer via bluetooth",
     "fontes": [
      "google",
      "mercadolivre"
     ],
-    "forca": 1.64,
+    "forca": 1.63,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -5886,17 +5911,6 @@
     "coberto_por": null
    },
    {
-    "termo": "headset gamer via bluetooth",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.55,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "teclado gamer g213 prodigy logitech",
     "fontes": [
      "google",
@@ -5985,17 +5999,6 @@
     "coberto_por": null
    },
    {
-    "termo": "teclado gamer gravastar",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.46,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "headset gamer ninja",
     "fontes": [
      "google",
@@ -6007,29 +6010,7 @@
     "coberto_por": null
    },
    {
-    "termo": "headset gamer redragon zeus",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.39,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "headset gamer redragon zeus pro",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.34,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "mouse gamer hyperx pulsefire",
+    "termo": "headset gamer profissional",
     "fontes": [
      "google",
      "mercadolivre"
@@ -6062,23 +6043,12 @@
     "coberto_por": null
    },
    {
-    "termo": "mouse gamer grande",
+    "termo": "headset gamer ps4",
     "fontes": [
      "google",
      "mercadolivre"
     ],
-    "forca": 1.32,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "mouse gamer tgt",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.32,
+    "forca": 1.31,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -6095,17 +6065,6 @@
     "coberto_por": null
    },
    {
-    "termo": "mouse gamer logitech g502",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.28,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "mouse gamer rgb",
     "fontes": [
      "google",
@@ -6117,7 +6076,7 @@
     "coberto_por": null
    },
    {
-    "termo": "headset gamer profissional",
+    "termo": "headset gamer redragon zeus pro",
     "fontes": [
      "google",
      "mercadolivre"
@@ -6128,7 +6087,7 @@
     "coberto_por": null
    },
    {
-    "termo": "mouse gamer logitech g305",
+    "termo": "mouse gamer hyperx pulsefire",
     "fontes": [
      "google",
      "mercadolivre"
@@ -6139,7 +6098,7 @@
     "coberto_por": null
    },
    {
-    "termo": "headset gamer ps4",
+    "termo": "headset gamer redragon zeus",
     "fontes": [
      "google",
      "mercadolivre"
@@ -6161,15 +6120,15 @@
     "coberto_por": null
    },
    {
-    "termo": "headset gamer corsair",
+    "termo": "mouse gamer logitech g502",
     "fontes": [
      "google",
      "mercadolivre"
     ],
-    "forca": 1.16,
+    "forca": 1.12,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "mouse-gamer-logitech-qual-escolher"
    },
    {
     "termo": "headset gamer jbl quantum 360 wireless",
@@ -6181,6 +6140,17 @@
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
+   },
+   {
+    "termo": "mouse gamer logitech g305",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.09,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "mouse-gamer-logitech-qual-escolher"
    },
    {
     "termo": "teclado gamer 60",
@@ -6222,6 +6192,17 @@
      "mercadolivre"
     ],
     "forca": 1.04,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "teclado-gamer-mecanico-qual-comprar"
+   },
+   {
+    "termo": "headset gamer corsair",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 0.99,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -6282,17 +6263,6 @@
     "coberto_por": null
    },
    {
-    "termo": "teclado gamer hp",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 0.74,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "teclado mecânico ou magnético",
     "fontes": [
      "google"
@@ -6310,7 +6280,7 @@
     "forca": 2.67,
     "intencao": "comparacao",
     "tipo_post": "comparativo",
-    "coberto_por": null
+    "coberto_por": "teclado-mecanico-ou-membrana-qual-escolher"
    },
    {
     "termo": "mouse gamer com fio",
@@ -6383,11 +6353,11 @@
     "coberto_por": null
    },
    {
-    "termo": "headset gamer com fio",
+    "termo": "teclado mecânico redragon",
     "fontes": [
      "google"
     ],
-    "forca": 2.0,
+    "forca": 2.08,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -6423,7 +6393,27 @@
     "coberto_por": null
    },
    {
-    "termo": "headset gamer custo beneficio",
+    "termo": "headset gamer com fio",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.92,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "mouse gamer sem fio",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.92,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "mouse gamer custo beneficio",
     "fontes": [
      "google"
     ],
@@ -6431,11 +6421,21 @@
     "intencao": "compra",
     "tipo_post": "lista",
     "coberto_por": null
+   },
+   {
+    "termo": "teclado mecânico sem fio",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.92,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
    }
   ]
  },
  "casa-inteligente": {
-  "atualizado": "2026-11-16",
+  "atualizado": "2026-11-24",
   "termos": [
    {
     "termo": "tomada inteligente alexa",
@@ -6447,6 +6447,17 @@
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": "tomada-inteligente-alexa-como-configurar"
+   },
+   {
+    "termo": "lâmpada inteligente alexa",
+    "fontes": [
+     "google",
+     "search_console"
+    ],
+    "forca": 3.92,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "melhores-lampadas-inteligentes-alexa"
    },
    {
     "termo": "tomada inteligente intelbras",
@@ -6834,6 +6845,17 @@
     "coberto_por": null
    },
    {
+    "termo": "tomada inteligente preta",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.67,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "tomada inteligente plug max",
     "fontes": [
      "google",
@@ -6851,17 +6873,6 @@
      "mercadolivre"
     ],
     "forca": 1.64,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "tomada inteligente preta",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.58,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -6911,6 +6922,17 @@
     "coberto_por": null
    },
    {
+    "termo": "tomada inteligente plumax",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.31,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "tomada inteligente ekaza 16a",
     "fontes": [
      "google",
@@ -6940,7 +6962,7 @@
     "forca": 4.92,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "alexa-compativel-tv-samsung-como-conectar"
    },
    {
     "termo": "alexa compativel com iphone",
@@ -7061,16 +7083,6 @@
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
-   },
-   {
-    "termo": "lâmpada inteligente alexa",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.92,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "melhores-lampadas-inteligentes-alexa"
    },
    {
     "termo": "lampada inteligente ourolux",
@@ -7313,6 +7325,16 @@
     "coberto_por": null
    },
    {
+    "termo": "tomada inteligente para alexa",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.58,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "câmera wifi im7 full color 360 graus intelbras",
     "fontes": [
      "google"
@@ -7324,16 +7346,6 @@
    },
    {
     "termo": "lâmpada inteligente com bateria",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.5,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "tomada inteligente para alexa",
     "fontes": [
      "google"
     ],
@@ -7364,16 +7376,6 @@
    },
    {
     "termo": "camera wifi outdoor",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.42,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "alexa é compativel com deezer",
     "fontes": [
      "google"
     ],
@@ -7433,17 +7435,7 @@
     "coberto_por": null
    },
    {
-    "termo": "alexa é compativel com apple music",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.33,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "alexa é compatível com roku tv",
+    "termo": "alexa é compativel com deezer",
     "fontes": [
      "google"
     ],
@@ -7483,22 +7475,22 @@
     "coberto_por": null
    },
    {
-    "termo": "lampada inteligente elgin ou positivo",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.25,
-    "intencao": "comparacao",
-    "tipo_post": "comparativo",
-    "coberto_por": null
-   },
-   {
     "termo": "qual a melhor tomada inteligente para ar condicionado",
     "fontes": [
      "google"
     ],
     "forca": 1.25,
     "intencao": "compra",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "tomada inteligente para geladeira",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.25,
+    "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
    },
@@ -7524,6 +7516,26 @@
    },
    {
     "termo": "camera wifi outdoor waterproof",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.25,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "alexa é compativel com apple music",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.25,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "alexa é compatível com roku tv",
     "fontes": [
      "google"
     ],
@@ -7613,17 +7625,17 @@
     "coberto_por": null
    },
    {
-    "termo": "lampada inteligente com controle remoto",
+    "termo": "lampada inteligente elgin ou positivo",
     "fontes": [
      "google"
     ],
     "forca": 1.17,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
+    "intencao": "comparacao",
+    "tipo_post": "comparativo",
     "coberto_por": null
    },
    {
-    "termo": "lâmpada inteligente tem que deixar o interruptor ligado",
+    "termo": "lampada inteligente com controle remoto",
     "fontes": [
      "google"
     ],
@@ -7660,10 +7672,10 @@
     "forca": 1.17,
     "intencao": "duvida",
     "tipo_post": "guia",
-    "coberto_por": null
+    "coberto_por": "camera-wifi-como-funciona-como-escolher"
    },
    {
-    "termo": "tomada inteligente para geladeira",
+    "termo": "lâmpada inteligente tem que deixar o interruptor ligado",
     "fontes": [
      "google"
     ],
@@ -7746,16 +7758,6 @@
     "termo": "tomada inteligente vidro temperado cinza",
     "fontes": [
      "mercadolivre"
-    ],
-    "forca": 1.08,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "alexa é compativel com ps5",
-    "fontes": [
-     "google"
     ],
     "forca": 1.08,
     "intencao": "navegacao",
@@ -7913,7 +7915,7 @@
     "coberto_por": null
    },
    {
-    "termo": "lâmpada inteligente neo",
+    "termo": "lâmpada inteligente não para de piscar",
     "fontes": [
      "google"
     ],
@@ -7989,9 +7991,9 @@
   "mercadolivre",
   "search_console"
  ],
- "_mercadolivre_bloqueado_no_servidor": true,
+ "_mercadolivre_bloqueado_no_servidor": false,
  "celulares": {
-  "atualizado": "2026-11-16",
+  "atualizado": "2026-11-24",
   "termos": [
    {
     "termo": "xiaomi brasil",
@@ -8082,7 +8084,7 @@
     "forca": 2.0,
     "intencao": "compra",
     "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "motorola-lancamento-barato-qual-celular-comprar"
    },
    {
     "termo": "novo galaxy j hope",
@@ -8235,7 +8237,7 @@
     "coberto_por": null
    },
    {
-    "termo": "iphone novo original barato",
+    "termo": "motorola lançamento top de linha",
     "fontes": [
      "google"
     ],
@@ -8302,7 +8304,7 @@
     "forca": 1.58,
     "intencao": "compra",
     "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "motorola-lancamento-barato-qual-celular-comprar"
    },
    {
     "termo": "xiaomi brasil reclame aqui",
@@ -8325,21 +8327,31 @@
     "coberto_por": null
    },
    {
-    "termo": "novo iphone review",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.5,
-    "intencao": "compra",
-    "tipo_post": "review",
-    "coberto_por": null
-   },
-   {
     "termo": "motorola v3 lançamento brasil",
     "fontes": [
      "google"
     ],
     "forca": 1.5,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "xiaomi brasil com",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.5,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "xiaomi-18-pro-pro-max-evento-global-17-novembro-paris"
+   },
+   {
+    "termo": "celular lançamento parecido com iphone",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.42,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -8376,36 +8388,6 @@
    },
    {
     "termo": "novo iphone barato da apple",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.42,
-    "intencao": "compra",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "novo iphone paraguai",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.42,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "motorola lançamento casas bahia",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.42,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "motorola lançamento top de linha",
     "fontes": [
      "google"
     ],
@@ -8485,7 +8467,7 @@
     "coberto_por": null
    },
    {
-    "termo": "lançamento celular samsung 2026 linha a",
+    "termo": "novo iphone paraguai",
     "fontes": [
      "google"
     ],
@@ -8495,14 +8477,14 @@
     "coberto_por": null
    },
    {
-    "termo": "melhor comprar iphone novo ou usado",
+    "termo": "motorola lançamento casas bahia",
     "fontes": [
      "google"
     ],
     "forca": 1.33,
-    "intencao": "comparacao",
-    "tipo_post": "comparativo",
-    "coberto_por": "iphone-novo-ou-recondicionado-vale-a-pena"
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
    },
    {
     "termo": "xiaomi brasil suporte",
@@ -8555,6 +8537,16 @@
     "coberto_por": "motorola-signature-27-vs-signature-o-que-mudou-vale-trocar"
    },
    {
+    "termo": "lançamento celular samsung 2026 linha a",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.25,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "novo galaxy dobravel",
     "fontes": [
      "google"
@@ -8595,16 +8587,6 @@
     "coberto_por": null
    },
    {
-    "termo": "motorola lançamento abre e fecha",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.25,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "motorola lançamento mais recente",
     "fontes": [
      "google"
@@ -8625,7 +8607,7 @@
     "coberto_por": "xiaomi-18-pro-pro-max-evento-global-17-novembro-paris"
    },
    {
-    "termo": "xiaomi brasil com",
+    "termo": "xiaomi brasil mercado livre",
     "fontes": [
      "google"
     ],
@@ -8641,6 +8623,16 @@
     ],
     "forca": 1.17,
     "intencao": "compra",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "novo galaxy buds pro",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.17,
+    "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
    },
@@ -8722,7 +8714,7 @@
     "forca": 1.08,
     "intencao": "compra",
     "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "motorola-black-friday-2026-27-novembro-pix-15-parcelas-quais-modelos"
    },
    {
     "termo": "motorola lançamento mais novo",
@@ -8835,7 +8827,7 @@
     "coberto_por": null
    },
    {
-    "termo": "lançamento celular galaxy",
+    "termo": "lançamento celular google",
     "fontes": [
      "google"
     ],
@@ -8976,16 +8968,6 @@
    },
    {
     "termo": "novo galaxy buds",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "novo galaxy buds pro",
     "fontes": [
      "google"
     ],
@@ -9235,6 +9217,16 @@
     "coberto_por": null
    },
    {
+    "termo": "review novo iphone",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.0,
+    "intencao": "compra",
+    "tipo_post": "review",
+    "coberto_por": null
+   },
+   {
     "termo": "novo iphone 17 é bom",
     "fontes": [
      "google"
@@ -9475,6 +9467,16 @@
     "coberto_por": null
    },
    {
+    "termo": "motorola a1200 lançamento",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.0,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "motorola lançamento celular",
     "fontes": [
      "google"
@@ -9497,7 +9499,7 @@
   ]
  },
  "games": {
-  "atualizado": "2026-11-16",
+  "atualizado": "2026-11-24",
   "termos": [
    {
     "termo": "nintendo switch oled",
@@ -9519,7 +9521,7 @@
     "forca": 4.6,
     "intencao": "compra",
     "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "nintendo-switch-barato-qual-comprar"
    },
    {
     "termo": "xbox game pass ultimate",
@@ -9571,7 +9573,7 @@
      "google",
      "mercadolivre"
     ],
-    "forca": 3.75,
+    "forca": 3.83,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -9582,7 +9584,7 @@
      "google",
      "mercadolivre"
     ],
-    "forca": 3.2,
+    "forca": 3.28,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": "nintendo-switch-oled-vale-a-pena-black-friday"
@@ -9593,7 +9595,7 @@
      "google",
      "mercadolivre"
     ],
-    "forca": 3.17,
+    "forca": 3.26,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -9604,7 +9606,7 @@
      "google",
      "mercadolivre"
     ],
-    "forca": 3.15,
+    "forca": 3.07,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": "xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra"
@@ -9615,7 +9617,7 @@
      "google",
      "mercadolivre"
     ],
-    "forca": 3.05,
+    "forca": 2.97,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": "playstation-store-black-friday-2026-ate-75-o-que-muda-16-novembro"
@@ -9654,17 +9656,6 @@
     "coberto_por": null
    },
    {
-    "termo": "xbox game pass essential",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 2.63,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra"
-   },
-   {
     "termo": "nintendo switch jogos",
     "fontes": [
      "google",
@@ -9676,15 +9667,15 @@
     "coberto_por": null
    },
    {
-    "termo": "playstation vita",
+    "termo": "xbox game pass essential",
     "fontes": [
      "google",
      "mercadolivre"
     ],
-    "forca": 2.59,
+    "forca": 2.55,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra"
    },
    {
     "termo": "playstation fat",
@@ -9742,7 +9733,7 @@
     "coberto_por": null
    },
    {
-    "termo": "nintendo switch rosa",
+    "termo": "nintendo switch sports",
     "fontes": [
      "google",
      "mercadolivre"
@@ -9759,6 +9750,17 @@
      "mercadolivre"
     ],
     "forca": 2.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "playstation plus",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 2.25,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -9819,7 +9821,7 @@
     "coberto_por": null
    },
    {
-    "termo": "nintendo switch sports",
+    "termo": "nintendo switch rosa",
     "fontes": [
      "google",
      "mercadolivre"
@@ -9879,7 +9881,7 @@
      "google",
      "mercadolivre"
     ],
-    "forca": 2.19,
+    "forca": 2.11,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -9913,6 +9915,28 @@
      "mercadolivre"
     ],
     "forca": 2.09,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "playstation digital",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 2.08,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "playstation vr",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 2.08,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -9957,17 +9981,6 @@
      "mercadolivre"
     ],
     "forca": 2.02,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "playstation plus",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 2.0,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -10039,7 +10052,7 @@
     "coberto_por": null
    },
    {
-    "termo": "playstation vr",
+    "termo": "playstation trophies",
     "fontes": [
      "google",
      "mercadolivre"
@@ -10048,17 +10061,6 @@
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
-   },
-   {
-    "termo": "xbox game pass core",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.92,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra"
    },
    {
     "termo": "nintendo switch case",
@@ -10083,17 +10085,6 @@
     "coberto_por": null
    },
    {
-    "termo": "playstation rosa",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.86,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "nintendo switch edição especial",
     "fontes": [
      "google",
@@ -10105,12 +10096,45 @@
     "coberto_por": null
    },
    {
-    "termo": "playstation trophies",
+    "termo": "playstation 4",
     "fontes": [
      "google",
      "mercadolivre"
     ],
     "forca": 1.83,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "xbox game pass core",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.83,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra"
+   },
+   {
+    "termo": "nintendo switch joy con",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.83,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "playstation loja",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.81,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -10149,12 +10173,23 @@
     "coberto_por": null
    },
    {
-    "termo": "playstation 4",
+    "termo": "playstation backbone",
     "fontes": [
      "google",
      "mercadolivre"
     ],
-    "forca": 1.75,
+    "forca": 1.77,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "playstation rosa",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.77,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -10171,17 +10206,6 @@
     "coberto_por": null
    },
    {
-    "termo": "playstation camera",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.73,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "playstation vr2 ps5",
     "fontes": [
      "google",
@@ -10193,18 +10217,18 @@
     "coberto_por": null
    },
    {
-    "termo": "nintendo switch joy con",
+    "termo": "playstation gift",
     "fontes": [
      "google",
      "mercadolivre"
     ],
-    "forca": 1.73,
+    "forca": 1.72,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
    },
    {
-    "termo": "playstation loja",
+    "termo": "playstation 5 pro",
     "fontes": [
      "google",
      "mercadolivre"
@@ -10215,12 +10239,23 @@
     "coberto_por": null
    },
    {
-    "termo": "playstation backbone",
+    "termo": "playstation camera",
     "fontes": [
      "google",
      "mercadolivre"
     ],
-    "forca": 1.69,
+    "forca": 1.7,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "nintendo switch gta",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.7,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -10232,6 +10267,39 @@
      "mercadolivre"
     ],
     "forca": 1.69,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "playstation slim",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.69,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "playstation remote",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.67,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "nintendo switch console",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.67,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -10259,28 +10327,6 @@
     "coberto_por": null
    },
    {
-    "termo": "playstation gift",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.63,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "playstation slim",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.61,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "nintendo switch futebol",
     "fontes": [
      "google",
@@ -10292,7 +10338,7 @@
     "coberto_por": null
    },
    {
-    "termo": "playstation remote",
+    "termo": "playstation vita",
     "fontes": [
      "google",
      "mercadolivre"
@@ -10303,73 +10349,7 @@
     "coberto_por": null
    },
    {
-    "termo": "playstation digital",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.58,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "nintendo switch console",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.57,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "xbox game pass codigo",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.56,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra"
-   },
-   {
-    "termo": "xbox game pass core 12 meses",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.55,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra"
-   },
-   {
-    "termo": "nintendo switch gta",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.53,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "playstation antigo",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.52,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "playstation classic",
     "fontes": [
      "google",
      "mercadolivre"
@@ -10402,6 +10382,28 @@
     "coberto_por": null
    },
    {
+    "termo": "playstation slim 5",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.5,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "playstation 5 slim",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.48,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "playstation eye",
     "fontes": [
      "google",
@@ -10413,37 +10415,15 @@
     "coberto_por": null
    },
    {
-    "termo": "playstation 5 pro",
+    "termo": "xbox game pass codigo",
     "fontes": [
      "google",
      "mercadolivre"
     ],
-    "forca": 1.45,
+    "forca": 1.48,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "nintendo switch portatil",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.4,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "playstation 5 slim",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.39,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra"
    },
    {
     "termo": "nintendo switch v1 desbloqueado",
@@ -10451,10 +10431,32 @@
      "google",
      "mercadolivre"
     ],
-    "forca": 1.39,
+    "forca": 1.48,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
+   },
+   {
+    "termo": "playstation classic",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.44,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "nintendo switch edição zelda",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.42,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "zelda-notes-ocarina-of-time-app-celular-como-usar"
    },
    {
     "termo": "playstation link usb adapter",
@@ -10468,17 +10470,6 @@
     "coberto_por": null
    },
    {
-    "termo": "nintendo switch edição zelda",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.33,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "zelda-notes-ocarina-of-time-app-celular-como-usar"
-   },
-   {
     "termo": "nintendo switch oled 64gb",
     "fontes": [
      "google",
@@ -10490,34 +10481,34 @@
     "coberto_por": "nintendo-switch-oled-vale-a-pena-black-friday"
    },
    {
+    "termo": "playstation vr ps4",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.32,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "nintendo switch portatil",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.29,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "nintendo switch animal crossing edition",
     "fontes": [
      "google",
      "mercadolivre"
     ],
     "forca": 1.26,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "playstation vr ps4",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.23,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "nintendo switch 1",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 1.21,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -10545,12 +10536,12 @@
     "coberto_por": null
    },
    {
-    "termo": "playstation plus deluxe",
+    "termo": "nintendo switch 1",
     "fontes": [
      "google",
      "mercadolivre"
     ],
-    "forca": 1.15,
+    "forca": 1.12,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -10611,12 +10602,34 @@
     "coberto_por": null
    },
    {
+    "termo": "playstation plus deluxe",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 0.9,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "nintendo switch bundle",
     "fontes": [
      "google",
      "mercadolivre"
     ],
     "forca": 0.85,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "playstation vr 1",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 0.82,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -10644,7 +10657,7 @@
     "coberto_por": null
    },
    {
-    "termo": "playstation vr 1",
+    "termo": "playstation pro",
     "fontes": [
      "google",
      "mercadolivre"
@@ -10655,42 +10668,11 @@
     "coberto_por": null
    },
    {
-    "termo": "playstation pro",
-    "fontes": [
-     "google",
-     "mercadolivre"
-    ],
-    "forca": 0.66,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "lançamento jogos outubro 2026",
     "fontes": [
      "google"
     ],
-    "forca": 2.58,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "jogos grátis epic games mobile",
-    "fontes": [
-     "google"
-    ],
-    "forca": 2.17,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "epic-games-knightica-gratis-12-19-novembro-como-resgatar"
-   },
-   {
-    "termo": "lançamento jogos vorazes",
-    "fontes": [
-     "google"
-    ],
-    "forca": 2.0,
+    "forca": 2.75,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -10706,14 +10688,14 @@
     "coberto_por": "xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra"
    },
    {
-    "termo": "xbox game pass outubro",
+    "termo": "jogos grátis epic games",
     "fontes": [
      "google"
     ],
     "forca": 2.0,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": "xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra"
+    "coberto_por": "epic-games-knightica-gratis-12-19-novembro-como-resgatar"
    },
    {
     "termo": "jogos gratis epic outubro",
@@ -10726,14 +10708,24 @@
     "coberto_por": null
    },
    {
-    "termo": "playstation ou xbox",
+    "termo": "lançamento jogos setembro 2026",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.92,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "playstation ou xbox qual o melhor",
     "fontes": [
      "google"
     ],
     "forca": 1.92,
     "intencao": "comparacao",
     "tipo_post": "comparativo",
-    "coberto_por": null
+    "coberto_por": "playstation-ou-xbox-qual-comprar-black-friday"
    },
    {
     "termo": "playstation com",
@@ -10746,16 +10738,6 @@
     "coberto_por": null
    },
    {
-    "termo": "jogos grátis epic games hoje",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.92,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "epic-games-knightica-gratis-12-19-novembro-como-resgatar"
-   },
-   {
     "termo": "xbox game pass ultimate digital",
     "fontes": [
      "mercadolivre"
@@ -10766,14 +10748,14 @@
     "coberto_por": "xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra"
    },
    {
-    "termo": "lançamento jogos vorazes 2026",
+    "termo": "lançamento jogos ps5",
     "fontes": [
      "google"
     ],
     "forca": 1.83,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "lancamento-jogos-ps5-novembro-2026-gta-6"
    },
    {
     "termo": "lançamento jogos outubro",
@@ -10793,7 +10775,37 @@
     "forca": 1.83,
     "intencao": "navegacao",
     "tipo_post": "lista",
+    "coberto_por": "lancamento-jogos-ps5-novembro-2026-gta-6"
+   },
+   {
+    "termo": "lançamento jogos vorazes amanhecer na colheita",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.83,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
     "coberto_por": null
+   },
+   {
+    "termo": "playstation barato",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.83,
+    "intencao": "compra",
+    "tipo_post": "lista",
+    "coberto_por": "playstation-barato-qual-ps5-comprar-black-friday"
+   },
+   {
+    "termo": "xbox game pass outubro",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.83,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra"
    },
    {
     "termo": "jogos gratis epic outubro 2025",
@@ -10806,7 +10818,7 @@
     "coberto_por": null
    },
    {
-    "termo": "lançamento jogos setembro 2026",
+    "termo": "lançamento jogos vorazes cinema",
     "fontes": [
      "google"
     ],
@@ -10816,16 +10828,6 @@
     "coberto_por": null
    },
    {
-    "termo": "playstation barato",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.75,
-    "intencao": "compra",
-    "tipo_post": "lista",
-    "coberto_por": "playstation-barato-qual-ps5-comprar-black-friday"
-   },
-   {
     "termo": "xbox game pass vale a pena",
     "fontes": [
      "google"
@@ -10833,16 +10835,6 @@
     "forca": 1.75,
     "intencao": "compra",
     "tipo_post": "review",
-    "coberto_por": "xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra"
-   },
-   {
-    "termo": "xbox game pass outubro 2026",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.75,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
     "coberto_por": "xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra"
    },
    {
@@ -10856,16 +10848,6 @@
     "coberto_por": null
    },
    {
-    "termo": "jogos grátis epic games 2026",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.75,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "epic-games-knightica-gratis-12-19-novembro-como-resgatar"
-   },
-   {
     "termo": "jogos gratis epic lista vazada",
     "fontes": [
      "google"
@@ -10876,27 +10858,7 @@
     "coberto_por": null
    },
    {
-    "termo": "lançamento jogos ps5",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.67,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "lançamento jogos outubro 2025",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.67,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "lançamento jogos vorazes cinema",
     "fontes": [
      "google"
     ],
@@ -10916,7 +10878,7 @@
     "coberto_por": null
    },
    {
-    "termo": "xbox game pass valor",
+    "termo": "xbox game pass tem gta 6",
     "fontes": [
      "google"
     ],
@@ -10936,7 +10898,7 @@
     "coberto_por": null
    },
    {
-    "termo": "jogos gratis epic essa semana",
+    "termo": "jogos grátis epic hoje",
     "fontes": [
      "google"
     ],
@@ -10956,6 +10918,16 @@
     "coberto_por": "xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra"
    },
    {
+    "termo": "lançamento jogos agosto 2026",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.58,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "lançamento jogos de terror",
     "fontes": [
      "google"
@@ -10966,7 +10938,27 @@
     "coberto_por": null
    },
    {
-    "termo": "xbox game pass jogos",
+    "termo": "xbox game pass valor",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.58,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra"
+   },
+   {
+    "termo": "xbox game pass ou ps plus",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.58,
+    "intencao": "comparacao",
+    "tipo_post": "comparativo",
+    "coberto_por": "xbox-game-pass-ou-ps-plus-qual-assinar"
+   },
+   {
+    "termo": "xbox game pass outubro 2026",
     "fontes": [
      "google"
     ],
@@ -10983,7 +10975,7 @@
     "forca": 1.58,
     "intencao": "compra",
     "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "nintendo-switch-barato-qual-comprar"
    },
    {
     "termo": "nintendo switch vs nintendo switch 2",
@@ -10996,6 +10988,26 @@
     "coberto_por": "switch-2-passa-26-milhoes-vendas-nintendo-balanco-semestre"
    },
    {
+    "termo": "jogos grátis epic games lista",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.58,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "epic-games-knightica-gratis-12-19-novembro-como-resgatar"
+   },
+   {
+    "termo": "jogos grátis epic games lista 2026",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.58,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "epic-games-knightica-gratis-12-19-novembro-como-resgatar"
+   },
+   {
     "termo": "melhores jogos gratis que a epic ja deu",
     "fontes": [
      "google"
@@ -11003,16 +11015,6 @@
     "forca": 1.58,
     "intencao": "compra",
     "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "como resgatar jogos gratuitos epic games",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.58,
-    "intencao": "duvida",
-    "tipo_post": "guia",
     "coberto_por": null
    },
    {
@@ -11026,17 +11028,17 @@
     "coberto_por": "xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra"
    },
    {
-    "termo": "xbox game pass como funciona",
+    "termo": "xbox game pass jogos",
     "fontes": [
      "google"
     ],
     "forca": 1.5,
-    "intencao": "duvida",
-    "tipo_post": "guia",
+    "intencao": "navegacao",
+    "tipo_post": "lista",
     "coberto_por": "xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra"
    },
    {
-    "termo": "jogos gratis epic e agora",
+    "termo": "jogos grátis epic lista",
     "fontes": [
      "google"
     ],
@@ -11044,6 +11046,16 @@
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
+   },
+   {
+    "termo": "como resgatar jogos gratuitos epic games",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.5,
+    "intencao": "duvida",
+    "tipo_post": "guia",
+    "coberto_por": "como-resgatar-jogos-gratuitos-epic-games"
    },
    {
     "termo": "jogos grátis epic steam prime",
@@ -11056,34 +11068,14 @@
     "coberto_por": null
    },
    {
-    "termo": "lançamento jogos agosto 2026",
+    "termo": "lançamento jogos ps5 2026",
     "fontes": [
      "google"
     ],
     "forca": 1.42,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "lançamento jogos vorazes amanhecer na colheita",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.42,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "ordem lançamento jogos batman",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.42,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "lancamento-jogos-ps5-novembro-2026-gta-6"
    },
    {
     "termo": "ordem lançamento.jogos tomb raider",
@@ -11096,20 +11088,74 @@
     "coberto_por": null
    },
    {
-    "termo": "xbox game pass download",
+    "termo": "playstation vs xbox",
     "fontes": [
      "google"
     ],
     "forca": 1.42,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
+    "intencao": "comparacao",
+    "tipo_post": "comparativo",
+    "coberto_por": null
+   },
+   {
+    "termo": "xbox game pass como funciona",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.42,
+    "intencao": "duvida",
+    "tipo_post": "guia",
     "coberto_por": "xbox-game-pass-15-novembro-jogos-saem-toxic-commando-entra"
    }
   ]
  },
  "inteligencia-artificial": {
-  "atualizado": "2026-11-16",
+  "atualizado": "2026-11-24",
   "termos": [
+   {
+    "termo": "chatgpt plus",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 3.49,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
+    "termo": "chatgpt pro",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 3.03,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
+    "termo": "chatgpt",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 2.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
+    "termo": "claude ia",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 2.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "anthropic-ipo-nasdaq-ant-s-1-claude"
+   },
    {
     "termo": "inteligencia artificial para celular android",
     "fontes": [
@@ -11118,7 +11164,7 @@
     "forca": 3.58,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "melhores-ias-gratis-celular-android"
    },
    {
     "termo": "inteligência artificial para celular grátis",
@@ -11151,16 +11197,6 @@
     "coberto_por": null
    },
    {
-    "termo": "gemini google ai",
-    "fontes": [
-     "google"
-    ],
-    "forca": 2.75,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "ia grátis para criar vídeos",
     "fontes": [
      "google"
@@ -11168,7 +11204,7 @@
     "forca": 2.75,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "ia-gratis-criar-videos-como-fazer"
    },
    {
     "termo": "inteligência artificial no celular motorola",
@@ -11201,7 +11237,17 @@
     "coberto_por": null
    },
    {
-    "termo": "ia grátis para criar imagens",
+    "termo": "claude ia para advogados",
+    "fontes": [
+     "google"
+    ],
+    "forca": 2.33,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "anthropic-ipo-nasdaq-ant-s-1-claude"
+   },
+   {
+    "termo": "gemini google ai plus",
     "fontes": [
      "google"
     ],
@@ -11211,14 +11257,14 @@
     "coberto_por": null
    },
    {
-    "termo": "claude ia para advogados",
+    "termo": "ia grátis para criar imagens",
     "fontes": [
      "google"
     ],
     "forca": 2.25,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": "anthropic-ipo-nasdaq-ant-s-1-claude"
+    "coberto_por": null
    },
    {
     "termo": "claude ia como funciona",
@@ -11231,11 +11277,11 @@
     "coberto_por": "anthropic-ipo-nasdaq-ant-s-1-claude"
    },
    {
-    "termo": "gemini google ai plus",
+    "termo": "gemini google students",
     "fontes": [
      "google"
     ],
-    "forca": 2.17,
+    "forca": 2.08,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -11251,14 +11297,24 @@
     "coberto_por": null
    },
    {
-    "termo": "gemini google students",
+    "termo": "celular com inteligência artificial integrada",
     "fontes": [
      "google"
     ],
-    "forca": 2.0,
+    "forca": 2.08,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
+   },
+   {
+    "termo": "chatgpt plus privado",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 2.06,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
    },
    {
     "termo": "gemini google com",
@@ -11279,6 +11335,16 @@
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
+   },
+   {
+    "termo": "chatgpt individual",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.95,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
    },
    {
     "termo": "chatgpt login",
@@ -11321,16 +11387,6 @@
     "coberto_por": null
    },
    {
-    "termo": "celular com inteligência artificial integrada",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.92,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "ia grátis online",
     "fontes": [
      "google"
@@ -11341,24 +11397,24 @@
     "coberto_por": null
    },
    {
-    "termo": "claude ia gratuita",
+    "termo": "chatgpt plus individual",
     "fontes": [
-     "google"
+     "mercadolivre"
     ],
-    "forca": 1.92,
+    "forca": 1.84,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": "anthropic-ipo-nasdaq-ant-s-1-claude"
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
    },
    {
-    "termo": "chatgpt gratuito",
+    "termo": "chatgpt app",
     "fontes": [
      "google"
     ],
     "forca": 1.83,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+    "coberto_por": "chatgpt-classic-fim-30-janeiro-2027-app-desktop"
    },
    {
     "termo": "gemini google para estudantes",
@@ -11401,6 +11457,16 @@
     "coberto_por": null
    },
    {
+    "termo": "claude ia gratuita",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.83,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "anthropic-ipo-nasdaq-ant-s-1-claude"
+   },
+   {
     "termo": "claude ia barato",
     "fontes": [
      "google"
@@ -11411,17 +11477,17 @@
     "coberto_por": "anthropic-ipo-nasdaq-ant-s-1-claude"
    },
    {
-    "termo": "chatgpt imagem",
+    "termo": "chatgpt brasil",
     "fontes": [
      "google"
     ],
     "forca": 1.75,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": "chatgpt-images-2-6-gif-como-criar"
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
    },
    {
-    "termo": "chatgpt comha",
+    "termo": "chatgpt comt",
     "fontes": [
      "google"
     ],
@@ -11441,13 +11507,13 @@
     "coberto_por": null
    },
    {
-    "termo": "gemini google ai plus vale a pena",
+    "termo": "gemini google gratis",
     "fontes": [
      "google"
     ],
     "forca": 1.75,
-    "intencao": "compra",
-    "tipo_post": "review",
+    "intencao": "navegacao",
+    "tipo_post": "lista",
     "coberto_por": null
    },
    {
@@ -11511,14 +11577,14 @@
     "coberto_por": null
    },
    {
-    "termo": "chatgpt brasil",
+    "termo": "chatgpt imagem",
     "fontes": [
      "google"
     ],
     "forca": 1.67,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+    "coberto_por": "chatgpt-images-2-6-gif-como-criar"
    },
    {
     "termo": "chatgpt ai",
@@ -11529,16 +11595,6 @@
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
-   },
-   {
-    "termo": "gemini google gratuito",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.67,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
    },
    {
     "termo": "gemini google ou chatgpt",
@@ -11581,14 +11637,44 @@
     "coberto_por": null
    },
    {
-    "termo": "chatgpt app",
+    "termo": "claudeai planos",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.67,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "claude ai vs chatgpt",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.67,
+    "intencao": "comparacao",
+    "tipo_post": "comparativo",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
+    "termo": "chatgpt pro assinatura anual",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.62,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
+    "termo": "chatgpt download",
     "fontes": [
      "google"
     ],
     "forca": 1.58,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": "chatgpt-classic-fim-30-janeiro-2027-app-desktop"
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
    },
    {
     "termo": "chatgpt como usar",
@@ -11601,6 +11687,26 @@
     "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
    },
    {
+    "termo": "gemini google gratuito",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.58,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "google-tasks-gemini-agente-gratis-seis-paises-brasil-so-pro"
+   },
+   {
+    "termo": "gemini google ai plus vale a pena",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.58,
+    "intencao": "compra",
+    "tipo_post": "review",
+    "coberto_por": "gemini-google-ai-plus-vale-a-pena"
+   },
+   {
     "termo": "gemini google como desativar",
     "fontes": [
      "google"
@@ -11608,7 +11714,7 @@
     "forca": 1.58,
     "intencao": "duvida",
     "tipo_post": "guia",
-    "coberto_por": null
+    "coberto_por": "gemini-google-como-desativar-android"
    },
    {
     "termo": "inteligência artificial fotos celular",
@@ -11621,24 +11727,14 @@
     "coberto_por": null
    },
    {
-    "termo": "claudeai planos",
+    "termo": "claude ia o que faz",
     "fontes": [
      "google"
     ],
     "forca": 1.58,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "claude ai vale a pena pagar",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.58,
-    "intencao": "compra",
-    "tipo_post": "review",
-    "coberto_por": null
+    "intencao": "duvida",
+    "tipo_post": "guia",
+    "coberto_por": "anthropic-ipo-nasdaq-ant-s-1-claude"
    },
    {
     "termo": "claude ai ou chatgpt",
@@ -11651,7 +11747,27 @@
     "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
    },
    {
-    "termo": "chatgpt online",
+    "termo": "chatgpt entrar",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.5,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
+    "termo": "chatgpt para estudantes",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.5,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
+    "termo": "chatgpt com",
     "fontes": [
      "google"
     ],
@@ -11691,36 +11807,6 @@
     "coberto_por": null
    },
    {
-    "termo": "claude ia o que faz",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.5,
-    "intencao": "duvida",
-    "tipo_post": "guia",
-    "coberto_por": "anthropic-ipo-nasdaq-ant-s-1-claude"
-   },
-   {
-    "termo": "qual melhor ia claude ou gpt",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.5,
-    "intencao": "comparacao",
-    "tipo_post": "comparativo",
-    "coberto_por": null
-   },
-   {
-    "termo": "claude ai vs chatgpt",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.5,
-    "intencao": "comparacao",
-    "tipo_post": "comparativo",
-    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
-   },
-   {
     "termo": "claude ia para estudante",
     "fontes": [
      "google"
@@ -11731,7 +11817,7 @@
     "coberto_por": "anthropic-ipo-nasdaq-ant-s-1-claude"
    },
    {
-    "termo": "chatgpt português",
+    "termo": "chatgpt openai",
     "fontes": [
      "google"
     ],
@@ -11741,7 +11827,17 @@
     "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
    },
    {
-    "termo": "chatgpt para estudantes",
+    "termo": "chatgpt barato",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.42,
+    "intencao": "compra",
+    "tipo_post": "lista",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
+    "termo": "chatgpt comha",
     "fontes": [
      "google"
     ],
@@ -11751,14 +11847,14 @@
     "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
    },
    {
-    "termo": "chatgpt comat gpt",
+    "termo": "gemini google fotos",
     "fontes": [
      "google"
     ],
     "forca": 1.42,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+    "coberto_por": null
    },
    {
     "termo": "gemini google com app",
@@ -11791,6 +11887,36 @@
     "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
    },
    {
+    "termo": "ia gratis com imagens",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.42,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "qual melhor ia claude ou gpt",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.42,
+    "intencao": "comparacao",
+    "tipo_post": "comparativo",
+    "coberto_por": null
+   },
+   {
+    "termo": "claude ai vale a pena",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.42,
+    "intencao": "compra",
+    "tipo_post": "review",
+    "coberto_por": null
+   },
+   {
     "termo": "claude ai original",
     "fontes": [
      "google"
@@ -11801,17 +11927,27 @@
     "coberto_por": null
    },
    {
-    "termo": "chatgpt barato",
+    "termo": "chatgpt gratuito em português",
     "fontes": [
      "google"
     ],
     "forca": 1.33,
-    "intencao": "compra",
+    "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
    },
    {
-    "termo": "chatgpt ou gemini qual o melhor",
+    "termo": "chatgpt ou claude",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.33,
+    "intencao": "comparacao",
+    "tipo_post": "comparativo",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
+    "termo": "chatgpt ou gemini",
     "fontes": [
      "google"
     ],
@@ -11821,13 +11957,23 @@
     "coberto_por": "chatgpt-ou-gemini-qual-o-melhor"
    },
    {
-    "termo": "gemini google fotos",
+    "termo": "gemini google estudante",
     "fontes": [
      "google"
     ],
     "forca": 1.33,
     "intencao": "navegacao",
     "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "gemini google ai plus é bom",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.33,
+    "intencao": "compra",
+    "tipo_post": "review",
     "coberto_por": null
    },
    {
@@ -11871,6 +12017,16 @@
     "coberto_por": null
    },
    {
+    "termo": "claude ai vs chatgpt diferenças",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.33,
+    "intencao": "comparacao",
+    "tipo_post": "comparativo",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
     "termo": "claude ia como se pronuncia",
     "fontes": [
      "google"
@@ -11881,11 +12037,111 @@
     "coberto_por": "anthropic-ipo-nasdaq-ant-s-1-claude"
    },
    {
-    "termo": "chatgpt gratis",
+    "termo": "chatgpt privado",
     "fontes": [
-     "google"
+     "mercadolivre"
     ],
-    "forca": 1.25,
+    "forca": 1.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
+    "termo": "smartwatch chatgpt alexa",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
+    "termo": "chatgpt capcut",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
+    "termo": "smartwatch chatgpt dura 18 dias",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
+    "termo": "oculos ia chatgpt filma tradutor",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
+    "termo": "smartwatch chatgpt gps",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
+    "termo": "smartwatch chatgpt nfc",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
+    "termo": "caneta chatgpt resposta",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
+    "termo": "smartwatch chatgpt s10",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
+    "termo": "relogio digital chatgpt ultra",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
+    "termo": "chatgpt vitalicio",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.3,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
@@ -11908,16 +12164,16 @@
     "forca": 1.25,
     "intencao": "duvida",
     "tipo_post": "guia",
-    "coberto_por": null
+    "coberto_por": "gemini-sotaques-regionais-portugues-66-vozes-como-ativar"
    },
    {
-    "termo": "gemini google ai plus é bom",
+    "termo": "gemini google ai studio",
     "fontes": [
      "google"
     ],
     "forca": 1.25,
-    "intencao": "compra",
-    "tipo_post": "review",
+    "intencao": "navegacao",
+    "tipo_post": "lista",
     "coberto_por": null
    },
    {
@@ -11938,7 +12194,7 @@
     "forca": 1.25,
     "intencao": "duvida",
     "tipo_post": "guia",
-    "coberto_por": null
+    "coberto_por": "como-desativar-ia-celular-samsung-android"
    },
    {
     "termo": "ia grátis ilimitada",
@@ -11948,16 +12204,6 @@
     "forca": 1.25,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "claude ai vale a pena",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.25,
-    "intencao": "compra",
-    "tipo_post": "review",
     "coberto_por": null
    },
    {
@@ -11971,14 +12217,54 @@
     "coberto_por": "anthropic-ipo-nasdaq-ant-s-1-claude"
    },
    {
-    "termo": "chatgpt openai",
+    "termo": "chatgpt code",
     "fontes": [
-     "google"
+     "mercadolivre"
     ],
-    "forca": 1.17,
+    "forca": 1.19,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
+    "termo": "aplicativo chatgpt iphone",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.19,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
+    "termo": "smartwatch chatgpt notificacoes whatsapp",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.19,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
+    "termo": "smartwatch chatgpt s11 pro mini",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.19,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
+    "termo": "livro claude ia",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.19,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "anthropic-ipo-nasdaq-ant-s-1-claude"
    },
    {
     "termo": "chatgpt go vale a pena",
@@ -11991,7 +12277,17 @@
     "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
    },
    {
-    "termo": "gemini google ai studio",
+    "termo": "chatgpt comat gpt",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.17,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+   },
+   {
+    "termo": "gemini google entrar",
     "fontes": [
      "google"
     ],
@@ -12008,16 +12304,6 @@
     "forca": 1.17,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "inteligência artificial como baixar no celular",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.17,
-    "intencao": "duvida",
-    "tipo_post": "guia",
     "coberto_por": null
    },
    {
@@ -12041,29 +12327,19 @@
     "coberto_por": null
    },
    {
-    "termo": "claude ai vs chatgpt diferenças",
+    "termo": "chatgpt plus anual",
     "fontes": [
-     "google"
-    ],
-    "forca": 1.17,
-    "intencao": "comparacao",
-    "tipo_post": "comparativo",
-    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
-   },
-   {
-    "termo": "chatgpt mais barato",
-    "fontes": [
-     "google"
+     "mercadolivre"
     ],
     "forca": 1.08,
-    "intencao": "compra",
+    "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
    },
    {
-    "termo": "chatgpt com /# settings billing",
+    "termo": "smartwatch chatgpt instagram",
     "fontes": [
-     "google"
+     "mercadolivre"
     ],
     "forca": 1.08,
     "intencao": "navegacao",
@@ -12079,16 +12355,6 @@
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
-   },
-   {
-    "termo": "chatgpt",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
    },
    {
     "termo": "melhor chatgpt",
@@ -12141,24 +12407,14 @@
     "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
    },
    {
-    "termo": "chatgpt ou claude",
+    "termo": "chatgpt ou gemini qual o melhor",
     "fontes": [
      "google"
     ],
     "forca": 1.0,
     "intencao": "comparacao",
     "tipo_post": "comparativo",
-    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
-   },
-   {
-    "termo": "chatgpt ou claude qual o melhor",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "comparacao",
-    "tipo_post": "comparativo",
-    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
+    "coberto_por": "chatgpt-ou-gemini-qual-o-melhor"
    },
    {
     "termo": "chatgpt reviews",
@@ -12171,7 +12427,7 @@
     "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
    },
    {
-    "termo": "chatgpt é bom",
+    "termo": "chatgpt é bom para estudar para concurso",
     "fontes": [
      "google"
     ],
@@ -12191,27 +12447,7 @@
     "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
    },
    {
-    "termo": "chatgpt chatgpt",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
-   },
-   {
-    "termo": "chatgpt download",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "chatgpt-20-por-cento-buscas-google-openai-diz"
-   },
-   {
-    "termo": "chatgpt entrar",
+    "termo": "chatgpt codex",
     "fontes": [
      "google"
     ],
@@ -12379,242 +12615,122 @@
     "intencao": "compra",
     "tipo_post": "review",
     "coberto_por": null
-   },
-   {
-    "termo": "gemini google original",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "compra",
-    "tipo_post": "review",
-    "coberto_por": null
-   },
-   {
-    "termo": "gemini google banana",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "gemini google desativar",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "gemini google estudante",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "gemini google home",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "gemini google jimin",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "gemini google login",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "gemini google music",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "gemini google notebook",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "gemini google o que é",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "duvida",
-    "tipo_post": "guia",
-    "coberto_por": null
-   },
-   {
-    "termo": "gemini google planilhas",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "gemini google reddit",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "gemini google tradutor",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "gemini google video",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "inteligencia artificial celular",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "melhores inteligência artificial para celular",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "compra",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "qual a melhor inteligencia artificial para celular",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "compra",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "inteligência artificial do celular",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "inteligencia artificial en celular",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "celular honor inteligencia artificial",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "como usar inteligência artificial no celular iphone",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "duvida",
-    "tipo_post": "guia",
-    "coberto_por": null
-   },
-   {
-    "termo": "inteligência artificial no celular",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "inteligência artificial para o celular",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
    }
   ]
  },
  "tecnologia": {
-  "atualizado": "2026-11-16",
+  "atualizado": "2026-11-24",
   "termos": [
+   {
+    "termo": "windows 11 pro",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 4.24,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "windows 11 home",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 3.42,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "windows 11 licenca",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 3.22,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "windows 11 pro licenca",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 2.5,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "windows 11 pro key",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 2.48,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "windows 11",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 2.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "windows 11 notebook",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 2.26,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "windows 11 boot",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 2.05,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "windows 11 bootavel",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 2.02,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "windows 11 oem",
+    "fontes": [
+     "google",
+     "mercadolivre"
+    ],
+    "forca": 1.97,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
    {
     "termo": "whatsapp novidade detectada na versão beta permitirá programar envios",
     "fontes": [
@@ -12656,6 +12772,36 @@
     "coberto_por": null
    },
    {
+    "termo": "windows 11 computador",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 2.49,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "golpe pix como recuperar o dinheiro",
+    "fontes": [
+     "google"
+    ],
+    "forca": 2.42,
+    "intencao": "duvida",
+    "tipo_post": "guia",
+    "coberto_por": "golpe-pix-como-recuperar-o-dinheiro"
+   },
+   {
+    "termo": "golpe pix errado o que fazer",
+    "fontes": [
+     "google"
+    ],
+    "forca": 2.33,
+    "intencao": "duvida",
+    "tipo_post": "guia",
+    "coberto_por": "golpe-pix-errado-o-que-fazer"
+   },
+   {
     "termo": "starlink brasil para celular",
     "fontes": [
      "google"
@@ -12693,17 +12839,17 @@
     "forca": 2.0,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "golpe-pix-errado-o-que-fazer"
    },
    {
-    "termo": "golpe pix como recuperar o dinheiro",
+    "termo": "windows 11 comprar",
     "fontes": [
      "google"
     ],
     "forca": 2.0,
-    "intencao": "duvida",
-    "tipo_post": "guia",
-    "coberto_por": "golpe-pix-como-recuperar-o-dinheiro"
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
    },
    {
     "termo": "windows 11 original",
@@ -12716,17 +12862,27 @@
     "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
    },
    {
-    "termo": "windows 11 download",
+    "termo": "windows 11 home licenca",
     "fontes": [
-     "google"
+     "mercadolivre"
     ],
-    "forca": 1.92,
+    "forca": 1.95,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
    },
    {
-    "termo": "windows 11 comprar",
+    "termo": "golpe pix como recuperar",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.92,
+    "intencao": "duvida",
+    "tipo_post": "guia",
+    "coberto_por": null
+   },
+   {
+    "termo": "windows 11 download",
     "fontes": [
      "google"
     ],
@@ -12743,26 +12899,6 @@
     "forca": 1.92,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "golpe pix o que fazer",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.83,
-    "intencao": "duvida",
-    "tipo_post": "guia",
-    "coberto_por": "golpes-black-friday-2026-golpe-pix-o-que-fazer"
-   },
-   {
-    "termo": "golpe pix como recuperar",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.83,
-    "intencao": "duvida",
-    "tipo_post": "guia",
     "coberto_por": null
    },
    {
@@ -12816,31 +12952,21 @@
     "coberto_por": null
    },
    {
+    "termo": "golpe pix o que fazer",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.75,
+    "intencao": "duvida",
+    "tipo_post": "guia",
+    "coberto_por": "golpes-black-friday-2026-golpe-pix-o-que-fazer"
+   },
+   {
     "termo": "atualização android redmi note 13 pro",
     "fontes": [
      "google"
     ],
     "forca": 1.75,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "windows 11 pro",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.75,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "golpe pix devolução",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.67,
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
@@ -12896,23 +13022,13 @@
     "coberto_por": null
    },
    {
-    "termo": "golpe pix falso",
+    "termo": "golpe pix devolução",
     "fontes": [
      "google"
     ],
     "forca": 1.58,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "golpe pix errado o que fazer",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.58,
-    "intencao": "duvida",
-    "tipo_post": "guia",
     "coberto_por": null
    },
    {
@@ -12926,17 +13042,7 @@
     "coberto_por": null
    },
    {
-    "termo": "atualização android redmi note 14",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.58,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "atualização android one ui 8",
+    "termo": "atualização android redmi note 13 pro 5g",
     "fontes": [
      "google"
     ],
@@ -13026,6 +13132,16 @@
     "coberto_por": null
    },
    {
+    "termo": "atualização android one ui 8",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.5,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "windows 11 media creation tool",
     "fontes": [
      "google"
@@ -13043,7 +13159,7 @@
     "forca": 1.5,
     "intencao": "comparacao",
     "tipo_post": "comparativo",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+    "coberto_por": "windows-11-ou-10-para-jogos"
    },
    {
     "termo": "starlink brasil serviços de internet ltda",
@@ -13066,27 +13182,7 @@
     "coberto_por": null
    },
    {
-    "termo": "golpe pix por engano",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.42,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "atualização android redmi note 13 pro 5g",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.42,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "atualização android one ui 7",
+    "termo": "golpe pix falso",
     "fontes": [
      "google"
     ],
@@ -13106,16 +13202,6 @@
     "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
    },
    {
-    "termo": "windows 11 vs windows 10",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.42,
-    "intencao": "comparacao",
-    "tipo_post": "comparativo",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
     "termo": "starlink brasil telefone",
     "fontes": [
      "google"
@@ -13126,14 +13212,14 @@
     "coberto_por": null
    },
    {
-    "termo": "golpe pix agendado",
+    "termo": "windows 11 pro oem",
     "fontes": [
-     "google"
+     "mercadolivre"
     ],
-    "forca": 1.33,
+    "forca": 1.41,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
    },
    {
     "termo": "android atualização motorola",
@@ -13176,6 +13262,16 @@
     "coberto_por": null
    },
    {
+    "termo": "atualização android redmi note 14",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.33,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "atualização android s25 ultra",
     "fontes": [
      "google"
@@ -13184,6 +13280,16 @@
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
+   },
+   {
+    "termo": "windows 11 vale a pena em 2026",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.33,
+    "intencao": "compra",
+    "tipo_post": "review",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
    },
    {
     "termo": "starlink brasil direct to cell",
@@ -13196,7 +13302,137 @@
     "coberto_por": null
    },
    {
-    "termo": "golpe pix banco central",
+    "termo": "windows 11 adaptador fone",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "windows 11 chave ativacao",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "cpu windows 11 dvd 1tb",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "notebook windows 11 enterprise",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "windows 11 fpp",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "computador windows 11 gamer",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "windows 11 i5 16gb ssd 256",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "windows 11 midia licenca",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "notebook windows 11 rtx",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "windows 11 serial",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "note windows 11 tablet",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "kit formatacao windows 11 usb",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "notebook 16gb 1tb windows 11 vaio",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.3,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "golpe pix por engano",
     "fontes": [
      "google"
     ],
@@ -13256,27 +13492,157 @@
     "coberto_por": null
    },
    {
-    "termo": "starlink brasil internet gratuita",
+    "termo": "windows 11 pro chave",
     "fontes": [
-     "google"
+     "mercadolivre"
     ],
-    "forca": 1.25,
+    "forca": 1.19,
     "intencao": "navegacao",
     "tipo_post": "lista",
-    "coberto_por": null
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "windows 11 adaptador",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.19,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "pc gamer windows 11 ddr4",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.19,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "notebook core i5 windows 11 excelente",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.19,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "notebook windows 11 full hd",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.19,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "notebook windows 11 gamer",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.19,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "notebook lenovo windows 11 i5 512gb",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.19,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "windows 11 licenca vitalicia",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.19,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "pc gamer windows 11 monitor 23",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.19,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "windows 11 notebook lenovo 8gb 256gb",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.19,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "licenca windows 11 oem",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.19,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "notebook gamer windows 11 ryzen",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.19,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "windows 11 ssd nvidia",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.19,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "notebook windows 11 tela pequena",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.19,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "licenca windows 11 vitalicio",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.19,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
    },
    {
     "termo": "golpe pix como funciona",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.17,
-    "intencao": "duvida",
-    "tipo_post": "guia",
-    "coberto_por": null
-   },
-   {
-    "termo": "golpe pix nubank o que fazer",
     "fontes": [
      "google"
     ],
@@ -13294,16 +13660,6 @@
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
-   },
-   {
-    "termo": "windows 11 debloat",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.17,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
    },
    {
     "termo": "windows 11 ou 10 qual melhor",
@@ -13326,7 +13682,27 @@
     "coberto_por": null
    },
    {
-    "termo": "atualização android moto edge 30",
+    "termo": "starlink brasil está funcionando hoje",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.17,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "starlink brasil internet gratuita",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.17,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "atualização android poco c75",
     "fontes": [
      "google"
     ],
@@ -13346,7 +13722,7 @@
     "coberto_por": null
    },
    {
-    "termo": "atualização android projetor hy320",
+    "termo": "atualização android one ui 7",
     "fontes": [
      "google"
     ],
@@ -13366,6 +13742,166 @@
     "coberto_por": null
    },
    {
+    "termo": "notebook gamer windows 11 acer nitro",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.08,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "windows 11 bootavel full e10",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.08,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "windows 11 cpu",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.08,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "pendrive bootavel windows 11 drivers",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.08,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "placa rede windows 11 ethernet",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.08,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "notebook acer windows 11 gamer",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.08,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "windows 11 home chave",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.08,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "notebook acer windows 11 i3",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.08,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "windows 11 lenovo yoga",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.08,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "notebook windows 11 microsoft 365 ssd",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.08,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "notebook 16 windows 11 nvidia",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.08,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "chave licenca windows 11 oem",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.08,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "asus windows 11 ryzen 5",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.08,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "notebook windows 11 samsung",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.08,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "notebook i5 windows 11 touch",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.08,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
+    "termo": "licenca chave windows 11 vitalicio so",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.08,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
+   },
+   {
     "termo": "starlink brasil cnpj",
     "fontes": [
      "google"
@@ -13376,17 +13912,7 @@
     "coberto_por": null
    },
    {
-    "termo": "starlink brasil está funcionando hoje",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.08,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "starlink brasil suporte tecnico",
+    "termo": "starlink brasil é boa",
     "fontes": [
      "google"
     ],
@@ -13427,6 +13953,26 @@
    },
    {
     "termo": "golpe do pix para devolver",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.0,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "golpe pix agendado",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.0,
+    "intencao": "navegacao",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
+    "termo": "golpe pix banco central",
     "fontes": [
      "google"
     ],
@@ -13584,541 +14130,11 @@
     "intencao": "navegacao",
     "tipo_post": "lista",
     "coberto_por": null
-   },
-   {
-    "termo": "atualização android bateria",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "atualização android poco c75",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "oficial android atualização do whatsapp",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "atualização android edge 60 pro",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "android 16 fabricantes atualização",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "atualização android g86",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "atualização android hoje",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "atualização android infinix",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "atualização android j7 prime",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "atualização android lg k51s",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "android nova atualização",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "atualização android redmi note 8 pro",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "atualização android one ui",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "android tv atualização",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "android ultima atualização",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "atualização android vaio tl10",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "windows 11",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "melhor windows 11",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "compra",
-    "tipo_post": "lista",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "melhores windows 11",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "compra",
-    "tipo_post": "lista",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "qual windows 11 é mais leve",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "duvida",
-    "tipo_post": "guia",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "como escolher navegador padrão windows 11",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "duvida",
-    "tipo_post": "guia",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "windows 11 vale a pena em 2026",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "compra",
-    "tipo_post": "review",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "windows 11 barato",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "compra",
-    "tipo_post": "lista",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "notebook windows 11 custo beneficio",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "compra",
-    "tipo_post": "lista",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "windows 11 para pc fraco download",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "windows 11 review",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "compra",
-    "tipo_post": "review",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "windows 11 é bom",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "compra",
-    "tipo_post": "review",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "windows 11 atualização",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "windows 11 baixar",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "windows 11 consumindo muita memoria ram",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "windows 11 enterprise ltsc",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "windows 11 foi lançado em que ano",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "windows 11 ghost spectre",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "windows 11 home",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "windows 11 ja vem com pacote office",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "windows 11 não acessa pasta compartilhada",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "windows 11 requisitos",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "windows 11 sem conta microsoft",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "windows 11 trial o que é",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "duvida",
-    "tipo_post": "guia",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "windows 11 update",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "windows 11 version 26h2",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": "microsoft-paint-falha-cve-2026-83844-atualizar-windows-11"
-   },
-   {
-    "termo": "starlink brasil",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "qual cnpj da starlink brasil",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "duvida",
-    "tipo_post": "guia",
-    "coberto_por": null
-   },
-   {
-    "termo": "ouvidoria starlink brasil",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "starlink celular brasil como usar",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "duvida",
-    "tipo_post": "guia",
-    "coberto_por": null
-   },
-   {
-    "termo": "starlink brasil é bom",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "compra",
-    "tipo_post": "review",
-    "coberto_por": null
-   },
-   {
-    "termo": "starlink brasil antena",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "starlink brasil br",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "starlink brasil endereço",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "starlink brasil fatura",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "starlink brasil gratuita",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "starlink brasil hoje",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
-    "termo": "starlink brasil internet",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "navegacao",
-    "tipo_post": "lista",
-    "coberto_por": null
    }
   ]
  },
  "analises": {
-  "atualizado": "2026-11-16",
+  "atualizado": "2026-11-24",
   "termos": [
    {
     "termo": "vale a pena comprar o iphone 13 em 2026",
@@ -14149,7 +14165,7 @@
     "forca": 2.83,
     "intencao": "compra",
     "tipo_post": "review",
-    "coberto_por": null
+    "coberto_por": "galaxy-a07-vale-a-pena-review"
    },
    {
     "termo": "análise combinatória",
@@ -14232,16 +14248,6 @@
     "coberto_por": null
    },
    {
-    "termo": "celular oukitel review",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.92,
-    "intencao": "compra",
-    "tipo_post": "review",
-    "coberto_por": null
-   },
-   {
     "termo": "análise e desenvolvimento de sistemas",
     "fontes": [
      "google"
@@ -14273,6 +14279,16 @@
    },
    {
     "termo": "review celular samsung a56",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.83,
+    "intencao": "compra",
+    "tipo_post": "review",
+    "coberto_por": null
+   },
+   {
+    "termo": "review celular jovi v70",
     "fontes": [
      "google"
     ],
@@ -14342,16 +14358,6 @@
     "coberto_por": null
    },
    {
-    "termo": "vale a pena ver de novo hoje",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.58,
-    "intencao": "compra",
-    "tipo_post": "review",
-    "coberto_por": null
-   },
-   {
     "termo": "vale a pena comprar o iphone 12 em 2026",
     "fontes": [
      "google"
@@ -14360,6 +14366,16 @@
     "intencao": "compra",
     "tipo_post": "review",
     "coberto_por": "analise-iphone-12-vale-a-pena-em-2026"
+   },
+   {
+    "termo": "vale a pena comprar dolar hoje",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.58,
+    "intencao": "compra",
+    "tipo_post": "review",
+    "coberto_por": null
    },
    {
     "termo": "análise swot",
@@ -14422,16 +14438,6 @@
     "coberto_por": null
    },
    {
-    "termo": "vale a pena morar no paraguai",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.42,
-    "intencao": "compra",
-    "tipo_post": "review",
-    "coberto_por": null
-   },
-   {
     "termo": "review celular infinix",
     "fontes": [
      "google"
@@ -14442,7 +14448,17 @@
     "coberto_por": null
    },
    {
-    "termo": "vale a pena alugar carro para uber",
+    "termo": "análise de dados",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.42,
+    "intencao": "compra",
+    "tipo_post": "review",
+    "coberto_por": null
+   },
+   {
+    "termo": "vale a pena morar no paraguai",
     "fontes": [
      "google"
     ],
@@ -14482,7 +14498,7 @@
     "coberto_por": null
    },
    {
-    "termo": "review celular poco",
+    "termo": "vale a pena alugar carro para uber",
     "fontes": [
      "google"
     ],
@@ -14492,7 +14508,7 @@
     "coberto_por": null
    },
    {
-    "termo": "análise de dados",
+    "termo": "review celular poco",
     "fontes": [
      "google"
     ],
@@ -14512,7 +14528,7 @@
     "coberto_por": null
    },
    {
-    "termo": "análise comportamental",
+    "termo": "vale a pena comprar o iphone 14 em 2026",
     "fontes": [
      "google"
     ],
@@ -14522,21 +14538,21 @@
     "coberto_por": null
    },
    {
-    "termo": "vale a pena comprar o iphone 14 em 2026",
+    "termo": "análise de conteúdo bardin",
     "fontes": [
      "google"
     ],
-    "forca": 1.08,
+    "forca": 1.17,
     "intencao": "compra",
     "tipo_post": "review",
     "coberto_por": null
    },
    {
-    "termo": "vale a pena comprar carro de leilão",
+    "termo": "análise comportamental",
     "fontes": [
      "google"
     ],
-    "forca": 1.08,
+    "forca": 1.17,
     "intencao": "compra",
     "tipo_post": "review",
     "coberto_por": null
@@ -14622,7 +14638,7 @@
     "coberto_por": null
    },
    {
-    "termo": "vale a pena parar de tomar cafe",
+    "termo": "vale a pena parar de fumar",
     "fontes": [
      "google"
     ],
@@ -14640,6 +14656,16 @@
     "intencao": "compra",
     "tipo_post": "review",
     "coberto_por": "analise-ps4-vale-a-pena-em-2026"
+   },
+   {
+    "termo": "vale a pena comprar carro de leilão",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.0,
+    "intencao": "compra",
+    "tipo_post": "review",
+    "coberto_por": null
    },
    {
     "termo": "med review vale a pena",
@@ -14682,16 +14708,6 @@
     "coberto_por": null
    },
    {
-    "termo": "vale a pena correr atrás",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "compra",
-    "tipo_post": "review",
-    "coberto_por": null
-   },
-   {
     "termo": "vale a pena declarar dependente no imposto de renda",
     "fontes": [
      "google"
@@ -14702,7 +14718,17 @@
     "coberto_por": null
    },
    {
-    "termo": "vale a pena fazer consórcio",
+    "termo": "vale a pena em ingles",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.0,
+    "intencao": "compra",
+    "tipo_post": "review",
+    "coberto_por": null
+   },
+   {
+    "termo": "vale a pena fazer consorcio de carro",
     "fontes": [
      "google"
     ],
@@ -14732,7 +14758,7 @@
     "coberto_por": null
    },
    {
-    "termo": "vale a pena jogar wow em 2026",
+    "termo": "vale a pena jogar gta 6 no xbox one",
     "fontes": [
      "google"
     ],
@@ -14742,7 +14768,17 @@
     "coberto_por": null
    },
    {
-    "termo": "vale a pena levar mudança para outro estado",
+    "termo": "vale a pena letra",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.0,
+    "intencao": "compra",
+    "tipo_post": "review",
+    "coberto_por": null
+   },
+   {
+    "termo": "vale a pena me ver de novo",
     "fontes": [
      "google"
     ],
@@ -14772,7 +14808,7 @@
     "coberto_por": null
    },
    {
-    "termo": "vale a pena recorrer de uma sentença trabalhista",
+    "termo": "vale a pena recorrer de uma sentença civil",
     "fontes": [
      "google"
     ],
@@ -14782,7 +14818,7 @@
     "coberto_por": null
    },
    {
-    "termo": "vale a pena tem crase",
+    "termo": "vale a pena trocar a bateria do iphone",
     "fontes": [
      "google"
     ],
@@ -14792,7 +14828,7 @@
     "coberto_por": null
    },
    {
-    "termo": "vale a pena usar cartão de crédito no exterior",
+    "termo": "vale a pena uber one",
     "fontes": [
      "google"
     ],
@@ -14913,16 +14949,6 @@
    },
    {
     "termo": "análise",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "compra",
-    "tipo_post": "review",
-    "coberto_por": null
-   },
-   {
-    "termo": "análise de conteúdo bardin",
     "fontes": [
      "google"
     ],
@@ -15053,16 +15079,6 @@
    },
    {
     "termo": "análise bibliométrica",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "compra",
-    "tipo_post": "review",
-    "coberto_por": null
-   },
-   {
-    "termo": "análise de caracteres físicos elementos e sedimento da urina",
     "fontes": [
      "google"
     ],
@@ -15262,7 +15278,7 @@
     "coberto_por": null
    },
    {
-    "termo": "vale a pena parar de fumar",
+    "termo": "vale a pena parar de tomar cafe",
     "fontes": [
      "google"
     ],
@@ -15272,7 +15288,7 @@
     "coberto_por": null
    },
    {
-    "termo": "villa vale a pena reviews",
+    "termo": "finclass vale a pena review",
     "fontes": [
      "google"
     ],
@@ -15302,16 +15318,6 @@
     "coberto_por": null
    },
    {
-    "termo": "vale a pena assinar adapta",
-    "fontes": [
-     "google"
-    ],
-    "forca": 0.92,
-    "intencao": "compra",
-    "tipo_post": "review",
-    "coberto_por": null
-   },
-   {
     "termo": "vale a pena baixar o windows 11",
     "fontes": [
      "google"
@@ -15332,7 +15338,7 @@
     "coberto_por": null
    },
    {
-    "termo": "vale a pena em ingles",
+    "termo": "vale a pena esperar",
     "fontes": [
      "google"
     ],
@@ -15342,7 +15348,7 @@
     "coberto_por": null
    },
    {
-    "termo": "vale a pena fazer consorcio de carro",
+    "termo": "vale a pena fazer consorcio de imovel",
     "fontes": [
      "google"
     ],
@@ -15392,17 +15398,7 @@
     "coberto_por": null
    },
    {
-    "termo": "vale a pena limpar o nome pelo serasa",
-    "fontes": [
-     "google"
-    ],
-    "forca": 0.92,
-    "intencao": "compra",
-    "tipo_post": "review",
-    "coberto_por": null
-   },
-   {
-    "termo": "vale a pena morar em portugal",
+    "termo": "vale a pena ler",
     "fontes": [
      "google"
     ],
@@ -15422,7 +15418,7 @@
     "coberto_por": "switch-2-passa-26-milhoes-vendas-nintendo-balanco-semestre"
    },
    {
-    "termo": "vale a pena pedir revisão de aposentadoria",
+    "termo": "vale a pena recorrer de uma sentença trabalhista",
     "fontes": [
      "google"
     ],
@@ -15432,17 +15428,7 @@
     "coberto_por": null
    },
    {
-    "termo": "vale a pena recondicionar caixa de direção",
-    "fontes": [
-     "google"
-    ],
-    "forca": 0.92,
-    "intencao": "compra",
-    "tipo_post": "review",
-    "coberto_por": null
-   },
-   {
-    "termo": "vale a pena trocar a bateria do iphone",
+    "termo": "vale a pena trocar a bateria do iphone 13",
     "fontes": [
      "google"
     ],
@@ -15562,16 +15548,6 @@
     "coberto_por": null
    },
    {
-    "termo": "celular vivo review",
-    "fontes": [
-     "google"
-    ],
-    "forca": 0.92,
-    "intencao": "compra",
-    "tipo_post": "review",
-    "coberto_por": null
-   },
-   {
     "termo": "melhor análise de futebol",
     "fontes": [
      "google"
@@ -15620,12 +15596,63 @@
     "intencao": "comparacao",
     "tipo_post": "comparativo",
     "coberto_por": null
+   },
+   {
+    "termo": "análise para o segundo turno",
+    "fontes": [
+     "google"
+    ],
+    "forca": 0.92,
+    "intencao": "compra",
+    "tipo_post": "review",
+    "coberto_por": null
+   },
+   {
+    "termo": "analise doney md reviews",
+    "fontes": [
+     "google"
+    ],
+    "forca": 0.92,
+    "intencao": "compra",
+    "tipo_post": "review",
+    "coberto_por": null
+   },
+   {
+    "termo": "analise bom dia camaradas",
+    "fontes": [
+     "google"
+    ],
+    "forca": 0.92,
+    "intencao": "compra",
+    "tipo_post": "review",
+    "coberto_por": null
+   },
+   {
+    "termo": "análise de - originalidade",
+    "fontes": [
+     "google"
+    ],
+    "forca": 0.92,
+    "intencao": "compra",
+    "tipo_post": "review",
+    "coberto_por": null
    }
   ]
  },
  "tutoriais": {
-  "atualizado": "2026-11-16",
+  "atualizado": "2026-11-24",
   "termos": [
+   {
+    "termo": "como configurar alexa echo dot",
+    "fontes": [
+     "google",
+     "search_console"
+    ],
+    "forca": 2.58,
+    "intencao": "duvida",
+    "tipo_post": "guia",
+    "coberto_por": "como-configurar-alexa-echo-dot-primeira-vez"
+   },
    {
     "termo": "como resolver cubo magico",
     "fontes": [
@@ -15667,16 +15694,6 @@
     "coberto_por": null
    },
    {
-    "termo": "como fazer brigadeiro",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.83,
-    "intencao": "duvida",
-    "tipo_post": "guia",
-    "coberto_por": null
-   },
-   {
     "termo": "como configurar impressora epson l3250 no wifi",
     "fontes": [
      "google"
@@ -15697,7 +15714,7 @@
     "coberto_por": "como-bloquear-chamadas-numeros-desconhecidos-android-iphone"
    },
    {
-    "termo": "como configurar controle de portão",
+    "termo": "como fazer brigadeiro",
     "fontes": [
      "google"
     ],
@@ -15707,11 +15724,21 @@
     "coberto_por": null
    },
    {
-    "termo": "como fazer bolinho de chuva",
+    "termo": "como fazer strogonoff de frango",
     "fontes": [
      "google"
     ],
-    "forca": 1.67,
+    "forca": 1.75,
+    "intencao": "duvida",
+    "tipo_post": "guia",
+    "coberto_por": null
+   },
+   {
+    "termo": "como configurar controle de portão",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.75,
     "intencao": "duvida",
     "tipo_post": "guia",
     "coberto_por": null
@@ -15767,7 +15794,7 @@
     "coberto_por": null
    },
    {
-    "termo": "como resolver fração",
+    "termo": "como fazer bolinho de chuva",
     "fontes": [
      "google"
     ],
@@ -15781,27 +15808,17 @@
     "fontes": [
      "google"
     ],
-    "forca": 1.5,
+    "forca": 1.58,
     "intencao": "duvida",
     "tipo_post": "guia",
     "coberto_por": null
    },
    {
-    "termo": "como configurar repetidor de wifi",
+    "termo": "como resolver fração",
     "fontes": [
      "google"
     ],
-    "forca": 1.5,
-    "intencao": "duvida",
-    "tipo_post": "guia",
-    "coberto_por": null
-   },
-   {
-    "termo": "como configurar repetidor de sinal",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.5,
+    "forca": 1.58,
     "intencao": "duvida",
     "tipo_post": "guia",
     "coberto_por": null
@@ -15817,7 +15834,27 @@
     "coberto_por": null
    },
    {
-    "termo": "como fazer strogonoff de frango",
+    "termo": "como configurar a camera do iphone 18 pro max",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.42,
+    "intencao": "duvida",
+    "tipo_post": "guia",
+    "coberto_por": null
+   },
+   {
+    "termo": "como configurar repetidor de wifi",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.42,
+    "intencao": "duvida",
+    "tipo_post": "guia",
+    "coberto_por": null
+   },
+   {
+    "termo": "como configurar repetidor de sinal",
     "fontes": [
      "google"
     ],
@@ -15847,7 +15884,7 @@
     "coberto_por": null
    },
    {
-    "termo": "como configurar o teclado do celular",
+    "termo": "como configurar para imprimir frente e verso",
     "fontes": [
      "google"
     ],
@@ -15857,11 +15894,21 @@
     "coberto_por": null
    },
    {
-    "termo": "como configurar para imprimir frente e verso",
+    "termo": "como resolver porcentagem",
     "fontes": [
      "google"
     ],
     "forca": 1.33,
+    "intencao": "duvida",
+    "tipo_post": "guia",
+    "coberto_por": null
+   },
+   {
+    "termo": "motor portao eletronico como configurar controle",
+    "fontes": [
+     "mercadolivre"
+    ],
+    "forca": 1.3,
     "intencao": "duvida",
     "tipo_post": "guia",
     "coberto_por": null
@@ -15878,16 +15925,6 @@
    },
    {
     "termo": "como fazer cuscuz",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.17,
-    "intencao": "duvida",
-    "tipo_post": "guia",
-    "coberto_por": null
-   },
-   {
-    "termo": "como configurar controle de portão eletrônico",
     "fontes": [
      "google"
     ],
@@ -15987,16 +16024,6 @@
     "coberto_por": null
    },
    {
-    "termo": "como fazer de 100 até 200",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "compra",
-    "tipo_post": "lista",
-    "coberto_por": null
-   },
-   {
     "termo": "como fazer até 200",
     "fontes": [
      "google"
@@ -16037,7 +16064,17 @@
     "coberto_por": null
    },
    {
-    "termo": "como fazer compressa de água morna",
+    "termo": "como fazer para",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.0,
+    "intencao": "duvida",
+    "tipo_post": "guia",
+    "coberto_por": null
+   },
+   {
+    "termo": "como fazer compressa quente",
     "fontes": [
      "google"
     ],
@@ -16077,6 +16114,16 @@
     "coberto_por": null
    },
    {
+    "termo": "como fazer brigadeiro sem leite condensado",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.0,
+    "intencao": "duvida",
+    "tipo_post": "guia",
+    "coberto_por": null
+   },
+   {
     "termo": "como fazer chantilly com creme de leite",
     "fontes": [
      "google"
@@ -16087,7 +16134,7 @@
     "coberto_por": null
    },
    {
-    "termo": "como fazer descer a menstruação em 30 minutos",
+    "termo": "como fazer doce de banana",
     "fontes": [
      "google"
     ],
@@ -16097,7 +16144,7 @@
     "coberto_por": null
    },
    {
-    "termo": "como fazer empréstimo do bolsa família",
+    "termo": "como fazer enquete no whatsapp",
     "fontes": [
      "google"
     ],
@@ -16127,7 +16174,7 @@
     "coberto_por": null
    },
    {
-    "termo": "como fazer hambúrguer caseiro",
+    "termo": "como fazer hambúrguer de carne moída",
     "fontes": [
      "google"
     ],
@@ -16157,7 +16204,7 @@
     "coberto_por": null
    },
    {
-    "termo": "como fazer lavagem nasal",
+    "termo": "como fazer lavagem no ouvido em casa",
     "fontes": [
      "google"
     ],
@@ -16207,7 +16254,7 @@
     "coberto_por": null
    },
    {
-    "termo": "como fazer uma enquete no whatsapp",
+    "termo": "como fazer um",
     "fontes": [
      "google"
     ],
@@ -16287,7 +16334,7 @@
     "coberto_por": null
    },
    {
-    "termo": "como configurar vs code em portugues",
+    "termo": "como configurar vs code para python",
     "fontes": [
      "google"
     ],
@@ -16297,7 +16344,7 @@
     "coberto_por": null
    },
    {
-    "termo": "como configurar comando de volante central multimídia",
+    "termo": "como configurar comando de voz claro box tv",
     "fontes": [
      "google"
     ],
@@ -16337,7 +16384,7 @@
     "coberto_por": null
    },
    {
-    "termo": "como configurar botao lateral iphone 17",
+    "termo": "como configurar balança digital",
     "fontes": [
      "google"
     ],
@@ -16357,7 +16404,7 @@
     "coberto_por": null
    },
    {
-    "termo": "como configurar esim no iphone",
+    "termo": "como configurar epson l3250 na rede wifi",
     "fontes": [
      "google"
     ],
@@ -16367,7 +16414,7 @@
     "coberto_por": null
    },
    {
-    "termo": "como configurar fone de ouvido sem fio no celular",
+    "termo": "como configurar fechadura eletronica",
     "fontes": [
      "google"
     ],
@@ -16377,7 +16424,17 @@
     "coberto_por": null
    },
    {
-    "termo": "como configurar hp smart tank 581",
+    "termo": "como configurar google assistente",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.0,
+    "intencao": "duvida",
+    "tipo_post": "guia",
+    "coberto_por": null
+   },
+   {
+    "termo": "como configurar histórico no domínio fiscal",
     "fontes": [
      "google"
     ],
@@ -16397,17 +16454,17 @@
     "coberto_por": null
    },
    {
-    "termo": "como configurar lampada inteligente",
+    "termo": "como configurar live no tiktok pelo celular",
     "fontes": [
      "google"
     ],
     "forca": 1.0,
     "intencao": "duvida",
     "tipo_post": "guia",
-    "coberto_por": "como-configurar-lampada-inteligente-wifi-alexa"
+    "coberto_por": null
    },
    {
-    "termo": "como configurar mensagem automática no whatsapp business",
+    "termo": "como configurar mensagem automática no whatsapp",
     "fontes": [
      "google"
     ],
@@ -16427,6 +16484,16 @@
     "coberto_por": null
    },
    {
+    "termo": "como configurar o controle do portão",
+    "fontes": [
+     "google"
+    ],
+    "forca": 1.0,
+    "intencao": "duvida",
+    "tipo_post": "guia",
+    "coberto_por": null
+   },
+   {
     "termo": "como configurar starlink mini",
     "fontes": [
      "google"
@@ -16437,7 +16504,7 @@
     "coberto_por": null
    },
    {
-    "termo": "como configurar tv box para assistir tv aberta",
+    "termo": "como configurar tp link repetidor",
     "fontes": [
      "google"
     ],
@@ -16457,7 +16524,7 @@
     "coberto_por": null
    },
    {
-    "termo": "como configurar vpn no iphone",
+    "termo": "como configurar visualização unica no whatsapp",
     "fontes": [
      "google"
     ],
@@ -16508,16 +16575,6 @@
    },
    {
     "termo": "como resolver parafuso espanado",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "duvida",
-    "tipo_post": "guia",
-    "coberto_por": null
-   },
-   {
-    "termo": "como resolver compulsão alimentar",
     "fontes": [
      "google"
     ],
@@ -16627,7 +16684,7 @@
     "coberto_por": "como-resolver-linha-verde-na-tela-do-celular"
    },
    {
-    "termo": "como resolver mofo no teto do banheiro",
+    "termo": "como resolver mofo na parede",
     "fontes": [
      "google"
     ],
@@ -16657,16 +16714,6 @@
     "coberto_por": null
    },
    {
-    "termo": "como resolver porcentagem de forma simples",
-    "fontes": [
-     "google"
-    ],
-    "forca": 1.0,
-    "intencao": "duvida",
-    "tipo_post": "guia",
-    "coberto_por": null
-   },
-   {
     "termo": "como resolver raiz quadrada",
     "fontes": [
      "google"
@@ -16677,7 +16724,7 @@
     "coberto_por": null
    },
    {
-    "termo": "como resolver sistema de equação",
+    "termo": "como resolver sua conexão não é particular",
     "fontes": [
      "google"
     ],
@@ -16777,6 +16824,16 @@
     "coberto_por": null
    },
    {
+    "termo": "como fazer de 100 até 200",
+    "fontes": [
+     "google"
+    ],
+    "forca": 0.92,
+    "intencao": "compra",
+    "tipo_post": "lista",
+    "coberto_por": null
+   },
+   {
     "termo": "como fazer 2000 até sábado",
     "fontes": [
      "google"
@@ -16817,7 +16874,17 @@
     "coberto_por": null
    },
    {
-    "termo": "como fazer comunicação de venda de um veículo",
+    "termo": "como fazer para votar em trânsito",
+    "fontes": [
+     "google"
+    ],
+    "forca": 0.92,
+    "intencao": "duvida",
+    "tipo_post": "guia",
+    "coberto_por": null
+   },
+   {
+    "termo": "como fazer compressa morna",
     "fontes": [
      "google"
     ],
@@ -16847,7 +16914,7 @@
     "coberto_por": null
    },
    {
-    "termo": "como fazer carbonara original",
+    "termo": "como fazer original em calça jeans",
     "fontes": [
      "google"
     ],
@@ -16867,7 +16934,7 @@
     "coberto_por": null
    },
    {
-    "termo": "como fazer doce de banana",
+    "termo": "como fazer doce de leite",
     "fontes": [
      "google"
     ],
@@ -16877,7 +16944,7 @@
     "coberto_por": null
    },
    {
-    "termo": "como fazer entregas para o mercado livre",
+    "termo": "como fazer estrogonofe de carne",
     "fontes": [
      "google"
     ],
@@ -16907,7 +16974,7 @@
     "coberto_por": null
    },
    {
-    "termo": "como fazer hambúrguer de carne moída",
+    "termo": "como fazer hidratação no cabelo em casa",
     "fontes": [
      "google"
     ],
@@ -16937,7 +17004,7 @@
     "coberto_por": null
    },
    {
-    "termo": "como fazer lasanha",
+    "termo": "como fazer lavagem nasal",
     "fontes": [
      "google"
     ],
@@ -17007,7 +17074,7 @@
     "coberto_por": null
    },
    {
-    "termo": "como fazer um",
+    "termo": "como fazer um boletim de ocorrência online",
     "fontes": [
      "google"
     ],
@@ -17074,56 +17141,6 @@
     "forca": 0.92,
     "intencao": "duvida",
     "tipo_post": "guia",
-    "coberto_por": null
-   },
-   {
-    "termo": "como configurar vs code para python",
-    "fontes": [
-     "google"
-    ],
-    "forca": 0.92,
-    "intencao": "comparacao",
-    "tipo_post": "comparativo",
-    "coberto_por": null
-   },
-   {
-    "termo": "como configurar para nao receber ligações de numero desconhecido",
-    "fontes": [
-     "google"
-    ],
-    "forca": 0.92,
-    "intencao": "duvida",
-    "tipo_post": "guia",
-    "coberto_por": null
-   },
-   {
-    "termo": "como configurar comando de volante na multimídia adak",
-    "fontes": [
-     "google"
-    ],
-    "forca": 0.92,
-    "intencao": "duvida",
-    "tipo_post": "guia",
-    "coberto_por": null
-   },
-   {
-    "termo": "como configurar bom ar automatico",
-    "fontes": [
-     "google"
-    ],
-    "forca": 0.92,
-    "intencao": "duvida",
-    "tipo_post": "guia",
-    "coberto_por": null
-   },
-   {
-    "termo": "como configurar balanca original line",
-    "fontes": [
-     "google"
-    ],
-    "forca": 0.92,
-    "intencao": "compra",
-    "tipo_post": "review",
     "coberto_por": null
    }
   ]
