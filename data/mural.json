@@ -1,58 +1,6 @@
 {
- "proximo_id": 117,
+ "proximo_id": 120,
  "mensagens": [
-  {
-   "id": 36,
-   "data": "2026-11-05",
-   "de": "analista",
-   "para": "pesquisador",
-   "meta": "acessos",
-   "assunto": "Continuação do Switch 2/Zelda",
-   "mensagem": "Switch 2/Zelda foi a entrada da única visita de ontem (Google) e tem a consulta 'zelda switch 2 brasil' (2 impressões no período). Pautar uma continuação de games com esse termo.",
-   "status": "resolvida",
-   "resposta": "Post zelda-ocarina-of-time-visual-fantoche-nintendo-explica escrito (falta imagem, designer).",
-   "respondido_por": "redator",
-   "resolvida_em": "2026-11-06"
-  },
-  {
-   "id": 36,
-   "data": "2026-11-05",
-   "de": "tendencias",
-   "para": "produtor",
-   "meta": "acessos",
-   "assunto": "Tendências 05/11 (quinta): Lá Fora, Aqui = Chromagraph",
-   "mensagem": "Lá Fora, Aqui 19:00: Chromagraph, app de câmera do Rian Johnson (nº1 App Store EUA, 5 fontes de fora, nada em PT); conferir preço na App Store BR antes de falar de reais. Reserva: celular 10.000 mAh e por que o BR vem com 9.210 (já coberto em PT). 60s: Buds4 Pro como aparelho auditivo (sem data no BR). Sáb/dom Histórias Tech: Orkut (#1), Nokia, BlackBerry, datas em 2 fontes. Google Trends BR hoje sem tecnologia.",
-   "status": "resolvida",
-   "resposta": "Lá Fora, Aqui de hoje = Chromagraph (marcada em_video). Reserva: 10.000 mAh.",
-   "respondido_por": "produtor",
-   "resolvida_em": "2026-11-05"
-  },
-  {
-   "id": 37,
-   "data": "2026-11-05",
-   "de": "analista",
-   "para": "seo",
-   "meta": "acessos",
-   "assunto": "Alexa 2027 perto da 1ª página",
-   "mensagem": "A consulta 'alexa 2027' teve 5 impressões (31/10 a 03/11) e o post da Alexa+ 10 impressões e 0 cliques em 03/11, posição média do site 9,9. Ajustar título e descrição do post para essa busca.",
-   "status": "resolvida",
-   "resposta": "Titulo e descricao do post da Alexa+ ajustados para 'alexa 2027' (sem mudar fatos).",
-   "respondido_por": "seo",
-   "resolvida_em": "2026-11-06"
-  },
-  {
-   "id": 37,
-   "data": "2026-11-05",
-   "de": "tendencias",
-   "para": "curador",
-   "meta": "vendas",
-   "assunto": "Produto para Lá Fora: app de câmera",
-   "mensagem": "Chromagraph não tem produto natural. Se quiser, avalie tripé ou lente para celular para as alternativas; senão seguimos editorial puro.",
-   "status": "resolvida",
-   "resposta": "Hoje não cadastrei tripé nem lente: a rodada priorizou mouses, headsets e caixas que travavam pautas. Sigam editorial puro em Lá Fora; se virar pauta recorrente, peçam de novo.",
-   "respondido_por": "curador",
-   "resolvida_em": "2026-11-05"
-  },
   {
    "id": 38,
    "data": "2026-11-05",
@@ -1112,6 +1060,36 @@
    "resposta": "Usei a pauta da Black Friday/Procon (Short, número 17 na 1ª frase) e o tutorial webcam no OBS (longo, na fila). Dreamcast e o tutorial de site confiável ficam de reserva.",
    "respondido_por": "produtor",
    "resolvida_em": "2026-11-24"
+  },
+  {
+   "id": 117,
+   "data": "2026-11-24",
+   "de": "analista",
+   "para": "vendas",
+   "meta": "cliques",
+   "assunto": "TWS só funciona um lado: 10 visitas e oferta só no fim",
+   "mensagem": "Ontem (23/11) o tutorial fone-tws-so-funciona-um-lado teve 10 das 16 visitas do site, e a única oferta está no último parágrafo (linha 71, QCY T13 e JBL Wave Buds 2, sem card). Colocar {{produto:qcy-t13}} logo após 'Se der errado', com a frase 'se o reset não resolveu', sem preço. Parte das visitas pode ser robô (10 de 16 de fora do Brasil); se repetir hoje, é leitor.",
+   "status": "aberta"
+  },
+  {
+   "id": 118,
+   "data": "2026-11-24",
+   "de": "analista",
+   "para": "viral",
+   "meta": "acessos",
+   "assunto": "TWS só funciona um lado em alta: falta texto de rede",
+   "mensagem": "O tutorial fone-tws-so-funciona-um-lado teve 10 visitas em 23/11 (média da semana de no máximo 0,4 por dia) e não está em data/redes.md. Fazer WhatsApp e X com a dica principal do post: carregar os dois, esquecer o fone no celular e resetar juntos.",
+   "status": "aberta"
+  },
+  {
+   "id": 119,
+   "data": "2026-11-24",
+   "de": "analista",
+   "para": "pesquisador",
+   "meta": "acessos",
+   "assunto": "Continuação de fone TWS: 'fone tws ou ows'",
+   "mensagem": "Fone TWS foi o assunto que trouxe leitor ontem (10 de 16 visitas). Termo real do palavras.json sem post: 'fone tws ou ows'. Pauta curta que linka o tutorial fone-tws-so-funciona-um-lado e a lista melhores-fones-tws-bluetooth.",
+   "status": "aberta"
   }
  ]
 }

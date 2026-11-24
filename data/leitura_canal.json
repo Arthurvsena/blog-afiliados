@@ -1,30 +1,30 @@
 {
-  "atualizado": "2026-11-23",
+  "atualizado": "2026-11-24",
   "autora": "Luisa",
-  "resumo": "O canal fez 4.395 visualizações em 28 dias (até 22/11), com 51,9% assistido e CTR de capa de 2,0%, mas só +2 inscritos. O maior problema segue o mesmo: o Short é assistido e ninguém segue o canal nem vai ao blog (0 visitas do YouTube no site em 22/11).",
+  "resumo": "O canal fez 4.572 visualizações em 28 dias (até 23/11), com 51,2% assistido e CTR de capa de 2,1%, e o saldo de inscritos subiu para 3. O maior problema segue o mesmo: o Short é assistido, quase ninguém segue o canal e ninguém vai ao blog (0 visitas do YouTube no site em 23/11).",
   "funcionando": [
-    "Quadro 60s prende: 8 vídeos com média de 62,5% assistido; PS5 100 milhões (0:39) teve 85,7% e Vivo Satélite (0:32) 106,6%, sinal de que curto e com número no título segura.",
-    "Ângulo Brasil puxa views: 'Sony quer comprar seu PS5 usado, mas não no Brasil' segue o maior do canal, 1.131 views, 63,4% assistido, 4,3% de cliques e 1 inscrito.",
-    "GTA 6 no Xbox One fez 910 views com 57,1% assistido: assunto quente de games traz alcance.",
-    "Tutorial que alguém procura: 'Como ter vários WhatsApp no iOS' teve 4,6% de cliques na capa (522 impressões) e 1 inscrito com só 71 views."
+    "Quadro 60s prende: 9 vídeos com média de 60,8% assistido; PS5 100 milhões (0:39) teve 85,7% e Vivo Satélite (0:32) 106,6%, sinal de que curto e com número no título segura.",
+    "Primeiro inscrito do 60s: 'Galaxy A: preço pode subir até 19% em 2027' (23/11) fez 86 views e trouxe 1 inscrito, com número e preço no título.",
+    "Ângulo Brasil puxa views: 'Sony quer comprar seu PS5 usado, mas não no Brasil' segue o maior do canal, 1.131 views, 63,4% assistido, 4,2% de cliques e 1 inscrito.",
+    "Tutorial que alguém procura: 'Como ter vários WhatsApp no iOS' teve 4,4% de cliques na capa (608 impressões) e 1 inscrito com 83 views."
   ],
   "nao_funcionando": [
-    "Inscrição: 4.395 views para +2 inscritos; os 8 Shorts do 60s somaram 2.215 views e 0 inscritos. Falta motivo para seguir.",
-    "Lá Fora, Aqui sem alcance e sem retenção: 2 vídeos com média de 8 views e 19,6% assistido; Chromagraph teve 0,5% de cliques em 825 impressões.",
-    "Longos perdem gente cedo: Smartband 30,1% e WhatsApp iOS 24% assistido; o Smartband teve 1.854 impressões e 2,2% de cliques, então a capa até chama, o começo é que não segura.",
-    "Histórias Tech oscila: Orkut 348 views e 49,5%; Xbox só 4 views (45 impressões, 0% de cliques), apesar de 69% assistido."
+    "Inscrição: 4.572 views para saldo de 3 inscritos; os 9 Shorts do 60s somaram 2.312 views e só 1 inscrito. Falta motivo para seguir.",
+    "Histórias Tech caiu: Tamagotchi (22/11) teve 66 views e só 22,8% assistido; a média do quadro desceu para 47,1% em 3 vídeos (Orkut 49,5%, Xbox 69% mas 4 views).",
+    "Lá Fora, Aqui sem alcance e sem retenção: 2 vídeos com média de 8 views e 19,6% assistido; Chromagraph teve 0,5% de cliques em 831 impressões.",
+    "Longos perdem gente cedo: Smartband 30,4% e WhatsApp iOS 27,4% assistido; o Smartband teve 1.859 impressões e 2,3% de cliques, então a capa chama, o começo é que não segura."
   ],
   "acoes": [
-    "Todo Short termina com uma chamada para seguir o canal e um motivo concreto ('amanhã tem o próximo'), e leva ao post do blog no comentário fixado.",
-    "Manter o 60s entre 30 e 40 segundos com um número na primeira frase (PS5 e Vivo Satélite foram os que mais seguraram).",
-    "Pausar o Lá Fora, Aqui por uma semana e trocar por um tutorial 'como fazer' (o único longo com cliques na capa acima de 4%).",
-    "Longo: mostrar a resposta nos primeiros 15 segundos; mudar só essa variável na semana."
+    "Todo Short termina com uma chamada para seguir o canal e um motivo concreto ('amanhã tem o próximo'), e leva ao post do blog no comentário fixado (mural #109).",
+    "Manter o 60s entre 30 e 40 segundos com um número ou preço na primeira frase (PS5, Vivo Satélite e Galaxy A).",
+    "Histórias Tech: abrir com o fato mais surpreendente nos 3 primeiros segundos; o Tamagotchi perdeu mais de 3/4 do público.",
+    "Longo: mostrar a resposta nos primeiros 15 segundos e preferir tutorial 'como fazer' ao Lá Fora, Aqui; mudar uma variável por semana."
   ],
   "por_quadro": {
-    "60s": {"videos": 8, "media_views": 277, "media_pct": 62.5},
-    "historias": {"videos": 2, "media_views": 176, "media_pct": 59.2},
+    "60s": {"videos": 9, "media_views": 257, "media_pct": 60.8},
+    "historias": {"videos": 3, "media_views": 140, "media_pct": 47.1},
     "lafora": {"videos": 2, "media_views": 8, "media_pct": 19.6},
-    "tutorial": {"videos": 1, "media_views": 71, "media_pct": 24.0},
-    "antes_dos_quadros": {"videos": 6, "media_views": 290, "media_pct": 44.0}
+    "tutorial": {"videos": 1, "media_views": 83, "media_pct": 27.4},
+    "antes_dos_quadros": {"videos": 5, "media_views": 348, "media_pct": 48.4, "obs": "sem a 2ª linha do Smartband (1 view), que é registro duplicado"}
   }
 }

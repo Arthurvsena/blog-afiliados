@@ -47,7 +47,7 @@
     },
     "analista": {
       "status": "ok",
-      "tarefa": "Resumo da semana 16–22/11: 44 visitas, 12 cliques, 1 pedido; meta de 20 cliques."
+      "tarefa": "Ontem foram 16 visitas, 0 vieram do Google; 10 no tutorial do fone TWS."
     },
     "seg_animador": {
       "status": "ok",
@@ -341,6 +341,11 @@
       "data": "2026-11-24",
       "agente": "roteirista",
       "texto": "Roteiros do Short das 17 armadilhas e do tutorial de webcam no OBS."
+    },
+    {
+      "data": "2026-11-24",
+      "agente": "analista",
+      "texto": "Leitura de 23/11: 16 visitas (+154% sobre a média), TWS em alta; ações para vendas, viral e pesquisador."
     }
   ]
 }

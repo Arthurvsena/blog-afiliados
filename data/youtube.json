@@ -1,14 +1,14 @@
 {
-  "atualizado": "2026-11-23",
-  "periodo": "últimos 28 dias (até 22/11)",
+  "atualizado": "2026-11-24",
+  "periodo": "últimos 28 dias (até 23/11)",
   "canal": {
-    "visualizacoes": 4395,
-    "horas": 17.1,
-    "inscritos_saldo": 2,
+    "visualizacoes": 4572,
+    "horas": 17.8,
+    "inscritos_saldo": 3,
     "inscritos_total": 1,
-    "impressoes": 5010,
-    "ctr": 2.0,
-    "pct_media": 51.9,
+    "impressoes": 5302,
+    "ctr": 2.1,
+    "pct_media": 51.2,
     "duracao_media": "0:28"
   },
   "videos": [
@@ -22,8 +22,8 @@
       "inscritos": 1,
       "duracao_media": "0:24",
       "pct_media": 63.4,
-      "impressoes": 164,
-      "ctr": 4.3
+      "impressoes": 168,
+      "ctr": 4.2
     },
     {
       "titulo": "GTA 6 no Xbox One: só pela nuvem, e tem porém #shorts",
@@ -35,7 +35,7 @@
       "inscritos": 0,
       "duracao_media": "0:26",
       "pct_media": 57.1,
-      "impressoes": 90,
+      "impressoes": 92,
       "ctr": 1.1
     },
     {
@@ -62,7 +62,7 @@
       "duracao_media": "0:22",
       "pct_media": 48.1,
       "impressoes": 186,
-      "ctr": 0
+      "ctr": 0.0
     },
     {
       "titulo": "iPhone Duo: 234 mil dobras e a tela segue inteira #shorts",
@@ -74,47 +74,47 @@
       "inscritos": 1,
       "duracao_media": "0:29",
       "pct_media": 58.5,
-      "impressoes": 199,
-      "ctr": 1
+      "impressoes": 201,
+      "ctr": 1.0
     },
     {
       "titulo": "História do Orkut: por que o Google desligou? #shorts",
       "tipo": "short",
       "quadro": "historias",
       "duracao": "1:01",
-      "views": 348,
+      "views": 349,
       "horas": 1.3,
       "inscritos": 0,
       "duracao_media": "0:30",
       "pct_media": 49.5,
-      "impressoes": 237,
-      "ctr": 1.3
+      "impressoes": 260,
+      "ctr": 1.2
     },
     {
       "titulo": "Smartband ou smartwatch: qual vale para o seu dia a dia?",
       "tipo": "longo",
       "quadro": null,
       "duracao": "3:59",
-      "views": 125,
+      "views": 126,
       "horas": 1.6,
       "inscritos": 0,
       "duracao_media": "1:12",
-      "pct_media": 30.1,
-      "impressoes": 1854,
-      "ctr": 2.2
+      "pct_media": 30.4,
+      "impressoes": 1859,
+      "ctr": 2.3
     },
     {
       "titulo": "Anatel bloqueio de ligações: regra vale dia 12 #shorts",
       "tipo": "short",
       "quadro": "60s",
       "duracao": "0:41",
-      "views": 106,
+      "views": 110,
       "horas": 0.3,
       "inscritos": 0,
-      "duracao_media": "0:24",
-      "pct_media": 58.6,
-      "impressoes": 108,
-      "ctr": 3.7
+      "duracao_media": "0:25",
+      "pct_media": 62.2,
+      "impressoes": 112,
+      "ctr": 5.4
     },
     {
       "titulo": "GTA 6 ocupa até 212 GB e dá para baixar antes #shorts",
@@ -130,17 +130,43 @@
       "ctr": 6.5
     },
     {
+      "titulo": "Galaxy A: preço pode subir até 19% em 2027 (rumor) #shorts",
+      "tipo": "short",
+      "quadro": "60s",
+      "duracao": "0:49",
+      "views": 86,
+      "horas": 0.2,
+      "inscritos": 1,
+      "duracao_media": "0:21",
+      "pct_media": 44.0,
+      "impressoes": 45,
+      "ctr": 2.2
+    },
+    {
       "titulo": "Como ter vários WhatsApp no iOS (passo a passo 2026)",
       "tipo": "longo",
       "quadro": "tutorial",
       "duracao": "4:04",
-      "views": 71,
-      "horas": 0.5,
+      "views": 83,
+      "horas": 0.7,
       "inscritos": 1,
-      "duracao_media": "0:58",
-      "pct_media": 24,
-      "impressoes": 522,
-      "ctr": 4.6
+      "duracao_media": "1:06",
+      "pct_media": 27.4,
+      "impressoes": 608,
+      "ctr": 4.4
+    },
+    {
+      "titulo": "História do Tamagotchi: 30 anos do bichinho virtual #shorts",
+      "tipo": "short",
+      "quadro": "historias",
+      "duracao": "1:07",
+      "views": 66,
+      "horas": 0.2,
+      "inscritos": 0,
+      "duracao_media": "0:15",
+      "pct_media": 22.8,
+      "impressoes": 64,
+      "ctr": 3.1
     },
     {
       "titulo": "GTA 6 pré-carregamento: 10 ou 12/11? Datas divergem #shorts",
@@ -153,33 +179,33 @@
       "duracao_media": "0:22",
       "pct_media": 44.6,
       "impressoes": 16,
-      "ctr": 0
+      "ctr": 0.0
     },
     {
       "titulo": "Vivo Satélite: 10 milhões já usaram e vem cobrança #shorts",
       "tipo": "short",
       "quadro": "60s",
       "duracao": "0:32",
-      "views": 42,
+      "views": 43,
       "horas": 0.1,
       "inscritos": 0,
       "duracao_media": "0:34",
       "pct_media": 106.6,
-      "impressoes": 309,
-      "ctr": 1.3
+      "impressoes": 338,
+      "ctr": 1.2
     },
     {
       "titulo": "CNH digital na blitz: print não vale #shorts",
       "tipo": "short",
       "quadro": "60s",
       "duracao": "0:39",
-      "views": 32,
-      "horas": 0,
+      "views": 38,
+      "horas": 0.0,
       "inscritos": 0,
       "duracao_media": "0:16",
-      "pct_media": 41,
-      "impressoes": 156,
-      "ctr": 1.9
+      "pct_media": 41.0,
+      "impressoes": 170,
+      "ctr": 1.8
     },
     {
       "titulo": "Black Friday antecipada: 3 regras contra preço falso #shorts",
@@ -191,7 +217,7 @@
       "inscritos": 0,
       "duracao_media": "0:21",
       "pct_media": 58.2,
-      "impressoes": 88,
+      "impressoes": 89,
       "ctr": 2.3
     },
     {
@@ -200,7 +226,7 @@
       "quadro": null,
       "duracao": "0:40",
       "views": 15,
-      "horas": 0,
+      "horas": 0.0,
       "inscritos": 0,
       "duracao_media": "0:19",
       "pct_media": 48.7,
@@ -217,7 +243,7 @@
       "inscritos": 0,
       "duracao_media": "1:03",
       "pct_media": 24.6,
-      "impressoes": 825,
+      "impressoes": 831,
       "ctr": 0.5
     },
     {
@@ -230,8 +256,8 @@
       "inscritos": 0,
       "duracao_media": "0:50",
       "pct_media": 14.5,
-      "impressoes": 64,
-      "ctr": 1.6
+      "impressoes": 73,
+      "ctr": 1.4
     },
     {
       "titulo": "História do Xbox: o console que dava prejuízo #shorts",
@@ -239,12 +265,12 @@
       "quadro": "historias",
       "duracao": "1:02",
       "views": 4,
-      "horas": 0,
+      "horas": 0.0,
       "inscritos": 0,
       "duracao_media": "0:42",
-      "pct_media": 69,
-      "impressoes": 45,
-      "ctr": 0
+      "pct_media": 69.0,
+      "impressoes": 50,
+      "ctr": 0.0
     },
     {
       "titulo": "Smartband ou smartwatch: qual vale para o seu dia a dia?",
@@ -252,7 +278,7 @@
       "quadro": null,
       "duracao": "4:07",
       "views": 1,
-      "horas": 0,
+      "horas": 0.0,
       "inscritos": 0,
       "duracao_media": "0:55",
       "pct_media": 22.4,
@@ -305,6 +331,11 @@
       "dia": "2026-11-23",
       "visualizacoes_28d": 4395,
       "inscritos_saldo_28d": 2
+    },
+    {
+      "dia": "2026-11-24",
+      "visualizacoes_28d": 4572,
+      "inscritos_saldo_28d": 3
     }
   ],
   "faltou": [
