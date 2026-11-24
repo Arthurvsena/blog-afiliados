@@ -8,7 +8,7 @@ subnicho: power-banks-carregadores
 tipo: guia
 produtos: [ugreen-pb311-10000-20w, anker-nano-a1259-10000]
 publicado: 2026-10-29
-atualizado: 2026-11-10
+atualizado: 2026-11-24
 capa_frase: "10.000 mAh que cabem no bolso"
 faq:
   - pergunta: "Qual o melhor power bank para o dia a dia?"
@@ -117,3 +117,10 @@ Se o seu celular é um iPhone, veja os [power banks com USB-C PD para iPhone](/p
 :::veredito
 Na minha leitura, o Ugreen PB311 é a escolha certa para o dia a dia, e o Anker Nano vale se você quer cabo embutido e 30 W. Para viagem, vá de 20.000 mAh.
 :::
+
+## Veja também
+
+- [Power banks de 20.000 mAh](/posts/melhores-power-banks-20000mah/)
+- [Power banks com USB-C PD para iPhone](/posts/melhores-power-banks-iphone/)
+- [Como escolher um power bank](/posts/como-escolher-power-bank/)
+- Black Friday (27/11): [como não cair em preço falso na Black Friday](/posts/black-friday-2026-eletronicos-como-nao-cair-em-preco-falso/)

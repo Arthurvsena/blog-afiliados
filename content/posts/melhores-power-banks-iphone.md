@@ -8,7 +8,7 @@ subnicho: power-banks-carregadores
 tipo: lista
 produtos: [ugreen-pb311-10000-20w, anker-nano-a1259-10000, baseus-bipow2-pro-20000, anker-zolo-a110m-20000-45w]
 publicado: 2026-11-08
-atualizado: 2026-11-08
+atualizado: 2026-11-24
 capa_frase: "Power bank para iPhone: o que checar"
 compartilhar: "Antes de comprar power bank para iPhone, confira: USB-C com PD de 20 W ou mais e o cabo certo para o seu modelo."
 faq:
@@ -164,3 +164,10 @@ Vai comprar na Black Friday (27/11)? Leia antes [como não cair em preço falso]
 :::veredito
 Na minha leitura, o Ugreen PB311 é o caminho para quem quer um power bank barato e compacto para o iPhone, e o Anker Zolo só compensa se você carrega mais de um aparelho. Para viagem, o Baseus Bipow2 Pro dá bateria de sobra. Antes de fechar, confira a porta USB-C com PD no anúncio.
 :::
+
+## Veja também
+
+- [Melhores power banks de 10.000 mAh](/posts/melhores-power-banks/)
+- [Power banks de 20.000 mAh](/posts/melhores-power-banks-20000mah/)
+- [Como escolher um power bank](/posts/como-escolher-power-bank/)
+- Black Friday (27/11): [como não cair em preço falso na Black Friday](/posts/black-friday-2026-eletronicos-como-nao-cair-em-preco-falso/)

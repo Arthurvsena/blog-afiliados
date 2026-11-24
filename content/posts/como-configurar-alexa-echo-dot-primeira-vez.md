@@ -7,7 +7,7 @@ palavras_secundarias: ["como configurar alexa", "lâmpada inteligente alexa", "t
 editoria: tutoriais
 tipo: tutorial
 publicado: 2026-11-05 10:00
-atualizado: 2026-11-05
+atualizado: 2026-11-24
 fontes:
   - nome: "Labra"
     url: "https://labra.com.br/?p=7724"
@@ -29,6 +29,10 @@ faq:
     resposta: "No app Alexa, abra o aparelho na lista de dispositivos e procure a opção de alterar a rede Wi-Fi, que fica nas configurações do Echo. O nome exato do menu pode variar conforme a versão do app."
   - pergunta: "A Alexa+ precisa de outra configuração?"
     resposta: "A configuração do aparelho é a mesma. A Alexa+ é uma camada à parte, ainda em acesso antecipado no Brasil, e é ativada pela sua conta."
+  - pergunta: "Que aparelho posso ligar à Alexa depois do Echo Dot?"
+    resposta: "A porta de entrada mais comum é a lâmpada inteligente Wi-Fi, e depois a tomada inteligente. Procure o selo Compatível com Alexa na embalagem ou na ficha do anúncio e adicione pelo mesmo caminho do app, em Dispositivos e Adicionar dispositivo."
+  - pergunta: "A Alexa fala português?"
+    resposta: "Sim, no Brasil a Alexa responde em português. Na configuração, confira o idioma do aparelho no app."
 imagem:
   arquivo: como-configurar-alexa-echo-dot-primeira-vez.jpg
   credito: Mack Male/Wikimedia Commons
@@ -101,6 +105,8 @@ A porta de entrada mais comum é a lâmpada. Uma opção do nosso catálogo, a {
 Para comparar mais modelos, veja as [melhores lâmpadas inteligentes para usar com a Alexa](/posts/melhores-lampadas-inteligentes-alexa/).
 
 Já a Alexa+, a versão com IA generativa, tem fila e exige Prime no Brasil. Se bateu a dúvida se compensa, leia a [análise da Alexa+ no Brasil](/posts/analise-alexa-plus-brasil-vale-a-pena-assinar/).
+
+Se quer começar a casa conectada, veja também [como configurar uma tomada inteligente na Alexa](/posts/tomada-inteligente-alexa-como-configurar/) e [como configurar a lâmpada inteligente no Wi-Fi e na Alexa](/posts/como-configurar-lampada-inteligente-wifi-alexa/).
 
 :::dica Cômodo certo
 Dê ao Echo o nome do cômodo onde ele fica. Depois, "acenda a luz da sala" funciona sem ambiguidade.

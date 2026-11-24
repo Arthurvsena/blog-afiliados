@@ -8,7 +8,7 @@ subnicho: power-banks-carregadores
 tipo: lista
 produtos: [samsung-ep-ta800-25w, baseus-gan5-30w, ugreen-nexode-45w-2c]
 publicado: 2026-11-04
-atualizado: 2026-11-04
+atualizado: 2026-11-24
 capa_frase: "Três carregadores, três potências"
 compartilhar: "Carregador turbo: Samsung 25 W, Baseus 30 W ou Ugreen 45 W? Depende dos watts do seu celular e de quantos aparelhos você carrega."
 faq:
@@ -28,7 +28,11 @@ imagem:
   licenca: Divulgação
   fonte: https://www.mercadolivre.com.br/carregador-samsung-25w-a30-a50-a70-a71-a80-a31-s20-cor-preto/p/MLB51927623
 ---
-O **melhor carregador turbo** depende de uma conta simples: quantos watts o seu celular aceita e quantos aparelhos você carrega ao mesmo tempo. Separei três carregadores de parede com USB-C, de 25 W a 45 W, e digo para quem cada um faz sentido.
+:::dica Escolha principal
+**Melhor carregador turbo, escolha principal:** para quem tem Galaxy, o {{link:samsung-ep-ta800-25w|Samsung EP-TA800 de 25 W}}. Se carrega mais de um aparelho, o {{link:ugreen-nexode-45w-2c|Ugreen Nexode de 45 W}}.
+:::
+
+**Melhor carregador turbo:** depende de uma conta simples: quantos watts o seu celular aceita e quantos aparelhos você carrega ao mesmo tempo. Separei três carregadores de parede com USB-C, de 25 W a 45 W, e digo para quem cada um faz sentido.
 
 **Resposta rápida:** para celular Samsung comum, vá de {{link:samsung-ep-ta800-25w|Samsung de 25 W}}. Para carregar celular e outro aparelho, o {{link:ugreen-nexode-45w-2c|Ugreen Nexode de 45 W}}. O {{link:baseus-gan5-30w|Baseus de 30 W}} fica no meio do caminho.
 
@@ -142,6 +146,8 @@ Na minha leitura, o Samsung de 25 W é a compra segura para quem tem Galaxy, e o
 :::
 
 ## Leia também
+
+Vai comprar na Black Friday (27/11)? Leia antes [como não cair em preço falso na Black Friday](/posts/black-friday-2026-eletronicos-como-nao-cair-em-preco-falso/) e anote o preço normal do carregador.
 
 Dúvida sobre o original? Veja se o [carregador USB-C Apple precisa ser o original](/posts/carregador-usb-c-apple-qual-comprar/).
 

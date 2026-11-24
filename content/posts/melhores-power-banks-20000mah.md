@@ -8,7 +8,7 @@ subnicho: power-banks-carregadores
 tipo: lista
 produtos: [anker-a110e-20000-22w, anker-zolo-a110m-20000-45w, ugreen-pb312-20000, baseus-bipow2-pro-20000]
 publicado: 2026-10-31
-atualizado: 2026-10-31
+atualizado: 2026-11-24
 capa_frase: "20.000 mAh, quatro jeitos de escolher"
 faq:
   - pergunta: "Vale a pena um power bank de 20000mAh ou um de 10.000 mAh?"
@@ -174,3 +174,10 @@ Carrega um iPhone? Veja os [power banks com USB-C PD para iPhone](/posts/melhore
 :::veredito
 Baseus Bipow2 Pro para uso comum; Anker Zolo se você carrega tablet ou notebook pequeno. Pagar por 45 W só vale se você usa essa potência.
 :::
+
+## Veja também
+
+- [Melhores power banks de 10.000 mAh](/posts/melhores-power-banks/)
+- [Power banks com USB-C PD para iPhone](/posts/melhores-power-banks-iphone/)
+- [Como escolher um power bank](/posts/como-escolher-power-bank/)
+- Black Friday (27/11): [como não cair em preço falso na Black Friday](/posts/black-friday-2026-eletronicos-como-nao-cair-em-preco-falso/)

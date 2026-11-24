@@ -2,6 +2,94 @@
 
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
+## 2026-11-24 · Celular lançamento bom e barato: A57 na Vivo exige plano
+Link: https://nexustechai.com.br/posts/vivo-purple-friday-galaxy-a57-s26-fe-ate-30-novembro-plano-exigido/
+- WhatsApp: Galaxy A57 por R$ 1.999 na Vivo, mas só com plano Controle. Campanha até 30/11. Leia as regras antes de fechar: https://nexustechai.com.br/posts/vivo-purple-friday-galaxy-a57-s26-fe-ate-30-novembro-plano-exigido/
+- X: Galaxy A57 5G de 256 GB por R$ 1.999 na Vivo, só contratando plano Controle (Canaltech, 11/11). Campanha até 30/11. O S26 FE a R$ 2.999 foi preço de outubro, sem confirmação de que segue. Regras: https://nexustechai.com.br/posts/vivo-purple-friday-galaxy-a57-s26-fe-ate-30-novembro-plano-exigido/
+- Instagram (legenda): O Galaxy A57 por R$ 1.999 tem pegadinha.
+  Na Vivo, o preço só vale com plano Vivo Controle.
+  A campanha vai até 30/11. O S26 FE a R$ 2.999 era de outubro e não confirmei se continua.
+  Compare com o preço sem plano. Link na bio.
+  #galaxya57 #blackfriday #vivo
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "A57 por R$ 1.999 tem pegadinha." [2-8 s] Fato 1: o preço da Vivo vale só com plano Controle. [8-14 s] Fato 2: a campanha vai até 30/11. [14-18 s] Fato 3: o S26 FE a R$ 2.999 era preço de outubro, sem confirmação de hoje. [18-20 s] "Regras completas: link na bio."
+
+## 2026-11-24 · WhatsApp novidades: texto de visualização única no iPhone
+Link: https://nexustechai.com.br/posts/whatsapp-texto-visualizacao-unica-como-vai-funcionar-iphone-beta/
+- WhatsApp: O WhatsApp está testando mensagem de texto que some depois de lida, no iPhone. Ainda é beta e a Meta não confirmou nada: https://nexustechai.com.br/posts/whatsapp-texto-visualizacao-unica-como-vai-funcionar-iphone-beta/
+- X: WhatsApp testa texto de visualização única no iPhone: some após a leitura e bloqueia print, cópia e encaminhamento. É beta, sem data nem confirmação da Meta para o Brasil: https://nexustechai.com.br/posts/whatsapp-texto-visualizacao-unica-como-vai-funcionar-iphone-beta/
+- Instagram (legenda): Mensagem de texto que some depois de lida.
+  O WhatsApp testa isso no beta do iPhone, com bloqueio de print, cópia e encaminhamento.
+  Ainda é teste: a Meta não confirmou data nem Brasil.
+  Detalhes no link da bio.
+  #whatsapp #iphone #privacidade
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "WhatsApp vai ter texto que some?" [2-8 s] Fato 1: está em teste no beta do iPhone. [8-14 s] Fato 2: bloqueia print, cópia e encaminhamento. [14-18 s] Fato 3: a Meta não confirmou data nem Brasil. [18-20 s] "Como funciona: link na bio."
+
+## 2026-11-24 · Claude IA revisa código no GitHub: o que é o Code Review
+Link: https://nexustechai.com.br/posts/claude-ia-code-review-github-anthropic/
+- WhatsApp: O Claude agora revisa pull requests no GitHub com vários agentes, mas só comenta: não aprova nem bloqueia. Planos Team e Enterprise: https://nexustechai.com.br/posts/claude-ia-code-review-github-anthropic/
+- X: Code Review do Claude revisa pull requests no GitHub com vários agentes. Só comenta, não aprova nem bloqueia, e é para planos Team e Enterprise. O que faz e o que não faz: https://nexustechai.com.br/posts/claude-ia-code-review-github-anthropic/
+- Instagram (legenda): A IA que revisa seu código no GitHub já existe.
+  O Code Review do Claude usa vários agentes por pull request.
+  Só que ele comenta: não aprova nem bloqueia sozinho.
+  Só nos planos Team e Enterprise. Link na bio.
+  #claude #github #programacao
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "O Claude revisa seu código?" [2-8 s] Fato 1: o Code Review analisa pull requests com vários agentes. [8-14 s] Fato 2: ele só comenta, não aprova nem bloqueia. [14-18 s] Fato 3: vale só para planos Team e Enterprise. [18-20 s] "Detalhes: link na bio."
+
+## 2026-11-24 · Nintendo Switch Lite vale a pena em 2026? Para quem ainda serve
+Link: https://nexustechai.com.br/posts/nintendo-switch-lite-vale-a-pena-2026/
+- WhatsApp: Switch Lite em 2026: não joga na TV e tem a menor bateria da linha. Vale só para quem joga sozinho e em modo portátil: https://nexustechai.com.br/posts/nintendo-switch-lite-vale-a-pena-2026/
+- X: Switch Lite em 2026 ainda vale? Só se você joga sozinho, no portátil. Não joga na TV, tem a menor bateria da família e não roda exclusivo do Switch 2. Análise: https://nexustechai.com.br/posts/nintendo-switch-lite-vale-a-pena-2026/
+- Instagram (legenda): O Switch Lite ainda vale em 2026?
+  Só para quem joga sozinho e em modo portátil.
+  Não vai à TV, tem a menor bateria da linha e não roda o que é exclusivo do Switch 2.
+  Veja se é o seu caso. Link na bio.
+  #nintendoswitch #switchlite #games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Switch Lite ainda vale em 2026?" [2-8 s] Fato 1: não joga na TV, é só portátil. [8-14 s] Fato 2: tem a menor bateria da família. [14-18 s] Fato 3: não roda o que é exclusivo do Switch 2. [18-20 s] "Para quem serve: link na bio."
+
+## 2026-11-24 · IA grátis para criar imagens: 4 opções e os limites reais
+Link: https://nexustechai.com.br/posts/ia-gratis-para-criar-imagens-como-fazer/
+- WhatsApp: Dá para criar imagem com IA de graça, mas todas têm limite. Gemini, ChatGPT, Leonardo e Meta AI comparados: https://nexustechai.com.br/posts/ia-gratis-para-criar-imagens-como-fazer/
+- X: IA grátis para criar imagens: Gemini, ChatGPT, Leonardo e Meta AI têm plano sem custo, mas nenhuma é ilimitada. Passo a passo e o limite de cada uma: https://nexustechai.com.br/posts/ia-gratis-para-criar-imagens-como-fazer/
+- Instagram (legenda): IA grátis para criar imagem existe, mas com teto.
+  Conferi Gemini, ChatGPT, Leonardo e Meta AI no WhatsApp.
+  Nenhuma é ilimitada, apesar do que muito guia promete.
+  Passo a passo no link da bio.
+  #ia #inteligenciaartificial #gemini
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "IA grátis para imagem: qual vale?" [2-8 s] Fato 1: Gemini, ChatGPT, Leonardo e Meta AI têm plano grátis. [8-14 s] Fato 2: nenhuma é ilimitada. [14-18 s] Fato 3: o Leonardo dá 150 tokens por dia. [18-20 s] "Passo a passo: link na bio."
+
+## 2026-11-24 · Mouse gamer Redragon: qual modelo vale a pena em 2026
+Link: https://nexustechai.com.br/posts/melhores-mouses-gamer-redragon/
+- WhatsApp: Mouse gamer Redragon: Cobra M711 é o barato com fio, King Pro é o sem fio de 50 g. Guia com 5 modelos: https://nexustechai.com.br/posts/melhores-mouses-gamer-redragon/
+- X: Mouse gamer Redragon: 5 modelos comparados. Cobra M711 para gastar pouco com fio, King Pro sem fio com 50 g, Cobra Pro e Storm Pro com 8 botões. Guia: https://nexustechai.com.br/posts/melhores-mouses-gamer-redragon/
+- Instagram (legenda): Qual mouse gamer Redragon comprar?
+  Cobra M711 para gastar pouco, com fio.
+  King Pro para quem quer leveza: 50 g e sem fio.
+  Cobra Pro e Storm Pro têm 8 botões. Guia na bio.
+  #redragon #mousegamer #setupgamer
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Qual Redragon comprar?" [2-8 s] Fato 1: Cobra M711, barato e com fio. [8-14 s] Fato 2: King Pro, sem fio com 50 g. [14-18 s] Fato 3: Cobra Pro e Storm Pro têm 8 botões sem cabo. [18-20 s] "Guia: link na bio."
+
+## 2026-11-24 · Fone Bluetooth JBL: qual comprar entre Wave Buds e Tune 520BT
+Link: https://nexustechai.com.br/posts/fone-bluetooth-jbl-qual-comprar/
+- WhatsApp: Fone JBL: Wave Buds 2 tem cancelamento de ruído, Tune 520BT promete até 57 h de bateria. Qual combina com você: https://nexustechai.com.br/posts/fone-bluetooth-jbl-qual-comprar/
+- X: Fone Bluetooth JBL: Wave Buds 2 é o único com cancelamento de ruído; o Tune 520BT promete até 57 h de bateria. Qual serve para você: https://nexustechai.com.br/posts/fone-bluetooth-jbl-qual-comprar/
+- Instagram (legenda): Fone JBL: cancelamento de ruído ou bateria?
+  O Wave Buds 2 tem ANC e IP54.
+  O Tune 520BT promete até 57 h.
+  O guia diz para quem cada um não serve. Link na bio.
+  #jbl #fonebluetooth #tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Qual fone JBL comprar?" [2-8 s] Fato 1: Wave Buds 2 tem cancelamento de ruído e IP54. [8-14 s] Fato 2: Tune 520BT promete até 57 h. [14-18 s] Fato 3: o Quantum 100M2 tem cabo, é para jogo. [18-20 s] "Guia: link na bio."
+
+## 2026-11-24 · Galaxy novo barato na Black Friday? Samsung dá 18x sem juros
+Link: https://nexustechai.com.br/posts/samsung-black-friday-2026-ofertas-parcelamento-18x-quais-celulares/
+- WhatsApp: A Black Week da Samsung vai até domingo (29/11) com 18x sem juros, mas a Samsung não divulgou preço nem quais Galaxy entram. Regras: https://nexustechai.com.br/posts/samsung-black-friday-2026-ofertas-parcelamento-18x-quais-celulares/
+- X: Samsung Black Week até 29/11: 18x sem juros em até 2 cartões, troca com desconto maior e frete grátis em categorias. Só que o comunicado não traz preço nem lista de Galaxy. Compare o total, não a parcela: https://nexustechai.com.br/posts/samsung-black-friday-2026-ofertas-parcelamento-18x-quais-celulares/
+- Instagram (legenda): 18x sem juros não significa Galaxy barato.
+  A Black Week da Samsung vai até 29/11, com 2 cartões e troca com desconto maior.
+  Mas a empresa não divulgou preço nem modelos.
+  Anote o preço de hoje e compare o valor total. Link na bio.
+  #blackfriday #samsung #galaxy
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "18x sem juros na Samsung engana?" [2-8 s] Fato 1: a Black Week vai só até 29/11, com parcelamento em até 18x e 2 cartões. [8-14 s] Fato 2: a Samsung não divulgou preço nem quais Galaxy entram. [14-18 s] Fato 3: anote o preço de hoje e compare o total à vista com o parcelado. [18-20 s] "Regras completas: link na bio."
+
 ## 2026-11-23 · Câmera wifi: como funciona e como escolher a certa
 Link: https://nexustechai.com.br/posts/camera-wifi-como-funciona-como-escolher/
 - WhatsApp: Antes de comprar câmera Wi-Fi, leve o celular até o ponto onde ela vai ficar e veja se o sinal chega. Guia com o que checar: https://nexustechai.com.br/posts/camera-wifi-como-funciona-como-escolher/
@@ -353,98 +441,3 @@ Link: https://nexustechai.com.br/posts/golpe-pix-errado-o-que-fazer/
   O golpista ainda aciona o MED e fica com os dois valores.
   #pix #golpe #segurancadigital
 - TikTok/Reels (roteiro de 20 s): [0-2 s] "Pix errado na sua conta? Cuidado." [2-8 s] Fato 1: o golpista pede o dinheiro de volta em outra conta. [8-14 s] Fato 2: depois aciona o MED e fica com os dois valores. [14-18 s] Fato 3: devolva só pelo botão do app; já caiu, você tem 80 dias para contestar. [18-20 s] "Passo a passo no link da bio."
-
-## 2026-11-19 · Oppo Black Friday: A6t por R$ 799 e A5 Pro por R$ 1.999
-Link: https://nexustechai.com.br/posts/oppo-black-friday-2026-ate-30-a6t-a5-pro-reno16-f-mercado-livre/
-- WhatsApp: Oppo A6t por R$ 799 no Mercado Livre a partir de 23/11 e A5 Pro de R$ 2.899 por R$ 1.999. Confira as regras: https://nexustechai.com.br/posts/oppo-black-friday-2026-ate-30-a6t-a5-pro-reno16-f-mercado-livre/
-- X: Oppo na Black Friday: A6t (6.000 mAh) por R$ 799 no ML a partir de 23/11 e A5 Pro de R$ 2.899 por R$ 1.999. Valores informados pelo Canaltech, podem mudar: https://nexustechai.com.br/posts/oppo-black-friday-2026-ate-30-a6t-a5-pro-reno16-f-mercado-livre/
-- Instagram (legenda): Celular Oppo por R$ 799 na Black Friday.
-  É o A6t, com bateria de 6.000 mAh, no Mercado Livre a partir de 23/11.
-  O A5 Pro cai de R$ 2.899 para R$ 1.999.
-  Anote o preço de hoje para comparar no dia.
-  #oppo #blackfriday #celularbarato
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Celular com 6.000 mAh por R$ 799?" [2-8 s] Fato 1: Oppo A6t a R$ 799 no ML a partir de 23/11. [8-14 s] Fato 2: A5 Pro cai de R$ 2.899 para R$ 1.999. [14-18 s] Fato 3: Reno16 F tem troca de tela grátis se ativado até 30/11. [18-20 s] "Regras completas no link da bio."
-
-## 2026-11-19 · GTA 6 no PS5 Pro não roda a 60 FPS: Rockstar culpa a CPU
-Link: https://nexustechai.com.br/posts/rockstar-ps5-pro-nao-roda-gta-6-60-fps-cpu-input-lag/
-- WhatsApp: GTA 6 no PS5 Pro fica em 30 FPS. A Rockstar diz que a CPU, quase igual à do PS5 comum, é o gargalo: https://nexustechai.com.br/posts/rockstar-ps5-pro-nao-roda-gta-6-60-fps-cpu-input-lag/
-- X: GTA 6 no PS5 Pro não roda a 60 FPS. Segundo a Rockstar, a CPU quase igual à do PS5 comum não cumpre os 16 ms por quadro. O estúdio diz ter cortado 1 frame de input lag vs. RDR2: https://nexustechai.com.br/posts/rockstar-ps5-pro-nao-roda-gta-6-60-fps-cpu-input-lag/
-- Instagram (legenda): GTA 6 no PS5 Pro não chega a 60 FPS.
-  A Rockstar culpa a CPU, não a GPU.
-  Em troca, diz ter cortado 1 frame de atraso no controle.
-  Vale trocar de console por isso? Veja no link da bio.
-  #gta6 #ps5pro #rockstar
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "GTA 6 no PS5 Pro não roda a 60 FPS." [2-8 s] Fato 1: a Rockstar culpa a CPU, só um pouco melhor que a do PS5 comum. [8-14 s] Fato 2: o jogo trava em 30 FPS nos consoles. [14-18 s] Fato 3: o estúdio diz ter cortado 1 frame de input lag vs. RDR2. [18-20 s] "Análise completa no link da bio."
-
-## 2026-11-19 · iPhone 17 Claro: 21x de R$ 139, mas só com troca e plano
-Link: https://nexustechai.com.br/posts/claro-multi-friday-iphone-17-21x-139-galaxy-s26-condicoes/
-- WhatsApp: iPhone 17 em 21x de R$ 139 na Claro, mas só com troca de usado e Plano Multi 200 GB. Leia a letra miúda antes: https://nexustechai.com.br/posts/claro-multi-friday-iphone-17-21x-139-galaxy-s26-condicoes/
-- X: iPhone 17 de 256 GB na Claro: 21x de R$ 139 (R$ 2.919 no total), mas só com Claro Troca e Plano Multi 200 GB. O preço do plano ainda não foi divulgado. Letra miúda: https://nexustechai.com.br/posts/claro-multi-friday-iphone-17-21x-139-galaxy-s26-condicoes/
-- Instagram (legenda): iPhone 17 em 21x de R$ 139 na Claro.
-  Mas só com Claro Troca e Plano Multi 200 GB.
-  O desconto da troca é "até R$ 2 mil", conforme o usado.
-  Veja o que a Claro não contou, antes da Black Friday (27/11).
-  #iphone17 #claro #blackfriday
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "iPhone 17 a R$ 139 por mês? Tem pegadinha." [2-8 s] Fato 1: 21x de R$ 139 na Claro, R$ 2.919 no total. [8-14 s] Fato 2: só com Claro Troca e Plano Multi 200 GB. [14-18 s] Fato 3: preço do plano e fim da oferta não foram informados. [18-20 s] "Letra miúda completa no link da bio."
-
-## 2026-11-18 · Motorola lançamento barato: qual celular comprar agora
-Link: https://nexustechai.com.br/posts/motorola-lancamento-barato-qual-celular-comprar/
-- WhatsApp: Moto G47: bateria de 5.200 mAh e IP64, mas só 4 GB de RAM. Vale esperar a Black Friday (27/11)? https://nexustechai.com.br/posts/motorola-lancamento-barato-qual-celular-comprar/
-- X: Moto G47 tem tela de 120 Hz, bateria de 5.200 mAh e IP64. O ponto fraco: 4 GB de RAM de verdade e carga de 20 W. Comparei com o G max: https://nexustechai.com.br/posts/motorola-lancamento-barato-qual-celular-comprar/
-- Instagram (legenda): Moto G47 vale a pena?
-  Bateria de 5.200 mAh, 120 Hz e resistência IP64.
-  Mas só 4 GB de RAM e carga de 20 W.
-  Veja antes da Black Friday (27/11).
-  #motorola #motog47 #blackfriday
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Moto G47: vale comprar?" [2-8 s] Fato 1: bateria de 5.200 mAh e IP64. [8-14 s] Fato 2: só 4 GB de RAM e carga de 20 W. [14-18 s] Fato 3: Black Friday é 27/11, até 15% no Pix. [18-20 s] "Comparativo completo no link da bio."
-
-## 2026-11-18 · Nintendo Switch barato: Lite, OLED ou Switch 2?
-Link: https://nexustechai.com.br/posts/nintendo-switch-barato-qual-comprar/
-- WhatsApp: O Switch Lite é o mais barato, mas não joga na TV. Veja qual modelo escolher antes da Black Friday (27/11): https://nexustechai.com.br/posts/nintendo-switch-barato-qual-comprar/
-- X: Switch Lite não joga na TV. O OLED tem a mesma potência do comum, só a tela é melhor. O Switch 2 tem bateria menor. Comparei os 3 antes da Black Friday: https://nexustechai.com.br/posts/nintendo-switch-barato-qual-comprar/
-- Instagram (legenda): Switch barato? Cuidado com o Lite.
-  Ele é o mais barato e o mais leve, mas não joga na TV.
-  Compare Lite, OLED e Switch 2 antes da Black Friday (27/11).
-  #nintendoswitch #blackfriday #games
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Switch barato? O Lite não joga na TV." [2-8 s] Fato 1: o OLED tem a mesma potência do comum, muda a tela. [8-14 s] Fato 2: o Switch 2 tem a bateria mais curta, 2 a 6,5 h. [14-18 s] Fato 3: Black Friday é 27/11, compare preço antes. [18-20 s] "Guia completo no link da bio."
-
-## 2026-11-18 · Inteligência artificial para celular Android: 4 IAs grátis
-Link: https://nexustechai.com.br/posts/melhores-ias-gratis-celular-android/
-- WhatsApp: 4 IAs grátis para o seu Android: Gemini, ChatGPT, Claude e Copilot. Veja qual instalar primeiro: https://nexustechai.com.br/posts/melhores-ias-gratis-celular-android/
-- X: Gemini, ChatGPT, Claude e Copilot têm plano grátis no Android, todos com limite de uso. Comparei o que cada um libera e qual instalar primeiro: https://nexustechai.com.br/posts/melhores-ias-gratis-celular-android/
-- Instagram (legenda): 4 IAs grátis para o seu celular Android.
-  Gemini, ChatGPT, Claude e Copilot têm plano sem custo, com limites.
-  Instale uma, teste por uma semana e só pague se bater no limite.
-  #inteligenciaartificial #android #gemini
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Quatro IAs grátis no seu Android." [2-8 s] Fato 1: Gemini, ChatGPT, Claude e Copilot têm plano grátis. [8-14 s] Fato 2: todos têm limite de uso. [14-18 s] Fato 3: Copilot exige Android 13 ou superior. [18-20 s] "Comparativo no link da bio."
-
-## 2026-11-18 · Alexa compatível com TV Samsung: como conectar e comandos
-Link: https://nexustechai.com.br/posts/alexa-compativel-tv-samsung-como-conectar/
-- WhatsApp: Sua TV Samsung de 2020 em diante já vem com Alexa, sem precisar de Echo. Passo a passo: https://nexustechai.com.br/posts/alexa-compativel-tv-samsung-como-conectar/
-- X: Smart TV Samsung de 2020 em diante já traz a Alexa integrada, segundo a Samsung. Fale pelo botão do controle. Com Echo, a TV precisa estar no Wi-Fi, não no cabo: https://nexustechai.com.br/posts/alexa-compativel-tv-samsung-como-conectar/
-- Instagram (legenda): Sua TV Samsung já pode ter Alexa.
-  Modelos de 2020 em diante trazem a assistente integrada.
-  Com Echo, só funciona se a TV estiver no Wi-Fi, não no cabo.
-  #alexa #samsung #smarttv
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Sua TV Samsung já fala com a Alexa." [2-8 s] Fato 1: de 2020 em diante, vem integrada. [8-14 s] Fato 2: segure o botão do microfone do controle. [14-18 s] Fato 3: com Echo, a TV tem que estar no Wi-Fi. [18-20 s] "Passo a passo no link da bio."
-
-## 2026-11-18 · Google Maps com Gemini monta roteiro de viagem: e no Brasil?
-Link: https://nexustechai.com.br/posts/google-maps-ask-maps-roteiros-ia-gemini-o-que-chega-ao-brasil/
-- WhatsApp: O Google Maps agora monta roteiro de viagem com IA (Ask Maps + Gemini). Se já chegou ao Brasil, ainda não foi confirmado: https://nexustechai.com.br/posts/google-maps-ask-maps-roteiros-ia-gemini-o-que-chega-ao-brasil/
-- X: O Google Maps ganhou roteiro de viagem feito pelo Gemini no Ask Maps, com pinos no mapa e plano dia a dia. Agendamento por IA, só nos EUA por ora. Brasil não confirmado: https://nexustechai.com.br/posts/google-maps-ask-maps-roteiros-ia-gemini-o-que-chega-ao-brasil/
-- Instagram (legenda): O Google Maps agora monta sua viagem com IA.
-  Roteiro com pinos numerados e programação dia a dia, pelo Gemini.
-  Agendar por IA fica só nos EUA, por enquanto. Brasil ainda sem confirmação.
-  #googlemaps #gemini #viagem
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "O Maps agora monta sua viagem." [2-8 s] Fato 1: o Gemini faz roteiro de vários dias no Ask Maps. [8-14 s] Fato 2: agendamento por IA só nos EUA, por ora. [14-18 s] Fato 3: Brasil ainda não confirmado. [18-20 s] "Detalhes no link da bio."
-
-## 2026-11-18 · Gemini Google: como usar as novas vozes regionais em PT-BR
-Link: https://nexustechai.com.br/posts/gemini-sotaques-regionais-portugues-66-vozes-como-ativar/
-- WhatsApp: O Gemini ganhou 66 vozes regionais, com português do Brasil. Veja onde trocar a voz no app: https://nexustechai.com.br/posts/gemini-sotaques-regionais-portugues-66-vozes-como-ativar/
-- X: O Google liberou 66 vozes regionais no Gemini, incluindo português do Brasil. Quais sotaques entram ainda não foi detalhado. Onde ativar, no Android e iOS: https://nexustechai.com.br/posts/gemini-sotaques-regionais-portugues-66-vozes-como-ativar/
-- Instagram (legenda): O Gemini agora fala com sotaque regional.
-  São 66 vozes em 7 idiomas e dialetos, com português do Brasil.
-  A liberação é gradual. Passo a passo no link da bio.
-  #gemini #google #inteligenciaartificial
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "O Gemini ganhou sotaque." [2-8 s] Fato 1: são 66 vozes regionais. [8-14 s] Fato 2: português do Brasil está incluído, no Android e iOS. [14-18 s] Fato 3: menu Voz do Gemini, ouça as prévias. [18-20 s] "Passo a passo no link da bio."
-

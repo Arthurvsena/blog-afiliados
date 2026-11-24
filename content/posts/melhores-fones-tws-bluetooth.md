@@ -8,7 +8,7 @@ subnicho: fones-caixas-bluetooth
 tipo: lista
 produtos: [jbl-wave-buds-2, qcy-t13, philips-tat1209, redmi-buds-6-play]
 publicado: 2026-11-03
-atualizado: 2026-11-03
+atualizado: 2026-11-24
 capa_frase: "Só 1 de 4 tem ANC"
 compartilhar: "Entre 4 fones TWS (JBL, QCY, Philips, Xiaomi), só o JBL informa cancelamento de ruído. Dois vão a 40 h."
 faq:
@@ -28,7 +28,11 @@ imagem:
   licenca: Divulgação
   fonte: https://www.mercadolivre.com.br/fone-de-ouvido-bluetooth-jbl-wave-buds-2-fit-preto/p/MLB43534649
 ---
-Entre os quatro fones TWS Bluetooth que comparei, só um informa cancelamento de ruído (o JBL Wave Buds 2) e dois chegam a até 40 h de bateria somando o estojo (JBL e QCY T13 ENC). Philips TAT1209 e Redmi Buds 6 Play, da Xiaomi, completam a lista.
+:::dica Escolha principal
+**Escolha principal entre os fones TWS Bluetooth:** o {{link:jbl-wave-buds-2|JBL Wave Buds 2}}, o único com cancelamento de ruído na ficha. Para chamadas e bateria longa, o {{link:qcy-t13|QCY T13 ENC}}.
+:::
+
+**Fone TWS Bluetooth:** entre os quatro que comparei, só um informa cancelamento de ruído (o JBL Wave Buds 2) e dois chegam a até 40 h de bateria somando o estojo (JBL e QCY T13 ENC). Philips TAT1209 e Redmi Buds 6 Play, da Xiaomi, completam a lista.
 
 Se você quer só a resposta: para silêncio no ônibus ou no metrô, vá de {{link:jbl-wave-buds-2|JBL Wave Buds 2}}; para chamadas e bateria longa, de {{link:qcy-t13|QCY T13 ENC}}. Philips e Xiaomi entram para quem prefere uma linha mais simples. TWS é o fone sem fio de verdade, que vem num estojo e não tem cabo nem entre as pontas.
 
@@ -182,6 +186,8 @@ Em geral sim, pelo Bluetooth padrão. Recursos de app podem variar, então confi
 
 Se o seu dia tem barulho, {{link:jbl-wave-buds-2|veja o preço atual do JBL Wave Buds 2}}. Se o foco é chamada e bateria, o QCY T13 ENC é a escolha mais segura pelo histórico de avaliações.
 
+
+Vai comprar na Black Friday (27/11)? Leia antes [como não cair em preço falso na Black Friday](/posts/black-friday-2026-eletronicos-como-nao-cair-em-preco-falso/) e anote o preço normal do fone que escolheu.
 
 Primeira vez com um fone sem fio? Veja [fone TWS como usar: ligar, parear e carregar](/posts/fone-tws-como-usar-ligar-parear/).
 

@@ -8,7 +8,7 @@ subnicho: casa-inteligente
 tipo: lista
 produtos: [intelbras-ews-410, avant-pera-neo-10w, tplink-tapo-l530e, elgin-smart-color-10w]
 publicado: 2026-11-02
-atualizado: 2026-11-02
+atualizado: 2026-11-24
 capa_frase: "Casa conectada começa numa lâmpada"
 compartilhar: "4 lâmpadas Wi-Fi com Alexa, sem hub, para começar a casa conectada sem erro."
 faq:
@@ -22,6 +22,10 @@ faq:
     resposta: "Os quatro modelos desta lista usam soquete E27, o rosqueado mais comum. Confira o soquete dos seus bocais antes de comprar."
   - pergunta: "O que acontece se alguém desligar no interruptor?"
     resposta: "A lâmpada fica sem energia e sai da rede, então voz e aplicativo deixam de funcionar. Deixe o interruptor sempre ligado."
+  - pergunta: "Como configuro a lâmpada na Alexa depois de comprar?"
+    resposta: "Instale o app do fabricante, conecte a lâmpada ao Wi-Fi de 2,4 GHz e, no app Alexa, ative a skill do fabricante ou adicione o dispositivo. O passo a passo está no nosso guia de configuração."
+  - pergunta: "Preciso de um Echo para usar a lâmpada?"
+    resposta: "Para comandar por voz, sim: precisa de um aparelho com Alexa, como o Echo Dot, ou do app Alexa no celular. Pelo aplicativo do fabricante a lâmpada funciona sem eles."
 imagem:
   arquivo: melhores-lampadas-inteligentes-alexa.jpg
   credito: Intelbras/Divulgação
@@ -150,6 +154,8 @@ Se alguém desligar na parede, a lâmpada some da rede. Deixe o interruptor semp
 Nenhuma delas troca o seu interruptor, mas todas fazem a luz obedecer a voz, e isso já resolve boa parte do que se espera de uma casa conectada. Se for comprar só uma, sem rodeio, a escolha é esta.
 
 Se a Alexa ainda é novidade na sua casa, veja o [novo Echo Dot, que já traz hub de casa inteligente embutido](/posts/echo-dot-echo-time-brasil-pre-venda-11-novembro/) e a notícia sobre o [Alexa Plus no Brasil, com acesso grátis até fevereiro de 2027](/posts/alexa-plus-brasil-acesso-gratis-prorrogado-fevereiro-2027/). Quem quiser entender os limites antes de gastar deve ler o guia [lâmpada inteligente vale a pena](/posts/lampada-inteligente-vale-a-pena/), que explica o que muda com Wi-Fi, roteador e interruptor. É leitura curta e evita arrependimento. Já comprou? Siga o passo a passo para [configurar a lâmpada inteligente no Wi-Fi e na Alexa](/posts/como-configurar-lampada-inteligente-wifi-alexa/).
+
+Não tem o Echo ainda? Veja [como configurar o Echo Dot pela primeira vez](/posts/como-configurar-alexa-echo-dot-primeira-vez/). Quer ir além da lâmpada? Leia [tomada inteligente com Alexa: como configurar](/posts/tomada-inteligente-alexa-como-configurar/) e [lâmpada ou interruptor inteligente: qual escolher](/posts/lampada-inteligente-ou-interruptor-inteligente-qual-escolher/).
 
 :::veredito
 Para começar sem erro, Intelbras EWS 410 pela nota ou Avant Pera Neo pelo branco ajustável. Tapo e Elgin valem se você confirmar a Alexa na ficha.

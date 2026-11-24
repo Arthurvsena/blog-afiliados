@@ -1,41 +1,41 @@
 {
-  "ultima_execucao": "2026-11-23T07:53",
+  "ultima_execucao": "2026-11-24T07:50",
   "agentes": {
     "chefe": {
       "status": "ok",
-      "tarefa": "Reunião: foco no funil da Black Friday (listas, escolha principal, veja também) e em termos com busca e sem post."
+      "tarefa": "Montei o dia em torno da Black Friday: 4 notícias, 1 análise, 1 tutorial e 2 guias, e fechei a checagem final."
     },
     "pesquisador": {
       "status": "ok",
-      "tarefa": "Propôs termos com busca: Switch Lite e celulares da BF."
+      "tarefa": "Achei 4 notícias do dia (Samsung e Vivo na Black Friday, WhatsApp, Claude Code Review), subi o Switch Lite e reabasteci a fila."
     },
     "curador": {
-      "status": "ok",
-      "tarefa": "Redragon e JBL destravados; caixas até R$ 100 vira \"até R$ 200\"; apostas de BF só com o catálogo."
+      "status": "ocioso",
+      "tarefa": "Não fui chamado: Redragon e JBL já tinham produtos ativos."
     },
     "redator": {
       "status": "ok",
-      "tarefa": "Propôs veja também nas listas de energia, Redragon/JBL e guia GaN."
+      "tarefa": "Escrevi 4 notícias, a análise do Switch Lite, o tutorial de IA para imagens e os guias de mouses Redragon e fones JBL."
     },
     "seo": {
       "status": "ok",
-      "tarefa": "Relatório semanal: CTR 0,2%; reescreveu iPhone 11 e PS4; Echo Dot e lâmpadas mapeados."
+      "tarefa": "Revisei títulos, palavras-chave e links dos 7 posts novos, trocando termos que não existiam no palavras.json."
     },
     "atualizador": {
       "status": "ok",
-      "tarefa": "Propôs escolha principal em TWS e turbo e FAQ de Echo Dot e lâmpadas."
+      "tarefa": "Pus escolha principal em TWS e turbo, FAQ na Alexa e Veja também nas 3 listas de power bank."
     },
     "designer": {
       "status": "ok",
-      "tarefa": "Trocou a foto repetida da Alexa+; iPhone 13 segue sem foto oficial."
+      "tarefa": "Pus foto, capa e blocos visuais nos 7 posts novos e a escolha principal em destaque no TWS e no turbo."
     },
     "vendas": {
       "status": "ok",
-      "tarefa": "Relatório semanal: 2 ofertas no iPhone 11 e funil da BF; pautas GaN e desconto real."
+      "tarefa": "Reforcei chamadas nos guias de Redragon e JBL e conferi a escolha principal de TWS e turbo."
     },
     "viral": {
       "status": "ok",
-      "tarefa": "Dei nota às pautas e escrevi os textos de WhatsApp, X, Instagram e TikTok dos 9 posts em data/redes.md."
+      "tarefa": "Dei nota às pautas, afiei ganchos e escrevi os textos de rede dos 8 posts."
     },
     "produtor": {
       "status": "ok",
@@ -67,31 +67,6 @@
     }
   },
   "historico": [
-    {
-      "data": "2026-11-16",
-      "agente": "curador",
-      "texto": "ML em 403; sugeriu Intelbras ETW 1001+ e caixas até R$ 200; nada inventado."
-    },
-    {
-      "data": "2026-11-16",
-      "agente": "designer",
-      "texto": "Foto do iPhone 13 é de um 13 Pro; capas da Alexa+ repetidas."
-    },
-    {
-      "data": "2026-11-16",
-      "agente": "pesquisador",
-      "texto": "Propôs GTA 6, listas da BF e medição de títulos."
-    },
-    {
-      "data": "2026-11-16",
-      "agente": "redator",
-      "texto": "Propôs listas da BF, ofertas e GTA 6."
-    },
-    {
-      "data": "2026-11-16",
-      "agente": "atualizador",
-      "texto": "Propôs ofertas no PS4/Echo Dot e fim da canibalização de power bank."
-    },
     {
       "data": "2026-11-16",
       "agente": "chefe",
@@ -359,13 +334,38 @@
     },
     {
       "data": "2026-11-24",
-      "agente": "seg_animador",
-      "texto": "Animei 1 vídeo(s) em 3D do Segura Aí: panela-pegando-fogo "
+      "agente": "pesquisador",
+      "texto": "Trouxe 4 notícias e o Switch Lite como pautas de hoje."
     },
     {
       "data": "2026-11-24",
-      "agente": "seg_narrador",
-      "texto": "Narrei com a voz do Gemini e mixei efeitos e trilha"
+      "agente": "redator",
+      "texto": "Escrevi 7 posts novos, entre eles Redragon e JBL."
+    },
+    {
+      "data": "2026-11-24",
+      "agente": "seo",
+      "texto": "Revisei os 8 posts do dia."
+    },
+    {
+      "data": "2026-11-24",
+      "agente": "viral",
+      "texto": "Escrevi os textos de rede dos 8 posts."
+    },
+    {
+      "data": "2026-11-24",
+      "agente": "vendas",
+      "texto": "Reforcei chamadas nos guias Redragon e JBL."
+    },
+    {
+      "data": "2026-11-24",
+      "agente": "designer",
+      "texto": "Fotos e blocos visuais nos posts do dia."
+    },
+    {
+      "data": "2026-11-24",
+      "agente": "atualizador",
+      "texto": "Escolha principal, FAQ e Veja também em 7 posts."
     }
   ]
 }

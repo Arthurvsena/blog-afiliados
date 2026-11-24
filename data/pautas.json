@@ -1213,7 +1213,7 @@
   },
   {
     "id": "melhores-caixas-de-som-bluetooth-ate-100",
-    "viral": 4,
+    "viral": 3,
     "titulo": "Melhores caixas de som Bluetooth até R$ 100: o que esperar de som, bateria e resistência",
     "palavra_chave": "melhores caixa de som bluetooth até 100 reais",
     "secundarias": [
@@ -2845,8 +2845,9 @@
     "produtos_necessarios": 2,
     "prioridade": "alta",
     "motivo": "Termo de marca com força 4,13, sem cobertura. Só vale se o catálogo tiver 2 ou mais Redragon ativos; diferenciar de melhores-mouses-gamer-baratos (foco em preço).",
-    "status": "pendente",
-    "criada": "2026-11-09"
+    "status": "publicada",
+    "criada": "2026-11-09",
+    "post": "melhores-mouses-gamer-redragon"
   },
   {
     "id": "switch-2-passa-26-milhoes-vendas-nintendo-resultado-semestre",
@@ -4356,10 +4357,11 @@
     "produtos_necessarios": 0,
     "produtos_sugeridos": [],
     "motivo": "Maior termo sem post (força 4,41); linkar melhores-fones-tws-bluetooth.",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-16",
     "viral": 4,
-    "prioridade": "alta"
+    "prioridade": "alta",
+    "post": "fone-bluetooth-jbl-qual-comprar"
   },
   {
     "id": "carregador-usb-c-apple-qual-comprar",
@@ -5610,9 +5612,11 @@
     "tipo": "analise",
     "produtos_necessarios": 0,
     "motivo": "Termo com força 4,03 em palavras.json sem post; Google e ML. Sem preço no texto; só fatos de fonte aberta nesta execução.",
-    "prioridade": "alta",
-    "status": "pendente",
-    "criada": "2026-11-24"
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-24",
+    "viral": 3,
+    "post": "nintendo-switch-lite-vale-a-pena-2026"
   },
   {
     "id": "carregador-gan-ou-comum-iphone",
@@ -5624,6 +5628,282 @@
     "motivo": "Termo 3,94 em palavras.json; aposta do relatório de vendas. Linkar carregador-usb-c-apple-qual-comprar e carregador-turbo-iphone-usb-c-pd-qual-escolher sem canibalizar, e o guia da Black Friday.",
     "prioridade": "alta",
     "status": "pendente",
+    "criada": "2026-11-24",
+    "viral": 3
+  },
+  {
+    "id": "samsung-black-friday-2026-ofertas-parcelamento-18x-quais-celulares",
+    "titulo": "Black Friday da Samsung 2026: como funciona, parcelamento em 18x e o que olhar nos Galaxy",
+    "palavra_chave": "lançamento celular samsung 2026",
+    "secundarias": [
+      "lançamento celular samsung"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 1.83,
+    "editoria": "celulares",
+    "fontes": [
+      {
+        "nome": "Samsung Newsroom Brasil",
+        "url": "https://news.samsung.com/br/samsung-aposta-em-experiencia-do-consumidor-e-beneficios-exclusivos-para-a-black-friday-2026"
+      },
+      {
+        "nome": "Tecnoblog",
+        "url": "https://tecnoblog.net/achados/galaxy-s26-fe-atinge-menor-preco-desde-o-lancamento-no-magalu/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Aposta BF do mural #114. Campanha oficial desde 26/10 até a semana de 29/11, parcelamento em até 18x com até 2 cartões (conforme oferta). Sem preço no texto fora do que a fonte oficial traz; sem prometer desconto. Não repetir Galaxy S26 Ultra/S26 vs iPhone 17 já publicados. Conferir a página oficial ao escrever (WebFetch deu timeout hoje).",
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-24",
+    "viral": 5,
+    "post": "samsung-black-friday-2026-ofertas-parcelamento-18x-quais-celulares"
+  },
+  {
+    "id": "vivo-purple-friday-galaxy-a57-s26-fe-ate-30-novembro-plano-exigido",
+    "titulo": "Vivo Purple Friday: Galaxy A57 e S26 FE em oferta até 30/11, mas com plano e regras",
+    "palavra_chave": "celular lançamento bom e barato",
+    "secundarias": [
+      "celular bom e barato lançamento"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 2.83,
+    "editoria": "celulares",
+    "fontes": [
+      {
+        "nome": "Vivo Black Friday",
+        "url": "https://vivo.com.br/black-friday"
+      },
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/telecom/vivo-antecipa-black-friday-galaxy-a57-e-ate-nintendo-switch-2-em-oferta/"
+      },
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/telecom/vivo-comeca-black-friday-antes-da-hora-e-vende-s26-fe-por-menos-de-r-3-mil/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Aposta BF do mural #114. Canaltech (11/11): Galaxy A57 5G 256 GB por R$ 1.999 com plano Vivo Controle; (27/10) S26 FE 256 GB por R$ 2.999 com 10% no Pix. Campanha vai até 30/11 (Cyber Monday). Deixar claro que preço depende de plano e conferir na página oficial; preços com data. Alerta de que o ângulo é o plano exigido.",
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-24",
+    "viral": 5,
+    "post": "vivo-purple-friday-galaxy-a57-s26-fe-ate-30-novembro-plano-exigido"
+  },
+  {
+    "id": "whatsapp-texto-visualizacao-unica-como-vai-funcionar-iphone-beta",
+    "titulo": "WhatsApp testa texto de visualização única: o que muda e quem recebe primeiro",
+    "palavra_chave": "whatsapp novidade detectada na versão beta",
+    "secundarias": [],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 4.83,
+    "editoria": "tecnologia",
+    "fontes": [
+      {
+        "nome": "Olhar Digital (cita WABetaInfo)",
+        "url": "https://olhardigital.com.br/2026/11/23/internet-e-redes-sociais/whatsapp-testa-mensagem-de-texto-de-exibicao-unica-no-iphone/"
+      },
+      {
+        "nome": "Tecnoblog",
+        "url": "https://tecnoblog.net/noticias/whatsapp-texto-de-visualizacao-unica-esta-a-caminho/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Afeta muita gente. Tratar como recurso em teste no beta do iOS, sem confirmação oficial da Meta; não afirmar chegada ao Android. Não incluir o limite de 1.500 participantes (só uma fonte, WABetaInfo via Olhar Digital, e as buscas não confirmaram).",
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-24",
+    "viral": 3,
+    "post": "whatsapp-texto-visualizacao-unica-como-vai-funcionar-iphone-beta"
+  },
+  {
+    "id": "anthropic-code-review-claude-agentes-revisam-codigo-o-que-e",
+    "titulo": "Anthropic amplia o Claude Code Review: IA que revisa código no GitHub e o que é beta",
+    "palavra_chave": "claude ia",
+    "secundarias": [
+      "claude ia como usar"
+    ],
+    "fontes_termo": [
+      "google",
+      "mercadolivre"
+    ],
+    "forca": 2.3,
+    "editoria": "inteligencia-artificial",
+    "fontes": [
+      {
+        "nome": "Claude Code docs: Code Review",
+        "url": "https://code.claude.com/docs/en/code-review"
+      },
+      {
+        "nome": "Olhar Digital",
+        "url": "https://olhardigital.com.br/2026/11/23/inteligencia-artificial/anthropic-lanca-ia-que-revisa-corrige-e-aprova-alteracoes-em-codigos/"
+      },
+      {
+        "nome": "InfoQ",
+        "url": "https://infoq.com/news/2026/11/claude-code-review"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "ATENÇÃO redator: o Olhar Digital (23/11) fala em 'Claude Ship' com PR Steward e Claude Approvals (beta, planos Team/Enterprise, GitHub), mas essas duas peças não apareceram na documentação oficial; escrever só o que a doc e o InfoQ confirmam (Code Review comenta no PR, não aprova) e tratar o resto como 'segundo o Olhar Digital'. Termo claude ia (2,3) já tem o post do IPO; ângulo é útil para quem programa.",
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-24",
+    "viral": 2,
+    "post": "claude-ia-code-review-github-anthropic"
+  },
+  {
+    "id": "teclado-mecanico-ou-magnetico-qual-escolher",
+    "titulo": "Teclado mecânico ou magnético: qual vale a pena para jogar",
+    "palavra_chave": "teclado mecânico ou magnético",
+    "secundarias": [],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 3.58,
+    "subnicho": "acessorios-gamer",
+    "tipo": "guia",
+    "produtos_necessarios": 0,
+    "motivo": "Maior força entre os termos de acessórios sem post (3,58), intenção de comparação; dá link interno para os posts de teclado mecânico.",
+    "status": "pendente",
     "criada": "2026-11-24"
+  },
+  {
+    "id": "melhores-fones-tws-ate-200-reais",
+    "titulo": "Melhores fones TWS até R$ 200: 4 opções com bom custo-benefício",
+    "palavra_chave": "melhor fone tws até 200 reais",
+    "secundarias": [
+      "melhor fone tws custo beneficio"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 1.67,
+    "subnicho": "fones-caixas-bluetooth",
+    "produtos_sugeridos": [
+      "qcy-t13",
+      "qcy-t17",
+      "philips-tat1209",
+      "havit-tw969-lite"
+    ],
+    "tipo": "lista",
+    "produtos_necessarios": 4,
+    "motivo": "Termo de compra sem cobertura; catálogo tem QCY T13 e T17, Philips TAT1209 e Havit TW969 Lite, todos ativos.",
+    "status": "pendente",
+    "criada": "2026-11-24"
+  },
+  {
+    "id": "mi-band-ou-huawei-band-qual-comprar",
+    "titulo": "Mi Band ou Huawei Band: qual smartband comprar",
+    "palavra_chave": "mi band vs huawei band",
+    "secundarias": [
+      "mi band huawei"
+    ],
+    "fontes_termo": [
+      "google",
+      "mercadolivre"
+    ],
+    "forca": 1.83,
+    "subnicho": "smartwatches-smartbands",
+    "produtos_sugeridos": [
+      "xiaomi-smart-band-10",
+      "huawei-band-11"
+    ],
+    "tipo": "comparativo",
+    "produtos_necessarios": 2,
+    "motivo": "Comparação com busca no Google e no ML; subnicho com 7 produtos ativos e os dois modelos no catálogo.",
+    "status": "pendente",
+    "criada": "2026-11-24"
+  },
+  {
+    "id": "melhores-cameras-wifi-com-audio",
+    "titulo": "Melhores câmeras Wi-Fi com áudio para casa: 3 opções",
+    "palavra_chave": "câmera wifi com audio",
+    "secundarias": [
+      "câmera wifi com áudio e microfone",
+      "câmera wifi intelbras"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 2.42,
+    "subnicho": "casa-inteligente",
+    "produtos_sugeridos": [
+      "tplink-tapo-c200",
+      "tplink-tapo-c210",
+      "intelbras-im5sc"
+    ],
+    "tipo": "lista",
+    "produtos_necessarios": 3,
+    "motivo": "Termo de casa inteligente com força 2,42 e sem lista; catálogo tem Tapo C200, Tapo C210 e Intelbras IM5 SC.",
+    "status": "pendente",
+    "criada": "2026-11-24"
+  },
+  {
+    "id": "carregador-usb-c-notebook-qual-comprar-watts",
+    "titulo": "Carregador USB-C para notebook: quantos watts você precisa",
+    "palavra_chave": "carregador usb c notebook",
+    "secundarias": [
+      "carregador usb c macbook",
+      "carregador usb c lenovo"
+    ],
+    "fontes_termo": [
+      "google",
+      "mercadolivre"
+    ],
+    "forca": 3.64,
+    "subnicho": "power-banks-carregadores",
+    "tipo": "guia",
+    "produtos_necessarios": 0,
+    "motivo": "Aparece no Google e no ML com força 3,64 e sem post; guia leva para o carregador de 45 W do catálogo.",
+    "status": "pendente",
+    "criada": "2026-11-24"
+  },
+  {
+    "id": "alexa-compativel-com-iphone-como-usar",
+    "titulo": "Alexa funciona com iPhone? Como configurar e o que muda",
+    "palavra_chave": "alexa compativel com iphone",
+    "secundarias": [
+      "alexa compativel com android"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 3.67,
+    "subnicho": "casa-inteligente",
+    "tipo": "guia",
+    "produtos_necessarios": 0,
+    "motivo": "Maior força da casa inteligente sem cobertura (3,67); fecha a lacuna dos posts de Alexa e Echo Dot.",
+    "status": "pendente",
+    "criada": "2026-11-24"
+  },
+  {
+    "id": "ia-gratis-para-criar-imagens-como-fazer",
+    "titulo": "IA grátis para criar imagens: 5 ferramentas e como usar",
+    "palavra_chave": "ia grátis para criar imagens",
+    "secundarias": [
+      "ia grátis para fotos"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 2.25,
+    "editoria": "inteligencia-artificial",
+    "tipo": "tutorial",
+    "produtos_necessarios": 0,
+    "motivo": "Editoria de IA, termo de força 2,25 sem post; complementa o post de IA para vídeos.",
+    "status": "publicada",
+    "criada": "2026-11-24",
+    "post": "ia-gratis-para-criar-imagens-como-fazer"
   }
 ]
