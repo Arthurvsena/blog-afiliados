@@ -9,13 +9,37 @@
    "voz": "gemini:Fenrir",
    "publicado": "2026-11-23 19:15 (agendado no TikTok)"
   },
-  {"slug": "panela-pegando-fogo", "status": "pronto"},
-  {"slug": "chuveiro-eletrico-choque", "status": "pronto"},
-  {"slug": "benjamim-sobrecarga", "status": "pronto"},
-  {"slug": "escorregar-banheiro", "status": "pronto"},
-  {"slug": "botijao-vazamento", "status": "pronto"},
-  {"slug": "fio-no-chao", "status": "pronto"},
-  {"slug": "cabo-da-panela", "status": "pronto"}
+  {
+   "slug": "panela-pegando-fogo",
+   "status": "produzido",
+   "produzido": "2026-11-24",
+   "release": "segura-2026-11-24",
+   "voz": "gemini:Orus"
+  },
+  {
+   "slug": "chuveiro-eletrico-choque",
+   "status": "pronto"
+  },
+  {
+   "slug": "benjamim-sobrecarga",
+   "status": "pronto"
+  },
+  {
+   "slug": "escorregar-banheiro",
+   "status": "pronto"
+  },
+  {
+   "slug": "botijao-vazamento",
+   "status": "pronto"
+  },
+  {
+   "slug": "fio-no-chao",
+   "status": "pronto"
+  },
+  {
+   "slug": "cabo-da-panela",
+   "status": "pronto"
+  }
  ],
  "ideias": [
   {

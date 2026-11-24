@@ -51,7 +51,7 @@
     },
     "seg_animador": {
       "status": "ok",
-      "tarefa": "Animei 1 vídeo(s) em 3D do Segura Aí: trocar-lampada "
+      "tarefa": "Animei 1 vídeo(s) em 3D do Segura Aí: panela-pegando-fogo "
     },
     "seg_narrador": {
       "status": "ok",
@@ -67,16 +67,6 @@
     }
   },
   "historico": [
-    {
-      "data": "2026-11-16",
-      "agente": "seo",
-      "texto": "CTR 0,5%; reescreveu TWS, Echo Dot e power banks; 4 pautas de termos fortes."
-    },
-    {
-      "data": "2026-11-16",
-      "agente": "vendas",
-      "texto": "Guia da BF agora linka as 6 listas; falta oferta no Echo Dot e PS4."
-    },
     {
       "data": "2026-11-16",
       "agente": "curador",
@@ -366,6 +356,16 @@
       "data": "2026-11-24",
       "agente": "atualizador",
       "texto": "Propôs escolha principal em TWS e turbo e FAQ de Echo Dot e lâmpadas."
+    },
+    {
+      "data": "2026-11-24",
+      "agente": "seg_animador",
+      "texto": "Animei 1 vídeo(s) em 3D do Segura Aí: panela-pegando-fogo "
+    },
+    {
+      "data": "2026-11-24",
+      "agente": "seg_narrador",
+      "texto": "Narrei com a voz do Gemini e mixei efeitos e trilha"
     }
   ]
 }
