@@ -183,20 +183,68 @@
    "release": "biblia-2026-11-24",
    "voz": "gemini:Orus"
   },
-  {"slug": "o-bom-samaritano", "status": "pronto"},
-  {"slug": "a-oferta-da-viuva-pobre", "status": "pronto"},
-  {"slug": "o-cego-bartimeu", "status": "pronto"},
-  {"slug": "a-mulher-que-tocou-no-manto", "status": "pronto"},
-  {"slug": "a-ultima-ceia", "status": "pronto"},
-  {"slug": "pedro-nega-jesus", "status": "pronto"},
-  {"slug": "o-ladrao-na-cruz", "status": "pronto"},
-  {"slug": "tome-e-as-marcas-dos-cravos", "status": "pronto"},
-  {"slug": "saulo-na-estrada-de-damasco", "status": "pronto"},
-  {"slug": "paulo-e-silas-na-prisao", "status": "pronto"},
-  {"slug": "a-ovelha-perdida", "status": "pronto"},
-  {"slug": "o-semeador", "status": "pronto"},
-  {"slug": "a-mulher-samaritana", "status": "pronto"},
-  {"slug": "jaco-luta-com-o-anjo", "status": "pronto"}
+  {
+   "slug": "o-bom-samaritano",
+   "status": "produzido",
+   "produzido": "2026-11-25",
+   "release": "biblia-2026-11-25",
+   "voz": "gemini:Orus"
+  },
+  {
+   "slug": "a-oferta-da-viuva-pobre",
+   "status": "produzido",
+   "produzido": "2026-11-25",
+   "release": "biblia-2026-11-25",
+   "voz": "gemini:Orus"
+  },
+  {
+   "slug": "o-cego-bartimeu",
+   "status": "pronto"
+  },
+  {
+   "slug": "a-mulher-que-tocou-no-manto",
+   "status": "pronto"
+  },
+  {
+   "slug": "a-ultima-ceia",
+   "status": "pronto"
+  },
+  {
+   "slug": "pedro-nega-jesus",
+   "status": "pronto"
+  },
+  {
+   "slug": "o-ladrao-na-cruz",
+   "status": "pronto"
+  },
+  {
+   "slug": "tome-e-as-marcas-dos-cravos",
+   "status": "pronto"
+  },
+  {
+   "slug": "saulo-na-estrada-de-damasco",
+   "status": "pronto"
+  },
+  {
+   "slug": "paulo-e-silas-na-prisao",
+   "status": "pronto"
+  },
+  {
+   "slug": "a-ovelha-perdida",
+   "status": "pronto"
+  },
+  {
+   "slug": "o-semeador",
+   "status": "pronto"
+  },
+  {
+   "slug": "a-mulher-samaritana",
+   "status": "pronto"
+  },
+  {
+   "slug": "jaco-luta-com-o-anjo",
+   "status": "pronto"
+  }
  ],
  "ideias": [
   "Ana e a oração pelo filho Samuel (1 Samuel 1)",
