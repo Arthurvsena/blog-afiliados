@@ -51,7 +51,7 @@
     },
     "seg_animador": {
       "status": "ok",
-      "tarefa": "Animei 1 vídeo(s) em 3D do Segura Aí: panela-pegando-fogo "
+      "tarefa": "Animei 1 vídeo(s) em 3D do Segura Aí: chuveiro-eletrico-choque "
     },
     "seg_narrador": {
       "status": "ok",
@@ -346,6 +346,16 @@
       "data": "2026-11-24",
       "agente": "analista",
       "texto": "Leitura de 23/11: 16 visitas (+154% sobre a média), TWS em alta; ações para vendas, viral e pesquisador."
+    },
+    {
+      "data": "2026-11-25",
+      "agente": "seg_animador",
+      "texto": "Animei 1 vídeo(s) em 3D do Segura Aí: chuveiro-eletrico-choque "
+    },
+    {
+      "data": "2026-11-25",
+      "agente": "seg_narrador",
+      "texto": "Narrei com a voz do Gemini e mixei efeitos e trilha"
     }
   ]
 }

@@ -18,7 +18,10 @@
   },
   {
    "slug": "chuveiro-eletrico-choque",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-25",
+   "release": "segura-2026-11-25",
+   "voz": "gemini:Fenrir"
   },
   {
    "slug": "benjamim-sobrecarga",
