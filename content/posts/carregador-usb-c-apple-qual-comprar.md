@@ -163,3 +163,7 @@ Vai comprar na Black Friday? Confira antes o [guia da Black Friday de eletrônic
 :::veredito
 O original da Apple é opção, não obrigação. Para iPhone 15 e 16, o {{link:samsung-ep-ta800-25w|Samsung 25 W}} é o bom e barato. Para folga, o {{link:ugreen-nexode-30w-cd226|Ugreen 30 W}} ou o {{link:baseus-gan5-30w|Baseus 30 W}}. Para iPhone 17, o {{link:ugreen-nexode-45w-2c|Ugreen 45 W}}.
 :::
+
+## Veja também
+
+Na dúvida entre tipos, veja [carregador GaN ou comum para iPhone](/posts/carregador-gan-ou-comum-iphone/).

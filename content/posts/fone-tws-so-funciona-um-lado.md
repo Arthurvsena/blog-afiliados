@@ -66,9 +66,13 @@ Em geral, o fone TWS liga ao ser tirado do estojo, ou com um toque longo no bot�
 - **Atualização.** Se a marca tiver app, veja se há atualização de firmware (o software interno do fone). Isso nem sempre existe, depende do modelo.
 - **Nada resolveu.** Aí pode ser defeito de hardware. Se estiver na garantia, procure a assistência. Fone com bateria ruim é o que mais acontece com o uso.
 
-## Dica final
+Se o reset não resolveu e o fone está fora da garantia, trocar é uma saída. Um TWS de entrada, com 4 microfones e ENC segundo a ficha:
 
-Se o reset não resolveu e o fone já está velho, trocar costuma sair mais barato que insistir. Para a maioria, o {{link:qcy-t13|QCY T13 (ver o preço)}} é uma troca segura, e quem quer cancelamento de ruído pode olhar o {{link:jbl-wave-buds-2|JBL Wave Buds 2}}. Antes de comprar outro, compare os modelos que mostramos em [melhores fones TWS Bluetooth](/posts/melhores-fones-tws-bluetooth/) e leia o [guia para escolher fone Bluetooth](/posts/como-escolher-fone-bluetooth/), que explica bateria, ANC e resistência à água sem enrolação.
+{{produto:qcy-t13}}
+
+## Quando trocar o fone
+
+Se o reset não resolveu e o fone já está velho, trocar costuma sair mais barato que insistir. Para a maioria, o {{link:qcy-t13|QCY T13 (ver o preço)}} é uma troca segura (veja o card acima), e quem quer cancelamento de ruído pode olhar o {{link:jbl-wave-buds-2|JBL Wave Buds 2}}. Antes de comprar outro, compare os modelos que mostramos em [melhores fones TWS Bluetooth](/posts/melhores-fones-tws-bluetooth/) e leia o [guia para escolher fone Bluetooth](/posts/como-escolher-fone-bluetooth/), que explica bateria, ANC e resistência à água sem enrolação.
 
 Se a dúvida é se vale ficar no sem fio, veja [fone Bluetooth ou com fio](/posts/fone-bluetooth-ou-com-fio/). Para quem quer trocar sem gastar muito, a lista de [fones Bluetooth bons e em conta](/posts/fones-bluetooth-baratos-bons/) ajuda. Se você usa o fone para jogar, compare os modelos com modo jogo em [fone TWS gamer](/posts/fone-tws-gamer-baixa-latencia/).
 

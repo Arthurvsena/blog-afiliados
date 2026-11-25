@@ -2,6 +2,105 @@
 
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
+## 2026-11-25 · Claude AI vale a pena? O que muda no plano Pro pago
+Link: https://nexustechai.com.br/posts/claude-ai-vale-a-pena-pagar-review/
+- WhatsApp: Claude Pro custa US$ 20/mês (US$ 17 no anual). Só vale se você já bate no limite do grátis. Veja o que muda: https://nexustechai.com.br/posts/claude-ai-vale-a-pena-pagar-review/
+- X: Claude Pro: US$ 20/mês (US$ 17 no plano anual, sem impostos, segundo a página oficial em 25/11). Libera Opus, Claude Code e Research. Para quem usa pouco, o grátis basta. Análise: https://nexustechai.com.br/posts/claude-ai-vale-a-pena-pagar-review/
+- Instagram (legenda): Vale pagar US$ 20 por mês no Claude?
+  O Pro libera Opus, Claude Code e Research, mas o limite continua existindo.
+  Se você usa de vez em quando, o grátis resolve.
+  Análise completa no link da bio.
+  #claude #inteligenciaartificial #tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Claude Pro: US$ 20 por mês, vale?" [2-8 s] Fato 1: o Pro libera Opus, Claude Code e Research. [8-14 s] Fato 2: o limite continua, só que maior; anual sai US$ 17 por mês. [14-18 s] Fato 3: quem usa pouco fica no grátis. [18-20 s] "Análise completa no link da bio."
+
+## 2026-11-25 · Inteligência artificial: como usar no celular em 4 passos
+Link: https://nexustechai.com.br/posts/inteligencia-artificial-como-usar-no-celular/
+- WhatsApp: IA no celular sem complicar: o botão liga/desliga abre o Gemini, o + manda foto e o Live conversa por voz. Passo a passo: https://nexustechai.com.br/posts/inteligencia-artificial-como-usar-no-celular/
+- X: Como usar IA no celular em 4 passos: abrir o Gemini pelo botão liga/desliga, perguntar por texto ou voz, mandar foto e conversar no Live. Grátis para começar, com limites. https://nexustechai.com.br/posts/inteligencia-artificial-como-usar-no-celular/
+- Instagram (legenda): Seu celular já tem IA e talvez você não use.
+  Botão liga/desliga abre o Gemini na maioria dos Androids.
+  O + manda foto e o Live conversa por voz.
+  Passo a passo no link da bio.
+  #ia #gemini #android
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seu celular tem IA e você nem abriu." [2-8 s] Fato 1: botão liga/desliga abre o Gemini. [8-14 s] Fato 2: o + manda foto para a IA explicar. [14-18 s] Fato 3: o Live conversa por voz. [18-20 s] "Passo a passo no link da bio."
+
+## 2026-11-25 · Huawei Mate X8 chega à China com tela quase sem vinco; Brasil não
+Link: https://nexustechai.com.br/posts/huawei-mate-x8-lancamento-china-brasil/
+- WhatsApp: A Huawei lançou o Mate X8 na China: dobrável de 8,2" com vinco quase sumido (segundo a Huawei), uns R$ 9.984 em conversão. Brasil: nada confirmado. https://nexustechai.com.br/posts/huawei-mate-x8-lancamento-china-brasil/
+- X: Huawei Mate X8 lançado na China em 24/11: tela interna de 8,2", Kirin 9050 Pro, bateria de 6.200 mAh (Canaltech) e vinco que a marca diz quase sumir. Cerca de R$ 9.984 em conversão. Brasil sem confirmação: https://nexustechai.com.br/posts/huawei-mate-x8-lancamento-china-brasil/
+- Instagram (legenda): Novo dobrável da Huawei com vinco quase invisível, segundo a marca.
+  O Mate X8 saiu na China em 24/11, com tela de 8,2" e bateria de 6.200 mAh.
+  Preço: cerca de R$ 9.984 em conversão, não é preço oficial.
+  Brasil: nada confirmado. Link na bio.
+  #huawei #dobravel #tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Esse dobrável quase não tem vinco, mas não chega aqui." [2-8 s] Fato 1: Huawei Mate X8 lançado na China, tela de 8,2". [8-14 s] Fato 2: a marca diz que o vinco quase some; bateria de 6.200 mAh. [14-18 s] Fato 3: cerca de R$ 9.984 em conversão, Brasil sem confirmação. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-25 · Xbox Helix teria multiplayer grátis e Steam, mas é rumor
+Link: https://nexustechai.com.br/posts/xbox-helix-multiplayer-gratis-steam-rumor/
+- WhatsApp: RUMOR: o Windows Central diz (fontes anônimas) que o Xbox Helix foi planejado com multiplayer grátis e Steam, mas o plano teria mudado. A Microsoft não confirmou: https://nexustechai.com.br/posts/xbox-helix-multiplayer-gratis-steam-rumor/
+- X: Rumor, sem confirmação: segundo o Windows Central (fontes anônimas), o Xbox Helix teria sido planejado com online grátis e Steam, e o plano teria sido abandonado. A Microsoft não confirmou nada: https://nexustechai.com.br/posts/xbox-helix-multiplayer-gratis-steam-rumor/
+- Instagram (legenda): Rumor: o Xbox Helix teria sido pensado com multiplayer grátis e Steam.
+  A fonte é o Windows Central, com informantes anônimos.
+  O mesmo relato diz que o plano mudou. A Microsoft não confirmou nada.
+  Link na bio.
+  #xbox #xboxhelix #games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Rumor: Xbox Helix sem pagar para jogar online?" [2-8 s] Fato 1: o Windows Central diz que era o plano, com fontes anônimas. [8-14 s] Fato 2: o mesmo relato diz que o plano mudou. [14-18 s] Fato 3: a Microsoft não confirmou nada. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-25 · Gemini alerta de preço Black Friday: como configurar
+Link: https://nexustechai.com.br/posts/gemini-agendado-alerta-preco-black-friday-como-configurar/
+- WhatsApp: O Gemini pode vigiar o preço de um produto na Black Friday (sexta, 27/11) e avisar quando chegar ao valor que você definiu. Só no Google AI Pro ou superior, e a Amazon bloqueia: https://nexustechai.com.br/posts/gemini-agendado-alerta-preco-black-friday-como-configurar/
+- X: O Gemini tem alerta de preço para a Black Friday (27/11): você diz o produto e o valor, ele avisa. Exige Google AI Pro ou superior e, segundo o Canaltech, a Amazon bloqueia o navegador dele. Passo a passo: https://nexustechai.com.br/posts/gemini-agendado-alerta-preco-black-friday-como-configurar/
+- Instagram (legenda): Dá para usar o Gemini como despertador de preço na Black Friday.
+  Você define o produto e o valor, e ele avisa quando bater.
+  Só para assinantes do Google AI Pro ou superior. Amazon bloqueia.
+  Passo a passo no link da bio.
+  #blackfriday #gemini #tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Deixe o Gemini vigiar o preço para você." [2-8 s] Fato 1: na área Agendado, você diz o produto e o preço. [8-14 s] Fato 2: exige Google AI Pro ou superior. [14-18 s] Fato 3: a Amazon bloqueia, então lá não funciona. [18-20 s] "Passo a passo no link da bio."
+
+## 2026-11-25 · Fone TWS ou OWS: qual a diferença e qual escolher
+Link: https://nexustechai.com.br/posts/fone-tws-ou-ows-qual-escolher/
+- WhatsApp: TWS veda o ouvido e isola o barulho; OWS fica aberto e deixa você ouvir a rua. Qual serve para você: https://nexustechai.com.br/posts/fone-tws-ou-ows-qual-escolher/
+- X: Fone TWS ou OWS? TWS veda e isola o barulho, com graves mais fortes. OWS fica aberto: você ouve o ambiente, mas perde isolamento. Para corrida, OWS; para ônibus e metrô, TWS: https://nexustechai.com.br/posts/fone-tws-ou-ows-qual-escolher/
+- Instagram (legenda): TWS ou OWS: qual fone escolher?
+  TWS veda o ouvido, isola o barulho e tem grave forte.
+  OWS fica aberto e deixa você ouvir o que acontece ao redor.
+  Guia completo no link da bio.
+  #fonebluetooth #tws #tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Fone que veda ou fone aberto?" [2-8 s] Fato 1: TWS veda e isola o barulho. [8-14 s] Fato 2: OWS fica aberto e deixa ouvir a rua. [14-18 s] Fato 3: OWS para corrida, TWS para transporte. [18-20 s] "Guia no link da bio."
+
+## 2026-11-25 · Carregador USB-C iPhone: GaN ou comum? Qual compensa
+Link: https://nexustechai.com.br/posts/carregador-gan-ou-comum-iphone/
+- WhatsApp: GaN não carrega o iPhone mais rápido: quem manda são os watts e o USB-PD. O GaN deixa o carregador menor. Veja quando compensa: https://nexustechai.com.br/posts/carregador-gan-ou-comum-iphone/
+- X: Carregador GaN para iPhone? Segundo a Apple, o iPhone 15 em diante pede 18 W ou mais; a linha 17 pede 40 W ou mais. O GaN muda o tamanho, não a velocidade. Guia: https://nexustechai.com.br/posts/carregador-gan-ou-comum-iphone/
+- Instagram (legenda): GaN deixa o iPhone carregar mais rápido? Não.
+  O que manda são os watts e o USB-PD.
+  O GaN deixa o carregador menor e esquenta menos.
+  Guia no link da bio.
+  #iphone #carregador #tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Carregador GaN não é turbo." [2-8 s] Fato 1: quem manda são os watts. [8-14 s] Fato 2: a Apple pede 18 W ou mais no iPhone 15 em diante, 40 W ou mais na linha 17. [14-18 s] Fato 3: o GaN deixa o carregador menor. [18-20 s] "Guia no link da bio."
+
+## 2026-11-25 · WhatsApp figurinhas com som: veja se já chegou
+Link: https://nexustechai.com.br/posts/whatsapp-figurinhas-com-som-como-funciona-android-iphone/
+- WhatsApp: Figurinha com som no WhatsApp já aparece para alguns brasileiros. Procure o ícone de alto-falante sobre a figurinha. A Meta não anunciou, a liberação é gradual: https://nexustechai.com.br/posts/whatsapp-figurinhas-com-som-como-funciona-android-iphone/
+- X: Figurinhas com som do WhatsApp começaram a aparecer para brasileiros em 24/11 (Canaltech). Liberação gradual, sem anúncio da Meta. Procure o ícone de alto-falante. No iPhone, só receber por enquanto: https://nexustechai.com.br/posts/whatsapp-figurinhas-com-som-como-funciona-android-iphone/
+- Instagram (legenda): A figurinha do WhatsApp agora pode tocar um som.
+  Começou a aparecer para brasileiros em 24/11, aos poucos e sem anúncio da Meta.
+  Procure o ícone de alto-falante sobre a figurinha.
+  Criar a sua parece ser só no Android, por enquanto. Link na bio.
+  #whatsapp #figurinhas #tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Sua figurinha do WhatsApp agora pode falar." [2-8 s] Fato 1: começou a chegar ao Brasil em 24/11, aos poucos. [8-14 s] Fato 2: procure o ícone de alto-falante na figurinha. [14-18 s] Fato 3: no iPhone, por ora só dá para receber. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-25 · Fone TWS só funciona um lado? 5 passos que resolvem
+Link: https://nexustechai.com.br/posts/fone-tws-so-funciona-um-lado/
+- WhatsApp: Fone Bluetooth tocando só de um lado? Antes de achar que estragou: carregue os dois, apague o fone da lista do celular e resete os dois juntos. https://nexustechai.com.br/posts/fone-tws-so-funciona-um-lado/
+- X: Fone TWS só funciona um lado? Quase sempre os dois perderam a sincronia. Carregue os dois, esqueça o fone no celular e resete os dois juntos (resetar só um não resolve). Passo a passo: https://nexustechai.com.br/posts/fone-tws-so-funciona-um-lado/
+- Instagram (legenda): Fone sem fio mudo de um lado?
+  Em geral não é defeito: os dois fones perderam a sincronia.
+  Carregue os dois, apague o fone da lista Bluetooth e resete os dois juntos.
+  Passo a passo no link da bio.
+  #fonebluetooth #tecnologia #dicas
+- TikTok/Reels (roteiro de 20 s): Gancho (2 s): "Fone só toca de um lado? Não jogue fora." Fato 1: carregue os dois fones. Fato 2: esqueça o fone no celular. Fato 3: resete os dois juntos, resetar um só não adianta. Chamada: passo a passo no link da bio.
+
 ## 2026-11-24 · Celular lançamento bom e barato: A57 na Vivo exige plano
 Link: https://nexustechai.com.br/posts/vivo-purple-friday-galaxy-a57-s26-fe-ate-30-novembro-plano-exigido/
 - WhatsApp: Galaxy A57 por R$ 1.999 na Vivo, mas só com plano Controle. Campanha até 30/11. Leia as regras antes de fechar: https://nexustechai.com.br/posts/vivo-purple-friday-galaxy-a57-s26-fe-ate-30-novembro-plano-exigido/
@@ -343,101 +442,3 @@ Link: https://nexustechai.com.br/posts/xbox-game-pass-ou-ps-plus-qual-assinar/
   #gamepass #psplus #games
 - TikTok/Reels (roteiro de 20 s): [0-2 s] "Game Pass ou PS Plus? Escolha pelo plano." [2-8 s] Fato 1: lançamentos no dia 1 só no Game Pass Ultimate. [8-14 s] Fato 2: PS Plus Essential não tem catálogo; começa no Extra. [14-18 s] Fato 3: joga um ou dois jogos por ano? Talvez nem compense. [18-20 s] "Comparação no link da bio."
 
-## 2026-11-20 · Verificação em duas etapas PlayStation e Xbox antes do GTA 6
-Link: https://nexustechai.com.br/posts/como-ativar-verificacao-duas-etapas-playstation-xbox-conta-gta-6/
-- WhatsApp: Antes de comprar o GTA 6, ative a verificação em duas etapas na conta PSN e Xbox. Leva menos de 5 minutos: https://nexustechai.com.br/posts/como-ativar-verificacao-duas-etapas-playstation-xbox-conta-gta-6/
-- X: Só a senha não protege sua conta de PlayStation ou Xbox. Ative a verificação em duas etapas antes de comprar o GTA 6; leva menos de 5 minutos e o passo a passo está aqui: https://nexustechai.com.br/posts/como-ativar-verificacao-duas-etapas-playstation-xbox-conta-gta-6/
-- Instagram (legenda): Sua senha sozinha não protege o GTA 6 que você vai comprar.
-  A verificação em duas etapas leva menos de 5 minutos.
-  Passo a passo para PSN e Xbox no link da bio.
-  Guarde os códigos de backup.
-  #gta6 #playstation #xbox
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Proteja sua conta antes do GTA 6." [2-8 s] Fato 1: no PlayStation, Segurança > Editar > 2-Step Verification. [8-14 s] Fato 2: no Xbox, a conta Microsoft, em Segurança. [14-18 s] Fato 3: guarde os códigos de backup. [18-20 s] "Passo a passo no link da bio."
-
-## 2026-11-20 · Xiaomi 18 Pro Max no Brasil: fim de janeiro e preço em aberto
-Link: https://nexustechai.com.br/posts/xiaomi-18-pro-max-brasil-fim-de-janeiro-2027-preco-europa/
-- WhatsApp: Xiaomi 18 Pro Max chega ao Brasil a partir do fim de janeiro de 2027. Preço em reais ainda não saiu (na Espanha é EUR 1.599,99): https://nexustechai.com.br/posts/xiaomi-18-pro-max-brasil-fim-de-janeiro-2027-preco-europa/
-- X: A Xiaomi confirmou o 18 Pro Max no Brasil a partir do fim de janeiro de 2027. Preço em reais: não divulgado. Na Espanha parte de EUR 1.599,99, mas não dá para converter direto. https://nexustechai.com.br/posts/xiaomi-18-pro-max-brasil-fim-de-janeiro-2027-preco-europa/
-- Instagram (legenda): Xiaomi 18 Pro Max tem data no Brasil: fim de janeiro de 2027.
-  O preço em reais ainda não saiu.
-  Na Espanha, parte de EUR 1.599,99.
-  Vale esperar? A conta completa está no link da bio.
-  #xiaomi #celulares #lancamento
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Xiaomi 18 Pro Max já tem data no Brasil." [2-8 s] Fato 1: a partir do fim de janeiro de 2027, segundo a Xiaomi Brasil. [8-14 s] Fato 2: na Espanha parte de EUR 1.599,99. [14-18 s] Fato 3: preço em reais ainda não saiu, e o 18 Pro sem data. [18-20 s] "Vale esperar? Link na bio."
-
-## 2026-11-20 · Switch 2 Black Friday: US$ 499,99 só nos EUA, e aqui?
-Link: https://nexustechai.com.br/posts/switch-2-black-friday-mario-kart-us-499-vale-no-brasil/
-- WhatsApp: Switch 2 com Mario Kart World a US$ 499,99 é só nos EUA (22/11 a 5/12). No Brasil, a Nintendo não confirmou nada: https://nexustechai.com.br/posts/switch-2-black-friday-mario-kart-us-499-vale-no-brasil/
-- X: A Nintendo lançou Black Friday do Switch 2 com Mario Kart World a US$ 499,99, mas só nos EUA. No Brasil, nada confirmado e o preço sugerido segue em R$ 4.599,90. https://nexustechai.com.br/posts/switch-2-black-friday-mario-kart-us-499-vale-no-brasil/
-- Instagram (legenda): Switch 2 a US$ 499,99 com Mario Kart World?
-  Só nos Estados Unidos, de 22/11 a 5/12.
-  No Brasil, a Nintendo não confirmou campanha.
-  O que fazer antes do dia 27, no link da bio.
-  #switch2 #blackfriday #nintendo
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Switch 2 a US$ 499,99? Só nos EUA." [2-8 s] Fato 1: pacote com Mario Kart World e 90 dias de Online, de 22/11 a 5/12. [8-14 s] Fato 2: no Brasil a Nintendo não confirmou Black Friday. [14-18 s] Fato 3: preço sugerido aqui é R$ 4.599,90. [18-20 s] "O que fazer, no link da bio."
-
-## 2026-11-20 · Golpe GTA 6: 3 fraudes e por que abaixo de R$ 449,90 é isca
-Link: https://nexustechai.com.br/posts/golpe-gta-6-3-golpes-semana-lancamento-como-evitar/
-- WhatsApp: GTA 6 só tem versão para PS5 e Xbox Series. Loja que vende abaixo de R$ 449,90, só no Pix, é golpe. Os 3 sinais: https://nexustechai.com.br/posts/golpe-gta-6-3-golpes-semana-lancamento-como-evitar/
-- X: Golpe GTA 6: versão falsa para PC/PS4, código "barato" e loja que só aceita Pix abaixo de R$ 449,90. Os 3 golpes apontados pelo Canaltech e como se proteger. https://nexustechai.com.br/posts/golpe-gta-6-3-golpes-semana-lancamento-como-evitar/
-- Instagram (legenda): GTA 6 não existe para PC nem PS4.
-  Se alguém vende, é golpe.
-  Preço oficial: R$ 449,90. Abaixo disso, só no Pix? Foge.
-  Os 3 golpes e os cuidados, no link da bio.
-  #gta6 #golpe #seguranca
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "GTA 6 pra PC? É golpe." [2-8 s] Fato 1: só PS5 e Xbox Series. [8-14 s] Fato 2: código barato de revendedor dá problema. [14-18 s] Fato 3: abaixo de R$ 449,90 só no Pix é loja fake. [18-20 s] "Os cuidados estão no link da bio."
-
-## 2026-11-20 · GTA 6 nota Metacritic: 99 e empate com Ocarina of Time
-Link: https://nexustechai.com.br/posts/gta-6-nota-metacritic-99-empata-ocarina-of-time/
-- WhatsApp: GTA 6 chegou a 99 no Metacritic e empatou com Zelda Ocarina of Time, recorde de 1998. GTA 5 tinha 97. Nota ainda pode mudar: https://nexustechai.com.br/posts/gta-6-nota-metacritic-99-empata-ocarina-of-time/
-- X: GTA 6 está com 99 no Metacritic e empata com Zelda: Ocarina of Time, que segurava o recorde desde 1998 (GTA 4 tem 98, GTA 5 tem 97). A nota ainda pode mudar com novas análises. https://nexustechai.com.br/posts/gta-6-nota-metacritic-99-empata-ocarina-of-time/
-- Instagram (legenda): GTA 6 tem 99 no Metacritic.
-  É o empate com Zelda: Ocarina of Time, recorde desde 1998.
-  Melhor nota da história da Rockstar (GTA 5 tinha 97).
-  Mas nota alta não é compra no impulso: veja o que ainda não se sabe, no link da bio.
-  #gta6 #games #metacritic
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "GTA 6 empatou com o jogo mais bem avaliado da história." [2-8 s] Fato 1: 99 no Metacritic, igual a Zelda Ocarina of Time, de 1998. [8-14 s] Fato 2: GTA 4 tinha 98 e GTA 5, 97. [14-18 s] Fato 3: a nota ainda pode mudar com novas análises. [18-20 s] "Vale a pena? Leia no link da bio."
-
-## 2026-11-19 · Headset gamer Bluetooth atrasa o som? No console, fio ganha
-Link: https://nexustechai.com.br/posts/headset-gamer-bluetooth-ou-fio-qual-escolher/
-- WhatsApp: Fone Bluetooth comum não conecta direto no PS5 nem no Xbox, e em jogo de tiro o som chega atrasado. Quando o fio vale mais: https://nexustechai.com.br/posts/headset-gamer-bluetooth-ou-fio-qual-escolher/
-- X: Headset gamer Bluetooth: atraso no som, bateria e incompatibilidade com console. Para PC e PS5, o com fio ainda é a escolha segura; Bluetooth serve para celular. https://nexustechai.com.br/posts/headset-gamer-bluetooth-ou-fio-qual-escolher/
-- Instagram (legenda): Seu fone Bluetooth não liga no PS5?
-  Em geral é assim mesmo: console não aceita Bluetooth comum.
-  E em jogo de tiro o som ainda chega atrasado.
-  Quando o fio ganha e quando o sem fio serve, no link da bio.
-  #headsetgamer #ps5 #games
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seu fone Bluetooth não funciona no PS5?" [2-8 s] Fato 1: console em geral não aceita Bluetooth comum. [8-14 s] Fato 2: o sinal sem fio atrasa o som em jogo de tiro. [14-18 s] Fato 3: com fio, é só ligar no P3 do controle. [18-20 s] "Guia completo no link da bio."
-
-## 2026-11-19 · Power bank solar vale a pena? Nos testes, nunca passou de 50%
-Link: https://nexustechai.com.br/posts/power-bank-solar-vale-a-pena/
-- WhatsApp: Power bank solar promete carregar no sol, mas em teste nunca passou de 50% da bateria e esquentou até 80 °C. O que comprar no lugar: https://nexustechai.com.br/posts/power-bank-solar-vale-a-pena/
-- X: Power bank solar: segundo teste citado pelo Tecnoblog, dias no sol e nunca passou da metade da carga; alguns chegaram a 80 °C. Para emergência até serve, para trilha não. https://nexustechai.com.br/posts/power-bank-solar-vale-a-pena/
-- Instagram (legenda): Power bank solar carrega no sol? Nem perto.
-  Em teste, nenhum passou de 50% da bateria em dias de sol.
-  Alguns esquentaram até 80 °C.
-  O que levar no lugar está no link da bio.
-  #powerbank #tecnologia #camping
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Power bank solar é furada?" [2-8 s] Fato 1: em teste, dias no sol e nunca passou de 50%. [8-14 s] Fato 2: alguns chegaram a 80 °C e o controlador corta a recarga. [14-18 s] Fato 3: melhor um power bank comum carregado na tomada. [18-20 s] "Guia completo no link da bio."
-
-## 2026-11-19 · Review celular Samsung Galaxy A07: 6 anos de suporte, sem NFC
-Link: https://nexustechai.com.br/posts/galaxy-a07-vale-a-pena-review/
-- WhatsApp: Galaxy A07: celular barato com 6 anos de atualização da Samsung, mas sem NFC (não paga por aproximação). Review: https://nexustechai.com.br/posts/galaxy-a07-vale-a-pena-review/
-- X: Galaxy A07 tem bateria de 5.000 mAh e até 6 anos de atualizações, segundo a Samsung. O porém: sem NFC e só 4G na versão original. Para quem serve e para quem não: https://nexustechai.com.br/posts/galaxy-a07-vale-a-pena-review/
-- Instagram (legenda): Celular barato com 6 anos de suporte?
-  O Galaxy A07 tem bateria de 5.000 mAh e tela de 90 Hz.
-  Mas não tem NFC e a câmera é básica.
-  Veja para quem vale a pena (link na bio).
-  #galaxya07 #samsung #celularbarato
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Celular barato com 6 anos de atualização?" [2-8 s] Fato 1: Galaxy A07 recebe até 6 anos de patches de segurança, segundo a Samsung. [8-14 s] Fato 2: bateria de 5.000 mAh e tela de 90 Hz. [14-18 s] Fato 3: sem NFC e câmera básica. [18-20 s] "Review completo no link da bio."
-
-## 2026-11-19 · Golpe Pix errado: como funciona e o que fazer se cair
-Link: https://nexustechai.com.br/posts/golpe-pix-errado-o-que-fazer/
-- WhatsApp: Recebeu Pix de desconhecido e pedem de volta? Só devolva pelo botão de devolução do app, nunca para outra conta. Senão você paga duas vezes: https://nexustechai.com.br/posts/golpe-pix-errado-o-que-fazer/
-- X: Golpe do Pix errado: o criminoso manda Pix, pede o valor de volta em outra conta e aciona o MED. Você perde duas vezes. Devolva só pelo botão do app. Já caiu? Prazo de 80 dias para contestar: https://nexustechai.com.br/posts/golpe-pix-errado-o-que-fazer/
-- Instagram (legenda): Te mandaram um Pix "por engano"?
-  Não devolva para a conta que a pessoa passar.
-  Use só a opção de devolução do app do banco.
-  O golpista ainda aciona o MED e fica com os dois valores.
-  #pix #golpe #segurancadigital
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Pix errado na sua conta? Cuidado." [2-8 s] Fato 1: o golpista pede o dinheiro de volta em outra conta. [8-14 s] Fato 2: depois aciona o MED e fica com os dois valores. [14-18 s] Fato 3: devolva só pelo botão do app; já caiu, você tem 80 dias para contestar. [18-20 s] "Passo a passo no link da bio."

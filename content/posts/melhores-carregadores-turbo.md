@@ -152,3 +152,5 @@ Vai comprar na Black Friday (27/11)? Leia antes [como não cair em preço falso 
 Dúvida sobre o original? Veja se o [carregador USB-C Apple precisa ser o original](/posts/carregador-usb-c-apple-qual-comprar/).
 
 Tem Galaxy? Veja o [carregador turbo Samsung: 25 W, 45 W ou outro](/posts/carregador-turbo-samsung-qual-comprar/).
+
+Quer entender o GaN antes de escolher? Veja [carregador GaN ou comum para iPhone](/posts/carregador-gan-ou-comum-iphone/).

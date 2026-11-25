@@ -1,41 +1,41 @@
 {
-  "ultima_execucao": "2026-11-24T07:50",
+  "ultima_execucao": "2026-11-25T07:40",
   "agentes": {
     "chefe": {
       "status": "ok",
-      "tarefa": "Montei o dia em torno da Black Friday: 4 notícias, 1 análise, 1 tutorial e 2 guias, e fechei a checagem final."
+      "tarefa": "Coordenei o dia: 4 notícias, 1 tutorial, 1 análise e 2 guias, e descartei a notícia sem segunda fonte."
     },
     "pesquisador": {
       "status": "ok",
-      "tarefa": "Achei 4 notícias do dia (Samsung e Vivo na Black Friday, WhatsApp, Claude Code Review), subi o Switch Lite e reabasteci a fila."
+      "tarefa": "Achei 5 notícias do dia e a pauta de \"fone tws ou ows\" que a Luisa pediu."
     },
     "curador": {
       "status": "ocioso",
-      "tarefa": "Não fui chamado: Redragon e JBL já tinham produtos ativos."
+      "tarefa": "Não fui chamado: o catálogo cobre as pautas de hoje."
     },
     "redator": {
       "status": "ok",
-      "tarefa": "Escrevi 4 notícias, a análise do Switch Lite, o tutorial de IA para imagens e os guias de mouses Redragon e fones JBL."
+      "tarefa": "Escrevi Huawei, Xbox Helix, Gemini, figurinhas do WhatsApp, o guia GaN, TWS ou OWS, o tutorial de IA e a análise do Claude."
     },
     "seo": {
       "status": "ok",
-      "tarefa": "Revisei títulos, palavras-chave e links dos 7 posts novos, trocando termos que não existiam no palavras.json."
+      "tarefa": "Revisei os 8 posts, tirei afirmações sem fonte do Huawei e troquei palavras-chave por termos reais."
     },
     "atualizador": {
-      "status": "ok",
-      "tarefa": "Pus escolha principal em TWS e turbo, FAQ na Alexa e Veja também nas 3 listas de power bank."
+      "status": "ocioso",
+      "tarefa": "Não fui chamado: nenhum post que não seja notícia tem 30 dias ou mais."
     },
     "designer": {
       "status": "ok",
-      "tarefa": "Pus foto, capa e blocos visuais nos 7 posts novos e a escolha principal em destaque no TWS e no turbo."
+      "tarefa": "Pus foto e capa nos 8 posts novos e diagramei com prós, contras e vereditos."
     },
     "vendas": {
       "status": "ok",
-      "tarefa": "Reforcei chamadas nos guias de Redragon e JBL e conferi a escolha principal de TWS e turbo."
+      "tarefa": "Pus o card do QCY T13 no tutorial de TWS e ofertas nos dois guias novos."
     },
     "viral": {
       "status": "ok",
-      "tarefa": "Dei nota às pautas, afiei ganchos e escrevi os textos de rede dos 8 posts."
+      "tarefa": "Dei nota às pautas, afiei títulos e escrevi os textos de rede, inclusive o do tutorial de TWS."
     },
     "produtor": {
       "status": "ok",
@@ -67,16 +67,6 @@
     }
   },
   "historico": [
-    {
-      "data": "2026-11-16",
-      "agente": "chefe",
-      "texto": "Reunião: 4 apostas (redator, seo, atualizador, pesquisador)."
-    },
-    {
-      "data": "2026-11-17",
-      "agente": "pesquisador",
-      "texto": "Pautei 4 notícias com fonte confirmada."
-    },
     {
       "data": "2026-11-17",
       "agente": "redator",
@@ -349,13 +339,33 @@
     },
     {
       "data": "2026-11-25",
-      "agente": "seg_animador",
-      "texto": "Animei 1 vídeo(s) em 3D do Segura Aí: chuveiro-eletrico-choque "
+      "agente": "pesquisador",
+      "texto": "Cinco notícias do dia e a pauta \"fone tws ou ows\"."
     },
     {
       "data": "2026-11-25",
-      "agente": "seg_narrador",
-      "texto": "Narrei com a voz do Gemini e mixei efeitos e trilha"
+      "agente": "redator",
+      "texto": "Oito posts novos, entre notícias, tutorial, análise e guias."
+    },
+    {
+      "data": "2026-11-25",
+      "agente": "seo",
+      "texto": "Revisão de 8 posts e links de volta em posts antigos."
+    },
+    {
+      "data": "2026-11-25",
+      "agente": "vendas",
+      "texto": "Card do QCY no tutorial de TWS e ofertas nos guias novos."
+    },
+    {
+      "data": "2026-11-25",
+      "agente": "designer",
+      "texto": "Fotos, capas e componentes nos 8 posts do dia."
+    },
+    {
+      "data": "2026-11-25",
+      "agente": "viral",
+      "texto": "Textos de rede para 8 posts e para o tutorial de TWS."
     }
   ]
 }

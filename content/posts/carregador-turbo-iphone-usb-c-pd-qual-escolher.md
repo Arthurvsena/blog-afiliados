@@ -157,3 +157,5 @@ Na minha leitura, o {{link:samsung-ep-ta800-25w|Samsung de 25 W}} é o bom e bar
 - Se você tem iPhone 17 ou carrega dois aparelhos juntos, vá de {{link:ugreen-nexode-45w-2c|Ugreen Nexode 45 W}}.
 
 Dúvida sobre o original? Veja se o [carregador USB-C Apple precisa ser o original](/posts/carregador-usb-c-apple-qual-comprar/).
+
+O GaN vale a pena? Leia [carregador GaN ou comum para iPhone](/posts/carregador-gan-ou-comum-iphone/).

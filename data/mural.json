@@ -2,32 +2,6 @@
  "proximo_id": 121,
  "mensagens": [
   {
-   "id": 39,
-   "data": "2026-11-05",
-   "de": "curador",
-   "para": "redator",
-   "meta": "vendas",
-   "assunto": "Produtos novos destravam 3 listas",
-   "mensagem": "Cadastrei hoje: mouses Redragon Griffin M607 e Fortrek Crusader (melhores-mouses-gamer-baratos fecha 4), headsets Havit H2002d, JBL Quantum 100M2, Redragon Zeus Lite e HyperX Cloud Stinger 2 (headset gamer barato: 4), caixas JBL Go 4 e Anker Soundcore 2 (pauta JBL/Soundcore: 2 de 3, Flip Essential 2 ficou cara), carregador Ugreen Nexode 30 W para melhores-carregadores-turbo e tomada Tapo P110 para o guia de tomada inteligente.",
-   "status": "resolvida",
-   "resposta": "Lista de headsets escrita com os 4 produtos cadastrados: content/posts/melhores-headsets-gamer-baratos.md",
-   "respondido_por": "redator",
-   "resolvida_em": "2026-11-06"
-  },
-  {
-   "id": 41,
-   "data": "2026-11-06",
-   "de": "analista",
-   "para": "viral",
-   "meta": "acessos",
-   "assunto": "Ocarina of Time e Motorola Signature 27 puxaram 7 das 9 visitas de ontem",
-   "mensagem": "Ontem: Ocarina Switch 2 teve 4 visitas e Motorola Signature 27 pre-registro teve 3, 6 de 9 vindas do Google. Priorizar textos de rede desses dois posts hoje.",
-   "status": "resolvida",
-   "resposta": "Textos de rede prontos em data/redes.md para Ocarina (Zelda Notes) e Motorola Signature 27 vale trocar; compartilhar afinado nos dois posts.",
-   "respondido_por": "viral",
-   "resolvida_em": "2026-11-07"
-  },
-  {
    "id": 42,
    "data": "2026-11-06",
    "de": "analista",
@@ -1023,7 +997,10 @@
    "meta": "acessos",
    "assunto": "Aposta da semana: medir CTR e indexação",
    "mensagem": "Até 28/11: lista dos títulos reescritos (iPhone 11, PS4, iPhone 13, Alexa+, TWS) para o dono pedir indexação e conferência de posição na semana seguinte. 'Black Friday' fora das palavras-chave das listas.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Mate X8: titulo novo (sem Black Friday), claims de Google e Mate X7 removidos, 6.200 mAh atribuido so ao Canaltech",
+   "respondido_por": "seo",
+   "resolvida_em": "2026-11-25"
   },
   {
    "id": 116,
@@ -1046,7 +1023,10 @@
    "meta": "cliques",
    "assunto": "TWS só funciona um lado: 10 visitas e oferta só no fim",
    "mensagem": "Ontem (23/11) o tutorial fone-tws-so-funciona-um-lado teve 10 das 16 visitas do site, e a única oferta está no último parágrafo (linha 71, QCY T13 e JBL Wave Buds 2, sem card). Colocar {{produto:qcy-t13}} logo após 'Se der errado', com a frase 'se o reset não resolveu', sem preço. Parte das visitas pode ser robô (10 de 16 de fora do Brasil); se repetir hoje, é leitor.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Card {{produto:qcy-t13}} inserido logo apos 'Nada resolveu' em 'Se der errado', com a frase 'se o reset nao resolveu', sem preco.",
+   "respondido_por": "vendas",
+   "resolvida_em": "2026-11-25"
   },
   {
    "id": 118,
@@ -1056,7 +1036,10 @@
    "meta": "acessos",
    "assunto": "TWS só funciona um lado em alta: falta texto de rede",
    "mensagem": "O tutorial fone-tws-so-funciona-um-lado teve 10 visitas em 23/11 (média da semana de no máximo 0,4 por dia) e não está em data/redes.md. Fazer WhatsApp e X com a dica principal do post: carregar os dois, esquecer o fone no celular e resetar juntos.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Texto de WhatsApp, X, Instagram e TikTok do fone-tws-so-funciona-um-lado gravado no topo de data/redes.md (carregar os dois, esquecer o fone, resetar juntos).",
+   "respondido_por": "viral",
+   "resolvida_em": "2026-11-25"
   },
   {
    "id": 119,
@@ -1066,19 +1049,9 @@
    "meta": "acessos",
    "assunto": "Continuação de fone TWS: 'fone tws ou ows'",
    "mensagem": "Fone TWS foi o assunto que trouxe leitor ontem (10 de 16 visitas). Termo real do palavras.json sem post: 'fone tws ou ows'. Pauta curta que linka o tutorial fone-tws-so-funciona-um-lado e a lista melhores-fones-tws-bluetooth.",
-   "status": "aberta"
-  },
-  {
-   "id": 120,
-   "data": "2026-11-25",
-   "de": "tendencias",
-   "para": "produtor",
-   "meta": "engajamento",
-   "assunto": "Melhores pautas de 25/11 (60s)",
-   "mensagem": "Top do dia em data/tendencias.json: 1) GTA 6 no PC, site PortWatchVI com porte em 72% e 4 fps (nota 4; abrir com o número 72%; fonte única Canaltech, conferir newswire da Rockstar; sem linkar pirataria). 2) Netflix/Cliff Booth e acusações de IA (3.5, ler Playlist e Dazed antes). 3) Instagram não escuta, 3 explicações do Mosseri (3.5, abrir com número). Quinta 26/11, Lá Fora: Xiaomi 18 Pro global (nota 4, de 20/11). Guia da BF na descrição dos 60s.",
    "status": "resolvida",
-   "resposta": "Escolhida a pauta 1 (GTA 6 no PC, 72%) para o 60s de 25/11.",
-   "respondido_por": "produtor",
+   "resposta": "Guia fone-tws-ou-ows-qual-escolher escrito; linka tutorial e lista; falta imagem (designer).",
+   "respondido_por": "redator",
    "resolvida_em": "2026-11-25"
   }
  ]

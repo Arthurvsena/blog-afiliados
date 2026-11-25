@@ -197,6 +197,10 @@ Com as prioridades definidas, fica fácil comparar modelos. Em breve o blog publ
 Nenhum desses anuncia modo de baixa latência na ficha do catálogo.
 :::
 
+## Veja também
+
+Em dúvida entre fone de encaixe e fone aberto? Veja [fone TWS ou OWS: qual escolher](/posts/fone-tws-ou-ows-qual-escolher/).
+
 :::veredito
 Escolha pelo uso, pela autonomia real e pelo conforto; codec e extras ficam para o fim.
 :::

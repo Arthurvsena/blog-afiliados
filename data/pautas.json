@@ -1213,7 +1213,7 @@
   },
   {
     "id": "melhores-caixas-de-som-bluetooth-ate-100",
-    "viral": 3,
+    "viral": 2,
     "titulo": "Melhores caixas de som Bluetooth até R$ 100: o que esperar de som, bateria e resistência",
     "palavra_chave": "melhores caixa de som bluetooth até 100 reais",
     "secundarias": [
@@ -4865,9 +4865,10 @@
     "tipo": "tutorial",
     "produtos_necessarios": 0,
     "motivo": "Termo 2,5 sem cobertura; complementa o post de IAs grátis para Android.",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-19",
-    "viral": 2
+    "viral": 2,
+    "post": "inteligencia-artificial-como-usar-no-celular"
   },
   {
     "id": "golpe-pix-errado-o-que-fazer",
@@ -5496,9 +5497,10 @@
     "tipo": "analise",
     "produtos_necessarios": 0,
     "motivo": "Intenção de compra 1,58 e 1,75; já existe o post de como usar o Claude para linkar. Conferir preços na página oficial antes de escrever.",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-22",
-    "viral": 3
+    "viral": 3,
+    "post": "claude-ai-vale-a-pena-pagar-review"
   },
   {
     "id": "como-resgatar-jogos-gratuitos-epic-games",
@@ -5627,9 +5629,10 @@
     "produtos_necessarios": 3,
     "motivo": "Termo 3,94 em palavras.json; aposta do relatório de vendas. Linkar carregador-usb-c-apple-qual-comprar e carregador-turbo-iphone-usb-c-pd-qual-escolher sem canibalizar, e o guia da Black Friday.",
     "prioridade": "alta",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-24",
-    "viral": 3
+    "viral": 3,
+    "post": "carregador-gan-ou-comum-iphone"
   },
   {
     "id": "samsung-black-friday-2026-ofertas-parcelamento-18x-quais-celulares",
@@ -5776,7 +5779,8 @@
     "produtos_necessarios": 0,
     "motivo": "Maior força entre os termos de acessórios sem post (3,58), intenção de comparação; dá link interno para os posts de teclado mecânico.",
     "status": "pendente",
-    "criada": "2026-11-24"
+    "criada": "2026-11-24",
+    "viral": 3
   },
   {
     "id": "melhores-fones-tws-ate-200-reais",
@@ -5800,7 +5804,8 @@
     "produtos_necessarios": 4,
     "motivo": "Termo de compra sem cobertura; catálogo tem QCY T13 e T17, Philips TAT1209 e Havit TW969 Lite, todos ativos.",
     "status": "pendente",
-    "criada": "2026-11-24"
+    "criada": "2026-11-24",
+    "viral": 4
   },
   {
     "id": "mi-band-ou-huawei-band-qual-comprar",
@@ -5823,7 +5828,8 @@
     "produtos_necessarios": 2,
     "motivo": "Comparação com busca no Google e no ML; subnicho com 7 produtos ativos e os dois modelos no catálogo.",
     "status": "pendente",
-    "criada": "2026-11-24"
+    "criada": "2026-11-24",
+    "viral": 3
   },
   {
     "id": "melhores-cameras-wifi-com-audio",
@@ -5847,7 +5853,8 @@
     "produtos_necessarios": 3,
     "motivo": "Termo de casa inteligente com força 2,42 e sem lista; catálogo tem Tapo C200, Tapo C210 e Intelbras IM5 SC.",
     "status": "pendente",
-    "criada": "2026-11-24"
+    "criada": "2026-11-24",
+    "viral": 2
   },
   {
     "id": "carregador-usb-c-notebook-qual-comprar-watts",
@@ -5867,7 +5874,8 @@
     "produtos_necessarios": 0,
     "motivo": "Aparece no Google e no ML com força 3,64 e sem post; guia leva para o carregador de 45 W do catálogo.",
     "status": "pendente",
-    "criada": "2026-11-24"
+    "criada": "2026-11-24",
+    "viral": 3
   },
   {
     "id": "alexa-compativel-com-iphone-como-usar",
@@ -5885,7 +5893,8 @@
     "produtos_necessarios": 0,
     "motivo": "Maior força da casa inteligente sem cobertura (3,67); fecha a lacuna dos posts de Alexa e Echo Dot.",
     "status": "pendente",
-    "criada": "2026-11-24"
+    "criada": "2026-11-24",
+    "viral": 3
   },
   {
     "id": "ia-gratis-para-criar-imagens-como-fazer",
@@ -5905,5 +5914,156 @@
     "status": "publicada",
     "criada": "2026-11-24",
     "post": "ia-gratis-para-criar-imagens-como-fazer"
+  },
+  {
+    "id": "iphone-16e-amazon-pix-black-friday-preco",
+    "titulo": "iPhone 16e a R$ 2.942 no Pix na Amazon: vale a pena antes da Black Friday?",
+    "palavra_chave": "iphone 16e preço black friday",
+    "secundarias": [],
+    "editoria": "celulares",
+    "fontes": [
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/smartphone/amazon-faz-queima-de-iphone-16e-dias-antes-da-black-friday-128-gb-por-r-2942/"
+      },
+      {
+        "nome": "Tecnoblog Achados",
+        "url": "https://tecnoblog.net/achados/promocoes-e-ofertas-de-tecnologia/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Oferta datada de 24/11 (128 GB preto, Pix, preço à vista; lançamento foi R$ 5.799). Aposta 3 do plano: celular de Black Friday; ligar ao guia da BF e ao post do iPhone. Validade da oferta não informada: avisar.",
+    "prioridade": "hoje",
+    "status": "descartada",
+    "criada": "2026-11-25",
+    "viral": 5
+  },
+  {
+    "id": "huawei-mate-x8-lancamento-kirin-9050-pro-brasil",
+    "titulo": "Huawei Mate X8: dobrável com bateria de 6.200 mAh chega? O que se sabe sobre Brasil",
+    "palavra_chave": "huawei mate x8",
+    "secundarias": [],
+    "editoria": "celulares",
+    "fontes": [
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/smartphone/novo-dobravel-da-huawei-chega-com-tela-quase-sem-vinco-e-bateria-de-6200-mah/"
+      },
+      {
+        "nome": "Oficina da Net",
+        "url": "https://www.oficinadanet.com.br/huawei/73773-huawei-mate-x8-kirin-9050-pro-bateria-cameras"
+      },
+      {
+        "nome": "Notebookcheck",
+        "url": "https://notebookcheck.net/Huawei-unveils-Mate-X8-foldable-but-keeps-its-specifications-secret.1450935.0.html"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Lançamento de 24/11 na China (preço convertido ~R$ 9.984). Brasil NAO confirmado: dizer isso. Atenção: fontes divergem na bateria (Canaltech 6.200 mAh; outras citam ~6.000 mAh); conferir antes de afirmar.",
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-25",
+    "viral": 3,
+    "post": "huawei-mate-x8-lancamento-china-brasil"
+  },
+  {
+    "id": "xbox-helix-multiplayer-gratis-steam-rumor-windows-central",
+    "titulo": "Xbox Helix teria multiplayer grátis e Steam, mas plano mudou: o que é rumor",
+    "palavra_chave": "xbox helix",
+    "secundarias": [],
+    "editoria": "games",
+    "fontes": [
+      {
+        "nome": "Windows Central (relato original, fontes anônimas)",
+        "url": "https://www.windowscentral.com/"
+      },
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/games/xbox-helix-teria-multiplayer-gratis-e-steam-mas-crise-e-asha-sharma-mudaram-planos/"
+      },
+      {
+        "nome": "Game Informer (Asha Sharma, confirmação do Project Helix)",
+        "url": "https://gameinformer.com/2026/03/05/new-xbox-ceo-asha-sharma-discusses-next-gen-console-codenamed-project-helix"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "RUMOR (fontes anônimas, Microsoft nao confirmou): tratar como rumor no texto. Confirmado: Helix existe, joga jogos de Xbox e PC. Redator deve abrir o link exato da matéria do Windows Central antes de citar.",
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-25",
+    "viral": 3,
+    "post": "xbox-helix-multiplayer-gratis-steam-rumor"
+  },
+  {
+    "id": "whatsapp-figurinhas-com-som-como-funciona-android-iphone",
+    "titulo": "WhatsApp libera figurinhas com som: como usar e quem já recebe",
+    "palavra_chave": "whatsapp figurinhas com som",
+    "secundarias": [
+      "figurinha com som whatsapp"
+    ],
+    "editoria": "tecnologia",
+    "fontes": [
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/apps/whatsapp-libera-figurinhas-com-som-veja-como-usar-a-novidade/"
+      },
+      {
+        "nome": "WABetaInfo",
+        "url": "https://wabetainfo.com/whatsapp-is-testing-a-new-sound-sticker-format-on-android/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Assunto de grande alcance (WhatsApp). Meta nao anunciou oficialmente; Canaltech e UOL Tilt viram funcionando em Android e iOS, criar só no Android. Ligar a como-fazer-figurinha-no-whatsapp.",
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-25",
+    "viral": 5,
+    "post": "whatsapp-figurinhas-com-som-como-funciona-android-iphone"
+  },
+  {
+    "id": "gemini-agendado-alerta-preco-black-friday-como-configurar",
+    "titulo": "Gemini monitora preço na Black Friday: como configurar o alerta agendado",
+    "palavra_chave": "gemini alerta de preço black friday",
+    "secundarias": [],
+    "editoria": "inteligencia-artificial",
+    "fontes": [
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/inteligencia-artificial/como-configurar-o-gemini-para-monitorar-as-ofertas-de-black-friday-para-voce/"
+      },
+      {
+        "nome": "Google Brasil (Gemini Spark chega ao Brasil)",
+        "url": "https://blog.google/intl/pt-br/produtos/conheca-o-gemini-spark-seu-agente-de-ia-pessoal-disponivel-24-horas-todos-os-dias-da-semana-agora-no-brasil/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Útil na semana da BF (27/11). Exige Google AI Pro ou superior; Amazon bloqueia o navegador do Gemini. Ligar ao guia da BF. Angulo diferente do post gpt-6-2 de 22/11.",
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-25",
+    "viral": 4,
+    "post": "gemini-agendado-alerta-preco-black-friday-como-configurar"
+  },
+  {
+    "id": "fone-tws-ou-ows-qual-escolher",
+    "titulo": "Fone TWS ou OWS: qual a diferença e qual escolher",
+    "palavra_chave": "fone tws ou ows",
+    "secundarias": [],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 1.67,
+    "subnicho": "fones-caixas-bluetooth",
+    "tipo": "guia",
+    "produtos_necessarios": 0,
+    "motivo": "Mural #119: fone TWS trouxe 10 de 16 visitas num dia; termo real do palavras.json sem post. Linkar o tutorial fone-tws-so-funciona-um-lado e a lista melhores-fones-tws-bluetooth.",
+    "status": "publicada",
+    "criada": "2026-11-25",
+    "post": "fone-tws-ou-ows-qual-escolher"
   }
 ]

@@ -107,7 +107,7 @@ O Claude vale o teste porque custa zero para começar e roda em qualquer aparelh
 Para acompanhar a empresa por trás dele, leia [o pedido de IPO da Anthropic na Nasdaq](/posts/anthropic-ipo-nasdaq-ant-s-1-claude/). E, para ver o que a concorrente lançou, veja o [GPT-6.1 Terra da OpenAI](/posts/openai-gpt-6-1-terra-preco-recursos/).
 
 :::dica Teste antes de pagar
-Use o grátis por uma semana com tarefas reais, como resumir um texto ou revisar um e-mail, e só então decida pelo Pro.
+Use o grátis por uma semana com tarefas reais, como resumir um texto ou revisar um e-mail, e só então decida pelo Pro. Veja a conta completa em [Claude AI vale a pena pagar? Análise do plano Pro](/posts/claude-ai-vale-a-pena-pagar-review/).
 :::
 
 :::veredito
