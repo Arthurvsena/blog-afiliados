@@ -1,6 +1,173 @@
 {
-  "atualizado": "2026-11-24",
+  "atualizado": "2026-11-25",
   "tendencias": [
+    {
+      "data": "2026-11-25",
+      "imagens_oficiais": [],
+      "post_relacionado": "take-two-ceo-pirataria-gta-6-medidas-legais-tecnicas",
+      "status": "em_video",
+      "origem": "brasil",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "assunto": "GTA 6 no PC: site rastreia 30 portes não oficiais e o mais avançado roda a 4 fps, sem texturas (72%)",
+      "quadro": "60s",
+      "formato": "noticia",
+      "tipo": "short",
+      "nota": 4,
+      "por_que_em_alta": "Canaltech (24/11, 20h20, Gabriel Cavalheiro): PortWatchVI varre 30 projetos a cada 3 h; recompilação em 72%, jogável a cerca de 4 fps. Rockstar não confirmou PC. Pergunta recorrente do público desde o lançamento de 19/11 (nossas pautas de GTA 6 deram vídeo). Fonte única lida.",
+      "evidencias": [
+        "https://canaltech.com.br/games/site-mostra-ao-vivo-progresso-dos-ports-de-gta-6-para-o-pc-acompanhe/"
+      ],
+      "angulo": "Gancho com número na 1ª frase: 'Um site diz que o GTA 6 já está 72% portado para PC, e roda a 4 fps'. Explicar o que é porte não oficial, o que a Rockstar disse (nada de PC), e o risco: arquivo 'GTA 6 PC' fora da loja é golpe/vírus (liga com o vídeo de golpes). Sem link, sem ensinar a baixar nada.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/games/site-mostra-ao-vivo-progresso-dos-ports-de-gta-6-para-o-pc-acompanhe/"
+        },
+        {
+          "nome": "Rockstar Games (a conferir)",
+          "url": "https://www.rockstargames.com/newswire"
+        }
+      ],
+      "verificar_antes": "Só o Canaltech lido; abrir o PortWatchVI e o newswire da Rockstar. Não citar nem linkar projeto de pirataria, não incentivar. Dizer 'segundo o site' e que o método (72%) é do próprio site. Não repetir ângulo dos vídeos de 19 e 20/11."
+    },
+    {
+      "data": "2026-11-25",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "status": "nova",
+      "origem": "gringo",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "assunto": "Netflix e IA: 'As Novas Desventuras de Cliff Booth' (Fincher, Brad Pitt) é criticado por cenas que lembram IA generativa",
+      "quadro": "60s",
+      "formato": "explicador",
+      "tipo": "short",
+      "nota": 3.5,
+      "por_que_em_alta": "Tecnoblog (24/11, 20h55): estreia em IMAX hoje (25/11), streaming em 23/12; críticos de sessões antecipadas apontam cenas com cara de IA; Fincher respondeu à Dazed; a Netflix comprou a InterPositive (Ben Affleck) em março de 2026. Matéria não confirma qual ferramenta foi usada. Cruza IA, streaming e cinema: público amplo.",
+      "evidencias": [
+        "https://tecnoblog.net/noticias/filme-da-netflix-com-brad-pitt-e-alvo-de-criticas-por-uso-de-ia/"
+      ],
+      "angulo": "Gancho: 'A Netflix comprou uma empresa de IA em março e agora o filme dela é acusado de usar IA'. O que as ferramentas fazem (trocar fundo e luz de cena filmada, segundo a Netflix), o que ninguém provou, a frase de Fincher ('as intenções, não a tecnologia'). Fechar com pergunta. Sem ataque a pessoas.",
+      "fontes": [
+        {
+          "nome": "Tecnoblog",
+          "url": "https://tecnoblog.net/noticias/filme-da-netflix-com-brad-pitt-e-alvo-de-criticas-por-uso-de-ia/"
+        },
+        {
+          "nome": "The Playlist (a localizar)",
+          "url": "https://theplaylist.net/"
+        },
+        {
+          "nome": "Dazed (a localizar)",
+          "url": "https://www.dazeddigital.com/"
+        }
+      ],
+      "verificar_antes": "Fonte única lida; abrir The Playlist e a entrevista da Dazed antes de gravar. Tudo é crítica de espectadores, não fato: dizer 'segundo críticos'. Confirmar a compra da InterPositive em fonte da Netflix. Sem fotos do filme sem crédito oficial (usar página de imprensa da Netflix).",
+      "criterios_gringo": "1 parcial (Tecnoblog, Playlist, Dazed); 2 parcial; 3 sim (pouca cobertura em vídeo BR a verificar); 4 não. 2 a 3 de 4: reserva."
+    },
+    {
+      "data": "2026-11-25",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "status": "nova",
+      "origem": "brasil",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "assunto": "Instagram não escuta o seu microfone, repete o chefe da rede: as 3 explicações para o anúncio 'que você falou'",
+      "quadro": "60s",
+      "formato": "curiosidade",
+      "tipo": "short",
+      "nota": 3.5,
+      "por_que_em_alta": "Tecnoblog (25/11, 03h40): Adam Mosseri repetiu em vídeo (24/11) que o app não usa o microfone para anúncios; dá 3 explicações (já tinha visto o anúncio, assunto na cabeça, amigo próximo com dados analisados). Mesmo argumento de out/2025 (TechCrunch e outros). Tema que dá comentário e compartilhamento.",
+      "evidencias": [
+        "https://tecnoblog.net/noticias/chefe-do-instagram-reafirma-que-app-nao-escuta-o-que-voce-diz/"
+      ],
+      "angulo": "Gancho com número: 'O chefe do Instagram deu 3 explicações para o anúncio que aparece depois que você fala'. As 3 em 3 cenas, o que a Meta diz (sem microfone fora de recursos com permissão) e a defesa prática: revisar permissão de microfone nas configurações do celular. Comentário seco no fim.",
+      "fontes": [
+        {
+          "nome": "Tecnoblog",
+          "url": "https://tecnoblog.net/noticias/chefe-do-instagram-reafirma-que-app-nao-escuta-o-que-voce-diz/"
+        },
+        {
+          "nome": "TechCrunch (2025, a conferir)",
+          "url": "https://techcrunch.com/"
+        }
+      ],
+      "verificar_antes": "Dizer 'segundo a Meta', não 'é verdade'. Abrir o vídeo/post original do Mosseri e uma 2ª fonte de 2026; repetição do que ele disse em out/2025: não vender como novidade absoluta. Conferir o caminho de permissões no Android e iOS nas páginas oficiais."
+    },
+    {
+      "data": "2026-11-25",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "status": "nova",
+      "origem": "gringo",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "assunto": "Gemini pode ganhar 'Criar uma voz': sotaque, tom e velocidade escolhidos por texto (vazamento)",
+      "quadro": "60s",
+      "formato": "noticia",
+      "tipo": "short",
+      "nota": 2.5,
+      "por_que_em_alta": "Canaltech (24/11, 23h), a partir do Android Authority (código do app Google 17.78.13). Em 16/11 o Google liberou 66 vozes regionais no Gemini, incluindo português do Brasil. Não confirmado, recurso não ativável nos testes. Interessa a quem usa assistente de voz; assunto IA.",
+      "evidencias": [
+        "https://canaltech.com.br/apps/gemini-pode-ganhar-recurso-para-criar-vozes-personalizadas-com-sotaque-tom-e-velocidade/"
+      ],
+      "angulo": "Gancho: 'O Gemini pode deixar você descrever a voz que quer ouvir'. O que apareceu no código, o botão 'Surpreenda-me', o que o Google não disse (preço, data, sotaques). Rumor dito como rumor.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/apps/gemini-pode-ganhar-recurso-para-criar-vozes-personalizadas-com-sotaque-tom-e-velocidade/"
+        },
+        {
+          "nome": "Android Authority (a localizar)",
+          "url": "https://www.androidauthority.com/"
+        }
+      ],
+      "verificar_antes": "Vazamento de código, sem anúncio. Abrir o Android Authority antes. Reserva; só vale se virar anúncio oficial.",
+      "criterios_gringo": "1 parcial (Android Authority + Canaltech); 2 parcial; 3 sim; 4 parcial. Fraca: reserva."
+    },
+    {
+      "data": "2026-11-25",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "status": "nova",
+      "origem": "gringo",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "assunto": "Galaxy Z TriFold 2 em 2027? Samsung prepara o dobrável de três partes mais fino (codinome Q9m, rumor)",
+      "quadro": "60s",
+      "formato": "noticia",
+      "tipo": "short",
+      "nota": 2.5,
+      "por_que_em_alta": "Canaltech (25/11, 7h), com GalaxyClub e Sam Mobile: sucessor com dobradiça nova, previsto para meados de 2027, lançamento possivelmente limitado como o 1º (Coreia, Singapura, Taiwan, Emirados, EUA; Brasil fora). Sem preço. Tudo rumor.",
+      "evidencias": [
+        "https://canaltech.com.br/smartphone/samsung-prepara-o-galaxy-z-trifold-2-para-2027-com-design-mais-fino-e-leve/"
+      ],
+      "angulo": "Reserva ou bloco de 'Lá Fora, Aqui': o 1º TriFold nem chegou ao Brasil; o 2º vai chegar? Dizer rumor, sem preço.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/smartphone/samsung-prepara-o-galaxy-z-trifold-2-para-2027-com-design-mais-fino-e-leve/"
+        },
+        {
+          "nome": "Samsung Newsroom Brasil (a conferir)",
+          "url": "https://news.samsung.com/br"
+        }
+      ],
+      "verificar_antes": "Rumor de site de leaks; o gancho do iPhone Duo/dobráveis já foi explorado. Reserva.",
+      "criterios_gringo": "1 parcial; 2 parcial (não chega); 3 sim; 4 não. Fraca: reserva."
+    },
     {
       "data": "2026-11-24",
       "imagens_oficiais": [],
@@ -1225,200 +1392,6 @@
         }
       ],
       "nota": 5
-    },
-    {
-      "data": "2026-11-14",
-      "assunto": "Histórias Tech: Xbox, os 25 anos do console que a Microsoft lançou para enfrentar a Sony",
-      "por_que_em_alta": "Data redonda: Xbox lançado em 15/11/2001 na América do Norte; Hardware.com.br e Phil Spencer abriram as comemorações dos 25 anos. Combina com a semana de GTA 6. Hoje (14/11) é o dia de publicar: o aniversário é 15/11. Busca de 14/11 confirma 15/11/2001 (EUA), US$ 299, Times Square com Bill Gates, Halo como jogo de lançamento, mais de 1 milhão em 3 semanas (Tecnoblog), Xbox Live em 15/11/2002 e Japão/Europa só em 2002.",
-      "evidencias": [
-        "https://www.history.com/this-day-in-history/november-15/microsoft-releases-xbox-gaming-console",
-        "https://www.hardware.com.br/artigos/xbox-anuncio-bill-gates-the-rock-ces-2001-25-anos/amp/"
-      ],
-      "angulo": "Gancho: a Microsoft entrou num mercado dominado por japoneses com um console de US$ 299,99, e cerca de 25% das primeiras unidades tinham defeito no drive de DVD. Virada: Halo, Xbox Live (15/11/2002) e a briga com o PS2 (cerca de 24 milhões contra 150 milhões). Lição: perder a geração, mas construir a plataforma.",
-      "formato": "curiosidade",
-      "tipo": "short",
-      "quadro": "historias",
-      "verificar_antes": "Publicar 14 ou 15/11. Dados já vistos em 2 fontes: 15/11/2001, US$ 299, Halo, Xbox Live 15/11/2002, mais de 1 mi em 3 semanas. AINDA SEM 2ª FONTE: defeito de 25% no drive (descartar se não achar) e vendas totais (cerca de 24 mi contra 150 a 155 mi do PS2: fontes divergem, usar 'cerca de' e citar Hardware.com.br/Tecnoblog). Hardware.com.br cita 14/11 como chegada às lojas: usar 15/11 e dizer 'América do Norte'.",
-      "fontes": [
-        {
-          "nome": "History.com (15/11/2001)",
-          "url": "https://www.history.com/this-day-in-history/november-15/microsoft-releases-xbox-gaming-console"
-        },
-        {
-          "nome": "Hardware.com.br",
-          "url": "https://www.hardware.com.br/artigos/xbox-anuncio-bill-gates-the-rock-ces-2001-25-anos/amp/"
-        },
-        {
-          "nome": "The National",
-          "url": "https://www.thenationalnews.com/arts-culture/2026/08/16/xbox-at-25-how-microsoft-muscled-its-way-into-console-gaming-and-changed-the-industry/"
-        },
-        {
-          "nome": "Tecnoblog (A história do Xbox)",
-          "url": "https://tecnoblog.net/379527/a-historia-do-xbox-do-original-ao-series-x/"
-        }
-      ],
-      "imagens_oficiais": [
-        "https://news.xbox.com/pt-br/2021/05/13/comemorando-20-anos-de-xbox/amp/"
-      ],
-      "post_relacionado": "",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Sem produto."
-      },
-      "nota": 5,
-      "status": "em_video"
-    },
-    {
-      "data": "2026-11-15",
-      "assunto": "Histórias Tech: PlayStation 3, 20 anos do console caro demais que quase derrubou a Sony",
-      "por_que_em_alta": "Data redonda: 20 anos do PS3 (Japão 11/11/2006; América do Norte 17/11/2006; Europa 23/03/2007). Time Extension (11/11) e O Povo (11/11) fazem a retrospectiva; página oficial PlayStation Brasil confirma as datas. Semana do GTA 6, fim da mídia física e PS5 100 mi: PlayStation está no centro da conversa.",
-      "evidencias": [
-        "https://www.timeextension.com/news/2026/11/anniversary-ps3-sonys-most-controversial-playstation-turns-20-today",
-        "https://www.opovo.com.br/vidaearte/2026/11/11/com-problemas-e-jogos-classicos-playstation-3-completa-20-anos.html",
-        "https://www.playstation.com/pt-br/playstation-history/2007-ps3-ps-vita/"
-      ],
-      "angulo": "Gancho: o console que a Sony lançou por US$ 599 e que o Brasil só recebeu oficialmente em 2010. Auge anterior: PS2 dominante. Virada: preço alto (US$ 499 e US$ 599 nos EUA), chip Cell difícil de programar, Blu-ray e atraso na Europa (23/03/2007) enquanto o Xbox 360 saía na frente; recuperação com cortes de preço e exclusivos, fechando com cerca de 87,4 mi (acima do Xbox 360, abaixo do Wii). Lição: tecnologia de ponta não salva produto caro. Publicar até 17/11 (lançamento nos EUA).",
-      "formato": "curiosidade",
-      "tipo": "short",
-      "quadro": "historias",
-      "verificar_antes": "Preços US$ 499/599 e 87,4 mi: Time Extension e Wikipedia; falta 2ª fonte oficial (PlayStation Brasil ou Hardware.com.br). Brasil 2010: confirmar em 2ª fonte. Abrir também a página PT-BR oficial (a PT-PT cita 2007). Escrever 'cerca de 87 milhões, dado de 2017'.",
-      "fontes": [
-        {
-          "nome": "Time Extension (11/11/2026)",
-          "url": "https://www.timeextension.com/news/2026/11/anniversary-ps3-sonys-most-controversial-playstation-turns-20-today"
-        },
-        {
-          "nome": "O Povo",
-          "url": "https://www.opovo.com.br/vidaearte/2026/11/11/com-problemas-e-jogos-classicos-playstation-3-completa-20-anos.html"
-        },
-        {
-          "nome": "PlayStation Brasil (história)",
-          "url": "https://www.playstation.com/pt-br/playstation-history/2007-ps3-ps-vita/"
-        },
-        {
-          "nome": "Hardware.com.br",
-          "url": "https://www.hardware.com.br/?p=285317"
-        }
-      ],
-      "imagens_oficiais": [
-        "https://www.playstation.com/pt-br/playstation-history/2007-ps3-ps-vita/"
-      ],
-      "post_relacionado": "",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Sem produto."
-      },
-      "nota": 5,
-      "status": "nova"
-    },
-    {
-      "data": "2026-11-15",
-      "assunto": "Histórias Tech: Wii, 20 anos do console que apostou no movimento e passou PS3 e Xbox 360",
-      "por_que_em_alta": "Data redonda em 4 dias: Wii lançado em 19/11/2006 na América do Norte; Gazeta SP e Olhar Digital (nov/2026) fazem a retrospectiva; Nintendo cita 101,63 mi de consoles (Olhar Digital) e o Switch passou o Wii com 156,59 mi.",
-      "evidencias": [
-        "https://www.gazetasp.com.br/entretenimento/nintendo-wii-completa-20-anos-e-resgata-nostalgia-de-uma-epoca-em-que-videogame-tirou-familias-do-sofa-para-jogar-juntas-na-sala-de-casa/",
-        "https://www.hardware.com.br/artigos/nintendo-wii/amp/",
-        "https://olhardigital.com.br/curiosidades/?p=38665"
-      ],
-      "angulo": "Gancho: o console menos potente da geração foi o mais vendido. Auge: controle de movimento e 80 milhões de consoles em 4 anos (Hardware.com.br). Virada: o público casual foi embora e o Wii U falhou. Lição: inovar em como se joga, não em gráfico.",
-      "formato": "curiosidade",
-      "tipo": "short",
-      "quadro": "historias",
-      "verificar_antes": "Datas divergem: 19/11/2006 (América do Norte) e 02/12/2006 (Japão). 101,63 mi é de 2019 (unidades enviadas); confirmar no relatório da Nintendo. Publicar em 18 ou 19/11.",
-      "fontes": [
-        {
-          "nome": "Gazeta SP",
-          "url": "https://www.gazetasp.com.br/entretenimento/nintendo-wii-completa-20-anos-e-resgata-nostalgia-de-uma-epoca-em-que-videogame-tirou-familias-do-sofa-para-jogar-juntas-na-sala-de-casa/"
-        },
-        {
-          "nome": "Hardware.com.br",
-          "url": "https://www.hardware.com.br/artigos/nintendo-wii/amp/"
-        },
-        {
-          "nome": "Nintendo (relatório de vendas, a localizar)",
-          "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/"
-        },
-        {
-          "nome": "Olhar Digital",
-          "url": "https://olhardigital.com.br/curiosidades/?p=38665"
-        }
-      ],
-      "imagens_oficiais": [
-        "https://www.nintendo.com/br/"
-      ],
-      "post_relacionado": "",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Sem produto."
-      },
-      "nota": 5,
-      "status": "nova"
-    },
-    {
-      "data": "2026-11-15",
-      "assunto": "Histórias Tech: Half-Life e a Valve, a dupla de ex-funcionários da Microsoft que fez um jogo e criou a Steam",
-      "por_que_em_alta": "Evergreen com gancho: Valve completou 30 anos em 24/08/2026 e Half-Life saiu em nov/1998 (dia 19 não confirmado). Nostalgia gamer em semana de grandes lançamentos. Sem pico de busca medido.",
-      "evidencias": [
-        "https://gamesradar.com/history-of-valve",
-        "https://www.filfre.net/2024/12/half-life/"
-      ],
-      "angulo": "Gancho: dois ex-Microsoft gastaram os primeiros anos da Valve num único jogo. Auge: Half-Life (1998, engine do Quake modificada). Virada: mods (Counter-Strike) e a ideia de vender jogos pela internet (Steam, 2003). Lição: a plataforma valeu mais que o jogo. Fecha com pergunta.",
-      "formato": "curiosidade",
-      "tipo": "short",
-      "quadro": "historias",
-      "verificar_antes": "Confirmar em 2 fontes: dia do lançamento (19/11/1998), fundação (24/08/1996), lançamento da Steam. Sem isso, usar só o ano.",
-      "fontes": [
-        {
-          "nome": "GamesRadar (History of Valve)",
-          "url": "https://gamesradar.com/history-of-valve"
-        },
-        {
-          "nome": "The Digital Antiquarian",
-          "url": "https://www.filfre.net/2024/12/half-life/"
-        }
-      ],
-      "imagens_oficiais": [
-        "https://www.valvesoftware.com/"
-      ],
-      "post_relacionado": "",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Sem produto."
-      },
-      "nota": 3,
-      "status": "nova"
-    },
-    {
-      "produto": {
-        "id": "",
-        "como_encaixa": "Editorial puro."
-      },
-      "imagens_oficiais": [],
-      "post_relacionado": "",
-      "status": "nova",
-      "data": "2026-11-14",
-      "assunto": "Pré-download de GTA 6 bate recorde de tráfego da internet: mais de 33 Tbit/s, 19% acima do recorde anterior",
-      "por_que_em_alta": "Canaltech (14/11), medição da operadora DE-CIX: pico de 22,30 Tbit/s só em Frankfurt na terça (10/11), 16h20 de Brasília; recorde anterior de janeiro de 2026. Lançamento em 19/11. Tema GTA 6 segue o maior do mês.",
-      "evidencias": [
-        "https://canaltech.com.br/games/pre-carregamento-de-gta-6-bate-recorde-historico-de-trafego-de-internet/"
-      ],
-      "angulo": "Gancho: o download de um jogo derrubou o recorde de tráfego da internet. 125 GB por segundo (33 Tbit/s), 19% acima do recorde anterior; a rede usou 75% da capacidade, sem falha. Comentário Nexus: o jogo ainda nem saiu. Não repete os vídeos de pré-load e de pré-venda: aqui o foco é a infraestrutura.",
-      "formato": "noticia",
-      "tipo": "short",
-      "quadro": "60s",
-      "origem": "brasil",
-      "verificar_antes": "Abrir o comunicado da DE-CIX (de-cix.net) e conferir 33 Tbit/s, 22,30 Tbit/s e o percentual; sem isso, não publicar. A matéria não traz dados do Brasil: não afirmar nada sobre redes brasileiras.",
-      "fontes": [
-        {
-          "nome": "Canaltech",
-          "url": "https://canaltech.com.br/games/pre-carregamento-de-gta-6-bate-recorde-historico-de-trafego-de-internet/"
-        },
-        {
-          "nome": "DE-CIX (a localizar)",
-          "url": "https://www.de-cix.net/"
-        }
-      ],
-      "nota": 4
     }
   ]
 }

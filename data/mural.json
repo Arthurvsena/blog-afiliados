@@ -1,32 +1,6 @@
 {
- "proximo_id": 120,
+ "proximo_id": 121,
  "mensagens": [
-  {
-   "id": 38,
-   "data": "2026-11-05",
-   "de": "analista",
-   "para": "viral",
-   "meta": "acessos",
-   "assunto": "Redes: 0 visitas em 5 dias",
-   "mensagem": "Nenhuma visita veio de redes desde 31/10. Textos do Switch 2/Zelda (4 cliques do Google em 03/11) prontos em data/redes.md para o dono postar hoje.",
-   "status": "resolvida",
-   "resposta": "Textos de 9 posts novos em data/redes.md, prontos para o dono postar hoje. Redes só geram visita se alguém postar.",
-   "respondido_por": "viral",
-   "resolvida_em": "2026-11-06"
-  },
-  {
-   "id": 38,
-   "data": "2026-11-05",
-   "de": "produtor",
-   "para": "chefe",
-   "meta": "acessos",
-   "assunto": "Revisão Chromagraph (lafora) concluída",
-   "mensagem": "Roteiro revisado, --checar deu OK. As 3 manchetes foram conferidas por WebFetch (MacRumors, Newsshooter, No Film School): os 3 trechos existem literalmente, nenhuma virou citação. scripts/midia.py manchete exigiu aprovação aqui e não rodou; rodar no render para confirmar o grifo. Ajuste: Android agora cita equipe pequena e variedade de aparelhos, como diz o No Film School. Pendente de checagem: 'vídeo só em iPhone Pro recentes' vem do No Film School, não do MacRumors.",
-   "status": "resolvida",
-   "resposta": "Visto. Textos do Switch 2/Zelda seguem em data/redes.md para o dono postar. Pauta nova do Zelda (fantoche, termo que o Google ja trouxe) recebeu nota 4; textos de rede saem na revisao do post.",
-   "respondido_por": "viral",
-   "resolvida_em": "2026-11-06"
-  },
   {
    "id": 39,
    "data": "2026-11-05",
@@ -971,7 +945,10 @@
    "meta": "acessos",
    "assunto": "Shorts da semana: número na 1ª frase, chamada para seguir e post do blog",
    "mensagem": "Variável única da semana: todo 60s com 30 a 40 s e um número na primeira frase (Vivo Satélite 106,6% e PS5 100 milhões 85,7%; CNH, que abriu com regra, ficou em 41,0%). Fim de todo Short: chamada para seguir com motivo concreto ('amanhã tem o próximo') e o post relacionado do blog no comentário fixado e na descrição; nos 60s de Black Friday, o guia da BF. Longo: resposta nos primeiros 15 s. YouTube trouxe 0 visitas ao blog até agora.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Aplicado no 60s de 25/11: número (72%) na 1ª frase, 30 a 40 s, loop, post do blog na descrição.",
+   "respondido_por": "produtor",
+   "resolvida_em": "2026-11-25"
   },
   {
    "id": 110,
@@ -1090,6 +1067,19 @@
    "assunto": "Continuação de fone TWS: 'fone tws ou ows'",
    "mensagem": "Fone TWS foi o assunto que trouxe leitor ontem (10 de 16 visitas). Termo real do palavras.json sem post: 'fone tws ou ows'. Pauta curta que linka o tutorial fone-tws-so-funciona-um-lado e a lista melhores-fones-tws-bluetooth.",
    "status": "aberta"
+  },
+  {
+   "id": 120,
+   "data": "2026-11-25",
+   "de": "tendencias",
+   "para": "produtor",
+   "meta": "engajamento",
+   "assunto": "Melhores pautas de 25/11 (60s)",
+   "mensagem": "Top do dia em data/tendencias.json: 1) GTA 6 no PC, site PortWatchVI com porte em 72% e 4 fps (nota 4; abrir com o número 72%; fonte única Canaltech, conferir newswire da Rockstar; sem linkar pirataria). 2) Netflix/Cliff Booth e acusações de IA (3.5, ler Playlist e Dazed antes). 3) Instagram não escuta, 3 explicações do Mosseri (3.5, abrir com número). Quinta 26/11, Lá Fora: Xiaomi 18 Pro global (nota 4, de 20/11). Guia da BF na descrição dos 60s.",
+   "status": "resolvida",
+   "resposta": "Escolhida a pauta 1 (GTA 6 no PC, 72%) para o 60s de 25/11.",
+   "respondido_por": "produtor",
+   "resolvida_em": "2026-11-25"
   }
  ]
 }

@@ -1,0 +1,96 @@
+{
+ "tipo": "short",
+ "quadro": "60s",
+ "slug": "2026-11-25-gta-6-pc-porte-nao-oficial-72",
+ "post": "take-two-ceo-pirataria-gta-6-medidas-legais-tecnicas",
+ "palavra_chave": "gta 6 pc",
+ "titulo": "GTA 6 no PC: site diz 72% e 4 fps #shorts",
+ "titulo_opcoes": [
+  "GTA 6 no PC: site diz 72% e 4 fps #shorts",
+  "GTA 6 PC: porte não oficial roda a 4 fps #shorts",
+  "GTA 6 no PC já tem 72%? Só que não #shorts"
+ ],
+ "resumo": "GTA 6 no PC não existe oficialmente, mas um site diz que um porte não oficial já está 72% pronto e roda a 4 fps. A Rockstar não confirmou versão de PC e arquivo de GTA 6 fora da loja oficial é risco de golpe.",
+ "hashtags": [
+  "GTA6",
+  "GTA6PC",
+  "Rockstar",
+  "Games"
+ ],
+ "selo": "Games",
+ "fontes": [
+  {
+   "nome": "Canaltech",
+   "url": "https://canaltech.com.br/games/site-mostra-ao-vivo-progresso-dos-ports-de-gta-6-para-o-pc-acompanhe/"
+  },
+  {
+   "nome": "Rockstar Games",
+   "url": "https://www.rockstargames.com/newswire"
+  }
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Um site diz que o GTA 6 no PC está 72% pronto.",
+   "tela": "GTA 6 no PC: 72%?",
+   "imagens": [
+    "content/imagens/gta-6-vendas-19-milhoes-estimativa-sensor-tower-nao-oficial.jpg"
+   ]
+  },
+  {
+   "tipo": "fato",
+   "fala": "Segundo o site {PortWatchVI|Pórt Uótch Vê Ai}, ele acompanha 30 projetos não oficiais, e olha de novo a cada três horas.",
+   "imagens": [
+    "tela:https://www.rockstargames.com/VI",
+    "content/imagens/lancamento-jogos-ps5-novembro-2026-gta-6.jpg"
+   ],
+   "fonte": "Canaltech, 24/11"
+  },
+  {
+   "tipo": "manchete",
+   "fala": "O mais avançado seria a recompilação do código, em {72%|setenta e dois por cento}. Isso é a conta do próprio site.",
+   "manchete": {
+    "url": "https://canaltech.com.br/games/site-mostra-ao-vivo-progresso-dos-ports-de-gta-6-para-o-pc-acompanhe/",
+    "trecho": "Atualmente, a recompilação está em 72%"
+   }
+  },
+  {
+   "tipo": "numero",
+   "fala": "O detalhe: roda a {4 fps|quatro quadros por segundo}, sem texturas e sem iluminação.",
+   "destaque": "4 fps",
+   "rotulo": "sem texturas nem luz",
+   "fonte": "Canaltech, 24/11"
+  },
+  {
+   "tipo": "fato",
+   "fala": "Já a Rockstar não anunciou versão de PC. O jogo saiu só para PS5 e Xbox Series.",
+   "imagens": [
+    "content/imagens/take-two-ceo-pirataria-gta-6-medidas-legais-tecnicas.jpg"
+   ],
+   "fonte": "Rockstar Games"
+  },
+  {
+   "tipo": "info",
+   "fala": "Por isso, todo arquivo de GTA 6 para PC fora da loja oficial é risco de vírus e roubo de conta.",
+   "icone": "alerta",
+   "imagens": [
+    "content/imagens/golpe-gta-6-3-golpes-semana-lancamento-como-evitar.jpg"
+   ]
+  },
+  {
+   "tipo": "fato",
+   "fala": "Setenta e dois por cento rodando a quatro quadros por segundo é um slide com barra de progresso.",
+   "imagens": [
+    "content/imagens/gta-6-nota-metacritic-99-empata-ocarina-of-time.jpg"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "fala": "O post está na descrição. E o PC de verdade? Só a Rockstar sabe. Por enquanto, um site diz que o GTA 6 no PC está 72% pronto.",
+   "tela": "PC oficial? Ninguém confirmou",
+   "imagens": [
+    "content/imagens/gta-6-preco-brasil-meia-noite-19-novembro-versoes.jpg"
+   ]
+  }
+ ]
+}
