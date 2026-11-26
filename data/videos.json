@@ -276,6 +276,34 @@
       "segundos": 278.0,
       "publica_em": "2026-11-24 19:30",
       "status": "programado"
+    },
+    {
+      "data": "2026-11-26",
+      "tipo": "short",
+      "quadro": "60s",
+      "numero": null,
+      "slug": "2026-11-26-whatsapp-agendar-mensagens",
+      "post": "",
+      "titulo": "WhatsApp agendar mensagem: até 14 dias #shorts",
+      "url": "https://youtube.com/shorts/I8VvE3syx2o",
+      "voz": "gemini:Fenrir",
+      "segundos": 36.3,
+      "publica_em": "2026-11-26 16:40",
+      "status": "programado"
+    },
+    {
+      "data": "2026-11-26",
+      "tipo": "longo",
+      "quadro": "lafora",
+      "numero": null,
+      "slug": "2026-11-26-xiaomi-18-pro-preco-brasil-europa-bateria-menor",
+      "post": "xiaomi-18-pro-max-brasil-fim-de-janeiro-2027-preco-europa",
+      "titulo": "Xiaomi 18 Pro preço Brasil: €1.399 na Europa e bateria menor",
+      "url": "https://youtu.be/NF-pVRlespg",
+      "voz": "gemini:Orus",
+      "segundos": 315.8,
+      "publica_em": "2026-11-26 19:00",
+      "status": "programado"
     }
   ]
 }
