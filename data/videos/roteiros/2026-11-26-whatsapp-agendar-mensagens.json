@@ -1,0 +1,71 @@
+{
+ "tipo": "short",
+ "quadro": "60s",
+ "slug": "2026-11-26-whatsapp-agendar-mensagens",
+ "post": "",
+ "titulo": "WhatsApp agendar mensagem: até 14 dias #shorts",
+ "resumo": "O WhatsApp vai deixar agendar mensagem de 10 minutos até 14 dias, segundo o Engadget. Vale para texto, foto e vídeo, em conversas e grupos, e a mensagem continua cifrada de ponta a ponta. A liberação global é para as próximas semanas, sem data para o Brasil.",
+ "hashtags": ["WhatsApp", "Tecnologia", "Dicas", "Shorts"],
+ "fontes": [
+  {"nome": "Engadget", "url": "https://www.engadget.com/2328242/whatsapp-is-finally-offering-scheduled-messages/"},
+  {"nome": "9to5Mac", "url": "https://9to5mac.com/2026/10/22/whatsapp-starts-testing-long-awaited-scheduled-messages-on-iphone/"}
+ ],
+ "palavra_chave": "whatsapp agendar mensagem",
+ "selo": "Tecnologia",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O WhatsApp vai deixar você agendar mensagem de 10 minutos até 14 dias.",
+   "tela": "WhatsApp agora agenda mensagem",
+   "imagens": ["url:https://www.engadget.com/img/gallery/whatsapp-is-finally-offering-scheduled-messages/l-intro-1795625210.jpg|Engadget", "tela:https://www.engadget.com/2328242/whatsapp-is-finally-offering-scheduled-messages/"]
+  },
+  {
+   "tipo": "manchete",
+   "fala": "Segundo o Engadget, a função funciona com texto, foto e vídeo, em conversas e em grupos.",
+   "manchete": {
+    "url": "https://www.engadget.com/2328242/whatsapp-is-finally-offering-scheduled-messages/",
+    "trecho": "between 10 minutes and 14 days in the future"
+   }
+  },
+  {
+   "tipo": "numero",
+   "fala": "O prazo vai de {10 minutos|dez minutos} até {14 dias|catorze dias}.",
+   "destaque": "14 dias",
+   "rotulo": "prazo máximo para agendar",
+   "imagens": ["url:https://9to5mac.com/wp-content/uploads/sites/6/2026/10/whatsapp-scheduled-messages.jpg|9to5Mac"],
+   "fonte": "Engadget, 25/11"
+  },
+  {
+   "tipo": "lista",
+   "fala": "Para agendar, é só segurar o botão de enviar. Dá para ver as mensagens agendadas e cancelar.",
+   "titulo_lista": "COMO FUNCIONA",
+   "itens": ["Segure o botão de enviar", "Escolha dia e hora", "Veja e cancele depois"],
+   "imagens": ["url:https://9to5mac.com/wp-content/uploads/sites/6/2026/10/whatsapp-05.jpg?quality=82&strip=all&resize=1200,628|9to5Mac"],
+   "fonte": "Engadget, 25/11"
+  },
+  {
+   "tipo": "info",
+   "fala": "E o detalhe: quem recebe vê uma mensagem normal, e ela continua cifrada de ponta a ponta.",
+   "icone": "cadeado",
+   "imagens": ["tela:https://9to5mac.com/2026/10/22/whatsapp-starts-testing-long-awaited-scheduled-messages-on-iphone/"],
+   "fonte": "Engadget, 25/11"
+  },
+  {
+   "tipo": "fato",
+   "fala": "A liberação global é para as próximas semanas. Ainda não há data confirmada para o Brasil.",
+   "imagens": ["url:https://www.engadget.com/img/gallery/whatsapp-is-finally-offering-scheduled-messages/intro-1795625210.jpg|Engadget"],
+   "fonte": "Engadget, 25/11"
+  },
+  {
+   "tipo": "fato",
+   "fala": "Ou seja: o parabéns à meia-noite finalmente dispensa a insônia.",
+   "imagens": ["url:https://9to5mac.com/wp-content/uploads/sites/6/2026/10/whatsapp-05.jpg?quality=82&strip=all&resize=1200,628|9to5Mac"]
+  },
+  {
+   "tipo": "cta",
+   "fala": "E você, o que ia agendar primeiro? Porque a função vai deixar agendar de 10 minutos até 14 dias.",
+   "tela": "Agendaria o quê?",
+   "imagens": ["url:https://www.engadget.com/img/gallery/whatsapp-is-finally-offering-scheduled-messages/l-intro-1795625210.jpg|Engadget"]
+  }
+ ]
+}

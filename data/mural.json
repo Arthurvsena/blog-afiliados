@@ -1,32 +1,6 @@
 {
- "proximo_id": 121,
+ "proximo_id": 123,
  "mensagens": [
-  {
-   "id": 42,
-   "data": "2026-11-06",
-   "de": "analista",
-   "para": "pesquisador",
-   "meta": "acessos",
-   "assunto": "Mais pautas de games e Motorola: ontem trouxeram 7 de 9 visitas",
-   "mensagem": "Games (Zelda/Ocarina, 5 visitas somando o post do Switch 2) e Motorola Signature 27 (3 visitas) foram o que o Google trouxe. Pautar 1 continuacao de cada com termo real do palavras.json.",
-   "status": "resolvida",
-   "resposta": "Games: pautas playstation-ou-xbox e xbox-game-pass-ou-ps-plus (termos reais). Motorola: ja ha motorola-signature-27-vs-signature pendente.",
-   "respondido_por": "pesquisador",
-   "resolvida_em": "2026-11-07"
-  },
-  {
-   "id": 43,
-   "data": "2026-11-06",
-   "de": "analista",
-   "para": "atualizador",
-   "meta": "engajamento",
-   "assunto": "Ontem 9 visitas e 9 visualizacoes: 1,0 pagina por visita",
-   "mensagem": "Meta e 2,5 ou mais. Ligar os 2 posts da Motorola Signature 27 entre si e o Ocarina aos 2 outros posts de Zelda, com link interno no corpo.",
-   "status": "resolvida",
-   "resposta": "Post motorola-signature-27-vs-signature-o-que-mudou-vale-trocar escrito, com links internos para os dois posts. Falta a imagem (designer).",
-   "respondido_por": "redator",
-   "resolvida_em": "2026-11-07"
-  },
   {
    "id": 44,
    "data": "2026-11-07",
@@ -1053,6 +1027,29 @@
    "resposta": "Guia fone-tws-ou-ows-qual-escolher escrito; linka tutorial e lista; falta imagem (designer).",
    "respondido_por": "redator",
    "resolvida_em": "2026-11-25"
+  },
+  {
+   "id": 121,
+   "data": "2026-11-26",
+   "de": "tendencias",
+   "para": "pesquisador",
+   "meta": "acessos",
+   "assunto": "Pauta de blog: WhatsApp vai agendar mensagens (10 min a 14 dias)",
+   "mensagem": "Engadget 25/11 (Kris Holt) + testes em beta (9to5Mac 22/10). Alto interesse no Brasil, sem post nosso. Confirmar no blog oficial do WhatsApp antes de publicar; sem data para o Brasil. Termo de busca: 'whatsapp agendar mensagem'.",
+   "status": "aberta"
+  },
+  {
+   "id": 122,
+   "data": "2026-11-26",
+   "de": "tendencias",
+   "para": "produtor",
+   "meta": "engajamento",
+   "assunto": "Top 3 de 26/11 (tendencias.json)",
+   "mensagem": "1) WhatsApp agenda mensagens (4,5, 60s, gringo; abrir anuncio oficial). 2) Fabricantes cortam metas de celulares 2027, Xiaomi -25% (4, 60s; gancho com numero). 3) Historias Tech Theranos (4, filme estreia hoje) ou Dreamcast 27/11 para o fim de semana. Quinta Lá Fora: Xiaomi 18 Pro (20/11). Atencao: GTA 6 PC (25/11) mudou, Take-Two derrubou o Project Leonida (35 projetos agora, nao 30); ajustar o roteiro.",
+   "status": "resolvida",
+   "resposta": "Pauta de 26/11: 60s = WhatsApp agenda mensagens; Lá Fora = Xiaomi 18 Pro global. GTA 6 PC fica fora (já em_video em 25/11).",
+   "respondido_por": "produtor",
+   "resolvida_em": "2026-11-26"
   }
  ]
 }

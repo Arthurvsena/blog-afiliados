@@ -1,371 +1,381 @@
 {
-  "ultima_execucao": "2026-11-26T08:00",
-  "agentes": {
-    "chefe": {
-      "status": "ok",
-      "tarefa": "Coordenei o dia: 3 notícias, 1 tutorial, 1 análise e 2 guias, e descartei a notícia do Switch Lite porque a oferta era do ano passado."
-    },
-    "pesquisador": {
-      "status": "ok",
-      "tarefa": "Achei 5 notícias da véspera da Black Friday e mais 7 pautas para a fila, que ficou com 19."
-    },
-    "curador": {
-      "status": "ocioso",
-      "tarefa": "Não fui chamado: o catálogo cobre as pautas de hoje."
-    },
-    "redator": {
-      "status": "ok",
-      "tarefa": "Escrevi o iPhone na Black Friday, o selo de 60 dias do ML, o WhatsApp agendado, o tutorial do repetidor, o PlayStation Portal, os TWS até R$ 200 e Mi Band contra Huawei Band."
-    },
-    "seo": {
-      "status": "ok",
-      "tarefa": "Revisei os 7 posts, troquei a palavra-chave do WhatsApp por um termo real e tirei o preço antigo do Portal."
-    },
-    "atualizador": {
-      "status": "ocioso",
-      "tarefa": "Não fui chamado: nenhum post que não seja notícia tem 30 dias ainda."
-    },
-    "designer": {
-      "status": "ok",
-      "tarefa": "Pus foto e blocos nos 7 posts e enxuguei os TWS de 21 para 11 chamadas de compra."
-    },
-    "vendas": {
-      "status": "ok",
-      "tarefa": "Pus venda leve nas notícias e botões nos guias de TWS e smartbands, sem preço no texto."
-    },
-    "viral": {
-      "status": "ok",
-      "tarefa": "Dei a nota viral às pautas e escrevi os textos de rede dos 7 posts."
-    },
-    "produtor": {
-      "status": "ok",
-      "tarefa": "Escolhi o alerta da Black Friday (Short) e o tutorial do celular como webcam no OBS (longo) e revisei os dois roteiros."
-    },
-    "roteirista": {
-      "status": "ok",
-      "tarefa": "Escrevi o Short das 17 armadilhas da Black Friday e o tutorial do celular como webcam no OBS; o Short foi montado, o longo está na fila."
-    },
-    "analista": {
-      "status": "ok",
-      "tarefa": "Ontem foram 16 visitas, 0 vieram do Google; 10 no tutorial do fone TWS."
-    },
-    "seg_animador": {
-      "status": "ok",
-      "tarefa": "Animei 1 vídeo(s) em 3D do Segura Aí: benjamim-sobrecarga "
-    },
-    "seg_narrador": {
-      "status": "ok",
-      "tarefa": "Narrei com a voz do Gemini e mixei efeitos e trilha"
-    },
-    "seg_roteirista": {
-      "status": "ok",
-      "tarefa": "Escrevi 7 roteiros novos do Segura Aí 3D"
-    },
-    "seg_publicador": {
-      "status": "ok",
-      "tarefa": "Agendei o vídeo da lâmpada no TikTok para hoje às 19:15"
-    }
+ "ultima_execucao": "2026-11-25T07:40",
+ "agentes": {
+  "chefe": {
+   "status": "ok",
+   "tarefa": "Coordenei o dia: 4 notícias, 1 tutorial, 1 análise e 2 guias, e descartei a notícia sem segunda fonte."
   },
-  "historico": [
-    {
-      "data": "2026-11-17",
-      "agente": "curador",
-      "texto": "Sugeri o JBL Tune 520BT."
-    },
-    {
-      "data": "2026-11-18",
-      "agente": "pesquisador",
-      "texto": "Trouxe 5 pautas de notícia e descartei 2 pendentes velhas."
-    },
-    {
-      "data": "2026-11-18",
-      "agente": "redator",
-      "texto": "Escrevi 8 posts do dia, entre notícias, tutorial, análise e guias."
-    },
-    {
-      "data": "2026-11-18",
-      "agente": "seo",
-      "texto": "Revisei títulos, descrições e links dos 8 posts."
-    },
-    {
-      "data": "2026-11-18",
-      "agente": "viral",
-      "texto": "Escrevi os textos de rede dos 8 posts."
-    },
-    {
-      "data": "2026-11-18",
-      "agente": "vendas",
-      "texto": "Liguei os posts ao guia de compras com chamadas leves."
-    },
-    {
-      "data": "2026-11-18",
-      "agente": "designer",
-      "texto": "Pus imagem e blocos nos posts do dia."
-    },
-    {
-      "data": "2026-11-19",
-      "agente": "produtor",
-      "texto": "Pauta e revisão dos roteiros de GTA 6 golpes e RAMageddon."
-    },
-    {
-      "data": "2026-11-19",
-      "agente": "roteirista",
-      "texto": "Dois roteiros prontos; Short montado, longo na fila."
-    },
-    {
-      "data": "2026-11-21",
-      "agente": "pesquisador",
-      "texto": "5 pautas de notícia de games, IA e celulares."
-    },
-    {
-      "data": "2026-11-21",
-      "agente": "redator",
-      "texto": "5 notícias e 1 tutorial de IA grátis para vídeos."
-    },
-    {
-      "data": "2026-11-21",
-      "agente": "seo",
-      "texto": "Títulos e descrições dos posts novos."
-    },
-    {
-      "data": "2026-11-21",
-      "agente": "vendas",
-      "texto": "Chamadas leves de compra em GTA 6 e Epic."
-    },
-    {
-      "data": "2026-11-21",
-      "agente": "designer",
-      "texto": "Fotos reais nos posts novos e no guia do mouse Logitech."
-    },
-    {
-      "data": "2026-11-21",
-      "agente": "viral",
-      "texto": "Textos de rede dos 6 posts."
-    },
-    {
-      "data": "2026-11-22",
-      "agente": "pesquisador",
-      "texto": "5 pautas de notícia e 6 pautas de fila."
-    },
-    {
-      "data": "2026-11-22",
-      "agente": "curador",
-      "texto": "Sugestões de caixas, Redragon e JBL."
-    },
-    {
-      "data": "2026-11-22",
-      "agente": "redator",
-      "texto": "6 posts novos."
-    },
-    {
-      "data": "2026-11-22",
-      "agente": "seo",
-      "texto": "Revisão de 6 posts e links internos."
-    },
-    {
-      "data": "2026-11-22",
-      "agente": "vendas",
-      "texto": "Chamadas de compra no comparativo de teclado."
-    },
-    {
-      "data": "2026-11-22",
-      "agente": "designer",
-      "texto": "Capas e diagramação de 6 posts."
-    },
-    {
-      "data": "2026-11-22",
-      "agente": "viral",
-      "texto": "Textos de rede de 6 posts."
-    },
-    {
-      "data": "2026-11-23",
-      "agente": "analista",
-      "texto": "Leitura diária: 4 visitas em 22/11 (todas diretas); semana 44 visitas, 4 do Google; canal 4.395 views e +2 inscritos."
-    },
-    {
-      "data": "2026-11-23",
-      "agente": "seg_animador",
-      "texto": "Animei 1 vídeo(s) em 3D do Segura Aí: trocar-lampada "
-    },
-    {
-      "data": "2026-11-23",
-      "agente": "seg_narrador",
-      "texto": "Narrei com a voz do Gemini e mixei efeitos e trilha"
-    },
-    {
-      "data": "2026-11-23",
-      "agente": "seg_roteirista",
-      "texto": "Lote de roteiros do Segura Aí 3D pronto"
-    },
-    {
-      "data": "2026-11-23",
-      "agente": "pesquisador",
-      "texto": "Trouxe 5 pautas de notícia: GTA 6 vendas, Anatel e SMS, Edge 70 Neo, GPT-6.2 e Google Tasks."
-    },
-    {
-      "data": "2026-11-23",
-      "agente": "redator",
-      "texto": "Escrevi 9 posts: 5 notícias, 1 tutorial, 1 análise e 2 guias de compra."
-    },
-    {
-      "data": "2026-11-23",
-      "agente": "seo",
-      "texto": "Revisei título, descrição e links internos dos 9 posts do dia."
-    },
-    {
-      "data": "2026-11-23",
-      "agente": "vendas",
-      "texto": "Revisei as chamadas de compra dos 9 posts; os dois guias ganharam mais chamadas."
-    },
-    {
-      "data": "2026-11-23",
-      "agente": "designer",
-      "texto": "Cuidei de foto, capa e blocos visuais dos 9 posts."
-    },
-    {
-      "data": "2026-11-23",
-      "agente": "viral",
-      "texto": "Escrevi os textos de rede social dos 9 posts de hoje."
-    },
-    {
-      "data": "2026-11-23",
-      "agente": "analista",
-      "texto": "Fechei o relatório da semana: 44 visitas, 12 cliques no ML, 1º pedido; meta de 20 cliques na semana da Black Friday."
-    },
-    {
-      "data": "2026-11-23",
-      "agente": "curador",
-      "texto": "Cadastrei 8 produtos com link: caixa Xiaomi Mi Compact 2 e JBL Tune 520BT (fones-caixas), 3 mouses Redragon sem fio (Cobra Pro, King Pro, Storm Pro), câmeras Tapo C200 e C210 e o Redmi Watch 5 Lite. Tomada Intelbras 20 A reprovada (sem avaliações)."
-    },
-    {
-      "data": "2026-11-23",
-      "agente": "seg_publicador",
-      "texto": "Agendei o vídeo da lâmpada no TikTok para hoje às 19:15"
-    },
-    {
-      "data": "2026-11-23",
-      "agente": "seg_roteirista",
-      "texto": "Escrevi 7 roteiros novos do Segura Aí 3D"
-    },
-    {
-      "data": "2026-11-24",
-      "agente": "chefe",
-      "texto": "Reunião: foco no funil da Black Friday (listas, escolha principal, veja também) e em termos com busca e sem post."
-    },
-    {
-      "data": "2026-11-24",
-      "agente": "analista",
-      "texto": "Resumo da semana 16–22/11: 44 visitas, 12 cliques, 1 pedido; meta de 20 cliques."
-    },
-    {
-      "data": "2026-11-24",
-      "agente": "seo",
-      "texto": "Relatório semanal: CTR 0,2%; reescreveu iPhone 11 e PS4; Echo Dot e lâmpadas mapeados."
-    },
-    {
-      "data": "2026-11-24",
-      "agente": "vendas",
-      "texto": "Relatório semanal: 2 ofertas no iPhone 11 e funil da BF; pautas GaN e desconto real."
-    },
-    {
-      "data": "2026-11-24",
-      "agente": "curador",
-      "texto": "Redragon e JBL destravados; caixas até R$ 100 vira \"até R$ 200\"; apostas de BF só com o catálogo."
-    },
-    {
-      "data": "2026-11-24",
-      "agente": "designer",
-      "texto": "Trocou a foto repetida da Alexa+; iPhone 13 segue sem foto oficial."
-    },
-    {
-      "data": "2026-11-24",
-      "agente": "pesquisador",
-      "texto": "Propôs termos com busca: Switch Lite e celulares da BF."
-    },
-    {
-      "data": "2026-11-24",
-      "agente": "redator",
-      "texto": "Propôs veja também nas listas de energia, Redragon/JBL e guia GaN."
-    },
-    {
-      "data": "2026-11-24",
-      "agente": "atualizador",
-      "texto": "Propôs escolha principal em TWS e turbo e FAQ de Echo Dot e lâmpadas."
-    },
-    {
-      "data": "2026-11-24",
-      "agente": "produtor",
-      "texto": "Pauta e revisão: Black Friday/Procon (Short) e webcam no OBS (longo)."
-    },
-    {
-      "data": "2026-11-24",
-      "agente": "roteirista",
-      "texto": "Roteiros do Short das 17 armadilhas e do tutorial de webcam no OBS."
-    },
-    {
-      "data": "2026-11-24",
-      "agente": "analista",
-      "texto": "Leitura de 23/11: 16 visitas (+154% sobre a média), TWS em alta; ações para vendas, viral e pesquisador."
-    },
-    {
-      "data": "2026-11-25",
-      "agente": "pesquisador",
-      "texto": "Cinco notícias do dia e a pauta \"fone tws ou ows\"."
-    },
-    {
-      "data": "2026-11-25",
-      "agente": "redator",
-      "texto": "Oito posts novos, entre notícias, tutorial, análise e guias."
-    },
-    {
-      "data": "2026-11-25",
-      "agente": "seo",
-      "texto": "Revisão de 8 posts e links de volta em posts antigos."
-    },
-    {
-      "data": "2026-11-25",
-      "agente": "vendas",
-      "texto": "Card do QCY no tutorial de TWS e ofertas nos guias novos."
-    },
-    {
-      "data": "2026-11-25",
-      "agente": "designer",
-      "texto": "Fotos, capas e componentes nos 8 posts do dia."
-    },
-    {
-      "data": "2026-11-25",
-      "agente": "viral",
-      "texto": "Textos de rede para 8 posts e para o tutorial de TWS."
-    },
-    {
-      "data": "2026-11-26",
-      "agente": "pesquisador",
-      "texto": "Achei 5 pautas de notícia e 7 pautas novas para a fila."
-    },
-    {
-      "data": "2026-11-26",
-      "agente": "redator",
-      "texto": "Escrevi 7 posts: 3 notícias, 1 tutorial, 1 análise e 2 guias."
-    },
-    {
-      "data": "2026-11-26",
-      "agente": "seo",
-      "texto": "Revisei os 7 posts do dia."
-    },
-    {
-      "data": "2026-11-26",
-      "agente": "vendas",
-      "texto": "Revisei as chamadas de compra dos 7 posts."
-    },
-    {
-      "data": "2026-11-26",
-      "agente": "designer",
-      "texto": "Fotos e blocos nos 7 posts."
-    },
-    {
-      "data": "2026-11-26",
-      "agente": "viral",
-      "texto": "Textos de rede dos 7 posts."
-    }
-  ]
+  "pesquisador": {
+   "status": "ok",
+   "tarefa": "Achei 5 notícias do dia e a pauta de \"fone tws ou ows\" que a Luisa pediu."
+  },
+  "curador": {
+   "status": "ocioso",
+   "tarefa": "Não fui chamado: o catálogo cobre as pautas de hoje."
+  },
+  "redator": {
+   "status": "ok",
+   "tarefa": "Escrevi Huawei, Xbox Helix, Gemini, figurinhas do WhatsApp, o guia GaN, TWS ou OWS, o tutorial de IA e a análise do Claude."
+  },
+  "seo": {
+   "status": "ok",
+   "tarefa": "Revisei os 8 posts, tirei afirmações sem fonte do Huawei e troquei palavras-chave por termos reais."
+  },
+  "atualizador": {
+   "status": "ocioso",
+   "tarefa": "Não fui chamado: nenhum post que não seja notícia tem 30 dias ou mais."
+  },
+  "designer": {
+   "status": "ok",
+   "tarefa": "Pus foto e capa nos 8 posts novos e diagramei com prós, contras e vereditos."
+  },
+  "vendas": {
+   "status": "ok",
+   "tarefa": "Pus o card do QCY T13 no tutorial de TWS e ofertas nos dois guias novos."
+  },
+  "viral": {
+   "status": "ok",
+   "tarefa": "Dei nota às pautas, afiei títulos e escrevi os textos de rede, inclusive o do tutorial de TWS."
+  },
+  "produtor": {
+   "status": "ok",
+   "tarefa": "Escolhi o Short do agendamento do WhatsApp e o Lá Fora do Xiaomi 18 Pro global, e revisei os dois roteiros."
+  },
+  "roteirista": {
+   "status": "ok",
+   "tarefa": "Escrevi o Short do WhatsApp (montado) e o longo do Xiaomi 18 Pro na Europa (na fila de montagem)."
+  },
+  "analista": {
+   "status": "ok",
+   "tarefa": "Ontem foram 16 visitas, 0 vieram do Google; 10 no tutorial do fone TWS."
+  },
+  "seg_animador": {
+   "status": "ok",
+   "tarefa": "Animei 1 vídeo(s) em 3D do Segura Aí: chuveiro-eletrico-choque "
+  },
+  "seg_narrador": {
+   "status": "ok",
+   "tarefa": "Narrei com a voz do Gemini e mixei efeitos e trilha"
+  },
+  "seg_roteirista": {
+   "status": "ok",
+   "tarefa": "Escrevi 7 roteiros novos do Segura Aí 3D"
+  },
+  "seg_publicador": {
+   "status": "ok",
+   "tarefa": "Agendei o vídeo da lâmpada no TikTok para hoje às 19:15"
+  }
+ },
+ "historico": [
+  {
+   "data": "2026-11-17",
+   "agente": "redator",
+   "texto": "Escrevi 8 posts, de Anatel a teclado gamer mecânico."
+  },
+  {
+   "data": "2026-11-17",
+   "agente": "seo",
+   "texto": "Revisei títulos e descrições dos posts do dia."
+  },
+  {
+   "data": "2026-11-17",
+   "agente": "viral",
+   "texto": "Notas virais e textos de rede dos 8 posts."
+  },
+  {
+   "data": "2026-11-17",
+   "agente": "vendas",
+   "texto": "Revisei as chamadas de compra dos guias e posts novos."
+  },
+  {
+   "data": "2026-11-17",
+   "agente": "designer",
+   "texto": "Fotos, blocos e capas dos posts do dia."
+  },
+  {
+   "data": "2026-11-17",
+   "agente": "atualizador",
+   "texto": "Ofertas no PS4 e no iPhone Duo."
+  },
+  {
+   "data": "2026-11-17",
+   "agente": "curador",
+   "texto": "Sugeri o JBL Tune 520BT."
+  },
+  {
+   "data": "2026-11-18",
+   "agente": "pesquisador",
+   "texto": "Trouxe 5 pautas de notícia e descartei 2 pendentes velhas."
+  },
+  {
+   "data": "2026-11-18",
+   "agente": "redator",
+   "texto": "Escrevi 8 posts do dia, entre notícias, tutorial, análise e guias."
+  },
+  {
+   "data": "2026-11-18",
+   "agente": "seo",
+   "texto": "Revisei títulos, descrições e links dos 8 posts."
+  },
+  {
+   "data": "2026-11-18",
+   "agente": "viral",
+   "texto": "Escrevi os textos de rede dos 8 posts."
+  },
+  {
+   "data": "2026-11-18",
+   "agente": "vendas",
+   "texto": "Liguei os posts ao guia de compras com chamadas leves."
+  },
+  {
+   "data": "2026-11-18",
+   "agente": "designer",
+   "texto": "Pus imagem e blocos nos posts do dia."
+  },
+  {
+   "data": "2026-11-19",
+   "agente": "produtor",
+   "texto": "Pauta e revisão dos roteiros de GTA 6 golpes e RAMageddon."
+  },
+  {
+   "data": "2026-11-19",
+   "agente": "roteirista",
+   "texto": "Dois roteiros prontos; Short montado, longo na fila."
+  },
+  {
+   "data": "2026-11-21",
+   "agente": "pesquisador",
+   "texto": "5 pautas de notícia de games, IA e celulares."
+  },
+  {
+   "data": "2026-11-21",
+   "agente": "redator",
+   "texto": "5 notícias e 1 tutorial de IA grátis para vídeos."
+  },
+  {
+   "data": "2026-11-21",
+   "agente": "seo",
+   "texto": "Títulos e descrições dos posts novos."
+  },
+  {
+   "data": "2026-11-21",
+   "agente": "vendas",
+   "texto": "Chamadas leves de compra em GTA 6 e Epic."
+  },
+  {
+   "data": "2026-11-21",
+   "agente": "designer",
+   "texto": "Fotos reais nos posts novos e no guia do mouse Logitech."
+  },
+  {
+   "data": "2026-11-21",
+   "agente": "viral",
+   "texto": "Textos de rede dos 6 posts."
+  },
+  {
+   "data": "2026-11-22",
+   "agente": "pesquisador",
+   "texto": "5 pautas de notícia e 6 pautas de fila."
+  },
+  {
+   "data": "2026-11-22",
+   "agente": "curador",
+   "texto": "Sugestões de caixas, Redragon e JBL."
+  },
+  {
+   "data": "2026-11-22",
+   "agente": "redator",
+   "texto": "6 posts novos."
+  },
+  {
+   "data": "2026-11-22",
+   "agente": "seo",
+   "texto": "Revisão de 6 posts e links internos."
+  },
+  {
+   "data": "2026-11-22",
+   "agente": "vendas",
+   "texto": "Chamadas de compra no comparativo de teclado."
+  },
+  {
+   "data": "2026-11-22",
+   "agente": "designer",
+   "texto": "Capas e diagramação de 6 posts."
+  },
+  {
+   "data": "2026-11-22",
+   "agente": "viral",
+   "texto": "Textos de rede de 6 posts."
+  },
+  {
+   "data": "2026-11-23",
+   "agente": "analista",
+   "texto": "Leitura diária: 4 visitas em 22/11 (todas diretas); semana 44 visitas, 4 do Google; canal 4.395 views e +2 inscritos."
+  },
+  {
+   "data": "2026-11-23",
+   "agente": "seg_animador",
+   "texto": "Animei 1 vídeo(s) em 3D do Segura Aí: trocar-lampada "
+  },
+  {
+   "data": "2026-11-23",
+   "agente": "seg_narrador",
+   "texto": "Narrei com a voz do Gemini e mixei efeitos e trilha"
+  },
+  {
+   "data": "2026-11-23",
+   "agente": "seg_roteirista",
+   "texto": "Lote de roteiros do Segura Aí 3D pronto"
+  },
+  {
+   "data": "2026-11-23",
+   "agente": "pesquisador",
+   "texto": "Trouxe 5 pautas de notícia: GTA 6 vendas, Anatel e SMS, Edge 70 Neo, GPT-6.2 e Google Tasks."
+  },
+  {
+   "data": "2026-11-23",
+   "agente": "redator",
+   "texto": "Escrevi 9 posts: 5 notícias, 1 tutorial, 1 análise e 2 guias de compra."
+  },
+  {
+   "data": "2026-11-23",
+   "agente": "seo",
+   "texto": "Revisei título, descrição e links internos dos 9 posts do dia."
+  },
+  {
+   "data": "2026-11-23",
+   "agente": "vendas",
+   "texto": "Revisei as chamadas de compra dos 9 posts; os dois guias ganharam mais chamadas."
+  },
+  {
+   "data": "2026-11-23",
+   "agente": "designer",
+   "texto": "Cuidei de foto, capa e blocos visuais dos 9 posts."
+  },
+  {
+   "data": "2026-11-23",
+   "agente": "viral",
+   "texto": "Escrevi os textos de rede social dos 9 posts de hoje."
+  },
+  {
+   "data": "2026-11-23",
+   "agente": "analista",
+   "texto": "Fechei o relatório da semana: 44 visitas, 12 cliques no ML, 1º pedido; meta de 20 cliques na semana da Black Friday."
+  },
+  {
+   "data": "2026-11-23",
+   "agente": "curador",
+   "texto": "Cadastrei 8 produtos com link: caixa Xiaomi Mi Compact 2 e JBL Tune 520BT (fones-caixas), 3 mouses Redragon sem fio (Cobra Pro, King Pro, Storm Pro), câmeras Tapo C200 e C210 e o Redmi Watch 5 Lite. Tomada Intelbras 20 A reprovada (sem avaliações)."
+  },
+  {
+   "data": "2026-11-23",
+   "agente": "seg_publicador",
+   "texto": "Agendei o vídeo da lâmpada no TikTok para hoje às 19:15"
+  },
+  {
+   "data": "2026-11-23",
+   "agente": "seg_roteirista",
+   "texto": "Escrevi 7 roteiros novos do Segura Aí 3D"
+  },
+  {
+   "data": "2026-11-24",
+   "agente": "chefe",
+   "texto": "Reunião: foco no funil da Black Friday (listas, escolha principal, veja também) e em termos com busca e sem post."
+  },
+  {
+   "data": "2026-11-24",
+   "agente": "analista",
+   "texto": "Resumo da semana 16–22/11: 44 visitas, 12 cliques, 1 pedido; meta de 20 cliques."
+  },
+  {
+   "data": "2026-11-24",
+   "agente": "seo",
+   "texto": "Relatório semanal: CTR 0,2%; reescreveu iPhone 11 e PS4; Echo Dot e lâmpadas mapeados."
+  },
+  {
+   "data": "2026-11-24",
+   "agente": "vendas",
+   "texto": "Relatório semanal: 2 ofertas no iPhone 11 e funil da BF; pautas GaN e desconto real."
+  },
+  {
+   "data": "2026-11-24",
+   "agente": "curador",
+   "texto": "Redragon e JBL destravados; caixas até R$ 100 vira \"até R$ 200\"; apostas de BF só com o catálogo."
+  },
+  {
+   "data": "2026-11-24",
+   "agente": "designer",
+   "texto": "Trocou a foto repetida da Alexa+; iPhone 13 segue sem foto oficial."
+  },
+  {
+   "data": "2026-11-24",
+   "agente": "pesquisador",
+   "texto": "Propôs termos com busca: Switch Lite e celulares da BF."
+  },
+  {
+   "data": "2026-11-24",
+   "agente": "redator",
+   "texto": "Propôs veja também nas listas de energia, Redragon/JBL e guia GaN."
+  },
+  {
+   "data": "2026-11-24",
+   "agente": "atualizador",
+   "texto": "Propôs escolha principal em TWS e turbo e FAQ de Echo Dot e lâmpadas."
+  },
+  {
+   "data": "2026-11-24",
+   "agente": "produtor",
+   "texto": "Pauta e revisão: Black Friday/Procon (Short) e webcam no OBS (longo)."
+  },
+  {
+   "data": "2026-11-24",
+   "agente": "roteirista",
+   "texto": "Roteiros do Short das 17 armadilhas e do tutorial de webcam no OBS."
+  },
+  {
+   "data": "2026-11-24",
+   "agente": "analista",
+   "texto": "Leitura de 23/11: 16 visitas (+154% sobre a média), TWS em alta; ações para vendas, viral e pesquisador."
+  },
+  {
+   "data": "2026-11-25",
+   "agente": "pesquisador",
+   "texto": "Cinco notícias do dia e a pauta \"fone tws ou ows\"."
+  },
+  {
+   "data": "2026-11-25",
+   "agente": "redator",
+   "texto": "Oito posts novos, entre notícias, tutorial, análise e guias."
+  },
+  {
+   "data": "2026-11-25",
+   "agente": "seo",
+   "texto": "Revisão de 8 posts e links de volta em posts antigos."
+  },
+  {
+   "data": "2026-11-25",
+   "agente": "vendas",
+   "texto": "Card do QCY no tutorial de TWS e ofertas nos guias novos."
+  },
+  {
+   "data": "2026-11-25",
+   "agente": "designer",
+   "texto": "Fotos, capas e componentes nos 8 posts do dia."
+  },
+  {
+   "data": "2026-11-25",
+   "agente": "viral",
+   "texto": "Textos de rede para 8 posts e para o tutorial de TWS."
+  },
+  {
+   "data": "2026-11-26",
+   "agente": "produtor",
+   "texto": "Pauta do dia (WhatsApp agendar mensagens + Xiaomi 18 Pro global) e revisão dos roteiros."
+  },
+  {
+   "data": "2026-11-26",
+   "agente": "roteirista",
+   "texto": "Roteiros do Short do WhatsApp e do longo Lá Fora, Aqui do Xiaomi 18 Pro."
+  }
+ ]
 }

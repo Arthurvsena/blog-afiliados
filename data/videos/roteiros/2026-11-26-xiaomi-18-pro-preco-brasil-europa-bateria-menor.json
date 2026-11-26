@@ -1,0 +1,347 @@
+{
+ "tipo": "longo",
+ "quadro": "lafora",
+ "slug": "2026-11-26-xiaomi-18-pro-preco-brasil-europa-bateria-menor",
+ "post": "xiaomi-18-pro-max-brasil-fim-de-janeiro-2027-preco-europa",
+ "palavra_chave": "xiaomi 18 pro preço brasil",
+ "titulo": "Xiaomi 18 Pro preço Brasil: €1.399 na Europa e bateria menor",
+ "titulos_opcoes": [
+  "Xiaomi 18 Pro preço Brasil: €1.399 na Europa e bateria menor",
+  "Xiaomi 18 Pro preço Brasil: a versão global perdeu bateria?",
+  "Xiaomi 18 Pro chegou à Europa: o que muda e quando vem pra cá"
+ ],
+ "resumo": "O Xiaomi 18 Pro custa a partir de €1.399 na Europa e traz bateria de 6.000 mAh, menor que os 7.000 mAh da China. No Brasil ainda não há preço oficial, e a conta em reais é só estimativa. Veja a tabela China contra Europa, o que se sabe da chegada aqui e o que dá pra comprar enquanto isso.",
+ "hashtags": [
+  "Xiaomi",
+  "Xiaomi18Pro",
+  "celulares",
+  "lançamento"
+ ],
+ "selo": "Lá Fora, Aqui",
+ "capa_texto": "BATERIA MENOR?",
+ "capa_texto_b": "R$ 9 MIL?",
+ "capa_cena": 9,
+ "capitulos_desc": [
+  "0:00 Chegou à Europa",
+  "0:50 O que mudou da China para cá",
+  "2:00 A tabela China x Europa",
+  "3:00 E no Brasil?",
+  "4:30 O que dá pra comprar agora",
+  "5:45 Veredito Nexus"
+ ],
+ "fontes": [
+  {
+   "nome": "Techloy (preços, baterias e evento em Paris)",
+   "url": "https://www.techloy.com/xiaomi-18-pro-max-global-launch-price-specs/"
+  },
+  {
+   "nome": "TechNode (preços europeus, 18/11)",
+   "url": "https://technode.com/2026/11/18/xiaomi-takes-its-rear-screen-flagship-phones-overseas-starting-at-e1399/"
+  },
+  {
+   "nome": "Gagadget (baterias menores na Europa)",
+   "url": "https://gagadget.com/en/733586-xiaomi-18-pro-heads-to-europe-on-nov-17-with-smaller-batteries/"
+  },
+  {
+   "nome": "Showmetech (Brasil, previsão de janeiro de 2027)",
+   "url": "https://www.showmetech.com.br/xiaomi-18-pro-pro-max-lancamento-global-brasil-janeiro-2027/"
+  },
+  {
+   "nome": "Xiaomi Global: página do Xiaomi 18 Pro (bateria 6.000 mAh)",
+   "url": "https://www.mi.com/global/product/xiaomi-18-pro/"
+  },
+  {
+   "nome": "Xiaomi Global: página do Xiaomi 18 Pro Max (bateria 7.050 mAh)",
+   "url": "https://www.mi.com/global/product/xiaomi-18-pro-max/"
+  },
+  {
+   "nome": "BCE: taxa de referência euro/real, 25/11/2026: 6,4531",
+   "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-brl.en.html"
+  },
+  {
+   "nome": "Anatel: declaração de conformidade para uso próprio",
+   "url": "https://www.gov.br/anatel/pt-br/regulado/certificacao-de-produtos/declaracao-de-conformidade"
+  }
+ ],
+ "produtos": [
+  "anker-a110e-20000-22w",
+  "xiaomi-smart-band-10",
+  "xiaomi-redmi-watch-5-lite"
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "capitulo": "Chegou à Europa",
+   "fala": "O Xiaomi 18 Pro custa {€1.399|mil, trezentos e noventa e nove euros} na Europa. Mas a bateria encolheu.",
+   "tela": "18 Pro na Europa: €1.399 e bateria menor",
+   "imagens": [
+    "tela:https://www.mi.com/global/product/xiaomi-18-pro/"
+   ]
+  },
+  {
+   "tipo": "info",
+   "icone": "bateria",
+   "fala": "É o Xiaomi dezoito Pro, o celular com uma segunda telinha na traseira. A pergunta do brasileiro é: chega aqui, e por quanto? Eu te conto o que as fontes dizem."
+  },
+  {
+   "tipo": "data",
+   "destaque": "17 NOV 2026",
+   "rotulo": "lançamento global em Paris",
+   "fonte": "Techloy, 18/11",
+   "fala": "A Xiaomi lançou a série dezoito Pro fora da China em dezessete de novembro, no Carrousel do Louvre, em Paris. É a primeira vez que esses modelos saem do mercado chinês."
+  },
+  {
+   "tipo": "info",
+   "icone": "check",
+   "fala": "Os links e o post completo estão na descrição. Agora vem o que importa: o que mudou da China para a Europa, o que se sabe do Brasil e o que dá pra comprar enquanto isso."
+  },
+  {
+   "tipo": "manchete",
+   "capitulo": "O que mudou da China para cá",
+   "fonte": "TechNode, 18/11",
+   "fala": "Primeiro, o preço. O TechNode registra que na Europa o dezoito Pro parte de mil, trezentos e noventa e nove euros, e o Pro Max, de mil, quinhentos e noventa e nove.",
+   "manchete": {
+    "url": "https://technode.com/2026/11/18/xiaomi-takes-its-rear-screen-flagship-phones-overseas-starting-at-e1399/",
+    "trecho": "European prices start at €1,399 for the 18 Pro and €1,599 for the Pro Max."
+   }
+  },
+  {
+   "tipo": "barras",
+   "fonte": "Techloy e TechNode, 18/11",
+   "titulo_lista": "PREÇO NA EUROPA (A PARTIR DE)",
+   "itens": [
+    {
+     "rotulo": "18 Pro",
+     "valor": 1399,
+     "unidade": "euros"
+    },
+    {
+     "rotulo": "18 Pro Max",
+     "valor": 1599,
+     "unidade": "euros"
+    },
+    {
+     "rotulo": "Pro Max 16 GB + 1 TB",
+     "valor": 2099,
+     "unidade": "euros"
+    }
+   ],
+   "fala": "A versão de topo do Pro Max, com dezesseis gigas de memória e um terabyte, chega a {€2.099|dois mil e noventa e nove euros}, segundo o Techloy. Os preços variam por país."
+  },
+  {
+   "tipo": "fato",
+   "fonte": "Techloy, 18/11",
+   "fala": "O resto da ficha segue o que a China viu: câmeras Leica de duzentos megapixels, chip Snapdragon de nova geração e o sistema HyperOS quatro. Não é um aparelho cortado por inteiro.",
+   "imagens": [
+    "tela:https://www.mi.com/global/product/xiaomi-18-pro-max/",
+    "content/imagens/xiaomi-18-pro-pro-max-evento-global-17-novembro-paris.jpg"
+   ]
+  },
+  {
+   "tipo": "info",
+   "icone": "alerta",
+   "fala": "Só que tem um detalhe que o Techloy e o Gagadget destacam, e que não aparece no cartaz do evento: a bateria."
+  },
+  {
+   "tipo": "numero",
+   "destaque": "6.000 mAh",
+   "rotulo": "bateria do 18 Pro na Europa",
+   "fonte": "Techloy e Xiaomi Global, 26/11",
+   "fala": "O dezoito Pro europeu tem bateria de {6.000 mAh|seis mil miliampères-hora}. Na China, o mesmo modelo tem {7.000|sete mil}. A página global da Xiaomi mostra os seis mil."
+  },
+  {
+   "tipo": "numero",
+   "destaque": "7.050 mAh",
+   "rotulo": "bateria do 18 Pro Max na Europa",
+   "fonte": "Techloy e Xiaomi Global, 26/11",
+   "fala": "No Pro Max, a queda é de {8.500|oito mil e quinhentos} na China para {7.050|sete mil e cinquenta} fora de lá."
+  },
+  {
+   "tipo": "manchete",
+   "fonte": "Techloy, 18/11",
+   "fala": "O Techloy faz a conta: cerca de catorze por cento a menos no Pro e dezessete por cento a menos no Pro Max. E diz que a Xiaomi não explicou o motivo.",
+   "manchete": {
+    "url": "https://www.techloy.com/xiaomi-18-pro-max-global-launch-price-specs/",
+    "trecho": "Its global battery capacity is 7,050mAh, down from 8,500mAh in China."
+   }
+  },
+  {
+   "tipo": "comparativo",
+   "capitulo": "A tabela China x Europa",
+   "fonte": "Techloy, 18/11",
+   "itens": [
+    {
+     "valor": "7.000 mAh",
+     "rotulo": "18 Pro, China"
+    },
+    {
+     "valor": "6.000 mAh",
+     "rotulo": "18 Pro, Europa"
+    }
+   ],
+   "fala": "Colocando lado a lado. O dezoito Pro: sete mil na China, seis mil na Europa."
+  },
+  {
+   "tipo": "comparativo",
+   "fonte": "Techloy, 18/11",
+   "itens": [
+    {
+     "valor": "8.500 mAh",
+     "rotulo": "18 Pro Max, China"
+    },
+    {
+     "valor": "7.050 mAh",
+     "rotulo": "18 Pro Max, Europa"
+    }
+   ],
+   "fala": "O dezoito Pro Max: oito mil e quinhentos na China, sete mil e cinquenta na Europa."
+  },
+  {
+   "tipo": "lista",
+   "fonte": "Techloy, 18/11",
+   "titulo_lista": "O QUE CONTINUA IGUAL",
+   "itens": [
+    "Carga de 100 W no Pro Max",
+    "Carga sem fio de 50 W",
+    "Câmeras de 200 MP",
+    "Tela traseira"
+   ],
+   "fala": "E o que continua? Segundo o Techloy, o Pro Max europeu mantém carga de cem watts com fio e cinquenta sem fio, as câmeras de duzentos megapixels e a tela traseira."
+  },
+  {
+   "tipo": "info",
+   "icone": "bateria",
+   "fala": "Então a mudança está em um ponto: autonomia. Em termos práticos, é um dia de uso a menos? Ninguém testou ainda, então não dá pra cravar. O que dá pra dizer é que a capacidade é menor."
+  },
+  {
+   "tipo": "fato",
+   "fala": "Mesmo assim, seis mil miliampères-hora é muito para um celular topo de linha. A versão global é diferente da chinesa, mas não é fraca.",
+   "imagens": [
+    "content/imagens/xiaomi-18-pro-versao-global-brasil-preco-vazado.jpg",
+    "content/imagens/xiaomi-18-pro-max-brasil-fim-de-janeiro-2027-preco-europa.jpg",
+    "tela:https://www.mi.com/global/"
+   ]
+  },
+  {
+   "tipo": "info",
+   "capitulo": "E no Brasil?",
+   "icone": "calendario",
+   "fala": "Agora, a pergunta que você fez: e no Brasil?"
+  },
+  {
+   "tipo": "manchete",
+   "fonte": "Showmetech",
+   "fala": "O Showmetech informa que o Pro Max chega aqui a partir do fim de janeiro de dois mil e vinte e sete, e atribui isso à Xiaomi Brasil. Preço e cores ficariam para depois.",
+   "manchete": {
+    "url": "https://www.showmetech.com.br/xiaomi-18-pro-pro-max-lancamento-global-brasil-janeiro-2027/",
+    "trecho": "fim de janeiro de 2027"
+   }
+  },
+  {
+   "tipo": "data",
+   "destaque": "JAN 2027",
+   "rotulo": "previsão para o Pro Max, sem data exata",
+   "fonte": "Showmetech",
+   "fala": "Repare: é previsão, não data de venda. Eu não achei essa data confirmada numa página oficial da Xiaomi, então trate como informação do Showmetech, até a marca confirmar. Para o dezoito Pro menor, não há data."
+  },
+  {
+   "tipo": "numero",
+   "destaque": "~ R$ 9.000",
+   "rotulo": "estimativa direta do 18 Pro, sem imposto e frete",
+   "fonte": "BCE, 25/11/2026: 1 euro = R$ 6,4531",
+   "fala": "Fazendo a conta com o euro a {6,45 reais|seis reais e quarenta e cinco centavos}, taxa de referência do Banco Central Europeu de vinte e cinco de novembro, o dezoito Pro daria perto de {9.000 reais|nove mil reais}. É estimativa."
+  },
+  {
+   "tipo": "numero",
+   "destaque": "~ R$ 10.300",
+   "rotulo": "estimativa direta do 18 Pro Max, sem imposto e frete",
+   "fonte": "BCE, 25/11/2026: 1 euro = R$ 6,4531",
+   "fala": "E o Pro Max, perto de {10.300 reais|dez mil e trezentos reais}, na mesma conta. Só que isso é conversão direta, sem imposto, sem frete e sem a política de preço da Xiaomi por aqui."
+  },
+  {
+   "tipo": "info",
+   "icone": "alerta",
+   "fala": "Ou seja, não é preço brasileiro. O valor aqui pode ser bem diferente, e a Xiaomi não anunciou preço em reais. Quem disser que sabe quanto vai custar está chutando."
+  },
+  {
+   "tipo": "fato",
+   "fonte": "Anatel, conferido em 26/11",
+   "fala": "Se você pensa em importar, a Anatel pede atenção. Para uso próprio, o aparelho precisa de declaração de conformidade antes de ser usado no Brasil, e ela vale para a unidade.",
+   "imagens": [
+    "tela:https://www.gov.br/anatel/pt-br/regulado/certificacao-de-produtos/declaracao-de-conformidade"
+   ]
+  },
+  {
+   "tipo": "lista",
+   "fonte": "Anatel, conferido em 26/11",
+   "titulo_lista": "ANTES DE IMPORTAR",
+   "itens": [
+    "Peça a declaração de conformidade",
+    "Remessa sem ela pode ser retida",
+    "Operadora pode não habilitar",
+    "Compare com a espera por janeiro"
+   ],
+   "fala": "Sem isso, a remessa pode ser retida e a operadora pode não habilitar o celular. Com a previsão de janeiro, esperar o lançamento oficial costuma ser o caminho mais tranquilo."
+  },
+  {
+   "tipo": "fato",
+   "capitulo": "O que dá pra comprar agora",
+   "fala": "Enquanto o celular não chega, o catálogo do Nexus tem três itens que conversam com esse lançamento. Todos já à venda no Brasil. O preço muda, então veja o valor do dia no link.",
+   "imagens": [
+    "content/imagens/melhores-power-banks-20000mah.jpg",
+    "video:https://i02.appmifile.com/mi-com-product/fly-birds/xiaomi-smart-band-10/pc/xiaomismartbandpcvideo.mp4|Vídeo: Xiaomi|0",
+    "produto:xiaomi-redmi-watch-5-lite"
+   ]
+  },
+  {
+   "tipo": "produto",
+   "produto": "anker-a110e-20000-22w",
+   "fala": "O primeiro é o power bank {Anker|Ênker} de vinte mil, com cabo {USB-C|ú-ésse-bê C} integrado e carga de vinte e dois vírgula cinco watts. Serve pra quem quer bateria sobrando no celular, seja qual for. Não serve se você precisa de carga ultrarrápida. Veja o preço atual no link."
+  },
+  {
+   "tipo": "produto",
+   "produto": "xiaomi-smart-band-10",
+   "fala": "O segundo é a {Xiaomi|Chaomi} Smart Band dez, com tela {AMOLED|amoled} e até três semanas de bateria. Combina com quem curte o ecossistema da marca. Não substitui um celular, claro. Veja o preço atual no link."
+  },
+  {
+   "tipo": "fato",
+   "fala": "Se a ideia é acompanhar o dia a dia sem puxar o celular do bolso, uma pulseira ou relógio resolve bem. Veja os dois a seguir, com o preço do dia no link.",
+   "imagens": [
+    "produto:xiaomi-smart-band-10",
+    "content/imagens/mi-band-10-ou-galaxy-fit-3-qual-comprar.jpg"
+   ]
+  },
+  {
+   "tipo": "produto",
+   "produto": "xiaomi-redmi-watch-5-lite",
+   "fala": "O terceiro é o Redmi Watch cinco Lite, com {GPS|gê-pê-ésse} integrado e tela de um vírgula noventa e seis polegada. É para quem quer um relógio completo. Se você só quer contar passos, a Band basta. Veja o preço atual no link."
+  },
+  {
+   "tipo": "info",
+   "icone": "carrinho",
+   "fala": "Nenhum desses é o celular. São acessórios que já estão à venda, para quem não quer ficar esperando janeiro de braços cruzados."
+  },
+  {
+   "tipo": "info",
+   "capitulo": "Veredito Nexus",
+   "icone": "check",
+   "fala": "Meu veredito, com base nas fontes: o Xiaomi dezoito Pro global é diferente do chinês, com bateria menor, mas segue um topo de linha. No Brasil, ainda é espera."
+  },
+  {
+   "tipo": "lista",
+   "titulo_lista": "VEREDITO NEXUS",
+   "itens": [
+    "Global tem bateria menor",
+    "Brasil: sem preço oficial",
+    "Janeiro é só previsão",
+    "Importar exige cuidado"
+   ],
+   "fala": "Global tem bateria menor que a da China. No Brasil, não há preço oficial, janeiro é só previsão do Showmetech e importar exige cuidado com a Anatel. Eu esperava o preço sair antes de decidir."
+  },
+  {
+   "tipo": "cta",
+   "tela": "Bateria menor, preço de R$ 9 mil: você compraria?",
+   "fala": "E você, pagaria perto de nove mil reais num celular com bateria menor que a da China? Responde nos comentários. Se inscreve no canal pra não perder o próximo Lá Fora, Aqui, e os links e o post completo estão na descrição."
+  }
+ ]
+}
