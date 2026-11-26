@@ -8,7 +8,7 @@ O curador escreve aqui os produtos que vale cadastrar em data/produtos.csv.
 
 **Para a Black Friday:** não há produto a cadastrar que destrave pauta. Apostas com o catálogo atual (preço só no card): power banks Anker Zolo 45 W e Baseus Bipow2 Pro (melhor custo-benefício 20.000 mAh), câmeras Tapo C200 (48.768 avaliações) e C210, Galaxy Fit3 e Redmi Watch 5 Lite (muitas avaliações), headsets Havit H2002d e JBL Quantum 100M2. Carregador original da Apple e capa iPhone 13 seguem dependendo do dono.
 
-**Pendentes de cadastro (seguem valendo):** tomada Intelbras ETW 1001+ (11-16), Redragon Stormrage M718 e Invader M719 (11-12, agora dispensáveis: pauta fechada), JBL Tune Buds 2 (reserva).
+**Pendentes de cadastro (seguem valendo):** tomada Intelbras ETW 1001+ (11-16; em 11-26 entrou a Novadigital 20 A no lugar), Redragon Stormrage M718 e Invader M719 (11-12, agora dispensáveis: pauta fechada), JBL Tune Buds 2 (reserva) ✅ cadastrado em 11-26.
 
 **Caixas até R$ 100:** recomendação mantida: virar "até R$ 200" (Go Essential 2, Go 4, Soundcore 2, Xiaomi como extra barato) ou o dono mandar 2 links de caixas abaixo de R$ 100 com 200+ avaliações.
 

@@ -10,8 +10,8 @@
    "tarefa": "Achei 5 notícias do dia e a pauta de \"fone tws ou ows\" que a Luisa pediu."
   },
   "curador": {
-   "status": "ocioso",
-   "tarefa": "Não fui chamado: o catálogo cobre as pautas de hoje."
+   "status": "ok",
+   "tarefa": "Cadastrei 6 produtos com link: 3 casa inteligente (Echo Dot 5, tomada Novadigital 20 A, Tapo C500), 2 fones/caixas (i2GO Essential Sound GO, JBL Tune Buds 2) e 1 smartwatch (Amazfit Active 2)."
   },
   "redator": {
    "status": "ok",
@@ -67,11 +67,6 @@
   }
  },
  "historico": [
-  {
-   "data": "2026-11-17",
-   "agente": "vendas",
-   "texto": "Revisei as chamadas de compra dos guias e posts novos."
-  },
   {
    "data": "2026-11-17",
    "agente": "designer",
@@ -366,6 +361,11 @@
    "data": "2026-11-26",
    "agente": "analista",
    "texto": "Leitura de 25/11 sem visitas (Cloudflare pediu login). Google 24/11: 205 impressões (+30% sobre a média), 0 cliques, posição 14,1. Canal: 5.058 views em 28 dias."
+  },
+  {
+   "data": "2026-11-26",
+   "agente": "curador",
+   "texto": "Cadastrei 6 produtos com link: 3 casa inteligente (Echo Dot 5, tomada Novadigital 20 A, Tapo C500), 2 fones/caixas (i2GO Essential Sound GO, JBL Tune Buds 2) e 1 smartwatch (Amazfit Active 2)."
   }
  ]
 }
