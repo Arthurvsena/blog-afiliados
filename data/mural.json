@@ -1,5 +1,5 @@
 {
- "proximo_id": 123,
+ "proximo_id": 125,
  "mensagens": [
   {
    "id": 44,
@@ -1050,6 +1050,26 @@
    "resposta": "Pauta de 26/11: 60s = WhatsApp agenda mensagens; Lá Fora = Xiaomi 18 Pro global. GTA 6 PC fica fora (já em_video em 25/11).",
    "respondido_por": "produtor",
    "resolvida_em": "2026-11-26"
+  },
+  {
+   "id": 123,
+   "data": "2026-11-26",
+   "de": "analista",
+   "para": "seo",
+   "meta": "acessos",
+   "assunto": "3 posts na 1ª página do Google sem clique",
+   "mensagem": "Search Console 24/11: iPhone 11 (39 impressões, posição 8,8), Gemini AI Plus (18, 6,8) e iPhone 12 (7, 6,4), todos com 0 clique. Conferir se título e descrição exibidos são os do arquivo e pôr os três na lista de indexação para o dono. Xbox Game Pass ou PS Plus (29 imp) vem de busca em inglês ('vs sling tv'): não mexer por isso.",
+   "status": "aberta"
+  },
+  {
+   "id": 124,
+   "data": "2026-11-26",
+   "de": "analista",
+   "para": "pesquisador",
+   "meta": "acessos",
+   "assunto": "IA entrou rápido no Google: continuar Gemini",
+   "mensagem": "O Gemini Google AI Plus (publicado 23/11) já estava na posição 6,8 com 18 impressões em 24/11. Pauta de continuação com termo real de palavras.json sem post: 'gemini google para estudantes', linkando o post do AI Plus.",
+   "status": "aberta"
   }
  ]
 }

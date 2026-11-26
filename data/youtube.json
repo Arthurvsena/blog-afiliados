@@ -1,14 +1,14 @@
 {
-  "atualizado": "2026-11-24",
-  "periodo": "últimos 28 dias (até 23/11)",
+  "atualizado": "2026-11-26",
+  "periodo": "últimos 28 dias (lido em 26/11)",
   "canal": {
-    "visualizacoes": 4572,
-    "horas": 17.8,
+    "visualizacoes": 5058,
+    "horas": 18.5,
     "inscritos_saldo": 3,
     "inscritos_total": 1,
-    "impressoes": 5302,
-    "ctr": 2.1,
-    "pct_media": 51.2,
+    "impressoes": 6480,
+    "ctr": 2.0,
+    "pct_media": 50.3,
     "duracao_media": "0:28"
   },
   "videos": [
@@ -35,7 +35,7 @@
       "inscritos": 0,
       "duracao_media": "0:26",
       "pct_media": 57.1,
-      "impressoes": 92,
+      "impressoes": 95,
       "ctr": 1.1
     },
     {
@@ -65,6 +65,19 @@
       "ctr": 0.0
     },
     {
+      "titulo": "Black Friday 2026: 17 armadilhas que o Procon listou #shorts",
+      "tipo": "short",
+      "quadro": "60s",
+      "duracao": "0:42",
+      "views": 387,
+      "horas": 0.3,
+      "inscritos": 0,
+      "duracao_media": "0:19",
+      "pct_media": 47.4,
+      "impressoes": 873,
+      "ctr": 0.6
+    },
+    {
       "titulo": "iPhone Duo: 234 mil dobras e a tela segue inteira #shorts",
       "tipo": "short",
       "quadro": null,
@@ -87,21 +100,34 @@
       "inscritos": 0,
       "duracao_media": "0:30",
       "pct_media": 49.5,
-      "impressoes": 260,
-      "ctr": 1.2
+      "impressoes": 271,
+      "ctr": 1.1
     },
     {
       "titulo": "Smartband ou smartwatch: qual vale para o seu dia a dia?",
       "tipo": "longo",
       "quadro": null,
       "duracao": "3:59",
-      "views": 126,
-      "horas": 1.6,
+      "views": 127,
+      "horas": 1.7,
       "inscritos": 0,
-      "duracao_media": "1:12",
-      "pct_media": 30.4,
-      "impressoes": 1859,
+      "duracao_media": "1:14",
+      "pct_media": 31.0,
+      "impressoes": 1867,
       "ctr": 2.3
+    },
+    {
+      "titulo": "Galaxy A: preço pode subir até 19% em 2027 (rumor) #shorts",
+      "tipo": "short",
+      "quadro": "60s",
+      "duracao": "0:49",
+      "views": 126,
+      "horas": 0.3,
+      "inscritos": 1,
+      "duracao_media": "0:21",
+      "pct_media": 44.5,
+      "impressoes": 78,
+      "ctr": 5.1
     },
     {
       "titulo": "Anatel bloqueio de ligações: regra vale dia 12 #shorts",
@@ -117,6 +143,32 @@
       "ctr": 5.4
     },
     {
+      "titulo": "Como ter vários WhatsApp no iOS (passo a passo 2026)",
+      "tipo": "longo",
+      "quadro": "tutorial",
+      "duracao": "4:04",
+      "views": 107,
+      "horas": 0.9,
+      "inscritos": 1,
+      "duracao_media": "1:05",
+      "pct_media": 26.7,
+      "impressoes": 752,
+      "ctr": 4.5
+    },
+    {
+      "titulo": "História do Tamagotchi: 30 anos do bichinho virtual #shorts",
+      "tipo": "short",
+      "quadro": "historias",
+      "duracao": "1:07",
+      "views": 97,
+      "horas": 0.2,
+      "inscritos": 0,
+      "duracao_media": "0:16",
+      "pct_media": 24.5,
+      "impressoes": 132,
+      "ctr": 2.3
+    },
+    {
       "titulo": "GTA 6 ocupa até 212 GB e dá para baixar antes #shorts",
       "tipo": "short",
       "quadro": null,
@@ -128,45 +180,6 @@
       "pct_media": 40.8,
       "impressoes": 31,
       "ctr": 6.5
-    },
-    {
-      "titulo": "Galaxy A: preço pode subir até 19% em 2027 (rumor) #shorts",
-      "tipo": "short",
-      "quadro": "60s",
-      "duracao": "0:49",
-      "views": 86,
-      "horas": 0.2,
-      "inscritos": 1,
-      "duracao_media": "0:21",
-      "pct_media": 44.0,
-      "impressoes": 45,
-      "ctr": 2.2
-    },
-    {
-      "titulo": "Como ter vários WhatsApp no iOS (passo a passo 2026)",
-      "tipo": "longo",
-      "quadro": "tutorial",
-      "duracao": "4:04",
-      "views": 83,
-      "horas": 0.7,
-      "inscritos": 1,
-      "duracao_media": "1:06",
-      "pct_media": 27.4,
-      "impressoes": 608,
-      "ctr": 4.4
-    },
-    {
-      "titulo": "História do Tamagotchi: 30 anos do bichinho virtual #shorts",
-      "tipo": "short",
-      "quadro": "historias",
-      "duracao": "1:07",
-      "views": 66,
-      "horas": 0.2,
-      "inscritos": 0,
-      "duracao_media": "0:15",
-      "pct_media": 22.8,
-      "impressoes": 64,
-      "ctr": 3.1
     },
     {
       "titulo": "GTA 6 pré-carregamento: 10 ou 12/11? Datas divergem #shorts",
@@ -186,13 +199,13 @@
       "tipo": "short",
       "quadro": "60s",
       "duracao": "0:32",
-      "views": 43,
+      "views": 45,
       "horas": 0.1,
       "inscritos": 0,
       "duracao_media": "0:34",
       "pct_media": 106.6,
-      "impressoes": 338,
-      "ctr": 1.2
+      "impressoes": 361,
+      "ctr": 1.1
     },
     {
       "titulo": "CNH digital na blitz: print não vale #shorts",
@@ -204,8 +217,8 @@
       "inscritos": 0,
       "duracao_media": "0:16",
       "pct_media": 41.0,
-      "impressoes": 170,
-      "ctr": 1.8
+      "impressoes": 173,
+      "ctr": 1.7
     },
     {
       "titulo": "Black Friday antecipada: 3 regras contra preço falso #shorts",
@@ -230,8 +243,8 @@
       "inscritos": 0,
       "duracao_media": "0:19",
       "pct_media": 48.7,
-      "impressoes": 33,
-      "ctr": 6.1
+      "impressoes": 34,
+      "ctr": 5.9
     },
     {
       "titulo": "Chromagraph Camera já está no Brasil: vale R$ 34,90?",
@@ -243,7 +256,7 @@
       "inscritos": 0,
       "duracao_media": "1:03",
       "pct_media": 24.6,
-      "impressoes": 831,
+      "impressoes": 832,
       "ctr": 0.5
     },
     {
@@ -256,8 +269,8 @@
       "inscritos": 0,
       "duracao_media": "0:50",
       "pct_media": 14.5,
-      "impressoes": 73,
-      "ctr": 1.4
+      "impressoes": 77,
+      "ctr": 1.3
     },
     {
       "titulo": "História do Xbox: o console que dava prejuízo #shorts",
@@ -269,7 +282,20 @@
       "inscritos": 0,
       "duracao_media": "0:42",
       "pct_media": 69.0,
-      "impressoes": 50,
+      "impressoes": 53,
+      "ctr": 0.0
+    },
+    {
+      "titulo": "Como usar o celular como webcam no OBS (passo a passo 2026)",
+      "tipo": "longo",
+      "quadro": "tutorial",
+      "duracao": "4:39",
+      "views": 1,
+      "horas": 0.0,
+      "inscritos": 0,
+      "duracao_media": "0:08",
+      "pct_media": 3.2,
+      "impressoes": 3,
       "ctr": 0.0
     },
     {
@@ -335,6 +361,11 @@
     {
       "dia": "2026-11-24",
       "visualizacoes_28d": 4572,
+      "inscritos_saldo_28d": 3
+    },
+    {
+      "dia": "2026-11-26",
+      "visualizacoes_28d": 5058,
       "inscritos_saldo_28d": 3
     }
   ],

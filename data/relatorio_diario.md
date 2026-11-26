@@ -1,30 +1,44 @@
-# Relatório diário: leitura de ontem (23/11), feita em 2026-11-24 (Luisa)
+# Relatório diário: leitura de ontem (25/11), feita em 2026-11-26 (Luisa)
 
-## Aviso sobre a base de comparação
-Os dias 16 a 21/11 seguem sem registro diário (Cloudflare pediu login de 12 a 21/11). Para a média dos 7 dias uso o bloco do próprio Cloudflare (16 a 23/11: 44 visitas, 6,3 por dia), como ontem. Também comparo com o dia anterior (22/11: 4 visitas).
+## Aviso: sem visitas do site
+O Cloudflare Web Analytics pediu login de novo (tela "Sign in to Cloudflare") e ninguém entrou. Por isso **visitas, visualizações, páginas, origens, celular e visitas do YouTube de 25/11 estão sem dado**, e 24/11 também ficou sem coleta. Não dá para saber se o fone TWS (10 visitas em 23/11) repetiu. **O dono precisa entrar no painel do Cloudflare pelo Chrome hoje**: amanhã (27/11) é Black Friday e, sem isso, a semana da meta de 55 visitas e 20 cliques fica sem medida.
 
-## 1. Ontem em números (23/11)
-- **16 visitas, 19 visualizações, 1,2 página por visita** (19 ÷ 16).
-- **+154% sobre a média dos 7 dias** (6,3 por dia) e +300% sobre 22/11 (4 visitas). Melhor dia registrado no `visitas.json` (que começa em 31/10; o recorde anterior era 10).
-- Origens: direto 14 (88%), chatgpt.com 2 (13%). **Google 0, redes 0.** Celular 56%.
-- Países: Brasil 6, Estados Unidos 4, Singapura 3, Noruega 1, Japão 1, Suécia 1. **10 das 16 visitas vieram de fora do Brasil**: parte do pico pode ser robô. Não dá para separar por página no painel.
-- **Google (Search Console, 23/11):** 0 cliques, 155 impressões, posição 13,5 (22/11: 0 cliques, 133 impressões, posição 12,9). Impressões +17%, posição um pouco pior. Último clique do Google foi em 20/11.
-- Buscas que mais apareceram: as variações de "iphone 11 compensa em 2026" somaram 17 impressões, e "lampada alexa" teve 4. Páginas com mais impressões e 0 clique: análise do iPhone 11 (32), análise do PS4 (22), Galaxy A07 (10), TWS só funciona um lado (9) e lâmpadas Alexa (9).
+Esta leitura usa só o Search Console (dia mais recente: 24/11) e o YouTube.
+
+## 1. Ontem em números
+- **Visitas, visualizações, páginas por visita e origens: sem dado** (Cloudflare).
+- **Google (Search Console, 24/11): 0 cliques, 205 impressões, posição 14,1.**
+  - Impressões: **+30% sobre a média dos 7 dias anteriores** (17 a 23/11: 1.105 impressões, 158 por dia) e +32% sobre 23/11 (155). Melhor dia desde 15/11 (242).
+  - Posição piorou: 14,1 contra 13,5 em 23/11 e 13,2 na semana.
+  - Último clique do Google segue sendo de 20/11.
+- **Semana 18 a 24/11:** 3 cliques, cerca de 1,1 mil impressões, CTR 0,3%, posição 13,2. Na semana 15 a 21/11 foram 3 cliques, 1.230 impressões, 0,2% e 11,5: o CTR subiu um pouco, a posição caiu. A meta da semana é 0,6%.
+- Páginas com mais impressões em 24/11 (todas com 0 clique):
+
+| Página | Impressões | Posição |
+|---|---|---|
+| iPhone 11 compensa em 2026 | 39 | 8,8 |
+| Xbox Game Pass ou PS Plus | 29 | 13,4 |
+| Gemini Google AI Plus vale a pena | 18 | 6,8 |
+| PS4 vale a pena em 2026 | 15 | 7,7 |
+| Galaxy A07 review | 12 | 22,2 |
+| iPhone 12 vale a pena em 2026 | 7 | 6,4 |
+
+- Buscas que mais apareceram: "xbox game pass vs sling tv" (10) e "xbox game pass vs whatsapp" (7), em inglês e sem relação com o post; as variações de "iphone 11 compensa em 2026" somaram 15.
 - Blog com menos de 100 visitas na semana: isto é sinal, não prova.
 
 ## 2. O que bombou
-1. **Fone TWS só funciona um lado**: 10 visitas (63% do dia). Na semana de 16 a 22/11 ele não entrou no top 5 do Cloudflare (o 5º teve 3), então a média dele é de no máximo 0,4 por dia: **em alta** (mais de 20x). Motivo provável: entrada direta e talvez as 2 visitas do ChatGPT (o painel não diz para qual página foram). Ressalva: com 10 visitas de fora do Brasil no dia, parte pode ser robô; se repetir hoje, é leitor. O post tem só 1 parágrafo com oferta, no fim (QCY T13 e JBL Wave Buds 2), e nenhum card.
-2. **Home**: 3 visitas (média da semana 2,3 por dia; 1,3x).
-3. **Switch 2 Zelda 40 anos esgotado**: 2 visitas. Notícia de 09/11 que ainda recebe leitor, sem origem do Google.
+Sem dado de visitas por página (Cloudflare). No Google, os destaques são:
+1. **iPhone 11 compensa em 2026**: 39 impressões (20 em 21/11, 32 em 23/11), posição 8,8, já na 1ª página e sem clique, mesmo com o título novo. Segue sendo a página que o Google mais mostra.
+2. **Gemini Google AI Plus vale a pena**: publicado em 23/11 e já na posição 6,8 com 18 impressões no dia seguinte. A editoria de IA entrou rápido na 1ª página.
+3. **Xbox Game Pass ou PS Plus**: 29 impressões, mas puxadas por buscas em inglês ("vs sling tv", "vs whatsapp"). É impressão que não vira leitor e ainda baixa o CTR médio. Não vale mexer no post por causa delas.
 
-Também: 1 visita na categoria power banks e carregadores, o subnicho que mais trouxe leitor na semana passada.
+Também perto do topo e sem clique: PS4 (posição 7,7) e iPhone 12 (6,4).
 
 ## 3. O que fazer hoje
-1. **`vendas` (principal, meta cliques):** o TWS teve 10 visitas e a oferta só aparece no último parágrafo. Colocar o card `{{produto:qcy-t13}}` logo após "Se der errado", com a frase "se o reset não resolveu", sem preço.
-2. **`viral` (meta acessos):** o TWS está em alta e não tem texto em `data/redes.md`. Fazer o texto de WhatsApp e X com a dica principal (carregar os dois, esquecer o fone no celular, resetar juntos).
-3. **`pesquisador` (meta acessos):** continuar o assunto de fone TWS com um termo real sem post: "fone tws ou ows", ligando ao tutorial e à lista `melhores-fones-tws-bluetooth`.
+1. **`seo` (principal, meta acessos):** iPhone 11 (39 impressões, posição 8,8), Gemini AI Plus (18, 6,8) e iPhone 12 (7, 6,4) estão na 1ª página com 0 clique. Conferir no Search Console se o título e a descrição que aparecem são os do arquivo e incluir os três na lista de pedido de indexação para o dono.
+2. **`pesquisador` (meta acessos):** o Gemini AI Plus chegou à posição 6,8 em um dia. Continuar o assunto com um termo real de `palavras.json` sem post: "gemini google para estudantes", ligando ao post do AI Plus.
 
-O `seo` já tem a #115 aberta (CTR e indexação): o iPhone 11 teve mais 32 impressões e 0 clique ontem, mesmo com título novo. Pedir indexação segue com o dono.
+Dono (fora dos agentes): entrar no Cloudflare hoje, antes da Black Friday.
 
-## Canal (28 dias até 23/11)
-4.572 views (+177 sobre 22/11), 17,8 h assistidas, saldo de 3 inscritos (+1), 5.302 impressões, CTR 2,1%, 51,2% assistido. O inscrito novo veio do Short "Galaxy A: preço pode subir até 19% em 2027" (86 views), o 1º inscrito do quadro 60s. Blog: 0 visitas do YouTube ontem. Detalhes em `data/leitura_canal.json`.
+## Canal (28 dias até 26/11)
+5.058 views (eram 4.572 em 24/11: +486 em dois dias), 18,5 h assistidas, saldo de 3 inscritos (sem mudança), 6.480 impressões, CTR 2,0%, 50,3% assistido. O Short "Black Friday 2026: 17 armadilhas que o Procon listou" teve 873 impressões e 387 views, mas só 0,6% de cliques e 47,4% assistido. Blog: visitas vindas do YouTube sem dado (Cloudflare). Detalhes em `data/leitura_canal.json`.

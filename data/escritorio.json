@@ -46,8 +46,8 @@
    "tarefa": "Escrevi o Short do WhatsApp (montado) e o longo do Xiaomi 18 Pro na Europa (na fila de montagem)."
   },
   "analista": {
-   "status": "ok",
-   "tarefa": "Ontem foram 16 visitas, 0 vieram do Google; 10 no tutorial do fone TWS."
+   "status": "erro",
+   "tarefa": "Cloudflare pediu login: visitas de 24 e 25/11 sem dado; o dono precisa entrar de novo no painel. Google 24/11: 205 impressões, 0 cliques."
   },
   "seg_animador": {
    "status": "ok",
@@ -67,21 +67,6 @@
   }
  },
  "historico": [
-  {
-   "data": "2026-11-17",
-   "agente": "redator",
-   "texto": "Escrevi 8 posts, de Anatel a teclado gamer mecânico."
-  },
-  {
-   "data": "2026-11-17",
-   "agente": "seo",
-   "texto": "Revisei títulos e descrições dos posts do dia."
-  },
-  {
-   "data": "2026-11-17",
-   "agente": "viral",
-   "texto": "Notas virais e textos de rede dos 8 posts."
-  },
   {
    "data": "2026-11-17",
    "agente": "vendas",
@@ -376,6 +361,11 @@
    "data": "2026-11-26",
    "agente": "roteirista",
    "texto": "Roteiros do Short do WhatsApp e do longo Lá Fora, Aqui do Xiaomi 18 Pro."
+  },
+  {
+   "data": "2026-11-26",
+   "agente": "analista",
+   "texto": "Leitura de 25/11 sem visitas (Cloudflare pediu login). Google 24/11: 205 impressões (+30% sobre a média), 0 cliques, posição 14,1. Canal: 5.058 views em 28 dias."
   }
  ]
 }

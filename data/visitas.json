@@ -1673,6 +1673,85 @@
         }
       },
       "faltou": []
+    },
+    {
+      "dia": "2026-11-25",
+      "visitas": null,
+      "visualizacoes": null,
+      "celular_pct": null,
+      "youtube": null,
+      "paginas": null,
+      "origens": null,
+      "google": {
+        "dia": "2026-11-24",
+        "cliques": 0,
+        "impressoes": 205,
+        "ctr": 0,
+        "posicao": 14.1,
+        "consultas": [
+          {
+            "termo": "xbox game pass vs sling tv",
+            "cliques": 0,
+            "impressoes": 10
+          },
+          {
+            "termo": "xbox game pass vs whatsapp",
+            "cliques": 0,
+            "impressoes": 7
+          },
+          {
+            "termo": "iphone 11 compensa em 2026",
+            "cliques": 0,
+            "impressoes": 6
+          },
+          {
+            "termo": "vale a pena comprar o iphone 11 em 2026",
+            "cliques": 0,
+            "impressoes": 5
+          },
+          {
+            "termo": "compensa comprar o iphone 11 em 2026",
+            "cliques": 0,
+            "impressoes": 4
+          }
+        ],
+        "paginas": [
+          {
+            "url": "/posts/analise-iphone-11-vale-a-pena-em-2026/",
+            "cliques": 0,
+            "impressoes": 39
+          },
+          {
+            "url": "/posts/xbox-game-pass-ou-ps-plus-qual-assinar/",
+            "cliques": 0,
+            "impressoes": 29
+          },
+          {
+            "url": "/posts/gemini-google-ai-plus-vale-a-pena/",
+            "cliques": 0,
+            "impressoes": 18
+          },
+          {
+            "url": "/posts/analise-ps4-vale-a-pena-em-2026/",
+            "cliques": 0,
+            "impressoes": 15
+          },
+          {
+            "url": "/posts/galaxy-a07-vale-a-pena-review/",
+            "cliques": 0,
+            "impressoes": 12
+          }
+        ],
+        "semana_18_24": {
+          "cliques": 3,
+          "impressoes": 1100,
+          "ctr": 0.3,
+          "posicao": 13.2
+        }
+      },
+      "faltou": [
+        "Cloudflare Web Analytics pediu login (tela 'Sign in to Cloudflare'); visitas, páginas, origens, celular e youtube não lidos"
+      ]
     }
   ]
 }
