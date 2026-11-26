@@ -199,11 +199,17 @@
   },
   {
    "slug": "o-cego-bartimeu",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-26",
+   "release": "biblia-2026-11-26",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "a-mulher-que-tocou-no-manto",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-26",
+   "release": "biblia-2026-11-26",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "a-ultima-ceia",
