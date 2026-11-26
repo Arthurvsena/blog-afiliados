@@ -25,7 +25,10 @@
   },
   {
    "slug": "benjamim-sobrecarga",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-26",
+   "release": "segura-2026-11-26",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "escorregar-banheiro",

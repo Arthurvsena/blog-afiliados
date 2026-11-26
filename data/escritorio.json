@@ -51,7 +51,7 @@
     },
     "seg_animador": {
       "status": "ok",
-      "tarefa": "Animei 1 vídeo(s) em 3D do Segura Aí: chuveiro-eletrico-choque "
+      "tarefa": "Animei 1 vídeo(s) em 3D do Segura Aí: benjamim-sobrecarga "
     },
     "seg_narrador": {
       "status": "ok",
@@ -67,16 +67,6 @@
     }
   },
   "historico": [
-    {
-      "data": "2026-11-17",
-      "agente": "redator",
-      "texto": "Escrevi 8 posts, de Anatel a teclado gamer mecânico."
-    },
-    {
-      "data": "2026-11-17",
-      "agente": "seo",
-      "texto": "Revisei títulos e descrições dos posts do dia."
-    },
     {
       "data": "2026-11-17",
       "agente": "viral",
@@ -366,6 +356,16 @@
       "data": "2026-11-25",
       "agente": "viral",
       "texto": "Textos de rede para 8 posts e para o tutorial de TWS."
+    },
+    {
+      "data": "2026-11-26",
+      "agente": "seg_animador",
+      "texto": "Animei 1 vídeo(s) em 3D do Segura Aí: benjamim-sobrecarga "
+    },
+    {
+      "data": "2026-11-26",
+      "agente": "seg_narrador",
+      "texto": "Narrei com a voz do Gemini e mixei efeitos e trilha"
     }
   ]
 }
