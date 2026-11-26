@@ -2,6 +2,83 @@
 
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
+## 2026-11-26 · Mi Band vs Huawei Band: bateria de até 3 semanas ou 14 dias?
+Link: https://nexustechai.com.br/posts/mi-band-ou-huawei-band-qual-comprar/
+- WhatsApp: Mi Band 10 ou Huawei Band 11? A Xiaomi promete até 3 semanas de bateria, a Huawei até 14 dias. As duas têm nota 4,9 no ML e aguentam 50 m de água: https://nexustechai.com.br/posts/mi-band-ou-huawei-band-qual-comprar/
+- X: Mi Band 10 x Huawei Band 11: até 3 semanas de bateria contra até 14 dias (segundo os anúncios). Nota 4,9 nas duas no Mercado Livre, ambas com resistência a 50 m. Quem leva: https://nexustechai.com.br/posts/mi-band-ou-huawei-band-qual-comprar/
+- Instagram (legenda): Mi Band ou Huawei Band, qual comprar?
+  Bateria: até 3 semanas contra até 14 dias.
+  As duas têm nota 4,9 e resistem a 50 m de água.
+  Comparativo completo no link da bio.
+  #miband #huaweiband #smartband
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Mi Band ou Huawei Band?" [2-8 s] Fato 1: Mi Band 10, até 3 semanas de bateria e tela de 1,72". [8-14 s] Fato 2: Huawei Band 11, até 14 dias e tela de 1,62". [14-18 s] Fato 3: as duas com nota 4,9 e 50 m de água. [18-20 s] "Qual leva? Link na bio."
+
+## ## 2026-11-26 · Melhor fone TWS até 200 reais: 4 modelos, qual vale mais
+Link: https://nexustechai.com.br/posts/melhores-fones-tws-ate-200-reais/
+- WhatsApp: Vai comprar fone na Black Friday? O QCY T13 tem nota 4,8 em quase 36 mil avaliações e até 40 h de bateria com o estojo. Comparei 4 até R$ 200: https://nexustechai.com.br/posts/melhores-fones-tws-ate-200-reais/
+- X: Fone TWS até R$ 200: o QCY T13 tem até 40 h de bateria com o estojo e nota 4,8 em quase 36 mil avaliações. Para jogo, o Havit TW969 Lite informa 60 ms de latência. Os 4 comparados: https://nexustechai.com.br/posts/melhores-fones-tws-ate-200-reais/
+- Instagram (legenda): Fone sem fio até R$ 200, qual escolher?
+  O mais bem avaliado da lista tem nota 4,8 em quase 36 mil avaliações.
+  Bateria, microfone e modo jogo dos 4 comparados.
+  Lista completa no link da bio.
+  #fonebluetooth #blackfriday #tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Fone até 200 reais: qual comprar?" [2-8 s] Fato 1: QCY T13, até 40 h de bateria com o estojo. [8-14 s] Fato 2: nota 4,8 em quase 36 mil avaliações. [14-18 s] Fato 3: para jogo, Havit TW969 Lite, 60 ms segundo o fabricante. [18-20 s] "Comparativo completo no link da bio."
+
+## 2026-11-26 · PlayStation Portal vale a pena? Só funciona com um PS5
+Link: https://nexustechai.com.br/posts/playstation-portal-vale-a-pena/
+- WhatsApp: Antes de comprar o PlayStation Portal na Black Friday: ele não roda jogo sozinho. Sem PS5 ligado e Wi-Fi estável, não joga nada. Para quem vale e para quem não: https://nexustechai.com.br/posts/playstation-portal-vale-a-pena/
+- X: O PlayStation Portal não é um portátil: é uma tela com controle que transmite o jogo do seu PS5. Sem o console ligado e Wi-Fi estável, não joga nada. Ficha, limites e para quem vale: https://nexustechai.com.br/posts/playstation-portal-vale-a-pena/
+- Instagram (legenda): O PlayStation Portal não é um Switch da Sony.
+  Ele só mostra o jogo que roda no seu PS5, pelo Wi-Fi.
+  Sem console ligado e rede estável, não joga nada.
+  Para quem vale (e para quem não) no link da bio.
+  #playstation #ps5 #blackfriday
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "O PlayStation Portal NÃO é um portátil." [2-8 s] Fato 1: ele só transmite o jogo do seu PS5. [8-14 s] Fato 2: PS5 ligado ou em repouso e Wi-Fi estável, a Sony pede 5 Mbps no mínimo. [14-18 s] Fato 3: sem PS5, ele não roda nada. [18-20 s] "Vale ou não? Link na bio."
+
+## 2026-11-26 · Como configurar repetidor de wifi: 3 métodos e onde colocar
+Link: https://nexustechai.com.br/posts/como-configurar-repetidor-wifi-passo-a-passo/
+- WhatsApp: Repetidor de wifi: configure perto do roteador e só depois mude de lugar. É o erro que mais deixa o sinal fraco. Passo a passo (WPS, navegador e app): https://nexustechai.com.br/posts/como-configurar-repetidor-wifi-passo-a-passo/
+- X: Repetidor de wifi não funciona longe do roteador: ele só amplia o sinal que recebe. Configure perto, depois mude para o meio do caminho. 3 métodos (WPS, navegador, app) e o que fazer se não conectar: https://nexustechai.com.br/posts/como-configurar-repetidor-wifi-passo-a-passo/
+- Instagram (legenda): Comprou repetidor e o sinal continua ruim?
+  O erro comum é configurar já no cantinho sem sinal.
+  Ligue perto do roteador, conecte e só então mude de lugar.
+  Passo a passo no link da bio.
+  #wifi #roteador #tecnologia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seu repetidor de wifi está no lugar errado." [2-8 s] Fato 1: configure perto do roteador, por WPS, navegador ou app. [8-14 s] Fato 2: depois coloque no meio do caminho, onde o sinal ainda chega. [14-18 s] Fato 3: longe demais, ele não cria sinal. [18-20 s] "Passo a passo no link da bio."
+
+## 2026-11-26 · WhatsApp novidades: agendar mensagens até 2 semanas, só no beta
+Link: https://nexustechai.com.br/posts/whatsapp-agendar-mensagens-beta-android-ios-quem-tem-limites/
+- WhatsApp: O WhatsApp já agenda mensagens de 10 min a 2 semanas, mas só no beta (Android e iPhone). Quem usa a versão normal ainda não tem: https://nexustechai.com.br/posts/whatsapp-agendar-mensagens-beta-android-ios-quem-tem-limites/
+- X: WhatsApp testa agendar mensagens: de 10 minutos a 2 semanas de antecedência, sem o app aberto. Por ora só no beta do Android e do iPhone, sem data para a versão estável nem para o Brasil: https://nexustechai.com.br/posts/whatsapp-agendar-mensagens-beta-android-ios-quem-tem-limites/
+- Instagram (legenda): O WhatsApp vai deixar você agendar mensagens.
+  De 10 minutos até 2 semanas, e o envio sai sem o app aberto.
+  Mas por enquanto só testadores do beta têm, sem data para todos.
+  Limites e como funciona no link da bio.
+  #whatsapp #android #iphone
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "O WhatsApp agora agenda mensagem." [2-8 s] Fato 1: dá para marcar de 10 minutos a 2 semanas à frente. [8-14 s] Fato 2: em grupo, só recebe quem já estava lá. [14-18 s] Fato 3: por enquanto só no beta, sem data para o Brasil. [18-20 s] "Detalhes no link da bio."
+
+## 2026-11-26 · Xiaomi Brasil comprar: selo de 60 dias não compara lojas
+Link: https://nexustechai.com.br/posts/xiaomi-brasil-comprar-black-friday-mercado-livre-selo-60-dias/
+- WhatsApp: Antes de comprar Xiaomi/Poco na Black Friday: o selo do Mercado Livre é "menor preço em 60 dias" do próprio anúncio, não contra outras lojas. O que checar: https://nexustechai.com.br/posts/xiaomi-brasil-comprar-black-friday-mercado-livre-selo-60-dias/
+- X: O selo "Black Friday" do Mercado Livre promete menor preço dos últimos 60 dias, mas só do próprio anúncio. Não garante que está mais barato que em outras lojas. Checklist para Xiaomi e Poco: https://nexustechai.com.br/posts/xiaomi-brasil-comprar-black-friday-mercado-livre-selo-60-dias/
+- Instagram (legenda): Selo de Black Friday é sinônimo de preço bom? Não.
+  No Mercado Livre ele compara o anúncio com ele mesmo nos últimos 60 dias.
+  Outro vendedor pode cobrar menos pelo mesmo Xiaomi ou Poco.
+  Checklist no link da bio.
+  #xiaomi #blackfriday #mercadolivre
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Selo de Black Friday não quer dizer preço bom." [2-8 s] Fato 1: o selo do Mercado Livre é o menor preço em 60 dias. [8-14 s] Fato 2: ele compara o anúncio com ele mesmo, não com outras lojas. [14-18 s] Fato 3: confira o vendedor e a versão exata do celular. [18-20 s] "Checklist no link da bio."
+
+## 2026-11-26 · Novo iPhone barato: 15 por R$ 3.479 e 17 até R$ 5.100
+Link: https://nexustechai.com.br/posts/iphone-15-16-17-black-friday-2026-quanto-pagar-amazon-prime/
+- WhatsApp: Black Friday é sexta: iPhone 15 a R$ 3.479 na Amazon (cupom só Prime) e iPhone 17 de 256 GB só vale até R$ 5.100. Confira antes de pagar: https://nexustechai.com.br/posts/iphone-15-16-17-black-friday-2026-quanto-pagar-amazon-prime/
+- X: Black Friday 2026: o iPhone 17 de 256 GB merece atenção até R$ 5.100 (Canaltech). O iPhone 15 de 128 GB saiu a R$ 3.479 no Pix na Amazon, com cupom só para Prime (Tecnoblog). Preço muda rápido: https://nexustechai.com.br/posts/iphone-15-16-17-black-friday-2026-quanto-pagar-amazon-prime/
+- Instagram (legenda): Quanto pagar no iPhone na Black Friday?
+  iPhone 17 de 256 GB: só vale a partir de R$ 5.100.
+  iPhone 15 de 128 GB: R$ 3.479 na Amazon, cupom só para Prime.
+  Acima disso, espere. Detalhes no link da bio.
+  #iphone #blackfriday #ofertas
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "iPhone na Black Friday: até quanto pagar?" [2-8 s] Fato 1: iPhone 17 de 256 GB merece atenção até R$ 5.100, diz o Canaltech. [8-14 s] Fato 2: iPhone 15 saiu a R$ 3.479 na Amazon, cupom só Prime. [14-18 s] Fato 3: preço muda várias vezes por semana, confira antes. [18-20 s] "Veja tudo no link da bio."
+
 ## 2026-11-25 · Claude AI vale a pena? O que muda no plano Pro pago
 Link: https://nexustechai.com.br/posts/claude-ai-vale-a-pena-pagar-review/
 - WhatsApp: Claude Pro custa US$ 20/mês (US$ 17 no anual). Só vale se você já bate no limite do grátis. Veja o que muda: https://nexustechai.com.br/posts/claude-ai-vale-a-pena-pagar-review/
@@ -364,81 +441,3 @@ Link: https://nexustechai.com.br/posts/gta-6-autosave-falha-perder-save-como-se-
   Passo a passo no link da bio.
   #gta6 #ps5 #games
 - TikTok/Reels (roteiro de 20 s): [0-2 s] "Perdeu 11 horas de GTA 6 num clique." [2-8 s] Fato 1: streamer desligou o PS5 e o progresso sumiu. [8-14 s] Fato 2: o autosave só roda depois de missões. [14-18 s] Fato 3: a Rockstar ainda não explicou a causa. [18-20 s] "Como salvar na mão: link na bio."
-
-## 2026-11-21 · Inteligência artificial para celular Android: Gemini com 2 GB
-Link: https://nexustechai.com.br/posts/gemini-app-celular-android-go-2-gb-ram-como-funciona/
-- WhatsApp: O Gemini agora roda em celular Android Go, a partir de 2 GB de RAM (segundo o Tecnoblog). Ainda não dá para garantir que chega ao seu aparelho: https://nexustechai.com.br/posts/gemini-app-celular-android-go-2-gb-ram-como-funciona/
-- X: O app do Gemini agora funciona em Android Go com pouca RAM (piso de 2 GB, segundo o Tecnoblog). Tem Gemini Live e câmera. Alguns recursos podem faltar: https://nexustechai.com.br/posts/gemini-app-celular-android-go-2-gb-ram-como-funciona/
-- Instagram (legenda): IA no celular básico, de verdade.
-  O Gemini agora roda em Android Go, a partir de 2 GB de RAM.
-  Tem conversa por voz, câmera e imagens.
-  Detalhes e limites no link da bio.
-  #gemini #android #ia
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Seu celular barato agora tem Gemini." [2-8 s] Fato 1: roda em Android Go, a partir de 2 GB de RAM. [8-14 s] Fato 2: Gemini Live, câmera e criação de imagens. [14-18 s] Fato 3: o "ok, Google" pode não funcionar. [18-20 s] "Detalhes no link da bio."
-
-## 2026-11-21 · Gemini 4 Neon: Google lança modelo, preço e onde usar
-Link: https://nexustechai.com.br/posts/gemini-4-neon-google-lanca-preco-onde-usar/
-- WhatsApp: O Google lançou o Gemini 4 Neon, modelo do meio da família. Está no app só para assinantes Pro e Ultra. Sem preço em reais: https://nexustechai.com.br/posts/gemini-4-neon-google-lanca-preco-onde-usar/
-- X: Google lança o Gemini 4 Neon: app para assinantes AI Pro e Ultra; na API, US$ 3 por milhão de tokens de entrada e US$ 15 de saída. Quem usa o grátis não vê o modelo: https://nexustechai.com.br/posts/gemini-4-neon-google-lanca-preco-onde-usar/
-- Instagram (legenda): O Gemini 4 Neon chegou.
-  Fica entre o Carbon e o Hydrogen.
-  No app, só para AI Pro e Ultra. Na API, US$ 3 por milhão de tokens.
-  Quem usa o grátis não vê.
-  #gemini #google #ia
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "O Google lançou o Gemini 4 Neon." [2-8 s] Fato 1: é o modelo do meio, entre Carbon e Hydrogen. [8-14 s] Fato 2: no app, só para AI Pro e Ultra. [14-18 s] Fato 3: na API, US$ 3 por milhão de tokens de entrada. [18-20 s] "Detalhes no link da bio."
-
-## 2026-11-21 · One UI 9.5 App Lock: bloqueie apps no Galaxy S26, mas só no beta
-Link: https://nexustechai.com.br/posts/samsung-app-lock-one-ui-9-5-bloquear-apps-galaxy-s26/
-- WhatsApp: Samsung testa cadeado em cada app no Galaxy S26, sem Pasta Segura. Ainda é beta e não há data no Brasil: https://nexustechai.com.br/posts/samsung-app-lock-one-ui-9-5-bloquear-apps-galaxy-s26/
-- X: Samsung testa o App Lock na One UI 9.5: tranque apps individuais com biometria ou PIN, sem Pasta Segura. Estreou no Galaxy S26, em beta. Sem data no Brasil: https://nexustechai.com.br/posts/samsung-app-lock-one-ui-9-5-bloquear-apps-galaxy-s26/
-- Instagram (legenda): Cadeado em cada app no Galaxy.
-  O App Lock da One UI 9.5 pede biometria ou PIN para abrir o app.
-  Não é Pasta Segura: só tranca.
-  Por enquanto é beta no S26.
-  #samsung #oneui #galaxys26
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Samsung vai deixar trancar app por app." [2-8 s] Fato 1: App Lock pede biometria ou PIN. [8-14 s] Fato 2: não copia o app, diferente da Pasta Segura. [14-18 s] Fato 3: só em beta no S26, sem data no Brasil. [18-20 s] "Detalhes no link da bio."
-
-## 2026-11-21 · IA grátis para criar vídeos: o que funciona sem pagar
-Link: https://nexustechai.com.br/posts/ia-gratis-criar-videos-como-fazer/
-- WhatsApp: Dá para criar vídeo com IA de graça no celular, com limites. Vibes, Dreamina e Clipchamp funcionam; Gemini e Canva cobram: https://nexustechai.com.br/posts/ia-gratis-criar-videos-como-fazer/
-- X: IA grátis para criar vídeos: Vibes (Meta), Dreamina (CapCut) e Clipchamp funcionam sem assinatura, com limites. Gemini e Canva cobram. Passo a passo: https://nexustechai.com.br/posts/ia-gratis-criar-videos-como-fazer/
-- Instagram (legenda): Vídeo com IA sem pagar? Dá, com limite.
-  Vibes, Dreamina e Clipchamp são grátis.
-  Gemini e Canva pedem assinatura.
-  Passo a passo no link da bio.
-  #ia #videocomia #appsgratis
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Vídeo com IA de graça existe." [2-8 s] Fato 1: Vibes, da Meta, é gratuito. [8-14 s] Fato 2: Dreamina dá créditos diários. [14-18 s] Fato 3: Gemini e Canva cobram. [18-20 s] "Passo a passo no link da bio."
-
-## 2026-11-21 · Jogos grátis Epic Games: Alien: Isolation e Mark of the Deep
-Link: https://nexustechai.com.br/posts/epic-games-alien-isolation-mark-of-the-deep-gratis-19-26-novembro/
-- WhatsApp: Alien: Isolation e Mark of the Deep estão grátis na Epic até 26/11. Um deles é de estúdio de São Paulo. Precisa de verificação em duas etapas: https://nexustechai.com.br/posts/epic-games-alien-isolation-mark-of-the-deep-gratis-19-26-novembro/
-- X: Epic Games: Alien: Isolation e Mark of the Deep grátis até 26/11. Resgatando, ficam na biblioteca para sempre. Mark of the Deep é de um estúdio de São Paulo. Ative a verificação em duas etapas antes: https://nexustechai.com.br/posts/epic-games-alien-isolation-mark-of-the-deep-gratis-19-26-novembro/
-- Instagram (legenda): Dois jogos de graça na Epic até 26/11.
-  Alien: Isolation (terror) e Mark of the Deep (feito em São Paulo).
-  Precisa de verificação em duas etapas na conta.
-  Passo a passo no link da bio.
-  #epicgames #jogosgratis #games
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Dois jogos grátis na Epic, só até 26/11." [2-8 s] Fato 1: Alien: Isolation, terror de fugir de um monstro. [8-14 s] Fato 2: Mark of the Deep, aventura pirata feita em São Paulo. [14-18 s] Fato 3: ative a verificação em duas etapas antes. [18-20 s] "Passo a passo no link da bio."
-
-## 2026-11-20 · Carregador turbo Samsung: 25 W ou 45 W? Veja o teto do Galaxy
-Link: https://nexustechai.com.br/posts/carregador-turbo-samsung-qual-comprar/
-- WhatsApp: Antes da Black Friday: no teste com o S25 Ultra, carregador de 25 W entregou ~20 W e o de 45 W chegou a ~40 W. Veja qual vale para o seu Galaxy: https://nexustechai.com.br/posts/carregador-turbo-samsung-qual-comprar/
-- X: Carregador de 25 W ou 45 W para Galaxy? Num teste com o S25 Ultra, o de 25 W entregou ~20 W e os de 45 W ~40 W. Se o seu celular só aceita 25 W, não pague mais. Guia com 4 opções: https://nexustechai.com.br/posts/carregador-turbo-samsung-qual-comprar/
-- Instagram (legenda): Mais watts nem sempre carregam mais rápido.
-  S25 Ultra no teste: 25 W entregou ~20 W; 45 W chegou a ~40 W.
-  Galaxy básico? 25 W resolve.
-  Guia com 4 carregadores no link da bio.
-  #samsung #carregador #blackfriday
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Carregador de 45 W no Galaxy: vale?" [2-8 s] Fato 1: no S25 Ultra, 25 W entregou ~20 W. [8-14 s] Fato 2: 45 W chegou a ~40 W. [14-18 s] Fato 3: se o seu só aceita 25 W, não compensa. [18-20 s] "Guia no link da bio."
-
-## 2026-11-20 · Xbox Game Pass ou PS Plus: qual assinatura vale mais
-Link: https://nexustechai.com.br/posts/xbox-game-pass-ou-ps-plus-qual-assinar/
-- WhatsApp: Game Pass ou PS Plus? Só o Game Pass Ultimate tem lançamentos no dia 1, e o catálogo do PS Plus só começa no Extra. Comparei os planos: https://nexustechai.com.br/posts/xbox-game-pass-ou-ps-plus-qual-assinar/
-- X: Game Pass ou PS Plus? Pelas páginas oficiais, só o Game Pass Ultimate traz lançamentos no dia 1. No PS Plus, o catálogo só começa no Extra. Comparação por plano: https://nexustechai.com.br/posts/xbox-game-pass-ou-ps-plus-qual-assinar/
-- Instagram (legenda): Game Pass ou PS Plus? A marca importa menos que o plano.
-  Lançamentos no dia 1: só no Game Pass Ultimate.
-  Catálogo no PS Plus: só a partir do Extra.
-  Comparação completa no link da bio.
-  #gamepass #psplus #games
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Game Pass ou PS Plus? Escolha pelo plano." [2-8 s] Fato 1: lançamentos no dia 1 só no Game Pass Ultimate. [8-14 s] Fato 2: PS Plus Essential não tem catálogo; começa no Extra. [14-18 s] Fato 3: joga um ou dois jogos por ano? Talvez nem compense. [18-20 s] "Comparação no link da bio."
-

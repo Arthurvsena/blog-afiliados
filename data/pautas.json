@@ -5803,9 +5803,10 @@
     "tipo": "lista",
     "produtos_necessarios": 4,
     "motivo": "Termo de compra sem cobertura; catálogo tem QCY T13 e T17, Philips TAT1209 e Havit TW969 Lite, todos ativos.",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-24",
-    "viral": 4
+    "viral": 4,
+    "post": "melhores-fones-tws-ate-200-reais"
   },
   {
     "id": "mi-band-ou-huawei-band-qual-comprar",
@@ -5827,9 +5828,10 @@
     "tipo": "comparativo",
     "produtos_necessarios": 2,
     "motivo": "Comparação com busca no Google e no ML; subnicho com 7 produtos ativos e os dois modelos no catálogo.",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-24",
-    "viral": 3
+    "viral": 3,
+    "post": "mi-band-ou-huawei-band-qual-comprar"
   },
   {
     "id": "melhores-cameras-wifi-com-audio",
@@ -6065,5 +6067,299 @@
     "status": "publicada",
     "criada": "2026-11-25",
     "post": "fone-tws-ou-ows-qual-escolher"
+  },
+  {
+    "id": "iphone-15-16-17-black-friday-2026-quanto-pagar-amazon-prime",
+    "titulo": "iPhone 15, 16 e 17 na Black Friday 2026: preços de referência e a oferta de iPhone 15 na Amazon",
+    "palavra_chave": "novo iphone barato",
+    "secundarias": [
+      "iphone original barato"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 1.75,
+    "editoria": "celulares",
+    "fontes": [
+      {
+        "nome": "Tecnoblog Achados",
+        "url": "https://tecnoblog.net/achados/iphone-15-atinge-2-o-menor-preco-do-ano-perto-da-black-friday-2026/"
+      },
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/smartphone/quanto-vale-a-pena-pagar-no-iphone-17-na-black-friday-2026/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Black Friday e amanha (27/11). Tecnoblog: iPhone 15 128 GB com cupom Prime, 2o menor preco do ano; Canaltech: faixas boa/excelente do iPhone 17. Conferir preco/cupom no dia, citar data e que muda rapido; avisar que cupom e para Prime.",
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-26",
+    "viral": 5,
+    "post": "iphone-15-16-17-black-friday-2026-quanto-pagar-amazon-prime"
+  },
+  {
+    "id": "mercado-livre-black-friday-2026-xiaomi-poco-selo-menor-preco-60-dias",
+    "titulo": "Black Friday no Mercado Livre: o selo de menor preço em 60 dias vale para celular Xiaomi e Poco?",
+    "palavra_chave": "xiaomi brasil comprar",
+    "secundarias": [
+      "xiaomi brasil loja"
+    ],
+    "fontes_termo": [
+      "google",
+      "mercadolivre"
+    ],
+    "forca": 1.83,
+    "editoria": "celulares",
+    "fontes": [
+      {
+        "nome": "Mercado Livre (perguntas frequentes da Black Friday 2026)",
+        "url": "https://www.mercadolivre.com.br/black-friday?c=s_eng"
+      },
+      {
+        "nome": "TecMundo (linha Redmi Note 15 no Brasil)",
+        "url": "https://www.tecmundo.com.br/produto/410007-redmi-note-15-pro-e-lancado-no-brasil-mais-barato-e-com-6580-mah-de-bateria.htm"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Sem anuncio oficial da Xiaomi Brasil para a BF; angulo seguro: regra do selo do ML (menor preco dos ultimos 60 dias) e smartphones Poco/Xiaomi na campanha. Nao prometer desconto; so afirmar o que a pagina do ML diz. Conferir a pagina antes de escrever.",
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-26",
+    "viral": 4,
+    "post": "xiaomi-brasil-comprar-black-friday-mercado-livre-selo-60-dias"
+  },
+  {
+    "id": "nintendo-switch-lite-black-november-mercado-livre-41-por-cento-vale-a-pena",
+    "titulo": "Switch Lite 41% mais barato no Mercado Livre na Black November: vale a pena em 2026?",
+    "palavra_chave": "nintendo switch lite",
+    "secundarias": [
+      "nintendo switch lite desbloqueado"
+    ],
+    "fontes_termo": [
+      "google",
+      "mercadolivre"
+    ],
+    "forca": 4.03,
+    "editoria": "games",
+    "fontes": [
+      {
+        "nome": "Tecnoblog Achados",
+        "url": "https://tecnoblog.net/achados/black-november-nintendo-switch-lite-sai-41-mais-barato-no-mercado-livre/"
+      },
+      {
+        "nome": "Mercado Livre (Black Friday 2026)",
+        "url": "https://www.mercadolivre.com.br/black-friday?c=s_eng"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Aposta do plano: Switch Lite. Termo forte (4,03) e ja existe o post nintendo-switch-lite-vale-a-pena-2026 para linkar. Confirmar data/preco/cupom da oferta (Tecnoblog bloqueou leitura automatica); nao repetir o preco como definitivo.",
+    "prioridade": "hoje",
+    "status": "descartada",
+    "criada": "2026-11-26",
+    "viral": 4
+  },
+  {
+    "id": "chatgpt-wallet-openai-agentes-dots-compras-so-eua-pro-brasil",
+    "titulo": "ChatGPT Wallet: a carteira da OpenAI para agentes comprarem por você chega ao Brasil?",
+    "palavra_chave": "chatgpt pro",
+    "secundarias": [
+      "chatgpt plus"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 3.03,
+    "editoria": "inteligencia-artificial",
+    "fontes": [
+      {
+        "nome": "OpenAI",
+        "url": "https://openai.com/pt-BR/index/introducing-chatgpt-wallet/"
+      },
+      {
+        "nome": "Fast Company Brasil",
+        "url": "https://fastcompanybrasil.com/ia/chatgpt-podera-fazer-compras-por-voce-conheca-nova-carteira-digital-openai/"
+      },
+      {
+        "nome": "Showmetech",
+        "url": "https://www.showmetech.com.br/openai-lanca-chatgpt-wallet-para-compras-com-agentes-de-ia/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Lancada em 13/11; inicialmente so ChatGPT Pro 18+ nos EUA com cartao americano, funciona via dots. Angulo Black Friday: o que da e o que nao da para usar no Brasil. Abrir pagina oficial para confirmar elegibilidade antes de escrever.",
+    "prioridade": "hoje",
+    "status": "pendente",
+    "criada": "2026-11-26",
+    "viral": 2
+  },
+  {
+    "id": "whatsapp-agendar-mensagens-beta-android-ios-quem-tem-limites",
+    "titulo": "WhatsApp para agendar mensagens: quem já tem, limites e quando chega a todos",
+    "palavra_chave": "whatsapp novidade detectada na versão beta permitirá programar envios",
+    "secundarias": [],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 4.83,
+    "editoria": "tecnologia",
+    "fontes": [
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/apps/whatsapp-libera-agendamento-de-mensagens-no-android-veja-como-usar/"
+      },
+      {
+        "nome": "Tecnoblog",
+        "url": "https://tecnoblog.net/noticias/whatsapp-comeca-a-testar-agendamento-de-mensagens"
+      },
+      {
+        "nome": "TecMundo",
+        "url": "https://www.tecmundo.com.br/produto/413797-agendar-mensagens-no-whatsapp-novos-detalhes-do-recurso-sao-revelados.htm"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Termo de maior forca da editoria (4,83) sem post. Beta Android 2.26.40.7 desde 13/10 (10 min a 2 semanas, 1 midia por mensagem); iOS em teste. Sem data oficial de liberacao geral: tratar como beta. Conferir se ha novidade desta semana antes de escrever.",
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-26",
+    "viral": 4,
+    "post": "whatsapp-agendar-mensagens-beta-android-ios-quem-tem-limites"
+  },
+  {
+    "id": "como-configurar-repetidor-wifi-passo-a-passo",
+    "titulo": "Como configurar repetidor de Wi-Fi: passo a passo e onde colocar",
+    "palavra_chave": "como configurar repetidor de wifi",
+    "secundarias": [
+      "como configurar repetidor de sinal"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 1.42,
+    "editoria": "tecnologia",
+    "tipo": "tutorial",
+    "produtos_necessarios": 0,
+    "motivo": "Tutorial de cauda longa sem cobertura no site, dúvida prática e recorrente.",
+    "status": "publicada",
+    "criada": "2026-11-26",
+    "prioridade": "hoje",
+    "post": "como-configurar-repetidor-wifi-passo-a-passo"
+  },
+  {
+    "id": "iphone-14-vale-a-pena-em-2026",
+    "titulo": "iPhone 14 vale a pena em 2026? Análise para quem pensa em comprar",
+    "palavra_chave": "vale a pena comprar o iphone 14 em 2026",
+    "secundarias": [
+      "iphone 14 vale a pena em 2026"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 1.17,
+    "editoria": "celulares",
+    "tipo": "analise",
+    "produtos_necessarios": 0,
+    "motivo": "Completa a série iPhone 11/12/13 (o 13 é o termo mais forte do arquivo); capta busca de Black Friday.",
+    "status": "pendente",
+    "criada": "2026-11-26",
+    "prioridade": "hoje"
+  },
+  {
+    "id": "como-configurar-camera-iphone-melhores-ajustes",
+    "titulo": "Como configurar a câmera do iPhone: os ajustes que melhoram as fotos",
+    "palavra_chave": "como configurar a camera do iphone",
+    "secundarias": [],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 1.58,
+    "editoria": "celulares",
+    "tipo": "tutorial",
+    "produtos_necessarios": 0,
+    "motivo": "Tutorial evergreen de celulares, termo sem cobertura.",
+    "status": "pendente",
+    "criada": "2026-11-26",
+    "prioridade": "hoje"
+  },
+  {
+    "id": "starlink-brasil-como-funciona-guia",
+    "titulo": "Como funciona a Starlink no Brasil: equipamento, instalação e limites",
+    "palavra_chave": "starlink brasil como funciona",
+    "secundarias": [
+      "starlink brasil comprar"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 2.83,
+    "editoria": "tecnologia",
+    "tipo": "guia",
+    "produtos_necessarios": 0,
+    "motivo": "Termo de forca 2.83 sem cobertura; apoia o post de 'vale a pena' já publicado. Conferir preços na fonte oficial na redação.",
+    "status": "pendente",
+    "criada": "2026-11-26",
+    "prioridade": "normal"
+  },
+  {
+    "id": "playstation-portal-vale-a-pena",
+    "titulo": "PlayStation Portal vale a pena? O que ele faz e o que não faz",
+    "palavra_chave": "playstation portal",
+    "secundarias": [],
+    "fontes_termo": [
+      "google",
+      "mercadolivre"
+    ],
+    "forca": 2.67,
+    "editoria": "games",
+    "tipo": "analise",
+    "produtos_necessarios": 0,
+    "motivo": "Aparece no Google e no Mercado Livre (gente que pesquisa e compra); games tem poucos posts evergreen.",
+    "status": "publicada",
+    "criada": "2026-11-26",
+    "prioridade": "hoje",
+    "post": "playstation-portal-vale-a-pena"
+  },
+  {
+    "id": "gemini-google-como-usar-gratis",
+    "titulo": "Como usar o Gemini do Google de graça: o que o plano gratuito oferece",
+    "palavra_chave": "gemini google usar gratis",
+    "secundarias": [
+      "gemini google gratis",
+      "gemini google usar"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 1.92,
+    "editoria": "inteligencia-artificial",
+    "tipo": "tutorial",
+    "produtos_necessarios": 0,
+    "motivo": "Tutorial de IA com vários termos agrupados, sem cobertura direta.",
+    "status": "pendente",
+    "criada": "2026-11-26",
+    "prioridade": "hoje"
+  },
+  {
+    "id": "samsung-galaxy-a56-vale-a-pena-review",
+    "titulo": "Galaxy A56 vale a pena? Análise de quem quer um intermediário Samsung",
+    "palavra_chave": "review celular samsung a56",
+    "secundarias": [
+      "galaxy a56 vale a pena"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 1.83,
+    "editoria": "celulares",
+    "tipo": "analise",
+    "produtos_necessarios": 0,
+    "motivo": "Intermediário Samsung muito buscado na Black Friday; segue o modelo do post do Galaxy A07.",
+    "status": "pendente",
+    "criada": "2026-11-26",
+    "prioridade": "hoje"
   }
 ]

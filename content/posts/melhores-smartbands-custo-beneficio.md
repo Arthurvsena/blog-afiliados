@@ -200,3 +200,5 @@ Mais opções na [seção de smartwatches e smartbands](/categoria/smartwatches-
 :::veredito
 Smart Band 10 para bateria e tela, Galaxy Fit3 para quem quer o histórico de compradores, e Amazfit Bip 6 só se o GPS for de fato usado.
 :::
+
+**Outra comparação popular:** [Mi Band vs Huawei Band](/posts/mi-band-ou-huawei-band-qual-comprar/), com bateria, tela e compatibilidade lado a lado.

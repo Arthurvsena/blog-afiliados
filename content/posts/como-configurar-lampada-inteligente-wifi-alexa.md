@@ -111,6 +111,8 @@ Para comparar mais modelos, veja as [melhores lâmpadas inteligentes para Alexa]
 Use nomes curtos e diferentes entre si, como "luz do quarto" e "luminária da sala". Nomes parecidos fazem a Alexa acender a errada.
 :::
 
+**Pareamento falhando?** Se a lâmpada fica longe do roteador e o pareamento falha, veja [como configurar um repetidor de Wi-Fi](/posts/como-configurar-repetidor-wifi-passo-a-passo/) antes de tentar de novo.
+
 :::veredito
 Configurar lâmpada inteligente é fácil quando a ordem está certa: Wi-Fi de 2,4 GHz, app do fabricante, depois Alexa. Se travar, quase sempre é a rede ou a conta sem vincular.
 :::

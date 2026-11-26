@@ -147,3 +147,5 @@ Quer ver mais opções? Leia [melhores smartbands custo-benefício](/posts/melho
 :::veredito
 Smart Band 10 para a maioria. Galaxy Fit3 se você já vive no Samsung Health.
 :::
+
+**Outra comparação popular:** [Mi Band vs Huawei Band](/posts/mi-band-ou-huawei-band-qual-comprar/), com bateria, tela e compatibilidade lado a lado.

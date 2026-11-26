@@ -146,7 +146,7 @@ O fone da Xiaomi tem Bluetooth 5.4, a versão mais recente entre os quatro, driv
 
 ## Como escolher um fone TWS
 
-Três perguntas resolvem a maior parte da decisão.
+Três perguntas resolvem a maior parte da decisão. Se o orçamento é curto, veja o [melhor fone TWS até 200 reais](/posts/melhores-fones-tws-ate-200-reais/).
 
 1. **Vai usar em lugar barulhento?** Procure um fone TWS ANC. Entre os quatro, só o JBL informa.
 2. **Fala muito ao telefone?** Olhe os microfones. O ENC do QCY é feito para isso.

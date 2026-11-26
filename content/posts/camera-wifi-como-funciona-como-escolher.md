@@ -137,3 +137,5 @@ Troque a senha padrão, ative a verificação em duas etapas no app se existir e
 Câmera Wi-Fi vale a pena quando você resolve o básico antes: sinal, energia, armazenamento e senha. Na minha leitura, a maioria dos problemas vem da instalação, não do aparelho. Meça o sinal, escolha pela ficha e só depois olhe o preço.
 
 Se você precisa de câmera externa com microSD e já confirmou o sinal no local, a {{link:intelbras-im5sc|Mibo iM5SC}} cumpre isso. Se vai usar só dentro de casa, IP67 é desnecessário e vale comparar outros modelos. Para ver as ofertas do momento, veja o {{link:intelbras-im5sc|preço da Intelbras Mibo iM5SC}}.
+
+Se o sinal não chega até a câmera, veja [como configurar um repetidor de Wi-Fi](/posts/como-configurar-repetidor-wifi-passo-a-passo/) e onde posicioná-lo.

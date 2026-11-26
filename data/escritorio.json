@@ -1,13 +1,13 @@
 {
-  "ultima_execucao": "2026-11-25T07:40",
+  "ultima_execucao": "2026-11-26T08:00",
   "agentes": {
     "chefe": {
       "status": "ok",
-      "tarefa": "Coordenei o dia: 4 notícias, 1 tutorial, 1 análise e 2 guias, e descartei a notícia sem segunda fonte."
+      "tarefa": "Coordenei o dia: 3 notícias, 1 tutorial, 1 análise e 2 guias, e descartei a notícia do Switch Lite porque a oferta era do ano passado."
     },
     "pesquisador": {
       "status": "ok",
-      "tarefa": "Achei 5 notícias do dia e a pauta de \"fone tws ou ows\" que a Luisa pediu."
+      "tarefa": "Achei 5 notícias da véspera da Black Friday e mais 7 pautas para a fila, que ficou com 19."
     },
     "curador": {
       "status": "ocioso",
@@ -15,27 +15,27 @@
     },
     "redator": {
       "status": "ok",
-      "tarefa": "Escrevi Huawei, Xbox Helix, Gemini, figurinhas do WhatsApp, o guia GaN, TWS ou OWS, o tutorial de IA e a análise do Claude."
+      "tarefa": "Escrevi o iPhone na Black Friday, o selo de 60 dias do ML, o WhatsApp agendado, o tutorial do repetidor, o PlayStation Portal, os TWS até R$ 200 e Mi Band contra Huawei Band."
     },
     "seo": {
       "status": "ok",
-      "tarefa": "Revisei os 8 posts, tirei afirmações sem fonte do Huawei e troquei palavras-chave por termos reais."
+      "tarefa": "Revisei os 7 posts, troquei a palavra-chave do WhatsApp por um termo real e tirei o preço antigo do Portal."
     },
     "atualizador": {
       "status": "ocioso",
-      "tarefa": "Não fui chamado: nenhum post que não seja notícia tem 30 dias ou mais."
+      "tarefa": "Não fui chamado: nenhum post que não seja notícia tem 30 dias ainda."
     },
     "designer": {
       "status": "ok",
-      "tarefa": "Pus foto e capa nos 8 posts novos e diagramei com prós, contras e vereditos."
+      "tarefa": "Pus foto e blocos nos 7 posts e enxuguei os TWS de 21 para 11 chamadas de compra."
     },
     "vendas": {
       "status": "ok",
-      "tarefa": "Pus o card do QCY T13 no tutorial de TWS e ofertas nos dois guias novos."
+      "tarefa": "Pus venda leve nas notícias e botões nos guias de TWS e smartbands, sem preço no texto."
     },
     "viral": {
       "status": "ok",
-      "tarefa": "Dei nota às pautas, afiei títulos e escrevi os textos de rede, inclusive o do tutorial de TWS."
+      "tarefa": "Dei a nota viral às pautas e escrevi os textos de rede dos 7 posts."
     },
     "produtor": {
       "status": "ok",
@@ -67,26 +67,6 @@
     }
   },
   "historico": [
-    {
-      "data": "2026-11-17",
-      "agente": "viral",
-      "texto": "Notas virais e textos de rede dos 8 posts."
-    },
-    {
-      "data": "2026-11-17",
-      "agente": "vendas",
-      "texto": "Revisei as chamadas de compra dos guias e posts novos."
-    },
-    {
-      "data": "2026-11-17",
-      "agente": "designer",
-      "texto": "Fotos, blocos e capas dos posts do dia."
-    },
-    {
-      "data": "2026-11-17",
-      "agente": "atualizador",
-      "texto": "Ofertas no PS4 e no iPhone Duo."
-    },
     {
       "data": "2026-11-17",
       "agente": "curador",
@@ -359,13 +339,33 @@
     },
     {
       "data": "2026-11-26",
-      "agente": "seg_animador",
-      "texto": "Animei 1 vídeo(s) em 3D do Segura Aí: benjamim-sobrecarga "
+      "agente": "pesquisador",
+      "texto": "Achei 5 pautas de notícia e 7 pautas novas para a fila."
     },
     {
       "data": "2026-11-26",
-      "agente": "seg_narrador",
-      "texto": "Narrei com a voz do Gemini e mixei efeitos e trilha"
+      "agente": "redator",
+      "texto": "Escrevi 7 posts: 3 notícias, 1 tutorial, 1 análise e 2 guias."
+    },
+    {
+      "data": "2026-11-26",
+      "agente": "seo",
+      "texto": "Revisei os 7 posts do dia."
+    },
+    {
+      "data": "2026-11-26",
+      "agente": "vendas",
+      "texto": "Revisei as chamadas de compra dos 7 posts."
+    },
+    {
+      "data": "2026-11-26",
+      "agente": "designer",
+      "texto": "Fotos e blocos nos 7 posts."
+    },
+    {
+      "data": "2026-11-26",
+      "agente": "viral",
+      "texto": "Textos de rede dos 7 posts."
     }
   ]
 }
