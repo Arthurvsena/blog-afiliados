@@ -1,6 +1,83 @@
 {
-  "atualizado": "2026-11-26",
+  "atualizado": "2026-11-27",
   "tendencias": [
+    {
+      "data": "2026-11-27",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "status": "nova",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "origem": "gringo",
+      "quadro": "60s",
+      "formato": "explicador",
+      "tipo": "short",
+      "nota": 3.5,
+      "assunto": "Vendas de PCs caem mais de 20% no 3º trimestre por causa da memória cara (IDC): o que isso faz com o preço do seu notebook",
+      "por_que_em_alta": "The Register, Guru3D (dados IDC), TechRadar ('RAMpocalypse', 20% em 12 meses) e Engadget (primeira queda em dois anos) cobrem a queda; IDC prevê -11,3% em 2026 e -20% no 4º tri. Black Friday: quem compra notebook hoje pergunta se vale esperar. Busca de hoje não achou matéria em português com os números do 3º tri (a verificar no YouTube BR). Continua a série RAMageddon: usar ângulo PC, não celular (já feito em 25/11).",
+      "evidencias": [
+        "https://www.techradar.com/pro/the-rampocalypse-has-led-global-pc-shipments-to-drop-20-percent-in-just-12-months",
+        "https://engadget.com/2210856/pc-shipments-just-fell-for-the-first-time-in-two-years-thanks-to-the-memory-shortage",
+        "https://www.guru3d.com/story/pc-shipments-fall-sharply-as-dram-and-ssd-costs-pressure-vendors/"
+      ],
+      "angulo": "Gancho com número: 'As vendas de PC caíram mais de 20% em um ano, e a culpa é da memória'. Barras 2025 x 2026, por que (servidores de IA consomem a memória de ponta), as fabricantes repassam o custo, e o que fazer na Black Friday: preço de lançamento não cai tanto. Dizer 'segundo a IDC'.",
+      "fontes": [
+        {
+          "nome": "TechRadar",
+          "url": "https://www.techradar.com/pro/the-rampocalypse-has-led-global-pc-shipments-to-drop-20-percent-in-just-12-months"
+        },
+        {
+          "nome": "Engadget",
+          "url": "https://engadget.com/2210856/pc-shipments-just-fell-for-the-first-time-in-two-years-thanks-to-the-memory-shortage"
+        },
+        {
+          "nome": "IDC (a conferir)",
+          "url": "https://www.idc.com/"
+        }
+      ],
+      "criterios_gringo": "1 sim (4 fontes); 2 sim (preço de notebook no BR); 3 a verificar; 4 parcial (guia de notebooks). 3 de 4.",
+      "verificar_antes": "O 20% do 3º tri vem de cobertura secundária (The Register, Guru3D); o texto do Engadget não foi lido por inteiro. Abrir o comunicado da IDC e confirmar trimestre, número e previsão (-11,3% no ano) antes de gravar. Dados globais, não do Brasil."
+    },
+    {
+      "data": "2026-11-27",
+      "imagens_oficiais": [],
+      "post_relacionado": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
+      "status": "nova",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "origem": "brasil",
+      "quadro": "tutorial",
+      "formato": "tutorial",
+      "tipo": "longo",
+      "nota": 3.5,
+      "assunto": "Como saber se um site de compras é golpe antes de pagar (passo a passo, sem pagar nada)",
+      "por_que_em_alta": "Black Friday hoje (27/11) e Cyber Monday dia 30. Serasa (out/2026, via Forbes Brasil): sites falsos são a modalidade mais citada (53%), depois Pix (42%). Olhar Digital: endereço com letra trocada e pagamento só por Pix são os sinais mais comuns. Termo sem medição no vidIQ: nota menor; checar autocompletar do YouTube.",
+      "evidencias": [
+        "https://forbes.com.br/forbes-tech/2026/10/black-friday-como-se-proteger-de-golpes-digitais-e-evitar-prejuizos/",
+        "https://olhardigital.com.br/curiosidades/?p=34108"
+      ],
+      "angulo": "Resultado primeiro: em 5 minutos você testa uma loja desconhecida. Passos com gravação de tela: conferir o endereço, CNPJ na Receita, idade do domínio (Registro.br/WHOIS), reputação no Reclame Aqui, Pix e MED. Erros comuns e o que fazer se já pagou (banco e MED). Serve para o 'depois da Black Friday' e Cyber Monday.",
+      "fontes": [
+        {
+          "nome": "Forbes Brasil (Serasa)",
+          "url": "https://forbes.com.br/forbes-tech/2026/10/black-friday-como-se-proteger-de-golpes-digitais-e-evitar-prejuizos/"
+        },
+        {
+          "nome": "Olhar Digital",
+          "url": "https://olhardigital.com.br/curiosidades/?p=34108"
+        },
+        {
+          "nome": "Registro.br (a conferir)",
+          "url": "https://registro.br/"
+        }
+      ],
+      "palavra_chave": "como saber se um site é confiável",
+      "verificar_antes": "Conferir cada passo nas páginas oficiais (Receita Federal, Registro.br, Procon/Reclame Aqui) e buscar o termo no autocompletar. Não mostrar site golpista real com link. Candidato à terça 02/12 (concorre com 'esqueci a senha')."
+    },
     {
       "data": "2026-11-26",
       "imagens_oficiais": [],
@@ -37,13 +114,13 @@
         }
       ],
       "criterios_gringo": "1 sim (Engadget + 9to5Mac, MacRumors, WABetaInfo); 2 sim; 3 a verificar no YouTube BR; 4 parcial (tutorial futuro). 3 de 4.",
-      "verificar_antes": "Abrir o anúncio no blog oficial do WhatsApp (só o Engadget foi lido) e confirmar 14 dias e a chegada ao Brasil. Matéria cita 'global'; não afirmar data. Pode virar tutorial quando liberar. Melhor pauta do dia."
+      "verificar_antes": "Abrir o anúncio no blog oficial do WhatsApp (só o Engadget foi lido) e confirmar 14 dias e a chegada ao Brasil. Matéria cita 'global'; não afirmar data. Pode virar tutorial quando liberar. Melhor pauta do dia. [27/11] Busca de hoje: Canaltech diz que o WhatsApp já liberou agendamento nativo no Android e o Boca cita usuários brasileiros desde 'início de novembro' (ano não confirmado). Conferir se é a mesma função antes de dizer 'sem data para o Brasil'; se já chegou, virar tutorial 'como agendar mensagens'."
     },
     {
       "data": "2026-11-26",
       "imagens_oficiais": [],
       "post_relacionado": "",
-      "status": "nova",
+      "status": "em_video",
       "produto": {
         "id": "",
         "como_encaixa": "Editorial puro."
@@ -70,7 +147,7 @@
           "url": "https://counterpointresearch.com/en/insights/Smartphone-Shipments-in-2026-to-See-Sharpest-Decline-on-Record-as-Memory-Crisis-deepens"
         }
       ],
-      "verificar_antes": "Números das fabricantes são de um portal chinês (Jiemian) via Canaltech: dizer 'segundo'. Abrir a página da Counterpoint para o -14% (2026) e o -6% (2027); a busca só confirmou 2027 como queda, sem número. Não repetir o ângulo do vídeo de 18 e 23/11 (Galaxy A)."
+      "verificar_antes": "Números das fabricantes são de um portal chinês (Jiemian) via Canaltech: dizer 'segundo'. Abrir a página da Counterpoint para o -14% (2026) e o -6% (2027); a busca só confirmou 2027 como queda, sem número. Não repetir o ângulo do vídeo de 18 e 23/11 (Galaxy A). | 27/11 Produtor: tabela das metas conferida no Canaltech (25/11). Counterpoint: página abre com -12,4% em 2026 (publicada 27/02) e sem % de 2027; o -14%/-6% só consta no Canaltech. Usar só as metas das fabricantes e atribuir ao Canaltech/Jiemian, sem citar Counterpoint com número."
     },
     {
       "data": "2026-11-26",
@@ -614,7 +691,7 @@
       "status": "nova",
       "origem": "brasil",
       "assunto": "Histórias Tech: Dreamcast, o console que a Sega lançou em 27/11/1998 e que influenciou tudo, mas fechou em 3 anos",
-      "por_que_em_alta": "Aniversário em 6 dias (27/11/1998, Japão; EUA 09/09/1999; Europa 14/10/1999). Canaltech ('o mais influente paradoxo'), Hardware.com.br, VGC e Wikipedia cobrem. Sega saiu do hardware em 2001. Vendas divergem (cerca de 9,13 milhões no ciclo todo x 5,87 mi até set/2000).",
+      "por_que_em_alta": "Aniversário em 6 dias (27/11/1998, Japão; EUA 09/09/1999; Europa 14/10/1999). Canaltech ('o mais influente paradoxo'), Hardware.com.br, VGC e Wikipedia cobrem. Sega saiu do hardware em 2001. Vendas divergem (cerca de 9,13 milhões no ciclo todo x 5,87 mi até set/2000). [27/11] Aniversário é HOJE (28 anos): publicar neste fim de semana.",
       "evidencias": [
         "https://canaltech.com.br/games/20-anos-do-dreamcast-o-mais-influente-paradoxo-da-historia-dos-videogames-127787/",
         "https://www.hardware.com.br/artigos/a-queda-do-dreamcast-ultimo-console-sega/",
@@ -1297,83 +1374,6 @@
         "como_encaixa": "Editorial puro."
       },
       "nota": 3
-    },
-    {
-      "imagens_oficiais": [],
-      "post_relacionado": "black-friday-2026-eletronicos-como-nao-cair-em-preco-falso",
-      "status": "nova",
-      "data": "2026-11-17",
-      "assunto": "Como saber se um site é confiável antes de comprar na Black Friday (passo a passo com ferramentas oficiais)",
-      "por_que_em_alta": "Black Friday em 27/11. Forbes Tech cita levantamento da Serasa (out/2026): sites falsos são o golpe nº 1 (53%), Pix 42%; Procon e Senacon (Portal de Prefeitura, 10/11) reforçam alerta. Sem termo no vidIQ: nota menor; pedir ao vidIQ de quarta termos 'como saber se um site é confiável'. Não repete o Short de 09/11 (3 regras contra preço falso): aqui é verificação de loja, com gravação de tela.",
-      "evidencias": [
-        "https://forbes.com.br/forbes-tech/2026/10/black-friday-como-se-proteger-de-golpes-digitais-e-evitar-prejuizos/",
-        "https://portaldeprefeitura.com.br/brasil/black-friday-atencao-redobrada-contra-golpes-fraudes-senacon/635806/",
-        "https://www.band.com.br/nacional/sp/black-friday-procon-alerta-como-aproveitar-sem-cair-em-dividas-e-fraudes"
-      ],
-      "angulo": "Resultado primeiro: em 3 minutos você checa se a loja existe antes de pagar. Passos: conferir o domínio e o CNPJ (consulta pública da Receita), ver reclamações (consumidor.gov.br, Reclame Aqui), conferir lista do Procon-SP, cadeado não prova nada, pagamento seguro. Se já caiu: o que fazer (7 dias de arrependimento, contestar no banco, MED do Pix). Publicar terça 19h, 10 dias antes da data.",
-      "formato": "tutorial",
-      "tipo": "tutorial",
-      "quadro": "tutorial",
-      "palavra_chave": "como saber se um site é confiável",
-      "verificar_antes": "Conferir cada passo nas páginas oficiais (Receita, consumidor.gov.br, Procon-SP, Banco Central sobre MED) e o número da Serasa. Sem termo no vidIQ: dizer. Não citar nome de loja como golpista.",
-      "fontes": [
-        {
-          "nome": "Forbes Brasil (Serasa)",
-          "url": "https://forbes.com.br/forbes-tech/2026/10/black-friday-como-se-proteger-de-golpes-digitais-e-evitar-prejuizos/"
-        },
-        {
-          "nome": "Consumidor.gov.br",
-          "url": "https://www.consumidor.gov.br/"
-        },
-        {
-          "nome": "Procon-SP",
-          "url": "https://www.procon.sp.gov.br/"
-        }
-      ],
-      "origem": "brasil",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Editorial puro."
-      },
-      "nota": 4
-    },
-    {
-      "data": "2026-11-16",
-      "imagens_oficiais": [],
-      "post_relacionado": "",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Editorial puro."
-      },
-      "status": "nova",
-      "assunto": "CNH Digital na blitz: só vale aberta no app CNH do Brasil; print e PDF não valem",
-      "por_que_em_alta": "Google Trends BR hoje (16/11): 'cnh digital' na lista de buscas em alta (único termo de tecnologia); Correio Braziliense e Detran-PR orientam que a versão impressa não vale e que o documento deve ser mostrado no app oficial. Portal do Trânsito cita a Senatran: print não vale, PDF serve para bancos, abre sem internet se baixada antes, infração leve (multa de R$ 88,38 e 3 pontos).",
-      "evidencias": [
-        "https://www.portaldotransito.com.br/noticias/fiscalizacao-e-legislacao/cnh-digital-em-pdf-vale-na-blitz-senatran-esclarece-duvida-de-motoristas/",
-        "https://www.correiobraziliense.com.br/cbradar/cnh-digital-blitz-validade/",
-        "https://canaltech.com.br/carros/cnh-digital-como-nao-passar-aperto-em-blitz-e-aeroportos"
-      ],
-      "angulo": "Gancho: o print da sua CNH no celular não vale em blitz. O que vale (só o app oficial, baixado antes, abre sem sinal), o que a Senatran diz do PDF e da multa. Comentário Nexus: bateria a 1% é multa. Pode virar tutorial 'como baixar a CNH digital' depois.",
-      "formato": "alerta",
-      "tipo": "short",
-      "quadro": "60s",
-      "origem": "brasil",
-      "verificar_antes": "Confirmar na Senatran/gov.br (página da CNH Digital) as regras de print, PDF e a multa (R$ 88,38, 3 pontos, infração leve); sem fonte oficial, não publicar. Não afirmar regra de estado específico.",
-      "fontes": [
-        {
-          "nome": "Portal do Trânsito (Senatran)",
-          "url": "https://www.portaldotransito.com.br/noticias/fiscalizacao-e-legislacao/cnh-digital-em-pdf-vale-na-blitz-senatran-esclarece-duvida-de-motoristas/"
-        },
-        {
-          "nome": "Correio Braziliense",
-          "url": "https://www.correiobraziliense.com.br/cbradar/cnh-digital-blitz-validade/"
-        },
-        {
-          "nome": "Gov.br CNH do Brasil (a conferir)",
-          "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-senatran"
-        }
-      ],
-      "nota": 5
     }
   ]
 }

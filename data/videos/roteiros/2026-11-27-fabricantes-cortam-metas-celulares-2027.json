@@ -1,0 +1,109 @@
+{
+  "tipo": "short",
+  "quadro": "60s",
+  "slug": "2026-11-27-fabricantes-cortam-metas-celulares-2027",
+  "post": "",
+  "titulo": "Metas de celulares 2027: Xiaomi corta 30 milhões #shorts",
+  "resumo": "Metas de celulares para 2027 caem em várias fabricantes, segundo o portal chinês Jiemian: a Xiaomi passaria de 120 para 90 milhões. A causa citada é o custo maior de memória, disputada pelos chips de IA. São metas internas, não confirmadas pelas empresas.",
+  "hashtags": [
+    "Celulares",
+    "Xiaomi",
+    "Samsung",
+    "Apple"
+  ],
+  "fontes": [
+    {
+      "nome": "Canaltech (citando Jiemian News)",
+      "url": "https://canaltech.com.br/smartphone/apple-samsung-e-xiaomi-se-preparam-para-vender-menos-celulares-em-2027/"
+    },
+    {
+      "nome": "Counterpoint Research (crise de memória, contexto)",
+      "url": "https://counterpointresearch.com/en/insights/Smartphone-Shipments-in-2026-to-See-Sharpest-Decline-on-Record-as-Memory-Crisis-deepens"
+    }
+  ],
+  "cenas": [
+    {
+      "tipo": "gancho",
+      "fala": "A Xiaomi teria cortado em {30 milhões|trinta milhões} a meta de celulares para {2027|dois mil e vinte e sete}.",
+      "tela": "Xiaomi: 30 milhões a menos",
+      "imagens": [
+        "content/imagens/xiaomi-18-pro-pro-max-evento-global-17-novembro-paris.jpg"
+      ]
+    },
+    {
+      "tipo": "fato",
+      "fala": "Segundo o portal chinês Jiemian, a meta caiu de {120 milhões|cento e vinte milhões} para {90 milhões|noventa milhões} de aparelhos. É uma queda de {25%|vinte e cinco por cento}.",
+      "imagens": [
+        "estoque:smartphone production line factory",
+        "content/imagens/xiaomi-18-pro-max-brasil-fim-de-janeiro-2027-preco-europa.jpg"
+      ],
+      "fonte": "Canaltech, 25/11"
+    },
+    {
+      "tipo": "barras",
+      "fala": "E não é só ela. Samsung vai de {232|duzentos e trinta e dois} para {210|duzentos e dez} milhões. A Vivo, de {85|oitenta e cinco} para {60|sessenta}.",
+      "itens": [
+        {
+          "rotulo": "Xiaomi 2026",
+          "valor": 120,
+          "unidade": "mi"
+        },
+        {
+          "rotulo": "Xiaomi 2027",
+          "valor": 90,
+          "unidade": "mi"
+        },
+        {
+          "rotulo": "Vivo 2026",
+          "valor": 85,
+          "unidade": "mi"
+        },
+        {
+          "rotulo": "Vivo 2027",
+          "valor": 60,
+          "unidade": "mi"
+        }
+      ],
+      "fonte": "Canaltech/Jiemian, 25/11"
+    },
+    {
+      "tipo": "manchete",
+      "fala": "Apple, Oppo e Motorola também cortam, segundo o relatório. Mas atenção: são metas internas, e as empresas não confirmaram.",
+      "manchete": {
+        "url": "https://canaltech.com.br/smartphone/apple-samsung-e-xiaomi-se-preparam-para-vender-menos-celulares-em-2027/",
+        "trecho": "A Xiaomi teria diminuído sua meta de 120 milhões para 90 milhões de aparelhos, uma queda de 25%."
+      }
+    },
+    {
+      "tipo": "info",
+      "fala": "O motivo citado: os chips de memória estão indo para servidores de inteligência artificial. Sobra menos para o celular.",
+      "icone": "chip",
+      "imagens": [
+        "estoque:data center server memory chips"
+      ],
+      "fonte": "Canaltech, 25/11"
+    },
+    {
+      "tipo": "lista",
+      "fala": "Para quem compra no Brasil, o risco é celular mais caro ou com menos memória. Se está na lista, compare preços agora.",
+      "titulo_lista": "SE VOCÊ VAI COMPRAR",
+      "itens": [
+        "Compare o preço atual",
+        "Veja a memória do modelo",
+        "Não compre por pressa"
+      ],
+      "imagens": [
+        "content/imagens/samsung-black-friday-2026-ofertas-parcelamento-18x-quais-celulares.jpg"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "fala": "Se a memória fica escassa, a conta chega no preço. E quem puxa a fila de cortes é",
+      "tela": "Vai trocar de celular em 2027?",
+      "imagens": [
+        "content/imagens/xiaomi-18-pro-pro-max-evento-global-17-novembro-paris.jpg"
+      ]
+    }
+  ],
+  "palavra_chave": "metas de celulares 2027"
+}
