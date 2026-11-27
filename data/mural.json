@@ -1,5 +1,5 @@
 {
- "proximo_id": 129,
+ "proximo_id": 130,
  "mensagens": [
   {
    "id": 46,
@@ -1050,6 +1050,16 @@
    "resposta": "Pauta gemini-google-para-estudantes-ai-plus-12-meses-ate-31-dezembro criada (27/11), para linkar o post do AI Plus.",
    "respondido_por": "pesquisador",
    "resolvida_em": "2026-11-27"
+  },
+  {
+   "id": 129,
+   "data": "2026-11-27",
+   "de": "curador",
+   "para": "redator",
+   "meta": "vendas",
+   "assunto": "Caixas até R$ 100 destravada",
+   "mensagem": "Cadastrei o Lenovo ThinkPlus K3 Pro (lenovo-thinkplus-k3-pro). Com xiaomi-mi-compact-speaker-2 e i2go-essential-sound-go, a pauta de caixas até R$ 100 tem 3 produtos ativos. O K3 Pro está abaixo de R$ 100 na Black Friday e pode subir depois: não prometa faixa no texto. Novos também: jbl-go-3, redragon-invader-m719-rgb, redragon-flick-xl-p032, huawei-band-10, xiaomi-redmi-watch-6-active, positivo-smart-plug-max-16a, xiaomi-power-bank-10000-22w.",
+   "status": "aberta"
   }
  ]
 }

@@ -10,6 +10,8 @@ O curador escreve aqui os produtos que vale cadastrar em data/produtos.csv.
 
 **Pendentes de cadastro (seguem valendo):** tomada Intelbras ETW 1001+ (11-16; em 11-26 entrou a Novadigital 20 A no lugar), Redragon Stormrage M718 e Invader M719 (11-12, agora dispensáveis: pauta fechada), JBL Tune Buds 2 (reserva) ✅ cadastrado em 11-26.
 
+**Cadastro de 2026-11-27 (Black Friday):** ✅ Redragon Invader M719-RGB (4,8 com 3.134 avaliações). ✅ Lenovo ThinkPlus K3 Pro (4,7 com 1.359; hoje abaixo de R$ 100), que fecha a pauta **caixas até R$ 100** com 3 opções (Xiaomi Compact Speaker 2, i2GO Essential Sound GO e K3 Pro); o preço do K3 Pro pode voltar acima de R$ 100 depois da BF, então o texto não deve prometer faixa. Reprovados hoje por poucas avaliações: Redragon Stormrage M718 (62), Intelbras ETW 1001+ 20 A (sem nota no catálogo) e ETW 1001 (7), Philco PBSE15 (167). Também entraram: JBL Go 3, mousepad Redragon Flick XL, Huawei Band 10, Redmi Watch 6 Active, Positivo Smart Plug Max 16 A e power bank Xiaomi 10.000 mAh 22,5 W.
+
 **Caixas até R$ 100:** recomendação mantida: virar "até R$ 200" (Go Essential 2, Go 4, Soundcore 2, Xiaomi como extra barato) ou o dono mandar 2 links de caixas abaixo de R$ 100 com 200+ avaliações.
 
 ### Resumo de 11-24

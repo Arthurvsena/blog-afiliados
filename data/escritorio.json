@@ -10,8 +10,8 @@
       "tarefa": "Achei 4 notícias novas (PS Plus de dezembro, Gemini para estudantes, Galaxy A57 e celular até 2000 na BF); tecnologia ficou sem notícia confirmada."
     },
     "curador": {
-      "status": "ocioso",
-      "tarefa": "Não fui chamado: os subnichos têm produtos suficientes e nenhuma pauta travou."
+      "status": "ok",
+      "tarefa": "Cadastrei 8 produtos com link: caixas Lenovo K3 Pro e JBL Go 3, mouse Invader M719 e mousepad Flick XL, Huawei Band 10 e Redmi Watch 6 Active, tomada Positivo 16 A e power bank Xiaomi. Caixas até R$ 100 destravada."
     },
     "redator": {
       "status": "ok",
@@ -67,11 +67,6 @@
     }
   },
   "historico": [
-    {
-      "data": "2026-11-18",
-      "agente": "designer",
-      "texto": "Pus imagem e blocos nos posts do dia."
-    },
     {
       "data": "2026-11-19",
       "agente": "produtor",
@@ -366,6 +361,11 @@
       "data": "2026-11-27",
       "agente": "seg_publicador",
       "texto": "Agendei 4 vídeos no TikTok (27/11 19:15 até 29/11 12:15), já com variações de teste"
+    },
+    {
+      "data": "2026-11-27",
+      "agente": "curador",
+      "texto": "Cadastrei 8 produtos e destravei a pauta de caixas até R$ 100."
     }
   ]
 }
