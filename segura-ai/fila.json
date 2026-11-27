@@ -63,11 +63,25 @@
   },
   {
    "slug": "botijao-vazamento",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-27",
+   "release": "segura-2026-11-27",
+   "voz": "gemini:Orus",
+   "teste": {
+    "legenda": "curta",
+    "hashtags": "poucas"
+   }
   },
   {
    "slug": "fio-no-chao",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-27",
+   "release": "segura-2026-11-27",
+   "voz": "gemini:Fenrir",
+   "teste": {
+    "legenda": "pergunta",
+    "hashtags": "nicho"
+   }
   },
   {
    "slug": "cabo-da-panela",

@@ -51,7 +51,7 @@
     },
     "seg_animador": {
       "status": "ok",
-      "tarefa": "Animei 1 vídeo(s) em 3D do Segura Aí: chuveiro-eletrico-choque "
+      "tarefa": "Animei 2 vídeo(s) em 3D do Segura Aí: botijao-vazamento fio-no-chao "
     },
     "seg_narrador": {
       "status": "ok",
@@ -71,11 +71,6 @@
     }
   },
   "historico": [
-    {
-      "data": "2026-11-19",
-      "agente": "produtor",
-      "texto": "Pauta e revisão dos roteiros de GTA 6 golpes e RAMageddon."
-    },
     {
       "data": "2026-11-19",
       "agente": "roteirista",
@@ -368,8 +363,13 @@
     },
     {
       "data": "2026-11-27",
-      "agente": "curador",
-      "texto": "Cadastrei 8 produtos e destravei a pauta de caixas até R$ 100."
+      "agente": "seg_animador",
+      "texto": "Animei 2 vídeo(s) em 3D do Segura Aí: botijao-vazamento fio-no-chao "
+    },
+    {
+      "data": "2026-11-27",
+      "agente": "seg_narrador",
+      "texto": "Narrei com a voz do Gemini e mixei efeitos e trilha"
     }
   ]
 }
