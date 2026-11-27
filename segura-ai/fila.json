@@ -11,31 +11,55 @@
   },
   {
    "slug": "panela-pegando-fogo",
-   "status": "produzido",
+   "status": "publicado",
    "produzido": "2026-11-24",
    "release": "segura-2026-11-24",
-   "voz": "gemini:Orus"
+   "voz": "gemini:Orus",
+   "publicado": "2026-11-27 19:15 (agendado no TikTok)",
+   "teste": {
+    "legenda": "completa",
+    "hashtags": "original",
+    "horario": "19:15"
+   }
   },
   {
    "slug": "chuveiro-eletrico-choque",
-   "status": "produzido",
+   "status": "publicado",
    "produzido": "2026-11-25",
    "release": "segura-2026-11-25",
-   "voz": "gemini:Fenrir"
+   "voz": "gemini:Fenrir",
+   "publicado": "2026-11-28 12:15 (agendado no TikTok)",
+   "teste": {
+    "legenda": "curta",
+    "hashtags": "nicho",
+    "horario": "12:15"
+   }
   },
   {
    "slug": "benjamim-sobrecarga",
-   "status": "produzido",
+   "status": "publicado",
    "produzido": "2026-11-26",
    "release": "segura-2026-11-26",
-   "voz": "gemini:Orus"
+   "voz": "gemini:Orus",
+   "publicado": "2026-11-28 19:15 (agendado no TikTok)",
+   "teste": {
+    "legenda": "pergunta",
+    "hashtags": "amplas",
+    "horario": "19:15"
+   }
   },
   {
    "slug": "escorregar-banheiro",
-   "status": "produzido",
+   "status": "publicado",
    "produzido": "2026-11-27",
    "release": "segura-2026-11-27",
-   "voz": "gemini:Fenrir"
+   "voz": "gemini:Fenrir",
+   "publicado": "2026-11-29 12:15 (agendado no TikTok)",
+   "teste": {
+    "legenda": "completa",
+    "hashtags": "casa",
+    "horario": "12:15"
+   }
   },
   {
    "slug": "botijao-vazamento",
@@ -49,13 +73,34 @@
    "slug": "cabo-da-panela",
    "status": "pronto"
   },
-  {"slug": "extintor-certo", "status": "pronto"},
-  {"slug": "escada-domestica", "status": "pronto"},
-  {"slug": "tomada-crianca", "status": "pronto"},
-  {"slug": "tomada-molhada", "status": "pronto"},
-  {"slug": "disjuntor-desarmando", "status": "pronto"},
-  {"slug": "panela-esquecida", "status": "pronto"},
-  {"slug": "pano-no-fogao", "status": "pronto"}
+  {
+   "slug": "extintor-certo",
+   "status": "pronto"
+  },
+  {
+   "slug": "escada-domestica",
+   "status": "pronto"
+  },
+  {
+   "slug": "tomada-crianca",
+   "status": "pronto"
+  },
+  {
+   "slug": "tomada-molhada",
+   "status": "pronto"
+  },
+  {
+   "slug": "disjuntor-desarmando",
+   "status": "pronto"
+  },
+  {
+   "slug": "panela-esquecida",
+   "status": "pronto"
+  },
+  {
+   "slug": "pano-no-fogao",
+   "status": "pronto"
+  }
  ],
  "ideias": []
 }
