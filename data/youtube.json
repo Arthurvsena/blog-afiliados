@@ -1,14 +1,14 @@
 {
-  "atualizado": "2026-11-26",
-  "periodo": "últimos 28 dias (lido em 26/11)",
+  "atualizado": "2026-11-27",
+  "periodo": "últimos 28 dias (lido em 27/11)",
   "canal": {
-    "visualizacoes": 5058,
-    "horas": 18.5,
+    "visualizacoes": 5197,
+    "horas": 18.7,
     "inscritos_saldo": 3,
     "inscritos_total": 1,
-    "impressoes": 6480,
+    "impressoes": 6800,
     "ctr": 2.0,
-    "pct_media": 50.3,
+    "pct_media": 49.5,
     "duracao_media": "0:28"
   },
   "videos": [
@@ -22,8 +22,8 @@
       "inscritos": 1,
       "duracao_media": "0:24",
       "pct_media": 63.4,
-      "impressoes": 168,
-      "ctr": 4.2
+      "impressoes": 170,
+      "ctr": 4.1
     },
     {
       "titulo": "GTA 6 no Xbox One: só pela nuvem, e tem porém #shorts",
@@ -69,12 +69,12 @@
       "tipo": "short",
       "quadro": "60s",
       "duracao": "0:42",
-      "views": 387,
+      "views": 413,
       "horas": 0.3,
       "inscritos": 0,
       "duracao_media": "0:19",
-      "pct_media": 47.4,
-      "impressoes": 873,
+      "pct_media": 47.2,
+      "impressoes": 953,
       "ctr": 0.6
     },
     {
@@ -95,12 +95,12 @@
       "tipo": "short",
       "quadro": "historias",
       "duracao": "1:01",
-      "views": 349,
+      "views": 350,
       "horas": 1.3,
       "inscritos": 0,
       "duracao_media": "0:30",
       "pct_media": 49.5,
-      "impressoes": 271,
+      "impressoes": 277,
       "ctr": 1.1
     },
     {
@@ -113,7 +113,7 @@
       "inscritos": 0,
       "duracao_media": "1:14",
       "pct_media": 31.0,
-      "impressoes": 1867,
+      "impressoes": 1870,
       "ctr": 2.3
     },
     {
@@ -126,8 +126,21 @@
       "inscritos": 1,
       "duracao_media": "0:21",
       "pct_media": 44.5,
-      "impressoes": 78,
-      "ctr": 5.1
+      "impressoes": 89,
+      "ctr": 4.5
+    },
+    {
+      "titulo": "Como ter vários WhatsApp no iOS (passo a passo 2026)",
+      "tipo": "longo",
+      "quadro": "tutorial",
+      "duracao": "4:04",
+      "views": 117,
+      "horas": 1.0,
+      "inscritos": 1,
+      "duracao_media": "1:00",
+      "pct_media": 25.0,
+      "impressoes": 841,
+      "ctr": 4.6
     },
     {
       "titulo": "Anatel bloqueio de ligações: regra vale dia 12 #shorts",
@@ -143,30 +156,30 @@
       "ctr": 5.4
     },
     {
-      "titulo": "Como ter vários WhatsApp no iOS (passo a passo 2026)",
-      "tipo": "longo",
-      "quadro": "tutorial",
-      "duracao": "4:04",
-      "views": 107,
-      "horas": 0.9,
-      "inscritos": 1,
-      "duracao_media": "1:05",
-      "pct_media": 26.7,
-      "impressoes": 752,
-      "ctr": 4.5
-    },
-    {
       "titulo": "História do Tamagotchi: 30 anos do bichinho virtual #shorts",
       "tipo": "short",
       "quadro": "historias",
       "duracao": "1:07",
-      "views": 97,
+      "views": 102,
       "horas": 0.2,
       "inscritos": 0,
-      "duracao_media": "0:16",
-      "pct_media": 24.5,
-      "impressoes": 132,
-      "ctr": 2.3
+      "duracao_media": "0:17",
+      "pct_media": 25.9,
+      "impressoes": 157,
+      "ctr": 1.9
+    },
+    {
+      "titulo": "WhatsApp agendar mensagem: até 14 dias #shorts",
+      "tipo": "short",
+      "quadro": "60s",
+      "duracao": "0:37",
+      "views": 93,
+      "horas": 0.1,
+      "inscritos": null,
+      "duracao_media": "0:13",
+      "pct_media": 37.6,
+      "impressoes": 82,
+      "ctr": 1.2
     },
     {
       "titulo": "GTA 6 ocupa até 212 GB e dá para baixar antes #shorts",
@@ -204,7 +217,7 @@
       "inscritos": 0,
       "duracao_media": "0:34",
       "pct_media": 106.6,
-      "impressoes": 361,
+      "impressoes": 369,
       "ctr": 1.1
     },
     {
@@ -217,7 +230,7 @@
       "inscritos": 0,
       "duracao_media": "0:16",
       "pct_media": 41.0,
-      "impressoes": 173,
+      "impressoes": 174,
       "ctr": 1.7
     },
     {
@@ -230,8 +243,8 @@
       "inscritos": 0,
       "duracao_media": "0:21",
       "pct_media": 58.2,
-      "impressoes": 89,
-      "ctr": 2.3
+      "impressoes": 92,
+      "ctr": 2.2
     },
     {
       "titulo": "Black Friday: 3 sinais de oferta falsa para não cair #shorts",
@@ -269,7 +282,7 @@
       "inscritos": 0,
       "duracao_media": "0:50",
       "pct_media": 14.5,
-      "impressoes": 77,
+      "impressoes": 78,
       "ctr": 1.3
     },
     {
@@ -282,20 +295,33 @@
       "inscritos": 0,
       "duracao_media": "0:42",
       "pct_media": 69.0,
-      "impressoes": 53,
+      "impressoes": 57,
       "ctr": 0.0
+    },
+    {
+      "titulo": "Xiaomi 18 Pro preço Brasil: €1.399 na Europa e bateria menor",
+      "tipo": "longo",
+      "quadro": "lafora",
+      "duracao": "5:16",
+      "views": 3,
+      "horas": 0.0,
+      "inscritos": null,
+      "duracao_media": "0:14",
+      "pct_media": 4.5,
+      "impressoes": 0,
+      "ctr": null
     },
     {
       "titulo": "Como usar o celular como webcam no OBS (passo a passo 2026)",
       "tipo": "longo",
       "quadro": "tutorial",
       "duracao": "4:39",
-      "views": 1,
+      "views": 2,
       "horas": 0.0,
       "inscritos": 0,
-      "duracao_media": "0:08",
-      "pct_media": 3.2,
-      "impressoes": 3,
+      "duracao_media": "0:06",
+      "pct_media": 2.3,
+      "impressoes": 8,
       "ctr": 0.0
     },
     {
@@ -366,6 +392,11 @@
     {
       "dia": "2026-11-26",
       "visualizacoes_28d": 5058,
+      "inscritos_saldo_28d": 3
+    },
+    {
+      "dia": "2026-11-27",
+      "visualizacoes_28d": 5197,
       "inscritos_saldo_28d": 3
     }
   ],

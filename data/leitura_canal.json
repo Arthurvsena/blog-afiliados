@@ -1,17 +1,17 @@
 {
-  "atualizado": "2026-11-26",
+  "atualizado": "2026-11-27",
   "autora": "Luisa",
-  "resumo": "O canal fez 5.058 visualizações em 28 dias (até 26/11), 486 a mais que em 24/11, com 50,3% assistido e CTR de capa de 2,0%. O maior problema segue o mesmo: as views sobem e os inscritos não (saldo parado em 3), e não sabemos se alguém foi ao blog porque o Cloudflare está sem login.",
+  "resumo": "O canal fez 5.197 visualizações em 28 dias (até 27/11), 139 a mais que ontem, com 49,5% assistido e CTR de capa de 2,0%. O maior problema segue o mesmo: as views sobem e os inscritos não (saldo parado em 3 desde 24/11), e não sabemos se alguém foi ao blog porque o Cloudflare está sem login.",
   "funcionando": [
-    "Quadro 60s prende: 10 vídeos com média de 59,5% assistido e 274 views; PS5 100 milhões (0:39) teve 85,7% e Vivo Satélite (0:32) 106,6%, curtos e com número no título.",
+    "Quadro 60s prende: 11 vídeos com média de 57,5% assistido e 260 views; PS5 100 milhões (0:39) teve 85,7% e Vivo Satélite (0:32) 106,6%, curtos e com número no título.",
     "Galaxy A: preço pode subir até 19% em 2027 subiu de 86 para 126 views, com 5,1% de cliques e 1 inscrito: número e preço no título funcionam.",
     "Ângulo Brasil segue o maior: 'Sony quer comprar seu PS5 usado, mas não no Brasil' tem 1.131 views, 63,4% assistido, 4,2% de cliques e 1 inscrito.",
-    "Tutorial procurado: 'Como ter vários WhatsApp no iOS' tem 4,5% de cliques em 752 impressões e 1 inscrito com 107 views."
+    "Tutorial procurado: 'Como ter vários WhatsApp no iOS' tem 4,6% de cliques em 841 impressões e 1 inscrito com 117 views."
   ],
   "nao_funcionando": [
-    "Inscrição: 5.058 views para saldo de 3 inscritos; os 10 Shorts do 60s somam 2.741 views e só 1 inscrito.",
-    "Short da Black Friday (Procon, 24/11): 873 impressões e só 0,6% de cliques, 47,4% assistido e 19 segundos de média. O tema apareceu muito, mas o título com '17 armadilhas' não fez clicar.",
-    "Lá Fora, Aqui segue sem alcance: Chromagraph 10 views (0,5% de cliques em 832 impressões) e Xiaomi 18 Pro Max 7 views com 14,5% assistido.",
+    "Inscrição: 5.197 views para saldo de 3 inscritos; os 11 Shorts do 60s somam 2.860 views e só 1 inscrito.",
+    "Short da Black Friday (Procon, 24/11): 953 impressões e só 0,6% de cliques, 47,2% assistido. O tema apareceu muito, mas o título com '17 armadilhas' não fez clicar.",
+    "Lá Fora, Aqui segue sem alcance: 3 vídeos com média de 7 views e 14,5% assistido; Chromagraph 10 views (0,5% de cliques em 832 impressões) e Xiaomi 18 Pro 3 views.",
     "Longos perdem gente cedo: Smartband 31,0% e WhatsApp iOS 26,7% assistido; o tutorial da webcam no OBS (24/11) teve 1 view em 3 impressões."
   ],
   "acoes": [
@@ -21,10 +21,31 @@
     "Longo: mostrar a resposta nos primeiros 15 segundos e preferir tutorial 'como fazer' ao Lá Fora, Aqui; mudar uma variável por semana."
   ],
   "por_quadro": {
-    "60s": {"videos": 10, "media_views": 274, "media_pct": 59.5},
-    "historias": {"videos": 3, "media_views": 150, "media_pct": 47.7},
-    "lafora": {"videos": 2, "media_views": 8, "media_pct": 19.6},
-    "tutorial": {"videos": 2, "media_views": 54, "media_pct": 14.9},
-    "antes_dos_quadros": {"videos": 5, "media_views": 348, "media_pct": 48.4, "obs": "sem a 2ª linha do Smartband (1 view), que é registro duplicado"}
+    "60s": {
+      "videos": 11,
+      "media_views": 260,
+      "media_pct": 57.5
+    },
+    "historias": {
+      "videos": 3,
+      "media_views": 152,
+      "media_pct": 48.1
+    },
+    "lafora": {
+      "videos": 3,
+      "media_views": 7,
+      "media_pct": 14.5
+    },
+    "tutorial": {
+      "videos": 2,
+      "media_views": 60,
+      "media_pct": 13.7
+    },
+    "antes_dos_quadros": {
+      "videos": 5,
+      "media_views": 348,
+      "media_pct": 48.4,
+      "obs": "sem a 2ª linha do Smartband (1 view), que é registro duplicado"
+    }
   }
 }
