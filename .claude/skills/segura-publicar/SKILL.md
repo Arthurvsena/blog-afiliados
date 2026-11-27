@@ -1,6 +1,6 @@
 ---
 name: segura-publicar
-description: Publica o próximo vídeo pronto do canal Segura Aí 3D no TikTok (@seguraai3d) pelo Chrome do Arthur. Cada execução publica UM vídeo. Roda na tarefa agendada "Segura Aí 3D: publicar", uma vez por dia.
+description: Agenda no TikTok (@seguraai3d), pelo Chrome do Arthur, TODOS os vídeos prontos do canal Segura Aí 3D, dois por dia (12:15 e 19:15), usando o agendador do próprio TikTok. Roda na tarefa agendada "Segura Aí 3D: agendar no TikTok".
 ---
 > **Execução sem supervisão:** não pare para perguntar. Este canal é separado da Nexus e da
 > Bíblia Animada: publique só na conta do Segura Aí.
@@ -16,9 +16,12 @@ navegador. Trabalhe em abas novas e feche-as no fim.
 Rode `python3 scripts/escritorio.py trabalhando seg_publicador "Publicando no TikTok"`, faça commit
 ("Escritório: publicador trabalhando") e push. Assim o Zap aparece andando no escritório enquanto você posta.
 
-## 1. Qual vídeo
-Leia `segura-ai/config.yaml` e `segura-ai/fila.json`. O vídeo é o **primeiro** de `roteiros` com
-`status: "produzido"`. Se não houver, responda "Nenhum vídeo do Segura Aí para publicar agora" e termine.
+## 1. Quais vídeos e quando
+Leia `segura-ai/config.yaml` e `segura-ai/fila.json`. Os vídeos são **todos** os de `roteiros` com
+`status: "produzido"`, na ordem. Se não houver, responda "Nenhum vídeo do Segura Aí para agendar" e termine.
+Abra `https://www.tiktok.com/tiktokstudio/content` e anote os horários já agendados. Dê a cada vídeo o
+próximo horário livre de `publicacao.horarios` (12:15 e 19:15, hora de Brasília), a partir de pelo menos
+1 hora depois de agora; o TikTok aceita agendar até 10 dias à frente. Faça as seções 2 e 3 para cada vídeo, um por vez.
 Baixe do Release (campo `release`) pela API REST para `_partes/SLUG` **dentro do repositório**:
 ```bash
 mkdir -p _partes/SLUG && cd _partes/SLUG
@@ -45,14 +48,18 @@ O `file_upload` aceita até 3,8 MB por chamada, então o vídeo vai em partes de
    `canal.conta_antiga`). Se for outra conta, **não publique**: registre "conta errada" e avise.
 2. Envie o arquivo remontado (seção 2) e espere o upload chegar a 100%.
 3. Legenda: apague o texto que o TikTok preencher e digite o `SLUG-tiktok.txt` (`computer type`).
-4. Configurações: quem pode ver **Todos**; comentários permitidos; ative **"Conteúdo gerado por IA"**
-   (a narração é de IA). Clique em **Publicar** e espere a confirmação. Se aparecer aviso de música
+4. Configurações: **Programar** com a data e a hora escolhidas (se o TikTok perguntar se pode salvar o
+   vídeo para publicação agendada, clique em Permitir); quem pode ver **Todos**; comentários permitidos;
+   em "Exibir mais", ative **"Conteúdo gerado por IA"** (a narração é de IA) e confirme em Ativar; ligue a
+   **verificação de conteúdo simples** do post e, se ela acusar restrição, registre o motivo. Clique em
+   **Agendar** e confira que o vídeo aparece em Publicações com a data certa. Se aparecer aviso de música
    ou direitos, registre e não insista.
 
 ## 4. Registro
 Em `segura-ai/publicados.json` (crie com `[]` se não existir) acrescente
-`{"slug", "titulo", "data": "AAAA-MM-DD HH:MM", "tiktok": "ok ou motivo"}` e mude o `status` em
-`fila.json` para `"publicado"` se deu certo. Rode `python3 scripts/escritorio.py feito seg_publicador "Publiquei: TÍTULO"` (ou `erro` com o motivo).
-Apague `_partes/`. Faça commit em main ("Segura Aí: publicado SLUG"), `git pull --rebase origin main` e push.
+`{"slug", "titulo", "data": "AAAA-MM-DD HH:MM (horário agendado)", "tiktok": "agendado ou motivo"}` e mude o
+`status` em `fila.json` para `"publicado"` se deu certo. Se não conseguiu, não acrescente nada (nada de linhas
+repetidas de "Chrome indisponível"). Rode `python3 scripts/escritorio.py feito seg_publicador "Publiquei: TÍTULO"` (ou `erro` com o motivo).
+Apague `_partes/`. Faça commit em main ("Segura Aí: agendados SLUGS"), `git pull --rebase origin main` e push.
 
-Responda ao Arthur em 2 linhas: título e se publicou (ou o motivo).
+Responda ao Arthur com uma linha por vídeo: título e horário agendado (ou o motivo).

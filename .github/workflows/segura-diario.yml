@@ -8,7 +8,7 @@ on:
     inputs:
       quantos:
         description: "Quantos vídeos montar"
-        default: "1"
+        default: "2"
 
 permissions:
   contents: write
@@ -21,7 +21,7 @@ concurrency:
 jobs:
   video:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 180
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
     steps:
@@ -39,7 +39,7 @@ jobs:
       - name: Conferir roteiros
         run: python3 segura-ai/diario.py --checar
       - name: Montar o vídeo do dia
-        run: python3 segura-ai/diario.py --saida _segura --quantos "${{ github.event.inputs.quantos || '1' }}"
+        run: python3 segura-ai/diario.py --saida _segura --quantos "${{ github.event.inputs.quantos || '2' }}"
       - name: Publicar num Release (a tarefa do Chrome baixa daqui)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

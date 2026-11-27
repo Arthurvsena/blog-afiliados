@@ -7,13 +7,13 @@ canal:
   descricao_curta: "Segurança do dia a dia em 3D. Aprenda rindo, viva seguro."
 
 producao:
-  videos_por_dia: 1
+  videos_por_dia: 2
   vozes: ["gemini:Fenrir", "gemini:Orus"]   # revezamento (mesmo teste A/B da Nexus)
-  fila_minima: 4              # abaixo disso, a produção pede roteiros novos ao roteirista
-  roteiros_por_lote: 7        # uma semana
+  fila_minima: 6              # abaixo disso, a produção pede roteiros novos ao roteirista
+  roteiros_por_lote: 14       # uma semana (2 por dia)
 
 publicacao:
-  horario: "19:17"            # horário da tarefa agendada "Segura Aí 3D: publicar no TikTok (Chrome)"
+  horarios: ["12:15", "19:15"]  # a tarefa do Chrome agenda os vídeos prontos nesses horários, no agendador do próprio TikTok
   rotulo_ia: true             # marcar "Conteúdo gerado por IA" no TikTok (a voz é de IA)
 
 hashtags_fixas: ["seguraai3d", "segurancadotrabalho", "animacao3d", "curiosidades"]
