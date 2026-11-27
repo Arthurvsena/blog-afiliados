@@ -145,7 +145,7 @@ Os agentes da Nexus não mexem nessa pasta.
 `segura-ai/` é o canal de TikTok de segurança do dia a dia em animação 3D (three.js), conta `@seguraai3d`
 (antes `@nexus_tech_ia`). **Não** usa a voz de Rafa Lins nem as regras de posts acima: segue
 `segura-ai/CATALOGO.md` e as skills `segura-roteiros` (roteiros, GitHub Actions) e `segura-publicar`
-(Chrome do dono, 1 vídeo por dia). Produção diária: workflow `segura-diario.yml` (vídeo num Release
+(Chrome do dono: agenda 2 vídeos por dia no próprio TikTok) e `segura-testes` (agente Lab: mede cada vídeo no TikTok Studio e firma em `segura-ai/estrategia.json` o gancho, a legenda, as hashtags e o horário que dão mais visualizações). Produção diária: workflow `segura-diario.yml` (vídeo num Release
 `segura-AAAA-MM-DD`); roteiros novos: `segura-roteiros.yml`. Os agentes da Nexus não mexem nessa pasta.
 
 ## Escritório

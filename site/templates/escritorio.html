@@ -156,10 +156,11 @@ const AG = [
   { id:'roteirista',  sala:'youtube', nome:'Roteirista',  cargo:'Escreve os roteiros dos vídeos', mesa:[452,122], estacao:[402,30], cam:'#f59e0b', cab:'#3b2416', pele:'#a86b4a', acc:'longo' },
   { id:'bib_roteirista', sala:'biblia', nome:'Roteirista bíblico', cargo:'Escreve as histórias da Bíblia', mesa:[44,236], estacao:[150,208], cam:'#a3414f', cab:'#2b1a10', pele:'#c98f6b', acc:'coque' },
   { id:'bib_animador',   sala:'biblia', nome:'Animador 2D', cargo:'Desenha e monta os vídeos da Bíblia', mesa:[110,236], estacao:[150,270], cam:'#c9a45a', cab:'#151515', pele:'#f1c29b', acc:'fone', aux:'#5a7f9c' },
-  { id:'seg_roteirista', sala:'tiktok', nome:'Roteirista 3D', cargo:'Pesquisa as normas e escreve os roteiros', mesa:[214,236], estacao:[300,208], cam:'#ff7a1a', cab:'#4a2c1a', pele:'#f2b98a', acc:'capacete', aux:'#ffb300' },
-  { id:'seg_animador',   sala:'tiktok', nome:'Animador 3D', cargo:'Anima as cenas em 3D', mesa:[272,236], estacao:[444,206], cam:'#2f4fa8', cab:'#151515', pele:'#d9a074', acc:'oculos' },
-  { id:'seg_narrador',   sala:'tiktok', nome:'Narrador', cargo:'Dá voz aos vídeos (Gemini)', mesa:[330,236], estacao:[388,270], cam:'#22b35e', cab:'#6b3b1f', pele:'#8d5a3b', acc:'fone', aux:'#ffd23f' },
-  { id:'seg_publicador', sala:'tiktok', nome:'Publicador', cargo:'Posta no TikTok pelo Chrome', mesa:[388,236], estacao:[444,270], cam:'#ff3b6b', cab:'#c9a227', pele:'#f6d6bd', acc:'bone', aux:'#111' },
+  { id:'seg_roteirista', sala:'tiktok', nome:'Roteirista 3D', cargo:'Pesquisa as normas e escreve os roteiros', mesa:[210,236], estacao:[300,208], cam:'#ff7a1a', cab:'#4a2c1a', pele:'#f2b98a', acc:'capacete', aux:'#ffb300' },
+  { id:'seg_animador',   sala:'tiktok', nome:'Animador 3D', cargo:'Anima as cenas em 3D', mesa:[262,236], estacao:[444,206], cam:'#2f4fa8', cab:'#151515', pele:'#d9a074', acc:'oculos' },
+  { id:'seg_narrador',   sala:'tiktok', nome:'Narrador', cargo:'Dá voz aos vídeos (Gemini)', mesa:[314,236], estacao:[388,270], cam:'#22b35e', cab:'#6b3b1f', pele:'#8d5a3b', acc:'fone', aux:'#ffd23f' },
+  { id:'seg_publicador', sala:'tiktok', nome:'Publicador', cargo:'Agenda os vídeos no TikTok pelo Chrome', mesa:[366,236], estacao:[444,270], cam:'#ff3b6b', cab:'#c9a227', pele:'#f6d6bd', acc:'bone', aux:'#111' },
+  { id:'seg_testador',   sala:'tiktok', nome:'Testador', cargo:'Testa ganchos, legendas, hashtags e horários e firma o que dá mais views', mesa:[418,236], estacao:[300,208], cam:'#8a4fd6', cab:'#151515', pele:'#c98f6b', acc:'redondo' },
 ];
 const CHEFE = { id:'chefe', nome:'Editor-chefe', cargo:'Coordena a rotina', cam:'#2a2f45', cab:'#3b2a20', pele:'#e8b98f', acc:'gravata', aux:'#ff5d73' };
 AG.forEach((a, i) => { a.seed = i * 37; a.x = a.mesa[0]; a.y = a.mesa[1] - 6; a.fase = 'mesa'; a.timer = (i * 13) % 40; });
@@ -268,7 +269,8 @@ function decoracao(t) {
   for (const [i, ch] of [...'SEGURA AÍ'].entries()) if (ch !== ' ') P(neon ? '#ffd23f' : '#6b5a1a', 314 + i * 6, 184, 4, 6);
   P('#e9ecef', 292, 200, 18, 12); P('#ff3b3b', 294, 202, 6, 2); P('#22b35e', 294, 206, 10, 2);           // mural de normas (estação do roteirista)
   P('#1a1d26', 436, 196, 18, 18); for (let l = 0; l < 4; l++) P(((t + l * 4) % 10) < 5 ? '#ff7a1a' : '#4a2208', 439 + l * 4, 200, 2, 2); // render 3D
-  P('#ddd', 384, 262, 10, 12); P('#222', 386, 260, 6, 3);                                               // microfone (narrador)
+  P('#ddd', 384, 262, 10, 12); P('#222', 386, 260, 6, 3);
+  P('#e9ecef', 452, 230, 18, 14); [[454,240],[458,236],[462,238],[466,233]].forEach(([x,y]) => P('#8a4fd6', x, y, 2, 243 - y)); // painel A/B do testador                                               // microfone (narrador)
   P('#ffd23f', 440, 258, 12, 2); P('#ffd23f', 438, 260, 2, 8); P('#ffd23f', 452, 260, 2, 8); P('#111', 444, 262, 4, 8); // ring light + celular
 }
 

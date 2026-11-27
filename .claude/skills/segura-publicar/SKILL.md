@@ -20,7 +20,9 @@ Rode `python3 scripts/escritorio.py trabalhando seg_publicador "Publicando no Ti
 Leia `segura-ai/config.yaml` e `segura-ai/fila.json`. Os vídeos são **todos** os de `roteiros` com
 `status: "produzido"`, na ordem. Se não houver, responda "Nenhum vídeo do Segura Aí para agendar" e termine.
 Abra `https://www.tiktok.com/tiktokstudio/content` e anote os horários já agendados. Dê a cada vídeo o
-próximo horário livre de `publicacao.horarios` (12:15 e 19:15, hora de Brasília), a partir de pelo menos
+próximo horário livre de `publicacao.horarios` (12:15 e 19:15, hora de Brasília; se `segura-ai/estrategia.json`
+tiver vencedor de `horario`, use ele em um dos dois horários; se `horario` estiver em teste, alterne as opções e
+grave o horário usado em `fila.json > roteiros > teste.horario`), a partir de pelo menos
 1 hora depois de agora; o TikTok aceita agendar até 10 dias à frente. Faça as seções 2 e 3 para cada vídeo, um por vez.
 Baixe do Release (campo `release`) pela API REST para `_partes/SLUG` **dentro do repositório**:
 ```bash

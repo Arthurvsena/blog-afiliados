@@ -19,7 +19,7 @@ import yaml
 AQUI = Path(__file__).resolve().parent
 FILA = AQUI / "fila.json"
 CFG = yaml.safe_load((AQUI / "config.yaml").read_text(encoding="utf-8"))
-HOJE = (dt.datetime.utcnow() - dt.timedelta(hours=3)).date().isoformat()
+HOJE = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=3)).date().isoformat()
 AMBIENTES = {"sala", "banheiro", "cozinha"}
 OBJETOS = {"cadeira_plastico", "escada", "lampada", "interruptor", "quadro_disjuntores", "tomada", "benjamim", "chuveiro",
            "poca", "fogao", "panela", "botijao", "extintor", "caixa", "fio_no_chao", "bilhete"}
@@ -35,16 +35,48 @@ def salvar_fila(f):
     FILA.write_text(json.dumps(f, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
-def legenda_tiktok(rot):
+ESTRATEGIA = AQUI / "estrategia.json"
+
+
+def estrategia():
+    try:
+        return json.loads(ESTRATEGIA.read_text(encoding="utf-8"))
+    except Exception:
+        return {"fase": "testando", "variaveis": {}, "vencedores": {}}
+
+
+def escolher(var, est, contagem):
+    """Vencedor firmado, senão a opção menos usada até agora (rodízio do teste)."""
+    if var in (est.get("vencedores") or {}):
+        return est["vencedores"][var]
+    opcoes = list(((est.get("variaveis") or {}).get(var) or {}).get("opcoes", {}).keys())
+    if not opcoes:
+        return None
+    return min(opcoes, key=lambda o: (contagem.get(var, {}).get(o, 0), opcoes.index(o)))
+
+
+def legenda_tiktok(rot, est=None, teste=None):
+    est = est or estrategia()
+    teste = teste or {}
+    estilo = teste.get("legenda") or "completa"
+    conj = teste.get("hashtags")
+    lista = (((est.get("variaveis") or {}).get("hashtags") or {}).get("opcoes") or {}).get(conj)
+    if not lista:
+        lista = (rot.get("hashtags") or []) + CFG.get("hashtags_fixas", [])
     vistas, hs = set(), []
-    for h in (rot.get("hashtags") or []) + CFG.get("hashtags_fixas", []):
+    for h in lista:
         h = h.lstrip("#")
         if h.lower() not in vistas:
             vistas.add(h.lower()); hs.append(h)
     gancho = rot["titulo"]
     pede = f"Comenta {rot['comenta']} se já passou por isso 👇" if rot.get("comenta") else ""
-    return "\n\n".join(x for x in [gancho, rot.get("descricao", ""), pede, "Salva pra lembrar e manda pra quem precisa ver 🦺",
-                                    " ".join("#" + h for h in hs[:8])] if x)[:2150]
+    if estilo == "curta":
+        partes = [gancho, pede]
+    elif estilo == "pergunta":
+        partes = [rot.get("pergunta") or f"{gancho}\n\nE aí, você já fez isso? Conta aqui embaixo 👇"]
+    else:
+        partes = [gancho, rot.get("descricao", ""), pede, "Salva pra lembrar e manda pra quem precisa ver 🦺"]
+    return "\n\n".join(x for x in partes + [" ".join("#" + h for h in hs[:8])] if x)[:2150]
 
 
 def checar_roteiro(rot):
@@ -129,8 +161,17 @@ def main():
             j = saida / f"{r['slug']}{sufixo}.json"
             if j.exists():
                 j.rename(saida / f"{r['slug']}.json")
-        (saida / f"{r['slug']}-tiktok.txt").write_text(legenda_tiktok(rot), encoding="utf-8")
-        r.update({"status": "produzido", "produzido": HOJE, "release": f"segura-{HOJE}", "voz": voz})
+        est = estrategia()
+        contagem = {}
+        for x in fila["roteiros"]:
+            for k, v in (x.get("teste") or {}).items():
+                contagem.setdefault(k, {}).setdefault(v, 0)
+                contagem[k][v] += 1
+        teste = dict(rot.get("teste") or {})          # gancho e duração vêm do roteirista
+        for var in ("legenda", "hashtags"):
+            teste[var] = escolher(var, est, contagem)
+        (saida / f"{r['slug']}-tiktok.txt").write_text(legenda_tiktok(rot, est, teste), encoding="utf-8")
+        r.update({"status": "produzido", "produzido": HOJE, "release": f"segura-{HOJE}", "voz": voz, "teste": teste})
         feitos += 1
     salvar_fila(fila)
     restantes = sum(1 for r in fila["roteiros"] if r.get("status") == "pronto")

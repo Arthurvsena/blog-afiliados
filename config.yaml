@@ -39,6 +39,7 @@ equipe:
   seg_animador: "Pixel"
   seg_narrador: "Fenrir"
   seg_publicador: "Zap"
+  seg_testador: "Lab"
 
 # A voz que assina todos os posts (pseudônimo, explicado na página Sobre).
 autor:

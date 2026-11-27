@@ -1,0 +1,42 @@
+{
+ "_como_funciona": "Mantido pelo agente seg_testador (skill segura-testes). fase 'testando': cada variável é testada em rodízio; quando uma opção vence com dados suficientes, ela vai para 'vencedores' e passa a ser usada sempre. fase 'firmado': tudo usa os vencedores; se as visualizações médias caírem 30% ou mais em relação à média de referência por 4 vídeos seguidos, volta para 'testando'. O roteirista, a produção e o publicador leem este arquivo.",
+ "fase": "testando",
+ "atualizado": "2026-11-27",
+ "minimo_views_por_opcao": 300,
+ "minimo_videos_por_opcao": 3,
+ "media_referencia_views": null,
+ "variaveis": {
+  "gancho": {
+   "onde": "roteirista: primeira fala do roteiro",
+   "opcoes": {
+    "pergunta": "Pergunta direta a quem assiste: 'Você troca lâmpada em cima da cadeira?'",
+    "erro_chocante": "Afirma o erro e a consequência: 'Jogar água no óleo quente vira uma bola de fogo.'",
+    "desafio": "Provoca: 'Aposto que você faz isso errado toda semana.'",
+    "numero": "Promete uma lista curta: '3 jeitos de levar choque trocando o chuveiro.'"
+   }
+  },
+  "duracao": {
+   "onde": "roteirista: número de palavras",
+   "opcoes": {"curto": "160 a 190 palavras (cerca de 65 s)", "medio": "200 a 240 palavras (cerca de 80 s)", "longo": "250 a 290 palavras (cerca de 95 s)"}
+  },
+  "legenda": {
+   "onde": "produção: texto do post (segura-ai/diario.py)",
+   "opcoes": {"completa": "gancho + o que aprende + pedido de comentário + salva/compartilha", "curta": "só o gancho + pedido de comentário", "pergunta": "uma pergunta para o público responder nos comentários"}
+  },
+  "hashtags": {
+   "onde": "produção: hashtags do post",
+   "opcoes": {
+    "nicho": ["segurancadotrabalho", "nr10", "tst", "tecnicoemseguranca", "seguraai3d"],
+    "amplas": ["fyp", "viral", "curiosidades", "dicas", "seguraai3d"],
+    "casa": ["dicasdecasa", "casa", "lifehacks", "animacao3d", "seguraai3d"],
+    "poucas": ["seguraai3d", "curiosidades", "dicasdecasa"]
+   }
+  },
+  "horario": {
+   "onde": "publicador: horário agendado",
+   "opcoes": {"12:15": "almoço", "19:15": "noite", "21:15": "tarde da noite"}
+  }
+ },
+ "vencedores": {},
+ "proximo_teste": {"legenda": "completa", "hashtags": "nicho"}
+}
