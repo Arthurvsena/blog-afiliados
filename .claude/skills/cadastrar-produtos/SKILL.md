@@ -89,6 +89,24 @@ Produtos já cadastrados cuja página agora mostra "Anúncio pausado" ou
 Depois rode `python3 scripts/verificar.py` e `python3 site/build.py` para
 garantir que nada quebrou.
 
+## 5b. Campanhas do marketing (Black Friday, Natal, cupons)
+O agente `marketing` (Promo) monta as campanhas em `data/campanhas.json`. Ele
+não pode gerar links: você gera por ele.
+1. Para cada campanha ativa ou que começa nos próximos 7 dias com
+   `link_afiliado` vazio e `fonte` sendo uma página do Mercado Livre (ex.:
+   `https://www.mercadolivre.com.br/l/promocoes`), gere o link dessa página no
+   Gerador (passo 4) e grave em `link_afiliado`. Faça o mesmo para cupons com
+   página própria no Mercado Livre.
+2. Faltou produto para a data (pedido do marketing no mural ou campanha com
+   menos de 6 produtos `ativo=sim`): cadastre 3 a 6 produtos que combinem com
+   ela (presentes no Natal, gamer no Dia das Crianças), seguindo os passos 2 a 5.
+3. Abra `https://www.mercadolivre.com.br/afiliados/exclusive-campaigns` e
+   `https://www.mercadolivre.com.br/afiliados/incentives`. Se houver campanha
+   ou cupom para afiliados, copie nome, regra, código e validade exatamente
+   como aparecem para a seção "Novos" de `data/cupons.md`, com a URL da página.
+   Não aceite termos nem clique em "Participar": avise o dono no diário.
+4. Rode `python3 scripts/banner.py --todas` se mexeu em produtos de campanha.
+
 ## 6. Registre no escritório e no diário
 - Em `data/escritorio.json`, atualize `agentes.curador`: `status` `ok` (ou
   `erro` se parou por login/CAPTCHA) e `tarefa` com o que fez (ex.: "Cadastrei

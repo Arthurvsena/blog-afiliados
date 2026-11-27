@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% from "_cards.html" import lateral %}
+{% from "_vendas.html" import cartao_achado with context %}
+{% set c = ativas[0] if ativas else none %}
+{% block titulo %}{% if c %}{{ c.titulo }}: ofertas de tecnologia{% else %}Ofertas de tecnologia{% endif %} | {{ site.nome }}{% endblock %}
+{% block descricao %}{% if c %}{{ c.chamada }}{% else %}Cupons e ofertas de eletrônicos com nota alta no Mercado Livre, escolhidos pelo guia de compras do Nexus Tech.{% endif %}{% endblock %}
+{% block og_imagem %}{% if c and c.banners.quadrado %}<meta property="og:image" content="{{ base }}/img/{{ c.banners.quadrado }}">{% else %}{{ super() }}{% endif %}{% endblock %}
+{% block conteudo %}
+<header class="secao-cabeca ofertas-cabeca" style="--cat:#7C5CFF">
+  <p class="trilha"><a href="{{ b }}/">Início</a><span aria-hidden="true">/</span>Ofertas</p>
+  <h1>{% if c %}{{ c.titulo }}{% else %}Ofertas e cupons{% endif %}</h1>
+  <p>{% if c %}{{ c.chamada }}{% else %}Quando houver campanha no Mercado Livre (Black Friday, Natal, cupons), ela aparece aqui com os produtos do nosso guia.{% endif %}</p>
+</header>
+
+{% for c in ativas %}
+<section class="oferta-campanha promo-tema-{{ c.tema }}" id="{{ c.id }}" aria-labelledby="{{ c.id }}-titulo">
+  <div class="oferta-banner">
+    <picture>
+      <source media="(max-width: 720px)" srcset="{{ b }}/img/{{ c.banners['faixa-m'] }}" width="800" height="300">
+      <img src="{{ b }}/img/{{ c.banners.faixa }}" alt="{{ c.nome }}: {{ c.banner.titulo if c.banner else c.titulo }}" width="1600" height="300">
+    </picture>
+  </div>
+  <div class="oferta-barra">
+    <h2 id="{{ c.id }}-titulo">{{ c.nome }}{% if c.fim %} <span>até {{ c.fim[8:10] }}/{{ c.fim[5:7] }}</span>{% endif %}</h2>
+    <p class="oferta-contagem" aria-live="off">Termina em <span data-contagem="{{ c.fim }}T23:59:59-03:00">{{ c.fim[8:10] }}/{{ c.fim[5:7] }}</span></p>
+    {% if c.link_afiliado %}<a class="btn-comprar" href="{{ c.link_afiliado }}" target="_blank" rel="sponsored nofollow noopener" data-campanha="{{ c.id }}">Ver tudo no Mercado Livre</a>{% endif %}
+  </div>
+
+  {% if c.cupons %}
+  <div class="cupons" aria-label="Cupons de {{ c.nome }}">
+    {% for x in c.cupons %}
+    <article class="cupom">
+      <p class="cupom-desconto">{{ x.desconto }}</p>
+      <p class="cupom-regra">{{ x.regra }}{% if x.valido_ate %} · válido até {{ x.valido_ate[8:10] }}/{{ x.valido_ate[5:7] }}{% endif %}</p>
+      <div class="cupom-codigo"><code>{{ x.codigo }}</code><button type="button" data-copiar="{{ x.codigo }}">Copiar cupom</button></div>
+      {% if x.link_afiliado %}<a class="cupom-link" href="{{ x.link_afiliado }}" target="_blank" rel="sponsored nofollow noopener" data-campanha="{{ c.id }}">Usar no Mercado Livre →</a>{% endif %}
+    </article>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if c.itens %}
+  <div class="vitrine-achados">{% for p in c.itens %}{{ cartao_achado(p, preco_br, milhar, estrelas, loop.index) }}{% endfor %}</div>
+  <p class="oferta-nota">Os produtos são os mais bem avaliados do nosso guia de compras. Preço e desconto mudam a toda hora durante a campanha: confira o valor atual no anúncio antes de comprar.</p>
+  {% endif %}
+</section>
+{% endfor %}
+
+{% if cupons_avulsos %}
+<section class="bloco-editoria" aria-labelledby="cupons-titulo">
+  <h2 class="faixa-titulo" id="cupons-titulo">Cupons do Mercado Livre</h2>
+  <div class="cupons">
+    {% for x in cupons_avulsos %}
+    <article class="cupom">
+      <p class="cupom-desconto">{{ x.desconto }}</p>
+      <p class="cupom-regra">{{ x.regra }}{% if x.valido_ate %} · válido até {{ x.valido_ate[8:10] }}/{{ x.valido_ate[5:7] }}{% endif %}</p>
+      <div class="cupom-codigo"><code>{{ x.codigo }}</code><button type="button" data-copiar="{{ x.codigo }}">Copiar cupom</button></div>
+      {% if x.link_afiliado %}<a class="cupom-link" href="{{ x.link_afiliado }}" target="_blank" rel="sponsored nofollow noopener">Usar no Mercado Livre →</a>{% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% if not ativas %}
+<section class="bloco-editoria" aria-labelledby="achados-titulo">
+  <h2 class="faixa-titulo" id="achados-titulo">Achados que valem o preço</h2>
+  <div class="vitrine-achados">{% for p in achados %}{{ cartao_achado(p, preco_br, milhar, estrelas, loop.index) }}{% endfor %}</div>
+</section>
+{% endif %}
+
+{% if proximas %}
+<section class="bloco-editoria proximas" aria-labelledby="proximas-titulo">
+  <h2 class="faixa-titulo" id="proximas-titulo">Vem aí</h2>
+  <div class="proximas-lista">
+    {% for p in proximas[:3] %}
+    <div class="proxima promo-tema-{{ p.tema }}">
+      <img src="{{ b }}/img/{{ p.banners.card }}" alt="{{ p.nome }}: {{ p.banner.titulo if p.banner else p.titulo }}" width="800" height="640" loading="lazy">
+      <p><b>{{ p.nome }}</b> a partir de {{ p.inicio[8:10] }}/{{ p.inicio[5:7] }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<p class="oferta-aviso">Os links desta página são de afiliado do Mercado Livre: se você comprar por eles, o Nexus Tech recebe uma comissão, sem custo a mais para você. Isso não muda o que recomendamos.</p>
+{% endblock %}

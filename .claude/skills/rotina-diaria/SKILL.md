@@ -79,6 +79,11 @@ sai na voz de Rafa Lins.
    tenham `capa_frase` ou apareçam em `python3 scripts/imagem.py faltando`,
    chame `vendas` e depois `designer`.
 
+6c. **Marketing.** Chame o `marketing` (Promo): ele confere o calendário de
+   datas do varejo, coloca os cupons novos de `data/cupons.md` no site, troca
+   os produtos das campanhas e gera os banners (`python3 scripts/banner.py --todas`).
+   Repasse a ele as apostas do plano ligadas a vendas e cliques.
+
 7. **Checagem final.** Rode `python3 scripts/verificar.py` (sem argumentos,
    verifica tudo) e `python3 site/build.py`. Se algo falhar, corrija o post
    problemático. Se não der para corrigir, mova-o para `content/rascunhos/`.

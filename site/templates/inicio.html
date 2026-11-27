@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% from "_cards.html" import manchete, cartao, linha, lateral %}
-{% from "_vendas.html" import cartao_achado with context %}
+{% from "_vendas.html" import cartao_achado, vitrine_promo with context %}
 {% block titulo %}{{ site.nome }}: notícias de tecnologia, celulares, games e IA{% endblock %}
 {% block conteudo %}
 {% if destaques %}
@@ -26,6 +26,9 @@
   {{ lateral(mais_lidas, anuncios, b, compras) }}
 </div>
 
+{% if promo and 'lista' in (promo.lugares or []) and promo.itens %}
+{{ vitrine_promo(promo, b, preco_br, milhar, estrelas, 6) }}
+{% endif %}
 {{ anuncios.lista | safe }}
 
 {% for bloco in blocos %}

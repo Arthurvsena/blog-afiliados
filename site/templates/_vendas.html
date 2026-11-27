@@ -15,3 +15,16 @@
   </div>
 </article>
 {%- endmacro %}
+
+{# Vitrine da campanha do agente marketing (Black Friday, Natal...): fim dos posts e página inicial #}
+{% macro vitrine_promo(promo, b, preco_br, milhar, estrelas, n=3, titulo=None) -%}
+<section class="promo-vitrine promo-tema-{{ promo.tema }}" aria-labelledby="promo-{{ promo.id }}-titulo">
+  <div class="promo-vitrine-topo">
+    <p class="promo-selo">{{ promo.banner.selo if promo.banner and promo.banner.selo else promo.nome }}</p>
+    <h2 id="promo-{{ promo.id }}-titulo">{{ titulo or promo.titulo }}</h2>
+    <p class="promo-vitrine-chamada">{{ promo.chamada }}</p>
+  </div>
+  <div class="vitrine-achados vitrine-post">{% for p in promo.itens[:n] %}{{ cartao_achado(p, preco_br, milhar, estrelas) }}{% endfor %}</div>
+  <a class="promo-vitrine-mais" href="{{ b }}/ofertas/#{{ promo.id }}" data-campanha="{{ promo.id }}" data-lugar="vitrine">Ver todas as ofertas →</a>
+</section>
+{%- endmacro %}

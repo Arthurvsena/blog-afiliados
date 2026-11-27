@@ -150,7 +150,8 @@ const AG = [
   { id:'designer',    sala:'redacao', nome:'Designer',    cargo:'Cuida da marca e da cara de cada post', mesa:[94,122], estacao:[248,96], cam:'#7C5CFF', cab:'#e8c27a', pele:'#c98f6b', acc:'boina', aux:'#14213D' },
   { id:'atualizador', sala:'redacao', nome:'Atualizador', cargo:'Mantém posts frescos', mesa:[152,122], estacao:[200,36], cam:'#d64f7a', cab:'#121212', pele:'#f1cdb0', acc:'barba', forte:true },
   { id:'viral',       sala:'redacao', nome:'Viral',       cargo:'Faz os posts se espalharem', mesa:[210,122], estacao:[248,96], cam:'#ff5d73', cab:'#2a1a12', pele:'#c98f6b', acc:'bone', aux:'#111' },
-  { id:'analista',    sala:'metricas', nome:'Analista',   cargo:'Lê visitas, cliques e pedidos', mesa:[328,56], estacao:[358,30], cam:'#2f9e6e', cab:'#4a2c1a', pele:'#e8b98f', acc:'redondo' },
+  { id:'analista',    sala:'metricas', nome:'Analista',   cargo:'Lê visitas, cliques e pedidos', mesa:[306,56], estacao:[330,30], cam:'#2f9e6e', cab:'#4a2c1a', pele:'#e8b98f', acc:'redondo' },
+  { id:'marketing',   sala:'metricas', nome:'Marketing',  cargo:'Banners, cupons e campanhas (Black Friday, Natal)', mesa:[352,56], estacao:[358,30], cam:'#FFD60A', cab:'#1a1a1a', pele:'#c98f6b', acc:'oculos', aux:'#7C5CFF' },
   { id:'tendencias',  sala:'youtube', nome:'Tendências',  cargo:'Caça o que está em alta', mesa:[428,52], estacao:[402,30], cam:'#14b8a6', cab:'#6b3b1f', pele:'#d9a074', acc:'oculos' },
   { id:'produtor',    sala:'youtube', nome:'Produtor',    cargo:'Comanda o canal no YouTube', mesa:[404,122], estacao:[456,92], cam:'#1f2937', cab:'#e8e8e8', pele:'#e8b98f', acc:'fone', aux:'#ff5d73' },
   { id:'roteirista',  sala:'youtube', nome:'Roteirista',  cargo:'Escreve os roteiros dos vídeos', mesa:[452,122], estacao:[402,30], cam:'#f59e0b', cab:'#3b2416', pele:'#a86b4a', acc:'longo' },
@@ -169,9 +170,9 @@ const APELIDOS = D.equipe || {};
 
 // rotinas (workflows do GitHub) -> quem trabalha nelas
 const ROTINAS = {
-  'diario.yml': ['chefe','pesquisador','curador','redator','seo','vendas','designer','atualizador','viral'],
+  'diario.yml': ['chefe','pesquisador','curador','redator','seo','vendas','designer','atualizador','viral','marketing'],
   'palavras.yml': ['pesquisador','seo'],
-  'semanal.yml': ['chefe','analista','seo','vendas'],
+  'semanal.yml': ['chefe','analista','seo','vendas','marketing'],
   'publicar.yml': ['designer'],
   'videos.yml': ['tendencias','produtor','roteirista'],
   'teste-voz.yml': ['produtor'],

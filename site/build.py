@@ -11,6 +11,7 @@ import json
 import re
 import shutil
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import markdown
 import yaml
@@ -292,6 +293,75 @@ def inserir_anuncios(conteudo, cfg):
     return "".join(partes)
 
 
+# ---------------- campanhas do agente marketing (Black Friday, Natal, cupons) ----------------
+def link_ml(url):
+    url = (url or "").strip()
+    return url if url.startswith("https://") and ("meli.la/" in url or "mercadolivre.com" in url) else ""
+
+
+def campanhas_no_ar(catalogo):
+    """(ativas hoje, próximas, cupons avulsos válidos) de data/campanhas.json, já com os produtos do catálogo."""
+    arq = RAIZ / "data" / "campanhas.json"
+    if not arq.exists():
+        return [], [], []
+    dados = json.loads(arq.read_text(encoding="utf-8"))
+    hoje = dt.datetime.now(ZoneInfo("America/Sao_Paulo")).date().isoformat()
+    valido = lambda c: str(c.get("valido_ate") or "9999") >= hoje and str(c.get("codigo") or "").strip()
+    ativas, proximas = [], []
+    for c in dados.get("campanhas", []):
+        bn = c.get("banners") or {}
+        if not c.get("ativo", True) or not all((RAIZ / "content" / "imagens" / str(bn.get(k, "-"))).is_file()
+                                               for k in ("faixa", "faixa-m", "card")):
+            continue
+        c = {**c, "itens": [catalogo[i] for i in c.get("produtos", []) if i in catalogo],
+             "link_afiliado": link_ml(c.get("link_afiliado")), "cupons": [x for x in c.get("cupons") or [] if valido(x)]}
+        for x in c["cupons"]:
+            x["link_afiliado"] = link_ml(x.get("link_afiliado"))
+        if str(c.get("inicio", "")) <= hoje <= str(c.get("fim", "")):
+            ativas.append(c)
+        elif str(c.get("inicio", "")) > hoje:
+            proximas.append(c)
+    ativas.sort(key=lambda c: -(c.get("prioridade") or 0))
+    proximas.sort(key=lambda c: c.get("inicio", ""))
+    avulsos = [x for x in dados.get("cupons_avulsos") or [] if valido(x)]
+    for x in avulsos:
+        x["link_afiliado"] = link_ml(x.get("link_afiliado"))
+    return ativas, proximas, avulsos
+
+
+def promo_faixa(c, b):
+    bn, e = c["banners"], html.escape
+    alt = e(f'{c.get("nome", "")}: {(c.get("banner") or {}).get("titulo") or c.get("titulo", "")}')
+    return (f'<div class="promo-faixa" data-promo="{e(c["id"])}" data-fim="{e(c["fim"])}T23:59:59-03:00">'
+            f'<a href="{b}/ofertas/#{e(c["id"])}" data-campanha="{e(c["id"])}" data-lugar="topo">'
+            f'<picture><source media="(max-width: 720px)" srcset="{b}/img/{e(bn["faixa-m"])}" width="800" height="300">'
+            f'<img src="{b}/img/{e(bn["faixa"])}" alt="{alt}" width="1600" height="300" decoding="async"></picture></a>'
+            f'<span class="promo-rotulo">Oferta</span><span class="promo-contador" data-contador hidden></span>'
+            f'<button class="promo-fechar" type="button" aria-label="Fechar este banner">&times;</button></div>')
+
+
+def promo_card(c, b, lugar):
+    bn, e = c["banners"], html.escape
+    alt = e(f'{c.get("nome", "")}: {(c.get("banner") or {}).get("titulo") or c.get("titulo", "")}. Ver as ofertas')
+    return (f'<aside class="promo-card promo-{lugar}" aria-label="Oferta: {e(c.get("nome", ""))}">'
+            f'<span class="promo-rotulo">Oferta · Mercado Livre</span>'
+            f'<a href="{b}/ofertas/#{e(c["id"])}" data-campanha="{e(c["id"])}" data-lugar="{lugar}">'
+            f'<img src="{b}/img/{e(bn["card"])}" alt="{alt}" width="800" height="640" loading="lazy" decoding="async"></a></aside>')
+
+
+def inserir_promo(conteudo, bloco):
+    """Banner da campanha no meio do texto: depois do 5º parágrafo (ou no fim de textos curtos)."""
+    if not bloco:
+        return conteudo
+    partes = re.split(r"(?<=</p>)", conteudo)
+    par = [i for i, t in enumerate(partes) if t.rstrip().endswith("</p>") and "<p" in t and "ficha" not in t
+           and "anuncio" not in t]
+    if len(par) < 3:
+        return conteudo
+    alvo = par[4] if len(par) >= 7 else par[-1]
+    return "".join(t + (bloco if i == alvo else "") for i, t in enumerate(partes))
+
+
 def cifrar(texto, senha, iteracoes=250_000):
     """AES-256-GCM com chave derivada da senha (PBKDF2-SHA256). Aberto no navegador via WebCrypto."""
     from cryptography.hazmat.primitives import hashes
@@ -499,10 +569,20 @@ def build():
     env = Environment(loader=FileSystemLoader(RAIZ / "site" / "templates"), autoescape=True)
     env.filters["data_br"] = data_br
     anuncios = {lugar: anuncio(cfg, lugar) for lugar in ("topo", "artigo", "lateral", "lista")}
+    ativas, proximas, cupons_avulsos = campanhas_no_ar(catalogo)
+    promo = ativas[0] if ativas else None
+    so_adsense = dict(anuncios)
+    if promo:   # o agente marketing ocupa os espaços com a campanha do momento
+        lugares = promo.get("lugares") or []
+        if "topo" in lugares:
+            anuncios["topo"] = promo_faixa(promo, caminho_base) + anuncios["topo"]
+        if "lateral" in lugares:
+            anuncios["lateral"] = anuncios["lateral"] + promo_card(promo, caminho_base, "lateral")
+    promo_artigo = promo_card(promo, caminho_base, "artigo") if promo and "artigo" in (promo.get("lugares") or []) else ""
     glob = dict(site=cfg["site"], subnichos=subnichos, cats=cats, editorias=editorias, compras=compras,
                 b=caminho_base, ano=dt.date.today().year, css_marca=css_marca(m), fontes_url=fontes_url(m),
                 base=base, link_venda=link_venda, autor=autor, adsense=a.get("adsense_cliente", ""),
-                anuncios=anuncios, ultimas=lista[:6], preco_br=preco_br, milhar=milhar, estrelas=estrelas)
+                anuncios=anuncios, promo=promo, ultimas=lista[:6], preco_br=preco_br, milhar=milhar, estrelas=estrelas)
 
     if SAIDA.exists():
         shutil.rmtree(SAIDA)
@@ -528,7 +608,7 @@ def build():
     for p in lista:
         url = f"{base}/posts/{p['slug']}/"
         conteudo, sumario, usados = renderizar(p["corpo"], catalogo)
-        conteudo = inserir_anuncios(conteudo, cfg)
+        conteudo = inserir_promo(inserir_anuncios(conteudo, cfg), promo_artigo)
         rapida = [catalogo[i] for i in usados] if p.get("tipo") in ("lista", "comparativo") else []
         da_cat = sorted([x for x in catalogo.values() if x.get("subnicho") == p.get("subnicho")], key=pontuacao, reverse=True)
         recomendados = [x for x in da_cat if x["id"] not in usados][:3] if p["compra"] else []
@@ -582,6 +662,18 @@ def build():
             achados=sorted(catalogo.values(), key=pontuacao, reverse=True)[:9]),
         encoding="utf-8")
     urls.append(f"{base}/guia-de-compras/")
+
+    # página de ofertas (agente marketing): campanha do momento, cupons e os achados dela
+    dest = SAIDA / "ofertas"
+    dest.mkdir()
+    url = f"{base}/ofertas/"
+    (dest / "index.html").write_text(
+        env.get_template("ofertas.html").render(
+            **{**glob, "anuncios": so_adsense}, cat_atual="ofertas", url=url, ativas=ativas, proximas=proximas,
+            cupons_avulsos=cupons_avulsos,
+            achados=sorted(catalogo.values(), key=pontuacao, reverse=True)[:9]),
+        encoding="utf-8")
+    urls.append(url)
 
     # busca: índice leve + página
     (SAIDA / "busca.json").write_text(json.dumps([

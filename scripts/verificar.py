@@ -168,8 +168,50 @@ def verificar(caminho: Path, cfg, catalogo, slugs_vistos):
     return erros, avisos
 
 
+def verificar_campanhas(catalogo):
+    """Campanhas do agente marketing (data/campanhas.json)."""
+    import json
+    arq = RAIZ / "data" / "campanhas.json"
+    if not arq.exists():
+        return [], []
+    erros, avisos = [], []
+    dados = json.loads(arq.read_text(encoding="utf-8"))
+    ids = set()
+    for c in dados.get("campanhas", []):
+        cid = c.get("id", "?")
+        if cid in ids:
+            erros.append(f"{cid}: id repetido")
+        ids.add(cid)
+        for campo in ("id", "nome", "titulo", "inicio", "fim", "tema"):
+            if not c.get(campo):
+                erros.append(f"{cid}: campo '{campo}' faltando")
+        if str(c.get("fim", "")) < str(c.get("inicio", "")):
+            erros.append(f"{cid}: fim antes do início")
+        fora = [x for x in c.get("produtos", []) if x not in catalogo]
+        if fora:
+            avisos.append(f"{cid}: produtos fora do catálogo ativo (somem do site): {', '.join(fora)}")
+        for x in [c.get("link_afiliado", "")] + [k.get("link_afiliado", "") for k in c.get("cupons") or []]:
+            if x and not (x.startswith("https://") and ("meli.la/" in x or "mercadolivre.com" in x)):
+                erros.append(f"{cid}: link_afiliado inválido (só meli.la ou mercadolivre.com): {x}")
+        textos = " ".join(str(v) for v in (c.get("banner") or {}).values()) + " " + c.get("chamada", "")
+        if re.search(r"R\$\s?\d", textos) and not c.get("cupons"):
+            avisos.append(f"{cid}: banner com valor em R$ sem cupom confirmado")
+        if c.get("ativo", True) and not (c.get("banners") or {}).get("card"):
+            avisos.append(f"{cid}: banners não gerados (rode python3 scripts/banner.py {cid})")
+    return erros, avisos
+
+
 def main():
     cfg, catalogo = config(), produtos()
+    if not sys.argv[1:]:
+        e_c, a_c = verificar_campanhas(catalogo)
+        print(f"[{'ERRO' if e_c else 'OK'}] data/campanhas.json")
+        for e in e_c:
+            print(f"   ✗ {e}")
+        for a in a_c:
+            print(f"   ! {a}")
+        if e_c:
+            print("   (corrija as campanhas)")
     alvos = [Path(a) for a in sys.argv[1:]] or sorted((RAIZ / "content" / "posts").glob("*.md"))
     vistos, falhou = set(), False
     if not alvos:
@@ -183,6 +225,8 @@ def main():
         for a in avisos:
             print(f"   ! {a}")
         falhou |= bool(erros)
+    if not sys.argv[1:]:
+        falhou |= bool(e_c)
     sys.exit(1 if falhou else 0)
 
 

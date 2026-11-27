@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "_vendas.html" import cartao_achado with context %}
+{% from "_vendas.html" import cartao_achado, vitrine_promo with context %}
 {% from "_cards.html" import cartao, lateral, selo %}
 {% block titulo %}{{ post.titulo }} | {{ site.nome }}{% endblock %}
 {% block descricao %}{{ post.descricao }}{% endblock %}
@@ -65,6 +65,10 @@
       <div class="prosa">
         {{ conteudo | safe }}
       </div>
+
+      {% if promo and not post.compra and 'fim_post' in (promo.lugares or []) and promo.itens %}
+      {{ vitrine_promo(promo, b, preco_br, milhar, estrelas, 3, (promo.nome ~ ': os achados do guia')) }}
+      {% endif %}
 
       {% if recomendados %}
       <section class="escolhas" aria-labelledby="escolhas-titulo">

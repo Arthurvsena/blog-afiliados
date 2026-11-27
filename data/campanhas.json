@@ -1,0 +1,100 @@
+{
+  "atualizado": "2026-11-27",
+  "nota": "Arquivo do agente marketing. Uma campanha só aparece no site entre inicio e fim (horário de Brasília) e com os banners gerados por scripts/banner.py. Banners e botões levam à página /ofertas/; os links de compra são os de afiliado do data/produtos.csv. link_afiliado da campanha (página de ofertas do Mercado Livre) só entra gerado no Gerador de Links pela skill cadastrar-produtos ou pelo dono.",
+  "campanhas": [
+    {
+      "id": "black-friday-2026",
+      "evento": "black-friday",
+      "tema": "black-friday",
+      "nome": "Black Friday",
+      "titulo": "Black Friday no Mercado Livre",
+      "chamada": "Os produtos mais bem avaliados do nosso guia de compras. A campanha do Mercado Livre vai até 30/11.",
+      "inicio": "2026-11-27",
+      "fim": "2026-11-30",
+      "prioridade": 10,
+      "ativo": true,
+      "fonte": "https://www.mercadolivre.com.br/l/promocoes",
+      "fonte_conferida": "2026-11-27: página Promoções do Mercado Livre diz \"Campanha válida até 30/11\"",
+      "banner": {
+        "selo": "BLACK FRIDAY · ATÉ 30/11",
+        "titulo": "Os achados mais bem avaliados do guia",
+        "chamada": "Escolhidos pela nota de quem comprou: Alexa, JBL, relógio e mouse.",
+        "cta": "Ver as ofertas"
+      },
+      "produtos": [
+        "amazon-echo-dot-5",
+        "jbl-go-4",
+        "samsung-galaxy-fit3",
+        "logitech-g203-lightsync",
+        "qcy-t13",
+        "tplink-tapo-c200",
+        "xiaomi-redmi-watch-5-lite",
+        "jbl-tune-520bt",
+        "ugreen-pb311-10000-20w"
+      ],
+      "cupons": [],
+      "link_afiliado": "",
+      "lugares": [
+        "topo",
+        "artigo",
+        "lateral",
+        "lista",
+        "fim_post",
+        "ofertas"
+      ],
+      "banners": {
+        "faixa": "banners/black-friday-2026-faixa.jpg",
+        "faixa-m": "banners/black-friday-2026-faixa-m.jpg",
+        "card": "banners/black-friday-2026-card.jpg",
+        "quadrado": "banners/black-friday-2026-quadrado.jpg"
+      }
+    },
+    {
+      "id": "natal-2026",
+      "evento": "natal",
+      "tema": "natal",
+      "nome": "Natal",
+      "titulo": "Presentes de tecnologia para o Natal",
+      "chamada": "Ideias de presente com nota alta e milhares de avaliações, de fone a caixa de som.",
+      "inicio": "2026-12-01",
+      "fim": "2026-12-24",
+      "prioridade": 8,
+      "ativo": true,
+      "fonte": "",
+      "banner": {
+        "selo": "NATAL · PRESENTES",
+        "titulo": "Presentes de tecnologia que agradam",
+        "chamada": "Escolhidos pela nota e pelas avaliações de quem já comprou.",
+        "cta": "Ver os presentes"
+      },
+      "produtos": [
+        "jbl-go-4",
+        "redmi-buds-6-play",
+        "xiaomi-smart-band-9-active",
+        "amazon-echo-dot-5",
+        "jbl-wave-buds-2",
+        "elgin-smart-color-10w",
+        "havit-h2002d",
+        "ugreen-pb311-10000-20w",
+        "xiaomi-redmi-watch-5-active"
+      ],
+      "cupons": [],
+      "link_afiliado": "",
+      "lugares": [
+        "topo",
+        "artigo",
+        "lateral",
+        "lista",
+        "fim_post",
+        "ofertas"
+      ],
+      "banners": {
+        "faixa": "banners/natal-2026-faixa.jpg",
+        "faixa-m": "banners/natal-2026-faixa-m.jpg",
+        "card": "banners/natal-2026-card.jpg",
+        "quadrado": "banners/natal-2026-quadrado.jpg"
+      }
+    }
+  ],
+  "cupons_avulsos": []
+}

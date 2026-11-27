@@ -33,6 +33,10 @@ manual de redação (`editorial/manual.md`).
 - `data/relatorio_vendas.md`: apostas de venda da semana (agente `vendas`).
 - `data/visitas.json` e `data/relatorio_diario.md`: visitas de cada dia e a
   leitura diária do `analista` (o que bombou ontem e o que fazer hoje).
+- **Marketing** (agente `marketing`, apelido Promo): campanhas sazonais e cupons em
+  `data/campanhas.json`, cupons colados pelo dono em `data/cupons.md`, banners com fotos reais
+  gerados por `scripts/banner.py` em `content/imagens/banners/`. O site mostra a campanha ativa
+  na faixa do topo, no meio dos posts, na lateral, na home e em `/ofertas/`.
 - `data/redes.md`: textos prontos para WhatsApp, X, Instagram e TikTok de cada
   post, escritos pelo agente `viral` para o dono postar.
 - **Departamento de vídeo** (canal Nexus Tech no YouTube): agentes `tendencias`,

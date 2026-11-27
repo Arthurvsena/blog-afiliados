@@ -40,6 +40,7 @@
     <a class="marca" href="{{ b }}/"><img src="{{ b }}/static/marca/logo.svg" alt="{{ site.nome }}, página inicial" width="127" height="34"></a>
     <nav class="editorias" id="menu" aria-label="Editorias">
       {% for slug, c in editorias.items() %}<a href="{{ c.url }}" style="--cat:{{ c.cor }}"{% if cat_atual == slug %} aria-current="page"{% endif %}>{{ c.curto }}</a>{% endfor %}
+      {% if promo %}<a href="{{ b }}/ofertas/" class="nav-ofertas promo-tema-{{ promo.tema }}"{% if cat_atual == 'ofertas' %} aria-current="page"{% endif %}>{{ promo.nome }}</a>{% endif %}
       <a href="{{ b }}/guia-de-compras/" class="nav-compras"{% if cat_atual == 'guia-de-compras' or cat_atual in compras %} aria-current="page"{% endif %}>Guia de compras</a>
       <a href="{{ b }}/sobre/" class="menu-extra">Sobre o site</a>
     </nav>
@@ -97,6 +98,31 @@
   });
   window.buscar = ev => { const q = document.getElementById('q').value.trim(); if (!q) { ev.preventDefault(); return false; }
     location.href = '{{ b }}/busca/?q=' + encodeURIComponent(q); ev.preventDefault(); return false; };
+  // banners do agente marketing: contagem regressiva até o fim da campanha e botão de fechar (lembra no dia)
+  document.querySelectorAll('[data-promo]').forEach(el => {
+    const id = el.dataset.promo, fim = new Date(el.dataset.fim), hojeTxt = new Date().toDateString();
+    try { if (localStorage.getItem('promo-fechada-' + id) === hojeTxt) { el.remove(); return; } } catch (e) {}
+    if (fim < new Date()) { el.remove(); return; }
+    const c = el.querySelector('[data-contador]');
+    const tique = () => { const ms = fim - new Date(); if (ms <= 0) { el.remove(); return; }
+      const d = Math.floor(ms / 864e5), h = Math.floor(ms / 36e5) % 24, m = Math.floor(ms / 6e4) % 60;
+      c.textContent = 'Termina em ' + (d ? d + 'd ' : '') + h + 'h ' + String(m).padStart(2, '0') + 'min'; c.hidden = false; };
+    if (c) { tique(); setInterval(tique, 30000); }
+    const x = el.querySelector('.promo-fechar');
+    if (x) x.addEventListener('click', () => { el.remove(); try { localStorage.setItem('promo-fechada-' + id, hojeTxt); } catch (e) {} });
+  });
+  document.querySelectorAll('[data-contagem]').forEach(c => {
+    const fim = new Date(c.dataset.contagem);
+    const tique = () => { const ms = fim - new Date(); if (ms <= 0) { c.textContent = 'Campanha encerrada'; return; }
+      const d = Math.floor(ms / 864e5), h = Math.floor(ms / 36e5) % 24, m = Math.floor(ms / 6e4) % 60, s = Math.floor(ms / 1e3) % 60;
+      c.innerHTML = (d ? '<b>' + d + '</b>d ' : '') + '<b>' + h + '</b>h <b>' + String(m).padStart(2, '0') + '</b>min <b>' + String(s).padStart(2, '0') + '</b>s'; };
+    tique(); setInterval(tique, 1000);
+  });
+  document.querySelectorAll('[data-copiar]').forEach(bt => bt.addEventListener('click', async () => {
+    try { await navigator.clipboard.writeText(bt.dataset.copiar); bt.textContent = 'Copiado!'; }
+    catch (e) { bt.textContent = bt.dataset.copiar; }
+    setTimeout(() => { bt.textContent = 'Copiar cupom'; }, 2500);
+  }));
   const itens = document.querySelectorAll('[data-surgir]');
   if (!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) { itens.forEach(e => e.classList.add('visivel')); return; }
   const obs = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visivel'); obs.unobserve(e.target); } }), { rootMargin: '0px 0px -8% 0px' });

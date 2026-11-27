@@ -29,6 +29,7 @@ equipe:
   designer: "Branco"
   atualizador: "Dodo"
   analista: "Luisa"
+  marketing: "Promo"       # banners, cupons e campanhas (apelido provisório)
   viral: ""               # falta um apelido
   produtor: ""            # departamento de vídeo (falta apelido)
   roteirista: ""          # departamento de vídeo (falta apelido)

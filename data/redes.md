@@ -441,3 +441,13 @@ Link: https://nexustechai.com.br/posts/anatel-bloqueio-sms-golpe-codigo-curto-bl
   Os 7 cuidados estão no link da bio.
   #anatel #golpe #blackfriday
 - TikTok/Reels (roteiro de 20 s): [0-2 s] "A Anatel vai bloquear SMS falso, mas só depois da Black Friday." [2-8 s] Fato 1: operadoras terão de barrar SMS de código curto sem cadastro. [8-14 s] Fato 2: o prazo é de até 90 dias, segundo a imprensa. [14-18 s] Fato 3: até lá, não clique em link de SMS e nunca passe o código recebido. [18-20 s] "Os 7 cuidados: link na bio."
+
+## 2026-11-27 · Campanha Black Friday (marketing)
+Link: https://nexustechai.com.br/ofertas/
+Imagem para postar: content/imagens/banners/black-friday-2026-quadrado.jpg
+- WhatsApp: Black Friday do Mercado Livre vai até domingo (30/11). Separei os achados mais bem avaliados do nosso guia: Echo Dot, JBL Go 4, Galaxy Fit3, mouse G203 e mais. Confira o preço com desconto: https://nexustechai.com.br/ofertas/
+- X: A Black Friday do Mercado Livre vai até 30/11. Juntei numa página só os eletrônicos com nota alta e milhares de avaliações do guia do Nexus Tech: Alexa, caixa JBL, smartband e mouse gamer. https://nexustechai.com.br/ofertas/
+- Instagram (legenda): Black Friday até domingo, 30/11.
+  Os achados mais bem avaliados do nosso guia de compras estão numa página só.
+  Confira o preço atual antes de comprar: link na bio.
+  #blackfriday #mercadolivre #tecnologia #achados
