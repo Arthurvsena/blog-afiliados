@@ -179,6 +179,8 @@ Quer só um teclado gamer silencioso? O [guia de switch blue ou red](/posts/tecl
 
 Em dúvida entre os dois tipos? Veja [teclado mecânico ou membrana](/posts/teclado-mecanico-ou-membrana-qual-escolher/).
 
+Curioso com o que vem depois do mecânico? Leia [teclado mecânico ou magnético](/posts/teclado-mecanico-ou-magnetico-qual-escolher/).
+
 :::veredito
 Na minha leitura, o Kumara K552 é o ponto de partida para a maioria. Quer sem fio, o Kumara Pro. Mesa apertada, o Fizz. Gosta de clique, o Dark Avenger.
 :::

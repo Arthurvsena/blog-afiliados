@@ -5778,9 +5778,10 @@
     "tipo": "guia",
     "produtos_necessarios": 0,
     "motivo": "Maior força entre os termos de acessórios sem post (3,58), intenção de comparação; dá link interno para os posts de teclado mecânico.",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-24",
-    "viral": 3
+    "viral": 3,
+    "post": "teclado-mecanico-ou-magnetico-qual-escolher"
   },
   {
     "id": "melhores-fones-tws-ate-200-reais",
@@ -5875,9 +5876,10 @@
     "tipo": "guia",
     "produtos_necessarios": 0,
     "motivo": "Aparece no Google e no ML com força 3,64 e sem post; guia leva para o carregador de 45 W do catálogo.",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-24",
-    "viral": 3
+    "viral": 3,
+    "post": "carregador-usb-c-notebook-qual-comprar-watts"
   },
   {
     "id": "alexa-compativel-com-iphone-como-usar",
@@ -6264,9 +6266,11 @@
     "tipo": "analise",
     "produtos_necessarios": 0,
     "motivo": "Completa a série iPhone 11/12/13 (o 13 é o termo mais forte do arquivo); capta busca de Black Friday.",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-26",
-    "prioridade": "hoje"
+    "prioridade": "hoje",
+    "viral": 3,
+    "post": "analise-iphone-14-vale-a-pena-em-2026"
   },
   {
     "id": "como-configurar-camera-iphone-melhores-ajustes",
@@ -6283,7 +6287,8 @@
     "motivo": "Tutorial evergreen de celulares, termo sem cobertura.",
     "status": "pendente",
     "criada": "2026-11-26",
-    "prioridade": "hoje"
+    "prioridade": "hoje",
+    "viral": 2
   },
   {
     "id": "starlink-brasil-como-funciona-guia",
@@ -6302,7 +6307,8 @@
     "motivo": "Termo de forca 2.83 sem cobertura; apoia o post de 'vale a pena' já publicado. Conferir preços na fonte oficial na redação.",
     "status": "pendente",
     "criada": "2026-11-26",
-    "prioridade": "normal"
+    "prioridade": "normal",
+    "viral": 3
   },
   {
     "id": "playstation-portal-vale-a-pena",
@@ -6339,9 +6345,11 @@
     "tipo": "tutorial",
     "produtos_necessarios": 0,
     "motivo": "Tutorial de IA com vários termos agrupados, sem cobertura direta.",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-26",
-    "prioridade": "hoje"
+    "prioridade": "hoje",
+    "viral": 4,
+    "post": "gemini-google-como-usar-gratis"
   },
   {
     "id": "samsung-galaxy-a56-vale-a-pena-review",
@@ -6360,6 +6368,153 @@
     "motivo": "Intermediário Samsung muito buscado na Black Friday; segue o modelo do post do Galaxy A07.",
     "status": "pendente",
     "criada": "2026-11-26",
-    "prioridade": "hoje"
+    "prioridade": "hoje",
+    "viral": 3
+  },
+  {
+    "id": "gemini-google-para-estudantes-ai-plus-12-meses-ate-31-dezembro",
+    "titulo": "Gemini grátis para estudantes: 12 meses de AI Plus até 31 de dezembro",
+    "palavra_chave": "gemini google para estudantes",
+    "secundarias": [
+      "gemini google estudante",
+      "gemini google students"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 1.83,
+    "editoria": "inteligencia-artificial",
+    "fontes": [
+      {
+        "nome": "Fast Company Brasil",
+        "url": "https://fastcompanybrasil.com/ia/estudantes-google-libera-12-meses-gemini-gratis-como-resgatar/"
+      },
+      {
+        "nome": "Alura",
+        "url": "https://www.alura.com.br/noticias/google-libera-gemini-gratuitamente-para-estudantes-por-12-meses"
+      },
+      {
+        "nome": "Tecnoblog",
+        "url": "https://tecnoblog.net/noticias/google-libera-ia-de-graca-para-universitarios-do-brasil"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Termo do palavras.json sem post (força 1,83); prazo curto (31/12); cobrança automática de R$ 24,99 depois dos 12 meses; ligar ao post gemini-google-ai-plus-vale-a-pena (já na posição 6,8). Confirmar a regra na página oficial do Google antes de publicar.",
+    "status": "publicada",
+    "criada": "2026-11-27",
+    "prioridade": "hoje",
+    "viral": 5,
+    "post": "gemini-google-para-estudantes-ai-plus-12-meses-ate-31-dezembro"
+  },
+  {
+    "id": "galaxy-a57-black-friday-2026-quanto-pagar-faixas-de-preco",
+    "titulo": "Galaxy A57 na Black Friday: quanto vale pagar e quando é pegadinha",
+    "palavra_chave": "novo galaxy a57",
+    "secundarias": [
+      "galaxy a57 black friday",
+      "galaxy a57 preço"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 1.0,
+    "editoria": "celulares",
+    "fontes": [
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/smartphone/galaxy-a57-quanto-vale-pagar-na-black-friday-2026/"
+      },
+      {
+        "nome": "Tecnoblog",
+        "url": "https://tecnoblog.net/achados/galaxy-a57-256-gb-ja-atinge-34-off-na-melhor-oferta-desde-lancamento/"
+      },
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/smartphone/galaxy-a57-despenca-para-r-1-599-com-cupom-na-amazon/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Celular ligado à Black Friday com termo real (força 1,0); lançou em abril por R$ 3.599 e já cai quase à metade. Preço em notícia só com data e fonte, faixas variam entre veículos.",
+    "status": "publicada",
+    "criada": "2026-11-27",
+    "prioridade": "hoje",
+    "viral": 4,
+    "post": "galaxy-a57-black-friday-2026-quanto-pagar-faixas-de-preco"
+  },
+  {
+    "id": "celular-ate-2000-reais-black-friday-2026-modelos-para-olhar",
+    "titulo": "Celular até R$ 2.000 na Black Friday: modelos que valem olhar",
+    "palavra_chave": "celular ate 2000 black friday",
+    "secundarias": [
+      "melhor celular até 2000 reais"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 0.0,
+    "editoria": "celulares",
+    "fontes": [
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/smartphone/celular-ate-r-2000-13-modelos-para-ficar-de-olho-na-black-friday/"
+      },
+      {
+        "nome": "Canaltech",
+        "url": "https://canaltech.com.br/smartphone/quais-sao-os-melhores-celulares-para-comprar-na-black-friday-por-faixa-de-preco/"
+      },
+      {
+        "nome": "Oficina da Net",
+        "url": "https://www.oficinadanet.com.br/topsmartphones/73924-celulares-2500-antes-black-friday"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Segunda notícia de celular da Black Friday (aposta 3 do plano). Conferir o termo exato em palavras.json; se não existir, usar variação de celulares na faixa de preço. Ligar ao guia da BF e ao post do Galaxy A57.",
+    "status": "publicada",
+    "criada": "2026-11-27",
+    "prioridade": "hoje",
+    "viral": 4,
+    "post": "celular-ate-2000-reais-black-friday-2026-modelos-para-olhar"
+  },
+  {
+    "id": "ps-plus-essential-dezembro-2026-tony-hawk-dragon-ball-xenoverse-2-amnesia",
+    "titulo": "PS Plus de dezembro de 2026: Tony Hawk 3+4, Dragon Ball Xenoverse 2 e Amnesia: The Bunker",
+    "palavra_chave": "ps plus dezembro 2026",
+    "secundarias": [
+      "ps plus essential dezembro"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 0.0,
+    "editoria": "games",
+    "fontes": [
+      {
+        "nome": "PlayStation Blog (anúncio de 25/11; conferir link oficial)",
+        "url": "https://blog.playstation.com/"
+      },
+      {
+        "nome": "TudoCelular",
+        "url": "https://www.tudocelular.com/novos-produtos/noticias/n267911/playstation-plus-essential-jogos-dezembro-2026.html"
+      },
+      {
+        "nome": "PSX Brasil",
+        "url": "https://psxbrasil.com.br/ps-plus-essential-dezembro-de-2026/"
+      },
+      {
+        "nome": "MeuPS",
+        "url": "https://meups.com.br/ps-plus/ps-plus-essential-dezembro-2026-jogos/"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Anúncio de 25/11, sem post nosso (já temos novembro). Resgate de 1/12 a 4/1; plataformas de Amnesia divergem entre fontes: confirmar na PS Store. Linkar guia PS Plus.",
+    "status": "publicada",
+    "criada": "2026-11-27",
+    "prioridade": "hoje",
+    "viral": 5,
+    "post": "ps-plus-dezembro-2026-tony-hawk-dragon-ball-xenoverse-2-amnesia"
   }
 ]

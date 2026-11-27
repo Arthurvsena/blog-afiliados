@@ -68,6 +68,11 @@ Com três jogos novos na biblioteca, vale pensar no áudio. Se você ainda está
 
 ## O que fica
 
+## E em dezembro
+
+Os jogos de dezembro já foram anunciados: veja o [PS Plus de dezembro 2026](/posts/ps-plus-dezembro-2026-tony-hawk-dragon-ball-xenoverse-2-amnesia/).
+
 :::veredito
 Mês bom para ação e co-op, com Dead Island 2, e nostálgico, com Tomb Raider. Resgate os três no dia 3 e decida depois.
 :::
+

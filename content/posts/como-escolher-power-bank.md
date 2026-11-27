@@ -5,9 +5,9 @@ descricao: "Como escolher power bank: quantos mAh você precisa, potência em wa
 palavra_chave: "como escolher power bank"
 subnicho: power-banks-carregadores
 tipo: guia
-produtos: [ugreen-pb311-10000-20w]
+produtos: [ugreen-pb311-10000-20w, anker-zolo-a110m-20000-45w, anker-maggo-a1664-10000]
 publicado: 2026-10-28
-atualizado: 2026-10-28
+atualizado: 2026-11-27
 capa_frase: "Quantos mAh você precisa de verdade"
 faq:
   - pergunta: "Quantos mAh preciso para carregar meu celular uma vez?"
@@ -16,6 +16,10 @@ faq:
     resposta: "Sim, mas só na bagagem de mão, nunca na despachada. Até 100 Wh (cerca de 27.000 mAh) é liberado; entre 100 e 160 Wh depende de autorização da companhia aérea."
   - pergunta: "Power bank vicia ou estraga a bateria do celular?"
     resposta: "Não. Um power bank de qualidade, com certificação, carrega como um carregador de tomada. O risco está nos modelos sem certificação, que podem entregar tensão instável."
+  - pergunta: "Qual power bank escolher para a Black Friday?"
+    resposta: "Defina primeiro o uso: 10.000 mAh com 20 W para o dia a dia, 20.000 mAh com 30 a 45 W para viagem ou notebook. Depois confira certificação da Anatel e compare o preço atual no anúncio, sem se guiar só pelo percentual de desconto."
+  - pergunta: "Qual a diferença entre power bank comum e magnético Qi2?"
+    resposta: "O magnético gruda na traseira de iPhones com MagSafe (12 em diante) e carrega sem fio, sem cabo. Costuma ser mais lento que o cabo USB-C, então serve melhor para recargas de manutenção."
   - pergunta: "Vale a pena power bank de 50.000 mAh?"
     resposta: "Só para quem passa dias sem tomada ou precisa carregar notebook. Para o dia a dia, ele é pesado demais e não pode ir no avião sem autorização."
 imagem:
@@ -25,6 +29,8 @@ imagem:
   fonte: https://www.mercadolivre.com.br/carregador-portatil-power-bank-ugreen-10000mah-pd-qc-20w-22-cor-preto/p/MLB37248532
 ---
 Saber **como escolher power bank** é simples quando você olha para três números: a capacidade em mAh, a potência em watts (W) e o tipo de saída (de preferência USB-C com Power Delivery). Acerte esses três e confira se o produto tem certificação da Anatel. Com isso você evita 90% das compras ruins. Abaixo explico cada ponto com exemplos práticos.
+
+**Resposta rápida:** para celular e fones no dia a dia, a escolha principal é o {{link:ugreen-pb311-10000-20w|Ugreen PB311}} (10.000 mAh, USB-C PD de 20 W). Para viagem ou notebook, olhe o {{link:anker-zolo-a110m-20000-45w|Anker Zolo de 20.000 mAh e 45 W}}. Vai comprar na Black Friday? Antes, leia como [não cair em preço falso](/posts/black-friday-2026-eletronicos-como-nao-cair-em-preco-falso/).
 
 ## Capacidade: quantos mAh você realmente precisa
 
@@ -124,7 +130,15 @@ Para a maioria, o ideal é 10.000 mAh com USB-C PD de 20 W no dia a dia, ou 20.0
 
 ## Nossas escolhas
 
-Por enquanto temos uma indicação no catálogo, para a faixa de uso diário:
+Uma indicação para cada perfil de uso:
+
+| Modelo | Ponto forte | Para quem é |
+|---|---|---|
+| Ugreen PB311 | 10.000 mAh, USB-C PD de 20 W | Celular e fones no dia a dia |
+| Anker Zolo | 20.000 mAh, até 45 W, 2 cabos integrados | Viagem e notebook USB-C |
+| Anker MagGo | Qi2 magnético de 15 W | iPhone 12 em diante, sem cabo |
+
+### Para o dia a dia
 
 {{produto:ugreen-pb311-10000-20w}}
 
@@ -139,9 +153,46 @@ Por enquanto temos uma indicação no catálogo, para a faixa de uso diário:
 - Com as duas portas em uso, a potência é dividida
 :::
 
-- **Se você quer um power bank para celular e fones no dia a dia**, vá de {{link:ugreen-pb311-10000-20w|ver o preço do Ugreen PB311}}.
-- **Se você viaja por vários dias ou carrega notebook**, ele não é o ideal: precisa de mais mAh e mais watts, e ainda não temos um modelo assim cadastrado.
+### Para viagem e notebook
 
-Usa iPhone? O cabo muda a escolha: veja os [power banks para iPhone com USB-C PD](/posts/melhores-power-banks-iphone/).
+20.000 mAh, até 45 W, dentro do limite do avião:
+
+{{produto:anker-zolo-a110m-20000-45w}}
+
+:::pros
+- 20.000 mAh com saída de até 45 W
+- Dois cabos USB-C integrados, mais portas USB-C e USB-A
+- Display digital
+:::
+
+:::contras
+- Mais pesado que os de 10.000 mAh
+- Potência dividida quando várias portas estão em uso
+:::
+
+### Para iPhone com carga magnética
+
+Carga sem fio Qi2 de 15 W:
+
+{{produto:anker-maggo-a1664-10000}}
+
+:::pros
+- Carga sem fio magnética Qi2 de 15 W
+- Compatível com MagSafe (iPhone 12 em diante)
+- Homologado pela Anatel
+:::
+
+:::contras
+- Só 10.000 mAh
+- Carga sem fio costuma ser mais lenta que o cabo
+:::
+
+## Qual escolher
+
+- **Se você quer um power bank para celular e fones no dia a dia**, vá de {{link:ugreen-pb311-10000-20w|ver o preço do Ugreen PB311}}.
+- **Se você viaja por vários dias ou carrega notebook USB-C**, vá de 20.000 mAh e mais watts: {{link:anker-zolo-a110m-20000-45w|ver o Anker Zolo de 45 W}}.
+- **Se você usa iPhone 12 em diante e quer carga sem fio sem cabo**, existe o formato magnético Qi2: {{link:anker-maggo-a1664-10000|ver o Anker MagGo}}.
+
+Mais opções por capacidade: [melhores power banks](/posts/melhores-power-banks/), [power banks de 20000mAh](/posts/melhores-power-banks-20000mah/) e [10.000 ou 20.000 mAh, qual escolher](/posts/power-bank-10000-ou-20000-mah-qual-escolher/). Usa iPhone? O cabo muda a escolha: veja os [power banks para iPhone com USB-C PD](/posts/melhores-power-banks-iphone/).
 
 Quer saber mais sobre o exemplo da primeira categoria? Leia nossa [review do power bank Ugreen PB311 de 10.000 mAh e 20 W](/posts/review-power-bank-ugreen-pb311-10000/).

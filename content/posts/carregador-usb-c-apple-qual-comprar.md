@@ -167,3 +167,5 @@ O original da Apple é opção, não obrigação. Para iPhone 15 e 16, o {{link:
 ## Veja também
 
 Na dúvida entre tipos, veja [carregador GaN ou comum para iPhone](/posts/carregador-gan-ou-comum-iphone/).
+
+Também usa notebook? Veja [carregador USB-C para notebook: quantos watts você precisa](/posts/carregador-usb-c-notebook-qual-comprar-watts/).

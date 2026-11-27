@@ -154,3 +154,5 @@ Dúvida sobre o original? Veja se o [carregador USB-C Apple precisa ser o origin
 Tem Galaxy? Veja o [carregador turbo Samsung: 25 W, 45 W ou outro](/posts/carregador-turbo-samsung-qual-comprar/).
 
 Quer entender o GaN antes de escolher? Veja [carregador GaN ou comum para iPhone](/posts/carregador-gan-ou-comum-iphone/).
+
+Precisa carregar notebook? Veja [quantos watts o carregador USB-C do notebook precisa ter](/posts/carregador-usb-c-notebook-qual-comprar-watts/).

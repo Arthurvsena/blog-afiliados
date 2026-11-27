@@ -2,6 +2,94 @@
 
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
+## 2026-11-27 · Carregador USB-C para notebook: quantos watts você precisa
+Link: https://nexustechai.com.br/posts/carregador-usb-c-notebook-qual-comprar-watts/
+- WhatsApp: Carregador de celular carrega notebook? Só com Power Delivery e watts perto do original. Com pouco, a bateria cai até ligado na tomada: https://nexustechai.com.br/posts/carregador-usb-c-notebook-qual-comprar-watts/
+- X: Carregador USB-C para notebook: precisa ter Power Delivery e watts perto do original. 30 W serve ultrabook, 45 W é mais seguro. Mais watts não estraga; menos, atrapalha. https://nexustechai.com.br/posts/carregador-usb-c-notebook-qual-comprar-watts/
+- Instagram (legenda): Seu notebook carrega por USB-C?
+  Só se o carregador tiver Power Delivery e watts perto do original.
+  Mais watts não faz mal; menos deixa a carga lenta.
+  Guia de 30 W e 45 W no link da bio.
+  #carregador #notebook #usbc
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Carregador de celular carrega notebook?" [2-8 s] Fato 1: precisa de USB-C com Power Delivery. [8-14 s] Fato 2: com poucos watts a bateria cai até ligado na tomada. [14-18 s] Fato 3: mais watts que o original não faz mal. [18-20 s] "Guia no link da bio."
+
+## 2026-11-27 · Teclado mecânico ou magnético: qual vale para jogar?
+Link: https://nexustechai.com.br/posts/teclado-mecanico-ou-magnetico-qual-escolher/
+- WhatsApp: Teclado magnético é melhor que mecânico? Só para quem joga FPS competitivo. Para o resto, o mecânico basta e custa menos: https://nexustechai.com.br/posts/teclado-mecanico-ou-magnetico-qual-escolher/
+- X: Teclado magnético vs mecânico: o rapid trigger dá ganho de milissegundos, só útil em FPS competitivo. Para jogar no dia a dia, um bom mecânico resolve e custa menos. https://nexustechai.com.br/posts/teclado-mecanico-ou-magnetico-qual-escolher/
+- Instagram (legenda): Teclado magnético vale a pena?
+  Só se você joga FPS competitivo toda semana.
+  O rapid trigger ganha milissegundos; o mecânico ainda basta para a maioria.
+  Checklist de 4 perguntas no link da bio.
+  #tecladogamer #setupgamer #valorant
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Teclado magnético ou mecânico?" [2-8 s] Fato 1: o magnético mede até onde você apertou a tecla. [8-14 s] Fato 2: o rapid trigger ganha só milissegundos. [14-18 s] Fato 3: fora do FPS competitivo, o mecânico basta. [18-20 s] "Checklist no link da bio."
+
+## 2026-11-27 · Vale a pena comprar o iPhone 14 em 2026? Só até R$ 3.000
+Link: https://nexustechai.com.br/posts/analise-iphone-14-vale-a-pena-em-2026/
+- WhatsApp: iPhone 14 em 2026 ainda vale? Só abaixo de R$ 3.000, com nota fiscal. Ele está no iOS 27, mas tem Lightning, 60 Hz e não tem Apple Intelligence: https://nexustechai.com.br/posts/analise-iphone-14-vale-a-pena-em-2026/
+- X: iPhone 14 em 2026: está na lista do iOS 27, mas usa Lightning, tela de 60 Hz e não tem Apple Intelligence. Só compensa abaixo de uns R$ 3.000. https://nexustechai.com.br/posts/analise-iphone-14-vale-a-pena-em-2026/
+- Instagram (legenda): iPhone 14 ainda vale a pena em 2026?
+  Só abaixo de uns R$ 3.000, com nota fiscal e garantia.
+  Está no iOS 27, mas tem Lightning, 60 Hz e não tem Apple Intelligence.
+  Checklist de compra no link da bio.
+  #iphone14 #iphone #blackfriday
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "iPhone 14 em 2026: vale ou não?" [2-8 s] Fato 1: está na lista do iOS 27. [8-14 s] Fato 2: Lightning, 60 Hz e sem Apple Intelligence. [14-18 s] Fato 3: só abaixo de uns R$ 3.000. [18-20 s] "Checklist no link da bio."
+
+## 2026-11-27 · Gemini Google usar grátis: R$ 0, sem cartão e com limite
+Link: https://nexustechai.com.br/posts/gemini-google-como-usar-gratis/
+- WhatsApp: O Gemini do Google é de graça: basta uma Conta Google, sem cartão. O limite renova a cada 5 horas. Passo a passo: https://nexustechai.com.br/posts/gemini-google-como-usar-gratis/
+- X: Dá para usar o Gemini de graça só com Conta Google: R$ 0, imagens, Deep Research e voz. O limite renova a cada 5 horas e tem teto semanal. https://nexustechai.com.br/posts/gemini-google-como-usar-gratis/
+- Instagram (legenda): O Gemini do Google é de graça, sem cartão.
+  Só precisa de uma Conta Google.
+  Inclui imagens, Deep Research e Gemini Live, com limite de uso.
+  Passo a passo no link da bio.
+  #gemini #inteligenciaartificial #google
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Gemini de graça: como usar." [2-8 s] Fato 1: só Conta Google, sem cartão. [8-14 s] Fato 2: imagens, pesquisa e voz no plano de R$ 0. [14-18 s] Fato 3: limite renova a cada 5 horas. [18-20 s] "Passo a passo no link da bio."
+
+## 2026-11-27 · Celular até 2000 na Black Friday: 13 modelos para olhar
+Link: https://nexustechai.com.br/posts/celular-ate-2000-reais-black-friday-2026-modelos-para-olhar/
+- WhatsApp: Vai comprar celular até R$ 2.000 hoje? O Canaltech diz o preço que vale em 13 modelos: Galaxy A57 até R$ 1.800, Moto G86 perto de R$ 1.500. Acima disso, espere: https://nexustechai.com.br/posts/celular-ate-2000-reais-black-friday-2026-modelos-para-olhar/
+- X: Celular até R$ 2.000 na Black Friday: o Canaltech lista 13 modelos com meta de preço. Galaxy A57 até R$ 1.800, Moto G86 R$ 1.500, Galaxy A26 5G até R$ 1.000. Metas, não ofertas. https://nexustechai.com.br/posts/celular-ate-2000-reais-black-friday-2026-modelos-para-olhar/
+- Instagram (legenda): Quanto pagar em celular até R$ 2.000 na Black Friday?
+  Galaxy A57: até R$ 1.800. Moto G86: R$ 1.500 ou menos.
+  Galaxy A26 5G: meta de R$ 1.000, segundo o Canaltech.
+  São metas do veículo, não ofertas confirmadas. Lista completa no link da bio.
+  #blackfriday #celular #smartphone
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Celular até R$ 2.000: não pague mais que isso." [2-8 s] Fato 1: Galaxy A57 vale até R$ 1.800. [8-14 s] Fato 2: Moto G86 perto de R$ 1.500. [14-18 s] Fato 3: Galaxy A26 5G só abaixo de R$ 1.000. [18-20 s] "Metas do Canaltech, lista no link da bio."
+
+## 2026-11-27 · Novo Galaxy A57 na Black Friday: 128 GB bom até R$ 1.700
+Link: https://nexustechai.com.br/posts/galaxy-a57-black-friday-2026-quanto-pagar-faixas-de-preco/
+- WhatsApp: Vai comprar o Galaxy A57 na Black Friday? Pelo Canaltech, o 128 GB só é "excelente" perto de R$ 1.700 e o 256 GB perto de R$ 2.150. Ele lançou a R$ 3.599: https://nexustechai.com.br/posts/galaxy-a57-black-friday-2026-quanto-pagar-faixas-de-preco/
+- X: Galaxy A57 na Black Friday: segundo o Canaltech, 128 GB é preço excelente até R$ 1.700 e 256 GB até R$ 2.150 (lançou a R$ 3.599). Cuidado com cupom e Pix. https://nexustechai.com.br/posts/galaxy-a57-black-friday-2026-quanto-pagar-faixas-de-preco/
+- Instagram (legenda): Quanto pagar no Galaxy A57 na Black Friday?
+  128 GB: excelente até R$ 1.700, segundo o Canaltech.
+  256 GB: excelente até R$ 2.150.
+  Muita oferta exige cupom e Pix. Detalhes no link da bio.
+  #galaxya57 #blackfriday #samsung
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Galaxy A57: quanto pagar hoje?" [2-8 s] Fato 1: lançou a R$ 3.599 em abril. [8-14 s] Fato 2: 128 GB excelente até R$ 1.700, 256 GB até R$ 2.150. [14-18 s] Fato 3: cupom e Pix mudam o preço. [18-20 s] "Link na bio."
+
+## 2026-11-27 · Gemini Google para estudantes: 12 meses grátis até 31/12
+Link: https://nexustechai.com.br/posts/gemini-google-para-estudantes-ai-plus-12-meses-ate-31-dezembro/
+- WhatsApp: Universitário? O Google dá 12 meses do Gemini AI Plus de graça, com 400 GB na nuvem, se resgatar até 31/12. Depois cobra R$ 24,99 por mês se você não cancelar: https://nexustechai.com.br/posts/gemini-google-para-estudantes-ai-plus-12-meses-ate-31-dezembro/
+- X: O Google dá 12 meses do Gemini AI Plus para universitários no Brasil, resgate até 31/12. Vêm 400 GB de nuvem. Depois, R$ 24,99 por mês se não cancelar. https://nexustechai.com.br/posts/gemini-google-para-estudantes-ai-plus-12-meses-ate-31-dezembro/
+- Instagram (legenda): Estudante universitário? O Gemini AI Plus está grátis por 12 meses.
+  Resgate só até 31 de dezembro, com 400 GB de armazenamento.
+  Atenção: depois do ano grátis, a cobrança é de R$ 24,99 por mês.
+  Passo a passo no link da bio.
+  #gemini #estudantes #inteligenciaartificial
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Universitário ganha Gemini grátis por 1 ano." [2-8 s] Fato 1: plano AI Plus, 12 meses, 400 GB de nuvem. [8-14 s] Fato 2: resgate só até 31/12, com verificação de estudante. [14-18 s] Fato 3: depois cobra R$ 24,99 por mês, cancele antes. [18-20 s] "Passo a passo no link da bio."
+
+## 2026-11-27 · PS Plus dezembro 2026: Tony Hawk 3+4 e Dragon Ball
+Link: https://nexustechai.com.br/posts/ps-plus-dezembro-2026-tony-hawk-dragon-ball-xenoverse-2-amnesia/
+- WhatsApp: Jogos do PS Plus de dezembro: Tony Hawk 3+4, Dragon Ball Xenoverse 2 e Amnesia. Resgate de 1º/12 a 4/1. Atenção: o Amnesia é só para PS4: https://nexustechai.com.br/posts/ps-plus-dezembro-2026-tony-hawk-dragon-ball-xenoverse-2-amnesia/
+- X: PS Plus de dezembro: Tony Hawk's Pro Skater 3+4 e Dragon Ball Xenoverse 2 (PS5 e PS4) e Amnesia: The Bunker (só PS4). Resgate de 1º de dezembro a 4 de janeiro. https://nexustechai.com.br/posts/ps-plus-dezembro-2026-tony-hawk-dragon-ball-xenoverse-2-amnesia/
+- Instagram (legenda): Os jogos do PS Plus de dezembro já saíram.
+  Tony Hawk 3+4, Dragon Ball Xenoverse 2 e Amnesia: The Bunker.
+  Resgate de 1º de dezembro a 4 de janeiro. O Amnesia é só para PS4.
+  Detalhes no link da bio.
+  #psplus #playstation #games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Jogos do PS Plus de dezembro saíram." [2-8 s] Fato 1: Tony Hawk 3+4 e Dragon Ball Xenoverse 2, para PS5 e PS4. [8-14 s] Fato 2: Amnesia: The Bunker, só PS4. [14-18 s] Fato 3: resgate de 1º/12 a 4/1. [18-20 s] "Link na bio."
+
 ## 2026-11-26 · Mi Band vs Huawei Band: bateria de até 3 semanas ou 14 dias?
 Link: https://nexustechai.com.br/posts/mi-band-ou-huawei-band-qual-comprar/
 - WhatsApp: Mi Band 10 ou Huawei Band 11? A Xiaomi promete até 3 semanas de bateria, a Huawei até 14 dias. As duas têm nota 4,9 no ML e aguentam 50 m de água: https://nexustechai.com.br/posts/mi-band-ou-huawei-band-qual-comprar/
@@ -13,7 +101,7 @@ Link: https://nexustechai.com.br/posts/mi-band-ou-huawei-band-qual-comprar/
   #miband #huaweiband #smartband
 - TikTok/Reels (roteiro de 20 s): [0-2 s] "Mi Band ou Huawei Band?" [2-8 s] Fato 1: Mi Band 10, até 3 semanas de bateria e tela de 1,72". [8-14 s] Fato 2: Huawei Band 11, até 14 dias e tela de 1,62". [14-18 s] Fato 3: as duas com nota 4,9 e 50 m de água. [18-20 s] "Qual leva? Link na bio."
 
-## ## 2026-11-26 · Melhor fone TWS até 200 reais: 4 modelos, qual vale mais
+## 2026-11-26 · Melhor fone TWS até 200 reais: 4 modelos, qual vale mais
 Link: https://nexustechai.com.br/posts/melhores-fones-tws-ate-200-reais/
 - WhatsApp: Vai comprar fone na Black Friday? O QCY T13 tem nota 4,8 em quase 36 mil avaliações e até 40 h de bateria com o estojo. Comparei 4 até R$ 200: https://nexustechai.com.br/posts/melhores-fones-tws-ate-200-reais/
 - X: Fone TWS até R$ 200: o QCY T13 tem até 40 h de bateria com o estojo e nota 4,8 em quase 36 mil avaliações. Para jogo, o Havit TW969 Lite informa 60 ms de latência. Os 4 comparados: https://nexustechai.com.br/posts/melhores-fones-tws-ate-200-reais/
@@ -353,91 +441,3 @@ Link: https://nexustechai.com.br/posts/anatel-bloqueio-sms-golpe-codigo-curto-bl
   Os 7 cuidados estão no link da bio.
   #anatel #golpe #blackfriday
 - TikTok/Reels (roteiro de 20 s): [0-2 s] "A Anatel vai bloquear SMS falso, mas só depois da Black Friday." [2-8 s] Fato 1: operadoras terão de barrar SMS de código curto sem cadastro. [8-14 s] Fato 2: o prazo é de até 90 dias, segundo a imprensa. [14-18 s] Fato 3: até lá, não clique em link de SMS e nunca passe o código recebido. [18-20 s] "Os 7 cuidados: link na bio."
-
-## 2026-11-23 · GTA 6 vendas: 19,1 milhões é estimativa da Sensor Tower
-Link: https://nexustechai.com.br/posts/gta-6-vendas-19-milhoes-estimativa-sensor-tower-nao-oficial/
-- WhatsApp: GTA 6 teria vendido 19,1 milhões de cópias na estreia, mas é estimativa da Sensor Tower: Rockstar e Take-Two não confirmaram. https://nexustechai.com.br/posts/gta-6-vendas-19-milhoes-estimativa-sensor-tower-nao-oficial/
-- X: GTA 6 teria vendido 19,1 milhões de cópias (US$ 1,84 bi) até o lançamento, segundo a Sensor Tower. Atenção: é estimativa, Rockstar e Take-Two não confirmaram. O que vale e o que não: https://nexustechai.com.br/posts/gta-6-vendas-19-milhoes-estimativa-sensor-tower-nao-oficial/
-- Instagram (legenda): 19,1 milhões de cópias do GTA 6? Calma, não é número oficial.
-  É estimativa da Sensor Tower, divulgada pela Reuters.
-  Rockstar e Take-Two ainda não confirmaram.
-  Detalhes e o que ainda não se sabe no link da bio.
-  #gta6 #games #rockstar
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "GTA 6 vendeu 19 milhões? Não é bem assim." [2-8 s] Fato 1: a Sensor Tower estima 19,1 milhões de cópias e US$ 1,84 bi. [8-14 s] Fato 2: Rockstar e Take-Two não confirmaram. [14-18 s] Fato 3: no Brasil, a Standard custa R$ 449,90. [18-20 s] "Veja o que vale: link na bio."
-
-## 2026-11-22 · Teclado mecânico ou membrana: qual escolher para jogar?
-Link: https://nexustechai.com.br/posts/teclado-mecanico-ou-membrana-qual-escolher/
-- WhatsApp: Mecânico ou membrana para jogar? Blue faz clique alto, brown é discreto. Comparativo com 2 mecânicos ABNT2: https://nexustechai.com.br/posts/teclado-mecanico-ou-membrana-qual-escolher/
-- X: Teclado mecânico ou membrana? Para jogar, o mecânico leva vantagem no toque; a membrana ganha em preço e silêncio. O switch blue é barulhento, o brown é discreto: https://nexustechai.com.br/posts/teclado-mecanico-ou-membrana-qual-escolher/
-- Instagram (legenda): Clique ou borracha: qual teclado é o seu?
-  O mecânico tem toque definido e cada tecla independente.
-  A membrana é mais barata e silenciosa.
-  Blue faz barulho, brown é discreto. Comparativo no link da bio.
-  #teclado #gamer #setup
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Mecânico ou membrana: qual vale para jogar?" [2-8 s] Fato 1: no mecânico, cada tecla tem seu switch. [8-14 s] Fato 2: blue faz clique alto, brown é discreto. [14-18 s] Fato 3: membrana é mais barata e silenciosa. [18-20 s] "Comparativo completo: link na bio."
-
-## 2026-11-22 · Windows 11 ou 10 para jogos: o 11 ganha só 1,2% a 5%
-Link: https://nexustechai.com.br/posts/windows-11-ou-10-para-jogos/
-- WhatsApp: Windows 11 ou 10 para jogos? O 11 ganhou só 1,2% a 5% de FPS num teste, mas o Windows 10 perdeu o suporte normal em 14/10/2025. https://nexustechai.com.br/posts/windows-11-ou-10-para-jogos/
-- X: Windows 11 ou 10 para jogos: em teste com 14 jogos, o 11 25H2 ficou só 1,2% a 5% à frente. O que pesa é o fim do suporte do 10 (14/10/2025). Dá para seguir com ESU até 12/10/2027: https://nexustechai.com.br/posts/windows-11-ou-10-para-jogos/
-- Instagram (legenda): Vale trocar o Windows 10 pelo 11 para jogar?
-  O ganho de FPS é pequeno: 1,2% a 5% num teste.
-  O que pesa é o fim do suporte do 10, em outubro de 2025.
-  Requisitos e ESU no link da bio.
-  #windows11 #games #pcgamer
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Windows 11 dá mais FPS que o 10? Quase nada." [2-8 s] Fato 1: teste com 14 jogos, 1,2% a 5% à frente. [8-14 s] Fato 2: o Windows 10 perdeu o suporte em 14/10/2025. [14-18 s] Fato 3: o ESU protege o 10 até 12/10/2027. [18-20 s] "Veja se seu PC aceita: link na bio."
-
-## 2026-11-22 · Gemini Google como desativar no Android: 3 atalhos
-Link: https://nexustechai.com.br/posts/gemini-google-como-desativar-android/
-- WhatsApp: O Gemini abre sozinho no seu Android? Dá para cortar em 3 minutos: botão liga/desliga, Ok Google e tela de bloqueio. Passo a passo: https://nexustechai.com.br/posts/gemini-google-como-desativar-android/
-- X: Não existe botão único para desligar o Gemini no Android. São 3 portas: botão liga/desliga, Ok Google e tela de bloqueio. Passo a passo do Google, em português: https://nexustechai.com.br/posts/gemini-google-como-desativar-android/
-- Instagram (legenda): O Gemini vive abrindo sem você chamar?
-  Desinstalar não resolve, segundo o próprio Google.
-  Desligue 3 atalhos: botão, Ok Google e tela de bloqueio.
-  Passo a passo no link da bio.
-  #gemini #android #tecnologia
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "O Gemini abre sozinho no seu celular? Resolve em 3 passos." [2-8 s] Fato 1: desinstalar não tira ele como assistente padrão. [8-14 s] Fato 2: desligue botão liga/desliga, Ok Google e tela de bloqueio. [14-18 s] Fato 3: dá para voltar ao Google Assistente, se a opção aparecer. [18-20 s] "Passo a passo: link na bio."
-
-## 2026-11-22 · The Game Awards 2026: GTA 6 lidera com 8 indicações
-Link: https://nexustechai.com.br/posts/the-game-awards-2026-indicados-gta-6-oito-indicacoes/
-- WhatsApp: GTA 6 lidera o The Game Awards 2026 com 8 indicações e o Zelda Ocarina of Time disputa Jogo do Ano. Dá para votar até 9/12: https://nexustechai.com.br/posts/the-game-awards-2026-indicados-gta-6-oito-indicacoes/
-- X: The Game Awards 2026: GTA 6 lidera com 8 indicações. Seis jogos disputam Jogo do Ano, incluindo Zelda Ocarina of Time. Cerimônia em 10/12, voto do público até 9/12: https://nexustechai.com.br/posts/the-game-awards-2026-indicados-gta-6-oito-indicacoes/
-- Instagram (legenda): GTA 6 chegou ao Game Awards com 8 indicações.
-  Zelda Ocarina of Time também está no Jogo do Ano.
-  Cerimônia em 10/12, votação aberta até 9/12.
-  Lista completa no link da bio.
-  #gta6 #thegameawards #games
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "GTA 6 tem 8 indicações no Game Awards." [2-8 s] Fato 1: seis jogos disputam Jogo do Ano, com Zelda Ocarina of Time. [8-14 s] Fato 2: cerimônia em 10 de dezembro. [14-18 s] Fato 3: você vota de graça até 9/12. [18-20 s] "Lista completa: link na bio."
-
-## 2026-11-22 · Galaxy S26 Ultra na Black Friday: só vale até R$ 6.300
-Link: https://nexustechai.com.br/posts/galaxy-s26-ultra-black-friday-2026-preco-vale-a-pena-ou-s25-ultra/
-- WhatsApp: Galaxy S26 Ultra na Black Friday: acima de R$ 6.300 não vale, diz o Canaltech. Se o S25 Ultra estiver R$ 800 mais barato, ele ganha: https://nexustechai.com.br/posts/galaxy-s26-ultra-black-friday-2026-preco-vale-a-pena-ou-s25-ultra/
-- X: Black Friday (27/11): Galaxy S26 Ultra 256 GB só compensa até R$ 6.300, segundo o Canaltech. Já o S25 Ultra vence se a diferença passar de R$ 800. Faixas e conta: https://nexustechai.com.br/posts/galaxy-s26-ultra-black-friday-2026-preco-vale-a-pena-ou-s25-ultra/
-- Instagram (legenda): Qual Galaxy comprar na Black Friday?
-  S26 Ultra 256 GB: teto de R$ 6.300 (Canaltech).
-  Se o S25 Ultra estiver R$ 800 mais barato, ele leva.
-  Faixas completas no link da bio.
-  #blackfriday #galaxys26ultra #samsung
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "S26 Ultra por mais de R$ 6.300? Pule." [2-8 s] Fato 1: a Samsung subiu a tabela oficial em outubro. [8-14 s] Fato 2: o Canaltech vê preço bom até R$ 6.300 no 256 GB. [14-18 s] Fato 3: com R$ 800 de diferença, o S25 Ultra ganha. [18-20 s] "Conta completa: link na bio."
-
-## 2026-11-22 · iFood vazamento de dados: CPF de entregadores e o que fazer
-Link: https://nexustechai.com.br/posts/ifood-ataque-hacker-14-novembro-dados-entregadores-restaurantes/
-- WhatsApp: iFood confirmou vazamento: clientes perderam só o telefone, mas entregadores e restaurantes tiveram CPF exposto. Cuidado com ligação "do iFood": https://nexustechai.com.br/posts/ifood-ataque-hacker-14-novembro-dados-entregadores-restaurantes/
-- X: iFood confirma ataque hacker de 14/11. Clientes: só telefone. Entregadores e restaurantes: CPF e, às vezes, conta bancária. Senha e cartão não, diz a empresa. O que fazer: https://nexustechai.com.br/posts/ifood-ataque-hacker-14-novembro-dados-entregadores-restaurantes/
-- Instagram (legenda): Seu telefone pode estar na mão de golpista.
-  O iFood confirmou o vazamento do ataque de 14/11.
-  Entregadores e restaurantes tiveram CPF exposto.
-  Não passe código nem pague "taxa" a falso atendente.
-  #ifood #vazamentodedados #golpe
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "O iFood vazou seus dados?" [2-8 s] Fato 1: clientes, só telefone. [8-14 s] Fato 2: entregadores e restaurantes, CPF e às vezes conta bancária. [14-18 s] Fato 3: senha e cartão não vazaram, diz a empresa. [18-20 s] "Como se proteger de golpe: link na bio."
-
-## 2026-11-21 · GTA 6 autosave falha e apaga 11 horas de jogo no PS5
-Link: https://nexustechai.com.br/posts/gta-6-autosave-falha-perder-save-como-se-proteger/
-- WhatsApp: Streamer perdeu 11 horas de GTA 6 no PS5 por causa do autosave. A Rockstar não explicou a causa. Dica: salve na mão com frequência: https://nexustechai.com.br/posts/gta-6-autosave-falha-perder-save-como-se-proteger/
-- X: GTA 6: streamer perdeu 11 horas de progresso no PS5 depois de desligar o console. O autosave só roda após missões e a Rockstar não explicou a falha. Salve manualmente: https://nexustechai.com.br/posts/gta-6-autosave-falha-perder-save-como-se-proteger/
-- Instagram (legenda): 11 horas de GTA 6 perdidas num desligamento.
-  O autosave salva pouco e não funciona no meio da missão.
-  Salve manualmente, são 15 slots.
-  Passo a passo no link da bio.
-  #gta6 #ps5 #games
-- TikTok/Reels (roteiro de 20 s): [0-2 s] "Perdeu 11 horas de GTA 6 num clique." [2-8 s] Fato 1: streamer desligou o PS5 e o progresso sumiu. [8-14 s] Fato 2: o autosave só roda depois de missões. [14-18 s] Fato 3: a Rockstar ainda não explicou a causa. [18-20 s] "Como salvar na mão: link na bio."

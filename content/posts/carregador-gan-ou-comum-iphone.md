@@ -144,6 +144,10 @@ Quem também precisa de bateria portátil vê os [melhores power banks para iPho
 
 ## Veredito
 
+## Para o notebook
+
+Quer usar o mesmo carregador no notebook? Veja [carregador USB-C para notebook e os watts certos](/posts/carregador-usb-c-notebook-qual-comprar-watts/).
+
 :::veredito
 GaN não deixa o iPhone mais rápido, só deixa o carregador menor. Em casa, o comum de 25 W resolve para iPhone 15 e 16. Na mochila ou com folga, o GaN de 30 W compensa. Para o iPhone 17, olhe os 40 W antes de qualquer selo.
 :::

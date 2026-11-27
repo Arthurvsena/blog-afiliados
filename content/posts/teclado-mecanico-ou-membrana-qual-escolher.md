@@ -147,6 +147,8 @@ Compare o preço atual com o histórico e desconfie de desconto que aparece de u
 
 ## Veredito
 
+Já tem mecânico e quer saber se o magnético vale? Veja [teclado mecânico ou magnético](/posts/teclado-mecanico-ou-magnetico-qual-escolher/).
+
 :::veredito
 Para jogar, vá de mecânico: o K552 (brown) para quem divide espaço, o K568 (blue) para quem quer clique. Membrana só se o orçamento for o limite.
 :::

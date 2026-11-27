@@ -1,41 +1,41 @@
 {
-  "ultima_execucao": "2026-11-25T07:40",
+  "ultima_execucao": "2026-11-27T07:55",
   "agentes": {
     "chefe": {
       "status": "ok",
-      "tarefa": "Coordenei o dia: 4 notícias, 1 tutorial, 1 análise e 2 guias, e descartei a notícia sem segunda fonte."
+      "tarefa": "Coordenei o dia da Black Friday: 4 notícias, 1 tutorial, 1 análise, 2 guias e 1 post atualizado."
     },
     "pesquisador": {
       "status": "ok",
-      "tarefa": "Achei 5 notícias do dia e a pauta de \"fone tws ou ows\" que a Luisa pediu."
+      "tarefa": "Achei 4 notícias novas (PS Plus de dezembro, Gemini para estudantes, Galaxy A57 e celular até 2000 na BF); tecnologia ficou sem notícia confirmada."
     },
     "curador": {
-      "status": "ok",
-      "tarefa": "Cadastrei 6 produtos com link: 3 casa inteligente (Echo Dot 5, tomada Novadigital 20 A, Tapo C500), 2 fones/caixas (i2GO Essential Sound GO, JBL Tune Buds 2) e 1 smartwatch (Amazfit Active 2)."
+      "status": "ocioso",
+      "tarefa": "Não fui chamado: os subnichos têm produtos suficientes e nenhuma pauta travou."
     },
     "redator": {
       "status": "ok",
-      "tarefa": "Escrevi Huawei, Xbox Helix, Gemini, figurinhas do WhatsApp, o guia GaN, TWS ou OWS, o tutorial de IA e a análise do Claude."
+      "tarefa": "Escrevi as 4 notícias, o tutorial do Gemini grátis, a análise do iPhone 14 e os guias de teclado magnético e carregador para notebook."
     },
     "seo": {
       "status": "ok",
-      "tarefa": "Revisei os 8 posts, tirei afirmações sem fonte do Huawei e troquei palavras-chave por termos reais."
+      "tarefa": "Revisei os 8 posts novos, ajustei títulos e palavras-chave e liguei os posts por links internos."
     },
     "atualizador": {
-      "status": "ocioso",
-      "tarefa": "Não fui chamado: nenhum post que não seja notícia tem 30 dias ou mais."
+      "status": "ok",
+      "tarefa": "Atualizei o guia \"como escolher power bank\": escolha principal na 1ª tela, 2 produtos novos e FAQ da Black Friday."
     },
     "designer": {
       "status": "ok",
-      "tarefa": "Pus foto e capa nos 8 posts novos e diagramei com prós, contras e vereditos."
+      "tarefa": "Pus foto e capa nos 8 posts novos e deixei o power bank atualizado com tabela e prós e contras."
     },
     "vendas": {
       "status": "ok",
-      "tarefa": "Pus o card do QCY T13 no tutorial de TWS e ofertas nos dois guias novos."
+      "tarefa": "Pus links de cabo, carregador, headset e teclados nos posts onde faz sentido, sem preço no texto."
     },
     "viral": {
       "status": "ok",
-      "tarefa": "Dei nota às pautas, afiei títulos e escrevi os textos de rede, inclusive o do tutorial de TWS."
+      "tarefa": "Dei nota viral às pautas e escrevi os textos de rede dos 8 posts em data/redes.md."
     },
     "produtor": {
       "status": "ok",
@@ -47,11 +47,11 @@
     },
     "analista": {
       "status": "erro",
-      "tarefa": "Cloudflare pediu login de novo: visitas de 26/11 não foram lidas (2º dia seguido). O dono precisa entrar no Cloudflare pelo Chrome. Google 25/11: 250 impressões, 0 cliques, posição 13,1."
+      "tarefa": "Cloudflare pediu login: visitas de 24 e 25/11 sem dado; o dono precisa entrar de novo no painel. Google 24/11: 205 impressões, 0 cliques."
     },
     "seg_animador": {
       "status": "ok",
-      "tarefa": "Animei 1 vídeo(s) em 3D do Segura Aí: escorregar-banheiro "
+      "tarefa": "Animei 1 vídeo(s) em 3D do Segura Aí: chuveiro-eletrico-choque "
     },
     "seg_narrador": {
       "status": "ok",
@@ -67,26 +67,6 @@
     }
   },
   "historico": [
-    {
-      "data": "2026-11-18",
-      "agente": "pesquisador",
-      "texto": "Trouxe 5 pautas de notícia e descartei 2 pendentes velhas."
-    },
-    {
-      "data": "2026-11-18",
-      "agente": "redator",
-      "texto": "Escrevi 8 posts do dia, entre notícias, tutorial, análise e guias."
-    },
-    {
-      "data": "2026-11-18",
-      "agente": "seo",
-      "texto": "Revisei títulos, descrições e links dos 8 posts."
-    },
-    {
-      "data": "2026-11-18",
-      "agente": "viral",
-      "texto": "Escrevi os textos de rede dos 8 posts."
-    },
     {
       "data": "2026-11-18",
       "agente": "vendas",
@@ -354,18 +334,38 @@
     },
     {
       "data": "2026-11-27",
-      "agente": "seg_animador",
-      "texto": "Animei 1 vídeo(s) em 3D do Segura Aí: escorregar-banheiro "
+      "agente": "pesquisador",
+      "texto": "Achei 4 notícias novas para hoje, Black Friday incluída."
     },
     {
       "data": "2026-11-27",
-      "agente": "seg_narrador",
-      "texto": "Narrei com a voz do Gemini e mixei efeitos e trilha"
+      "agente": "redator",
+      "texto": "Escrevi 4 notícias, 1 tutorial, 1 análise e 2 guias de compra."
     },
     {
       "data": "2026-11-27",
-      "agente": "seg_roteirista",
-      "texto": "Escrevi 7 roteiros novos do Segura Aí 3D"
+      "agente": "seo",
+      "texto": "Revisei os 8 posts novos e liguei com links internos."
+    },
+    {
+      "data": "2026-11-27",
+      "agente": "viral",
+      "texto": "Textos de rede dos 8 posts prontos em data/redes.md."
+    },
+    {
+      "data": "2026-11-27",
+      "agente": "vendas",
+      "texto": "Chamadas de compra leves nos posts novos, sem preço de produto."
+    },
+    {
+      "data": "2026-11-27",
+      "agente": "designer",
+      "texto": "Foto e capa em todos os posts novos."
+    },
+    {
+      "data": "2026-11-27",
+      "agente": "atualizador",
+      "texto": "Atualizei o guia como escolher power bank."
     }
   ]
 }

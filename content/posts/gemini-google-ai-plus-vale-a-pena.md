@@ -96,6 +96,8 @@ A página do Gemini anuncia, para a Black Friday, "economize até 50% em planos 
 
 No lançamento, em outubro de 2025, o Google ofereceu seis meses a R$ 12,50 por mês, segundo o Tecnoblog. Não sei se essa condição ainda existe, então não conte com ela.
 
+Se você é universitário, há uma oferta melhor: 12 meses do AI Plus grátis até 31 de dezembro, explicada em [Gemini Google para estudantes](/posts/gemini-google-para-estudantes-ai-plus-12-meses-ate-31-dezembro/).
+
 ## O que dizem os usuários
 
 Não encontrei, nesta pesquisa, uma base de avaliações de assinantes que eu pudesse citar com número. Em vez de inventar, fico no que está documentado: a cobertura da imprensa brasileira destaca o preço e o armazenamento como os atrativos, e aponta o salto até o Pro como a principal ressalva.
@@ -138,6 +140,8 @@ Sim, 400 GB, segundo o Google e o Hardware.com.br.
 Sim, com até cinco pessoas, segundo o Tecnoblog e a página internacional do Google.
 
 ## Veredito
+
+Ainda não usa o Gemini? Veja [como usar o Gemini Google grátis](/posts/gemini-google-como-usar-gratis/), passo a passo.
 
 :::veredito
 Na minha leitura, o Google AI Plus vale pelo armazenamento mais do que pela IA: R$ 24,99 por 400 GB e limites 2x é um bom negócio para quem já usa o ecossistema do Google. Se você só quer testar o Gemini, fique no grátis e assine quando o limite incomodar.
