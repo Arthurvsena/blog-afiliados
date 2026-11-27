@@ -213,11 +213,17 @@
   },
   {
    "slug": "a-ultima-ceia",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-27",
+   "release": "biblia-2026-11-27",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "pedro-nega-jesus",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-27",
+   "release": "biblia-2026-11-27",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "o-ladrao-na-cruz",
