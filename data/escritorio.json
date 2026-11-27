@@ -68,11 +68,6 @@
   },
   "historico": [
     {
-      "data": "2026-11-17",
-      "agente": "curador",
-      "texto": "Sugeri o JBL Tune 520BT."
-    },
-    {
       "data": "2026-11-18",
       "agente": "pesquisador",
       "texto": "Trouxe 5 pautas de notícia e descartei 2 pendentes velhas."
@@ -369,8 +364,8 @@
     },
     {
       "data": "2026-11-27",
-      "agente": "analista",
-      "texto": "Leitura de 26/11 sem visitas (Cloudflare pediu login). Google 25/11: 250 impressões (+60% sobre a média de 19 a 24/11), 0 cliques; Galaxy A07 subiu de 12 para 33 impressões. Canal: 5.197 views em 28 dias."
+      "agente": "seg_roteirista",
+      "texto": "Escrevi 7 roteiros novos do Segura Aí 3D"
     }
   ]
 }

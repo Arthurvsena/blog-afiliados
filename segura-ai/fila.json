@@ -48,23 +48,14 @@
   {
    "slug": "cabo-da-panela",
    "status": "pronto"
-  }
+  },
+  {"slug": "extintor-certo", "status": "pronto"},
+  {"slug": "escada-domestica", "status": "pronto"},
+  {"slug": "tomada-crianca", "status": "pronto"},
+  {"slug": "tomada-molhada", "status": "pronto"},
+  {"slug": "disjuntor-desarmando", "status": "pronto"},
+  {"slug": "panela-esquecida", "status": "pronto"},
+  {"slug": "pano-no-fogao", "status": "pronto"}
  ],
- "ideias": [
-  {
-   "slug": "extintor-certo",
-   "tema": "Que extintor usar em casa: água em fogo elétrico (errado), as classes A, B e C explicadas",
-   "placar": "FOGO"
-  },
-  {
-   "slug": "escada-domestica",
-   "tema": "Escada doméstica: apoio errado, carregar peso subindo, os 3 pontos de apoio",
-   "placar": "ESCADA"
-  },
-  {
-   "slug": "tomada-crianca",
-   "tema": "Tomada sem protetor e criança curiosa: protetor de tomada e altura certa",
-   "placar": "TOMADA"
-  }
- ]
+ "ideias": []
 }
