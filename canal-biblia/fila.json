@@ -227,11 +227,17 @@
   },
   {
    "slug": "o-ladrao-na-cruz",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-28",
+   "release": "biblia-2026-11-28",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "tome-e-as-marcas-dos-cravos",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-28",
+   "release": "biblia-2026-11-28",
+   "voz": "gemini:Orus"
   },
   {
    "slug": "saulo-na-estrada-de-damasco",
