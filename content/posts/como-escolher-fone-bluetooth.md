@@ -6,10 +6,10 @@ palavra_chave: "melhor fone bluetooth"
 palavras_secundarias: ["fone bluetooth barato", "fone tws bluetooth", "fone tws anc"]
 subnicho: fones-caixas-bluetooth
 tipo: guia
-produtos: [qcy-t13, redmi-buds-6-play, jbl-wave-buds-2, philips-tat1209]
+produtos: [qcy-t13, redmi-buds-6-play, jbl-wave-buds-2, philips-tat1209, qcy-t17]
 capa_frase: "Fone certo sem pagar por enfeite"
 publicado: 2026-10-28
-atualizado: 2026-10-28
+atualizado: 2026-11-28
 faq:
   - pergunta: "Qual a diferença entre fone TWS e fone com fio de pescoço?"
     resposta: "TWS (true wireless) são dois fones totalmente separados, guardados em um estojo que também recarrega. O modelo de pescoço (neckband) tem um cabo ligando os lados, bateria maior e é mais difícil de perder, mas é menos discreto. Para academia e uso longo, o neckband costuma render mais horas; para o dia a dia, o TWS é mais prático."
@@ -29,7 +29,7 @@ imagem:
 ---
 Para escolher o **melhor fone Bluetooth** sem errar, olhe para cinco coisas nesta ordem: o formato que cabe no seu uso, a autonomia real, o conforto, a resistência à água e, só então, o codec e os extras. A maioria dos guias para na lista de especificações. Aqui eu explico o que cada número significa na prática e o que você pode ignorar.
 
-Se você quer só a resposta para achar o **melhor fone Bluetooth** custo-benefício: para a maioria, o {{link:qcy-t13|QCY T13 ENC}} resolve, com microfones para chamadas e bateria longa com o estojo. Quer gastar menos? Veja o {{link:redmi-buds-6-play|Redmi Buds 6 Play}}. Quer cancelamento de ruído? O {{link:jbl-wave-buds-2|JBL Wave Buds 2}} está no catálogo. Abaixo está o critério para você decidir.
+Se você quer só a resposta para achar o **melhor fone Bluetooth** custo-benefício: para a maioria, o {{link:qcy-t13|QCY T13 ENC}} resolve, com microfones para chamadas e bateria longa com o estojo. Quer gastar menos? Veja o {{link:redmi-buds-6-play|Redmi Buds 6 Play}}. Quer cancelamento de ruído? O {{link:jbl-wave-buds-2|JBL Wave Buds 2}} está no catálogo. Abaixo está o critério para você decidir. Para comparar mais modelos, veja a lista de [melhores fones TWS Bluetooth](/posts/melhores-fones-tws-bluetooth/).
 
 ## Primeiro: qual formato combina com o seu uso
 
@@ -76,7 +76,7 @@ O codec é a "língua" que fone e celular usam para transmitir o áudio. O fone 
 
 Todo áudio Bluetooth chega com pequeno atraso. Em música, você nem percebe. Em vídeo, o aplicativo normalmente compensa. Em jogos de ação, o descompasso entre tela e som atrapalha.
 
-Se você joga no celular, procure fones que anunciem **modo jogo** ou baixa latência, e leia comentários de compradores sobre o atraso. Se o uso é música e podcast, pode ignorar esse item.
+Se você joga no celular, procure fones que anunciem **modo jogo** ou baixa latência, e leia comentários de compradores sobre o atraso. Se o uso é música e podcast, pode ignorar esse item. No catálogo, o {{link:qcy-t17|QCY T17}} anuncia modo de jogo.
 
 ## Conforto e encaixe: o que não aparece na ficha técnica
 
@@ -138,7 +138,7 @@ Muitos guias esquecem disso. Se você faz reuniões ou liga pelo fone, o microfo
 
 ## Próximo passo
 
-Com as prioridades definidas, fica fácil comparar modelos. Em breve o blog publica listas de fones e caixas de som Bluetooth que aplicam esses critérios a produtos do Mercado Livre. Antes de comprar, veja o preço atual no anúncio.
+Com as prioridades definidas, fica fácil comparar modelos. Em breve o blog publica listas de fones e caixas de som Bluetooth que aplicam esses critérios a produtos do Mercado Livre. Em época de promoção, confira como [não cair em preço falso na Black Friday](/posts/black-friday-2026-eletronicos-como-nao-cair-em-preco-falso/) e veja o preço atual no anúncio.
 
 ## Qual comprar?
 
@@ -194,7 +194,7 @@ Com as prioridades definidas, fica fácil comparar modelos. Em breve o blog publ
 :::
 
 :::atencao Jogos de ação
-Nenhum desses anuncia modo de baixa latência na ficha do catálogo.
+Dos quatro acima, nenhum anuncia modo de baixa latência na ficha do catálogo; o QCY T17 anuncia modo de jogo.
 :::
 
 ## Veja também

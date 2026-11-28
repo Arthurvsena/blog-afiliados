@@ -133,3 +133,5 @@ Os dois serviços incluem multiplayer online, e conversar com o time faz diferen
 :::veredito
 Game Pass Ultimate é o melhor custo-benefício para quem joga muito e quer lançamentos no dia 1. PS Plus é a escolha certa para quem já está no PS5 e quer o pacote da Sony. Sem rodeio: escolha pelo plano, não pela marca.
 :::
+
+**Dilema do plano anual?** Veja a conta em [Xbox Game Pass Ultimate 12 meses: vale pagar o ano todo?](/posts/xbox-game-pass-ultimate-12-meses-vale-pagar-anual-cartao/).

@@ -6285,10 +6285,11 @@
     "tipo": "tutorial",
     "produtos_necessarios": 0,
     "motivo": "Tutorial evergreen de celulares, termo sem cobertura.",
-    "status": "pendente",
+    "status": "publicada",
     "criada": "2026-11-26",
     "prioridade": "hoje",
-    "viral": 2
+    "viral": 2,
+    "post": "como-configurar-camera-iphone-melhores-ajustes"
   },
   {
     "id": "starlink-brasil-como-funciona-guia",
@@ -6516,5 +6517,298 @@
     "prioridade": "hoje",
     "viral": 5,
     "post": "ps-plus-dezembro-2026-tony-hawk-dragon-ball-xenoverse-2-amnesia"
+  },
+  {
+    "id": "openai-contraataca-apple-processo-segredos-industriais-fornecedores",
+    "titulo": "OpenAI processa a Apple de volta: o que cada lado alega e o que muda para o usuário",
+    "palavra_chave": "openai apple processo",
+    "secundarias": [],
+    "fontes_termo": [
+      "noticia"
+    ],
+    "forca": 0.0,
+    "editoria": "inteligencia-artificial",
+    "fontes": [
+      {
+        "nome": "Unite AI (contrapedidos da OpenAI, 27/11/2026)",
+        "url": "https://www.unite.ai/openai-countersues-apple-over-alleged-hardware-trade-secret-theft/"
+      },
+      {
+        "nome": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-27/openai-says-apple-pressured-suppliers-to-shun-its-devices"
+      }
+    ],
+    "tipo": "noticia",
+    "produtos_necessarios": 0,
+    "motivo": "Apple e OpenAI são marcas de alto interesse no Brasil; contrapedidos (12 causas) protocolados em 27/11 no tribunal da Califórnia contra a ação da Apple de 10/07. Tratar como alegações da OpenAI, sem tomar lado; sem preço nem rumor. Conferir se o processo oficial/Reuters confirma antes de publicar.",
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-28",
+    "viral": 4,
+    "post": "openai-contraataca-apple-processo-segredos-industriais-fornecedores"
+  },
+  {
+    "id": "xbox-game-pass-ultimate-12-meses-vale-pagar-anual-cartao",
+    "titulo": "Game Pass Ultimate 12 meses: vale pagar o ano de uma vez?",
+    "palavra_chave": "xbox game pass ultimate 12 meses",
+    "secundarias": [
+      "xbox game pass ultimate 12",
+      "xbox game pass barato",
+      "xbox game pass valor",
+      "xbox game pass ultimate digital"
+    ],
+    "fontes_termo": [
+      "google",
+      "mercadolivre"
+    ],
+    "forca": 3.94,
+    "editoria": "games",
+    "fontes": [
+      {
+        "nome": "Tecnoblog: Game Pass Ultimate fica 36% mais barato no Brasil",
+        "url": "https://tecnoblog.net/noticias/xbox-game-pass-ultimate-fica-36-mais-barato-no-brasil/"
+      },
+      {
+        "nome": "TecMundo: Game Pass reduz preço no Brasil",
+        "url": "https://www.tecmundo.com.br/voxel/504091-xbox-game-pass-reduz-preco-no-brasil-e-no-mundo-veja-novos-valores.htm"
+      }
+    ],
+    "tipo": "analise",
+    "produtos_necessarios": 0,
+    "motivo": "Termo com Google e Mercado Livre e força 3,94, sem post próprio (hoje coberto só pela notícia do dia 15/11). Preço mensal caiu em abril/2026 e novos Call of Duty ficam fora no dia 1: dá para explicar que cartão anual não é necessariamente melhor, sem citar preço de loja. Linkar o comparativo xbox-game-pass-ou-ps-plus-qual-assinar. Não afirmar promoção de BF 2026 (não achei).",
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-28",
+    "viral": 4,
+    "post": "xbox-game-pass-ultimate-12-meses-vale-pagar-anual-cartao"
+  },
+  {
+    "id": "cyber-monday-2026-celular-vale-esperar-30-novembro",
+    "titulo": "Cyber Monday 2026 (30/11): vale esperar para comprar celular ou já fechar hoje?",
+    "palavra_chave": "celular cyber monday",
+    "secundarias": [
+      "celular black friday 2026"
+    ],
+    "fontes_termo": [
+      "noticia"
+    ],
+    "forca": 0.0,
+    "editoria": "celulares",
+    "fontes": [
+      {
+        "nome": "Tecnoblog Achados: Black Friday 2026",
+        "url": "https://tecnoblog.net/achados/promocoes-e-ofertas-de-tecnologia/"
+      },
+      {
+        "nome": "Canaltech: Vivo S26 FE antes da Black Friday",
+        "url": "https://canaltech.com.br/telecom/vivo-comeca-black-friday-antes-da-hora-e-vende-s26-fe-por-menos-de-r-3-mil/"
+      }
+    ],
+    "tipo": "analise",
+    "produtos_necessarios": 0,
+    "motivo": "Dia seguinte à BF e Cyber Monday na segunda 30/11 (campanha da Vivo vai até 30/11, já coberta em outro post). Conferir antes de escrever o termo exato em palavras.json (não achei 'cyber monday') e o que Samsung/Motorola/Mercado Livre divulgaram; sem preço no texto, sem prometer desconto. Fonte fraca: se não confirmar em 2 veículos, descartar.",
+    "prioridade": "hoje",
+    "status": "publicada",
+    "criada": "2026-11-28",
+    "viral": 5,
+    "post": "celular-cyber-monday-2026-vale-esperar-30-11"
+  },
+  {
+    "id": "melhores-teclados-gamer-redragon",
+    "titulo": "Teclado gamer Redragon: qual escolher entre Kumara, Fizz e Dark Avenger",
+    "palavra_chave": "teclado gamer redragon",
+    "secundarias": [],
+    "fontes_termo": [
+      "google",
+      "mercadolivre"
+    ],
+    "forca": 3.92,
+    "subnicho": "acessorios-gamer",
+    "tipo": "lista",
+    "produtos_necessarios": 4,
+    "motivo": "Google e ML, 4 teclados Redragon ativos no catálogo; mesma lógica da lista de mouses Redragon.",
+    "status": "publicada",
+    "criada": "2026-11-28",
+    "prioridade": "alta",
+    "post": "melhores-teclados-gamer-redragon"
+  },
+  {
+    "id": "melhores-headsets-gamer-pc-ate-200",
+    "titulo": "Headset gamer para PC: 4 opções até R$ 200",
+    "palavra_chave": "headset gamer pc",
+    "secundarias": [
+      "headset gamer usb",
+      "headset gamer havit",
+      "headset gamer redragon"
+    ],
+    "fontes_termo": [
+      "google",
+      "mercadolivre"
+    ],
+    "forca": 2.92,
+    "subnicho": "acessorios-gamer",
+    "tipo": "lista",
+    "produtos_necessarios": 4,
+    "motivo": "Havit, Redragon, JBL e HyperX ativos; termos de marca com forca 3,6 a 4,0 agrupados.",
+    "status": "pendente",
+    "criada": "2026-11-28",
+    "prioridade": "alta"
+  },
+  {
+    "id": "melhores-mouses-gamer-sem-fio-redragon",
+    "titulo": "Mouse gamer sem fio: 3 Redragon para comparar",
+    "palavra_chave": "mouse gamer bluetooth",
+    "secundarias": [
+      "mouse gamer sem fio"
+    ],
+    "fontes_termo": [
+      "google",
+      "mercadolivre"
+    ],
+    "forca": 2.57,
+    "subnicho": "acessorios-gamer",
+    "tipo": "lista",
+    "produtos_necessarios": 3,
+    "motivo": "3 mouses sem fio Redragon ativos (Cobra Pro, King Pro, Storm Pro); a lista Redragon atual é geral.",
+    "status": "publicada",
+    "criada": "2026-11-28",
+    "prioridade": "alta",
+    "post": "melhores-mouses-gamer-sem-fio-redragon"
+  },
+  {
+    "id": "melhores-tomadas-inteligentes-alexa",
+    "titulo": "Tomada inteligente compatível com Alexa: Tapo, Positivo e Novadigital",
+    "palavra_chave": "tomada inteligente compativel alexa",
+    "secundarias": [
+      "tomada inteligente tuya",
+      "tomada inteligente digital"
+    ],
+    "fontes_termo": [
+      "mercadolivre",
+      "google"
+    ],
+    "forca": 2.38,
+    "subnicho": "casa-inteligente",
+    "tipo": "lista",
+    "produtos_necessarios": 3,
+    "motivo": "Subnicho sem lista de tomadas, só guias; 3 tomadas ativas no catálogo, linka os guias existentes.",
+    "status": "pendente",
+    "criada": "2026-11-28",
+    "prioridade": "alta"
+  },
+  {
+    "id": "caixa-de-som-bluetooth-potente-o-que-olhar",
+    "titulo": "Caixa de som Bluetooth potente: watts, IP e bateria, o que importa de verdade",
+    "palavra_chave": "caixa de som bluetooth potente",
+    "secundarias": [],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 2.75,
+    "subnicho": "fones-caixas-bluetooth",
+    "tipo": "guia",
+    "produtos_necessarios": 0,
+    "motivo": "Força 2,75 sem post; guia leva às caixas JBL, Soundcore e i2GO sem exigir produto.",
+    "status": "pendente",
+    "criada": "2026-11-28",
+    "prioridade": "alta"
+  },
+  {
+    "id": "fone-bluetooth-com-cancelamento-de-ruido-vale-a-pena",
+    "titulo": "Fone Bluetooth com cancelamento de ruído: vale a pena pagar mais?",
+    "palavra_chave": "fone bluetooth com cancelamento de ruido",
+    "secundarias": [
+      "fone tws anc"
+    ],
+    "fontes_termo": [
+      "google",
+      "mercadolivre"
+    ],
+    "forca": 3.17,
+    "subnicho": "fones-caixas-bluetooth",
+    "tipo": "guia",
+    "produtos_necessarios": 0,
+    "motivo": "ANC tem força 2,3 a 3,2 e nenhum post; JBL Tune Buds 2 ativo como exemplo.",
+    "status": "pendente",
+    "criada": "2026-11-28",
+    "prioridade": "alta"
+  },
+  {
+    "id": "review-xiaomi-smart-band-10-vale-a-pena",
+    "titulo": "Xiaomi Smart Band 10 vale a pena? O que ela entrega",
+    "palavra_chave": "mi band 10",
+    "secundarias": [
+      "mi band 9",
+      "mi band relogio"
+    ],
+    "fontes_termo": [
+      "google",
+      "mercadolivre"
+    ],
+    "forca": 2.19,
+    "subnicho": "smartwatches-smartbands",
+    "tipo": "review",
+    "produtos_necessarios": 1,
+    "motivo": "Mi Band tem 8+ termos sem post dedicado; produto ativo; só comparativos existem.",
+    "status": "pendente",
+    "criada": "2026-11-28",
+    "prioridade": "alta"
+  },
+  {
+    "id": "como-configurar-impressora-epson-l3250-wifi",
+    "titulo": "Como configurar a impressora Epson L3250 no Wi-Fi, passo a passo",
+    "palavra_chave": "como configurar impressora epson l3250 no wifi",
+    "secundarias": [],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 1.83,
+    "editoria": "tecnologia",
+    "tipo": "tutorial",
+    "produtos_necessarios": 0,
+    "motivo": "Tutorial com termo real e poucos concorrentes específicos; seção tutoriais é a que menos tem posts.",
+    "status": "pendente",
+    "criada": "2026-11-28",
+    "prioridade": "alta"
+  },
+  {
+    "id": "nintendo-switch-desbloqueado-riscos-garantia-ban",
+    "titulo": "Switch desbloqueado: riscos, garantia e o que a Nintendo pode fazer",
+    "palavra_chave": "nintendo switch desbloqueado",
+    "secundarias": [
+      "nintendo switch lite desbloqueado"
+    ],
+    "fontes_termo": [
+      "google",
+      "mercadolivre"
+    ],
+    "forca": 3.83,
+    "editoria": "games",
+    "tipo": "analise",
+    "produtos_necessarios": 0,
+    "motivo": "Termo de força 3,83 sem post; leitor busca para comprar e precisa dos riscos. Redator deve checar política oficial da Nintendo antes de escrever.",
+    "status": "pendente",
+    "criada": "2026-11-28",
+    "prioridade": "alta"
+  },
+  {
+    "id": "ia-gratis-para-fotos-como-editar-celular",
+    "titulo": "IA grátis para fotos: como editar e melhorar imagens no celular",
+    "palavra_chave": "ia grátis para fotos",
+    "secundarias": [
+      "ia grátis online",
+      "ia grátis em português"
+    ],
+    "fontes_termo": [
+      "google"
+    ],
+    "forca": 2.5,
+    "editoria": "inteligencia-artificial",
+    "tipo": "tutorial",
+    "produtos_necessarios": 0,
+    "motivo": "Força 2,5 sem post; complementa os posts de IA grátis para imagens e vídeos.",
+    "status": "pendente",
+    "criada": "2026-11-28",
+    "prioridade": "alta"
   }
 ]

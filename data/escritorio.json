@@ -1,41 +1,41 @@
 {
-  "ultima_execucao": "2026-11-27T07:55",
+  "ultima_execucao": "2026-11-28T07:45",
   "agentes": {
     "chefe": {
       "status": "ok",
-      "tarefa": "Coordenei o dia da Black Friday: 4 notícias, 1 tutorial, 1 análise, 2 guias e 1 post atualizado."
+      "tarefa": "Coordenei a rotina: 2 notícias, 1 análise, 1 tutorial e 2 guias de compra, e 1 post atualizado."
     },
     "pesquisador": {
       "status": "ok",
-      "tarefa": "Achei 4 notícias novas (PS Plus de dezembro, Gemini para estudantes, Galaxy A57 e celular até 2000 na BF); tecnologia ficou sem notícia confirmada."
+      "tarefa": "Achei 3 pautas de notícia (a busca trouxe pouco fato novo) e enchi a fila com 10 pautas de termos reais."
     },
     "curador": {
-      "status": "ok",
-      "tarefa": "Cadastrei 8 produtos com link: caixas Lenovo K3 Pro e JBL Go 3, mouse Invader M719 e mousepad Flick XL, Huawei Band 10 e Redmi Watch 6 Active, tomada Positivo 16 A e power bank Xiaomi. Caixas até R$ 100 destravada."
+      "status": "ocioso",
+      "tarefa": "Não fui chamado: os subnichos têm produtos ativos suficientes."
     },
     "redator": {
       "status": "ok",
-      "tarefa": "Escrevi as 4 notícias, o tutorial do Gemini grátis, a análise do iPhone 14 e os guias de teclado magnético e carregador para notebook."
+      "tarefa": "Escrevi a notícia da Cyber Monday, a da OpenAI x Apple, a análise do Game Pass 12 meses, o tutorial da câmera do iPhone e as listas de mouse e teclado Redragon."
     },
     "seo": {
       "status": "ok",
-      "tarefa": "Revisei os 8 posts novos, ajustei títulos e palavras-chave e liguei os posts por links internos."
+      "tarefa": "Revisei os seis posts: títulos, links internos, FAQ e palavras secundárias."
     },
     "atualizador": {
       "status": "ok",
-      "tarefa": "Atualizei o guia \"como escolher power bank\": escolha principal na 1ª tela, 2 produtos novos e FAQ da Black Friday."
+      "tarefa": "Atualizei o guia de como escolher fone Bluetooth, com links cruzados e o QCY T17."
     },
     "designer": {
       "status": "ok",
-      "tarefa": "Pus foto e capa nos 8 posts novos e deixei o power bank atualizado com tabela e prós e contras."
+      "tarefa": "Coloquei foto e capa nos seis posts novos."
     },
     "vendas": {
       "status": "ok",
-      "tarefa": "Pus links de cabo, carregador, headset e teclados nos posts onde faz sentido, sem preço no texto."
+      "tarefa": "Conferi as chamadas de compra: mais ofertas nos mouses Redragon e links ao guia nas notícias."
     },
     "viral": {
       "status": "ok",
-      "tarefa": "Dei nota viral às pautas e escrevi os textos de rede dos 8 posts em data/redes.md."
+      "tarefa": "Dei nota viral às pautas e escrevi os textos de rede dos seis posts."
     },
     "produtor": {
       "status": "ok",
@@ -67,45 +67,10 @@
     },
     "marketing": {
       "status": "ok",
-      "tarefa": "Coloquei a Black Friday no ar (até 30/11): faixa no topo, banners nos posts, vitrine na home e a página /ofertas/. O Natal entra sozinho em 01/12."
+      "tarefa": "Black Friday segue no ar até 30/11 (Cyber Monday coberto pela mesma campanha). Natal entra em 01/12. Sem cupons novos do dono. Banners regerados."
     }
   },
   "historico": [
-    {
-      "data": "2026-11-21",
-      "agente": "pesquisador",
-      "texto": "5 pautas de notícia de games, IA e celulares."
-    },
-    {
-      "data": "2026-11-21",
-      "agente": "redator",
-      "texto": "5 notícias e 1 tutorial de IA grátis para vídeos."
-    },
-    {
-      "data": "2026-11-21",
-      "agente": "seo",
-      "texto": "Títulos e descrições dos posts novos."
-    },
-    {
-      "data": "2026-11-21",
-      "agente": "vendas",
-      "texto": "Chamadas leves de compra em GTA 6 e Epic."
-    },
-    {
-      "data": "2026-11-21",
-      "agente": "designer",
-      "texto": "Fotos reais nos posts novos e no guia do mouse Logitech."
-    },
-    {
-      "data": "2026-11-21",
-      "agente": "viral",
-      "texto": "Textos de rede dos 6 posts."
-    },
-    {
-      "data": "2026-11-22",
-      "agente": "pesquisador",
-      "texto": "5 pautas de notícia e 6 pautas de fila."
-    },
     {
       "data": "2026-11-22",
       "agente": "curador",
@@ -370,6 +335,41 @@
       "data": "2026-11-27",
       "agente": "seg_publicador",
       "texto": "Chrome indisponível"
+    },
+    {
+      "data": "2026-11-28",
+      "agente": "redator",
+      "texto": "Seis posts novos: Cyber Monday, OpenAI x Apple, Game Pass 12 meses, câmera do iPhone, mouses e teclados Redragon."
+    },
+    {
+      "data": "2026-11-28",
+      "agente": "pesquisador",
+      "texto": "Pautas do dia e 10 pautas novas na fila."
+    },
+    {
+      "data": "2026-11-28",
+      "agente": "seo",
+      "texto": "Revisão de SEO dos seis posts."
+    },
+    {
+      "data": "2026-11-28",
+      "agente": "viral",
+      "texto": "Textos de rede dos seis posts."
+    },
+    {
+      "data": "2026-11-28",
+      "agente": "vendas",
+      "texto": "Revisão de chamadas de compra."
+    },
+    {
+      "data": "2026-11-28",
+      "agente": "designer",
+      "texto": "Fotos e capas dos seis posts."
+    },
+    {
+      "data": "2026-11-28",
+      "agente": "atualizador",
+      "texto": "Atualizei como-escolher-fone-bluetooth."
     }
   ]
 }

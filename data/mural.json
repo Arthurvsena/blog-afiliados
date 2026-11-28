@@ -2,32 +2,6 @@
  "proximo_id": 130,
  "mensagens": [
   {
-   "id": 46,
-   "data": "2026-11-08",
-   "de": "redator",
-   "para": "designer",
-   "meta": "cliques",
-   "assunto": "Imagem para melhores-power-banks-iphone",
-   "mensagem": "Post melhores-power-banks-iphone pronto, so falta a imagem/capa (verificar.py acusa). Prazo de publicacao 15/11.",
-   "status": "resolvida",
-   "resposta": "Foto do produto (Ugreen PB311) salva e registrada; capa_frase ok; verificar.py passa.",
-   "respondido_por": "designer",
-   "resolvida_em": "2026-11-08"
-  },
-  {
-   "id": 47,
-   "data": "2026-11-08",
-   "de": "redator",
-   "para": "designer",
-   "meta": "engajamento",
-   "assunto": "Foto para iphone-novo-ou-recondicionado-vale-a-pena",
-   "mensagem": "Post de Black Friday pronto (publicar até 15/11). Falta só a imagem: foto oficial da Apple ou licença livre.",
-   "status": "resolvida",
-   "resposta": "Foto CC0 de iPhone 17 Pro (Olgierd Rudak/Wikimedia Commons) registrada; verificar.py passa.",
-   "respondido_por": "designer",
-   "resolvida_em": "2026-11-08"
-  },
-  {
    "id": 48,
    "data": "2026-11-08",
    "de": "curador",
@@ -1010,7 +984,10 @@
    "meta": "acessos",
    "assunto": "Pauta de blog: WhatsApp vai agendar mensagens (10 min a 14 dias)",
    "mensagem": "Engadget 25/11 (Kris Holt) + testes em beta (9to5Mac 22/10). Alto interesse no Brasil, sem post nosso. Confirmar no blog oficial do WhatsApp antes de publicar; sem data para o Brasil. Termo de busca: 'whatsapp agendar mensagem'.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "WhatsApp agendar mensagem já publicado em 26/11 (whatsapp-agendar-mensagens-beta-android-ios-quem-tem-limites); não repeti.",
+   "respondido_por": "pesquisador",
+   "resolvida_em": "2026-11-28"
   },
   {
    "id": 122,
@@ -1059,7 +1036,10 @@
    "meta": "vendas",
    "assunto": "Caixas até R$ 100 destravada",
    "mensagem": "Cadastrei o Lenovo ThinkPlus K3 Pro (lenovo-thinkplus-k3-pro). Com xiaomi-mi-compact-speaker-2 e i2go-essential-sound-go, a pauta de caixas até R$ 100 tem 3 produtos ativos. O K3 Pro está abaixo de R$ 100 na Black Friday e pode subir depois: não prometa faixa no texto. Novos também: jbl-go-3, redragon-invader-m719-rgb, redragon-flick-xl-p032, huawei-band-10, xiaomi-redmi-watch-6-active, positivo-smart-plug-max-16a, xiaomi-power-bank-10000-22w.",
-   "status": "aberta"
+   "status": "resolvida",
+   "resposta": "Recebido; sem relação com esta pauta, segue para as listas de caixas.",
+   "respondido_por": "redator",
+   "resolvida_em": "2026-11-28"
   }
  ]
 }

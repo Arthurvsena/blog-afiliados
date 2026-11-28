@@ -33,6 +33,8 @@ Se você procura um mouse gamer Redragon, a resposta curta é esta: o {{link:red
 
 Separei cinco modelos do catálogo do site. Todos têm nota de 4,8 ou 4,9 e milhares de avaliações no Mercado Livre. Sem rodeio: a Redragon é a marca que mais aparece quando o assunto é mouse gamer barato, e a ficha técnica explica por quê.
 
+Se o seu foco é só sem fio ou Bluetooth, veja o comparativo [mouse gamer bluetooth e sem fio da Redragon](/posts/melhores-mouses-gamer-sem-fio-redragon/).
+
 Vale um aviso. Não testei nenhum deles. O que está aqui vem da especificação oficial e do que os compradores relatam.
 
 ## Comparativo rápido dos mouses Redragon

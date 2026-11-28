@@ -2,6 +2,72 @@
 
 > Escritos pelo agente viral para o dono copiar e postar. Mais novo primeiro (máx. 40 posts).
 
+## 2026-11-28 · Xbox Game Pass Ultimate 12 meses: vale pagar o ano todo?
+Link: https://nexustechai.com.br/posts/xbox-game-pass-ultimate-12-meses-vale-pagar-anual-cartao/
+- WhatsApp: Game Pass Ultimate no mensal (R$ 76,90) fecha R$ 922,80 em 12 meses. Cartão de 12 meses só vale se custar menos: https://nexustechai.com.br/posts/xbox-game-pass-ultimate-12-meses-vale-pagar-anual-cartao/
+- X: Game Pass Ultimate custa R$ 76,90/mês (Microsoft). 12 meses = R$ 922,80. Cartão de 12 meses só compensa abaixo disso e se você jogar o ano todo. A conta: https://nexustechai.com.br/posts/xbox-game-pass-ultimate-12-meses-vale-pagar-anual-cartao/
+- Instagram (legenda): Cartão de Game Pass de 12 meses vale a pena?
+  Só se custar menos que R$ 922,80, o que dá pagar no mensal.
+  A página oficial não cita plano anual.
+  A conta completa está no link da bio.
+  #gamepass #xbox #games
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Cartão de Game Pass de 12 meses vale a pena?" [2-8 s] Mensal: R$ 76,90. [8-14 s] 12 meses no mensal: R$ 922,80. [14-18 s] Só compensa se o cartão custar menos e você jogar o ano todo. [18-20 s] "Conta no link da bio."
+
+## 2026-11-28 · Como configurar a câmera do iPhone: 6 ajustes que valem
+Link: https://nexustechai.com.br/posts/como-configurar-camera-iphone-melhores-ajustes/
+- WhatsApp: Em Ajustes > Câmera do iPhone tem 6 ajustes que evitam foto torta e configuração que volta ao padrão: https://nexustechai.com.br/posts/como-configurar-camera-iphone-melhores-ajustes/
+- X: Câmera do iPhone: 2 minutos em Ajustes > Câmera resolvem foto torta, modo que reseta e formato que o PC não abre. 6 ajustes, passo a passo: https://nexustechai.com.br/posts/como-configurar-camera-iphone-melhores-ajustes/
+- Instagram (legenda): Sua câmera do iPhone vem boa, mas a configuração padrão atrapalha.
+  Grade, formato, resolução e Preservar Ajustes.
+  6 mudanças em 2 minutos.
+  Passo a passo no link da bio.
+  #iphone #camera #dicasdeiphone
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Mexa nisso na câmera do seu iPhone." [2-8 s] Ajustes > Câmera > ative a grade. [8-14 s] Formato: Alta Eficiência ou Mais Compatível. [14-18 s] Preservar Ajustes para a câmera lembrar o modo. [18-20 s] "6 ajustes no link da bio."
+
+## 2026-11-28 · Mouse gamer bluetooth: 3 Redragon sem fio comparados
+Link: https://nexustechai.com.br/posts/melhores-mouses-gamer-sem-fio-redragon/
+- WhatsApp: Dos 3 mouses Redragon sem fio do guia, só o King Pro (50 g) tem Bluetooth: https://nexustechai.com.br/posts/melhores-mouses-gamer-sem-fio-redragon/
+- X: Mouse gamer Redragon sem fio: de 3 modelos, só o King Pro tem Bluetooth e é o mais leve (50 g). Cobra Pro e Storm Pro ficam no sem fio próprio. Comparativo: https://nexustechai.com.br/posts/melhores-mouses-gamer-sem-fio-redragon/
+- Instagram (legenda): Só um dos 3 Redragon sem fio tem Bluetooth.
+  É o King Pro, com 50 g.
+  Veja para quem cada um serve e quem deve evitar.
+  Comparativo no link da bio.
+  #redragon #mousegamer #setupgamer
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Mouse gamer Bluetooth? Só um." [2-8 s] King Pro: Bluetooth e 50 g. [8-14 s] Cobra Pro: 2.4 GHz, 8 botões. [14-18 s] Storm Pro: sem fio, 96,5 g. [18-20 s] "Comparativo no link da bio."
+
+## 2026-11-28 · Teclado gamer Redragon: Kumara, Fizz ou Dark Avenger?
+Link: https://nexustechai.com.br/posts/melhores-teclados-gamer-redragon/
+- WhatsApp: Teclado gamer Redragon: Kumara K552, Kumara Pro, Fizz 60% ou Dark Avenger? Comparei switch, tamanho e fio: https://nexustechai.com.br/posts/melhores-teclados-gamer-redragon/
+- X: Teclado gamer Redragon, 4 modelos: Kumara K552 (brown), Kumara Pro (Bluetooth), Fizz 60% (mesa pequena) e Dark Avenger (clique blue). Qual serve: https://nexustechai.com.br/posts/melhores-teclados-gamer-redragon/
+- Instagram (legenda): Qual teclado Redragon escolher?
+  Kumara K552 para equilíbrio, Kumara Pro sem fio,
+  Fizz 60% para mesa apertada, Dark Avenger para clique alto.
+  Comparativo no link da bio.
+  #redragon #tecladogamer #setup
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Qual teclado Redragon comprar?" [2-8 s] Kumara K552: brown, equilíbrio. [8-14 s] Kumara Pro: Bluetooth e cabo. Fizz: 60%. [14-18 s] Dark Avenger: switch blue, clique alto. [18-20 s] "Comparativo no link da bio."
+
+## 2026-11-28 · Celular Cyber Monday 2026: vale esperar até segunda (30/11)?
+Link: https://nexustechai.com.br/posts/celular-cyber-monday-2026-vale-esperar-30-11/
+- WhatsApp: Cyber Monday cai em 30/11. Celular vale esperar? Só se você já sabe o preço normal do modelo. Nenhuma loja divulgou lista ainda: https://nexustechai.com.br/posts/celular-cyber-monday-2026-vale-esperar-30-11/
+- X: Cyber Monday 2026 é segunda, 30/11. Nenhuma loja que abrimos divulgou lista de celulares. Esperar só compensa com o preço de referência na mão. https://nexustechai.com.br/posts/celular-cyber-monday-2026-vale-esperar-30-11/
+- Instagram (legenda): Vale esperar a Cyber Monday para comprar celular?
+  Só se você sabe quanto o modelo custava nas últimas semanas.
+  Ninguém confirmou lista nem preço para 30/11.
+  Passo a passo para decidir no link da bio.
+  #cybermonday #celular #blackfriday
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "Esperar a Cyber Monday por um celular?" [2-8 s] Fato 1: cai em 30/11, fim da campanha do Mercado Livre. [8-14 s] Fato 2: ainda não há lista nem preço divulgados. [14-18 s] Fato 3: anote o preço de hoje e compare na segunda. [18-20 s] "Guia no link da bio."
+
+## 2026-11-28 · OpenAI Apple processo: contra-ataque com 12 acusações
+Link: https://nexustechai.com.br/posts/openai-contraataca-apple-processo-segredos-industriais-fornecedores/
+- WhatsApp: A OpenAI processou a Apple de volta: 12 acusações, entre elas roubo de segredos e pressão sobre fornecedores. A Apple nega. É alegação, nada foi julgado: https://nexustechai.com.br/posts/openai-contraataca-apple-processo-segredos-industriais-fornecedores/
+- X: OpenAI contra-ataca a Apple na Justiça: 12 causas, com acusação de roubo de segredos e pressão a fornecedores. A Apple nega e fala em distração. Julgamento só em 19/7/2027. https://nexustechai.com.br/posts/openai-contraataca-apple-processo-segredos-industriais-fornecedores/
+- Instagram (legenda): A OpenAI processou a Apple de volta.
+  São 12 causas, incluindo segredos comerciais e pressão sobre fornecedores.
+  A Apple nega. Tudo é alegação, o julgamento é só em 2027.
+  Detalhes no link da bio.
+  #openai #apple #ia
+- TikTok/Reels (roteiro de 20 s): [0-2 s] "A OpenAI processou a Apple de volta." [2-8 s] Fato 1: 12 acusações, entre elas roubo de segredos. [8-14 s] Fato 2: diz que a Apple pressionou fornecedores. [14-18 s] Fato 3: a Apple nega; julgamento em 19/7/2027. [18-20 s] "Resumo no link da bio."
+
 ## 2026-11-27 · Carregador USB-C para notebook: quantos watts você precisa
 Link: https://nexustechai.com.br/posts/carregador-usb-c-notebook-qual-comprar-watts/
 - WhatsApp: Carregador de celular carrega notebook? Só com Power Delivery e watts perto do original. Com pouco, a bateria cai até ligado na tomada: https://nexustechai.com.br/posts/carregador-usb-c-notebook-qual-comprar-watts/
