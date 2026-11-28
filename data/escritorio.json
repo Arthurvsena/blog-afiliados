@@ -51,7 +51,7 @@
     },
     "seg_animador": {
       "status": "ok",
-      "tarefa": "Animei 2 vídeo(s) em 3D do Segura Aí: botijao-vazamento fio-no-chao "
+      "tarefa": "Animei 2 vídeo(s) em 3D do Segura Aí: cabo-da-panela extintor-certo "
     },
     "seg_narrador": {
       "status": "ok",
@@ -71,6 +71,31 @@
     }
   },
   "historico": [
+    {
+      "data": "2026-11-21",
+      "agente": "seo",
+      "texto": "Títulos e descrições dos posts novos."
+    },
+    {
+      "data": "2026-11-21",
+      "agente": "vendas",
+      "texto": "Chamadas leves de compra em GTA 6 e Epic."
+    },
+    {
+      "data": "2026-11-21",
+      "agente": "designer",
+      "texto": "Fotos reais nos posts novos e no guia do mouse Logitech."
+    },
+    {
+      "data": "2026-11-21",
+      "agente": "viral",
+      "texto": "Textos de rede dos 6 posts."
+    },
+    {
+      "data": "2026-11-22",
+      "agente": "pesquisador",
+      "texto": "5 pautas de notícia e 6 pautas de fila."
+    },
     {
       "data": "2026-11-22",
       "agente": "curador",
@@ -338,38 +363,13 @@
     },
     {
       "data": "2026-11-28",
-      "agente": "redator",
-      "texto": "Seis posts novos: Cyber Monday, OpenAI x Apple, Game Pass 12 meses, câmera do iPhone, mouses e teclados Redragon."
+      "agente": "seg_animador",
+      "texto": "Animei 2 vídeo(s) em 3D do Segura Aí: cabo-da-panela extintor-certo "
     },
     {
       "data": "2026-11-28",
-      "agente": "pesquisador",
-      "texto": "Pautas do dia e 10 pautas novas na fila."
-    },
-    {
-      "data": "2026-11-28",
-      "agente": "seo",
-      "texto": "Revisão de SEO dos seis posts."
-    },
-    {
-      "data": "2026-11-28",
-      "agente": "viral",
-      "texto": "Textos de rede dos seis posts."
-    },
-    {
-      "data": "2026-11-28",
-      "agente": "vendas",
-      "texto": "Revisão de chamadas de compra."
-    },
-    {
-      "data": "2026-11-28",
-      "agente": "designer",
-      "texto": "Fotos e capas dos seis posts."
-    },
-    {
-      "data": "2026-11-28",
-      "agente": "atualizador",
-      "texto": "Atualizei como-escolher-fone-bluetooth."
+      "agente": "seg_narrador",
+      "texto": "Narrei com a voz do Gemini e mixei efeitos e trilha"
     }
   ]
 }

@@ -85,11 +85,25 @@
   },
   {
    "slug": "cabo-da-panela",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-28",
+   "release": "segura-2026-11-28",
+   "voz": "gemini:Orus",
+   "teste": {
+    "legenda": "completa",
+    "hashtags": "amplas"
+   }
   },
   {
    "slug": "extintor-certo",
-   "status": "pronto"
+   "status": "produzido",
+   "produzido": "2026-11-28",
+   "release": "segura-2026-11-28",
+   "voz": "gemini:Fenrir",
+   "teste": {
+    "legenda": "curta",
+    "hashtags": "casa"
+   }
   },
   {
    "slug": "escada-domestica",
