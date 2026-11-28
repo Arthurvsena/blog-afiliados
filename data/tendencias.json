@@ -1,6 +1,153 @@
 {
-  "atualizado": "2026-11-27",
+  "atualizado": "2026-11-28",
   "tendencias": [
+    {
+      "data": "2026-11-28",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "status": "nova",
+      "origem": "brasil",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "tipo": "short",
+      "quadro": "historias",
+      "formato": "curiosidade",
+      "nota": 4.5,
+      "assunto": "Histórias Tech: ChatGPT, 4 anos (30/11/2022): o 'projeto de pesquisa grátis' que chegou a 1 milhão de usuários em 5 dias e virou a virada da IA",
+      "por_que_em_alta": "Aniversário na segunda (30/11, 4 anos). Canaltech (curiosidades do aniversário), History.com, Hardware.com.br (1 milhão em 5 dias, comparativo com outros serviços), TecMundo (3 anos) e Olhar Digital cobrem. IA é o assunto de tecnologia mais amplo do canal; ainda nenhuma Histórias Tech sobre IA. Candidato ao domingo 29/11 (ou 'Nexus em 60s' de 30/11).",
+      "evidencias": [
+        "https://www.history.com/this-day-in-history/november-30/chatgpt-released-openai",
+        "https://canaltech.com.br/inteligencia-artificial/aniversario-chatgpt-curiosidades-sobre-o-chatbot-da-openai/",
+        "https://www.hardware.com.br/noticias/chatgpt-apenas-5-dias-1-milhao-de-usuarios-veja-comparativo-outros-servicos-internet/amp/"
+      ],
+      "angulo": "Gancho: 'Em 5 dias, um site de teste da OpenAI chegou a 1 milhão de usuários'. Auge: 30/11/2022, versão de pesquisa grátis baseada no GPT-3.5; 100 milhões de usuários mensais em ~2 meses (estimativa UBS, jan/2023). Virada: Google e Microsoft correm atrás, nascem Gemini, Copilot, Claude. Lição: um produto simples (uma caixa de texto) pode mudar a indústria inteira. Fecha com pergunta: qual foi a primeira coisa que você perguntou? Gráfico: barras de tempo até 1 milhão/100 milhões.",
+      "fontes": [
+        {
+          "nome": "History.com",
+          "url": "https://www.history.com/this-day-in-history/november-30/chatgpt-released-openai"
+        },
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/inteligencia-artificial/aniversario-chatgpt-curiosidades-sobre-o-chatbot-da-openai/"
+        },
+        {
+          "nome": "Hardware.com.br",
+          "url": "https://www.hardware.com.br/noticias/chatgpt-apenas-5-dias-1-milhao-de-usuarios-veja-comparativo-outros-servicos-internet/amp/"
+        }
+      ],
+      "verificar_antes": "Só o History.com foi lido por inteiro (data 30/11/2022, 1 milhão em 5 dias segundo Altman, ~100 mi mensais pelo UBS em jan/2023). Confirmar em 2ª fonte lida (Hardware.com.br/Canaltech). A frase 'mais de 1 bilhão de usuários mensais em jun/2026' veio só do History.com: não usar sem 2ª fonte. Dizer 'estimativa do UBS'. Sem logo como enfeite; usar gráfico nosso e imprensa oficial da OpenAI com crédito."
+    },
+    {
+      "data": "2026-11-28",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "status": "nova",
+      "origem": "brasil",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "tipo": "short",
+      "quadro": "historias",
+      "formato": "curiosidade",
+      "nota": 3.5,
+      "assunto": "Histórias Tech: Pong, o jogo feito como exercício de treino que lotou um bar em Sunnyvale e quebrou porque a caixa de moedas encheu (1972)",
+      "por_que_em_alta": "Data redonda adjacente: 29/11/1972 (54 anos) aparece em Game Developer e sites de história como a noite da instalação no Andy Capp's Tavern; a Wikipedia diz agosto de 1972. Computer History Museum conta a máquina quebrada por excesso de moedas. Evergreen: origem da indústria de games, boa contrapartida a Dreamcast/Xbox (fim vs começo).",
+      "evidencias": [
+        "https://www.computerhistory.org/revolution/story/183",
+        "https://www.gamedeveloper.com/business/the-history-of-i-pong-i-avoid-missing-game-to-start-industry",
+        "https://www.theregister.com/Print/2012/03/05/pong_anniversary_al_alcorn/"
+      ],
+      "angulo": "Gancho: 'A máquina quebrou porque tinha moeda demais'. Auge: Al Alcorn faz o Pong como exercício, protótipo num bar. Virada: o bar liga dizendo que está estragada (caixa de leite de moedas entupida) e a Atari percebe o que tem. Lição: a demanda aparece antes do plano de negócio. Fecha com pergunta. Fotos: Wikimedia (licença livre) ou gráfico nosso.",
+      "fontes": [
+        {
+          "nome": "Computer History Museum",
+          "url": "https://www.computerhistory.org/revolution/story/183"
+        },
+        {
+          "nome": "Game Developer",
+          "url": "https://www.gamedeveloper.com/business/the-history-of-i-pong-i-avoid-missing-game-to-start-industry"
+        },
+        {
+          "nome": "The Register",
+          "url": "https://www.theregister.com/Print/2012/03/05/pong_anniversary_al_alcorn/"
+        }
+      ],
+      "verificar_antes": "Data diverge entre fontes (agosto x 29/11/1972): não cravar dia; dizer 'em 1972'. Abrir as 3 fontes por inteiro (só vimos resumo da busca). Valor da TV (US$ 75) e detalhe da caixa de leite: só com 2 fontes."
+    },
+    {
+      "data": "2026-11-28",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "status": "nova",
+      "origem": "brasil",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "tipo": "short",
+      "quadro": "historias",
+      "formato": "curiosidade",
+      "nota": 3.5,
+      "assunto": "Histórias Tech: o primeiro SMS da história, 'Merry Christmas', enviado em 3/12/1992 por um engenheiro de 22 anos (e que ninguém achou que daria em nada)",
+      "por_que_em_alta": "Aniversário de 34 anos na quinta 03/12. Vodafone (25 anos), History.com, NPR, CBC e IET contam. Ressalva: Vodafone mantém a versão oficial 'Merry Christmas', mas um gerente da época lembra de um 'test' anterior. Boa história para a semana de Natal; evergreen.",
+      "evidencias": [
+        "https://www.history.com/this-day-in-history/december-3/first-sms-text-message-sent",
+        "https://www.vodafone.com/news/newsroom/technology/25-anniversary-text-message",
+        "https://www.npr.org/2017/12/04/568393428/the-first-text-messages-celebrates-25-years"
+      ],
+      "angulo": "Gancho: 'A primeira mensagem de texto do mundo foi digitada num computador, porque o celular não tinha teclado'. Auge: SMS nasce como recurso de teste de rede. Virada: operadoras não acreditam; os jovens adotam e o SMS vira bilhões por dia. Lição: o uso que ninguém planejou vira o produto. Fecha: quando foi seu último SMS? Publicar 03 a 06/12.",
+      "fontes": [
+        {
+          "nome": "History.com",
+          "url": "https://www.history.com/this-day-in-history/december-3/first-sms-text-message-sent"
+        },
+        {
+          "nome": "Vodafone",
+          "url": "https://www.vodafone.com/news/newsroom/technology/25-anniversary-text-message"
+        },
+        {
+          "nome": "NPR",
+          "url": "https://www.npr.org/2017/12/04/568393428/the-first-text-messages-celebrates-25-years"
+        }
+      ],
+      "verificar_antes": "Abrir as 3 fontes inteiras; dizer 'segundo a Vodafone' e citar a divergência do 'test'. Números de SMS por dia só com 2 fontes e ano. Fotos: imprensa Vodafone com crédito ou Wikimedia."
+    },
+    {
+      "data": "2026-11-28",
+      "imagens_oficiais": [],
+      "post_relacionado": "",
+      "status": "nova",
+      "origem": "brasil",
+      "produto": {
+        "id": "",
+        "como_encaixa": "Editorial puro."
+      },
+      "tipo": "short",
+      "quadro": "60s",
+      "formato": "explicador",
+      "nota": 3,
+      "assunto": "Depois da Black Friday: PS5 teve menor preço de 2026 entre R$ 2.881 (Digital) e R$ 3.267 (com disco), segundo o Canaltech; vale esperar a Cyber Monday?",
+      "por_que_em_alta": "Black Friday foi ontem (27/11), Cyber Monday segunda (30/11). Canaltech (guia 'PS5 ou PS5 Pro') cita o menor preço de 2026 e o PS5 Pro a R$ 4.806 na BF 2025; Tecnoblog (achados) mostra PS5 Slim com cupom. Dado visto só em resumo de busca.",
+      "evidencias": [
+        "https://canaltech.com.br/games/playstation-5-ou-playstation-5-pro-qual-comprar-black-friday-2026/",
+        "https://tecnoblog.net/achados/aproveite-playstation-5-slim-cai-de-preco-em-ate-12x-antes-da-black-friday/"
+      ],
+      "angulo": "Gancho com número: 'O PS5 já custou R$ 2.881 neste ano'. Barras do menor preço x preço de hoje, como conferir histórico de preço (sem citar loja como recomendação), e se vale esperar. Preço sempre com data, nunca promessa.",
+      "fontes": [
+        {
+          "nome": "Canaltech",
+          "url": "https://canaltech.com.br/games/playstation-5-ou-playstation-5-pro-qual-comprar-black-friday-2026/"
+        },
+        {
+          "nome": "Tecnoblog",
+          "url": "https://tecnoblog.net/achados/aproveite-playstation-5-slim-cai-de-preco-em-ate-12x-antes-da-black-friday/"
+        }
+      ],
+      "verificar_antes": "Abrir o Canaltech por inteiro e conferir os valores e a data de cada preço; preço muda por hora: só gravar se for publicar na segunda. Sem link de loja."
+    },
     {
       "data": "2026-11-27",
       "imagens_oficiais": [],
@@ -688,10 +835,10 @@
         "id": "",
         "como_encaixa": "Editorial puro."
       },
-      "status": "nova",
+      "status": "em_video",
       "origem": "brasil",
       "assunto": "Histórias Tech: Dreamcast, o console que a Sega lançou em 27/11/1998 e que influenciou tudo, mas fechou em 3 anos",
-      "por_que_em_alta": "Aniversário em 6 dias (27/11/1998, Japão; EUA 09/09/1999; Europa 14/10/1999). Canaltech ('o mais influente paradoxo'), Hardware.com.br, VGC e Wikipedia cobrem. Sega saiu do hardware em 2001. Vendas divergem (cerca de 9,13 milhões no ciclo todo x 5,87 mi até set/2000). [27/11] Aniversário é HOJE (28 anos): publicar neste fim de semana.",
+      "por_que_em_alta": "Aniversário em 6 dias (27/11/1998, Japão; EUA 09/09/1999; Europa 14/10/1999). Canaltech ('o mais influente paradoxo'), Hardware.com.br, VGC e Wikipedia cobrem. Sega saiu do hardware em 2001. Vendas divergem (cerca de 9,13 milhões no ciclo todo x 5,87 mi até set/2000). [27/11] Aniversário é HOJE (28 anos): publicar neste fim de semana. [28/11] Aniversário foi ontem; busca de hoje reconfirmou 27/11/1998 (Japão), fim da produção em jan/2001 e perdas de 42,88 bi de ienes no ano fiscal 2000 (Hardware.com.br): ainda vale publicar sábado/domingo como \"28 anos\".",
       "evidencias": [
         "https://canaltech.com.br/games/20-anos-do-dreamcast-o-mais-influente-paradoxo-da-historia-dos-videogames-127787/",
         "https://www.hardware.com.br/artigos/a-queda-do-dreamcast-ultimo-console-sega/",
@@ -716,7 +863,7 @@
           "url": "https://videogameschronicle.com/features/dreamcast-at-25-how-segas-final-console-was-one-of-gamings-most-beautiful-failures"
         }
       ],
-      "nota": 4
+      "nota": 4.5
     },
     {
       "data": "2026-11-20",
@@ -1236,144 +1383,6 @@
       ],
       "nota": 4,
       "criterios_gringo": "1 parcial (SEDaily + Sammy Fans, Canaltech); 2 sim; 3 parcial; 4 sim (Black Friday e guias de celular). 3 de 4."
-    },
-    {
-      "data": "2026-11-18",
-      "imagens_oficiais": [],
-      "post_relacionado": "",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Editorial puro."
-      },
-      "status": "nova",
-      "quadro": "60s",
-      "tipo": "short",
-      "origem": "brasil",
-      "assunto": "Hacker que vazou GTA 6 em 2022 se declara culpado na Justiça britânica",
-      "por_que_em_alta": "Canaltech (17/11), com EuroGamer e BBC: Arion Kurtaj, 21, admitiu a invasão da Rockstar (90 arquivos, 60 min de gameplay, ~US$ 5 mi de custo segundo a empresa) e extorsão; sentença em data futura. Pega carona na semana de lançamento do GTA 6.",
-      "evidencias": [
-        "https://canaltech.com.br/games/hacker-que-invadiu-rockstar-usando-um-fire-stick-e-vazou-gta-6-se-declara-culpado/"
-      ],
-      "angulo": "Gancho: o jogo mais vigiado do mundo foi invadido com um Fire Stick, a TV de um hotel e um teclado. Como foi, o que vazou, o prejuízo declarado e a lição de segurança. Foco no método e no prejuízo, sem detalhes pessoais.",
-      "formato": "curiosidade",
-      "verificar_antes": "Caso envolve uma pessoa: citar só o que a Justiça/BBC/EuroGamer confirmam, sem detalhes de saúde e sem os episódios sensacionalistas. Abrir BBC e EuroGamer. Sem 2ª fonte lida, reserva.",
-      "fontes": [
-        {
-          "nome": "Canaltech",
-          "url": "https://canaltech.com.br/games/hacker-que-invadiu-rockstar-usando-um-fire-stick-e-vazou-gta-6-se-declara-culpado/"
-        },
-        {
-          "nome": "BBC (a localizar)",
-          "url": "https://www.bbc.com/news"
-        },
-        {
-          "nome": "Eurogamer (a localizar)",
-          "url": "https://www.eurogamer.net/"
-        }
-      ],
-      "nota": 3
-    },
-    {
-      "data": "2026-11-18",
-      "imagens_oficiais": [],
-      "post_relacionado": "",
-      "produto": {
-        "id": "",
-        "como_encaixa": "Editorial puro."
-      },
-      "status": "nova",
-      "quadro": "60s",
-      "tipo": "short",
-      "origem": "brasil",
-      "assunto": "Meta testa o Direct, app de mensagens do Instagram que funciona sem conta no Instagram",
-      "por_que_em_alta": "Canaltech (17/11, 15h03): teste na Turquia e Tailândia, Android e iOS; terceiro app de conversa da Meta ao lado de WhatsApp e Messenger; sem previsão para outros países. Destaque na home de tecnologia hoje.",
-      "evidencias": [
-        "https://canaltech.com.br/apps/meta-testa-novo-app-de-mensagens-que-mistura-instagram-e-messenger/"
-      ],
-      "angulo": "Gancho: a Meta vai ter um terceiro app de mensagens. O que o Direct faz (sem conta no Instagram, só contatos iniciam conversa, controle para pais), e a pergunta: precisamos de mais um? Sem previsão para o Brasil.",
-      "formato": "noticia",
-      "verificar_antes": "Só o Canaltech lido. Buscar o anúncio da Meta/Instagram; não afirmar chegada ao Brasil.",
-      "fontes": [
-        {
-          "nome": "Canaltech",
-          "url": "https://canaltech.com.br/apps/meta-testa-novo-app-de-mensagens-que-mistura-instagram-e-messenger/"
-        },
-        {
-          "nome": "Meta/Instagram (a localizar)",
-          "url": "https://about.instagram.com/blog"
-        }
-      ],
-      "nota": 3
-    },
-    {
-      "imagens_oficiais": [],
-      "post_relacionado": "",
-      "status": "em_video",
-      "data": "2026-11-17",
-      "assunto": "Sony fecha a PS Store do PS3 e do Vita: Brasil sem data exata, e o que acontece com os jogos que você comprou",
-      "por_que_em_alta": "Destaque do Canaltech (16/11, Diego Corumba): loja do PS3 fecha até o fim de 2026 e a do Vita em julho de 2027; Brasil sem data exata; México, Nicarágua e Honduras já fecharam; compras antigas seguem baixáveis 'por tempo indeterminado'; Sony diz que não vai recuar (em 2021 recuou). Fora: VGC, Gematsu, Tom's Guide, Digital Trends, GamesRadar cobriram o plano (anúncio de jul/2026). Liga com os 20 anos do PS3 e com o fim da mídia física.",
-      "evidencias": [
-        "https://canaltech.com.br/games/sony-anuncia-o-fechamento-definitivo-da-ps-store-no-ps3-e-ps-vita/",
-        "https://www.gematsu.com/2026/07/playstation-store-for-ps3-ps-vita-to-close-in-july-2027",
-        "https://www.tomsguide.com/news/ps3-vita-and-psp-stores-officially-closing-what-you-need-to-know"
-      ],
-      "angulo": "Gancho: a Sony vai apagar a loja do PS3 e você só tem tempo até o fim do ano para comprar. O que fecha, o que fica (o que já é seu continua baixável), o que o Brasil sabe (sem data oficial) e a lição de jogo digital não ser seu. Publicar junto à semana dos 20 anos do PS3.",
-      "formato": "alerta",
-      "tipo": "short",
-      "quadro": "60s",
-      "origem": "brasil",
-      "verificar_antes": "Datas divergem: Canaltech diz PS3 até fim de 2026 e Vita julho/2027; fontes de fora falam em fechamento global do PS3 e Vita até julho/2027 em etapas. Abrir o PlayStation Blog/página de suporte da Sony e usar só a data confirmada; Brasil: sem data, dizer isso. Nada de dizer que o jogo comprado some.",
-      "fontes": [
-        {
-          "nome": "Canaltech",
-          "url": "https://canaltech.com.br/games/sony-anuncia-o-fechamento-definitivo-da-ps-store-no-ps3-e-ps-vita/"
-        },
-        {
-          "nome": "Gematsu",
-          "url": "https://www.gematsu.com/2026/07/playstation-store-for-ps3-ps-vita-to-close-in-july-2027"
-        },
-        {
-          "nome": "Tom's Guide",
-          "url": "https://www.tomsguide.com/news/ps3-vita-and-psp-stores-officially-closing-what-you-need-to-know"
-        },
-        {
-          "nome": "PlayStation (a conferir)",
-          "url": "https://www.playstation.com/pt-br/support/"
-        }
-      ],
-      "produto": {
-        "id": "",
-        "como_encaixa": "Editorial puro."
-      },
-      "nota": 4
-    },
-    {
-      "imagens_oficiais": [],
-      "post_relacionado": "",
-      "status": "nova",
-      "data": "2026-11-17",
-      "assunto": "75% dos brasileiros veem a tecnologia chinesa de forma positiva (Ipsos), mas a pesquisa foi encomendada pela Jovi",
-      "por_que_em_alta": "Canaltech (16/11): Ipsos, 1.200 adultos (classes A, B, C), 30/09 a 05/10, margem 2,8 pp; 75% positivos contra 69% em 2025; smartphones são o setor mais ligado à China (65%). Ressalva: encomendada por fabricante chinesa. Liga com Xiaomi 18 e a lista de celulares.",
-      "evidencias": [
-        "https://canaltech.com.br/produtos/brasileiros-perderam-o-preconceito-com-tecnologia-chinesa-veja-pesquisa/"
-      ],
-      "angulo": "Gancho: três em cada quatro brasileiros já confiam em tecnologia chinesa, mas quem pagou a pesquisa foi uma marca chinesa. Barras 2025 x 2026, ressalva na tela, comentário Nexus: pesquisa boa é a que diz quem pagou.",
-      "formato": "noticia",
-      "tipo": "short",
-      "quadro": "60s",
-      "origem": "brasil",
-      "verificar_antes": "Só uma fonte (Canaltech). Procurar release da Ipsos/Jovi. Dizer na tela que foi encomendada pela Jovi. Não generalizar para marcas.",
-      "fontes": [
-        {
-          "nome": "Canaltech",
-          "url": "https://canaltech.com.br/produtos/brasileiros-perderam-o-preconceito-com-tecnologia-chinesa-veja-pesquisa/"
-        }
-      ],
-      "produto": {
-        "id": "",
-        "como_encaixa": "Editorial puro."
-      },
-      "nota": 3
     }
   ]
 }

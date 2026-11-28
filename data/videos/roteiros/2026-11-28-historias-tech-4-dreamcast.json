@@ -1,0 +1,141 @@
+{
+  "tipo": "short",
+  "quadro": "historias",
+  "numero": 4,
+  "slug": "2026-11-28-historias-tech-4-dreamcast",
+  "post": "",
+  "titulo": "História do Dreamcast: o console da Sega que durou 3 anos #shorts",
+  "titulos_opcoes": [
+    "História do Dreamcast: o console da Sega que durou 3 anos #shorts",
+    "Dreamcast: o melhor console que a Sega não salvou #shorts",
+    "Como a Sega caiu com o Dreamcast | Histórias Tech #4 #shorts"
+  ],
+  "palavra_chave": "história do dreamcast",
+  "resumo": "A história do Dreamcast, console da Sega lançado no Japão em 27 de novembro de 1998: tinha modem de fábrica e o VMU, mas perdeu para o PlayStation 2 e saiu de linha em 2001, com mais de 5 milhões vendidos. Histórias Tech #4.",
+  "hashtags": [
+    "Dreamcast",
+    "HistóriasTech",
+    "Sega",
+    "Games"
+  ],
+  "selo": "Histórias Tech #4",
+  "fontes": [
+    {
+      "nome": "Canaltech: 20 anos do Dreamcast, o mais influente paradoxo da história dos videogames",
+      "url": "https://canaltech.com.br/games/20-anos-do-dreamcast-o-mais-influente-paradoxo-da-historia-dos-videogames-127787/"
+    },
+    {
+      "nome": "Hardware.com.br: A queda do Dreamcast, o último console da Sega",
+      "url": "https://www.hardware.com.br/artigos/a-queda-do-dreamcast-ultimo-console-sega/"
+    },
+    {
+      "nome": "VGC: Dreamcast at 25, one of gaming's most beautiful failures",
+      "url": "https://videogameschronicle.com/features/dreamcast-at-25-how-segas-final-console-was-one-of-gamings-most-beautiful-failures"
+    },
+    {
+      "nome": "Sega Retro: Dreamcast (não aberta nesta revisão, 403; não usada como fonte)",
+      "url": "https://segaretro.org/Dreamcast"
+    },
+    {
+      "nome": "Wikimedia Commons: Dreamcast-Console-Set.png (Evan-Amos, CC BY-SA 3.0)",
+      "url": "https://commons.wikimedia.org/wiki/File:Dreamcast-Console-Set.png"
+    },
+    {
+      "nome": "Wikimedia Commons: Dreamcast-VMU.jpg (CC BY 2.5)",
+      "url": "https://commons.wikimedia.org/wiki/File:Dreamcast-VMU.jpg"
+    }
+  ],
+  "cenas": [
+    {
+      "tipo": "gancho",
+      "fala": "Era um dos melhores consoles da época. E durou só três anos.",
+      "tela": "Um gênio da época. Só três anos.",
+      "imagens": [
+        "url:https://commons.wikimedia.org/wiki/Special:FilePath/Dreamcast-Console-Set.png?width=1200|Wikimedia Commons/Evan-Amos (CC BY-SA 3.0)"
+      ]
+    },
+    {
+      "tipo": "data",
+      "fala": "Em 27 de novembro de 1998, a Sega lançou o Dreamcast no Japão. Nos Estados Unidos, ele chegou em 9 de setembro de 1999.",
+      "destaque": "27 NOV 1998",
+      "rotulo": "a Sega lança o Dreamcast no Japão",
+      "imagens": [
+        "url:https://commons.wikimedia.org/wiki/Special:FilePath/Sega-Dreamcast-Controller-FL.jpg?width=1200|Wikimedia Commons/Evan-Amos (domínio público)"
+      ],
+      "fonte": "Canaltech, Hardware.com.br e VGC"
+    },
+    {
+      "tipo": "info",
+      "fala": "Ele já vinha com modem de fábrica, numa época em que internet em console era novidade. Dava para navegar e jogar online.",
+      "imagens": [
+        "url:https://commons.wikimedia.org/wiki/Special:FilePath/Dreamcast-Console-Set.png?width=1200|Wikimedia Commons/Evan-Amos (CC BY-SA 3.0)"
+      ],
+      "fonte": "Canaltech e VGC",
+      "icone": "wifi"
+    },
+    {
+      "tipo": "fato",
+      "fala": "E tinha o VMU, um cartão de memória com tela própria, que ainda rodava joguinhos fora do console.",
+      "imagens": [
+        "url:https://commons.wikimedia.org/wiki/Special:FilePath/Dreamcast-VMU.jpg?width=1200|Wikimedia Commons/Dreamcast-VMU (CC BY 2.5)"
+      ],
+      "fonte": "VGC"
+    },
+    {
+      "tipo": "fato",
+      "fala": "Mas a Sega vinha de um tombo. O Saturn, o console anterior, era caro e difícil para os desenvolvedores, e a Sega precisava de um recomeço.",
+      "imagens": [
+        "tela:https://en.wikipedia.org/wiki/Sega_Saturn"
+      ],
+      "fonte": "Hardware.com.br e Canaltech"
+    },
+    {
+      "tipo": "linha",
+      "fala": "Aí veio o PlayStation 2, que ia ofuscar o Dreamcast. Em 31 de janeiro de 2001, a Sega anunciou o fim da produção e deixou de fazer consoles.",
+      "itens": [
+        {
+          "data": "1998",
+          "texto": "Dreamcast no Japão"
+        },
+        {
+          "data": "2000",
+          "texto": "chega o PlayStation 2"
+        },
+        {
+          "data": "31/01/2001",
+          "texto": "fim anunciado"
+        }
+      ],
+      "imagens": [
+        "url:https://commons.wikimedia.org/wiki/Special:FilePath/Dreamcast-VMU.jpg?width=1200|Wikimedia Commons/Dreamcast-VMU (CC BY 2.5)"
+      ],
+      "fonte": "Hardware.com.br e VGC"
+    },
+    {
+      "tipo": "numero",
+      "fala": "No total, vendeu mais de {5 milhões|cinco milhões} de aparelhos.",
+      "destaque": "mais de 5 milhões",
+      "rotulo": "de Dreamcasts vendidos",
+      "imagens": [
+        "url:https://commons.wikimedia.org/wiki/Special:FilePath/Dreamcast-Console-Set.png?width=1200|Wikimedia Commons/Evan-Amos (CC BY-SA 3.0)"
+      ],
+      "fonte": "VGC e Hardware.com.br"
+    },
+    {
+      "tipo": "fato",
+      "fala": "A lição: ser o melhor não basta quando o público já escolheu. Mesmo assim, o Dreamcast abriu o caminho do online nos consoles.",
+      "imagens": [
+        "url:https://commons.wikimedia.org/wiki/Special:FilePath/Dreamcast-VMU.jpg?width=1200|Wikimedia Commons/Dreamcast-VMU (CC BY 2.5)"
+      ],
+      "fonte": "Canaltech e VGC"
+    },
+    {
+      "tipo": "cta",
+      "fala": "Foi injustiça ou o mercado tinha razão? Conta aqui nos comentários.",
+      "tela": "Injustiça ou o mercado tinha razão?",
+      "imagens": [
+        "url:https://commons.wikimedia.org/wiki/Special:FilePath/Dreamcast-Console-Set.png?width=1200|Wikimedia Commons/Evan-Amos (CC BY-SA 3.0)"
+      ]
+    }
+  ]
+}
